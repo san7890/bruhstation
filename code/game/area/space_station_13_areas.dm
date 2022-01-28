@@ -751,6 +751,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Abandoned Gaming Den"
 	icon_state = "abandoned_gaming_den"
 
+/area/service/abandoned_bar
+	name = "\improper Abandoned Bar"
+	icon_state = "abandoned_bar"
+
 /area/service/theater
 	name = "\improper Theater"
 	icon_state = "theatre"
