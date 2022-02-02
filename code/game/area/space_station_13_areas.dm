@@ -696,6 +696,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Public Mining Storage"
 	icon_state = "mining"
 
+/area/commons/storage/abandoned
+	name = "\improper Abandoned Storage"
+	icon_state = "abandoned_storage"
+
 //Service
 
 /area/service
@@ -955,6 +959,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Telecomms Storage"
 	icon_state = "tcom_storage"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
+
+/area/engineering/abandoned
+	name = "Abandoned Engineering"
+	icon_state = "abandoned_engine"
 
 //Engineering - Construction
 
