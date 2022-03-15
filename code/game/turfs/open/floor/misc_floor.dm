@@ -264,3 +264,28 @@
 
 /turf/open/floor/cult/airless
 	initial_gas_mix = AIRLESS_ATMOS
+
+//The following turfs are based off already-existing open turfs to apply a ceiling when we want it. Ceilings are normally not necessary on single-Z-level stations, but should definitely see usage in multi-Z stations.
+/turf/open/floor/pod/ceiling
+	name = "pod ceiling floor"
+	var/old_turf_type
+
+/turf/open/floor/pod/AfterChange(flags, oldType)
+	. = ..()
+	old_turf_type = oldType
+
+/turf/open/floor/pod/light/ceiling
+	name = "light pod ceiling floor"
+	var/old_turf_type
+
+/turf/open/floor/pod/light/ceiling/AfterChange(flags, oldType)
+	. = ..()
+	old_turf_type = oldType
+
+/turf/open/floor/pod/dark/ceiling
+	name = "dark pod ceiling floor"
+	var/old_turf_type
+
+/turf/open/floor/pod/dark/ceiling/AfterChange(flags, oldType)
+	. = ..()
+	old_turf_type = oldType

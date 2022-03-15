@@ -6,6 +6,7 @@
  * Carpet floor
  * Fake pits
  * Fake space
+ * Ceiling tiles
  */
 
 /turf/open/floor/wood
@@ -819,3 +820,21 @@
 	underlay_appearance.icon_state = SPACE_ICON_STATE
 	underlay_appearance.plane = PLANE_SPACE
 	return TRUE
+
+//The following turfs are based off already-existing open turfs to apply a ceiling when we want it. Ceilings are normally not necessary on single-Z-level stations, but should definitely see usage in multi-Z stations.
+
+/turf/open/floor/carpet/ceiling
+	name = "carpet ceiling plating"
+	var/old_turf_type
+
+/turf/open/floor/carpet/ceiling/AfterChange(flags, oldType)
+	. = ..()
+	old_turf_type = oldType
+
+/turf/open/floor/carpet/black/ceiling
+	name = "carpet ceiling plating"
+	var/old_turf_type
+
+/turf/open/floor/carpet/black/ceiling/AfterChange(flags, oldType)
+	. = ..()
+	old_turf_type = oldType
