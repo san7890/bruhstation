@@ -811,8 +811,8 @@
 	name = "northeast of station";
 	width = 23
 	},
-/turf/open/space,
-/area/space/nearstation)
+/turf/open/space/basic,
+/area/space)
 "agS" = (
 /obj/docking_port/stationary{
 	dir = 8;
