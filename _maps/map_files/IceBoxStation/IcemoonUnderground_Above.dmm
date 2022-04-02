@@ -15887,8 +15887,8 @@
 /obj/machinery/camera/directional/north{
 	c_tag = "Security - Detective's Office"
 	},
-/obj/machinery/computer/secure_data,
 /obj/item/radio/intercom/prison/directional/north,
+/obj/machinery/computer/med_data,
 /turf/open/floor/iron/grimy,
 /area/security/detectives_office)
 "Sx" = (
