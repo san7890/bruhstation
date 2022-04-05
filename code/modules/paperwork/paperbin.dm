@@ -180,7 +180,7 @@
 /obj/item/paper_bin/bundlenatural
 	name = "natural paper bundle"
 	desc = "A bundle of paper created using traditional methods."
-	icon_state = null
+	icon_state = "naturalpaperbundle" //used for mapping, the actual icon gets generated on init
 	papertype = /obj/item/paper/natural
 	resistance_flags = FLAMMABLE
 	bin_overlay_string = "paper_bundle_overlay"
@@ -188,6 +188,7 @@
 	var/obj/item/stack/cable_coil/binding_cable
 
 /obj/item/paper_bin/bundlenatural/Initialize(mapload)
+	icon_state = null
 	binding_cable = new /obj/item/stack/cable_coil(src, 2)
 	binding_cable.color = COLOR_ORANGE_BROWN
 	binding_cable.cable_color = "brown"

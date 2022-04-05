@@ -33782,21 +33782,18 @@
 	pixel_y = 5
 	},
 /obj/item/paper_bin/bundlenatural{
-	pixel_x = -7;
+	pixel_x = -2;
 	pixel_y = 5
 	},
+/obj/item/paper_bin/bundlenatural{
+	pixel_x = -2;
+	pixel_y = 9
+	},
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted,
 /obj/item/paper_bin/bundlenatural{
 	pixel_x = -19;
 	pixel_y = 9
 	},
-/obj/item/paperplane{
-	pixel_x = 9
-	},
-/obj/item/paperplane{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/obj/effect/turf_decal/tile/brown/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/cargo/sorting)
 "lgQ" = (
@@ -67026,6 +67023,13 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
+	},
+/obj/item/paperplane{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/paperplane{
+	pixel_x = 9
 	},
 /turf/open/floor/iron,
 /area/cargo/sorting)
