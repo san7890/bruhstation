@@ -7,14 +7,14 @@
 /obj/structure/closet,
 /obj/effect/spawner/random/maintenance/four,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "n" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sink{
 	pixel_y = 15
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "p" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -26,7 +26,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "s" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -39,13 +39,13 @@
 	pixel_y = 10
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "u" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/mop,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "x" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -58,15 +58,15 @@
 	dir = 4
 	},
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "D" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "G" = (
 /turf/closed/wall,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "J" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -80,7 +80,7 @@
 	pixel_y = -4
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "N" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -90,16 +90,16 @@
 	pixel_y = 6
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "R" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "S" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/duct,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "Y" = (
 /obj/machinery/duct,
 /turf/template_noop,

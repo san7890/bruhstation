@@ -17,10 +17,21 @@
 	end_message = "<span class='notice'>The air seems to be cooling off again.</span>"
 
 	area_type = /area
-	protected_areas = list(/area/station/maintenance, /area/station/ai_monitored/turret_protected/ai_upload, /area/station/ai_monitored/turret_protected/ai_upload_foyer,
-							/area/station/ai_monitored/turret_protected/aisat/maint, /area/station/ai_monitored/command/storage/satellite,
-							/area/station/ai_monitored/turret_protected/ai, /area/station/commons/storage/emergency/starboard, /area/station/commons/storage/emergency/port,
-							/area/shuttle, /area/station/security/prison/safe, /area/station/security/prison/toilet, /area/icemoon/underground)
+	protected_areas = list(
+						/area/icemoon/underground,
+						/area/shuttle,
+						/area/station/ai_monitored/command/storage/satellite,
+						/area/station/ai_monitored/turret_protected/ai_upload_foyer,
+						/area/station/ai_monitored/turret_protected/ai_upload,
+						/area/station/ai_monitored/turret_protected/ai,
+						/area/station/ai_monitored/turret_protected/aisat/maint,
+						/area/station/commons/storage/emergency/port,
+						/area/station/commons/storage/emergency/starboard,
+						/area/station/maintenance,
+						/area/station/medical/abandoned,
+						/area/station/security/prison/safe,
+						/area/station/security/prison/toilet,
+						)
 	target_trait = ZTRAIT_STATION
 
 	immunity_type = TRAIT_RADSTORM_IMMUNE

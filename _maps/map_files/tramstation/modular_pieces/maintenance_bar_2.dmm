@@ -7,21 +7,21 @@
 /turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "g" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_corner{
 	dir = 8
 	},
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "i" = (
 /turf/closed/wall,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "j" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/tile/iron/smooth,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "s" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
@@ -31,22 +31,22 @@
 /obj/effect/spawner/random/engineering/material_cheap,
 /obj/effect/spawner/random/engineering/material_cheap,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "u" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth_large,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "v" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth_large,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "w" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/chair/greyscale,
 /turf/open/floor/iron/smooth_corner,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "x" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -55,22 +55,22 @@
 /obj/effect/spawner/random/engineering/tool,
 /obj/effect/spawner/random/engineering/tool,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "y" = (
 /obj/structure/falsewall,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "z" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/tile/iron/smooth,
 /turf/open/floor/iron/smooth_edge,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "A" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/giant_spider/hunter/scrawny,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "C" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
@@ -80,21 +80,21 @@
 /obj/effect/spawner/random/engineering/material,
 /obj/effect/spawner/random/maintenance/three,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "G" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "I" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "J" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth_large,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "L" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
@@ -102,7 +102,7 @@
 /turf/open/floor/iron/smooth_corner{
 	dir = 1
 	},
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "M" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/maintenance_hatch{
@@ -114,35 +114,35 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/any/service/maintenance,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "O" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth_edge,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "Q" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "R" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/smooth_corner{
 	dir = 4
 	},
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "T" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/chair/greyscale,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "X" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/spider/stickyweb,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "Y" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/dead{
@@ -151,14 +151,14 @@
 	},
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 "Z" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/tile/iron/smooth,
 /obj/structure/spider/stickyweb,
 /obj/machinery/light/small/broken/directional/north,
 /turf/open/floor/plating,
-/area/station/maintenance/central/greater)
+/area/station/maintenance/department/crew_quarters/bar)
 
 (1,1,1) = {"
 a
