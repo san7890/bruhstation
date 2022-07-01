@@ -3922,10 +3922,6 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/station/medical/medbay/central)
-"bjz" = (
-/obj/structure/flora/grass/jungle/a/style_random,
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
 "bjB" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -5546,11 +5542,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/exit/departure_lounge)
-"bHP" = (
-/obj/structure/flora/grass/jungle/a/style_random,
-/obj/structure/chair,
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
 "bHR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/chair/office,
@@ -5786,7 +5777,7 @@
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "bNc" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -5928,7 +5919,7 @@
 	name = "Unit 2 Privacy Shutter"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/station/commons/toilet/restrooms)
 "bPZ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
@@ -15201,6 +15192,9 @@
 /obj/structure/sign/warning/vacuum/external,
 /turf/closed/wall,
 /area/station/maintenance/starboard)
+"exl" = (
+/turf/closed/wall/rust,
+/area/station/commons/fitness/recreation)
 "exz" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/table,
@@ -20108,12 +20102,6 @@
 	},
 /turf/open/floor/engine,
 /area/station/engineering/supermatter)
-"fKJ" = (
-/obj/structure/flora/bush/sparsegrass/style_random,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/ferny/style_random,
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
 "fKS" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/green,
@@ -20283,10 +20271,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/central)
-"fNy" = (
-/obj/structure/flora/grass/jungle/b/style_random,
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
 "fNz" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner,
 /turf/open/floor/iron/dark,
@@ -22277,16 +22261,6 @@
 	},
 /turf/open/floor/engine/n2o,
 /area/station/engineering/atmos)
-"gph" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/obj{
-	name = "---Merge conflict marker---"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/plating,
-/area/station/maintenance/port/greater)
 "gpy" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -22713,9 +22687,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/security/brig,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
-"guJ" = (
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
 "guK" = (
 /obj/machinery/bookbinder,
 /obj/effect/turf_decal/tile/neutral{
@@ -27027,14 +26998,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/lawoffice)
-"hEE" = (
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/sparsegrass/style_random,
-/obj/structure/flora/bush/flowers_yw/style_random,
-/obj/structure/flora/bush/grassy/style_random,
-/obj/structure/flora/bush/pale/style_random,
-/turf/open/misc/asteroid,
-/area/station/maintenance/aft)
 "hEH" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -30131,7 +30094,7 @@
 	name = "Cabin 4 Privacy Shutter"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/station/commons/locker)
 "iuE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -33168,11 +33131,10 @@
 "jiX" = (
 /obj/structure/sign/departments/security/directional/south,
 /obj/structure/flora/grass/jungle/b/style_random,
-/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "jjf" = (
 /obj/structure/chair/office/light,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -35496,7 +35458,7 @@
 	name = "Cabin 3 Privacy Shutter"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/station/commons/locker)
 "jWL" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -35707,11 +35669,10 @@
 "kaw" = (
 /obj/structure/sign/departments/security/directional/south,
 /obj/structure/flora/bush/pale/style_random,
-/obj/machinery/light/directional/south,
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "kax" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -41043,7 +41004,7 @@
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "lCV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
@@ -49629,14 +49590,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel)
-"oce" = (
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/sparsegrass/style_random,
-/obj/structure/flora/bush/flowers_yw/style_random,
-/obj/structure/flora/bush/grassy/style_random,
-/obj/structure/flora/bush/pale/style_random,
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
 "ocg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -49816,11 +49769,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
-"ofz" = (
-/obj/structure/flora/rock/pile/style_random,
-/turf/open/misc/asteroid,
-/area/station/maintenance/port/lesser)
+/area/station/security/brig)
 "ofA" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -54504,11 +54453,10 @@
 "puC" = (
 /obj/structure/sign/warning/electric_shock/directional/south,
 /obj/structure/flora/bush/pale/style_random,
-/obj/machinery/light/small/directional/south,
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "puE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -58768,7 +58716,7 @@
 	name = "Unit 1 Privacy Shutter"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/station/commons/toilet/restrooms)
 "qIv" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/caution/stand_clear,
@@ -69512,12 +69460,10 @@
 /area/station/maintenance/port/lesser)
 "tIP" = (
 /obj/structure/sign/warning/electric_shock/directional/south,
-/obj/structure/flora/grass/jungle/a/style_random,
-/obj/machinery/light/small/directional/south,
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "tJa" = (
 /obj/machinery/camera/directional/west{
 	c_tag = "Atmospherics Tank - N2O";
@@ -70616,10 +70562,6 @@
 "tZP" = (
 /obj/structure/sign/warning/docking,
 /turf/closed/wall/rust,
-/area/station/maintenance/port/lesser)
-"tZX" = (
-/obj/structure/flora/bush/pale/style_random,
-/turf/open/misc/asteroid,
 /area/station/maintenance/port/lesser)
 "uaf" = (
 /obj/machinery/door/firedoor,
@@ -72783,7 +72725,7 @@
 	name = "Unit 3 Privacy Shutter"
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/station/commons/toilet/restrooms)
 "uHL" = (
 /obj/machinery/airalarm/directional/south,
 /obj/machinery/camera/autoname/directional/south,
@@ -80927,12 +80869,6 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
-"wQK" = (
-/obj/structure/flora/bush/sparsegrass/style_random,
-/obj/structure/flora/bush/lavendergrass/style_random,
-/obj/structure/flora/bush/ferny/style_random,
-/turf/open/misc/asteroid,
-/area/station/hallway/primary/central)
 "wQN" = (
 /obj/structure/cable,
 /obj/structure/barricade/wooden/crude,
@@ -84653,10 +84589,6 @@
 "xVh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/obj{
-	name = "---Merge conflict marker---"
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
@@ -85441,7 +85373,7 @@
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/station/maintenance/port/lesser)
+/area/space/nearstation)
 "yfq" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/transit_tube/horizontal{
@@ -99186,7 +99118,7 @@ vBi
 aiI
 vef
 tkl
-gph
+hjc
 xVh
 vjh
 iMw
@@ -104336,11 +104268,11 @@ hQg
 xFM
 dny
 joS
-pqD
-fNy
+xDc
+adf
 bMY
 lCo
-pqD
+cXh
 cXh
 cXh
 cXh
@@ -104593,9 +104525,9 @@ ilJ
 oYc
 fkL
 xDc
-iza
-fKJ
-guJ
+exl
+add
+aDQ
 yfc
 ofx
 iNZ
@@ -104851,8 +104783,8 @@ kzP
 njf
 aCp
 uHG
-bjz
-oce
+aaO
+acW
 yfc
 ofx
 rtD
@@ -105107,11 +105039,11 @@ sDD
 hOH
 uNO
 osy
-pqD
-ofz
-fNy
+uNO
+bKl
+adf
 kaw
-pqD
+cXh
 cXh
 skC
 cXh
@@ -105365,8 +105297,8 @@ xsX
 qSN
 iiQ
 bPY
-tZX
-bjz
+abJ
+aaO
 yfc
 ofx
 wpg
@@ -105621,9 +105553,9 @@ sDD
 awW
 uNO
 uNO
-pqD
-oce
-guJ
+uNO
+acW
+aDQ
 yfc
 ofx
 rtD
@@ -105879,10 +105811,10 @@ jXd
 lrP
 eRy
 qId
-fNy
-ofz
+adf
+bKl
 tIP
-iza
+skC
 cXh
 cXh
 cXh
@@ -106135,9 +106067,9 @@ mqU
 qEJ
 rhN
 esq
-pqD
-pqD
-fKJ
+rhN
+rhN
+add
 yfc
 ofx
 hph
@@ -106394,7 +106326,7 @@ rhN
 jPq
 eUl
 iuC
-bjz
+aaO
 yfc
 ofx
 hSa
@@ -106651,9 +106583,9 @@ tSI
 ezN
 xds
 iuC
-fKJ
+add
 jiX
-pqD
+cXh
 cXh
 cXh
 cXh
@@ -106907,8 +106839,8 @@ uAF
 rhN
 rhN
 rhN
-iza
-guJ
+esq
+aDQ
 yfc
 ofx
 dnL
@@ -107165,7 +107097,7 @@ rhN
 hfF
 bwb
 jWD
-bHP
+aaO
 yfc
 ofx
 hSa
@@ -107422,9 +107354,9 @@ gdL
 ezN
 hri
 jWD
-oce
+acW
 puC
-pqD
+cXh
 skC
 cXh
 cXh
@@ -107678,8 +107610,8 @@ rhN
 esq
 rhN
 cee
-pqD
-fNy
+rhN
+adf
 yfc
 ofx
 iXM
@@ -107935,8 +107867,8 @@ vgm
 dZk
 quy
 lJA
-iza
-ofz
+esq
+bKl
 yfc
 ofx
 rtD
@@ -115911,11 +115843,11 @@ xEV
 fqp
 xRB
 lcw
-wQK
+add
 uvi
 rDl
 uvi
-hEE
+acW
 jQT
 hPZ
 lDB
