@@ -1,19 +1,19 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
+"aa" = (
 /turf/template_noop,
 /area/template_noop)
-"b" = (
+"ab" = (
 /turf/closed/wall,
-/area/station/maintenance/department/medical/morgue)
-"c" = (
+/area/station/maintenance/department/medical)
+"ac" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/floor/catwalk_floor,
-/area/station/maintenance/department/medical/morgue)
-"d" = (
+/area/station/maintenance/department/medical)
+"ad" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/sign/warning/secure_area{
 	desc = "A warning sign which reads 'CAVE IN HAZARD: WEAR PROTECTIVE HEAD GEAR'.";
@@ -21,102 +21,38 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plating,
-/area/station/maintenance/department/medical/morgue)
-"e" = (
+/area/station/maintenance/department/medical)
+"ae" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/structure/barricade/wooden,
 /turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"af" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
-"h" = (
+"ag" = (
+/obj/structure/barricade/wooden,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"ah" = (
 /turf/closed/wall/rock/porous,
-/area/station/maintenance/department/medical/morgue)
-"i" = (
+/area/station/maintenance/department/medical)
+"ai" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
-/area/station/maintenance/department/medical/morgue)
-"j" = (
+/area/station/maintenance/department/medical)
+"aj" = (
 /turf/closed/wall/rust,
-/area/station/maintenance/department/medical/morgue)
-"o" = (
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/morgue)
-"p" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/item/shovel,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"u" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/morgue)
-"w" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
+/area/station/maintenance/department/medical)
+"ak" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
-"x" = (
-/obj/item/clothing/head/hardhat,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"y" = (
-/obj/modular_map_root/tramstation{
-	key = "maintenance_science_west_attachment"
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/morgue)
-"z" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/sign/warning/secure_area{
-	desc = "A warning sign which reads 'CAVE IN HAZARD: WEAR PROTECTIVE HEAD GEAR'.";
-	name = "\improper CAVE IN HAZARD sign";
-	pixel_y = -32
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/morgue)
-"A" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/catwalk_floor,
-/area/station/maintenance/department/medical/morgue)
-"B" = (
-/obj/effect/spawner/random/engineering/tool,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"D" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/random/engineering/material_cheap,
-/obj/effect/spawner/random/engineering/material_cheap,
-/obj/effect/spawner/random/engineering/material_cheap,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"F" = (
-/obj/structure/barricade/wooden,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"H" = (
-/obj/structure/ore_box,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"I" = (
-/obj/item/stack/ore/glass,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"M" = (
-/obj/item/storage/toolbox/mechanical,
-/turf/open/misc/asteroid,
-/area/station/maintenance/department/medical/morgue)
-"N" = (
+"al" = (
 /obj/item/clothing/head/cone{
 	pixel_x = 11;
 	pixel_y = -10
@@ -127,30 +63,123 @@
 	},
 /turf/open/misc/asteroid,
 /area/station/maintenance/department/medical/morgue)
-"O" = (
-/obj/effect/spawner/random/structure/girder,
+"am" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"an" = (
+/obj/item/stack/ore/glass,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"ao" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"ap" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/shovel,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/station/maintenance/department/medical/morgue)
+"ar" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"as" = (
+/turf/closed/wall/rust,
+/area/station/maintenance/department/medical/morgue)
+"at" = (
 /obj/effect/turf_decal/sand/plating,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
-"P" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/station/maintenance/department/medical/morgue)
-"V" = (
+"au" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/modular_map_connector,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/catwalk_floor,
-/area/station/maintenance/department/medical/morgue)
-"W" = (
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"av" = (
+/obj/effect/spawner/random/engineering/tool,
 /turf/open/misc/asteroid,
 /area/station/maintenance/department/medical/morgue)
-"X" = (
+"aw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"ax" = (
+/obj/item/clothing/head/hardhat,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"ay" = (
+/obj/modular_map_root/tramstation{
+	key = "maintenance_science_west_attachment"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"az" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/sign/warning/secure_area{
+	desc = "A warning sign which reads 'CAVE IN HAZARD: WEAR PROTECTIVE HEAD GEAR'.";
+	name = "\improper CAVE IN HAZARD sign";
+	pixel_y = -32
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"aA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical)
+"aB" = (
+/obj/effect/spawner/random/engineering/tool,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aC" = (
 /turf/closed/mineral/random/stationside/asteroid/porus,
 /area/station/maintenance/department/medical/morgue)
-"Y" = (
+"aD" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/engineering/material_cheap,
+/obj/effect/spawner/random/engineering/material_cheap,
+/obj/effect/spawner/random/engineering/material_cheap,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aE" = (
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/item/shovel,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"aF" = (
+/obj/structure/barricade/wooden,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aG" = (
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"aH" = (
+/obj/structure/ore_box,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aI" = (
+/obj/item/stack/ore/glass,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aJ" = (
+/turf/closed/wall/rock/porous,
+/area/station/maintenance/department/medical/morgue)
+"aK" = (
 /obj/effect/turf_decal/sand/plating,
 /obj/item/clothing/head/cone{
 	pixel_x = -9;
@@ -162,308 +191,437 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
+"aL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/sign/warning/secure_area/directional/south{
+	desc = "A warning sign which reads 'CAVE IN HAZARD: WEAR PROTECTIVE HEAD GEAR'.";
+	name = "\improper CAVE IN HAZARD sign"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"aM" = (
+/obj/item/storage/toolbox/mechanical,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aN" = (
+/obj/item/clothing/head/cone{
+	pixel_x = 11;
+	pixel_y = -10
+	},
+/obj/item/clothing/head/cone{
+	pixel_x = -9;
+	pixel_y = -10
+	},
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aO" = (
+/obj/effect/spawner/random/structure/girder,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"aP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"aQ" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/engineering/material_cheap,
+/obj/effect/spawner/random/engineering/material_cheap,
+/obj/effect/spawner/random/engineering/material_cheap,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"aR" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/sign/warning/secure_area/directional/west{
+	desc = "A warning sign which reads 'CAVE IN HAZARD: WEAR PROTECTIVE HEAD GEAR'.";
+	name = "\improper CAVE IN HAZARD sign"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"aS" = (
+/obj/item/clothing/head/hardhat,
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical/morgue)
+"aT" = (
+/turf/closed/wall,
+/area/station/maintenance/department/medical/morgue)
+"aU" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/structure/barricade/wooden,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"aV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/modular_map_connector,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical)
+"aW" = (
+/turf/open/misc/asteroid,
+/area/station/maintenance/department/medical)
+"aX" = (
+/turf/closed/mineral/random/stationside/asteroid/porus,
+/area/station/maintenance/department/medical)
+"aY" = (
+/obj/effect/turf_decal/sand/plating,
+/obj/item/clothing/head/cone{
+	pixel_x = -9;
+	pixel_y = -10
+	},
+/obj/item/clothing/head/cone{
+	pixel_x = -9;
+	pixel_y = 8
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical)
+"aZ" = (
+/obj/effect/spawner/random/structure/girder,
+/obj/effect/turf_decal/sand/plating,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"by" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical/morgue)
+"ii" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/modular_map_connector,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical/morgue)
+"By" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
+"Ew" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/food_packaging,
+/turf/open/floor/catwalk_floor,
+/area/station/maintenance/department/medical/morgue)
+"FK" = (
+/obj/modular_map_root/tramstation{
+	key = "maintenance_science_west_attachment"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/medical/morgue)
 
 (1,1,1) = {"
-a
-y
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+aa
+FK
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 "}
 (2,1,1) = {"
-A
-A
-A
-c
-A
-w
-u
-u
-b
-a
-a
-a
-a
-a
+by
+by
+by
+Ew
+by
+By
+af
+af
+aT
+aa
+aa
+aa
+aa
+aa
 "}
 (3,1,1) = {"
-V
-b
-j
-b
-h
-h
-j
-z
-b
-a
-a
-a
-a
-a
+ii
+aT
+as
+aT
+aJ
+aJ
+as
+aL
+aT
+aa
+aa
+aa
+aa
+aa
 "}
 (4,1,1) = {"
-a
-a
-a
-a
-a
-a
-O
-u
-o
-W
-W
-X
-X
-X
+aa
+aa
+aa
+aa
+aa
+aa
+aZ
+af
+at
+aG
+aG
+aC
+aC
+aC
 "}
 (5,1,1) = {"
-a
-a
-a
-a
-a
-a
-h
-u
-W
-x
-N
-F
-W
-h
+aa
+aa
+aa
+aa
+aa
+aa
+aJ
+af
+aG
+aS
+al
+ag
+aG
+aJ
 "}
 (6,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-I
-X
-W
-h
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+an
+aC
+aG
+aJ
 "}
 (7,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-X
-W
-X
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aG
+aC
 "}
 (8,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-X
-W
-X
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aG
+aC
 "}
 (9,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-X
-X
-o
-W
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aC
+at
+aG
 "}
 (10,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-X
-D
-I
-W
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+aQ
+an
+aG
 "}
 (11,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-X
-H
-W
-B
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+am
+aG
+av
 "}
 (12,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-X
-M
-o
-W
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aC
+ar
+at
+aG
 "}
 (13,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-h
-p
-o
-I
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aJ
+aE
+at
+an
 "}
 (14,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-h
-h
-W
-X
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aJ
+aJ
+aG
+aC
 "}
 (15,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-o
-W
-X
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+at
+aG
+aC
 "}
 (16,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-O
-o
-h
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aZ
+at
+aJ
 "}
 (17,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-b
-b
-b
-e
-b
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aT
+aT
+aT
+aU
+aT
 "}
 (18,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-i
-P
-d
-Y
-b
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aq
+ak
+aR
+aK
+aT
 "}
 (19,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 "}
