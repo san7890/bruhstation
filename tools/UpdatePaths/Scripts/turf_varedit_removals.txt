@@ -1,4 +1,4 @@
-#comment Old coders would varedit turfs to get intended behavior. This is shit because it severely handicaps code since we can't account for these.
+#comment Old mappers would varedit turfs to get intended behavior. This is shit because it severely handicaps code since we can't account for these.
 #comment These are also really silly as varedits, because new mappers might use them unknowingly with pre-fabrications, as well as just not know that they need to use the var-edited version.
 #comment This should make it drastically easier to "know" when to use such a turf as well.
 
@@ -9,6 +9,8 @@
 /turf/open/misc/dirt/dark{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/misc/dirt/dark/icemoon{@OLD;initial_gas_mix=@SKIP}
 
 /turf/open/floor/catwalk_floor/iron_smooth{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/catwalk_floor/iron_smooth/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/misc/asteroid{initial_gas_mix="LAVALAND_ATMOS"} : /turf/open/misc/asteroid/lavaland{@OLD;initial_gas_mix=@SKIP}
 
 /turf/open/misc/asteroid/basalt/wasteland{initial_gas_mix="TEMP=2.7"} : /turf/open/misc/asteroid/basalt/wasteland/airless{@OLD;initial_gas_mix=@SKIP}
 
@@ -24,11 +26,27 @@
 
 /turf/open/floor/plating/foam{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/plating/foam/airless{@OLD;initial_gas_mix=@SKIP}
 
+/turf/open/floor/iron/smooth{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/smooth/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/iron/smooth_edge{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/smooth_edge/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/iron/smooth_large{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/smooth_large/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/iron/smooth_half{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/smooth_half/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/iron/smooth_corner{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/smooth_corner/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/iron/showroomfloor{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/showroomfloor/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/iron/grimy{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/grimy/icemoon{@OLD;initial_gas_mix=@SKIP}
+
 /turf/open/floor/iron/recharge_floor/asteroid{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/iron/recharge_floor/asteroid/airless{@OLD;initial_gas_mix=@SKIP}
 /turf/open/floor/iron/recharge_floor/asteroid{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/recharge_floor/asteroid/icemoon{@OLD;initial_gas_mix=@SKIP}
 
 /turf/open/floor/bronze{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/bronze/airless{@OLD;initial_gas_mix=@SKIP}
 
-/turf/open/floor/wood/large{initial_gas_mix = "ICEMOON_ATMOS"} : /turf/open/floor/wood/large/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/wood{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/wood/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/wood{initial_gas_mix="LAVALAND_ATMOS"} : /turf/open/floor/wood/lavaland{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/wood/large{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/wood/large/icemoon{@OLD;initial_gas_mix=@SKIP}
 
-/turf/open/floor/stone{initial_gas_mix = "ICEMOON_ATMOS"} : /turf/open/floor/stone/airless{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/stone{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/stone/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/carpet/black{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/carpet/black/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/indestructible/necropolis{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/indestructible/necropolis/icemoon{@OLD;initial_gas_mix=@SKIP}

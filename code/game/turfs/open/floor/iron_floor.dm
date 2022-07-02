@@ -307,25 +307,40 @@
 	base_icon_state = "smooth"
 	floor_tile = /obj/item/stack/tile/iron/smooth
 
+/turf/open/floor/iron/smooth/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/iron/smooth_edge
 	icon_state = "smooth_edge"
 	base_icon_state = "smooth_edge"
 	floor_tile = /obj/item/stack/tile/iron/smooth_edge
+
+/turf/open/floor/iron/smooth_edge/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/open/floor/iron/smooth_half
 	icon_state = "smooth_half"
 	base_icon_state = "smooth_half"
 	floor_tile = /obj/item/stack/tile/iron/smooth_half
 
+/turf/open/floor/iron/smooth_half/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/iron/smooth_corner
 	icon_state = "smooth_corner"
 	base_icon_state = "smooth_corner"
 	floor_tile = /obj/item/stack/tile/iron/smooth_corner
 
+/turf/open/floor/iron/smooth_corner/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/iron/smooth_large
 	icon_state = "smooth_large"
 	base_icon_state = "smooth_large"
 	floor_tile = /obj/item/stack/tile/iron/smooth_large
+
+/turf/open/floor/iron/smooth_large/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/open/floor/iron/terracotta
 	icon_state = "terracotta"
@@ -380,6 +395,9 @@
 /turf/open/floor/iron/showroomfloor/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
+/turf/open/floor/iron/showroomfloor/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/iron/solarpanel
 	icon_state = "solarpanel"
 	base_icon_state = "solarpanel"
@@ -414,6 +432,9 @@
 	base_icon_state = "grimy"
 	tiled_dirt = FALSE
 	floor_tile = /obj/item/stack/tile/iron/grimy
+
+/turf/open/floor/iron/grimy/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/open/floor/iron/vaporwave
 	icon_state = "pinkblack"
