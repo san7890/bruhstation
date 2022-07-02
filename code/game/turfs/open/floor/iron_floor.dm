@@ -296,6 +296,9 @@
 	icon_state = "recharge_floor_asteroid"
 	base_icon_state = "recharge_floor_asteroid"
 
+/turf/open/floor/iron/recharge_floor/asteroid/airless
+	initial_gas_mix = AIRLESS_ATMOS
+
 /turf/open/floor/iron/smooth
 	icon_state = "smooth"
 	base_icon_state = "smooth"
@@ -442,6 +445,9 @@
 /turf/open/floor/iron/stairs/old
 	icon_state = "stairs-old"
 	base_icon_state = "stairs-old"
+
+/turf/open/floor/iron/stairs/old/airless
+	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/floor/iron/bluespace
 	icon_state = "bluespace"

@@ -13,3 +13,14 @@
 
 /turf/open/misc/ashplanet/wateryrock{initial_gas_mix="o2=22;n2=82;TEMP=293.15"}: /turf/open/misc/ashplanet/wateryrock/standard_air{@OLD;initial_gas_mix=@SKIP}
 /turf/open/misc/ashplanet/wateryrock{initial_gas_mix="o2=22;n2=82;TEMP=293.15";planetary_atmos=0}: /turf/open/misc/ashplanet/wateryrock/standard_air/nonplanetary{@OLD;initial_gas_mix=@SKIP;planetary_atmos=@SKIP}
+
+/turf/open/floor/iron/stairs/old{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/iron/stairs/old/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/misc/ironsand{initial_gas_mix="TEMP=2.7"} : /turf/open/misc/ironsand/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/water/jungle : /turf/open/water/standard_air{@OLD}
+/turf/open/water{initial_gas_mix="o2=22;n2=82;TEMP=293.15"} : /turf/open/water/standard_air{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/plating/foam{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/plating/foam/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/iron/recharge_floor/asteroid{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/iron/recharge_floor/asteroid/airless{@OLD;initial_gas_mix=@SKIP}

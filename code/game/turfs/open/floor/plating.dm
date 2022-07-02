@@ -150,3 +150,6 @@
 
 /turf/open/floor/plating/foam/tool_act(mob/living/user, obj/item/I, tool_type)
 	return
+
+/turf/open/floor/plating/foam/airless
+	initial_gas_mix = AIRLESS_ATMOS

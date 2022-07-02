@@ -16,7 +16,7 @@
 	clawfootstep = FOOTSTEP_WATER
 	heavyfootstep = FOOTSTEP_WATER
 
-/turf/open/water/jungle
+/turf/open/water/standard_air
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 
 //This version of the beach turf uses low pressure, inherieted from above

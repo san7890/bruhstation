@@ -80,3 +80,6 @@
 /turf/open/misc/ironsand/Initialize(mapload)
 	. = ..()
 	icon_state = "ironsand[rand(1,15)]"
+
+/turf/open/misc/ironsand/airless
+	initial_gas_mix = AIRLESS_ATMOS
