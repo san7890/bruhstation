@@ -1,0 +1,15 @@
+#comment Old coders would varedit turfs to get intended behavior. This is shit because it severely handicaps code since we can't account for these.
+#comment These are also really silly as varedits, because new mappers might use them unknowingly with pre-fabrications, as well as just not know that they need to use the var-edited version.
+#comment This should make it drastically easier to "know" when to use such a turf as well.
+
+#comment /turf/open/floor/iron{heat_capacity=1e+006} : /turf/open/floor/iron/no_melt
+
+/turf/open/misc/dirt{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/misc/dirt/icemoon{@OLD;initial_gas_mix=@SKIP}
+/turf/open/misc/dirt/dark{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/misc/dirt/dark/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/catwalk_floor/iron_smooth{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/catwalk_floor/iron_smooth/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/misc/asteroid/basalt/wasteland{initial_gas_mix="TEMP=2.7"} : /turf/open/misc/asteroid/basalt/wasteland/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/misc/ashplanet/wateryrock{initial_gas_mix="o2=22;n2=82;TEMP=293.15"}: /turf/open/misc/ashplanet/wateryrock/standard_air{@OLD;initial_gas_mix=@SKIP}
+/turf/open/misc/ashplanet/wateryrock{initial_gas_mix="o2=22;n2=82;TEMP=293.15";planetary_atmos=0}: /turf/open/misc/ashplanet/wateryrock/standard_air/nonplanetary{@OLD;initial_gas_mix=@SKIP;planetary_atmos=@SKIP}

@@ -25,7 +25,6 @@
 	icon_state = base_icon_state
 	return ..()
 
-
 /turf/open/floor/iron/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
@@ -34,6 +33,9 @@
 
 /turf/open/floor/iron/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
+/turf/open/floor/iron/heatresistant
+	heat_capacity = INFINITY
 
 /turf/open/floor/iron/edge
 	icon_state = "floor_edge"

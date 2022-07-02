@@ -49,6 +49,9 @@
 	if(prob(floor_variance))
 		icon_state = "[base_icon_state][rand(0,6)]"
 
+/turf/open/misc/asteroid/basalt/wasteland/airless
+	initial_gas_mix = AIRLESS_ATMOS
+
 /turf/closed/mineral/strong/wasteland
 	name = "ancient dry rock"
 	color = "#B5651D"

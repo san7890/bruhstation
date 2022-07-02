@@ -18,6 +18,9 @@
 	icon_state = "greenerdirt"
 	base_icon_state = "greenerdirt"
 
+/turf/open/misc/dirt/dark/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/misc/dirt/jungle
 	slowdown = 0.5
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
@@ -60,3 +63,6 @@
 		/obj/item/stack/ore/silver = 12, /obj/item/stack/ore/plasma = 20, /obj/item/stack/ore/iron = 40, /obj/item/stack/ore/titanium = 11,
 		/obj/item/stack/ore/bluespace_crystal = 1)
 	baseturfs = /turf/open/misc/dirt/dark
+
+/turf/open/misc/dirt/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
