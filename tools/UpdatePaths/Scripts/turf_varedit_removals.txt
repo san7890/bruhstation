@@ -2,7 +2,8 @@
 #comment These are also really silly as varedits, because new mappers might use them unknowingly with pre-fabrications, as well as just not know that they need to use the var-edited version.
 #comment This should make it drastically easier to "know" when to use such a turf as well.
 
-#comment /turf/open/floor/iron{heat_capacity=1e+006} : /turf/open/floor/iron/no_melt
+#comment Suffer not this to live, it is completely useless in ever current instance.
+/turf/open/floor/iron/@SUBTYPES{heat_capacity=1e+006} : /turf/open/floor/iron/@SUBTYPES{@OLD;heat_capacity=@SKIP}
 
 /turf/open/misc/dirt{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/misc/dirt/icemoon{@OLD;initial_gas_mix=@SKIP}
 /turf/open/misc/dirt/dark{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/misc/dirt/dark/icemoon{@OLD;initial_gas_mix=@SKIP}
