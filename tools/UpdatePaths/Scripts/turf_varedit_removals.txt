@@ -24,3 +24,10 @@
 /turf/open/floor/plating/foam{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/plating/foam/airless{@OLD;initial_gas_mix=@SKIP}
 
 /turf/open/floor/iron/recharge_floor/asteroid{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/iron/recharge_floor/asteroid/airless{@OLD;initial_gas_mix=@SKIP}
+/turf/open/floor/iron/recharge_floor/asteroid{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/iron/recharge_floor/asteroid/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/bronze{initial_gas_mix="TEMP=2.7"} : /turf/open/floor/bronze/airless{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/wood/large{initial_gas_mix = "ICEMOON_ATMOS"} : /turf/open/floor/wood/large/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+/turf/open/floor/stone{initial_gas_mix = "ICEMOON_ATMOS"} : /turf/open/floor/stone/airless{@OLD;initial_gas_mix=@SKIP}

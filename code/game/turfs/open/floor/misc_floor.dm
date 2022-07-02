@@ -144,6 +144,9 @@
 	icon_state = "clockwork_floor"
 	floor_tile = /obj/item/stack/tile/bronze
 
+/turf/open/floor/bronze/airless
+	initial_gas_mix = AIRLESS_ATMOS
+
 /turf/open/floor/bronze/flat
 	icon_state = "reebe"
 	floor_tile = /obj/item/stack/tile/bronze/flat
@@ -230,6 +233,9 @@
 		out of. It only makes sense in the context of space because you're trying to keep a freezing vacuum out. Is anyone following me on this? \
 		The idea of a \"rudimentary\" iron wall makes no sense at all! Is anything i'm even saying here true? Someone's gotta fact check this!"
 	icon_state = "stone_floor"
+
+/turf/open/floor/stone/airless
+	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/floor/vault
 	name = "strange floor"

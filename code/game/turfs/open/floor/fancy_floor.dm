@@ -95,6 +95,9 @@
 /turf/open/floor/wood/large/setup_broken_states()
 	return list("wood_large-broken", "wood_large-broken2", "wood_large-broken3")
 
+/turf/open/floor/wood/large/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/bamboo
 	desc = "A bamboo mat with a decorative trim."
 	icon = 'icons/turf/floors/bamboo_mat.dmi'

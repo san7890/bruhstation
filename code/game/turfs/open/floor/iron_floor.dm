@@ -299,6 +299,9 @@
 /turf/open/floor/iron/recharge_floor/asteroid/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
+/turf/open/floor/iron/recharge_floor/asteroid/icemoon
+	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+
 /turf/open/floor/iron/smooth
 	icon_state = "smooth"
 	base_icon_state = "smooth"
