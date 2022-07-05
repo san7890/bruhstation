@@ -24,6 +24,7 @@
 		return ..()
 	icon_state = base_icon_state
 	return ..()
+
 /turf/open/floor/iron/telecomms
 	initial_gas_mix = TCOMMS_ATMOS
 
@@ -118,6 +119,9 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/herringbone)
 	base_icon_state = "darkfull"
 	floor_tile = /obj/item/stack/tile/iron/dark
 
+/turf/open/floor/iron/dark/telecomms
+	initial_gas_mix = TCOMMS_ATMOS
+
 ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark)
 
 /turf/open/floor/iron/dark/smooth_edge
@@ -153,75 +157,84 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_large)
 	base_icon_state = "dark"
 	floor_tile = /obj/item/stack/tile/iron/dark_side
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/side)
+
 /turf/open/floor/iron/dark/corner
 	icon_state = "darkcorner"
 	base_icon_state = "darkcorner"
 	floor_tile = /obj/item/stack/tile/iron/dark_corner
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/corner)
 
 /turf/open/floor/iron/checker
 	icon_state = "checker"
 	base_icon_state = "checker"
 	floor_tile = /obj/item/stack/tile/iron/checker
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/checker)
+
 /turf/open/floor/iron/dark/textured
 	icon_state = "textured_dark"
 	base_icon_state = "textured_dark"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured)
 
 /turf/open/floor/iron/dark/textured_edge
 	icon_state = "textured_dark_edge"
 	base_icon_state = "textured_dark_edge"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_edge
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_edge)
+
 /turf/open/floor/iron/dark/textured_half
 	icon_state = "textured_dark_half"
 	base_icon_state = "textured_dark_half"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_half
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_half)
 
 /turf/open/floor/iron/dark/textured_corner
 	icon_state = "textured_dark_corner"
 	base_icon_state = "textured_dark_corner"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_corner
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_corner)
+
 /turf/open/floor/iron/dark/textured_large
 	icon_state = "textured_dark_large"
 	base_icon_state = "textured_dark_large"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_large
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_large)
 
 /turf/open/floor/iron/dark/small
 	icon_state = "dark_small"
 	base_icon_state = "dark_small"
 	floor_tile = /obj/item/stack/tile/iron/dark/small
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/small)
+
 /turf/open/floor/iron/dark/diagonal
 	icon_state = "dark_diagonal"
 	base_icon_state = "dark_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/dark/diagonal
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/diagonal)
 
 /turf/open/floor/iron/dark/herringbone
 	icon_state = "dark_herringbone"
 	base_icon_state = "dark_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/dark/herringbone
 
-/turf/open/floor/iron/dark/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/dark/telecomms
-	initial_gas_mix = TCOMMS_ATMOS
-
-/turf/open/floor/iron/dark/side/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/dark/corner/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/checker/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/herringbone)
 
 /turf/open/floor/iron/white
 	icon_state = "white"
 	base_icon_state = "white"
 	floor_tile = /obj/item/stack/tile/iron/white
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white)
 
 /turf/open/floor/iron/white/smooth_edge
 	icon_state = "white_edge"
@@ -444,6 +457,7 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_large)
 /turf/open/floor/iron/kitchen_coldroom
 	name = "cold room floor"
 
+//can't put this in the mapping helper macro for atmos gasmixes because you can only set this specific initial_gas_mix on initialize since it mixes a string define and a numerical define (it will not compile).
 /turf/open/floor/iron/kitchen_coldroom/Initialize(mapload)
 	initial_gas_mix = KITCHEN_COLDROOM_ATMOS
 	return ..()
