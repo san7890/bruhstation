@@ -806,3 +806,5 @@
 	underlay_appearance.icon_state = SPACE_ICON_STATE
 	underlay_appearance.plane = PLANE_SPACE
 	return TRUE
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/fakespace)

@@ -76,3 +76,18 @@
 #define INCINERATOR_SYNDICATELAVA_AIRLOCK_CONTROLLER "syndicatelava_airlock_controller"
 #define INCINERATOR_SYNDICATELAVA_AIRLOCK_INTERIOR "syndicatelava_airlock_interior"
 #define INCINERATOR_SYNDICATELAVA_AIRLOCK_EXTERIOR "syndicatelava_airlock_exterior"
+
+/// Macro used to automatically generate floors with a set initial gas mix (or the most commonly used subtypes)
+#define ATMOS_GASMIX_HELPERS(path) \
+	##path/airless{ \
+		initial_gas_mix = AIRLESS_ATMOS \
+	} \
+	##path/low_pressure{ \
+		initial_gas_mix = OPENTURF_LOW_PRESSURE \
+	} \
+	##path/lavaland{ \
+		initial_gas_mix = LAVALAND_DEFAULT_ATMOS \
+	} \
+	##path/icemoon{ \
+		initial_gas_mix = ICEMOON_DEFAULT_ATMOS \
+	}
