@@ -157,6 +157,8 @@
 	currentcolor = pick(coloredlights)
 	update_appearance()
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/light)
+
 //Cycles through all of the colours
 /turf/open/floor/light/colour_cycle
 	name = "dancefloor"
@@ -166,13 +168,19 @@
 	can_modify_colour = FALSE
 	cycle = TRUE
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/light/colour_cycle)
+
 //Two different "dancefloor" types so that you can have a checkered pattern
 // (also has a longer delay than colour_cycle between cycling colours)
 /turf/open/floor/light/colour_cycle/dancefloor_a
 	icon_state = "light_on-dancefloor_A"
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/light/colour_cycle/dancefloor_a)
+
 /turf/open/floor/light/colour_cycle/dancefloor_b
 	icon_state = "light_on-dancefloor_B"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/light/colour_cycle/dancefloor_b)
 
 /**
  * check_menu: Checks if we are allowed to interact with a radial menu

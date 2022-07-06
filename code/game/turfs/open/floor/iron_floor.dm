@@ -236,226 +236,249 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/dark/herringbone)
 
 ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white)
 
+/turf/open/floor/iron/white/telecomms
+	initial_gas_mix = TCOMMS_ATMOS
+
 /turf/open/floor/iron/white/smooth_edge
 	icon_state = "white_edge"
 	base_icon_state = "white_edge"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_edge
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_edge)
 
 /turf/open/floor/iron/white/smooth_half
 	icon_state = "white_half"
 	base_icon_state = "white_half"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_half
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_half)
+
 /turf/open/floor/iron/white/smooth_corner
 	icon_state = "white_corner"
 	base_icon_state = "white_corner"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_corner
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_corner)
 
 /turf/open/floor/iron/white/smooth_large
 	icon_state = "white_large"
 	base_icon_state = "white_large"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_large
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_large)
+
 /turf/open/floor/iron/white/side
 	icon_state = "whitehall"
 	base_icon_state = "whitehall"
 	floor_tile = /obj/item/stack/tile/iron/white_side
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/side)
 
 /turf/open/floor/iron/white/corner
 	icon_state = "whitecorner"
 	base_icon_state = "whitecorner"
 	floor_tile = /obj/item/stack/tile/iron/white_corner
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/corner)
+
 /turf/open/floor/iron/cafeteria
 	icon_state = "cafeteria"
 	base_icon_state = "cafeteria"
 	floor_tile = /obj/item/stack/tile/iron/cafeteria
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/cafeteria)
 
 /turf/open/floor/iron/white/textured
 	icon_state = "textured_white"
 	base_icon_state = "textured_white"
 	floor_tile = /obj/item/stack/tile/iron/white/textured
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/textured)
+
 /turf/open/floor/iron/white/textured_edge
 	icon_state = "textured_white_edge"
 	base_icon_state = "textured_white_edge"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_edge
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_edge)
 
 /turf/open/floor/iron/white/textured_half
 	icon_state = "textured_white_half"
 	base_icon_state = "textured_white_half"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_half
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_half)
+
 /turf/open/floor/iron/white/textured_corner
 	icon_state = "textured_white_corner"
 	base_icon_state = "textured_white_corner"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_corner
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_corner)
 
 /turf/open/floor/iron/white/textured_large
 	icon_state = "textured_white_large"
 	base_icon_state = "textured_white_large"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_large
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_large)
+
 /turf/open/floor/iron/white/small
 	icon_state = "white_small"
 	base_icon_state = "white_small"
 	floor_tile = /obj/item/stack/tile/iron/white/small
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/small)
 
 /turf/open/floor/iron/white/diagonal
 	icon_state = "white_diagonal"
 	base_icon_state = "white_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/white/diagonal
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/diagonal)
+
 /turf/open/floor/iron/white/herringbone
 	icon_state = "white_herringbone"
 	base_icon_state = "white_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/white/herringbone
 
-/turf/open/floor/iron/white/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/white/telecomms
-	initial_gas_mix = TCOMMS_ATMOS
-
-/turf/open/floor/iron/white/side/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/white/corner/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/cafeteria/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white/herringbone)
 
 /turf/open/floor/iron/recharge_floor
 	icon_state = "recharge_floor"
 	base_icon_state = "recharge_floor"
 	floor_tile = /obj/item/stack/tile/iron/recharge_floor
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/recharge_floor)
+
 /turf/open/floor/iron/recharge_floor/asteroid
 	icon_state = "recharge_floor_asteroid"
 	base_icon_state = "recharge_floor_asteroid"
 
-/turf/open/floor/iron/recharge_floor/asteroid/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/recharge_floor/asteroid/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/recharge_floor/asteroid)
 
 /turf/open/floor/iron/smooth
 	icon_state = "smooth"
 	base_icon_state = "smooth"
 	floor_tile = /obj/item/stack/tile/iron/smooth
 
-/turf/open/floor/iron/smooth/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/smooth)
 
 /turf/open/floor/iron/smooth_edge
 	icon_state = "smooth_edge"
 	base_icon_state = "smooth_edge"
 	floor_tile = /obj/item/stack/tile/iron/smooth_edge
 
-/turf/open/floor/iron/smooth_edge/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/smooth_edge)
 
 /turf/open/floor/iron/smooth_half
 	icon_state = "smooth_half"
 	base_icon_state = "smooth_half"
 	floor_tile = /obj/item/stack/tile/iron/smooth_half
 
-/turf/open/floor/iron/smooth_half/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/smooth_half)
 
 /turf/open/floor/iron/smooth_corner
 	icon_state = "smooth_corner"
 	base_icon_state = "smooth_corner"
 	floor_tile = /obj/item/stack/tile/iron/smooth_corner
 
-/turf/open/floor/iron/smooth_corner/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/smooth_corner)
 
 /turf/open/floor/iron/smooth_large
 	icon_state = "smooth_large"
 	base_icon_state = "smooth_large"
 	floor_tile = /obj/item/stack/tile/iron/smooth_large
 
-/turf/open/floor/iron/smooth_large/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/smooth_large)
 
 /turf/open/floor/iron/terracotta
 	icon_state = "terracotta"
 	base_icon_state = "terracotta"
 	floor_tile = /obj/item/stack/tile/iron/terracotta
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/terracotta)
+
 /turf/open/floor/iron/terracotta/small
 	icon_state = "terracotta_small"
 	base_icon_state = "terracotta_small"
 	floor_tile = /obj/item/stack/tile/iron/terracotta/small
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/terracotta/small)
 
 /turf/open/floor/iron/terracotta/diagonal
 	icon_state = "terracotta_diagonal"
 	base_icon_state = "terracotta_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/terracotta/diagonal
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/terracotta/diagonal)
+
 /turf/open/floor/iron/terracotta/herringbone
 	icon_state = "terracotta_herringbone"
 	base_icon_state = "terracotta_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/terracotta/herringbone
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/terracotta/herringbone)
 
 /turf/open/floor/iron/kitchen
 	icon_state = "kitchen"
 	base_icon_state = "kitchen"
 	floor_tile = /obj/item/stack/tile/iron/kitchen
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/kitchen)
+
 /turf/open/floor/iron/kitchen/small
 	icon_state = "kitchen_small"
 	base_icon_state = "kitchen_small"
 	floor_tile = /obj/item/stack/tile/iron/kitchen/small
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/small)
 
 /turf/open/floor/iron/kitchen/diagonal
 	icon_state = "kitchen_diagonal"
 	base_icon_state = "kitchen_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/kitchen/diagonal
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/diagonal)
+
 /turf/open/floor/iron/kitchen/herringbone
 	icon_state = "kitchen_herringbone"
 	base_icon_state = "kitchen_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/kitchen/herringbone
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/herringbone)
 
 /turf/open/floor/iron/chapel
 	icon_state = "chapel"
 	base_icon_state = "chapel"
 	floor_tile = /obj/item/stack/tile/iron/chapel
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/chapel)
+
 /turf/open/floor/iron/showroomfloor
 	icon_state = "showroomfloor"
 	base_icon_state = "showroomfloor"
 	floor_tile = /obj/item/stack/tile/iron/showroomfloor
 
-/turf/open/floor/iron/showroomfloor/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/iron/showroomfloor/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
-
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/showroomfloor)
 /turf/open/floor/iron/solarpanel
 	icon_state = "solarpanel"
 	base_icon_state = "solarpanel"
 	floor_tile = /obj/item/stack/tile/iron/solarpanel
 
-/turf/open/floor/iron/solarpanel/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/solarpanel)
 
 /turf/open/floor/iron/freezer
 	icon_state = "freezerfloor"
 	base_icon_state = "freezerfloor"
 	floor_tile = /obj/item/stack/tile/iron/freezer
 
-/turf/open/floor/iron/freezer/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/freezer)
 
 /turf/open/floor/iron/kitchen_coldroom
 	name = "cold room floor"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/kitchen_coldroom)
 
 //can't put this in the mapping helper macro for atmos gasmixes because you can only set this specific initial_gas_mix on initialize since it mixes a string define and a numerical define (it will not compile).
 /turf/open/floor/iron/kitchen_coldroom/Initialize(mapload)
@@ -467,19 +490,22 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white)
 	base_icon_state = "freezerfloor"
 	floor_tile = /obj/item/stack/tile/iron/freezer
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/kitchen_coldroom/freezerfloor)
+
 /turf/open/floor/iron/grimy
 	icon_state = "grimy"
 	base_icon_state = "grimy"
 	tiled_dirt = FALSE
 	floor_tile = /obj/item/stack/tile/iron/grimy
 
-/turf/open/floor/iron/grimy/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/grimy)
 
 /turf/open/floor/iron/vaporwave
 	icon_state = "pinkblack"
 	base_icon_state = "pinkblack"
 	floor_tile = /obj/item/stack/tile/iron/vaporwave
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/vaporwave)
 
 /turf/open/floor/iron/goonplaque
 	name = "commemorative plaque"
@@ -489,29 +515,38 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white)
 	tiled_dirt = FALSE
 	floor_tile = /obj/item/stack/tile/iron/goonplaque
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/goonplaque)
+
 /turf/open/floor/iron/stairs
 	icon_state = "stairs"
 	base_icon_state = "stairs"
 	tiled_dirt = FALSE
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/stairs)
+
 /turf/open/floor/iron/stairs/left
 	icon_state = "stairs-l"
 	base_icon_state = "stairs-l"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/stairs/left)
 
 /turf/open/floor/iron/stairs/medium
 	icon_state = "stairs-m"
 	base_icon_state = "stairs-m"
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/stairs/medium)
+
 /turf/open/floor/iron/stairs/right
 	icon_state = "stairs-r"
 	base_icon_state = "stairs-r"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/stairs/right)
 
 /turf/open/floor/iron/stairs/old
 	icon_state = "stairs-old"
 	base_icon_state = "stairs-old"
 
-/turf/open/floor/iron/stairs/old/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/stairs/old)
 
 /turf/open/floor/iron/bluespace
 	icon_state = "bluespace"
@@ -519,8 +554,12 @@ ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/white)
 	desc = "Sadly, these don't seem to make you faster..."
 	floor_tile = /obj/item/stack/tile/iron/bluespace
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/bluespace)
+
 /turf/open/floor/iron/sepia
 	icon_state = "sepia"
 	base_icon_state = "sepia"
 	desc = "Well, the flow of time is normal on these tiles, weird."
 	floor_tile = /obj/item/stack/tile/iron/sepia
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/iron/sepia)
