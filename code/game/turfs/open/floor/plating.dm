@@ -101,6 +101,8 @@
 /turf/open/floor/plating/make_plating(force = FALSE)
 	return
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/plating)
+
 /turf/open/floor/plating/foam
 	name = "metal foam plating"
 	desc = "Thin, fragile flooring created with metal foam."
@@ -151,5 +153,6 @@
 /turf/open/floor/plating/foam/tool_act(mob/living/user, obj/item/I, tool_type)
 	return
 
-/turf/open/floor/plating/foam/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/plating/foam)
+
+

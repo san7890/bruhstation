@@ -24,8 +24,10 @@
 		return FALSE
 	return ..()
 
-/turf/open/floor/engine/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/engine)
+
+/turf/open/floor/engine/telecomms
+	initial_gas_mix = TCOMMS_ATMOS
 
 /turf/open/floor/engine/break_tile()
 	return //unbreakable
@@ -220,12 +222,4 @@
 /turf/open/floor/engine/cult/proc/be_removed()
 	QDEL_NULL(realappearance)
 
-/turf/open/floor/engine/cult/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/engine/vacuum
-	name = "vacuum floor"
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/engine/telecomms
-	initial_gas_mix = TCOMMS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/engine/cult)

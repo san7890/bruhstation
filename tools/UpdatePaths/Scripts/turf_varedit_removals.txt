@@ -50,3 +50,10 @@
 /turf/open/floor/carpet/black{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/floor/carpet/black/icemoon{@OLD;initial_gas_mix=@SKIP}
 
 /turf/open/indestructible/necropolis{initial_gas_mix="ICEMOON_ATMOS"} : /turf/open/indestructible/necropolis/icemoon{@OLD;initial_gas_mix=@SKIP}
+
+#comment Update this here to ensure consistency with the macro, but to keep this snowflake behavior.
+/turf/open/floor/plating/lavaland_atmos : /turf/open/floor/plating/lavaland_surface{@OLD}
+
+#comment Renames this so we can collapse it into the macro.
+
+/turf/open/floor/engine/vacuum : /turf/open/floor/engine/airless{@OLD}

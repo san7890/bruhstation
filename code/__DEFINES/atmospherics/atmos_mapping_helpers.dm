@@ -77,7 +77,9 @@
 #define INCINERATOR_SYNDICATELAVA_AIRLOCK_INTERIOR "syndicatelava_airlock_interior"
 #define INCINERATOR_SYNDICATELAVA_AIRLOCK_EXTERIOR "syndicatelava_airlock_exterior"
 
-/// Macro used to automatically generate floors with a set initial gas mix (or the most commonly used subtypes)
+/// Macro used to automatically generate floors with a set initial gas mix (or the most commonly used subtypes). In it's current implementation, it should only be macro'd on turfs who utilize OPENTURF_DEFAULT_ATMOS.
+/// For the lavaland and icemoon paths, we set planetary to TRUE since they are typically meant to be used on a planet.
+/// If you want something snowflakey, you'll probably just have to make your own subtype since this should apply to 99% of all open turfs in the game.
 #define ATMOS_GASMIX_HELPERS(path) \
 	##path/airless{ \
 		initial_gas_mix = AIRLESS_ATMOS \
@@ -87,7 +89,9 @@
 	} \
 	##path/lavaland{ \
 		initial_gas_mix = LAVALAND_DEFAULT_ATMOS \
+		planetary_atmos = TRUE \
 	} \
 	##path/icemoon{ \
 		initial_gas_mix = ICEMOON_DEFAULT_ATMOS \
+		planetary_atmos = TRUE \
 	}

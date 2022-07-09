@@ -29,6 +29,8 @@
 		icon_state = initial(icon_state)
 	return ..()
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral)
+
 //PLASMA
 
 /turf/open/floor/mineral/plasma
@@ -43,6 +45,7 @@
 /turf/open/floor/mineral/plasma/disco/crowbar_act(mob/living/user, obj/item/I)
 	return
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/plasma)
 
 //GOLD
 
@@ -53,6 +56,8 @@
 	icons = list("gold","gold_dam")
 	custom_materials = list(/datum/material/gold = 500)
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/gold)
+
 //SILVER
 
 /turf/open/floor/mineral/silver
@@ -61,6 +66,8 @@
 	floor_tile = /obj/item/stack/tile/mineral/silver
 	icons = list("silver","silver_dam")
 	custom_materials = list(/datum/material/silver = 500)
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/silver)
 
 //TITANIUM (shuttle)
 
@@ -76,36 +83,31 @@
 /turf/open/floor/mineral/titanium/rust_heretic_act()
 	return // titanium does not rust
 
-/turf/open/floor/mineral/titanium/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium)
 
 /turf/open/floor/mineral/titanium/yellow
 	icon_state = "titanium_yellow"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/yellow
 
-/turf/open/floor/mineral/titanium/yellow/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/yellow)
 
 /turf/open/floor/mineral/titanium/blue
 	icon_state = "titanium_blue"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/blue
 
-/turf/open/floor/mineral/titanium/blue/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/blue)
 
 /turf/open/floor/mineral/titanium/white
 	icon_state = "titanium_white"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/white
 
-/turf/open/floor/mineral/titanium/white/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/white)
 
 /turf/open/floor/mineral/titanium/purple
 	icon_state = "titanium_purple"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/purple
 
-/turf/open/floor/mineral/titanium/purple/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/purple)
 
 // OLD TITANIUM (titanium floor tiles before PR #50454)
 /turf/open/floor/mineral/titanium/tiled
@@ -116,36 +118,31 @@
 /turf/open/floor/mineral/titanium/tiled/setup_broken_states()
 	return list("titanium_dam1_old","titanium_dam2_old","titanium_dam3_old","titanium_dam4_old","titanium_dam5_old")
 
-/turf/open/floor/mineral/titanium/tiled/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/tiled)
 
 /turf/open/floor/mineral/titanium/tiled/yellow
 	icon_state = "titanium_tiled_yellow"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/tiled/yellow
 
-/turf/open/floor/mineral/titanium/tiled/yellow/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/tiled/yellow)
 
 /turf/open/floor/mineral/titanium/tiled/blue
 	icon_state = "titanium_tiled_blue"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/tiled/blue
 
-/turf/open/floor/mineral/titanium/tiled/blue/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/tiled/blue)
 
 /turf/open/floor/mineral/titanium/tiled/white
 	icon_state = "titanium_tiled_white"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/tiled/white
 
-/turf/open/floor/mineral/titanium/tiled/white/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/tiled/white)
 
 /turf/open/floor/mineral/titanium/tiled/purple
 	icon_state = "titanium_tiled_purple"
 	floor_tile = /obj/item/stack/tile/mineral/titanium/tiled/purple
 
-/turf/open/floor/mineral/titanium/tiled/purple/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/titanium/tiled/purple)
 
 //PLASTITANIUM (syndieshuttle)
 /turf/open/floor/mineral/plastitanium
@@ -160,15 +157,13 @@
 /turf/open/floor/mineral/plastitanium/rust_heretic_act()
 	return // plastitanium does not rust
 
-/turf/open/floor/mineral/plastitanium/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/plastitanium)
 
 /turf/open/floor/mineral/plastitanium/red
 	icon_state = "plastitanium_red"
 	floor_tile = /obj/item/stack/tile/mineral/plastitanium/red
 
-/turf/open/floor/mineral/plastitanium/red/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/plastitanium/red)
 
 //Used in SnowCabin.dm
 /turf/open/floor/mineral/plastitanium/red/snow_cabin
@@ -220,8 +215,7 @@
 		playsound(src, SFX_CLOWN_STEP, 50, TRUE)
 		sound_cooldown = world.time + 10
 
-/turf/open/floor/mineral/bananium/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/bananium)
 
 //DIAMOND
 
@@ -231,6 +225,8 @@
 	floor_tile = /obj/item/stack/tile/mineral/diamond
 	icons = list("diamond","diamond_dam")
 	custom_materials = list(/datum/material/diamond = 500)
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/diamond)
 
 //URANIUM
 
@@ -283,6 +279,8 @@
 			active = FALSE
 			return
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/uranium)
+
 // ALIEN ALLOY
 /turf/open/floor/mineral/abductor
 	name = "alien floor"
@@ -301,3 +299,5 @@
 
 /turf/open/floor/mineral/abductor/burn_tile()
 	return //unburnable
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/mineral/abductor)

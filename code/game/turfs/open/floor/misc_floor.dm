@@ -32,12 +32,10 @@
 /turf/open/floor/circuit/off
 	icon_state = "bcircuitoff"
 	on = FALSE
-
-/turf/open/floor/circuit/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
 /turf/open/floor/circuit/telecomms
 	initial_gas_mix = TCOMMS_ATMOS
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/circuit/telecomms)
 
 /turf/open/floor/circuit/telecomms/mainframe
 	name = "mainframe base"
@@ -60,8 +58,7 @@
 	icon_normal = "gcircuitanim"
 	floor_tile = /obj/item/stack/tile/circuit/green/anim
 
-/turf/open/floor/circuit/green/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/circuit/green)
 
 /turf/open/floor/circuit/green/telecomms
 	initial_gas_mix = TCOMMS_ATMOS
@@ -84,8 +81,7 @@
 	icon_normal = "rcircuitanim"
 	floor_tile = /obj/item/stack/tile/circuit/red/anim
 
-/turf/open/floor/circuit/red/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/circuit/red)
 
 /turf/open/floor/circuit/red/telecomms
 	initial_gas_mix = TCOMMS_ATMOS
@@ -95,14 +91,19 @@
 	icon_state = "podfloor"
 	floor_tile = /obj/item/stack/tile/pod
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/pod)
+
 /turf/open/floor/pod/light
 	icon_state = "podfloor_light"
 	floor_tile = /obj/item/stack/tile/pod/light
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/pod/light)
 
 /turf/open/floor/pod/dark
 	icon_state = "podfloor_dark"
 	floor_tile = /obj/item/stack/tile/pod/dark
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/pod/dark)
 
 /turf/open/floor/noslip
 	name = "high-traction floor"
@@ -119,10 +120,14 @@
 /turf/open/floor/noslip/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
 	return
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/noslip)
+
 /turf/open/floor/oldshuttle
 	icon = 'icons/turf/shuttleold.dmi'
 	icon_state = "floor"
 	floor_tile = /obj/item/stack/tile/iron/base
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/oldshuttle)
 
 /turf/open/floor/bluespace
 	slowdown = -1
@@ -130,6 +135,7 @@
 	desc = "Through a series of micro-teleports these tiles let people move at incredible speeds."
 	floor_tile = /obj/item/stack/tile/bluespace
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/bluespace)
 
 /turf/open/floor/sepia
 	slowdown = 2
@@ -137,6 +143,7 @@
 	desc = "Time seems to flow very slowly around these tiles."
 	floor_tile = /obj/item/stack/tile/sepia
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/sepia)
 
 /turf/open/floor/bronze
 	name = "bronze floor"
@@ -144,33 +151,32 @@
 	icon_state = "clockwork_floor"
 	floor_tile = /obj/item/stack/tile/bronze
 
-/turf/open/floor/bronze/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/bronze)
 
 /turf/open/floor/bronze/flat
 	icon_state = "reebe"
 	floor_tile = /obj/item/stack/tile/bronze/flat
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/bronze/flat)
+
 /turf/open/floor/bronze/filled
 	icon_state = "clockwork_floor_filled"
 	floor_tile = /obj/item/stack/tile/bronze/filled
 
-/turf/open/floor/bronze/filled/lavaland
-	planetary_atmos = TRUE
-	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
-
-/turf/open/floor/bronze/filled/icemoon
-	planetary_atmos = TRUE
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/bronze/filled)
 
 /turf/open/floor/white
 	name = "white floor"
 	desc = "A tile in a pure white color."
 	icon_state = "pure_white"
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/white)
+
 /turf/open/floor/black
 	name = "black floor"
 	icon_state = "black"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/black)
 
 /turf/open/floor/plastic
 	name = "plastic floor"
@@ -184,6 +190,8 @@
 /turf/open/floor/plastic/setup_broken_states()
 	return list("plastic-damaged1","plastic-damaged2")
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/plastic)
+
 /turf/open/floor/eighties
 	name = "retro floor"
 	desc = "This one takes you back."
@@ -193,6 +201,8 @@
 /turf/open/floor/eighties/setup_broken_states()
 	return list("eighties_damaged")
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/eighties)
+
 /turf/open/floor/eighties/red
 	name = "red retro floor"
 	desc = "Totally RED-ICAL!"
@@ -201,6 +211,8 @@
 
 /turf/open/floor/eighties/red/setup_broken_states()
 	return list("eightiesred_damaged")
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/eighties/red)
 
 /turf/open/floor/plating/rust
 	//SDMM supports colors, this is simply for easier mapping
@@ -234,14 +246,15 @@
 		The idea of a \"rudimentary\" iron wall makes no sense at all! Is anything i'm even saying here true? Someone's gotta fact check this!"
 	icon_state = "stone_floor"
 
-/turf/open/floor/stone/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/stone)
 
 /turf/open/floor/vault
 	name = "strange floor"
 	desc = "You feel a strange nostalgia from looking at this..."
 	icon_state = "rockvault"
 	base_icon_state = "rockvault"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/vault)
 
 /turf/open/floor/vault/rock
 	name = "rocky floor"
@@ -251,10 +264,14 @@
 	icon_state = "alienvault"
 	base_icon_state = "alienvault"
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/vault/alien)
+
 /turf/open/floor/vault/sandstone
 	name = "sandstone floor"
 	icon_state = "sandstonevault"
 	base_icon_state = "sandstonevault"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/vault/sandstone)
 
 /turf/open/floor/cult
 	name = "engraved floor"
@@ -268,5 +285,4 @@
 /turf/open/floor/cult/narsie_act()
 	return
 
-/turf/open/floor/cult/airless
-	initial_gas_mix = AIRLESS_ATMOS
+ATMOS_GASMIX_HELPERS(/turf/open/floor/cult)

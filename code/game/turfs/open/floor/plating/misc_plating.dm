@@ -1,15 +1,3 @@
-
-/turf/open/floor/plating/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
-/turf/open/floor/plating/lowpressure
-	initial_gas_mix = OPENTURF_LOW_PRESSURE
-	baseturfs = /turf/open/floor/plating/lowpressure
-
-/turf/open/floor/plating/icemoon
-	icon_state = "plating"
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
-
 /turf/open/floor/plating/abductor
 	name = "alien floor"
 	icon_state = "alienpod1"
@@ -38,6 +26,8 @@
 /turf/open/floor/plating/abductor2/try_replace_tile(obj/item/stack/tile/T, mob/user, params)
 	return
 
+ATMOS_GASMIX_HELPERS(/turf/open/floor/plating/abudctor)
+
 /turf/open/floor/plating/snowed
 	name = "snowed-over plating"
 	desc = "A section of heated plating, helps keep the snow from stacking up too high."
@@ -55,9 +45,6 @@
 
 /turf/open/floor/plating/snowed/cavern
 	initial_gas_mix = "n2=82;plasma=24;TEMP=120"
-
-/turf/open/floor/plating/snowed/icemoon
-	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/open/floor/plating/snowed/smoothed
 	icon = 'icons/turf/floors/snow_turf.dmi'
@@ -87,7 +74,7 @@
 /turf/open/floor/plating/snowed/smoothed/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
-/turf/open/floor/plating/lavaland_atmos
+/turf/open/floor/plating/lavaland_surface
 	planetary_atmos = TRUE
 	baseturfs = /turf/open/lava/smooth/lava_land_surface
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
@@ -96,3 +83,5 @@
 	name = "elevator shaft"
 	icon_state = "elevatorshaft"
 	base_icon_state = "elevatorshaft"
+
+ATMOS_GASMIX_HELPERS(/turf/open/floor/plating/elevatorshaft)
