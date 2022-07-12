@@ -390,6 +390,12 @@
 		return
 	return ..()
 
+// Variant used for a cyborg to fish.
+/obj/item/fishing_rod/tech/cyborg
+	name = "cyborgified fishing rod"
+	desc = "Using a few extra wires in the body of a standard Nanotrasen silicon shell, this advanced rod can be used by cyborgs. It contains all the perks of the advanced fishing rod within it as well!"
+	ui_description = "This rod is installed in a cyborg (or, it should be!)."
+
 #undef ROD_SLOT_BAIT
 #undef ROD_SLOT_LINE
 #undef ROD_SLOT_HOOK

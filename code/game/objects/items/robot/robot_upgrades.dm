@@ -284,6 +284,47 @@
 	if (.)
 		REMOVE_TRAIT(R, TRAIT_LAVA_IMMUNE, type)
 
+//Fishing rod for Cyborg. There shouldn't be a way to get the actual upgrade, it should only be possible to get in a cyborg by slamming in a /obj/item/fishing_rod/tech (for balance considerations)
+/obj/item/borg/upgrade/fishing_rod
+	name = "mining cyborg fishing rod"
+	desc = "A fishing rod for a mining cyborg to use in the event of dire fishing necessity."
+	var/obj/item/fishing_rod/tech/rod_upgrade
+
+/obj/item/borg/upgrade/fishing_rod/Initialize(mapload, obj/item/fishing_rod/tech/external_rod)
+	. = ..()
+	if(!external_rod)
+		external_rod = new /obj/item/fishing_rod/tech
+	rod_upgrade = external_rod
+	name = rod_upgrade.name
+	rod_upgrade.moveToNullspace()
+	RegisterSignal(rod_upgrade, list(COMSIG_PARENT_QDELETING, COMSIG_MOVABLE_MOVED), .proc/on_rod_upgrade_qdel_or_moved)
+
+/obj/item/borg/upgrade/fishing_rod/action(mob/living/silicon/robot/R, user = usr)
+	. = ..()
+	if(.)
+		var/obj/item/borg/upgrade/fishing_rod/internal_rod = locate() in R
+		if(internal_rod)
+			to_chat(user, span_warning("This unit is already equipped with a fishing rod!"))
+			return FALSE
+
+		var/obj/item/fishing_rod/tech/cyborg/S = new(R.model)
+		R.model.basic_modules += S
+		R.model.add_module(S, FALSE, TRUE)
+
+/obj/item/borg/upgrade/fishing_rod/proc/on_rod_upgrade_qdel_or_moved(obj/item/fishing_rod/tech/external_rod)
+	rod_upgrade = null
+	qdel(src)
+
+/obj/item/borg/upgrade/fishing_rod/Destroy()
+	if(rod_upgrade)
+		QDEL_NULL(rod_upgrade)
+	return ..()
+
+/obj/item/borg/upgrade/fishing_rod/deactivate(mob/living/silicon/robot/R, user = usr)
+	. = ..()
+	if(.)
+		rod_upgrade?.forceMove(R.drop_location()) // [on_defib_instance_qdel_or_moved()] handles the rest.
+
 /obj/item/borg/upgrade/selfrepair
 	name = "self-repair module"
 	desc = "This module will repair the cyborg over time."

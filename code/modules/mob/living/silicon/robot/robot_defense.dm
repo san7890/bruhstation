@@ -81,6 +81,21 @@ GLOBAL_LIST_INIT(blacklisted_borg_hats, typecacheof(list( //Hats that don't real
 		add_to_upgrades(B, user)
 		return
 
+	if(istype(W, /obj/item/fishing_rod/tech) && !user.combat_mode)
+		if(!opened)
+			to_chat(user, span_warning("You must access the cyborg's internals!"))
+			return
+		if(stat == DEAD)
+			to_chat(user, span_warning("This fishing rod will not function on a deceased cyborg!"))
+			return
+		if(locate(/obj/item/borg/upgrade/fishing_rod) in src)
+			to_chat(user, span_warning("[src] already has a fishing rod!"))
+			return
+		var/obj/item/fishing_rod/tech/D = W
+		var/obj/item/borg/upgrade/fishing_rod/B = new(null, D)
+		add_to_upgrades(B, user)
+		return
+
 	if(istype(W, /obj/item/ai_module))
 		var/obj/item/ai_module/MOD = W
 		if(!opened)
