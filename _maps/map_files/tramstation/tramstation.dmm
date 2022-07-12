@@ -545,6 +545,7 @@
 /turf/open/floor/iron/dark,
 /area/station/engineering/supermatter/room)
 "akq" = (
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "akr" = (
@@ -6353,6 +6354,7 @@
 /area/station/security/checkpoint/medical)
 "clY" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "cmb" = (
@@ -10390,6 +10392,7 @@
 "dBL" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/cable,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "dBQ" = (
@@ -10907,6 +10910,7 @@
 /area/station/engineering/atmos)
 "dLZ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "dMf" = (
@@ -17963,6 +17967,7 @@
 /obj/machinery/duct,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "gmB" = (
@@ -18368,6 +18373,7 @@
 /obj/structure/table,
 /obj/item/storage/bag/tray,
 /obj/item/kitchen/rollingpin,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "guf" = (
@@ -18378,6 +18384,7 @@
 /obj/item/reagent_containers/food/condiment/enzyme{
 	layer = 5
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "gui" = (
@@ -18416,6 +18423,7 @@
 /area/station/security/courtroom)
 "guL" = (
 /obj/machinery/grill,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "guQ" = (
@@ -18465,6 +18473,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "gvK" = (
@@ -20730,6 +20739,7 @@
 "hiL" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/secure_closet/freezer/milk_and_eggs,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "hiN" = (
@@ -22097,6 +22107,7 @@
 /obj/structure/table,
 /obj/item/book/manual/wiki/cooking_to_serve_man,
 /obj/item/holosign_creator/robot_seat/restaurant,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "hLr" = (
@@ -24686,8 +24697,8 @@
 /obj/machinery/duct,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
 /obj/structure/disposalpipe/segment,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "iEI" = (
@@ -26990,6 +27001,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 6
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "jvj" = (
@@ -34059,6 +34071,7 @@
 /area/station/hallway/primary/tram/center)
 "lNJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "lNP" = (
@@ -35231,6 +35244,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "mjm" = (
@@ -36137,6 +36151,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "mxI" = (
@@ -38843,6 +38858,7 @@
 /area/station/commons/fitness/recreation)
 "nqT" = (
 /obj/structure/disposalpipe/segment,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "nra" = (
@@ -41191,9 +41207,11 @@
 	id = "playerscantreadthis";
 	name = "Kitchen Shutters Control"
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "omc" = (
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "omm" = (
@@ -43472,6 +43490,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "pcY" = (
@@ -45838,6 +45857,7 @@
 "pSL" = (
 /obj/machinery/duct,
 /obj/structure/disposalpipe/segment,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "pSM" = (
@@ -45845,6 +45865,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "pSV" = (
@@ -47170,6 +47191,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "qpp" = (
@@ -48907,6 +48929,7 @@
 "qTs" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "qTI" = (
@@ -50362,6 +50385,7 @@
 "rvd" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/cable,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "rvg" = (
@@ -52576,6 +52600,7 @@
 /area/station/commons/dorms)
 "sdK" = (
 /obj/machinery/duct,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "seG" = (
@@ -52754,6 +52779,7 @@
 /area/station/hallway/primary/central)
 "shV" = (
 /obj/effect/landmark/start/cook,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "shW" = (
@@ -53468,6 +53494,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 1
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "sxq" = (
@@ -55966,6 +55993,7 @@
 "tqj" = (
 /obj/effect/turf_decal/bot_white,
 /obj/structure/closet/secure_closet/freezer/milk_eggs_rice_sugar_flour,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "tqp" = (
@@ -59474,6 +59502,7 @@
 /area/station/cargo/storage)
 "uzq" = (
 /obj/machinery/duct,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "uzG" = (
@@ -60906,6 +60935,7 @@
 /area/station/commons/lounge)
 "vaq" = (
 /obj/structure/ladder,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "vaw" = (
@@ -62010,6 +62040,7 @@
 /obj/effect/turf_decal/trimline/yellow/corner{
 	dir = 4
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
 /area/station/service/kitchen)
 "vuM" = (
