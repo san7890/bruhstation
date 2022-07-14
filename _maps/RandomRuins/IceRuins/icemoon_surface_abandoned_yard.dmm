@@ -28,6 +28,10 @@
 /obj/structure/shipping_container/nanotrasen,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"l" = (
+/obj/structure/shipping_container/kosmologistika,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "o" = (
 /obj/structure/fence{
 	dir = 4
@@ -43,6 +47,10 @@
 /area/icemoon/surface/outdoors/nospawn)
 "q" = (
 /obj/structure/fence/cut/large,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"r" = (
+/obj/structure/shipping_container/cybersun,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
 "t" = (
@@ -98,6 +106,10 @@
 "I" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/surface/outdoors/nospawn)
+"J" = (
+/obj/structure/shipping_container/deforest,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "K" = (
 /obj/structure/shipping_container/nakamura,
 /turf/open/floor/plating/snowed/smoothed/icemoon,
@@ -121,8 +133,13 @@
 /obj/structure/chair/office/light{
 	dir = 4
 	},
+/obj/structure/sign/calendar/directional/west,
 /turf/open/floor/iron,
 /area/ruin/shipyard)
+"V" = (
+/obj/structure/shipping_container/vitezstvi,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 
 (1,1,1) = {"
 I
@@ -193,13 +210,13 @@ H
 f
 f
 f
-f
-f
+k
+x
 k
 k
-f
-f
 R
+J
+K
 f
 o
 I
@@ -254,11 +271,11 @@ f
 f
 f
 L
-f
-f
+l
 k
-f
-f
+k
+k
+k
 R
 f
 o
@@ -308,17 +325,17 @@ I
 I
 o
 f
-f
-f
 k
-f
+J
+k
+R
 f
 x
-f
-f
 K
-f
-f
+x
+K
+V
+k
 k
 f
 o
@@ -368,10 +385,10 @@ I
 I
 o
 f
-f
-f
 k
-f
+r
+k
+k
 f
 f
 f
