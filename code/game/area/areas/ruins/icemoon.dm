@@ -46,5 +46,5 @@
 	name = "\improper Engineering Outpost"
 
 /area/ruin/shipyard
-	name = "\improper Shipyard"
+	name = "\improper Abandoned Shipping Yard"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED

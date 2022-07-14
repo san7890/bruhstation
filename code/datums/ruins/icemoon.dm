@@ -55,6 +55,12 @@
 	description = "Moffuchi's Family Pizzeria chain has a reputation for providing affordable artisanal meals of questionable edibility. This particular pizzeria seems to have been abandoned for some time."
 	suffix = "icemoon_surface_pizza.dmm"
 
+/datum/map_template/ruin/icemoon/shipyard
+	name = "Abandoned Shipping Yard"
+	id = "shipyard"
+	description = "A shipyard once constructed to aid with the construction of the station, it's now derelict with a few scattered shipping containers."
+	suffix = "icemoon_surface_abandoned_yard.dmm"
+
 // above and below ground together
 
 /datum/map_template/ruin/icemoon/mining_site
