@@ -44,3 +44,7 @@
 
 /area/ruin/planetengi
 	name = "\improper Engineering Outpost"
+
+/area/ruin/shipyard
+	name = "\improper Shipyard"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED

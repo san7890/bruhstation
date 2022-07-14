@@ -1,0 +1,486 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/fence,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"d" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/open/floor/iron,
+/area/ruin/shipyard)
+"e" = (
+/obj/machinery/space_heater,
+/turf/open/floor/iron,
+/area/ruin/shipyard)
+"f" = (
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"g" = (
+/obj/structure/fence/end,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"h" = (
+/obj/machinery/door/airlock{
+	name = "Cargo Office"
+	},
+/turf/open/floor/iron/icemoon,
+/area/ruin/shipyard)
+"k" = (
+/obj/structure/shipping_container/nanotrasen,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"o" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"p" = (
+/obj/structure/fence/corner{
+	dir = 1;
+	pixel_y = 0
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"q" = (
+/obj/structure/fence/cut/large,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"t" = (
+/obj/structure/fence/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"u" = (
+/turf/closed/wall/ice,
+/area/ruin/shipyard)
+"v" = (
+/obj/effect/spawner/structure/window/reinforced/tinted,
+/turf/open/floor/plating,
+/area/ruin/shipyard)
+"w" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 4;
+	pixel_x = -9;
+	name = "Makeshift Heater";
+	desc = "Directs energy into compressed particles in order to power engines. Well, that's what it used to be meant for."
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"x" = (
+/obj/structure/shipping_container/conarex,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"y" = (
+/turf/closed/wall,
+/area/ruin/shipyard)
+"z" = (
+/obj/structure/fence/cut/large{
+	dir = 8
+	},
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"C" = (
+/obj/structure/fence/door,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"E" = (
+/obj/structure/sign/flag/nanotrasen/directional/north,
+/turf/open/floor/iron,
+/area/ruin/shipyard)
+"H" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left/directional/west{
+	dir = 1
+	},
+/turf/open/floor/iron/icemoon,
+/area/ruin/shipyard)
+"I" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"K" = (
+/obj/structure/shipping_container/nakamura,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"L" = (
+/obj/structure/shipping_container/gorlex/red,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"M" = (
+/turf/open/floor/iron,
+/area/ruin/shipyard)
+"O" = (
+/obj/structure/sign/clock/directional/east,
+/turf/open/floor/iron,
+/area/ruin/shipyard)
+"R" = (
+/obj/structure/shipping_container/donk_co,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
+"T" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/ruin/shipyard)
+
+(1,1,1) = {"
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+"}
+(2,1,1) = {"
+I
+u
+y
+y
+u
+a
+a
+a
+q
+a
+a
+a
+a
+a
+a
+a
+p
+I
+"}
+(3,1,1) = {"
+I
+u
+e
+T
+u
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(4,1,1) = {"
+I
+y
+d
+M
+H
+f
+f
+f
+f
+f
+k
+k
+f
+f
+R
+f
+o
+I
+"}
+(5,1,1) = {"
+I
+y
+E
+O
+h
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(6,1,1) = {"
+I
+u
+v
+y
+u
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(7,1,1) = {"
+I
+o
+w
+f
+f
+f
+f
+f
+L
+f
+f
+k
+f
+f
+R
+f
+o
+I
+"}
+(8,1,1) = {"
+I
+o
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(9,1,1) = {"
+I
+o
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+z
+I
+"}
+(10,1,1) = {"
+I
+o
+f
+f
+f
+k
+f
+f
+x
+f
+f
+K
+f
+f
+k
+f
+o
+I
+"}
+(11,1,1) = {"
+I
+o
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(12,1,1) = {"
+I
+o
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(13,1,1) = {"
+I
+o
+f
+f
+f
+k
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+o
+I
+"}
+(14,1,1) = {"
+I
+o
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+I
+"}
+(15,1,1) = {"
+I
+C
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+I
+"}
+(16,1,1) = {"
+I
+o
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+I
+"}
+(17,1,1) = {"
+I
+t
+a
+a
+q
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+g
+I
+"}
+(18,1,1) = {"
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+"}
