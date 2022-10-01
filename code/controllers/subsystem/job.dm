@@ -603,7 +603,7 @@ SUBSYSTEM_DEF(job)
 
 /// Called in jobs subsystem initialize if LOAD_JOBS_FROM_TXT config flag is set reads jobconfig.toml (or if in legacy mode, jobs.txt) to set all of the datum's values to what the server operator wants.
 /datum/controller/subsystem/job/proc/load_jobs_from_config()
-	var/toml_file = file("[global.config.directory]/jobconfig.toml")
+	var/toml_file = "[global.config.directory]/jobconfig.toml"
 
 	if(!legacy_mode) // this flag is set during the setup of SSconfig, and all warnings were handled there.
 		var/job_config = rustg_read_toml_file(toml_file)
@@ -635,20 +635,20 @@ SUBSYSTEM_DEF(job)
 
 /// Called from an admin debug verb that generates the jobconfig.toml file and then allows the end user to download it to their machine. Returns TRUE if a file is successfully generated, FALSE otherwise.
 /datum/controller/subsystem/job/proc/generate_config(mob/user)
-	var/toml_file = file("[global.config.directory]/jobconfig.toml")
-	var/jobstext = file("[global.config.directory]/jobs.txt")
+	var/toml_file = "[global.config.directory]/jobconfig.toml"
+	var/jobstext = "[global.config.directory]/jobs.txt"
 	var/caller = user
 	var/list/file_data = list()
 
-	if(fexists(toml_file))
+	if(fexists(file(toml_file)))
 		to_chat(src, span_notice("Generating new jobconfig.toml, pulling from the old config settings."))
 		if(!regenerate_job_config(caller))
 			return FALSE
 		return TRUE
 
-	if(fexists(jobstext)) // Generate the new TOML format, migrating from the text format.
+	if(fexists(file(jobstext))) // Generate the new TOML format, migrating from the text format.
 		to_chat(caller, span_notice("Found jobs.txt in config directory! Generating jobconfig.toml from it."))
-		jobstext = file2text(jobstext)
+		jobstext = file2text(file(jobstext)) // walter i'm dying (get the file from the string, then parse it into a larger text string)
 		for(var/datum/job/occupation as anything in joinable_occupations)
 			var/job_key = occupation.config_tag
 			var/regex/parser = new("[occupation.title]=(-1|\\d+),(-1|\\d+)") // TXT system used the occupation's name, we convert it to the new config_key system here.
@@ -697,11 +697,11 @@ SUBSYSTEM_DEF(job)
 
 /// If we add a new job or more fields to config a job with, quickly spin up a brand new config that inherits all of your old settings, but adds the new job with codebase defaults. Returns TRUE if a file is successfully generated, FALSE otherwise.
 /datum/controller/subsystem/job/proc/regenerate_job_config(mob/user)
-	var/toml_file = file("[global.config.directory]/jobconfig.toml")
+	var/toml_file = "[global.config.directory]/jobconfig.toml"
 	var/list/file_data = list()
 	var/caller = user
 
-	if(!fexists(toml_file)) // You need an existing (valid) TOML for this to work. Sanity check if someone calls this directly.
+	if(!fexists(file(toml_file))) // You need an existing (valid) TOML for this to work. Sanity check if someone calls this directly.
 		to_chat(caller, span_notice("No jobconfig.toml found in the config folder! If this is not expected, please notify a server operator or coders. You may need to generate a new config file by running 'Generate Job Configuration' from the Server tab."))
 		return FALSE
 
