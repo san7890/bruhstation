@@ -97,6 +97,17 @@
 	report_message = "Something seems to be wrong with the PDAs issued to you all this shift. Nothing too bad though."
 	trait_to_give = STATION_TRAIT_PDA_GLITCHED
 
+/// Gives everyone a random speech bubble (bubble_icon) every time they talk
+/datum/station_trait/jumbled_bubbles
+	name = "Weird Tonal Inflections"
+	trait_type = STATION_TRAIT_NEUTRAL
+	weight = 1 // let's not do this often
+	show_in_report = TRUE
+	report_message = "Something's just plain off with the way everyone's speaking today."
+	trait_to_give = STATION_TRAIT_JUMBLED_BUBBLES
+
+	force = TRUE
+
 /datum/station_trait/announcement_intern
 	name = "Announcement Intern"
 	trait_type = STATION_TRAIT_NEUTRAL
