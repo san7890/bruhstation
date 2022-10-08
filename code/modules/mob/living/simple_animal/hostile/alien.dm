@@ -19,7 +19,7 @@
 	attack_verb_continuous = "slashes"
 	attack_verb_simple = "slash"
 	speak_emote = list("hisses")
-	bubble_icon = "alien"
+	bubble_icon = /datum/speech_bubble/alien
 	combat_mode = TRUE
 	attack_sound = 'sound/weapons/bladeslice.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW
@@ -131,7 +131,7 @@
 	icon_living = "alienq"
 	icon_dead = "alienq_dead"
 	health_doll_icon = "alienq"
-	bubble_icon = "alienroyal"
+	bubble_icon = /datum/speech_bubble/alien/royal
 	move_to_delay = 4
 	maxHealth = 400
 	health = 400

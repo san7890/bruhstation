@@ -8,7 +8,7 @@
 	see_in_dark = 4
 	verb_say = "hisses"
 	initial_language_holder = /datum/language_holder/alien
-	bubble_icon = "alien"
+	bubble_icon = /datum/speech_bubble/alien
 	type_of_meat = /obj/item/food/meat/slab/xeno
 	blocks_emissive = EMISSIVE_BLOCK_UNIQUE
 

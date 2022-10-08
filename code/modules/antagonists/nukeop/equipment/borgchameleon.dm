@@ -89,7 +89,7 @@
 	user.name = friendlyName
 	user.model.cyborg_base_icon = disguise
 	user.model.name = capitalize(disguise)
-	user.bubble_icon = "robot"
+	user.bubble_icon = /datum/speech_bubble/robot
 	active = TRUE
 	user.update_icons()
 
@@ -109,7 +109,7 @@
 	user.name = savedName
 	user.model.cyborg_base_icon = initial(user.model.cyborg_base_icon)
 	user.model.name = initial(user.model.name)
-	user.bubble_icon = "syndibot"
+	user.bubble_icon = /datum/speech_bubble/syndibot
 	active = FALSE
 	user.update_icons()
 	src.user = user

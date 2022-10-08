@@ -20,7 +20,7 @@
 	initial_language_holder = /datum/language_holder/drone/syndicate
 	faction = list(ROLE_SYNDICATE)
 	speak_emote = list("hisses")
-	bubble_icon = "syndibot"
+	bubble_icon = /datum/speech_bubble/syndibot
 	heavy_emp_damage = 10
 	laws = \
 	"1. Interfere.\n"+\

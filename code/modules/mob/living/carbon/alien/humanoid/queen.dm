@@ -6,7 +6,7 @@
 	base_pixel_x = -16
 	maptext_height = 64
 	maptext_width = 64
-	bubble_icon = "alienroyal"
+	bubble_icon = /datum/speech_bubble/alien/royal
 	mob_size = MOB_SIZE_LARGE
 	layer = LARGE_MOB_LAYER //above most mobs, but below speechbubbles
 	plane = GAME_PLANE_UPPER_FOV_HIDDEN

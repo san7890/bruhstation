@@ -280,7 +280,7 @@
 	playsound(loc, SFX_SPARKS, 50, TRUE, SHORT_RANGE_SOUND_EXTRARANGE)
 	to_chat(src, span_danger("UPLOAD COMPLETE. NEW CYBORG MODEL DETECTED.  INSTALLING..."))
 	faction = list(ROLE_NINJA)
-	bubble_icon = "syndibot"
+	bubble_icon = /datum/speech_bubble/syndibot
 	UnlinkSelf()
 	ionpulse = TRUE
 	laws = new /datum/ai_laws/ninja_override()

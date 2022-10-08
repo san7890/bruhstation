@@ -66,8 +66,6 @@ GLOBAL_LIST_EMPTY(mob_config_movespeed_type_lookup)
 
 GLOBAL_LIST_EMPTY(emote_list)
 
-GLOBAL_LIST_INIT(bubble_icons, get_speech_bubbles())
-
 GLOBAL_LIST_INIT(construct_radial_images, list(
 	CONSTRUCT_JUGGERNAUT = image(icon = 'icons/mob/nonhuman-player/cult.dmi', icon_state = "juggernaut"),
 	CONSTRUCT_WRAITH = image(icon = 'icons/mob/nonhuman-player/cult.dmi', icon_state = "wraith"),
@@ -109,22 +107,6 @@ GLOBAL_LIST_INIT(construct_radial_images, list(
 				.[E.key_third_person] = list(E)
 			else
 				.[E.key_third_person] |= E
-
-/// Get all possible bubble_icons that exist for mobs in the game.
-/proc/get_speech_bubbles()
-	var/list/existing_mobs = typesof(/mob/living) - typesof(/mob/living/carbon) // filter out carbons because runtimes are not cool and they happen here
-	var/list/generated_list = list()
-	for(var/entry as anything in existing_mobs)
-		var/mob/living/speaker = new entry()
-		var/bubble = speaker.bubble_icon
-		generated_list |= bubble
-		del(speaker)
-
-	// there are some bubble icons we can't directly read from just looking at mobs, so let's just manually add them here
-	generated_list += "lawyer"
-	generated_list += "signlang"
-
-	return generated_list
 
 /proc/get_crewmember_minds()
 	var/list/minds = list()

@@ -339,7 +339,7 @@
 
 /obj/item/clothing/accessory/lawyers_badge/on_uniform_equip(obj/item/clothing/under/U, mob/living/user)
 	RegisterSignal(user, COMSIG_LIVING_SLAM_TABLE, .proc/table_slam)
-	user.bubble_icon = "lawyer"
+	user.bubble_icon = new /datum/speech_bubble/lawyer
 
 /obj/item/clothing/accessory/lawyers_badge/on_uniform_dropped(obj/item/clothing/under/U, mob/living/user)
 	UnregisterSignal(user, COMSIG_LIVING_SLAM_TABLE)

@@ -7,7 +7,7 @@
 	verb_yell = "alarms"
 	initial_language_holder = /datum/language_holder/synthetic
 	see_in_dark = NIGHTVISION_FOV_RANGE
-	bubble_icon = "machine"
+	bubble_icon = /datum/speech_bubble/machine
 	mob_biotypes = MOB_ROBOTIC
 	death_sound = 'sound/voice/borg_deathsound.ogg'
 	speech_span = SPAN_ROBOT

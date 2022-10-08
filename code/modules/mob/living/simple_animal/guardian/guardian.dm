@@ -11,7 +11,7 @@ GLOBAL_LIST_EMPTY(parasites) //all currently existing/living guardians
 	speak_emote = list("hisses")
 	gender = NEUTER
 	mob_biotypes = NONE
-	bubble_icon = "guardian"
+	bubble_icon = /datum/speech_bubble/guardian
 	response_help_continuous = "passes through"
 	response_help_simple = "pass through"
 	response_disarm_continuous = "flails at"
@@ -132,28 +132,28 @@ GLOBAL_LIST_EMPTY(parasites) //all currently existing/living guardians
 		if("magic")
 			name = "Guardian Spirit"
 			real_name = "Guardian Spirit"
-			bubble_icon = "guardian"
+			bubble_icon = /datum/speech_bubble/guardian
 			icon_state = "magicbase"
 			icon_living = "magicbase"
 			icon_dead = "magicbase"
 		if("tech")
 			name = "Holoparasite"
 			real_name = "Holoparasite"
-			bubble_icon = "holo"
+			bubble_icon = /datum/speech_bubble/holo
 			icon_state = "techbase"
 			icon_living = "techbase"
 			icon_dead = "techbase"
 		if("miner")
 			name = "Power Miner"
 			real_name = "Power Miner"
-			bubble_icon = "guardian"
+			bubble_icon = /datum/speech_bubble/guardian
 			icon_state = "minerbase"
 			icon_living = "minerbase"
 			icon_dead = "minerbase"
 		if("carp")
 			name = "Holocarp"
 			real_name = "Holocarp"
-			bubble_icon = "holo"
+			bubble_icon = /datum/speech_bubble/holo
 			icon_state = "holocarp"
 			icon_living = "holocarp"
 			icon_dead = "holocarp"

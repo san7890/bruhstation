@@ -30,7 +30,7 @@
 	verb_ask = "queries"
 	verb_exclaim = "declares"
 	verb_yell = "alarms"
-	bubble_icon = "machine"
+	bubble_icon = /datum/speech_bubble/machine
 	speech_span = SPAN_ROBOT
 	del_on_death = 1
 	loot = list(/obj/effect/decal/cleanable/robot_debris)

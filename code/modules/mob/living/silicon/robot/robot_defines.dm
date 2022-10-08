@@ -12,7 +12,7 @@
 	icon_state = "robot"
 	maxHealth = 100
 	health = 100
-	bubble_icon = "robot"
+	bubble_icon = /datum/speech_bubble/robot
 	designation = "Default" //used for displaying the prefix & getting the current model of cyborg
 	has_limbs = TRUE
 	hud_type = /datum/hud/robot
@@ -184,7 +184,7 @@
 /mob/living/silicon/robot/model/syndicate
 	icon_state = "synd_sec"
 	faction = list(ROLE_SYNDICATE)
-	bubble_icon = "syndibot"
+	bubble_icon = /datum/speech_bubble/syndibot
 	req_access = list(ACCESS_SYNDICATE)
 	lawupdate = FALSE
 	scrambledcodes = TRUE // These are rogue borgs.

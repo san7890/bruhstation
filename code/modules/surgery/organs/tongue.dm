@@ -498,7 +498,7 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	signer.verb_whisper = "subtly signs"
 	signer.verb_sing = "rythmically signs"
 	signer.verb_yell = "emphatically signs"
-	signer.bubble_icon = "signlang"
+	signer.bubble_icon = /datum/speech_bubble/sign_language
 	ADD_TRAIT(signer, TRAIT_SIGN_LANG, ORGAN_TRAIT)
 	REMOVE_TRAIT(signer, TRAIT_MUTE, ORGAN_TRAIT)
 
