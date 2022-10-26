@@ -13,6 +13,7 @@
 
 /datum/computer_file/program/emojipedia/ui_data(mob_user)
 	var/list/data = get_header_data()
+	sortTim(emoji_list, /proc/cmp_text_asc)
 	for(var/emoji in emoji_list)
 		data["emoji_list"] += list(list(
 			"name" = emoji,

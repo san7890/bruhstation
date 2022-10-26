@@ -1,5 +1,5 @@
 import { useBackend, useLocalState } from '../backend';
-import { Box, Section, Table } from '../components';
+import { Box, Section } from '../components';
 import { NtosWindow } from '../layouts';
 
 export const NtosEmojipedia = (props, context) => {
@@ -11,7 +11,7 @@ export const NtosEmojipedia = (props, context) => {
     <NtosWindow width={600} height={800}>
       <NtosWindow.Content scrollable>
         <Section textAlign="center">
-          <span style={italics}>EmojiPedia 2.0 - All You Could Ever Need!</span>
+          <i>EmojiPedia 2.0 - All You Could Ever Need!</i>
         </Section>
         {emoji_list.map((emoji) => (
           <Section key={emoji.name}>
