@@ -1,10 +1,9 @@
-import { useBackend, useLocalState } from '../backend';
+import { useBackend } from '../backend';
 import { Box, Section } from '../components';
 import { NtosWindow } from '../layouts';
 
 export const NtosEmojipedia = (props, context) => {
   const { act, data } = useBackend(context);
-  const [searchTerm, setSearchTerm] = useLocalState(context, 'search', '');
   const { emoji_list } = data;
 
   return (

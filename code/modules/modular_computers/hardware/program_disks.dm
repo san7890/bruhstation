@@ -21,7 +21,6 @@
 	. = ..()
 	store_file(new /datum/computer_file/program/records/security)
 	store_file(new /datum/computer_file/program/records/medical)
-	store_file(new /datum/computer_file/program/emojipedia) // san7890 delete this
 	store_file(new /datum/computer_file/program/phys_scanner/all)
 
 /obj/item/computer_hardware/hard_drive/portable/command/cmo

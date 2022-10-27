@@ -11,9 +11,13 @@
 	/// Store the list of potential emojis here.
 	var/static/list/emoji_list = icon_states(icon(EMOJI_SET))
 
+/datum/computer_file/program/emojipedia/New()
+	. = ..()
+	// Sort the emoji list so it's easier to find things and we don't have to keep sorting on ui_data since the number of emojis can not change in-game.
+	emoji_list = sortTim(emoji_list, /proc/cmp_text_asc)
+
 /datum/computer_file/program/emojipedia/ui_data(mob_user)
 	var/list/data = get_header_data()
-	sortTim(emoji_list, /proc/cmp_text_asc)
 	for(var/emoji in emoji_list)
 		data["emoji_list"] += list(list(
 			"name" = emoji,
