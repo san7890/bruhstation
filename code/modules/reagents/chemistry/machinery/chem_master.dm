@@ -176,6 +176,8 @@
 	update_appearance()
 	return TRUE
 
+// big big chungus
+
 /obj/machinery/chem_master/on_deconstruction()
 	replace_beaker()
 	if(bottle)
