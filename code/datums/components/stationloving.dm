@@ -235,13 +235,13 @@
 	if (!destination_turf)
 		return FALSE
 	if (is_station_level(destination_turf.z))
-		if(is_clingy)
-			if(!(is_type_in_typecache(destination_area, outdoors_areas) && clingy_handling)) // if passed, we over-write the rest of the proc here, just in case we're doing some clingy handling timers and such
-				if(!clingy_outdoors_checking())
-					return FALSE
-			else
-				clingy_messaging_tree()
-		return TRUE
+		if(!is_clingy)
+			return TRUE
+		if(!validate_parent_area(atom_to_check))
+			return clingy_outdoors_checking() // if passed, we over-write the rest of the proc here, just in case we're doing some clingy handling timers and such
+		else
+			clingy_messaging_tree()
+			return TRUE
 
 	if (is_centcom_level(destination_turf.z))
 		if (is_type_in_typecache(destination_area, disallowed_centcom_areas))
@@ -251,8 +251,19 @@
 		if (is_type_in_typecache(destination_area, allowed_shuttles))
 			return TRUE
 
+/datum/component/stationloving/proc/validate_parent_area(atom/atom_to_check)
+	var/area/destination_area = get_area(atom_to_check)
+	if(istype(destination_area, /area/station))
+		return TRUE
+	else if(is_type_in_typecache(destination_area, outdoors_areas))
+		return FALSE
+	else
+		return TRUE
+
 /// Handles specific clingy behavior for when our parent is outdoors (like in space, or outside on a planetary map). Return TRUE if we're inside and fine, FALSE otherwise.
 /datum/component/stationloving/proc/clingy_outdoors_checking()
+	if(clingy_handling)
+		return TRUE // we're already handling this, so we'll pass true to let it go through
 	var/atom/movable/item = parent
 	var/item_area = get_area(item)
 
@@ -267,7 +278,7 @@
 	var/timer_countdown = (clingy_timer_duration / (1 SECONDS))
 	for(var/integer in 1 to timer_countdown)
 		item.balloon_alert_to_viewers("[timer_countdown - integer] seconds left...") // "29 seconds left..."
-		if(atom_in_bounds(item, is_clingy = TRUE))
+		if(validate_parent_area(item))
 			clingy_handling = FALSE
 			clingy_message(BACK_INSIDE_STATION)
 			return TRUE
