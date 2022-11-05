@@ -14,7 +14,9 @@
 #define OUTSIDE_ON_PLANETARY_STATION "Outside on Planetary Station"
 /// Parent will send a message about being left alone when you drop it. Very saddening.
 #define DROPPED_ALONE "Dropped Alone"
-/// Parent will send a message about how we're back inside the station, safe at-last.
+/// Parent will send a message about how we're safe inside the station. Just chilling out and hanging around. Good times.
+#define ON_STATION "On Station"
+/// Parent will send a message about how they're thankful that they're safe inside the station.
 #define BACK_INSIDE_STATION "Back Inside Station"
 /// Parent will send a callous message to anyone who can hear it right before it zoops away.
 #define PISSING_OFF "Pissing Off"
@@ -42,7 +44,7 @@
 	/// Are we currently on a cooldown for the (unimportant) messaging tree? This is to prevent spamming the user with messages. Don't use this for the important stuff, like the off-station timer.
 	var/unimportant_clingy_message_cooldown = FALSE
 
-	// Typecache of shuttles that we allow the disk to stay on
+	/// Typecache of shuttles that we allow the disk to stay on
 	var/static/list/allowed_shuttles = typecacheof(list(
 		/area/shuttle/syndicate,
 		/area/shuttle/escape,
@@ -51,7 +53,7 @@
 		/area/shuttle/pod_3,
 		/area/shuttle/pod_4,
 	))
-	// Typecache of areas on the centcom Z-level that we do not allow the disk to stay on
+	/// Typecache of areas on the centcom Z-level that we do not allow the disk to stay on
 	var/static/list/disallowed_centcom_areas = typecacheof(list(
 		/area/centcom/abductor_ship,
 		/area/awaymission/errorroom,
@@ -229,17 +231,18 @@
 		return FALSE
 	// No turf below us = nullspace = not in bounds
 	var/turf/destination_turf = get_turf(atom_to_check)
+	var/area/destination_area = get_area(atom_to_check)
 	if (!destination_turf)
 		return FALSE
 	if (is_station_level(destination_turf.z))
-		if(is_clingy && !clingy_handling) // if passed, we over-write the rest of the proc here, just in case we're doing some clingy handling timers and such
-		// Check if we're in an outdoors area, and if we are, clingy_outdoors_handling() will determine the timer duration by "hijacking" this proc.
-			if(!clingy_outdoors_handling())
-				return FALSE
-			// Just for saying funny/important messages, nothing of value should be in here.
-			clingy_messaging_tree()
+		if(is_clingy)
+			if(!(is_type_in_typecache(destination_area, outdoors_areas) && clingy_handling)) // if passed, we over-write the rest of the proc here, just in case we're doing some clingy handling timers and such
+				if(!clingy_outdoors_checking())
+					return FALSE
+			else
+				clingy_messaging_tree()
+		return TRUE
 
-	var/area/destination_area = destination_turf.loc
 	if (is_centcom_level(destination_turf.z))
 		if (is_type_in_typecache(destination_area, disallowed_centcom_areas))
 			return FALSE
@@ -249,12 +252,9 @@
 			return TRUE
 
 /// Handles specific clingy behavior for when our parent is outdoors (like in space, or outside on a planetary map). Return TRUE if we're inside and fine, FALSE otherwise.
-/datum/component/stationloving/proc/clingy_outdoors_handling()
+/datum/component/stationloving/proc/clingy_outdoors_checking()
 	var/atom/movable/item = parent
 	var/item_area = get_area(item)
-
-	if(!is_type_in_typecache(item_area, outdoors_areas))
-		return TRUE
 
 	var/first_recorded_turf = get_turf(item)
 
@@ -264,9 +264,10 @@
 
 	addtimer(CALLBACK(src, .proc/clingy_message, CLINGY_TIMER_START_MESSAGE), 1 SECONDS) // little bit of a delay to make it look more natural even though the timers spitting
 
-	for(var/integer in 1 to (clingy_timer_duration / (1 SECONDS)))
-		item.balloon_alert_to_viewers("[clingy_timer_duration - integer] seconds left...") // "29 seconds left..."
-		if(!atom_in_bounds(item, TRUE))
+	var/timer_countdown = (clingy_timer_duration / (1 SECONDS))
+	for(var/integer in 1 to timer_countdown)
+		item.balloon_alert_to_viewers("[timer_countdown - integer] seconds left...") // "29 seconds left..."
+		if(atom_in_bounds(item, is_clingy = TRUE))
 			clingy_handling = FALSE
 			clingy_message(BACK_INSIDE_STATION)
 			return TRUE
@@ -276,15 +277,20 @@
 	clingy_message(PISSING_OFF)
 	var/final_recorded_turf = get_turf(item)
 	var/turf_to_move_to = find_safe_turf()
-	clingy_handling = FALSE
-	full_move(turf_to_move_to)
 	generate_logs(first_recorded_turf, final_recorded_turf, turf_to_move_to, clingy_timer_expired = TRUE)
+	addtimer(CALLBACK(src, .proc/full_move, turf_to_move_to), 1 SECONDS)
+	addtimer(CALLBACK(src, .proc/invert_clingy_handling), 1 SECONDS) // this is just so the override lasts long enough so we can teleport once, and not trigger another one immediately after.
 	return FALSE
+
+/// Simple proc that just inverts the value of clingy_handling, just so we can assign a timer to it.
+/datum/component/stationloving/proc/invert_clingy_handling()
+	clingy_handling = !clingy_handling
+	return clingy_handling
 
 /// This handles saying funny/important messages in certain situations that our parent can find itself in.
 /// Do not put anything critical to atom_in_bounds() here, add a new proc or update clingy_outdoors_handling() instead.
 /datum/component/stationloving/proc/clingy_messaging_tree()
-	if(unimportant_clingy_message_cooldown)
+	if(unimportant_clingy_message_cooldown || clingy_handling)
 		return
 
 	var/atom/movable/item = parent
@@ -307,6 +313,12 @@
 			cooldown_clingy_messages()
 		// Return FALSE so we can give a desired message appropriate to the situation, but continue with bounds checking in atom_in_bounds()
 		clingy_message(ON_UNFAVORABLE_SHUTTLE)
+		cooldown_clingy_messages()
+		return
+
+	// Small message to tell you how much it appreciates being on the station :)
+	if(prob(0.1) && istype(item_area, /area/station))
+		clingy_message(ON_STATION)
 		cooldown_clingy_messages()
 		return
 
@@ -335,22 +347,24 @@
 	switch(message_type) // san7890 - these are default messages. change these.
 		if(CLINGY_TIMER_START_MESSAGE)
 			speaker.say("Get me back inside in [DisplayTimeText(clingy_timer_duration)] or I'll be very upset!", forced = COMPONENT_FORCED_SPEAK_NAME)
-		if(IN_SPACE)
-			speaker.say("I'm in space!", forced = COMPONENT_FORCED_SPEAK_NAME)
-		if(IN_MINING)
-			speaker.say("I'm in the asteroid!", forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(IN_ICEMOON)
 			speaker.say("I'm outside in the ice! It's so cold!", forced = COMPONENT_FORCED_SPEAK_NAME)
-		if(ON_UNFAVORABLE_SHUTTLE)
-			speaker.say("I'm on a shuttle that's not going to the station! I need to be on a shuttle that's going to the station!", forced = COMPONENT_FORCED_SPEAK_NAME)
+		if(IN_MINING)
+			speaker.say("I'm in the asteroid!", forced = COMPONENT_FORCED_SPEAK_NAME)
+		if(IN_SPACE)
+			speaker.say("I'm in space!", forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(ON_FAVORABLE_SHUTTLE)
 			speaker.say("I'm on a shuttle that's going to CentCom! I'm safe here!", forced = COMPONENT_FORCED_SPEAK_NAME)
+		if(ON_STATION)
+			speaker.say("I'm inside the station! I like being safe here!", forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(BACK_INSIDE_STATION)
-			speaker.say("I'm back inside the station! I'm safe here!", forced = COMPONENT_FORCED_SPEAK_NAME)
-		if(PISSING_OFF)
-			speaker.say("Fuck you, I'm out of here. :middle_finger:", forced = COMPONENT_FORCED_SPEAK_NAME)
+			speaker.say(("Phew, back inside the station." + " I'm alright now."), forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(ON_SYNDICATE_SHUTTLE)
 			speaker.say("There appears to be a lot of red in here...", forced = COMPONENT_FORCED_SPEAK_NAME)
+		if(ON_UNFAVORABLE_SHUTTLE)
+			speaker.say("I'm on a shuttle that's not going to the station! I need to be on a shuttle that's going to the station!", forced = COMPONENT_FORCED_SPEAK_NAME)
+		if(PISSING_OFF)
+			speaker.say("Fuck you, I'm out of here. :middle_finger:", forced = COMPONENT_FORCED_SPEAK_NAME)
 		else
 			stack_trace("Called clingy_message without a valid message_type.")
 
@@ -376,11 +390,15 @@
 			Preventing destruction and moving it to [ADMIN_VERBOSEJMP(new_turf)].")
 	return TRUE
 
-#undef IN_SPACE
-#undef ON_UNFAVORABLE_SHUTTLE
-#undef ON_FAVORABLE_SHUTTLE
-#undef OUTSIDE_ON_PLANETARY_STATION
-#undef BACK_INSIDE_STATION
-#undef PISSING_OFF
+#undef CLINGY_TIMER_START_MESSAGE
 #undef COMPONENT_FORCED_SPEAK_NAME
+#undef IN_ICEMOON
+#undef IN_MINING
+#undef IN_SPACE
+#undef ON_FAVORABLE_SHUTTLE
+#undef ON_STATION
 #undef ON_SYNDICATE_SHUTTLE
+#undef ON_UNFAVORABLE_SHUTTLE
+#undef OUTSIDE_ON_PLANETARY_STATION
+#undef PISSING_OFF
+#undef BACK_INSIDE_STATION
