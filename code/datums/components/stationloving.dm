@@ -341,7 +341,7 @@
 /// This handles saying funny/important messages in certain situations that our parent can find itself in.
 /// Do not put anything critical to atom_in_bounds() here, add a new proc or update clingy_outdoors_handling() instead.
 /datum/component/stationloving/proc/clingy_messaging_tree()
-	if(!COOLDOWN_FINISHED(src, clingy_message_cooldown) || clingy_handling) // clingy_handling being TRUE means we're doing something important with messages somewhere else, let's not bother.
+	if(!COOLDOWN_FINISHED(src, unimportant_clingy_message_cooldown) || clingy_handling) // clingy_handling being TRUE means we're doing something important with messages somewhere else, let's not bother.
 		return
 
 	var/atom/movable/item = parent
@@ -395,7 +395,7 @@
 	var/atom/movable/speaker = parent
 	var/concatenated_message = ""
 
-	concatenated_message = strings(strings_file, message_type)
+	concatenated_message = pick(strings(strings_file, message_type))
 
 	switch(message_type) // san7890 - these are default messages. change these.
 		if(BACK_INSIDE_STATION) // could also be considered a "Clingy Timer Stop Message", but it can also work from just getting back inside from space.
