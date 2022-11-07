@@ -39,7 +39,8 @@
 	/// Number of seconds we create a bound-checking timer for. This only matters in clingy mode, and it's how long the item-holder has to get back to a safe zone.
 	var/clingy_timer_duration = 30 SECONDS
 	/// Are we currently on a cooldown for the (unimportant) messaging tree? This is to prevent spamming the user with messages. Don't use this for the important stuff, like the off-station timer.
-	var/unimportant_clingy_message_cooldown = FALSE
+	/// Default to using clingy_timer_duration as the actual length of the cooldown.
+	COOLDOWN_DECLARE(unimportant_clingy_message_cooldown)
 	/// The file name of the JSON strings file that we will use to get our messages from. Default to using the one for the Nuclear Disk file, but make up your own strings to be pertinent to the object should you choose to deviate.
 	var/strings_file = NUCLEAR_DISK_FILE
 	/// Area cache, used for instances where we just want to quickly check if our area has mismatched so we can dispatch a message.
@@ -340,7 +341,7 @@
 /// This handles saying funny/important messages in certain situations that our parent can find itself in.
 /// Do not put anything critical to atom_in_bounds() here, add a new proc or update clingy_outdoors_handling() instead.
 /datum/component/stationloving/proc/clingy_messaging_tree()
-	if(unimportant_clingy_message_cooldown || clingy_handling)
+	if(!COOLDOWN_FINISHED(src, clingy_message_cooldown) || clingy_handling) // clingy_handling being TRUE means we're doing something important with messages somewhere else, let's not bother.
 		return
 
 	var/atom/movable/item = parent
@@ -354,7 +355,7 @@
 	// We're in space now!
 	if(istype(item_area, /area/space))
 		clingy_message(IN_SPACE)
-		cooldown_clingy_messages()
+		COOLDOWN_START(src, unimportant_clingy_message_cooldown, clingy_timer_duration)
 		return
 
 	// Handle shuttles.
@@ -362,33 +363,23 @@
 		if(is_type_in_typecache(item_area, allowed_shuttles))
 			if(istype(item_area, /area/shuttle/syndicate))
 				clingy_message(ON_SYNDICATE_SHUTTLE) // some funny special lines here :)
-				cooldown_clingy_messages()
+				COOLDOWN_START(src, unimportant_clingy_message_cooldown, clingy_timer_duration)
 				return
 			else if(EMERGENCY_AT_LEAST_DOCKED) // The lines are created with the intent of being "end of the journey", so only say them if shuttle's docked
 				clingy_message(ON_FAVORABLE_SHUTTLE)
-				cooldown_clingy_messages()
+				COOLDOWN_START(src, unimportant_clingy_message_cooldown, clingy_timer_duration)
 			else
 				return
 		// We aren't in a whitelisted shuttle, so yell at the user that they might be off to a bad location.
 		clingy_message(ON_UNFAVORABLE_SHUTTLE)
-		cooldown_clingy_messages()
+		COOLDOWN_START(src, unimportant_clingy_message_cooldown, clingy_timer_duration)
 		return
 
 	// Small message to tell you how much it appreciates being on the station :). One in a thousand times (on any area change) doesn't sound annoying to me, change it if it gets too spammy.
 	if(prob(0.01) && istype(item_area, /area/station))
 		clingy_message(ON_STATION)
-		cooldown_clingy_messages()
+		COOLDOWN_START(src, unimportant_clingy_message_cooldown, clingy_timer_duration)
 		return
-
-/// For non-important messages only (like when we're in space and not about to teleport away). Cooldowns are handled here.
-/datum/component/stationloving/proc/cooldown_clingy_messages()
-	unimportant_clingy_message_cooldown = TRUE
-	addtimer(CALLBACK(src, .proc/restore_clingy_messages), clingy_timer_duration) // Re-use clingy_timer_duration here because it's all sorta cohesive in that way.
-	return
-
-/datum/component/stationloving/proc/restore_clingy_messages()
-	unimportant_clingy_message_cooldown = FALSE
-	return
 
 /// We're not in a safe area, so we need to move. Let's figure out what message we should send based on our area. Return the type of message we want to say.
 /datum/component/stationloving/proc/determine_appropriate_message(area/area_in_question)
