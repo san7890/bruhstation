@@ -164,11 +164,9 @@
 	SIGNAL_HANDLER
 
 	var/turf/current_area = get_area(source)
-	// We don't have to proceed with doing any costly procs here if our area hasn't even changed.
-	if(area_cache == current_area)
+	// We don't have to proceed with doing any costly procs here if our area hasn't even changed (setting the cached area is handled via validate_parent_area() since we only concern ourselves with areas on station z-levels).
+	if(last_cached_area == current_area)
 		return
-
-	area_cache = current_area
 
 	if(atom_in_bounds(source, clingy))
 		return
@@ -195,8 +193,8 @@
 	// for our intents and purposes regarding secluded, the source is both the source atom and the destination turf
 	generate_logs(source, source, new_destination, loc_changed = FALSE)
 
-/// Generate logs and messages for when our parent goes back to the station. Args are important in how you pass them in.
-/// Source Atom was the location where the parent was "safe", the very last turf that it was okay at right before we started to move it. Could be the thing that's secluding the disk, or the source turf.
+/// Generate logs and messages for when our parent goes back to the station. Args are important in how you pass them in in relation to their meaning.
+/// Source Atom was the location where the parent was "safe", the very last coordinate that it was okay at right before we started to move it. Could be the thing that's secluding the disk, or the source turf.
 /// Destination Turf was the turf that the parent was moved to. This is the "unsafe" turf that triggered the forceMove. If we're calling this since parent got put in a secluded area, pass loc_changed as FALSE.
 /// Final Turf is the turf that we forceMoved the parent to after we determined it was in an invalid area.
 /// Use clingy_timer_expired if we do a timer countdown to requesting the parent to be moved back to the station, and the timer expired.
@@ -250,7 +248,7 @@
 		if(!is_clingy)
 			return TRUE
 		if(!validate_parent_area(atom_to_check))
-			return clingy_outdoors_checking() // if passed, we over-write the rest of the proc here, just in case we're doing some clingy handling timers and such
+			return clingy_outdoors_setup() // if passed, we over-write the rest of the proc here, just in case we're doing some clingy handling timers and such
 		else
 			clingy_messaging_tree()
 			return TRUE
@@ -263,45 +261,53 @@
 		if (is_type_in_typecache(destination_area, allowed_shuttles))
 			return TRUE
 
-/// Stripped down version that merely checks areas, useful for clingy_outdoors_checking timer.
+/// A stripped down area-checker useful for rapid checking.
 /datum/component/stationloving/proc/validate_parent_area(atom/atom_to_check)
 	var/area/destination_area = get_area(atom_to_check)
-	if(last_cached_area == destination_area) // We make the assertion here that if the areas are the same, we haven't moved into an invalid location. If mis-match, then we store the new result and check that.
-		return TRUE
-
-	last_cached_area = destination_area
 
 	if(istype(destination_area, /area/station))
 		return TRUE
 	else if(is_type_in_typecache(destination_area, outdoors_areas))
 		return FALSE
 	else
-		return TRUE
+		return TRUE // we're probably fine since we're in some sort of edge-case yet still on a station z-level.
 
 /// Handles specific clingy behavior for when our parent is outdoors (like in space, or outside on a planetary map). Return TRUE if we're inside and fine, FALSE otherwise.
-/datum/component/stationloving/proc/clingy_outdoors_checking()
+/datum/component/stationloving/proc/clingy_outdoors_setup()
 	// If we're clingy_handling, we don't need to proceed here because we're already doing some special behavior, and there's no sense in stacking timers.
 	// This is also here so we don't have to go through and do this slightly-expensive proc if we're already doing something.
 	if(clingy_handling)
 		return TRUE
 
-	var/atom/movable/item = parent
-	var/item_area = get_area(item)
-	var/first_recorded_turf = get_turf(item)
+	var/atom/movable/object = parent
+	var/object_area = get_area(object)
+	var/object_first_turf = get_turf(object)
 
 	// Everything is assembled, it's hustle time.
 	clingy_handling = TRUE
-	clingy_message(determine_appropriate_message(item_area))
+	clingy_message(determine_appropriate_message(object_area))
 
 	addtimer(CALLBACK(src, .proc/clingy_message, CLINGY_TIMER_START_MESSAGE), 1.5 SECONDS) // little bit of a delay to make it look more natural even though the timers spitting out messages
+	INVOKE_ASYNC(src, .proc/clingy_timer_handling, object, object_first_turf)
+
+	// Whenever we are called, we are in a valid station z-level, just in an invalid area, and we'll let the above async'd timer handle the rest.
+	return TRUE
+
+/// The actual timer we use when we are in an outdoors area, but still on a valid z-level otherwise. Call asynchonously so we don't interfere with anything that involves SIGNAL_HANDLER.
+/// Item is just type-casted parent (done prior to calling this proc), first_recorded_turf is the turf we started on before we called this proc (for book-keeping).
+/datum/component/stationloving/proc/clingy_timer_handling(atom/movable/item, turf/first_recorded_turf)
+	if(!item | !first_recorded_turf)
+		stack_trace("clingy_timer_handling() was called with invalid arguments!")
+		return
 
 	var/timer_countdown = (clingy_timer_duration / (1 SECONDS))
+
 	for(var/integer in 1 to timer_countdown)
 		item.balloon_alert_to_viewers("[timer_countdown - integer] seconds left...") // "29 seconds left..."
 		if(validate_parent_area(item))
 			clingy_message(BACK_INSIDE_STATION)
 			clingy_handling = FALSE
-			return TRUE
+			return
 		sleep(1 SECONDS)
 
 	// Timer ran out, and our plead was not heeded. We're moving.
@@ -310,8 +316,7 @@
 	var/turf_to_move_to = find_safe_turf()
 	generate_logs(first_recorded_turf, final_recorded_turf, turf_to_move_to, clingy_timer_expired = TRUE)
 	addtimer(CALLBACK(src, .proc/full_move, turf_to_move_to), 1 SECONDS)
-	addtimer(CALLBACK(src, .proc/invert_clingy_handling), 1 SECONDS) // this is just so the override lasts long enough so we can teleport once, and not trigger another one immediately after.
-	return FALSE
+	addtimer(CALLBACK(src, .proc/invert_clingy_handling), 1.25 SECONDS) // this is just so the override lasts long enough so we can teleport once, and not trigger another one immediately after.
 
 /// Simple proc that just inverts the value of clingy_handling, just so we can assign a timer to it.
 /datum/component/stationloving/proc/invert_clingy_handling()
