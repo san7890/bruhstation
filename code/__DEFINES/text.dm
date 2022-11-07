@@ -60,3 +60,5 @@
 #define NINJA_FILE "ninja.json"
 /// File loation for title splashes
 #define SPLASH_FILE "splashes.json"
+/// File location for lines that the nuclear disk can say via the station loving component
+#define NUCLEAR_DISK_FILE "stationloving_lines/nuclear_disk.json"

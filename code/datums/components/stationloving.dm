@@ -43,6 +43,10 @@
 	var/clingy_timer_duration = 30 SECONDS
 	/// Are we currently on a cooldown for the (unimportant) messaging tree? This is to prevent spamming the user with messages. Don't use this for the important stuff, like the off-station timer.
 	var/unimportant_clingy_message_cooldown = FALSE
+	/// The file name of the JSON strings file that we will use to get our messages from. Default to using the one for the Nuclear Disk file, but make up your own strings to be pertinent to the object should you choose to deviate.
+	var/strings_file = NUCLEAR_DISK_FILE
+	/// Area cache, used for instances where we just want to quickly check if our area has mismatched so we can dispatch a message.
+	var/area/last_cached_area
 
 	/// Typecache of shuttles that we allow the disk to stay on
 	var/static/list/allowed_shuttles = typecacheof(list(
@@ -65,13 +69,14 @@
 		/area/mine,
 	))
 
-/datum/component/stationloving/Initialize(inform_admins = FALSE, allow_item_destruction = FALSE, clingy = FALSE, clingy_timer_duration = 30 SECONDS)
+/datum/component/stationloving/Initialize(inform_admins = FALSE, allow_item_destruction = FALSE, clingy = FALSE, clingy_timer_duration = 30 SECONDS, strings_file = NUCLEAR_DISK_FILE)
 	if(!ismovable(parent))
 		return COMPONENT_INCOMPATIBLE
 	src.inform_admins = inform_admins
 	src.allow_item_destruction = allow_item_destruction
 	src.clingy = clingy
 	src.clingy_timer_duration = clingy_timer_duration
+	src.strings_file = strings_file
 
 	// Just in case something is being created outside of station/centcom
 	if(!atom_in_bounds(parent))
@@ -157,6 +162,13 @@
 /// To check if our disk is moving somewhere it shouldn't be, such as off Z level, or into an invalid area
 /datum/component/stationloving/proc/on_parent_moved(atom/movable/source, turf/old_turf)
 	SIGNAL_HANDLER
+
+	var/turf/current_area = get_area(source)
+	// We don't have to proceed with doing any costly procs here if our area hasn't even changed.
+	if(area_cache == current_area)
+		return
+
+	area_cache = current_area
 
 	if(atom_in_bounds(source, clingy))
 		return
@@ -251,8 +263,14 @@
 		if (is_type_in_typecache(destination_area, allowed_shuttles))
 			return TRUE
 
+/// Stripped down version that merely checks areas, useful for clingy_outdoors_checking timer.
 /datum/component/stationloving/proc/validate_parent_area(atom/atom_to_check)
 	var/area/destination_area = get_area(atom_to_check)
+	if(last_cached_area == destination_area) // We make the assertion here that if the areas are the same, we haven't moved into an invalid location. If mis-match, then we store the new result and check that.
+		return TRUE
+
+	last_cached_area = destination_area
+
 	if(istype(destination_area, /area/station))
 		return TRUE
 	else if(is_type_in_typecache(destination_area, outdoors_areas))
@@ -262,25 +280,27 @@
 
 /// Handles specific clingy behavior for when our parent is outdoors (like in space, or outside on a planetary map). Return TRUE if we're inside and fine, FALSE otherwise.
 /datum/component/stationloving/proc/clingy_outdoors_checking()
+	// If we're clingy_handling, we don't need to proceed here because we're already doing some special behavior, and there's no sense in stacking timers.
+	// This is also here so we don't have to go through and do this slightly-expensive proc if we're already doing something.
 	if(clingy_handling)
-		return TRUE // we're already handling this, so we'll pass true to let it go through
+		return TRUE
+
 	var/atom/movable/item = parent
 	var/item_area = get_area(item)
-
 	var/first_recorded_turf = get_turf(item)
 
-	// Alright, we're in the great outdoors. It's hustle time.
+	// Everything is assembled, it's hustle time.
 	clingy_handling = TRUE
 	clingy_message(determine_appropriate_message(item_area))
 
-	addtimer(CALLBACK(src, .proc/clingy_message, CLINGY_TIMER_START_MESSAGE), 1 SECONDS) // little bit of a delay to make it look more natural even though the timers spitting
+	addtimer(CALLBACK(src, .proc/clingy_message, CLINGY_TIMER_START_MESSAGE), 1.5 SECONDS) // little bit of a delay to make it look more natural even though the timers spitting out messages
 
 	var/timer_countdown = (clingy_timer_duration / (1 SECONDS))
 	for(var/integer in 1 to timer_countdown)
 		item.balloon_alert_to_viewers("[timer_countdown - integer] seconds left...") // "29 seconds left..."
 		if(validate_parent_area(item))
-			clingy_handling = FALSE
 			clingy_message(BACK_INSIDE_STATION)
+			clingy_handling = FALSE
 			return TRUE
 		sleep(1 SECONDS)
 
@@ -307,6 +327,15 @@
 	var/atom/movable/item = parent
 	var/item_area = get_area(item)
 
+	if(last_cached_area == item_area) // let's not spam messages if we're just sitting in the same area doing nothing. By proc-order, we already set last_cached_area in validate_parent_area() via atom_in_bounds().
+		return
+
+	// Small message to tell you how much it appreciates being on the station :)
+	if(prob(0.1) && istype(item_area, /area/station))
+		clingy_message(ON_STATION)
+		cooldown_clingy_messages()
+		return
+
 	// We're in space now!
 	if(istype(item_area, /area/space))
 		clingy_message(IN_SPACE)
@@ -324,12 +353,6 @@
 			cooldown_clingy_messages()
 		// Return FALSE so we can give a desired message appropriate to the situation, but continue with bounds checking in atom_in_bounds()
 		clingy_message(ON_UNFAVORABLE_SHUTTLE)
-		cooldown_clingy_messages()
-		return
-
-	// Small message to tell you how much it appreciates being on the station :)
-	if(prob(0.1) && istype(item_area, /area/station))
-		clingy_message(ON_STATION)
 		cooldown_clingy_messages()
 		return
 
@@ -352,12 +375,19 @@
 	stack_trace("determine_appropriate_message() called on an area that doesn't have a message defined. Area: [area_in_question]")
 
 /// Special proc for clingy items. This is the message (user feedback) that the parent will say aloud when a certain situation occurs.
-/// Pass in one of the define macros at the top of this file to get the appropriate message for that situation.
+/// Pass in one of the define macros at the top of this file to get the appropriate message for that situation. They should match the key in the JSON file.
 /datum/component/stationloving/proc/clingy_message(message_type)
 	var/atom/movable/speaker = parent
+	var/concatenated_message = ""
+
 	switch(message_type) // san7890 - these are default messages. change these.
+		if(BACK_INSIDE_STATION) // could also be considered a "Clingy Timer Stop Message", but it can also work from just getting back inside from space.
+			concatenated_message = strings(strings_file, BACK_INSIDE_STATION)
+			if(clingy_handling) // Clingy Handling is TRUE while this proc is called from clingy_outdoors_handling(), so we can leverage that to give a small fluff message saying that the timer ended.
+				concatenated_message += " I'm okay now."
 		if(CLINGY_TIMER_START_MESSAGE)
-			speaker.say("Get me back inside in [DisplayTimeText(clingy_timer_duration)] or I'll be very upset!", forced = COMPONENT_FORCED_SPEAK_NAME)
+			concatenated_message = strings(strings_file, CLINGY_TIMER_START_MESSAGE)
+			concatenated_message += " You've got roughly [DisplayTimeText(clingy_timer_duration)] to get me back!"
 		if(IN_ICEMOON)
 			speaker.say("I'm outside in the ice! It's so cold!", forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(IN_MINING)
@@ -366,10 +396,8 @@
 			speaker.say("I'm in space!", forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(ON_FAVORABLE_SHUTTLE)
 			speaker.say("I'm on a shuttle that's going to CentCom! I'm safe here!", forced = COMPONENT_FORCED_SPEAK_NAME)
-		if(ON_STATION)
+		if(ON_STATION) // different than BACK_INSIDE_STATION because this is really just meant to be a small random message that parent can say randomly without any area changes.
 			speaker.say("I'm inside the station! I like being safe here!", forced = COMPONENT_FORCED_SPEAK_NAME)
-		if(BACK_INSIDE_STATION)
-			speaker.say(("Phew, back inside the station." + " I'm alright now."), forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(ON_SYNDICATE_SHUTTLE)
 			speaker.say("There appears to be a lot of red in here...", forced = COMPONENT_FORCED_SPEAK_NAME)
 		if(ON_UNFAVORABLE_SHUTTLE)
@@ -378,6 +406,13 @@
 			speaker.say("Fuck you, I'm out of here. :middle_finger:", forced = COMPONENT_FORCED_SPEAK_NAME)
 		else
 			stack_trace("Called clingy_message without a valid message_type.")
+			return
+
+	if(!concatenated_message)
+		stack_trace("Unable to generate a clingy message for [speaker]. Message type: [message_type]")
+		return
+
+	speaker.say(concatenated_message, forced = COMPONENT_FORCED_SPEAK_NAME)
 
 
 /// Signal handler for before the parent is qdel'd. Can prevent the parent from being deleted where allow_item_destruction is FALSE and force is FALSE.
