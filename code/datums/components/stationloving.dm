@@ -12,7 +12,7 @@
 #define ON_SYNDICATE_SHUTTLE "On Syndicate Shuttle"
 /// Parent will send a message about how we're safe inside the station. Just chilling out and hanging around. Good times.
 #define ON_STATION "On Station"
-/// Parent will send a message about how they're thankful that they're safe inside the station.
+/// Parent will send a message about how they're thankful that they're safe inside the station. Could also be considered a "Clingy Timer End Message" in how we use it.
 #define BACK_INSIDE_STATION "Back Inside Station"
 /// Parent will send a callous message to anyone who can hear it right before it zoops away.
 #define PISSING_OFF "Pissing Off"
@@ -160,13 +160,6 @@
 /// To check if our disk is moving somewhere it shouldn't be, such as off Z level, or into an invalid area
 /datum/component/stationloving/proc/on_parent_moved(atom/movable/source, turf/old_turf)
 	SIGNAL_HANDLER
-
-	var/turf/current_area = get_area(source)
-	// We don't have to proceed with doing any costly procs here if our area hasn't even changed (setting the cached area is handled via validate_parent_area() since we only concern ourselves with areas on station z-levels).
-	if(last_cached_area == current_area)
-		return
-
-	last_cached_area = current_area
 
 	if(atom_in_bounds(source))
 		return
@@ -353,8 +346,10 @@
 	var/atom/movable/item = parent
 	var/item_area = get_area(item)
 
-	if(last_cached_area == item_area) // let's not spam messages if we're just sitting in the same area doing nothing. By proc-order, we already set last_cached_area in atom_in_bounds().
+	if(last_cached_area == item_area) // let's not spam messages if we're just sitting in the same area doing nothing.
 		return
+
+	last_cached_area = item_area
 
 	// We're in space now!
 	if(istype(item_area, /area/space))
