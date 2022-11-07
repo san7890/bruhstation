@@ -260,7 +260,30 @@
 		if (is_type_in_typecache(destination_area, allowed_shuttles))
 			return TRUE
 
-/// A stripped down area-checker useful for rapid checking.
+/// Signal handler for before the parent is qdel'd. Can prevent the parent from being deleted where allow_item_destruction is FALSE and force is FALSE.
+/datum/component/stationloving/proc/on_parent_pre_qdeleted(datum/source, force)
+	SIGNAL_HANDLER
+
+	var/turf/current_turf = get_turf(parent)
+
+	if(force && inform_admins)
+		message_admins("[parent] has been !!force deleted!! in [ADMIN_VERBOSEJMP(current_turf)].")
+		log_game("[parent] has been !!force deleted!! in [loc_name(current_turf)].")
+
+	if(force || allow_item_destruction)
+		return FALSE
+
+	var/turf/new_turf = relocate()
+	log_game("[parent] has been destroyed in [loc_name(current_turf)]. \
+		Preventing destruction and moving it to [loc_name(new_turf)].")
+	if(inform_admins)
+		message_admins("[parent] has been destroyed in [ADMIN_VERBOSEJMP(current_turf)]. \
+			Preventing destruction and moving it to [ADMIN_VERBOSEJMP(new_turf)].")
+	return TRUE
+
+// Pretty much everything after this point is only useful for clingy behaviors.
+
+/// A stripped down area-checker useful for rapid checking, typically only used for clingy behaviors.
 /datum/component/stationloving/proc/validate_parent_area(atom/atom_to_check)
 	var/area/destination_area = get_area(atom_to_check)
 
@@ -402,28 +425,6 @@
 		return
 
 	speaker.say(concatenated_message, forced = COMPONENT_FORCED_SPEAK_NAME)
-
-
-/// Signal handler for before the parent is qdel'd. Can prevent the parent from being deleted where allow_item_destruction is FALSE and force is FALSE.
-/datum/component/stationloving/proc/on_parent_pre_qdeleted(datum/source, force)
-	SIGNAL_HANDLER
-
-	var/turf/current_turf = get_turf(parent)
-
-	if(force && inform_admins)
-		message_admins("[parent] has been !!force deleted!! in [ADMIN_VERBOSEJMP(current_turf)].")
-		log_game("[parent] has been !!force deleted!! in [loc_name(current_turf)].")
-
-	if(force || allow_item_destruction)
-		return FALSE
-
-	var/turf/new_turf = relocate()
-	log_game("[parent] has been destroyed in [loc_name(current_turf)]. \
-		Preventing destruction and moving it to [loc_name(new_turf)].")
-	if(inform_admins)
-		message_admins("[parent] has been destroyed in [ADMIN_VERBOSEJMP(current_turf)]. \
-			Preventing destruction and moving it to [ADMIN_VERBOSEJMP(new_turf)].")
-	return TRUE
 
 #undef CLINGY_TIMER_START_MESSAGE
 #undef COMPONENT_FORCED_SPEAK_NAME
