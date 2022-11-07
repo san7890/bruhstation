@@ -168,6 +168,8 @@
 	if(last_cached_area == current_area)
 		return
 
+	last_cached_area = current_area
+
 	if(atom_in_bounds(source, clingy))
 		return
 
@@ -296,7 +298,7 @@
 /// The actual timer we use when we are in an outdoors area, but still on a valid z-level otherwise. Call asynchonously so we don't interfere with anything that involves SIGNAL_HANDLER.
 /// Item is just type-casted parent (done prior to calling this proc), first_recorded_turf is the turf we started on before we called this proc (for book-keeping).
 /datum/component/stationloving/proc/clingy_timer_handling(atom/movable/item, turf/first_recorded_turf)
-	if(!item | !first_recorded_turf)
+	if(!item || !first_recorded_turf)
 		stack_trace("clingy_timer_handling() was called with invalid arguments!")
 		return
 
@@ -332,13 +334,7 @@
 	var/atom/movable/item = parent
 	var/item_area = get_area(item)
 
-	if(last_cached_area == item_area) // let's not spam messages if we're just sitting in the same area doing nothing. By proc-order, we already set last_cached_area in validate_parent_area() via atom_in_bounds().
-		return
-
-	// Small message to tell you how much it appreciates being on the station :)
-	if(prob(0.1) && istype(item_area, /area/station))
-		clingy_message(ON_STATION)
-		cooldown_clingy_messages()
+	if(last_cached_area == item_area) // let's not spam messages if we're just sitting in the same area doing nothing. By proc-order, we already set last_cached_area in atom_in_bounds().
 		return
 
 	// We're in space now!
@@ -358,6 +354,12 @@
 			cooldown_clingy_messages()
 		// Return FALSE so we can give a desired message appropriate to the situation, but continue with bounds checking in atom_in_bounds()
 		clingy_message(ON_UNFAVORABLE_SHUTTLE)
+		cooldown_clingy_messages()
+		return
+
+	// Small message to tell you how much it appreciates being on the station :). One in a thousand times (on any area change) doesn't sound annoying to me, change it if it gets too spammy.
+	if(prob(0.01) && istype(item_area, /area/station))
+		clingy_message(ON_STATION)
 		cooldown_clingy_messages()
 		return
 
@@ -388,7 +390,7 @@
 	switch(message_type) // san7890 - these are default messages. change these.
 		if(BACK_INSIDE_STATION) // could also be considered a "Clingy Timer Stop Message", but it can also work from just getting back inside from space.
 			concatenated_message = strings(strings_file, BACK_INSIDE_STATION)
-			if(clingy_handling) // Clingy Handling is TRUE while this proc is called from clingy_outdoors_handling(), so we can leverage that to give a small fluff message saying that the timer ended.
+			if(clingy_handling) // Clingy Handling is TRUE while this proc is called from clingy_timer_handling(), so we can leverage that to give a small fluff message saying that the timer ended.
 				concatenated_message += " I'm okay now."
 		if(CLINGY_TIMER_START_MESSAGE)
 			concatenated_message = strings(strings_file, CLINGY_TIMER_START_MESSAGE)
