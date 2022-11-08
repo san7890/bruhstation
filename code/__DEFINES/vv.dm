@@ -131,7 +131,6 @@
 #define VV_HK_GIVE_DELUSION_HALLUCINATION "give_hallucination_delusion"
 
 // /mob/living/carbon
-#define VV_HK_MAKE_AI "aiify"
 #define VV_HK_MODIFY_BODYPART "mod_bodypart"
 #define VV_HK_MODIFY_ORGANS "organs_modify"
 #define VV_HK_MARTIAL_ART "give_martial_art"
