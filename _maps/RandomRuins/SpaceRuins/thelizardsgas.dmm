@@ -307,7 +307,6 @@
 /area/ruin/space/has_grav/thelizardsgas)
 "FJ" = (
 /obj/machinery/computer/atmos_control/noreconnect{
-	atmos_chambers = list("lizardgas" = "Plasma Supply");
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_edge{

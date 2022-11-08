@@ -126,6 +126,7 @@
 	description = "Cosy, rural property available for young professional couple. Only twelve parsecs from the nearest hyperspace lane!"
 
 /datum/map_template/ruin/space/the_lizards_gas
+	always_place = TRUE
 	id = "the-lizards-gas"
 	suffix = "thelizardsgas.dmm"
 	name = "The Lizard's Gas"
