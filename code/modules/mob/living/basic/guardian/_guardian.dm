@@ -54,11 +54,11 @@ GLOBAL_LIST_EMPTY(parasites)
 	var/cooldown = 0
 	/// Maximum allowed distance between the summoner and the guardian.
 	var/range = 10
-	/// Overlay that we apply on top of the guardian mob (formerly cooloverlay san7890 remove this).
+	/// Overlay that we apply on top of the guardian mob.
 	var/mutable_appearance/cool_overlay
 	/// The color of the guardian
 	var/guardian_color
-	/// Should we recolor the entire sprite when we generate the mob? (formerly recolorentiresprite san7890 remove this)
+	/// Should we recolor the entire sprite when we generate the mob?
 	var/recolor_entire_sprite
 	/// Stored list of the overlays linked to this guardian.
 	var/list/guardian_overlays[GUARDIAN_TOTAL_LAYERS]
@@ -79,7 +79,7 @@ GLOBAL_LIST_EMPTY(parasites)
 	GLOB.parasites += src
 	updatetheme(theme)
 	AddElement(/datum/element/simple_flying)
-	// string_assoc_list returns a cached list, which we then use as a static list to pass into the atmos_requirement element.
+	// string_assoc_list returns a cached list, which we then use as a static list to pass into the atmos_requirements element.
 	var/list/habitable_atmos = string_assoc_list(list(
 		"min_oxy" = 0,
 		"max_oxy" = 0,
@@ -90,7 +90,7 @@ GLOBAL_LIST_EMPTY(parasites)
 		"min_n2" = 0,
 		"max_n2" = 0,
 	))
-	AddElement(/datum/element/atmos_requirement, atmos_requirements = habitable_atmos, unsuitable_atmos_damage = 0)
+	AddElement(/datum/element/atmos_requirements, atmos_requirements = habitable_atmos, unsuitable_atmos_damage = 0)
 	AddElement(/datum/element/basic_body_temp_sensitive, min_body_temp = 0, max_body_temp = INFINITY, cold_damage = 0, heat_damage = 0)
 	return ..()
 
@@ -218,7 +218,7 @@ GLOBAL_LIST_EMPTY(parasites)
 /mob/living/basic/guardian/canSuicide()
 	return FALSE
 
-/mob/living/basic/guardian/melee_attack()
+/mob/living/basic/guardian/melee_attack(atom/target)
 	if(!is_deployed())
 		to_chat(src, "[span_danger("<B>You must be manifested to attack!")]</B>")
 		return FALSE
@@ -262,7 +262,7 @@ GLOBAL_LIST_EMPTY(parasites)
 			resulthealth = round((summoner.health / summoner.maxHealth) * 100, 0.5)
 		hud_used.healths.maptext = MAPTEXT("<div align='center' valign='middle' style='position:relative; top:0px; left:6px'><font color='#efeeef'>[resulthealth]%</font></div>")
 
-/mob/living/basic/guardian/adjustHealth(amount, updating_health = TRUE, forced = FALSE) //The spirit is invincible, but passes on damage to the summoner
+/mob/living/basic/guardian/adjust_health(amount, updating_health = TRUE, forced = FALSE) //The spirit is invincible, but passes on damage to the summoner
 	. = amount
 	if(summoner)
 		if(loc == summoner)

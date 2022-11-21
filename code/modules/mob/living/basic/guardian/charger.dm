@@ -2,9 +2,10 @@
 /mob/living/basic/guardian/charger
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	ranged = 1 //technically
-	ranged_message = "charges"
-	ranged_cooldown_time = 40
+	// san7890 - i'll get back to this ranged shit
+	//ranged = 1 //technically
+	//ranged_message = "charges"
+	//ranged_cooldown_time = 40
 	speed = -1
 	damage_coeff = list(BRUTE = 0.6, BURN = 0.6, TOX = 0.6, CLONE = 0.6, STAMINA = 0, OXY = 0.6)
 	playstyle_string = span_holoparasite("As a <b>charger</b> type you do medium damage, have medium damage resistance, move very fast, and can charge at a location, damaging any target hit and forcing them to drop any items they are holding.")
@@ -17,24 +18,25 @@
 
 /mob/living/basic/guardian/charger/Life(delta_time = SSMOBS_DT, times_fired)
 	. = ..()
-	if(ranged_cooldown <= world.time)
-		if(!chargealert)
-			chargealert = throw_alert(ALERT_CHARGE, /atom/movable/screen/alert/cancharge)
-	else
-		clear_alert(ALERT_CHARGE)
-		chargealert = null
+	//if(ranged_cooldown <= world.time)
+	//	if(!chargealert)
+	//		chargealert = throw_alert(ALERT_CHARGE, /atom/movable/screen/alert/cancharge)
+	//else
+	//	clear_alert(ALERT_CHARGE)
+	//	chargealert = null
 
-/mob/living/basic/guardian/charger/OpenFire(atom/A)
-	if(!charging)
-		visible_message(span_danger("<b>[src]</b> [ranged_message] at [A]!"))
-		ranged_cooldown = world.time + ranged_cooldown_time
-		clear_alert(ALERT_CHARGE)
-		chargealert = null
-		Shoot(A)
+// san7890 get back to this
+///mob/living/basic/guardian/charger/OpenFire(atom/A)
+//	if(!charging)
+//		//visible_message(span_danger("<b>[src]</b> [ranged_message] at [A]!"))
+//		//ranged_cooldown = world.time + ranged_cooldown_time
+//		clear_alert(ALERT_CHARGE)
+//		chargealert = null
+//		Shoot(A)
 
-/mob/living/basic/guardian/charger/Shoot(atom/targeted_atom)
-	charging = 1
-	throw_at(targeted_atom, range, 1, src, FALSE, TRUE, callback = CALLBACK(src, PROC_REF(charging_end)))
+///mob/living/basic/guardian/charger/Shoot(atom/targeted_atom)
+//	charging = 1
+//	throw_at(targeted_atom, range, 1, src, FALSE, TRUE, callback = CALLBACK(src, PROC_REF(charging_end)))
 
 /mob/living/basic/guardian/charger/proc/charging_end()
 	charging = 0
@@ -56,7 +58,7 @@
 		if(isliving(hit_atom) && hit_atom != summoner)
 			var/mob/living/L = hit_atom
 			var/blocked = FALSE
-			if(hasmatchingsummoner(hit_atom)) //if the summoner matches don't hurt them
+			if(has_matching_summoner(hit_atom)) //if the summoner matches don't hurt them
 				blocked = TRUE
 			if(ishuman(hit_atom))
 				var/mob/living/carbon/human/H = hit_atom

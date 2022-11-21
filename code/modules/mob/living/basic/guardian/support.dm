@@ -27,7 +27,7 @@
 	if(beacon_cooldown >= world.time)
 		. += "Beacon Cooldown Remaining: [DisplayTimeText(beacon_cooldown - world.time)]"
 
-/mob/living/basic/guardian/healer/melee_attack()
+/mob/living/basic/guardian/healer/melee_attack(atom/target)
 	. = ..()
 	if(is_deployed() && toggle && iscarbon(target))
 		var/mob/living/carbon/C = target

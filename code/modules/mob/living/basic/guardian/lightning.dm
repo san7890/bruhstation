@@ -22,7 +22,7 @@
 	var/list/enemychains = list()
 	var/successfulshocks = 0
 
-/mob/living/basic/guardian/beam/melee_attack()
+/mob/living/basic/guardian/beam/melee_attack(atom/target)
 	. = ..()
 	if(. && isliving(target) && target != src && target != summoner)
 		cleardeletedchains()
@@ -101,7 +101,7 @@
 		var/turf/T = turf
 		for(var/mob/living/L in T)
 			if(L.stat != DEAD && L != src && L != summoner)
-				if(hasmatchingsummoner(L)) //if the summoner matches don't hurt them
+				if(has_matching_summoner(L)) //if the summoner matches don't hurt them
 					continue
 				if(successfulshocks > 4)
 					L.electrocute_act(0)

@@ -13,10 +13,11 @@
 	melee_damage_lower = 10
 	melee_damage_upper = 10
 	damage_coeff = list(BRUTE = 0.9, BURN = 0.9, TOX = 0.9, CLONE = 0.9, STAMINA = 0, OXY = 0.9)
-	projectiletype = /obj/projectile/guardian
-	ranged_cooldown_time = 1 //fast!
-	projectilesound = 'sound/effects/hit_on_shattered_glass.ogg'
-	ranged = 1
+	// san7890 - i'll get back to this
+	//projectiletype = /obj/projectile/guardian
+	//ranged_cooldown_time = 1 //fast!
+	//projectilesound = 'sound/effects/hit_on_shattered_glass.ogg'
+	//ranged = 1
 	range = 13
 	playstyle_string = span_holoparasite("As a <b>ranged</b> type, you have only light damage resistance, but are capable of spraying shards of crystal at incredibly high speed. You can also deploy surveillance snares to monitor enemy movement. Finally, you can switch to scout mode, in which you can't attack, but can move without limit.")
 	magic_fluff_string = span_holoparasite("..And draw the Sentinel, an alien master of ranged combat.")
@@ -32,7 +33,7 @@
 /mob/living/basic/guardian/ranged/ToggleMode()
 	if(loc == summoner)
 		if(toggle)
-			ranged = initial(ranged)
+		//	ranged = initial(ranged)
 			melee_damage_lower = initial(melee_damage_lower)
 			melee_damage_upper = initial(melee_damage_upper)
 			obj_damage = initial(obj_damage)
@@ -42,7 +43,7 @@
 			to_chat(src, "[span_danger("<B>You switch to combat mode.")]</B>")
 			toggle = FALSE
 		else
-			ranged = 0
+		//	ranged = 0
 			melee_damage_lower = 0
 			melee_damage_upper = 0
 			obj_damage = 0
@@ -54,12 +55,13 @@
 	else
 		to_chat(src, "[span_danger("<B>You have to be recalled to toggle modes!")]</B>")
 
-/mob/living/basic/guardian/ranged/Shoot(atom/targeted_atom)
-	. = ..()
-	if(istype(., /obj/projectile))
-		var/obj/projectile/P = .
-		if(guardian_color)
-			P.color = guardian_color
+// san7890 this is going to have to be a mob action or something somehow FUCK
+///mob/living/basic/guardian/ranged/Shoot(atom/targeted_atom)
+//	. = ..()
+//	if(istype(., /obj/projectile))
+//		var/obj/projectile/P = .
+//		if(guardian_color)
+//		P.color = guardian_color
 
 /mob/living/basic/guardian/ranged/ToggleLight()
 	var/msg
@@ -120,7 +122,7 @@
 
 /obj/effect/snare/proc/on_entered(datum/source, AM as mob|obj)
 	SIGNAL_HANDLER
-	if(isliving(AM) && spawner && spawner.summoner && AM != spawner && !spawner.hasmatchingsummoner(AM))
+	if(isliving(AM) && spawner && spawner.summoner && AM != spawner && !spawner.has_matching_summoner(AM))
 		to_chat(spawner.summoner, "[span_danger("<B>[AM] has crossed surveillance snare, [name].")]</B>")
 		var/list/guardians = spawner.summoner.get_all_linked_holoparasites()
 		for(var/para in guardians)
@@ -142,7 +144,7 @@
 	incorporeal_move = FALSE
 	. = ..()
 
-/mob/living/basic/guardian/ranged/melee_attack()
+/mob/living/basic/guardian/ranged/melee_attack(atom/target)
 	if(toggle)
 		return
 	..()

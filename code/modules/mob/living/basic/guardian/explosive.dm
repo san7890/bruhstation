@@ -43,7 +43,7 @@
 	SIGNAL_HANDLER
 	if(!istype(explodee))
 		return
-	if(explodee == src || explodee == summoner || hasmatchingsummoner(explodee))
+	if(explodee == src || explodee == summoner || has_matching_summoner(explodee))
 		return
 	to_chat(explodee, span_danger("<B>[source] was boobytrapped!</B>"))
 	to_chat(src, span_danger("<B>Success! Your trap caught [explodee]</B>"))

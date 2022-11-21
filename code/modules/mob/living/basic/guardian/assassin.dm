@@ -33,13 +33,14 @@
 	if(stealthcooldown >= world.time)
 		. += "Stealth Cooldown Remaining: [DisplayTimeText(stealthcooldown - world.time)]"
 
-/mob/living/basic/guardian/assassin/melee_attack()
+/mob/living/basic/guardian/assassin/melee_attack(atom/target)
 	. = ..()
 	if(.)
 		if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
 			ToggleMode(1)
 
-/mob/living/basic/guardian/assassin/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
+
+/mob/living/basic/guardian/assassin/adjust_health(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
 		ToggleMode(1)

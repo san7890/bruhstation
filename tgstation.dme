@@ -3571,8 +3571,6 @@
 #include "code\modules\mob\living\basic\lavaland\bileworm\bileworm_instrument.dm"
 #include "code\modules\mob\living\basic\lavaland\bileworm\bileworm_loot.dm"
 #include "code\modules\mob\living\basic\lavaland\bileworm\bileworm_vileworm.dm"
-#include "code\modules\mob\living\basic\lavaland\guardian\_guardian.dm"
-#include "code\modules\mob\living\basic\lavaland\guardian\summoner_interactions.dm"
 #include "code\modules\mob\living\basic\ruin_defender\stickman.dm"
 #include "code\modules\mob\living\basic\vermin\cockroach.dm"
 #include "code\modules\mob\living\basic\vermin\mothroach.dm"

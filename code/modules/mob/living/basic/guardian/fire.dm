@@ -27,7 +27,7 @@
 		summoner.extinguish_mob()
 		summoner.adjust_fire_stacks(-10 * delta_time)
 
-/mob/living/basic/guardian/fire/melee_attack()
+/mob/living/basic/guardian/fire/melee_attack(atom/target)
 	. = ..()
 	if(!.)
 		return
@@ -63,6 +63,6 @@
 /mob/living/basic/guardian/fire/proc/collision_ignite(AM as mob|obj)
 	if(isliving(AM))
 		var/mob/living/M = AM
-		if(!hasmatchingsummoner(M) && M != summoner && M.fire_stacks < 7)
+		if(!has_matching_summoner(M) && M != summoner && M.fire_stacks < 7)
 			M.set_fire_stacks(7)
 			M.ignite_mob()

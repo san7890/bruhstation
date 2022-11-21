@@ -9,7 +9,7 @@
 	if(!input)
 		return
 
-	var/preliminary_message = span_holoparasite_bold([input]) //apply basic color/bolding
+	var/preliminary_message = span_holoparasite_bold(input) //apply basic color/bolding
 	var/my_message = "<span class='holoparasite_bold'><i>[src]:</i> [preliminary_message]</span>" //add source, color source with default grey...
 
 	to_chat(src, "<span class='say'>[my_message]</span>")

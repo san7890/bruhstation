@@ -8,7 +8,8 @@
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Dextrous combat modules loaded. Holoparasite swarm online.")
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! You caught one! It can hold stuff in its fins, sort of.")
 	miner_fluff_string = span_holoparasite("You encounter... Gold, a malleable constructor.")
-	dextrous = TRUE
+	// san7890 i'll get back to this later
+	//dextrous = TRUE
 	held_items = list(null, null)
 	var/obj/item/internal_storage //what we're storing within ourself
 
@@ -18,16 +19,16 @@
 		dropItemToGround(internal_storage)
 
 /mob/living/basic/guardian/dextrous/examine(mob/user)
-	if(dextrous)
-		. = list("<span class='info'>This is [icon2html(src)] \a <b>[src]</b>!\n[desc]")
-		for(var/obj/item/I in held_items)
-			if(!(I.item_flags & ABSTRACT))
-				. += "It has [I.get_examine_string(user)] in its [get_held_index_name(get_held_index_of_item(I))]."
-		if(internal_storage && !(internal_storage.item_flags & ABSTRACT))
-			. += "It is holding [internal_storage.get_examine_string(user)] in its internal storage."
-		. += "</span>"
-	else
-		return ..()
+	//if(dextrous)
+	//	. = list("<span class='info'>This is [icon2html(src)] \a <b>[src]</b>!\n[desc]")
+	//	for(var/obj/item/I in held_items)
+	//		if(!(I.item_flags & ABSTRACT))
+	//			. += "It has [I.get_examine_string(user)] in its [get_held_index_name(get_held_index_of_item(I))]."
+	//	if(internal_storage && !(internal_storage.item_flags & ABSTRACT))
+	//		. += "It is holding [internal_storage.get_examine_string(user)] in its internal storage."
+	//	. += "</span>"
+	//else
+	//	return ..()
 
 /mob/living/basic/guardian/dextrous/Recall(forced)
 	if(!summoner || loc == summoner || (cooldown > world.time && !forced))
