@@ -36,6 +36,10 @@
 	AddElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
 	return ..()
 
+/mob/living/basic/guardian/ranged/get_status_tab_items()
+	. = ..()
+	. += "Number of Snares In Play: [length(snares)]/[max_snares]"
+
 // Swap between ranged and scout mode. Ranged we get the element that allows us to shoot, scout we get the element that allows us to move without limit (but we can't attack).
 /mob/living/basic/guardian/ranged/ToggleMode()
 	if(loc == summoner)
@@ -81,20 +85,19 @@
 
 	to_chat(src, span_notice(msg))
 
-
 /mob/living/basic/guardian/ranged/verb/Snare()
 	set name = "Set Surveillance Snare"
 	set category = "Guardian"
-	set desc = "Set an invisible snare that will alert you when living creatures walk over it. Maximum of [max_snares] at a time."
+	set desc = "Set an invisible snare that will alert you when living creatures walk over it."
 	if(length(snares) <= max_snares)
 		var/turf/snare_loc = get_turf(loc)
 		var/obj/effect/abstract/guardian_snare/trap = new /obj/effect/abstract/guardian_snare(snare_loc)
 		trap.spawner = src
 		trap.name = "[get_area(snare_loc)] snare ([rand(1, 1000)])"
 		snares |= trap
-		to_chat(src, "[span_danger("<B>Surveillance snare deployed!</B>")]")
+		to_chat(src, span_danger("<B>Surveillance snare deployed! Now at ([length(snares)]/[max_snares]) total snares placed.</B>"))
 	else
-		to_chat(src, "[span_danger("<B>You have too many snares deployed. Remove some first.")]</B>")
+		to_chat(src, span_danger("<B>You have too many snares deployed: ([length(snares)]/[max_snares]). Remove some first.</B>"))
 
 /mob/living/basic/guardian/ranged/verb/DisarmSnare()
 	set name = "Remove Surveillance Snare"
@@ -105,7 +108,7 @@
 		return
 	snares -= picked_snare
 	qdel(picked_snare)
-	to_chat(src, "[span_danger("<B>Snare disarmed.</B>")]")
+	to_chat(src, span_danger("<B>Snare disarmed.</B>"))
 
 /mob/living/basic/guardian/ranged/Manifest(forced)
 	if (toggle)
