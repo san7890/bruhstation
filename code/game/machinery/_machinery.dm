@@ -551,9 +551,13 @@
 		return FALSE //no ghosts allowed, sorry
 
 	var/is_dextrous = FALSE
+
+	if(ISADVANCEDTOOLUSER(user))
+		is_dextrous = TRUE
+
 	if(isanimal(user))
 		var/mob/living/simple_animal/user_as_animal = user
-		if (user_as_animal.dextrous)
+		if (user_as_animal.dextrous || ISADVANCEDTOOLUSER(user))
 			is_dextrous = TRUE
 
 	if(!issilicon(user) && !is_dextrous && !user.can_hold_items())

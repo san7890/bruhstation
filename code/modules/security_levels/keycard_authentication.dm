@@ -54,7 +54,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/keycard_auth, 26)
 	if(!isanimal(user))
 		return ..()
 	var/mob/living/simple_animal/A = user
-	if(!A.dextrous)
+	if(!A.dextrous || ISADVANCEDTOOLUSER(user))
 		to_chat(user, span_warning("You are too primitive to use this device!"))
 		return UI_CLOSE
 	return ..()

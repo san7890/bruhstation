@@ -11,7 +11,10 @@
 	// san7890 i'll get back to this later
 	//dextrous = TRUE
 	held_items = list(null, null)
-	var/obj/item/internal_storage //what we're storing within ourself
+	/// What we're storing within ourself
+	var/obj/item/internal_storage
+	/// What type of slot ID are we using here?
+	var/dextrous_slot_id = ITEM_SLOT_DEX_STORAGE
 
 /mob/living/basic/guardian/dextrous/death(gibbed)
 	..()
@@ -19,41 +22,16 @@
 		dropItemToGround(internal_storage)
 
 /mob/living/basic/guardian/dextrous/examine(mob/user)
-	//if(dextrous)
-	//	. = list("<span class='info'>This is [icon2html(src)] \a <b>[src]</b>!\n[desc]")
-	//	for(var/obj/item/I in held_items)
-	//		if(!(I.item_flags & ABSTRACT))
-	//			. += "It has [I.get_examine_string(user)] in its [get_held_index_name(get_held_index_of_item(I))]."
-	//	if(internal_storage && !(internal_storage.item_flags & ABSTRACT))
-	//		. += "It is holding [internal_storage.get_examine_string(user)] in its internal storage."
-	//	. += "</span>"
-	//else
-	//	return ..()
+	. = list("<span class='info'>This is [icon2html(src)] \a <b>[src]</b>!\n[desc]")
+	for(var/obj/item/thing in held_items)
+		if(!(I.item_flags & ABSTRACT))
+			. += "It has [I.get_examine_string(user)] in its [get_held_index_name(get_held_index_of_item(I))]."
 
-/mob/living/basic/guardian/dextrous/Recall(forced)
-	if(!summoner || loc == summoner || (cooldown > world.time && !forced))
-		return FALSE
-	drop_all_held_items()
-	return ..() //lose items, then return
-
-/mob/living/basic/guardian/dextrous/snapback()
-	if(summoner && !(get_dist(get_turf(summoner),get_turf(src)) <= range))
-		drop_all_held_items()
-		..() //lose items, then return
-
-//SLOT HANDLING BULLSHIT FOR INTERNAL STORAGE
-/mob/living/basic/guardian/dextrous/doUnEquip(obj/item/I, force, newloc, no_move, invdrop = TRUE, silent = FALSE)
-	if(..())
-		update_held_items()
-		if(I == internal_storage)
-			internal_storage = null
-			update_inv_internal_storage()
-		return TRUE
-	return FALSE
+	return ..()
 
 /mob/living/basic/guardian/dextrous/can_equip(obj/item/I, slot, disable_warning = FALSE, bypass_equip_delay_self = FALSE)
 	switch(slot)
-		if(ITEM_SLOT_DEX_STORAGE)
+		if(dextrous_slot_id)
 			if(internal_storage)
 				return FALSE
 			return TRUE
@@ -73,12 +51,7 @@
 	if(!..())
 		return
 
-	switch(slot)
-		if(ITEM_SLOT_DEX_STORAGE)
-			internal_storage = I
-			update_inv_internal_storage()
-		else
-			to_chat(src, span_danger("You are trying to equip this item to an unsupported inventory slot. Report this to a coder!"))
+	SEND_SIGNAL(src, COMSIG_DEXTROUS_EQUIP_TO_SLOT, I, slot)
 
 /mob/living/basic/guardian/dextrous/getBackSlot()
 	return ITEM_SLOT_DEX_STORAGE
@@ -92,5 +65,5 @@
 		client.screen += internal_storage
 
 /mob/living/basic/guardian/dextrous/regenerate_icons()
-	..()
-	update_inv_internal_storage()
+	. = ..()
+	SEND_SIGNAL(src, COMSIG_DEXTROUS_UPDATE_INTERNAL_STORAGE)
