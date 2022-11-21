@@ -17,7 +17,7 @@
 	playstyle_string = span_holoparasite("As a <b>ranged</b> type, you have only light damage resistance, but are capable of spraying shards of crystal at incredibly high speed. You can also deploy surveillance snares to monitor enemy movement. Finally, you can switch to scout mode, in which you can't attack, but can move without limit.")
 	magic_fluff_string = span_holoparasite("..And draw the Sentinel, an alien master of ranged combat.")
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Ranged combat modules active. Holoparasite swarm online.")
-	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one, it's a ranged carp. This fishy can watch people pee in the ocean.")
+	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one, it's a ranged carp. This fishy can watch people pee in the ocean.") // this one sucks who came up with this shit
 	miner_fluff_string = span_holoparasite("You encounter... Diamond, a powerful projectile thrower.")
 	see_invisible = SEE_INVISIBLE_LIVING
 	see_in_dark = NIGHTVISION_FOV_RANGE
@@ -25,14 +25,14 @@
 	/// List to track how many snares this guardian has set.
 	var/list/snares = list()
 	/// Number of snares we can have out at once.
-	var/max_snares = 6
+	var/max_snares = 5
 	/// Boolean for mode-toggling between ranged and scout.
 	var/toggle = FALSE
 	/// How long we want to have a cooldown between projectile attacks.
 	var/projectile_cooldown = 1 SECONDS
 
 /mob/living/basic/guardian/ranged/Initialize(mapload, theme)
-	// We default to being in attack mode to start off with, so let's add it to ensure we can start firing right away without needing to toggle/untoggle first.
+	// We default to being in attack/ranged mode to start off with, so let's add it to ensure we can start firing right away without needing to toggle/untoggle first.
 	AddElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
 	return ..()
 
@@ -85,8 +85,8 @@
 /mob/living/basic/guardian/ranged/verb/Snare()
 	set name = "Set Surveillance Snare"
 	set category = "Guardian"
-	set desc = "Set an invisible snare that will alert you when living creatures walk over it. Max of 5"
-	if(length(snares) < max_snares)
+	set desc = "Set an invisible snare that will alert you when living creatures walk over it. Maximum of [max_snares] at a time."
+	if(length(snares) <= max_snares)
 		var/turf/snare_loc = get_turf(loc)
 		var/obj/effect/abstract/guardian_snare/trap = new /obj/effect/abstract/guardian_snare(snare_loc)
 		trap.spawner = src
@@ -139,7 +139,7 @@
 
 /obj/effect/abstract/guardian_snare/proc/on_entered(datum/source, movable as mob|obj)
 	SIGNAL_HANDLER
-	if(isliving(movable) && spawner && spawner.summoner && movable != spawner && !spawner.has_matching_summoner(movable))
+	if(isliving(movable) && spawner.summoner && movable != spawner && !spawner.has_matching_summoner(movable))
 		to_chat(spawner.summoner, "[span_danger("<B>[movable] has crossed surveillance snare, [name].")]</B>")
 		var/list/guardians = spawner.summoner.get_all_linked_holoparasites()
 		for(var/entity in guardians)
