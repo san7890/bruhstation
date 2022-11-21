@@ -9,7 +9,7 @@
 	/// If we have internal storage, this will keep track of that item.
 	var/obj/item/internal_storage
 
-/datum/component/dexterity/Attach(datum/target, storage_type = ITEM_SLOT_DEX_STORAGE, hud_type = /datum/hud/dextrous, has_internal_storage = FALSE)
+/datum/component/dexterity/Initialize(datum/target, storage_type = ITEM_SLOT_DEX_STORAGE, hud_type = /datum/hud/dextrous, has_internal_storage = FALSE)
 	. = ..()
 	if(!isliving(target))
 		return COMPONENT_INCOMPATIBLE
@@ -24,24 +24,23 @@
 
 	RegisterSignal(parent, COMSIG_PARENT_EXAMINE, PROC_REF(on_examine))
 	RegisterSignal(target, COMSIG_LIVING_DEATH, PROC_REF(drop_items))
-	RegisterSignal(target, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(handle_unequipped_item))
+	RegisterSignal(target, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(unequipped_item))
 	RegisterSignal(target, COMSIG_DEXTROUS_FORCED_MOVE, PROC_REF(drop_items))
 	RegisterSignal(target, COMSIG_DEXTROUS_UPDATE_INTERNAL_STORAGE, PROC_REF(update_internal_storage))
 
-/datum/component/dexterity/Detach(datum/target)
+/datum/component/dexterity/Destroy(datum/target)
 	. = ..()
-	UnRegisterSignal(target, COMSIG_LIVING_DEATH)
-	UnRegisterSignal(target, COMSIG_MOB_UNEQUIPPED_ITEM)
-	UnRegisterSignal(target, COMSIG_DEXTROUS_FORCED_MOVE)
-	UnRegisterSignal(target, COMSIG_DEXTROUS_UPDATE_INTERNAL_STORAGE)
+	UnregisterSignal(target, COMSIG_LIVING_DEATH)
+	UnregisterSignal(target, COMSIG_MOB_UNEQUIPPED_ITEM)
+	UnregisterSignal(target, COMSIG_DEXTROUS_FORCED_MOVE)
+	UnregisterSignal(target, COMSIG_DEXTROUS_UPDATE_INTERNAL_STORAGE)
 	REMOVE_TRAIT(target, TRAIT_ADVANCEDTOOLUSER, REF(src))
 	REMOVE_TRAIT(target, TRAIT_CAN_STRIP, REF(src))
-	target.RemoveComponent(/datum/component/personal_crafting)
 
 	// Just in case we get detached without having the death signal, we really don't want to hold refs to inaccessible items that are...somewhere.
 	var/mob/living/user = target
-	if(length(target.held_items))
-		target.drop_all_held_items()
+	if(length(user.held_items))
+		user.drop_all_held_items()
 
 /// Signal proc for [COMSIG_PARENT_EXAMINE], adds more information about the dexterity component to the examine.
 /datum/component/dexterity/proc/on_examine(datum/source, mob/user, list/examine_list)
@@ -63,7 +62,7 @@
 		return
 
 	switch(slot)
-		if(storage_type)
+		if(ITEM_SLOT_DEX_STORAGE)
 			internal_storage = thing
 			update_internal_storage(user)
 		else
@@ -81,8 +80,8 @@
 
 /// Signal proc for [COMSIG_DEXTROUS_UPDATE_INTERNAL_STORAGE], regenerates the icons (like regenerateicons()) and update the HUD whenever internal storage is modified.
 /datum/component/dexterity/proc/update_internal_storage(mob/living/user)
-	if(has_internal_storage && user.client && hud_used?.hud_shown)
+	if(has_internal_storage && user.client && user.hud_used?.hud_shown)
 		internal_storage.screen_loc = ui_id
-		client.screen += internal_storage
+		user.client.screen += internal_storage
 
 

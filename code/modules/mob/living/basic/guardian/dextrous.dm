@@ -11,10 +11,15 @@
 	// san7890 i'll get back to this later
 	//dextrous = TRUE
 	held_items = list(null, null)
-	/// What we're storing within ourself
-	var/obj/item/internal_storage
 	/// What type of slot ID are we using here?
 	var/dextrous_slot_id = ITEM_SLOT_DEX_STORAGE
+	/// What datum hud are we using?
+	var/hud_type = /datum/hud/dextrous/guardian
+
+/mob/living/basic/guardian/dextrous/Initialize()
+	AddComponent(/datum/component/dexterity, dextrous_slot_id, hud_type, has_internal_storage = TRUE)
+	return ..()
+
 
 /mob/living/basic/guardian/dextrous/death(gibbed)
 	..()
@@ -24,27 +29,27 @@
 /mob/living/basic/guardian/dextrous/examine(mob/user)
 	. = list("<span class='info'>This is [icon2html(src)] \a <b>[src]</b>!\n[desc]")
 	for(var/obj/item/thing in held_items)
-		if(!(I.item_flags & ABSTRACT))
-			. += "It has [I.get_examine_string(user)] in its [get_held_index_name(get_held_index_of_item(I))]."
+		if(!(thing.item_flags & ABSTRACT))
+			. += "It has [thing.get_examine_string(user)] in its [get_held_index_name(get_held_index_of_item(thing))]."
 
 	return ..()
 
 /mob/living/basic/guardian/dextrous/can_equip(obj/item/I, slot, disable_warning = FALSE, bypass_equip_delay_self = FALSE)
 	switch(slot)
-		if(dextrous_slot_id)
+		if(ITEM_SLOT_DEX_STORAGE)
 			if(internal_storage)
 				return FALSE
 			return TRUE
 	..()
 
 /mob/living/basic/guardian/dextrous/get_item_by_slot(slot_id)
-	if(slot_id == ITEM_SLOT_DEX_STORAGE)
+	if(slot_id == dextrous_slot_id)
 		return internal_storage
 	return ..()
 
 /mob/living/basic/guardian/dextrous/get_slot_by_item(obj/item/looking_for)
 	if(internal_storage == looking_for)
-		return ITEM_SLOT_DEX_STORAGE
+		return dextrous_slot_id
 	return ..()
 
 /mob/living/basic/guardian/dextrous/equip_to_slot(obj/item/I, slot)
@@ -54,15 +59,10 @@
 	SEND_SIGNAL(src, COMSIG_DEXTROUS_EQUIP_TO_SLOT, I, slot)
 
 /mob/living/basic/guardian/dextrous/getBackSlot()
-	return ITEM_SLOT_DEX_STORAGE
+	return dextrous_slot_id
 
 /mob/living/basic/guardian/dextrous/getBeltSlot()
-	return ITEM_SLOT_DEX_STORAGE
-
-/mob/living/basic/guardian/dextrous/proc/update_inv_internal_storage()
-	if(internal_storage && client && hud_used?.hud_shown)
-		internal_storage.screen_loc = ui_id
-		client.screen += internal_storage
+	return dextrous_slot_id
 
 /mob/living/basic/guardian/dextrous/regenerate_icons()
 	. = ..()

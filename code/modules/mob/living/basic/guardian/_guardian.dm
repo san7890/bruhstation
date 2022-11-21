@@ -251,7 +251,7 @@ GLOBAL_LIST_EMPTY(parasites)
 		else
 			resulthealth = round((summoner.health / summoner.maxHealth) * 100, 0.5)
 		. += "Summoner Health: [resulthealth]%"
-	if(!COOLDOWN_ENDED(src, recall_cooldown))
+	if(!COOLDOWN_FINISHED(src, recall_cooldown))
 		. += "Manifest/Recall Cooldown Remaining: [DisplayTimeText(recall_cooldown - world.time)]"
 
 /mob/living/basic/guardian/update_health_hud()
@@ -426,19 +426,19 @@ GLOBAL_LIST_EMPTY(parasites)
 
 /// The guardian's ability to manifest itself in the real world, derived from the life energy of its summoner or whatever it is
 /mob/living/basic/guardian/proc/Manifest(forced)
-	if(istype(summoner.loc, /obj/effect) || (!COOLDOWN_ENDED(src, recall_cooldown) && !forced) || locked)
+	if(istype(summoner.loc, /obj/effect) || (!COOLDOWN_FINISHED(src, recall_cooldown) && !forced) || locked)
 		return FALSE
 	if(loc == summoner)
 		forceMove(summoner.loc)
 		new /obj/effect/temp_visual/guardian/phase(loc)
-		cooldown = world.time + 10
+		COOLDOWN_START(src, recall_cooldown, recall_cooldown_duration)
 		reset_perspective()
 		return TRUE
 	return FALSE
 
 /// The guardian's recalling itself back into its summoner so it can remain "hidden" from the world.
 /mob/living/basic/guardian/proc/Recall(forced)
-	if(!summoner || loc == summoner || (!COOLDOWN_ENDED(src, recall_cooldown) && !forced) || locked)
+	if(!summoner || loc == summoner || (!COOLDOWN_FINISHED(src, recall_cooldown) && !forced) || locked)
 		return FALSE
 	new /obj/effect/temp_visual/guardian/phase/out(loc)
 	// we add it to the contents of the summoner to be super sure people can't detect it.
