@@ -2,10 +2,6 @@
 /mob/living/basic/guardian/charger
 	melee_damage_lower = 15
 	melee_damage_upper = 15
-	// san7890 - i'll get back to this ranged shit
-	//ranged = 1 //technically
-	//ranged_message = "charges"
-	//ranged_cooldown_time = 40
 	speed = -1
 	damage_coeff = list(BRUTE = 0.6, BURN = 0.6, TOX = 0.6, CLONE = 0.6, STAMINA = 0, OXY = 0.6)
 	playstyle_string = span_holoparasite("As a <b>charger</b> type you do medium damage, have medium damage resistance, move very fast, and can charge at a location, damaging any target hit and forcing them to drop any items they are holding.")
@@ -15,43 +11,30 @@
 	miner_fluff_string = span_holoparasite("You encounter... Titanium, a lightweight, agile fighter.")
 	var/charging = 0
 	var/atom/movable/screen/alert/chargealert
+	/// This allows us to charge at stuff.
+	var/datum/action/cooldown/mob_cooldown/charge/basic_charge/charging_ability
 
-/mob/living/basic/guardian/charger/Life(delta_time = SSMOBS_DT, times_fired)
+/mob/living/basic/guardian/charger/Initialize()
 	. = ..()
-	//if(ranged_cooldown <= world.time)
-	//	if(!chargealert)
-	//		chargealert = throw_alert(ALERT_CHARGE, /atom/movable/screen/alert/cancharge)
-	//else
-	//	clear_alert(ALERT_CHARGE)
-	//	chargealert = null
+	charging_ability = new
+	charging_ability.Grant(src)
+	charging_ability.cooldown_time = 4 SECONDS
 
-// san7890 get back to this
-///mob/living/basic/guardian/charger/OpenFire(atom/A)
-//	if(!charging)
-//		//visible_message(span_danger("<b>[src]</b> [ranged_message] at [A]!"))
-//		//ranged_cooldown = world.time + ranged_cooldown_time
-//		clear_alert(ALERT_CHARGE)
-//		chargealert = null
-//		Shoot(A)
-
-///mob/living/basic/guardian/charger/Shoot(atom/targeted_atom)
-//	charging = 1
-//	throw_at(targeted_atom, range, 1, src, FALSE, TRUE, callback = CALLBACK(src, PROC_REF(charging_end)))
-
-/mob/living/basic/guardian/charger/proc/charging_end()
-	charging = 0
+/mob/living/basic/guardian/charger/Destroy()
+	QDEL_NULL(charging_ability)
+	return ..()
 
 /mob/living/basic/guardian/charger/Move()
-	if(charging)
+	if(charging_ability.next_use_time < world.time)
 		new /obj/effect/temp_visual/decoy/fading(loc,src)
-	. = ..()
+	return ..()
 
 /mob/living/basic/guardian/charger/snapback()
-	if(!charging)
-		..()
+	if(charging_ability.next_use_time > world.time)
+		return ..()
 
 /mob/living/basic/guardian/charger/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
-	if(!charging)
+	if(charging_ability.next_use_time > world.time)
 		return ..()
 
 	else if(hit_atom)
@@ -68,9 +51,7 @@
 				L.drop_all_held_items()
 				L.visible_message(span_danger("[src] slams into [L]!"), span_userdanger("[src] slams into you!"))
 				L.apply_damage(20, BRUTE)
-				playsound(get_turf(L), 'sound/effects/meteorimpact.ogg', 100, TRUE)
+				playsound(get_turf(L), 'sound/effects/meteorimpact.ogg', 10 SECONDS, TRUE)
 				shake_camera(L, 4, 3)
 				shake_camera(src, 2, 3)
-
-		charging = 0
 

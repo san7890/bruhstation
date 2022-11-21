@@ -13,11 +13,6 @@
 	melee_damage_lower = 10
 	melee_damage_upper = 10
 	damage_coeff = list(BRUTE = 0.9, BURN = 0.9, TOX = 0.9, CLONE = 0.9, STAMINA = 0, OXY = 0.9)
-	// san7890 - i'll get back to this
-	//projectiletype = /obj/projectile/guardian
-	//ranged_cooldown_time = 1 //fast!
-	//projectilesound = 'sound/effects/hit_on_shattered_glass.ogg'
-	//ranged = 1
 	range = 13
 	playstyle_string = span_holoparasite("As a <b>ranged</b> type, you have only light damage resistance, but are capable of spraying shards of crystal at incredibly high speed. You can also deploy surveillance snares to monitor enemy movement. Finally, you can switch to scout mode, in which you can't attack, but can move without limit.")
 	magic_fluff_string = span_holoparasite("..And draw the Sentinel, an alien master of ranged combat.")
@@ -27,41 +22,36 @@
 	see_invisible = SEE_INVISIBLE_LIVING
 	see_in_dark = NIGHTVISION_FOV_RANGE
 	toggle_button_type = /atom/movable/screen/guardian/toggle_mode
+	/// List to track how many snares this guardian has set.
 	var/list/snares = list()
+	/// Boolean for mode-toggling between ranged and scout.
 	var/toggle = FALSE
 
+// Swap between ranged and scout mode. Ranged we get the element that allows us to shoot, scout we get the element that allows us to move without limit (but we can't attack).
 /mob/living/basic/guardian/ranged/ToggleMode()
 	if(loc == summoner)
 		if(toggle)
-		//	ranged = initial(ranged)
+			AddElement(/datum/element/ranged_attacks, casingtype = null, /obj/projectile/guardian, 'sound/effects/hit_on_shattered_glass.ogg', cooldown_duration = 0.1 SECONDS, guardian_color)
 			melee_damage_lower = initial(melee_damage_lower)
 			melee_damage_upper = initial(melee_damage_upper)
 			obj_damage = initial(obj_damage)
 			environment_smash = initial(environment_smash)
 			alpha = 255
 			range = initial(range)
-			to_chat(src, "[span_danger("<B>You switch to combat mode.")]</B>")
+			to_chat(src, "[span_danger("<B>You switch to combat mode.</B>")]")
 			toggle = FALSE
 		else
-		//	ranged = 0
+			RemoveElement(/datum/element/ranged_attacks, casingtype = null, /obj/projectile/guardian, 'sound/effects/hit_on_shattered_glass.ogg', cooldown_duration = 0.1 SECONDS, guardian_color)
 			melee_damage_lower = 0
 			melee_damage_upper = 0
 			obj_damage = 0
 			environment_smash = ENVIRONMENT_SMASH_NONE
 			alpha = 45
 			range = 255
-			to_chat(src, "[span_danger("<B>You switch to scout mode.")]</B>")
+			to_chat(src, "[span_danger("<B>You switch to scout mode.</B>")]")
 			toggle = TRUE
 	else
-		to_chat(src, "[span_danger("<B>You have to be recalled to toggle modes!")]</B>")
-
-// san7890 this is going to have to be a mob action or something somehow FUCK
-///mob/living/basic/guardian/ranged/Shoot(atom/targeted_atom)
-//	. = ..()
-//	if(istype(., /obj/projectile))
-//		var/obj/projectile/P = .
-//		if(guardian_color)
-//		P.color = guardian_color
+		to_chat(src, "[span_danger("<B>You have to be recalled to toggle modes!</B>")]")
 
 /mob/living/basic/guardian/ranged/ToggleLight()
 	var/msg

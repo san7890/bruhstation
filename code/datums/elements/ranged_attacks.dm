@@ -5,8 +5,13 @@
 	var/casingtype = /obj/item/ammo_casing/glockroach
 	var/projectilesound = 'sound/weapons/gun/pistol/shot.ogg'
 	var/projectiletype
+	/// Cooldown between ranged attacks, so you can't spam the everliving hell out of it in certain cases.
+	var/cooldown_duration = 0
+	COOLDOWN_DECLARE(ranged_cooldown)
+	/// Color override for the projectile in case you want it to match the attached atom's color or something like that.
+	var/projectile_color = null
 
-/datum/element/ranged_attacks/Attach(atom/movable/target, casingtype, projectilesound, projectiletype)
+/datum/element/ranged_attacks/Attach(atom/movable/target, casingtype, projectilesound, projectiletype, cooldown_duration, projectile_color)
 	. = ..()
 	if(!isbasicmob(target))
 		return COMPONENT_INCOMPATIBLE
@@ -14,6 +19,9 @@
 	src.casingtype = casingtype
 	src.projectilesound = projectilesound
 	src.projectiletype = projectiletype
+	src.projectile_color = projectile_color
+	if(isnum(cooldown_duration))
+		src.ranged_cooldown = ranged_cooldown
 
 	RegisterSignal(target, COMSIG_MOB_ATTACK_RANGED, PROC_REF(fire_ranged_attack))
 
@@ -30,6 +38,9 @@
 
 
 /datum/element/ranged_attacks/proc/async_fire_ranged_attack(mob/living/basic/firer, atom/target, modifiers)
+	if(!COOLDOWN_FINISHED(src, ranged_cooldown))
+		return
+
 	var/turf/startloc = get_turf(firer)
 
 	if(casingtype)
@@ -46,6 +57,8 @@
 	else if(projectiletype)
 		var/obj/projectile/P = new projectiletype(startloc)
 		playsound(firer, projectilesound, 100, TRUE)
+		if(projectile_color)
+			P.color = projectile_color
 		P.starting = startloc
 		P.firer = firer
 		P.fired_from = firer
@@ -54,3 +67,6 @@
 		P.original = target
 		P.preparePixelProjectile(target, firer)
 		P.fire()
+
+	if(cooldown_duration)
+		COOLDOWN_START(src, ranged_cooldown, cooldown_duration)
