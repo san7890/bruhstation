@@ -88,11 +88,11 @@
 	set desc = "Set an invisible snare that will alert you when living creatures walk over it. Max of 5"
 	if(length(snares) < max_snares)
 		var/turf/snare_loc = get_turf(loc)
-		var/obj/effect/snare/S = new /obj/effect/snare(snare_loc)
-		S.spawner = src
-		S.name = "[get_area(snare_loc)] snare ([rand(1, 1000)])"
-		snares |= S
-		to_chat(src, "[span_danger("<B>Surveillance snare deployed!")]</B>")
+		var/obj/effect/abstract/guardian_snare/trap = new /obj/effect/abstract/guardian_snare(snare_loc)
+		trap.spawner = src
+		trap.name = "[get_area(snare_loc)] snare ([rand(1, 1000)])"
+		snares |= trap
+		to_chat(src, "[span_danger("<B>Surveillance snare deployed!</B>")]")
 	else
 		to_chat(src, "[span_danger("<B>You have too many snares deployed. Remove some first.")]</B>")
 
@@ -105,34 +105,7 @@
 		return
 	snares -= picked_snare
 	qdel(picked_snare)
-	to_chat(src, "[span_danger("<B>Snare disarmed.")]</B>")
-
-/obj/effect/snare
-	name = "snare"
-	desc = "You shouldn't be seeing this!"
-	invisibility = INVISIBILITY_ABSTRACT
-	var/mob/living/basic/guardian/spawner
-
-/obj/effect/snare/Initialize(mapload)
-	. = ..()
-	var/static/list/loc_connections = list(
-		COMSIG_ATOM_ENTERED = PROC_REF(on_entered),
-	)
-	AddElement(/datum/element/connect_loc, loc_connections)
-
-/obj/effect/snare/proc/on_entered(datum/source, AM as mob|obj)
-	SIGNAL_HANDLER
-	if(isliving(AM) && spawner && spawner.summoner && AM != spawner && !spawner.has_matching_summoner(AM))
-		to_chat(spawner.summoner, "[span_danger("<B>[AM] has crossed surveillance snare, [name].")]</B>")
-		var/list/guardians = spawner.summoner.get_all_linked_holoparasites()
-		for(var/para in guardians)
-			to_chat(para, "[span_danger("<B>[AM] has crossed surveillance snare, [name].")]</B>")
-
-/obj/effect/snare/singularity_act()
-	return
-
-/obj/effect/snare/singularity_pull()
-	return
+	to_chat(src, "[span_danger("<B>Snare disarmed.</B>")]")
 
 /mob/living/basic/guardian/ranged/Manifest(forced)
 	if (toggle)
@@ -148,3 +121,26 @@
 	if(toggle)
 		return
 	..()
+
+/// Abstract effect "snare" that we just use for surveillance to see if anyone walks over it.
+/obj/effect/abstract/guardian_snare
+	name = "snare"
+	desc = "You shouldn't be seeing this!"
+	invisibility = INVISIBILITY_ABSTRACT
+	/// Track the guardian that spawned us.
+	var/mob/living/basic/guardian/spawner
+
+/obj/effect/abstract/guardian_snare/Initialize(mapload)
+	. = ..()
+	var/static/list/loc_connections = list(
+		COMSIG_ATOM_ENTERED = PROC_REF(on_entered),
+	)
+	AddElement(/datum/element/connect_loc, loc_connections)
+
+/obj/effect/abstract/guardian_snare/proc/on_entered(datum/source, movable as mob|obj)
+	SIGNAL_HANDLER
+	if(isliving(movable) && spawner && spawner.summoner && movable != spawner && !spawner.has_matching_summoner(movable))
+		to_chat(spawner.summoner, "[span_danger("<B>[movable] has crossed surveillance snare, [name].")]</B>")
+		var/list/guardians = spawner.summoner.get_all_linked_holoparasites()
+		for(var/entity in guardians)
+			to_chat(entity, "[span_danger("<B>[movable] has crossed surveillance snare, [name].")]</B>")
