@@ -148,7 +148,7 @@ GLOBAL_LIST_EMPTY(parasites)
 /// If the guardian moves out of the prescribed range of the summoner, snap it back to move to the same turf as the user.
 /mob/living/basic/guardian/proc/snapback()
 	if(summoner)
-		if(get_dist(get_turf(summoner),get_turf(src)) <= range)
+		if(get_dist(get_turf(summoner), get_turf(src)) <= range)
 			return
 		else
 			to_chat(src, span_holoparasite("You moved out of range, and were pulled back! You can only move [range] meters from [summoner.real_name]!"))

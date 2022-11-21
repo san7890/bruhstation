@@ -25,16 +25,16 @@
 	return ..()
 
 /mob/living/basic/guardian/charger/Move()
-	if(charging_ability.next_use_time < world.time)
+	if(charging_ability.actively_moving)
 		new /obj/effect/temp_visual/decoy/fading(loc,src)
 	return ..()
 
 /mob/living/basic/guardian/charger/snapback()
-	if(charging_ability.next_use_time > world.time)
-		return ..()
+	if(!charging_ability.actively_moving)
+		..()
 
 /mob/living/basic/guardian/charger/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
-	if(charging_ability.next_use_time > world.time)
+	if(!charging_ability.actively_moving)
 		return ..()
 
 	else if(hit_atom)

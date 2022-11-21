@@ -24,14 +24,23 @@
 	toggle_button_type = /atom/movable/screen/guardian/toggle_mode
 	/// List to track how many snares this guardian has set.
 	var/list/snares = list()
+	/// Number of snares we can have out at once.
+	var/max_snares = 6
 	/// Boolean for mode-toggling between ranged and scout.
 	var/toggle = FALSE
+	/// How long we want to have a cooldown between projectile attacks.
+	var/projectile_cooldown = 1 SECONDS
+
+/mob/living/basic/guardian/ranged/Initialize(mapload, theme)
+	// We default to being in attack mode to start off with, so let's add it to ensure we can start firing right away without needing to toggle/untoggle first.
+	AddElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
+	return ..()
 
 // Swap between ranged and scout mode. Ranged we get the element that allows us to shoot, scout we get the element that allows us to move without limit (but we can't attack).
 /mob/living/basic/guardian/ranged/ToggleMode()
 	if(loc == summoner)
 		if(toggle)
-			AddElement(/datum/element/ranged_attacks, casingtype = null, /obj/projectile/guardian, 'sound/effects/hit_on_shattered_glass.ogg', cooldown_duration = 0.1 SECONDS, guardian_color)
+			AddElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
 			melee_damage_lower = initial(melee_damage_lower)
 			melee_damage_upper = initial(melee_damage_upper)
 			obj_damage = initial(obj_damage)
@@ -41,7 +50,7 @@
 			to_chat(src, "[span_danger("<B>You switch to combat mode.</B>")]")
 			toggle = FALSE
 		else
-			RemoveElement(/datum/element/ranged_attacks, casingtype = null, /obj/projectile/guardian, 'sound/effects/hit_on_shattered_glass.ogg', cooldown_duration = 0.1 SECONDS, guardian_color)
+			RemoveElement(/datum/element/ranged_attacks, null, /obj/projectile/guardian, 'sound/effects/hit_on_shattered_glass.ogg', projectile_cooldown, guardian_color)
 			melee_damage_lower = 0
 			melee_damage_upper = 0
 			obj_damage = 0
@@ -54,7 +63,8 @@
 		to_chat(src, "[span_danger("<B>You have to be recalled to toggle modes!</B>")]")
 
 /mob/living/basic/guardian/ranged/ToggleLight()
-	var/msg
+	var/msg = ""
+
 	switch(lighting_alpha)
 		if (LIGHTING_PLANE_ALPHA_VISIBLE)
 			lighting_alpha = LIGHTING_PLANE_ALPHA_MOSTLY_VISIBLE
@@ -69,14 +79,14 @@
 			lighting_alpha = LIGHTING_PLANE_ALPHA_VISIBLE
 			msg = "You deactivate your night vision."
 
-	to_chat(src, span_notice("[msg]"))
+	to_chat(src, span_notice(msg))
 
 
 /mob/living/basic/guardian/ranged/verb/Snare()
 	set name = "Set Surveillance Snare"
 	set category = "Guardian"
 	set desc = "Set an invisible snare that will alert you when living creatures walk over it. Max of 5"
-	if(length(snares) < 6)
+	if(length(snares) < max_snares)
 		var/turf/snare_loc = get_turf(loc)
 		var/obj/effect/snare/S = new /obj/effect/snare(snare_loc)
 		S.spawner = src
@@ -100,8 +110,8 @@
 /obj/effect/snare
 	name = "snare"
 	desc = "You shouldn't be seeing this!"
-	var/mob/living/basic/guardian/spawner
 	invisibility = INVISIBILITY_ABSTRACT
+	var/mob/living/basic/guardian/spawner
 
 /obj/effect/snare/Initialize(mapload)
 	. = ..()
