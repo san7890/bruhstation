@@ -17,7 +17,7 @@
 	for(var/i in gravito_targets)
 		remove_gravity(i)
 
-/mob/living/basic/guardian/gravitokinetic/AttackingTarget()
+/mob/living/basic/guardian/gravitokinetic/melee_attack()
 	. = ..()
 	if(isliving(target) && target != src && target != summoner)
 		to_chat(src, "[span_danger("<B>Your punch has applied heavy gravity to [target]!")]</B>")

@@ -27,7 +27,7 @@
 		summoner.extinguish_mob()
 		summoner.adjust_fire_stacks(-10 * delta_time)
 
-/mob/living/basic/guardian/fire/AttackingTarget()
+/mob/living/basic/guardian/fire/melee_attack()
 	. = ..()
 	if(!.)
 		return

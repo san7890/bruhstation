@@ -58,8 +58,8 @@
 	. = ..()
 	if(istype(., /obj/projectile))
 		var/obj/projectile/P = .
-		if(guardiancolor)
-			P.color = guardiancolor
+		if(guardian_color)
+			P.color = guardian_color
 
 /mob/living/basic/guardian/ranged/ToggleLight()
 	var/msg
@@ -142,7 +142,7 @@
 	incorporeal_move = FALSE
 	. = ..()
 
-/mob/living/basic/guardian/ranged/AttackingTarget()
+/mob/living/basic/guardian/ranged/melee_attack()
 	if(toggle)
 		return
 	..()

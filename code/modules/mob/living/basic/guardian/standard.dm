@@ -22,7 +22,7 @@
 
 
 
-/mob/living/basic/guardian/punch/AttackingTarget()
+/mob/living/basic/guardian/punch/melee_attack()
 	. = ..()
 	if(isliving(target))
 		say("[battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry]!!", ignore_spam = TRUE)

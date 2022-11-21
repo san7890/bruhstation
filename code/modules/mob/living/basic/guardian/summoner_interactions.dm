@@ -16,7 +16,7 @@
 	var/list/guardians = get_all_linked_holoparasites()
 	for(var/para in guardians)
 		var/mob/living/basic/guardian/G = para
-		to_chat(G, "<span class='say'><font color=\"[G.guardiancolor]\"><b><i>[src]:</i></b></font> [preliminary_message]</span>" )
+		to_chat(G, "<span class='say'><font color=\"[G.guardian_color]\"><b><i>[src]:</i></b></font> [preliminary_message]</span>" )
 	for(var/M in GLOB.dead_mob_list)
 		var/link = FOLLOW_LINK(M, src)
 		to_chat(M, "<span class='say'>[link] [my_message]</span>")
@@ -53,30 +53,30 @@
 		to_chat(src, span_holoparasite("You decide not to reset [length(guardians) > 1 ? "any of your guardians":"your guardian"]."))
 		return
 
-	to_chat(src, span_holoparasite("You attempt to reset <font color=\"[chosen_guardian.guardiancolor]\"><b>[chosen_guardian.real_name]</b></font>'s personality..."))
+	to_chat(src, span_holoparasite("You attempt to reset <font color=\"[chosen_guardian.guardian_color]\"><b>[chosen_guardian.real_name]</b></font>'s personality..."))
 	var/list/mob/dead/observer/ghost_candidates = poll_ghost_candidates("Do you want to play as [src.real_name]'s [chosen_guardian.real_name]?", ROLE_PAI, FALSE, 100)
 	if(!LAZYLEN(ghost_candidates))
-		to_chat(src, span_holoparasite("There were no ghosts willing to take control of <font color=\"[chosen_guardian.guardiancolor]\"><b>[chosen_guardian.real_name]</b></font>. Looks like you're stuck with it for now."))
+		to_chat(src, span_holoparasite("There were no ghosts willing to take control of <font color=\"[chosen_guardian.guardian_color]\"><b>[chosen_guardian.real_name]</b></font>. Looks like you're stuck with it for now."))
 		return
 
 	var/mob/dead/observer/candidate = pick(ghost_candidates)
 	to_chat(chosen_guardian, span_holoparasite("Your user reset you, and your body was taken over by a ghost. Looks like they weren't happy with your performance."))
-	to_chat(src, span_holoparasite_bold("Your <font color=\"[chosen_guardian.guardiancolor]\">[chosen_guardian.real_name]</font> has been successfully reset."))
+	to_chat(src, span_holoparasite_bold("Your <font color=\"[chosen_guardian.guardian_color]\">[chosen_guardian.real_name]</font> has been successfully reset."))
 	message_admins("[key_name_admin(candidate)] has taken control of ([ADMIN_LOOKUPFLW(chosen_guardian)])")
 	chosen_guardian.ghostize(FALSE)
-	chosen_guardian.guardianrecolor()
-	chosen_guardian.guardianrename() //give it a new color and name, to show it's a new person
+	chosen_guardian.guardian_recolor()
+	chosen_guardian.guardian_rename() //give it a new color and name, to show it's a new person
 	chosen_guardian.key = candidate.key
 	chosen_guardian.reset = TRUE
 	switch(chosen_guardian.theme)
 		if("tech")
-			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardiancolor]\"><b>[chosen_guardian.real_name]</b></font> is now online!"))
+			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardian_color]\"><b>[chosen_guardian.real_name]</b></font> is now online!"))
 		if("magic")
-			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardiancolor]\"><b>[chosen_guardian.real_name]</b></font> has been summoned!"))
+			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardian_color]\"><b>[chosen_guardian.real_name]</b></font> has been summoned!"))
 		if("carp")
-			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardiancolor]\"><b>[chosen_guardian.real_name]</b></font> has been caught!"))
+			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardian_color]\"><b>[chosen_guardian.real_name]</b></font> has been caught!"))
 		if("miner")
-			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardiancolor]\"><b>[chosen_guardian.real_name]</b></font> has appeared!"))
+			to_chat(src, span_holoparasite("<font color=\"[chosen_guardian.guardian_color]\"><b>[chosen_guardian.real_name]</b></font> has appeared!"))
 	guardians -= chosen_guardian
 	if(!length(guardians))
 		remove_verb(src, /mob/living/proc/guardian_reset)

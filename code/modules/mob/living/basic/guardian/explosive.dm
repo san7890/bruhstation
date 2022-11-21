@@ -59,6 +59,6 @@
 
 /mob/living/basic/guardian/bomb/proc/display_examine(datum/source, mob/user, text)
 	SIGNAL_HANDLER
-	text += span_holoparasite("It glows with a strange <font color=\"[guardiancolor]\">light</font>!")
+	text += span_holoparasite("It glows with a strange <font color=\"[guardian_color]\">light</font>!")
 
 #undef UNREGISTER_BOMB_SIGNALS

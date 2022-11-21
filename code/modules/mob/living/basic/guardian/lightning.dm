@@ -22,7 +22,7 @@
 	var/list/enemychains = list()
 	var/successfulshocks = 0
 
-/mob/living/basic/guardian/beam/AttackingTarget()
+/mob/living/basic/guardian/beam/melee_attack()
 	. = ..()
 	if(. && isliving(target) && target != src && target != summoner)
 		cleardeletedchains()

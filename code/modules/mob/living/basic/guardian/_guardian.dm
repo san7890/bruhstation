@@ -56,7 +56,7 @@ GLOBAL_LIST_EMPTY(parasites)
 	var/range = 10
 	/// Overlay that we apply on top of the guardian mob (formerly cooloverlay san7890 remove this).
 	var/mutable_appearance/cool_overlay
-	/// The color of the guardian (formerly guardiancolor san7890 remove this).
+	/// The color of the guardian
 	var/guardian_color
 	/// Should we recolor the entire sprite when we generate the mob? (formerly recolorentiresprite san7890 remove this)
 	var/recolor_entire_sprite
@@ -218,7 +218,7 @@ GLOBAL_LIST_EMPTY(parasites)
 /mob/living/basic/guardian/canSuicide()
 	return FALSE
 
-/mob/living/basic/guardian/AttackingTarget()
+/mob/living/basic/guardian/melee_attack()
 	if(!is_deployed())
 		to_chat(src, "[span_danger("<B>You must be manifested to attack!")]</B>")
 		return FALSE
@@ -239,7 +239,7 @@ GLOBAL_LIST_EMPTY(parasites)
 		if(summoner.stat == DEAD)
 			holder.icon_state = "huddead"
 		else
-			holder.icon_state = "hudhealthy
+			holder.icon_state = "hudhealthy"
 
 /mob/living/basic/guardian/get_status_tab_items()
 	. += ..()
@@ -387,7 +387,7 @@ GLOBAL_LIST_EMPTY(parasites)
 			attack_verb_simple = "bite"
 			attack_sound = 'sound/weapons/bite.ogg'
 			attack_vis_effect = ATTACK_EFFECT_BITE
-			recolorentiresprite = TRUE
+			recolor_entire_sprite = TRUE
 	if(!recolor_entire_sprite) //we want this to proc before stand logs in, so the overlay isn't gone for some reason
 		cool_overlay = mutable_appearance(icon, theme)
 		add_overlay(cool_overlay)
@@ -411,7 +411,7 @@ GLOBAL_LIST_EMPTY(parasites)
 	var/new_name = sanitize_name(reject_bad_text(tgui_input_text(src, "What would you like your name to be?", "Choose Your Name", real_name, MAX_NAME_LEN)))
 	if(!new_name) //redo proc until we get a good name
 		to_chat(src, span_warning("Not a valid name, please try again."))
-		guardianrename()
+		guardian_rename()
 		return
 	to_chat(src, span_notice("Your new name [span_name("[new_name]")] anchors itself in your mind."))
 	fully_replace_character_name(null, new_name)
@@ -466,8 +466,8 @@ GLOBAL_LIST_EMPTY(parasites)
 		if(sender_key != key || !input) //guardian got reset, or did not enter anything
 			return
 
-		var/preliminary_message = span_holoparasite_bold([input]) //apply basic color/bolding
-		var/my_message = "<font color=\"[guardiancolor]\"><b><i>[src]:</i></b></font> [preliminary_message]" //add source, color source with the guardian's color
+		var/preliminary_message = span_holoparasite_bold(input) //apply basic color/bolding
+		var/my_message = "<font color=\"[guardian_color]\"><b><i>[src]:</i></b></font> [preliminary_message]" //add source, color source with the guardian's color
 
 		to_chat(summoner, "<span class='say'>[my_message]</span>")
 		var/list/guardians = summoner.get_all_linked_holoparasites()

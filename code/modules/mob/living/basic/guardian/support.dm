@@ -27,7 +27,7 @@
 	if(beacon_cooldown >= world.time)
 		. += "Beacon Cooldown Remaining: [DisplayTimeText(beacon_cooldown - world.time)]"
 
-/mob/living/basic/guardian/healer/AttackingTarget()
+/mob/living/basic/guardian/healer/melee_attack()
 	. = ..()
 	if(is_deployed() && toggle && iscarbon(target))
 		var/mob/living/carbon/C = target
@@ -36,8 +36,8 @@
 		C.adjustOxyLoss(-5)
 		C.adjustToxLoss(-5)
 		var/obj/effect/temp_visual/heal/H = new /obj/effect/temp_visual/heal(get_turf(C))
-		if(guardiancolor)
-			H.color = guardiancolor
+		if(guardian_color)
+			H.color = guardian_color
 		if(C == summoner)
 			update_health_hud()
 			med_hud_set_health()
@@ -98,10 +98,10 @@
 	anchored = TRUE
 	layer = ABOVE_OPEN_TURF_LAYER
 
-/obj/structure/receiving_pad/New(loc, mob/living/simple_animal/hostile/guardian/healer/G)
+/obj/structure/receiving_pad/New(loc, mob/living/basic/guardian/healer/G)
 	. = ..()
-	if(G?.guardiancolor)
-		add_atom_colour(G.guardiancolor, FIXED_COLOUR_PRIORITY)
+	if(G?.guardian_color)
+		add_atom_colour(G.guardian_color, FIXED_COLOUR_PRIORITY)
 
 /obj/structure/receiving_pad/proc/disappear()
 	visible_message(span_notice("[src] vanishes!"))
