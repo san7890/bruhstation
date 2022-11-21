@@ -65,15 +65,15 @@ GLOBAL_LIST_EMPTY(parasites)
 	/// What sort of toggle button should we use on the HUD?
 	var/toggle_button_type = /atom/movable/screen/guardian/toggle_mode/inactive
 	/// STring to send to the guardian's player about the specific playstyle they should assume?
-	var/playstyle_string = "[span_holoparasite_bold("You are a Guardian without any type. You shouldn't exist!")]"
+	var/playstyle_string = span_holoparasite_bold("You are a Guardian without any type. You shouldn't exist!")
 	/// String to send if summoned in a magic context.
-	var/magic_fluff_string = "[span_holoparasite("You draw the Coder, symbolizing bugs and errors. This shouldn't happen! Submit a bug report!")]"
+	var/magic_fluff_string = span_holoparasite("You draw the Coder, symbolizing bugs and errors. This shouldn't happen! Submit a bug report!")
 	/// String to send if summoned in a technical context.
-	var/tech_fluff_string = "[span_holoparasite("BOOT SEQUENCE COMPLETE. ERROR MODULE LOADED. THIS SHOULDN'T HAPPEN. Submit a bug report!")]"
+	var/tech_fluff_string = span_holoparasite("BOOT SEQUENCE COMPLETE. ERROR MODULE LOADED. THIS SHOULDN'T HAPPEN. Submit a bug report!")
 	/// String to send if summoned in a carpy context.
-	var/carp_fluff_string = "[span_holoparasite("CARP CARP CARP SOME SORT OF HORRIFIC BUG BLAME THE CODERS CARP CARP CARP")]"
+	var/carp_fluff_string = span_holoparasite("CARP CARP CARP SOME SORT OF HORRIFIC BUG BLAME THE CODERS CARP CARP CARP")
 	/// String to send if summoned via miner loot.
-	var/miner_fluff_string = "[span_holoparasite("You encounter... Mythril, it shouldn't exist... Submit a bug report!")]"
+	var/miner_fluff_string = span_holoparasite("You encounter... Mythril, it shouldn't exist... Submit a bug report!")
 
 /mob/living/basic/guardian/Initialize(mapload, theme)
 	GLOB.parasites += src
@@ -466,7 +466,7 @@ GLOBAL_LIST_EMPTY(parasites)
 		if(sender_key != key || !input) //guardian got reset, or did not enter anything
 			return
 
-		var/preliminary_message = "[span_holoparasite_bold([input])]" //apply basic color/bolding
+		var/preliminary_message = span_holoparasite_bold([input]) //apply basic color/bolding
 		var/my_message = "<font color=\"[guardiancolor]\"><b><i>[src]:</i></b></font> [preliminary_message]" //add source, color source with the guardian's color
 
 		to_chat(summoner, "<span class='say'>[my_message]</span>")

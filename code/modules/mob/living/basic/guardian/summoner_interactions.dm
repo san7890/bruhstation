@@ -9,7 +9,7 @@
 	if(!input)
 		return
 
-	var/preliminary_message = "[span_holoparasite_bold([input])]" //apply basic color/bolding
+	var/preliminary_message = span_holoparasite_bold([input]) //apply basic color/bolding
 	var/my_message = "<span class='holoparasite_bold'><i>[src]:</i> [preliminary_message]</span>" //add source, color source with default grey...
 
 	to_chat(src, "<span class='say'>[my_message]</span>")
@@ -61,7 +61,7 @@
 
 	var/mob/dead/observer/candidate = pick(ghost_candidates)
 	to_chat(chosen_guardian, span_holoparasite("Your user reset you, and your body was taken over by a ghost. Looks like they weren't happy with your performance."))
-	to_chat(src, "[span_holoparasite_bold("Your <font color=\"[chosen_guardian.guardiancolor]\">[chosen_guardian.real_name]</font> has been successfully reset.")]")
+	to_chat(src, span_holoparasite_bold("Your <font color=\"[chosen_guardian.guardiancolor]\">[chosen_guardian.real_name]</font> has been successfully reset."))
 	message_admins("[key_name_admin(candidate)] has taken control of ([ADMIN_LOOKUPFLW(chosen_guardian)])")
 	chosen_guardian.ghostize(FALSE)
 	chosen_guardian.guardianrecolor()

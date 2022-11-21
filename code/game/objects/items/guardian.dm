@@ -13,13 +13,13 @@
 	/// What's the name of Guardian are we going to create? Directly pertinent to the type of guardian we'll create.
 	var/mob_name = "Guardian Spirit"
 	/// Message to broadcast as the summoner tries to use the item.
-	var/use_message = "[span_holoparasite("You shuffle the deck...")]"
+	var/use_message = span_holoparasite("You shuffle the deck...")
 	/// Message to broadcast if the item has already been used.
-	var/used_message = "[span_holoparasite("All the cards seem to be blank now.")]"
+	var/used_message = span_holoparasite("All the cards seem to be blank now.")
 	/// Message to send if we weren't able to get any ghosts to get into this role.
-	var/failure_message = "[span_holoparasite_bold("...And draw a card! It's...blank? Maybe you should try again later.")]"
+	var/failure_message = span_holoparasite_bold("...And draw a card! It's...blank? Maybe you should try again later.")
 	/// Message to send if a changeling is attempting to summon a guardian, and we don't want them to.
-	var/ling_failure = "[span_holoparasite_bold("The deck refuses to respond to a soulless creature such as you.")"
+	var/ling_failure = span_holoparasite_bold("The deck refuses to respond to a soulless creature such as you.")
 	/// Randomize the guardian the summoner can get, they won't be able to choose one.
 	var/random = TRUE
 	/// Can the summoner get more than one guardian?
@@ -202,10 +202,10 @@
 	icon_state = "combat_hypo"
 	theme = "tech"
 	mob_name = "Holoparasite"
-	use_message = "[span_holoparasite("You start to power on the injector...")]"
-	used_message = "[span_holoparasite("The injector has already been used.")]"
-	failure_message = "[span_holoparasite_bold("...ERROR. BOOT SEQUENCE ABORTED. AI FAILED TO INTIALIZE. PLEASE CONTACT SUPPORT OR TRY AGAIN LATER.")]"
-	ling_failure = "[span_holoparasite_bold("The holoparasites recoil in horror. They want nothing to do with a creature like you.")]"
+	use_message = span_holoparasite("You start to power on the injector...")
+	used_message = span_holoparasite("The injector has already been used.")
+	failure_message = span_holoparasite_bold("...ERROR. BOOT SEQUENCE ABORTED. AI FAILED TO INTIALIZE. PLEASE CONTACT SUPPORT OR TRY AGAIN LATER.")
+	ling_failure = span_holoparasite_bold("The holoparasites recoil in horror. They want nothing to do with a creature like you.")
 
 /obj/item/guardian_creator/tech/choose
 	random = FALSE
@@ -305,10 +305,10 @@
 	icon_state = "fishfingers"
 	theme = "carp"
 	mob_name = "Holocarp"
-	use_message = "[span_holoparasite("You put the fishsticks in your mouth...")]"
-	used_message = "[span_holoparasite("Someone's already taken a bite out of these fishsticks! Ew.")]"
-	failure_message = "[span_holoparasite_bold("You couldn't catch any carp spirits from the seas of Lake Carp. Maybe there are none, maybe you fucked up.")]"
-	ling_failure = "[span_holoparasite_bold("Carp'sie seems to not have taken you as the chosen one. Maybe it's because of your horrifying origin.")]"
+	use_message = span_holoparasite("You put the fishsticks in your mouth...")
+	used_message = span_holoparasite("Someone's already taken a bite out of these fishsticks! Ew.")
+	failure_message = span_holoparasite_bold("You couldn't catch any carp spirits from the seas of Lake Carp. Maybe there are none, maybe you fucked up.")
+	ling_failure = span_holoparasite_bold("Carp'sie seems to not have taken you as the chosen one. Maybe it's because of your horrifying origin.")
 	allowmultiple = TRUE
 
 /obj/item/guardian_creator/carp/choose
@@ -321,10 +321,10 @@
 	icon_state = "dustyshard"
 	theme = "miner"
 	mob_name = "Power Miner"
-	use_message = "[span_holoparasite("You pierce your skin with the shard...")]"
-	used_message = "[span_holoparasite("This shard seems to have lost all its' power...")]"
-	failure_message = "[span_holoparasite_bold("The shard hasn't reacted at all. Maybe try again later...")]"
-	ling_failure = "[span_holoparasite_bold("The power of the shard seems to not react with your horrifying, mutated body.")]"
+	use_message = span_holoparasite("You pierce your skin with the shard...")
+	used_message = span_holoparasite("This shard seems to have lost all its' power...")
+	failure_message = span_holoparasite_bold("The shard hasn't reacted at all. Maybe try again later...")
+	ling_failure = span_holoparasite_bold("The power of the shard seems to not react with your horrifying, mutated body.")
 
 /obj/item/guardian_creator/miner/choose
 	random = FALSE
