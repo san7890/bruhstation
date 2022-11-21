@@ -1,7 +1,5 @@
 //Protector
 /mob/living/basic/guardian/protector
-	melee_damage_lower = 15
-	melee_damage_upper = 15
 	range = 15 //worse for it due to how it leashes
 	damage_coeff = list(BRUTE = 0.4, BURN = 0.4, TOX = 0.4, CLONE = 0.4, STAMINA = 0, OXY = 0.4)
 	playstyle_string = span_holoparasite("As a <b>protector</b> type you cause your summoner to leash to you instead of you leashing to them and have two modes; Combat Mode, where you do and take medium damage, and Protection Mode, where you do and take almost no damage, but move slightly slower.")
@@ -10,8 +8,12 @@
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! You caught one! Wait, no... it caught you! The fisher has become the fishy.")
 	miner_fluff_string = span_holoparasite("You encounter... Uranium, a very resistant guardian.")
 	toggle_button_type = /atom/movable/screen/guardian/toggle_mode
+	/// Swap between combat and protection mode.
 	var/toggle = FALSE
 	var/mutable_appearance/shield_overlay
+	/// How long the cooldown should last for.
+	var/cooldown_duration = 1 SECONDS
+	COOLDOWN_DECLARE(toggle_cooldown)
 
 /mob/living/basic/guardian/protector/ex_act(severity)
 	if(severity >= EXPLODE_DEVASTATE)
@@ -32,18 +34,20 @@
 		flick_overlay_view(I, 5)
 
 /mob/living/basic/guardian/protector/ToggleMode()
-	if(cooldown > world.time)
-		return 0
-	cooldown = world.time + 10
-	if(toggle)
+	if(!COOLDOWN_FINISHED(src, toggle_cooldown))
+		return
+	COOLDOWN_START(src, toggle_cooldown, cooldown_duration)
+
+	if(toggle) // combat mode
 		cut_overlay(shield_overlay)
 		melee_damage_lower = initial(melee_damage_lower)
 		melee_damage_upper = initial(melee_damage_upper)
 		speed = initial(speed)
-		damage_coeff = list(BRUTE = 0.4, BURN = 0.4, TOX = 0.4, CLONE = 0.4, STAMINA = 0, OXY = 0.4)
-		to_chat(src, "[span_danger("<B>You switch to combat mode.")]</B>")
+		damage_coeff = initial(damage_coeff)
+		to_chat(src, span_danger("<B>You switch to combat mode.</B>"))
 		toggle = FALSE
-	else
+
+	else // protection mode
 		if(!shield_overlay)
 			shield_overlay = mutable_appearance('icons/effects/effects.dmi', "shield-grey")
 			if(guardian_color)
@@ -53,13 +57,15 @@
 		melee_damage_upper = 2
 		speed = 1
 		damage_coeff = list(BRUTE = 0.05, BURN = 0.05, TOX = 0.05, CLONE = 0.05, STAMINA = 0, OXY = 0.05) //damage? what's damage?
-		to_chat(src, "[span_danger("<B>You switch to protection mode.")]</B>")
+		to_chat(src, span_danger("<B>You switch to protection mode.</B>"))
 		toggle = TRUE
 
 /mob/living/basic/guardian/protector/snapback() //snap to what? snap to the guardian!
 	if(summoner)
+
 		if(get_dist(get_turf(summoner),get_turf(src)) <= range)
 			return
+
 		else
 			if(istype(summoner.loc, /obj/effect))
 				to_chat(src, span_holoparasite("You moved out of range, and were pulled back! You can only move [range] meters from [summoner.real_name]!"))

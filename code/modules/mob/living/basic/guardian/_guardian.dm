@@ -352,7 +352,9 @@ GLOBAL_LIST_EMPTY(parasites)
 /mob/living/basic/guardian/proc/updatetheme(theme)
 	if(!theme)
 		theme = pick("magic", "tech", "carp", "miner")
+
 	switch(theme)//should make it easier to create new stand designs in the future if anyone likes that
+
 		if("magic")
 			name = "Guardian Spirit"
 			real_name = "Guardian Spirit"
@@ -360,6 +362,7 @@ GLOBAL_LIST_EMPTY(parasites)
 			icon_state = "magicbase"
 			icon_living = "magicbase"
 			icon_dead = "magicbase"
+
 		if("tech")
 			name = "Holoparasite"
 			real_name = "Holoparasite"
@@ -367,6 +370,7 @@ GLOBAL_LIST_EMPTY(parasites)
 			icon_state = "techbase"
 			icon_living = "techbase"
 			icon_dead = "techbase"
+
 		if("miner")
 			name = "Power Miner"
 			real_name = "Power Miner"
@@ -374,6 +378,8 @@ GLOBAL_LIST_EMPTY(parasites)
 			icon_state = "minerbase"
 			icon_living = "minerbase"
 			icon_dead = "minerbase"
+
+
 		if("carp")
 			name = "Holocarp"
 			real_name = "Holocarp"
@@ -388,6 +394,7 @@ GLOBAL_LIST_EMPTY(parasites)
 			attack_sound = 'sound/weapons/bite.ogg'
 			attack_vis_effect = ATTACK_EFFECT_BITE
 			recolor_entire_sprite = TRUE
+
 	if(!recolor_entire_sprite) //we want this to proc before stand logs in, so the overlay isn't gone for some reason
 		cool_overlay = mutable_appearance(icon, theme)
 		add_overlay(cool_overlay)

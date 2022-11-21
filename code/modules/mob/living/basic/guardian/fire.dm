@@ -48,21 +48,21 @@
 		custom_icon_state = icon_state, \
 	)
 
-/mob/living/basic/guardian/fire/proc/on_entered(datum/source, AM as mob|obj)
+/mob/living/basic/guardian/fire/proc/on_entered(datum/source, movable as mob|obj)
 	SIGNAL_HANDLER
-	collision_ignite(AM)
+	collision_ignite(movable)
 
-/mob/living/basic/guardian/fire/Bumped(atom/movable/AM)
+/mob/living/basic/guardian/fire/Bumped(atom/movable/collider)
 	..()
-	collision_ignite(AM)
+	collision_ignite(collider)
 
-/mob/living/basic/guardian/fire/Bump(AM as mob|obj)
+/mob/living/basic/guardian/fire/Bump(movable as mob|obj)
 	..()
-	collision_ignite(AM)
+	collision_ignite(movable)
 
-/mob/living/basic/guardian/fire/proc/collision_ignite(AM as mob|obj)
-	if(isliving(AM))
-		var/mob/living/M = AM
-		if(!has_matching_summoner(M) && M != summoner && M.fire_stacks < 7)
-			M.set_fire_stacks(7)
-			M.ignite_mob()
+/mob/living/basic/guardian/fire/proc/collision_ignite(movable as mob|obj)
+	if(isliving(movable))
+		var/mob/living/fire_catcher = movable
+		if(!has_matching_summoner(fire_catcher) && fire_catcher != summoner && fire_catcher.fire_stacks < 7)
+			fire_catcher.set_fire_stacks(7)
+			fire_catcher.ignite_mob()

@@ -10,17 +10,17 @@
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Standard combat modules loaded. Holoparasite swarm online.")
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! You caught one! It's really boring and standard. Better punch some walls to ease the tension.")
 	miner_fluff_string = span_holoparasite("You encounter... Adamantine, a powerful attacker.")
+	/// The most soulful variable, the one that lets you spam whatever reference you want fluff as you bash in someone's skull.
 	var/battlecry = "AT"
 
 /mob/living/basic/guardian/punch/verb/Battlecry()
 	set name = "Set Battlecry"
 	set category = "Guardian"
 	set desc = "Choose what you shout as you punch people."
+
 	var/input = tgui_input_text(src, "What do you want your battlecry to be?", "Battle Cry", max_length = 6)
 	if(input)
 		battlecry = input
-
-
 
 /mob/living/basic/guardian/punch/melee_attack(atom/target)
 	. = ..()

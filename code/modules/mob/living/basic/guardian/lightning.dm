@@ -18,14 +18,17 @@
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Lightning modules active. Holoparasite swarm online.")
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one! It's a lightning carp! Everyone else goes zap zap.")
 	miner_fluff_string = span_holoparasite("You encounter... Iron, a conductive master of lightning.")
+	/// Beam chain to the guardian, the real shocker.
 	var/datum/beam/summonerchain
+	/// Track how many shocker chains we've sent out to our enemies.
 	var/list/enemychains = list()
-	var/successfulshocks = 0
+	/// How many shocks have we gotten off on our enemies?
+	var/successful_shocks = 0
 
 /mob/living/basic/guardian/beam/melee_attack(atom/target)
 	. = ..()
 	if(. && isliving(target) && target != src && target != summoner)
-		cleardeletedchains()
+		clear_deleted_chains()
 		for(var/chain in enemychains)
 			var/datum/beam/B = chain
 			if(B.target == target)
@@ -37,7 +40,7 @@
 		enemychains += Beam(target, "lightning[rand(1,12)]", maxdistance=7, beam_type=/obj/effect/ebeam/chain)
 
 /mob/living/basic/guardian/beam/Destroy()
-	removechains()
+	remove_chains()
 	return ..()
 
 /mob/living/basic/guardian/beam/Manifest()
@@ -46,18 +49,18 @@
 		if(summoner)
 			summonerchain = Beam(summoner, "lightning[rand(1,12)]", beam_type=/obj/effect/ebeam/chain)
 		while(loc != summoner)
-			if(successfulshocks > 5)
-				successfulshocks = 0
-			if(shockallchains())
-				successfulshocks++
+			if(successful_shocks > 5)
+				successful_shocks = 0
+			if(shock_all_chains())
+				successful_shocks++
 			SLEEP_CHECK_DEATH(3, src)
 
 /mob/living/basic/guardian/beam/Recall()
 	. = ..()
 	if(.)
-		removechains()
+		remove_chains()
 
-/mob/living/basic/guardian/beam/proc/cleardeletedchains()
+/mob/living/basic/guardian/beam/proc/clear_deleted_chains()
 	if(summonerchain && QDELETED(summonerchain))
 		summonerchain = null
 	if(enemychains.len)
@@ -66,18 +69,18 @@
 			if(!chain || QDELETED(cd))
 				enemychains -= chain
 
-/mob/living/basic/guardian/beam/proc/shockallchains()
+/mob/living/basic/guardian/beam/proc/shock_all_chains()
 	. = 0
-	cleardeletedchains()
+	clear_deleted_chains()
 	if(summoner)
 		if(!summonerchain)
 			summonerchain = Beam(summoner, "lightning[rand(1,12)]", beam_type=/obj/effect/ebeam/chain)
-		. += chainshock(summonerchain)
+		. += chain_shock(summonerchain)
 	if(enemychains.len)
 		for(var/chain in enemychains)
-			. += chainshock(chain)
+			. += chain_shock(chain)
 
-/mob/living/basic/guardian/beam/proc/removechains()
+/mob/living/basic/guardian/beam/proc/remove_chains()
 	if(summonerchain)
 		qdel(summonerchain)
 		summonerchain = null
@@ -86,7 +89,7 @@
 			qdel(chain)
 		enemychains = list()
 
-/mob/living/basic/guardian/beam/proc/chainshock(datum/beam/B)
+/mob/living/basic/guardian/beam/proc/chain_shock(datum/beam/B)
 	. = 0
 	var/list/turfs = list()
 	for(var/E in B.elements)
@@ -103,7 +106,7 @@
 			if(L.stat != DEAD && L != src && L != summoner)
 				if(has_matching_summoner(L)) //if the summoner matches don't hurt them
 					continue
-				if(successfulshocks > 4)
+				if(successful_shocks > 4)
 					L.electrocute_act(0)
 					L.visible_message(
 						span_danger("[L] was shocked by the lightning chain!"), \
