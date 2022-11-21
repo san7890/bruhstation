@@ -1,5 +1,5 @@
 //Fire
-/mob/living/simple_animal/hostile/guardian/fire
+/mob/living/basic/guardian/fire
 	combat_mode = FALSE
 	melee_damage_lower = 7
 	melee_damage_upper = 7
@@ -14,20 +14,20 @@
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! You caught one! OH GOD, EVERYTHING'S ON FIRE. Except you and the fish.")
 	miner_fluff_string = span_holoparasite("You encounter... Plasma, the bringer of fire.")
 
-/mob/living/simple_animal/hostile/guardian/fire/Initialize(mapload, theme)
+/mob/living/basic/guardian/fire/Initialize(mapload, theme)
 	. = ..()
 	var/static/list/loc_connections = list(
 		COMSIG_ATOM_ENTERED = PROC_REF(on_entered),
 	)
 	AddElement(/datum/element/connect_loc, loc_connections)
 
-/mob/living/simple_animal/hostile/guardian/fire/Life(delta_time = SSMOBS_DT, times_fired)
+/mob/living/basic/guardian/fire/Life(delta_time = SSMOBS_DT, times_fired)
 	. = ..()
 	if(summoner)
 		summoner.extinguish_mob()
 		summoner.adjust_fire_stacks(-10 * delta_time)
 
-/mob/living/simple_animal/hostile/guardian/fire/AttackingTarget()
+/mob/living/basic/guardian/fire/AttackingTarget()
 	. = ..()
 	if(!.)
 		return
@@ -48,19 +48,19 @@
 		custom_icon_state = icon_state, \
 	)
 
-/mob/living/simple_animal/hostile/guardian/fire/proc/on_entered(datum/source, AM as mob|obj)
+/mob/living/basic/guardian/fire/proc/on_entered(datum/source, AM as mob|obj)
 	SIGNAL_HANDLER
 	collision_ignite(AM)
 
-/mob/living/simple_animal/hostile/guardian/fire/Bumped(atom/movable/AM)
+/mob/living/basic/guardian/fire/Bumped(atom/movable/AM)
 	..()
 	collision_ignite(AM)
 
-/mob/living/simple_animal/hostile/guardian/fire/Bump(AM as mob|obj)
+/mob/living/basic/guardian/fire/Bump(AM as mob|obj)
 	..()
 	collision_ignite(AM)
 
-/mob/living/simple_animal/hostile/guardian/fire/proc/collision_ignite(AM as mob|obj)
+/mob/living/basic/guardian/fire/proc/collision_ignite(AM as mob|obj)
 	if(isliving(AM))
 		var/mob/living/M = AM
 		if(!hasmatchingsummoner(M) && M != summoner && M.fire_stacks < 7)

@@ -1,5 +1,5 @@
 //Standard
-/mob/living/simple_animal/hostile/guardian/punch
+/mob/living/basic/guardian/punch
 	melee_damage_lower = 20
 	melee_damage_upper = 20
 	obj_damage = 80
@@ -12,7 +12,7 @@
 	miner_fluff_string = span_holoparasite("You encounter... Adamantine, a powerful attacker.")
 	var/battlecry = "AT"
 
-/mob/living/simple_animal/hostile/guardian/punch/verb/Battlecry()
+/mob/living/basic/guardian/punch/verb/Battlecry()
 	set name = "Set Battlecry"
 	set category = "Guardian"
 	set desc = "Choose what you shout as you punch people."
@@ -22,7 +22,7 @@
 
 
 
-/mob/living/simple_animal/hostile/guardian/punch/AttackingTarget()
+/mob/living/basic/guardian/punch/AttackingTarget()
 	. = ..()
 	if(isliving(target))
 		say("[battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry]!!", ignore_spam = TRUE)

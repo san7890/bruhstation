@@ -1,5 +1,5 @@
 //Protector
-/mob/living/simple_animal/hostile/guardian/protector
+/mob/living/basic/guardian/protector
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	range = 15 //worse for it due to how it leashes
@@ -13,7 +13,7 @@
 	var/toggle = FALSE
 	var/mutable_appearance/shield_overlay
 
-/mob/living/simple_animal/hostile/guardian/protector/ex_act(severity)
+/mob/living/basic/guardian/protector/ex_act(severity)
 	if(severity >= EXPLODE_DEVASTATE)
 		adjustBruteLoss(400) //if in protector mode, will do 20 damage and not actually necessarily kill the summoner
 	else
@@ -23,7 +23,7 @@
 	if(toggle)
 		visible_message(span_danger("The explosion glances off [src]'s energy shielding!"))
 
-/mob/living/simple_animal/hostile/guardian/protector/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/guardian/protector/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
 		var/image/I = new('icons/effects/effects.dmi', src, "shield-flash", MOB_LAYER+0.01, dir = pick(GLOB.cardinals))
@@ -31,7 +31,7 @@
 			I.color = guardiancolor
 		flick_overlay_view(I, 5)
 
-/mob/living/simple_animal/hostile/guardian/protector/ToggleMode()
+/mob/living/basic/guardian/protector/ToggleMode()
 	if(cooldown > world.time)
 		return 0
 	cooldown = world.time + 10
@@ -56,7 +56,7 @@
 		to_chat(src, "[span_danger("<B>You switch to protection mode.")]</B>")
 		toggle = TRUE
 
-/mob/living/simple_animal/hostile/guardian/protector/snapback() //snap to what? snap to the guardian!
+/mob/living/basic/guardian/protector/snapback() //snap to what? snap to the guardian!
 	if(summoner)
 		if(get_dist(get_turf(summoner),get_turf(src)) <= range)
 			return

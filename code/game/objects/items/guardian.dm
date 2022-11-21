@@ -45,14 +45,14 @@
 	)
 
 /obj/item/guardian_creator/attack_self(mob/living/user)
-	if(isguardian(user) && !allowguardian)
+	if(isguardian(user) && !allow_guardian)
 		to_chat(user, span_holoparasite("[mob_name] chains are not allowed."))
 		return
 	var/list/guardians = user.get_all_linked_holoparasites()
-	if(length(guardians) && !allowmultiple)
+	if(length(guardians) && !allow_multiple)
 		to_chat(user, span_holoparasite("You already have a [mob_name]!"))
 		return
-	if(user.mind && user.mind.has_antag_datum(/datum/antagonist/changeling) && !allowling)
+	if(user.mind && user.mind.has_antag_datum(/datum/antagonist/changeling) && !allow_ling)
 		to_chat(user, "[ling_failure]")
 		return
 	if(used == TRUE)
@@ -117,7 +117,7 @@
 			pickedtype = /mob/living/basic/guardian/gravitokinetic
 
 	var/list/guardians = user.get_all_linked_holoparasites()
-	if(length(guardians) && !allowmultiple)
+	if(length(guardians) && !allow_multiple)
 		to_chat(user, span_holoparasite("You already have a [mob_name]!") )
 		used = FALSE
 		return
@@ -169,7 +169,7 @@
 	)
 
 /obj/item/guardian_creator/choose/wizard
-	allowmultiple = TRUE
+	allow_multiple = TRUE
 	possible_guardians = list(
 		"Assassin",
 		"Chaos",
@@ -211,7 +211,7 @@
 	random = FALSE
 
 /obj/item/guardian_creator/tech/choose/traitor
-	allowling = FALSE
+	allow_ling = FALSE
 	possible_guardians = list(
 		"Assassin",
 		"Chaos",
@@ -309,7 +309,7 @@
 	used_message = span_holoparasite("Someone's already taken a bite out of these fishsticks! Ew.")
 	failure_message = span_holoparasite_bold("You couldn't catch any carp spirits from the seas of Lake Carp. Maybe there are none, maybe you fucked up.")
 	ling_failure = span_holoparasite_bold("Carp'sie seems to not have taken you as the chosen one. Maybe it's because of your horrifying origin.")
-	allowmultiple = TRUE
+	allow_multiple = TRUE
 
 /obj/item/guardian_creator/carp/choose
 	random = FALSE

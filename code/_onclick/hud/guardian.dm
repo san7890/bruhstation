@@ -44,7 +44,7 @@
 /datum/hud/dextrous/guardian/New(mob/living/simple_animal/hostile/guardian/owner) //for a dextrous guardian
 	..()
 	var/atom/movable/screen/using
-	if(istype(owner, /mob/living/simple_animal/hostile/guardian/dextrous))
+	if(istype(owner, /mob/living/basic/guardian/dextrous))
 		var/atom/movable/screen/inventory/inv_box
 
 		inv_box = new /atom/movable/screen/inventory()
@@ -102,8 +102,8 @@
 /datum/hud/dextrous/guardian/persistent_inventory_update()
 	if(!mymob)
 		return
-	if(istype(mymob, /mob/living/simple_animal/hostile/guardian/dextrous))
-		var/mob/living/simple_animal/hostile/guardian/dextrous/D = mymob
+	if(istype(mymob, /mob/living/basic/guardian/dextrous))
+		var/mob/living/basic/guardian/dextrous/D = mymob
 
 		if(hud_shown)
 			if(D.internal_storage)
@@ -125,7 +125,7 @@
 
 /atom/movable/screen/guardian/manifest/Click()
 	if(isguardian(usr))
-		var/mob/living/simple_animal/hostile/guardian/G = usr
+		var/mob/living/basic/guardian/G = usr
 		G.Manifest()
 
 
@@ -136,7 +136,7 @@
 
 /atom/movable/screen/guardian/recall/Click()
 	if(isguardian(usr))
-		var/mob/living/simple_animal/hostile/guardian/G = usr
+		var/mob/living/basic/guardian/G = usr
 		G.Recall()
 
 /atom/movable/screen/guardian/toggle_mode
@@ -146,7 +146,7 @@
 
 /atom/movable/screen/guardian/toggle_mode/Click()
 	if(isguardian(usr))
-		var/mob/living/simple_animal/hostile/guardian/G = usr
+		var/mob/living/basic/guardian/G = usr
 		G.ToggleMode()
 
 /atom/movable/screen/guardian/toggle_mode/inactive
@@ -164,7 +164,7 @@
 
 /atom/movable/screen/guardian/communicate/Click()
 	if(isguardian(usr))
-		var/mob/living/simple_animal/hostile/guardian/G = usr
+		var/mob/living/basic/guardian/G = usr
 		G.Communicate()
 
 
@@ -175,5 +175,5 @@
 
 /atom/movable/screen/guardian/toggle_light/Click()
 	if(isguardian(usr))
-		var/mob/living/simple_animal/hostile/guardian/G = usr
+		var/mob/living/basic/guardian/G = usr
 		G.ToggleLight()

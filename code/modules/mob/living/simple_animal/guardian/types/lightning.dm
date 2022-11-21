@@ -4,7 +4,7 @@
 	layer = LYING_MOB_LAYER
 	plane = GAME_PLANE_FOV_HIDDEN
 
-/mob/living/simple_animal/hostile/guardian/beam
+/mob/living/basic/guardian/beam
 	melee_damage_lower = 7
 	melee_damage_upper = 7
 	attack_verb_continuous = "shocks"
@@ -22,7 +22,7 @@
 	var/list/enemychains = list()
 	var/successfulshocks = 0
 
-/mob/living/simple_animal/hostile/guardian/beam/AttackingTarget()
+/mob/living/basic/guardian/beam/AttackingTarget()
 	. = ..()
 	if(. && isliving(target) && target != src && target != summoner)
 		cleardeletedchains()
@@ -36,11 +36,11 @@
 			enemychains -= C
 		enemychains += Beam(target, "lightning[rand(1,12)]", maxdistance=7, beam_type=/obj/effect/ebeam/chain)
 
-/mob/living/simple_animal/hostile/guardian/beam/Destroy()
+/mob/living/basic/guardian/beam/Destroy()
 	removechains()
 	return ..()
 
-/mob/living/simple_animal/hostile/guardian/beam/Manifest()
+/mob/living/basic/guardian/beam/Manifest()
 	. = ..()
 	if(.)
 		if(summoner)
@@ -52,12 +52,12 @@
 				successfulshocks++
 			SLEEP_CHECK_DEATH(3, src)
 
-/mob/living/simple_animal/hostile/guardian/beam/Recall()
+/mob/living/basic/guardian/beam/Recall()
 	. = ..()
 	if(.)
 		removechains()
 
-/mob/living/simple_animal/hostile/guardian/beam/proc/cleardeletedchains()
+/mob/living/basic/guardian/beam/proc/cleardeletedchains()
 	if(summonerchain && QDELETED(summonerchain))
 		summonerchain = null
 	if(enemychains.len)
@@ -66,7 +66,7 @@
 			if(!chain || QDELETED(cd))
 				enemychains -= chain
 
-/mob/living/simple_animal/hostile/guardian/beam/proc/shockallchains()
+/mob/living/basic/guardian/beam/proc/shockallchains()
 	. = 0
 	cleardeletedchains()
 	if(summoner)
@@ -77,7 +77,7 @@
 		for(var/chain in enemychains)
 			. += chainshock(chain)
 
-/mob/living/simple_animal/hostile/guardian/beam/proc/removechains()
+/mob/living/basic/guardian/beam/proc/removechains()
 	if(summonerchain)
 		qdel(summonerchain)
 		summonerchain = null
@@ -86,7 +86,7 @@
 			qdel(chain)
 		enemychains = list()
 
-/mob/living/simple_animal/hostile/guardian/beam/proc/chainshock(datum/beam/B)
+/mob/living/basic/guardian/beam/proc/chainshock(datum/beam/B)
 	. = 0
 	var/list/turfs = list()
 	for(var/E in B.elements)

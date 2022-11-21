@@ -15,7 +15,7 @@
 	to_chat(src, "<span class='say'>[my_message]</span>")
 	var/list/guardians = get_all_linked_holoparasites()
 	for(var/para in guardians)
-		var/mob/living/simple_animal/hostile/guardian/G = para
+		var/mob/living/basic/guardian/G = para
 		to_chat(G, "<span class='say'><font color=\"[G.guardiancolor]\"><b><i>[src]:</i></b></font> [preliminary_message]</span>" )
 	for(var/M in GLOB.dead_mob_list)
 		var/link = FOLLOW_LINK(M, src)
@@ -30,7 +30,7 @@
 	set desc = "Forcibly recall your guardian."
 	var/list/guardians = get_all_linked_holoparasites()
 	for(var/para in guardians)
-		var/mob/living/simple_animal/hostile/guardian/G = para
+		var/mob/living/basic/guardian/G = para
 		G.Recall()
 
 /// One-time use proc that allows the summoner to choose a new guardian type.
@@ -41,14 +41,14 @@
 
 	var/list/guardians = get_all_linked_holoparasites()
 	for(var/para in guardians)
-		var/mob/living/simple_animal/hostile/guardian/P = para
+		var/mob/living/basic/guardian/P = para
 		if(P.reset)
 			guardians -= P //clear out guardians that are already reset
 	if(!length(guardians))
 		remove_verb(src, /mob/living/proc/guardian_reset)
 		return
 
-	var/mob/living/simple_animal/hostile/guardian/chosen_guardian = tgui_input_list(src, "Pick the guardian you wish to reset", "Guardian Reset", sort_names(guardians))
+	var/mob/living/basic/guardian/chosen_guardian = tgui_input_list(src, "Pick the guardian you wish to reset", "Guardian Reset", sort_names(guardians))
 	if(isnull(chosen_guardian))
 		to_chat(src, span_holoparasite("You decide not to reset [length(guardians) > 1 ? "any of your guardians":"your guardian"]."))
 		return
@@ -85,7 +85,7 @@
 /mob/living/proc/get_all_linked_holoparasites()
 	RETURN_TYPE(/list)
 	var/list/all_parasites = list()
-	for(var/mob/living/simple_animal/hostile/guardian/stand as anything in GLOB.parasites)
+	for(var/mob/living/basic/guardian/stand as anything in GLOB.parasites)
 		if(stand.summoner != src)
 			continue
 		all_parasites += stand

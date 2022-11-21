@@ -1,5 +1,5 @@
 //Charger
-/mob/living/simple_animal/hostile/guardian/charger
+/mob/living/basic/guardian/charger
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	ranged = 1 //technically
@@ -15,7 +15,7 @@
 	var/charging = 0
 	var/atom/movable/screen/alert/chargealert
 
-/mob/living/simple_animal/hostile/guardian/charger/Life(delta_time = SSMOBS_DT, times_fired)
+/mob/living/basic/guardian/charger/Life(delta_time = SSMOBS_DT, times_fired)
 	. = ..()
 	if(ranged_cooldown <= world.time)
 		if(!chargealert)
@@ -24,7 +24,7 @@
 		clear_alert(ALERT_CHARGE)
 		chargealert = null
 
-/mob/living/simple_animal/hostile/guardian/charger/OpenFire(atom/A)
+/mob/living/basic/guardian/charger/OpenFire(atom/A)
 	if(!charging)
 		visible_message(span_danger("<b>[src]</b> [ranged_message] at [A]!"))
 		ranged_cooldown = world.time + ranged_cooldown_time
@@ -32,23 +32,23 @@
 		chargealert = null
 		Shoot(A)
 
-/mob/living/simple_animal/hostile/guardian/charger/Shoot(atom/targeted_atom)
+/mob/living/basic/guardian/charger/Shoot(atom/targeted_atom)
 	charging = 1
 	throw_at(targeted_atom, range, 1, src, FALSE, TRUE, callback = CALLBACK(src, PROC_REF(charging_end)))
 
-/mob/living/simple_animal/hostile/guardian/charger/proc/charging_end()
+/mob/living/basic/guardian/charger/proc/charging_end()
 	charging = 0
 
-/mob/living/simple_animal/hostile/guardian/charger/Move()
+/mob/living/basic/guardian/charger/Move()
 	if(charging)
 		new /obj/effect/temp_visual/decoy/fading(loc,src)
 	. = ..()
 
-/mob/living/simple_animal/hostile/guardian/charger/snapback()
+/mob/living/basic/guardian/charger/snapback()
 	if(!charging)
 		..()
 
-/mob/living/simple_animal/hostile/guardian/charger/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+/mob/living/basic/guardian/charger/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
 	if(!charging)
 		return ..()
 

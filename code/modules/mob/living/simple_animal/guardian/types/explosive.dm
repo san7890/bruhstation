@@ -5,7 +5,7 @@
 	} while (0)
 
 //Bomb
-/mob/living/simple_animal/hostile/guardian/bomb
+/mob/living/basic/guardian/bomb
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	damage_coeff = list(BRUTE = 0.6, BURN = 0.6, TOX = 0.6, CLONE = 0.6, STAMINA = 0, OXY = 0.6)
@@ -18,12 +18,12 @@
 	var/bomb_cooldown = 0
 	var/static/list/boom_signals = list(COMSIG_PARENT_ATTACKBY, COMSIG_ATOM_BUMPED, COMSIG_ATOM_ATTACK_HAND)
 
-/mob/living/simple_animal/hostile/guardian/bomb/get_status_tab_items()
+/mob/living/basic/guardian/bomb/get_status_tab_items()
 	. = ..()
 	if(bomb_cooldown >= world.time)
 		. += "Bomb Cooldown Remaining: [DisplayTimeText(bomb_cooldown - world.time)]"
 
-/mob/living/simple_animal/hostile/guardian/bomb/AltClickOn(atom/movable/A)
+/mob/living/basic/guardian/bomb/AltClickOn(atom/movable/A)
 	if(!istype(A))
 		return
 	if(loc == summoner)
@@ -39,7 +39,7 @@
 		else
 			to_chat(src, span_danger("<B>Your powers are on cooldown! You must wait 20 seconds between bombs.</B>"))
 
-/mob/living/simple_animal/hostile/guardian/bomb/proc/kaboom(atom/source, mob/living/explodee)
+/mob/living/basic/guardian/bomb/proc/kaboom(atom/source, mob/living/explodee)
 	SIGNAL_HANDLER
 	if(!istype(explodee))
 		return
@@ -53,11 +53,11 @@
 	EX_ACT(explodee, EXPLODE_HEAVY)
 	UNREGISTER_BOMB_SIGNALS(source)
 
-/mob/living/simple_animal/hostile/guardian/bomb/proc/disable(atom/A)
+/mob/living/basic/guardian/bomb/proc/disable(atom/A)
 	to_chat(src, span_danger("<B>Failure! Your trap didn't catch anyone this time.</B>"))
 	UNREGISTER_BOMB_SIGNALS(A)
 
-/mob/living/simple_animal/hostile/guardian/bomb/proc/display_examine(datum/source, mob/user, text)
+/mob/living/basic/guardian/bomb/proc/display_examine(datum/source, mob/user, text)
 	SIGNAL_HANDLER
 	text += span_holoparasite("It glows with a strange <font color=\"[guardiancolor]\">light</font>!")
 

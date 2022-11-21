@@ -1,5 +1,5 @@
 //Assassin
-/mob/living/simple_animal/hostile/guardian/assassin
+/mob/living/basic/guardian/assassin
 	melee_damage_lower = 15
 	melee_damage_upper = 15
 	attack_verb_continuous = "slashes"
@@ -18,37 +18,37 @@
 	var/atom/movable/screen/alert/canstealthalert
 	var/atom/movable/screen/alert/instealthalert
 
-/mob/living/simple_animal/hostile/guardian/assassin/Initialize(mapload)
+/mob/living/basic/guardian/assassin/Initialize(mapload)
 	. = ..()
 	stealthcooldown = 0
 
-/mob/living/simple_animal/hostile/guardian/assassin/Life(delta_time = SSMOBS_DT, times_fired)
+/mob/living/basic/guardian/assassin/Life(delta_time = SSMOBS_DT, times_fired)
 	. = ..()
 	updatestealthalert()
 	if(loc == summoner && toggle)
 		ToggleMode(0)
 
-/mob/living/simple_animal/hostile/guardian/assassin/get_status_tab_items()
+/mob/living/basic/guardian/assassin/get_status_tab_items()
 	. = ..()
 	if(stealthcooldown >= world.time)
 		. += "Stealth Cooldown Remaining: [DisplayTimeText(stealthcooldown - world.time)]"
 
-/mob/living/simple_animal/hostile/guardian/assassin/AttackingTarget()
+/mob/living/basic/guardian/assassin/AttackingTarget()
 	. = ..()
 	if(.)
 		if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
 			ToggleMode(1)
 
-/mob/living/simple_animal/hostile/guardian/assassin/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/guardian/assassin/adjustHealth(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
 		ToggleMode(1)
 
-/mob/living/simple_animal/hostile/guardian/assassin/Recall()
+/mob/living/basic/guardian/assassin/Recall()
 	if(..() && toggle)
 		ToggleMode(0)
 
-/mob/living/simple_animal/hostile/guardian/assassin/ToggleMode(forced = 0)
+/mob/living/basic/guardian/assassin/ToggleMode(forced = 0)
 	if(toggle)
 		melee_damage_lower = initial(melee_damage_lower)
 		melee_damage_upper = initial(melee_damage_upper)
@@ -82,7 +82,7 @@
 	else if(!forced)
 		to_chat(src, "[span_danger("<B>You cannot yet enter stealth, wait another [DisplayTimeText(stealthcooldown - world.time)]!")]</B>")
 
-/mob/living/simple_animal/hostile/guardian/assassin/proc/updatestealthalert()
+/mob/living/basic/guardian/assassin/proc/updatestealthalert()
 	if(stealthcooldown <= world.time)
 		if(toggle)
 			if(!instealthalert)
