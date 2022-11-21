@@ -8,23 +8,19 @@
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Dextrous combat modules loaded. Holoparasite swarm online.")
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! You caught one! It can hold stuff in its fins, sort of.")
 	miner_fluff_string = span_holoparasite("You encounter... Gold, a malleable constructor.")
+	hud_type = /datum/hud/dextrous/guardian
 	// san7890 i'll get back to this later
 	//dextrous = TRUE
 	held_items = list(null, null)
 	/// What type of slot ID are we using here?
 	var/dextrous_slot_id = ITEM_SLOT_DEX_STORAGE
-	/// What datum hud are we using?
-	var/hud_type = /datum/hud/dextrous/guardian
+	/// What's the component we're using to track internal storage?
+	var/datum/component/dexterity/internal_storage
 
 /mob/living/basic/guardian/dextrous/Initialize()
 	AddComponent(/datum/component/dexterity, dextrous_slot_id, hud_type, has_internal_storage = TRUE)
+	internal_storage = GetExactComponent(/datum/component/dexterity)
 	return ..()
-
-
-/mob/living/basic/guardian/dextrous/death(gibbed)
-	..()
-	if(internal_storage)
-		dropItemToGround(internal_storage)
 
 /mob/living/basic/guardian/dextrous/examine(mob/user)
 	. = list("<span class='info'>This is [icon2html(src)] \a <b>[src]</b>!\n[desc]")
@@ -35,16 +31,18 @@
 	return ..()
 
 /mob/living/basic/guardian/dextrous/can_equip(obj/item/I, slot, disable_warning = FALSE, bypass_equip_delay_self = FALSE)
+	var/thing_in_storage = internal_storage.stored_item
 	switch(slot)
 		if(ITEM_SLOT_DEX_STORAGE)
-			if(internal_storage)
+			if(thing_in_storage)
 				return FALSE
 			return TRUE
-	..()
+	return ..()
 
 /mob/living/basic/guardian/dextrous/get_item_by_slot(slot_id)
+	var/thing_in_storage = internal_storage.stored_item
 	if(slot_id == dextrous_slot_id)
-		return internal_storage
+		return thing_in_storage
 	return ..()
 
 /mob/living/basic/guardian/dextrous/get_slot_by_item(obj/item/looking_for)
