@@ -315,9 +315,9 @@ GLOBAL_LIST_EMPTY(parasites)
 		add_overlay(.)
 
 /mob/living/basic/guardian/proc/remove_overlay(cache_index)
-	var/I = guardian_overlays[cache_index]
-	if(I)
-		cut_overlay(I)
+	var/overlay = guardian_overlays[cache_index]
+	if(overlay)
+		cut_overlay(overlay)
 		guardian_overlays[cache_index] = null
 
 /mob/living/basic/guardian/update_held_items()

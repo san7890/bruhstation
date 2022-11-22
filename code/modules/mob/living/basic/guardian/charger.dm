@@ -26,28 +26,6 @@
 	return ..()
 
 /mob/living/basic/guardian/charger/snapback()
-	if(!charging_ability.actively_moving)
-		..()
-
-/mob/living/basic/guardian/charger/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
-	if(!charging_ability.actively_moving)
-		return ..()
-
-	else if(hit_atom)
-		if(isliving(hit_atom) && hit_atom != summoner)
-			var/mob/living/creature = hit_atom
-			var/blocked = FALSE
-			if(has_matching_summoner(hit_atom)) //if the summoner matches don't hurt them
-				blocked = TRUE
-			if(ishuman(hit_atom))
-				var/mob/living/carbon/human/complex_creature = hit_atom
-				if(complex_creature.check_shields(src, 90, "[name]", attack_type = THROWN_PROJECTILE_ATTACK))
-					blocked = TRUE
-			if(!blocked)
-				creature.drop_all_held_items()
-				creature.visible_message(span_danger("[src] slams into [creature]!"), span_userdanger("[src] slams into you!"))
-				creature.apply_damage(20, BRUTE)
-				playsound(get_turf(creature), 'sound/effects/meteorimpact.ogg', 10 SECONDS, TRUE)
-				shake_camera(creature, 4, 3)
-				shake_camera(src, 2, 3)
-
+	if(charging_ability.actively_moving)
+		return
+	return ..()

@@ -11,7 +11,7 @@
 	/// Swap between combat and protection mode.
 	var/toggle = FALSE
 	var/mutable_appearance/shield_overlay
-	/// How long the cooldown should last for.
+	/// How long the cooldown between toggling modes should last for.
 	var/cooldown_duration = 1 SECONDS
 	COOLDOWN_DECLARE(toggle_cooldown)
 
@@ -28,7 +28,7 @@
 /mob/living/basic/guardian/protector/adjust_health(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
-		var/image/I = new('icons/effects/effects.dmi', src, "shield-flash", MOB_LAYER+0.01, dir = pick(GLOB.cardinals))
+		var/image/I = new('icons/effects/effects.dmi', src, "shield-flash", MOB_LAYER + 0.01, dir = pick(GLOB.cardinals))
 		if(guardian_color)
 			I.color = guardian_color
 		flick_overlay_view(I, 5)
