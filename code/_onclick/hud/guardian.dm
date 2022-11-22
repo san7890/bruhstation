@@ -107,13 +107,13 @@
 
 		if(hud_shown)
 			if(D.internal_storage)
-				D.internal_storage.stored_item.screen_loc = ui_id
+				D.internal_storage.screen_loc = ui_id
 				D.client.screen += D.internal_storage
 		else
 			if(D.internal_storage)
-				D.internal_storage.stored_item.screen_loc = null
+				D.internal_storage.screen_loc = null
 
-	..()
+	return ..()
 
 /atom/movable/screen/guardian
 	icon = 'icons/hud/guardian.dmi'
