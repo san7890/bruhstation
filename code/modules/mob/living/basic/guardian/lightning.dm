@@ -102,7 +102,7 @@
 		if(chainpart && chainpart.x && chainpart.y && chainpart.z)
 			var/turf/position = get_turf_pixel(chainpart)
 			turfs |= position
-			if(T != get_turf(lightning.origin) && position != get_turf(lightning.target))
+			if(position != get_turf(lightning.origin) && position != get_turf(lightning.target))
 				for(var/turf/ranged_turf in circle_range(position, 1))
 					turfs |= ranged_turf
 
