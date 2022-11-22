@@ -46,7 +46,7 @@
 	drop_items()
 
 /mob/living/basic/guardian/dextrous/snapback()
-	if(!summoner && (get_dist(get_turf(summoner),get_turf(src)) <= range))
+	if(!summoner || (get_dist(get_turf(summoner), get_turf(src)) <= range))
 		return
 	drop_all_held_items()
 	return ..()
