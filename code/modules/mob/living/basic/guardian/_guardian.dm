@@ -290,25 +290,25 @@ GLOBAL_LIST_EMPTY(parasites)
 			adjustBruteLoss(30)
 
 // Handle the guardian having hands.
-/mob/living/basic/guardian/equip_to_slot(obj/item/I, slot)
+/mob/living/basic/guardian/equip_to_slot(obj/item/thing, slot)
 	if(!slot)
 		return FALSE
-	if(!istype(I))
+	if(!istype(thing))
 		return FALSE
 
 	. = TRUE
-	var/index = get_held_index_of_item(I)
+	var/index = get_held_index_of_item(thing)
 	if(index)
 		held_items[index] = null
 		update_held_items()
 
-	if(I.pulledby)
-		I.pulledby.stop_pulling()
+	if(thing.pulledby)
+		thing.pulledby.stop_pulling()
 
-	I.screen_loc = null // will get moved if inventory is visible
-	I.forceMove(src)
-	I.equipped(src, slot)
-	SET_PLANE_EXPLICIT(I, ABOVE_HUD_PLANE, src)
+	thing.screen_loc = null // will get moved if inventory is visible
+	thing.forceMove(src)
+	thing.equipped(src, slot)
+	SET_PLANE_EXPLICIT(thing, ABOVE_HUD_PLANE, src)
 
 /mob/living/basic/guardian/proc/apply_overlay(cache_index)
 	if((. = guardian_overlays[cache_index]))
@@ -448,7 +448,7 @@ GLOBAL_LIST_EMPTY(parasites)
 
 /// The ability to shift a mode, or "attack style"
 /mob/living/basic/guardian/proc/ToggleMode()
-	to_chat(src, "[span_danger("<B>You don't have another mode!</B>")]")
+	to_chat(src, span_danger("<B>You don't have another mode!</B>"))
 
 /// The ability to turn the "inherent" light within a guardian on or off.
 /mob/living/basic/guardian/proc/ToggleLight()

@@ -61,10 +61,10 @@
 			environment_smash = ENVIRONMENT_SMASH_NONE
 			alpha = 45
 			range = 255
-			to_chat(src, "[span_danger("<B>You switch to scout mode.</B>")]")
+			to_chat(src, span_danger("<B>You switch to scout mode.</B>"))
 			toggle = TRUE
 	else
-		to_chat(src, "[span_danger("<B>You have to be recalled to toggle modes!</B>")]")
+		to_chat(src, span_danger("<B>You have to be recalled to toggle modes!</B>"))
 
 /mob/living/basic/guardian/ranged/ToggleLight()
 	var/msg = ""
@@ -143,7 +143,7 @@
 /obj/effect/abstract/guardian_snare/proc/on_entered(datum/source, movable as mob|obj)
 	SIGNAL_HANDLER
 	if(isliving(movable) && spawner.summoner && movable != spawner && !spawner.has_matching_summoner(movable))
-		to_chat(spawner.summoner, "[span_danger("<B>[movable] has crossed surveillance snare, [name].")]</B>")
+		to_chat(spawner.summoner, span_danger("<B>[movable] has crossed surveillance snare, [name].</B>"))
 		var/list/guardians = spawner.summoner.get_all_linked_holoparasites()
 		for(var/entity in guardians)
-			to_chat(entity, "[span_danger("<B>[movable] has crossed surveillance snare, [name].")]</B>")
+			to_chat(entity, span_danger("<B>[movable] has crossed surveillance snare, [name].</B>"))

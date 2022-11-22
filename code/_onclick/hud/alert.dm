@@ -571,13 +571,13 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 	icon_state = "guardian_charge"
 	alerttooltipstyle = "parasite"
 
-/atom/movable/screen/alert/canstealth
+/atom/movable/screen/alert/can_stealth
 	name = "Stealth Ready"
 	desc = "You are ready to enter stealth!"
 	icon_state = "guardian_canstealth"
 	alerttooltipstyle = "parasite"
 
-/atom/movable/screen/alert/instealth
+/atom/movable/screen/alert/in_stealth
 	name = "In Stealth"
 	desc = "You are in stealth and your next attack will do bonus damage!"
 	icon_state = "guardian_instealth"

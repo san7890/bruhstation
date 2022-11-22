@@ -4,6 +4,7 @@
 	layer = LYING_MOB_LAYER
 	plane = GAME_PLANE_FOV_HIDDEN
 
+/// Guardian of Lightning.
 /mob/living/basic/guardian/beam
 	melee_damage_lower = 7
 	melee_damage_upper = 7
@@ -60,6 +61,7 @@
 	if(.)
 		remove_chains()
 
+/// Handles the actual deletion of the chains.
 /mob/living/basic/guardian/beam/proc/clear_deleted_chains()
 	if(summonerchain && QDELETED(summonerchain))
 		summonerchain = null
@@ -69,6 +71,7 @@
 			if(!chain || QDELETED(cd))
 				enemychains -= chain
 
+/// Remove all current chains, then generate new ones and deliver damage.
 /mob/living/basic/guardian/beam/proc/shock_all_chains()
 	. = 0
 	clear_deleted_chains()
@@ -80,6 +83,7 @@
 		for(var/chain in enemychains)
 			. += chain_shock(chain)
 
+/// Clear all summoned shock chains.
 /mob/living/basic/guardian/beam/proc/remove_chains()
 	if(summonerchain)
 		qdel(summonerchain)
@@ -89,29 +93,30 @@
 			qdel(chain)
 		enemychains = list()
 
-/mob/living/basic/guardian/beam/proc/chain_shock(datum/beam/B)
+/// Actually shocks the chain to deliver damage.
+/mob/living/basic/guardian/beam/proc/chain_shock(datum/beam/lightning)
 	. = 0
 	var/list/turfs = list()
-	for(var/E in B.elements)
-		var/obj/effect/ebeam/chainpart = E
+	for(var/element in lightning.elements)
+		var/obj/effect/ebeam/chainpart = element
 		if(chainpart && chainpart.x && chainpart.y && chainpart.z)
-			var/turf/T = get_turf_pixel(chainpart)
-			turfs |= T
-			if(T != get_turf(B.origin) && T != get_turf(B.target))
-				for(var/turf/TU in circle_range(T, 1))
-					turfs |= TU
-	for(var/turf in turfs)
-		var/turf/T = turf
-		for(var/mob/living/L in T)
-			if(L.stat != DEAD && L != src && L != summoner)
-				if(has_matching_summoner(L)) //if the summoner matches don't hurt them
+			var/turf/position = get_turf_pixel(chainpart)
+			turfs |= position
+			if(T != get_turf(lightning.origin) && position != get_turf(lightning.target))
+				for(var/turf/ranged_turf in circle_range(position, 1))
+					turfs |= ranged_turf
+
+	for(var/turf/location as anything in turfs)
+		for(var/mob/living/shockee in location)
+			if(shockee.stat != DEAD && shockee != src && shockee != summoner)
+				if(has_matching_summoner(shockee)) //if the summoner matches don't hurt them
 					continue
 				if(successful_shocks > 4)
-					L.electrocute_act(0)
-					L.visible_message(
-						span_danger("[L] was shocked by the lightning chain!"), \
+					shockee.electrocute_act(0)
+					shockee.visible_message(
+						span_danger("[shockee] was shocked by the lightning chain!"), \
 						span_userdanger("You are shocked by the lightning chain!"), \
 						span_hear("You hear a heavy electrical crack.") \
 					)
-				L.adjustFireLoss(1.2) //adds up very rapidly
+				shockee.adjustFireLoss(1.2) //adds up very rapidly
 				. = 1

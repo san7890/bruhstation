@@ -23,7 +23,7 @@
 
 /mob/living/basic/guardian/assassin/Life(delta_time = SSMOBS_DT, times_fired)
 	. = ..()
-	updatestealthalert()
+	update_stealth_alert()
 	if(loc == summoner && toggle)
 		ToggleMode()
 
