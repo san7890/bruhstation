@@ -16,11 +16,9 @@
 	var/obj/item/internal_storage
 
 /mob/living/basic/guardian/dextrous/Initialize()
-	AddComponent(/datum/component/dexterity, dextrous_slot_id, hud_type, has_internal_storage = TRUE)
 	AddComponent(/datum/component/personal_crafting)
-	ADD_TRAIT(parent, TRAIT_ADVANCEDTOOLUSER, INNATE_TRAIT)
-	ADD_TRAIT(parent, TRAIT_CAN_STRIP, INNATE_TRAIT)
-	internal_storage = GetExactComponent(/datum/component/dexterity)
+	ADD_TRAIT(src, TRAIT_ADVANCEDTOOLUSER, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_CAN_STRIP, INNATE_TRAIT)
 	return ..()
 
 // Just in case we have any held items, we wanna drop them before the rest of the Destroy proc.
@@ -39,8 +37,8 @@
 
 /// Call to drop all held items in case we are being deleted, recalled inside of our summoner, or snapped back to our summoner.
 /mob/living/basic/guardian/dextrous/proc/drop_items()
-	if(length(user.held_items))
-		user.drop_all_held_items()
+	if(length(held_items))
+		drop_all_held_items()
 
 /mob/living/basic/guardian/dextrous/Recall(forced)
 	if(!summoner || loc == summoner || (!COOLDOWN_FINISHED(src, recall_cooldown) && !forced))
@@ -59,7 +57,7 @@
 		update_held_items()
 		if(I == internal_storage)
 			internal_storage = null
-			update_inv_internal_storage()
+			update_internal_storage()
 		return TRUE
 	return FALSE
 
@@ -87,12 +85,14 @@
 
 	switch(slot)
 		if(ITEM_SLOT_DEX_STORAGE)
-			stored_item = thing
+			internal_storage = I
 			update_internal_storage()
 		else
-			to_chat(parent, span_danger("You are trying to equip this item to an unsupported inventory slot. Report this to a coder!"))
-			stack_trace("Attempted to equip an item to an unsupported inventory slot on [parent] ([parent.type]). Item: [thing], Slot: [slot].")
+			to_chat(src, span_danger("You are trying to equip this item to an unsupported inventory slot. Report this to a coder!"))
+			stack_trace("Attempted to equip an item to an unsupported inventory slot on [src] ([type]). Item: [I], Slot: [slot].")
 
+// following two procs are split out from simple_animal behavior to ensure that it respects the attack chain as a basic mob
+// if i were a smarter man, i would have elemented this somehow. i'm sorry
 /mob/living/basic/guardian/dextrous/resolve_unarmed_attack(atom/attack_target, list/modifiers)
 	if(isitem(attack_target) || !combat_mode)
 		attack_target.attack_hand(src, modifiers)
@@ -115,10 +115,9 @@
 
 /mob/living/basic/guardian/dextrous/regenerate_icons()
 	. = ..()
-	update_inv_internal_storage()
+	update_internal_storage()
 
-/datum/component/dexterity/proc/update_internal_storage()
-	var/mob/living/user = parent
-	if(has_internal_storage && user.client && user.hud_used?.hud_shown)
-		stored_item.screen_loc = ui_id
-		user.client.screen += stored_item
+/mob/living/basic/guardian/dextrous/proc/update_internal_storage()
+	if(internal_storage && client && hud_used?.hud_shown)
+		internal_storage.screen_loc = ui_id
+		client.screen += internal_storage
