@@ -91,7 +91,7 @@
 				can_stealth_alert = null
 		else
 			if(!can_stealth_alert)
-				can_stealth_alert = throw_alert("can_stealth", /atom/movable/screen/alert/can_stealth)
+				can_stealth_alert = throw_alert("can_stealth", /atom/movable/screen/alert/canstealth)
 				clear_alert("in_stealth")
 				in_stealth_alert = null
 	else

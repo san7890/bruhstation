@@ -20,7 +20,7 @@
 /mob/living/basic/guardian/gravitokinetic/melee_attack(atom/target)
 	. = ..()
 	if(isliving(target) && target != src && target != summoner)
-		to_chat(src, "[span_danger("<B>Your punch has applied heavy gravity to [target]!")]</B>")
+		to_chat(src, span_danger("<B>Your punch has applied heavy gravity to [target]!</B>"))
 		add_gravity(target, 5)
 		to_chat(target, span_userdanger("Everything feels really heavy!"))
 

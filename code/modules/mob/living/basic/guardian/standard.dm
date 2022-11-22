@@ -23,10 +23,12 @@
 		battlecry = input
 
 /mob/living/basic/guardian/punch/melee_attack(atom/target)
-	. = ..()
 	if(isliving(target))
 		say("[battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry][battlecry]!!", ignore_spam = TRUE)
 		playsound(loc, src.attack_sound, 50, TRUE, TRUE)
 		playsound(loc, src.attack_sound, 50, TRUE, TRUE)
 		playsound(loc, src.attack_sound, 50, TRUE, TRUE)
 		playsound(loc, src.attack_sound, 50, TRUE, TRUE)
+		return
+
+	return ..()
