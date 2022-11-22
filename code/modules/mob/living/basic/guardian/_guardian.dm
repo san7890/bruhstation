@@ -148,22 +148,22 @@ GLOBAL_LIST_EMPTY(parasites)
 
 /// If the guardian moves out of the prescribed range of the summoner, snap it back to move to the same turf as the user.
 /mob/living/basic/guardian/proc/snapback()
-	if(summoner)
-		if(get_dist(get_turf(summoner), get_turf(src)) <= range)
-			return
+	if(!summoner)
+		return
+
+	if(get_dist(get_turf(summoner), get_turf(src)) >= range)
+		to_chat(src, span_holoparasite("You moved out of range, and were pulled back! You can only move [range] meters from [summoner.real_name]!"))
+		visible_message(span_danger("\The [src] jumps back to its user."))
+		if(istype(summoner.loc, /obj/effect))
+			Recall(TRUE)
 		else
-			to_chat(src, span_holoparasite("You moved out of range, and were pulled back! You can only move [range] meters from [summoner.real_name]!"))
-			visible_message(span_danger("\The [src] jumps back to its user."))
-			if(istype(summoner.loc, /obj/effect))
-				Recall(TRUE)
-			else
-				new /obj/effect/temp_visual/guardian/phase/out(loc)
-				forceMove(summoner.loc)
-				new /obj/effect/temp_visual/guardian/phase(loc)
+			new /obj/effect/temp_visual/guardian/phase/out(loc)
+			forceMove(summoner.loc)
+			new /obj/effect/temp_visual/guardian/phase(loc)
 
 /mob/living/basic/guardian/death()
 	drop_all_held_items()
-	..()
+	. = ..()
 	if(summoner)
 		to_chat(summoner, "[span_danger("<B>Your [name] died somehow!")]</B>")
 		summoner.dust()

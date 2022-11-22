@@ -13,44 +13,41 @@
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one! It's an assassin carp! Just when you thought it was safe to go back to the water... which is unhelpful, because we're in space.")
 	miner_fluff_string = span_holoparasite("You encounter... Glass, a sharp, fragile attacker.")
 	toggle_button_type = /atom/movable/screen/guardian/toggle_mode/assassin
+	/// Swap between stealth and power mode.
 	var/toggle = FALSE
 	/// How long of a cooldown we should apply since we were forced out of stealth mode and had to go into a cooldown.
-	var/stealth_cooldown = 16 SECONDS
-	var/atom/movable/screen/alert/canstealthalert
-	var/atom/movable/screen/alert/instealthalert
-
-/mob/living/basic/guardian/assassin/Initialize(mapload)
-	. = ..()
-	stealth_cooldown = 0
+	var/stealth_cooldown_duration = 16 SECONDS
+	COOLDOWN_DECLARE(stealth_cooldown)
+	var/atom/movable/screen/alert/can_stealth_alert
+	var/atom/movable/screen/alert/in_stealth_alert
 
 /mob/living/basic/guardian/assassin/Life(delta_time = SSMOBS_DT, times_fired)
 	. = ..()
 	updatestealthalert()
 	if(loc == summoner && toggle)
-		ToggleMode(0)
+		ToggleMode()
 
 /mob/living/basic/guardian/assassin/get_status_tab_items()
 	. = ..()
-	if(stealth_cooldown >= world.time)
+	if(!COOLDOWN_FINISHED(src, stealth_cooldown))
 		. += "Stealth Cooldown Remaining: [DisplayTimeText(stealth_cooldown - world.time)]"
 
 /mob/living/basic/guardian/assassin/melee_attack(atom/target)
 	. = ..()
 	if(.)
 		if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
-			ToggleMode(1)
-
+			ToggleMode(forced = TRUE)
 
 /mob/living/basic/guardian/assassin/adjust_health(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
-		ToggleMode(1)
+		ToggleMode(forced = TRUE)
 
 /mob/living/basic/guardian/assassin/Recall()
 	if(..() && toggle)
-		ToggleMode(0)
+		ToggleMode()
 
-/mob/living/basic/guardian/assassin/ToggleMode(forced = 0)
+/mob/living/basic/guardian/assassin/ToggleMode(forced = FALSE)
 	if(toggle)
 		melee_damage_lower = initial(melee_damage_lower)
 		melee_damage_upper = initial(melee_damage_upper)
@@ -59,16 +56,16 @@
 		environment_smash = initial(environment_smash)
 		alpha = initial(alpha)
 		if(!forced)
-			to_chat(src, "[span_danger("<B>You exit stealth.")]</B>")
-		else
+			to_chat(src, span_danger("<B>You exit stealth.</B>"))
+		else // we crash out of stealth, so we need to go into a cooldown.
 			visible_message(span_danger("\The [src] suddenly appears!"))
-			stealth_cooldown = world.time + initial(stealth_cooldown) //we were forced out of stealth and go on cooldown
-			//COOLDOWN_START(src, recall_cooldown, 4 SECONDS) - replace with stealth cooldown
-		updatestealthalert()
+			COOLDOWN_START(src, stealth_cooldown, stealth_cooldown_duration)
+			COOLDOWN_START(src, recall_cooldown, recall_cooldown_duration)
+		update_stealth_alert()
 		toggle = FALSE
-	else if(stealth_cooldown <= world.time)
+	else if(COOLDOWN_FINISHED(src, stealth_cooldown))
 		if(src.loc == summoner)
-			to_chat(src, "[span_danger("<B>You have to be manifested to enter stealth!")]</B>")
+			to_chat(src, span_danger("<B>You have to be manifested to enter stealth!</B>"))
 			return
 		melee_damage_lower = 50
 		melee_damage_upper = 50
@@ -78,26 +75,27 @@
 		new /obj/effect/temp_visual/guardian/phase/out(get_turf(src))
 		alpha = 15
 		if(!forced)
-			to_chat(src, "[span_danger("<B>You enter stealth, empowering your next attack.")]</B>")
-		updatestealthalert()
+			to_chat(src, span_danger("<B>You enter stealth, empowering your next attack.</B>"))
+		update_stealth_alert()
 		toggle = TRUE
 	else if(!forced)
-		to_chat(src, "[span_danger("<B>You cannot yet enter stealth, wait another [DisplayTimeText(stealth_cooldown - world.time)]!")]</B>")
+		to_chat(src, span_danger("<B>You cannot yet enter stealth, wait another [DisplayTimeText(stealth_cooldown - world.time)]!</B>"))
 
-/mob/living/basic/guardian/assassin/proc/updatestealthalert()
-	if(stealth_cooldown <= world.time)
+/// Depending on our current on-screen alerts, update what shows up to the player's screen.
+/mob/living/basic/guardian/assassin/proc/update_stealth_alert()
+	if(COOLDOWN_FINISHED(src, stealth_cooldown))
 		if(toggle)
-			if(!instealthalert)
-				instealthalert = throw_alert("instealth", /atom/movable/screen/alert/instealth)
-				clear_alert("canstealth")
-				canstealthalert = null
+			if(!in_stealth_alert)
+				in_stealth_alert = throw_alert("in_stealth", /atom/movable/screen/alert/in_stealth)
+				clear_alert("can_stealth")
+				can_stealth_alert = null
 		else
-			if(!canstealthalert)
-				canstealthalert = throw_alert("canstealth", /atom/movable/screen/alert/canstealth)
-				clear_alert("instealth")
-				instealthalert = null
+			if(!can_stealth_alert)
+				can_stealth_alert = throw_alert("can_stealth", /atom/movable/screen/alert/can_stealth)
+				clear_alert("in_stealth")
+				in_stealth_alert = null
 	else
-		clear_alert("instealth")
-		instealthalert = null
-		clear_alert("canstealth")
-		canstealthalert = null
+		clear_alert("in_stealth")
+		in_stealth_alert = null
+		clear_alert("can_stealth")
+		can_stealth_alert = null

@@ -27,6 +27,10 @@
 	qdel(internal_storage)
 	return ..()
 
+/mob/living/basic/guardian/dextrous/death()
+	drop_items()
+	return ..()
+
 /mob/living/basic/guardian/dextrous/examine(mob/user)
 	. = ..()
 	for(var/obj/item/thing in held_items)

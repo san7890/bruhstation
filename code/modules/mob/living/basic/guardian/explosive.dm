@@ -47,7 +47,7 @@
 	if(explodee == src || explodee == summoner || has_matching_summoner(explodee))
 		return
 	to_chat(explodee, span_danger("<B>[source] was boobytrapped!</B>"))
-	to_chat(src, span_danger("<B>Success! Your trap caught [explodee]</B>"))
+	to_chat(src, span_danger("<B>Success! Your trap caught [explodee]!</B>"))
 	var/turf/position = get_turf(source)
 	playsound(position, 'sound/effects/explosion2.ogg', 20 SECONDS, TRUE)
 	new /obj/effect/temp_visual/explosion(position)
