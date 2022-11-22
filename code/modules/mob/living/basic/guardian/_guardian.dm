@@ -448,6 +448,7 @@ GLOBAL_LIST_EMPTY(parasites)
 
 /// The ability to shift a mode, or "attack style"
 /mob/living/basic/guardian/proc/ToggleMode()
+	SHOULD_CALL_PARENT(FALSE)
 	to_chat(src, span_danger("<B>You don't have another mode!</B>"))
 
 /// The ability to turn the "inherent" light within a guardian on or off.

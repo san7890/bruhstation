@@ -13,6 +13,7 @@
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one! It's an assassin carp! Just when you thought it was safe to go back to the water... which is unhelpful, because we're in space.")
 	miner_fluff_string = span_holoparasite("You encounter... Glass, a sharp, fragile attacker.")
 	toggle_button_type = /atom/movable/screen/guardian/toggle_mode/assassin
+	recall_cooldown = 4 SECONDS
 	/// Swap between stealth and power mode.
 	var/toggle = FALSE
 	/// How long of a cooldown we should apply since we were forced out of stealth mode and had to go into a cooldown.
@@ -36,18 +37,19 @@
 	. = ..()
 	if(.)
 		if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
-			ToggleMode(forced = TRUE)
+			ToggleMode(crash = TRUE)
 
 /mob/living/basic/guardian/assassin/adjust_health(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
-		ToggleMode(forced = TRUE)
+		ToggleMode(crash = TRUE)
 
 /mob/living/basic/guardian/assassin/Recall()
 	if(..() && toggle)
 		ToggleMode()
 
-/mob/living/basic/guardian/assassin/ToggleMode(forced = FALSE)
+/// Toggles between stealth mode and standard mode. The argument "crash" is a boolean if we exit stealth mode against the will of the summoner/guardian (or when the guardian attacks a given movable).
+/mob/living/basic/guardian/assassin/ToggleMode(crash = FALSE)
 	if(toggle)
 		melee_damage_lower = initial(melee_damage_lower)
 		melee_damage_upper = initial(melee_damage_upper)
@@ -55,12 +57,12 @@
 		obj_damage = initial(obj_damage)
 		environment_smash = initial(environment_smash)
 		alpha = initial(alpha)
-		if(!forced)
-			to_chat(src, span_danger("<B>You exit stealth.</B>"))
-		else // we crash out of stealth, so we need to go into a cooldown.
+		if(crash) // we crash out of stealth, so we need to go into a cooldown.
 			visible_message(span_danger("\The [src] suddenly appears!"))
 			COOLDOWN_START(src, stealth_cooldown, stealth_cooldown_duration)
-			COOLDOWN_START(src, recall_cooldown, recall_cooldown_duration)
+			COOLDOWN_START(src, recall_cooldown, recall_cooldown_duration) // stay exposed for four seconds
+		else
+			to_chat(src, span_danger("<B>You exit stealth.</B>"))
 		update_stealth_alert()
 		toggle = FALSE
 	else if(COOLDOWN_FINISHED(src, stealth_cooldown))
@@ -74,11 +76,10 @@
 		environment_smash = ENVIRONMENT_SMASH_NONE
 		new /obj/effect/temp_visual/guardian/phase/out(get_turf(src))
 		alpha = 15
-		if(!forced)
-			to_chat(src, span_danger("<B>You enter stealth, empowering your next attack.</B>"))
+		to_chat(src, span_danger("<B>You enter stealth, empowering your next attack.</B>"))
 		update_stealth_alert()
 		toggle = TRUE
-	else if(!forced)
+	else if(!crash)
 		to_chat(src, span_danger("<B>You cannot yet enter stealth, wait another [DisplayTimeText(stealth_cooldown - world.time)]!</B>"))
 
 /// Depending on our current on-screen alerts, update what shows up to the player's screen.

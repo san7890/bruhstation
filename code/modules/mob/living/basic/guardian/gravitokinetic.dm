@@ -39,7 +39,7 @@
 
 /mob/living/basic/guardian/gravitokinetic/Recall(forced)
 	. = ..()
-	to_chat(src, "[span_danger("<B>You have released your gravitokinetic powers!")]</B>")
+	to_chat(src, span_danger("<B>You have released your gravitokinetic powers!</B>"))
 	for(var/target in gravito_targets)
 		remove_gravity(target)
 
