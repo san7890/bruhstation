@@ -13,16 +13,18 @@
 
 ///Removes gravity from affected mobs upon guardian death to prevent permanent effects
 /mob/living/basic/guardian/gravitokinetic/death()
-	. = ..()
 	for(var/target in gravito_targets)
 		remove_gravity(target)
 
+	return ..()
+
 /mob/living/basic/guardian/gravitokinetic/melee_attack(atom/target)
-	. = ..()
 	if(isliving(target) && target != src && target != summoner)
 		to_chat(src, span_danger("<B>Your punch has applied heavy gravity to [target]!</B>"))
 		add_gravity(target, 5)
 		to_chat(target, span_userdanger("Everything feels really heavy!"))
+
+	return ..()
 
 /mob/living/basic/guardian/gravitokinetic/AltClickOn(atom/source)
 	if(isopenturf(source) && is_deployed() && stat != DEAD && in_range(src, source) && !incapacitated())
@@ -38,10 +40,11 @@
 	return ..()
 
 /mob/living/basic/guardian/gravitokinetic/Recall(forced)
-	. = ..()
 	to_chat(src, span_danger("<B>You have released your gravitokinetic powers!</B>"))
 	for(var/target in gravito_targets)
 		remove_gravity(target)
+
+	return ..()
 
 /mob/living/basic/guardian/gravitokinetic/Manifest(forced)
 	. = ..()
@@ -50,10 +53,11 @@
 	AddElement(/datum/element/forced_gravity, 1)
 
 /mob/living/basic/guardian/gravitokinetic/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
-	. = ..()
 	for(var/target in gravito_targets)
 		if(get_dist(src, target) > gravity_power_range)
 			remove_gravity(target)
+
+	return ..()
 
 /mob/living/basic/guardian/gravitokinetic/proc/add_gravity(atom/source, new_gravity = 3)
 	if(gravito_targets[source])

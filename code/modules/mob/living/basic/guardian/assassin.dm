@@ -34,10 +34,10 @@
 		. += "Stealth Cooldown Remaining: [DisplayTimeText(stealth_cooldown - world.time)]"
 
 /mob/living/basic/guardian/assassin/melee_attack(atom/target)
-	. = ..()
-	if(.)
-		if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
-			ToggleMode(crash = TRUE)
+	if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
+		ToggleMode(crash = TRUE)
+
+	return ..()
 
 /mob/living/basic/guardian/assassin/adjust_health(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
@@ -92,7 +92,7 @@
 				can_stealth_alert = null
 		else
 			if(!can_stealth_alert)
-				can_stealth_alert = throw_alert("can_stealth", /atom/movable/screen/alert/canstealth)
+				can_stealth_alert = throw_alert("can_stealth", /atom/movable/screen/alert/can_stealth)
 				clear_alert("in_stealth")
 				in_stealth_alert = null
 	else

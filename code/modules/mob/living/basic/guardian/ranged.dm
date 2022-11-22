@@ -1,6 +1,3 @@
-/// It's imperative that the arguments line up on both AddElement and RemoveElement, so let's make sure that's the case by putting it in a macro define.
-#define RANGED_ATTACKS_ARGUMENTS ( null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color )
-
 //Ranged
 /obj/projectile/guardian
 	name = "crystal spray"
@@ -36,14 +33,14 @@
 
 /mob/living/basic/guardian/ranged/Initialize(mapload, theme)
 	// We default to being in attack/ranged mode to start off with, so let's add it to ensure we can start firing right away without needing to toggle/untoggle first.
-	AddElement(/datum/element/ranged_attacks, RANGED_ATTACKS_ARGUMENTS)
+	AddElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
 	return ..()
 
 // We got to switch colors again, so let's swap the color of our projectile as well so we don't have to wait around by switching into scout mode, and then back into ranged attack mode again.
 /mob/living/basic/guardian/ranged/guardian_recolor()
 	. = ..()
-	RemoveElement(/datum/element/ranged_attacks, RANGED_ATTACKS_ARGUMENTS)
-	AddElement(/datum/element/ranged_attacks, RANGED_ATTACKS_ARGUMENTS)
+	RemoveElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
+	AddElement(/datum/element/ranged_attacks, null, 'sound/effects/hit_on_shattered_glass.ogg', /obj/projectile/guardian, projectile_cooldown, guardian_color)
 
 /mob/living/basic/guardian/ranged/get_status_tab_items()
 	. = ..()
@@ -53,7 +50,6 @@
 /mob/living/basic/guardian/ranged/ToggleMode()
 	if(loc == summoner)
 		if(toggle)
-			AddElement(/datum/element/ranged_attacks, RANGED_ATTACKS_ARGUMENTS)
 			melee_damage_lower = initial(melee_damage_lower)
 			melee_damage_upper = initial(melee_damage_upper)
 			obj_damage = initial(obj_damage)
@@ -63,7 +59,6 @@
 			to_chat(src, "[span_danger("<B>You switch to combat mode.</B>")]")
 			toggle = FALSE
 		else
-			RemoveElement(/datum/element/ranged_attacks, RANGED_ATTACKS_ARGUMENTS)
 			melee_damage_lower = 0
 			melee_damage_upper = 0
 			obj_damage = 0
@@ -74,6 +69,11 @@
 			toggle = TRUE
 	else
 		to_chat(src, span_danger("<B>You have to be recalled to toggle modes!</B>"))
+
+/mob/living/basic/guardian/ranged/RangedAttack()
+	if(toggle) // in scout mode, zero attacking allowed. ensures that the ranged attack signal never gets sent to the element
+		return
+	return ..()
 
 /mob/living/basic/guardian/ranged/ToggleLight()
 	var/msg = ""
@@ -156,5 +156,3 @@
 		var/list/guardians = spawner.summoner.get_all_linked_holoparasites()
 		for(var/entity in guardians)
 			to_chat(entity, span_danger("<B>[movable] has crossed surveillance snare, [name].</B>"))
-
-#undef RANGED_ATTACKS_ARGUMENTS
