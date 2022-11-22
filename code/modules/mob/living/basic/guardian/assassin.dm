@@ -44,6 +44,13 @@
 	if(. > 0 && toggle)
 		ToggleMode(crash = TRUE)
 
+/// yeah apparently basic mobs controlled by players use attack_animal() instead of attack_basic(). mmmm.
+/mob/living/basic/guardian/assassin/attack_animal()
+	if(toggle) // anyways we attacked someone in stealth mode, so we crash out of stealth mode and swap into regular ol' guardian mode.
+		ToggleMode(crash = TRUE)
+
+	return ..()
+
 /mob/living/basic/guardian/assassin/Recall()
 	if(..() && toggle)
 		ToggleMode()

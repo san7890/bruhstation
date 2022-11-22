@@ -1,7 +1,7 @@
 //gravitokinetic
 /mob/living/basic/guardian/gravitokinetic
 	damage_coeff = list(BRUTE = 0.75, BURN = 0.75, TOX = 0.75, CLONE = 0.75, STAMINA = 0, OXY = 0.75)
-	playstyle_string = span_holoparasite("As a <b>gravitokinetic</b> type, you can alt click to make the gravity on the ground stronger, and punching applies this effect to a target.")
+	playstyle_string = span_holoparasite("As a <b>gravitokinetic</b> type, you can Alt-Click to make the gravity on the ground stronger, and punching applies this effect to a target.")
 	magic_fluff_string = span_holoparasite("..And draw the Singularity, an anomalous force of terror.")
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Gravitokinetic modules loaded. Holoparasite swarm online.")
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one! It's a gravitokinetic carp! Now do you understand the gravity of the situation?")
@@ -18,7 +18,7 @@
 
 	return ..()
 
-/mob/living/basic/guardian/gravitokinetic/melee_attack(atom/target)
+/mob/living/basic/guardian/gravitokinetic/attack_animal(atom/target)
 	if(isliving(target) && target != src && target != summoner)
 		to_chat(src, span_danger("<B>Your punch has applied heavy gravity to [target]!</B>"))
 		add_gravity(target, 5)
