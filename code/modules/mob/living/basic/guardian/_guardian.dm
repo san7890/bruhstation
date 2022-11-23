@@ -50,6 +50,10 @@ GLOBAL_LIST_EMPTY(parasites)
 	var/reset = FALSE
 	/// Boolean that tracks if the guardian is forced to not be able to manifest/recall.
 	var/locked = FALSE
+	/// The "passive" mob action that a guardian has in their non-combative mode.
+	var/datum/action/cooldown/guardian/passive_action
+	/// The "active" mob action that a guardian has in their combative mode.
+	var/datum/action/cooldown/guardian/combative_action
 	/// How long of a cooldown should there be between recalls?
 	var/recall_cooldown_duration = 1 SECONDS
 	COOLDOWN_DECLARE(recall_cooldown)

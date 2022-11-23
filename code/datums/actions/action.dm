@@ -217,6 +217,9 @@
 		return
 
 	var/atom/movable/screen/movable/action_button/button = CreateButton()
+	if(!button)
+		return
+
 	SetId(button, viewer)
 
 	button.our_hud = our_hud

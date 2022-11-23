@@ -7,14 +7,14 @@
 	tech_fluff_string = span_holoparasite("Boot sequence complete. Charge modules loaded. Holoparasite swarm online.")
 	carp_fluff_string = span_holoparasite("CARP CARP CARP! Caught one! It's a charger carp, that likes running at people. But it doesn't have any legs...")
 	miner_fluff_string = span_holoparasite("You encounter... Titanium, a lightweight, agile fighter.")
-	/// This allows us to charge at stuff.
-	var/datum/action/cooldown/mob_cooldown/charge/basic_charge/charging_ability
+	/// This allows us to charge at stuff. Charger is the only one that doesn't have a specific holoparasite action tailored to it, since the behavior in this action was already
+	/// pretty much what we wanted. So, make a snowflake to fit the mold.
+	var/datum/action/cooldown/mob_cooldown/charge/basic_charge/guardian/charging_ability
 
 /mob/living/basic/guardian/charger/Initialize()
-	. = ..()
 	charging_ability = new
 	charging_ability.Grant(src)
-	charging_ability.cooldown_time = 4 SECONDS
+	return ..()
 
 /mob/living/basic/guardian/charger/Destroy()
 	QDEL_NULL(charging_ability)
@@ -28,4 +28,24 @@
 /mob/living/basic/guardian/charger/snapback()
 	if(charging_ability.actively_moving)
 		return
+	return ..()
+
+/datum/action/cooldown/mob_cooldown/charge/basic_charge/guardian
+	cooldown_time = 4 SECONDS
+	/// Track our summoner of the guardian who has this ability.
+	var/mob/living/summoner
+
+/datum/action/cooldown/mob_cooldown/charge/basic_charge/guardian/Grant()
+	. = ..()
+	var/mob/living/basic/guardian/action_holder = owner
+	summoner = action_holder.summoner
+
+/datum/action/cooldown/mob_cooldown/charge/basic_charge/guardian/do_charge(atom/movable/charger, atom/target_atom, delay, past)
+	if(owner.loc == summoner)
+		to_chat(src, span_warning("You can't charge while recalled!"))
+		return
+	if(summoner == target_atom)
+		to_chat(src, span_warning("You can't charge at your summoner!"))
+		return
+
 	return ..()
