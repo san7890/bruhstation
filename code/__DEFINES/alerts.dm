@@ -25,7 +25,7 @@
 #define ALERT_EMBEDDED_OBJECT "embeddedobject"
 #define ALERT_SHOES_KNOT "shoealert"
 
-/// OH MY FUCKING GOD RUN THE GODDAMN CHECKS
+/// OH MY FUCKING GOD RUN THE GODDAMN CHECKS gargle
 
 //antag related
 #define ALERT_HYPNOSIS "hypnosis"
