@@ -25,7 +25,7 @@
 #define ALERT_EMBEDDED_OBJECT "embeddedobject"
 #define ALERT_SHOES_KNOT "shoealert"
 
-// glorb
+// glorbus
 //antag related
 #define ALERT_HYPNOSIS "hypnosis"
 #define ALERT_MIND_CONTROL "mind_control"
