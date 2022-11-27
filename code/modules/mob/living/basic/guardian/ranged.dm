@@ -75,6 +75,11 @@
 		return
 	return ..()
 
+/mob/living/basic/guardian/ranged/melee_attack(atom/target)
+	if(toggle)
+		return
+	return ..()
+
 /mob/living/basic/guardian/ranged/ToggleLight()
 	var/msg = ""
 
@@ -122,17 +127,12 @@
 /mob/living/basic/guardian/ranged/Manifest(forced)
 	if (toggle)
 		incorporeal_move = INCORPOREAL_MOVE_BASIC
-	. = ..()
+	return ..()
 
 /mob/living/basic/guardian/ranged/Recall(forced)
 	// To stop scout mode from moving when recalled
 	incorporeal_move = FALSE
-	. = ..()
-
-/mob/living/basic/guardian/ranged/melee_attack(atom/target)
-	if(toggle)
-		return
-	..()
+	return ..()
 
 /// Abstract effect "snare" that we just use for surveillance to see if anyone walks over it.
 /obj/effect/abstract/guardian_snare

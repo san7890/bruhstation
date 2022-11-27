@@ -6,17 +6,13 @@
 	/// Are we actually in the stealth mode?
 	var/stealth = FALSE
 
-/datum/action/cooldown/guardian/stealth/Grant()
-	. = ..()
-	empower()
-	RegisterSignal(src, COMSIG_HOSTILE_POST_ATTACKINGTARGET, PROC_REF(normalize_power))
-
 /datum/action/cooldown/guardian/stealth/Remove()
 	normalize_power()
 	return ..()
 
-/datum/action/cooldown/guardian/stealth/handle_melee_attack()
+/datum/action/cooldown/guardian/stealth/handle_melee_attack(mob/source, mob/target)
 	if(stealth)
+		normalize_power()
 		owner.visible_message(span_danger("\The [action_holder] suddenly appears!"))
 		StartCooldownSelf()
 
@@ -46,4 +42,5 @@
 	action_holder.obj_damage = initial(action_holder.obj_damage)
 	action_holder.environment_smash = initial(action_holder.environment_smash)
 	action_holder.alpha = initial(action_holder.alpha)
+	to_chat(action_holder, span_danger("<B>You exit stealth.</B>"))
 	stealth = FALSE
