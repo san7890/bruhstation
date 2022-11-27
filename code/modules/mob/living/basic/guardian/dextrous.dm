@@ -1,4 +1,6 @@
 //Dextrous
+// TODO: It would be absolutely epic if we could somehow datumize this ability. I had an implementation regarding this halfway work, but then I got absolutely stumped by making that interact with the HUD.
+// The whole "internal storage" thing took me (personally) for a loop, and I couldn't get it to work in the end. Anyways, would be nice!
 /mob/living/basic/guardian/dextrous
 	melee_damage_lower = 10
 	melee_damage_upper = 10
