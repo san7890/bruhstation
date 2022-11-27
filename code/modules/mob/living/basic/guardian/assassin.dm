@@ -43,12 +43,6 @@
 	if(!COOLDOWN_FINISHED(src, stealth_cooldown))
 		. += "Stealth Cooldown Remaining: [DisplayTimeText(stealth_cooldown - world.time)]"
 
-/mob/living/basic/guardian/assassin/melee_attack(atom/target)
-	if(toggle && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
-		ToggleMode()
-
-	return ..()
-
 /mob/living/basic/guardian/assassin/adjust_health(amount, updating_health = TRUE, forced = FALSE)
 	. = ..()
 	if(. > 0 && toggle)
@@ -67,12 +61,16 @@
 
 /// Toggles between stealth mode and standard mode.
 /mob/living/basic/guardian/assassin/ToggleMode()
+	if(src.loc == summoner)
+		to_chat(src, span_warning("You must be manifested to toggle modes!"))
+		return
+
 	if(toggle)
 		stealth_action.normalize_power()
 		update_stealth_alert()
 		toggle = FALSE
 	else
-		stealth_action.empower()
+		stealth_action.Trigger()
 		update_stealth_alert()
 		toggle = TRUE
 

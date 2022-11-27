@@ -17,22 +17,18 @@
 	action_holder = granted_to
 	summoner = action_holder.summoner
 
-	if(manifested_only)
-		if(action_holder.loc == summoner)
-			to_chat(granted_to, span_danger("<B>You must be manifested to use [name]!</B>"))
-			return
-	else
-		if(action_holder.loc != summoner)
-			to_chat(granted_to, span_danger("<B>You must be recalled to use [name]!</B>"))
-			return
-
 	return ..()
 
-/datum/action/cooldown/guardian/Trigger(trigger_flags)
+/datum/action/cooldown/guardian/IsAvailable(feedback = FALSE)
 	// Simple check to see if we are in a valid location to use the ability, since guardians should not be able to use abilities while inside their summoner.
-	if(owner.loc == summoner)
-		to_chat(owner, span_danger("<B>You cannot use your powers while recalled!</B>"))
-		return FALSE
+	if(manifested_only)
+		if(action_holder.loc == summoner)
+			to_chat(action_holder, span_danger("<B>You must be manifested to use [name]!</B>"))
+			return FALSE
+	else
+		if(action_holder.loc != summoner)
+			to_chat(action_holder, span_danger("<B>You must be recalled to use [name]!</B>"))
+			return FALSE
 
 	return ..()
 

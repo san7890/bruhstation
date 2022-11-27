@@ -3,6 +3,8 @@
 	name = "Stealth"
 	desc = "Toggle stealth mode, allowing you to snoop around inconspicuously and then have your next attack do more damage. If you attack or get attacked while stealthed, you will be revealed."
 	cooldown_time = 16 SECONDS
+	click_to_activate = TRUE
+	manifested_only = TRUE
 	/// Are we actually in the stealth mode?
 	var/stealth = FALSE
 
@@ -10,13 +12,16 @@
 	normalize_power()
 	return ..()
 
-/datum/action/cooldown/guardian/stealth/handle_melee_attack(mob/source, mob/target)
-	if(stealth)
+/datum/action/cooldown/guardian/stealth/Activate(atom/target)
+	if(stealth && (isliving(target) || istype(target, /obj/structure/window) || istype(target, /obj/structure/grille)))
+		unset_click_ability(action_holder, refund_cooldown = FALSE) // manually unset the click ability to prevent cheesing
 		normalize_power()
 		owner.visible_message(span_danger("\The [action_holder] suddenly appears!"))
 		StartCooldownSelf()
 
-	return ..()
+/datum/action/cooldown/guardian/stealth/Trigger(trigger_flags)
+	. = ..()
+	empower()
 
 /// Gives us the invisibility effect and powers up our next attack.
 /datum/action/cooldown/guardian/stealth/proc/empower()
