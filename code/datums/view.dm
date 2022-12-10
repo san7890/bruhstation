@@ -20,7 +20,10 @@
 	/// The client that owns this view packet
 	var/client/chief = null
 
+	var/big_chungus //testing only
+
 /datum/view_data/New(client/owner, view_string)
+	var/larger_chungus
 	default = view_string
 	chief = owner
 	apply()

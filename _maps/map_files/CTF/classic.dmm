@@ -1,11 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "av" = (
 /turf/closed/indestructible/riveted,
-/area/centcomm/ctf)
+/area/centcom/ctf)
 "aY" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/centcomm/ctf)
+/area/centcom/ctf)
 "bp" = (
 /obj/item/ctf/red,
 /turf/open/floor/circuit/green/anim,
