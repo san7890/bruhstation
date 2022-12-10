@@ -5,7 +5,7 @@
 "aY" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating,
-/area/centcom/ctf)
+/area/centcomm/ctf)
 "bp" = (
 /obj/item/ctf/red,
 /turf/open/floor/circuit/green/anim,
