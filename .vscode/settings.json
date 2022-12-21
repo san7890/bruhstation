@@ -5,8 +5,9 @@
 	"typescript.tsdk": "./tgui/.yarn/sdks/typescript/lib",
 	"typescript.enablePromptUseWorkspaceTsdk": true,
 	"search.exclude": {
+		"**/.pnp.*": true,
 		"**/.yarn": true,
-		"**/.pnp.*": true
+		"**/tests/flakyTestPayloads": true
 	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
