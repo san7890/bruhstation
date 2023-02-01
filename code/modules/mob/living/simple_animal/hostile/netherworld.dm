@@ -184,16 +184,11 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 		"yells",
 	)
 
-/mob/living/simple_animal/hostile/netherworld/migo/Initialize(mapload)
-	. = ..()
-	if(!length(GLOB.migo_sounds))
-		assemble_migo_sounds()
-
 /mob/living/simple_animal/hostile/netherworld/migo/say(message, bubble_type, list/spans = list(), sanitize = TRUE, datum/language/language = null, ignore_spam = FALSE, forced = null, filterproof = null, message_range = 7, datum/saymode/saymode = null)
 	..()
 	if(stat)
 		return
-	var/chosen_sound = pick(GLOB.migo_sounds)
+	var/chosen_sound = return_migo_sound()
 	playsound(src, chosen_sound, 50, TRUE)
 
 /mob/living/simple_animal/hostile/netherworld/migo/Life(delta_time = SSMOBS_DT, times_fired)
@@ -201,13 +196,12 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 	if(stat)
 		return
 	if(DT_PROB(5, delta_time))
-		var/chosen_sound = pick(GLOB.migo_sounds)
+		var/chosen_sound = return_migo_sound()
 		playsound(src, chosen_sound, 50, TRUE)
 
-/// Adds all the possible migo sounds to the global list. We only do this once whenever a migo is spawned so we don't have needless lists taking up memory when we don't need them.
-/// All migos will reference this list, which is good because you don't have 50 migos all holding a 100+ item list uniquely.
-/mob/living/simple_animal/hostile/netherworld/migo/proc/assemble_migo_sounds()
-	GLOB.migo_sounds = list(
+/// Returns a possible sound for the migo to spit out randomly. Do it on-demand so we don't have super long 150+ item lists taking up memory in game when we can avoid it.
+/mob/living/simple_animal/hostile/netherworld/migo/proc/return_migo_sound()
+	var/returnable_sound = pick(list(
 	'sound/ai/default/aimalf.ogg',
 	'sound/ai/default/outbreak5.ogg',
 	'sound/ai/default/outbreak7.ogg',
@@ -360,4 +354,6 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 	'sound/weapons/homerun.ogg',
 	'sound/weapons/kenetic_accel.ogg',
 	'sound/weapons/sear.ogg',
-	) // That was a lot, huh?
+	)) // That was a lot, huh?
+
+	return returnable_sound
