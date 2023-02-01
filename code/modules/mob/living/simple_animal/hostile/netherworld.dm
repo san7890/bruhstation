@@ -184,7 +184,7 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 		"yells",
 	)
 
-assemble_migo_sounds()/Initialize(mapload)
+/mob/living/simple_animal/hostile/netherworld/migo/Initialize(mapload)
 	. = ..()
 	if(!length(GLOB.migo_sounds))
 		assemble_migo_sounds()
