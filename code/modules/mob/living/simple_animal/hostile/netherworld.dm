@@ -152,7 +152,6 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 /mob/living/simple_animal/hostile/netherworld/migo
 	name = "mi-go"
 	desc = "A pinkish, fungoid crustacean-like creature with numerous pairs of clawed appendages and a head covered with waving antennae."
-	speak_emote = list("screams", "clicks", "chitters", "barks", "moans", "growls", "meows", "reverberates", "roars", "squeaks", "rattles", "exclaims", "yells", "remarks", "mumbles", "jabbers", "stutters", "seethes")
 	health = 80
 	maxHealth = 80
 	icon_state = "mi-go"
@@ -164,6 +163,26 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 	death_message = "wails as its form turns into a pulpy mush."
 	death_sound = 'sound/voice/hiss6.ogg'
 	phaser = FALSE
+	speak_emote = list(
+		"barks",
+		"chitters",
+		"clicks",
+		"exclaims",
+		"growls",
+		"jabbers",
+		"meows",
+		"moans",
+		"mumbles",
+		"rattles",
+		"remarks",
+		"reverberates",
+		"roars",
+		"screams",
+		"seethes",
+		"squeaks",
+		"stutters",
+		"yells",
+	)
 
 assemble_migo_sounds()/Initialize(mapload)
 	. = ..()
