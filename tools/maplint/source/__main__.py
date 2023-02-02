@@ -7,7 +7,7 @@ import yaml
 from . import dmm, lint
 from .error import MaplintError
 
-def green(text):
+def green(text): # i hate it here
     return "\033[32m" + str(text) + "\033[0m"
 
 def red(text):
