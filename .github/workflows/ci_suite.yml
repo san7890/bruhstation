@@ -4,7 +4,7 @@ on:
     branches:
     - master
     - 'project/**'
-    - this-kills-the-closed-turf
+    - this-kills-the-closed-turf # this would be easier if i had a fucking rust cache
   pull_request:
     branches:
     - master
