@@ -1,7 +1,3 @@
-help:
-  Placing any movable on a closed turf is not allowed.
-  If it's a wallmount, you should use the directional subtype and place it on an open turf adjacent to the closed turf you're targetting.
-  If it's not a wallmount, strongly reconsider what it is you are doing.
 /turf/closed:
   banned_neighbors:
   - /mob
