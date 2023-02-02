@@ -211,7 +211,7 @@ GLOBAL_LIST_EMPTY(migo_sounds)
 	'sound/ai/default/shuttledock.ogg',
 	'sound/ai/default/shuttlerecalled.ogg',
 	'sound/ambience/antag/clockcultalr.ogg',
-	'sound/ambience/antag/ling_aler.ogg',
+	'sound/ambience/antag/ling_alert.ogg',
 	'sound/ambience/antag/monkey.ogg',
 	'sound/ambience/antag/tatoralert.ogg',
 	'sound/ambience/signal.ogg',
