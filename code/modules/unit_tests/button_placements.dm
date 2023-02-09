@@ -7,7 +7,7 @@
 TEST_FOCUS(/datum/unit_test/validate_button_placements)
 
 /datum/unit_test/validate_button_placements/Run()
-	for(var/obj/machinery/button/pressable as anything in GLOB.machines)
+	for(var/obj/machinery/button/pressable in GLOB.machines)
 		// The location we are placed on in a map. Remember, we place it on an open turf and then pixel-shift it onto a table or wall or something.
 		var/turf/placed_location = get_turf(pressable)
 		if(isclosedturf(placed_location))
