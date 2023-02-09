@@ -2,9 +2,6 @@
 /// To be a valid turf, just has to be an open turf with no dense objects blocking it. You shouldn't have to move a table to hit a button or something silly like that.
 /// Doesn't test for any aesthetic/stylistic issues, just that a mob can touch it.
 /datum/unit_test/validate_button_placements
-	priority = TEST_LONGER
-
-TEST_FOCUS(/datum/unit_test/validate_button_placements)
 
 /datum/unit_test/validate_button_placements/Run()
 	for(var/obj/machinery/button/pressable in GLOB.machines)
