@@ -23,20 +23,20 @@ TEST_FOCUS(/datum/unit_test/validate_button_placements)
 				continue
 			applicable_turfs += surrounding_turf
 
-		var/success = FALSE
+		var/successful_placement = FALSE
 		for(var/turf/checkable as anything in applicable_turfs)
 			if(validate_open_turf_density(checkable))
-				success = TRUE
+				successful_placement = TRUE
 				break
 
-		if(!success)
+		if(!successful_placement)
 			TEST_FAIL("Button [pressable] ([pressable.type]) at [AREACOORD(placed_location)] (in area [location_name.type]) is not accessible by a mob, as there is a dense object in the way of it.")
 
 
 /// Checks to ensure that a given turf is open and has no dense objects on it. Returns TRUE if it is clear of obstructions, FALSE if it isn't.
 /datum/unit_test/validate_button_placements/proc/validate_open_turf_density(turf/checkable)
 	for(var/atom/movable/thing in checkable)
-		if(thing.density)
+		if(thing.density) // If ANYTHING is dense, we fail.
 			return FALSE
 
 	return TRUE
