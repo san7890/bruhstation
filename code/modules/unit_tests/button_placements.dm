@@ -19,7 +19,7 @@ TEST_FOCUS(/datum/unit_test/validate_button_placements)
 		applicable_turfs += placed_location // include the turf we're on.
 
 		for(var/turf/surrounding_turf in orange(1, placed_location))
-			if(isclosedturf(checkable))
+			if(isclosedturf(surrounding_turf))
 				continue
 			applicable_turfs += surrounding_turf
 
