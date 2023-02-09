@@ -1,0 +1,42 @@
+/// Tests to ensure that any given button anywhere is accessible by checking to ensure that there is at least one valid turf that a given mob can qualify to it's adjacency check.
+/// To be a valid turf, just has to be an open turf with no dense objects blocking it. You shouldn't have to move a table to hit a button or something silly like that.
+/// Doesn't test for any aesthetic/stylistic issues, just that a mob can touch it.
+/datum/unit_test/validate_button_placements
+	priority = TEST_LONGER
+
+TEST_FOCUS(/datum/unit_test/validate_button_placements)
+
+/datum/unit_test/validate_button_placements/Run()
+	for(var/obj/machinery/button/pressable as anything in GLOB.machines)
+		// The location we are placed on in a map. Remember, we place it on an open turf and then pixel-shift it onto a table or wall or something.
+		var/turf/placed_location = get_turf(pressable)
+		if(isclosedturf(placed_location))
+			var/area/location_name = get_area(pressable)
+			TEST_FAIL("Button [pressable] ([pressable.type]) at [AREACOORD(placed_location)] (in area [location_name.type]) is in a closed turf! This is not acceptable, place it on an open turf and pixel-shift it onto a wall.")
+			continue
+
+		var/success = FALSE
+		for(var/turf/surrounding_turf in orange(1, placed_location))
+			if(isclosedturf(surrounding_turf))
+				continue
+
+			if(validate_open_turf_density(surrounding_turf))
+				success = TRUE
+				break
+
+		if(!success)
+			TEST_FAIL("Button [pressable] ([pressable.type]) at [AREACOORD(placed_location)] (in area [location_name.type]) is not accessible by a mob, as there is a dense object in the way of it.")
+
+
+/// Checks to ensure that a given turf is open and has no dense objects on it. Returns TRUE if it is clear of obstructions, FALSE if it isn't.
+/datum/unit_test/validate_button_placements/proc/validate_open_turf_density(turf/checkable)
+	if(isclosedturf(checkable))
+		TEST_FAIL("validate_open_turf_density called on a closed turf, what the fuck?")
+		return FALSE
+
+	for(var/atom/movable/thing in checkable)
+		if(thing.density)
+			return FALSE
+
+	return TRUE
+
