@@ -10,8 +10,8 @@ TEST_FOCUS(/datum/unit_test/validate_button_placements)
 	for(var/obj/machinery/button/pressable in GLOB.machines)
 		// The location we are placed on in a map. Remember, we place it on an open turf and then pixel-shift it onto a table or wall or something.
 		var/turf/placed_location = get_turf(pressable)
+		var/area/location_name = get_area(placed_location)
 		if(isclosedturf(placed_location))
-			var/area/location_name = get_area(pressable)
 			TEST_FAIL("Button [pressable] ([pressable.type]) at [AREACOORD(placed_location)] (in area [location_name.type]) is in a closed turf! This is not acceptable, place it on an open turf and pixel-shift it onto a wall.")
 			continue
 
