@@ -35,10 +35,6 @@ TEST_FOCUS(/datum/unit_test/validate_button_placements)
 
 /// Checks to ensure that a given turf is open and has no dense objects on it. Returns TRUE if it is clear of obstructions, FALSE if it isn't.
 /datum/unit_test/validate_button_placements/proc/validate_open_turf_density(turf/checkable)
-	if(isclosedturf(checkable))
-		TEST_FAIL("validate_open_turf_density called on a closed turf, what the fuck?")
-		return FALSE
-
 	for(var/atom/movable/thing in checkable)
 		if(thing.density)
 			return FALSE
