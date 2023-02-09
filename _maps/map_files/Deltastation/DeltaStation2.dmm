@@ -1644,6 +1644,10 @@
 /obj/machinery/light/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/stool/directional/south,
+/obj/machinery/button/ignition/incinerator/atmos{
+	pixel_y = 32;
+	pixel_x = 8
+	},
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
 "aso" = (
@@ -76611,10 +76615,6 @@
 	},
 /turf/open/space,
 /area/space/nearstation)
-"sJF" = (
-/obj/machinery/button/ignition/incinerator/atmos,
-/turf/closed/wall/r_wall,
-/area/station/maintenance/disposal/incinerator)
 "sJN" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
@@ -119910,7 +119910,7 @@ pkp
 edx
 hfb
 edx
-sJF
+edx
 asm
 pGt
 pEP
