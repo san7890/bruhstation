@@ -15,12 +15,17 @@ TEST_FOCUS(/datum/unit_test/validate_button_placements)
 			TEST_FAIL("Button [pressable] ([pressable.type]) at [AREACOORD(placed_location)] (in area [location_name.type]) is in a closed turf! This is not acceptable, place it on an open turf and pixel-shift it onto a wall.")
 			continue
 
-		var/success = FALSE
-		for(var/turf/surrounding_turf in orange(1, placed_location))
-			if(isclosedturf(surrounding_turf))
-				continue
+		var/list/applicable_turfs = list()
+		applicable_turfs += placed_location // include the turf we're on.
 
-			if(validate_open_turf_density(surrounding_turf))
+		for(var/turf/surrounding_turf in orange(1, placed_location))
+			if(isclosedturf(checkable))
+				continue
+			applicable_turfs += surrounding_turf
+
+		var/success = FALSE
+		for(var/turf/checkable as anything in applicable_turfs)
+			if(validate_open_turf_density(checkable))
 				success = TRUE
 				break
 
