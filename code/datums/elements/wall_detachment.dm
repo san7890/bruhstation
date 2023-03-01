@@ -8,7 +8,7 @@
 	var/datum/weakref/wall
 
 	/// Callback to the proc we execute to remove ourselves from being hung on the wall.
-	var/datum/callback/callable_proc
+	var/datum/callback/detachment_proc
 
 /datum/element/wall_detachment/Attach(datum/target, datum/callback/callable_proc)
 	. = ..()
@@ -77,12 +77,12 @@
 
 /datum/element/wall_detachment/Detach()
 	UnregisterSignal(wall.resolve(), COMSIG_PARENT_QDELETING) // we shouldn't have attached to an object if we didn't have a wall, so let's runtime in case some fucky shit happens.
-	callable_proc = null
+	detachment_proc = null
 	return ..()
 
 /// Where we actually register all of the signals onto our parent as well as the turf. If our turf is deleted, we should detach ourselves from the wall.
 /datum/element/wall_detachment/proc/handle_registration(obj/object, turf/closed/registerable_wall, datum/callback/callable_proc)
-	src.callable_proc = callable_proc
+	detachment_proc = callable_proc
 	wall = WEAKREF(registerable_wall)
 	RegisterSignal(registerable_wall, COMSIG_PARENT_QDELETING, PROC_REF(handle_detachment))
 
@@ -90,8 +90,8 @@
 /datum/element/wall_detachment/proc/handle_detachment()
 	SIGNAL_HANDLER
 
-	if(callable_proc)
+	if(detachment_proc)
 		//INVOKE_ASYNC(parent, callable_proc)
-		callable_proc.Invoke()
+		detachment_proc.Invoke()
 
 	Detach() // no longer on a wall, so no more element
