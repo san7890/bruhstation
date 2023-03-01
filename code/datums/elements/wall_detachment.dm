@@ -22,7 +22,7 @@
 	if(cached_relative_offset == 0) // it's not a boolean i shant use a !
 		// Why the fuck are we here? Error and get out fast so we don't eat up processing time.
 		// We can get away with both the stack_trace and the mapping log here because there's no way a player can accomplish this, it's 100% a code-side error.
-		var/message = "A wallmount object [object] at [AREACOORD(object)] was spawned without a directional mapping offset variable! Do not attempt to add the wall_detachment variable onto it."
+		var/message = "A wallmount object [object] at [AREACOORD(object)] was spawned without a directional mapping offset variable! Do not attempt to add the wall_detachment element onto it."
 		stack_trace(message)
 		log_mapping(message)
 		return ELEMENT_INCOMPATIBLE
