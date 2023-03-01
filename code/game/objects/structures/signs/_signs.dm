@@ -52,14 +52,15 @@
 	I.play_tool_sound(src)
 	if(!I.use_tool(src, user, 4 SECONDS))
 		return TRUE
+	var/turf/placeable_turf = get_turf(user)
 	playsound(src, 'sound/items/deconstruct.ogg', 50, TRUE)
 	user.balloon_alert(src, "unfastened")
-	remove_from_wall()
+	remove_from_wall(placeable_turf)
 	return TRUE
 
-/// Proc that handles removing the structure from the wall and returning the sign item.
-/obj/structure/sign/proc/remove_from_wall()
-	var/obj/item/sign/unwrenched_sign = new (get_turf(user))
+/// Proc that handles removing the structure from the wall and returning the sign item. placeable_turf is the turf the sign will be placed on when unwrenched.
+/obj/structure/sign/proc/remove_from_wall(turf/placeable_turf)
+	var/obj/item/sign/unwrenched_sign = new (placeable_turf)
 
 	if(type != /obj/structure/sign/blank) //If it's still just a basic sign backing, we can (and should) skip some of the below variable transfers.
 		unwrenched_sign.name = name //Copy over the sign structure variables to the sign item we're creating when we unwrench a sign.
