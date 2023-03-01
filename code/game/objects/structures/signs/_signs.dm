@@ -8,6 +8,7 @@
 	max_integrity = 100
 	armor_type = /datum/armor/structure_sign
 	resistance_flags = FLAMMABLE
+	directional_mapping_offset = 32
 	///Determines if a sign is unwrenchable.
 	var/buildable_sign = TRUE
 	///This determines if you can select this sign type when using a pen on a sign backing. False by default, set to true per sign type to override.
@@ -47,15 +48,19 @@
 	. = ..()
 	if(!buildable_sign)
 		return TRUE
-	user.visible_message(span_notice("[user] starts removing [src]..."), \
-		span_notice("You start unfastening [src]."))
+	user.balloon_alert(src, "unfastening...")
 	I.play_tool_sound(src)
 	if(!I.use_tool(src, user, 4 SECONDS))
 		return TRUE
 	playsound(src, 'sound/items/deconstruct.ogg', 50, TRUE)
-	user.visible_message(span_notice("[user] unfastens [src]."), \
-		span_notice("You unfasten [src]."))
+	user.balloon_alert(src, "unfastened")
+	remove_from_wall()
+	return TRUE
+
+/// Proc that handles removing the structure from the wall and returning the sign item.
+/obj/structure/sign/proc/remove_from_wall()
 	var/obj/item/sign/unwrenched_sign = new (get_turf(user))
+
 	if(type != /obj/structure/sign/blank) //If it's still just a basic sign backing, we can (and should) skip some of the below variable transfers.
 		unwrenched_sign.name = name //Copy over the sign structure variables to the sign item we're creating when we unwrench a sign.
 		unwrenched_sign.desc = "[desc] It can be placed on a wall."
@@ -64,10 +69,10 @@
 		unwrenched_sign.sign_path = type
 		unwrenched_sign.set_custom_materials(custom_materials) //This is here so picture frames and wooden things don't get messed up.
 		unwrenched_sign.is_editable = is_editable
+
 	unwrenched_sign.update_integrity(get_integrity()) //Transfer how damaged it is.
 	unwrenched_sign.setDir(dir)
 	qdel(src) //The sign structure on the wall goes poof and only the sign item from unwrenching remains.
-	return TRUE
 
 /obj/structure/sign/welder_act(mob/living/user, obj/item/I)
 	. = ..()

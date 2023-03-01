@@ -86,10 +86,12 @@
 	wall = WEAKREF(registerable_wall)
 	RegisterSignal(registerable_wall, COMSIG_PARENT_QDELETING, PROC_REF(handle_detachment))
 
+/// Invoke any procs we need to detach ourselves from the wall, then detach the element.
 /datum/element/wall_detachment/proc/handle_detachment()
 	SIGNAL_HANDLER
 
 	if(callable_proc)
+		//INVOKE_ASYNC(parent, callable_proc)
 		callable_proc.Invoke()
 
 	Detach() // no longer on a wall, so no more element
