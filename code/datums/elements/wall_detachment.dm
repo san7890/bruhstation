@@ -4,13 +4,13 @@
 	element_flags = ELEMENT_BESPOKE
 	argument_hash_start_idx = 2
 
-	/// Weakref to the wall we're attached to.
+	/// Weakref to the wall that we registered our signals on.
 	var/datum/weakref/wall
 
 	/// Callback to the proc we execute to remove ourselves from being hung on the wall.
-	var/datum/callback/detach_from_wall
+	var/datum/callback/callable_proc
 
-/datum/element/wall_detachment/Attach(datum/target)
+/datum/element/wall_detachment/Attach(datum/target, datum/callback/callable_proc)
 	. = ..()
 
 	if(!isobj(target))
@@ -37,13 +37,13 @@
 
 	if(object.spawned_by_directional_mapping_helper) // If this is true, our work is made so much easier (unless we got screwed over by mappers somehow). Just read our dir and get the turf in that direction, cool.
 		visual_location = get_step(object, object.dir)
-		register_all_signals(object, visual_location)
+		handle_registration(object, visual_location, callable_proc)
 		return
 
 	// Alright, time for some nitty gritty work then.
 	actual_position = get_turf(object)
 	if(isclosedturf(actual_position))
-		register_all_signals(object, actual_position) // Alright, we were placed directly on a wall. This means that our visual location is equal to our actual position, which is silly, but let's just get outta here.
+		handle_registration(object, actual_position, callable_proc) // Alright, we were placed directly on a wall. This means that our visual location is equal to our actual position, which is silly, but let's just get outta here.
 		return
 
 	// Our actual position isn't on a wall, let's try and figure out if we were placed somewhere visually.
@@ -69,13 +69,27 @@
 
 	visual_location = get_step(actual_position, worked_out_dir)
 	if(isclosedturf(visual_location))
-		register_all_signals(object, visual_location)
+		handle_registration(object, visual_location, callable_proc)
 		return
 
 	// If all of that didn't work out... that means that we are somehow not on a wall at all. That's probably valid behavior somewhere, but it's not covered in the scope of our element.
 	return ELEMENT_INCOMPATIBLE
 
+/datum/element/wall_detachment/Detach()
+	UnregisterSignal(wall.resolve(), COMSIG_PARENT_QDELETING) // we shouldn't have attached to an object if we didn't have a wall, so let's runtime in case some fucky shit happens.
+	callable_proc = null
+	return ..()
 
-/// Where we actually register all of the signals onto our parent as well as the turf.
-/datum/element/wall_detachment/proc/register_all_signals(obj/object, turf/closed/registerable_wall)
-	Register
+/// Where we actually register all of the signals onto our parent as well as the turf. If our turf is deleted, we should detach ourselves from the wall.
+/datum/element/wall_detachment/proc/handle_registration(obj/object, turf/closed/registerable_wall, datum/callback/callable_proc)
+	src.callable_proc = callable_proc
+	wall = WEAKREF(registerable_wall)
+	RegisterSignal(registerable_wall, COMSIG_PARENT_QDELETING, PROC_REF(handle_detachment))
+
+/datum/element/wall_detachment/proc/handle_detachment()
+	SIGNAL_HANDLER
+
+	if(callable_proc)
+		callable_proc.Invoke()
+
+	Detach() // no longer on a wall, so no more element
