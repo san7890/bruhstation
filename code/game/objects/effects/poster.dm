@@ -148,6 +148,12 @@
 		return CONTEXTUAL_SCREENTIP_SET
 	return .
 
+/obj/structure/sign/poster/remove_from_wall(turf/placeable_turf)
+	if(isnull(placeable_turf))
+		placeable_turf = get_turf(src)
+
+	roll_and_drop(placeable_turf) // i don't know if we should like destroy the poster or something? i'll get back to this later hold me to it --san7890 Mar/01/2023
+
 /obj/structure/sign/poster/proc/randomise(base_type)
 	var/list/poster_types = subtypesof(base_type)
 	var/list/approved_types = list()

@@ -59,7 +59,7 @@
 	remove_from_wall(placeable_turf)
 	return TRUE
 
-/// Proc that handles removing the structure from the wall and returning the sign item. placeable_turf (optional) is the turf the sign will be placed on when unwrenched.
+/// Proc that handles removing the structure from the wall and returning the sign item. placeable_turf (optional) is the turf the sign will be placed on when removed.
 /obj/structure/sign/proc/remove_from_wall(turf/placeable_turf)
 	if(isnull(placeable_turf))
 		placeable_turf = get_turf(src) // In theory, should be the turf that we are actually on per the DMM, not the actual wall turf.
