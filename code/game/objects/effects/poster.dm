@@ -293,7 +293,7 @@
 	never_random = TRUE
 	random_basetype = /obj/structure/sign/poster
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/random, 32)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/random, STANDARD_TILE_OFFSET)
 
 /obj/structure/sign/poster/contraband
 	poster_item_name = "contraband poster"
@@ -306,7 +306,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/random, 32)
 	never_random = TRUE
 	random_basetype = /obj/structure/sign/poster/contraband
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, STANDARD_TILE_OFFSET)
 
 /obj/structure/sign/poster/contraband/free_tonto
 	name = "Free Tonto"
@@ -770,7 +770,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	icon_state = "random_official"
 	never_random = TRUE
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, STANDARD_TILE_OFFSET)
 //This is being hardcoded here to ensure we don't print directionals from the library management computer because they act wierd as a poster item
 /obj/structure/sign/poster/official/random/directional
 	printable = FALSE

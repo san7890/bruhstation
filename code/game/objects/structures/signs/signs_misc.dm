@@ -26,4 +26,4 @@
 	icon = 'icons/obj/barsigns.dmi'
 	desc = "85cr for a iced lactose-free caramel frappe?! Who buys that?!"
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/xenobio_guide, 32)
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/xenobio_guide, STANDARD_TILE_OFFSET)
