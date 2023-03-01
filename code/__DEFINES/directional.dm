@@ -16,6 +16,10 @@
 /// Inverse direction, taking into account UP|DOWN if necessary.
 #define REVERSE_DIR(dir) ( ((dir & 85) << 1) | ((dir & 170) >> 1) )
 
+// Defines for determining what offset we should use for a given direction.
+/// The distance of a full tile in any direction, which is what you typically want when you're pixelshifting a wallmount onto a closed turf.
+#define STANDARD_TILE_OFFSET 32
+
 /// Create directional subtypes for a path to simplify mapping.
 #define MAPPING_DIRECTIONAL_HELPERS(path, offset)\
 ##path/directional/north {\

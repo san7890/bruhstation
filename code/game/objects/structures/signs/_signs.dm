@@ -8,7 +8,7 @@
 	max_integrity = 100
 	armor_type = /datum/armor/structure_sign
 	resistance_flags = FLAMMABLE
-	directional_mapping_offset = 32
+	directional_mapping_offset = STANDARD_TILE_OFFSET
 	///Determines if a sign is unwrenchable.
 	var/buildable_sign = TRUE
 	///This determines if you can select this sign type when using a pen on a sign backing. False by default, set to true per sign type to override.
