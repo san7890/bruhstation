@@ -37,7 +37,10 @@
 
 	/// Have we been spawned in through a task-oriented directional mapping helper? This will help us determine certain assumptions about our actual coordinate location versus where we appear to be placed.
 	/// Do NOT set this variable directly in any capacity outside of the MAPPING_DIRECTIONAL_HELPERS macro or you will break various things.
-	var/directional_mapping_offset = FALSE
+	var/spawned_by_directional_mapping_helper = FALSE
+	/// If we were to be spawned in by a spawner, what should we consider our "default" offset when we shift ourselves from an open turf onto the turf we're on to look visually appropriate?
+	/// For the love of God, do not edit this in a DMM file. Linters will kill you, I will personally assure it.
+	var/directional_mapping_offset = 0
 
 	/// Custom fire overlay icon
 	var/custom_fire_overlay
