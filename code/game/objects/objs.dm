@@ -35,6 +35,10 @@
 	/// Example: If req_one_access = list(ACCESS_ENGINE, ACCESS_CE)- then the user must have either ACCESS_ENGINE or ACCESS_CE in order to use the object.
 	var/list/req_one_access
 
+	/// Have we been spawned in through a task-oriented directional mapping helper? This will help us determine certain assumptions about our actual coordinate location versus where we appear to be placed.
+	/// Do NOT set this variable directly in any capacity outside of the MAPPING_DIRECTIONAL_HELPERS macro or you will break various things.
+	var/directional_mapping_offset = FALSE
+
 	/// Custom fire overlay icon
 	var/custom_fire_overlay
 

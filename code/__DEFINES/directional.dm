@@ -17,19 +17,24 @@
 #define REVERSE_DIR(dir) ( ((dir & 85) << 1) | ((dir & 170) >> 1) )
 
 /// Create directional subtypes for a path to simplify mapping.
-#define MAPPING_DIRECTIONAL_HELPERS(path, offset) ##path/directional/north {\
+#define MAPPING_DIRECTIONAL_HELPERS(path, offset)\
+##path/directional/north {\
 	dir = NORTH; \
 	pixel_y = offset; \
+	spawned_by_directional_mapping_helper = TRUE; \
 } \
 ##path/directional/south {\
 	dir = SOUTH; \
 	pixel_y = -offset; \
+	spawned_by_directional_mapping_helper = TRUE; \
 } \
 ##path/directional/east {\
 	dir = EAST; \
 	pixel_x = offset; \
+	spawned_by_directional_mapping_helper = TRUE; \
 } \
 ##path/directional/west {\
 	dir = WEST; \
 	pixel_x = -offset; \
+	spawned_by_directional_mapping_helper = TRUE; \
 }
