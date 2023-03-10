@@ -750,6 +750,9 @@
 /area/station/engineering/atmos/upper
 	name = "Upper Atmospherics"
 
+/area/station/engineering/atmos/gas_storage_tanks
+	name = "Gas Storage Tanks"
+
 /area/station/engineering/atmos/project
 	name = "\improper Atmospherics Project Room"
 	icon_state = "atmos_projectroom"

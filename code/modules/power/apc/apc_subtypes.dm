@@ -5,7 +5,7 @@
 	icon = 'icons/obj/atmospherics_apc.dmi' // different suite of icon_states
 	area = /area/station/engineering/atmos/gas_storage_tanks // we do it like this so that we can just place it anywhere to have it work.
 
-MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/power/apc/atmospherics)
+MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/power/apc/atmospherics, APC_PIXEL_OFFSET)
 
 // No need to assign an area to this APC, it's already declared in our type- just got to add ourselves to to the area.
 /obj/machinery/power/apc/atmospherics/assign_area()
