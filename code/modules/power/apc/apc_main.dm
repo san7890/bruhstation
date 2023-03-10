@@ -9,6 +9,7 @@
 	name = "area power controller"
 	desc = "A control terminal for the area's electrical systems."
 
+	icon = 'icons/obj/apc.dmi'
 	icon_state = "apc0"
 	use_power = NO_POWER_USE
 	req_access = null
@@ -138,19 +139,7 @@
 			offset_old = pixel_x
 			pixel_x = -APC_PIXEL_OFFSET
 
-	//Assign it to its area. If mappers already assigned an area string fast load the area from it else get the current area
-	var/area/our_area = get_area(loc)
-	if(areastring)
-		area = get_area_instance_from_text(areastring)
-		if(!area)
-			area = our_area
-			stack_trace("Bad areastring path for [src], [areastring]")
-	else if(isarea(our_area) && areastring == null)
-		area = our_area
-	if(area)
-		if(area.apc)
-			log_mapping("Duplicate APC created at [AREACOORD(src)] [area.type]. Original at [AREACOORD(area.apc)] [area.type].")
-		area.apc = src
+	assign_area()
 
 	//Initialize name & access of the apc. Name requires area to be assigned first
 	if(!req_access)
@@ -311,6 +300,22 @@
 		)
 	)
 	return data
+
+/// Assigns the APC to an area. If mappers already assigned an area string fast load the area from it else get the current area.
+/obj/machinery/power/apc/proc/assign_area()
+	var/area/our_area = get_area(loc)
+	if(!areastring)
+		area = our_area
+	else
+		area = get_area_instance_from_text(areastring)
+		if(!istype(area))
+			area = our_area
+			stack_trace("Bad areastring path for [src], [areastring]")
+
+	if(area.apc)
+		log_mapping("Duplicate APC created at [AREACOORD(src)] [area.type]. Original at [AREACOORD(area.apc)] [area.type].")
+
+	area.apc = src
 
 /obj/machinery/power/apc/proc/connect_remote_access(mob/remote_user)
 	if(opened)
