@@ -8,11 +8,14 @@
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/power/apc/atmospherics, APC_PIXEL_OFFSET)
 
 // No need to assign an area to this APC, it's already declared in our type- just got to add ourselves to to the area.
-/obj/machinery/power/apc/atmospherics/assign_area()
-	if(!isnull(area.apc))
+/obj/machinery/power/apc/atmospherics/assign_area(mapload)
+	if(!isnull(area.apc) && mapload)
 		var/message = "An Atmospherics APC already exists for [area] ([area.type])! [src] will not be assigned to it."
 		stack_trace(message)
 		log_mapping(message)
 		return
 
 	area.apc = src
+
+/obj/machinery/power/apc/atmospherics/handle_board_insertion(mob/user, obj/item/electronics/apc/board)
+	. = ..()

@@ -82,25 +82,7 @@
 		return
 
 	if(istype(attacking_object, /obj/item/electronics/apc) && opened)
-		if(has_electronics)
-			balloon_alert(user, "there is already a board!")
-			return
-
-		if(machine_stat & BROKEN)
-			balloon_alert(user, "the frame is damaged!")
-			return
-
-		user.visible_message(span_notice("[user.name] inserts the power control board into [src]."))
-		balloon_alert(user, "you start to insert the board...")
-		playsound(loc, 'sound/items/deconstruct.ogg', 50, TRUE)
-
-		if(!do_after(user, 10, target = src) || has_electronics)
-			return
-
-		has_electronics = APC_ELECTRONICS_INSTALLED
-		locked = FALSE
-		balloon_alert(user, "board installed")
-		qdel(attacking_object)
+		handle_board_insertion(user, attacking_object)
 		return
 
 	if(istype(attacking_object, /obj/item/electroadaptive_pseudocircuit) && opened)
@@ -311,3 +293,29 @@
 		return TRUE
 	else
 		return FALSE
+
+/// Handles insertion of a generic APC electronics board into the APC.
+/obj/machinery/power/apc/proc/handle_board_insertion(mob/user, obj/item/electronics/apc/board)
+	if(has_electronics)
+		balloon_alert(user, "there is already a board!")
+		return
+
+	if(machine_stat & BROKEN)
+		balloon_alert(user, "the frame is damaged!")
+		return
+
+	user.visible_message(span_notice("[user.name] inserts the power control board into [src]."))
+	balloon_alert(user, "you start to insert the board...")
+	playsound(loc, 'sound/items/deconstruct.ogg', 50, TRUE)
+
+	if(!do_after(user, 1 SECONDS, target = src) || has_electronics)
+		return
+
+	if(istype(board, obj/item/electronics/apc/atmospherics))
+		var/obj/machinery/power/apc/atmospherics/new_apc = new(loc, ndir = src.dir)
+
+	has_electronics = APC_ELECTRONICS_INSTALLED
+	locked = FALSE
+	balloon_alert(user, "board installed")
+	qdel(attacking_object)
+

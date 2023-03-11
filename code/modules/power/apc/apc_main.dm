@@ -139,7 +139,7 @@
 			offset_old = pixel_x
 			pixel_x = -APC_PIXEL_OFFSET
 
-	assign_area()
+	assign_area(mapload)
 
 	//Initialize name & access of the apc. Name requires area to be assigned first
 	if(!req_access)
@@ -301,8 +301,8 @@
 	)
 	return data
 
-/// Assigns the APC to an area. If mappers already assigned an area string fast load the area from it else get the current area.
-/obj/machinery/power/apc/proc/assign_area()
+/// Assigns the APC to an area. If mappers already assigned an area string fast load the area from it else get the current area. Use mapload to determine error messages.
+/obj/machinery/power/apc/proc/assign_area(mapload)
 	var/area/our_area = get_area(loc)
 	if(!areastring)
 		area = our_area
@@ -312,7 +312,7 @@
 			area = our_area
 			stack_trace("Bad areastring path for [src], [areastring]")
 
-	if(area.apc)
+	if(area.apc && mapload)
 		log_mapping("Duplicate APC created at [AREACOORD(src)] [area.type]. Original at [AREACOORD(area.apc)] [area.type].")
 
 	area.apc = src
