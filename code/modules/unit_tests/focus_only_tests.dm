@@ -32,3 +32,6 @@
 
 /// Checks that no light shares a tile/pixel offsets with another
 /datum/unit_test/focus_only/stacked_lights
+
+/// Evaluates to see how much time is taken up cleaning up active turfs, and errors if it's more than a set threshold.
+/datum/unit_test/focus_only/active_turf_cleanup_time

@@ -567,40 +567,50 @@ SUBSYSTEM_DEF(air)
 				break
 		CHECK_TICK
 
-	if(active_turfs.len)
-		var/starting_ats = active_turfs.len
-		sleep(world.tick_lag)
-		var/timer = world.timeofday
+	if(!active_turfs.len)
+		return
 
-		log_mapping("There are [starting_ats] active turfs at roundstart caused by a difference of the air between the adjacent turfs. \
-		To locate these active turfs, go into the \"Debug\" tab of your stat-panel. Then hit the verb that says \"Mapping Verbs - Enable\". \
-		Now, you can see all of the associated coordinates using \"Mapping -> Show roundstart AT list\" verb.")
+	var/starting_ats = active_turfs.len
+	sleep(world.tick_lag)
+	var/timer = world.timeofday
 
-		for(var/turf/T in active_turfs)
-			GLOB.active_turfs_startlist += T
+	log_mapping("There are [starting_ats] active turfs at roundstart caused by a difference of the air between the adjacent turfs. \
+	To locate these active turfs, go into the \"Debug\" tab of your stat-panel. Then hit the verb that says \"Mapping Verbs - Enable\". \
+	Now, you can see all of the associated coordinates using \"Mapping -> Show roundstart AT list\" verb.")
 
-		//now lets clear out these active turfs
-		var/list/turfs_to_check = active_turfs.Copy()
-		do
-			var/list/new_turfs_to_check = list()
-			for(var/turf/open/T in turfs_to_check)
-				new_turfs_to_check += T.resolve_active_graph()
-			CHECK_TICK
+	for(var/turf/T in active_turfs)
+		GLOB.active_turfs_startlist += T
 
-			active_turfs += new_turfs_to_check
-			turfs_to_check = new_turfs_to_check
-		while (turfs_to_check.len)
+	//now lets clear out these active turfs
+	var/list/turfs_to_check = active_turfs.Copy()
+	do
+		var/list/new_turfs_to_check = list()
+		for(var/turf/open/T in turfs_to_check)
+			new_turfs_to_check += T.resolve_active_graph()
+		CHECK_TICK
 
-		var/ending_ats = active_turfs.len
-		for(var/thing in excited_groups)
-			var/datum/excited_group/EG = thing
-			EG.self_breakdown(roundstart = TRUE)
-			EG.dismantle()
-			CHECK_TICK
+		active_turfs += new_turfs_to_check
+		turfs_to_check = new_turfs_to_check
+	while (turfs_to_check.len)
 
-		var/msg = "HEY! LISTEN! [DisplayTimeText(world.timeofday - timer, 0.00001)] were wasted processing [starting_ats] turf(s) (connected to [ending_ats - starting_ats] other turfs) with atmos differences at round start."
-		to_chat(world, span_boldannounce("[msg]"))
-		warning(msg)
+	var/ending_ats = active_turfs.len
+	for(var/thing in excited_groups)
+		var/datum/excited_group/EG = thing
+		EG.self_breakdown(roundstart = TRUE)
+		EG.dismantle()
+		CHECK_TICK
+
+	var/time_to_process = world.timeofday - timer
+	var/processing_time_string = DisplayTimeText(time_to_process, 0.000001)
+
+	var/msg = "HEY! LISTEN! [processing_time_string] were wasted processing [starting_ats] turf(s) (connected to [ending_ats - starting_ats] other turfs) with atmos differences at round start."
+	to_chat(world, span_boldannounce("[msg]"))
+	warning(msg)
+
+	if(PERFORM_ALL_TESTS(focus_only/active_turf_cleanup_time) && time_to_process >= (1 SECONDS))
+		var/failure_message = "SSair took up [processing_time_string] to process active turfs, this is a failure condition. Please clean up any altered maps to remove active turfs (instructions in mapping.log)."
+		log_mapping(failure_message)
+		stack_trace(failure_message)
 
 /turf/open/proc/resolve_active_graph()
 	. = list()
