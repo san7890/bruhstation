@@ -68,13 +68,6 @@
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"aI" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "aW" = (
 /obj/structure/window/reinforced,
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -143,15 +136,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"ci" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/item/wallframe/camera,
-/obj/effect/decal/cleanable/robot_debris,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "cl" = (
 /obj/structure/table,
 /obj/structure/window/reinforced{
@@ -160,13 +144,6 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"cm" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "cp" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
 /obj/effect/turf_decal/tile/neutral/half{
@@ -236,15 +213,6 @@
 	icon_state = "asteroid10"
 	},
 /area/ruin/space)
-"dw" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/paper/fluff/ruins/dangerous_research/armstrong_memo_3,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "dy" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
@@ -306,16 +274,6 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"eu" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "ey" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/structure/table,
@@ -324,6 +282,16 @@
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research)
+"eA" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/structure/fluff/paper/stack{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "eQ" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/structure/table,
@@ -359,14 +327,6 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"fm" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/purple,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "fn" = (
 /obj/item/trash/can{
 	pixel_x = -8
@@ -417,16 +377,6 @@
 /obj/item/radio{
 	pixel_x = -8
 	},
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
-"fJ" = (
-/obj/structure/fluff/paper/stack{
-	dir = 9
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/structure/sign/departments/science/directional/north,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
 "fO" = (
@@ -518,13 +468,6 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
-"gR" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "gY" = (
 /obj/structure/flora/grass/brown/style_2,
 /turf/open/misc/sandy_dirt,
@@ -539,6 +482,15 @@
 	dir = 4
 	},
 /area/ruin/space/has_grav/dangerous_research/dorms)
+"hA" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research)
 "hI" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -637,6 +589,13 @@
 	},
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/dangerous_research/lab)
+"iN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "iR" = (
 /obj/structure/table,
 /obj/structure/window/reinforced{
@@ -656,13 +615,6 @@
 	},
 /obj/item/shard,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/dangerous_research/lab)
-"iZ" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
 "jh" = (
 /obj/machinery/door/airlock/external,
@@ -689,6 +641,15 @@
 	dir = 1
 	},
 /area/ruin/space/has_grav/dangerous_research/dorms)
+"jl" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "jm" = (
 /obj/structure/barricade/wooden/crude,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -727,6 +688,16 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
+"jx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "jz" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4
@@ -740,13 +711,6 @@
 /obj/item/card/id/away/dangerous_research/head_occultist,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"jB" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/machinery/computer/terminal/dangerous_research/lab_recording,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "jC" = (
 /obj/machinery/door/airlock{
 	name = "Dorms - Researcher Smith"
@@ -754,17 +718,6 @@
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"jF" = (
-/obj/machinery/light/broken/directional/north,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/item/chair{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "jH" = (
 /obj/effect/turf_decal/stripes/asteroid,
 /turf/open/floor/iron/white,
@@ -776,20 +729,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/corner,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"jL" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/sign/warning/electric_shock/directional/east,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "jO" = (
 /turf/open/misc/asteroid/airless{
 	icon_state = "asteroid9"
 	},
 /area/ruin/space)
+"jQ" = (
+/obj/structure/table,
+/obj/item/folder/white,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "jR" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/has_grav/dangerous_research/maint)
@@ -845,6 +795,13 @@
 /obj/item/reagent_containers/syringe,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
+"kW" = (
+/obj/structure/sign/warning/test_chamber/directional/north,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "kY" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -867,6 +824,23 @@
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research)
+"lG" = (
+/obj/effect/decal/cleanable/blood/bubblegum,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
+"lV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "lX" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -993,6 +967,14 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
+"nK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/paper/stack{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "nS" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/structure/sign/clock/directional/east,
@@ -1120,14 +1102,6 @@
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"pb" = (
-/obj/item/chair,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/burnt_floor,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "pi" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
 	dir = 8
@@ -1142,6 +1116,13 @@
 "pk" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/dangerous_research)
+"pt" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "pu" = (
 /obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
 	dir = 1
@@ -1397,6 +1378,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
+"rp" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research)
 "rq" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/effect/turf_decal/siding/dark{
@@ -1475,16 +1466,6 @@
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"tb" = (
-/obj/effect/turf_decal/stripes/asteroid{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "tf" = (
 /obj/machinery/door/airlock{
 	name = "Dorms - Researcher Armstrong"
@@ -1492,15 +1473,6 @@
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"ti" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/mapping_helpers/burnt_floor,
-/obj/structure/trap/eldritch/tentacle,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "tk" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/machinery/door/airlock{
@@ -1508,14 +1480,6 @@
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"tm" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/purple,
-/obj/structure/fluff/paper/stack{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "tp" = (
 /obj/item/shard,
 /turf/open/floor/iron/white,
@@ -1582,13 +1546,6 @@
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"tI" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/structure/sign/warning/test_chamber/directional/north,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "tK" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -1602,17 +1559,6 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/structure/trap/eldritch/mad,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/dangerous_research/lab)
-"tP" = (
-/obj/effect/turf_decal/stripes/corner{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/mapping_helpers/burnt_floor,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
 "tQ" = (
 /obj/structure/cable,
@@ -1629,6 +1575,15 @@
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
+"tV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/dangerous_research/maint)
 "tX" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
@@ -1799,15 +1754,6 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
-"wC" = (
-/obj/effect/decal/cleanable/blood/bubblegum,
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/mapping_helpers/burnt_floor,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "wJ" = (
 /obj/effect/turf_decal/tile/purple/diagonal_edge,
 /turf/open/floor/iron/diagonal,
@@ -1817,13 +1763,6 @@
 /obj/structure/table,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research)
-"wV" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "xb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1836,14 +1775,6 @@
 /area/ruin/space/has_grav/dangerous_research/maint)
 "xd" = (
 /turf/open/floor/plating/rust,
-/area/ruin/space/has_grav/dangerous_research/medical)
-"xn" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
 "xo" = (
 /obj/effect/turf_decal/stripes/end{
@@ -1864,6 +1795,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
+"xx" = (
+/obj/effect/turf_decal/siding/purple{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research)
 "xB" = (
 /obj/structure/barricade/wooden,
 /obj/structure/extinguisher_cabinet/directional/north,
@@ -1916,16 +1857,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/dangerous_research)
-"yr" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/effect/turf_decal/siding/purple{
-	dir = 10
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
 "yO" = (
 /obj/effect/decal/cleanable/blood/bubblegum,
@@ -1981,15 +1912,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research)
-"zd" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "ze" = (
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 1
@@ -2116,6 +2038,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/dangerous_research/maint)
+"Ar" = (
+/obj/effect/decal/cleanable/blood/bubblegum,
+/obj/item/shard,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "Av" = (
 /obj/effect/turf_decal/siding/purple{
 	dir = 4
@@ -2128,12 +2058,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
-"AH" = (
-/obj/structure/table,
-/obj/effect/turf_decal/tile/purple,
-/obj/item/folder/white,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "AK" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -2202,16 +2126,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/dangerous_research)
-"Bs" = (
-/obj/effect/turf_decal/stripes/corner,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/structure/fluff/paper/stack{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "By" = (
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 8
@@ -2432,6 +2346,14 @@
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
+"DD" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "DL" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -2474,13 +2396,6 @@
 /area/ruin/space)
 "EA" = (
 /turf/open/floor/plating/rust,
-/area/ruin/space/has_grav/dangerous_research/lab)
-"EF" = (
-/obj/effect/turf_decal/tile/purple,
-/obj/item/chair{
-	dir = 1
-	},
-/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
 "ET" = (
 /obj/structure/sink/directional/south,
@@ -2545,16 +2460,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/medical)
-"FG" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/purple,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/item/storage/fancy/candle_box,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "FJ" = (
 /obj/effect/turf_decal/siding/purple,
 /obj/effect/turf_decal/tile/purple/half/contrasted{
@@ -2566,6 +2471,16 @@
 /obj/item/stack/sheet/iron/five,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/dangerous_research/medical)
+"FU" = (
+/obj/effect/turf_decal/stripes/asteroid{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "FZ" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/bubblegum,
@@ -2681,6 +2596,15 @@
 	},
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/dangerous_research/dorms)
+"HA" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/paper/fluff/ruins/dangerous_research/armstrong_memo_3,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "HF" = (
 /obj/structure/chair/comfy{
 	dir = 4
@@ -2692,6 +2616,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
+"HL" = (
+/obj/item/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "HO" = (
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/dangerous_research/maint)
@@ -2773,6 +2704,14 @@
 /obj/effect/spawner/structure/window/reinforced/damaged,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/dangerous_research/medical)
+"Jq" = (
+/obj/item/chair,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "JA" = (
 /obj/effect/turf_decal/stripes/asteroid{
 	dir = 1
@@ -2843,6 +2782,13 @@
 /obj/structure/grille/broken,
 /obj/item/shard,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/dangerous_research/lab)
+"Kz" = (
+/obj/machinery/computer/terminal/dangerous_research/lab_recording,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/lab)
 "KB" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -2994,16 +2940,6 @@
 /obj/effect/spawner/random/vending/snackvend,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
-"MT" = (
-/obj/effect/turf_decal/siding/purple{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research)
 "MU" = (
 /obj/machinery/atmospherics/components/binary/valve/layer4{
 	dir = 4;
@@ -3015,6 +2951,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/dangerous_research/maint)
+"Na" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "Nc" = (
 /obj/machinery/door/airlock/science/glass{
 	name = "Alternate Sciences Research Center"
@@ -3081,14 +3024,6 @@
 /obj/effect/decal/cleanable/blood/bubblegum,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/lab)
-"NV" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/purple,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/lab)
 "NX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/directional/north,
@@ -3120,6 +3055,13 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/showroomfloor,
 /area/ruin/space/has_grav/dangerous_research/dorms)
+"Oh" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "On" = (
 /turf/open/misc/asteroid/airless,
 /area/ruin/space)
@@ -3140,6 +3082,17 @@
 	},
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/dangerous_research)
+"Ou" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "Oy" = (
 /obj/structure/flora/rock/icy/style_random,
 /turf/open/misc/asteroid/airless,
@@ -3160,15 +3113,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/dorms)
-"OK" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/dangerous_research/maint)
 "OL" = (
 /obj/effect/turf_decal/tile/neutral/diagonal_edge,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3229,6 +3173,15 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/dangerous_research/dorms)
+"Ps" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/trap/eldritch/tentacle,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
 "Pu" = (
 /obj/structure/bed,
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
@@ -3549,14 +3502,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/away/science,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
-"SK" = (
-/obj/effect/decal/cleanable/blood/bubblegum,
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/item/shard,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research/medical)
 "SS" = (
 /obj/structure/table,
 /obj/structure/window/reinforced{
@@ -3593,6 +3538,15 @@
 /obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research/dorms)
+"TF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/wallframe/camera,
+/obj/effect/decal/cleanable/robot_debris,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "TH" = (
 /obj/effect/turf_decal/tile/dark_red/half{
 	dir = 1
@@ -3643,6 +3597,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/dangerous_research)
+"Ux" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/fancy/candle_box,
+/obj/effect/turf_decal/tile/purple/opposingcorners,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "UA" = (
 /obj/machinery/door/airlock/science{
 	name = "Living Quarters"
@@ -3783,15 +3744,6 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
-"WG" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/white,
-/area/ruin/space/has_grav/dangerous_research)
 "WQ" = (
 /obj/structure/toilet{
 	pixel_x = 15;
@@ -3863,6 +3815,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/dangerous_research/maint)
+"XF" = (
+/obj/structure/fluff/paper/stack{
+	dir = 9
+	},
+/obj/structure/sign/departments/science/directional/north,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "XI" = (
 /obj/structure/cable,
 /obj/machinery/power/apc/away{
@@ -3939,6 +3901,17 @@
 /obj/structure/closet/l3closet/scientist,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research)
+"YI" = (
+/obj/machinery/light/broken/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/chair{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/lab)
 "YL" = (
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted,
 /obj/structure/closet{
@@ -3982,6 +3955,19 @@
 	element_type = /datum/element/decal/blood;
 	target_type = /obj/item/clothing
 	},
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
+"Zi" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/purple,
+/turf/open/floor/iron/white,
+/area/ruin/space/has_grav/dangerous_research/medical)
+"Zl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sign/warning/electric_shock/directional/east,
+/obj/effect/turf_decal/tile/purple/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/dangerous_research/medical)
 "Zn" = (
@@ -4522,8 +4508,8 @@ Tc
 tq
 La
 Tc
-dw
-Bs
+HA
+eA
 CL
 Ds
 if
@@ -4613,7 +4599,7 @@ rb
 qq
 sa
 Rr
-tb
+FU
 jp
 KU
 Cs
@@ -4648,14 +4634,14 @@ Bg
 Bg
 Bg
 Tc
-jB
+Kz
 qR
 eW
 sj
 Pk
 Bc
 DB
-tb
+FU
 jp
 wh
 LW
@@ -4690,14 +4676,14 @@ Bg
 Bg
 Bg
 Tc
-fJ
+XF
 jH
 BE
 FZ
 kV
 NK
 ou
-tb
+FU
 jp
 jp
 jp
@@ -4732,17 +4718,17 @@ Qv
 Bg
 Bg
 Tc
-ci
+TF
 Gb
 VL
 Ja
 tK
 JS
 oH
-tb
+FU
 cd
-pb
-EF
+Jq
+HL
 Tc
 JW
 Hq
@@ -4774,17 +4760,17 @@ Qv
 CI
 Bg
 Tc
-jF
+YI
 dI
 CD
 oW
 CS
 xq
 Nq
-tP
+Ou
 Fw
-eu
-iZ
+jx
+Na
 Tc
 LZ
 Hq
@@ -4816,22 +4802,22 @@ Qv
 On
 Bg
 Tc
-FG
+Ux
 XX
-AH
-tm
-NV
+jQ
+nK
+DD
 dy
 fi
 nm
 Tc
-tI
-wC
+kW
+lG
 Tc
 Oa
 RW
 RW
-yr
+rp
 Hq
 Hq
 RD
@@ -4910,7 +4896,7 @@ jv
 aZ
 Hj
 xd
-ti
+Ps
 Rf
 os
 cW
@@ -4952,7 +4938,7 @@ tp
 tR
 qM
 kP
-fm
+lV
 Rf
 RB
 sv
@@ -4993,8 +4979,8 @@ kY
 pQ
 uP
 qM
-gR
-cm
+Oh
+Zi
 Rf
 TH
 yl
@@ -5035,14 +5021,14 @@ Ki
 Zn
 IC
 Jh
-wV
+iN
 kz
 Zv
 oJ
 at
 VP
 uR
-MT
+xx
 aa
 HT
 pk
@@ -5078,7 +5064,7 @@ ak
 PO
 pF
 Xy
-xn
+lV
 Zv
 DA
 DA
@@ -5119,8 +5105,8 @@ lX
 Go
 uc
 KB
-SK
-cm
+Ar
+Zi
 Rf
 KM
 yQ
@@ -5203,7 +5189,7 @@ nB
 KT
 gN
 KB
-wV
+iN
 JA
 Rf
 xo
@@ -5245,7 +5231,7 @@ xd
 pP
 qs
 Jh
-aI
+pt
 FA
 df
 jm
@@ -5288,14 +5274,14 @@ pR
 gN
 Lr
 Xy
-cm
+Zi
 Rf
 xB
 SV
 YC
 DA
 wt
-WG
+hA
 tE
 nS
 xS
@@ -5330,7 +5316,7 @@ LC
 bO
 xd
 xd
-xn
+lV
 jR
 jR
 jR
@@ -5372,7 +5358,7 @@ Ba
 un
 Hj
 kA
-cm
+Zi
 jR
 uG
 BG
@@ -5413,8 +5399,8 @@ nZ
 tQ
 ix
 SH
-zd
-cm
+jl
+Zi
 jR
 fT
 zg
@@ -5424,7 +5410,7 @@ tu
 xb
 AQ
 By
-OK
+tV
 xW
 XB
 gl
@@ -5455,7 +5441,7 @@ oa
 YY
 aY
 qM
-jL
+Zl
 Qo
 jR
 js

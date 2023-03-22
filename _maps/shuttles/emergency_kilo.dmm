@@ -391,28 +391,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
-"co" = (
-/obj/structure/rack,
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/item/radio{
-	pixel_x = -6;
-	pixel_y = 6
-	},
-/obj/item/radio{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/radio{
-	pixel_y = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/escape)
 "ct" = (
 /obj/structure/closet/crate/medical,
 /obj/item/storage/medkit/regular,
@@ -831,6 +809,20 @@
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
+"pK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/obj/machinery/keycard_auth/directional/west,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/escape)
 "qe" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -874,20 +866,6 @@
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
 	},
-/turf/open/floor/mineral/plastitanium,
-/area/shuttle/escape)
-"sx" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/obj/structure/chair/comfy/shuttle{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/machinery/light/directional/west,
-/obj/machinery/keycard_auth/directional/west,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
 "sy" = (
@@ -962,6 +940,25 @@
 "BB" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/escape)
+"Cb" = (
+/obj/structure/rack,
+/obj/effect/turf_decal/bot,
+/obj/item/radio{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/radio{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/radio{
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
 "Cc" = (
 /obj/effect/turf_decal/tile/blue/opposingcorners,
@@ -1514,7 +1511,7 @@ cT
 ac
 ae
 oP
-sx
+pK
 qv
 IU
 rl
@@ -1663,7 +1660,7 @@ bu
 pj
 bK
 ac
-co
+Cb
 cz
 as
 ab

@@ -37,6 +37,14 @@
 /obj/effect/holodeck_effect/mobspawner/pet,
 /turf/open/floor/holofloor/grass,
 /area/template_noop)
+"r" = (
+/obj/item/plate,
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/holofloor,
+/area/template_noop)
 "v" = (
 /obj/structure/flora/bush/pale/style_random,
 /turf/open/floor/holofloor/grass,
@@ -70,38 +78,26 @@
 "I" = (
 /turf/open/floor/holofloor/grass,
 /area/template_noop)
+"L" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/holofloor,
+/area/template_noop)
 "M" = (
 /obj/structure/flora/bush/sunny/style_random,
 /turf/open/floor/holofloor/grass,
-/area/template_noop)
-"N" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/holofloor,
 /area/template_noop)
 "R" = (
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/holofloor/grass,
 /area/template_noop)
-"S" = (
-/obj/item/plate,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
+"T" = (
+/obj/effect/holodeck_effect/mobspawner/pet,
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
 	},
 /turf/open/floor/holofloor,
 /area/template_noop)
@@ -110,38 +106,18 @@
 /obj/item/cultivator,
 /turf/open/floor/holofloor/grass,
 /area/template_noop)
-"V" = (
-/obj/item/shovel/spade{
-	pixel_x = 2;
-	pixel_y = -2
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/holofloor,
-/area/template_noop)
 "X" = (
 /obj/item/reagent_containers/cup/watering_can,
 /turf/open/floor/holofloor/grass,
 /area/template_noop)
-"Z" = (
-/obj/effect/holodeck_effect/mobspawner/pet,
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
+"Y" = (
+/obj/item/shovel/spade{
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
 	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
 	},
 /turf/open/floor/holofloor,
 /area/template_noop)
@@ -197,8 +173,8 @@ I
 (5,1,1) = {"
 y
 w
-N
-Z
+L
+T
 D
 M
 X
@@ -209,8 +185,8 @@ f
 (6,1,1) = {"
 I
 I
-S
-V
+r
+Y
 I
 p
 I

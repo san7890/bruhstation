@@ -12,44 +12,10 @@
 /obj/effect/spawner/random/structure/grille,
 /turf/template_noop,
 /area/space/nearstation)
-"l" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/structure/table,
-/obj/item/storage/box/donkpockets{
-	pixel_x = 3;
-	pixel_y = 5
-	},
-/obj/item/storage/box/donkpockets,
-/turf/open/floor/iron,
-/area/ruin/space/djstation)
-"n" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
-/area/ruin/space/djstation)
-"o" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/structure/table,
-/obj/machinery/cell_charger,
-/turf/open/floor/iron,
-/area/ruin/space/djstation)
-"u" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
+"s" = (
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal/bin,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/djstation)
 "x" = (
@@ -62,6 +28,22 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/djstation)
+"z" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/storage/box/donkpockets,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/ruin/space/djstation)
+"C" = (
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/ruin/space/djstation)
 "D" = (
 /obj/structure/disposalpipe/segment{
 	dir = 9
@@ -69,6 +51,24 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/space/nearstation)
+"E" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/ruin/space/djstation)
+"H" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/ruin/space/djstation)
+"I" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/ruin/space/djstation)
 "J" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Kitchen"
@@ -89,13 +89,6 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-"P" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/turf/open/floor/iron,
-/area/ruin/space/djstation)
 "S" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
@@ -104,17 +97,6 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/space/nearstation)
-"W" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 8
-	},
-/turf/open/floor/iron,
-/area/ruin/space/djstation)
 
 (1,1,1) = {"
 e
@@ -156,9 +138,9 @@ a
 e
 a
 L
-l
-P
-u
+z
+H
+s
 S
 D
 e
@@ -168,9 +150,9 @@ a
 a
 a
 L
-W
-P
-n
+I
+H
+E
 L
 V
 b
@@ -180,9 +162,9 @@ e
 a
 a
 L
-o
-P
-P
+C
+H
+H
 L
 a
 V

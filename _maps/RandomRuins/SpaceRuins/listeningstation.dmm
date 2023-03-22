@@ -14,18 +14,6 @@
 /obj/structure/closet/crate/secure/freezer/commsagent,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/listeningstation)
-"ae" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/item/wallframe/button{
-	pixel_x = 7;
-	pixel_y = -7;
-	name = "Busted Button";
-	desc = "Someone appears to have broken this button off it's frame. Not likely to be useful where you found it."
-	},
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/listeningstation)
 "ap" = (
 /obj/structure/marker_beacon/cerulean,
 /obj/structure/sign/nanotrasen{
@@ -507,6 +495,18 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/listeningstation)
+"AK" = (
+/obj/item/wallframe/button{
+	pixel_x = 7;
+	pixel_y = -7;
+	name = "Busted Button";
+	desc = "Someone appears to have broken this button off it's frame. Not likely to be useful where you found it."
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/listeningstation)
 "AP" = (
@@ -1335,7 +1335,7 @@ vI
 vI
 vI
 JB
-ae
+AK
 UI
 UI
 nG

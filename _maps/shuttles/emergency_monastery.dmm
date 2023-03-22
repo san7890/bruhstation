@@ -331,14 +331,6 @@
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
-"eM" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "eQ" = (
 /turf/open/floor/carpet,
 /area/shuttle/escape)
@@ -348,18 +340,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"eW" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -549,21 +529,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/closed/mineral,
 /area/shuttle/escape)
-"ig" = (
-/obj/machinery/light/small/directional/west,
-/obj/machinery/door/window/right/directional/north{
-	base_state = "left";
-	dir = 2;
-	icon_state = "left";
-	name = "Curator Desk Door";
-	req_access = list("library")
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "it" = (
 /obj/structure/flora/bush/flowers_yw/style_random,
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -588,6 +553,12 @@
 /obj/structure/table/wood,
 /obj/structure/sign/poster/official/soft_cap_pop_art{
 	pixel_y = 32
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"iF" = (
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
@@ -1101,14 +1072,6 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/carpet/black,
 /area/shuttle/escape)
-"pw" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "pB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
@@ -1130,6 +1093,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"pM" = (
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "pO" = (
@@ -1208,17 +1177,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"qJ" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "qT" = (
@@ -1380,22 +1338,17 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
-"sT" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
 "td" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"ti" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "tm" = (
@@ -1434,6 +1387,15 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"ud" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "un" = (
 /obj/effect/turf_decal/sand,
 /obj/structure/cable,
@@ -1447,15 +1409,6 @@
 "ux" = (
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/black,
-/area/shuttle/escape)
-"uC" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "uO" = (
 /obj/structure/chair/wood{
@@ -1805,6 +1758,13 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/floor/grass,
 /area/shuttle/escape)
+"zC" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "zE" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -2014,6 +1974,14 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"Cc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow,
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "Cg" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /obj/machinery/light/small/directional/south,
@@ -2089,6 +2057,20 @@
 /obj/item/soap/nanotrasen,
 /obj/structure/sign/poster/official/fruit_bowl{
 	pixel_y = 32
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"Dp" = (
+/obj/machinery/light/small/directional/west,
+/obj/machinery/door/window/right/directional/north{
+	base_state = "left";
+	dir = 2;
+	icon_state = "left";
+	name = "Curator Desk Door";
+	req_access = list("library")
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
@@ -2303,6 +2285,13 @@
 /obj/structure/flora/bush/flowers_br/style_random,
 /turf/open/floor/grass,
 /area/shuttle/escape)
+"FL" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "FO" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Chapel Office"
@@ -2472,6 +2461,14 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
+"Iy" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -2675,6 +2672,18 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"KJ" = (
+/obj/machinery/light/small/directional/east,
+/obj/machinery/door/window/right/directional/north{
+	dir = 2;
+	name = "Curator Desk Door";
+	req_access = list("library")
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "KK" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/sign/painting/library{
@@ -2822,6 +2831,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
+"MS" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/escape)
 "MX" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
@@ -2930,18 +2945,6 @@
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"Og" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "Oi" = (
@@ -3148,15 +3151,6 @@
 "QG" = (
 /obj/structure/reagent_dispensers/watertank/high,
 /turf/open/floor/iron,
-/area/shuttle/escape)
-"QH" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "QS" = (
 /obj/machinery/airalarm/directional/north,
@@ -3412,19 +3406,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/escape)
-"Tb" = (
-/obj/machinery/light/small/directional/east,
-/obj/machinery/door/window/right/directional/north{
-	dir = 2;
-	name = "Curator Desk Door";
-	req_access = list("library")
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
@@ -3883,16 +3864,6 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/grass,
-/area/shuttle/escape)
-"YE" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "YO" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -4433,9 +4404,9 @@ lP
 nr
 oI
 zb
-YE
+pM
 BG
-eW
+iF
 rX
 eQ
 xB
@@ -4515,9 +4486,9 @@ nb
 nr
 rw
 zb
-YE
+pM
 BG
-eW
+iF
 rX
 eQ
 yr
@@ -4596,10 +4567,10 @@ yu
 oz
 nt
 Hc
-eM
-Og
+ti
+Iy
 sK
-eW
+iF
 rX
 eQ
 eA
@@ -4678,11 +4649,11 @@ jx
 UK
 nr
 iJ
-pw
-qJ
+Cc
+FL
 XY
-sT
-uC
+zC
+ud
 vW
 nr
 nr
@@ -4761,9 +4732,9 @@ nr
 nr
 nr
 Jy
-YE
+pM
 Br
-eW
+iF
 vk
 nr
 nr
@@ -4843,9 +4814,9 @@ nr
 lE
 du
 jx
-YE
+pM
 Br
-eW
+iF
 Xb
 nr
 Ho
@@ -5951,8 +5922,8 @@ Om
 ar
 TR
 jx
-ig
-QH
+Dp
+MS
 zE
 nr
 JG
@@ -6525,8 +6496,8 @@ SJ
 kt
 UK
 jx
-Tb
-QH
+KJ
+MS
 zE
 nr
 PB

@@ -114,38 +114,11 @@
 /obj/machinery/light/broken/directional/south,
 /turf/open/floor/iron/airless,
 /area/ruin/space/has_grav)
-"aD" = (
-/obj/item/stack/sheet/iron,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/broken_floor,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
 "aE" = (
 /obj/structure/door_assembly/door_assembly_mhatch{
 	name = "broken airlock"
 	},
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
-"aF" = (
-/obj/machinery/door/airlock/public/glass,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/ruin/space/has_grav)
-"aG" = (
-/obj/structure/door_assembly/door_assembly_public{
-	name = "broken airlock"
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
 /area/ruin/space/has_grav)
 "aH" = (
 /turf/open/floor/plating/airless,
@@ -169,29 +142,6 @@
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/open/floor/iron/cafeteria/airless,
 /area/ruin/space/has_grav)
-"aM" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/ruin/space/has_grav)
-"aN" = (
-/obj/item/plate,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/ruin/space/has_grav)
-"aO" = (
-/obj/item/chair,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/ruin/space/has_grav)
 "aP" = (
 /obj/machinery/light/broken/directional/north,
 /obj/effect/mapping_helpers/broken_floor,
@@ -208,14 +158,6 @@
 /obj/structure/table_frame,
 /turf/open/floor/iron/cafeteria/airless,
 /area/ruin/space/has_grav)
-"aT" = (
-/obj/item/kitchen/fork,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/ruin/space/has_grav)
 "aU" = (
 /obj/structure/table/wood,
 /obj/item/shard,
@@ -231,14 +173,6 @@
 "aW" = (
 /obj/structure/table,
 /turf/open/floor/iron/cafeteria/airless,
-/area/ruin/space/has_grav)
-"aX" = (
-/obj/item/chair/stool/bar,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
 /area/ruin/space/has_grav)
 "aY" = (
 /obj/structure/lattice,
@@ -262,14 +196,6 @@
 /obj/structure/table,
 /obj/item/shard,
 /turf/open/floor/iron/cafeteria/airless,
-/area/ruin/space/has_grav)
-"bd" = (
-/obj/structure/chair/stool/bar/directional/west,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
 /area/ruin/space/has_grav)
 "bg" = (
 /obj/item/stack/sheet/iron,
@@ -433,6 +359,53 @@
 	name = "broken plating"
 	},
 /turf/template_noop,
+/area/ruin/space/has_grav)
+"la" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"zi" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"DK" = (
+/obj/item/plate,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"LB" = (
+/obj/item/kitchen/fork,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"LU" = (
+/obj/structure/chair/stool/bar/directional/west,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"MB" = (
+/obj/item/chair,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"SV" = (
+/obj/structure/door_assembly/door_assembly_public{
+	name = "broken airlock"
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
+/area/ruin/space/has_grav)
+"YR" = (
+/obj/item/stack/sheet/iron,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav)
+"ZI" = (
+/obj/item/chair/stool/bar,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron/airless,
 /area/ruin/space/has_grav)
 
 (1,1,1) = {"
@@ -745,13 +718,13 @@ ag
 ag
 ag
 ai
-aM
-aM
-aX
-bd
-aM
-aX
-aM
+zi
+zi
+ZI
+LU
+zi
+ZI
+zi
 ai
 ac
 ac
@@ -767,12 +740,12 @@ ai
 ag
 ag
 ag
-aF
-aN
-aT
+la
+DK
+LB
 ah
-aM
-aT
+zi
+LB
 bg
 ah
 ai
@@ -790,8 +763,8 @@ ai
 ag
 ag
 ag
-aG
-aO
+SV
+MB
 bI
 ac
 ah
@@ -814,7 +787,7 @@ ag
 ag
 ag
 ai
-aM
+zi
 aU
 aB
 ah
@@ -837,7 +810,7 @@ ag
 ag
 aC
 ai
-aM
+zi
 ah
 ah
 ah
@@ -885,7 +858,7 @@ ag
 ai
 ah
 aV
-aD
+YR
 ah
 ac
 ac

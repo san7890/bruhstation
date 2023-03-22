@@ -10,16 +10,6 @@
 "bS" = (
 /turf/open/floor/carpet/airless,
 /area/ruin/space/has_grav)
-"bU" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/iron/white/airless,
-/area/ruin/space/has_grav)
 "cD" = (
 /obj/structure/lattice,
 /obj/structure/door_assembly/door_assembly_med,
@@ -89,12 +79,14 @@
 /obj/item/stack/rods,
 /turf/template_noop,
 /area/template_noop)
-"iB" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
+"iC" = (
+/obj/machinery/light/broken/directional/west,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
 	},
-/obj/item/shard,
-/turf/open/floor/iron/white/airless,
+/turf/open/floor/iron/white/corner/airless{
+	dir = 8
+	},
 /area/ruin/space/has_grav)
 "jk" = (
 /obj/effect/turf_decal/tile/blue{
@@ -118,6 +110,12 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
+"mU" = (
+/obj/effect/turf_decal/tile/yellow/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/white/airless,
+/area/ruin/space/has_grav)
 "nf" = (
 /turf/open/floor/iron/airless,
 /area/ruin/space/has_grav)
@@ -125,16 +123,6 @@
 /obj/item/stack/tile/iron,
 /turf/template_noop,
 /area/template_noop)
-"oy" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/structure/table_frame,
-/turf/open/floor/iron/checker/airless,
-/area/ruin/space/has_grav)
 "oP" = (
 /obj/structure/lattice,
 /obj/item/stack/sheet/iron,
@@ -176,6 +164,13 @@
 "rN" = (
 /obj/structure/girder/displaced,
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav)
+"sr" = (
+/obj/structure/table_frame,
+/obj/effect/turf_decal/tile/yellow/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/checker/airless,
 /area/ruin/space/has_grav)
 "tj" = (
 /obj/item/shard,
@@ -256,15 +251,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/white/airless,
-/area/ruin/space/has_grav)
-"Cc" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/machinery/light/broken/directional/west,
-/turf/open/floor/iron/white/corner/airless{
-	dir = 8
-	},
 /area/ruin/space/has_grav)
 "Cg" = (
 /obj/machinery/door/firedoor/closed,
@@ -464,15 +450,6 @@
 /obj/structure/chair/comfy/beige,
 /turf/open/floor/carpet/airless,
 /area/ruin/space/has_grav)
-"Si" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/iron/white/corner/airless{
-	dir = 8
-	},
-/area/ruin/space/has_grav)
 "Sz" = (
 /obj/item/wallframe/firealarm,
 /obj/effect/mapping_helpers/broken_floor,
@@ -502,6 +479,15 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav)
+"VB" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/turf/open/floor/iron/white/corner/airless{
+	dir = 8
+	},
+/area/ruin/space/has_grav)
 "We" = (
 /obj/structure/lattice,
 /obj/item/light/tube/broken,
@@ -527,6 +513,13 @@
 /obj/item/stack/rods,
 /turf/template_noop,
 /area/template_noop)
+"Yw" = (
+/obj/item/shard,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 4
+	},
+/turf/open/floor/iron/white/airless,
+/area/ruin/space/has_grav)
 "YX" = (
 /obj/structure/lattice,
 /obj/effect/decal/cleanable/glass,
@@ -584,13 +577,13 @@ eP
 nf
 nf
 Qy
-Si
+VB
 uB
 jk
 hf
 dy
 jk
-Cc
+iC
 dy
 "}
 (5,1,1) = {"
@@ -836,8 +829,8 @@ DY
 (21,1,1) = {"
 DY
 CT
-oy
-iB
+sr
+Yw
 Lc
 Ke
 CT
@@ -852,7 +845,7 @@ DY
 Pi
 tj
 IE
-bU
+mU
 bp
 CT
 hf

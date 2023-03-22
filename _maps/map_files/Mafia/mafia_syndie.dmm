@@ -60,19 +60,6 @@
 /obj/effect/landmark/mafia,
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/mafia)
-"o" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/centcom/mafia)
 "p" = (
 /obj/machinery/door/poddoor/preopen{
 	desc = "When it's time to sleep, the lights will go out. Remember - no one in space can hear you scream.";
@@ -81,23 +68,6 @@
 	name = "Station Night Shutters"
 	},
 /turf/closed/indestructible/opsglass,
-/area/centcom/mafia)
-"q" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/structure/chair/office{
-	dir = 1;
-	name = "tactical swivel chair"
-	},
-/turf/open/floor/iron/dark,
 /area/centcom/mafia)
 "r" = (
 /turf/open/floor/mineral/plastitanium,
@@ -122,44 +92,11 @@
 "w" = (
 /turf/closed/indestructible/syndicate,
 /area/centcom/mafia)
-"x" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/structure/chair/office{
-	dir = 4;
-	name = "tactical swivel chair"
-	},
-/turf/open/floor/iron/dark,
-/area/centcom/mafia)
 "y" = (
 /obj/structure/chair/office{
 	name = "tactical swivel chair"
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/centcom/mafia)
-"z" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/structure/chair/office{
-	name = "tactical swivel chair"
-	},
-/turf/open/floor/iron/dark,
 /area/centcom/mafia)
 "A" = (
 /obj/structure/chair/office{
@@ -175,21 +112,12 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/mafia)
-"C" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
+"D" = (
 /obj/structure/chair/office{
 	dir = 8;
 	name = "tactical swivel chair"
 	},
+/obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/mafia)
 "E" = (
@@ -199,56 +127,46 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/mafia)
-"F" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+"N" = (
+/obj/structure/chair/office{
+	name = "tactical swivel chair"
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/structure/closet/syndicate{
-	desc = "A storage closet for syndicate conflict resolution operatives.";
-	name = "red closet"
-	},
-/obj/item/clothing/under/syndicate/tacticool,
-/obj/item/clothing/under/syndicate/tacticool/skirt,
+/obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/mafia)
-"G" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
+"Q" = (
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/mafia)
+"R" = (
 /obj/item/clothing/under/syndicate/tacticool,
 /obj/structure/closet/syndicate{
 	desc = "A storage closet for syndicate conflict resolution operatives.";
 	name = "red closet"
 	},
 /obj/item/clothing/under/syndicate/tacticool/skirt,
+/obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/mafia)
-"H" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+"T" = (
+/obj/structure/chair/office{
+	dir = 4;
+	name = "tactical swivel chair"
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/mafia)
+"Y" = (
+/obj/structure/chair/office{
+	dir = 1;
+	name = "tactical swivel chair"
 	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/iron/dark,
+/area/centcom/mafia)
+"Z" = (
 /obj/effect/landmark/mafia,
+/obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/mafia)
 
@@ -390,8 +308,8 @@ w
 b
 r
 w
-o
-F
+Q
+m
 w
 j
 w
@@ -410,13 +328,13 @@ c
 d
 w
 m
-o
+Q
 p
 n
 r
 p
-o
-H
+Q
+Z
 p
 r
 b
@@ -434,13 +352,13 @@ c
 d
 d
 w
-H
-o
+Z
+Q
 w
 w
 r
 w
-o
+Q
 w
 w
 r
@@ -460,12 +378,12 @@ d
 w
 w
 p
-o
-x
+Q
+T
 p
 B
 p
-x
+T
 p
 B
 r
@@ -517,10 +435,10 @@ s
 t
 s
 p
-q
-o
-o
-H
+Y
+Q
+Q
+Z
 j
 i
 c
@@ -558,10 +476,10 @@ w
 c
 d
 j
-H
-o
-o
-z
+Z
+Q
+Q
+N
 p
 s
 t
@@ -613,12 +531,12 @@ p
 r
 A
 p
-C
+D
 p
 A
 p
-C
-o
+D
+Q
 p
 w
 w
@@ -638,13 +556,13 @@ n
 r
 w
 w
-o
+Q
 w
 r
 w
 w
-o
-H
+Q
+Z
 w
 d
 d
@@ -662,14 +580,14 @@ w
 b
 r
 p
-H
-o
+Z
+Q
 p
 r
 n
 p
-o
-G
+Q
+R
 w
 d
 c
@@ -687,8 +605,8 @@ w
 w
 j
 w
-F
-o
+m
+Q
 w
 r
 b

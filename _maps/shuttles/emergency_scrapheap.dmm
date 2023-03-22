@@ -107,23 +107,6 @@
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape/brig)
-"au" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/machinery/flasher/directional/north{
-	id = "cockpit_flasher"
-	},
-/turf/open/floor/iron,
-/area/shuttle/escape)
-"av" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/shuttle/escape)
 "aw" = (
 /turf/open/floor/mineral/titanium,
 /area/shuttle/escape)
@@ -292,26 +275,6 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/escape)
-"ba" = (
-/obj/structure/extinguisher_cabinet/directional/south,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/shuttle/escape)
-"bb" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/barricade/wooden,
-/obj/machinery/light/directional/south,
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/shuttle/escape)
 "bd" = (
 /obj/machinery/door/airlock{
 	name = "Unisex Restrooms"
@@ -389,12 +352,34 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/escape)
-"Fs" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
+"dt" = (
+/obj/structure/extinguisher_cabinet/directional/south,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"nB" = (
+/obj/machinery/flasher/directional/north{
+	id = "cockpit_flasher"
 	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"qV" = (
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"rs" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/barricade/wooden,
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
+/turf/open/floor/iron,
+/area/shuttle/escape)
+"SM" = (
 /obj/machinery/status_display/evac/directional/south,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 
@@ -438,7 +423,7 @@ aG
 aw
 aR
 aX
-av
+qV
 ab
 be
 bg
@@ -462,7 +447,7 @@ aN
 aP
 aS
 aY
-ba
+dt
 ab
 be
 ab
@@ -486,7 +471,7 @@ aO
 aQ
 aO
 aY
-av
+qV
 ab
 bf
 bh
@@ -510,7 +495,7 @@ aG
 aw
 aL
 ac
-Fs
+SM
 ab
 be
 ab
@@ -524,7 +509,7 @@ ag
 ak
 ao
 ab
-au
+nB
 aA
 aF
 aw
@@ -534,7 +519,7 @@ aw
 aw
 aL
 ac
-av
+qV
 bd
 be
 bi
@@ -548,7 +533,7 @@ af
 ak
 ap
 ar
-av
+qV
 ac
 aG
 aw
@@ -558,7 +543,7 @@ aG
 aw
 aL
 ac
-bb
+rs
 ad
 ab
 ab

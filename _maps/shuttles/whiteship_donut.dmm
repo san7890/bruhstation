@@ -290,18 +290,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned)
-"aY" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/stack/sheet/iron,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/machinery/power/port_gen/pacman,
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
 "aZ" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -332,14 +320,6 @@
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/iron/airless,
 /area/shuttle/abandoned)
-"bd" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
 "be" = (
 /obj/machinery/power/shuttle_engine/propulsion/left,
 /turf/open/floor/plating/airless,
@@ -347,30 +327,6 @@
 "bf" = (
 /obj/machinery/power/shuttle_engine/propulsion/right,
 /turf/open/floor/plating/airless,
-/area/shuttle/abandoned)
-"bg" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/light/directional/west,
-/obj/item/folder/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
-"bh" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/light/directional/east,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/cell_charger,
-/turf/open/floor/iron/airless,
 /area/shuttle/abandoned)
 "bi" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -392,21 +348,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned)
-"bl" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/paper_bin{
-	total_paper = 20
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
 "bm" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/fluff/paper/stack{
@@ -423,67 +364,9 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron/airless,
 /area/shuttle/abandoned)
-"bo" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
-"bp" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
 "bq" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
-/area/shuttle/abandoned)
-"br" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/disk/holodisk/donutstation/whiteship,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
-"bs" = (
-/obj/machinery/computer/shuttle/white_ship/bridge{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/iron/airless,
-/area/shuttle/abandoned)
-"bt" = (
-/obj/machinery/computer/crew{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/iron/airless,
 /area/shuttle/abandoned)
 "bu" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -495,6 +378,45 @@
 /obj/effect/decal/cleanable/shreds,
 /obj/item/storage/medkit/ancient,
 /turf/open/floor/plating/airless,
+/area/shuttle/abandoned)
+"qS" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/paper_bin{
+	total_paper = 20
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
+"ss" = (
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
+"sz" = (
+/obj/machinery/computer/shuttle/white_ship/bridge{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
+"tk" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/airless,
 /area/shuttle/abandoned)
 "tT" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -508,6 +430,24 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned)
+"xu" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/east,
+/obj/machinery/cell_charger,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
+"yp" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/directional/west,
+/obj/item/folder/blue,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
 "CQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/stack/sheet/mineral/plasma{
@@ -515,12 +455,45 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/abandoned)
+"FB" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
 "Ib" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/suit/space/eva,
 /obj/item/clothing/head/helmet/space/eva,
 /obj/item/clothing/mask/breath,
 /turf/open/floor/plating/airless,
+/area/shuttle/abandoned)
+"Rs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
+"WL" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/whiteship{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/disk/holodisk/donutstation/whiteship,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/airless,
+/area/shuttle/abandoned)
+"Xm" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/stack/sheet/iron,
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/airless,
 /area/shuttle/abandoned)
 
 (1,1,1) = {"
@@ -552,7 +525,7 @@ ac
 ab
 ab
 ac
-aY
+Xm
 aC
 ac
 aK
@@ -573,7 +546,7 @@ ar
 ab
 av
 ay
-bd
+Rs
 aF
 aL
 aR
@@ -638,8 +611,8 @@ ai
 pe
 ao
 ab
-bg
-bl
+yp
+qS
 ab
 ab
 "}
@@ -660,7 +633,7 @@ ap
 ac
 aZ
 bm
-bp
+tk
 bq
 "}
 (8,1,1) = {"
@@ -680,7 +653,7 @@ ag
 ak
 ba
 bi
-br
+WL
 bq
 "}
 (9,1,1) = {"
@@ -700,7 +673,7 @@ al
 aW
 bu
 bj
-bs
+sz
 bq
 "}
 (10,1,1) = {"
@@ -720,7 +693,7 @@ al
 ac
 bb
 bk
-bt
+ss
 bq
 "}
 (11,1,1) = {"
@@ -740,7 +713,7 @@ ag
 ab
 bc
 bn
-bo
+FB
 bq
 "}
 (12,1,1) = {"
@@ -758,8 +731,8 @@ ag
 ag
 tT
 ab
-bh
-bo
+xu
+FB
 ab
 ab
 "}

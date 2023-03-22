@@ -2,6 +2,18 @@
 "a" = (
 /turf/open/floor/holofloor/plating,
 /area/template_noop)
+"b" = (
+/obj/structure/table,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/folder,
+/obj/item/pen/red,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/holofloor,
+/area/template_noop)
 "c" = (
 /obj/machinery/button/massdriver/indestructible{
 	id = "trektorpedo1";
@@ -32,6 +44,19 @@
 	},
 /turf/open/floor/holofloor/plating,
 /area/template_noop)
+"h" = (
+/obj/structure/rack,
+/obj/item/clothing/under/trek/medsci,
+/obj/item/clothing/under/trek/medsci,
+/obj/item/clothing/under/trek/command,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/holofloor,
+/area/template_noop)
 "j" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -51,14 +76,8 @@
 	},
 /turf/open/floor/holofloor/plating,
 /area/template_noop)
-"m" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
+"n" = (
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
 /turf/open/floor/holofloor,
@@ -76,16 +95,22 @@
 /obj/machinery/computer/arcade/orion_trail/kobayashi,
 /turf/open/floor/holofloor/plating,
 /area/template_noop)
+"q" = (
+/obj/structure/rack,
+/obj/item/clothing/under/trek/engsec,
+/obj/item/clothing/under/trek/engsec,
+/obj/structure/window/reinforced{
+	dir = 4;
+	layer = 2.9
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/holofloor,
+/area/template_noop)
 "r" = (
 /obj/structure/table,
 /turf/open/floor/holofloor/plating,
-/area/template_noop)
-"s" = (
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/holofloor,
 /area/template_noop)
 "t" = (
 /obj/structure/table/glass,
@@ -96,17 +121,11 @@
 /obj/machinery/recharger,
 /turf/open/floor/holofloor/plating,
 /area/template_noop)
-"w" = (
+"u" = (
 /obj/structure/table,
 /obj/item/folder,
-/obj/item/pen/blue,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/item/pen,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
 /turf/open/floor/holofloor,
@@ -148,41 +167,12 @@
 	},
 /turf/open/floor/holofloor,
 /area/template_noop)
-"F" = (
-/obj/structure/rack,
-/obj/item/clothing/under/trek/engsec,
-/obj/item/clothing/under/trek/engsec,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	layer = 2.9
-	},
-/turf/open/floor/holofloor,
-/area/template_noop)
 "H" = (
 /obj/machinery/door/window/left/directional/west{
 	dir = 2;
 	icon_state = "right"
 	},
 /turf/open/floor/holofloor/plating,
-/area/template_noop)
-"J" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	layer = 2.9
-	},
-/turf/open/floor/holofloor,
 /area/template_noop)
 "L" = (
 /obj/structure/table/glass,
@@ -192,34 +182,34 @@
 	},
 /turf/open/floor/holofloor/plating,
 /area/template_noop)
-"Q" = (
-/obj/structure/table,
+"M" = (
 /obj/structure/window/reinforced{
-	dir = 4
+	dir = 4;
+	layer = 2.9
 	},
-/obj/item/folder,
-/obj/item/pen/red,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 4
 	},
 /turf/open/floor/holofloor,
 /area/template_noop)
-"T" = (
-/obj/structure/rack,
-/obj/item/clothing/under/trek/medsci,
-/obj/item/clothing/under/trek/medsci,
-/obj/item/clothing/under/trek/command,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
+"N" = (
+/obj/structure/table,
+/obj/item/folder,
+/obj/item/pen/blue,
 /obj/structure/window/reinforced{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/holofloor,
+/area/template_noop)
+"R" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 4
 	},
 /turf/open/floor/holofloor,
 /area/template_noop)
@@ -243,18 +233,6 @@
 	dir = 4
 	},
 /turf/open/floor/holofloor/plating,
-/area/template_noop)
-"Z" = (
-/obj/structure/table,
-/obj/item/folder,
-/obj/item/pen,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/turf/open/floor/holofloor,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -290,8 +268,8 @@ a
 a
 a
 H
-m
-T
+R
+h
 "}
 (4,1,1) = {"
 B
@@ -301,9 +279,9 @@ a
 a
 a
 A
-w
+N
 E
-s
+n
 "}
 (5,1,1) = {"
 B
@@ -313,9 +291,9 @@ a
 a
 o
 A
-Z
+u
 E
-s
+n
 "}
 (6,1,1) = {"
 B
@@ -325,9 +303,9 @@ a
 a
 r
 A
-Q
+b
 E
-s
+n
 "}
 (7,1,1) = {"
 y
@@ -338,8 +316,8 @@ a
 a
 a
 f
-J
-F
+M
+q
 "}
 (8,1,1) = {"
 y

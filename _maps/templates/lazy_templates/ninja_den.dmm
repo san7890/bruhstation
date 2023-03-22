@@ -180,17 +180,6 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/centcom/central_command_areas/holding)
-"fV" = (
-/obj/effect/turf_decal/tile/dark,
-/obj/effect/turf_decal/tile/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
-/turf/open/floor/iron/sepia,
-/area/centcom/central_command_areas/holding)
 "ga" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/toy/mecha/phazon,
@@ -498,6 +487,14 @@
 /area/centcom/central_command_areas/holding)
 "mj" = (
 /obj/effect/turf_decal/siding/wood,
+/turf/open/floor/iron/sepia,
+/area/centcom/central_command_areas/holding)
+"mp" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/item/kirbyplants{
+	icon_state = "plant-10"
+	},
+/obj/effect/turf_decal/tile/dark/opposingcorners,
 /turf/open/floor/iron/sepia,
 /area/centcom/central_command_areas/holding)
 "mw" = (
@@ -1271,6 +1268,11 @@
 /turf/open/floor/bamboo/tatami{
 	dir = 4
 	},
+/area/centcom/central_command_areas/holding)
+"EX" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/tile/dark/opposingcorners,
+/turf/open/floor/iron/sepia,
 /area/centcom/central_command_areas/holding)
 "FE" = (
 /turf/open/floor/catwalk_floor,
@@ -2107,14 +2109,6 @@
 /turf/open/misc/ashplanet/wateryrock{
 	initial_gas_mix = "o2=22;n2=82;TEMP=293.15"
 	},
-/area/centcom/central_command_areas/holding)
-"Xt" = (
-/obj/effect/turf_decal/tile/dark,
-/obj/effect/turf_decal/tile/dark{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/sepia,
 /area/centcom/central_command_areas/holding)
 "XL" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -3112,7 +3106,7 @@ LK
 lh
 qx
 dg
-fV
+mp
 mw
 mw
 Yl
@@ -3149,7 +3143,7 @@ LK
 lh
 jv
 Tv
-Xt
+EX
 uw
 mw
 Ey
@@ -3186,7 +3180,7 @@ LK
 os
 sc
 dg
-fV
+mp
 mw
 mw
 AT

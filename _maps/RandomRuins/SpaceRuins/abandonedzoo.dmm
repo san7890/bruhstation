@@ -41,24 +41,6 @@
 /obj/structure/flora/bush/flowers_pp/style_random,
 /turf/open/floor/grass,
 /area/ruin/space/has_grav/abandonedzoo)
-"aD" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "Bio Containment"
-	},
-/obj/effect/mapping_helpers/airlock/access/all/science/research,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/abandonedzoo)
 "aG" = (
 /obj/structure/table/reinforced,
 /obj/item/gun/energy/floragun,
@@ -78,20 +60,6 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-"aL" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/abandonedzoo)
 "aN" = (
 /obj/structure/table/reinforced,
 /obj/item/folder,
@@ -318,6 +286,15 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
+"fk" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Bio Containment"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/science/research,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/abandonedzoo)
 "gE" = (
 /mob/living/simple_animal/hostile/bee,
 /turf/open/floor/grass,
@@ -335,48 +312,18 @@
 /obj/machinery/power/shieldwallgen/unlocked/anchored,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/abandonedzoo)
+"iT" = (
+/obj/machinery/light/small/directional/east,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/abandonedzoo)
 "iX" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Bio-Research Station"
 	},
 /obj/effect/turf_decal/tile/green/fourcorners,
 /obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/abandonedzoo)
-"iZ" = (
-/obj/machinery/light/small/directional/west,
-/obj/item/stack/cable_coil/cut,
-/obj/item/stack/tile/iron/base{
-	pixel_x = 3;
-	pixel_y = -4
-	},
-/obj/item/wirecutters,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/abandonedzoo)
-"kp" = (
-/obj/machinery/light/small/directional/west,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
 "kF" = (
@@ -411,6 +358,12 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/abandonedzoo)
+"rE" = (
+/obj/machinery/light/small/directional/west,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/abandonedzoo)
 "sT" = (
 /obj/structure/cable,
 /obj/machinery/power/shieldwallgen/unlocked/anchored,
@@ -429,24 +382,14 @@
 	},
 /turf/open/misc/asteroid,
 /area/ruin/space/has_grav/abandonedzoo)
-"wc" = (
-/obj/machinery/light/small/directional/east,
-/obj/structure/cable,
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/abandonedzoo)
 "Ap" = (
 /obj/structure/flora/rock/style_random,
 /turf/open/misc/asteroid,
+/area/ruin/space/has_grav/abandonedzoo)
+"AJ" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
 "Ct" = (
 /obj/structure/table/reinforced,
@@ -551,6 +494,18 @@
 /obj/effect/turf_decal/tile/green/fourcorners,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/abandonedzoo)
+"WN" = (
+/obj/machinery/light/small/directional/west,
+/obj/item/stack/cable_coil/cut,
+/obj/item/stack/tile/iron/base{
+	pixel_x = 3;
+	pixel_y = -4
+	},
+/obj/item/wirecutters,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/fourcorners,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/abandonedzoo)
 "WV" = (
 /mob/living/simple_animal/hostile/asteroid/basilisk,
 /turf/open/misc/asteroid,
@@ -627,14 +582,14 @@ ah
 vU
 Ua
 Ua
-aD
-aL
-wc
-aL
-aL
-wc
-aL
-aD
+fk
+AJ
+iT
+AJ
+AJ
+iT
+AJ
+fk
 bv
 bv
 bJ
@@ -900,14 +855,14 @@ gE
 aq
 nY
 Mb
-aD
-aL
-kp
-aL
-aL
-iZ
-aL
-aD
+fk
+AJ
+rE
+AJ
+AJ
+WN
+AJ
+fk
 bD
 bB
 Ng

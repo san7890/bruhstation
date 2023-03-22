@@ -71,52 +71,12 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/centcom/ctf)
-"ep" = (
-/obj/structure/barricade/security/ctf,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
-"fs" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "fH" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/turf_decal/siding/red{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
-/area/centcom/ctf)
-"fK" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "gq" = (
 /obj/structure/barricade/security/ctf,
@@ -136,6 +96,10 @@
 /area/centcom/ctf)
 "hB" = (
 /turf/closed/indestructible/cult,
+/area/centcom/ctf)
+"hI" = (
+/obj/effect/turf_decal/tile/red/fourcorners,
+/turf/open/floor/cult,
 /area/centcom/ctf)
 "hW" = (
 /obj/structure/trap/ctf/blue,
@@ -157,23 +121,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/ctf)
-"iv" = (
-/obj/effect/turf_decal/tile/green,
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
-"iN" = (
-/obj/effect/turf_decal/tile/green,
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "jz" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 1
@@ -193,16 +140,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/ctf)
-"lt" = (
-/obj/effect/turf_decal/tile/green,
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "mG" = (
 /obj/effect/turf_decal/siding/yellow{
 	dir = 10
@@ -221,19 +158,6 @@
 	resistance_flags = 64
 	},
 /turf/open/floor/carpet/orange,
-/area/centcom/ctf)
-"ny" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "nB" = (
 /obj/effect/turf_decal/siding/wood{
@@ -256,6 +180,16 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
+/area/centcom/ctf)
+"nS" = (
+/obj/effect/turf_decal/tile/green/half/contrasted,
+/turf/open/floor/cult,
+/area/centcom/ctf)
+"nZ" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/cult,
 /area/centcom/ctf)
 "od" = (
 /obj/effect/turf_decal/siding/blue,
@@ -306,18 +240,6 @@
 /area/centcom/ctf)
 "pz" = (
 /turf/open/floor/wood,
-/area/centcom/ctf)
-"pD" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "pF" = (
 /obj/effect/portal/permanent{
@@ -392,13 +314,6 @@
 /obj/effect/turf_decal/tile/yellow/fourcorners,
 /turf/open/floor/cult,
 /area/centcom/ctf)
-"st" = (
-/obj/effect/turf_decal/tile/green,
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "tm" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -443,15 +358,6 @@
 	},
 /turf/open/floor/circuit/green/off,
 /area/centcom/ctf)
-"wE" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "wS" = (
 /obj/effect/portal/permanent{
 	icon_state = "portal1";
@@ -473,19 +379,6 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/centcom/ctf)
-"xC" = (
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "yo" = (
 /turf/closed/indestructible/wood,
 /area/centcom/ctf)
@@ -505,6 +398,17 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/centcom/ctf)
+"yN" = (
+/obj/structure/barricade/security/ctf,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/turf/open/floor/cult,
+/area/centcom/ctf)
+"yY" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/cult,
+/area/centcom/ctf)
 "zH" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/turf_decal/siding/red{
@@ -512,24 +416,17 @@
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/ctf)
-"Ah" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "AD" = (
 /obj/structure/ladder/unbreakable/rune{
 	id = "blue_team"
 	},
 /turf/open/floor/carpet/red,
+/area/centcom/ctf)
+"AH" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/cult,
 /area/centcom/ctf)
 "Bf" = (
 /obj/effect/turf_decal/siding/yellow{
@@ -563,19 +460,6 @@
 	},
 /obj/structure/trap/ctf/blue,
 /turf/open/floor/carpet/red,
-/area/centcom/ctf)
-"BK" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "Cf" = (
 /obj/effect/turf_decal/siding/blue/corner{
@@ -656,15 +540,6 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/centcom/ctf)
-"Fo" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
 "FH" = (
 /obj/effect/turf_decal/siding/blue/corner{
 	dir = 1
@@ -737,6 +612,10 @@
 "Ia" = (
 /turf/open/floor/carpet/orange,
 /area/centcom/ctf)
+"Io" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted,
+/turf/open/floor/cult,
+/area/centcom/ctf)
 "Is" = (
 /obj/effect/turf_decal/siding/blue{
 	dir = 6
@@ -761,18 +640,12 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/centcom/ctf)
-"KY" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
+"IY" = (
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/cult,
 /area/centcom/ctf)
-"Ly" = (
-/obj/effect/turf_decal/tile/green{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/green{
+"JB" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
 	dir = 4
 	},
 /turf/open/floor/cult,
@@ -780,6 +653,12 @@
 "LC" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
+	},
+/turf/open/floor/cult,
+/area/centcom/ctf)
+"LN" = (
+/obj/effect/turf_decal/tile/green/anticorner/contrasted{
+	dir = 8
 	},
 /turf/open/floor/cult,
 /area/centcom/ctf)
@@ -848,6 +727,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/centcom/ctf)
+"Nr" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/cult,
+/area/centcom/ctf)
 "Nw" = (
 /turf/open/lava,
 /area/centcom/ctf)
@@ -877,6 +762,12 @@
 	},
 /turf/open/floor/carpet/orange,
 /area/centcom/ctf)
+"OV" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/cult,
+/area/centcom/ctf)
 "Pi" = (
 /obj/effect/portal/permanent{
 	icon_state = "portal1";
@@ -891,13 +782,6 @@
 /obj/effect/turf_decal/siding/yellow,
 /obj/structure/showcase/wizard,
 /turf/open/floor/carpet/orange,
-/area/centcom/ctf)
-"PO" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/red,
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "QJ" = (
 /obj/effect/turf_decal/siding/blue,
@@ -919,19 +803,6 @@
 /area/centcom/ctf)
 "Rm" = (
 /turf/open/floor/carpet/blue,
-/area/centcom/ctf)
-"RI" = (
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow,
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "Sh" = (
 /obj/structure/trap/ctf/yellow,
@@ -1022,6 +893,18 @@
 "Xl" = (
 /turf/closed/indestructible/riveted/uranium,
 /area/centcom/ctf)
+"XD" = (
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/cult,
+/area/centcom/ctf)
+"Yi" = (
+/obj/effect/turf_decal/tile/green/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/cult,
+/area/centcom/ctf)
 "Yl" = (
 /obj/effect/portal/permanent{
 	icon_state = "portal1";
@@ -1037,25 +920,6 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/orange,
-/area/centcom/ctf)
-"YT" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red{
-	dir = 4
-	},
-/turf/open/floor/cult,
-/area/centcom/ctf)
-"Zi" = (
-/obj/effect/turf_decal/tile/green,
-/obj/effect/turf_decal/tile/green{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/green{
-	dir = 8
-	},
-/turf/open/floor/cult,
 /area/centcom/ctf)
 "Zr" = (
 /obj/effect/turf_decal/siding/yellow{
@@ -1578,7 +1442,7 @@ Tw
 Tw
 Tw
 Tw
-BK
+hI
 Nw
 Nw
 Nw
@@ -1644,14 +1508,14 @@ Tw
 Tw
 mP
 Tw
-KY
-BK
-fK
-fK
-fK
-fK
-fK
-fK
+AH
+hI
+hI
+hI
+hI
+hI
+hI
+hI
 Nw
 hB
 uh
@@ -1712,13 +1576,13 @@ Tw
 Tw
 Tw
 Tw
-Ah
+hI
 Nw
 Nw
 Nw
 Nw
 Nw
-fK
+hI
 Nw
 hB
 uh
@@ -1785,7 +1649,7 @@ hB
 hB
 hB
 Nw
-fK
+hI
 Nw
 hB
 uh
@@ -1821,9 +1685,9 @@ uh
 uh
 uh
 yo
-ny
-ny
-ny
+Ez
+Ez
+Ez
 yo
 uh
 uh
@@ -1852,7 +1716,7 @@ uh
 uh
 hB
 Nw
-fK
+hI
 Nw
 hB
 uh
@@ -1888,9 +1752,9 @@ Xl
 Xl
 Xl
 Xl
-ny
-ny
-ny
+Ez
+Ez
+Ez
 Xl
 Xl
 Xl
@@ -1919,7 +1783,7 @@ uh
 uh
 hB
 Nw
-fK
+hI
 Nw
 hB
 uh
@@ -1954,14 +1818,14 @@ Xl
 SL
 Hs
 wW
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
+Ez
+Ez
+Ez
 Xl
 Xl
 uh
@@ -1986,7 +1850,7 @@ uh
 uh
 hB
 Nw
-fK
+hI
 Nw
 hB
 uh
@@ -2021,15 +1885,15 @@ SL
 FH
 Rm
 Oq
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
 uh
 uh
@@ -2053,7 +1917,7 @@ uh
 uh
 hB
 Nw
-fK
+hI
 Nw
 hB
 uh
@@ -2088,15 +1952,15 @@ jz
 Rm
 om
 hW
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
 Xl
 Xl
@@ -2110,18 +1974,18 @@ Xl
 Xl
 Tw
 Uy
-st
+nS
 cu
-st
+nS
 Eq
 Tw
 Xl
 Xl
 Xl
 hB
-fs
-fs
-fs
+hI
+hI
+hI
 hB
 Xl
 Xl
@@ -2155,15 +2019,15 @@ jz
 pb
 wu
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Ez
 Ez
 Ez
@@ -2176,23 +2040,23 @@ Tw
 Xl
 Tw
 Uy
-Zi
+Io
 Bl
 Bl
 Bl
-lt
+JB
 Eq
 Tw
 Xl
 Tw
 Tw
 Tw
-wE
+nZ
 Tw
 Ch
-RI
-RI
-RI
+sl
+sl
+sl
 sl
 sl
 sl
@@ -2222,15 +2086,15 @@ jz
 pb
 wu
 Xl
-ny
-ny
-ny
+Ez
+Ez
+Ez
 Xl
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Ez
 Ez
 Ez
@@ -2242,13 +2106,13 @@ Tw
 Tw
 Xl
 Uy
-Zi
+Io
 oL
 oL
 wy
 oL
 oL
-lt
+JB
 Eq
 Xl
 Tw
@@ -2289,15 +2153,15 @@ FH
 pb
 wu
 Xl
-ny
-ny
-ny
-ny
-ny
-ny
-ep
-ny
-ny
+Ez
+Ez
+Ez
+Ez
+Ez
+Ez
+yN
+Ez
+Ez
 Xl
 ef
 ef
@@ -2308,7 +2172,7 @@ Tw
 mP
 Tw
 Tw
-iv
+Nr
 Bl
 oL
 oL
@@ -2316,7 +2180,7 @@ oL
 oL
 oL
 Bl
-Ly
+Yi
 Tw
 Tw
 mP
@@ -2356,15 +2220,15 @@ Rm
 Rm
 wu
 Xl
-ny
-ny
-ny
-ny
-ny
-ep
-ep
-ep
-ny
+Ez
+Ez
+Ez
+Ez
+Ez
+yN
+yN
+yN
+Ez
 Xl
 uh
 uh
@@ -2423,15 +2287,15 @@ ai
 pb
 wu
 Xl
-ny
-ny
-ny
-ny
-ny
-ny
-ep
-ny
-ny
+Ez
+Ez
+Ez
+Ez
+Ez
+Ez
+yN
+Ez
+Ez
 Xl
 ef
 ef
@@ -2442,7 +2306,7 @@ Tw
 mP
 Tw
 Tw
-iv
+Nr
 Bl
 oL
 oL
@@ -2450,7 +2314,7 @@ oL
 oL
 oL
 Bl
-Ly
+Yi
 Tw
 Tw
 mP
@@ -2490,15 +2354,15 @@ jz
 pb
 wu
 Xl
-ny
-ny
-ny
+Ez
+Ez
+Ez
 Xl
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Ez
 Ez
 Ez
@@ -2510,13 +2374,13 @@ Tw
 Tw
 Xl
 ce
-iN
+LN
 oL
 oL
 wy
 oL
 oL
-pD
+yY
 Vz
 Xl
 Tw
@@ -2557,32 +2421,32 @@ jz
 pb
 wu
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Ez
 Ez
 Ez
 ZT
 Tw
-PO
+IY
 Tw
 Tw
 Tw
 Xl
 Tw
 ce
-iN
+LN
 Bl
 Bl
 Bl
-pD
+yY
 Vz
 Tw
 Xl
@@ -2592,9 +2456,9 @@ Tw
 Tw
 Tw
 HU
-xC
-xC
-xC
+sl
+sl
+sl
 sl
 sl
 sl
@@ -2624,31 +2488,31 @@ jz
 Rm
 Cf
 wW
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
 Xl
 Xl
 hB
-BK
-BK
-BK
+hI
+hI
+hI
 hB
 Xl
 Xl
 Xl
 Tw
 ce
-Fo
+OV
 cu
-Fo
+OV
 Vz
 Tw
 Xl
@@ -2691,21 +2555,21 @@ Nh
 ai
 Rm
 Oq
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
 uh
 uh
 hB
 Nw
-BK
+hI
 Nw
 hB
 uh
@@ -2758,21 +2622,21 @@ Xl
 Nh
 VE
 hW
-ny
-ny
-ny
-ny
+Ez
+Ez
+Ez
+Ez
 Xl
-ny
-ny
-ny
+Ez
+Ez
+Ez
 Xl
 Xl
 uh
 uh
 hB
 Nw
-BK
+hI
 Nw
 hB
 uh
@@ -2839,7 +2703,7 @@ uh
 uh
 hB
 Nw
-BK
+hI
 Nw
 hB
 uh
@@ -2906,7 +2770,7 @@ uh
 uh
 hB
 Nw
-BK
+hI
 Nw
 hB
 uh
@@ -2973,7 +2837,7 @@ uh
 uh
 hB
 Nw
-BK
+hI
 Nw
 hB
 hB
@@ -3040,13 +2904,13 @@ uh
 uh
 hB
 Nw
-BK
+hI
 Nw
 Nw
 Nw
 Nw
 Nw
-BK
+hI
 Tw
 Tw
 Tw
@@ -3107,14 +2971,14 @@ yo
 uh
 hB
 Nw
-BK
-BK
-BK
-BK
-BK
-BK
-BK
-YT
+hI
+hI
+hI
+hI
+hI
+hI
+hI
+XD
 Tw
 mP
 Tw
@@ -3180,7 +3044,7 @@ Nw
 Nw
 Nw
 Nw
-BK
+hI
 Tw
 Tw
 Tw

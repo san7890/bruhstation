@@ -497,20 +497,6 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/syndicate/medical)
-"ce" = (
-/obj/machinery/cell_charger,
-/obj/item/stock_parts/cell/high{
-	pixel_x = -3;
-	pixel_y = 3
-	},
-/obj/item/stock_parts/cell/high,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 8
-	},
-/obj/structure/extinguisher_cabinet/directional/west,
-/obj/structure/table/reinforced/plastitaniumglass,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/syndicate/engineering)
 "cf" = (
 /obj/item/storage/toolbox/syndicate,
 /obj/item/screwdriver{
@@ -789,6 +775,17 @@
 	dir = 4
 	},
 /area/shuttle/syndicate/eva)
+"tb" = (
+/obj/machinery/status_display/ai{
+	pixel_x = 32
+	},
+/obj/machinery/light/directional/east,
+/obj/machinery/computer/aifixer{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/red,
+/turf/open/floor/iron/dark,
+/area/shuttle/syndicate/bridge)
 "tG" = (
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/syndicate/bridge)
@@ -803,23 +800,6 @@
 /obj/structure/sign/departments/medbay/alt/directional/west,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/hallway)
-"vl" = (
-/obj/item/storage/medkit/regular{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/medkit/fire,
-/obj/item/storage/medkit/regular{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/structure/table/reinforced,
-/obj/effect/turf_decal/tile/blue,
-/obj/structure/sign/poster/contraband/random/directional/south,
-/turf/open/floor/iron/edge{
-	dir = 1
-	},
-/area/shuttle/syndicate/medical)
 "vv" = (
 /obj/item/clothing/head/hats/hos/syndicate,
 /obj/item/stamp/syndicate{
@@ -938,17 +918,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/syndicate/hallway)
-"DP" = (
-/obj/machinery/status_display/ai{
-	pixel_x = 32
-	},
-/obj/machinery/light/directional/east,
-/obj/effect/turf_decal/tile/red,
-/obj/machinery/computer/aifixer{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/syndicate/bridge)
 "Ed" = (
 /obj/machinery/door/window/survival_pod{
 	dir = 1;
@@ -974,6 +943,23 @@
 	dir = 1
 	},
 /area/shuttle/syndicate/bridge)
+"GJ" = (
+/obj/item/storage/medkit/regular{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/fire,
+/obj/item/storage/medkit/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/structure/table/reinforced,
+/obj/structure/sign/poster/contraband/random/directional/south,
+/obj/effect/turf_decal/tile/blue,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
+/area/shuttle/syndicate/medical)
 "GW" = (
 /obj/effect/turf_decal/syndicateemblem/middle/middle,
 /turf/open/floor/mineral/plastitanium/red,
@@ -1117,6 +1103,20 @@
 /obj/effect/turf_decal/syndicateemblem/top/middle,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/hallway)
+"VX" = (
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/stock_parts/cell/high,
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/turf_decal/tile/yellow{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/syndicate/engineering)
 "Xw" = (
 /obj/structure/chair/comfy/shuttle/tactical{
 	dir = 8
@@ -1290,7 +1290,7 @@ bu
 br
 br
 br
-vl
+GJ
 aJ
 aa
 aa
@@ -1424,7 +1424,7 @@ aa
 (12,1,1) = {"
 ac
 am
-DP
+tb
 Fs
 ac
 In
@@ -1440,7 +1440,7 @@ bx
 bm
 ch
 Km
-ce
+VX
 bn
 aa
 aa

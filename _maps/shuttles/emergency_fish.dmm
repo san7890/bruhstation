@@ -3,15 +3,6 @@
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /turf/open/floor/plating,
 /area/shuttle/escape)
-"ah" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "ax" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger{
@@ -83,6 +74,15 @@
 /obj/effect/turf_decal/tile/dark/fourcorners,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
+"ew" = (
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "eC" = (
 /obj/item/toy/plush/space_lizard_plushie{
 	desc = "An adorable stuffed toy that resembles a very determined seafaring lizardperson. To ten thousand leagues and below, little guy.";
@@ -119,6 +119,16 @@
 	},
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape/brig)
+"ga" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/item/storage/medkit/o2{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/toxin,
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "gd" = (
 /obj/item/fishing_hook/magnet,
 /obj/item/fishing_hook/weighted,
@@ -129,25 +139,6 @@
 	},
 /obj/item/fishing_hook/rescue,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/escape)
-"gh" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/structure/closet/emcloset/anchored,
-/obj/item/storage/medkit/o2{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/medkit/toxin,
-/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "gI" = (
 /obj/effect/turf_decal/siding/wood{
@@ -176,12 +167,31 @@
 /obj/effect/turf_decal/tile/dark/fourcorners,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
+"hX" = (
+/obj/machinery/light/directional/north,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "iA" = (
 /obj/structure/chair/pew/right{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/dark/fourcorners,
 /turf/open/floor/wood/tile,
+/area/shuttle/escape)
+"iX" = (
+/obj/structure/table/glass,
+/obj/item/storage/medkit/regular{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "jh" = (
 /obj/structure/chair/pew{
@@ -243,6 +253,16 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)
+"kJ" = (
+/obj/machinery/light/directional/south,
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "kX" = (
 /turf/open/water/beach/biodome,
 /area/shuttle/escape)
@@ -278,21 +298,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
-"oc" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/structure/table/glass,
-/obj/item/storage/medkit/regular{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "og" = (
 /obj/effect/turf_decal/tile/dark/half/contrasted{
 	dir = 8
@@ -321,19 +326,6 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/escape)
-"pk" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "pQ" = (
 /obj/effect/turf_decal/tile/dark/half/contrasted{
@@ -407,6 +399,12 @@
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/shuttle/escape)
+"sG" = (
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "tw" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/structure/table/reinforced,
@@ -421,6 +419,16 @@
 	dir = 4
 	},
 /turf/open/floor/mineral/titanium/tiled/blue,
+/area/shuttle/escape)
+"uq" = (
+/obj/structure/table/glass,
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 6
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "ut" = (
 /obj/machinery/light/directional/south,
@@ -502,6 +510,10 @@
 /obj/structure/fluff/beach_umbrella,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
+"Bb" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "Bq" = (
 /obj/structure/aquarium/prefilled,
 /turf/open/floor/mineral/titanium/tiled/blue,
@@ -523,22 +535,6 @@
 	},
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /turf/open/floor/mineral/plastitanium,
-/area/shuttle/escape)
-"CG" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/light/directional/south,
-/obj/machinery/stasis{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "CI" = (
 /obj/effect/turf_decal/tile/dark/anticorner/contrasted{
@@ -563,15 +559,6 @@
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/shuttle/escape)
-"DM" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "DU" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
@@ -595,60 +582,12 @@
 /obj/effect/turf_decal/tile/dark/half/contrasted,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
-"FA" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/stasis{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"GJ" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"GK" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue,
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "Hb" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes/cigars{
 	pixel_y = 7
 	},
 /turf/open/floor/wood/tile,
-/area/shuttle/escape)
-"Hk" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/machinery/light/directional/west,
-/obj/item/kirbyplants{
-	icon_state = "plant-10"
-	},
-/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "Ib" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
@@ -766,21 +705,6 @@
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/shuttle/escape)
-"Mp" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/machinery/vending/wallmed/directional/north{
-	use_power = 0
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "MO" = (
 /obj/machinery/light/directional/north,
 /obj/item/fishing_line/bouncy,
@@ -862,21 +786,6 @@
 /obj/structure/sign/departments/security,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/escape)
-"Qw" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/structure/table/glass,
-/obj/effect/turf_decal/tile/blue,
-/obj/machinery/light/directional/east,
-/obj/item/defibrillator/compact/loaded{
-	pixel_y = 3
-	},
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
 "QN" = (
 /obj/machinery/door/airlock/mining/glass,
 /obj/effect/turf_decal/delivery,
@@ -914,6 +823,15 @@
 /obj/effect/turf_decal/tile/dark/anticorner/contrasted,
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/tile,
+/area/shuttle/escape)
+"Tz" = (
+/obj/machinery/vending/wallmed/directional/north{
+	use_power = 0
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
 /area/shuttle/escape)
 "TL" = (
 /obj/effect/turf_decal/tile/dark/opposingcorners,
@@ -969,30 +887,13 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/tile,
 /area/shuttle/escape)
-"Vq" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue,
-/turf/open/floor/iron/white,
-/area/shuttle/escape)
-"VD" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
+"VG" = (
 /obj/structure/table/glass,
-/obj/item/storage/backpack/duffelbag/med/surgery{
-	pixel_y = 6
+/obj/machinery/light/directional/east,
+/obj/item/defibrillator/compact/loaded{
+	pixel_y = 3
 	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
 "VZ" = (
@@ -1040,6 +941,16 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/escape/brig)
+"XD" = (
+/obj/machinery/light/directional/west,
+/obj/item/kirbyplants{
+	icon_state = "plant-10"
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
+	},
+/turf/open/floor/iron/white,
+/area/shuttle/escape)
 "XZ" = (
 /obj/machinery/door/airlock/mining/glass,
 /obj/effect/turf_decal/tile/dark/full,
@@ -1108,10 +1019,10 @@ YO
 WT
 xH
 Me
-pk
-FA
-VD
-CG
+hX
+ew
+uq
+kJ
 kd
 Me
 UW
@@ -1137,11 +1048,11 @@ EQ
 KJ
 SB
 Me
-Mp
-ah
-ah
-DM
-Hk
+Tz
+sG
+sG
+sG
+XD
 jL
 Me
 UW
@@ -1166,12 +1077,12 @@ EQ
 vH
 jh
 jL
-gh
-Vq
-Qw
-GJ
-GK
-oc
+ga
+Bb
+VG
+Bb
+Bb
+iX
 Me
 UW
 Me
