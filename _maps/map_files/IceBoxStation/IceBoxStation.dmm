@@ -6145,7 +6145,6 @@
 /area/station/ai_monitored/turret_protected/aisat/atmos)
 "bRW" = (
 /obj/machinery/shower/directional/east,
-/obj/effect/turf_decal/trimline,
 /obj/structure/sign/warning/gas_mask{
 	desc = "A sign that warns of dangerous gasses in the air, instructing you to wear internals.";
 	pixel_x = -29
@@ -23291,7 +23290,6 @@
 /turf/open/floor/wood,
 /area/station/command/heads_quarters/captain)
 "hpi" = (
-/obj/effect/turf_decal/trimline,
 /obj/machinery/shower/directional/south,
 /turf/open/floor/iron/smooth,
 /area/mine/eva)
@@ -39607,7 +39605,6 @@
 /area/station/command/heads_quarters/captain)
 "mCo" = (
 /obj/machinery/shower/directional/east,
-/obj/effect/turf_decal/trimline,
 /obj/structure/sign/warning/gas_mask{
 	desc = "A sign that warns of dangerous gasses in the air, instructing you to wear internals.";
 	pixel_x = -29
@@ -62577,7 +62574,6 @@
 /turf/open/floor/iron,
 /area/station/maintenance/starboard/upper)
 "tRc" = (
-/obj/effect/turf_decal/trimline,
 /obj/machinery/shower/directional/north,
 /obj/structure/sign/warning/gas_mask/directional/south{
 	desc = "A sign that warns of dangerous gasses in the air, instructing you to wear internals."
