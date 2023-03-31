@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown/direct_and_aoe
-	name = "Direct And AoE Firing"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Allows you to shoot directly at a target while also firing around you."

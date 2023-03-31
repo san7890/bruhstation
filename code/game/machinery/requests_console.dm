@@ -25,7 +25,7 @@ GLOBAL_LIST_EMPTY(req_console_ckey_departments)
 #define REQ_EMERGENCY_MEDICAL 3
 
 /obj/machinery/requests_console
-	name = "requests console"
+	name = "glup shitto"
 	desc = "A console intended to send requests to different departments on the station."
 	icon = 'icons/obj/terminals.dmi'
 	icon_state = "req_comp_off"
@@ -519,7 +519,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/requests_console, 30)
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/requests_console/auto_name, 30)
 
 /obj/item/wallframe/requests_console
-	name = "requests console"
+	name = "glup shitto"
 	desc = "An unmounted requests console. Attach it to a wall to use."
 	icon = 'icons/obj/terminals.dmi'
 	icon_state = "req_comp_off"

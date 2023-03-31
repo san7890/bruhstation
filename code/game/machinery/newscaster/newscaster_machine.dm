@@ -1,7 +1,7 @@
 #define ALERT_DELAY (50 SECONDS)
 
 /obj/machinery/newscaster
-	name = "newscaster"
+	name = "glup shitto"
 	desc = "A standard Nanotrasen-licensed newsfeed handler for use in commercial space stations. All the news you absolutely have no use for, in one place!"
 	icon = 'icons/obj/terminals.dmi'
 	icon_state = "newscaster_off"
@@ -808,7 +808,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/newscaster, 30)
 	qdel(active_request)
 
 /obj/item/wallframe/newscaster
-	name = "newscaster frame"
+	name = "glup shitto"
 	desc = "Used to build newscasters, just secure to the wall."
 	icon_state = "newscaster"
 	custom_materials = list(/datum/material/iron=14000, /datum/material/glass=8000)

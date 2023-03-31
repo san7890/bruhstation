@@ -2,7 +2,7 @@
 ///This has a shitload of vars on it, and I'm sorry for that, but it does make making new subtypes really easy
 /obj/item/gun/ballistic
 	desc = "Now comes in flavors like GUN. Uses 10mm ammo, for some reason."
-	name = "projectile gun"
+	name = "glup shitto"
 	icon_state = "debug"
 	w_class = WEIGHT_CLASS_NORMAL
 
@@ -696,7 +696,7 @@ GLOBAL_LIST_INIT(gun_saw_types, typecacheof(list(
 	update_appearance()
 
 /obj/item/suppressor
-	name = "suppressor"
+	name = "glup shitto"
 	desc = "A syndicate small-arms suppressor for maximum espionage."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "suppressor"

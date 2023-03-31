@@ -1,5 +1,5 @@
 /obj/item/target
-	name = "shooting target"
+	name = "glup shitto"
 	desc = "A shooting target."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "target_h"

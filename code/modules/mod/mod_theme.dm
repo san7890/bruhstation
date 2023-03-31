@@ -110,7 +110,7 @@
 	wound = 5
 
 /datum/mod_theme/engineering
-	name = "engineering"
+	name = "glup shitto"
 	desc = "An engineer-fit suit with heat and shock resistance. Nakamura Engineering's classic."
 	extended_desc = "A classic by Nakamura Engineering, and surely their claim to fame. This model is an \
 		improvement upon the first-generation prototype models from before the Void War, boasting an array of features. \
@@ -169,7 +169,7 @@
 	wound = 10
 
 /datum/mod_theme/atmospheric
-	name = "atmospheric"
+	name = "glup shitto"
 	desc = "An atmospheric-resistant suit by Nakamura Engineering, offering extreme heat resistance compared to the engineer suit."
 	extended_desc = "A modified version of the Nakamura Engineering industrial model. This one has been \
 		augmented with the latest in heat-resistant alloys, paired with a series of advanced heatsinks. \
@@ -229,7 +229,7 @@
 	wound = 10
 
 /datum/mod_theme/advanced
-	name = "advanced"
+	name = "glup shitto"
 	desc = "An advanced version of Nakamura Engineering's classic suit, shining with a white, acid and fire resistant polish."
 	extended_desc = "The flagship version of the Nakamura Engineering industrial model, and their latest product. \
 		Combining all the features of their other industrial model suits inside, with blast resistance almost approaching \
@@ -293,7 +293,7 @@
 	wound = 10
 
 /datum/mod_theme/mining
-	name = "mining"
+	name = "glup shitto"
 	desc = "A Nanotrasen mining suit for on-site operations, fit with accreting ash armor and a sphere form."
 	extended_desc = "A high-powered Nanotrasen-designed suit, based off the work of Nakamura Engineering. \
 		While initial designs were built for the rigors of asteroid mining, given blast resistance through inbuilt ceramics, \
@@ -394,7 +394,7 @@
 	wound = 15
 
 /datum/mod_theme/loader
-	name = "loader"
+	name = "glup shitto"
 	desc = "An unsealed experimental motorized harness manufactured by Scarborough Arms for quick and efficient munition supplies."
 	extended_desc = "This powered suit is an experimental spinoff of in-atmosphere Engineering suits. \
 		This fully articulated titanium exoskeleton is Scarborough Arms' suit of choice for their munition delivery men, \
@@ -455,7 +455,7 @@
 	wound = 10
 
 /datum/mod_theme/medical
-	name = "medical"
+	name = "glup shitto"
 	desc = "A lightweight suit by DeForest Medical Corporation, allows for easier movement."
 	extended_desc = "A lightweight suit produced by the DeForest Medical Corporation, based off the work of \
 		Nakamura Engineering. The latest in technology has been employed in this suit to render it immunized against \
@@ -547,7 +547,7 @@
 	wound = 5
 
 /datum/mod_theme/rescue
-	name = "rescue"
+	name = "glup shitto"
 	desc = "An advanced version of DeForest Medical Corporation's medical suit, designed for quick rescue of bodies from the most dangerous environments."
 	extended_desc = "An upgraded, armor-plated version of DeForest Medical Corporation's medical suit, \
 		designed for quick rescue of bodies from the most dangerous environments. The same advanced leg servos \
@@ -618,7 +618,7 @@
 	wound = 5
 
 /datum/mod_theme/research
-	name = "research"
+	name = "glup shitto"
 	desc = "A private military EOD suit by Aussec Armory, intended for explosive research. Bulky, but expansive."
 	extended_desc = "A private military EOD suit by Aussec Armory, based off the work of Nakamura Engineering. \
 		This suit is intended for explosive research, built incredibly bulky and well-covering. \
@@ -683,7 +683,7 @@
 	wound = 15
 
 /datum/mod_theme/security
-	name = "security"
+	name = "glup shitto"
 	desc = "An Apadyne Technologies security suit, offering quicker speed at the cost of carrying capacity."
 	extended_desc = "An Apadyne Technologies classic, this model of MODsuit has been designed for quick response to \
 		hostile situations. These suits have been layered with plating worthy enough for fires or corrosive environments, \
@@ -745,7 +745,7 @@
 	wound = 15
 
 /datum/mod_theme/safeguard
-	name = "safeguard"
+	name = "glup shitto"
 	desc = "An Apadyne Technologies advanced security suit, offering greater speed and fire protection than the standard security model."
 	extended_desc = "An Apadyne Technologies advanced security suit, and their latest model. This variant has \
 		ditched the presence of a reinforced glass visor entirely, replacing it with a 'blast visor' utilizing a \
@@ -806,7 +806,7 @@
 	wound = 15
 
 /datum/mod_theme/magnate
-	name = "magnate"
+	name = "glup shitto"
 	desc = "A fancy, very protective suit for Nanotrasen's captains. Shock, fire and acid-proof while also having a large capacity and high speed."
 	extended_desc = "They say it costs four hundred thousand credits to run this MODsuit... for twelve seconds. \
 		The Magnate suit is designed for protection, comfort, and luxury for Nanotrasen Captains. \
@@ -873,7 +873,7 @@
 	wound = 15
 
 /datum/mod_theme/cosmohonk
-	name = "cosmohonk"
+	name = "glup shitto"
 	desc = "A suit by Honk Ltd. Protects against low humor environments. Most of the tech went to lower the power cost."
 	extended_desc = "The Cosmohonk MODsuit was originally designed for interstellar comedy in low-humor environments. \
 		It utilizes tungsten electro-ceramic casing and chromium bipolars, coated in zirconium-boron paint underneath \
@@ -932,7 +932,7 @@
 	wound = 5
 
 /datum/mod_theme/syndicate
-	name = "syndicate"
+	name = "glup shitto"
 	desc = "A suit designed by Gorlex Marauders, offering armor ruled illegal in most of Spinward Stellar."
 	extended_desc = "An advanced combat suit adorned in a sinister crimson red color scheme, produced and manufactured \
 		for special mercenary operations. The build is a streamlined layering consisting of shaped Plasteel, \
@@ -1024,7 +1024,7 @@
 	wound = 25
 
 /datum/mod_theme/elite
-	name = "elite"
+	name = "glup shitto"
 	desc = "An elite suit upgraded by Cybersun Industries, offering upgraded armor values."
 	extended_desc = "An evolution of the syndicate suit, featuring a bulkier build and a matte black color scheme, \
 		this suit is only produced for high ranking Syndicate officers and elite strike teams. \
@@ -1091,7 +1091,7 @@
 	wound = 25
 
 /datum/mod_theme/infiltrator
-	name = "infiltrator"
+	name = "glup shitto"
 	desc = "A specialized infiltration suit, developed by the Roseus Galactic Actors Guild to strike fear and awe into the hearts of the public."
 	extended_desc = "Several questions have been raised over the years in regards to the clandestine Infiltrator modular suit. \
 		Why is the suit blood red despite being a sneaking suit? Why did a movie company of all things develop a stealth suit? \
@@ -1157,7 +1157,7 @@
 	wound = 25
 
 /datum/mod_theme/enchanted
-	name = "enchanted"
+	name = "glup shitto"
 	desc = "The Wizard Federation's relatively low-tech MODsuit. Is very protective, though."
 	extended_desc = "The Wizard Federation's relatively low-tech MODsuit. This armor employs not \
 		plasteel or carbon fibre, but space dragon scales for its protection. Recruits are expected to \
@@ -1220,7 +1220,7 @@
 	wound = 30
 
 /datum/mod_theme/ninja
-	name = "ninja"
+	name = "glup shitto"
 	desc = "A unique, vacuum-proof suit of nano-enhanced armor designed specifically for Spider Clan assassins."
 	extended_desc = "A suit of nano-enhanced armor designed specifically for Spider Clan assassin-saboteurs. \
 		This MODsuit employs the cutting edge of stealth and combat technology, built skin-tight but just as durable as \
@@ -1284,7 +1284,7 @@
 	wound = 10
 
 /datum/mod_theme/prototype
-	name = "prototype"
+	name = "glup shitto"
 	desc = "A prototype modular suit powered by locomotives. While it is comfortable and has a big capacity, it remains very bulky and power-inefficient."
 	extended_desc = "This is a prototype powered exoskeleton, a design not seen in hundreds of years, the first \
 		post-void war era modular suit to ever be safely utilized by an operator. This ancient clunker is still functional, \
@@ -1348,7 +1348,7 @@
 	wound = 5
 
 /datum/mod_theme/responsory
-	name = "responsory"
+	name = "glup shitto"
 	desc = "A high-speed rescue suit by Nanotrasen, intended for its' emergency response teams."
 	extended_desc = "A streamlined suit of Nanotrasen design, these sleek black suits are only worn by \
 		elite emergency response personnel to help save the day. While the slim and nimble design of the suit \
@@ -1434,7 +1434,7 @@
 	wound = 10
 
 /datum/mod_theme/apocryphal
-	name = "apocryphal"
+	name = "glup shitto"
 	desc = "A high-tech, only technically legal, armored suit created by a collaboration effort between Nanotrasen and Apadyne Technologies."
 	extended_desc = "A bulky and only legal by technicality suit, this ominous black and red MODsuit is only worn by \
 		Nanotrasen Black Ops teams. If you can see this suit, you fucked up. A collaborative joint effort between \
@@ -1498,7 +1498,7 @@
 	wound = 25
 
 /datum/mod_theme/corporate
-	name = "corporate"
+	name = "glup shitto"
 	desc = "A fancy, high-tech suit for Nanotrasen's high ranking officers."
 	extended_desc = "An even more costly version of the Magnate model, the corporate suit is a thermally insulated, \
 		anti-corrosion coated suit for high-ranking CentCom Officers, deploying pristine protective armor and \
@@ -1560,7 +1560,7 @@
 	wound = 15
 
 /datum/mod_theme/chrono
-	name = "chrono"
+	name = "glup shitto"
 	desc = "A suit beyond our time, beyond time itself. Used to traverse timelines and \"correct their course\"."
 	extended_desc = "A suit whose tech goes beyond this era's understanding. The internal mechanisms are all but \
 		completely alien, but the purpose is quite simple. The suit protects the user from the many incredibly lethal \
@@ -1616,7 +1616,7 @@
 	wound = 15
 
 /datum/mod_theme/debug
-	name = "debug"
+	name = "glup shitto"
 	desc = "Strangely nostalgic."
 	extended_desc = "An advanced suit that has dual ion engines powerful enough to grant a humanoid flight. \
 		Contains an internal self-recharging high-current capacitor for short, powerful bo- \
@@ -1673,7 +1673,7 @@
 	acid = 100
 
 /datum/mod_theme/administrative
-	name = "administrative"
+	name = "glup shitto"
 	desc = "A suit made of adminium. Who comes up with these stupid mineral names?"
 	extended_desc = "Yeah, okay, I guess you can call that an event. What I consider an event is something actually \
 		fun and engaging for the players- instead, most were sitting out, dead or gibbed, while the lucky few got to \

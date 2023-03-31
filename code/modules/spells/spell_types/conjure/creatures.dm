@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/creature
-	name = "Summon Creature Swarm"
+	name = "glup shitto"
 	desc = "This spell tears the fabric of reality, allowing horrific daemons to spill forth."
 	sound = 'sound/magic/summonitems_generic.ogg'
 

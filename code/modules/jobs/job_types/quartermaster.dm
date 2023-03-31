@@ -37,7 +37,7 @@
 	ignore_human_authority = TRUE
 
 /datum/outfit/job/quartermaster
-	name = "Quartermaster"
+	name = "glup shitto"
 	jobtype = /datum/job/quartermaster
 	backpack_contents = list(
 		/obj/item/melee/baton/telescopic = 1,

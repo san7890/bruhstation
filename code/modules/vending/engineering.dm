@@ -1,6 +1,6 @@
 //This one's from bay12
 /obj/machinery/vending/engineering
-	name = "\improper Robco Tool Maker"
+	name = "glup shitto"
 	desc = "Everything you need for do-it-yourself station repair."
 	icon_state = "engi"
 	icon_deny = "engi-deny"

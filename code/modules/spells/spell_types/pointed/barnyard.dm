@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/barnyardcurse
-	name = "Curse of the Barnyard"
+	name = "glup shitto"
 	desc = "This spell dooms an unlucky soul to possess the speech and facial attributes of a barnyard animal."
 	button_icon_state = "barn"
 	ranged_mousepointer = 'icons/effects/mouse_pointers/barn_target.dmi'

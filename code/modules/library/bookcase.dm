@@ -3,7 +3,7 @@
 #define BOOKCASE_FINISHED 2
 
 /obj/structure/bookcase
-	name = "bookcase"
+	name = "glup shitto"
 	icon = 'icons/obj/library.dmi'
 	icon_state = "bookempty"
 	desc = "A great place for storing knowledge."
@@ -185,7 +185,7 @@
 	return ..()
 
 /obj/structure/bookcase/manuals/engineering
-	name = "engineering manuals bookcase"
+	name = "glup shitto"
 
 /obj/structure/bookcase/manuals/engineering/Initialize(mapload)
 	. = ..()
@@ -196,7 +196,7 @@
 	update_appearance()
 
 /obj/structure/bookcase/manuals/research_and_development
-	name = "\improper R&D manuals bookcase"
+	name = "glup shitto"
 
 /obj/structure/bookcase/manuals/research_and_development/Initialize(mapload)
 	. = ..()

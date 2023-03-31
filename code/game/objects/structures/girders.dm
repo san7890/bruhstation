@@ -1,5 +1,5 @@
 /obj/structure/girder
-	name = "girder"
+	name = "glup shitto"
 	icon_state = "girder"
 	desc = "A large structural assembly made out of metal; It requires a layer of iron before it can be considered a wall."
 	anchored = TRUE
@@ -377,7 +377,7 @@
 	qdel(src)
 
 /obj/structure/girder/displaced
-	name = "displaced girder"
+	name = "glup shitto"
 	icon_state = "displaced"
 	anchored = FALSE
 	state = GIRDER_DISPLACED
@@ -385,20 +385,20 @@
 	max_integrity = 120
 
 /obj/structure/girder/reinforced
-	name = "reinforced girder"
+	name = "glup shitto"
 	icon_state = "reinforced"
 	state = GIRDER_REINF
 	girderpasschance = 0
 	max_integrity = 350
 
 /obj/structure/girder/tram
-	name = "tram girder"
+	name = "glup shitto"
 	state = GIRDER_TRAM
 
 //////////////////////////////////////////// cult girder //////////////////////////////////////////////
 
 /obj/structure/girder/cult
-	name = "runed girder"
+	name = "glup shitto"
 	desc = "Framework made of a strange and shockingly cold metal. It doesn't seem to have any bolts."
 	icon = 'icons/obj/cult/structures.dmi'
 	icon_state= "cultgirder"
@@ -466,7 +466,7 @@
 	return FALSE
 
 /obj/structure/girder/bronze
-	name = "wall gear"
+	name = "glup shitto"
 	desc = "A girder made out of sturdy bronze, made to resemble a gear."
 	icon_state = "wall_gear"
 	can_displace = FALSE

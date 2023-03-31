@@ -6,7 +6,7 @@
 
 
 /obj/item/camera_bug
-	name = "camera bug"
+	name = "glup shitto"
 	desc = "For illicit snooping through the camera network."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "camera_bug"

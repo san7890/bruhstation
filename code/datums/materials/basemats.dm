@@ -1,6 +1,6 @@
 ///Has no special properties.
 /datum/material/iron
-	name = "iron"
+	name = "glup shitto"
 	desc = "Common iron ore often found in sedimentary and igneous layers of the crust."
 	color = "#878687"
 	greyscale_colors = "#878687"
@@ -14,7 +14,7 @@
 
 ///Breaks extremely easily but is transparent.
 /datum/material/glass
-	name = "glass"
+	name = "glup shitto"
 	desc = "Glass forged by melting sand."
 	color = "#88cdf1"
 	greyscale_colors = "#88cdf196"
@@ -40,7 +40,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Has no special properties. Could be good against vampires in the future perhaps.
 /datum/material/silver
-	name = "silver"
+	name = "glup shitto"
 	desc = "Silver"
 	color = list(255/255, 284/255, 302/255,0, 0,0,0,0, 0,0,0,0, 0,0,0,1, 0,0,0,0)
 	greyscale_colors = "#e3f1f8"
@@ -55,7 +55,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Slight force increase
 /datum/material/gold
-	name = "gold"
+	name = "glup shitto"
 	desc = "Gold"
 	color = list(340/255, 240/255, 50/255,0, 0,0,0,0, 0,0,0,0, 0,0,0,1, 0,0,0,0) //gold is shiny, but not as bright as bananium
 	greyscale_colors = "#dbdd4c"
@@ -72,7 +72,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Has no special properties
 /datum/material/diamond
-	name = "diamond"
+	name = "glup shitto"
 	desc = "Highly pressurized carbon"
 	color = list(48/255, 272/255, 301/255,0, 0,0,0,0, 0,0,0,0, 0,0,0,1, 0,0,0,0)
 	greyscale_colors = "#71c8f784"
@@ -90,7 +90,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Is slightly radioactive
 /datum/material/uranium
-	name = "uranium"
+	name = "glup shitto"
 	desc = "Uranium"
 	color = rgb(48, 237, 26)
 	greyscale_colors = rgb(48, 237, 26)
@@ -125,7 +125,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Adds firestacks on hit (Still needs support to turn into gas on destruction)
 /datum/material/plasma
-	name = "plasma"
+	name = "glup shitto"
 	desc = "Isn't plasma a state of matter? Oh whatever."
 	color = list(298/255, 46/255, 352/255,0, 0,0,0,0, 0,0,0,0, 0,0,0,1, 0,0,0,0)
 	greyscale_colors = "#c162ec"
@@ -156,7 +156,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Can cause bluespace effects on use. (Teleportation) (Not yet implemented)
 /datum/material/bluespace
-	name = "bluespace crystal"
+	name = "glup shitto"
 	desc = "Crystals with bluespace properties"
 	color = list(119/255, 217/255, 396/255,0, 0,0,0,0, 0,0,0,0, 0,0,0,1, 0,0,0,0)
 	greyscale_colors = "#4e7dffC8"
@@ -174,7 +174,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Honks and slips
 /datum/material/bananium
-	name = "bananium"
+	name = "glup shitto"
 	desc = "Material with hilarious properties"
 	color = list(460/255, 464/255, 0, 0, 0,0,0,0, 0,0,0,0, 0,0,0,1, 0,0,0,0) //obnoxiously bright yellow
 	greyscale_colors = "#ffff00"
@@ -201,7 +201,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Mediocre force increase
 /datum/material/titanium
-	name = "titanium"
+	name = "glup shitto"
 	desc = "Titanium"
 	color = "#b3c0c7"
 	greyscale_colors = "#b3c0c7"
@@ -217,7 +217,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	return TRUE
 
 /datum/material/runite
-	name = "runite"
+	name = "glup shitto"
 	desc = "Runite"
 	color = "#3F9995"
 	greyscale_colors = "#3F9995"
@@ -234,7 +234,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Force decrease
 /datum/material/plastic
-	name = "plastic"
+	name = "glup shitto"
 	desc = "Plastic"
 	color = "#caccd9"
 	greyscale_colors = "#caccd9"
@@ -252,7 +252,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Force decrease and mushy sound effect. (Not yet implemented)
 /datum/material/biomass
-	name = "biomass"
+	name = "glup shitto"
 	desc = "Organic matter"
 	color = "#735b4d"
 	greyscale_colors = "#735b4d"
@@ -260,7 +260,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	value_per_unit = 0.025
 
 /datum/material/wood
-	name = "wood"
+	name = "glup shitto"
 	desc = "Flexible, durable, but flamable. Hard to come across in space."
 	color = "#bb8e53"
 	greyscale_colors = "#bb8e53"
@@ -293,7 +293,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///Stronk force increase
 /datum/material/adamantine
-	name = "adamantine"
+	name = "glup shitto"
 	desc = "A powerful material made out of magic, I mean science!"
 	color = "#6d7e8e"
 	greyscale_colors = "#6d7e8e"
@@ -310,7 +310,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 ///RPG Magic.
 /datum/material/mythril
-	name = "mythril"
+	name = "glup shitto"
 	desc = "How this even exists is byond me"
 	color = "#f2d5d7"
 	greyscale_colors = "#f2d5d7"
@@ -337,7 +337,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 //formed when freon react with o2, emits a lot of plasma when heated
 /datum/material/hot_ice
-	name = "hot ice"
+	name = "glup shitto"
 	desc = "A weird kind of ice, feels warm to the touch"
 	color = "#88cdf1"
 	greyscale_colors = "#88cdf196"
@@ -362,7 +362,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	return TRUE
 
 /datum/material/metalhydrogen
-	name = "Metal Hydrogen"
+	name = "glup shitto"
 	desc = "Solid metallic hydrogen. Some say it should be impossible"
 	color = "#f2d5d7"
 	greyscale_colors = "#f2d5d796"
@@ -381,7 +381,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 //I don't like sand. It's coarse, and rough, and irritating, and it gets everywhere.
 /datum/material/sand
-	name = "sand"
+	name = "glup shitto"
 	desc = "You know, it's amazing just how structurally sound sand can be."
 	color = "#EDC9AF"
 	greyscale_colors = "#EDC9AF"
@@ -401,7 +401,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 
 //And now for our lavaland dwelling friends, sand, but in stone form! Truly revolutionary.
 /datum/material/sandstone
-	name = "sandstone"
+	name = "glup shitto"
 	desc = "Bialtaakid 'ant taerif ma hdha."
 	color = "#B77D31"
 	greyscale_colors = "#B77D31"
@@ -414,7 +414,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	texture_layer_icon_state = "brick"
 
 /datum/material/snow
-	name = "snow"
+	name = "glup shitto"
 	desc = "There's no business like snow business."
 	color = "#FFFFFF"
 	greyscale_colors = "#FFFFFF"
@@ -431,7 +431,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	return TRUE
 
 /datum/material/runedmetal
-	name = "runed metal"
+	name = "glup shitto"
 	desc = "Mir'ntrath barhah Nar'sie."
 	color = "#3C3434"
 	greyscale_colors = "#3C3434"
@@ -448,7 +448,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	return TRUE
 
 /datum/material/bronze
-	name = "bronze"
+	name = "glup shitto"
 	desc = "Clock Cult? Never heard of it."
 	color = "#92661A"
 	greyscale_colors = "#92661A"
@@ -459,7 +459,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	beauty_modifier = 0.2
 
 /datum/material/paper
-	name = "paper"
+	name = "glup shitto"
 	desc = "Ten thousand folds of pure starchy power."
 	color = "#E5DCD5"
 	greyscale_colors = "#E5DCD5"
@@ -485,7 +485,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	return ..()
 
 /datum/material/cardboard
-	name = "cardboard"
+	name = "glup shitto"
 	desc = "They say cardboard is used by hobos to make incredible things."
 	color = "#5F625C"
 	greyscale_colors = "#5F625C"
@@ -509,7 +509,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	return ..()
 
 /datum/material/bone
-	name = "bone"
+	name = "glup shitto"
 	desc = "Man, building with this will make you the coolest caveman on the block."
 	color = "#e3dac9"
 	greyscale_colors = "#e3dac9"
@@ -520,7 +520,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	beauty_modifier = -0.2
 
 /datum/material/bamboo
-	name = "bamboo"
+	name = "glup shitto"
 	desc = "If it's good enough for pandas, it's good enough for you."
 	color = "#87a852"
 	greyscale_colors = "#87a852"
@@ -533,7 +533,7 @@ Unless you know what you're doing, only use the first three numbers. They're in 
 	texture_layer_icon_state = "bamboo"
 
 /datum/material/zaukerite
-	name = "zaukerite"
+	name = "glup shitto"
 	desc = "A light absorbing crystal"
 	color = COLOR_ALMOST_BLACK
 	greyscale_colors = COLOR_ALMOST_BLACK

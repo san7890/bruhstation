@@ -19,7 +19,7 @@
 	bg_color = "#d9d9d9"
 
 /obj/item/folder/documents
-	name = "folder- 'TOP SECRET'"
+	name = "glup shitto"
 	desc = "A folder stamped \"Top Secret - Property of Nanotrasen Corporation. Unauthorized distribution is punishable by death.\""
 
 /obj/item/folder/documents/Initialize(mapload)
@@ -30,7 +30,7 @@
 /obj/item/folder/syndicate
 	icon_state = "folder_syndie"
 	bg_color = "#3f3f3f"
-	name = "folder- 'TOP SECRET'"
+	name = "glup shitto"
 	desc = "A folder stamped \"Top Secret - Property of The Syndicate.\""
 
 /obj/item/folder/syndicate/red

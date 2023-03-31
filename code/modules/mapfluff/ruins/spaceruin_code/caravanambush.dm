@@ -3,20 +3,20 @@
 /obj/item/wrench/caravan
 	icon_state = "wrench_caravan"
 	desc = "A prototype of a new wrench design, allegedly the red color scheme makes it go faster."
-	name = "experimental wrench"
+	name = "glup shitto"
 	toolspeed = 0.3
 
 /obj/item/screwdriver/caravan
 	icon_state = "screwdriver_caravan"
 	desc = "A prototype of a new screwdriver design, allegedly the red color scheme makes it go faster."
-	name = "experimental screwdriver"
+	name = "glup shitto"
 	toolspeed = 0.3
 	random_color = FALSE
 
 /obj/item/wirecutters/caravan
 	icon_state = "cutters_caravan"
 	desc = "A prototype of a new wirecutter design, allegedly the red color scheme makes it go faster."
-	name = "experimental wirecutters"
+	name = "glup shitto"
 	worn_icon_state = "cutters"
 	toolspeed = 0.3
 	random_color = FALSE
@@ -24,7 +24,7 @@
 /obj/item/crowbar/red/caravan
 	icon_state = "crowbar_caravan"
 	desc = "A prototype of a new crowbar design, allegedly the red color scheme makes it go faster."
-	name = "experimental crowbar"
+	name = "glup shitto"
 	toolspeed = 0.3
 
 /obj/machinery/computer/shuttle/caravan
@@ -48,7 +48,7 @@
 	build_path = /obj/machinery/computer/shuttle/caravan/syndicate3
 
 /obj/machinery/computer/shuttle/caravan/trade1
-	name = "Small Freighter Shuttle Console"
+	name = "glup shitto"
 	desc = "Used to control the Small Freighter."
 	circuit = /obj/item/circuitboard/computer/caravan/trade1
 	shuttleId = "caravantrade1"
@@ -63,7 +63,7 @@
 	return ..()
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/caravan/trade1
-	name = "Small Freighter Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Small Freighter."
 	shuttleId = "caravantrade1"
 	lock_override = NONE
@@ -75,7 +75,7 @@
 	designate_time = 100
 
 /obj/machinery/computer/shuttle/caravan/pirate
-	name = "Pirate Cutter Shuttle Console"
+	name = "glup shitto"
 	desc = "Used to control the Pirate Cutter."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -85,7 +85,7 @@
 	possible_destinations = "caravanpirate_custom;caravanpirate_ambush"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/caravan/pirate
-	name = "Pirate Cutter Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Pirate Cutter."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -98,7 +98,7 @@
 	y_offset = -6
 
 /obj/machinery/computer/shuttle/caravan/syndicate1
-	name = "Syndicate Fighter Shuttle Console"
+	name = "glup shitto"
 	desc = "Used to control the Syndicate Fighter."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -109,7 +109,7 @@
 	possible_destinations = "caravansyndicate1_custom;caravansyndicate1_ambush;caravansyndicate1_listeningpost"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/caravan/syndicate1
-	name = "Syndicate Fighter Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Syndicate Fighter."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -122,7 +122,7 @@
 	y_offset = 0
 
 /obj/machinery/computer/shuttle/caravan/syndicate2
-	name = "Syndicate Fighter Shuttle Console"
+	name = "glup shitto"
 	desc = "Used to control the Syndicate Fighter."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -133,7 +133,7 @@
 	possible_destinations = "caravansyndicate2_custom;caravansyndicate2_ambush;caravansyndicate1_listeningpost"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/caravan/syndicate2
-	name = "Syndicate Fighter Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Syndicate Fighter."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -146,7 +146,7 @@
 	y_offset = 2
 
 /obj/machinery/computer/shuttle/caravan/syndicate3
-	name = "Syndicate Drop Ship Console"
+	name = "glup shitto"
 	desc = "Used to control the Syndicate Drop Ship."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -157,7 +157,7 @@
 	possible_destinations = "caravansyndicate3_custom;caravansyndicate3_ambush;caravansyndicate3_listeningpost"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/caravan/syndicate3
-	name = "Syndicate Drop Ship Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Syndicate Drop Ship."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"

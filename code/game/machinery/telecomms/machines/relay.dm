@@ -7,7 +7,7 @@
 */
 
 /obj/machinery/telecomms/relay
-	name = "telecommunication relay"
+	name = "glup shitto"
 	icon_state = "relay"
 	desc = "A mighty piece of hardware used to send massive amounts of data far away."
 	telecomms_type = /obj/machinery/telecomms/relay

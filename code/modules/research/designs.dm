@@ -61,7 +61,7 @@ other types of metals and chemistry for reagents).
 	var/autolathe_exportable = TRUE
 
 /datum/design/error_design
-	name = "ERROR"
+	name = "glup shitto"
 	desc = "This usually means something in the database has corrupted. If this doesn't go away automatically, inform Central Comamnd so their techs can fix this ASAP(tm)"
 
 /datum/design/Destroy()
@@ -96,7 +96,7 @@ other types of metals and chemistry for reagents).
 ////////////////////////////////////////
 
 /obj/item/disk/design_disk
-	name = "Component Design Disk"
+	name = "glup shitto"
 	desc = "A disk for storing device design data for construction in lathes."
 	icon_state = "datadisk1"
 	custom_materials = list(/datum/material/iron = 300, /datum/material/glass = 100)
@@ -119,7 +119,7 @@ other types of metals and chemistry for reagents).
 	return
 
 /obj/item/disk/design_disk/bepis
-	name = "Old experimental technology disk"
+	name = "glup shitto"
 	desc = "A disk containing some long-forgotten technology from a past age. You hope it still works after all these years. Upload the disk to an R&D Console to redeem the tech."
 	icon_state = "rndmajordisk"
 
@@ -145,7 +145,7 @@ other types of metals and chemistry for reagents).
  * Removes the tech disk that's held on it from the experimental node list, making them not show up in future disks.
  */
 /obj/item/disk/design_disk/bepis/remove_tech
-	name = "Reformatted technology disk"
+	name = "glup shitto"
 	desc = "A disk containing a new, completed tech from the B.E.P.I.S. Upload the disk to an R&D Console to redeem the tech."
 
 /obj/item/disk/design_disk/bepis/remove_tech/Initialize(mapload)

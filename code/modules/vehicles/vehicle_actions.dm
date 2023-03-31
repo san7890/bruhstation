@@ -205,7 +205,7 @@
 	return ..()
 
 /datum/action/vehicle/sealed/climb_out
-	name = "Climb Out"
+	name = "glup shitto"
 	desc = "Climb out of your vehicle!"
 	button_icon_state = "car_eject"
 
@@ -217,7 +217,7 @@
 	var/obj/vehicle/ridden/vehicle_ridden_target
 
 /datum/action/vehicle/sealed/remove_key
-	name = "Remove key"
+	name = "glup shitto"
 	desc = "Take your key out of the vehicle's ignition."
 	button_icon_state = "car_removekey"
 
@@ -226,7 +226,7 @@
 
 //CLOWN CAR ACTION DATUMS
 /datum/action/vehicle/sealed/horn
-	name = "Honk Horn"
+	name = "glup shitto"
 	desc = "Honk your classy horn."
 	button_icon_state = "car_horn"
 	var/hornsound = 'sound/items/carhorn.ogg'
@@ -243,7 +243,7 @@
 	playsound(vehicle_entered_target, hornsound, 75)
 
 /datum/action/vehicle/sealed/headlights
-	name = "Toggle Headlights"
+	name = "glup shitto"
 	desc = "Turn on your brights!"
 	button_icon_state = "car_headlights"
 
@@ -255,7 +255,7 @@
 	playsound(owner, vehicle_entered_target.headlights_toggle ? 'sound/weapons/magin.ogg' : 'sound/weapons/magout.ogg', 40, TRUE)
 
 /datum/action/vehicle/sealed/dump_kidnapped_mobs
-	name = "Dump Kidnapped Mobs"
+	name = "glup shitto"
 	desc = "Dump all objects and people in your car on the floor."
 	button_icon_state = "car_dump"
 
@@ -265,7 +265,7 @@
 
 
 /datum/action/vehicle/sealed/roll_the_dice
-	name = "Press Colorful Button"
+	name = "glup shitto"
 	desc = "Press one of those colorful buttons on your display panel!"
 	button_icon_state = "car_rtd"
 
@@ -276,7 +276,7 @@
 	C.roll_the_dice(owner)
 
 /datum/action/vehicle/sealed/cannon
-	name = "Toggle Siege Mode"
+	name = "glup shitto"
 	desc = "Destroy them with their own fodder!"
 	button_icon_state = "car_cannon"
 
@@ -288,7 +288,7 @@
 
 
 /datum/action/vehicle/sealed/thank
-	name = "Thank the Clown Car Driver"
+	name = "glup shitto"
 	desc = "They're just doing their job."
 	button_icon_state = "car_thanktheclown"
 	COOLDOWN_DECLARE(thank_time_cooldown)
@@ -308,7 +308,7 @@
 	clown_car.increment_thanks_counter()
 
 /datum/action/vehicle/ridden/wheelchair/bell
-	name = "Bell Ring"
+	name = "glup shitto"
 	desc = "Ring the bell."
 	button_icon = 'icons/obj/bureaucracy.dmi'
 	button_icon_state = "desk_bell"
@@ -322,7 +322,7 @@
 	playsound(vehicle_ridden_target, 'sound/machines/microwave/microwave-end.ogg', 70)
 
 /datum/action/vehicle/ridden/scooter/skateboard/ollie
-	name = "Ollie"
+	name = "glup shitto"
 	desc = "Get some air! Land on a table to do a gnarly grind."
 	button_icon_state = "skateboard_ollie"
 	check_flags = AB_CHECK_CONSCIOUS
@@ -365,7 +365,7 @@
 	vehicle.pass_flags &= ~PASSTABLE
 
 /datum/action/vehicle/ridden/scooter/skateboard/kickflip
-	name = "Kickflip"
+	name = "glup shitto"
 	desc = "Kick your board up and catch it."
 	button_icon_state = "skateboard_ollie"
 	check_flags = AB_CHECK_CONSCIOUS
@@ -409,7 +409,7 @@
 //VIM ACTION DATUMS
 
 /datum/action/vehicle/sealed/climb_out/vim
-	name = "Eject From Mech"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_mecha.dmi'
 	button_icon_state = "mech_eject"
 
@@ -428,7 +428,7 @@
 	return TRUE
 
 /datum/action/vehicle/sealed/noise/chime
-	name = "Chime!"
+	name = "glup shitto"
 	desc = "Affirmative!"
 	button_icon_state = "vim_chime"
 	sound_path = 'sound/machines/chime.ogg'
@@ -439,7 +439,7 @@
 		SEND_SIGNAL(vehicle_entered_target, COMSIG_VIM_CHIME_USED)
 
 /datum/action/vehicle/sealed/noise/buzz
-	name = "Buzz."
+	name = "glup shitto"
 	desc = "Negative!"
 	button_icon_state = "vim_buzz"
 	sound_path = 'sound/machines/buzz-sigh.ogg'

@@ -3,7 +3,7 @@
 #define MAX_NETWORK_ID_LENGTH 15
 
 /obj/machinery/computer/telecomms/server
-	name = "telecommunications server monitoring console"
+	name = "glup shitto"
 	icon_screen = "comm_logs"
 	desc = "Has full access to all details and record of the telecommunications network it's monitoring."
 

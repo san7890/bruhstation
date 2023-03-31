@@ -4,7 +4,7 @@
 
 ///holding bag for dice
 /obj/item/storage/dice
-	name = "bag of dice"
+	name = "glup shitto"
 	desc = "Contains all the luck you'll ever need."
 	icon = 'icons/obj/toys/dice.dmi'
 	icon_state = "dicebag"
@@ -52,7 +52,7 @@
 
 ///this is a prototype for dice, for a real d6 use "/obj/item/dice/d6"
 /obj/item/dice
-	name = "die"
+	name = "glup shitto"
 	desc = "A die with six sides. Basic and serviceable."
 	icon = 'icons/obj/toys/dice.dmi'
 	icon_state = "d6"
@@ -76,19 +76,19 @@
 	return OXYLOSS
 
 /obj/item/dice/d1
-	name = "d1"
+	name = "glup shitto"
 	desc = "A die with only one side. Deterministic!"
 	icon_state = "d1"
 	sides = 1
 
 /obj/item/dice/d2
-	name = "d2"
+	name = "glup shitto"
 	desc = "A die with two sides. Coins are undignified!"
 	icon_state = "d2"
 	sides = 2
 
 /obj/item/dice/d4
-	name = "d4"
+	name = "glup shitto"
 	desc = "A die with four sides. The nerd's caltrop."
 	icon_state = "d4"
 	sides = 4
@@ -99,16 +99,16 @@
 	AddComponent(/datum/component/caltrop, min_damage = 1, max_damage = 4)
 
 /obj/item/dice/d6
-	name = "d6"
+	name = "glup shitto"
 
 /obj/item/dice/d6/ebony
-	name = "ebony die"
+	name = "glup shitto"
 	desc = "A die with six sides made of dense black wood. It feels cold and heavy in your hand."
 	icon_state = "de6"
 	microwave_riggable = FALSE // You can't melt wood in the microwave
 
 /obj/item/dice/d6/space
-	name = "space cube"
+	name = "glup shitto"
 	desc = "A die with six sides. 6 TIMES 255 TIMES 255 TILE TOTAL EXISTENCE, SQUARE YOUR MIND OF EDUCATED STUPID: 2 DOES NOT EXIST."
 	icon_state = "spaced6"
 
@@ -118,7 +118,7 @@
 		name = "spess cube"
 
 /obj/item/paper/guides/knucklebone
-	name = "knucklebones rules"
+	name = "glup shitto"
 	default_raw_text = "How to play knucklebones<br>\
 	<ul>\
 	<li>Make two 3x3 grids right next to eachother using anything you can find to mark the ground. I like using the bartenders hologram projector.</li>\
@@ -136,26 +136,26 @@
 	<li>Have fun!</li>\
 	</ul>"
 /obj/item/dice/fudge
-	name = "fudge die"
+	name = "glup shitto"
 	desc = "A die with six sides but only three results. Is this a plus or a minus? Your mind is drawing a blank..."
 	sides = 3 //shhh
 	icon_state = "fudge"
 	special_faces = list("minus","blank" = "You aren't sure how to feel.","plus")
 
 /obj/item/dice/d8
-	name = "d8"
+	name = "glup shitto"
 	desc = "A die with eight sides. It feels... lucky."
 	icon_state = "d8"
 	sides = 8
 
 /obj/item/dice/d10
-	name = "d10"
+	name = "glup shitto"
 	desc = "A die with ten sides. Useful for percentages."
 	icon_state = "d10"
 	sides = 10
 
 /obj/item/dice/d00
-	name = "d00"
+	name = "glup shitto"
 	desc = "A die with ten sides. Works better for d100 rolls than a golf ball."
 	icon_state = "d00"
 	sides = 10
@@ -164,19 +164,19 @@
 	return (original - 1)*10  // 10, 20, 30, etc
 
 /obj/item/dice/d12
-	name = "d12"
+	name = "glup shitto"
 	desc = "A die with twelve sides. There's an air of neglect about it."
 	icon_state = "d12"
 	sides = 12
 
 /obj/item/dice/d20
-	name = "d20"
+	name = "glup shitto"
 	desc = "A die with twenty sides. The preferred die to throw at the GM."
 	icon_state = "d20"
 	sides = 20
 
 /obj/item/dice/d100
-	name = "d100"
+	name = "glup shitto"
 	desc = "A die with one hundred sides! Probably not fairly weighted..."
 	icon_state = "d100"
 	w_class = WEIGHT_CLASS_SMALL
@@ -187,7 +187,7 @@
 	return ..()
 
 /obj/item/dice/eightbd20
-	name = "strange d20"
+	name = "glup shitto"
 	desc = "A weird die with raised text printed on the faces. Everything's white on white so reading it is a struggle. What poor design!"
 	icon_state = "8bd20"
 	sides = 20
@@ -198,7 +198,7 @@
 	return ..()
 
 /obj/item/dice/fourdd6
-	name = "4d d6"
+	name = "glup shitto"
 	desc = "A die that exists in four dimensional space. Properly interpreting them can only be done with the help of a mathematician, a physicist, and a priest."
 	icon_state = "4dd6"
 	sides = 48
@@ -265,7 +265,7 @@
 
 // Die of fate stuff
 /obj/item/dice/d20/fate
-	name = "\improper Die of Fate"
+	name = "glup shitto"
 	desc = "A die with twenty sides. You can feel unearthly energies radiating from it. Using this might be VERY risky."
 	icon_state = "d20"
 	sides = 20
@@ -279,7 +279,7 @@
 	reusable = FALSE
 
 /obj/item/dice/d20/fate/cursed
-	name = "cursed Die of Fate"
+	name = "glup shitto"
 	desc = "A die with twenty sides. You feel that rolling this is a REALLY bad idea."
 	color = "#00BB00"
 
@@ -290,7 +290,7 @@
 	reusable = FALSE
 
 /obj/item/dice/d20/fate/stealth
-	name = "d20"
+	name = "glup shitto"
 	desc = "A die with twenty sides. The preferred die to throw at the GM."
 
 /obj/item/dice/d20/fate/stealth/one_use
@@ -463,7 +463,7 @@
 			user.mind.make_wizard()
 
 /datum/outfit/butler
-	name = "Butler"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/suit/black_really
 	neck = /obj/item/clothing/neck/tie/red/tied
 	shoes = /obj/item/clothing/shoes/laceup
@@ -472,7 +472,7 @@
 	gloves = /obj/item/clothing/gloves/color/white
 
 /datum/action/cooldown/spell/summon_mob
-	name = "Summon Servant"
+	name = "glup shitto"
 	desc = "This spell can be used to call your servant, whenever you need it."
 	button_icon_state = "summons"
 

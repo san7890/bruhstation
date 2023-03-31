@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/lizard
-	name = "Lizard"
+	name = "glup shitto"
 	desc = "A cute tiny lizard."
 	icon_state = "lizard"
 	icon_living = "lizard"
@@ -50,7 +50,7 @@
 		return ..()
 
 /mob/living/simple_animal/hostile/lizard/space
-	name = "Space Lizard"
+	name = "glup shitto"
 	desc = "A cute tiny lizard with a tiny space helmet."
 	icon_state = "lizard_space"
 	icon_living = "lizard_space"
@@ -59,9 +59,9 @@
 	maxbodytemp = T0C + 40
 
 /mob/living/simple_animal/hostile/lizard/wags_his_tail
-	name = "Wags-His-Tail"
+	name = "glup shitto"
 	desc = "The janitorial department's trusty pet lizard."
 
 /mob/living/simple_animal/hostile/lizard/eats_the_roaches
-	name = "Eats-The-Roaches"
+	name = "glup shitto"
 	desc = "The janitorial department's less trusty pet lizard."

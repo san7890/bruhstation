@@ -1,7 +1,7 @@
 
 // aloe
 /obj/item/seeds/aloe
-	name = "pack of aloe seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into aloe."
 	icon_state = "seed-aloe"
 	species = "aloe"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/aloe
 	seed = /obj/item/seeds/aloe
-	name = "aloe"
+	name = "glup shitto"
 	desc = "Cut leaves from the aloe plant."
 	icon_state = "aloe"
 	bite_consumption_mod = 3

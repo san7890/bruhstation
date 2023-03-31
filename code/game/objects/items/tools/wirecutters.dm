@@ -1,5 +1,5 @@
 /obj/item/wirecutters
-	name = "wirecutters"
+	name = "glup shitto"
 	desc = "This cuts wires."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "cutters_map"
@@ -68,7 +68,7 @@
 	return BRUTELOSS
 
 /obj/item/wirecutters/abductor
-	name = "alien wirecutters"
+	name = "glup shitto"
 	desc = "Extremely sharp wirecutters, made out of a silvery-green metal."
 	icon = 'icons/obj/abductor.dmi'
 	custom_materials = list(/datum/material/iron = 5000, /datum/material/silver = 2500, /datum/material/plasma = 1000, /datum/material/titanium = 2000, /datum/material/diamond = 2000)
@@ -77,7 +77,7 @@
 	random_color = FALSE
 
 /obj/item/wirecutters/cyborg
-	name = "powered wirecutters"
+	name = "glup shitto"
 	desc = "Cuts wires with the power of ELECTRICITY. Faster than normal wirecutters."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "wirecutters_cyborg"

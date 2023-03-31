@@ -8,7 +8,7 @@ Buildable meters
 //...otherwise construction will stop working
 
 /obj/item/pipe
-	name = "pipe"
+	name = "glup shitto"
 	desc = "A pipe."
 	var/pipe_type
 	var/pipename
@@ -137,7 +137,7 @@ Buildable meters
 
 /obj/item/pipe/proc/update()
 	var/obj/machinery/atmospherics/fakeA = pipe_type
-	name = "[initial(fakeA.name)] fitting"
+	name = "glup shitto"
 	desc = initial(fakeA.desc)
 	icon_state = initial(fakeA.pipe_state)
 	if(ispath(pipe_type,/obj/machinery/atmospherics/pipe/heat_exchanging))
@@ -375,7 +375,7 @@ Buildable meters
 	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/pipe_meter
-	name = "meter"
+	name = "glup shitto"
 	desc = "A meter that can be wrenched on pipes, or attached to the floor with screws."
 	icon = 'icons/obj/atmospherics/pipes/pipe_item.dmi'
 	icon_state = "meter"

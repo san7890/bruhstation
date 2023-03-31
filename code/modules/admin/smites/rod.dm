@@ -1,6 +1,6 @@
 /// Throw an immovable rod at the target
 /datum/smite/rod
-	name = "Immovable Rod"
+	name = "glup shitto"
 	var/force_looping = FALSE
 
 /datum/smite/rod/configure(client/user)

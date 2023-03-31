@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/blob/blobspore
-	name = "blob spore"
+	name = "glup shitto"
 	desc = "A floating, fragile spore."
 	icon_state = "blobpod"
 	icon_living = "blobpod"
@@ -119,7 +119,7 @@
 	independent = TRUE
 
 /mob/living/simple_animal/hostile/blob/blobspore/weak
-	name = "fragile blob spore"
+	name = "glup shitto"
 	health = 15
 	maxHealth = 15
 	melee_damage_lower = 1
@@ -149,7 +149,7 @@
 		maxHealth += target.get_armor_rating(MELEE) // That zombie's got armor, I want armor!
 	maxHealth += 40
 	health = maxHealth
-	name = "blob zombie"
+	name = "glup shitto"
 	desc = "A shambling corpse animated by the blob."
 	mob_biotypes |= MOB_HUMANOID
 	melee_damage_lower += 8

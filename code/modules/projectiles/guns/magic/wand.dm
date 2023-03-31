@@ -1,5 +1,5 @@
 /obj/item/gun/magic/wand
-	name = "wand"
+	name = "glup shitto"
 	desc = "You shouldn't have this."
 	ammo_type = /obj/item/ammo_casing/magic
 	icon_state = "nothingwand"
@@ -63,7 +63,7 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/death
-	name = "wand of death"
+	name = "glup shitto"
 	desc = "This deadly wand overwhelms the victim's body with pure energy, slaying them without fail."
 	school = SCHOOL_NECROMANCY
 	fire_sound = 'sound/magic/wandodeath.ogg'
@@ -102,7 +102,7 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/resurrection
-	name = "wand of healing"
+	name = "glup shitto"
 	desc = "This wand uses healing magics to heal and revive. They are rarely utilized within the Wizard Federation for some reason."
 	school = SCHOOL_RESTORATION
 	ammo_type = /obj/item/ammo_casing/magic/heal
@@ -141,7 +141,7 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/polymorph
-	name = "wand of polymorph"
+	name = "glup shitto"
 	desc = "This wand is attuned to chaos and will radically alter the victim's form."
 	school = SCHOOL_TRANSMUTATION
 	ammo_type = /obj/item/ammo_casing/magic/change
@@ -161,7 +161,7 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/teleport
-	name = "wand of teleportation"
+	name = "glup shitto"
 	desc = "This wand will wrench targets through space and time to move them somewhere else."
 	school = SCHOOL_TRANSLOCATION
 	ammo_type = /obj/item/ammo_casing/magic/teleport
@@ -180,7 +180,7 @@
 	..()
 
 /obj/item/gun/magic/wand/safety
-	name = "wand of safety"
+	name = "glup shitto"
 	desc = "This wand will use the lightest of bluespace currents to gently place the target somewhere safe."
 	school = SCHOOL_TRANSLOCATION
 	ammo_type = /obj/item/ammo_casing/magic/safety
@@ -214,7 +214,7 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/door
-	name = "wand of door creation"
+	name = "glup shitto"
 	desc = "This particular wand can create doors in any wall for the unscrupulous wizard who shuns teleportation magics."
 	school = SCHOOL_TRANSMUTATION
 	ammo_type = /obj/item/ammo_casing/magic/door
@@ -234,7 +234,7 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/fireball
-	name = "wand of fireball"
+	name = "glup shitto"
 	desc = "This wand shoots scorching balls of fire that explode into destructive flames."
 	school = SCHOOL_EVOCATION
 	fire_sound = 'sound/magic/fireball.ogg'
@@ -253,6 +253,6 @@
 /////////////////////////////////////
 
 /obj/item/gun/magic/wand/nothing
-	name = "wand of nothing"
+	name = "glup shitto"
 	desc = "It's not just a stick, it's a MAGIC stick?"
 	ammo_type = /obj/item/ammo_casing/magic/nothing

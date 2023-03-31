@@ -1,5 +1,5 @@
 /obj/projectile/bullet/dart
-	name = "dart"
+	name = "glup shitto"
 	icon_state = "cbbolt"
 	damage = 6
 	embedding = null
@@ -35,7 +35,7 @@
 	reagents.add_reagent(/datum/reagent/toxin/acid/fluacid, 5)
 
 /obj/projectile/bullet/dart/syringe
-	name = "syringe"
+	name = "glup shitto"
 	icon_state = "syringeproj"
 
 /obj/projectile/bullet/dart/syringe/Initialize(mapload)

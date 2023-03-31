@@ -1,6 +1,6 @@
 // Currently unused.
 /datum/action/cooldown/spell/touch/mad_touch
-	name = "Touch of Madness"
+	name = "glup shitto"
 	desc = "A touch spell that drains your enemy's sanity."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"

@@ -1,6 +1,6 @@
 //does burn damage and EMPs, slightly fragile
 /datum/blobstrain/reagent/electromagnetic_web
-	name = "Electromagnetic Web"
+	name = "glup shitto"
 	color = "#83ECEC"
 	complementary_color = "#EC8383"
 	description = "will do high burn damage and EMP targets."
@@ -19,7 +19,7 @@
 		empulse(B.loc, 1, 3) //less than screen range, so you can stand out of range to avoid it
 
 /datum/reagent/blob/electromagnetic_web
-	name = "Electromagnetic Web"
+	name = "glup shitto"
 	taste_description = "pop rocks"
 	color = "#83ECEC"
 

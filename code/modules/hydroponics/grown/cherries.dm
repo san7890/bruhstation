@@ -1,6 +1,6 @@
 // Cherries
 /obj/item/seeds/cherry
-	name = "pack of cherry pits"
+	name = "glup shitto"
 	desc = "Careful not to crack a tooth on one... That'd be the pits."
 	icon_state = "seed-cherry"
 	species = "cherry"
@@ -22,7 +22,7 @@
 
 /obj/item/food/grown/cherries
 	seed = /obj/item/seeds/cherry
-	name = "cherries"
+	name = "glup shitto"
 	desc = "Great for toppings!"
 	icon_state = "cherry"
 	gender = PLURAL
@@ -34,7 +34,7 @@
 
 // Blue Cherries
 /obj/item/seeds/cherry/blue
-	name = "pack of blue cherry pits"
+	name = "glup shitto"
 	desc = "The blue kind of cherries."
 	icon_state = "seed-bluecherry"
 	species = "bluecherry"
@@ -46,7 +46,7 @@
 
 /obj/item/food/grown/bluecherries
 	seed = /obj/item/seeds/cherry/blue
-	name = "blue cherries"
+	name = "glup shitto"
 	desc = "They're cherries that are blue."
 	icon_state = "bluecherry"
 	bite_consumption_mod = 2
@@ -57,7 +57,7 @@
 
 //Cherry Bulbs
 /obj/item/seeds/cherry/bulb
-	name = "pack of cherry bulb pits"
+	name = "glup shitto"
 	desc = "The glowy kind of cherries."
 	icon_state = "seed-cherrybulb"
 	species = "cherrybulb"
@@ -71,7 +71,7 @@
 
 /obj/item/food/grown/cherrybulbs
 	seed = /obj/item/seeds/cherry/bulb
-	name = "cherry bulbs"
+	name = "glup shitto"
 	desc = "They're like little Space Christmas lights!"
 	icon_state = "cherry_bulb"
 	bite_consumption_mod = 2
@@ -82,7 +82,7 @@
 
 //Cherry Bombs
 /obj/item/seeds/cherry/bomb
-	name = "pack of cherry bomb pits"
+	name = "glup shitto"
 	desc = "They give you vibes of dread and frustration."
 	icon_state = "seed-cherry_bomb"
 	species = "cherry_bomb"
@@ -94,7 +94,7 @@
 	rarity = 60 //See above
 
 /obj/item/food/grown/cherry_bomb
-	name = "cherry bombs"
+	name = "glup shitto"
 	desc = "You think you can hear the hissing of a tiny fuse."
 	icon_state = "cherry_bomb"
 	alt_icon = "cherry_bomb_lit"

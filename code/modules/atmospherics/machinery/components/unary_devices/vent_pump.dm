@@ -3,7 +3,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump
 	icon_state = "vent_map-3"
 
-	name = "air vent"
+	name = "glup shitto"
 	desc = "Has a valve and pump attached to it."
 
 	use_power = IDLE_POWER_USE
@@ -208,7 +208,7 @@
 	. = ..()
 	if(override_naming)
 		return
-	name = "\proper [get_area_name(src)] [name] [id_tag]"
+	name = "glup shitto"
 
 /obj/machinery/atmospherics/components/unary/vent_pump/welder_act(mob/living/user, obj/item/welder)
 	..()
@@ -255,7 +255,7 @@
 	playsound(loc, 'sound/weapons/bladeslice.ogg', 100, TRUE)
 
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume
-	name = "large air vent"
+	name = "glup shitto"
 	power_channel = AREA_USAGE_EQUIP
 
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/New()

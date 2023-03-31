@@ -7,7 +7,7 @@
 	)
 
 /datum/asset/spritesheet/species
-	name = "species"
+	name = "glup shitto"
 	early = TRUE
 	cross_round_cachable = TRUE
 

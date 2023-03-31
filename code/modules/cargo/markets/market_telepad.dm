@@ -1,5 +1,5 @@
 /obj/item/circuitboard/machine/ltsrbt
-	name = "LTSRBT (Machine Board)"
+	name = "glup shitto"
 	icon_state = "bluespacearray"
 	build_path = /obj/machinery/ltsrbt
 	req_components = list(
@@ -10,7 +10,7 @@
 	def_components = list(/obj/item/stack/ore/bluespace_crystal = /obj/item/stack/ore/bluespace_crystal/artificial)
 
 /obj/machinery/ltsrbt
-	name = "Long-To-Short-Range-Bluespace-Transceiver"
+	name = "glup shitto"
 	desc = "The LTSRBT is a compact teleportation machine for receiving and sending items outside the station and inside the station.\nUsing teleportation frequencies stolen from NT it is near undetectable.\nEssential for any illegal market operations on NT stations.\n"
 	icon_state = "exonet_node"
 	circuit = /obj/item/circuitboard/machine/ltsrbt

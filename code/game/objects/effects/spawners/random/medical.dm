@@ -1,9 +1,9 @@
 /obj/effect/spawner/random/medical
-	name = "medical loot spawner"
+	name = "glup shitto"
 	desc = "Doc, gimmie something good."
 
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	icon_state = "gauze"
 	loot = list(
 		/obj/item/stack/medical/suture,
@@ -12,7 +12,7 @@
 	)
 
 /obj/effect/spawner/random/medical/injector
-	name = "injector spawner"
+	name = "glup shitto"
 	icon_state = "syringe"
 	loot = list(
 		/obj/item/implanter,
@@ -21,7 +21,7 @@
 	)
 
 /obj/effect/spawner/random/medical/organs
-	name = "ayylien organ spawner"
+	name = "glup shitto"
 	icon_state = "eyes"
 	spawn_loot_count = 3
 	loot = list(
@@ -42,7 +42,7 @@
 	)
 
 /obj/effect/spawner/random/medical/memeorgans
-	name = "meme organ spawner"
+	name = "glup shitto"
 	icon_state = "eyes"
 	spawn_loot_count = 5
 	loot = list(
@@ -66,7 +66,7 @@
 	)
 
 /obj/effect/spawner/random/medical/two_percent_xeno_egg_spawner
-	name = "2% chance xeno egg spawner"
+	name = "glup shitto"
 	icon_state = "xeno_egg"
 	loot = list(
 		/obj/effect/decal/remains/xeno = 49,
@@ -74,7 +74,7 @@
 	)
 
 /obj/effect/spawner/random/medical/surgery_tool
-	name = "Surgery tool spawner"
+	name = "glup shitto"
 	icon_state = "scapel"
 	loot = list(
 		/obj/item/scalpel,
@@ -87,7 +87,7 @@
 	)
 
 /obj/effect/spawner/random/medical/surgery_tool_advanced
-	name = "Advanced surgery tool spawner"
+	name = "glup shitto"
 	icon_state = "scapel"
 	loot = list( // Mail loot spawner. Drop pool of advanced medical tools typically from research. Not endgame content.
 		/obj/item/scalpel/advanced,
@@ -96,7 +96,7 @@
 	)
 
 /obj/effect/spawner/random/medical/surgery_tool_alien
-	name = "Rare surgery tool spawner"
+	name = "glup shitto"
 	icon_state = "scapel"
 	loot = list( // Mail loot spawner. Some sort of random and rare surgical tool. Alien tech found here.
 		/obj/item/scalpel/alien,
@@ -108,7 +108,7 @@
 	)
 
 /obj/effect/spawner/random/medical/medkit_rare
-	name = "rare medkit spawner"
+	name = "glup shitto"
 	icon_state = "medkit"
 	loot = list(
 		/obj/item/storage/medkit/emergency,
@@ -117,7 +117,7 @@
 	)
 
 /obj/effect/spawner/random/medical/medkit
-	name = "medkit spawner"
+	name = "glup shitto"
 	icon_state = "medkit"
 	loot = list(
 		/obj/item/storage/medkit/regular = 10,
@@ -129,7 +129,7 @@
 	)
 
 /obj/effect/spawner/random/medical/patient_stretcher
-	name = "patient stretcher spawner"
+	name = "glup shitto"
 	icon_state = "rollerbed"
 	loot = list(
 		/obj/structure/bed/roller,
@@ -137,7 +137,7 @@
 	)
 
 /obj/effect/spawner/random/medical/supplies
-	name = "medical supplies spawner"
+	name = "glup shitto"
 	icon_state = "box_small"
 	loot = list(
 		/obj/item/storage/box/hug,

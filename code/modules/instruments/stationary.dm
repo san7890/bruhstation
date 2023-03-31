@@ -1,5 +1,5 @@
 /obj/structure/musician
-	name = "Not A Piano"
+	name = "glup shitto"
 	desc = "Something broke, contact coderbus."
 	interaction_flags_atom = INTERACT_ATOM_ATTACK_HAND | INTERACT_ATOM_UI_INTERACT | INTERACT_ATOM_REQUIRES_DEXTERITY
 	integrity_failure = 0.25
@@ -35,7 +35,7 @@
 	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/structure/musician/piano
-	name = "space piano"
+	name = "glup shitto"
 	desc = "This is a space piano, like a regular piano, but always in tune! Even if the musician isn't."
 	icon = 'icons/obj/art/musician.dmi'
 	icon_state = "piano"
@@ -64,7 +64,7 @@
 	anchored = FALSE
 
 /obj/structure/musician/piano/minimoog
-	name = "space minimoog"
+	name = "glup shitto"
 	desc = "This is a minimoog, like a space piano, but more spacey!"
 	icon_state = "minimoog"
 	broken_icon_state = "minimoogbroken"

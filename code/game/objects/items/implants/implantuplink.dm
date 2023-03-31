@@ -1,5 +1,5 @@
 /obj/item/implant/uplink
-	name = "uplink implant"
+	name = "glup shitto"
 	desc = "Sneeki breeki."
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "radio"
@@ -40,7 +40,7 @@
 		qdel(src)
 
 /obj/item/implanter/uplink
-	name = "implanter (uplink)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/uplink
 
 /obj/item/implanter/uplink/Initialize(mapload, uplink_handler)
@@ -48,7 +48,7 @@
 	return ..()
 
 /obj/item/implanter/uplink/precharged
-	name = "implanter (precharged uplink)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/uplink/precharged
 
 /obj/item/implant/uplink/precharged

@@ -5,7 +5,7 @@
 	icon_state = "thermo_base"
 	plane = GAME_PLANE
 
-	name = "Temperature control unit"
+	name = "glup shitto"
 	desc = "Heats or cools gas in connected pipes."
 
 	density = TRUE
@@ -309,7 +309,7 @@
 	if(target_temperature == initial(target_temperature))
 		target_temperature = min_temperature
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on/coldroom
-	name = "Cold room temperature control unit"
+	name = "glup shitto"
 	icon_state = "thermo_base_1"
 	greyscale_colors = COLOR_CYAN
 

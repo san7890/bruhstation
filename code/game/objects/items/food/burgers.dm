@@ -14,7 +14,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/burger/plain
-	name = "plain burger"
+	name = "glup shitto"
 	desc = "The cornerstone of every nutritious breakfast."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -38,7 +38,7 @@
 			"You know, these hamburgers taste quite similar to the ones they have at the Maltese Falcon.")
 
 /obj/item/food/burger/human
-	name = "human burger"
+	name = "glup shitto"
 	desc = "A bloody burger."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -59,7 +59,7 @@
 			name = "[mob_meat_material.subjectjob] burger"
 
 /obj/item/food/burger/corgi
-	name = "corgi burger"
+	name = "glup shitto"
 	desc = "You monster."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -71,7 +71,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/burger/appendix
-	name = "appendix burger"
+	name = "glup shitto"
 	desc = "Tastes like appendicitis."
 	icon_state = "appendixburger"
 	food_reagents = list(
@@ -84,7 +84,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/fish
-	name = "fillet -o- carp sandwich"
+	name = "glup shitto"
 	desc = "Almost like a carp is yelling somewhere... Give me back that fillet -o- carp, give me that carp."
 	icon_state = "fishburger"
 	food_reagents = list(
@@ -97,7 +97,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/burger/tofu
-	name = "tofu burger"
+	name = "glup shitto"
 	desc = "What.. is that meat?"
 	icon_state = "tofuburger"
 	food_reagents = list(
@@ -110,7 +110,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/burger/roburger
-	name = "roburger"
+	name = "glup shitto"
 	desc = "The lettuce is the only organic component. Beep."
 	icon_state = "roburger"
 	food_reagents = list(
@@ -132,7 +132,7 @@
 	)
 
 /obj/item/food/burger/xeno
-	name = "xenoburger"
+	name = "glup shitto"
 	desc = "Smells caustic. Tastes like heresy."
 	icon_state = "xburger"
 	food_reagents = list(
@@ -145,7 +145,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/burger/bearger
-	name = "bearger"
+	name = "glup shitto"
 	desc = "Best served rawr."
 	icon_state = "bearger"
 	food_reagents = list(
@@ -158,7 +158,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/burger/clown
-	name = "clown burger"
+	name = "glup shitto"
 	desc = "This tastes funny..."
 	icon_state = "clownburger"
 	food_reagents = list(
@@ -171,7 +171,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/mime
-	name = "mime burger"
+	name = "glup shitto"
 	desc = "Its taste defies language."
 	icon_state = "mimeburger"
 	food_reagents = list(
@@ -184,7 +184,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/brain
-	name = "brainburger"
+	name = "glup shitto"
 	desc = "A strange looking burger. It looks almost sentient."
 	icon_state = "brainburger"
 	food_reagents = list(
@@ -198,7 +198,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/burger/ghost
-	name = "ghost burger"
+	name = "glup shitto"
 	desc = "Too Spooky!"
 	icon_state = "ghostburger"
 	food_reagents = list(
@@ -250,7 +250,7 @@
 	. = ..()
 
 /obj/item/food/burger/red
-	name = "red burger"
+	name = "glup shitto"
 	desc = "Perfect for hiding the fact that it's burnt to a crisp."
 	icon_state = "cburger"
 	color = COLOR_RED
@@ -264,7 +264,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/orange
-	name = "orange burger"
+	name = "glup shitto"
 	desc = "Contains 0% juice."
 	icon_state = "cburger"
 	color = COLOR_ORANGE
@@ -278,7 +278,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/yellow
-	name = "yellow burger"
+	name = "glup shitto"
 	desc = "Bright to the last bite."
 	icon_state = "cburger"
 	color = COLOR_YELLOW
@@ -292,7 +292,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/green
-	name = "green burger"
+	name = "glup shitto"
 	desc = "It's not tainted meat, it's painted meat!"
 	icon_state = "cburger"
 	color = COLOR_GREEN
@@ -306,7 +306,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/blue
-	name = "blue burger"
+	name = "glup shitto"
 	desc = "Is this blue rare?"
 	icon_state = "cburger"
 	color = COLOR_BLUE
@@ -320,7 +320,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/purple
-	name = "purple burger"
+	name = "glup shitto"
 	desc = "Regal and low class at the same time."
 	icon_state = "cburger"
 	color = COLOR_PURPLE
@@ -334,7 +334,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/black
-	name = "black burger"
+	name = "glup shitto"
 	desc = "This is overcooked."
 	icon_state = "cburger"
 	color = COLOR_ALMOST_BLACK
@@ -348,7 +348,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/white
-	name = "white burger"
+	name = "glup shitto"
 	desc = "Delicous titanium!"
 	icon_state = "cburger"
 	color = COLOR_WHITE
@@ -362,7 +362,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/burger/spell
-	name = "spell burger"
+	name = "glup shitto"
 	desc = "This is absolutely Ei Nath."
 	icon_state = "spellburger"
 	food_reagents = list(
@@ -375,7 +375,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/bigbite
-	name = "big bite burger"
+	name = "glup shitto"
 	desc = "Forget the Big Mac. THIS is the future!"
 	icon_state = "bigbiteburger"
 	food_reagents = list(
@@ -389,7 +389,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/jelly
-	name = "jelly burger"
+	name = "glup shitto"
 	desc = "Culinary delight..?"
 	icon_state = "jellyburger"
 	tastes = list("bun" = 4, "jelly" = 2)
@@ -413,7 +413,7 @@
 	foodtypes = GRAIN | FRUIT
 
 /obj/item/food/burger/superbite
-	name = "super bite burger"
+	name = "glup shitto"
 	desc = "This is a mountain of a burger. FOOD!"
 	icon_state = "superbiteburger"
 	food_reagents = list(
@@ -435,7 +435,7 @@
 	return OXYLOSS
 
 /obj/item/food/burger/fivealarm
-	name = "five alarm burger"
+	name = "glup shitto"
 	desc = "HOT! HOT!"
 	icon_state = "fivealarmburger"
 	food_reagents = list(
@@ -450,7 +450,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/rat
-	name = "rat burger"
+	name = "glup shitto"
 	desc = "Pretty much what you'd expect..."
 	icon_state = "ratburger"
 	food_reagents = list(
@@ -463,7 +463,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/burger/baseball
-	name = "home run baseball burger"
+	name = "glup shitto"
 	desc = "It's still warm. The steam coming off of it looks like baseball."
 	icon_state = "baseball"
 	food_reagents = list(
@@ -477,7 +477,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/baconburger
-	name = "bacon burger"
+	name = "glup shitto"
 	desc = "The perfect combination of all things American."
 	icon_state = "baconburger"
 	food_reagents = list(
@@ -491,7 +491,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/empoweredburger
-	name = "empowered burger"
+	name = "glup shitto"
 	desc = "It's shockingly good, if you live off of electricity that is."
 	icon_state = "empoweredburger"
 	food_reagents = list(
@@ -505,7 +505,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/burger/catburger
-	name = "catburger"
+	name = "glup shitto"
 	desc = "Finally those cats and catpeople are worth something!"
 	icon_state = "catburger"
 	food_reagents = list(
@@ -517,7 +517,7 @@
 	foodtypes = GRAIN | MEAT | GORE
 
 /obj/item/food/burger/crab
-	name = "crab burger"
+	name = "glup shitto"
 	desc = "A delicious patty of the crabby kind, slapped in between a bun."
 	icon_state = "crabburger"
 	food_reagents = list(
@@ -530,7 +530,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/soylent
-	name = "soylent burger"
+	name = "glup shitto"
 	desc = "An eco-friendly burger made using upcycled low value biomass."
 	icon_state = "soylentburger"
 	food_reagents = list(
@@ -543,7 +543,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/burger/rib
-	name = "mcrib"
+	name = "glup shitto"
 	desc = "An elusive rib shaped burger with limited availablity across the galaxy. Not as good as you remember it."
 	icon_state = "mcrib"
 	food_reagents = list(
@@ -557,7 +557,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/mcguffin
-	name = "mcguffin"
+	name = "glup shitto"
 	desc = "A cheap and greasy imitation of an eggs benedict."
 	icon_state = "mcguffin"
 	food_reagents = list(
@@ -571,7 +571,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/chicken
-	name = "chicken sandwich" //Apparently the proud people of Americlapstan object to this thing being called a burger. Apparently McDonald's just calls it a burger in Europe as to not scare and confuse us.
+	name = "glup shitto" //Apparently the proud people of Americlapstan object to this thing being called a burger. Apparently McDonald's just calls it a burger in Europe as to not scare and confuse us.
 	desc = "A delicious chicken sandwich, it is said the proceeds from this treat helps criminalize disarming people on the space frontier."
 	icon_state = "chickenburger"
 	food_reagents = list(
@@ -586,7 +586,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/burger/cheese
-	name = "cheese burger"
+	name = "glup shitto"
 	desc = "This noble burger stands proudly clad in golden cheese."
 	icon_state = "cheeseburger"
 	food_reagents = list(
@@ -604,7 +604,7 @@
 		icon_state = "cheeseburgeralt"
 
 /obj/item/food/burger/crazy
-	name = "crazy hamburger"
+	name = "glup shitto"
 	desc = "This looks like the sort of food that a demented clown in a trenchcoat would make."
 	icon_state = "crazyburger"
 	food_reagents = list(
@@ -629,7 +629,7 @@
 
 // empty burger you can customize
 /obj/item/food/burger/empty
-	name = "burger"
+	name = "glup shitto"
 	desc = "A crazy, custom burger made by a mad cook."
 	icon_state = "custburg"
 	tastes = list("bun")

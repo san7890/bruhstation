@@ -1,6 +1,6 @@
 /// "Fully immerses" the player, making them manually breathe and blink
 /datum/smite/immerse
-	name = "Fully Immerse"
+	name = "glup shitto"
 
 /datum/smite/immerse/effect(client/user, mob/living/target)
 	. = ..()

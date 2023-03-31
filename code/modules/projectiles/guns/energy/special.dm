@@ -1,5 +1,5 @@
 /obj/item/gun/energy/ionrifle
-	name = "ion rifle"
+	name = "glup shitto"
 	desc = "A man-portable anti-armor weapon designed to disable mechanical threats at range."
 	icon_state = "ionrifle"
 	inhand_icon_state = null //so the human update icon uses the icon_state instead.
@@ -21,7 +21,7 @@
 	return
 
 /obj/item/gun/energy/ionrifle/carbine
-	name = "ion carbine"
+	name = "glup shitto"
 	desc = "The MK.II Prototype Ion Projector is a lightweight carbine version of the larger ion rifle, built to be ergonomic and efficient."
 	icon_state = "ioncarbine"
 	worn_icon_state = "gun"
@@ -34,7 +34,7 @@
 	AddComponent(/datum/component/seclite_attachable, overlay_x = 18, overlay_y = 11)
 
 /obj/item/gun/energy/decloner
-	name = "biological demolecularisor"
+	name = "glup shitto"
 	desc = "A gun that discharges high amounts of controlled radiation to slowly break a target into component elements."
 	icon_state = "decloner"
 	ammo_type = list(/obj/item/ammo_casing/energy/declone)
@@ -51,7 +51,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/declone/weak)
 
 /obj/item/gun/energy/floragun
-	name = "floral somatoray"
+	name = "glup shitto"
 	desc = "A tool that discharges controlled radiation which induces mutation in plant cells."
 	icon_state = "flora"
 	inhand_icon_state = "gun"
@@ -62,7 +62,7 @@
 	gun_flags = NOT_A_REAL_GUN
 
 /obj/item/gun/energy/meteorgun
-	name = "meteor gun"
+	name = "glup shitto"
 	desc = "For the love of god, make sure you're aiming this the right way!"
 	icon_state = "meteor_gun"
 	inhand_icon_state = "c20r"
@@ -74,7 +74,7 @@
 	automatic_charge_overlays = FALSE
 
 /obj/item/gun/energy/meteorgun/pen
-	name = "meteor pen"
+	name = "glup shitto"
 	desc = "The pen is mightier than the sword."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "pen"
@@ -86,7 +86,7 @@
 	automatic_charge_overlays = FALSE
 
 /obj/item/gun/energy/mindflayer
-	name = "\improper Mind Flayer"
+	name = "glup shitto"
 	desc = "A prototype weapon recovered from the ruins of Research-Station Epsilon."
 	icon_state = "xray"
 	w_class = WEIGHT_CLASS_BULKY
@@ -95,7 +95,7 @@
 	ammo_x_offset = 2
 
 /obj/item/gun/energy/plasmacutter
-	name = "plasma cutter"
+	name = "glup shitto"
 	desc = "A mining tool capable of expelling concentrated plasma bursts. You could use it to cut limbs off xenos! Or, you know, mine stuff."
 	icon_state = "plasmacutter"
 	inhand_icon_state = "plasmacutter"
@@ -187,7 +187,7 @@
 		. = ..(amount=1)
 
 /obj/item/gun/energy/plasmacutter/adv
-	name = "advanced plasma cutter"
+	name = "glup shitto"
 	icon_state = "adv_plasmacutter"
 	inhand_icon_state = "adv_plasmacutter"
 	force = 15
@@ -197,7 +197,7 @@
 #define AMMO_SELECT_ORANGE 2
 
 /obj/item/gun/energy/wormhole_projector
-	name = "bluespace wormhole projector"
+	name = "glup shitto"
 	desc = "A projector that emits high density quantum-coupled bluespace beams. Requires a bluespace anomaly core to function. Fits in a bag."
 	ammo_type = list(/obj/item/ammo_casing/energy/wormhole, /obj/item/ammo_casing/energy/wormhole/orange)
 	can_select = FALSE // left-click for blue, right-click for orange.
@@ -307,7 +307,7 @@
 /* 3d printer 'pseudo guns' for borgs */
 
 /obj/item/gun/energy/printer
-	name = "cyborg lmg"
+	name = "glup shitto"
 	desc = "An LMG that fires 3D-printed flechettes. They are slowly resupplied using the cyborg's internal power source."
 	icon_state = "l6_cyborg"
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
@@ -325,7 +325,7 @@
 	return
 
 /obj/item/gun/energy/temperature
-	name = "temperature gun"
+	name = "glup shitto"
 	icon_state = "freezegun"
 	desc = "A gun that changes temperatures. Comes with a collapsible stock."
 	w_class = WEIGHT_CLASS_NORMAL
@@ -334,18 +334,18 @@
 	pin = null
 
 /obj/item/gun/energy/temperature/security
-	name = "security temperature gun"
+	name = "glup shitto"
 	desc = "A weapon that can only be used to its full potential by the truly robust."
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/energy/temperature/freeze
-	name = "cryogenic temperature gun"
+	name = "glup shitto"
 	desc = "A gun that reduces temperatures. Only for those with ice in their veins."
 	pin = /obj/item/firing_pin
 	ammo_type = list(/obj/item/ammo_casing/energy/temp)
 
 /obj/item/gun/energy/gravity_gun
-	name = "one-point gravitational manipulator"
+	name = "glup shitto"
 	desc = "An experimental, multi-mode device that fires bolts of Zero-Point Energy, causing local distortions in gravity. Requires a gravitational anomaly core to function."
 	w_class = WEIGHT_CLASS_BULKY
 	ammo_type = list(/obj/item/ammo_casing/energy/gravity/repulse, /obj/item/ammo_casing/energy/gravity/attract, /obj/item/ammo_casing/energy/gravity/chaos)
@@ -371,7 +371,7 @@
 	return ..()
 
 /obj/item/gun/energy/tesla_cannon
-	name = "tesla cannon"
+	name = "glup shitto"
 	icon_state = "tesla"
 	inhand_icon_state = "tesla"
 	desc = "A gun that shoots balls of \"tesla\", whatever that is."
@@ -384,7 +384,7 @@
 	AddComponent(/datum/component/automatic_fire, 0.1 SECONDS)
 
 /obj/item/gun/energy/marksman_revolver
-	name = "marksman revolver"
+	name = "glup shitto"
 	desc = "Uses electric pulses to fire microscopic pieces of metal at incredibly high speeds. Alternate fire flips a coin that can be targeted for extra firepower."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "revolver"

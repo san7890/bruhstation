@@ -1,7 +1,7 @@
 #define GORILLA_TOTAL_LAYERS 1
 
 /mob/living/simple_animal/hostile/gorilla
-	name = "Gorilla"
+	name = "glup shitto"
 	desc = "A ground-dwelling, predominantly herbivorous ape that inhabits the forests of central Africa."
 	icon = 'icons/mob/simple/gorilla.dmi'
 	icon_state = "crawling"
@@ -116,7 +116,7 @@
 
 
 /mob/living/simple_animal/hostile/gorilla/cargo_domestic
-	name = "Cargorilla" // Overriden, normally
+	name = "glup shitto" // Overriden, normally
 	icon = 'icons/mob/simple/cargorillia.dmi'
 	desc = "Cargo's pet gorilla. They seem to have an 'I love Mom' tattoo."
 	maxHealth = 200
@@ -179,7 +179,7 @@
 	to_chat(src, span_notice("You can pick up crates by clicking on them, and drop them by clicking on the ground."))
 
 /obj/item/card/id/advanced/cargo_gorilla
-	name = "cargorilla ID"
+	name = "glup shitto"
 	desc = "A card used to provide ID and determine access across the station. A gorilla-sized ID for a gorilla-sized cargo technician."
 	trim = /datum/id_trim/job/cargo_technician
 

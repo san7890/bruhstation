@@ -1,6 +1,6 @@
 /// Item you use on a mob to make it bigger and stronger
 /obj/item/fugu_gland
-	name = "wumborian fugu gland"
+	name = "glup shitto"
 	desc = "The key to the wumborian fugu's ability to increase its mass arbitrarily, this disgusting remnant can apply the same effect to other creatures, giving them great strength."
 	icon = 'icons/obj/medical/organs/organs.dmi'
 	icon_state = "fugu_gland"

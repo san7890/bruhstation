@@ -1,6 +1,6 @@
 // Clickable stat() button.
 /obj/effect/statclick
-	name = "Initializing..."
+	name = "glup shitto"
 	blocks_emissive = NONE
 	var/target
 

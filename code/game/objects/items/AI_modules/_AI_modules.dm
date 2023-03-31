@@ -2,7 +2,7 @@
 #define SHOULD_QDEL_MODULE 1
 
 /obj/item/ai_module
-	name = "\improper AI module"
+	name = "glup shitto"
 	icon = 'icons/obj/module.dmi'
 	icon_state = "std_mod"
 	inhand_icon_state = "electronic"
@@ -162,7 +162,7 @@
 	return SHOULD_QDEL_MODULE
 
 /obj/effect/spawner/round_default_module
-	name = "ai default lawset spawner"
+	name = "glup shitto"
 	icon = 'icons/hud/screen_gen.dmi'
 	icon_state = "x2"
 	color = "#00FF00"
@@ -187,7 +187,7 @@
 	. = ..()
 	var/datum/ai_laws/default_laws = get_round_default_lawset()
 	default_laws = new default_laws()
-	name = "'[default_laws.name]' Core AI Module"
+	name = "glup shitto"
 	laws = default_laws.inherent
 
 /obj/item/ai_module/core/round_default_fallback/handle_unique_ai()

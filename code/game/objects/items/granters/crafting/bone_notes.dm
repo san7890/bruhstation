@@ -1,5 +1,5 @@
 /obj/item/book/granter/crafting_recipe/boneyard_notes
-	name = "The Complete Works of Lavaland Bone Architecture"
+	name = "glup shitto"
 	desc = "Pried from the lead Archaeologist's cold, dead hands, this seems to explain how ancient bone architecture was erected long ago."
 	crafting_recipe_types = list(
 		/datum/crafting_recipe/rib,

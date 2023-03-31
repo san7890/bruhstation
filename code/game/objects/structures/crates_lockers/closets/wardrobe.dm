@@ -1,5 +1,5 @@
 /obj/structure/closet/wardrobe
-	name = "wardrobe"
+	name = "glup shitto"
 	desc = "It's a storage unit for standard-issue Nanotrasen attire."
 	icon_door = "blue"
 
@@ -14,7 +14,7 @@
 	return
 
 /obj/structure/closet/wardrobe/pink
-	name = "pink wardrobe"
+	name = "glup shitto"
 	icon_door = "pink"
 
 /obj/structure/closet/wardrobe/pink/PopulateContents()
@@ -27,7 +27,7 @@
 	return
 
 /obj/structure/closet/wardrobe/black
-	name = "black wardrobe"
+	name = "glup shitto"
 	icon_door = "black"
 
 /obj/structure/closet/wardrobe/black/PopulateContents()
@@ -53,7 +53,7 @@
 
 
 /obj/structure/closet/wardrobe/green
-	name = "green wardrobe"
+	name = "glup shitto"
 	icon_door = "green"
 
 /obj/structure/closet/wardrobe/green/PopulateContents()
@@ -69,7 +69,7 @@
 
 
 /obj/structure/closet/wardrobe/orange
-	name = "prison wardrobe"
+	name = "glup shitto"
 	desc = "It's a storage unit for Nanotrasen-regulation prisoner attire."
 	icon_door = "orange"
 
@@ -84,7 +84,7 @@
 
 
 /obj/structure/closet/wardrobe/yellow
-	name = "yellow wardrobe"
+	name = "glup shitto"
 	icon_door = "yellow"
 
 /obj/structure/closet/wardrobe/yellow/PopulateContents()
@@ -100,7 +100,7 @@
 
 
 /obj/structure/closet/wardrobe/white
-	name = "white wardrobe"
+	name = "glup shitto"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/white/PopulateContents()
@@ -117,7 +117,7 @@
 	return
 
 /obj/structure/closet/wardrobe/pjs
-	name = "pajama wardrobe"
+	name = "glup shitto"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/pjs/PopulateContents()
@@ -135,7 +135,7 @@
 
 
 /obj/structure/closet/wardrobe/grey
-	name = "grey wardrobe"
+	name = "glup shitto"
 	icon_door = "grey"
 
 /obj/structure/closet/wardrobe/grey/PopulateContents()
@@ -165,7 +165,7 @@
 
 
 /obj/structure/closet/wardrobe/mixed
-	name = "mixed wardrobe"
+	name = "glup shitto"
 	icon_door = "mixed"
 
 /obj/structure/closet/wardrobe/mixed/PopulateContents()

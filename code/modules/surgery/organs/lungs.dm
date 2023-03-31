@@ -1,5 +1,5 @@
 /obj/item/organ/internal/lungs
-	name = "lungs"
+	name = "glup shitto"
 	icon_state = "lungs"
 	visual = FALSE
 	zone = BODY_ZONE_CHEST
@@ -793,7 +793,7 @@
 	return owner_species.mutantlungs
 
 /obj/item/organ/internal/lungs/plasmaman
-	name = "plasma filter"
+	name = "glup shitto"
 	desc = "A spongy rib-shaped mass for filtering plasma from the air."
 	icon_state = "lungs-plasma"
 	organ_traits = list(TRAIT_NOHUNGER) // A fresh breakfast of plasma is a great start to any morning.
@@ -803,7 +803,7 @@
 	safe_plasma_max = 0
 
 /obj/item/organ/internal/lungs/slime
-	name = "vacuole"
+	name = "glup shitto"
 	desc = "A large organelle designed to store oxygen and other important gasses."
 
 	safe_plasma_max = 0 //We breathe this to gain POWER.
@@ -815,7 +815,7 @@
 		breather_slime.blood_volume += (0.2 * plasma_pp) // 10/s when breathing literally nothing but plasma, which will suffocate you.
 
 /obj/item/organ/internal/lungs/cybernetic
-	name = "basic cybernetic lungs"
+	name = "glup shitto"
 	desc = "A basic cybernetic version of the lungs found in traditional humanoid entities."
 	icon_state = "lungs-c"
 	organ_flags = ORGAN_SYNTHETIC
@@ -824,7 +824,7 @@
 	var/emp_vulnerability = 80 //Chance of permanent effects if emp-ed.
 
 /obj/item/organ/internal/lungs/cybernetic/tier2
-	name = "cybernetic lungs"
+	name = "glup shitto"
 	desc = "A cybernetic version of the lungs found in traditional humanoid entities. Allows for greater intakes of oxygen than organic lungs, requiring slightly less pressure."
 	icon_state = "lungs-c-u"
 	maxHealth = 1.5 * STANDARD_ORGAN_THRESHOLD
@@ -832,7 +832,7 @@
 	emp_vulnerability = 40
 
 /obj/item/organ/internal/lungs/cybernetic/tier3
-	name = "upgraded cybernetic lungs"
+	name = "glup shitto"
 	desc = "A more advanced version of the stock cybernetic lungs. Features the ability to filter out lower levels of plasma and carbon dioxide."
 	icon_state = "lungs-c-u2"
 	safe_plasma_max = 20
@@ -857,7 +857,7 @@
 
 
 /obj/item/organ/internal/lungs/lavaland
-	name = "blackened frilled lungs" // blackened from necropolis exposure
+	name = "glup shitto" // blackened from necropolis exposure
 	desc = "Exposure to the necropolis has mutated these lungs to breathe the air of Indecipheres, the lava-covered moon."
 	icon_state = "lungs-ashwalker"
 
@@ -917,7 +917,7 @@
 #undef GAS_TOLERANCE
 
 /obj/item/organ/internal/lungs/ethereal
-	name = "aeration reticulum"
+	name = "glup shitto"
 	desc = "These exotic lungs seem crunchier than most."
 	icon_state = "lungs_ethereal"
 	heat_level_1_threshold = FIRE_MINIMUM_TEMPERATURE_TO_SPREAD // 150C or 433k, in line with ethereal max safe body temperature

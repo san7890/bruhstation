@@ -1,5 +1,5 @@
 /datum/disease/flu
-	name = "The Flu"
+	name = "glup shitto"
 	max_stages = 3
 	spread_text = "Airborne"
 	cure_text = "Spaceacillin"

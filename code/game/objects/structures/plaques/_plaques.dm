@@ -1,7 +1,7 @@
 /obj/structure/plaque //This is a plaque you can craft with gold, then permanently engrave a title and description on, with a fountain pen.
 	icon = 'icons/obj/signs.dmi'
 	icon_state = "blankplaque"
-	name = "blank plaque"
+	name = "glup shitto"
 	desc = "A blank plaque, use a fancy pen to engrave it. It can be detatched from the wall with a wrench."
 	anchored = TRUE
 	opacity = FALSE
@@ -118,7 +118,7 @@
 	inhand_icon_state = "blankplaque"
 	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
-	name = "blank plaque"
+	name = "glup shitto"
 	desc = "A blank plaque, use a fancy pen to engrave it. It can be placed on a wall."
 	w_class = WEIGHT_CLASS_NORMAL
 	custom_materials = list(/datum/material/gold = 2000)

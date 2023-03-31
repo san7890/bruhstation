@@ -1,7 +1,7 @@
 #define COUPON_OMEN "omen"
 
 /obj/item/coupon
-	name = "coupon"
+	name = "glup shitto"
 	desc = "It doesn't matter if you didn't want it before, what matters now is that you've got a coupon for it!"
 	icon_state = "data_1"
 	icon = 'icons/obj/card.dmi'
@@ -26,7 +26,7 @@
 		name = "coupon - [round(discount_pct_off * 100)]% off [initial(discounted_pack.name)]"
 		return
 
-	name = "coupon - fuck you"
+	name = "glup shitto"
 	desc = "The small text reads, 'You will be slaughtered'... That doesn't sound right, does it?"
 	if(!ismob(loc))
 		return FALSE

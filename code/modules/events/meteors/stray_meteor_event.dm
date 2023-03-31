@@ -1,5 +1,5 @@
 /datum/round_event_control/stray_meteor
-	name = "Stray Meteor"
+	name = "glup shitto"
 	typepath = /datum/round_event/stray_meteor
 	weight = 15 //Number subject to change based on how often meteors actually collide with the station
 	min_players = 15

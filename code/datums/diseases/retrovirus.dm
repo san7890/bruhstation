@@ -1,5 +1,5 @@
 /datum/disease/dna_retrovirus
-	name = "Retrovirus"
+	name = "glup shitto"
 	max_stages = 4
 	spread_text = "Contact"
 	spread_flags = DISEASE_SPREAD_BLOOD | DISEASE_SPREAD_CONTACT_SKIN | DISEASE_SPREAD_CONTACT_FLUIDS

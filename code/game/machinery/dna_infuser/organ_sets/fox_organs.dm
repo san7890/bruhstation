@@ -1,5 +1,5 @@
 /obj/item/organ/internal/ears/fox
-	name = "fox ears"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
 	icon_state = "kitty"

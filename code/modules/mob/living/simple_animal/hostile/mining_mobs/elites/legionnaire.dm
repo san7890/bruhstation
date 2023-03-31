@@ -17,7 +17,7 @@
  */
 
 /mob/living/simple_animal/hostile/asteroid/elite/legionnaire
-	name = "legionnaire"
+	name = "glup shitto"
 	desc = "A towering skeleton, embodying the terrifying power of Legion."
 	icon_state = "legionnaire"
 	icon_living = "legionnaire"
@@ -53,25 +53,25 @@
 	var/charging = FALSE
 
 /datum/action/innate/elite_attack/legionnaire_charge
-	name = "Legionnaire Charge"
+	name = "glup shitto"
 	button_icon_state = "legionnaire_charge"
 	chosen_message = "<span class='boldwarning'>You will attempt to grab your opponent and throw them.</span>"
 	chosen_attack_num = LEGIONNAIRE_CHARGE
 
 /datum/action/innate/elite_attack/head_detach
-	name = "Release Head"
+	name = "glup shitto"
 	button_icon_state = "head_detach"
 	chosen_message = "<span class='boldwarning'>You will now detach your head or kill it if it is already released.</span>"
 	chosen_attack_num = HEAD_DETACH
 
 /datum/action/innate/elite_attack/bonfire_teleport
-	name = "Bonfire Teleport"
+	name = "glup shitto"
 	button_icon_state = "bonfire_teleport"
 	chosen_message = "<span class='boldwarning'>You will leave a bonfire.  Second use will let you swap positions with it indefintiely.  Using this move on the same tile as your active bonfire removes it.</span>"
 	chosen_attack_num = BONFIRE_TELEPORT
 
 /datum/action/innate/elite_attack/spew_smoke
-	name = "Spew Smoke"
+	name = "glup shitto"
 	button_icon_state = "spew_smoke"
 	chosen_message = "<span class='boldwarning'>Your head will spew smoke in an area, wherever it may be.</span>"
 	chosen_attack_num = SPEW_SMOKE
@@ -236,7 +236,7 @@
 
 //The legionnaire's head.  Basically the same as any legion head, but we have to tell our creator when we die so they can generate another head.
 /mob/living/simple_animal/hostile/asteroid/elite/legionnairehead
-	name = "legionnaire head"
+	name = "glup shitto"
 	desc = "The legionnaire's head floating by itself.  One shouldn't get too close, though once it sees you, you really don't have a choice."
 	icon_state = "legionnaire_head"
 	icon_living = "legionnaire_head"
@@ -267,7 +267,7 @@
 
 //The legionnaire's bonfire, which can be swapped positions with.  Also sets flammable living beings on fire when they walk over it.
 /obj/structure/legionnaire_bonfire
-	name = "bone pile"
+	name = "glup shitto"
 	desc = "A pile of bones which seems to occasionally move a little.  It's probably a good idea to smash them."
 	icon = 'icons/obj/lavaland/legionnaire_bonfire.dmi'
 	icon_state = "bonfire"
@@ -313,7 +313,7 @@
 // Legionnaire's loot: Legionnaire Spine
 
 /obj/item/crusher_trophy/legionnaire_spine
-	name = "legionnaire spine"
+	name = "glup shitto"
 	desc = "The spine of a legionnaire. With some creativity, you could use it as a crusher trophy. Alternatively, shaking it might do something as well."
 	icon = 'icons/obj/lavaland/elite_trophies.dmi'
 	icon_state = "legionnaire_spine"

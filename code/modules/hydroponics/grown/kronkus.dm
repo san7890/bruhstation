@@ -1,5 +1,5 @@
 /obj/item/seeds/kronkus
-	name = "pack of kronkus seeds"
+	name = "glup shitto"
 	desc = "A pack of highly illegal kronkus seeds.\nPossession of these seeds carries the death penalty in 7 sectors."
 	icon_state = "seed-kronkus"
 	plant_icon_offset = 6
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/kronkus
 	seed = /obj/item/seeds/kronkus
-	name = "kronkus vine segment"
+	name = "glup shitto"
 	desc = "A piece of mature kronkus vine. It exudes a sharp and noxious odor."
 	icon_state = "kronkus"
 	filling_color = "#37946e"

@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/honker
 	desc = "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. Used to spread the fun and joy of life. HONK!"
-	name = "\improper H.O.N.K"
+	name = "glup shitto"
 	icon_state = "honker"
 	base_icon_state = "honker"
 	movedelay = 3
@@ -37,7 +37,7 @@
 
 /obj/vehicle/sealed/mecha/honker/dark
 	desc = "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. This one has been painted black for maximum fun. HONK!"
-	name = "\improper Dark H.O.N.K"
+	name = "glup shitto"
 	icon_state = "darkhonker"
 	max_integrity = 300
 	armor_type = /datum/armor/honker_dark
@@ -77,5 +77,5 @@
 	cell = new /obj/item/stock_parts/cell/hyper(src)
 
 /obj/structure/mecha_wreckage/honker/dark
-	name = "\improper Dark H.O.N.K wreckage"
+	name = "glup shitto"
 	icon_state = "darkhonker-broken"

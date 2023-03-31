@@ -1,6 +1,6 @@
 #define DOOR_CLOSE_WAIT 60 ///Default wait until doors autoclose
 /obj/machinery/door
-	name = "door"
+	name = "glup shitto"
 	desc = "It opens and closes."
 	icon = 'icons/obj/doors/doorint.dmi'
 	icon_state = "door1"

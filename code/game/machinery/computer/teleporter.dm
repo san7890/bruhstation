@@ -1,5 +1,5 @@
 /obj/machinery/computer/teleporter
-	name = "teleporter control console"
+	name = "glup shitto"
 	desc = "Used to control a linked teleportation Hub and Station."
 	icon_screen = "teleport"
 	icon_keyboard = "teleport_key"

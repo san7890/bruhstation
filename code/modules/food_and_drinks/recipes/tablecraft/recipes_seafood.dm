@@ -1,5 +1,5 @@
 /datum/crafting_recipe/food/cubancarp
-	name = "Cuban carp"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/flour = 5,
 		/obj/item/food/grown/chili = 1,
@@ -9,7 +9,7 @@
 	category = CAT_SEAFOOD
 
 /datum/crafting_recipe/food/fishandchips
-	name = "Fish and chips"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/fries = 1,
 		/obj/item/food/fishmeat = 1
@@ -18,7 +18,7 @@
 	category = CAT_SEAFOOD
 
 /datum/crafting_recipe/food/fishfingers
-	name = "Fish fingers"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/flour = 5,
 		/obj/item/food/bun = 1,
@@ -28,7 +28,7 @@
 	category = CAT_SEAFOOD
 
 /datum/crafting_recipe/food/fishfry
-	name = "Fish fry"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/corn = 1,
 		/obj/item/food/grown/peas = 1,
@@ -38,7 +38,7 @@
 	category = CAT_SEAFOOD
 
 /datum/crafting_recipe/food/sashimi
-	name = "Sashimi"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/soysauce = 5,
 		/obj/item/food/spidereggs = 1,

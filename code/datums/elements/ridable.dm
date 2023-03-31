@@ -162,7 +162,7 @@
 		source.can_buckle = TRUE
 
 /obj/item/riding_offhand
-	name = "offhand"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "offhand"
 	w_class = WEIGHT_CLASS_HUGE

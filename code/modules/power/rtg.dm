@@ -2,7 +2,7 @@
 // Simple power generator that would replace "magic SMES" on various derelicts.
 
 /obj/machinery/power/rtg
-	name = "radioisotope thermoelectric generator"
+	name = "glup shitto"
 	desc = "A simple nuclear power generator, used in small outposts to reliably provide power for decades."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "rtg"
@@ -54,7 +54,7 @@
 // Provides a lot of power, but tends to explode when mistreated.
 
 /obj/machinery/power/rtg/abductor
-	name = "Void Core"
+	name = "glup shitto"
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "core"
 	desc = "An alien power source that produces energy seemingly out of nowhere."
@@ -98,7 +98,7 @@
 		overload()
 
 /obj/machinery/power/rtg/debug
-	name = "Debug RTG"
+	name = "glup shitto"
 	desc = "You really shouldn't be seeing this if you're not a coder or jannie."
 	power_gen = 20000
 	circuit = null
@@ -108,7 +108,7 @@
 	return
 
 /obj/machinery/power/rtg/lavaland
-	name = "Lava powered RTG"
+	name = "glup shitto"
 	desc = "This device only works when exposed to the toxic fumes of Lavaland"
 	circuit = null
 	power_gen = 1500
@@ -135,7 +135,7 @@
 	power_gen = initial(power_gen)
 
 /obj/machinery/power/rtg/old_station
-	name = "Old RTG"
+	name = "glup shitto"
 	desc = "A very old RTG, it seems on the verge of being destroyed"
 	circuit = null
 	power_gen = 750

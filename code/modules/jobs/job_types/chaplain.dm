@@ -113,7 +113,7 @@
 	SSblackbox.record_feedback("text", "religion_bible", 1, "[new_bible]", 1)
 
 /datum/outfit/job/chaplain
-	name = "Chaplain"
+	name = "glup shitto"
 	jobtype = /datum/job/chaplain
 
 	id_trim = /datum/id_trim/job/chaplain

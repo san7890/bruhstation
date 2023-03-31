@@ -2,7 +2,7 @@
 GLOBAL_LIST_EMPTY(wizard_spellbook_purchases_by_key)
 
 /datum/antagonist/wizard
-	name = "\improper Space Wizard"
+	name = "glup shitto"
 	roundend_category = "wizards/witches"
 	antagpanel_category = ANTAG_GROUP_WIZARDS
 	job_rank = ROLE_WIZARD
@@ -24,7 +24,7 @@ GLOBAL_LIST_EMPTY(wizard_spellbook_purchases_by_key)
 	var/datum/action/cooldown/grand_ritual/ritual
 
 /datum/antagonist/wizard_minion
-	name = "Wizard Minion"
+	name = "glup shitto"
 	antagpanel_category = "Wizard Federation"
 	antag_hud_name = "apprentice"
 	show_in_roundend = FALSE
@@ -88,7 +88,7 @@ GLOBAL_LIST_EMPTY(wizard_spellbook_purchases_by_key)
 	return wiz_team
 
 /datum/team/wizard
-	name = "\improper Wizard team"
+	name = "glup shitto"
 	var/datum/antagonist/wizard/master_wizard
 
 /datum/antagonist/wizard/proc/create_wiz_team()
@@ -239,7 +239,7 @@ GLOBAL_LIST_EMPTY(wizard_spellbook_purchases_by_key)
 	owner.current.forceMove(pick(GLOB.wizardstart))
 
 /datum/antagonist/wizard/apprentice
-	name = "Wizard Apprentice"
+	name = "glup shitto"
 	antag_hud_name = "apprentice"
 	var/datum/mind/master
 	var/school = APPRENTICE_DESTRUCTION
@@ -317,7 +317,7 @@ GLOBAL_LIST_EMPTY(wizard_spellbook_purchases_by_key)
 
 //Random event wizard
 /datum/antagonist/wizard/apprentice/imposter
-	name = "Wizard Imposter"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	allow_rename = FALSE
 	move_to_lair = FALSE
@@ -354,7 +354,7 @@ GLOBAL_LIST_EMPTY(wizard_spellbook_purchases_by_key)
 	blink.Grant(H)
 
 /datum/antagonist/wizard/academy
-	name = "Academy Teacher"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	outfit_type = /datum/outfit/wizard/academy
 	move_to_lair = FALSE

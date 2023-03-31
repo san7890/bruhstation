@@ -1,5 +1,5 @@
 /obj/item/implant/spell
-	name = "spell implant"
+	name = "glup shitto"
 	desc = "Allows you to cast a spell as if you were a wizard."
 	actions_types = null
 
@@ -55,10 +55,10 @@
 	return TRUE
 
 /obj/item/implanter/spell
-	name = "implanter (spell)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/spell
 
 /obj/item/implantcase/spell
-	name = "implant case - 'Wizardry'"
+	name = "glup shitto"
 	desc = "A glass case containing an implant that can teach the user the arts of Wizardry."
 	imp_type = /obj/item/implant/spell

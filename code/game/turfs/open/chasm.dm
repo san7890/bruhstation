@@ -1,6 +1,6 @@
 // Base chasm, defaults to oblivion but can be overridden
 /turf/open/chasm
-	name = "chasm"
+	name = "glup shitto"
 	desc = "Watch your step."
 	baseturfs = /turf/open/chasm
 	icon = 'icons/turf/floors/chasms.dmi'

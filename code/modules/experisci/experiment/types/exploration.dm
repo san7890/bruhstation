@@ -1,5 +1,5 @@
 /datum/experiment/exploration_scan
-	name = "Exploration Experiment"
+	name = "glup shitto"
 	description = "An experiment requiring drone exploration to progress"
 	exp_tag = "Exploration"
 	performance_hint = "Find a site with specific characteristics and perform the scan."
@@ -33,19 +33,19 @@
 	return !is_complete()
 
 /datum/experiment/exploration_scan/asteroid_belt
-	name = "Scan Asteroid Belt"
+	name = "glup shitto"
 	description = "We're looking for a site to test our asteroid blasting caps. Perform point scan of one."
 	required_site_type = /datum/exploration_site/asteroid_belt
 	required_scan_type = EXOSCAN_POINT
 
 /datum/experiment/exploration_scan/black_hole
-	name = "Deep scan a black hole"
+	name = "glup shitto"
 	description = "We require more research data on black holes, perform deep scan of a system affected by one."
 	required_condition = /datum/scan_condition/black_hole
 	required_scan_type = EXOSCAN_DEEP
 
 /datum/experiment/exploration_scan/random
-	name = "Random Exoscan Experiment"
+	name = "glup shitto"
 	description = "We need scan data of specific site type"
 	/// If not null the required_site_type will be picked from this list
 	var/list/possible_random_conditions

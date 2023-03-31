@@ -1,6 +1,6 @@
 /// Rips off all the limbs of the target
 /datum/smite/nugget
-	name = "Nugget"
+	name = "glup shitto"
 
 /datum/smite/nugget/effect(client/user, mob/living/target)
 	. = ..()

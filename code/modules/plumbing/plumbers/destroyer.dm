@@ -1,5 +1,5 @@
 /obj/machinery/plumbing/disposer
-	name = "chemical disposer"
+	name = "glup shitto"
 	desc = "Breaks down chemicals and annihilates them."
 	icon_state = "disposal"
 	pass_flags_self = PASSMACHINE | LETPASSTHROW // Small

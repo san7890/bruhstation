@@ -1,6 +1,6 @@
 /// Actions that you can use to dash (teleport) to places in view.
 /datum/action/innate/dash
-	name = "Dash"
+	name = "glup shitto"
 	desc = "Teleport to the targeted location."
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "jetboot"

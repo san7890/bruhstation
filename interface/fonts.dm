@@ -6,5 +6,5 @@
 	var/font_family
 
 /datum/font/vcr_osd_mono
-	name = "VCR OSD Mono"
+	name = "glup shitto"
 	font_family = 'interface/VCR_OSD_Mono.ttf'

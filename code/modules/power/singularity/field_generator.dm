@@ -24,7 +24,7 @@ no power level overlay is currently in the overlays list.
 #define FG_WELDED 2
 
 /obj/machinery/field/generator
-	name = "field generator"
+	name = "glup shitto"
 	desc = "A large thermal battery that projects a high amount of energy when powered."
 	icon = 'icons/obj/machines/field_generator.dmi'
 	icon_state = "Field_Gen"

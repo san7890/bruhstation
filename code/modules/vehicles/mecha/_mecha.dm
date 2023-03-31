@@ -18,7 +18,7 @@
  * Cooldown for gear is on the mech because exploits
  */
 /obj/vehicle/sealed/mecha
-	name = "exosuit"
+	name = "glup shitto"
 	desc = "Exosuit"
 	icon = 'icons/mecha/mecha.dmi'
 	resistance_flags = FIRE_PROOF | ACID_PROOF

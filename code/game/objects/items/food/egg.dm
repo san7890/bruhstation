@@ -2,7 +2,7 @@
 ////////////////////////////////////////////EGGS////////////////////////////////////////////
 
 /obj/item/food/chocolateegg
-	name = "chocolate egg"
+	name = "glup shitto"
 	desc = "Such, sweet, fattening food."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "chocolateegg"
@@ -16,7 +16,7 @@
 GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 
 /obj/item/food/egg
-	name = "egg"
+	name = "glup shitto"
 	desc = "An egg!"
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "egg"
@@ -153,7 +153,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	inhand_icon_state = "egg-yellow"
 
 /obj/item/food/egg/fertile
-	name = "fertile-looking egg"
+	name = "glup shitto"
 	desc = "An egg! It looks fertilized.\nQuite how you can tell this just by looking at it is a mystery."
 	chick_throw_prob = 100
 
@@ -171,7 +171,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	)
 
 /obj/item/food/friedegg
-	name = "fried egg"
+	name = "glup shitto"
 	desc = "A fried egg. Would go well with a touch of salt and pepper."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "friedegg"
@@ -187,7 +187,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	burns_on_grill = TRUE
 
 /obj/item/food/rawegg
-	name = "raw egg"
+	name = "glup shitto"
 	desc = "Supposedly good for you, if you can stomach it. Better fried."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "rawegg"
@@ -202,7 +202,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	AddComponent(/datum/component/grillable, /obj/item/food/friedegg, rand(20 SECONDS, 35 SECONDS), TRUE, FALSE)
 
 /obj/item/food/boiledegg
-	name = "boiled egg"
+	name = "glup shitto"
 	desc = "A hard boiled egg."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "egg"
@@ -219,7 +219,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	decomp_type = /obj/item/food/boiledegg/rotten
 
 /obj/item/food/eggsausage
-	name = "egg with sausage"
+	name = "glup shitto"
 	desc = "A good egg with a side of sausages."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "eggsausage"
@@ -235,7 +235,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	preserved_food = TRUE
 
 /obj/item/food/omelette //FUCK THIS
-	name = "omelette du fromage"
+	name = "glup shitto"
 	desc = "That's all you can say!"
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "omelette"
@@ -268,7 +268,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	..()
 
 /obj/item/food/benedict
-	name = "eggs benedict"
+	name = "glup shitto"
 	desc = "There is only one egg on this, how rude."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "benedict"
@@ -283,7 +283,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/eggwrap
-	name = "egg wrap"
+	name = "glup shitto"
 	desc = "The precursor to Pigs in a Blanket."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "eggwrap"
@@ -297,7 +297,7 @@ GLOBAL_VAR_INIT(chicks_from_eggs, 0)
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/chawanmushi
-	name = "chawanmushi"
+	name = "glup shitto"
 	desc = "A legendary egg custard that makes friends out of enemies. Probably too hot for a cat to eat."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "chawanmushi"

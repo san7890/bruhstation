@@ -1,7 +1,7 @@
 #define HOURGLASS_STATES 7 //Remember to update if you change the sprite
 
 /obj/item/hourglass
-	name = "hourglass"
+	name = "glup shitto"
 	desc = "Nanotrasen patented gravity invariant hourglass. Guaranteed to flow perfectly under any conditions."
 	var/obj/effect/countdown/hourglass/countdown
 	var/time = 1 MINUTES

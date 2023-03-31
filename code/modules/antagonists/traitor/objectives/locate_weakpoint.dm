@@ -1,12 +1,12 @@
 /datum/traitor_objective_category/locate_weakpoint
-	name = "Locate And Destroy Weakpoint"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/locate_weakpoint = 1,
 	)
 	weight = OBJECTIVE_WEIGHT_UNLIKELY
 
 /datum/traitor_objective/locate_weakpoint
-	name = "Triangulate station's structural weakpoint and detonate an explosive charge nearby."
+	name = "glup shitto"
 	description = "You will be given a handheld device that you'll need to use in %AREA1% and %AREA2% in order to triangulate the station's structural weakpoint and detonate an explosive charge there. Warning: Once you start scanning either one of the areas, station's AI will be alerted."
 
 	progression_minimum = 45 MINUTES
@@ -131,7 +131,7 @@
 	succeed_objective()
 
 /obj/item/weakpoint_locator
-	name = "structural weakpoint locator"
+	name = "glup shitto"
 	desc = "A device that can triangulate station's structural weakpoint. It has to be used in %AREA1% and %AREA2% in order to triangulate the weakpoint. Warning: station's AI will be notified as soon as the process starts!"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "weakpoint_locator"
@@ -221,7 +221,7 @@
 	return TRUE
 
 /obj/item/grenade/c4/es8
-	name = "ES8 explosive charge"
+	name = "glup shitto"
 	desc = "A high-power explosive charge designed to create a shockwave in a structural weakpoint of the station."
 
 	icon_state = "plasticx40"

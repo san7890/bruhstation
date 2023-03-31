@@ -21,7 +21,7 @@
  * A datum that represents a product that is vendable
  */
 /datum/data/vending_product
-	name = "generic"
+	name = "glup shitto"
 	///Typepath of the product that is created when this record "sells"
 	var/product_path = null
 	///How many of this product we currently have
@@ -48,7 +48,7 @@
  * Captalism in the year 2525, everything in a vending machine, even love
  */
 /obj/machinery/vending
-	name = "\improper Vendomat"
+	name = "glup shitto"
 	desc = "A generic vending machine."
 	icon = 'icons/obj/vending.dmi'
 	icon_state = "generic"
@@ -1254,7 +1254,7 @@
 	return ..()
 
 /obj/machinery/vending/custom
-	name = "Custom Vendor"
+	name = "glup shitto"
 	icon_state = "custom"
 	icon_deny = "custom-deny"
 	max_integrity = 400
@@ -1418,7 +1418,7 @@
 	return TRUE
 
 /obj/machinery/vending/custom/unbreakable
-	name = "Indestructible Vendor"
+	name = "glup shitto"
 	resistance_flags = INDESTRUCTIBLE
 
 /obj/item/vending_refill/custom
@@ -1442,7 +1442,7 @@
 	set_anchored(FALSE)
 	add_overlay(panel_type)
 	//and references the deity
-	name = "[GLOB.deity]'s Consecrated Vendor"
+	name = "glup shitto"
 	desc = "A vending machine created by [GLOB.deity]."
 	slogan_list = list("[GLOB.deity] says: It's your divine right to buy!")
 	add_filter("vending_outline", 9, list("type" = "outline", "color" = COLOR_VERY_SOFT_YELLOW))

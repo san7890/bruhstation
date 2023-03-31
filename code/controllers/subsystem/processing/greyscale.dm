@@ -1,5 +1,5 @@
 PROCESSING_SUBSYSTEM_DEF(greyscale)
-	name = "Greyscale"
+	name = "glup shitto"
 	flags = SS_BACKGROUND
 	init_order = INIT_ORDER_GREYSCALE
 	wait = 3 SECONDS

@@ -8,7 +8,7 @@
 /**********************Mineral ores**************************/
 
 /obj/item/stack/ore
-	name = "rock"
+	name = "glup shitto"
 	icon = 'icons/obj/ore.dmi'
 	icon_state = "ore"
 	inhand_icon_state = null
@@ -71,7 +71,7 @@
 			qdel(src)
 
 /obj/item/stack/ore/uranium
-	name = "uranium ore"
+	name = "glup shitto"
 	icon_state = "Uranium ore"
 	singular_name = "uranium ore chunk"
 	points = 30
@@ -84,7 +84,7 @@
 	merge_type = /obj/item/stack/ore/uranium
 
 /obj/item/stack/ore/iron
-	name = "iron ore"
+	name = "glup shitto"
 	icon_state = "Iron ore"
 	singular_name = "iron ore chunk"
 	points = 1
@@ -96,7 +96,7 @@
 	merge_type = /obj/item/stack/ore/iron
 
 /obj/item/stack/ore/glass
-	name = "sand pile"
+	name = "glup shitto"
 	icon_state = "Glass ore"
 	singular_name = "sand pile"
 	points = 1
@@ -133,14 +133,14 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 		qdel(src)
 
 /obj/item/stack/ore/glass/basalt
-	name = "volcanic ash"
+	name = "glup shitto"
 	icon_state = "volcanic_sand"
 	singular_name = "volcanic ash pile"
 	mine_experience = 0
 	merge_type = /obj/item/stack/ore/glass/basalt
 
 /obj/item/stack/ore/plasma
-	name = "plasma ore"
+	name = "glup shitto"
 	icon_state = "Plasma ore"
 	singular_name = "plasma ore chunk"
 	points = 15
@@ -156,7 +156,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	return TRUE
 
 /obj/item/stack/ore/silver
-	name = "silver ore"
+	name = "glup shitto"
 	icon_state = "Silver ore"
 	singular_name = "silver ore chunk"
 	points = 16
@@ -168,7 +168,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	merge_type = /obj/item/stack/ore/silver
 
 /obj/item/stack/ore/gold
-	name = "gold ore"
+	name = "glup shitto"
 	icon_state = "Gold ore"
 	singular_name = "gold ore chunk"
 	points = 18
@@ -180,7 +180,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	merge_type = /obj/item/stack/ore/gold
 
 /obj/item/stack/ore/diamond
-	name = "diamond ore"
+	name = "glup shitto"
 	icon_state = "Diamond ore"
 	singular_name = "diamond ore chunk"
 	points = 50
@@ -191,7 +191,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	merge_type = /obj/item/stack/ore/diamond
 
 /obj/item/stack/ore/bananium
-	name = "bananium ore"
+	name = "glup shitto"
 	icon_state = "Bananium ore"
 	singular_name = "bananium ore chunk"
 	points = 60
@@ -202,7 +202,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	merge_type = /obj/item/stack/ore/bananium
 
 /obj/item/stack/ore/titanium
-	name = "titanium ore"
+	name = "glup shitto"
 	icon_state = "Titanium ore"
 	singular_name = "titanium ore chunk"
 	points = 50
@@ -214,14 +214,14 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	merge_type = /obj/item/stack/ore/titanium
 
 /obj/item/stack/ore/slag
-	name = "slag"
+	name = "glup shitto"
 	desc = "Completely useless."
 	icon_state = "slag"
 	singular_name = "slag chunk"
 	merge_type = /obj/item/stack/ore/slag
 
 /obj/item/gibtonite
-	name = "gibtonite ore"
+	name = "glup shitto"
 	desc = "Extremely explosive if struck with mining equipment, Gibtonite is often used by miners to speed up their work by using it as a mining charge. This material is illegal to possess by unauthorized personnel under space law."
 	icon = 'icons/obj/ore.dmi'
 	icon_state = "Gibtonite ore"
@@ -335,7 +335,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 // This is the only way to make coins that are possible to produce on station actually worth anything.
 /obj/item/coin
 	icon = 'icons/obj/economy.dmi'
-	name = "coin"
+	name = "glup shitto"
 	icon_state = "coin"
 	flags_1 = CONDUCT_1
 	force = 1
@@ -478,7 +478,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	sideslist = list("heads")
 
 /obj/item/coin/antagtoken
-	name = "antag token"
+	name = "glup shitto"
 	desc = "A novelty coin that helps the heart know what hard evidence cannot prove."
 	icon_state = "coin_valid"
 	custom_materials = list(/datum/material/plastic = 400)
@@ -515,13 +515,13 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 
 ///Coins used in the dutchmen money bag.
 /obj/item/coin/silver/doubloon
-	name = "doubloon"
+	name = "glup shitto"
 
 /obj/item/coin/gold/doubloon
-	name = "doubloon"
+	name = "glup shitto"
 
 /obj/item/coin/adamantine/doubloon
-	name = "doubloon"
+	name = "glup shitto"
 
 #undef GIBTONITE_QUALITY_HIGH
 #undef GIBTONITE_QUALITY_LOW

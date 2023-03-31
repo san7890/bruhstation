@@ -25,7 +25,7 @@
 		return ..()
 
 /obj/item/stack/tile/mineral/plasma
-	name = "plasma tile"
+	name = "glup shitto"
 	singular_name = "plasma floor tile"
 	desc = "A tile made out of highly flammable plasma. This can only end well."
 	icon_state = "tile_plasma"
@@ -36,7 +36,7 @@
 	merge_type = /obj/item/stack/tile/mineral/plasma
 
 /obj/item/stack/tile/mineral/uranium
-	name = "uranium tile"
+	name = "glup shitto"
 	singular_name = "uranium floor tile"
 	desc = "A tile made out of uranium. You feel a bit woozy."
 	icon_state = "tile_uranium"
@@ -47,7 +47,7 @@
 	merge_type = /obj/item/stack/tile/mineral/uranium
 
 /obj/item/stack/tile/mineral/gold
-	name = "gold tile"
+	name = "glup shitto"
 	singular_name = "gold floor tile"
 	desc = "A tile made out of gold, the swag seems strong here."
 	icon_state = "tile_gold"
@@ -58,7 +58,7 @@
 	merge_type = /obj/item/stack/tile/mineral/gold
 
 /obj/item/stack/tile/mineral/silver
-	name = "silver tile"
+	name = "glup shitto"
 	singular_name = "silver floor tile"
 	desc = "A tile made out of silver, the light shining from it is blinding."
 	icon_state = "tile_silver"
@@ -69,7 +69,7 @@
 	merge_type = /obj/item/stack/tile/mineral/silver
 
 /obj/item/stack/tile/mineral/diamond
-	name = "diamond tile"
+	name = "glup shitto"
 	singular_name = "diamond floor tile"
 	desc = "A tile made out of diamond. Wow, just, wow."
 	icon_state = "tile_diamond"
@@ -80,7 +80,7 @@
 	merge_type = /obj/item/stack/tile/mineral/diamond
 
 /obj/item/stack/tile/mineral/bananium
-	name = "bananium tile"
+	name = "glup shitto"
 	singular_name = "bananium floor tile"
 	desc = "A non-slippery tile made out of bananium, HOOOOOOOOONK!"
 	icon_state = "tile_bananium"
@@ -92,7 +92,7 @@
 	merge_type = /obj/item/stack/tile/mineral/bananium
 
 /obj/item/stack/tile/mineral/abductor
-	name = "alien floor tile"
+	name = "glup shitto"
 	singular_name = "alien floor tile"
 	desc = "A tile made out of alien alloy."
 	icon = 'icons/obj/abductor.dmi'
@@ -104,7 +104,7 @@
 	merge_type = /obj/item/stack/tile/mineral/abductor
 
 /obj/item/stack/tile/mineral/titanium
-	name = "titanium tile"
+	name = "glup shitto"
 	singular_name = "titanium floor tile"
 	desc = "Sleek titanium tiles, used for shuttles."
 	icon_state = "tile_titanium"
@@ -127,7 +127,7 @@
 		)
 
 /obj/item/stack/tile/mineral/titanium/yellow
-	name = "yellow titanium tile"
+	name = "glup shitto"
 	singular_name = "yellow titanium floor tile"
 	desc = "Sleek yellow titanium tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/yellow
@@ -135,7 +135,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/yellow
 
 /obj/item/stack/tile/mineral/titanium/blue
-	name = "blue titanium tile"
+	name = "glup shitto"
 	singular_name = "blue titanium floor tile"
 	desc = "Sleek blue titanium tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/blue
@@ -143,7 +143,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/blue
 
 /obj/item/stack/tile/mineral/titanium/white
-	name = "white titanium tile"
+	name = "glup shitto"
 	singular_name = "white titanium floor tile"
 	desc = "Sleek white titanium tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/white
@@ -151,7 +151,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/white
 
 /obj/item/stack/tile/mineral/titanium/purple
-	name = "purple titanium tile"
+	name = "glup shitto"
 	singular_name = "purple titanium floor tile"
 	desc = "Sleek purple titanium tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/purple
@@ -159,7 +159,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/purple
 
 /obj/item/stack/tile/mineral/titanium/tiled
-	name = "tiled titanium tile"
+	name = "glup shitto"
 	singular_name = "tiled titanium floor tile"
 	desc = "Titanium floor tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/tiled
@@ -167,7 +167,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/tiled
 
 /obj/item/stack/tile/mineral/titanium/tiled/yellow
-	name = "yellow titanium tile"
+	name = "glup shitto"
 	singular_name = "yellow titanium floor tile"
 	desc = "Yellow titanium floor tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/tiled/yellow
@@ -175,7 +175,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/tiled/yellow
 
 /obj/item/stack/tile/mineral/titanium/tiled/blue
-	name = "blue titanium tile"
+	name = "glup shitto"
 	singular_name = "blue titanium floor tile"
 	desc = "Blue titanium floor tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/tiled/blue
@@ -183,7 +183,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/tiled/blue
 
 /obj/item/stack/tile/mineral/titanium/tiled/white
-	name = "white titanium tile"
+	name = "glup shitto"
 	singular_name = "white titanium floor tile"
 	desc = "White titanium floor tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/tiled/white
@@ -191,7 +191,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/tiled/white
 
 /obj/item/stack/tile/mineral/titanium/tiled/purple
-	name = "purple titanium tile"
+	name = "glup shitto"
 	singular_name = "purple titanium floor tile"
 	desc = "Purple titanium floor tiles, used for shuttles."
 	turf_type = /turf/open/floor/mineral/titanium/tiled/purple
@@ -199,7 +199,7 @@
 	merge_type = /obj/item/stack/tile/mineral/titanium/tiled/purple
 
 /obj/item/stack/tile/mineral/plastitanium
-	name = "plastitanium tile"
+	name = "glup shitto"
 	singular_name = "plastitanium floor tile"
 	desc = "A tile made of plastitanium, used for very evil shuttles."
 	icon_state = "tile_plastitanium"
@@ -214,7 +214,7 @@
 		)
 
 /obj/item/stack/tile/mineral/plastitanium/red
-	name = "red plastitanium tile"
+	name = "glup shitto"
 	singular_name = "red plastitanium floor tile"
 	desc = "A tile made of plastitanium, used for very red shuttles."
 	turf_type = /turf/open/floor/mineral/plastitanium/red
@@ -222,7 +222,7 @@
 	merge_type = /obj/item/stack/tile/mineral/plastitanium/red
 
 /obj/item/stack/tile/mineral/snow
-	name = "snow tile"
+	name = "glup shitto"
 	singular_name = "snow tile"
 	desc = "A layer of snow."
 	icon_state = "tile_snow"

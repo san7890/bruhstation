@@ -1,5 +1,5 @@
 /datum/experiment/physical
-	name = "Physical Experiment"
+	name = "glup shitto"
 	description = "An experiment requiring a physical reaction to continue"
 	exp_tag = "Physical Experiment"
 	performance_hint = "To perform physical experiments you must use a hand-held scanner unit to track objects in our world relevant to \

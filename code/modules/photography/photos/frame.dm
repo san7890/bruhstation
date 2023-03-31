@@ -1,7 +1,7 @@
 // Picture frames
 
 /obj/item/wallframe/picture
-	name = "picture frame"
+	name = "glup shitto"
 	desc = "The perfect showcase for your favorite deathtrap memories."
 	icon = 'icons/obj/signs.dmi'
 	custom_materials = list(/datum/material/wood = 2000)
@@ -61,7 +61,7 @@
 		I.forceMove(PF)
 
 /obj/structure/sign/picture_frame
-	name = "picture frame"
+	name = "glup shitto"
 	desc = "Every time you look it makes you laugh."
 	icon = 'icons/obj/signs.dmi'
 	icon_state = "frame-overlay"
@@ -184,7 +184,7 @@
 
 
 /obj/structure/sign/picture_frame/showroom
-	name = "distinguished crew display"
+	name = "glup shitto"
 	desc = "A photo frame to commemorate crewmembers that distinguished themselves in the line of duty. WARNING: unauthorized tampering will be severely punished."
 	can_decon = FALSE
 

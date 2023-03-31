@@ -1,24 +1,24 @@
 	//NASA Voidsuit
 /obj/item/clothing/head/helmet/space/nasavoid
-	name = "NASA Void Helmet"
+	name = "glup shitto"
 	desc = "An old, NASA CentCom branch designed, dark red space suit helmet."
 	icon_state = "void"
 	inhand_icon_state = "void_helmet"
 
 /obj/item/clothing/suit/space/nasavoid
-	name = "NASA Voidsuit"
+	name = "glup shitto"
 	icon_state = "void"
 	inhand_icon_state = "void_suit"
 	desc = "An old, NASA CentCom branch designed, dark red space suit."
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/multitool)
 
 /obj/item/clothing/head/helmet/space/nasavoid/old
-	name = "Engineering Void Helmet"
+	name = "glup shitto"
 	desc = "A CentCom engineering dark red space suit helmet. While old and dusty, it still gets the job done."
 	icon_state = "void"
 
 /obj/item/clothing/suit/space/nasavoid/old
-	name = "Engineering Voidsuit"
+	name = "glup shitto"
 	icon_state = "void"
 	inhand_icon_state = "void_suit"
 	desc = "A CentCom engineering dark red space suit. Age has degraded the suit making it difficult to move around in."
@@ -27,14 +27,14 @@
 
 	//EVA suit
 /obj/item/clothing/suit/space/eva
-	name = "EVA suit"
+	name = "glup shitto"
 	icon_state = "space"
 	inhand_icon_state = "s_suit"
 	desc = "A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies."
 	armor_type = /datum/armor/space_eva
 
 /obj/item/clothing/head/helmet/space/eva
-	name = "EVA helmet"
+	name = "glup shitto"
 	icon_state = "space"
 	inhand_icon_state = "space_helmet"
 	desc = "A lightweight space helmet with the basic ability to protect the wearer from the vacuum of space during emergencies."
@@ -66,7 +66,7 @@
 
 	//Emergency suit
 /obj/item/clothing/head/helmet/space/fragile
-	name = "emergency space helmet"
+	name = "glup shitto"
 	desc = "A bulky, air-tight helmet meant to protect the user during emergency situations. It doesn't look very durable."
 	icon_state = "syndicate-helm-orange"
 	inhand_icon_state = "syndicate-helm-orange" //resprite?
@@ -74,7 +74,7 @@
 	strip_delay = 65
 
 /obj/item/clothing/suit/space/fragile
-	name = "emergency space suit"
+	name = "glup shitto"
 	desc = "A bulky, air-tight suit meant to protect the user during emergency situations. It doesn't look very durable."
 	var/torn = FALSE
 	icon_state = "syndicate-orange"

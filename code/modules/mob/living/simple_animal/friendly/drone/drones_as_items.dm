@@ -10,7 +10,7 @@
  */
 
 /obj/effect/mob_spawn/ghost_role/drone
-	name = "drone shell"
+	name = "glup shitto"
 	desc = "A shell of a maintenance drone, an expendable robot built to perform station repairs."
 	icon = 'icons/mob/silicon/drone.dmi'
 	icon_state = "drone_maint_hat" //yes reuse the _hat state.

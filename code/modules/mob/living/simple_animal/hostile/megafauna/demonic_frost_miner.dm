@@ -8,7 +8,7 @@ Difficulty: Extremely Hard
 */
 
 /mob/living/simple_animal/hostile/megafauna/demonic_frost_miner
-	name = "demonic-frost miner"
+	name = "glup shitto"
 	desc = "An extremely well-geared miner, driven crazy or possessed by the demonic forces here, either way a terrifying enemy."
 	health = 1500
 	maxHealth = 1500
@@ -188,7 +188,7 @@ Difficulty: Extremely Hard
 	return ..()
 
 /obj/projectile/colossus/frost_orb
-	name = "frost orb"
+	name = "glup shitto"
 	icon_state = "ice_1"
 	damage = 20
 	armour_penetration = 100
@@ -204,7 +204,7 @@ Difficulty: Extremely Hard
 		EX_ACT(target, EXPLODE_HEAVY)
 
 /obj/projectile/colossus/snowball
-	name = "machine-gun snowball"
+	name = "glup shitto"
 	icon_state = "nuclear_particle"
 	damage = 5
 	armour_penetration = 100
@@ -215,7 +215,7 @@ Difficulty: Extremely Hard
 	explode_hit_objects = FALSE
 
 /obj/projectile/colossus/ice_blast
-	name = "ice blast"
+	name = "glup shitto"
 	icon_state = "ice_2"
 	damage = 15
 	armour_penetration = 100
@@ -230,7 +230,7 @@ Difficulty: Extremely Hard
 		EX_ACT(target, EXPLODE_HEAVY)
 
 /obj/item/resurrection_crystal
-	name = "resurrection crystal"
+	name = "glup shitto"
 	desc = "When used by anything holding it, this crystal gives them a second chance at life if they die."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "demonic_crystal"
@@ -264,7 +264,7 @@ Difficulty: Extremely Hard
 	qdel(src)
 
 /obj/item/clothing/shoes/winterboots/ice_boots/ice_trail
-	name = "cursed ice hiking boots"
+	name = "glup shitto"
 	desc = "A pair of winter boots contractually made by a devil, they cannot be taken off once put on."
 	actions_types = list(/datum/action/item_action/toggle)
 	var/on = FALSE
@@ -304,7 +304,7 @@ Difficulty: Extremely Hard
 	addtimer(CALLBACK(T, TYPE_PROC_REF(/turf, ChangeTurf), reset_turf, null, CHANGETURF_INHERIT_AIR), duration, TIMER_OVERRIDE|TIMER_UNIQUE)
 
 /obj/item/pickaxe/drill/jackhammer/demonic
-	name = "demonic jackhammer"
+	name = "glup shitto"
 	desc = "Cracks rocks at an inhuman speed, as well as being enhanced for combat purposes."
 	toolspeed = 0
 
@@ -319,7 +319,7 @@ Difficulty: Extremely Hard
 	. = ..()
 
 /obj/item/crusher_trophy/ice_block_talisman
-	name = "ice block talisman"
+	name = "glup shitto"
 	desc = "A glowing trinket that a demonic miner had on him, it seems he couldn't utilize it for whatever reason."
 	icon_state = "ice_trap_talisman"
 	denied_type = /obj/item/crusher_trophy/ice_block_talisman
@@ -344,7 +344,7 @@ Difficulty: Extremely Hard
 	return ..()
 
 /atom/movable/screen/alert/status_effect/ice_block_talisman
-	name = "Frozen Solid"
+	name = "glup shitto"
 	desc = "You're frozen inside an ice cube, and cannot move!"
 	icon_state = "frozen"
 
@@ -375,7 +375,7 @@ Difficulty: Extremely Hard
 	UnregisterSignal(owner, COMSIG_MOVABLE_PRE_MOVE)
 
 /obj/item/ice_energy_crystal
-	name = "ice energy crystal"
+	name = "glup shitto"
 	desc = "Remnants of the demonic frost miners ice energy."
 	icon = 'icons/obj/ice_moon/artifacts.dmi'
 	icon_state = "ice_crystal"
@@ -383,7 +383,7 @@ Difficulty: Extremely Hard
 	throwforce = 0
 
 /obj/structure/frost_miner_prism
-	name = "frost miner light prism"
+	name = "glup shitto"
 	desc = "A magical crystal enhanced by a demonic presence."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "lightprism"

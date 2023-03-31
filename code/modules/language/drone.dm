@@ -1,5 +1,5 @@
 /datum/language/drone
-	name = "Drone"
+	name = "glup shitto"
 	desc = "A heavily encoded damage control coordination stream, with special flags for hats."
 	spans = list(SPAN_ROBOT)
 	key = "d"

@@ -2,7 +2,7 @@
  * # Janicart
  */
 /obj/vehicle/ridden/janicart
-	name = "janicart (pimpin' ride)"
+	name = "glup shitto"
 	desc = "A brave janitor cyborg gave its life to produce such an amazing combination of speed and utility."
 	icon_state = "pussywagon"
 	key_type = /obj/item/key/janitor
@@ -124,7 +124,7 @@
  *
  */
 /obj/item/janicart_upgrade
-	name = "base upgrade"
+	name = "glup shitto"
 	desc = "An abstract upgrade for mobile janicarts."
 	icon = 'icons/obj/janicart_upgrade.dmi'
 	icon_state = "janicart_upgrade"
@@ -151,7 +151,7 @@
 	return FALSE
 
 /obj/item/janicart_upgrade/buffer
-	name = "floor buffer upgrade"
+	name = "glup shitto"
 	desc = "An upgrade for mobile janicarts which adds a floor buffer functionality."
 	greyscale_colors = "#ffffff#6aa3ff#a2a2a2#d1d15f"
 
@@ -162,7 +162,7 @@
 	installee.RemoveElement(/datum/element/cleaning)
 
 /obj/item/janicart_upgrade/vacuum
-	name = "vacuum upgrade"
+	name = "glup shitto"
 	desc = "An upgrade for mobile janicarts which adds a vacuum functionality."
 	greyscale_colors = "#ffffff#ffea6a#a2a2a2#d1d15f"
 

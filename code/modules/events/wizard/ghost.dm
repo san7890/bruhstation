@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/ghost //The spook is real
-	name = "G-G-G-Ghosts!"
+	name = "glup shitto"
 	weight = 3
 	typepath = /datum/round_event/wizard/ghost
 	max_occurrences = 1
@@ -16,7 +16,7 @@
 //--//
 
 /datum/round_event_control/wizard/possession //Oh shit
-	name = "Possessing G-G-G-Ghosts!"
+	name = "glup shitto"
 	weight = 2
 	typepath = /datum/round_event/wizard/possession
 	max_occurrences = 5

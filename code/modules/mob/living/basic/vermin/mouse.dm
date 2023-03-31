@@ -1,5 +1,5 @@
 /mob/living/basic/mouse
-	name = "mouse"
+	name = "glup shitto"
 	desc = "This cute little guy just loves the taste of uninsulated electrical cables. Isn't he adorable?"
 	icon_state = "mouse_gray"
 	icon_living = "mouse_gray"
@@ -241,7 +241,7 @@
 
 //TOM IS ALIVE! SQUEEEEEEEE~K :)
 /mob/living/basic/mouse/brown/tom
-	name = "Tom"
+	name = "glup shitto"
 	desc = "Jerry the cat is not amused."
 	response_help_continuous = "pets"
 	response_help_simple = "pet"
@@ -265,7 +265,7 @@
 	new /mob/living/basic/mouse/brown(loc, /* tame = */ tame) // dominant gene
 
 /mob/living/basic/mouse/rat
-	name = "rat"
+	name = "glup shitto"
 	desc = "They're a nasty, ugly, evil, disease-ridden rodent with anger issues."
 
 	melee_damage_lower = 3
@@ -284,7 +284,7 @@
 
 /// Mice turn into food when they die
 /obj/item/food/deadmouse
-	name = "dead mouse"
+	name = "glup shitto"
 	desc = "They look like somebody dropped the bass on it. A lizard's favorite meal."
 	icon = 'icons/mob/simple/animal.dmi'
 	icon_state = "mouse_gray_dead"
@@ -339,7 +339,7 @@
 		return .
 
 /obj/item/food/deadmouse/moldy
-	name = "moldy dead mouse"
+	name = "glup shitto"
 	desc = "A dead rodent, consumed by mold and rot. There is a slim chance that a lizard might still eat it."
 	icon_state = "mouse_gray_dead"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/mold = 10)

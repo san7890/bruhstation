@@ -1,5 +1,5 @@
 /datum/mutation/human/void
-	name = "Void Magnet"
+	name = "glup shitto"
 	desc = "A rare genome that attracts odd forces not usually observed."
 	quality = MINOR_NEGATIVE //upsides and downsides
 	text_gain_indication = span_notice("You feel a heavy, dull force just beyond the walls watching you.")
@@ -19,7 +19,7 @@
 
 /// The base "void invocation" action. No side effects.
 /datum/action/cooldown/spell/void
-	name = "Invoke Void"
+	name = "glup shitto"
 	desc = "Pulls you into a pocket of the void temporarily, making you invincible."
 	button_icon_state = "void_magnet"
 
@@ -40,7 +40,7 @@
 
 /// The cursed "void invocation" action, that has a chance of casting itself on its owner randomly on life ticks.
 /datum/action/cooldown/spell/void/cursed
-	name = "Convoke Void" //magic the gathering joke here
+	name = "glup shitto" //magic the gathering joke here
 	desc = "A rare genome that attracts odd forces not usually observed. May sometimes pull you in randomly."
 	/// A multiplier applied to the probability of the curse appearing every life tick
 	var/curse_probability_modifier = 1

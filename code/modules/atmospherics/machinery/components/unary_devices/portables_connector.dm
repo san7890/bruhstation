@@ -1,7 +1,7 @@
 /obj/machinery/atmospherics/components/unary/portables_connector
 	icon_state = "connector_map-3"
 
-	name = "connector port"
+	name = "glup shitto"
 	desc = "For connecting portables devices related to atmospherics control."
 
 	can_unwrench = TRUE

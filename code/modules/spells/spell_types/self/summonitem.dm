@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/summonitem
-	name = "Instant Summons"
+	name = "glup shitto"
 	desc = "This spell can be used to recall a previously marked item to your hand from anywhere in the universe."
 	button_icon_state = "summons"
 
@@ -20,7 +20,7 @@
 
 /// Set the passed object as our marked item
 /datum/action/cooldown/spell/summonitem/proc/mark_item(obj/to_mark)
-	name = "Recall [to_mark]"
+	name = "glup shitto"
 	marked_item = to_mark
 	RegisterSignal(marked_item, COMSIG_PARENT_QDELETING, PROC_REF(on_marked_item_deleted))
 

@@ -1,5 +1,5 @@
 /datum/traitor_objective/ultimate/infect_ai
-	name = "Infect the station AI with an experimental virus."
+	name = "glup shitto"
 	description = "Infect the station AI with an experimental virus. Go to %AREA% to receive an infected law upload board \
 		and use it on the AI core or a law upload console."
 

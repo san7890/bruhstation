@@ -1,5 +1,5 @@
 /mob/living/simple_animal/bot/secbot/honkbot
-	name = "\improper Honkbot"
+	name = "glup shitto"
 	desc = "A little robot. It looks happy with its bike horn."
 	icon_state = "honkbot"
 	damage_coeff = list(BRUTE = 1, BURN = 1, TOX = 0, CLONE = 0, STAMINA = 0, OXY = 0)

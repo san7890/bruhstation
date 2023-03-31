@@ -1,6 +1,6 @@
 //This one's from bay12
 /obj/machinery/vending/plasmaresearch
-	name = "\improper Bombuddy 3000"
+	name = "glup shitto"
 	desc = "All the fine parts you need in one vending machine!"
 	products = list(
 		/obj/item/assembly/igniter = 6,

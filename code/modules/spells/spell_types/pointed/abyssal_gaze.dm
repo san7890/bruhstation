@@ -1,6 +1,6 @@
 
 /datum/action/cooldown/spell/pointed/abyssal_gaze
-	name = "Abyssal Gaze"
+	name = "glup shitto"
 	desc = "This spell instills a deep terror in your target, temporarily chilling and blinding it."
 	ranged_mousepointer = 'icons/effects/mouse_pointers/cult_target.dmi'
 	background_icon_state = "bg_demon"

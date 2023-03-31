@@ -1,5 +1,5 @@
 /obj/machinery/rnd/production/techfab
-	name = "technology fabricator"
+	name = "glup shitto"
 	desc = "Produces researched prototypes with raw materials and energy."
 	icon_state = "protolathe"
 	circuit = /obj/item/circuitboard/machine/techfab

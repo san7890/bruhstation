@@ -1,5 +1,5 @@
 /obj/effect/landmark
-	name = "landmark"
+	name = "glup shitto"
 	icon = 'icons/effects/landmarks_static.dmi'
 	icon_state = "x2"
 	anchored = TRUE
@@ -25,7 +25,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	return ..()
 
 /obj/effect/landmark/start
-	name = "start"
+	name = "glup shitto"
 	icon = 'icons/mob/landmarks.dmi'
 	icon_state = "x"
 	anchored = TRUE
@@ -63,107 +63,107 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/prisoner
-	name = "Prisoner"
+	name = "glup shitto"
 	icon_state = "Prisoner"
 
 /obj/effect/landmark/start/janitor
-	name = "Janitor"
+	name = "glup shitto"
 	icon_state = "Janitor"
 
 /obj/effect/landmark/start/cargo_technician
-	name = "Cargo Technician"
+	name = "glup shitto"
 	icon_state = "Cargo Technician"
 
 /obj/effect/landmark/start/bartender
-	name = "Bartender"
+	name = "glup shitto"
 	icon_state = "Bartender"
 
 /obj/effect/landmark/start/clown
-	name = "Clown"
+	name = "glup shitto"
 	icon_state = "Clown"
 
 /obj/effect/landmark/start/mime
-	name = "Mime"
+	name = "glup shitto"
 	icon_state = "Mime"
 
 /obj/effect/landmark/start/quartermaster
-	name = "Quartermaster"
+	name = "glup shitto"
 	icon_state = "Quartermaster"
 
 /obj/effect/landmark/start/atmospheric_technician
-	name = "Atmospheric Technician"
+	name = "glup shitto"
 	icon_state = "Atmospheric Technician"
 
 /obj/effect/landmark/start/cook
-	name = "Cook"
+	name = "glup shitto"
 	icon_state = "Cook"
 
 /obj/effect/landmark/start/shaft_miner
-	name = "Shaft Miner"
+	name = "glup shitto"
 	icon_state = "Shaft Miner"
 
 /obj/effect/landmark/start/security_officer
-	name = "Security Officer"
+	name = "glup shitto"
 	icon_state = "Security Officer"
 
 /obj/effect/landmark/start/botanist
-	name = "Botanist"
+	name = "glup shitto"
 	icon_state = "Botanist"
 
 /obj/effect/landmark/start/head_of_security
-	name = "Head of Security"
+	name = "glup shitto"
 	icon_state = "Head of Security"
 
 /obj/effect/landmark/start/captain
-	name = "Captain"
+	name = "glup shitto"
 	icon_state = "Captain"
 
 /obj/effect/landmark/start/detective
-	name = "Detective"
+	name = "glup shitto"
 	icon_state = "Detective"
 
 /obj/effect/landmark/start/warden
-	name = "Warden"
+	name = "glup shitto"
 	icon_state = "Warden"
 
 /obj/effect/landmark/start/chief_engineer
-	name = "Chief Engineer"
+	name = "glup shitto"
 	icon_state = "Chief Engineer"
 
 /obj/effect/landmark/start/head_of_personnel
-	name = "Head of Personnel"
+	name = "glup shitto"
 	icon_state = "Head of Personnel"
 
 /obj/effect/landmark/start/librarian
-	name = "Curator"
+	name = "glup shitto"
 	icon_state = "Curator"
 
 /obj/effect/landmark/start/lawyer
-	name = "Lawyer"
+	name = "glup shitto"
 	icon_state = "Lawyer"
 
 /obj/effect/landmark/start/station_engineer
-	name = "Station Engineer"
+	name = "glup shitto"
 	icon_state = "Station Engineer"
 
 /obj/effect/landmark/start/medical_doctor
-	name = "Medical Doctor"
+	name = "glup shitto"
 	icon_state = "Medical Doctor"
 
 /obj/effect/landmark/start/paramedic
-	name = "Paramedic"
+	name = "glup shitto"
 	icon_state = "Paramedic"
 
 /obj/effect/landmark/start/scientist
-	name = "Scientist"
+	name = "glup shitto"
 	icon_state = "Scientist"
 
 /obj/effect/landmark/start/chemist
-	name = "Chemist"
+	name = "glup shitto"
 	icon_state = "Chemist"
 
 /obj/effect/landmark/start/roboticist
-	name = "Roboticist"
+	name = "glup shitto"
 	icon_state = "Roboticist"
 
 /obj/effect/landmark/start/research_director
@@ -171,31 +171,31 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = JOB_RESEARCH_DIRECTOR
 
 /obj/effect/landmark/start/geneticist
-	name = "Geneticist"
+	name = "glup shitto"
 	icon_state = "Geneticist"
 
 /obj/effect/landmark/start/chief_medical_officer
-	name = "Chief Medical Officer"
+	name = "glup shitto"
 	icon_state = "Chief Medical Officer"
 
 /obj/effect/landmark/start/virologist
-	name = "Virologist"
+	name = "glup shitto"
 	icon_state = "Virologist"
 
 /obj/effect/landmark/start/psychologist
-	name = "Psychologist"
+	name = "glup shitto"
 	icon_state = "Psychologist"
 
 /obj/effect/landmark/start/chaplain
-	name = "Chaplain"
+	name = "glup shitto"
 	icon_state = "Chaplain"
 
 /obj/effect/landmark/start/cyborg
-	name = "Cyborg"
+	name = "glup shitto"
 	icon_state = "Cyborg"
 
 /obj/effect/landmark/start/ai
-	name = "AI"
+	name = "glup shitto"
 	icon_state = "AI"
 	delete_after_roundstart = FALSE
 	var/primary_ai = TRUE
@@ -215,7 +215,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 //Department Security spawns
 
 /obj/effect/landmark/start/depsec
-	name = "department_sec"
+	name = "glup shitto"
 	icon_state = "Security Officer"
 	/// What department this spawner is for
 	var/department
@@ -229,25 +229,25 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	return ..()
 
 /obj/effect/landmark/start/depsec/supply
-	name = "supply_sec"
+	name = "glup shitto"
 	department = SEC_DEPT_SUPPLY
 
 /obj/effect/landmark/start/depsec/medical
-	name = "medical_sec"
+	name = "glup shitto"
 	department = SEC_DEPT_MEDICAL
 
 /obj/effect/landmark/start/depsec/engineering
-	name = "engineering_sec"
+	name = "glup shitto"
 	department = SEC_DEPT_ENGINEERING
 
 /obj/effect/landmark/start/depsec/science
-	name = "science_sec"
+	name = "glup shitto"
 	department = SEC_DEPT_SCIENCE
 
 //Antagonist spawns
 
 /obj/effect/landmark/start/wizard
-	name = "wizard"
+	name = "glup shitto"
 	icon = 'icons/effects/landmarks_static.dmi'
 	icon_state = "wiznerd_spawn"
 
@@ -257,7 +257,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/start/nukeop
-	name = "nukeop"
+	name = "glup shitto"
 	icon = 'icons/effects/landmarks_static.dmi'
 	icon_state = "snukeop_spawn"
 
@@ -267,7 +267,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/start/nukeop_leader
-	name = "nukeop leader"
+	name = "glup shitto"
 	icon = 'icons/effects/landmarks_static.dmi'
 	icon_state = "snukeop_leader_spawn"
 
@@ -281,7 +281,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/start/new_player
-	name = "New Player"
+	name = "glup shitto"
 
 /obj/effect/landmark/start/new_player/Initialize(mapload)
 	..()
@@ -289,7 +289,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/latejoin
-	name = "JoinLate"
+	name = "glup shitto"
 
 /obj/effect/landmark/latejoin/Initialize(mapload)
 	..()
@@ -298,17 +298,17 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 //space carps, magicarps, lone ops, slaughter demons, possibly revenants spawn here
 /obj/effect/landmark/carpspawn
-	name = "carpspawn"
+	name = "glup shitto"
 	icon_state = "carp_spawn"
 
 //observer start
 /obj/effect/landmark/observer_start
-	name = "Observer-Start"
+	name = "glup shitto"
 	icon_state = "observer_start"
 
 //xenos, morphs and nightmares spawn here
 /obj/effect/landmark/xeno_spawn
-	name = "xeno_spawn"
+	name = "glup shitto"
 	icon_state = "xeno_spawn"
 
 /obj/effect/landmark/xeno_spawn/Initialize(mapload)
@@ -319,7 +319,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 //objects with the stationloving component (nuke disk) respawn here.
 //also blobs that have their spawn forcemoved (running out of time when picking their spawn spot) and santa
 /obj/effect/landmark/blobstart
-	name = "blobstart"
+	name = "glup shitto"
 	icon_state = "blob_start"
 
 /obj/effect/landmark/blobstart/Initialize(mapload)
@@ -329,7 +329,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 //spawns sec equipment lockers depending on the number of sec officers
 /obj/effect/landmark/secequipment
-	name = "secequipment"
+	name = "glup shitto"
 	icon_state = "secequipment"
 
 /obj/effect/landmark/secequipment/Initialize(mapload)
@@ -339,7 +339,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 //players that get put in admin jail show up here
 /obj/effect/landmark/prisonwarp
-	name = "prisonwarp"
+	name = "glup shitto"
 	icon_state = "prisonwarp"
 
 /obj/effect/landmark/prisonwarp/Initialize(mapload)
@@ -348,7 +348,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/ert_spawn
-	name = "Emergencyresponseteam"
+	name = "glup shitto"
 	icon_state = "ert_spawn"
 
 /obj/effect/landmark/ert_spawn/Initialize(mapload)
@@ -357,16 +357,16 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/ert_shuttle_spawn
-	name = "ertshuttlespawn"
+	name = "glup shitto"
 	icon_state = "ert_spawn"
 
 /obj/effect/landmark/ert_shuttle_brief_spawn
-	name = "ertshuttlebriefspawn"
+	name = "glup shitto"
 	icon_state = "ert_brief_spawn"
 
 //ninja energy nets teleport victims here
 /obj/effect/landmark/holding_facility
-	name = "Holding Facility"
+	name = "glup shitto"
 	icon_state = "holding_facility"
 
 /obj/effect/landmark/holding_facility/Initialize(mapload)
@@ -375,7 +375,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/observe
-	name = "tdomeobserve"
+	name = "glup shitto"
 	icon_state = "tdome_observer"
 
 /obj/effect/landmark/thunderdome/observe/Initialize(mapload)
@@ -384,7 +384,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/one
-	name = "tdome1"
+	name = "glup shitto"
 	icon_state = "tdome_t1"
 
 /obj/effect/landmark/thunderdome/one/Initialize(mapload)
@@ -393,7 +393,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/two
-	name = "tdome2"
+	name = "glup shitto"
 	icon_state = "tdome_t2"
 
 /obj/effect/landmark/thunderdome/two/Initialize(mapload)
@@ -402,7 +402,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/thunderdome/admin
-	name = "tdomeadmin"
+	name = "glup shitto"
 	icon_state = "tdome_admin"
 
 /obj/effect/landmark/thunderdome/admin/Initialize(mapload)
@@ -412,7 +412,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 //generic event spawns
 /obj/effect/landmark/event_spawn
-	name = "generic event spawn"
+	name = "glup shitto"
 	icon_state = "generic_event"
 
 /obj/effect/landmark/event_spawn/Initialize(mapload)
@@ -428,7 +428,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/ruin/Initialize(mapload, my_ruin_template)
 	. = ..()
-	name = "ruin_[GLOB.ruin_landmarks.len + 1]"
+	name = "glup shitto"
 	ruin_template = my_ruin_template
 	GLOB.ruin_landmarks |= src
 
@@ -439,23 +439,23 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 // handled in portals.dm, id connected to one-way portal
 /obj/effect/landmark/portal_exit
-	name = "portal exit"
+	name = "glup shitto"
 	icon_state = "portal_exit"
 	var/id
 
 /// Marks the bottom left of the testing zone.
 /// In landmarks.dm and not unit_test.dm so it is always active in the mapping tools.
 /obj/effect/landmark/unit_test_bottom_left
-	name = "unit test zone bottom left"
+	name = "glup shitto"
 
 /// Marks the top right of the testing zone.
 /// In landmarks.dm and not unit_test.dm so it is always active in the mapping tools.
 /obj/effect/landmark/unit_test_top_right
-	name = "unit test zone top right"
+	name = "glup shitto"
 
 
 /obj/effect/landmark/start/hangover
-	name = "hangover spawn"
+	name = "glup shitto"
 	icon_state = "hangover_spawn"
 
 	/// A list of everything this hangover spawn created as part of the hangover station trait
@@ -531,7 +531,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	make_hungover(joining_mob)
 
 /obj/effect/landmark/start/hangover/closet
-	name = "hangover spawn closet"
+	name = "glup shitto"
 	icon_state = "hangover_spawn_closet"
 
 /obj/effect/landmark/start/hangover/closet/JoinPlayerHere(mob/joining_mob, buckle)
@@ -545,7 +545,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 //Landmark that creates destinations for the navigate verb to path to
 /obj/effect/landmark/navigate_destination
-	name = "navigate verb destination"
+	name = "glup shitto"
 	icon_state = "navigate"
 	var/location
 

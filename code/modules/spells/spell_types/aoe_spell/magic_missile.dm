@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/aoe/magic_missile
-	name = "Magic Missile"
+	name = "glup shitto"
 	desc = "This spell fires several, slow moving, magic projectiles at nearby targets."
 	button_icon_state = "magicm"
 	sound = 'sound/magic/magic_missile.ogg'
@@ -36,7 +36,7 @@
 	to_fire.fire()
 
 /datum/action/cooldown/spell/aoe/magic_missile/lesser
-	name = "Lesser Magic Missile"
+	name = "glup shitto"
 	desc = "This spell fires several, slow moving, magic projectiles at nearby targets."
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"

@@ -30,7 +30,7 @@
 	return ..(dd, mm, yy, ddd)
 
 /datum/holiday/nth_week/thanksgiving
-	name = "Thanksgiving in the United States"
+	name = "glup shitto"
 	timezones = list(TIMEZONE_EST, TIMEZONE_CST, TIMEZONE_MST, TIMEZONE_PST, TIMEZONE_AKST, TIMEZONE_HST)
 	begin_week = 4
 	begin_month = NOVEMBER
@@ -38,13 +38,13 @@
 	drone_hat = /obj/item/clothing/head/hats/tophat //This is the closest we can get to a pilgrim's hat
 
 /datum/holiday/nth_week/thanksgiving/canada
-	name = "Thanksgiving in Canada"
+	name = "glup shitto"
 	begin_week = 2
 	begin_month = OCTOBER
 	begin_weekday = MONDAY
 
 /datum/holiday/nth_week/mother
-	name = "Mother's Day"
+	name = "glup shitto"
 	begin_week = 2
 	begin_month = MAY
 	begin_weekday = SUNDAY
@@ -53,13 +53,13 @@
 	return "Happy Mother's Day in most of the Americas, Asia, and Oceania!"
 
 /datum/holiday/nth_week/father
-	name = "Father's Day"
+	name = "glup shitto"
 	begin_week = 3
 	begin_month = JUNE
 	begin_weekday = SUNDAY
 
 /datum/holiday/nth_week/beer
-	name = "Beer Day"
+	name = "glup shitto"
 	begin_week = 1
 	begin_month = AUGUST
 	begin_weekday = FRIDAY

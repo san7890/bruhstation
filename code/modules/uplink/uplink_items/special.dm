@@ -1,5 +1,5 @@
 /datum/uplink_category/special
-	name = "Special"
+	name = "glup shitto"
 	weight = -3
 
 /datum/uplink_item/special
@@ -9,7 +9,7 @@
 	purchasable_from = NONE
 
 /datum/uplink_item/special/autosurgeon
-	name = "Syndicate Autosurgeon"
+	name = "glup shitto"
 	desc = "A multi-use autosurgeon for implanting whatever you want into yourself. Rip that station apart and make it part of you."
 	item = /obj/item/autosurgeon/syndicate
 	cost = 5

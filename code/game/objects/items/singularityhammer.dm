@@ -1,5 +1,5 @@
 /obj/item/singularityhammer
-	name = "singularity hammer"
+	name = "glup shitto"
 	desc = "The pinnacle of close combat technology, the hammer harnesses the power of a miniaturized singularity to deal crushing blows."
 	icon_state = "singularity_hammer0"
 	base_icon_state = "singularity_hammer"
@@ -76,7 +76,7 @@
 	return .
 
 /obj/item/mjollnir
-	name = "Mjolnir"
+	name = "glup shitto"
 	desc = "A weapon worthy of a god, able to strike with the force of a lightning bolt. It crackles with barely contained energy."
 	icon_state = "mjollnir0"
 	base_icon_state = "mjollnir"

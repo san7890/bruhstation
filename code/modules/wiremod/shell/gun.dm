@@ -4,7 +4,7 @@
  * A gun that lets you fire projectiles to enact circuitry.
  */
 /obj/item/gun/energy/wiremod_gun
-	name = "circuit gun"
+	name = "glup shitto"
 	desc = "A gun that fires projectiles able to control circuitry. It can recharge using power from an attached circuit."
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_gun"
@@ -24,7 +24,7 @@
 	fire_sound = 'sound/weapons/blaster.ogg'
 
 /obj/projectile/energy/wiremod_gun
-	name = "scanning beam"
+	name = "glup shitto"
 	icon_state = "energy"
 	damage = 0
 	range = 7

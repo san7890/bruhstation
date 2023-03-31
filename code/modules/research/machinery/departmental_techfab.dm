@@ -1,11 +1,11 @@
 /obj/machinery/rnd/production/techfab/department
-	name = "department techfab"
+	name = "glup shitto"
 	desc = "An advanced fabricator designed to print out the latest prototypes and circuits researched from Science. Contains hardware to sync to research networks. This one is department-locked and only possesses a limited set of decryption keys."
 	icon_state = "protolathe"
 	circuit = /obj/item/circuitboard/machine/techfab/department
 
 /obj/machinery/rnd/production/techfab/department/engineering
-	name = "department techfab (Engineering)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_ENGINEERING
 	department_tag = "Engineering"
 	circuit = /obj/item/circuitboard/machine/techfab/department/engineering
@@ -13,7 +13,7 @@
 	payment_department = ACCOUNT_ENG
 
 /obj/machinery/rnd/production/techfab/department/service
-	name = "department techfab (Service)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_SERVICE
 	department_tag = "Service"
 	circuit = /obj/item/circuitboard/machine/techfab/department/service
@@ -21,7 +21,7 @@
 	payment_department = ACCOUNT_SRV
 
 /obj/machinery/rnd/production/techfab/department/medical
-	name = "department techfab (Medical)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_MEDICAL
 	department_tag = "Medical"
 	circuit = /obj/item/circuitboard/machine/techfab/department/medical
@@ -29,7 +29,7 @@
 	payment_department = ACCOUNT_MED
 
 /obj/machinery/rnd/production/techfab/department/cargo
-	name = "department techfab (Cargo)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_CARGO
 	department_tag = "Cargo"
 	circuit = /obj/item/circuitboard/machine/techfab/department/cargo
@@ -37,7 +37,7 @@
 	payment_department = ACCOUNT_CAR
 
 /obj/machinery/rnd/production/techfab/department/science
-	name = "department techfab (Science)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_SCIENCE
 	department_tag = "Science"
 	circuit = /obj/item/circuitboard/machine/techfab/department/science
@@ -45,7 +45,7 @@
 	payment_department = ACCOUNT_SCI
 
 /obj/machinery/rnd/production/techfab/department/security
-	name = "department techfab (Security)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_SECURITY
 	department_tag = "Security"
 	circuit = /obj/item/circuitboard/machine/techfab/department/security

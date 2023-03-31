@@ -15,45 +15,45 @@ GLOBAL_LIST_INIT(abductor_gear, subtypesof(/datum/abductor_gear))
 	var/category = "Basic Gear"
 
 /datum/abductor_gear/agent_helmet
-	name = "Agent Helmet"
+	name = "glup shitto"
 	description = "Abduct with style - spiky style. Prevents digital tracking."
 	id = "agent_helmet"
 	build_path = /obj/item/clothing/head/helmet/abductor
 
 /datum/abductor_gear/agent_vest
-	name = "Agent Vest"
+	name = "glup shitto"
 	description = "A vest outfitted with advanced stealth technology. It has two modes - combat and stealth."
 	id = "agent_vest"
 	build_path = /obj/item/clothing/suit/armor/abductor/vest
 
 /datum/abductor_gear/radio_silencer
-	name = "Radio Silencer"
+	name = "glup shitto"
 	description = "A compact device used to shut down communications equipment."
 	id = "radio_silencer"
 	build_path = /obj/item/abductor/silencer
 
 /datum/abductor_gear/science_tool
-	name = "Science Tool"
+	name = "glup shitto"
 	description = "A dual-mode tool for retrieving specimens and scanning appearances. Scanning can be done through cameras."
 	id = "science_tool"
 	build_path = /obj/item/abductor/gizmo
 
 /datum/abductor_gear/advanced_baton
-	name = "Advanced Baton"
+	name = "glup shitto"
 	description = "A quad-mode baton used for incapacitation and restraining of specimens."
 	id = "advanced_baton"
 	cost = 2
 	build_path = /obj/item/melee/baton/abductor
 
 /datum/abductor_gear/superlingual_matrix
-	name = "Superlingual Matrix"
+	name = "glup shitto"
 	description = "A mysterious structure that allows for instant communication between users. Using it inhand will attune it to your mothership's channel. Pretty impressive until you need to eat something."
 	id = "superlingual_matrix"
 	build_path = /obj/item/organ/internal/tongue/abductor
 	category = "Advanced Gear"
 
 /datum/abductor_gear/mental_interface
-	name = "Mental Interface Device"
+	name = "glup shitto"
 	description = "A dual-mode tool for directly communicating with sentient brains. It can be used to send a direct message to a target, \
 				or to send a command to a test subject with a charged gland."
 	id = "mental_interface"
@@ -62,7 +62,7 @@ GLOBAL_LIST_INIT(abductor_gear, subtypesof(/datum/abductor_gear))
 	category = "Advanced Gear"
 
 /datum/abductor_gear/reagent_synthesizer
-	name = "Reagent Synthesizer"
+	name = "glup shitto"
 	description = "Synthesizes a variety of reagents using proto-matter."
 	id = "reagent_synthesizer"
 	cost = 2
@@ -70,7 +70,7 @@ GLOBAL_LIST_INIT(abductor_gear, subtypesof(/datum/abductor_gear))
 	category = "Advanced Gear"
 
 /datum/abductor_gear/shrink_ray
-	name = "Shrink Ray Blaster"
+	name = "glup shitto"
 	description = "This is a piece of frightening alien tech that enhances the magnetic pull of atoms in a localized space to temporarily make an object shrink. \
 				That or it's just space magic. Either way, it shrinks stuff."
 	id = "shrink_ray"

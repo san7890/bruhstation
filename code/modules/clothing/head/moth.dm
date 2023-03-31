@@ -1,5 +1,5 @@
 /obj/item/clothing/head/mothcap
-	name = "mothic softcap"
+	name = "glup shitto"
 	desc = "A padded leather cap with goggles, standard issue aboard the moth fleet. Keeps your head warm and debris away from those big eyes."
 	icon_state = "mothcap"
 	icon = 'icons/obj/clothing/head/moth.dmi'

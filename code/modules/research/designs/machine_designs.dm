@@ -2,7 +2,7 @@
 //////////////MISC Boards///////////////
 ////////////////////////////////////////
 /datum/design/board/electrolyzer
-	name = "Electrolyzer Board"
+	name = "glup shitto"
 	desc = "The circuit board for an electrolyzer."
 	id = "electrolyzer"
 	build_path = /obj/item/circuitboard/machine/electrolyzer
@@ -12,7 +12,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/smes
-	name = "SMES Board"
+	name = "glup shitto"
 	desc = "The circuit board for a SMES."
 	id = "smes"
 	build_path = /obj/item/circuitboard/machine/smes
@@ -22,7 +22,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/announcement_system
-	name = "Automated Announcement System Board"
+	name = "glup shitto"
 	desc = "The circuit board for an automated announcement system."
 	id = "automated_announcement"
 	build_path = /obj/item/circuitboard/machine/announcement_system
@@ -32,7 +32,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/turbine_computer
-	name = "Turbine Power Console Board"
+	name = "glup shitto"
 	desc = "The circuit board for a turbine power console."
 	id = "power_turbine_console"
 	build_path = /obj/item/circuitboard/computer/turbine_computer
@@ -42,7 +42,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/emitter
-	name = "Emitter Board"
+	name = "glup shitto"
 	desc = "The circuit board for an emitter."
 	id = "emitter"
 	build_path = /obj/item/circuitboard/machine/emitter
@@ -52,7 +52,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/turbine_compressor
-	name = "Turbine Compressor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a turbine compressor."
 	id = "turbine_compressor"
 	build_path = /obj/item/circuitboard/machine/turbine_compressor
@@ -62,7 +62,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/turbine_rotor
-	name = "Turbine Rotor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a turbine rotor."
 	id = "turbine_rotor"
 	build_path = /obj/item/circuitboard/machine/turbine_rotor
@@ -72,7 +72,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/turbine_stator
-	name = "Turbine Stator Board"
+	name = "glup shitto"
 	desc = "The circuit board for a turbine stator."
 	id = "turbine_stator"
 	build_path = /obj/item/circuitboard/machine/turbine_stator
@@ -82,7 +82,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/thermomachine
-	name = "Thermomachine Board"
+	name = "glup shitto"
 	desc = "The circuit board for a thermomachine."
 	id = "thermomachine"
 	build_path = /obj/item/circuitboard/machine/thermomachine
@@ -92,7 +92,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/space_heater
-	name = "Space Heater Board"
+	name = "glup shitto"
 	desc = "The circuit board for a space heater."
 	id = "space_heater"
 	build_path = /obj/item/circuitboard/machine/space_heater
@@ -102,7 +102,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/teleport_station
-	name = "Teleportation Station Board"
+	name = "glup shitto"
 	desc = "The circuit board for a teleportation station."
 	id = "tele_station"
 	build_type = IMPRINTER
@@ -113,7 +113,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/teleport_hub
-	name = "Teleportation Hub Board"
+	name = "glup shitto"
 	desc = "The circuit board for a teleportation hub."
 	id = "tele_hub"
 	build_type = IMPRINTER
@@ -124,7 +124,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/quantumpad
-	name = "Quantum Pad Board"
+	name = "glup shitto"
 	desc = "The circuit board for a quantum telepad."
 	id = "quantumpad"
 	build_type = IMPRINTER
@@ -135,7 +135,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/botpad
-	name = "Machine Design (Bot launchpad)"
+	name = "glup shitto"
 	desc = "The circuit board for a bot launchpad."
 	id = "botpad"
 	build_type = IMPRINTER
@@ -146,7 +146,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/launchpad
-	name = "Bluespace Launchpad Board"
+	name = "glup shitto"
 	desc = "The circuit board for a bluespace Launchpad."
 	id = "launchpad"
 	build_type = IMPRINTER
@@ -157,7 +157,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/launchpad_console
-	name = "Bluespace Launchpad Console Board"
+	name = "glup shitto"
 	desc = "The circuit board for a bluespace launchpad Console."
 	id = "launchpad_console"
 	build_type = IMPRINTER
@@ -168,7 +168,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/teleconsole
-	name = "Teleporter Console Board"
+	name = "glup shitto"
 	desc = "Allows for the construction of circuit boards used to build a teleporter control console."
 	id = "teleconsole"
 	build_type = IMPRINTER
@@ -179,7 +179,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/cryotube
-	name = "Cryotube Board"
+	name = "glup shitto"
 	desc = "The circuit board for a cryotube."
 	id = "cryotube"
 	build_path = /obj/item/circuitboard/machine/cryo_tube
@@ -189,7 +189,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/chem_dispenser
-	name = "Portable Chem Dispenser Board"
+	name = "glup shitto"
 	desc = "The circuit board for a portable chem dispenser."
 	id = "chem_dispenser"
 	build_path = /obj/item/circuitboard/machine/chem_dispenser
@@ -199,7 +199,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/chem_master
-	name = "Chem Master Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Chem Master 3000."
 	id = "chem_master"
 	build_path = /obj/item/circuitboard/machine/chem_master
@@ -209,7 +209,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/chem_heater
-	name = "Chemical Heater Board"
+	name = "glup shitto"
 	desc = "The circuit board for a chemical heater."
 	id = "chem_heater"
 	build_path = /obj/item/circuitboard/machine/chem_heater
@@ -219,7 +219,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/chem_mass_spec
-	name = "High-Performance Liquid Chromatography Board"
+	name = "glup shitto"
 	desc = "The circuit board for a High-Performance Liquid Chromatography (Machine Board"
 	id = "chem_mass_spec"
 	build_path = /obj/item/circuitboard/machine/chem_mass_spec
@@ -229,7 +229,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/smoke_machine
-	name = "Smoke Machine Board"
+	name = "glup shitto"
 	desc = "The circuit board for a smoke machine."
 	id = "smoke_machine"
 	build_path = /obj/item/circuitboard/machine/smoke_machine
@@ -239,7 +239,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/reagentgrinder
-	name = "All-In-One Grinder Board"
+	name = "glup shitto"
 	desc = "The circuit board for an All-In-One Grinder."
 	id = "reagentgrinder"
 	build_path = /obj/item/circuitboard/machine/reagentgrinder
@@ -249,7 +249,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/hypnochair
-	name = "Enhanced Interrogation Chamber Board"
+	name = "glup shitto"
 	desc = "Allows for the construction of circuit boards used to build an Enhanced Interrogation Chamber."
 	id = "hypnochair"
 	build_path = /obj/item/circuitboard/machine/hypnochair
@@ -259,7 +259,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/board/biogenerator
-	name = "Biogenerator Board"
+	name = "glup shitto"
 	desc = "The circuit board for a biogenerator."
 	id = "biogenerator"
 	build_path = /obj/item/circuitboard/machine/biogenerator
@@ -269,7 +269,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/hydroponics
-	name = "Hydroponics Tray Board"
+	name = "glup shitto"
 	desc = "The circuit board for a hydroponics tray."
 	id = "hydro_tray"
 	build_path = /obj/item/circuitboard/machine/hydroponics
@@ -279,7 +279,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/destructive_analyzer
-	name = "Destructive Analyzer Board"
+	name = "glup shitto"
 	desc = "The circuit board for a destructive analyzer."
 	id = "destructive_analyzer"
 	build_path = /obj/item/circuitboard/machine/destructive_analyzer
@@ -289,7 +289,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/experimentor
-	name = "E.X.P.E.R.I-MENTOR Board"
+	name = "glup shitto"
 	desc = "The circuit board for an E.X.P.E.R.I-MENTOR."
 	id = "experimentor"
 	build_path = /obj/item/circuitboard/machine/experimentor
@@ -299,7 +299,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/bepis
-	name = "B.E.P.I.S. Board"
+	name = "glup shitto"
 	desc = "The circuit board for a B.E.P.I.S."
 	id = "bepis"
 	build_path = /obj/item/circuitboard/machine/bepis
@@ -309,7 +309,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/board/protolathe
-	name = "Protolathe Board"
+	name = "glup shitto"
 	desc = "The circuit board for a protolathe."
 	id = "protolathe"
 	build_type = IMPRINTER
@@ -320,7 +320,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/protolathe/offstation
-	name = "Ancient Protolathe Board"
+	name = "glup shitto"
 	desc = "The circuit board for an ancient protolathe."
 	id = "protolathe_offstation"
 	build_type = AWAY_IMPRINTER
@@ -331,7 +331,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/circuit_imprinter
-	name = "Circuit Imprinter Board"
+	name = "glup shitto"
 	desc = "The circuit board for a circuit imprinter."
 	id = "circuit_imprinter"
 	build_type = IMPRINTER
@@ -342,7 +342,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/circuit_imprinter/offstation
-	name = "Ancient Circuit Imprinter Board"
+	name = "glup shitto"
 	desc = "The circuit board for an ancient circuit imprinter."
 	id = "circuit_imprinter_offstation"
 	build_type = AWAY_IMPRINTER
@@ -353,7 +353,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/rdservercontrol
-	name = "R&D Server Control Console Board"
+	name = "glup shitto"
 	desc = "The circuit board for an R&D Server Control Console."
 	id = "rdservercontrol"
 	build_path = /obj/item/circuitboard/computer/rdservercontrol
@@ -363,7 +363,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/rdserver
-	name = "R&D Server Board"
+	name = "glup shitto"
 	desc = "The circuit board for an R&D Server."
 	id = "rdserver"
 	build_path = /obj/item/circuitboard/machine/rdserver
@@ -373,7 +373,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/mechfab
-	name = "Exosuit Fabricator Board"
+	name = "glup shitto"
 	desc = "The circuit board for an Exosuit Fabricator."
 	id = "mechfab"
 	build_path = /obj/item/circuitboard/machine/mechfab
@@ -383,7 +383,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/cyborgrecharger
-	name = "Cyborg Recharger Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Cyborg Recharger."
 	id = "cyborgrecharger"
 	build_path = /obj/item/circuitboard/machine/cyborgrecharger
@@ -393,7 +393,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/mech_recharger
-	name = "Mechbay Recharger Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Mechbay Recharger."
 	id = "mech_recharger"
 	build_path = /obj/item/circuitboard/machine/mech_recharger
@@ -403,7 +403,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/dnascanner
-	name = "DNA Scanner Board"
+	name = "glup shitto"
 	desc = "The circuit board for a DNA Scanner."
 	id = "dnascanner"
 	build_path = /obj/item/circuitboard/machine/dnascanner
@@ -413,7 +413,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/scan_console
-	name = "DNA Console Board"
+	name = "glup shitto"
 	desc = "Allows for the construction of circuit boards used to build a new DNA console."
 	id = "scan_console"
 	build_path = /obj/item/circuitboard/computer/scan_consolenew
@@ -423,7 +423,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/destructive_scanner
-	name = "Destructive Scanner Board"
+	name = "glup shitto"
 	desc = "The circuit board for an experimental destructive scanner."
 	id = "destructive_scanner"
 	build_path = /obj/item/circuitboard/machine/destructive_scanner
@@ -433,7 +433,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/doppler_array
-	name = "Tachyon-Doppler Research Array Board"
+	name = "glup shitto"
 	desc = "The circuit board for a tachyon-doppler research array"
 	id = "doppler_array"
 	build_path = /obj/item/circuitboard/machine/doppler_array
@@ -443,7 +443,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/anomaly_refinery
-	name = "Anomaly Refinery Board"
+	name = "glup shitto"
 	desc = "The circuit board for an anomaly refinery"
 	id = "anomaly_refinery"
 	build_path = /obj/item/circuitboard/machine/anomaly_refinery
@@ -453,7 +453,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/tank_compressor
-	name = "Tank Compressor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a tank compressor"
 	id = "tank_compressor"
 	build_path = /obj/item/circuitboard/machine/tank_compressor
@@ -463,7 +463,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/microwave
-	name = "Microwave Board"
+	name = "glup shitto"
 	desc = "The circuit board for a microwave."
 	id = "microwave"
 	build_path = /obj/item/circuitboard/machine/microwave
@@ -473,7 +473,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/gibber
-	name = "Gibber Board"
+	name = "glup shitto"
 	desc = "The circuit board for a gibber."
 	id = "gibber"
 	build_path = /obj/item/circuitboard/machine/gibber
@@ -483,7 +483,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/smartfridge
-	name = "Smartfridge Board"
+	name = "glup shitto"
 	desc = "The circuit board for a smartfridge."
 	id = "smartfridge"
 	build_path = /obj/item/circuitboard/machine/smartfridge
@@ -493,7 +493,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/monkey_recycler
-	name = "Monkey Recycler Board"
+	name = "glup shitto"
 	desc = "The circuit board for a monkey recycler."
 	id = "monkey_recycler"
 	build_path = /obj/item/circuitboard/machine/monkey_recycler
@@ -503,7 +503,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/seed_extractor
-	name = "Seed Extractor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a seed extractor."
 	id = "seed_extractor"
 	build_path = /obj/item/circuitboard/machine/seed_extractor
@@ -513,7 +513,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/processor
-	name = "Food/Slime Processor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a processing unit. Screwdriver the circuit to switch between food (default) or slime processing."
 	id = "processor"
 	build_path = /obj/item/circuitboard/machine/processor
@@ -523,7 +523,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/soda_dispenser
-	name = "Portable Soda Dispenser Board"
+	name = "glup shitto"
 	desc = "The circuit board for a portable soda dispenser."
 	id = "soda_dispenser"
 	build_path = /obj/item/circuitboard/machine/chem_dispenser/drinks
@@ -533,7 +533,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/beer_dispenser
-	name = "Portable Booze Dispenser Board"
+	name = "glup shitto"
 	desc = "The circuit board for a portable booze dispenser."
 	id = "beer_dispenser"
 	build_path = /obj/item/circuitboard/machine/chem_dispenser/drinks/beer
@@ -543,7 +543,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/recycler
-	name = "Recycler Board"
+	name = "glup shitto"
 	desc = "The circuit board for a recycler."
 	id = "recycler"
 	build_path = /obj/item/circuitboard/machine/recycler
@@ -553,7 +553,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/scanner_gate
-	name = "Scanner Gate Board"
+	name = "glup shitto"
 	desc = "The circuit board for a scanner gate."
 	id = "scanner_gate"
 	build_path = /obj/item/circuitboard/machine/scanner_gate
@@ -563,7 +563,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/holopad
-	name = "AI Holopad Board"
+	name = "glup shitto"
 	desc = "The circuit board for a holopad."
 	id = "holopad"
 	build_path = /obj/item/circuitboard/machine/holopad
@@ -573,7 +573,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/autolathe
-	name = "Autolathe Board"
+	name = "glup shitto"
 	desc = "The circuit board for an autolathe."
 	id = "autolathe"
 	build_path = /obj/item/circuitboard/machine/autolathe
@@ -583,7 +583,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/recharger
-	name = "Weapon Recharger Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Weapon Recharger."
 	id = "recharger"
 	materials = list(/datum/material/glass = 1000, /datum/material/gold = 2000)
@@ -594,7 +594,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/vendor
-	name = "Vendor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Vendor."
 	id = "vendor"
 	build_path = /obj/item/circuitboard/machine/vendor
@@ -604,7 +604,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/ore_redemption
-	name = "Ore Redemption Machine Board"
+	name = "glup shitto"
 	desc = "The circuit board for an Ore Redemption machine."
 	id = "ore_redemption"
 	build_path = /obj/item/circuitboard/machine/ore_redemption
@@ -614,7 +614,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/mining_equipment_vendor
-	name = "Mining Rewards Vendor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Mining Rewards Vendor."
 	id = "mining_equipment_vendor"
 	build_path = /obj/item/circuitboard/computer/order_console/mining
@@ -624,7 +624,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/board/suit_storage_unit
-	name = "Suit Storage Unit"
+	name = "glup shitto"
 	desc = "The circuit board for a suit storage unit."
 	id = "suit_storage_unit"
 	build_path = /obj/item/circuitboard/machine/suit_storage_unit
@@ -634,7 +634,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/tesla_coil
-	name = "Tesla Coil Board"
+	name = "glup shitto"
 	desc = "The circuit board for a tesla coil."
 	id = "tesla_coil"
 	build_path = /obj/item/circuitboard/machine/tesla_coil
@@ -644,7 +644,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/grounding_rod
-	name = "Grounding Rod Board"
+	name = "glup shitto"
 	desc = "The circuit board for a grounding rod."
 	id = "grounding_rod"
 	build_path = /obj/item/circuitboard/machine/grounding_rod
@@ -654,7 +654,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/ntnet_relay
-	name = "NTNet Relay Board"
+	name = "glup shitto"
 	desc = "The circuit board for a wireless network relay."
 	id = "ntnet_relay"
 	build_type = IMPRINTER
@@ -665,7 +665,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/limbgrower
-	name = "Limb Grower Board"
+	name = "glup shitto"
 	desc = "The circuit board for a limb grower."
 	id = "limbgrower"
 	build_path = /obj/item/circuitboard/machine/limbgrower
@@ -675,7 +675,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/harvester
-	name = "Organ Harvester Board"
+	name = "glup shitto"
 	desc = "The circuit board for an organ harvester."
 	id = "harvester"
 	build_path = /obj/item/circuitboard/machine/harvester
@@ -685,7 +685,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/deepfryer
-	name = "Deep Fryer Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Deep Fryer."
 	id = "deepfryer"
 	build_path = /obj/item/circuitboard/machine/deep_fryer
@@ -695,7 +695,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/griddle
-	name = "Griddle Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Griddle."
 	id = "griddle"
 	build_path = /obj/item/circuitboard/machine/griddle
@@ -705,7 +705,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/oven
-	name = "Oven Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Oven."
 	id = "oven"
 	build_path = /obj/item/circuitboard/machine/oven
@@ -715,7 +715,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/donksofttoyvendor
-	name = "Donksoft Toy Vendor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Donksoft Toy Vendor."
 	id = "donksofttoyvendor"
 	build_path = /obj/item/circuitboard/machine/vending/donksofttoyvendor
@@ -725,7 +725,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/cell_charger
-	name = "Cell Charger Board"
+	name = "glup shitto"
 	desc = "The circuit board for a cell charger."
 	id = "cell_charger"
 	build_path = /obj/item/circuitboard/machine/cell_charger
@@ -735,7 +735,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/dish_drive
-	name = "Dish Drive Board"
+	name = "glup shitto"
 	desc = "The circuit board for a dish drive."
 	id = "dish_drive"
 	build_path = /obj/item/circuitboard/machine/dish_drive
@@ -745,7 +745,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/stacking_unit_console
-	name = "Stacking Machine Console Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Stacking Machine Console."
 	id = "stack_console"
 	build_path = /obj/item/circuitboard/machine/stacking_unit_console
@@ -755,7 +755,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/stacking_machine
-	name = "Stacking Machine Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Stacking Machine."
 	id = "stack_machine"
 	build_path = /obj/item/circuitboard/machine/stacking_machine
@@ -765,7 +765,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/ore_silo
-	name = "Ore Silo Board"
+	name = "glup shitto"
 	desc = "The circuit board for an ore silo."
 	id = "ore_silo"
 	build_path = /obj/item/circuitboard/machine/ore_silo
@@ -775,7 +775,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/fat_sucker
-	name = "Lipid Extractor Board"
+	name = "glup shitto"
 	desc = "The circuit board for a lipid extractor."
 	id = "fat_sucker"
 	build_path = /obj/item/circuitboard/machine/fat_sucker
@@ -785,7 +785,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/stasis
-	name = "Lifeform Stasis Unit Board"
+	name = "glup shitto"
 	desc = "The circuit board for a stasis unit."
 	id = "stasis"
 	build_path = /obj/item/circuitboard/machine/stasis
@@ -795,7 +795,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/spaceship_navigation_beacon
-	name = "Bluespace Navigation Gigabeacon Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Bluespace Navigation Gigabeacon."
 	id = "spaceship_navigation_beacon"
 	build_type = IMPRINTER
@@ -806,7 +806,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/medical_kiosk
-	name = "Medical Kiosk Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Medical Kiosk."
 	id = "medical_kiosk"
 	build_path = /obj/item/circuitboard/machine/medical_kiosk
@@ -816,7 +816,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/medipen_refiller
-	name = "Medipen Refiller Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Medipen Refiller."
 	id = "medipen_refiller"
 	build_path = /obj/item/circuitboard/machine/medipen_refiller
@@ -826,7 +826,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/board/plumbing_receiver
-	name = "Chemical Recipient Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Chemical Recipient."
 	id = "plumbing_receiver"
 	build_path = /obj/item/circuitboard/machine/plumbing_receiver
@@ -836,7 +836,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/sheetifier
-	name = "Sheet-meister 2000 Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Sheet-meister 2000."
 	id = "sheetifier"
 	build_path = /obj/item/circuitboard/machine/sheetifier
@@ -846,7 +846,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/board/restaurant_portal
-	name = "Restaurant Portal Board"
+	name = "glup shitto"
 	desc = "The circuit board for a restaurant portal"
 	id = "restaurant_portal"
 	build_path = /obj/item/circuitboard/machine/restaurant_portal
@@ -856,7 +856,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/vendatray
-	name = "Vend-a-Tray Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Vend-a-Tray."
 	id = "vendatray"
 	build_path = /obj/item/circuitboard/machine/vendatray
@@ -866,7 +866,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/bountypad
-	name = "Civilian Bounty Pad Board"
+	name = "glup shitto"
 	desc = "The circuit board for a Civilian Bounty Pad."
 	id = "bounty_pad"
 	build_path = /obj/item/circuitboard/machine/bountypad
@@ -876,7 +876,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/board/skill_station
-	name = "Skill Station Board"
+	name = "glup shitto"
 	desc = "The circuit board for Skill station."
 	id = "skill_station"
 	build_path = /obj/item/circuitboard/machine/skill_station
@@ -886,7 +886,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/board/fax
-	name = "Fax Machine Board"
+	name = "glup shitto"
 	desc = "The circuit board for a fax machine."
 	id = "fax"
 	build_path = /obj/item/circuitboard/machine/fax
@@ -898,7 +898,7 @@
 //Hypertorus fusion reactor designs
 
 /datum/design/board/HFR_core
-	name = "HFR Core Board"
+	name = "glup shitto"
 	desc = "The circuit board for an HFR Core."
 	id = "HFR_core"
 	build_path = /obj/item/circuitboard/machine/HFR_core
@@ -908,7 +908,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/HFR_fuel_input
-	name = "HFR Fuel Input Board"
+	name = "glup shitto"
 	desc = "The circuit board for an HFR fuel input."
 	id = "HFR_fuel_input"
 	build_path = /obj/item/circuitboard/machine/HFR_fuel_input
@@ -918,7 +918,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/HFR_waste_output
-	name = "HFR Waste Output Board"
+	name = "glup shitto"
 	desc = "The circuit board for an HFR waste output."
 	id = "HFR_waste_output"
 	build_path = /obj/item/circuitboard/machine/HFR_waste_output
@@ -928,7 +928,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/HFR_moderator_input
-	name = "HFR Moderator Input Board"
+	name = "glup shitto"
 	desc = "The circuit board for an HFR moderator input."
 	id = "HFR_moderator_input"
 	build_path = /obj/item/circuitboard/machine/HFR_moderator_input
@@ -938,7 +938,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/HFR_corner
-	name = "HFR Corner Board"
+	name = "glup shitto"
 	desc = "The circuit board for an HFR corner."
 	id = "HFR_corner"
 	build_path = /obj/item/circuitboard/machine/HFR_corner
@@ -948,7 +948,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/HFR_interface
-	name = "HFR Interface Board"
+	name = "glup shitto"
 	desc = "The circuit board for an HFR interface."
 	id = "HFR_interface"
 	build_path = /obj/item/circuitboard/machine/HFR_interface
@@ -958,7 +958,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/crystallizer
-	name = "Crystallizer Board"
+	name = "glup shitto"
 	desc = "The circuit board for a crystallizer."
 	id = "crystallizer"
 	build_path = /obj/item/circuitboard/machine/crystallizer
@@ -968,7 +968,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/exoscanner
-	name = "Scanner Array Board"
+	name = "glup shitto"
 	desc = "The circuit board for scanner array."
 	id = "exoscanner"
 	build_path = /obj/item/circuitboard/machine/exoscanner
@@ -978,7 +978,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/board/exodrone_launcher
-	name = "Exploration Drone Launcher Board"
+	name = "glup shitto"
 	desc = "The circuit board for exodrone launcher."
 	id = "exodrone_launcher"
 	build_path = /obj/item/circuitboard/machine/exodrone_launcher
@@ -988,7 +988,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/board/component_printer
-	name = "Component Printer Board"
+	name = "glup shitto"
 	desc = "The circuit board for a component printer"
 	id = "component_printer"
 	build_path = /obj/item/circuitboard/machine/component_printer
@@ -998,7 +998,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/module_printer
-	name = "Module Duplicator Board"
+	name = "glup shitto"
 	desc = "The circuit board for a module duplicator"
 	id = "module_duplicator"
 	build_path = /obj/item/circuitboard/machine/module_duplicator
@@ -1008,7 +1008,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/coffeemaker
-	name = "Coffeemaker Board"
+	name = "glup shitto"
 	desc = "The circuit board for a coffeemaker."
 	id = "coffeemaker"
 	build_path = /obj/item/circuitboard/machine/coffeemaker

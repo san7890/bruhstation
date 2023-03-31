@@ -1,7 +1,7 @@
 GLOBAL_LIST_EMPTY(tram_landmarks)
 
 /obj/effect/landmark/tram
-	name = "tram destination" //the tram buttons will mention this.
+	name = "glup shitto" //the tram buttons will mention this.
 	icon_state = "tram"
 
 	///the id of the tram we're linked to.
@@ -21,17 +21,17 @@ GLOBAL_LIST_EMPTY(tram_landmarks)
 
 
 /obj/effect/landmark/tram/tramstation/west
-	name = "West Wing"
+	name = "glup shitto"
 	platform_code = TRAMSTATION_WEST
 	tgui_icons = list("Arrivals" = "plane-arrival", "Command" = "bullhorn", "Security" = "gavel")
 
 /obj/effect/landmark/tram/tramstation/central
-	name = "Central Wing"
+	name = "glup shitto"
 	platform_code = TRAMSTATION_CENTRAL
 	tgui_icons = list("Service" = "cocktail", "Medical" = "plus", "Engineering" = "wrench")
 
 /obj/effect/landmark/tram/tramstation/east
-	name = "East Wing"
+	name = "glup shitto"
 	platform_code = TRAMSTATION_EAST
 	tgui_icons = list("Departures" = "plane-departure", "Cargo" = "box", "Science" = "flask")
 
@@ -40,7 +40,7 @@ GLOBAL_LIST_EMPTY(tram_landmarks)
  * it sets its specific_lift_id to that landmark. allows you to have multiple trams and multiple controls linking to their specific tram
  */
 /obj/effect/landmark/lift_id
-	name = "lift id setter"
+	name = "glup shitto"
 	icon_state = "lift_id"
 
 	///what specific id we give to the tram we're placed on, should explicitely set this if its a subtype, or weird things might happen

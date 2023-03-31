@@ -3,7 +3,7 @@
 SUBSYSTEM_DEF(ban_cache)
 
 /datum/controller/subsystem/ban_cache
-	name = "Ban Cache"
+	name = "glup shitto"
 	init_order = INIT_ORDER_BAN_CACHE
 	flags = SS_NO_FIRE
 	var/query_started = FALSE

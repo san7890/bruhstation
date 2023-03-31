@@ -1,7 +1,7 @@
 #define MONKEY_SPEC_ATTACK_BITE_MISS_CHANCE 25
 
 /datum/species/monkey
-	name = "Monkey"
+	name = "glup shitto"
 	id = SPECIES_MONKEY
 	bodytype = BODYTYPE_ORGANIC | BODYTYPE_MONKEY
 	external_organs = list(
@@ -201,7 +201,7 @@
 	return to_add
 
 /obj/item/organ/internal/brain/primate //Ook Ook
-	name = "Primate Brain"
+	name = "glup shitto"
 	desc = "This wad of meat is small, but has enlaged occipital lobes for spotting bananas."
 	organ_traits = list(TRAIT_CAN_STRIP, TRAIT_PRIMITIVE) // No literacy or advanced tool usage.
 	actions_types = list(/datum/action/item_action/organ_action/toggle_trip)
@@ -209,7 +209,7 @@
 	var/tripping = TRUE
 
 /datum/action/item_action/organ_action/toggle_trip
-	name = "Toggle Tripping"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_changeling.dmi'
 	button_icon_state = "lesser_form"
 	background_icon_state = "bg_default_on"

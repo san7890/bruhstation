@@ -1,5 +1,5 @@
 /obj/structure/closet/secure_closet
-	name = "secure locker"
+	name = "glup shitto"
 	desc = "It's a card-locked storage unit."
 	locked = TRUE
 	icon_state = "secure"

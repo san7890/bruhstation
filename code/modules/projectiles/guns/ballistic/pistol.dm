@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/automatic/pistol
-	name = "\improper Makarov pistol"
+	name = "glup shitto"
 	desc = "A small, easily concealable 9mm handgun. Has a threaded barrel for suppressors."
 	icon_state = "pistol"
 	w_class = WEIGHT_CLASS_SMALL
@@ -36,7 +36,7 @@
 	install_suppressor(S)
 
 /obj/item/gun/ballistic/automatic/pistol/clandestine
-	name = "\improper Ansem pistol"
+	name = "glup shitto"
 	desc = "The spiritual successor of the Makarov, or maybe someone just dropped their gun in a bucket of paint. The gun is chambered in 10mm."
 	icon_state = "pistol_evil"
 	mag_type = /obj/item/ammo_box/magazine/m10mm
@@ -44,7 +44,7 @@
 	suppressor_x_offset = 12
 
 /obj/item/gun/ballistic/automatic/pistol/m1911
-	name = "\improper M1911"
+	name = "glup shitto"
 	desc = "A classic .45 handgun with a small magazine capacity."
 	icon_state = "m1911"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -59,7 +59,7 @@
 	spawnwithmagazine = FALSE
 
 /obj/item/gun/ballistic/automatic/pistol/deagle
-	name = "\improper Desert Eagle"
+	name = "glup shitto"
 	desc = "A robust .50 AE handgun."
 	icon_state = "deagle"
 	force = 14
@@ -82,7 +82,7 @@
 	inhand_icon_state = "deagleg"
 
 /obj/item/gun/ballistic/automatic/pistol/aps
-	name = "\improper Stechkin APS machine pistol"
+	name = "glup shitto"
 	desc = "An old Soviet machine pistol. It fires quickly, but kicks like a mule. Uses 9mm ammo. Has a threaded barrel for suppressors."
 	icon_state = "aps"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -95,7 +95,7 @@
 	suppressor_x_offset = 6
 
 /obj/item/gun/ballistic/automatic/pistol/stickman
-	name = "flat gun"
+	name = "glup shitto"
 	desc = "A 2 dimensional gun.. what?"
 	icon_state = "flatgun"
 	mag_display = FALSE

@@ -4,7 +4,7 @@
 ////////////////////////////////////////////FISH////////////////////////////////////////////
 
 /obj/item/food/cubancarp
-	name = "\improper Cuban carp"
+	name = "glup shitto"
 	desc = "A grifftastic sandwich that burns your tongue and then leaves it numb!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "cubancarp"
@@ -20,7 +20,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/fishmeat
-	name = "fish fillet"
+	name = "glup shitto"
 	desc = "A fillet of some fish meat."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfillet"
@@ -35,7 +35,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/fishmeat/carp
-	name = "carp fillet"
+	name = "glup shitto"
 	desc = "A fillet of spess carp meat."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 4,
@@ -51,12 +51,12 @@
 		AddElement(/datum/element/swabable, cell_line, CELL_VIRUS_TABLE_GENERIC_MOB)
 
 /obj/item/food/fishmeat/carp/imitation
-	name = "imitation carp fillet"
+	name = "glup shitto"
 	desc = "Almost just like the real thing, kinda."
 	cell_line = null
 
 /obj/item/food/fishmeat/moonfish
-	name = "moonfish fillet"
+	name = "glup shitto"
 	desc = "A fillet of moonfish."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "moonfish_fillet"
@@ -65,7 +65,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/grilled_moonfish, rand(40 SECONDS, 50 SECONDS), TRUE, TRUE)
 
 /obj/item/food/fishmeat/gunner_jellyfish
-	name = "filleted gunner jellyfish"
+	name = "glup shitto"
 	desc = "A gunner jellyfish with the stingers removed. Mildly hallucinogenic."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "jellyfish_fillet"
@@ -75,20 +75,20 @@
 	)
 
 /obj/item/food/fishmeat/armorfish
-	name = "cleaned armorfish"
+	name = "glup shitto"
 	desc = "An armorfish with its guts and shell removed, ready for use in cooking."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "armorfish_fillet"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3)
 
 /obj/item/food/fishmeat/donkfish
-	name = "donkfillet"
+	name = "glup shitto"
 	desc = "The dreaded donkfish fillet. No sane spaceman would eat this, and it does not get better when cooked."
 	icon_state = "donkfillet"
 	food_reagents = list(/datum/reagent/yuck = 3)
 
 /obj/item/food/fishfingers
-	name = "fish fingers"
+	name = "glup shitto"
 	desc = "A finger of fish."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfingers"
@@ -104,7 +104,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/fishandchips
-	name = "fish and chips"
+	name = "glup shitto"
 	desc = "I do say so myself chap."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishandchips"
@@ -118,7 +118,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/fishfry
-	name = "fish fry"
+	name = "glup shitto"
 	desc = "All that and no bag of chips..."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfry"
@@ -131,7 +131,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/vegetariansushiroll
-	name = "vegetarian sushi roll"
+	name = "glup shitto"
 	desc = "A roll of simple vegetarian sushi with rice, carrots, and potatoes. Sliceable into pieces!"
 	icon_state = "vegetariansushiroll"
 	food_reagents = list(
@@ -146,7 +146,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/vegetariansushislice, 4, screentip_verb = "Chop")
 
 /obj/item/food/vegetariansushislice
-	name = "vegetarian sushi slice"
+	name = "glup shitto"
 	desc = "A slice of simple vegetarian sushi with rice, carrots, and potatoes."
 	icon_state = "vegetariansushislice"
 	food_reagents = list(
@@ -158,7 +158,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/spicyfiletsushiroll
-	name = "spicy filet sushi roll"
+	name = "glup shitto"
 	desc = "A roll of tasty, spicy sushi made with fish and vegetables. Sliceable into pieces!"
 	icon_state = "spicyfiletroll"
 	food_reagents = list(
@@ -175,7 +175,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/spicyfiletsushislice, 4, screentip_verb = "Chop")
 
 /obj/item/food/spicyfiletsushislice
-	name = "spicy filet sushi slice"
+	name = "glup shitto"
 	desc = "A slice of tasty, spicy sushi made with fish and vegetables. Don't eat it too fast!."
 	icon_state = "spicyfiletslice"
 	food_reagents = list(
@@ -190,7 +190,7 @@
 
 // empty sushi for custom sushi
 /obj/item/food/sushi/empty
-	name = "sushi"
+	name = "glup shitto"
 	foodtypes = NONE
 	tastes = list()
 	icon_state = "vegetariansushiroll"
@@ -200,14 +200,14 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/sushislice/empty, 4, screentip_verb = "Chop")
 
 /obj/item/food/sushislice/empty
-	name = "sushi slice"
+	name = "glup shitto"
 	foodtypes = NONE
 	tastes = list()
 	icon_state = "vegetariansushislice"
 	desc = "A slice of customized sushi."
 
 /obj/item/food/nigiri_sushi
-	name = "nigiri sushi"
+	name = "glup shitto"
 	desc = "A simple nigiri of fish atop a packed rice ball with a seaweed wrapping and a side of soy sauce."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "nigiri_sushi"
@@ -217,7 +217,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/meat_poke
-	name = "meat poke"
+	name = "glup shitto"
 	desc = "Simple poke, rice on the bottom, vegetables and meat on top. Should be mixed before eating."
 	icon = 'icons/obj/food/soupsalad.dmi'
 	icon_state = "pokemeat"
@@ -232,7 +232,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/fish_poke
-	name = "fish poke"
+	name = "glup shitto"
 	desc = "Simple poke, rice on the bottom, vegetables and fish on top. Should be mixed before eating."
 	icon = 'icons/obj/food/soupsalad.dmi'
 	icon_state = "pokefish"
@@ -249,7 +249,7 @@
 ////////////////////////////////////////////MEATS AND ALIKE////////////////////////////////////////////
 
 /obj/item/food/tempeh
-	name = "raw tempeh block"
+	name = "glup shitto"
 	desc = "Fungus fermented soybean cake, warm to the touch."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "tempeh"
@@ -265,7 +265,7 @@
 
 //add an icon for slices
 /obj/item/food/tempehslice
-	name = "tempeh slice"
+	name = "glup shitto"
 	desc = "A slice of tempeh, a slice of wkwkwk."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "tempehslice"
@@ -275,7 +275,7 @@
 
 //add an icon for blends
 /obj/item/food/tempehstarter
-	name = "tempeh starter"
+	name = "glup shitto"
 	desc = "A mix of soy and joy. It's warm... and moving?"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "tempehstarter"
@@ -284,7 +284,7 @@
 	foodtypes = VEGETABLES | GROSS
 
 /obj/item/food/tofu
-	name = "tofu"
+	name = "glup shitto"
 	desc = "We all love tofu."
 	icon_state = "tofu"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 2)
@@ -294,13 +294,13 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/tofu/prison
-	name = "soggy tofu"
+	name = "glup shitto"
 	desc = "You refuse to eat this strange bean curd."
 	tastes = list("sour, rotten water" = 1)
 	foodtypes = GROSS
 
 /obj/item/food/spiderleg
-	name = "spider leg"
+	name = "glup shitto"
 	desc = "A still twitching leg of a giant spider... you don't really want to eat this, do you?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spiderleg"
@@ -316,7 +316,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/boiledspiderleg, rand(50 SECONDS, 60 SECONDS), TRUE, TRUE)
 
 /obj/item/food/cornedbeef
-	name = "corned beef and cabbage"
+	name = "glup shitto"
 	desc = "Now you can feel like a real tourist vacationing in Ireland."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "cornedbeef"
@@ -330,7 +330,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/bearsteak
-	name = "Filet migrawr"
+	name = "glup shitto"
 	desc = "Because eating bear wasn't manly enough."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "bearsteak"
@@ -345,7 +345,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/raw_meatball
-	name = "raw meatball"
+	name = "glup shitto"
 	desc = "A great meal all round. Not a cord of wood. Kinda raw"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_meatball"
@@ -363,32 +363,32 @@
 	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, patty_type, 1, table_required = TRUE, screentip_verb = "Flatten")
 
 /obj/item/food/raw_meatball/human
-	name = "strange raw meatball"
+	name = "glup shitto"
 	meatball_type = /obj/item/food/meatball/human
 	patty_type = /obj/item/food/raw_patty/human
 
 /obj/item/food/raw_meatball/corgi
-	name = "raw corgi meatball"
+	name = "glup shitto"
 	meatball_type = /obj/item/food/meatball/corgi
 	patty_type = /obj/item/food/raw_patty/corgi
 
 /obj/item/food/raw_meatball/xeno
-	name = "raw xeno meatball"
+	name = "glup shitto"
 	meatball_type = /obj/item/food/meatball/xeno
 	patty_type = /obj/item/food/raw_patty/xeno
 
 /obj/item/food/raw_meatball/bear
-	name = "raw bear meatball"
+	name = "glup shitto"
 	meatball_type = /obj/item/food/meatball/bear
 	patty_type = /obj/item/food/raw_patty/bear
 
 /obj/item/food/raw_meatball/chicken
-	name = "raw chicken meatball"
+	name = "glup shitto"
 	meatball_type = /obj/item/food/meatball/chicken
 	patty_type = /obj/item/food/raw_patty/chicken
 
 /obj/item/food/meatball
-	name = "meatball"
+	name = "glup shitto"
 	desc = "A great meal all round. Not a cord of wood."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatball"
@@ -401,26 +401,26 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/meatball/human
-	name = "strange meatball"
+	name = "glup shitto"
 
 /obj/item/food/meatball/corgi
-	name = "corgi meatball"
+	name = "glup shitto"
 
 /obj/item/food/meatball/bear
-	name = "bear meatball"
+	name = "glup shitto"
 	tastes = list("meat" = 1, "salmon" = 1)
 
 /obj/item/food/meatball/xeno
-	name = "xenomorph meatball"
+	name = "glup shitto"
 	tastes = list("meat" = 1, "acid" = 1)
 
 /obj/item/food/meatball/chicken
-	name = "chicken meatball"
+	name = "glup shitto"
 	tastes = list("chicken" = 1)
 	icon_state = "chicken_meatball"
 
 /obj/item/food/raw_patty
-	name = "raw patty"
+	name = "glup shitto"
 	desc = "I'm.....NOT REAAADDYY."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_patty"
@@ -434,30 +434,30 @@
 	AddComponent(/datum/component/grillable, patty_type, rand(30 SECONDS, 40 SECONDS), TRUE)
 
 /obj/item/food/raw_patty/human
-	name = "strange raw patty"
+	name = "glup shitto"
 	patty_type = /obj/item/food/patty/human
 
 /obj/item/food/raw_patty/corgi
-	name = "raw corgi patty"
+	name = "glup shitto"
 	patty_type = /obj/item/food/patty/corgi
 
 /obj/item/food/raw_patty/bear
-	name = "raw bear patty"
+	name = "glup shitto"
 	tastes = list("meat" = 1, "salmon" = 1)
 	patty_type = /obj/item/food/patty/bear
 
 /obj/item/food/raw_patty/xeno
-	name = "raw xenomorph patty"
+	name = "glup shitto"
 	tastes = list("meat" = 1, "acid" = 1)
 	patty_type = /obj/item/food/patty/xeno
 
 /obj/item/food/raw_patty/chicken
-	name = "raw chicken patty"
+	name = "glup shitto"
 	tastes = list("chicken" = 1)
 	patty_type = /obj/item/food/patty/chicken
 
 /obj/item/food/patty
-	name = "patty"
+	name = "glup shitto"
 	desc = "The nanotrasen patty is the patty for you and me!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "patty"
@@ -471,26 +471,26 @@
 /obj/item/food/patty/plain
 
 /obj/item/food/patty/human
-	name = "strange patty"
+	name = "glup shitto"
 
 /obj/item/food/patty/corgi
-	name = "corgi patty"
+	name = "glup shitto"
 
 /obj/item/food/patty/bear
-	name = "bear patty"
+	name = "glup shitto"
 	tastes = list("meat" = 1, "salmon" = 1)
 
 /obj/item/food/patty/xeno
-	name = "xenomorph patty"
+	name = "glup shitto"
 	tastes = list("meat" = 1, "acid" = 1)
 
 /obj/item/food/patty/chicken
-	name = "chicken patty"
+	name = "glup shitto"
 	tastes = list("chicken" = 1)
 	icon_state = "chicken_patty"
 
 /obj/item/food/raw_sausage
-	name = "raw sausage"
+	name = "glup shitto"
 	desc = "A piece of mixed, long meat, but then raw."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_sausage"
@@ -507,7 +507,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/sausage, rand(60 SECONDS, 75 SECONDS), TRUE)
 
 /obj/item/food/sausage
-	name = "sausage"
+	name = "glup shitto"
 	desc = "A piece of mixed, long meat."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "sausage"
@@ -528,7 +528,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/sausage/american, 1, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")
 
 /obj/item/food/sausage/american
-	name = "american sausage"
+	name = "glup shitto"
 	desc = "Snip."
 	icon_state = "american_sausage"
 
@@ -536,7 +536,7 @@
 	return
 
 /obj/item/food/salami
-	name = "salami"
+	name = "glup shitto"
 	desc = "A slice of cured salami."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "salami"
@@ -547,7 +547,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/rawkhinkali
-	name = "raw khinkali"
+	name = "glup shitto"
 	desc = "One hundred khinkalis? Do I look like a pig?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "khinkali"
@@ -565,7 +565,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/khinkali, rand(50 SECONDS, 60 SECONDS), TRUE)
 
 /obj/item/food/khinkali
-	name = "khinkali"
+	name = "glup shitto"
 	desc = "One hundred khinkalis? Do I look like a pig?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "khinkali"
@@ -582,7 +582,7 @@
 	burns_on_grill = TRUE
 
 /obj/item/food/meatbun
-	name = "meat bun"
+	name = "glup shitto"
 	desc = "Has the potential to not be dog."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatbun"
@@ -596,7 +596,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/stewedsoymeat
-	name = "stewed soy meat"
+	name = "glup shitto"
 	desc = "Even non-vegetarians will LOVE this!"
 	icon_state = "stewedsoymeat"
 	food_reagents = list(
@@ -610,7 +610,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/boiledspiderleg
-	name = "boiled spider leg"
+	name = "glup shitto"
 	desc = "A giant spider's leg that's still twitching after being cooked. Gross!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spiderlegcooked"
@@ -625,7 +625,7 @@
 	burns_on_grill = TRUE
 
 /obj/item/food/spidereggsham
-	name = "green eggs and ham"
+	name = "glup shitto"
 	desc = "Would you eat them on a train? Would you eat them on a plane? Would you eat them on a state of the art corporate deathtrap floating through space?"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spidereggsham"
@@ -639,7 +639,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/sashimi
-	name = "carp sashimi"
+	name = "glup shitto"
 	desc = "Celebrate surviving attack from hostile alien lifeforms by hospitalising yourself. You sure hope whoever made this is skilled."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "sashimi"
@@ -659,7 +659,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_CARP, CELL_VIRUS_TABLE_GENERIC_MOB)
 
 /obj/item/food/nugget
-	name = "chicken nugget"
+	name = "glup shitto"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
 		/datum/reagent/consumable/nutriment/protein = 2,
@@ -681,7 +681,7 @@
 	icon_state = "nugget_[shape]"
 
 /obj/item/food/pigblanket
-	name = "pig in a blanket"
+	name = "glup shitto"
 	desc = "A tiny sausage wrapped in a flakey, buttery roll. Free this pig from its blanket prison by eating it."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "pigblanket"
@@ -695,7 +695,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/bbqribs
-	name = "bbq ribs"
+	name = "glup shitto"
 	desc = "BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "ribs"
@@ -709,7 +709,7 @@
 	foodtypes = MEAT | SUGAR
 
 /obj/item/food/meatclown
-	name = "meat clown"
+	name = "glup shitto"
 	desc = "A delicious, round piece of meat clown. How horrifying."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatclown"
@@ -727,7 +727,7 @@
 	AddComponent(/datum/component/slippery, 3 SECONDS)
 
 /obj/item/food/lasagna
-	name = "Lasagna"
+	name = "glup shitto"
 	desc = "A slice of lasagna. Perfect for a Monday afternoon."
 	icon_state = "lasagna"
 	food_reagents = list(
@@ -751,7 +751,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/kebab/human
-	name = "human-kebab"
+	name = "glup shitto"
 	desc = "A human meat, on a stick."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 16,
@@ -762,7 +762,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/kebab/monkey
-	name = "meat-kebab"
+	name = "glup shitto"
 	desc = "Delicious meat, on a stick."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 16,
@@ -773,7 +773,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/kebab/tofu
-	name = "tofu-kebab"
+	name = "glup shitto"
 	desc = "Vegan meat, on a stick."
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 15)
 	tastes = list("tofu" = 3, "metal" = 1)
@@ -781,7 +781,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/kebab/tail
-	name = "lizard-tail kebab"
+	name = "glup shitto"
 	desc = "Severed lizard tail on a stick."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 30,
@@ -791,7 +791,7 @@
 	foodtypes = MEAT | GORE
 
 /obj/item/food/kebab/rat
-	name = "rat-kebab"
+	name = "glup shitto"
 	desc = "Not so delicious rat meat, on a stick."
 	icon_state = "ratkebab"
 	w_class = WEIGHT_CLASS_NORMAL
@@ -805,7 +805,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/kebab/rat/double
-	name = "double rat-kebab"
+	name = "glup shitto"
 	icon_state = "doubleratkebab"
 	tastes = list("rat meat" = 2, "metal" = 1)
 	food_reagents = list(
@@ -815,7 +815,7 @@
 	)
 
 /obj/item/food/kebab/fiesta
-	name = "fiesta skewer"
+	name = "glup shitto"
 	icon_state = "fiestaskewer"
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 12,
@@ -826,7 +826,7 @@
 	foodtypes = MEAT | VEGETABLES
 
 /obj/item/food/fried_chicken
-	name = "fried chicken"
+	name = "glup shitto"
 	desc = "A juicy hunk of chicken meat, fried to perfection."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fried_chicken1"
@@ -842,7 +842,7 @@
 		icon_state = "fried_chicken2"
 
 /obj/item/food/beef_stroganoff
-	name = "beef stroganoff"
+	name = "glup shitto"
 	desc = "A russian dish that consists of beef and sauce. Really popular in japan, or at least that's what my animes would allude to."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "beefstroganoff"
@@ -858,7 +858,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/beef_wellington
-	name = "beef wellington"
+	name = "glup shitto"
 	desc = "A luxurious log of beef, covered in a fine mushroom duxelle and pancetta ham, then bound in puff pastry."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "beef_wellington"
@@ -875,7 +875,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE,  /obj/item/food/beef_wellington_slice, 3, 3 SECONDS, table_required = TRUE,  screentip_verb = "Cut")
 
 /obj/item/food/beef_wellington_slice
-	name = "beef wellington slice"
+	name = "glup shitto"
 	desc = "A slice of beef wellington, topped with a rich gravy. Simply delicious."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "beef_wellington_slice"
@@ -889,7 +889,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/full_english
-	name = "full english breakfast"
+	name = "glup shitto"
 	desc = "A hearty plate with all the trimmings, representing the pinnacle of the breakfast art."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "full_english"
@@ -903,7 +903,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/raw_meatloaf
-	name = "raw meatloaf"
+	name = "glup shitto"
 	desc = "A heavy 'loaf' of minced meat, onions, and garlic. Bake it in an oven!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "raw_meatloaf"
@@ -920,7 +920,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/meatloaf, rand(30 SECONDS, 40 SECONDS), TRUE, TRUE)
 
 /obj/item/food/meatloaf
-	name = "meatloaf"
+	name = "glup shitto"
 	desc = "A mixture of meat, onions, and garlic formed into a loaf and baked in an oven. It's covered in a generous slathering of ketchup. Use a knife to cut it into slices!"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatloaf"
@@ -938,7 +938,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE,  /obj/item/food/meatloaf_slice, 4, 3 SECONDS, table_required = TRUE,  screentip_verb = "Cut")
 
 /obj/item/food/meatloaf_slice
-	name = "meatloaf slice"
+	name = "glup shitto"
 	desc = "A slice of delicious, juicy meatloaf with a ketchup topping."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "meatloaf_slice"

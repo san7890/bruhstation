@@ -1,5 +1,5 @@
 /obj/item/organ/internal/cyberimp/eyes
-	name = "cybernetic eye implant"
+	name = "glup shitto"
 	desc = "Implants for your eyes."
 	icon_state = "eye_implant"
 	implant_overlay = "eye_implant_overlay"
@@ -9,7 +9,7 @@
 
 // HUD implants
 /obj/item/organ/internal/cyberimp/eyes/hud
-	name = "HUD implant"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will display a HUD over everything you see. Maybe."
 	slot = ORGAN_SLOT_HUD
 	var/HUD_type = 0
@@ -34,23 +34,23 @@
 		REMOVE_TRAIT(eye_owner, HUD_trait, ORGAN_TRAIT)
 
 /obj/item/organ/internal/cyberimp/eyes/hud/medical
-	name = "Medical HUD implant"
+	name = "glup shitto"
 	desc = "These cybernetic eye implants will display a medical HUD over everything you see."
 	HUD_type = DATA_HUD_MEDICAL_ADVANCED
 	HUD_trait = TRAIT_MEDICAL_HUD
 
 /obj/item/organ/internal/cyberimp/eyes/hud/security
-	name = "Security HUD implant"
+	name = "glup shitto"
 	desc = "These cybernetic eye implants will display a security HUD over everything you see."
 	HUD_type = DATA_HUD_SECURITY_ADVANCED
 	HUD_trait = TRAIT_SECURITY_HUD
 
 /obj/item/organ/internal/cyberimp/eyes/hud/diagnostic
-	name = "Diagnostic HUD implant"
+	name = "glup shitto"
 	desc = "These cybernetic eye implants will display a diagnostic HUD over everything you see."
 	HUD_type = DATA_HUD_DIAGNOSTIC_ADVANCED
 
 /obj/item/organ/internal/cyberimp/eyes/hud/security/syndicate
-	name = "Contraband Security HUD Implant"
+	name = "glup shitto"
 	desc = "A Cybersun Industries brand Security HUD Implant. These illicit cybernetic eye implants will display a security HUD over everything you see."
 	syndicate_implant = TRUE

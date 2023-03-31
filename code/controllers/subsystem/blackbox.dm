@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(blackbox)
-	name = "Blackbox"
+	name = "glup shitto"
 	wait = 6000
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME
 	init_order = INIT_ORDER_BLACKBOX

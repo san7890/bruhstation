@@ -1,5 +1,5 @@
 /obj/item/latexballon
-	name = "latex glove"
+	name = "glup shitto"
 	desc = "Sterile and airtight."
 	icon_state = "latexballon"
 	inhand_icon_state = "greyscale_gloves"

@@ -1,6 +1,6 @@
 //The effect when you wrap a dead body in gift wrap
 /obj/effect/spresent
-	name = "strange present"
+	name = "glup shitto"
 	desc = "It's a ... present?"
 	icon = 'icons/obj/storage/wrapping.dmi'
 	icon_state = "strangepresent"
@@ -8,7 +8,7 @@
 	anchored = FALSE
 
 /obj/effect/beam
-	name = "beam"
+	name = "glup shitto"
 	var/def_zone
 	pass_flags = PASSTABLE
 
@@ -19,7 +19,7 @@
 	return
 
 /obj/effect/spawner
-	name = "object spawner"
+	name = "glup shitto"
 
 // Brief explanation:
 // Rather then setting up and then deleting spawners, we block all atomlike setup
@@ -39,16 +39,16 @@
 	return QDEL_HINT_QUEUE
 
 /obj/effect/list_container
-	name = "list container"
+	name = "glup shitto"
 
 /obj/effect/list_container/mobl
-	name = "mobl"
+	name = "glup shitto"
 	var/master = null
 
 	var/list/container = list()
 
 /obj/effect/overlay/thermite
-	name = "thermite"
+	name = "glup shitto"
 	desc = "Looks hot."
 	icon = 'icons/effects/fire.dmi'
 	icon_state = "2" //what?
@@ -68,7 +68,7 @@
 	luminosity = 1
 
 /obj/effect/abstract/marker
-	name = "marker"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	anchored = TRUE
 	icon_state = "wave3"
@@ -84,14 +84,14 @@
 	. = ..()
 
 /obj/effect/abstract/marker/at
-	name = "active turf marker"
+	name = "glup shitto"
 
 /obj/effect/abstract/marker/intercom
-	name = "intercom range marker"
+	name = "glup shitto"
 	color = COLOR_YELLOW
 
 /obj/effect/dummy/lighting_obj
-	name = "lighting fx obj"
+	name = "glup shitto"
 	desc = "Tell a coder if you're seeing this."
 	icon_state = "nothing"
 	light_system = MOVABLE_LIGHT
@@ -112,7 +112,7 @@
 		QDEL_IN(src, _duration)
 
 /obj/effect/dummy/lighting_obj/moblight
-	name = "mob lighting fx"
+	name = "glup shitto"
 
 /obj/effect/dummy/lighting_obj/moblight/Initialize(mapload, _color, _range, _power, _duration)
 	. = ..()

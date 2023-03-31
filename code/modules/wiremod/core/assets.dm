@@ -1,5 +1,5 @@
 /datum/asset/json/circuit_components
-	name = "circuit_components"
+	name = "glup shitto"
 
 /datum/asset/json/circuit_components/generate()
 	var/list/circuit_data = list()

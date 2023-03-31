@@ -1,5 +1,5 @@
 /mob/living/basic/stickman
-	name = "Angry Stick Man"
+	name = "glup shitto"
 	desc = "A being from a realm with only 2 dimensions. At least it's trying to stay faced towards you."
 	icon_state = "stickman"
 	icon_living = "stickman"
@@ -45,7 +45,7 @@
 	action_cooldown = 1.5 SECONDS
 
 /mob/living/basic/stickman/dog
-	name = "Angry Stick Dog"
+	name = "glup shitto"
 	desc = "Stickman's best friend, if he could see him at least."
 	icon_state = "stickdog"
 	icon_living = "stickdog"
@@ -58,7 +58,7 @@
 	attack_sound = 'sound/weapons/bite.ogg'
 
 /mob/living/basic/stickman/ranged
-	name = "Angry Stick Gunman"
+	name = "glup shitto"
 	desc = "How do 2 dimensional guns even work??"
 	icon_state = "stickmanranged"
 	icon_living = "stickmanranged"

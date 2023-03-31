@@ -1,5 +1,5 @@
 /obj/item/choice_beacon
-	name = "choice beacon"
+	name = "glup shitto"
 	desc = "Hey, why are you viewing this?!! Please let CentCom know about this odd occurrence."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "gangtool-blue"
@@ -69,7 +69,7 @@
 	))
 
 /obj/item/choice_beacon/ingredient
-	name = "ingredient delivery beacon"
+	name = "glup shitto"
 	desc = "Summon a box of ingredients to help you get started cooking."
 	icon_state = "gangtool-white"
 	company_source = "Sophronia Broadcasting"
@@ -84,7 +84,7 @@
 	return ingredient_options
 
 /obj/item/choice_beacon/hero
-	name = "heroic beacon"
+	name = "glup shitto"
 	desc = "To summon heroes from the past to protect the future."
 	company_source = "Sophronia Broadcasting"
 	company_message = span_bold("Please enjoy your Sophronia Broadcasting's 'History Comes Alive branded' Costume Set, exactly as shown in the hit show!")
@@ -98,7 +98,7 @@
 	return hero_item_list
 
 /obj/item/choice_beacon/augments
-	name = "augment beacon"
+	name = "glup shitto"
 	desc = "Summons augmentations. Can be used 3 times!"
 	uses = 3
 	company_source = "S.E.L.F."
@@ -128,7 +128,7 @@
 	playsound(src, 'sound/weapons/emitter2.ogg', 50, extrarange = SILENCED_SOUND_EXTRARANGE)
 
 /obj/item/choice_beacon/holy
-	name = "armaments beacon"
+	name = "glup shitto"
 	desc = "Contains a set of armaments for the chaplain."
 
 /obj/item/choice_beacon/holy/can_use_beacon(mob/living/user)

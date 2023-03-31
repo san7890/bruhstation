@@ -1,5 +1,5 @@
 /datum/species/human
-	name = "\improper Human"
+	name = "glup shitto"
 	id = SPECIES_HUMAN
 	species_traits = list(
 		EYECOLOR,

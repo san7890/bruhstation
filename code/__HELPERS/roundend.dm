@@ -649,7 +649,7 @@
 	to_chat(C,"<span class='infoplain'><a href='?src=[REF(R)];report=1'>Show roundend report again</a></span>")
 
 /datum/action/report
-	name = "Show roundend report"
+	name = "glup shitto"
 	button_icon_state = "round_end"
 	show_to_observers = FALSE
 

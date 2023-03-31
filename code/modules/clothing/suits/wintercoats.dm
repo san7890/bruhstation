@@ -1,6 +1,6 @@
 // Wintercoat
 /obj/item/clothing/suit/hooded/wintercoat
-	name = "winter coat"
+	name = "glup shitto"
 	desc = "A heavy jacket made from 'synthetic' animal furs."
 	icon = 'icons/obj/clothing/suits/wintercoat.dmi'
 	icon_state = "coatwinter"
@@ -30,7 +30,7 @@
 	)
 
 /obj/item/clothing/head/hooded/winterhood
-	name = "winter hood"
+	name = "glup shitto"
 	desc = "A cozy winter hood attached to a heavy winter jacket."
 	icon = 'icons/obj/clothing/head/winterhood.dmi'
 	icon_state = "hood_winter"
@@ -47,7 +47,7 @@
 	bio = 10
 
 /obj/item/clothing/suit/hooded/wintercoat/eva
-	name = "\proper Endotherm winter coat"
+	name = "glup shitto"
 	desc = "A thickly padded winter coat to keep the wearer well insulated no matter the circumstances. It has a harness for a larger oxygen tank attached to the back."
 	icon_state = "coateva"
 	w_class = WEIGHT_CLASS_BULKY
@@ -75,7 +75,7 @@
 	allowed += /obj/item/tank/internals
 
 /obj/item/clothing/head/hooded/winterhood/eva
-	name = "\proper Endotherm winter hood"
+	name = "glup shitto"
 	desc = "A thickly padded hood attached to an even thicker coat."
 	icon_state = "hood_eva"
 	armor_type = /datum/armor/winterhood_eva
@@ -94,7 +94,7 @@
 	acid = 20
 
 /obj/item/clothing/suit/hooded/wintercoat/centcom
-	name = "centcom winter coat"
+	name = "glup shitto"
 	desc = "A luxurious winter coat woven in the bright green and gold colours of Central Command. It has a small pin in the shape of the Nanotrasen logo for a zipper."
 	icon_state = "coatcentcom"
 	inhand_icon_state = null
@@ -131,7 +131,7 @@
 	acid = 60
 
 /obj/item/clothing/suit/hooded/wintercoat/captain
-	name = "captain's winter coat"
+	name = "glup shitto"
 	desc = "A luxurious winter coat, stuffed with the down of the endangered Uka bird and trimmed with genuine sable. The fabric is an indulgently soft micro-fiber, \
 			and the deep ultramarine colour is only one that could be achieved with minute amounts of crystalline bluespace dust woven into the thread between the plectrums. \
 			Extremely lavish, and extremely durable."
@@ -166,7 +166,7 @@
 	acid = 50
 
 /obj/item/clothing/suit/hooded/wintercoat/hop
-	name = "head of personnel's winter coat"
+	name = "glup shitto"
 	desc = "A cozy winter coat, covered in thick fur. The breast features a proud yellow chevron, reminding everyone that you're the second banana."
 	icon_state = "coathop"
 	inhand_icon_state = null
@@ -189,7 +189,7 @@
 
 // Botanist
 /obj/item/clothing/suit/hooded/wintercoat/hydro
-	name = "hydroponics winter coat"
+	name = "glup shitto"
 	desc = "A green and blue winter coat. The zipper tab looks like the flower from a member of Rosa Hesperrhodos, a pretty pink-and-white rose. The colours absolutely clash."
 	icon_state = "coathydro"
 	inhand_icon_state = "coathydro"
@@ -211,7 +211,7 @@
 
 // Janitor
 /obj/item/clothing/suit/hooded/wintercoat/janitor
-	name = "janitors winter coat"
+	name = "glup shitto"
 	desc = "A purple-and-beige winter coat that smells of space cleaner."
 	icon_state = "coatjanitor"
 	inhand_icon_state = null
@@ -230,7 +230,7 @@
 
 // Security Officer
 /obj/item/clothing/suit/hooded/wintercoat/security
-	name = "security winter jacket"
+	name = "glup shitto"
 	desc = "A red, armour-padded winter coat. It glitters with a mild ablative coating and a robust air of authority.  The zipper tab is a pair of jingly little handcuffs that get annoying after the first ten seconds."
 	icon_state = "coatsecurity"
 	inhand_icon_state = "coatsecurity"
@@ -264,7 +264,7 @@
 	acid = 45
 
 /obj/item/clothing/suit/hooded/wintercoat/medical
-	name = "medical winter coat"
+	name = "glup shitto"
 	desc = "An arctic white winter coat with a small blue caduceus instead of a plastic zipper tab. Snazzy."
 	icon_state = "coatmedical"
 	inhand_icon_state = "coatmedical"
@@ -301,7 +301,7 @@
 	acid = 20
 
 /obj/item/clothing/suit/hooded/wintercoat/medical/cmo
-	name = "chief medical officer's winter coat"
+	name = "glup shitto"
 	desc = "A winter coat in a vibrant shade of blue with a small silver caduceus instead of a plastic zipper tab. The normal liner is replaced with an exceptionally thick, soft layer of fur."
 	icon_state = "coatcmo"
 	inhand_icon_state = null
@@ -326,7 +326,7 @@
 
 // Chemist
 /obj/item/clothing/suit/hooded/wintercoat/medical/chemistry
-	name = "chemistry winter coat"
+	name = "glup shitto"
 	desc = "A lab-grade winter coat made with acid resistant polymers. For the enterprising chemist who was exiled to a frozen wasteland on the go."
 	icon_state = "coatchemistry"
 	inhand_icon_state = null
@@ -342,7 +342,7 @@
 
 // Virologist
 /obj/item/clothing/suit/hooded/wintercoat/medical/viro
-	name = "virology winter coat"
+	name = "glup shitto"
 	desc = "A white winter coat with green markings. Warm, but wont fight off the common cold or any other disease. Might make people stand far away from you in the hallway. The zipper tab looks like an oversized bacteriophage."
 	icon_state = "coatviro"
 	inhand_icon_state = null
@@ -358,7 +358,7 @@
 
 // Paramedic
 /obj/item/clothing/suit/hooded/wintercoat/medical/paramedic
-	name = "paramedic winter coat"
+	name = "glup shitto"
 	desc = "A winter coat with blue markings. Warm, but probably won't protect from biological agents. For the cozy doctor on the go."
 	icon_state = "coatparamed"
 	inhand_icon_state = null
@@ -370,7 +370,7 @@
 
 // Scientist
 /obj/item/clothing/suit/hooded/wintercoat/science
-	name = "science winter coat"
+	name = "glup shitto"
 	desc = "A white winter coat with an outdated atomic model instead of a plastic zipper tab."
 	icon_state = "coatscience"
 	inhand_icon_state = "coatscience"
@@ -406,7 +406,7 @@
 	fire = 20
 
 /obj/item/clothing/suit/hooded/wintercoat/science/rd
-	name = "research director's winter coat"
+	name = "glup shitto"
 	desc = "A thick arctic winter coat with an outdated atomic model instead of a plastic zipper tab. Most in the know are heavily aware that Bohr's model of the atom was outdated by the time of the 1930s when the Heisenbergian and Schrodinger models were generally accepted for true. Nevertheless, we still see its use in anachronism, roleplaying, and, in this case, as a zipper tab. At least it should keep you warm on your ivory pillar."
 	icon_state = "coatrd"
 	inhand_icon_state = null
@@ -430,7 +430,7 @@
 
 // Roboticist
 /obj/item/clothing/suit/hooded/wintercoat/science/robotics
-	name = "robotics winter coat"
+	name = "glup shitto"
 	desc = "A black winter coat with a badass flaming robotic skull for the zipper tab. This one has bright red designs and a few useless buttons."
 	icon_state = "coatrobotics"
 	inhand_icon_state = null
@@ -442,7 +442,7 @@
 
 // Geneticist
 /obj/item/clothing/suit/hooded/wintercoat/science/genetics
-	name = "genetics winter coat"
+	name = "glup shitto"
 	desc = "A white winter coat with a DNA helix for the zipper tab."
 	icon_state = "coatgenetics"
 	inhand_icon_state = null
@@ -454,7 +454,7 @@
 
 // Station Engineer
 /obj/item/clothing/suit/hooded/wintercoat/engineering
-	name = "engineering winter coat"
+	name = "glup shitto"
 	desc = "A surprisingly heavy yellow winter coat with reflective orange stripes. It has a small wrench for its zipper tab, and the inside layer is covered with a radiation-resistant silver-nylon blend. Because you're worth it."
 	icon_state = "coatengineer"
 	inhand_icon_state = "coatengineer"
@@ -493,7 +493,7 @@
 
 // Chief Engineer
 /obj/item/clothing/suit/hooded/wintercoat/engineering/ce
-	name = "chief engineer's winter coat"
+	name = "glup shitto"
 	desc = "A white winter coat with reflective green and yellow stripes. Stuffed with asbestos, treated with fire retardant PBDE, lined with a micro thin sheet of lead foil and snugly fitted to your body's measurements. This baby's ready to save you from anything except the thyroid cancer and systemic fibrosis you'll get from wearing it. The zipper tab is a tiny golden wrench."
 	icon_state = "coatce"
 	inhand_icon_state = null
@@ -517,7 +517,7 @@
 
 // Atmospherics Technician
 /obj/item/clothing/suit/hooded/wintercoat/engineering/atmos
-	name = "atmospherics winter coat"
+	name = "glup shitto"
 	desc = "A yellow and blue winter coat. The zipper pull-tab is made to look like a miniature breath mask."
 	icon_state = "coatatmos"
 	inhand_icon_state = "coatatmos"
@@ -529,7 +529,7 @@
 
 // Cargo Technician
 /obj/item/clothing/suit/hooded/wintercoat/cargo
-	name = "cargo winter coat"
+	name = "glup shitto"
 	desc = "A tan-and-grey winter coat. The zipper tab is a small pin resembling a MULE. It fills you with the warmth of a fierce independence."
 	icon_state = "coatcargo"
 	inhand_icon_state = "coatcargo"
@@ -542,7 +542,7 @@
 
 // Quartermaster
 /obj/item/clothing/suit/hooded/wintercoat/cargo/qm
-	name = "quartermaster's winter coat"
+	name = "glup shitto"
 	desc = "A dark brown winter coat that has a golden crate pin for its zipper pully."
 	icon_state = "coatqm"
 	inhand_icon_state = null
@@ -560,7 +560,7 @@
 
 // Shaft Miner
 /obj/item/clothing/suit/hooded/wintercoat/miner
-	name = "mining winter coat"
+	name = "glup shitto"
 	desc = "A dusty button up winter coat. The zipper tab looks like a tiny pickaxe."
 	icon_state = "coatminer"
 	inhand_icon_state = "coatminer"
@@ -588,7 +588,7 @@
 	melee = 10
 
 /obj/item/clothing/suit/hooded/wintercoat/custom
-	name = "tailored winter coat"
+	name = "glup shitto"
 	desc = "A heavy jacket made from 'synthetic' animal furs, with custom colors."
 	greyscale_colors = "#ffffff#ffffff#808080#808080#808080#808080"
 	greyscale_config = /datum/greyscale_config/winter_coats
@@ -612,7 +612,7 @@
 	hood.set_greyscale(new_coat_colors) //Adopt the suit's grayscale coloring for visual clarity.
 
 /obj/item/clothing/head/hooded/winterhood/custom
-	name = "tailored winter coat hood"
+	name = "glup shitto"
 	desc = "A heavy jacket hood made from 'synthetic' animal furs, with custom colors."
 	greyscale_config = /datum/greyscale_config/winter_hoods
 	greyscale_config_worn = /datum/greyscale_config/winter_hoods/worn

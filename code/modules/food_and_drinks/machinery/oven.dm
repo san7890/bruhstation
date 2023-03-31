@@ -9,7 +9,7 @@
 #define OVEN_TRAY_X_OFFSET -2
 
 /obj/machinery/oven
-	name = "oven"
+	name = "glup shitto"
 	desc = "Why do they call it oven when you of in the cold food of out hot eat the food?"
 	icon = 'icons/obj/machines/kitchenmachines.dmi'
 	icon_state = "oven_off"
@@ -180,7 +180,7 @@
 	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/item/plate/oven_tray
-	name = "oven tray"
+	name = "glup shitto"
 	desc = "Time to bake cookies!"
 	icon_state = "oven_tray"
 	max_items = 6

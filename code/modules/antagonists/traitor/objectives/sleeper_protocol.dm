@@ -1,12 +1,12 @@
 /datum/traitor_objective_category/sleeper_protocol
-	name = "Sleeper Protocol"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/sleeper_protocol = 1,
 		/datum/traitor_objective/sleeper_protocol/everybody = 1,
 	)
 
 /datum/traitor_objective/sleeper_protocol
-	name = "Perform the sleeper protocol on a crewmember"
+	name = "glup shitto"
 	description = "Use the button below to materialize a surgery disk in your hand, where you'll then be able to perform the sleeper protocol on a crewmember. If the disk gets destroyed, the objective will fail. This will only work on living and sentient crewmembers."
 
 	progression_minimum = 0 MINUTES
@@ -67,12 +67,12 @@
 /datum/traitor_objective/sleeper_protocol/ungenerate_objective()
 	disk = null
 /obj/item/disk/surgery/sleeper_protocol
-	name = "Suspicious Surgery Disk"
+	name = "glup shitto"
 	desc = "The disk provides instructions on how to turn someone into a sleeper agent for the Syndicate."
 	surgeries = list(/datum/surgery/advanced/brainwashing_sleeper)
 
 /datum/surgery/advanced/brainwashing_sleeper
-	name = "Sleeper Agent Surgery"
+	name = "glup shitto"
 	desc = "A surgical procedure which implants the sleeper protocol into the patient's brain, making it their absolute priority. It can be cleared using a mindshield implant."
 	possible_locs = list(BODY_ZONE_HEAD)
 	steps = list(

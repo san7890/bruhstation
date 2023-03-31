@@ -3,7 +3,7 @@
 
 ///// Repair Hairline Fracture (Severe)
 /datum/surgery/repair_bone_hairline
-	name = "Repair bone fracture (hairline)"
+	name = "glup shitto"
 	surgery_flags = SURGERY_REQUIRE_RESTING | SURGERY_REQUIRE_LIMB | SURGERY_REQUIRES_REAL_LIMB
 	targetable_wound = /datum/wound/blunt/severe
 	possible_locs = list(
@@ -29,7 +29,7 @@
 
 ///// Repair Compound Fracture (Critical)
 /datum/surgery/repair_bone_compound
-	name = "Repair Compound Fracture"
+	name = "glup shitto"
 	surgery_flags = SURGERY_REQUIRE_RESTING | SURGERY_REQUIRE_LIMB | SURGERY_REQUIRES_REAL_LIMB
 	targetable_wound = /datum/wound/blunt/critical
 	possible_locs = list(
@@ -59,7 +59,7 @@
 
 ///// Repair Hairline Fracture (Severe)
 /datum/surgery_step/repair_bone_hairline
-	name = "repair hairline fracture (bonesetter/bone gel/tape)"
+	name = "glup shitto"
 	implements = list(
 		/obj/item/bonesetter = 100,
 		/obj/item/stack/medical/bone_gel = 100,
@@ -109,7 +109,7 @@
 
 ///// Reset Compound Fracture (Crticial)
 /datum/surgery_step/reset_compound_fracture
-	name = "reset bone (bonesetter)"
+	name = "glup shitto"
 	implements = list(
 		/obj/item/bonesetter = 100,
 		/obj/item/stack/sticky_tape/surgical = 60,
@@ -156,7 +156,7 @@
 
 ///// Repair Compound Fracture (Crticial)
 /datum/surgery_step/repair_bone_compound
-	name = "repair compound fracture (bone gel/tape)"
+	name = "glup shitto"
 	implements = list(
 		/obj/item/stack/medical/bone_gel = 100,
 		/obj/item/stack/sticky_tape/surgical = 100,

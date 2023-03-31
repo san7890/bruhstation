@@ -1,5 +1,5 @@
 /obj/machinery/computer/cargo/express
-	name = "express supply console"
+	name = "glup shitto"
 	desc = "This console allows the user to purchase a package \
 		with 1/40th of the delivery time: made possible by Nanotrasen's new \"1500mm Orbital Railgun\".\
 		All sales are near instantaneous - please choose carefully"

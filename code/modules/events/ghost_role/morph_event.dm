@@ -1,5 +1,5 @@
 /datum/round_event_control/morph
-	name = "Spawn Morph"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/morph
 	weight = 0
 	max_occurrences = 1

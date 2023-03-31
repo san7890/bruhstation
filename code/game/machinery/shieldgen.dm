@@ -1,5 +1,5 @@
 /obj/structure/emergency_shield
-	name = "emergency energy shield"
+	name = "glup shitto"
 	desc = "An energy shield used to contain hull breaches."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "shield-old"
@@ -49,7 +49,7 @@
 
 
 /obj/structure/emergency_shield/cult
-	name = "cult barrier"
+	name = "glup shitto"
 	desc = "A shield summoned by cultists to keep heretics away."
 	max_integrity = 100
 	icon_state = "shield-red"
@@ -58,12 +58,12 @@
 	return
 
 /obj/structure/emergency_shield/cult/narsie
-	name = "sanguine barrier"
+	name = "glup shitto"
 	desc = "A potent shield summoned by cultists to defend their rites."
 	max_integrity = 60
 
 /obj/structure/emergency_shield/cult/weak
-	name = "Invoker's Shield"
+	name = "glup shitto"
 	desc = "A weak shield summoned by cultists to protect them while they carry out delicate rituals."
 	color = "#FF0000"
 	max_integrity = 20
@@ -107,7 +107,7 @@
 		invisibility = INVISIBILITY_OBSERVER
 
 /obj/machinery/shieldgen
-	name = "anti-breach shielding projector"
+	name = "glup shitto"
 	desc = "Used to seal minor hull breaches."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "shieldoff"
@@ -256,7 +256,7 @@
 #define ACTIVE_SETUPFIELDS 1
 #define ACTIVE_HASFIELDS 2
 /obj/machinery/power/shieldwallgen
-	name = "shield wall generator"
+	name = "glup shitto"
 	desc = "A shield generator."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "shield_wall_gen"
@@ -272,7 +272,7 @@
 	var/obj/structure/cable/attached // the attached cable
 
 /obj/machinery/power/shieldwallgen/xenobiologyaccess //use in xenobiology containment
-	name = "xenobiology shield wall generator"
+	name = "glup shitto"
 	desc = "A shield generator meant for use in xenobiology."
 	req_access = list(ACCESS_XENOBIOLOGY)
 
@@ -453,7 +453,7 @@
 
 //////////////Containment Field START
 /obj/machinery/shieldwall
-	name = "shield wall"
+	name = "glup shitto"
 	desc = "An energy shield."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "shieldwall"

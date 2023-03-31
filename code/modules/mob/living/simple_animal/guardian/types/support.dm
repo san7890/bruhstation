@@ -78,7 +78,7 @@
 	COOLDOWN_START(src, beacon_cooldown, beacon_cooldown_time)
 
 /obj/structure/receiving_pad
-	name = "bluespace receiving pad"
+	name = "glup shitto"
 	icon = 'icons/turf/floors.dmi'
 	desc = "A receiving zone for bluespace teleportations."
 	icon_state = "light_on-8"

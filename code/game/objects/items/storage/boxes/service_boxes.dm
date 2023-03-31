@@ -2,7 +2,7 @@
 // Because we want to avoid some sort of "miscellaneous" file, let's put all the bureaucracy (pens and stuff) and the HoP's stuff here as well.
 
 /obj/item/storage/box/drinkingglasses
-	name = "box of drinking glasses"
+	name = "glup shitto"
 	desc = "It has a picture of drinking glasses on it."
 	illustration = "drinkglass"
 
@@ -10,7 +10,7 @@
 	for(var/i in 1 to 6)
 		new /obj/item/reagent_containers/cup/glass/drinkingglass(src)
 /obj/item/storage/box/cups
-	name = "box of paper cups"
+	name = "glup shitto"
 	desc = "It has pictures of paper cups on the front."
 	illustration = "cup"
 
@@ -20,7 +20,7 @@
 
 //Some spare PDAs in a box
 /obj/item/storage/box/pdas
-	name = "spare PDAs"
+	name = "glup shitto"
 	desc = "A box of spare PDA microcomputers."
 	illustration = "pda"
 
@@ -29,7 +29,7 @@
 		new /obj/item/modular_computer/pda(src)
 
 /obj/item/storage/box/ids
-	name = "box of spare IDs"
+	name = "glup shitto"
 	desc = "Has so many empty IDs."
 	illustration = "id"
 
@@ -37,7 +37,7 @@
 	for(var/i in 1 to 7)
 		new /obj/item/card/id/advanced(src)
 /obj/item/storage/box/silver_ids
-	name = "box of spare silver IDs"
+	name = "glup shitto"
 	desc = "Shiny IDs for important people."
 	illustration = "id"
 
@@ -46,7 +46,7 @@
 		new /obj/item/card/id/advanced/silver(src)
 
 /obj/item/storage/box/mousetraps
-	name = "box of Pest-B-Gon mousetraps"
+	name = "glup shitto"
 	desc = "<span class='alert'>Keep out of reach of children.</span>"
 	illustration = "mousetrap"
 
@@ -55,7 +55,7 @@
 		new /obj/item/assembly/mousetrap(src)
 
 /obj/item/storage/box/snappops
-	name = "snap pop box"
+	name = "glup shitto"
 	desc = "Eight wrappers of fun! Ages 8 and up. Not suitable for children."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "spbox"
@@ -71,7 +71,7 @@
 		new /obj/item/toy/snappop(src)
 
 /obj/item/storage/box/matches
-	name = "matchbox"
+	name = "glup shitto"
 	desc = "A small box of Almost But Not Quite Plasma Premium Matches."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "matchbox"
@@ -113,7 +113,7 @@
 			icon_state = "[base_icon_state]_e"
 
 /obj/item/storage/box/lights
-	name = "box of replacement bulbs"
+	name = "glup shitto"
 	desc = "This box is shaped on the inside so that only light tubes and bulbs fit."
 	inhand_icon_state = "syringe_kit"
 	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
@@ -133,7 +133,7 @@
 		new /obj/item/light/bulb(src)
 
 /obj/item/storage/box/lights/tubes
-	name = "box of replacement tubes"
+	name = "glup shitto"
 	illustration = "lighttube"
 
 /obj/item/storage/box/lights/tubes/PopulateContents()
@@ -141,7 +141,7 @@
 		new /obj/item/light/tube(src)
 
 /obj/item/storage/box/lights/mixed
-	name = "box of replacement lights"
+	name = "glup shitto"
 	illustration = "lightmixed"
 
 /obj/item/storage/box/lights/mixed/PopulateContents()
@@ -151,7 +151,7 @@
 		new /obj/item/light/bulb(src)
 
 /obj/item/storage/box/fountainpens
-	name = "box of fountain pens"
+	name = "glup shitto"
 	illustration = "fpen"
 
 /obj/item/storage/box/fountainpens/PopulateContents()
@@ -159,7 +159,7 @@
 		new /obj/item/pen/fountain(src)
 
 /obj/item/storage/box/dishdrive
-	name = "DIY Dish Drive Kit"
+	name = "glup shitto"
 	desc = "Contains everything you need to build your own Dish Drive!"
 	custom_premium_price = PAYCHECK_CREW * 3
 
@@ -177,7 +177,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/actionfigure
-	name = "box of action figures"
+	name = "glup shitto"
 	desc = "The latest set of collectable action figures."
 	icon_state = "box"
 
@@ -187,7 +187,7 @@
 		new random_figure(src)
 
 /obj/item/storage/box/tail_pin
-	name = "pin the tail on the corgi supplies"
+	name = "glup shitto"
 	desc = "For ages 10 and up. ...Why is this even on a space station? Aren't you a little old for babby games?" //Intentional typo.
 	custom_price = PAYCHECK_COMMAND * 1.25
 
@@ -197,7 +197,7 @@
 		new /obj/item/tail_pin(src)
 
 /obj/item/storage/box/party_poppers
-	name = "box of party poppers"
+	name = "glup shitto"
 	desc = "Turn any event into a celebration and ensure the janitor stays busy."
 
 /obj/item/storage/box/party_poppers/PopulateContents()
@@ -205,7 +205,7 @@
 		new /obj/item/reagent_containers/spray/chemsprayer/party(src)
 
 /obj/item/storage/box/stickers
-	name = "box of stickers"
+	name = "glup shitto"
 	desc = "A box full of random stickers. Do give to the clown."
 
 /obj/item/storage/box/stickers/proc/generate_non_contraband_stickers_list()
@@ -223,7 +223,7 @@
 		new type(src)
 
 /obj/item/storage/box/stickers/googly
-	name = "box of googly eye stickers"
+	name = "glup shitto"
 	desc = "Turn anything and everything into something vaguely alive!"
 
 /obj/item/storage/box/stickers/googly/PopulateContents()

@@ -1,6 +1,6 @@
 //after a delay, creates a rune below you. for constructs creating runes.
 /datum/action/innate/cult/create_rune
-	name = "Summon Rune"
+	name = "glup shitto"
 	desc = "Summons a rune"
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
@@ -83,7 +83,7 @@
 
 //teleport rune
 /datum/action/innate/cult/create_rune/tele
-	name = "Summon Teleport Rune"
+	name = "glup shitto"
 	desc = "Summons a teleport rune to your location, as though it has been there all along..."
 	button_icon_state = "telerune"
 	rune_type = /obj/effect/rune/teleport
@@ -93,7 +93,7 @@
 	rune_color = RUNE_COLOR_TELEPORT
 
 /datum/action/innate/cult/create_rune/wall
-	name = "Summon Barrier Rune"
+	name = "glup shitto"
 	desc = "Summons an active barrier rune to your location, as though it has been there all along..."
 	button_icon_state = "barrier"
 	rune_type = /obj/effect/rune/wall
@@ -103,7 +103,7 @@
 	rune_color = RUNE_COLOR_DARKRED
 
 /datum/action/innate/cult/create_rune/revive
-	name = "Summon Revive Rune"
+	name = "glup shitto"
 	desc = "Summons a revive rune to your location, as though it has been there all along..."
 	button_icon_state = "revive"
 	rune_type = /obj/effect/rune/raise_dead

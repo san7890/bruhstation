@@ -1,6 +1,6 @@
 ///Vatbeasts are creatures from vatgrowing and are literaly a beast in a vat, yup. They are designed to be a powerful mount roughly equal to a gorilla in power.
 /mob/living/simple_animal/hostile/vatbeast
-	name = "vatbeast"
+	name = "glup shitto"
 	desc = "A strange molluscoidal creature carrying a busted growing vat.\nYou wonder if this burden is a voluntary undertaking in order to achieve comfort and protection, or simply because the creature is fused to its metal shell?"
 	icon = 'icons/mob/vatgrowing.dmi'
 	icon_state = "vat_beast"
@@ -45,7 +45,7 @@
 /// Ability that allows the owner to slap other mobs a short distance away.
 /// For vatbeats, this ability is shared with the rider.
 /datum/action/cooldown/tentacle_slap
-	name = "Tentacle slap"
+	name = "glup shitto"
 	desc = "Slap a creature with your tentacles."
 	background_icon_state = "bg_revenant"
 	overlay_icon_state = "bg_revenant_border"

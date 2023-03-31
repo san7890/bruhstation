@@ -57,7 +57,7 @@
 /// Trade events
 
 /datum/exploration_event/simple/trader/vendor_ai
-	name = "sentient drug vending machine"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_TECHNOLOGY)
 	band_values = list(EXOSCANNER_BAND_TECH=2)
 	requires_translator = FALSE
@@ -66,7 +66,7 @@
 	amount = 3
 
 /datum/exploration_event/simple/trader/farmer_market
-	name = "farmer's market"
+	name = "glup shitto"
 	deep_scan_description = "You detect a spot with unusal concentraction of edibles on the site."
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_SURFACE)
 	band_values = list(EXOSCANNER_BAND_LIFE=2)
@@ -75,7 +75,7 @@
 	amount = 1
 
 /datum/exploration_event/simple/trader/fish
-	name = "interstellar fish trader"
+	name = "glup shitto"
 	requires_translator = FALSE
 	deep_scan_description = "You spot gian \"FRESH FISH\" sign on the site."
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_SURFACE)
@@ -85,7 +85,7 @@
 	amount = 3
 
 /datum/exploration_event/simple/trader/shady_merchant
-	name = "shady merchant"
+	name = "glup shitto"
 	requires_translator = FALSE
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_CIVILIZED)
 	band_values = list(EXOSCANNER_BAND_LIFE=1)
@@ -94,7 +94,7 @@
 	amount = 1
 
 /datum/exploration_event/simple/trader/surplus
-	name = "military surplus trader"
+	name = "glup shitto"
 	deep_scan_description = "You decrypt a transmission advertising military surplus sale on the site."
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_CIVILIZED)
 	band_values = list(EXOSCANNER_BAND_LIFE=1)
@@ -103,7 +103,7 @@
 	amount = 3
 
 /datum/exploration_event/simple/trader/flame_card
-	name = "id card artisan"
+	name = "glup shitto"
 	deep_scan_description = "You spy a adveristment for an id card customization workshop."
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_CIVILIZED)
 	band_values = list(EXOSCANNER_BAND_TECH=1)

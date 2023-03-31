@@ -13,7 +13,7 @@
  */
 
 /obj/structure/table
-	name = "table"
+	name = "glup shitto"
 	desc = "A square piece of iron standing on four metal legs. It can not move."
 	icon = 'icons/obj/smooth_structures/table.dmi'
 	icon_state = "table-0"
@@ -343,7 +343,7 @@
 
 ///Table on wheels
 /obj/structure/table/rolling
-	name = "Rolling table"
+	name = "glup shitto"
 	desc = "An NT brand \"Rolly poly\" rolling table. It can and will move."
 	anchored = FALSE
 	smoothing_flags = NONE
@@ -380,7 +380,7 @@
  * Glass tables
  */
 /obj/structure/table/glass
-	name = "glass table"
+	name = "glup shitto"
 	desc = "What did I say about leaning on the glass tables? Now you need surgery."
 	icon = 'icons/obj/smooth_structures/glass_table.dmi'
 	icon_state = "glass_table-0"
@@ -456,7 +456,7 @@
 	color = NARSIE_WINDOW_COLOUR
 
 /obj/structure/table/glass/plasmaglass
-	name = "plasma glass table"
+	name = "glup shitto"
 	desc = "Someone thought this was a good idea."
 	icon = 'icons/obj/smooth_structures/plasmaglass_table.dmi'
 	icon_state = "plasmaglass_table-0"
@@ -471,7 +471,7 @@
  */
 
 /obj/structure/table/wood
-	name = "wooden table"
+	name = "glup shitto"
 	desc = "Do not apply fire to this. Rumour says it burns easily."
 	icon = 'icons/obj/smooth_structures/wood_table.dmi'
 	icon_state = "wood_table-0"
@@ -489,7 +489,7 @@
 		..()
 
 /obj/structure/table/wood/poker //No specialties, Just a mapping object.
-	name = "gambling table"
+	name = "glup shitto"
 	desc = "A seedy table for seedy dealings in seedy places."
 	icon = 'icons/obj/smooth_structures/poker_table.dmi'
 	icon_state = "poker_table-0"
@@ -500,7 +500,7 @@
 	..(FALSE)
 
 /obj/structure/table/wood/fancy
-	name = "fancy table"
+	name = "glup shitto"
 	desc = "A standard metal table frame covered with an amazingly fancy, patterned cloth."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "fancy_table"
@@ -578,7 +578,7 @@
  * Reinforced tables
  */
 /obj/structure/table/reinforced
-	name = "reinforced table"
+	name = "glup shitto"
 	desc = "A reinforced version of the four legged table."
 	icon = 'icons/obj/smooth_structures/reinforced_table.dmi'
 	icon_state = "reinforced_table-0"
@@ -635,7 +635,7 @@
 		. = ..()
 
 /obj/structure/table/bronze
-	name = "bronze table"
+	name = "glup shitto"
 	desc = "A solid table made out of bronze."
 	icon = 'icons/obj/smooth_structures/brass_table.dmi'
 	icon_state = "brass_table-0"
@@ -650,7 +650,7 @@
 	playsound(src, 'sound/magic/clockwork/fellowship_armory.ogg', 50, TRUE)
 
 /obj/structure/table/reinforced/rglass
-	name = "reinforced glass table"
+	name = "glup shitto"
 	desc = "A reinforced version of the glass table."
 	icon = 'icons/obj/smooth_structures/rglass_table.dmi'
 	icon_state = "rglass_table-0"
@@ -660,7 +660,7 @@
 	max_integrity = 150
 
 /obj/structure/table/reinforced/plasmarglass
-	name = "reinforced plasma glass table"
+	name = "glup shitto"
 	desc = "A reinforced version of the plasma glass table."
 	icon = 'icons/obj/smooth_structures/rplasmaglass_table.dmi'
 	icon_state = "rplasmaglass_table-0"
@@ -669,7 +669,7 @@
 	buildstack = /obj/item/stack/sheet/plasmarglass
 
 /obj/structure/table/reinforced/titaniumglass
-	name = "titanium glass table"
+	name = "glup shitto"
 	desc = "A titanium reinforced glass table, with a fresh coat of NT white paint."
 	icon = 'icons/obj/smooth_structures/titaniumglass_table.dmi'
 	icon_state = "titaniumglass_table-0"
@@ -679,7 +679,7 @@
 	max_integrity = 250
 
 /obj/structure/table/reinforced/plastitaniumglass
-	name = "plastitanium glass table"
+	name = "glup shitto"
 	desc = "A table made of titanium reinforced silica-plasma composite. About as durable as it sounds."
 	icon = 'icons/obj/smooth_structures/plastitaniumglass_table.dmi'
 	icon_state = "plastitaniumglass_table-0"
@@ -693,7 +693,7 @@
  */
 
 /obj/structure/table/optable
-	name = "operating table"
+	name = "glup shitto"
 	desc = "Used for advanced medical procedures."
 	icon = 'icons/obj/medical/surgery_table.dmi'
 	icon_state = "surgery_table"
@@ -771,7 +771,7 @@
  * Racks
  */
 /obj/structure/rack
-	name = "rack"
+	name = "glup shitto"
 	desc = "Different from the Middle Ages version."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "rack"
@@ -853,7 +853,7 @@
  */
 
 /obj/item/rack_parts
-	name = "rack parts"
+	name = "glup shitto"
 	desc = "Parts of a rack."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "rack_parts"

@@ -1,6 +1,6 @@
 //Gutlunches, passive mods that devour blood and gibs
 /mob/living/simple_animal/hostile/asteroid/gutlunch
-	name = "gutlunch"
+	name = "glup shitto"
 	desc = "A scavenger that eats raw meat, often found alongside ash walkers. Produces a thick, nutritious milk."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "gutlunch"
@@ -83,7 +83,7 @@
 
 //Male gutlunch. They're smaller and more colorful!
 /mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck
-	name = "gubbuck"
+	name = "glup shitto"
 	gender = MALE
 
 /mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck/Initialize(mapload)
@@ -94,11 +94,11 @@
 
 //Lady gutlunch. They make the babby.
 /mob/living/simple_animal/hostile/asteroid/gutlunch/guthen
-	name = "guthen"
+	name = "glup shitto"
 	gender = FEMALE
 
 /mob/living/simple_animal/hostile/asteroid/gutlunch/grublunch
-	name = "grublunch"
+	name = "glup shitto"
 	wanted_objects = list() //They don't eat.
 	gold_core_spawnable = NO_SPAWN
 	var/growth = 0

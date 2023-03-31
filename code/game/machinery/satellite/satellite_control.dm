@@ -1,5 +1,5 @@
 /obj/machinery/computer/sat_control
-	name = "satellite control"
+	name = "glup shitto"
 	desc = "Used to control the satellite network."
 	circuit = /obj/item/circuitboard/computer/sat_control
 	var/notice

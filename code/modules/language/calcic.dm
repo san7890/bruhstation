@@ -1,5 +1,5 @@
 /datum/language/calcic
-	name = "Calcic"
+	name = "glup shitto"
 	desc = "The disjointed and staccato language of plasmamen. Also understood by skeletons."
 	key = "b"
 	space_chance = 10

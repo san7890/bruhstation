@@ -1,6 +1,6 @@
 
 /obj/item/clothing/gloves/cargo_gauntlet
-	name = "\improper H.A.U.L. gauntlets"
+	name = "glup shitto"
 	desc = "These clunky gauntlets allow you to drag things with more confidence on them not getting nabbed from you."
 	icon_state = "haul_gauntlet"
 	greyscale_colors = "#2f2e31"
@@ -50,7 +50,7 @@
 	QDEL_NULL(pull_component_weakref)
 
 /obj/item/clothing/gloves/rapid
-	name = "Gloves of the North Star"
+	name = "glup shitto"
 	desc = "Just looking at these fills you with an urge to beat the shit out of people."
 	icon_state = "rapid"
 	inhand_icon_state = null
@@ -61,14 +61,14 @@
 	AddComponent(/datum/component/wearertargeting/punchcooldown)
 
 /obj/item/clothing/gloves/radio
-	name = "translation gloves"
+	name = "glup shitto"
 	desc = "A pair of electronic gloves which connect to nearby radios wirelessly. Allows for sign language users to 'speak' over comms."
 	icon_state = "radio_g"
 	inhand_icon_state = null
 	clothing_traits = list(TRAIT_CAN_SIGN_ON_COMMS)
 
 /obj/item/clothing/gloves/race
-	name = "race gloves"
+	name = "glup shitto"
 	desc = "Extremely finely made gloves meant for use by sportsmen in speed-shooting competitions."
 	clothing_traits = list(TRAIT_DOUBLE_TAP)
 	icon_state = "black"
@@ -76,7 +76,7 @@
 
 /obj/item/clothing/gloves/captain
 	desc = "Regal blue gloves, with a nice gold trim, a diamond anti-shock coating, and an integrated thermal barrier. Swanky."
-	name = "captain's gloves"
+	name = "glup shitto"
 	icon_state = "captain"
 	inhand_icon_state = null
 	greyscale_colors = null
@@ -95,7 +95,7 @@
 	acid = 50
 
 /obj/item/clothing/gloves/latex
-	name = "latex gloves"
+	name = "glup shitto"
 	desc = "Cheap sterile gloves made from latex. Provides quicker carrying from a good grip."
 	icon_state = "latex"
 	inhand_icon_state = "latex_gloves"
@@ -109,7 +109,7 @@
 	bio = 100
 
 /obj/item/clothing/gloves/latex/nitrile
-	name = "nitrile gloves"
+	name = "glup shitto"
 	desc = "Pricy sterile gloves that are thicker than latex. Excellent grip ensures very fast carrying of patients along with the faster use time of various chemical related items."
 	icon_state = "nitrile"
 	inhand_icon_state = "greyscale_gloves"
@@ -117,7 +117,7 @@
 	clothing_traits = list(TRAIT_QUICKER_CARRY, TRAIT_FASTMED)
 
 /obj/item/clothing/gloves/tinkerer
-	name = "tinker's gloves"
+	name = "glup shitto"
 	desc = "Overdesigned engineering gloves that have automated construction subrutines dialed in, allowing for faster construction while worn."
 	inhand_icon_state = "greyscale_gloves"
 	icon_state = "clockwork_gauntlets"
@@ -132,7 +132,7 @@
 	bio = 70
 
 /obj/item/clothing/gloves/atmos
-	name = "atmospheric extrication gloves"
+	name = "glup shitto"
 	desc = "Heavy duty gloves for firefighters. These are thick, non-flammable and let you carry people faster."
 	icon_state = "atmos"
 	cold_protection = HANDS

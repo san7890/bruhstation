@@ -3,7 +3,7 @@
 ////////////////////////////////////////////MUFFINS////////////////////////////////////////////
 
 /obj/item/food/muffin
-	name = "muffin"
+	name = "glup shitto"
 	desc = "A delicious and spongy little cake."
 	icon_state = "muffin"
 	food_reagents = list(
@@ -16,7 +16,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/muffin/berry
-	name = "berry muffin"
+	name = "glup shitto"
 	icon_state = "berrymuffin"
 	desc = "A delicious and spongy little cake, with berries."
 	tastes = list("muffin" = 3, "berry" = 1)
@@ -24,7 +24,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/muffin/booberry
-	name = "booberry muffin"
+	name = "glup shitto"
 	icon_state = "berrymuffin"
 	alpha = 125
 	desc = "My stomach is a graveyard! No living being can quench my bloodthirst!"
@@ -32,7 +32,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR | BREAKFAST
 
 /obj/item/food/muffin/moffin
-	name = "moffin"
+	name = "glup shitto"
 	icon_state = "moffin_1"
 	base_icon_state = "moffin"
 	desc = "A delicious and spongy little cake."
@@ -56,7 +56,7 @@
 ////////////////////////////////////////////WAFFLES////////////////////////////////////////////
 
 /obj/item/food/waffles
-	name = "waffles"
+	name = "glup shitto"
 	desc = "Mmm, waffles."
 	icon_state = "waffles"
 	trash_type = /obj/item/trash/waffles
@@ -69,7 +69,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/soylentgreen
-	name = "\improper Soylent Green"
+	name = "glup shitto"
 	desc = "Not made of people. Honest." //Totally people.
 	icon_state = "soylent_green"
 	trash_type = /obj/item/trash/waffles
@@ -83,7 +83,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/soylenviridians
-	name = "\improper Soylent Virdians"
+	name = "glup shitto"
 	desc = "Not made of people. Honest." //Actually honest for once.
 	icon_state = "soylent_yellow"
 	trash_type = /obj/item/trash/waffles
@@ -97,7 +97,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/rofflewaffles
-	name = "roffle waffles"
+	name = "glup shitto"
 	desc = "Waffles from Roffle. Co."
 	icon_state = "rofflewaffles"
 	trash_type = /obj/item/trash/waffles
@@ -114,7 +114,7 @@
 ////////////////////////////////////////////OTHER////////////////////////////////////////////
 
 /obj/item/food/cookie
-	name = "cookie"
+	name = "glup shitto"
 	desc = "COOKIE!!!"
 	icon_state = "COOKIE!!!"
 	bite_consumption = 1
@@ -132,7 +132,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/toxin/chloralhydrate = 10)
 
 /obj/item/food/fortunecookie
-	name = "fortune cookie"
+	name = "glup shitto"
 	desc = "A true prophecy in each cookie!"
 	icon_state = "fortune_cookie"
 	trash_type = /obj/item/paperslip
@@ -164,7 +164,7 @@
 		AddElement(/datum/element/food_trash, trash_type, food_flags, TYPE_PROC_REF(/obj/item/food/fortunecookie, get_fortune))
 
 /obj/item/food/cookie/sugar
-	name = "sugar cookie"
+	name = "glup shitto"
 	desc = "Just like your little sister used to make."
 	icon_state = "sugarcookie"
 	food_reagents = list(
@@ -182,7 +182,7 @@
 		icon_state = "sugarcookie_[shape]"
 
 /obj/item/food/chococornet
-	name = "chocolate cornet"
+	name = "glup shitto"
 	desc = "Which side's the head, the fat end or the thin end?"
 	icon_state = "chococornet"
 	food_reagents = list(
@@ -194,7 +194,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cookie/oatmeal
-	name = "oatmeal cookie"
+	name = "glup shitto"
 	desc = "The best of both cookie and oat."
 	icon_state = "oatmealcookie"
 	food_reagents = list(
@@ -205,7 +205,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/cookie/raisin
-	name = "raisin cookie"
+	name = "glup shitto"
 	desc = "Why would you put raisins on a cookie?"
 	icon_state = "raisincookie"
 	food_reagents = list(
@@ -216,7 +216,7 @@
 	foodtypes = GRAIN | FRUIT
 
 /obj/item/food/poppypretzel
-	name = "poppy pretzel"
+	name = "glup shitto"
 	desc = "It's all twisted up!"
 	icon_state = "poppypretzel"
 	food_reagents = list(
@@ -229,7 +229,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/plumphelmetbiscuit
-	name = "plump helmet biscuit"
+	name = "glup shitto"
 	desc = "This is a finely-prepared plump helmet biscuit. The ingredients are exceptionally minced plump helmet, and well-minced dwarven wheat flour."
 	icon_state = "phelmbiscuit"
 	food_reagents = list(
@@ -256,7 +256,7 @@
 		reagents.add_reagent(/datum/reagent/medicine/omnizine, 5)
 
 /obj/item/food/cracker
-	name = "cracker"
+	name = "glup shitto"
 	desc = "It's a salted cracker."
 	icon_state = "cracker"
 	bite_consumption = 1
@@ -267,7 +267,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/khachapuri
-	name = "khachapuri"
+	name = "glup shitto"
 	desc = "Bread with egg and cheese?"
 	icon_state = "khachapuri"
 	food_reagents = list(
@@ -280,7 +280,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cherrycupcake
-	name = "cherry cupcake"
+	name = "glup shitto"
 	desc = "A sweet cupcake with cherry bits."
 	icon_state = "cherrycupcake"
 	food_reagents = list(
@@ -293,13 +293,13 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cherrycupcake/blue
-	name = "blue cherry cupcake"
+	name = "glup shitto"
 	desc = "Blue cherries inside a delicious cupcake."
 	icon_state = "bluecherrycupcake"
 	tastes = list("cake" = 3, "blue cherry" = 1)
 
 /obj/item/food/honeybun
-	name = "honey bun"
+	name = "glup shitto"
 	desc = "A sticky pastry bun glazed with honey."
 	icon_state = "honeybun"
 	food_reagents = list(
@@ -311,7 +311,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cannoli
-	name = "cannoli"
+	name = "glup shitto"
 	desc = "A sicilian treat that makes you into a wise guy."
 	icon_state = "cannoli"
 	food_reagents = list(
@@ -324,7 +324,7 @@
 	venue_value = FOOD_PRICE_CHEAP // Pastry base, 3u of sugar and a single. fucking. unit. of. milk. really?
 
 /obj/item/food/icecream
-	name = "waffle cone"
+	name = "glup shitto"
 	desc = "Delicious waffle cone, but no ice cream."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "icecream_cone_waffle"
@@ -357,7 +357,7 @@
 	AddComponent(/datum/component/ice_cream_holder, filled_name = "ice cream", change_desc = TRUE, prefill_flavours = prefill_flavours)
 
 /obj/item/food/icecream/chocolate
-	name = "chocolate cone"
+	name = "glup shitto"
 	desc = "Delicious chocolate cone, but no ice cream."
 	icon_state = "icecream_cone_chocolate"
 	food_reagents = list(
@@ -371,7 +371,7 @@
 	)
 
 /obj/item/food/cookie/peanut_butter
-	name = "peanut butter cookie"
+	name = "glup shitto"
 	desc = "A tasty, chewy peanut butter cookie."
 	icon_state = "peanut_butter_cookie"
 	food_reagents = list(
@@ -382,7 +382,7 @@
 	foodtypes = GRAIN | JUNKFOOD | NUTS
 
 /obj/item/food/raw_brownie_batter
-	name = "raw brownie batter"
+	name = "glup shitto"
 	desc = "A sticky mixture of raw brownie batter, cook it in the oven!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "raw_brownie_batter"
@@ -397,7 +397,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/brownie_sheet, rand(20 SECONDS, 30 SECONDS), TRUE, TRUE)
 
 /obj/item/food/brownie_sheet
-	name = "brownie sheet"
+	name = "glup shitto"
 	desc = "An uncut sheet of cooked brownie, use a knife to cut it!."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "brownie_sheet"
@@ -414,7 +414,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/brownie, 4, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")
 
 /obj/item/food/brownie
-	name = "brownie"
+	name = "glup shitto"
 	desc = "A square slice of delicious, chewy brownie. Often the target of potheads."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "brownie"
@@ -427,7 +427,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/peanut_butter_brownie_batter
-	name = "raw peanut butter brownie batter"
+	name = "glup shitto"
 	desc = "A sticky mixture of raw peanut butter brownie batter, cook it in the oven!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "peanut_butter_brownie_batter"
@@ -443,7 +443,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/peanut_butter_brownie_sheet, rand(20 SECONDS, 30 SECONDS), TRUE, TRUE)
 
 /obj/item/food/peanut_butter_brownie_sheet
-	name = "peanut butter brownie sheet"
+	name = "glup shitto"
 	desc = "An uncut sheet of cooked peanut butter brownie, use a knife to cut it!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "peanut_butter_brownie_sheet"
@@ -461,7 +461,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/peanut_butter_brownie, 4, 3 SECONDS, table_required = TRUE,  screentip_verb = "Slice")
 
 /obj/item/food/peanut_butter_brownie
-	name = "peanut butter brownie"
+	name = "glup shitto"
 	desc = "A square slice of delicious, chewy peanut butter brownie. Often the target of potheads."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "peanut_butter_brownie"
@@ -475,7 +475,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/crunchy_peanut_butter_tart
-	name = "crunchy peanut butter tart"
+	name = "glup shitto"
 	desc = "A miniature pie with a peanut butter filling, creamy icing, and topping of chopped nuts."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "crunchy_peanut_butter_tart"

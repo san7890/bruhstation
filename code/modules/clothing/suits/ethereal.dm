@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/hooded/ethereal_raincoat
-	name = "ethereal raincoat"
+	name = "glup shitto"
 	desc = " A raincoat commonly worn by travelers or tourists not too fond of Sprout's rainy weather."
 	icon = 'icons/obj/clothing/suits/ethereal.dmi'
 	icon_state = "eth_raincoat"
@@ -25,7 +25,7 @@
 	. += emissive_appearance('icons/obj/clothing/suits/ethereal.dmi', "eth_raincoat_glow", offset_spokesman = src, alpha = src.alpha)
 
 /obj/item/clothing/suit/hooded/ethereal_raincoat/trailwarden
-	name = "trailwarden oilcoat"
+	name = "glup shitto"
 	desc = "A masterfully handcrafted oilslick coat, supposedly makes for excellent camouflage among Sprout's vegetation. You can hear a faint electrical buzz emanating from the luminescent pattern."
 	greyscale_colors = "#32a87d"
 
@@ -38,7 +38,7 @@
 		ethereal.update_worn_oversuit()
 
 /obj/item/clothing/head/hooded/ethereal_rainhood
-	name = "ethereal rainhood"
+	name = "glup shitto"
 	desc = "Protects against space rain."
 	icon = 'icons/obj/clothing/head/ethereal.dmi'
 	icon_state = "eth_rainhood"

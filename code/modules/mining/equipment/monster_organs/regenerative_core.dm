@@ -3,7 +3,7 @@
  * On use when implanted, fully heals. Automatically fully heals if you would enter crit.
  */
 /obj/item/organ/internal/monster_core/regenerative_core
-	name = "regenerative core"
+	name = "glup shitto"
 	desc = "All that remains of a hivelord. It can be used to help keep your body going, but it will rapidly decay into uselessness."
 	desc_preserved = "All that remains of a hivelord. It is preserved, allowing you to use it to heal completely without danger of decay."
 	desc_inert = "All that remains of a hivelord. It has decayed, and is completely useless."
@@ -56,7 +56,7 @@
 
 /// Action used by the regenerative core
 /datum/action/cooldown/monster_core_action/regenerative_core
-	name = "Regenerate"
+	name = "glup shitto"
 	desc = "Fully regenerate your body, consuming your regenerative core in the process. \
 		This process will trigger automatically if you are badly wounded."
 	button_icon_state = "legion_core_stable"

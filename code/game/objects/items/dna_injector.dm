@@ -1,5 +1,5 @@
 /obj/item/dnainjector
-	name = "\improper DNA injector"
+	name = "glup shitto"
 	desc = "A cheap single use autoinjector that injects the user with DNA."
 	icon = 'icons/obj/medical/syringe.dmi'
 	icon_state = "dnainjector"
@@ -151,17 +151,17 @@
 	return TRUE
 
 /obj/item/dnainjector/timed/hulk
-	name = "\improper DNA injector (Hulk)"
+	name = "glup shitto"
 	desc = "This will make you big and strong, but give you a bad skin condition."
 	add_mutations = list(/datum/mutation/human/hulk)
 
 /obj/item/dnainjector/timed/h2m
-	name = "\improper DNA injector (Human > Monkey)"
+	name = "glup shitto"
 	desc = "Will make you a flea bag."
 	add_mutations = list(/datum/mutation/human/race)
 
 /obj/item/dnainjector/activator
-	name = "\improper DNA activator"
+	name = "glup shitto"
 	desc = "Activates the current mutation on injection, if the subject has it."
 	var/doitanyway = FALSE
 	var/research = FALSE //Set to true to get expended and filled injectors for chromosomes
@@ -190,387 +190,387 @@
 /// DNA INJECTORS
 
 /obj/item/dnainjector/acidflesh
-	name = "\improper DNA injector (Acid Flesh)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/acidflesh)
 
 /obj/item/dnainjector/antiacidflesh
-	name = "\improper DNA injector (Acid Flesh)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/acidflesh)
 
 /obj/item/dnainjector/antenna
-	name = "\improper DNA injector (Antenna)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/antenna)
 
 /obj/item/dnainjector/antiantenna
-	name = "\improper DNA injector (Anti-Antenna)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/antenna)
 
 /obj/item/dnainjector/antiglow
-	name = "\improper DNA injector (Antiglowy)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/glow/anti)
 
 /obj/item/dnainjector/removeantiglow
-	name = "\improper DNA injector (Anti-Antiglowy)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/glow/anti)
 
 /obj/item/dnainjector/blindmut
-	name = "\improper DNA injector (Blind)"
+	name = "glup shitto"
 	desc = "Makes you not see anything."
 	add_mutations = list(/datum/mutation/human/blind)
 
 /obj/item/dnainjector/antiblind
-	name = "\improper DNA injector (Anti-Blind)"
+	name = "glup shitto"
 	desc = "IT'S A MIRACLE!!!"
 	remove_mutations = list(/datum/mutation/human/blind)
 
 /obj/item/dnainjector/chameleonmut
-	name = "\improper DNA injector (Chameleon)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/chameleon)
 
 /obj/item/dnainjector/antichameleon
-	name = "\improper DNA injector (Anti-Chameleon)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/chameleon)
 
 /obj/item/dnainjector/chavmut
-	name = "\improper DNA injector (Chav)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/chav)
 
 /obj/item/dnainjector/antichav
-	name = "\improper DNA injector (Anti-Chav)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/chav)
 
 /obj/item/dnainjector/clumsymut
-	name = "\improper DNA injector (Clumsy)"
+	name = "glup shitto"
 	desc = "Makes clown minions."
 	add_mutations = list(/datum/mutation/human/clumsy)
 
 /obj/item/dnainjector/anticlumsy
-	name = "\improper DNA injector (Anti-Clumsy)"
+	name = "glup shitto"
 	desc = "Apply this for Security Clown."
 	remove_mutations = list(/datum/mutation/human/clumsy)
 
 /obj/item/dnainjector/coughmut
-	name = "\improper DNA injector (Cough)"
+	name = "glup shitto"
 	desc = "Will bring forth a sound of horror from your throat."
 	add_mutations = list(/datum/mutation/human/cough)
 
 /obj/item/dnainjector/anticough
-	name = "\improper DNA injector (Anti-Cough)"
+	name = "glup shitto"
 	desc = "Will stop that awful noise."
 	remove_mutations = list(/datum/mutation/human/cough)
 
 /obj/item/dnainjector/cryokinesis
-	name = "\improper DNA injector (Cryokinesis)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/cryokinesis)
 
 /obj/item/dnainjector/anticryokinesis
-	name = "\improper DNA injector (Anti-Cryokinesis)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/cryokinesis)
 
 /obj/item/dnainjector/deafmut
-	name = "\improper DNA injector (Deaf)"
+	name = "glup shitto"
 	desc = "Sorry, what did you say?"
 	add_mutations = list(/datum/mutation/human/deaf)
 
 /obj/item/dnainjector/antideaf
-	name = "\improper DNA injector (Anti-Deaf)"
+	name = "glup shitto"
 	desc = "Will make you hear once more."
 	remove_mutations = list(/datum/mutation/human/deaf)
 
 /obj/item/dnainjector/dwarf
-	name = "\improper DNA injector (Dwarfism)"
+	name = "glup shitto"
 	desc = "It's a small world after all."
 	add_mutations = list(/datum/mutation/human/dwarfism)
 
 /obj/item/dnainjector/antidwarf
-	name = "\improper DNA injector (Anti-Dwarfism)"
+	name = "glup shitto"
 	desc = "Helps you grow big and strong."
 	remove_mutations = list(/datum/mutation/human/dwarfism)
 
 /obj/item/dnainjector/elvismut
-	name = "\improper DNA injector (Elvis)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/elvis)
 
 /obj/item/dnainjector/antielvis
-	name = "\improper DNA injector (Anti-Elvis)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/elvis)
 
 /obj/item/dnainjector/epimut
-	name = "\improper DNA injector (Epi.)"
+	name = "glup shitto"
 	desc = "Shake shake shake the room!"
 	add_mutations = list(/datum/mutation/human/epilepsy)
 
 /obj/item/dnainjector/antiepi
-	name = "\improper DNA injector (Anti-Epi.)"
+	name = "glup shitto"
 	desc = "Will fix you up from shaking the room."
 	remove_mutations = list(/datum/mutation/human/epilepsy)
 
 /obj/item/dnainjector/geladikinesis
-	name = "\improper DNA injector (Geladikinesis)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/geladikinesis)
 
 /obj/item/dnainjector/antigeladikinesis
-	name = "\improper DNA injector (Anti-Geladikinesis)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/geladikinesis)
 
 /obj/item/dnainjector/gigantism
-	name = "\improper DNA injector (Gigantism)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/gigantism)
 
 /obj/item/dnainjector/antigigantism
-	name = "\improper DNA injector (Anti-Gigantism)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/gigantism)
 
 /obj/item/dnainjector/glassesmut
-	name = "\improper DNA injector (Glasses)"
+	name = "glup shitto"
 	desc = "Will make you need dorkish glasses."
 	add_mutations = list(/datum/mutation/human/nearsight)
 
 /obj/item/dnainjector/antiglasses
-	name = "\improper DNA injector (Anti-Glasses)"
+	name = "glup shitto"
 	desc = "Toss away those glasses!"
 	remove_mutations = list(/datum/mutation/human/nearsight)
 
 /obj/item/dnainjector/glow
-	name = "\improper DNA injector (Glowy)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/glow)
 
 /obj/item/dnainjector/removeglow
-	name = "\improper DNA injector (Anti-Glowy)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/glow)
 
 /obj/item/dnainjector/hulkmut
-	name = "\improper DNA injector (Hulk)"
+	name = "glup shitto"
 	desc = "This will make you big and strong, but give you a bad skin condition."
 	add_mutations = list(/datum/mutation/human/hulk)
 
 /obj/item/dnainjector/antihulk
-	name = "\improper DNA injector (Anti-Hulk)"
+	name = "glup shitto"
 	desc = "Cures green skin."
 	remove_mutations = list(/datum/mutation/human/hulk)
 
 /obj/item/dnainjector/h2m
-	name = "\improper DNA injector (Human > Monkey)"
+	name = "glup shitto"
 	desc = "Will make you a flea bag."
 	add_mutations = list(/datum/mutation/human/race)
 
 /obj/item/dnainjector/m2h
-	name = "\improper DNA injector (Monkey > Human)"
+	name = "glup shitto"
 	desc = "Will make you...less hairy."
 	remove_mutations = list(/datum/mutation/human/race)
 
 /obj/item/dnainjector/illiterate
-	name = "\improper DNA injector (Illiterate)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/illiterate)
 
 /obj/item/dnainjector/antiilliterate
-	name = "\improper DNA injector (Anti-Illiterate)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/illiterate)
 
 /obj/item/dnainjector/insulated
-	name = "\improper DNA injector (Insulated)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/insulated)
 
 /obj/item/dnainjector/antiinsulated
-	name = "\improper DNA injector (Anti-Insulated)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/insulated)
 
 /obj/item/dnainjector/lasereyesmut
-	name = "\improper DNA injector (Laser Eyes)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/laser_eyes)
 
 /obj/item/dnainjector/antilasereyes
-	name = "\improper DNA injector (Anti-Laser Eyes)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/laser_eyes)
 
 /obj/item/dnainjector/mindread
-	name = "\improper DNA injector (Mindread)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/mindreader)
 
 /obj/item/dnainjector/antimindread
-	name = "\improper DNA injector (Anti-Mindread)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/mindreader)
 
 /obj/item/dnainjector/mutemut
-	name = "\improper DNA injector (Mute)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/mute)
 
 /obj/item/dnainjector/antimute
-	name = "\improper DNA injector (Anti-Mute)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/mute)
 
 /obj/item/dnainjector/olfaction
-	name = "\improper DNA injector (Olfaction)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/olfaction)
 
 /obj/item/dnainjector/antiolfaction
-	name = "\improper DNA injector (Anti-Olfaction)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/olfaction)
 
 /obj/item/dnainjector/piglatinmut
-	name = "\improper DNA injector (Pig Latin)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/piglatin)
 
 /obj/item/dnainjector/antipiglatin
-	name = "\improper DNA injector (Anti-Pig Latin)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/piglatin)
 
 /obj/item/dnainjector/paranoia
-	name = "\improper DNA injector (Paranoia)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/paranoia)
 
 /obj/item/dnainjector/antiparanoia
-	name = "\improper DNA injector (Anti-Paranoia)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/paranoia)
 
 /obj/item/dnainjector/pressuremut
-	name = "\improper DNA injector (Pressure Adaptation)"
+	name = "glup shitto"
 	desc = "Gives you fire."
 	add_mutations = list(/datum/mutation/human/pressure_adaptation)
 
 /obj/item/dnainjector/antipressure
-	name = "\improper DNA injector (Anti-Pressure Adaptation)"
+	name = "glup shitto"
 	desc = "Cures fire."
 	remove_mutations = list(/datum/mutation/human/pressure_adaptation)
 
 /obj/item/dnainjector/radioactive
-	name = "\improper DNA injector (Radioactive)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/radioactive)
 
 /obj/item/dnainjector/antiradioactive
-	name = "\improper DNA injector (Anti-Radioactive)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/radioactive)
 
 /obj/item/dnainjector/shock
-	name = "\improper DNA injector (Shock Touch)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/shock)
 
 /obj/item/dnainjector/antishock
-	name = "\improper DNA injector (Anti-Shock Touch)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/shock)
 
 /obj/item/dnainjector/spastic
-	name = "\improper DNA injector (Spastic)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/spastic)
 
 /obj/item/dnainjector/antispastic
-	name = "\improper DNA injector (Anti-Spastic)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/spastic)
 
 /obj/item/dnainjector/spatialinstability
-	name = "\improper DNA injector (Spatial Instability)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/badblink)
 
 /obj/item/dnainjector/antispatialinstability
-	name = "\improper DNA injector (Anti-Spatial Instability)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/badblink)
 
 /obj/item/dnainjector/stuttmut
-	name = "\improper DNA injector (Stutt.)"
+	name = "glup shitto"
 	desc = "Makes you s-s-stuttterrr."
 	add_mutations = list(/datum/mutation/human/nervousness)
 
 /obj/item/dnainjector/antistutt
-	name = "\improper DNA injector (Anti-Stutt.)"
+	name = "glup shitto"
 	desc = "Fixes that speaking impairment."
 	remove_mutations = list(/datum/mutation/human/nervousness)
 
 /obj/item/dnainjector/swedishmut
-	name = "\improper DNA injector (Swedish)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/swedish)
 
 /obj/item/dnainjector/antiswedish
-	name = "\improper DNA injector (Anti-Swedish)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/swedish)
 
 /obj/item/dnainjector/telemut
-	name = "\improper DNA injector (Tele.)"
+	name = "glup shitto"
 	desc = "Super brain TK!"
 	add_mutations = list(/datum/mutation/human/telekinesis)
 
 /obj/item/dnainjector/telemut/darkbundle
-	name = "\improper DNA injector"
+	name = "glup shitto"
 	desc = "Good. Let the hate flow through you."
 
 /obj/item/dnainjector/antitele
-	name = "\improper DNA injector (Anti-Tele.)"
+	name = "glup shitto"
 	desc = "Will make you not able to control your mind."
 	remove_mutations = list(/datum/mutation/human/telekinesis)
 
 /obj/item/dnainjector/firemut
-	name = "\improper DNA injector (Temp Adaptation)"
+	name = "glup shitto"
 	desc = "Gives you fire."
 	add_mutations = list(/datum/mutation/human/temperature_adaptation)
 
 /obj/item/dnainjector/antifire
-	name = "\improper DNA injector (Anti-Temp Adaptation)"
+	name = "glup shitto"
 	desc = "Cures fire."
 	remove_mutations = list(/datum/mutation/human/temperature_adaptation)
 
 /obj/item/dnainjector/thermal
-	name = "\improper DNA injector (Thermal Vision)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/thermal)
 
 /obj/item/dnainjector/antithermal
-	name = "\improper DNA injector (Anti-Thermal Vision)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/thermal)
 
 /obj/item/dnainjector/tourmut
-	name = "\improper DNA injector (Tour.)"
+	name = "glup shitto"
 	desc = "Gives you a nasty case of Tourette's."
 	add_mutations = list(/datum/mutation/human/tourettes)
 
 /obj/item/dnainjector/antitour
-	name = "\improper DNA injector (Anti-Tour.)"
+	name = "glup shitto"
 	desc = "Will cure Tourette's."
 	remove_mutations = list(/datum/mutation/human/tourettes)
 
 /obj/item/dnainjector/twoleftfeet
-	name = "\improper DNA injector (Two Left Feet)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/extrastun)
 
 /obj/item/dnainjector/antitwoleftfeet
-	name = "\improper DNA injector (Anti-Two Left Feet)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/extrastun)
 
 /obj/item/dnainjector/unintelligiblemut
-	name = "\improper DNA injector (Unintelligible)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/unintelligible)
 
 /obj/item/dnainjector/antiunintelligible
-	name = "\improper DNA injector (Anti-Unintelligible)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/unintelligible)
 
 /obj/item/dnainjector/void
-	name = "\improper DNA injector (Void)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/void)
 
 /obj/item/dnainjector/antivoid
-	name = "\improper DNA injector (Anti-Void)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/void)
 
 /obj/item/dnainjector/xraymut
-	name = "\improper DNA injector (X-ray)"
+	name = "glup shitto"
 	desc = "Finally you can see what the Captain does."
 	add_mutations = list(/datum/mutation/human/xray)
 
 /obj/item/dnainjector/antixray
-	name = "\improper DNA injector (Anti-X-ray)"
+	name = "glup shitto"
 	desc = "It will make you see harder."
 	remove_mutations = list(/datum/mutation/human/xray)
 
 /obj/item/dnainjector/wackymut
-	name = "\improper DNA injector (Wacky)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/wacky)
 
 /obj/item/dnainjector/antiwacky
-	name = "\improper DNA injector (Anti-Wacky)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/wacky)
 
 /obj/item/dnainjector/webbing
-	name = "\improper DNA injector (Webbing)"
+	name = "glup shitto"
 	add_mutations = list(/datum/mutation/human/webbing)
 
 /obj/item/dnainjector/antiwebbing
-	name = "\improper DNA injector (Anti-Webbing)"
+	name = "glup shitto"
 	remove_mutations = list(/datum/mutation/human/webbing)

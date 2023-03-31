@@ -3,7 +3,7 @@
 /**********************Mineral deposits**************************/
 
 /turf/closed/mineral //wall piece
-	name = "rock"
+	name = "glup shitto"
 	icon = MAP_SWITCH('icons/turf/smoothrocks.dmi', 'icons/turf/mining.dmi')
 	icon_state = "rock"
 	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
@@ -328,7 +328,7 @@
 	)
 
 /turf/closed/mineral/random/snow
-	name = "snowy mountainside"
+	name = "glup shitto"
 	icon = MAP_SWITCH('icons/turf/walls/mountain_wall.dmi', 'icons/turf/mining.dmi')
 	icon_state = "mountainrock"
 	base_icon_state = "mountain_wall"
@@ -429,7 +429,7 @@
 
 // Subtypes for mappers placing ores manually.
 /turf/closed/mineral/random/labormineral/ice
-	name = "snowy mountainside"
+	name = "glup shitto"
 	icon = MAP_SWITCH('icons/turf/walls/mountain_wall.dmi', 'icons/turf/mining.dmi')
 	icon_state = "mountainrock"
 	base_icon_state = "mountain_wall"
@@ -558,7 +558,7 @@
 	defer_change = TRUE
 
 /turf/closed/mineral/ash_rock //wall piece
-	name = "rock"
+	name = "glup shitto"
 	icon = 'icons/turf/mining.dmi'
 	icon = MAP_SWITCH('icons/turf/walls/rock_wall.dmi', 'icons/turf/mining.dmi')
 	icon_state = "rock2"
@@ -571,7 +571,7 @@
 	defer_change = TRUE
 
 /turf/closed/mineral/snowmountain
-	name = "snowy mountainside"
+	name = "glup shitto"
 	icon = MAP_SWITCH('icons/turf/walls/mountain_wall.dmi', 'icons/turf/mining.dmi')
 	icon_state = "mountainrock"
 	base_icon_state = "mountain_wall"
@@ -588,7 +588,7 @@
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/closed/mineral/snowmountain/cavern
-	name = "ice cavern rock"
+	name = "glup shitto"
 	icon = MAP_SWITCH('icons/turf/walls/icerock_wall.dmi', 'icons/turf/mining.dmi')
 	icon_state = "icerock"
 	base_icon_state = "icerock_wall"
@@ -613,25 +613,25 @@
 //yoo RED ROCK RED ROCK
 
 /turf/closed/mineral/asteroid
-	name = "iron rock"
+	name = "glup shitto"
 	icon = 'icons/turf/mining.dmi'
 	icon_state = "redrock"
 	icon = MAP_SWITCH('icons/turf/walls/red_wall.dmi', 'icons/turf/mining.dmi')
 	base_icon_state = "red_wall"
 
 /turf/closed/mineral/random/stationside/asteroid
-	name = "iron rock"
+	name = "glup shitto"
 	icon = 'icons/turf/mining.dmi'
 	icon = MAP_SWITCH('icons/turf/walls/red_wall.dmi', 'icons/turf/mining.dmi')
 	base_icon_state = "red_wall"
 
 /turf/closed/mineral/random/stationside/asteroid/porus
-	name = "porous iron rock"
+	name = "glup shitto"
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/asteroid
 
 /turf/closed/mineral/asteroid/porous
-	name = "porous rock"
+	name = "glup shitto"
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/asteroid
 
@@ -753,7 +753,7 @@
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/closed/mineral/strong
-	name = "Very strong rock"
+	name = "glup shitto"
 	desc = "Seems to be stronger than the other rocks in the area. Only a master of mining techniques could destroy this."
 	turf_type = /turf/open/misc/asteroid/basalt/lava_land_surface
 	baseturfs = /turf/open/misc/asteroid/basalt/lava_land_surface

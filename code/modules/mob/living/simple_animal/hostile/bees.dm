@@ -13,7 +13,7 @@
 #define BEE_FOODGROUPS RAW | MEAT | GORE | BUGS
 
 /mob/living/simple_animal/hostile/bee
-	name = "bee"
+	name = "glup shitto"
 	desc = "Buzzy buzzy bee, stingy sti- Ouch!"
 	icon_state = ""
 	icon_living = ""
@@ -259,7 +259,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_QUEEN_BEE, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /mob/living/simple_animal/hostile/bee/queen
-	name = "queen bee"
+	name = "glup shitto"
 	desc = "She's the queen of bees, BZZ BZZ!"
 	icon_base = "queen"
 	isqueen = TRUE
@@ -303,7 +303,7 @@
 		forceMove(beehome.drop_location())
 
 /obj/item/queen_bee
-	name = "queen bee"
+	name = "glup shitto"
 	desc = "She's the queen of bees, BZZ BZZ!"
 	icon_state = "queen_item"
 	inhand_icon_state = ""
@@ -372,7 +372,7 @@
 	addtimer(CALLBACK(src, PROC_REF(death)), timetolive)
 
 /obj/item/trash/bee
-	name = "bee"
+	name = "glup shitto"
 	desc = "No wonder the bees are dying out, you monster."
 	icon = 'icons/mob/simple/bees.dmi'
 	icon_state = "bee_item"

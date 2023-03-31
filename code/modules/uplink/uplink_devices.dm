@@ -4,7 +4,7 @@
 // used for nuke ops, for whom opening the radio GUI and the uplink GUI
 // simultaneously is an annoying distraction.
 /obj/item/uplink
-	name = "station bounced radio"
+	name = "glup shitto"
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "radio"
 	inhand_icon_state = "radio"
@@ -29,7 +29,7 @@
 	AddComponent(/datum/component/uplink, owner, FALSE, TRUE, uplink_flag, tc_amount)
 
 /obj/item/uplink/debug
-	name = "debug uplink"
+	name = "glup shitto"
 
 /obj/item/uplink/debug/Initialize(mapload, owner, tc_amount = 9000)
 	. = ..()
@@ -41,7 +41,7 @@
 	uplink_flag = UPLINK_NUKE_OPS
 
 /obj/item/uplink/nuclear/debug
-	name = "debug nuclear uplink"
+	name = "glup shitto"
 	uplink_flag = UPLINK_NUKE_OPS
 
 /obj/item/uplink/nuclear/debug/Initialize(mapload, owner, tc_amount = 9000)
@@ -62,7 +62,7 @@
 	uplink_flag = UPLINK_CLOWN_OPS
 
 /obj/item/uplink/old
-	name = "dusty radio"
+	name = "glup shitto"
 	desc = "A dusty looking radio."
 
 /obj/item/uplink/old/Initialize(mapload, owner, tc_amount = 10)

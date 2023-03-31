@@ -4,7 +4,7 @@
 	crate_type = /obj/structure/closet/crate/secure/gear
 
 /datum/supply_pack/security/ammo
-	name = "Ammo Crate"
+	name = "glup shitto"
 	desc = "Contains three boxes of beanbag shotgun shells, three boxes \
 		of rubbershot shotgun shells and one of each special .38 speedloaders."
 	cost = CARGO_CRATE_VALUE * 8
@@ -18,7 +18,7 @@
 	crate_name = "ammo crate"
 
 /datum/supply_pack/security/armor
-	name = "Armor Crate"
+	name = "glup shitto"
 	desc = "Three vests of well-rounded, decently-protective armor."
 	cost = CARGO_CRATE_VALUE * 2
 	access_view = ACCESS_SECURITY
@@ -26,7 +26,7 @@
 	crate_name = "armor crate"
 
 /datum/supply_pack/security/disabler
-	name = "Disabler Crate"
+	name = "glup shitto"
 	desc = "Three stamina-draining disabler weapons."
 	cost = CARGO_CRATE_VALUE * 3
 	access_view = ACCESS_SECURITY
@@ -34,7 +34,7 @@
 	crate_name = "disabler crate"
 
 /datum/supply_pack/security/forensics
-	name = "Forensics Crate"
+	name = "glup shitto"
 	desc = "Stay hot on the criminal's heels with Nanotrasen's Detective Essentials™. \
 		Contains a forensics scanner, six evidence bags, camera, tape recorder, white crayon, \
 		and of course, a fedora."
@@ -50,14 +50,14 @@
 	crate_name = "forensics crate"
 
 /datum/supply_pack/security/helmets
-	name = "Helmets Crate"
+	name = "glup shitto"
 	desc = "Contains three standard-issue brain buckets."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/clothing/head/helmet/sec = 3)
 	crate_name = "helmet crate"
 
 /datum/supply_pack/security/laser
-	name = "Lasers Crate"
+	name = "glup shitto"
 	desc = "Contains three lethal, high-energy laser guns."
 	cost = CARGO_CRATE_VALUE * 4
 	access_view = ACCESS_ARMORY
@@ -65,7 +65,7 @@
 	crate_name = "laser crate"
 
 /datum/supply_pack/security/securitybarriers
-	name = "Security Barrier Grenades"
+	name = "glup shitto"
 	desc = "Stem the tide with four Security Barrier grenades."
 	access_view = ACCESS_BRIG
 	contains = list(/obj/item/grenade/barrier = 4)
@@ -73,7 +73,7 @@
 	crate_name = "security barriers crate"
 
 /datum/supply_pack/security/securityclothes
-	name = "Security Clothing Crate"
+	name = "glup shitto"
 	desc = "Contains appropriate outfits for the station's private security force. \
 		Contains outfits for the Warden, Head of Security, and two Security Officers. \
 		Each outfit comes with a rank-appropriate jumpsuit, suit, and beret."
@@ -92,7 +92,7 @@
 	crate_name = "security clothing crate"
 
 /datum/supply_pack/security/stingpack
-	name = "Stingbang Grenade Pack"
+	name = "glup shitto"
 	desc = "Contains five \"stingbang\" grenades, perfect for stopping \
 		riots and playing morally unthinkable pranks."
 	cost = CARGO_CRATE_VALUE * 5
@@ -101,7 +101,7 @@
 	crate_name = "stingbang grenade pack crate"
 
 /datum/supply_pack/security/supplies
-	name = "Security Supplies Crate"
+	name = "glup shitto"
 	desc = "Contains seven flashbangs, seven teargas grenades, six flashes, and seven handcuffs."
 	cost = CARGO_CRATE_VALUE * 3.5
 	access_view = ACCESS_ARMORY
@@ -113,7 +113,7 @@
 	crate_name = "security supply crate"
 
 /datum/supply_pack/security/firingpins
-	name = "Standard Firing Pins Crate"
+	name = "glup shitto"
 	desc = "Upgrade your arsenal with 10 standard firing pins."
 	cost = CARGO_CRATE_VALUE * 4
 	access_view = ACCESS_ARMORY
@@ -121,7 +121,7 @@
 	crate_name = "firing pins crate"
 
 /datum/supply_pack/security/firingpins/paywall
-	name = "Paywall Firing Pins Crate"
+	name = "glup shitto"
 	desc = "Specialized firing pins with a built-in configurable paywall."
 	cost = CARGO_CRATE_VALUE * 2
 	access_view = ACCESS_ARMORY
@@ -129,7 +129,7 @@
 	crate_name = "paywall firing pins crate"
 
 /datum/supply_pack/security/justiceinbound
-	name = "Standard Justice Enforcer Crate"
+	name = "glup shitto"
 	desc = "This is it. The Bee's Knees. The Creme of the Crop. The Pick of the Litter. \
 		The best of the best of the best. The Crown Jewel of Nanotrasen. \
 		The Alpha and the Omega of security headwear. Guaranteed to strike fear into the hearts \
@@ -142,7 +142,7 @@
 	crate_name = "security clothing crate"
 
 /datum/supply_pack/security/baton
-	name = "Stun Batons Crate"
+	name = "glup shitto"
 	desc = "Arm the Civil Protection Forces with three stun batons. Batteries included."
 	cost = CARGO_CRATE_VALUE * 2
 	access_view = ACCESS_SECURITY
@@ -150,14 +150,14 @@
 	crate_name = "stun baton crate"
 
 /datum/supply_pack/security/wall_flash
-	name = "Wall-Mounted Flash Crate"
+	name = "glup shitto"
 	desc = "Contains four wall-mounted flashes."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/storage/box/wall_flash = 4)
 	crate_name = "wall-mounted flash crate"
 
 /datum/supply_pack/security/constable
-	name = "Traditional Equipment Crate"
+	name = "glup shitto"
 	desc = "Spare equipment found in a warehouse. Contains a constable's outfit, \
 		whistle, and conversion kit."
 	cost = CARGO_CRATE_VALUE * 2.2
@@ -178,7 +178,7 @@
 	crate_type = /obj/structure/closet/crate/secure/weapon
 
 /datum/supply_pack/security/armory/bulletarmor
-	name = "Bulletproof Armor Crate"
+	name = "glup shitto"
 	desc = "Contains three sets of bulletproof armor. Guaranteed to reduce a bullet's \
 		stopping power by over half."
 	cost = CARGO_CRATE_VALUE * 3
@@ -186,21 +186,21 @@
 	crate_name = "bulletproof armor crate"
 
 /datum/supply_pack/security/armory/bullethelmets
-	name = "Bulletproof Helmets Crate"
+	name = "glup shitto"
 	desc = "Contains three bulletproof helmets."
 	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/item/clothing/head/helmet/alt = 3)
 	crate_name = "bulletproof helmets crate"
 
 /datum/supply_pack/security/armory/chemimp
-	name = "Chemical Implants Crate"
+	name = "glup shitto"
 	desc = "Contains five Remote Chemical implants."
 	cost = CARGO_CRATE_VALUE * 3.5
 	contains = list(/obj/item/storage/box/chemimp)
 	crate_name = "chemical implant crate"
 
 /datum/supply_pack/security/armory/ballistic
-	name = "Combat Shotguns Crate"
+	name = "glup shitto"
 	desc = "For when the enemy absolutely needs to be replaced with lead. \
 		Contains three Aussec-designed Combat Shotguns, and three Shotgun Bandoliers."
 	cost = CARGO_CRATE_VALUE * 17.5
@@ -209,7 +209,7 @@
 	crate_name = "combat shotguns crate"
 
 /datum/supply_pack/security/armory/dragnet
-	name = "DRAGnet Crate"
+	name = "glup shitto"
 	desc = "Contains three \"Dynamic Rapid-Apprehension of the Guilty\" netting devices, \
 		a recent breakthrough in law enforcement prisoner management technology."
 	cost = CARGO_CRATE_VALUE * 5
@@ -217,7 +217,7 @@
 	crate_name = "\improper DRAGnet crate"
 
 /datum/supply_pack/security/armory/energy
-	name = "Energy Guns Crate"
+	name = "glup shitto"
 	desc = "Contains two Energy Guns, capable of firing both nonlethal and lethal \
 		blasts of light."
 	cost = CARGO_CRATE_VALUE * 18
@@ -226,14 +226,14 @@
 	crate_type = /obj/structure/closet/crate/secure/plasma
 
 /datum/supply_pack/security/armory/exileimp
-	name = "Exile Implants Crate"
+	name = "glup shitto"
 	desc = "Contains five Exile implants."
 	cost = CARGO_CRATE_VALUE * 3.5
 	contains = list(/obj/item/storage/box/exileimp)
 	crate_name = "exile implant crate"
 
 /datum/supply_pack/security/armory/fire
-	name = "Incendiary Weapons Crate"
+	name = "glup shitto"
 	desc = "Burn, baby burn. Contains three incendiary grenades, three plasma canisters, \
 		and a flamethrower."
 	cost = CARGO_CRATE_VALUE * 7
@@ -247,14 +247,14 @@
 	dangerous = TRUE
 
 /datum/supply_pack/security/armory/mindshield
-	name = "Mindshield Implants Crate"
+	name = "glup shitto"
 	desc = "Prevent against radical thoughts with three Mindshield implants."
 	cost = CARGO_CRATE_VALUE * 6
 	contains = list(/obj/item/storage/lockbox/loyalty)
 	crate_name = "mindshield implant crate"
 
 /datum/supply_pack/security/armory/trackingimp
-	name = "Tracking Implants Crate"
+	name = "glup shitto"
 	desc = "Contains four tracking implants and three tracking speedloaders of tracing .38 ammo."
 	cost = CARGO_CRATE_VALUE * 4.5
 	contains = list(/obj/item/storage/box/trackimp,
@@ -263,7 +263,7 @@
 	crate_name = "tracking implant crate"
 
 /datum/supply_pack/security/armory/laserarmor
-	name = "Reflector Vest Crate"
+	name = "glup shitto"
 	desc = "Contains two vests of highly reflective material. Each armor piece \
 		diffuses a laser's energy by over half, as well as offering a good chance \
 		to reflect the laser entirely."
@@ -273,7 +273,7 @@
 	crate_type = /obj/structure/closet/crate/secure/plasma
 
 /datum/supply_pack/security/armory/riotarmor
-	name = "Riot Armor Crate"
+	name = "glup shitto"
 	desc = "Contains three sets of heavy body armor. Advanced padding protects \
 		against close-ranged weaponry, making melee attacks feel only half as \
 		potent to the user."
@@ -282,21 +282,21 @@
 	crate_name = "riot armor crate"
 
 /datum/supply_pack/security/armory/riothelmets
-	name = "Riot Helmets Crate"
+	name = "glup shitto"
 	desc = "Contains three riot helmets."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/clothing/head/helmet/toggleable/riot = 3)
 	crate_name = "riot helmets crate"
 
 /datum/supply_pack/security/armory/riotshields
-	name = "Riot Shields Crate"
+	name = "glup shitto"
 	desc = "For when the greytide gets really uppity. Contains three riot shields."
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/shield/riot = 3)
 	crate_name = "riot shields crate"
 
 /datum/supply_pack/security/armory/russian
-	name = "Russian Surplus Crate"
+	name = "glup shitto"
 	desc = "Hello Comrade, we have the most modern russian military equipment the \
 		black market can offer, for the right price of course. Sadly we couldn't remove \
 		the lock, so it"
@@ -325,7 +325,7 @@
 		new item(C)
 
 /datum/supply_pack/security/armory/swat
-	name = "SWAT Crate"
+	name = "glup shitto"
 	desc = "Contains two fullbody sets of tough, fireproof suits designed in a joint \
 		effort by IS-ERI and Nanotrasen. Each set contains a suit, helmet, mask, combat belt, \
 		and combat gloves."
@@ -339,7 +339,7 @@
 	crate_name = "swat crate"
 
 /datum/supply_pack/security/armory/thermal
-	name = "Thermal Pistol Crate"
+	name = "glup shitto"
 	desc = "Contains a pair of holsters each with two experimental thermal pistols, \
 		using nanites as the basis for their ammo."
 	cost = CARGO_CRATE_VALUE * 7
@@ -347,7 +347,7 @@
 	crate_name = "thermal pistol crate"
 
 /datum/supply_pack/security/armory/wt550
-	name = "Recalled Weapon Pack"
+	name = "glup shitto"
 	desc = "Contains a set of old Nanotrasen brand autorifles recalled due to choking hazard."
 	cost = CARGO_CRATE_VALUE * 7
 	hidden = TRUE
@@ -358,7 +358,7 @@
 	crate_name = "Recalled rifle crate"
 
 /datum/supply_pack/security/armory/wt550ammo
-	name = "Recalled Ammo Pack"
+	name = "glup shitto"
 	desc = "Contains four 20-round magazine for the Recalled WT-550 Auto Rifle. \
 	Each magazine is designed to facilitate rapid tactical reloads. Recalled due to Security demands."
 	cost = CARGO_CRATE_VALUE * 4

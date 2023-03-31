@@ -147,7 +147,7 @@
 		current_alerts -= remove_alert_from
 
 /atom/movable/screen/alert/aura_healing
-	name = "Aura Healing"
+	name = "glup shitto"
 	icon_state = "template"
 
 #undef HEAL_EFFECT_COOLDOWN

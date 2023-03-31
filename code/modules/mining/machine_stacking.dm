@@ -1,7 +1,7 @@
 /**********************Mineral stacking unit console**************************/
 
 /obj/machinery/mineral/stacking_unit_console
-	name = "stacking machine console"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/mining_machines.dmi'
 	icon_state = "console"
 	desc = "Controls a stacking machine... in theory."
@@ -80,7 +80,7 @@
 
 
 /obj/machinery/mineral/stacking_machine
-	name = "stacking machine"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/mining_machines.dmi'
 	icon_state = "stacker"
 	desc = "A machine that automatically stacks acquired materials. Controlled by a nearby console."

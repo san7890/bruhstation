@@ -1,5 +1,5 @@
 /obj/item/seeds/rainbow_bunch
-	name = "pack of rainbow bunch seeds"
+	name = "glup shitto"
 	desc = "A pack of seeds that'll grow into a beautiful bush of various colored flowers."
 	icon_state = "seed-rainbowbunch"
 	species = "rainbowbunch"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/rainbow_flower
 	seed = /obj/item/seeds/rainbow_bunch
-	name = "rainbow flower"
+	name = "glup shitto"
 	desc = "A beautiful flower capable of being used for most dyeing processes."
 	icon_state = "map_flower"
 	slot_flags = ITEM_SLOT_HEAD

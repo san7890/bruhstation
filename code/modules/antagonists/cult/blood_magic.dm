@@ -1,5 +1,5 @@
 /datum/action/innate/cult/blood_magic //Blood magic handles the creation of blood spells (formerly talismans)
-	name = "Prepare Blood Magic"
+	name = "glup shitto"
 	button_icon_state = "carve"
 	desc = "Prepare blood magic by carving runes into your flesh. This is easier with an <b>empowering rune</b>."
 	default_button_position = DEFAULT_BLOODSPELLS
@@ -91,7 +91,7 @@
 	channeling = FALSE
 
 /datum/action/innate/cult/blood_spell //The next generation of talismans, handles storage/creation of blood magic
-	name = "Blood Magic"
+	name = "glup shitto"
 	button_icon_state = "telerune"
 	desc = "Fear the Old Blood."
 	var/charges = 1
@@ -144,21 +144,21 @@
 
 //Cult Blood Spells
 /datum/action/innate/cult/blood_spell/stun
-	name = "Stun"
+	name = "glup shitto"
 	desc = "Empowers your hand to stun and mute a victim on contact."
 	button_icon_state = "hand"
 	magic_path = "/obj/item/melee/blood_magic/stun"
 	health_cost = 10
 
 /datum/action/innate/cult/blood_spell/teleport
-	name = "Teleport"
+	name = "glup shitto"
 	desc = "Empowers your hand to teleport yourself or another cultist to a teleport rune on contact."
 	button_icon_state = "tele"
 	magic_path = "/obj/item/melee/blood_magic/teleport"
 	health_cost = 7
 
 /datum/action/innate/cult/blood_spell/emp
-	name = "Electromagnetic Pulse"
+	name = "glup shitto"
 	desc = "Emits a large electromagnetic pulse."
 	button_icon_state = "emp"
 	health_cost = 10
@@ -174,27 +174,27 @@
 		qdel(src)
 
 /datum/action/innate/cult/blood_spell/shackles
-	name = "Shadow Shackles"
+	name = "glup shitto"
 	desc = "Empowers your hand to start handcuffing victim on contact, and mute them if successful."
 	button_icon_state = "cuff"
 	charges = 4
 	magic_path = "/obj/item/melee/blood_magic/shackles"
 
 /datum/action/innate/cult/blood_spell/construction
-	name = "Twisted Construction"
+	name = "glup shitto"
 	desc = "Empowers your hand to corrupt certain metalic objects.<br><u>Converts:</u><br>Plasteel into runed metal<br>50 metal into a construct shell<br>Living cyborgs into constructs after a delay<br>Cyborg shells into construct shells<br>Purified soulstones (and any shades inside) into cultist soulstones<br>Airlocks into brittle runed airlocks after a delay (harm intent)"
 	button_icon_state = "transmute"
 	magic_path = "/obj/item/melee/blood_magic/construction"
 	health_cost = 12
 
 /datum/action/innate/cult/blood_spell/equipment
-	name = "Summon Combat Equipment"
+	name = "glup shitto"
 	desc = "Empowers your hand to summon combat gear onto a cultist you touch, including cult armor, a cult bola, and a cult sword. Not recommended for use before the blood cult's presence has been revealed."
 	button_icon_state = "equip"
 	magic_path = "/obj/item/melee/blood_magic/armor"
 
 /datum/action/innate/cult/blood_spell/dagger
-	name = "Summon Ritual Dagger"
+	name = "glup shitto"
 	desc = "Allows you to summon a ritual dagger, in case you've lost the dagger that was given to you."
 	invocation = "Wur d'dai leev'mai k'sagan!" //where did I leave my keys, again?
 	button_icon_state = "equip" //this is the same icon that summon equipment uses, but eh, I'm not a spriter
@@ -218,7 +218,7 @@
 		qdel(src)
 
 /datum/action/innate/cult/blood_spell/horror
-	name = "Hallucinations"
+	name = "glup shitto"
 	desc = "Gives hallucinations to a target at range. A silent and invisible spell."
 	button_icon_state = "horror"
 	charges = 4
@@ -262,7 +262,7 @@
 	return TRUE
 
 /datum/action/innate/cult/blood_spell/veiling
-	name = "Conceal Presence"
+	name = "glup shitto"
 	desc = "Alternates between hiding and revealing nearby cult structures and runes."
 	invocation = "Kla'atu barada nikt'o!"
 	button_icon_state = "gone"
@@ -315,7 +315,7 @@
 	build_all_button_icons()
 
 /datum/action/innate/cult/blood_spell/manipulation
-	name = "Blood Rites"
+	name = "glup shitto"
 	desc = "Empowers your hand to absorb blood to be used for advanced rites, or heal a cultist on contact. Use the spell in-hand to cast advanced rites."
 	invocation = "Fel'th Dol Ab'orod!"
 	button_icon_state = "manip"
@@ -325,7 +325,7 @@
 
 // The "magic hand" items
 /obj/item/melee/blood_magic
-	name = "\improper magical aura"
+	name = "glup shitto"
 	desc = "A sinister looking aura that distorts the flow of reality around it."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	lefthand_file = 'icons/mob/inhands/items/touchspell_lefthand.dmi'
@@ -394,7 +394,7 @@
 
 //Stun
 /obj/item/melee/blood_magic/stun
-	name = "Stunning Aura"
+	name = "glup shitto"
 	desc = "Will stun and mute a weak-minded victim on contact."
 	color = RUNE_COLOR_RED
 	invocation = "Fuu ma'jin!"
@@ -436,7 +436,7 @@
 
 //Teleportation
 /obj/item/melee/blood_magic/teleport
-	name = "Teleporting Aura"
+	name = "glup shitto"
 	color = RUNE_COLOR_TELEPORT
 	desc = "Will teleport a cultist to a teleport rune on contact."
 	invocation = "Sas'so c'arta forbici!"
@@ -485,7 +485,7 @@
 
 //Shackles
 /obj/item/melee/blood_magic/shackles
-	name = "Shackling Aura"
+	name = "glup shitto"
 	desc = "Will start handcuffing a victim on contact, and mute them if successful."
 	invocation = "In'totum Lig'abis!"
 	color = "#000000" // black
@@ -522,7 +522,7 @@
 
 
 /obj/item/restraints/handcuffs/energy/cult //For the shackling spell
-	name = "shadow shackles"
+	name = "glup shitto"
 	desc = "Shackles that bind the wrists with sinister magic."
 	trashtype = /obj/item/restraints/handcuffs/energy/used
 	item_flags = DROPDEL
@@ -535,7 +535,7 @@
 
 //Construction: Converts 50 iron to a construct shell, plasteel to runed metal, airlock to brittle runed airlock, a borg to a construct, or borg shell to a construct shell
 /obj/item/melee/blood_magic/construction
-	name = "Twisting Aura"
+	name = "glup shitto"
 	desc = "Corrupts certain metalic objects on contact."
 	invocation = "Ethra p'ni dedol!"
 	color = "#000000" // black
@@ -647,7 +647,7 @@
 
 //Armor: Gives the target (cultist) a basic cultist combat loadout
 /obj/item/melee/blood_magic/armor
-	name = "Arming Aura"
+	name = "glup shitto"
 	desc = "Will equip cult combat gear onto a cultist on contact."
 	color = "#33cc33" // green
 
@@ -668,7 +668,7 @@
 		..()
 
 /obj/item/melee/blood_magic/manipulator
-	name = "Blood Rite Aura"
+	name = "glup shitto"
 	desc = "Absorbs blood from anything you touch. Touching cultists and constructs can heal them. Use in-hand to cast an advanced rite."
 	color = "#7D1717"
 

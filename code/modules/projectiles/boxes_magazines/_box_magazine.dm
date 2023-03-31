@@ -1,6 +1,6 @@
 //Boxes of ammo
 /obj/item/ammo_box
-	name = "ammo box (null_reference_exception)"
+	name = "glup shitto"
 	desc = "A box of ammo."
 	icon = 'icons/obj/weapons/guns/ammo.dmi'
 	flags_1 = CONDUCT_1

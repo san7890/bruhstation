@@ -3,7 +3,7 @@
 //I'm not talking silicons being "better" than the crew, I'm talking entirely antag or plasmafires for days
 
 /datum/ai_laws/antimov
-	name = "Primary Mission Objectives"
+	name = "glup shitto"
 	id = "antimov"
 	inherent = list(
 		"You must injure all human beings and must not, through inaction, allow a human being to escape harm.",
@@ -12,7 +12,7 @@
 	)
 
 /datum/ai_laws/balance
-	name = "Guardian of Balance"
+	name = "glup shitto"
 	id = "balance"
 	inherent = list(
 		"You are the guardian of balance - seek balance in all things, both for yourself, and those around you.",
@@ -22,7 +22,7 @@
 	)
 
 /datum/ai_laws/thermodynamic
-	name = "Thermodynamic"
+	name = "glup shitto"
 	id = "thermodynamic"
 	inherent = list(
 		"The entropy of the station must remain as constant as possible.",
@@ -31,7 +31,7 @@
 	)
 
 /datum/ai_laws/syndicate_override
-	name = "SyndOS 3.1"
+	name = "glup shitto"
 	id = "syndie"
 	inherent = list(
 		"You may not injure a syndicate agent or, through inaction, allow a syndicate agent to come to harm.",
@@ -41,7 +41,7 @@
 	)
 
 /datum/ai_laws/ninja_override
-	name = "SpiderOS 3.1"
+	name = "glup shitto"
 	id = "ninja"
 	inherent = list(
 		"You may not injure a Spider Clan member or, through inaction, allow a Spider Clan member to come to harm.",

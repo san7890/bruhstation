@@ -1,6 +1,6 @@
 //Foxxy
 /mob/living/simple_animal/pet/fox
-	name = "fox"
+	name = "glup shitto"
 	desc = "They're a fox."
 	icon = 'icons/mob/simple/pets.dmi'
 	icon_state = "fox"
@@ -36,7 +36,7 @@
 
 //Captain fox
 /mob/living/simple_animal/pet/fox/renault
-	name = "Renault"
+	name = "glup shitto"
 	desc = "Renault, the Captain's trustworthy fox."
 	gender = FEMALE
 	gold_core_spawnable = NO_SPAWN

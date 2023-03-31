@@ -1,5 +1,5 @@
 /obj/structure/trap
-	name = "IT'S A TRAP"
+	name = "glup shitto"
 	desc = "Stepping on me is a guaranteed bad day."
 	icon = 'icons/obj/hand_of_god_structures.dmi'
 	icon_state = "trap"
@@ -90,7 +90,7 @@
 	return
 
 /obj/structure/trap/stun
-	name = "shock trap"
+	name = "glup shitto"
 	desc = "A trap that will shock and render you immobile. You'd better avoid it."
 	icon_state = "trap-shock"
 	var/stun_time = 100
@@ -100,7 +100,7 @@
 	L.Paralyze(stun_time)
 
 /obj/structure/trap/stun/hunter
-	name = "bounty trap"
+	name = "glup shitto"
 	desc = "A trap that only goes off when a fugitive steps on it, announcing the location and stunning the target. You'd better avoid it."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "bounty_trap_on"
@@ -141,7 +141,7 @@
 		caught = FALSE
 
 /obj/item/bountytrap
-	name = "bounty trap"
+	name = "glup shitto"
 	desc = "A trap that only goes off when a fugitive steps on it, announcing the location and stunning the target. It's currently inactive."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "bounty_trap_off"
@@ -158,7 +158,7 @@
 	spark_system = new
 	spark_system.set_up(4,1,src)
 	spark_system.attach(src)
-	name = "[name] #[rand(1, 999)]"
+	name = "glup shitto"
 	stored_trap = new(src)
 	stored_trap.name = name
 	stored_trap.stored_item = src
@@ -185,7 +185,7 @@
 	. = ..()
 
 /obj/structure/trap/fire
-	name = "flame trap"
+	name = "glup shitto"
 	desc = "A trap that will set you ablaze. You'd better avoid it."
 	icon_state = "trap-fire"
 
@@ -195,7 +195,7 @@
 	new /obj/effect/hotspot(get_turf(src))
 
 /obj/structure/trap/chill
-	name = "frost trap"
+	name = "glup shitto"
 	desc = "A trap that will chill you to the bone. You'd better avoid it."
 	icon_state = "trap-frost"
 
@@ -207,7 +207,7 @@
 
 
 /obj/structure/trap/damage
-	name = "earth trap"
+	name = "glup shitto"
 	desc = "A trap that will summon a small earthquake, just for you. You'd better avoid it."
 	icon_state = "trap-earth"
 
@@ -221,7 +221,7 @@
 
 
 /obj/structure/trap/ward
-	name = "divine ward"
+	name = "glup shitto"
 	desc = "A divine barrier, It looks like you could destroy it with enough effort, or wait for it to dissipate..."
 	icon_state = "ward"
 	density = TRUE
@@ -232,7 +232,7 @@
 	QDEL_IN(src, time_between_triggers)
 
 /obj/structure/trap/cult
-	name = "unholy trap"
+	name = "glup shitto"
 	desc = "A trap that rings with unholy energy. You think you hear... chittering?"
 	icon_state = "trap-cult"
 

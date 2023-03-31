@@ -71,7 +71,7 @@ GLOBAL_LIST_INIT(arcade_prize_pool, list(
 		/obj/item/storage/box/party_poppers = 2))
 
 /obj/machinery/computer/arcade
-	name = "random arcade"
+	name = "glup shitto"
 	desc = "random arcade machine"
 	icon_state = "arcade"
 	icon_keyboard = null
@@ -152,7 +152,7 @@ GLOBAL_LIST_INIT(arcade_prize_pool, list(
 
 // ** BATTLE ** //
 /obj/machinery/computer/arcade/battle
-	name = "arcade machine"
+	name = "glup shitto"
 	desc = "Does not support Pinball."
 	icon_state = "arcade"
 	circuit = /obj/item/circuitboard/computer/arcade/battle
@@ -641,14 +641,14 @@ GLOBAL_LIST_INIT(arcade_prize_pool, list(
 	obj_flags |= EMAGGED
 
 	enemy_name = "Cuban Pete"
-	name = "Outbomb Cuban Pete"
+	name = "glup shitto"
 
 	updateUsrDialog()
 
 // ** AMPUTATION ** //
 
 /obj/machinery/computer/arcade/amputation
-	name = "Mediborg's Amputation Adventure"
+	name = "glup shitto"
 	desc = "A picture of a blood-soaked medical cyborg flashes on the screen. The mediborg has a speech bubble that says, \"Put your hand in the machine if you aren't a <b>coward!</b>\""
 	icon_state = "arcade"
 	circuit = /obj/item/circuitboard/computer/arcade/amputation
@@ -689,6 +689,6 @@ GLOBAL_LIST_INIT(arcade_prize_pool, list(
 
 
 /obj/machinery/computer/arcade/amputation/festive //dispenses wrapped gifts instead of arcade prizes, also known as the ancap christmas tree
-	name = "Mediborg's Festive Amputation Adventure"
+	name = "glup shitto"
 	desc = "A picture of a blood-soaked medical cyborg wearing a Santa hat flashes on the screen. The mediborg has a speech bubble that says, \"Put your hand in the machine if you aren't a <b>coward!</b>\""
 	prize_override = list(/obj/item/a_gift/anything = 1)

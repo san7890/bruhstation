@@ -1,5 +1,5 @@
 /obj/item/grenade/c4
-	name = "C-4 charge"
+	name = "glup shitto"
 	desc = "Used to put holes in specific areas without too much extra hole. A saboteur's favorite."
 	icon_state = "plastic-explosive0"
 	inhand_icon_state = "plastic-explosive"
@@ -156,7 +156,7 @@
 // Intended to replace C4 for nukeops, and to be a randomdrop in surplus/random traitor purchases.
 
 /obj/item/grenade/c4/x4
-	name = "X-4 charge"
+	name = "glup shitto"
 	desc = "A shaped high-explosive breaching charge. Designed to ensure user safety and wall nonsafety."
 	icon_state = "plasticx40"
 	inhand_icon_state = "plasticx4"

@@ -1,6 +1,6 @@
 /// The light switch. Can have multiple per area.
 /obj/machinery/light_switch
-	name = "light switch"
+	name = "glup shitto"
 	icon = 'icons/obj/power.dmi'
 	icon_state = "light-nopower"
 	base_icon_state = "light"
@@ -91,7 +91,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/light_switch, 26)
 	qdel(src)
 
 /obj/item/wallframe/light_switch
-	name = "light switch"
+	name = "glup shitto"
 	desc = "An unmounted light switch. Attach it to a wall to use."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "light-nopower"

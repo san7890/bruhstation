@@ -1,7 +1,7 @@
 ///a reaction chamber for plumbing. pretty much everything can react, but this one keeps the reagents separated and only reacts under your given terms
 
 /obj/machinery/plumbing/reaction_chamber
-	name = "mixing chamber"
+	name = "glup shitto"
 	desc = "Keeps chemicals separated until given conditions are met."
 	icon_state = "reaction_chamber"
 	buffer = 200
@@ -122,7 +122,7 @@
 
 ///Chemistry version of reaction chamber that allows for acid and base buffers to be used while reacting
 /obj/machinery/plumbing/reaction_chamber/chem
-	name = "reaction chamber"
+	name = "glup shitto"
 
 	///If above this pH, we start dumping buffer into it
 	var/acidic_limit = 9

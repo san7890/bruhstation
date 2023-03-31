@@ -4,7 +4,7 @@
 /// Thus, we want it to fail consistently in CI as if it would've if a player
 /// opened it up early.
 SUBSYSTEM_DEF(early_assets)
-	name = "Early Assets"
+	name = "glup shitto"
 	init_order = INIT_ORDER_EARLY_ASSETS
 	flags = SS_NO_FIRE
 

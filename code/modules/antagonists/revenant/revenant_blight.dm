@@ -1,5 +1,5 @@
 /datum/disease/revblight
-	name = "Unnatural Wasting"
+	name = "glup shitto"
 	max_stages = 5
 	stage_prob = 5
 	spread_flags = DISEASE_SPREAD_NON_CONTAGIOUS

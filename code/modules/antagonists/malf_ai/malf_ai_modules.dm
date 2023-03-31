@@ -44,7 +44,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// The malf AI action subtype. All malf actions are subtypes of this.
 /datum/action/innate/ai
-	name = "AI Action"
+	name = "glup shitto"
 	desc = "You aren't entirely sure what this does, but it's very beepy and boopy."
 	background_icon_state = "bg_tech_blue"
 	overlay_icon_state = "bg_tech_blue_border"
@@ -89,7 +89,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Framework for ranged abilities that can have different effects by left-clicking stuff.
 /datum/action/innate/ai/ranged
-	name = "Ranged AI Action"
+	name = "glup shitto"
 	auto_use_uses = FALSE //This is so we can do the thing and disable/enable freely without having to constantly add uses
 	click_action = TRUE
 
@@ -138,7 +138,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Doomsday Device: Starts the self-destruct timer. It can only be stopped by killing the AI completely.
 /datum/ai_module/destructive/nuke_station
-	name = "Doomsday Device"
+	name = "glup shitto"
 	description = "Activate a weapon that will disintegrate all organic life on the station after a 450 second delay. \
 		Can only be used while on the station, will fail if your core is moved off station or destroyed."
 	cost = 130
@@ -147,7 +147,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_text = span_notice("You slowly, carefully, establish a connection with the on-station self-destruct. You can now activate it at any time.")
 
 /datum/action/innate/ai/nuke_station
-	name = "Doomsday Device"
+	name = "glup shitto"
 	desc = "Activates the doomsday device. This is not reversible."
 	button_icon_state = "doomsday_device"
 	auto_use_uses = FALSE
@@ -257,7 +257,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /obj/machinery/doomsday_device
 	icon = 'icons/obj/machines/nuke_terminal.dmi'
-	name = "doomsday device"
+	name = "glup shitto"
 	icon_state = "nuclearbomb_base"
 	desc = "A weapon which disintegrates all organic life in a large area."
 	density = TRUE
@@ -346,7 +346,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Hostile Station Lockdown: Locks, bolts, and electrifies every airlock on the station. After 90 seconds, the doors reset.
 /datum/ai_module/destructive/lockdown
-	name = "Hostile Station Lockdown"
+	name = "glup shitto"
 	description = "Overload the airlock, blast door and fire control networks, locking them down. \
 		Caution! This command also electrifies all airlocks. The networks will automatically reset after 90 seconds, briefly \
 		opening all doors on the station."
@@ -357,7 +357,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/machines/boltsdown.ogg'
 
 /datum/action/innate/ai/lockdown
-	name = "Lockdown"
+	name = "glup shitto"
 	desc = "Closes, bolts, and depowers every airlock, firelock, and blast door on the station. After 90 seconds, they will reset themselves."
 	button_icon_state = "lockdown"
 	uses = 1
@@ -398,7 +398,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Override Machine: Allows the AI to override a machine, animating it into an angry, living version of itself.
 /datum/ai_module/destructive/override_machine
-	name = "Machine Override"
+	name = "glup shitto"
 	description = "Overrides a machine's programming, causing it to rise up and attack everyone except other machines. Four uses per purchase."
 	cost = 30
 	power_type = /datum/action/innate/ai/ranged/override_machine
@@ -406,7 +406,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/machines/airlock_alien_prying.ogg'
 
 /datum/action/innate/ai/ranged/override_machine
-	name = "Override Machine"
+	name = "glup shitto"
 	desc = "Animates a targeted machine, causing it to attack anyone nearby."
 	button_icon_state = "override_machine"
 	uses = 4
@@ -450,7 +450,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Destroy RCDs: Detonates all non-cyborg RCDs on the station.
 /datum/ai_module/destructive/destroy_rcd
-	name = "Destroy RCDs"
+	name = "glup shitto"
 	description = "Send a specialised pulse to detonate all hand-held and exosuit Rapid Construction Devices on the station."
 	cost = 25
 	one_purchase = TRUE
@@ -459,7 +459,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/items/timer.ogg'
 
 /datum/action/innate/ai/destroy_rcds
-	name = "Destroy RCDs"
+	name = "glup shitto"
 	desc = "Detonate all non-cyborg RCDs on the station."
 	button_icon_state = "detonate_rcds"
 	uses = 1
@@ -475,7 +475,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Overload Machine: Allows the AI to overload a machine, detonating it after a delay. Two uses per purchase.
 /datum/ai_module/destructive/overload_machine
-	name = "Machine Overload"
+	name = "glup shitto"
 	description = "Overheats an electrical machine, causing a small explosion and destroying it. Two uses per purchase."
 	cost = 20
 	power_type = /datum/action/innate/ai/ranged/overload_machine
@@ -483,7 +483,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/effects/comfyfire.ogg' //definitely not comfy, but it's the closest sound to "roaring fire" we have
 
 /datum/action/innate/ai/ranged/overload_machine
-	name = "Overload Machine"
+	name = "glup shitto"
 	desc = "Overheats a machine, causing a small explosion after a short time."
 	button_icon_state = "overload_machine"
 	uses = 2
@@ -531,7 +531,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Blackout: Overloads a random number of lights across the station. Three uses.
 /datum/ai_module/destructive/blackout
-	name = "Blackout"
+	name = "glup shitto"
 	description = "Attempts to overload the lighting circuits on the station, destroying some bulbs. Three uses per purchase."
 	cost = 15
 	power_type = /datum/action/innate/ai/blackout
@@ -539,7 +539,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = SFX_SPARKS
 
 /datum/action/innate/ai/blackout
-	name = "Blackout"
+	name = "glup shitto"
 	desc = "Overloads random lights across the station."
 	button_icon_state = "blackout"
 	uses = 3
@@ -565,7 +565,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// HIGH IMPACT HONKING
 /datum/ai_module/destructive/megahonk
-	name = "Percussive Intercomm Interference"
+	name = "glup shitto"
 	description = "Emit a debilitatingly percussive auditory blast through the station intercoms. Does not overpower hearing protection. Two uses per purchase."
 	cost = 20
 	power_type = /datum/action/innate/ai/honk
@@ -573,7 +573,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/items/airhorn.ogg'
 
 /datum/action/innate/ai/honk
-	name = "Percussive Intercomm Interference"
+	name = "glup shitto"
 	desc = "Rock the station's intercom system with an obnoxious HONK!"
 	button_icon_state = "intercom"
 	uses = 2
@@ -595,7 +595,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Robotic Factory: Places a large machine that converts humans that go through it into cyborgs. Unlocking this ability removes shunting.
 /datum/ai_module/utility/place_cyborg_transformer
-	name = "Robotic Factory (Removes Shunting)"
+	name = "glup shitto"
 	description = "Build a machine anywhere, using expensive nanomachines, that can convert a living human into a loyal cyborg slave when placed inside."
 	cost = 100
 	one_purchase = TRUE
@@ -604,7 +604,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/machines/ping.ogg'
 
 /datum/action/innate/ai/place_transformer
-	name = "Place Robotics Factory"
+	name = "glup shitto"
 	desc = "Places a machine that converts humans into cyborgs. Conveyor belts included!"
 	button_icon_state = "robotic_factory"
 	uses = 1
@@ -669,7 +669,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Air Alarm Safety Override: Unlocks the ability to enable flooding on all air alarms.
 /datum/ai_module/utility/break_air_alarms
-	name = "Air Alarm Safety Override"
+	name = "glup shitto"
 	description = "Gives you the ability to disable safeties on all air alarms. This will allow you to use the environmental mode Flood, \
 		which disables scrubbers as well as pressure checks on vents. Anyone can check the air alarm's interface and may be tipped off by their nonfunctionality."
 	one_purchase = TRUE
@@ -679,7 +679,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/effects/space_wind.ogg'
 
 /datum/action/innate/ai/break_air_alarms
-	name = "Override Air Alarm Safeties"
+	name = "glup shitto"
 	desc = "Enables the Flood setting on all air alarms."
 	button_icon_state = "break_air_alarms"
 	uses = 1
@@ -694,7 +694,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Thermal Sensor Override: Unlocks the ability to disable all fire alarms from doing their job.
 /datum/ai_module/utility/break_fire_alarms
-	name = "Thermal Sensor Override"
+	name = "glup shitto"
 	description = "Gives you the ability to override the thermal sensors on all fire alarms. \
 		This will remove their ability to scan for fire and thus their ability to alert."
 	one_purchase = TRUE
@@ -705,7 +705,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/machines/FireAlarm1.ogg'
 
 /datum/action/innate/ai/break_fire_alarms
-	name = "Override Thermal Sensors"
+	name = "glup shitto"
 	desc = "Disables the automatic temperature sensing on all fire alarms, making them effectively useless."
 	button_icon_state = "break_fire_alarms"
 	uses = 1
@@ -725,7 +725,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Disable Emergency Lights
 /datum/ai_module/utility/emergency_lights
-	name = "Disable Emergency Lights"
+	name = "glup shitto"
 	description = "Cuts emergency lights across the entire station. If power is lost to light fixtures, \
 		they will not attempt to fall back on emergency power reserves."
 	cost = 10
@@ -735,7 +735,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = SFX_SPARKS
 
 /datum/action/innate/ai/emergency_lights
-	name = "Disable Emergency Lights"
+	name = "glup shitto"
 	desc = "Disables all emergency lighting. Note that emergency lights can be restored through reboot at an APC."
 	button_icon_state = "emergency_lights"
 	uses = 1
@@ -751,7 +751,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Reactivate Camera Network: Reactivates up to 30 cameras across the station.
 /datum/ai_module/utility/reactivate_cameras
-	name = "Reactivate Camera Network"
+	name = "glup shitto"
 	description = "Runs a network-wide diagnostic on the camera network, resetting focus and re-routing power to failed cameras. \
 		Can be used to repair up to 30 cameras."
 	cost = 10
@@ -761,7 +761,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	unlock_sound = 'sound/items/wirecutter.ogg'
 
 /datum/action/innate/ai/reactivate_cameras
-	name = "Reactivate Cameras"
+	name = "glup shitto"
 	desc = "Reactivates disabled cameras across the station; remaining uses can be used later."
 	button_icon_state = "reactivate_cameras"
 	uses = 30
@@ -792,7 +792,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Upgrade Camera Network: EMP-proofs all cameras, in addition to giving them X-ray vision.
 /datum/ai_module/upgrade/upgrade_cameras
-	name = "Upgrade Camera Network"
+	name = "glup shitto"
 	description = "Install broad-spectrum scanning and electrical redundancy firmware to the camera network, enabling EMP-proofing and light-amplified X-ray vision. Upgrade is done immediately upon purchase." //I <3 pointless technobabble
 	//This used to have motion sensing as well, but testing quickly revealed that giving it to the whole cameranet is PURE HORROR.
 	cost = 35 //Decent price for omniscience!
@@ -834,7 +834,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// AI Turret Upgrade: Increases the health and damage of all turrets.
 /datum/ai_module/upgrade/upgrade_turrets
-	name = "AI Turret Upgrade"
+	name = "glup shitto"
 	description = "Improves the power and health of all AI turrets. This effect is permanent. Upgrade is done immediately upon purchase."
 	cost = 30
 	upgrade = TRUE
@@ -851,7 +851,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Enhanced Surveillance: Enables AI to hear conversations going on near its active vision.
 /datum/ai_module/upgrade/eavesdrop
-	name = "Enhanced Surveillance"
+	name = "glup shitto"
 	description = "Via a combination of hidden microphones and lip reading software, \
 		you are able to use your cameras to listen in on conversations. Upgrade is done immediately upon purchase."
 	cost = 30
@@ -865,7 +865,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 
 /// Unlock Mech Domination: Unlocks the ability to dominate mechs. Big shocker, right?
 /datum/ai_module/upgrade/mecha_domination
-	name = "Unlock Mech Domination"
+	name = "glup shitto"
 	description = "Allows you to hack into a mech's onboard computer, shunting all processes into it and ejecting any occupants. \
 		Once uploaded to the mech, it is impossible to leave. Do not allow the mech to leave the station's vicinity or allow it to be destroyed. \
 		Upgrade is done immediately upon purchase."
@@ -879,7 +879,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	AI.can_dominate_mechs = TRUE //Yep. This is all it does. Honk!
 
 /datum/ai_module/upgrade/voice_changer
-	name = "Voice Changer"
+	name = "glup shitto"
 	description = "Allows you to change the AI's voice. Upgrade is active immediately upon purchase."
 	cost = 40
 	one_purchase = TRUE
@@ -900,7 +900,7 @@ GLOBAL_LIST_INIT(malf_modules, subtypesof(/datum/ai_module))
 	voice_changer_machine.ui_interact(usr)
 
 /obj/machinery/ai_voicechanger
-	name = "Voice Changer"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/nuke_terminal.dmi'
 	icon_state = "nuclearbomb_base"
 	/// The AI this voicechanger belongs to

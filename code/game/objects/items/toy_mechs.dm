@@ -503,70 +503,70 @@
 	visible_message(span_notice("[src] does a cool flip."))
 
 /obj/item/toy/mecha/ripley
-	name = "toy Ripley MK-I"
+	name = "glup shitto"
 	icon_state = "ripleytoy"
 	max_combat_health = 4 //200 integrity
 	special_attack_type = SPECIAL_ATTACK_DAMAGE
 	special_attack_cry = "CLAMP SMASH"
 
 /obj/item/toy/mecha/ripleymkii
-	name = "toy Ripley MK-II"
+	name = "glup shitto"
 	icon_state = "ripleymkiitoy"
 	max_combat_health = 5 //250 integrity
 	special_attack_type = SPECIAL_ATTACK_DAMAGE
 	special_attack_cry = "GIGA DRILL BREAK"
 
 /obj/item/toy/mecha/hauler
-	name = "toy Hauler"
+	name = "glup shitto"
 	icon_state = "haulertoy"
 	max_combat_health = 3 //100 integrity?
 	special_attack_type = SPECIAL_ATTACK_UTILITY
 	special_attack_cry = "HAUL AWAY"
 
 /obj/item/toy/mecha/clarke
-	name = "toy Clarke"
+	name = "glup shitto"
 	icon_state = "clarketoy"
 	max_combat_health = 4 //200 integrity
 	special_attack_type = SPECIAL_ATTACK_UTILITY
 	special_attack_cry = "ROLL OUT"
 
 /obj/item/toy/mecha/odysseus
-	name = "toy Odysseus"
+	name = "glup shitto"
 	icon_state = "odysseustoy"
 	max_combat_health = 4 //120 integrity
 	special_attack_type = SPECIAL_ATTACK_HEAL
 	special_attack_cry = "MECHA BEAM"
 
 /obj/item/toy/mecha/gygax
-	name = "toy Gygax"
+	name = "glup shitto"
 	icon_state = "gygaxtoy"
 	max_combat_health = 5 //250 integrity
 	special_attack_type = SPECIAL_ATTACK_UTILITY
 	special_attack_cry = "SUPER SERVOS"
 
 /obj/item/toy/mecha/durand
-	name = "toy Durand"
+	name = "glup shitto"
 	icon_state = "durandtoy"
 	max_combat_health = 6 //400 integrity
 	special_attack_type = SPECIAL_ATTACK_HEAL
 	special_attack_cry = "SHIELD OF PROTECTION"
 
 /obj/item/toy/mecha/savannahivanov
-	name = "toy Savannah-Ivanov"
+	name = "glup shitto"
 	icon_state = "savannahivanovtoy"
 	max_combat_health = 7 //450 integrity
 	special_attack_type = SPECIAL_ATTACK_UTILITY
 	special_attack_cry = "SKYFALL!! IVANOV STRIKE"
 
 /obj/item/toy/mecha/phazon
-	name = "toy Phazon"
+	name = "glup shitto"
 	icon_state = "phazontoy"
 	max_combat_health = 6 //200 integrity
 	special_attack_type = SPECIAL_ATTACK_UTILITY
 	special_attack_cry = "NO-CLIP"
 
 /obj/item/toy/mecha/honk
-	name = "toy H.O.N.K."
+	name = "glup shitto"
 	icon_state = "honktoy"
 	max_combat_health = 4 //140 integrity
 	special_attack_type = SPECIAL_ATTACK_OTHER
@@ -579,28 +579,28 @@
 	combat_health++
 
 /obj/item/toy/mecha/darkgygax
-	name = "toy Dark Gygax"
+	name = "glup shitto"
 	icon_state = "darkgygaxtoy"
 	max_combat_health = 6 //300 integrity
 	special_attack_type = SPECIAL_ATTACK_UTILITY
 	special_attack_cry = "ULTRA SERVOS"
 
 /obj/item/toy/mecha/mauler
-	name = "toy Mauler"
+	name = "glup shitto"
 	icon_state = "maulertoy"
 	max_combat_health = 7 //500 integrity
 	special_attack_type = SPECIAL_ATTACK_DAMAGE
 	special_attack_cry = "BULLET STORM"
 
 /obj/item/toy/mecha/darkhonk
-	name = "toy Dark H.O.N.K."
+	name = "glup shitto"
 	icon_state = "darkhonktoy"
 	max_combat_health = 5 //300 integrity
 	special_attack_type = SPECIAL_ATTACK_DAMAGE
 	special_attack_cry = "BOMBANANA SPREE"
 
 /obj/item/toy/mecha/deathripley
-	name = "toy Death-Ripley"
+	name = "glup shitto"
 	icon_state = "deathripleytoy"
 	max_combat_health = 5 //250 integrity
 	special_attack_type = SPECIAL_ATTACK_OTHER
@@ -616,7 +616,7 @@
 		victim.combat_health--
 
 /obj/item/toy/mecha/reticence
-	name = "toy Reticence"
+	name = "glup shitto"
 	icon_state = "reticencetoy"
 	quiet = TRUE
 	max_combat_health = 4 //100 integrity
@@ -630,21 +630,21 @@
 	victim.combat_health-- //and some free damage.
 
 /obj/item/toy/mecha/marauder
-	name = "toy Marauder"
+	name = "glup shitto"
 	icon_state = "maraudertoy"
 	max_combat_health = 7 //500 integrity
 	special_attack_type = SPECIAL_ATTACK_DAMAGE
 	special_attack_cry = "BEAM BLAST"
 
 /obj/item/toy/mecha/seraph
-	name = "toy Seraph"
+	name = "glup shitto"
 	icon_state = "seraphtoy"
 	max_combat_health = 8 //550 integrity
 	special_attack_type = SPECIAL_ATTACK_DAMAGE
 	special_attack_cry = "ROCKET BARRAGE"
 
 /obj/item/toy/mecha/firefighter //rip
-	name = "toy Firefighter"
+	name = "glup shitto"
 	icon_state = "firefightertoy"
 	max_combat_health = 5 //250 integrity?
 	special_attack_type = SPECIAL_ATTACK_HEAL

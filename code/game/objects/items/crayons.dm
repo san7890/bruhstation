@@ -19,7 +19,7 @@
  */
 
 /obj/item/toy/crayon
-	name = "red crayon"
+	name = "glup shitto"
 	desc = "A colourful crayon. Looks tasty. Mmmm..."
 	icon = 'icons/obj/art/crayons.dmi'
 	icon_state = "crayonred"
@@ -581,7 +581,7 @@
 	)
 
 /obj/item/toy/crayon/red
-	name = "red crayon"
+	name = "glup shitto"
 	icon_state = "crayonred"
 	paint_color = "#DA0000"
 	crayon_color = "red"
@@ -589,7 +589,7 @@
 	dye_color = DYE_RED
 
 /obj/item/toy/crayon/orange
-	name = "orange crayon"
+	name = "glup shitto"
 	icon_state = "crayonorange"
 	paint_color = "#FF9300"
 	crayon_color = "orange"
@@ -597,7 +597,7 @@
 	dye_color = DYE_ORANGE
 
 /obj/item/toy/crayon/yellow
-	name = "yellow crayon"
+	name = "glup shitto"
 	icon_state = "crayonyellow"
 	paint_color = "#FFF200"
 	crayon_color = "yellow"
@@ -605,7 +605,7 @@
 	dye_color = DYE_YELLOW
 
 /obj/item/toy/crayon/green
-	name = "green crayon"
+	name = "glup shitto"
 	icon_state = "crayongreen"
 	paint_color = "#A8E61D"
 	crayon_color = "green"
@@ -613,7 +613,7 @@
 	dye_color = DYE_GREEN
 
 /obj/item/toy/crayon/blue
-	name = "blue crayon"
+	name = "glup shitto"
 	icon_state = "crayonblue"
 	paint_color = "#00B7EF"
 	crayon_color = "blue"
@@ -621,7 +621,7 @@
 	dye_color = DYE_BLUE
 
 /obj/item/toy/crayon/purple
-	name = "purple crayon"
+	name = "glup shitto"
 	icon_state = "crayonpurple"
 	paint_color = "#DA00FF"
 	crayon_color = "purple"
@@ -629,7 +629,7 @@
 	dye_color = DYE_PURPLE
 
 /obj/item/toy/crayon/black
-	name = "black crayon"
+	name = "glup shitto"
 	icon_state = "crayonblack"
 	paint_color = "#1C1C1C" //Not completely black because total black looks bad. So Mostly Black.
 	crayon_color = "black"
@@ -637,7 +637,7 @@
 	dye_color = DYE_BLACK
 
 /obj/item/toy/crayon/white
-	name = "white crayon"
+	name = "glup shitto"
 	icon_state = "crayonwhite"
 	paint_color = "#FFFFFF"
 	crayon_color = "white"
@@ -645,7 +645,7 @@
 	dye_color = DYE_WHITE
 
 /obj/item/toy/crayon/mime
-	name = "mime crayon"
+	name = "glup shitto"
 	icon_state = "crayonmime"
 	desc = "A very sad-looking crayon."
 	paint_color = "#FFFFFF"
@@ -655,7 +655,7 @@
 	dye_color = DYE_MIME
 
 /obj/item/toy/crayon/rainbow
-	name = "rainbow crayon"
+	name = "glup shitto"
 	icon_state = "crayonrainbow"
 	paint_color = "#FFF000"
 	crayon_color = "rainbow"
@@ -673,7 +673,7 @@
  */
 
 /obj/item/storage/crayons
-	name = "box of crayons"
+	name = "glup shitto"
 	desc = "A box of crayons for all your rune drawing needs."
 	icon = 'icons/obj/art/crayons.dmi'
 	icon_state = "crayonbox"
@@ -731,7 +731,7 @@
 //Spraycan stuff
 
 /obj/item/toy/crayon/spraycan
-	name = "spray can"
+	name = "glup shitto"
 	icon_state = "spraycan"
 	worn_icon_state = "spraycan"
 
@@ -918,7 +918,7 @@
 		. += spray_overlay
 
 /obj/item/toy/crayon/spraycan/borg
-	name = "cyborg spraycan"
+	name = "glup shitto"
 	desc = "A metallic container containing shiny synthesised paint."
 	charges = -1
 
@@ -953,7 +953,7 @@
 	return .
 
 /obj/item/toy/crayon/spraycan/hellcan
-	name = "hellcan"
+	name = "glup shitto"
 	desc = "This spraycan doesn't seem to be filled with paint..."
 	icon_state = "deathcan2_cap"
 	icon_capped = "deathcan2_cap"
@@ -971,7 +971,7 @@
 	return isfloorturf(surface)
 
 /obj/item/toy/crayon/spraycan/lubecan
-	name = "slippery spraycan"
+	name = "glup shitto"
 	desc = "You can barely keep hold of this thing."
 	icon_state = "clowncan2_cap"
 	icon_capped = "clowncan2_cap"
@@ -986,7 +986,7 @@
 	return isfloorturf(surface)
 
 /obj/item/toy/crayon/spraycan/mimecan
-	name = "silent spraycan"
+	name = "glup shitto"
 	desc = "Art is best seen, not heard."
 	icon_state = "mimecan_cap"
 	icon_capped = "mimecan_cap"
@@ -1001,7 +1001,7 @@
 	reagent_contents = list(/datum/reagent/consumable/nothing = 1, /datum/reagent/toxin/mutetoxin = 1)
 
 /obj/item/toy/crayon/spraycan/infinite
-	name = "infinite spraycan"
+	name = "glup shitto"
 	charges = -1
 	desc = "Now with 30% more bluespace technology."
 

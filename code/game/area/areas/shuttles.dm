@@ -3,7 +3,7 @@
 //Multi area shuttles are a thing now, use subtypes! ~ninjanomnom
 
 /area/shuttle
-	name = "Shuttle"
+	name = "glup shitto"
 	requires_power = FALSE
 	static_lighting = TRUE
 	has_gravity = STANDARD_GRAVITY
@@ -29,91 +29,91 @@
 ////////////////////////////Syndicate infiltrator////////////////////////////
 
 /area/shuttle/syndicate
-	name = "Syndicate Infiltrator"
+	name = "glup shitto"
 	ambience_index = AMBIENCE_DANGER
 	area_limited_icon_smoothing = /area/shuttle/syndicate
 
 /area/shuttle/syndicate/bridge
-	name = "Syndicate Infiltrator Control"
+	name = "glup shitto"
 
 /area/shuttle/syndicate/medical
-	name = "Syndicate Infiltrator Medbay"
+	name = "glup shitto"
 
 /area/shuttle/syndicate/armory
-	name = "Syndicate Infiltrator Armory"
+	name = "glup shitto"
 
 /area/shuttle/syndicate/eva
-	name = "Syndicate Infiltrator EVA"
+	name = "glup shitto"
 
 /area/shuttle/syndicate/hallway
-	name = "Syndicate Infiltrator Hall"
+	name = "glup shitto"
 
 /area/shuttle/syndicate/engineering
-	name = "Syndicate Infiltrator Engineering"
+	name = "glup shitto"
 
 /area/shuttle/syndicate/airlock
-	name = "Syndicate Infiltrator Airlock"
+	name = "glup shitto"
 
 ////////////////////////////Pirate Shuttle////////////////////////////
 
 /area/shuttle/pirate
-	name = "Pirate Shuttle"
+	name = "glup shitto"
 	requires_power = TRUE
 
 /area/shuttle/pirate/flying_dutchman
-	name = "Flying Dutchman"
+	name = "glup shitto"
 	requires_power = FALSE
 
 ////////////////////////////Bounty Hunter Shuttles////////////////////////////
 
 /area/shuttle/hunter
-	name = "Hunter Shuttle"
+	name = "glup shitto"
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
 /area/shuttle/hunter/russian
-	name = "Russian Cargo Hauler"
+	name = "glup shitto"
 	requires_power = TRUE
 	static_lighting = TRUE
 
 ////////////////////////////White Ship////////////////////////////
 
 /area/shuttle/abandoned
-	name = "Abandoned Ship"
+	name = "glup shitto"
 	requires_power = TRUE
 	area_limited_icon_smoothing = /area/shuttle/abandoned
 
 /area/shuttle/abandoned/bridge
-	name = "Abandoned Ship Bridge"
+	name = "glup shitto"
 
 /area/shuttle/abandoned/engine
-	name = "Abandoned Ship Engine"
+	name = "glup shitto"
 
 /area/shuttle/abandoned/bar
-	name = "Abandoned Ship Bar"
+	name = "glup shitto"
 
 /area/shuttle/abandoned/crew
-	name = "Abandoned Ship Crew Quarters"
+	name = "glup shitto"
 
 /area/shuttle/abandoned/cargo
-	name = "Abandoned Ship Cargo Bay"
+	name = "glup shitto"
 
 /area/shuttle/abandoned/medbay
-	name = "Abandoned Ship Medbay"
+	name = "glup shitto"
 
 /area/shuttle/abandoned/pod
-	name = "Abandoned Ship Pod"
+	name = "glup shitto"
 
 ////////////////////////////Single-area shuttles////////////////////////////
 /area/shuttle/transit
-	name = "Hyperspace"
+	name = "glup shitto"
 	desc = "Weeeeee"
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
 
 /area/shuttle/arrival
-	name = "Arrival Shuttle"
+	name = "glup shitto"
 	area_flags = UNIQUE_AREA// SSjob refers to this area for latejoiners
 
 
@@ -126,139 +126,139 @@
 
 
 /area/shuttle/pod_1
-	name = "Escape Pod One"
+	name = "glup shitto"
 	area_flags = NONE
 
 /area/shuttle/pod_2
-	name = "Escape Pod Two"
+	name = "glup shitto"
 	area_flags = NONE
 
 /area/shuttle/pod_3
-	name = "Escape Pod Three"
+	name = "glup shitto"
 	area_flags = NONE
 
 /area/shuttle/pod_4
-	name = "Escape Pod Four"
+	name = "glup shitto"
 	area_flags = NONE
 
 /area/shuttle/mining
-	name = "Mining Shuttle"
+	name = "glup shitto"
 
 /area/shuttle/mining/large
-	name = "Mining Shuttle"
+	name = "glup shitto"
 	requires_power = TRUE
 
 /area/shuttle/labor
-	name = "Labor Camp Shuttle"
+	name = "glup shitto"
 
 /area/shuttle/supply
-	name = "Supply Shuttle"
+	name = "glup shitto"
 	area_flags = NOTELEPORT
 
 /area/shuttle/escape
-	name = "Emergency Shuttle"
+	name = "glup shitto"
 	area_flags = BLOBS_ALLOWED
 	area_limited_icon_smoothing = /area/shuttle/escape
 	flags_1 = CAN_BE_DIRTY_1
 	area_flags = CULT_PERMITTED
 
 /area/shuttle/escape/backup
-	name = "Backup Emergency Shuttle"
+	name = "glup shitto"
 
 /area/shuttle/escape/brig
-	name = "Escape Shuttle Brig"
+	name = "glup shitto"
 	icon_state = "shuttlered"
 
 /area/shuttle/escape/luxury
-	name = "Luxurious Emergency Shuttle"
+	name = "glup shitto"
 	area_flags = NOTELEPORT
 
 /area/shuttle/escape/simulation
-	name = "Medieval Reality Simulation Dome"
+	name = "glup shitto"
 	icon_state = "shuttlectf"
 	area_flags = NOTELEPORT
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
 /area/shuttle/escape/arena
-	name = "The Arena"
+	name = "glup shitto"
 	area_flags = NOTELEPORT
 
 /area/shuttle/escape/meteor
-	name = "\proper a meteor with engines strapped to it"
+	name = "glup shitto"
 	luminosity = NONE
 
 /area/shuttle/escape/engine
-	name = "Escape Shuttle Engine"
+	name = "glup shitto"
 
 /area/shuttle/transport
-	name = "Transport Shuttle"
+	name = "glup shitto"
 
 /area/shuttle/assault_pod
-	name = "Steel Rain"
+	name = "glup shitto"
 
 /area/shuttle/sbc_starfury
-	name = "SBC Starfury"
+	name = "glup shitto"
 
 /area/shuttle/sbc_fighter1
-	name = "SBC Fighter 1"
+	name = "glup shitto"
 
 /area/shuttle/sbc_fighter2
-	name = "SBC Fighter 2"
+	name = "glup shitto"
 
 /area/shuttle/sbc_fighter3
-	name = "SBC Fighter 3"
+	name = "glup shitto"
 
 /area/shuttle/sbc_corvette
-	name = "SBC corvette"
+	name = "glup shitto"
 
 /area/shuttle/syndicate_scout
-	name = "Syndicate Scout"
+	name = "glup shitto"
 
 /area/shuttle/ruin
-	name = "Ruined Shuttle"
+	name = "glup shitto"
 
 /// Special shuttles made for the Caravan Ambush ruin.
 /area/shuttle/ruin/caravan
 	requires_power = TRUE
-	name = "Ruined Caravan Shuttle"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/syndicate1
-	name = "Syndicate Fighter"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/syndicate2
-	name = "Syndicate Fighter"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/syndicate3
-	name = "Syndicate Drop Ship"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/pirate
-	name = "Pirate Cutter"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/freighter1
-	name = "Small Freighter"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/freighter2
-	name = "Tiny Freighter"
+	name = "glup shitto"
 
 /area/shuttle/ruin/caravan/freighter3
-	name = "Tiny Freighter"
+	name = "glup shitto"
 
 // ----------- Cyborg Mothership
 
 /area/shuttle/ruin/cyborg_mothership
-	name = "Cyborg Mothership"
+	name = "glup shitto"
 	requires_power = TRUE
 	area_limited_icon_smoothing = /area/shuttle/ruin/cyborg_mothership
 
 // ----------- Arena Shuttle
 /area/shuttle/shuttle_arena
-	name = "arena"
+	name = "glup shitto"
 	has_gravity = STANDARD_GRAVITY
 	requires_power = FALSE
 
 /obj/effect/forcefield/arena_shuttle
-	name = "portal"
+	name = "glup shitto"
 	initial_duration = 0
 	var/list/warp_points = list()
 
@@ -287,15 +287,15 @@
 		to_chat(L, span_warning("You are not yet worthy of passing. Drag a severed head to the barrier to be allowed entry to the hall of champions."), confidential = TRUE)
 
 /obj/effect/landmark/shuttle_arena_safe
-	name = "hall of champions"
+	name = "glup shitto"
 	desc = "For the winners."
 
 /obj/effect/landmark/shuttle_arena_entrance
-	name = "\proper the arena"
+	name = "glup shitto"
 	desc = "A lava filled battlefield."
 
 /obj/effect/forcefield/arena_shuttle_entrance
-	name = "portal"
+	name = "glup shitto"
 	initial_duration = 0
 	var/list/warp_points = list()
 

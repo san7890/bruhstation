@@ -1,6 +1,6 @@
 ///Tool capable of taking biological samples from mobs
 /obj/item/biopsy_tool
-	name = "biopsy tool"
+	name = "glup shitto"
 	desc = "Don't worry, it won't sting."
 	icon = 'icons/obj/xenobiology/vatgrowing.dmi'
 	icon_state = "biopsy"

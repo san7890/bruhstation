@@ -20,7 +20,7 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 
 /// Exploration drone
 /obj/item/exodrone
-	name = "exploration drone"
+	name = "glup shitto"
 	desc = "long range semi-autonomous exploration drone"
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "drone"
@@ -334,7 +334,7 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 
 /// Exploration drone launcher
 /obj/machinery/exodrone_launcher
-	name = "exploration drone launcher"
+	name = "glup shitto"
 	desc = "A launch pad designed to send exploration drones into the great beyond."
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "launcher"
@@ -435,7 +435,7 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 			return travel_cost_coeff
 
 /obj/item/fuel_pellet
-	name = "standard fuel pellet"
+	name = "glup shitto"
 	desc = "A compressed fuel pellet for long-distance drone flight."
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "fuel_basic"
@@ -450,12 +450,12 @@ GLOBAL_LIST_EMPTY(exodrone_launchers)
 		qdel(src)
 
 /obj/item/fuel_pellet/advanced
-	name = "advanced fuel pellet"
+	name = "glup shitto"
 	fuel_type = FUEL_ADVANCED
 	icon_state = "fuel_advanced"
 
 /obj/item/fuel_pellet/exotic
-	name = "exotic fuel pellet"
+	name = "glup shitto"
 	fuel_type = FUEL_EXOTIC
 	icon_state = "fuel_exotic"
 

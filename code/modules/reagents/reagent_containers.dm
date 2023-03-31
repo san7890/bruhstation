@@ -1,5 +1,5 @@
 /obj/item/reagent_containers
-	name = "Container"
+	name = "glup shitto"
 	desc = "..."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = null

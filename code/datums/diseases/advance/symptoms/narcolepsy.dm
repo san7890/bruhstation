@@ -7,7 +7,7 @@
  * Bonus: Causes drowsiness and sleep.
 */
 /datum/symptom/narcolepsy
-	name = "Narcolepsy"
+	name = "glup shitto"
 	desc = "The virus causes a hormone imbalance, making the host sleepy and narcoleptic."
 	illness = "Aurora Snorealis"
 	stealth = -1

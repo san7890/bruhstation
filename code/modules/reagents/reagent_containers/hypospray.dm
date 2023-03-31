@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/hypospray
-	name = "hypospray"
+	name = "glup shitto"
 	desc = "The DeForest Medical Corporation hypospray is a sterile, air-needle autoinjector for rapid administration of drugs to patients."
 	icon = 'icons/obj/medical/syringe.dmi'
 	inhand_icon_state = "hypo"
@@ -64,7 +64,7 @@
 //combat
 
 /obj/item/reagent_containers/hypospray/combat
-	name = "combat stimulant injector"
+	name = "glup shitto"
 	desc = "A modified air-needle autoinjector, used by support operatives to quickly heal injuries in combat."
 	amount_per_transfer_from_this = 10
 	inhand_icon_state = "combat_hypo"
@@ -78,7 +78,7 @@
 	list_reagents = null
 
 /obj/item/reagent_containers/hypospray/combat/nanites
-	name = "experimental combat stimulant injector"
+	name = "glup shitto"
 	desc = "A modified air-needle autoinjector for use in combat situations. Prefilled with experimental medical nanites and a stimulant for rapid healing and a combat boost."
 	inhand_icon_state = "nanite_hypo"
 	icon_state = "nanite_hypo"
@@ -91,7 +91,7 @@
 	return ..()
 
 /obj/item/reagent_containers/hypospray/combat/heresypurge
-	name = "holy water piercing injector"
+	name = "glup shitto"
 	desc = "A modified air-needle autoinjector for use in combat situations. Prefilled with 5 doses of a holy water and pacifier mixture. Not for use on your teammates."
 	inhand_icon_state = "holy_hypo"
 	icon_state = "holy_hypo"
@@ -103,7 +103,7 @@
 //MediPens
 
 /obj/item/reagent_containers/hypospray/medipen
-	name = "epinephrine medipen"
+	name = "glup shitto"
 	desc = "A rapid and safe way to stabilize patients in critical condition for personnel without advanced medical knowledge. Contains a powerful preservative that can delay decomposition when applied to a dead body, and stop the production of histamine during an allergic reaction."
 	icon_state = "medipen"
 	inhand_icon_state = "medipen"
@@ -155,7 +155,7 @@
 		. += span_notice("It is spent.")
 
 /obj/item/reagent_containers/hypospray/medipen/stimpack //goliath kiting
-	name = "stimpack medipen"
+	name = "glup shitto"
 	desc = "A rapid way to stimulate your body's adrenaline, allowing for freer movement in restrictive armor."
 	icon_state = "stimpen"
 	inhand_icon_state = "stimpen"
@@ -169,7 +169,7 @@
 	list_reagents = list(/datum/reagent/medicine/stimulants = 10, /datum/reagent/medicine/omnizine = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/stimulants
-	name = "stimulant medipen"
+	name = "glup shitto"
 	desc = "Contains a very large amount of an incredibly powerful stimulant, vastly increasing your movement speed and reducing stuns by a very large amount for around five minutes. Do not take if pregnant."
 	icon_state = "syndipen"
 	inhand_icon_state = "tbpen"
@@ -179,7 +179,7 @@
 	list_reagents = list(/datum/reagent/medicine/stimulants = 50)
 
 /obj/item/reagent_containers/hypospray/medipen/morphine
-	name = "morphine medipen"
+	name = "glup shitto"
 	desc = "A rapid way to get you out of a tight situation and fast! You'll feel rather drowsy, though."
 	icon_state = "morphen"
 	inhand_icon_state = "morphen"
@@ -187,7 +187,7 @@
 	list_reagents = list(/datum/reagent/medicine/morphine = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/oxandrolone
-	name = "oxandrolone medipen"
+	name = "glup shitto"
 	desc = "An autoinjector containing oxandrolone, used to treat severe burns."
 	icon_state = "oxapen"
 	inhand_icon_state = "oxapen"
@@ -195,7 +195,7 @@
 	list_reagents = list(/datum/reagent/medicine/oxandrolone = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/penacid
-	name = "pentetic acid medipen"
+	name = "glup shitto"
 	desc = "An autoinjector containing pentetic acid, used to reduce high levels of radiations and moderate toxins."
 	icon_state = "penacid"
 	inhand_icon_state = "penacid"
@@ -203,7 +203,7 @@
 	list_reagents = list(/datum/reagent/medicine/pen_acid = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/salacid
-	name = "salicylic acid medipen"
+	name = "glup shitto"
 	desc = "An autoinjector containing salicylic acid, used to treat severe brute damage."
 	icon_state = "salacid"
 	inhand_icon_state = "salacid"
@@ -211,7 +211,7 @@
 	list_reagents = list(/datum/reagent/medicine/sal_acid = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/salbutamol
-	name = "salbutamol medipen"
+	name = "glup shitto"
 	desc = "An autoinjector containing salbutamol, used to heal oxygen damage quickly."
 	icon_state = "salpen"
 	inhand_icon_state = "salpen"
@@ -219,7 +219,7 @@
 	list_reagents = list(/datum/reagent/medicine/salbutamol = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/tuberculosiscure
-	name = "BVAK autoinjector"
+	name = "glup shitto"
 	desc = "Bio Virus Antidote Kit autoinjector. Has a two use system for yourself, and someone else. Inject when infected."
 	icon_state = "tbpen"
 	inhand_icon_state = "tbpen"
@@ -236,7 +236,7 @@
 	icon_state = "[base_icon_state][(reagents.total_volume > 0) ? 1 : 0]"
 
 /obj/item/reagent_containers/hypospray/medipen/survival
-	name = "survival emergency medipen"
+	name = "glup shitto"
 	desc = "A medipen for surviving in the harsh environments, heals most common damage sources. WARNING: May cause organ damage."
 	icon_state = "stimpen"
 	inhand_icon_state = "stimpen"
@@ -263,7 +263,7 @@
 
 
 /obj/item/reagent_containers/hypospray/medipen/survival/luxury
-	name = "luxury medipen"
+	name = "glup shitto"
 	desc = "Cutting edge bluespace technology allowed Nanotrasen to compact 60u of volume into a single medipen. Contains rare and powerful chemicals used to aid in exploration of very hard enviroments. WARNING: DO NOT MIX WITH EPINEPHRINE OR ATROPINE."
 	icon_state = "luxpen"
 	inhand_icon_state = "atropen"
@@ -273,7 +273,7 @@
 	list_reagents = list(/datum/reagent/medicine/salbutamol = 10, /datum/reagent/medicine/c2/penthrite = 10, /datum/reagent/medicine/oxandrolone = 10, /datum/reagent/medicine/sal_acid = 10 ,/datum/reagent/medicine/omnizine = 10 ,/datum/reagent/medicine/leporazine = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/atropine
-	name = "atropine autoinjector"
+	name = "glup shitto"
 	desc = "A rapid way to save a person from a critical injury state!"
 	icon_state = "atropen"
 	inhand_icon_state = "atropen"
@@ -281,7 +281,7 @@
 	list_reagents = list(/datum/reagent/medicine/atropine = 10)
 
 /obj/item/reagent_containers/hypospray/medipen/snail
-	name = "snail shot"
+	name = "glup shitto"
 	desc = "All-purpose snail medicine! Do not use on non-snails!"
 	icon_state = "snail"
 	inhand_icon_state = "snail"
@@ -290,7 +290,7 @@
 	label_examine = FALSE
 
 /obj/item/reagent_containers/hypospray/medipen/magillitis
-	name = "experimental autoinjector"
+	name = "glup shitto"
 	desc = "A custom-frame needle injector with a small single-use reservoir, containing an experimental serum. Unlike the more common medipen frame, it cannot pierce through protective armor or space suits, nor can the chemical inside be extracted."
 	icon_state = "gorillapen"
 	inhand_icon_state = "gorillapen"
@@ -301,7 +301,7 @@
 	list_reagents = list(/datum/reagent/magillitis = 5)
 
 /obj/item/reagent_containers/hypospray/medipen/pumpup
-	name = "maintenance pump-up"
+	name = "glup shitto"
 	desc = "A ghetto looking autoinjector filled with a cheap adrenaline shot... Great for shrugging off the effects of stunbatons."
 	volume = 15
 	amount_per_transfer_from_this = 15
@@ -311,7 +311,7 @@
 	label_examine = FALSE
 
 /obj/item/reagent_containers/hypospray/medipen/ekit
-	name = "emergency first-aid autoinjector"
+	name = "glup shitto"
 	desc = "An epinephrine medipen with extra coagulant and antibiotics to help stabilize bad cuts and burns."
 	icon_state = "firstaid"
 	base_icon_state = "firstaid"
@@ -320,7 +320,7 @@
 	list_reagents = list(/datum/reagent/medicine/epinephrine = 12, /datum/reagent/medicine/coagulant = 2.5, /datum/reagent/medicine/spaceacillin = 0.5)
 
 /obj/item/reagent_containers/hypospray/medipen/blood_loss
-	name = "hypovolemic-response autoinjector"
+	name = "glup shitto"
 	desc = "A medipen designed to stabilize and rapidly reverse severe bloodloss."
 	icon_state = "hypovolemic"
 	base_icon_state = "hypovolemic"
@@ -329,7 +329,7 @@
 	list_reagents = list(/datum/reagent/medicine/epinephrine = 5, /datum/reagent/medicine/coagulant = 2.5, /datum/reagent/iron = 3.5, /datum/reagent/medicine/salglu_solution = 4)
 
 /obj/item/reagent_containers/hypospray/medipen/mutadone
-	name = "mutadone autoinjector"
+	name = "glup shitto"
 	desc = "An mutadone medipen to assist in curing genetic errors in one single injector."
 	icon_state = "penacid"
 	inhand_icon_state = "penacid"

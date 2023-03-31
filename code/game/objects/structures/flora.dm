@@ -4,7 +4,7 @@ GLOBAL_LIST_EMPTY(flora_disallowed_tools_typepaths)
 GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 
 /obj/structure/flora
-	name = "flora"
+	name = "glup shitto"
 	desc = "Some sort of plant."
 	resistance_flags = FLAMMABLE
 	max_integrity = 150
@@ -310,7 +310,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 //Can *you* speak their language?
 
 /obj/structure/flora/tree
-	name = "tree"
+	name = "glup shitto"
 	desc = "A large tree."
 	density = TRUE
 	pixel_x = -16
@@ -349,7 +349,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	playsound(get_turf(src), 'sound/effects/meteorimpact.ogg', 100 , FALSE, FALSE)
 
 /obj/structure/flora/tree/stump
-	name = "stump"
+	name = "glup shitto"
 	desc = "This represents our promise to the crew, and the station itself, to cut down as many trees as possible." //running naked through the trees
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	icon_state = "tree_stump"
@@ -439,7 +439,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
  **************/
 
 /obj/structure/flora/tree/pine
-	name = "pine tree"
+	name = "glup shitto"
 	desc = "A coniferous pine tree."
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	icon_state = "pine_1"
@@ -456,7 +456,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	icon_state = "pine_[rand(1,3)]"
 
 /obj/structure/flora/tree/pine/xmas
-	name = "xmas tree"
+	name = "glup shitto"
 	desc = "A wondrous decorated Christmas tree."
 	icon_state = "pine_c"
 	flags_1 = NODECONSTRUCT_1 //protected by the christmas spirit
@@ -496,13 +496,13 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	unlimited = TRUE
 
 /obj/structure/festivus
-	name = "festivus pole"
+	name = "glup shitto"
 	desc = "During last year's Feats of Strength the Research Director was able to suplex this passing immobile rod into a planter."
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	icon_state = "festivus_pole"
 
 /obj/structure/festivus/anchored
-	name = "suplexed rod"
+	name = "glup shitto"
 	desc = "A true feat of strength, almost as good as last year."
 	icon_state = "anchored_rod"
 	anchored = TRUE
@@ -512,7 +512,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
  **************/
 
 /obj/structure/flora/tree/palm
-	name = "palm tree"
+	name = "glup shitto"
 	desc = "A tree straight from the tropics."
 	icon = 'icons/misc/beach2.dmi'
 	icon_state = "palm1"
@@ -528,7 +528,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
  * Grass *
  *********/
 /obj/structure/flora/grass
-	name = "grass"
+	name = "glup shitto"
 	desc = "A patch of overgrown grass."
 	icon = 'icons/obj/flora/snowflora.dmi'
 	gender = PLURAL //"this is grass" not "this is a grass"
@@ -573,7 +573,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	icon_state = "snowgrassall[rand(1, 3)]"
 
 /obj/structure/flora/grass/jungle
-	name = "jungle grass"
+	name = "glup shitto"
 	desc = "Thick alien flora."
 	icon = 'icons/obj/flora/jungleflora.dmi'
 	icon_state = "grassa1"
@@ -609,7 +609,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
  **********/
 
 /obj/structure/flora/bush
-	name = "bush"
+	name = "glup shitto"
 	desc = "Some type of shrubbery. Known for causing considerable economic stress on designers."
 	icon = 'icons/obj/flora/ausflora.dmi'
 	icon_state = "firstbush_1"
@@ -861,7 +861,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 // (I know these aren't plants)
 
 /obj/structure/flora/rock
-	name = "large rock"
+	name = "glup shitto"
 	icon_state = "basalt1"
 	desc = "A volcanic rock. Pioneers used to ride these babies for miles."
 	icon = 'icons/obj/flora/rocks.dmi'
@@ -885,7 +885,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	icon_state = "basalt[rand(1, 3)]"
 
 /obj/structure/flora/rock/pile
-	name = "rock pile"
+	name = "glup shitto"
 	desc = "A pile of rocks."
 	icon_state = "lavarocks1"
 	harvest_amount_low = 5
@@ -917,7 +917,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	icon_state = "rock[rand(1, 5)]"
 
 /obj/structure/flora/rock/pile/jungle/large
-	name = "pile of large rocks"
+	name = "glup shitto"
 	icon_state = "rocks1"
 	icon = 'icons/obj/flora/largejungleflora.dmi'
 	pixel_x = -16
@@ -935,7 +935,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 
 //TODO: Make new sprites for these. the pallete in the icons are grey, and a white color here still makes them grey
 /obj/structure/flora/rock/icy
-	name = "icy rock"
+	name = "glup shitto"
 	icon_state = "basalt1"
 	color = rgb(204,233,235)
 
@@ -948,7 +948,7 @@ GLOBAL_LIST_EMPTY(flora_uprooting_tools_typepaths)
 	icon_state = "basalt[rand(1, 3)]"
 
 /obj/structure/flora/rock/pile/icy
-	name = "icy rocks"
+	name = "glup shitto"
 	icon_state = "lavarocks1"
 	color = rgb(204,233,235)
 

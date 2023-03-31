@@ -69,7 +69,7 @@ GLOBAL_LIST_INIT(mystery_box_extended, list(
 
 
 /obj/structure/mystery_box
-	name = "mystery box"
+	name = "glup shitto"
 	desc = "A wooden crate that seems equally magical and mysterious, capable of granting the user all kinds of different pieces of gear."
 	icon = 'icons/obj/storage/crates.dmi'
 	icon_state = "wooden"
@@ -210,7 +210,7 @@ GLOBAL_LIST_INIT(mystery_box_extended, list(
 
 /// This represents the item that comes out of the box and is constantly changing before the box finishes deciding. Can probably be just an /atom or /movable.
 /obj/mystery_box_item
-	name = "???"
+	name = "glup shitto"
 	desc = "Who knows what it'll be??"
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "revolver"

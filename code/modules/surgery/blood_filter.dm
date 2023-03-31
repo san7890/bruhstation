@@ -1,5 +1,5 @@
 /datum/surgery/blood_filter
-	name = "Filter blood"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_CHEST)
 	steps = list(
 		/datum/surgery_step/incise,
@@ -45,7 +45,7 @@
 	return FALSE
 
 /datum/surgery_step/filter_blood
-	name = "Filter blood (blood filter)"
+	name = "glup shitto"
 	implements = list(/obj/item/blood_filter = 95)
 	repeatable = TRUE
 	time = 2.5 SECONDS

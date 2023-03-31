@@ -1,5 +1,5 @@
 /obj/machinery/vending/tool
-	name = "\improper YouTool"
+	name = "glup shitto"
 	desc = "Tools for tools."
 	icon_state = "tool"
 	icon_deny = "tool-deny"

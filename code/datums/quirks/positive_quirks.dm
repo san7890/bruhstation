@@ -2,7 +2,7 @@
 //this file is named weirdly so that positive traits are listed above negative ones
 
 /datum/quirk/alcohol_tolerance
-	name = "Alcohol Tolerance"
+	name = "glup shitto"
 	desc = "You become drunk more slowly and suffer fewer drawbacks from alcohol."
 	icon = "beer"
 	value = 4
@@ -13,7 +13,7 @@
 	mail_goodies = list(/obj/item/skillchip/wine_taster)
 
 /datum/quirk/apathetic
-	name = "Apathetic"
+	name = "glup shitto"
 	desc = "You just don't care as much as other people. That's nice to have in a place like this, I guess."
 	icon = "meh"
 	value = 4
@@ -28,7 +28,7 @@
 	quirk_holder.mob_mood?.mood_modifier += 0.2
 
 /datum/quirk/drunkhealing
-	name = "Drunken Resilience"
+	name = "glup shitto"
 	desc = "Nothing like a good drink to make you feel on top of the world. Whenever you're drunk, you slowly recover from injuries."
 	icon = "wine-bottle"
 	value = 8
@@ -51,7 +51,7 @@
 			quirk_holder.adjustFireLoss(-0.4 * delta_time, required_bodytype = BODYTYPE_ORGANIC)
 
 /datum/quirk/empath
-	name = "Empath"
+	name = "glup shitto"
 	desc = "Whether it's a sixth sense or careful study of body language, it only takes you a quick glance at someone to understand how they feel."
 	icon = "smile-beam"
 	value = 8
@@ -62,7 +62,7 @@
 	mail_goodies = list(/obj/item/toy/foamfinger)
 
 /datum/quirk/item_quirk/clown_enjoyer
-	name = "Clown Enjoyer"
+	name = "glup shitto"
 	desc = "You enjoy clown antics and get a mood boost from wearing your clown pin."
 	icon = "map-pin"
 	value = 2
@@ -91,7 +91,7 @@
 	fan.show_to(quirk_holder)
 
 /datum/quirk/item_quirk/mime_fan
-	name = "Mime Fan"
+	name = "glup shitto"
 	desc = "You're a fan of mime antics and get a mood boost from wearing your mime pin."
 	icon = "thumbtack"
 	value = 2
@@ -121,7 +121,7 @@
 	fan.show_to(quirk_holder)
 
 /datum/quirk/freerunning
-	name = "Freerunning"
+	name = "glup shitto"
 	desc = "You're great at quick moves! You can climb tables more quickly and take no damage from short falls."
 	icon = "running"
 	value = 8
@@ -132,7 +132,7 @@
 	mail_goodies = list(/obj/item/melee/skateboard, /obj/item/clothing/shoes/wheelys/rollerskates)
 
 /datum/quirk/friendly
-	name = "Friendly"
+	name = "glup shitto"
 	desc = "You give the best hugs, especially when you're in the right mood."
 	icon = "hands-helping"
 	value = 2
@@ -144,7 +144,7 @@
 	mail_goodies = list(/obj/item/storage/box/hug)
 
 /datum/quirk/jolly
-	name = "Jolly"
+	name = "glup shitto"
 	desc = "You sometimes just feel happy, for no reason at all."
 	icon = "grin"
 	value = 4
@@ -154,7 +154,7 @@
 	mail_goodies = list(/obj/item/clothing/mask/joy)
 
 /datum/quirk/light_step
-	name = "Light Step"
+	name = "glup shitto"
 	desc = "You walk with a gentle step; footsteps and stepping on sharp objects is quieter and less painful. Also, your hands and clothes will not get messed in case of stepping in blood."
 	icon = "shoe-prints"
 	value = 4
@@ -165,7 +165,7 @@
 	mail_goodies = list(/obj/item/clothing/shoes/sandal)
 
 /datum/quirk/item_quirk/musician
-	name = "Musician"
+	name = "glup shitto"
 	desc = "You can tune handheld musical instruments to play melodies that clear certain negative effects and soothe the soul."
 	icon = "guitar"
 	value = 2
@@ -179,7 +179,7 @@
 	give_item_to_holder(/obj/item/choice_beacon/music, list(LOCATION_BACKPACK = ITEM_SLOT_BACKPACK, LOCATION_HANDS = ITEM_SLOT_HANDS))
 
 /datum/quirk/night_vision
-	name = "Night Vision"
+	name = "glup shitto"
 	desc = "You can see slightly more clearly in full darkness than most people."
 	icon = "eye"
 	value = 4
@@ -208,7 +208,7 @@
 	eyes.refresh()
 
 /datum/quirk/item_quirk/poster_boy
-	name = "Poster Boy"
+	name = "glup shitto"
 	desc = "You have some great posters! Hang them up and make everyone have a great time."
 	icon = "tape"
 	value = 4
@@ -223,7 +223,7 @@
 	give_item_to_holder(newbox, list(LOCATION_BACKPACK = ITEM_SLOT_BACKPACK, LOCATION_HANDS = ITEM_SLOT_HANDS))
 
 /obj/item/storage/box/posterbox
-	name = "Box of Posters"
+	name = "glup shitto"
 	desc = "You made them yourself!"
 
 /// fills box of posters based on job, one neutral poster and 2 department posters
@@ -240,7 +240,7 @@
 		new potential_poster(src)
 
 /datum/quirk/selfaware
-	name = "Self-Aware"
+	name = "glup shitto"
 	desc = "You know your body well, and can accurately assess the extent of your wounds."
 	icon = "bone"
 	value = 8
@@ -249,7 +249,7 @@
 	mail_goodies = list(/obj/item/clothing/neck/stethoscope, /obj/item/skillchip/entrails_reader)
 
 /datum/quirk/skittish
-	name = "Skittish"
+	name = "glup shitto"
 	desc = "You're easy to startle, and hide frequently. Run into a closed locker to jump into it, as long as you have access. You can walk to avoid this."
 	icon = "trash"
 	value = 8
@@ -258,7 +258,7 @@
 	mail_goodies = list(/obj/structure/closet/cardboard)
 
 /datum/quirk/item_quirk/spiritual
-	name = "Spiritual"
+	name = "glup shitto"
 	desc = "You hold a spiritual belief, whether in God, nature or the arcane rules of the universe. You gain comfort from the presence of holy people, and believe that your prayers are more special than others. Being in the chapel makes you happy."
 	icon = "bible"
 	value = 4
@@ -279,7 +279,7 @@
 	give_item_to_holder(/obj/item/storage/box/matches, list(LOCATION_BACKPACK = ITEM_SLOT_BACKPACK, LOCATION_HANDS = ITEM_SLOT_HANDS))
 
 /datum/quirk/item_quirk/tagger
-	name = "Tagger"
+	name = "glup shitto"
 	desc = "You're an experienced artist. People will actually be impressed by your graffiti, and you can get twice as many uses out of drawing supplies."
 	icon = "spray-can"
 	value = 4
@@ -300,7 +300,7 @@
 	give_item_to_holder(can, list(LOCATION_BACKPACK = ITEM_SLOT_BACKPACK, LOCATION_HANDS = ITEM_SLOT_HANDS))
 
 /datum/quirk/throwingarm
-	name = "Throwing Arm"
+	name = "glup shitto"
 	desc = "Your arms have a lot of heft to them! Objects that you throw just always seem to fly further than everyone elses, and you never miss a toss."
 	icon = "baseball"
 	value = 7
@@ -311,7 +311,7 @@
 	mail_goodies = list(/obj/item/toy/beach_ball/baseball, /obj/item/toy/basketball, /obj/item/toy/dodgeball)
 
 /datum/quirk/voracious
-	name = "Voracious"
+	name = "glup shitto"
 	desc = "Nothing gets between you and your food. You eat faster and can binge on junk food! Being fat suits you just fine."
 	icon = "drumstick-bite"
 	value = 4
@@ -321,7 +321,7 @@
 	mail_goodies = list(/obj/effect/spawner/random/food_or_drink/dinner)
 
 /datum/quirk/item_quirk/signer
-	name = "Signer"
+	name = "glup shitto"
 	desc = "You possess excellent communication skills in sign language."
 	icon = "hands"
 	value = 4

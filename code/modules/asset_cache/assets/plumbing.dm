@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/plumbing
-	name = "plumbing-tgui"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/plumbing/create_spritesheets()
 	//load only what we need from the icon files,format is icon_file_name = list of icon_states we need from this file

@@ -1,5 +1,5 @@
 /datum/round_event_control/nightmare
-	name = "Spawn Nightmare"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/nightmare
 	max_occurrences = 1
 	min_players = 20

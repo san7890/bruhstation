@@ -1,5 +1,5 @@
 /turf/closed/wall/mineral/cult
-	name = "runed metal wall"
+	name = "glup shitto"
 	desc = "A cold metal wall engraved with indecipherable symbols. Studying them causes your head to pound."
 	icon = 'icons/turf/walls/cult_wall.dmi'
 	icon_state = "cult_wall-0"
@@ -29,7 +29,7 @@
 			H.start_pulling(stored_pulling, supress_message = TRUE)
 
 /turf/closed/wall/mineral/cult/artificer
-	name = "runed stone wall"
+	name = "glup shitto"
 	desc = "A cold stone wall engraved with indecipherable symbols. Studying them causes your head to pound."
 
 /turf/closed/wall/mineral/cult/artificer/break_wall()
@@ -40,7 +40,7 @@
 	new /obj/effect/temp_visual/cult/turf(get_turf(src))
 
 /turf/closed/wall/vault
-	name = "strange wall"
+	name = "glup shitto"
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "rockvault"
 	base_icon_state = "rockvault"
@@ -51,16 +51,16 @@
 	rcd_memory = null
 
 /turf/closed/wall/vault/rock
-	name = "rocky wall"
+	name = "glup shitto"
 	desc = "You feel a strange nostalgia from looking at this..."
 
 /turf/closed/wall/vault/alien
-	name = "alien wall"
+	name = "glup shitto"
 	icon_state = "alienvault"
 	base_icon_state = "alienvault"
 
 /turf/closed/wall/vault/sandstone
-	name = "sandstone wall"
+	name = "glup shitto"
 	icon_state = "sandstonevault"
 	base_icon_state = "sandstonevault"
 
@@ -98,7 +98,7 @@
 	AddElement(/datum/element/rust)
 
 /turf/closed/wall/mineral/bronze
-	name = "clockwork wall"
+	name = "glup shitto"
 	desc = "A huge chunk of bronze, decorated like gears and cogs."
 	icon = 'icons/turf/walls/clockwork_wall.dmi'
 	icon_state = "clockwork_wall-0"
@@ -110,7 +110,7 @@
 	girder_type = /obj/structure/girder/bronze
 
 /turf/closed/wall/rock
-	name = "reinforced rock"
+	name = "glup shitto"
 	desc = "It has metal struts that need to be welded away before it can be mined."
 	icon = 'icons/turf/walls/reinforced_rock.dmi'
 	icon_state = "porous_rock-0"
@@ -122,12 +122,12 @@
 	decon_type = /turf/closed/mineral/asteroid
 
 /turf/closed/wall/rock/porous
-	name = "reinforced porous rock"
+	name = "glup shitto"
 	desc = "This rock is filled with pockets of breathable air. It has metal struts to protect it from mining."
 	decon_type = /turf/closed/mineral/asteroid/porous
 
 /turf/closed/wall/space
-	name = "illusionist wall"
+	name = "glup shitto"
 	icon = 'icons/turf/space.dmi'
 	icon_state = "space"
 	plane = PLANE_SPACE

@@ -2,7 +2,7 @@
 //Boat
 
 /obj/vehicle/ridden/lavaboat
-	name = "lava boat"
+	name = "glup shitto"
 	desc = "A boat used for traversing lava."
 	icon = 'icons/obj/lavaland/dragonboat.dmi'
 	icon_state = "goliath_boat"
@@ -18,7 +18,7 @@
 	AddElement(/datum/element/ridable, /datum/component/riding/vehicle/lavaboat)
 
 /obj/item/oar
-	name = "oar"
+	name = "glup shitto"
 	desc = "Not to be confused with the kind Research hassles you for."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "oar"
@@ -30,21 +30,21 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 
 /datum/crafting_recipe/oar
-	name = "Goliath Bone Oar"
+	name = "glup shitto"
 	result = /obj/item/oar
 	reqs = list(/obj/item/stack/sheet/bone = 2)
 	time = 15
 	category = CAT_TOOLS
 
 /datum/crafting_recipe/boat
-	name = "Goliath Hide Boat"
+	name = "glup shitto"
 	result = /obj/vehicle/ridden/lavaboat
 	reqs = list(/obj/item/stack/sheet/animalhide/goliath_hide = 3)
 	time = 50
 	category = CAT_TOOLS
 
 /obj/vehicle/ridden/lavaboat/plasma
-	name = "plasma boat"
+	name = "glup shitto"
 	desc = "A boat used for traversing the streams of plasma without turning into an icecube."
 	icon = 'icons/obj/lavaland/dragonboat.dmi'
 	icon_state = "goliath_boat"
@@ -52,7 +52,7 @@
 	can_buckle = TRUE
 
 /datum/crafting_recipe/boat/plasma
-	name = "Polar Bear Hide Boat"
+	name = "glup shitto"
 	result = /obj/vehicle/ridden/lavaboat/plasma
 	reqs = list(/obj/item/stack/sheet/animalhide/goliath_hide/polar_bear_hide = 3)
 
@@ -60,7 +60,7 @@
 
 
 /obj/item/ship_in_a_bottle
-	name = "ship in a bottle"
+	name = "glup shitto"
 	desc = "A tiny ship inside a bottle."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "ship_bottle"
@@ -72,7 +72,7 @@
 	qdel(src)
 
 /obj/vehicle/ridden/lavaboat/dragon
-	name = "mysterious boat"
+	name = "glup shitto"
 	desc = "This boat moves where you will it, without the need for an oar."
 	icon_state = "dragon_boat"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | FREEZE_PROOF

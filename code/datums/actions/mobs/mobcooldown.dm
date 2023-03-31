@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown
-	name = "Standard Mob Cooldown Ability"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Click this ability to attack."

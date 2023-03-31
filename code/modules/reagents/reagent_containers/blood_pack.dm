@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/blood
-	name = "blood pack"
+	name = "glup shitto"
 	desc = "Contains blood used for transfusion. Must be attached to an IV drip."
 	icon = 'icons/obj/medical/bloodpack.dmi'
 	icon_state = "bloodpack"
@@ -36,7 +36,7 @@
 	. = ..()
 	if(labelled)
 		return
-	name = "blood pack[blood_type ? " - [blood_type]" : null]"
+	name = "glup shitto"
 
 /obj/item/reagent_containers/blood/random
 	icon_state = "random_bloodpack"
@@ -74,7 +74,7 @@
 /obj/item/reagent_containers/blood/snail
 	blood_type = "S"
 	unique_blood = /datum/reagent/lube
-	
+
 /obj/item/reagent_containers/blood/snail/examine()
 	. = ..()
 	. += span_notice("It's a bit slimy... The label indicates that this is meant for snails.")

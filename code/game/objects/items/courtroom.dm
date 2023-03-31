@@ -3,7 +3,7 @@
 // Gavel Block
 
 /obj/item/gavelhammer
-	name = "gavel hammer"
+	name = "glup shitto"
 	desc = "Order, order! No bombs in my courthouse."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "gavelhammer"
@@ -24,7 +24,7 @@
 	return BRUTELOSS
 
 /obj/item/gavelblock
-	name = "gavel block"
+	name = "glup shitto"
 	desc = "Smack it with a gavel hammer when the assistants get rowdy."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "gavelblock"

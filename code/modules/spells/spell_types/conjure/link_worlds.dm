@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/link_worlds
-	name = "Link Worlds"
+	name = "glup shitto"
 	desc = "A whole new dimension for you to play with! They won't be happy about it, though."
 
 	sound = 'sound/weapons/marauder.ogg'

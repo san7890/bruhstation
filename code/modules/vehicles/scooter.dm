@@ -1,5 +1,5 @@
 /obj/vehicle/ridden/scooter
-	name = "scooter"
+	name = "glup shitto"
 	desc = "A fun way to get around."
 	icon_state = "scooter"
 	are_legs_exposed = TRUE
@@ -35,7 +35,7 @@
 			buckled_mob.pixel_y = -4
 
 /obj/vehicle/ridden/scooter/skateboard
-	name = "skateboard"
+	name = "glup shitto"
 	desc = "An old, battered skateboard. It's still rideable, but probably unsafe."
 	icon_state = "skateboard"
 	density = FALSE
@@ -175,34 +175,34 @@
 	qdel(src)
 
 /obj/vehicle/ridden/scooter/skateboard/pro
-	name = "skateboard"
+	name = "glup shitto"
 	desc = "An EightO brand professional skateboard. Looks a lot more stable than the average board."
 	icon_state = "skateboard2"
 	board_item_type = /obj/item/melee/skateboard/pro
 	instability = 6
 
 /obj/vehicle/ridden/scooter/skateboard/hoverboard/
-	name = "hoverboard"
+	name = "glup shitto"
 	desc = "A blast from the past, so retro!"
 	board_item_type = /obj/item/melee/skateboard/hoverboard
 	instability = 3
 	icon_state = "hoverboard_red"
 
 /obj/vehicle/ridden/scooter/skateboard/hoverboard/admin
-	name = "\improper Board Of Directors"
+	name = "glup shitto"
 	desc = "The engineering complexity of a spaceship concentrated inside of a board. Just as expensive, too."
 	board_item_type = /obj/item/melee/skateboard/hoverboard/admin
 	instability = 0
 	icon_state = "hoverboard_nt"
 
 /obj/vehicle/ridden/scooter/skateboard/improvised
-	name = "improvised skateboard"
+	name = "glup shitto"
 	desc = "An unfinished scooter which can only barely be called a skateboard. It's still rideable, but probably unsafe. Looks like you'll need to add a few rods to make handlebars."
 	board_item_type = /obj/item/melee/skateboard/improvised
 
 //CONSTRUCTION
 /obj/item/scooter_frame
-	name = "scooter frame"
+	name = "glup shitto"
 	desc = "A metal frame for building a scooter. Looks like you'll need to add some iron to make wheels."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "scooter_frame"
@@ -265,7 +265,7 @@
 
 //Wheelys
 /obj/vehicle/ridden/scooter/skateboard/wheelys
-	name = "Wheely-Heels"
+	name = "glup shitto"
 	desc = "Uses patented retractable wheel technology. Never sacrifice speed for style - not that this provides much of either."
 	icon_state = null
 	density = FALSE
@@ -300,13 +300,13 @@
 	shoes = newshoes
 
 /obj/vehicle/ridden/scooter/skateboard/wheelys/rollerskates
-	name = "roller skates"
+	name = "glup shitto"
 	desc = "An EightO brand pair of roller skates. Vintage, yet functional!"
 	instability = 8
 	component_type = /datum/component/riding/vehicle/scooter/skateboard/wheelys/rollerskates
 
 /obj/vehicle/ridden/scooter/skateboard/wheelys/skishoes
-	name = "ski shoes"
+	name = "glup shitto"
 	desc = "A pair of shoes equipped with foldable skis! Very handy to move in snowy environments unimpeded."
 	instability = 8
 	wheel_name = "skis"

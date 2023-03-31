@@ -167,6 +167,6 @@
 	return span_notice("[owner.p_they(TRUE)] appear[owner.p_s()] to be largely immobilized through unknown means.")
 
 /atom/movable/screen/alert/status_effect/hazard_area
-	name = "Hazardous Area"
+	name = "glup shitto"
 	desc = "The area you are currently within is incredibly hazardous to you. Check your surroundings and vacate as soon as possible."
 	icon_state = "hazard_area"

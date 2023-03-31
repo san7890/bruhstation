@@ -1,49 +1,49 @@
 /obj/effect/spawner/random/clothing
-	name = "clothing loot spawner"
+	name = "glup shitto"
 	desc = "Time to look pretty."
 	icon_state = "hat"
 
 /obj/effect/spawner/random/clothing/costume
-	name = "random costume spawner"
+	name = "glup shitto"
 	icon_state = "costume"
 	loot_subtype_path = /obj/effect/spawner/costume
 	loot = list()
 
 /obj/effect/spawner/random/clothing/beret_or_rabbitears
-	name = "beret or rabbit ears spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/clothing/head/beret,
 		/obj/item/clothing/head/costume/rabbitears,
 	)
 
 /obj/effect/spawner/random/clothing/bowler_or_that
-	name = "bowler or top hat spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/clothing/head/hats/bowler,
 		/obj/item/clothing/head/hats/tophat,
 	)
 
 /obj/effect/spawner/random/clothing/kittyears_or_rabbitears
-	name = "kitty ears or rabbit ears spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/clothing/head/costume/kitty,
 		/obj/item/clothing/head/costume/rabbitears,
 	)
 
 /obj/effect/spawner/random/clothing/pirate_or_bandana
-	name = "pirate hat or bandana spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/clothing/head/costume/pirate,
 		/obj/item/clothing/head/costume/pirate/bandana,
 	)
 
 /obj/effect/spawner/random/clothing/twentyfive_percent_cyborg_mask
-	name = "25% cyborg mask spawner"
+	name = "glup shitto"
 	spawn_loot_chance = 25
 	loot = list(/obj/item/clothing/mask/gas/cyborg)
 
 /obj/effect/spawner/random/clothing/mafia_outfit
-	name = "mafia outfit spawner"
+	name = "glup shitto"
 	icon_state = "costume"
 	loot = list(
 		/obj/effect/spawner/costume/mafia = 20,
@@ -53,7 +53,7 @@
 	)
 
 /obj/effect/spawner/random/clothing/syndie
-	name = "syndie outfit spawner"
+	name = "glup shitto"
 	icon_state = "syndicate"
 	loot = list(
 		/obj/item/clothing/under/syndicate,
@@ -70,7 +70,7 @@
 	)
 
 /obj/effect/spawner/random/clothing/gloves
-	name = "random gloves"
+	name = "glup shitto"
 	desc = "These gloves are supposed to be a random color..."
 	icon_state = "gloves"
 	loot = list(
@@ -87,7 +87,7 @@
 	)
 
 /obj/effect/spawner/random/clothing/lizardboots
-	name = "random lizard boot quality"
+	name = "glup shitto"
 	desc = "Which ever gets picked, the lizard race loses"
 	icon_state = "lizard_boots"
 	loot = list(
@@ -96,7 +96,7 @@
 	)
 
 /obj/effect/spawner/random/clothing/wardrobe_closet
-	name = "wardrobe closet spawner"
+	name = "glup shitto"
 	icon_state = "locker_clothing"
 	loot = list(
 		/obj/structure/closet/gmcloset,
@@ -120,7 +120,7 @@
 	)
 
 /obj/effect/spawner/random/clothing/wardrobe_closet_colored
-	name = "colored uniform closet spawner"
+	name = "glup shitto"
 	icon_state = "locker_clothing"
 	loot = list(
 		/obj/structure/closet/wardrobe/mixed,
@@ -135,7 +135,7 @@
 	)
 
 /obj/effect/spawner/random/clothing/backpack
-	name = "backpack spawner"
+	name = "glup shitto"
 	icon_state = "backpack"
 	loot = list(
 		/obj/item/storage/backpack,

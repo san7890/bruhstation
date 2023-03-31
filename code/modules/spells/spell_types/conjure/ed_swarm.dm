@@ -1,6 +1,6 @@
 // test purposes - Also a lot of fun
 /datum/action/cooldown/spell/conjure/summon_ed_swarm
-	name = "Dispense Wizard Justice"
+	name = "glup shitto"
 	desc = "This spell dispenses wizard justice."
 
 	summon_radius = 3

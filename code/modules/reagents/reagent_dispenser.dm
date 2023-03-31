@@ -1,5 +1,5 @@
 /obj/structure/reagent_dispensers
-	name = "Dispenser"
+	name = "glup shitto"
 	desc = "..."
 	icon = 'icons/obj/medical/chemical_tanks.dmi'
 	icon_state = "water"
@@ -216,19 +216,19 @@
 	tank_leak()
 
 /obj/structure/reagent_dispensers/watertank
-	name = "water tank"
+	name = "glup shitto"
 	desc = "A water tank."
 	icon_state = "water"
 	openable = TRUE
 
 /obj/structure/reagent_dispensers/watertank/high
-	name = "high-capacity water tank"
+	name = "glup shitto"
 	desc = "A highly pressurized water tank made to hold gargantuan amounts of water."
 	icon_state = "water_high" //I was gonna clean my room...
 	tank_volume = 100000
 
 /obj/structure/reagent_dispensers/foamtank
-	name = "firefighting foam tank"
+	name = "glup shitto"
 	desc = "A tank full of firefighting foam."
 	icon_state = "foam"
 	reagent_id = /datum/reagent/firefighting_foam
@@ -236,7 +236,7 @@
 	openable = TRUE
 
 /obj/structure/reagent_dispensers/fueltank
-	name = "fuel tank"
+	name = "glup shitto"
 	desc = "A tank full of industrial welding fuel. Do not consume."
 	icon_state = "fuel"
 	reagent_id = /datum/reagent/fuel
@@ -295,7 +295,7 @@
 	return ..()
 
 /obj/structure/reagent_dispensers/fueltank/large
-	name = "high capacity fuel tank"
+	name = "glup shitto"
 	desc = "A tank full of a high quantity of welding fuel. Keep away from open flames."
 	icon_state = "fuel_high"
 	tank_volume = 5000
@@ -307,7 +307,7 @@
 	can_be_tanked = FALSE
 
 /obj/structure/reagent_dispensers/wall/peppertank
-	name = "pepper spray refiller"
+	name = "glup shitto"
 	desc = "Contains condensed capsaicin for use in law \"enforcement.\""
 	icon_state = "pepper"
 	reagent_id = /datum/reagent/consumable/condensedcapsaicin
@@ -320,7 +320,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/peppertank, 3
 		desc = "IT'S PEPPER TIME, BITCH!"
 
 /obj/structure/reagent_dispensers/water_cooler
-	name = "liquid cooler"
+	name = "glup shitto"
 	desc = "A machine that dispenses liquid to drink."
 	icon = 'icons/obj/vending.dmi'
 	icon_state = "water_cooler"
@@ -350,7 +350,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/peppertank, 3
 	paper_cups--
 
 /obj/structure/reagent_dispensers/beerkeg
-	name = "beer keg"
+	name = "glup shitto"
 	desc = "Beer is liquid bread, it's good for you..."
 	icon_state = "beer"
 	reagent_id = /datum/reagent/consumable/ethanol/beer
@@ -362,7 +362,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/peppertank, 3
 		qdel(src)
 
 /obj/structure/reagent_dispensers/wall/virusfood
-	name = "virus food dispenser"
+	name = "glup shitto"
 	desc = "A dispenser of low-potency virus mutagenic."
 	icon_state = "virus_food"
 	reagent_id = /datum/reagent/consumable/virus_food
@@ -370,7 +370,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/peppertank, 3
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/virusfood, 30)
 
 /obj/structure/reagent_dispensers/cooking_oil
-	name = "vat of cooking oil"
+	name = "glup shitto"
 	desc = "A huge metal vat with a tap on the front. Filled with cooking oil for use in frying food."
 	icon_state = "vat"
 	anchored = TRUE
@@ -378,7 +378,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/virusfood, 30
 	openable = TRUE
 
 /obj/structure/reagent_dispensers/servingdish
-	name = "serving dish"
+	name = "glup shitto"
 	desc = "A dish full of food slop for your bowl."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "serving"
@@ -386,7 +386,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/virusfood, 30
 	reagent_id = /datum/reagent/consumable/nutraslop
 
 /obj/structure/reagent_dispensers/plumbed
-	name = "stationary water tank"
+	name = "glup shitto"
 	anchored = TRUE
 	icon_state = "water_stationary"
 	desc = "A stationary, plumbed, water tank."
@@ -402,7 +402,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/virusfood, 30
 	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/structure/reagent_dispensers/plumbed/storage
-	name = "stationary storage tank"
+	name = "glup shitto"
 	icon_state = "tank_stationary"
 	reagent_id = null //start empty
 
@@ -426,7 +426,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/reagent_dispensers/wall/virusfood, 30
 	. += tank_color
 
 /obj/structure/reagent_dispensers/plumbed/fuel
-	name = "stationary fuel tank"
+	name = "glup shitto"
 	icon_state = "fuel_stationary"
 	desc = "A stationary, plumbed, fuel tank."
 	reagent_id = /datum/reagent/fuel

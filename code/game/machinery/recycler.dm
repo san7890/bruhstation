@@ -1,7 +1,7 @@
 #define SAFETY_COOLDOWN 100
 
 /obj/machinery/recycler
-	name = "recycler"
+	name = "glup shitto"
 	desc = "A large crushing machine used to recycle small items inefficiently. There are lights on the side."
 	icon = 'icons/obj/recycling.dmi'
 	icon_state = "grinder-o0"
@@ -217,13 +217,13 @@
 	safety_mode = TRUE
 
 /obj/machinery/recycler/deathtrap
-	name = "dangerous old crusher"
+	name = "glup shitto"
 	obj_flags = CAN_BE_HIT | EMAGGED
 	crush_damage = 120
 	flags_1 = NODECONSTRUCT_1
 
 /obj/item/paper/guides/recycler
-	name = "paper - 'garbage duty instructions'"
+	name = "glup shitto"
 	default_raw_text = "<h2>New Assignment</h2> You have been assigned to collect garbage from trash bins, located around the station. The crewmembers will put their trash into it and you will collect said trash.<br><br>There is a recycling machine near your closet, inside maintenance; use it to recycle the trash for a small chance to get useful minerals. Then, deliver these minerals to cargo or engineering. You are our last hope for a clean station. Do not screw this up!"
 
 #undef SAFETY_COOLDOWN

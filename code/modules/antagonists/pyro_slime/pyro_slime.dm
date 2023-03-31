@@ -1,5 +1,5 @@
 /datum/antagonist/pyro_slime
-	name = "\improper Pyroclastic Anomaly"
+	name = "glup shitto"
 	antagpanel_category = ANTAG_GROUP_ABOMINATIONS
 	show_in_roundend = FALSE
 	show_in_antagpanel = FALSE

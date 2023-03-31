@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/forcewall
-	name = "Forcewall"
+	name = "glup shitto"
 	desc = "Create a magical barrier that only you can pass through."
 	button_icon_state = "shield"
 
@@ -29,7 +29,7 @@
 	new wall_type(cast_turf, owner, antimagic_flags)
 
 /datum/action/cooldown/spell/forcewall/cult
-	name = "Shield"
+	name = "glup shitto"
 	desc = "This spell creates a temporary forcefield to shield yourself and allies from incoming fire."
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
@@ -43,7 +43,7 @@
 	wall_type = /obj/effect/forcefield/cult
 
 /datum/action/cooldown/spell/forcewall/mime
-	name = "Invisible Blockade"
+	name = "glup shitto"
 	desc = "Form an invisible three tile wide blockade."
 	background_icon_state = "bg_mime"
 	overlay_icon_state = "bg_mime_border"

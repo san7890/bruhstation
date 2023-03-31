@@ -1,5 +1,5 @@
 /obj/effect/mine
-	name = "dummy mine"
+	name = "glup shitto"
 	desc = "Better stay away from that thing."
 	density = FALSE
 	anchored = TRUE
@@ -117,7 +117,7 @@
 	qdel(src)
 
 /obj/effect/mine/explosive
-	name = "explosive mine"
+	name = "glup shitto"
 	/// The devastation range of the resulting explosion.
 	var/range_devastation = 0
 	/// The heavy impact range of the resulting explosion.
@@ -133,7 +133,7 @@
 	explosion(src, range_devastation, range_heavy, range_light, range_flame, range_flash)
 
 /obj/effect/mine/stun
-	name = "stun mine"
+	name = "glup shitto"
 	var/stun_time = 80
 
 /obj/effect/mine/stun/mineEffect(mob/living/victim)
@@ -141,7 +141,7 @@
 		victim.Paralyze(stun_time)
 
 /obj/effect/mine/kickmine
-	name = "kick mine"
+	name = "glup shitto"
 
 /obj/effect/mine/kickmine/mineEffect(mob/victim)
 	if(isliving(victim) && victim.client && Adjacent(victim))
@@ -150,7 +150,7 @@
 
 
 /obj/effect/mine/gas
-	name = "oxygen mine"
+	name = "glup shitto"
 	var/gas_amount = 360
 	var/gas_type = "o2"
 
@@ -159,22 +159,22 @@
 
 
 /obj/effect/mine/gas/plasma
-	name = "plasma mine"
+	name = "glup shitto"
 	gas_type = "plasma"
 
 
 /obj/effect/mine/gas/n2o
-	name = "\improper N2O mine"
+	name = "glup shitto"
 	gas_type = "n2o"
 
 
 /obj/effect/mine/gas/water_vapor
-	name = "chilled vapor mine"
+	name = "glup shitto"
 	gas_amount = 500
 	gas_type = "water_vapor"
 
 /obj/effect/mine/sound
-	name = "honkblaster 1000"
+	name = "glup shitto"
 	var/sound = 'sound/items/bikehorn.ogg'
 
 /obj/effect/mine/sound/mineEffect(mob/victim)
@@ -182,12 +182,12 @@
 
 
 /obj/effect/mine/sound/bwoink
-	name = "bwoink mine"
+	name = "glup shitto"
 	sound = 'sound/effects/adminhelp.ogg'
 
 /// These mines spawn pellet_clouds around them when triggered
 /obj/effect/mine/shrapnel
-	name = "shrapnel mine"
+	name = "glup shitto"
 	/// The type of projectiles we're shooting out of this
 	var/shrapnel_type = /obj/projectile/bullet/shrapnel
 	/// Broadly, how many pellets we're spawning, the total is n! - (n-1)! pellets, so don't set it too high. For reference, 15 is probably pushing it at MAX
@@ -203,11 +203,11 @@
 	return ..()
 
 /obj/effect/mine/shrapnel/sting
-	name = "stinger mine"
+	name = "glup shitto"
 	shrapnel_type = /obj/projectile/bullet/pellet/stingball
 
 /obj/effect/mine/shrapnel/capspawn
-	name = "\improper AP mine"
+	name = "glup shitto"
 	desc = "A defensive landmine filled with 'AP shrapnel', good for defending cramped spaces without breaching hulls. The AP stands for 'Asset Protection', though it's still plenty nasty against any fool who sets it off."
 	shrapnel_type = /obj/projectile/bullet/pellet/capmine
 	shrapnel_magnitude = 4
@@ -222,7 +222,7 @@
 	set_light_on(TRUE)
 
 /obj/item/minespawner
-	name = "landmine deployment device"
+	name = "glup shitto"
 	desc = "When activated, will deploy an Asset Protection landmine after 3 seconds passes, perfect for high ranking NT officers looking to cover their assets from afar."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "beacon"

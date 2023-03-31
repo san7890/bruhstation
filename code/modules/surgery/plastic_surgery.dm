@@ -1,5 +1,5 @@
 /datum/surgery/plastic_surgery
-	name = "Plastic surgery"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_HEAD)
 	steps = list(
 		/datum/surgery_step/incise,
@@ -10,7 +10,7 @@
 
 //reshape_face
 /datum/surgery_step/reshape_face
-	name = "reshape face (scalpel)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_SCALPEL = 100,
 		/obj/item/knife = 50,

@@ -1,5 +1,5 @@
 /obj/item/stack/arcadeticket
-	name = "arcade tickets"
+	name = "glup shitto"
 	desc = "Wow! With enough of these, you could buy a bike! ...Pssh, yeah right."
 	singular_name = "arcade ticket"
 	icon_state = "arcade-ticket"

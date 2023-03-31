@@ -1,5 +1,5 @@
 /mob/living/basic/migo
-	name = "mi-go"
+	name = "glup shitto"
 	desc = "A pinkish, fungoid crustacean-like creature with numerous pairs of clawed appendages and a head covered with waving antennae."
 	icon_state = "mi-go"
 	icon_living = "mi-go"

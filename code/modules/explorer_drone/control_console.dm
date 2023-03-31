@@ -1,5 +1,5 @@
 /obj/machinery/computer/exodrone_control_console
-	name = "exploration drone control console"
+	name = "glup shitto"
 	desc = "control eploration drones from intersteller distances. Communication lag not included."
 	//Currently controlled drone
 	var/obj/item/exodrone/controlled_drone

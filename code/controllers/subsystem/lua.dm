@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(lua)
-	name = "Lua Scripting"
+	name = "glup shitto"
 	runlevels = RUNLEVEL_LOBBY | RUNLEVELS_DEFAULT
 	wait = 0.1 SECONDS
 	flags = SS_OK_TO_FAIL_INIT

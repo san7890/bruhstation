@@ -1,5 +1,5 @@
 /obj/machinery/atmospherics/pipe/layer_manifold
-	name = "layer adaptor"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/pipes/manifold.dmi'
 	icon_state = "manifoldlayer"
 	desc = "A special pipe to bridge pipe layers with."

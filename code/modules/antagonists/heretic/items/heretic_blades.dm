@@ -1,6 +1,6 @@
 
 /obj/item/melee/sickly_blade
-	name = "\improper sickly blade"
+	name = "glup shitto"
 	desc = "A sickly green crescent blade, decorated with an ornamental eye. You feel like you're being watched..."
 	icon = 'icons/obj/eldritch.dmi'
 	icon_state = "eldritch_blade"
@@ -61,7 +61,7 @@
 
 // Path of Rust's blade
 /obj/item/melee/sickly_blade/rust
-	name = "\improper rusted blade"
+	name = "glup shitto"
 	desc = "This crescent blade is decrepit, wasting to rust. \
 		Yet still it bites, ripping flesh and bone with jagged, rotten teeth."
 	icon_state = "rust_blade"
@@ -70,7 +70,7 @@
 
 // Path of Ash's blade
 /obj/item/melee/sickly_blade/ash
-	name = "\improper ashen blade"
+	name = "glup shitto"
 	desc = "Molten and unwrought, a hunk of metal warped to cinders and slag. \
 		Unmade, it aspires to be more than it is, and shears soot-filled wounds with a blunt edge."
 	icon_state = "ash_blade"
@@ -80,7 +80,7 @@
 
 // Path of Flesh's blade
 /obj/item/melee/sickly_blade/flesh
-	name = "\improper bloody blade"
+	name = "glup shitto"
 	desc = "A crescent blade born from a fleshwarped creature. \
 		Keenly aware, it seeks to spread to others the suffering it has endured from its dreadful origins."
 	icon_state = "flesh_blade"
@@ -89,7 +89,7 @@
 
 // Path of Void's blade
 /obj/item/melee/sickly_blade/void
-	name = "\improper void blade"
+	name = "glup shitto"
 	desc = "Devoid of any substance, this blade reflects nothingness. \
 		It is a real depiction of purity, and chaos that ensues after its implementation."
 	icon_state = "void_blade"
@@ -99,7 +99,7 @@
 // Path of the Blade's... blade.
 // Opting for /dark instead of /blade to avoid "sickly_blade/blade".
 /obj/item/melee/sickly_blade/dark
-	name = "\improper sundered blade"
+	name = "glup shitto"
 	desc = "A galliant blade, sundered and torn. \
 		Furiously, the blade cuts. Silver scars bind it forever to its dark purpose."
 	icon_state = "dark_blade"

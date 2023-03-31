@@ -1,5 +1,5 @@
 /datum/traitor_objective/destroy_item
-	name = "Steal %ITEM% and destroy it"
+	name = "glup shitto"
 	description = "Find %ITEM% and destroy it using any means necessary. We can't allow the crew to have %ITEM% as it conflicts with our interests."
 
 	var/list/possible_items = list()

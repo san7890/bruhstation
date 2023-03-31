@@ -1,5 +1,5 @@
 /obj/item/extinguisher
-	name = "fire extinguisher"
+	name = "glup shitto"
 	desc = "A traditional red fire extinguisher."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "fire_extinguisher0"
@@ -47,7 +47,7 @@
 	starting_water = FALSE
 
 /obj/item/extinguisher/mini
-	name = "pocket fire extinguisher"
+	name = "glup shitto"
 	desc = "A light and compact fibreglass-framed model fire extinguisher."
 	icon_state = "miniFE0"
 	worn_icon_state = "miniFE"
@@ -66,7 +66,7 @@
 	starting_water = FALSE
 
 /obj/item/extinguisher/crafted
-	name = "Improvised cooling spray"
+	name = "glup shitto"
 	desc = "Spraycan turned coolant dipsenser. Can be sprayed on containers to cool them. Refll using water."
 	icon_state = "coolant0"
 	worn_icon_state = "miniFE"
@@ -104,7 +104,7 @@
 		create_reagents(max_water, AMOUNT_VISIBLE)
 
 /obj/item/extinguisher/advanced
-	name = "advanced fire extinguisher"
+	name = "glup shitto"
 	desc = "Used to stop thermonuclear fires from spreading inside your engine."
 	icon_state = "foam_extinguisher0"
 	worn_icon_state = "foam_extinguisher"

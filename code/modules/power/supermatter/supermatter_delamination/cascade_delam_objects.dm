@@ -1,5 +1,5 @@
 /obj/crystal_mass
-	name = "crystal mass"
+	name = "glup shitto"
 	desc = "You see this massive crystal mass looming towards you, cracking and screeching at every seemingly random movement."
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "crystal_cascade_1"
@@ -95,7 +95,7 @@
 	return ..()
 
 /obj/cascade_portal
-	name = "Bluespace Rift"
+	name = "glup shitto"
 	desc = "Your mind begins to spin as it tries to comprehend what it sees."
 	icon = 'icons/effects/224x224.dmi'
 	icon_state = "reality"

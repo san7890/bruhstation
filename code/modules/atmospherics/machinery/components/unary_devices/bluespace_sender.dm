@@ -2,7 +2,7 @@
 	icon = 'icons/obj/atmospherics/components/bluespace_gas_selling.dmi'
 	icon_state = "bluespace_sender_off"
 	base_icon_state = "bluespace_sender"
-	name = "Bluespace Gas Sender"
+	name = "glup shitto"
 	desc = "Sends gases to the bluespace network to be shared with the connected vendors, who knows what's beyond!"
 
 	density = TRUE

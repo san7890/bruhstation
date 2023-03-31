@@ -46,7 +46,7 @@
 	update_item_action_buttons()
 
 /obj/item/gun/ballistic/automatic/proto
-	name = "\improper Nanotrasen Saber SMG"
+	name = "glup shitto"
 	desc = "A prototype full-auto 9mm submachine gun, designated 'SABR'. Has a threaded barrel for suppressors."
 	icon_state = "saber"
 	burst_size = 1
@@ -66,7 +66,7 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/automatic/c20r
-	name = "\improper C-20r SMG"
+	name = "glup shitto"
 	desc = "A bullpup three-round burst .45 SMG, designated 'C-20r'. Has a 'Scarborough Arms - Per falcis, per pravitas' buttstamp."
 	icon_state = "c20r"
 	inhand_icon_state = "c20r"
@@ -95,7 +95,7 @@
 	update_appearance()
 
 /obj/item/gun/ballistic/automatic/wt550
-	name = "security auto rifle"
+	name = "glup shitto"
 	desc = "An outdated personal defence weapon. Uses 4.6x30mm rounds and is designated the WT-550 Automatic Rifle."
 	icon_state = "wt550"
 	w_class = WEIGHT_CLASS_BULKY
@@ -117,7 +117,7 @@
 	AddComponent(/datum/component/automatic_fire, 0.3 SECONDS)
 
 /obj/item/gun/ballistic/automatic/plastikov
-	name = "\improper PP-95 SMG"
+	name = "glup shitto"
 	desc = "An ancient 9mm submachine gun pattern updated and simplified to lower costs, though perhaps simplified too much."
 	icon_state = "plastikov"
 	inhand_icon_state = "plastikov"
@@ -132,7 +132,7 @@
 	fire_sound = 'sound/weapons/gun/smg/shot_alt.ogg'
 
 /obj/item/gun/ballistic/automatic/mini_uzi
-	name = "\improper Type U3 Uzi"
+	name = "glup shitto"
 	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
 	icon_state = "miniuzi"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
@@ -143,7 +143,7 @@
 	rack_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
 
 /obj/item/gun/ballistic/automatic/m90
-	name = "\improper M-90gl Carbine"
+	name = "glup shitto"
 	desc = "A three-round burst 5.56 toploading carbine, designated 'M-90gl'. Has an attached underbarrel grenade launcher."
 	desc_controls = "Right-click to use grenade launcher."
 	icon_state = "m90"
@@ -199,7 +199,7 @@
 			. += "[initial(icon_state)]_burst"
 
 /obj/item/gun/ballistic/automatic/tommygun
-	name = "\improper Thompson SMG"
+	name = "glup shitto"
 	desc = "Based on the classic 'Chicago Typewriter'."
 	icon_state = "tommygun"
 	inhand_icon_state = "shotgun"
@@ -220,7 +220,7 @@
 	AddComponent(/datum/component/automatic_fire, 0.1 SECONDS)
 
 /obj/item/gun/ballistic/automatic/ar
-	name = "\improper NT-ARG 'Boarder'"
+	name = "glup shitto"
 	desc = "A robust assault rifle used by Nanotrasen fighting forces."
 	icon_state = "arg"
 	inhand_icon_state = "arg"
@@ -234,7 +234,7 @@
 // L6 SAW //
 
 /obj/item/gun/ballistic/automatic/l6_saw
-	name = "\improper L6 SAW"
+	name = "glup shitto"
 	desc = "A heavily modified 7.12x82mm light machine gun, designated 'L6 SAW'. Has 'Aussec Armoury - 2531' engraved on the receiver below the designation."
 	icon_state = "l6"
 	inhand_icon_state = "l6closedmag"
@@ -319,7 +319,7 @@
 // Old Semi-Auto Rifle //
 
 /obj/item/gun/ballistic/automatic/surplus
-	name = "Surplus Rifle"
+	name = "glup shitto"
 	desc = "One of countless obsolete ballistic rifles that still sees use as a cheap deterrent. Uses 10mm ammo and its bulky frame prevents one-hand firing."
 	icon_state = "surplus"
 	inhand_icon_state = "moistnugget"
@@ -338,7 +338,7 @@
 // Laser rifle (rechargeable magazine) //
 
 /obj/item/gun/ballistic/automatic/laser
-	name = "laser rifle"
+	name = "glup shitto"
 	desc = "Though sometimes mocked for the relatively weak firepower of their energy weapons, the logistic miracle of rechargeable ammunition has given Nanotrasen a decisive edge over many a foe."
 	icon_state = "oldrifle"
 	w_class = WEIGHT_CLASS_BULKY

@@ -3,7 +3,7 @@
 /////////////////////////////////////
 
 /datum/design/leftarm
-	name = "Left Arm"
+	name = "glup shitto"
 	id = "arm/left"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 25)
@@ -11,7 +11,7 @@
 	category = list(RND_CATEGORY_INITIAL, SPECIES_HUMAN, SPECIES_LIZARD, SPECIES_MOTH, SPECIES_PLASMAMAN, SPECIES_ETHEREAL)
 
 /datum/design/rightarm
-	name = "Right Arm"
+	name = "glup shitto"
 	id = "arm/right"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 25)
@@ -19,7 +19,7 @@
 	category = list(RND_CATEGORY_INITIAL, SPECIES_HUMAN, SPECIES_LIZARD, SPECIES_MOTH, SPECIES_PLASMAMAN, SPECIES_ETHEREAL)
 
 /datum/design/leftleg
-	name = "Left Leg"
+	name = "glup shitto"
 	id = "leg/left"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 25)
@@ -27,7 +27,7 @@
 	category = list(RND_CATEGORY_INITIAL, SPECIES_HUMAN, SPECIES_LIZARD, SPECIES_MOTH, SPECIES_PLASMAMAN, SPECIES_ETHEREAL, RND_CATEGORY_LIMBS_DIGITIGRADE)
 
 /datum/design/rightleg
-	name = "Right Leg"
+	name = "glup shitto"
 	id = "leg/right"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 25)
@@ -37,7 +37,7 @@
 //Non-limb limb designs
 
 /datum/design/heart
-	name = "Heart"
+	name = "glup shitto"
 	id = "heart"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 30)
@@ -45,7 +45,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/lungs
-	name = "Lungs"
+	name = "glup shitto"
 	id = "lungs"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 20)
@@ -53,7 +53,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/liver
-	name = "Liver"
+	name = "glup shitto"
 	id = "liver"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 20)
@@ -61,7 +61,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/stomach
-	name = "Stomach"
+	name = "glup shitto"
 	id = "stomach"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 15)
@@ -69,7 +69,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/appendix
-	name = "Appendix"
+	name = "glup shitto"
 	id = "appendix"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 5) //why would you need this
@@ -77,7 +77,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/eyes
-	name = "Eyes"
+	name = "glup shitto"
 	id = "eyes"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10)
@@ -85,7 +85,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/ears
-	name = "Ears"
+	name = "glup shitto"
 	id = "ears"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10)
@@ -93,7 +93,7 @@
 	category = list(SPECIES_HUMAN, RND_CATEGORY_INITIAL)
 
 /datum/design/tongue
-	name = "Tongue"
+	name = "glup shitto"
 	id = "tongue"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10)
@@ -102,7 +102,7 @@
 
 // Grows a fake lizard tail - not usable in lizard wine and other similar recipes.
 /datum/design/lizard_tail
-	name = "Lizard Tail"
+	name = "glup shitto"
 	id = "liztail"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 20)
@@ -110,7 +110,7 @@
 	category = list(SPECIES_LIZARD)
 
 /datum/design/lizard_tongue
-	name = "Forked Tongue"
+	name = "glup shitto"
 	id = "liztongue"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 20)
@@ -118,7 +118,7 @@
 	category = list(SPECIES_LIZARD)
 
 /datum/design/monkey_tail
-	name = "Monkey Tail"
+	name = "glup shitto"
 	id = "monkeytail"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 20)
@@ -126,7 +126,7 @@
 	category = list(RND_CATEGORY_LIMBS_OTHER, RND_CATEGORY_INITIAL)
 
 /datum/design/cat_tail
-	name = "Cat Tail"
+	name = "glup shitto"
 	id = "cattail"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 20)
@@ -134,7 +134,7 @@
 	category = list(SPECIES_HUMAN)
 
 /datum/design/cat_ears
-	name = "Cat Ears"
+	name = "glup shitto"
 	id = "catears"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10)
@@ -142,7 +142,7 @@
 	category = list(SPECIES_HUMAN)
 
 /datum/design/plasmaman_lungs
-	name = "Plasma Filter"
+	name = "glup shitto"
 	id = "plasmamanlungs"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/toxin/plasma = 20)
@@ -150,7 +150,7 @@
 	category = list(SPECIES_PLASMAMAN)
 
 /datum/design/plasmaman_tongue
-	name = "Plasma Bone Tongue"
+	name = "glup shitto"
 	id = "plasmamantongue"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/toxin/plasma = 20)
@@ -158,7 +158,7 @@
 	category = list(SPECIES_PLASMAMAN)
 
 /datum/design/plasmaman_liver
-	name = "Reagent Processing Crystal"
+	name = "glup shitto"
 	id = "plasmamanliver"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/toxin/plasma = 20)
@@ -166,7 +166,7 @@
 	category = list(SPECIES_PLASMAMAN)
 
 /datum/design/plasmaman_stomach
-	name = "Digestive Crystal"
+	name = "glup shitto"
 	id = "plasmamanstomach"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/toxin/plasma = 20)
@@ -174,7 +174,7 @@
 	category = list(SPECIES_PLASMAMAN)
 
 /datum/design/ethereal_stomach
-	name = "Biological Battery"
+	name = "glup shitto"
 	id = "etherealstomach"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/consumable/liquidelectricity/enriched = 20)
@@ -182,7 +182,7 @@
 	category = list(SPECIES_ETHEREAL)
 
 /datum/design/ethereal_tongue
-	name = "Electrical Discharger"
+	name = "glup shitto"
 	id = "etherealtongue"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/consumable/liquidelectricity/enriched = 20)
@@ -190,7 +190,7 @@
 	category = list(SPECIES_ETHEREAL)
 
 /datum/design/ethereal_lungs
-	name = "Aeration Reticulum"
+	name = "glup shitto"
 	id = "ethereallungs"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/consumable/liquidelectricity/enriched = 20)
@@ -199,7 +199,7 @@
 
 // Intentionally not growable by normal means - for balance conerns.
 /datum/design/ethereal_heart
-	name = "Crystal Core"
+	name = "glup shitto"
 	id = "etherealheart"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 10, /datum/reagent/consumable/liquidelectricity/enriched = 20)
@@ -207,7 +207,7 @@
 	category = list(SPECIES_ETHEREAL)
 
 /datum/design/armblade
-	name = "Arm Blade"
+	name = "glup shitto"
 	id = "armblade"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/c2/synthflesh = 75)
@@ -216,7 +216,7 @@
 
 /// Design disks and designs - for adding limbs and organs to the limbgrower.
 /obj/item/disk/design_disk/limbs
-	name = "Limb Design Disk"
+	name = "glup shitto"
 	desc = "A disk containing limb and organ designs for a limbgrower."
 	icon_state = "datadisk1"
 	/// List of all limb designs this disk contains.
@@ -229,7 +229,7 @@
 		blueprints += new new_design
 
 /datum/design/limb_disk
-	name = "Limb Design Disk"
+	name = "glup shitto"
 	desc = "Contains designs for various limbs."
 	id = "limbdesign_parent"
 	build_type = PROTOLATHE
@@ -241,41 +241,41 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /obj/item/disk/design_disk/limbs/felinid
-	name = "Felinid Organ Design Disk"
+	name = "glup shitto"
 	limb_designs = list(/datum/design/cat_tail, /datum/design/cat_ears)
 
 /datum/design/limb_disk/felinid
-	name = "Felinid Organ Design Disk"
+	name = "glup shitto"
 	desc = "Contains designs for felinid organs for the limbgrower - Felinid ears and tail."
 	id = "limbdesign_felinid"
 	build_path = /obj/item/disk/design_disk/limbs/felinid
 
 /obj/item/disk/design_disk/limbs/lizard
-	name = "Lizard Organ Design Disk"
+	name = "glup shitto"
 	limb_designs = list(/datum/design/lizard_tail, /datum/design/lizard_tongue)
 
 /datum/design/limb_disk/lizard
-	name = "Lizard Organ Design Disk"
+	name = "glup shitto"
 	desc = "Contains designs for lizard organs for the limbgrower - Lizard tongue, and tail"
 	id = "limbdesign_lizard"
 	build_path = /obj/item/disk/design_disk/limbs/lizard
 
 /obj/item/disk/design_disk/limbs/plasmaman
-	name = "Plasmaman Organ Design Disk"
+	name = "glup shitto"
 	limb_designs = list(/datum/design/plasmaman_stomach, /datum/design/plasmaman_liver, /datum/design/plasmaman_lungs, /datum/design/plasmaman_tongue)
 
 /datum/design/limb_disk/plasmaman
-	name = "Plasmaman Organ Design Disk"
+	name = "glup shitto"
 	desc = "Contains designs for plasmaman organs for the limbgrower - Plasmaman tongue, liver, stomach, and lungs."
 	id = "limbdesign_plasmaman"
 	build_path = /obj/item/disk/design_disk/limbs/plasmaman
 
 /obj/item/disk/design_disk/limbs/ethereal
-	name = "Ethereal Organ Design Disk"
+	name = "glup shitto"
 	limb_designs = list(/datum/design/ethereal_stomach, /datum/design/ethereal_tongue, /datum/design/ethereal_lungs)
 
 /datum/design/limb_disk/ethereal
-	name = "Ethereal Organ Design Disk"
+	name = "glup shitto"
 	desc = "Contains designs for ethereal organs for the limbgrower - Ethereal tongue and stomach."
 	id = "limbdesign_ethereal"
 	build_path = /obj/item/disk/design_disk/limbs/ethereal

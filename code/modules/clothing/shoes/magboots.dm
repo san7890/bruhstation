@@ -2,7 +2,7 @@
 	bio = 90
 
 /obj/item/clothing/shoes/magboots
-	name = "magboots"
+	name = "glup shitto"
 	desc = "Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle."
 	icon_state = "magboots0"
 	base_icon_state = "magboots"
@@ -65,7 +65,7 @@
 	icon_state = "[base_icon_state][magpulse]"
 
 /obj/item/clothing/shoes/magboots/advance
-	name = "advanced magboots"
+	name = "glup shitto"
 	desc = "Advanced magnetic boots that have a lighter magnetic pull, placing less burden on the wearer."
 	icon_state = "advmag0"
 	base_icon_state = "advmag"
@@ -73,7 +73,7 @@
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/shoes/magboots/syndie
-	name = "blood-red magboots"
+	name = "glup shitto"
 	desc = "Reverse-engineered magnetic boots that have a heavy magnetic pull. Property of Gorlex Marauders."
 	icon_state = "syndiemag0"
 	base_icon_state = "syndiemag"

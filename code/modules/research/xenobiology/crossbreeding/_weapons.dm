@@ -6,7 +6,7 @@ Slimecrossing Weapons
 
 //Boneblade - Burning Green
 /obj/item/melee/arm_blade/slime
-	name = "slimy boneblade"
+	name = "glup shitto"
 	desc = "What remains of the bones in your arm. Incredibly sharp, and painful for both you and your opponents."
 	force = 15
 	force_string = "painful"
@@ -18,7 +18,7 @@ Slimecrossing Weapons
 
 //Rainbow knife - Burning Rainbow
 /obj/item/knife/rainbowknife
-	name = "rainbow knife"
+	name = "glup shitto"
 	desc = "A strange, transparent knife which constantly shifts color. It hums slightly when moved."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "rainbowknife"
@@ -55,7 +55,7 @@ Slimecrossing Weapons
 
 //Adamantine shield - Chilling Adamantine
 /obj/item/shield/adamantineshield
-	name = "adamantine shield"
+	name = "glup shitto"
 	desc = "A gigantic shield made of solid adamantium."
 	icon = 'icons/obj/weapons/shields.dmi'
 	icon_state = "adamshield"
@@ -86,7 +86,7 @@ Slimecrossing Weapons
 
 //Bloodchiller - Chilling Green
 /obj/item/gun/magic/bloodchill
-	name = "blood chiller"
+	name = "glup shitto"
 	desc = "A horrifying weapon made of your own bone and blood vessels. It shoots slowing globules of your own blood. Ech."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "bloodgun"
@@ -123,7 +123,7 @@ Slimecrossing Weapons
 	projectile_type = /obj/projectile/magic/bloodchill
 
 /obj/projectile/magic/bloodchill
-	name = "blood ball"
+	name = "glup shitto"
 	icon_state = "pulse0_bl"
 	hitsound = 'sound/effects/splat.ogg'
 

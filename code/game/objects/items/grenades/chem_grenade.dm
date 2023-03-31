@@ -1,5 +1,5 @@
 /obj/item/grenade/chem_grenade
-	name = "chemical grenade"
+	name = "glup shitto"
 	desc = "A custom made grenade."
 	icon_state = "chemg"
 	base_icon_state = "chemg"
@@ -252,7 +252,7 @@
 
 //Large chem grenades accept slime cores and use the appropriately.
 /obj/item/grenade/chem_grenade/large
-	name = "large grenade"
+	name = "glup shitto"
 	desc = "A custom made large grenade. Larger splash range and increased ignition temperature compared to basic grenades. Fits exotic and bluespace based containers."
 	casedesc = "This casing affects a larger area than the basic model and can fit exotic containers, including slime cores and bluespace beakers. Heats contents by 25 K upon ignition."
 	icon_state = "large_grenade"
@@ -327,7 +327,7 @@
 	beakers += item
 
 /obj/item/grenade/chem_grenade/cryo // Intended for rare cryogenic mixes. Cools the area moderately upon detonation.
-	name = "cryo grenade"
+	name = "glup shitto"
 	desc = "A custom made cryogenic grenade. Rapidly cools contents upon ignition."
 	casedesc = "Upon ignition, it rapidly cools contents by 100 K. Smaller splash range than regular casings."
 	icon_state = "cryog"
@@ -336,7 +336,7 @@
 	ignition_temp = -100
 
 /obj/item/grenade/chem_grenade/pyro // Intended for pyrotechnical mixes. Produces a small fire upon detonation, igniting potentially flammable mixtures.
-	name = "pyro grenade"
+	name = "glup shitto"
 	desc = "A custom made pyrotechnical grenade. Heats up contents upon ignition."
 	casedesc = "Upon ignition, it rapidly heats contents by 500 K."
 	icon_state = "pyrog"
@@ -344,7 +344,7 @@
 	ignition_temp = 500 // This is enough to expose a hotspot.
 
 /obj/item/grenade/chem_grenade/adv_release // Intended for weaker, but longer lasting effects. Could have some interesting uses.
-	name = "advanced release grenade"
+	name = "glup shitto"
 	desc = "A custom made advanced release grenade. It is able to be detonated more than once. Can be configured using a multitool."
 	casedesc = "This casing is able to detonate more than once. Can be configured using a multitool."
 	icon_state = "timeg"
@@ -393,7 +393,7 @@
 //////////////////////////////
 
 /obj/item/grenade/chem_grenade/metalfoam
-	name = "metal foam grenade"
+	name = "glup shitto"
 	desc = "Used for emergency sealing of hull breaches."
 	stage = GRENADE_READY
 
@@ -411,7 +411,7 @@
 
 
 /obj/item/grenade/chem_grenade/smart_metal_foam
-	name = "smart metal foam grenade"
+	name = "glup shitto"
 	desc = "Used for emergency sealing of hull breaches, while keeping areas accessible."
 	stage = GRENADE_READY
 
@@ -429,7 +429,7 @@
 
 
 /obj/item/grenade/chem_grenade/incendiary
-	name = "incendiary grenade"
+	name = "glup shitto"
 	desc = "Used for clearing rooms of living things."
 	stage = GRENADE_READY
 
@@ -447,7 +447,7 @@
 
 
 /obj/item/grenade/chem_grenade/antiweed
-	name = "weedkiller grenade"
+	name = "glup shitto"
 	desc = "Used for purging large areas of invasive plant species. Contents under pressure. Do not directly inhale contents."
 	stage = GRENADE_READY
 
@@ -466,7 +466,7 @@
 
 
 /obj/item/grenade/chem_grenade/cleaner
-	name = "cleaner grenade"
+	name = "glup shitto"
 	desc = "BLAM!-brand foaming space cleaner. In a special applicator for rapid cleaning of wide areas."
 	stage = GRENADE_READY
 
@@ -484,7 +484,7 @@
 
 
 /obj/item/grenade/chem_grenade/ez_clean
-	name = "cleaner grenade"
+	name = "glup shitto"
 	desc = "Waffle Co.-brand foaming space cleaner. In a special applicator for rapid cleaning of wide areas."
 	stage = GRENADE_READY
 
@@ -503,7 +503,7 @@
 
 
 /obj/item/grenade/chem_grenade/teargas
-	name = "teargas grenade"
+	name = "glup shitto"
 	desc = "Used for nonlethal riot control. Contents under pressure. Do not directly inhale contents."
 	stage = GRENADE_READY
 
@@ -522,7 +522,7 @@
 
 
 /obj/item/grenade/chem_grenade/facid
-	name = "acid grenade"
+	name = "glup shitto"
 	desc = "Used for melting armoured opponents."
 	stage = GRENADE_READY
 
@@ -542,7 +542,7 @@
 
 
 /obj/item/grenade/chem_grenade/colorful
-	name = "colorful grenade"
+	name = "glup shitto"
 	desc = "Used for wide scale painting projects."
 	stage = GRENADE_READY
 
@@ -560,7 +560,7 @@
 	beakers += beaker_two
 
 /obj/item/grenade/chem_grenade/glitter
-	name = "generic glitter grenade"
+	name = "glup shitto"
 	desc = "You shouldn't see this description."
 	stage = GRENADE_READY
 	var/glitter_type = /datum/reagent/glitter
@@ -579,22 +579,22 @@
 	beakers += beaker_two
 
 /obj/item/grenade/chem_grenade/glitter/pink
-	name = "pink glitter bomb"
+	name = "glup shitto"
 	desc = "For that HOT glittery look."
 	glitter_type = /datum/reagent/glitter/pink
 
 /obj/item/grenade/chem_grenade/glitter/blue
-	name = "blue glitter bomb"
+	name = "glup shitto"
 	desc = "For that COOL glittery look."
 	glitter_type = /datum/reagent/glitter/blue
 
 /obj/item/grenade/chem_grenade/glitter/white
-	name = "white glitter bomb"
+	name = "glup shitto"
 	desc = "For that somnolent glittery look."
 	glitter_type = /datum/reagent/glitter/white
 
 /obj/item/grenade/chem_grenade/clf3
-	name = "clf3 grenade"
+	name = "glup shitto"
 	desc = "BURN!-brand foaming clf3. In a special applicator for rapid purging of wide areas."
 	stage = GRENADE_READY
 
@@ -612,7 +612,7 @@
 	beakers += beaker_two
 
 /obj/item/grenade/chem_grenade/bioterrorfoam
-	name = "Bio terror foam grenade"
+	name = "glup shitto"
 	desc = "Tiger Cooperative chemical foam grenade. Causes temporary irration, blindness, confusion, mutism, and mutations to carbon based life forms. Contains additional spore toxin."
 	stage = GRENADE_READY
 
@@ -632,7 +632,7 @@
 	beakers += beaker_two
 
 /obj/item/grenade/chem_grenade/tuberculosis
-	name = "Fungal tuberculosis grenade"
+	name = "glup shitto"
 	desc = "WARNING: GRENADE WILL RELEASE DEADLY SPORES CONTAINING ACTIVE AGENTS. SEAL SUIT AND AIRFLOW BEFORE USE."
 	stage = GRENADE_READY
 
@@ -651,7 +651,7 @@
 	beakers += beaker_two
 
 /obj/item/grenade/chem_grenade/holy
-	name = "holy hand grenade"
+	name = "glup shitto"
 	desc = "A vessel of concentrated religious might."
 	icon_state = "holy_grenade"
 	base_icon_state = "holy_grenade"

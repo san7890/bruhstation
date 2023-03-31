@@ -2,7 +2,7 @@
 #define MAX_DISARM_CHANCE 75
 
 /obj/item/toy/basketball
-	name = "basketball"
+	name = "glup shitto"
 	icon = 'icons/obj/toys/balls.dmi'
 	icon_state = "basketball"
 	inhand_icon_state = "basketball"

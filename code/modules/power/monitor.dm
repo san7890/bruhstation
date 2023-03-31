@@ -1,7 +1,7 @@
 //modular computer program version is located in code\modules\modular_computers\file_system\programs\powermonitor.dm, /datum/computer_file/program/power_monitor
 
 /obj/machinery/computer/monitor
-	name = "power monitoring console"
+	name = "glup shitto"
 	desc = "It monitors power levels across the station."
 	icon_screen = "power"
 	icon_keyboard = "power_key"

@@ -1,5 +1,5 @@
 /datum/species/abductor
-	name = "Abductor"
+	name = "glup shitto"
 	id = SPECIES_ABDUCTOR
 	sexes = FALSE
 	species_traits = list(

@@ -1,7 +1,7 @@
 // This contains all boxes with edible stuffs or stuff related to edible stuffs.
 
 /obj/item/storage/box/donkpockets
-	name = "box of donk-pockets"
+	name = "glup shitto"
 	desc = "Instructions: Heat in microwave. Product will stay perpetually warmed with cutting edge Donk Co. technology."
 	icon_state = "donkpocketbox"
 	illustration = null
@@ -17,37 +17,37 @@
 	atom_storage.set_holdable(list(/obj/item/food/donkpocket))
 
 /obj/item/storage/box/donkpockets/donkpocketspicy
-	name = "box of spicy-flavoured donk-pockets"
+	name = "glup shitto"
 	icon_state = "donkpocketboxspicy"
 	donktype = /obj/item/food/donkpocket/spicy
 
 /obj/item/storage/box/donkpockets/donkpocketteriyaki
-	name = "box of teriyaki-flavoured donk-pockets"
+	name = "glup shitto"
 	icon_state = "donkpocketboxteriyaki"
 	donktype = /obj/item/food/donkpocket/teriyaki
 
 /obj/item/storage/box/donkpockets/donkpocketpizza
-	name = "box of pizza-flavoured donk-pockets"
+	name = "glup shitto"
 	icon_state = "donkpocketboxpizza"
 	donktype = /obj/item/food/donkpocket/pizza
 
 /obj/item/storage/box/donkpockets/donkpocketgondola
-	name = "box of gondola-flavoured donk-pockets"
+	name = "glup shitto"
 	icon_state = "donkpocketboxgondola"
 	donktype = /obj/item/food/donkpocket/gondola
 
 /obj/item/storage/box/donkpockets/donkpocketberry
-	name = "box of berry-flavoured donk-pockets"
+	name = "glup shitto"
 	icon_state = "donkpocketboxberry"
 	donktype = /obj/item/food/donkpocket/berry
 
 /obj/item/storage/box/donkpockets/donkpockethonk
-	name = "box of banana-flavoured donk-pockets"
+	name = "glup shitto"
 	icon_state = "donkpocketboxbanana"
 	donktype = /obj/item/food/donkpocket/honk
 
 /obj/item/storage/box/papersack
-	name = "paper sack"
+	name = "glup shitto"
 	desc = "A sack neatly crafted out of paper."
 	icon = 'icons/obj/storage/paperbag.dmi'
 	icon_state = "paperbag_None"
@@ -144,7 +144,7 @@
 		new /obj/item/food/meat/slab(src)
 
 /obj/item/storage/box/ingredients //This box is for the randomly chosen version the chef used to spawn with, it shouldn't actually exist.
-	name = "ingredients box"
+	name = "glup shitto"
 	illustration = "fruit"
 	var/theme_name
 
@@ -319,7 +319,7 @@
 	return INITIALIZE_HINT_QDEL
 
 /obj/item/storage/box/gum
-	name = "bubblegum packet"
+	name = "glup shitto"
 	desc = "The packaging is entirely in Japanese, apparently. You can't make out a single word of it."
 	icon = 'icons/obj/storage/gum.dmi'
 	icon_state = "bubblegum_generic"
@@ -338,7 +338,7 @@
 		new/obj/item/food/bubblegum(src)
 
 /obj/item/storage/box/gum/nicotine
-	name = "nicotine gum packet"
+	name = "glup shitto"
 	desc = "Designed to help with nicotine addiction and oral fixation all at once without destroying your lungs in the process. Mint flavored!"
 	icon_state = "bubblegum_nicotine"
 	custom_premium_price = PAYCHECK_CREW * 1.5
@@ -348,7 +348,7 @@
 		new/obj/item/food/bubblegum/nicotine(src)
 
 /obj/item/storage/box/gum/happiness
-	name = "HP+ gum packet"
+	name = "glup shitto"
 	desc = "A seemingly homemade packaging with an odd smell. It has a weird drawing of a smiling face sticking out its tongue."
 	icon_state = "bubblegum_happiness"
 	custom_price = PAYCHECK_COMMAND * 3
@@ -364,7 +364,7 @@
 		new/obj/item/food/bubblegum/happiness(src)
 
 /obj/item/storage/box/gum/bubblegum
-	name = "bubblegum gum packet"
+	name = "glup shitto"
 	desc = "The packaging is entirely in Demonic, apparently. You feel like even opening this would be a sin."
 	icon_state = "bubblegum_bubblegum"
 
@@ -373,7 +373,7 @@
 		new/obj/item/food/bubblegum/bubblegum(src)
 
 /obj/item/storage/box/mothic_rations
-	name = "Mothic Rations Pack"
+	name = "glup shitto"
 	desc = "A box containing a few rations and some Activin gum, for keeping a starving moth going."
 	icon_state = "moth_package"
 	illustration = null
@@ -391,7 +391,7 @@
 	new /obj/item/storage/box/gum/wake_up(src)
 
 /obj/item/storage/box/tiziran_goods
-	name = "Tiziran Farm-Fresh Pack"
+	name = "glup shitto"
 	desc = "A box containing an assortment of fresh Tiziran goods- perfect for making the foods of the Lizard Empire."
 	icon_state = "lizard_package"
 	illustration = null
@@ -413,7 +413,7 @@
 		new random_food(src)
 
 /obj/item/storage/box/tiziran_cans
-	name = "Tiziran Canned Goods Pack"
+	name = "glup shitto"
 	desc = "A box containing an assortment of canned Tiziran goods- to be eaten as is, or used in cooking."
 	icon_state = "lizard_package"
 	illustration = null
@@ -428,7 +428,7 @@
 		new random_food(src)
 
 /obj/item/storage/box/tiziran_meats
-	name = "Tiziran Meatmarket Pack"
+	name = "glup shitto"
 	desc = "A box containing an assortment of fresh-frozen Tiziran meats and fish- the keys to lizard cooking."
 	icon_state = "lizard_package"
 	illustration = null
@@ -444,7 +444,7 @@
 		new random_food(src)
 
 /obj/item/storage/box/mothic_goods
-	name = "Mothic Farm-Fresh Pack"
+	name = "glup shitto"
 	desc = "A box containing an assortment of Mothic cooking supplies."
 	icon_state = "moth_package"
 	illustration = null
@@ -465,7 +465,7 @@
 		new random_food(src)
 
 /obj/item/storage/box/mothic_cans_sauces
-	name = "Mothic Pantry Pack"
+	name = "glup shitto"
 	desc = "A box containing an assortment of Mothic canned goods and premade sauces."
 	icon_state = "moth_package"
 	illustration = null
@@ -482,7 +482,7 @@
 		new random_food(src)
 
 /obj/item/storage/box/condimentbottles
-	name = "box of condiment bottles"
+	name = "glup shitto"
 	desc = "It has a large ketchup smear on it."
 	illustration = "condiment"
 
@@ -493,7 +493,7 @@
 
 /obj/item/storage/box/coffeepack
 	icon_state = "arabica_beans"
-	name = "arabica beans"
+	name = "glup shitto"
 	desc = "A bag containing fresh, dry coffee arabica beans. Ethically sourced and packaged by Waffle Corp."
 	illustration = null
 	icon = 'icons/obj/food/containers.dmi'
@@ -512,6 +512,6 @@
 
 /obj/item/storage/box/coffeepack/robusta
 	icon_state = "robusta_beans"
-	name = "robusta beans"
+	name = "glup shitto"
 	desc = "A bag containing fresh, dry coffee robusta beans. Ethically sourced and packaged by Waffle Corp."
 	beantype = /obj/item/food/grown/coffee/robusta

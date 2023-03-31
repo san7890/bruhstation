@@ -6,7 +6,7 @@
 #define SCANNER_VERBOSE 1
 
 /obj/item/healthanalyzer
-	name = "health analyzer"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "health"
 	inhand_icon_state = "healthanalyzer"
@@ -454,7 +454,7 @@
 	to_chat(user, mode == SCANNER_VERBOSE ? "The scanner now shows specific limb damage." : "The scanner no longer shows limb damage.")
 
 /obj/item/healthanalyzer/advanced
-	name = "advanced health analyzer"
+	name = "glup shitto"
 	icon_state = "health_adv"
 	desc = "A hand-held body scanner able to distinguish vital signs of the subject with high accuracy."
 	advanced = TRUE
@@ -484,7 +484,7 @@
 		to_chat(user, examine_block(jointext(render_list, "")), type = MESSAGE_TYPE_INFO)
 
 /obj/item/healthanalyzer/wound
-	name = "first aid analyzer"
+	name = "glup shitto"
 	icon_state = "adv_spectrometer"
 	desc = "A prototype MeLo-Tech medical scanner used to diagnose injuries and recommend treatment for serious wounds, but offers no further insight into the patient's health. You hope the final version is less annoying to read!"
 	var/next_encouragement

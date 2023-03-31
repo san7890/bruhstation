@@ -7,7 +7,7 @@
  * Bonus: Causes blindness.
 */
 /datum/symptom/visionloss
-	name = "Hyphema"
+	name = "glup shitto"
 	desc = "Sufferers exhibit dangerously low levels of frames per second in the eyes, leading to damage and eventually blindness."
 	illness = "Diluted Pupils"
 	stealth = -1

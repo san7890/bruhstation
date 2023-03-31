@@ -1,5 +1,5 @@
 /obj/projectile/meteor
-	name = "meteor"
+	name = "glup shitto"
 	icon = 'icons/obj/meteor.dmi'
 	icon_state = "small1"
 	damage = 90

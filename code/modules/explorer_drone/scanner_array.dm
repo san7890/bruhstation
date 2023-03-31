@@ -76,7 +76,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 	deltimer(scan_timer)
 
 /obj/machinery/computer/exoscanner_control
-	name = "Scanner Array Control Console"
+	name = "glup shitto"
 	/// If scan was interrupted show a popup until dismissed.
 	var/failed_popup = FALSE
 	/// Site we're configuring targeted scans for.
@@ -191,7 +191,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 		config_flags = EXPERIMENT_CONFIG_ALWAYS_ACTIVE)
 
 /obj/machinery/exoscanner
-	name = "Scanner array"
+	name = "glup shitto"
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "scanner_off"
 	desc = "Sophisticated scanning array. Easily influenced by enviroment."
@@ -318,7 +318,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 	return 1
 
 /datum/scan_condition/nebula
-	name = "Nebula"
+	name = "glup shitto"
 	description = "Site is within a unusually dense nebula, to reduce scanner noise position dishes at least 15 tiles apart"
 	var/distance = 15
 
@@ -329,7 +329,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 	return 1
 
 /datum/scan_condition/pulsar
-	name = "Pulsar"
+	name = "glup shitto"
 	description = "Pulsar near the site requires dishes to be shielded from electomagnetic noise, ensure no other machines are working near the dish."
 	var/distance = 2
 
@@ -340,7 +340,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 	return 1
 
 /datum/scan_condition/asteroid_belt
-	name = "Asteroid Belt"
+	name = "glup shitto"
 	description = "An asteroid belt is obscuring the direct line of sight from the station to the site, ensure the dishes are placed outside of station z level."
 
 /datum/scan_condition/asteroid_belt/check_dish(obj/machinery/exoscanner/dish)
@@ -348,7 +348,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 	return is_station_level(dish_turf.z) ? 0 : 1
 
 /datum/scan_condition/black_hole
-	name = "Black Hole"
+	name = "glup shitto"
 	description = "Background black hole requires you to focus the scan point precisely, ensure the dishes isolated from rest of the station with at least 6 walls around them."
 
 /datum/scan_condition/black_hole/check_dish(obj/machinery/exoscanner/dish)
@@ -359,7 +359,7 @@ GLOBAL_LIST_INIT(scan_conditions,init_scan_conditions())
 	return wall_count > 6 ? 1 : 0
 
 /datum/scan_condition/easy
-	name = "Easy Scan"
+	name = "glup shitto"
 	description = "This site is very easy to scan, all dish power is doubled."
 
 /datum/scan_condition/easy/check_dish(obj/machinery/exoscanner/dish)

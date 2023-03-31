@@ -1,6 +1,6 @@
 //does brute damage through armor and bio resistance
 /datum/blobstrain/reagent/reactive_spines
-	name = "Reactive Spines"
+	name = "glup shitto"
 	description = "will do high brute damage through armor and bio resistance."
 	effectdesc = "will also react when attacked with burn or brute damage, attacking everything in melee range."
 	analyzerdescdamage = "Does high brute damage, ignoring armor and bio resistance."
@@ -30,7 +30,7 @@
 	return ..()
 
 /datum/reagent/blob/reactive_spines
-	name = "Reactive Spines"
+	name = "glup shitto"
 	taste_description = "rock"
 	color = "#9ACD32"
 

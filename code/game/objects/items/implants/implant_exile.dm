@@ -2,7 +2,7 @@
 //This will allow security to exile badguys/for badguys to exile their kill targets
 
 /obj/item/implant/exile
-	name = "exile implant"
+	name = "glup shitto"
 	desc = "Prevents you from returning from away missions."
 	actions_types = null
 
@@ -15,7 +15,7 @@
 
 ///Used to help the staff of the space hotel resist the urge to use the space hotel's incredibly alluring roundstart teleporter to ignore their flavor/greeting text and come to the station.
 /obj/item/implant/exile/noteleport
-	name = "anti-teleportation implant"
+	name = "glup shitto"
 	desc = "Uses impressive bluespace grounding techniques to deny the person implanted by this implant the ability to teleport (or be teleported). Used by certain slavers (or particularly strict employers) to keep their slaves from using teleporters to escape their grasp."
 
 /obj/item/implant/exile/noteleport/get_data()
@@ -41,19 +41,19 @@
 	return TRUE
 
 /obj/item/implanter/exile
-	name = "implanter (exile)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/exile
 
 /obj/item/implanter/exile/noteleport
-	name = "implanter (anti-teleportation)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/exile/noteleport
 
 /obj/item/implantcase/exile
-	name = "implant case - 'Exile'"
+	name = "glup shitto"
 	desc = "A glass case containing an exile implant."
 	imp_type = /obj/item/implant/exile
 
 /obj/item/implantcase/exile/noteleport
-	name = "implant case - 'Anti-Teleportation'"
+	name = "glup shitto"
 	desc = "A glass case containing an anti-teleportation implant."
 	imp_type = /obj/item/implant/exile/noteleport

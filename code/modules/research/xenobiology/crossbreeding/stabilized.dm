@@ -7,7 +7,7 @@ Stabilized extracts:
 //Status effect will automatically be applied while held, and lost on drop.
 
 /obj/item/slimecross/stabilized
-	name = "stabilized extract"
+	name = "glup shitto"
 	desc = "It seems inert, but anything it touches glows softly..."
 	effect = "stabilized"
 	icon_state = "stabilized"

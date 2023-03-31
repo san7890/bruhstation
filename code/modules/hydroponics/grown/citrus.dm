@@ -1,7 +1,7 @@
 // Citrus - base type
 /obj/item/food/grown/citrus
 	seed = /obj/item/seeds/lime
-	name = "citrus"
+	name = "glup shitto"
 	desc = "It's so sour, your face will twist."
 	icon_state = "lime"
 	foodtypes = FRUIT
@@ -9,7 +9,7 @@
 
 // Lime
 /obj/item/seeds/lime
-	name = "pack of lime seeds"
+	name = "glup shitto"
 	desc = "These are very sour seeds."
 	icon_state = "seed-lime"
 	species = "lime"
@@ -26,14 +26,14 @@
 
 /obj/item/food/grown/citrus/lime
 	seed = /obj/item/seeds/lime
-	name = "lime"
+	name = "glup shitto"
 	desc = "It's so sour, your face will twist."
 	icon_state = "lime"
 	juice_results = list(/datum/reagent/consumable/limejuice = 0)
 
 // Orange
 /obj/item/seeds/orange
-	name = "pack of orange seeds"
+	name = "glup shitto"
 	desc = "Sour seeds."
 	icon_state = "seed-orange"
 	species = "orange"
@@ -52,7 +52,7 @@
 
 /obj/item/food/grown/citrus/orange
 	seed = /obj/item/seeds/orange
-	name = "orange"
+	name = "glup shitto"
 	desc = "It's a tangy fruit."
 	icon_state = "orange"
 	foodtypes = ORANGES
@@ -61,7 +61,7 @@
 
 // Lemon
 /obj/item/seeds/lemon
-	name = "pack of lemon seeds"
+	name = "glup shitto"
 	desc = "These are sour seeds."
 	icon_state = "seed-lemon"
 	species = "lemon"
@@ -79,14 +79,14 @@
 
 /obj/item/food/grown/citrus/lemon
 	seed = /obj/item/seeds/lemon
-	name = "lemon"
+	name = "glup shitto"
 	desc = "When life gives you lemons, make lemonade."
 	icon_state = "lemon"
 	juice_results = list(/datum/reagent/consumable/lemonjuice = 0)
 
 // Combustible lemon
 /obj/item/seeds/firelemon //combustible lemon is too long so firelemon
-	name = "pack of combustible lemon seeds"
+	name = "glup shitto"
 	desc = "When life gives you lemons, don't make lemonade. Make life take the lemons back! Get mad! I don't want your damn lemons!"
 	icon_state = "seed-firelemon"
 	species = "firelemon"
@@ -103,7 +103,7 @@
 
 /obj/item/food/grown/firelemon
 	seed = /obj/item/seeds/firelemon
-	name = "Combustible Lemon"
+	name = "glup shitto"
 	desc = "Made for burning houses down."
 	icon_state = "firelemon"
 	alt_icon = "firelemon_active"
@@ -112,7 +112,7 @@
 
 //3D Orange
 /obj/item/seeds/orange_3d
-	name = "pack of extradimensional orange seeds"
+	name = "glup shitto"
 	desc = "Polygonal seeds."
 	icon_state = "seed-orange"
 	species = "orange"
@@ -131,7 +131,7 @@
 
 /obj/item/food/grown/citrus/orange_3d
 	seed = /obj/item/seeds/orange_3d
-	name = "extradimensional orange"
+	name = "glup shitto"
 	desc = "You can hardly wrap your head around this thing."
 	icon_state = "orang"
 	foodtypes = ORANGES

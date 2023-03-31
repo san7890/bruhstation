@@ -1,5 +1,5 @@
 /datum/language/uncommon
-	name = "Galactic Uncommon"
+	name = "glup shitto"
 	desc = "The second-most spoken Human language."
 	key = "!"
 	flags = TONGUELESS_SPEECH

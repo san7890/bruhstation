@@ -1,7 +1,7 @@
 /obj/item/picket_sign
 	icon_state = "picket"
 	inhand_icon_state = "picket"
-	name = "blank picket sign"
+	name = "glup shitto"
 	desc = "It's blank."
 	force = 5
 	w_class = WEIGHT_CLASS_BULKY
@@ -13,7 +13,7 @@
 	COOLDOWN_DECLARE(picket_sign_cooldown)
 
 /obj/item/picket_sign/cyborg
-	name = "metallic nano-sign"
+	name = "glup shitto"
 	desc = "A high tech picket sign used by silicons that can reprogram its surface at will. Probably hurts to get hit by, too."
 	force = 13
 	resistance_flags = NONE
@@ -58,7 +58,7 @@
 	user.changeNext_move(CLICK_CD_MELEE)
 
 /datum/action/item_action/nano_picket_sign
-	name = "Retext Nano Picket Sign"
+	name = "glup shitto"
 
 /datum/action/item_action/nano_picket_sign/Trigger(trigger_flags)
 	if(!istype(target, /obj/item/picket_sign))
@@ -67,7 +67,7 @@
 	sign.retext(owner)
 
 /datum/crafting_recipe/picket_sign
-	name = "Picket Sign"
+	name = "glup shitto"
 	result = /obj/item/picket_sign
 	reqs = list(/obj/item/stack/rods = 1,
 				/obj/item/stack/sheet/cardboard = 2)

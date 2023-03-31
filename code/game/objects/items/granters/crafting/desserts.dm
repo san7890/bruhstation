@@ -1,6 +1,6 @@
 
 /obj/item/book/granter/crafting_recipe/cooking_sweets_101
-	name = "Cooking Desserts 101"
+	name = "glup shitto"
 	desc = "A cook book that teaches you some more of the newest desserts. AI approved, and a best seller on Honkplanet."
 	crafting_recipe_types = list(
 		/datum/crafting_recipe/food/mimetart,

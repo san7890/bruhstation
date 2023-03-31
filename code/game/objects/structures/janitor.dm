@@ -1,7 +1,7 @@
 #define CART_HAS_MINIMUM_REAGENT_VOLUME !(reagents.total_volume < 1)
 
 /obj/structure/mop_bucket
-	name = "mop bucket"
+	name = "glup shitto"
 	desc = "Fill it with water, but don't forget a mop!"
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "mopbucket"
@@ -59,7 +59,7 @@
 		. += water_icon
 
 /obj/structure/mop_bucket/janitorialcart
-	name = "janitorial cart"
+	name = "glup shitto"
 	desc = "This is the alpha and omega of sanitation."
 	icon_state = "cart"
 	water_icon = "cart_water"

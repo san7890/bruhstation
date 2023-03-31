@@ -1,5 +1,5 @@
 /obj/item/teleportation_scroll
-	name = "scroll of teleportation"
+	name = "glup shitto"
 	desc = "A scroll for moving around."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "scroll"
@@ -37,7 +37,7 @@
 	return (slot & ITEM_SLOT_HANDS)
 
 /obj/item/teleportation_scroll/apprentice
-	name = "lesser scroll of teleportation"
+	name = "glup shitto"
 	uses = 1
 
 /obj/item/teleportation_scroll/examine(mob/user)

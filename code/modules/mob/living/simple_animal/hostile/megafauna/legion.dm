@@ -22,7 +22,7 @@
 #define LEGION_SMALL 1
 
 /mob/living/simple_animal/hostile/megafauna/legion
-	name = "Legion"
+	name = "glup shitto"
 	health = 700
 	maxHealth = 700
 	icon_state = "mega_legion"
@@ -95,21 +95,21 @@
 
 
 /datum/action/innate/megafauna_attack/create_skull
-	name = "Create Legion Skull"
+	name = "glup shitto"
 	button_icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	button_icon_state = "legion_head"
 	chosen_message = "<span class='colossus'>You are now creating legion skulls.</span>"
 	chosen_attack_num = 1
 
 /datum/action/innate/megafauna_attack/charge_target
-	name = "Charge Target"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	chosen_message = "<span class='colossus'>You are now charging at your target.</span>"
 	chosen_attack_num = 2
 
 /datum/action/innate/megafauna_attack/create_turrets
-	name = "Create Sentinels"
+	name = "glup shitto"
 	button_icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	button_icon_state = "legion_turret"
 	chosen_message = "<span class='colossus'>You are now creating legion sentinels.</span>"
@@ -259,7 +259,7 @@
 
 ///A basic turret that shoots at nearby mobs. Intended to be used for the legion megafauna.
 /obj/structure/legionturret
-	name = "\improper Legion sentinel"
+	name = "glup shitto"
 	desc = "The eye pierces your soul."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "legion_turret"
@@ -322,7 +322,7 @@
 
 ///Used for the legion turret.
 /obj/projectile/beam/legion
-	name = "blood pulse"
+	name = "glup shitto"
 	hitsound = 'sound/magic/magic_missile.ogg'
 	damage = 19
 	range = 6

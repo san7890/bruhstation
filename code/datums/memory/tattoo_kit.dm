@@ -1,6 +1,6 @@
 
 /obj/item/tattoo_kit
-	name = "tattoo kit"
+	name = "glup shitto"
 	desc = "A kit with all the tools necessary for losing a bet, or making otherwise incredibly indelible decisions."
 	icon = 'icons/obj/maintenance_loot.dmi'
 	icon_state = "tattoo_kit"

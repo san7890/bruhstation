@@ -6,7 +6,7 @@ It is used to destroy hand-held objects and advance technological research. Cont
 Note: Must be placed within 3 tiles of the R&D Console
 */
 /obj/machinery/rnd/destructive_analyzer
-	name = "destructive analyzer"
+	name = "glup shitto"
 	desc = "Learn science by destroying things!"
 	icon_state = "d_analyzer"
 	base_icon_state = "d_analyzer"

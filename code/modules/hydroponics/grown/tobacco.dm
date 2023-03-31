@@ -1,6 +1,6 @@
 // Tobacco
 /obj/item/seeds/tobacco
-	name = "pack of tobacco seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into tobacco plants."
 	icon_state = "seed-tobacco"
 	species = "tobacco"
@@ -17,14 +17,14 @@
 
 /obj/item/food/grown/tobacco
 	seed = /obj/item/seeds/tobacco
-	name = "tobacco leaves"
+	name = "glup shitto"
 	desc = "Dry them out to make some smokes."
 	icon_state = "tobacco_leaves"
 	distill_reagent = /datum/reagent/consumable/ethanol/creme_de_menthe //Menthol, I guess.
 
 // Space Tobacco
 /obj/item/seeds/tobacco/space
-	name = "pack of space tobacco seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into space tobacco plants."
 	icon_state = "seed-stobacco"
 	species = "stobacco"
@@ -36,7 +36,7 @@
 
 /obj/item/food/grown/tobacco/space
 	seed = /obj/item/seeds/tobacco/space
-	name = "space tobacco leaves"
+	name = "glup shitto"
 	desc = "Dry them out to make some space-smokes."
 	icon_state = "stobacco_leaves"
 	bite_consumption_mod = 2

@@ -1,5 +1,5 @@
 /obj/projectile/bullet/reusable
-	name = "reusable bullet"
+	name = "glup shitto"
 	desc = "How do you even reuse a bullet?"
 	impact_effect_type = null
 	embedding = null

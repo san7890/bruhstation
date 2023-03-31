@@ -1,7 +1,7 @@
 // Some general sidepath options.
 
 /datum/heretic_knowledge/reroll_targets
-	name = "The Relentless Heartbeat"
+	name = "glup shitto"
 	desc = "Allows you transmute a harebell, a book, and a jumpsuit while standing over a rune \
 		to reroll your sacrifice targets."
 	gain_text = "The heart is the principle that continues and preserves."
@@ -41,7 +41,7 @@
 	return TRUE
 
 /datum/heretic_knowledge/codex_cicatrix
-	name = "Codex Cicatrix"
+	name = "glup shitto"
 	desc = "Allows you to transmute a bible, a fountain pen, and hide from an animal (or human) to create a Codex Cicatrix. \
 		The Codex Cicatrix can be used when draining influences to gain additional knowledge, but comes at greater risk of being noticed. \
 		It can also be used to draw and remove transmutation runes easier."

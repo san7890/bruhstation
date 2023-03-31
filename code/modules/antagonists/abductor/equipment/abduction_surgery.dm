@@ -1,5 +1,5 @@
 /datum/surgery/organ_extraction
-	name = "Experimental organ replacement"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_CHEST)
 	surgery_flags = SURGERY_IGNORE_CLOTHES | SURGERY_REQUIRE_RESTING | SURGERY_REQUIRE_LIMB
 	steps = list(
@@ -23,7 +23,7 @@
 
 
 /datum/surgery_step/extract_organ
-	name = "remove heart"
+	name = "glup shitto"
 	accept_hand = 1
 	time = 32
 	var/obj/item/organ/IC = null
@@ -47,7 +47,7 @@
 		return 1
 
 /datum/surgery_step/gland_insert
-	name = "insert gland"
+	name = "glup shitto"
 	implements = list(/obj/item/organ/internal/heart/gland = 100)
 	time = 32
 

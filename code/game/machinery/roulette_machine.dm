@@ -19,7 +19,7 @@
 
 ///Machine that lets you play roulette. Odds are pre-defined to be the same as European Roulette without the "En Prison" rule
 /obj/machinery/roulette
-	name = "Roulette Table"
+	name = "glup shitto"
 	desc = "A computerized roulette table. Swipe your ID to play or register yourself as owner!"
 	icon = 'icons/obj/machines/roulette.dmi'
 	icon_state = "idle"
@@ -437,7 +437,7 @@
 		return FALSE
 
 /obj/item/roulette_wheel_beacon
-	name = "roulette wheel beacon"
+	name = "glup shitto"
 	desc = "N.T. approved roulette wheel beacon, toss it down and you will have a complementary roulette wheel delivered to you."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "floor_beacon"

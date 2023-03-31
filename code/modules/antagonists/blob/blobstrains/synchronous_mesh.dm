@@ -1,6 +1,6 @@
 //does brute damage, bonus damage for each nearby blob, and spreads damage out
 /datum/blobstrain/reagent/synchronous_mesh
-	name = "Synchronous Mesh"
+	name = "glup shitto"
 	description = "will do low brute damage, but each blob nearby attacks the target as well with stacking damage."
 	effectdesc = "will also spread damage between each blob near the attacked blob."
 	analyzerdescdamage = "Does low brute damage, increasing for each blob near the target."
@@ -25,7 +25,7 @@
 		return damage * 1.25
 
 /datum/reagent/blob/synchronous_mesh
-	name = "Synchronous Mesh"
+	name = "glup shitto"
 	taste_description = "toxic mold"
 	color = "#65ADA2"
 

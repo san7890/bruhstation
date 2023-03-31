@@ -1,5 +1,5 @@
 /obj/machinery/computer/mecha
-	name = "exosuit control console"
+	name = "glup shitto"
 	desc = "Used to remotely locate or lockdown exosuits."
 	icon_screen = "mecha"
 	icon_keyboard = "tech_key"
@@ -74,7 +74,7 @@
 				. = TRUE
 
 /obj/item/mecha_parts/mecha_tracking
-	name = "exosuit tracking beacon"
+	name = "glup shitto"
 	desc = "Device used to transmit exosuit data."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "motion2"
@@ -143,12 +143,12 @@
 	recharging = FALSE
 
 /obj/item/mecha_parts/mecha_tracking/ai_control
-	name = "exosuit AI control beacon"
+	name = "glup shitto"
 	desc = "A device used to transmit exosuit data. Also allows active AI units to take control of said exosuit."
 	ai_beacon = TRUE
 
 /obj/item/storage/box/mechabeacons
-	name = "exosuit tracking beacons"
+	name = "glup shitto"
 
 /obj/item/storage/box/mechabeacons/PopulateContents()
 	..()

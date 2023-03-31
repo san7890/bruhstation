@@ -1,10 +1,10 @@
 /obj/effect/spawner/random/engineering
-	name = "engineering loot spawner"
+	name = "glup shitto"
 	desc = "All engineering related spawners go here"
 	icon_state = "toolbox"
 
 /obj/effect/spawner/random/engineering/tool
-	name = "Tool spawner"
+	name = "glup shitto"
 	icon_state = "wrench"
 	loot = list(
 		/obj/item/wrench = 2,
@@ -22,7 +22,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/tool_advanced
-	name = "Advanced tool spawner"
+	name = "glup shitto"
 	icon_state = "wrench"
 	loot = list( // Mail loot spawner. Some sort of random and rare building tool. No alien tech here.
 		/obj/item/wrench/caravan,
@@ -33,7 +33,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/tool_alien
-	name = "Rare tool spawner"
+	name = "glup shitto"
 	icon_state = "wrench"
 	loot = list(
 		/obj/item/wrench/abductor,
@@ -45,7 +45,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/material_cheap
-	name = "Cheap material spawner"
+	name = "glup shitto"
 	icon_state = "cardboard"
 	loot = list(
 		/obj/item/stack/sheet/mineral/wood{amount = 30},
@@ -54,7 +54,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/material
-	name = "Material spawner"
+	name = "glup shitto"
 	icon_state = "metal"
 	loot = list(
 		/obj/item/stack/sheet/iron/fifty = 5,
@@ -64,7 +64,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/material_rare
-	name = "Rare material spawner"
+	name = "glup shitto"
 	icon_state = "diamond"
 	spawn_loot_count = 3
 	loot = list( // Space loot spawner. Random selecton of a few rarer materials.
@@ -78,7 +78,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/toolbox
-	name = "toolbox spawner"
+	name = "glup shitto"
 	icon_state = "toolbox"
 	loot = list(
 		/obj/item/storage/toolbox/emergency = 4,
@@ -87,7 +87,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/flashlight
-	name = "flashlight spawner"
+	name = "glup shitto"
 	icon_state = "flashlight"
 	loot = list(
 		/obj/item/flashlight = 20,
@@ -99,7 +99,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/canister
-	name = "air canister spawner"
+	name = "glup shitto"
 	icon_state = "canister"
 	loot = list( // use this for emergency storage areas and maint
 		/obj/machinery/portable_atmospherics/canister/air = 4,
@@ -107,7 +107,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/tank
-	name = "tank spawner"
+	name = "glup shitto"
 	icon_state = "tank"
 	loot = list( // use this for emergency storage areas and maint
 		/obj/structure/reagent_dispensers/fueltank = 5,
@@ -116,13 +116,13 @@
 	)
 
 /obj/effect/spawner/random/engineering/vending_restock
-	name = "vending restock spawner"
+	name = "glup shitto"
 	icon_state = "vending_restock"
 	loot_subtype_path = /obj/item/vending_refill
 	loot = list()
 
 /obj/effect/spawner/random/engineering/atmospherics_portable
-	name = "portable atmospherics machine spawner"
+	name = "glup shitto"
 	icon_state = "heater"
 	loot = list(
 		/obj/machinery/space_heater = 8,
@@ -132,7 +132,7 @@
 	)
 
 /obj/effect/spawner/random/engineering/tracking_beacon
-	name = "tracking beacon spawner"
+	name = "glup shitto"
 	icon_state = "beacon"
 	spawn_loot_chance = 35
 	loot = list(/obj/item/beacon)

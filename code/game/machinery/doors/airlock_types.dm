@@ -25,23 +25,23 @@
 	assemblytype = /obj/structure/door_assembly/door_assembly_hydro
 
 /obj/machinery/door/airlock/maintenance
-	name = "maintenance access"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_mai
 	normal_integrity = 250
 
 /obj/machinery/door/airlock/maintenance/external
-	name = "external airlock access"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/maintenanceexternal.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_extmai
 
 /obj/machinery/door/airlock/mining
-	name = "mining airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/mining.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_min
 
 /obj/machinery/door/airlock/atmos
-	name = "atmospherics airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/atmos.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_atmo
 
@@ -50,7 +50,7 @@
 	assemblytype = /obj/structure/door_assembly/door_assembly_research
 
 /obj/machinery/door/airlock/freezer
-	name = "freezer airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/freezer.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_fre
 
@@ -77,11 +77,11 @@
 	req_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/door/airlock/glass/incinerator/syndicatelava_interior
-	name = "Turbine Interior Airlock"
+	name = "glup shitto"
 	id_tag = INCINERATOR_SYNDICATELAVA_AIRLOCK_INTERIOR
 
 /obj/machinery/door/airlock/glass/incinerator/syndicatelava_exterior
-	name = "Turbine Exterior Airlock"
+	name = "glup shitto"
 	id_tag = INCINERATOR_SYNDICATELAVA_AIRLOCK_EXTERIOR
 
 /obj/machinery/door/airlock/command/glass
@@ -118,11 +118,11 @@
 	heat_proof = TRUE
 
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_interior
-	name = "Mixing Room Interior Airlock"
+	name = "glup shitto"
 	id_tag = INCINERATOR_ORDMIX_AIRLOCK_INTERIOR
 
 /obj/machinery/door/airlock/research/glass/incinerator/ordmix_exterior
-	name = "Mixing Room Exterior Airlock"
+	name = "glup shitto"
 	id_tag = INCINERATOR_ORDMIX_AIRLOCK_EXTERIOR
 
 /obj/machinery/door/airlock/mining/glass
@@ -159,7 +159,7 @@
 */
 
 /obj/machinery/door/airlock/gold
-	name = "gold airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/gold.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_gold
 
@@ -182,7 +182,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/silver
-	name = "silver airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/silver.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_silver
 
@@ -191,7 +191,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/diamond
-	name = "diamond airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/diamond.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_diamond
 	normal_integrity = 1000
@@ -203,7 +203,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/uranium
-	name = "uranium airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_uranium
 	var/last_event = 0
@@ -237,7 +237,7 @@
 	actually_radioactive = FALSE
 
 /obj/machinery/door/airlock/plasma
-	name = "plasma airlock"
+	name = "glup shitto"
 	desc = "No way this can end badly."
 	icon = 'icons/obj/doors/airlocks/station/plasma.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_plasma
@@ -256,7 +256,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/bananium
-	name = "bananium airlock"
+	name = "glup shitto"
 	desc = "Honkhonkhonk"
 	icon = 'icons/obj/doors/airlocks/station/bananium.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_bananium
@@ -267,7 +267,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/sandstone
-	name = "sandstone airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/sandstone.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_sandstone
 
@@ -276,7 +276,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/wood
-	name = "wooden airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/wood.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_wood
 
@@ -285,7 +285,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/titanium
-	name = "shuttle airlock"
+	name = "glup shitto"
 	assemblytype = /obj/structure/door_assembly/door_assembly_titanium
 	icon = 'icons/obj/doors/airlocks/shuttle/shuttle.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/shuttle/overlays.dmi'
@@ -297,7 +297,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/bronze
-	name = "bronze airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/clockwork/pinion_airlock.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/clockwork/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_bronze
@@ -325,11 +325,11 @@
 	heat_proof = TRUE
 
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_interior
-	name = "Turbine Interior Airlock"
+	name = "glup shitto"
 	id_tag = INCINERATOR_ATMOS_AIRLOCK_INTERIOR
 
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_exterior
-	name = "Turbine Exterior Airlock"
+	name = "glup shitto"
 	id_tag = INCINERATOR_ATMOS_AIRLOCK_EXTERIOR
 
 //////////////////////////////////
@@ -338,7 +338,7 @@
 */
 
 /obj/machinery/door/airlock/external
-	name = "external airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/external/external.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/external/overlays.dmi'
 	note_overlay_file = 'icons/obj/doors/airlocks/external/overlays.dmi'
@@ -420,7 +420,7 @@
 */
 
 /obj/machinery/door/airlock/vault
-	name = "vault door"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/vault/vault.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/vault/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_vault
@@ -434,14 +434,14 @@
 */
 
 /obj/machinery/door/airlock/hatch
-	name = "airtight hatch"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/hatch/centcom.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
 	note_overlay_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_hatch
 
 /obj/machinery/door/airlock/maintenance_hatch
-	name = "maintenance hatch"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/hatch/maintenance.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
 	note_overlay_file = 'icons/obj/doors/airlocks/hatch/overlays.dmi'
@@ -453,7 +453,7 @@
 */
 
 /obj/machinery/door/airlock/highsecurity
-	name = "high tech security airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/highsec/highsec.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/highsec/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_highsecurity
@@ -468,7 +468,7 @@
 */
 
 /obj/machinery/door/airlock/shuttle
-	name = "shuttle airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/shuttle/shuttle.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/shuttle/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_shuttle
@@ -478,7 +478,7 @@
 	glass = TRUE
 
 /obj/machinery/door/airlock/abductor
-	name = "alien airlock"
+	name = "glup shitto"
 	desc = "With humanity's current technological level, it could take years to hack this advanced airlock... or maybe we should give a screwdriver a try?"
 	icon = 'icons/obj/doors/airlocks/abductor/abductor_airlock.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/abductor/overlays.dmi'
@@ -497,7 +497,7 @@
 */
 
 /obj/machinery/door/airlock/cult
-	name = "cult airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/cult/runed/cult.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/cult/runed/overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_cult
@@ -546,7 +546,7 @@
 /obj/machinery/door/airlock/cult/proc/conceal()
 	icon = 'icons/obj/doors/airlocks/station/maintenance.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'
-	name = "Airlock"
+	name = "glup shitto"
 	desc = "It opens and closes."
 	stealthy = TRUE
 	update_appearance()
@@ -592,7 +592,7 @@
 	friendly = TRUE
 
 /obj/machinery/door/airlock/cult/weak
-	name = "brittle cult airlock"
+	name = "glup shitto"
 	desc = "An airlock hastily corrupted by blood magic, it is unusually brittle in this state."
 	normal_integrity = 150
 	damage_deflection = 5
@@ -604,7 +604,7 @@
 	Material Airlocks
 */
 /obj/machinery/door/airlock/material
-	name = "Airlock"
+	name = "glup shitto"
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_GREYSCALE | MATERIAL_AFFECT_STATISTICS
 	greyscale_config = /datum/greyscale_config/material_airlock
 	assemblytype = /obj/structure/door_assembly/door_assembly_material
@@ -632,7 +632,7 @@
 */
 
 /obj/machinery/door/airlock/glass_large
-	name = "large glass airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/glass_large/glass_large.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/glass_large/overlays.dmi'
 	opacity = FALSE

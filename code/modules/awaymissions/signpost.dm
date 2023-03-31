@@ -53,12 +53,12 @@
 	return interact(user)
 
 /obj/structure/signpost/salvation
-	name = "\proper salvation"
+	name = "glup shitto"
 	desc = "In the darkest times, we will find our way home."
 	resistance_flags = INDESTRUCTIBLE
 
 /obj/structure/signpost/exit
-	name = "exit"
+	name = "glup shitto"
 	desc = "Make sure to bring all your belongings with you when you \
 		exit the area."
 	question = "Leave? You might never come back."

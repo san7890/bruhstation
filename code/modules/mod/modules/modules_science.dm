@@ -2,7 +2,7 @@
 
 ///Reagent Scanner - Lets the user scan reagents.
 /obj/item/mod/module/reagent_scanner
-	name = "MOD reagent scanner module"
+	name = "glup shitto"
 	desc = "A module based off research-oriented Nanotrasen HUDs, this is capable of scanning the contents of \
 		containers and projecting the information in an easy-to-read format on the wearer's display. \
 		It cannot detect flavors, so that's up to you."
@@ -26,7 +26,7 @@
 	REMOVE_TRAIT(mod.wearer, TRAIT_REAGENT_SCANNER, MOD_TRAIT)
 
 /obj/item/mod/module/reagent_scanner/advanced
-	name = "MOD advanced reagent scanner module"
+	name = "glup shitto"
 	complexity = 0
 	removable = FALSE
 	var/explosion_detection_dist = 21
@@ -57,7 +57,7 @@
 
 ///Anti-Gravity - Makes the user weightless.
 /obj/item/mod/module/anomaly_locked/antigrav
-	name = "MOD anti-gravity module"
+	name = "glup shitto"
 	desc = "A module that uses a gravitational core to make the user completely weightless."
 	icon_state = "antigrav"
 	module_type = MODULE_TOGGLE
@@ -92,7 +92,7 @@
 
 ///Teleporter - Lets the user teleport to a nearby location.
 /obj/item/mod/module/anomaly_locked/teleporter
-	name = "MOD teleporter module"
+	name = "glup shitto"
 	desc = "A module that uses a bluespace core to let the user transport their particles elsewhere."
 	icon_state = "teleporter"
 	module_type = MODULE_ACTIVE

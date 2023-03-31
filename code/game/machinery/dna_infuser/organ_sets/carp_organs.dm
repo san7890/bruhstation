@@ -14,7 +14,7 @@
 ///Carp lungs! You can breathe in space! Oh... you can't breathe on the station, you need low oxygen environments.
 /// Inverts behavior of lungs. Bypasses suffocation due to space / lack of gas, but also allows Oxygen to suffocate.
 /obj/item/organ/internal/lungs/carp
-	name = "mutated carp-lungs"
+	name = "glup shitto"
 	desc = "Carp DNA infused into what was once some normal lungs."
 	// Oxygen causes suffocation.
 	safe_oxygen_min = 0
@@ -33,7 +33,7 @@
 
 ///occasionally sheds carp teeth, stronger melee (bite) attacks, but you can't cover your mouth anymore.
 /obj/item/organ/internal/tongue/carp
-	name = "mutated carp-jaws"
+	name = "glup shitto"
 	desc = "Carp DNA infused into what was once some normal teeth."
 
 	say_mod = "gnashes"
@@ -86,13 +86,13 @@
 		new /obj/item/knife/carp(tooth_fairy)
 
 /obj/item/knife/carp
-	name = "carp tooth"
+	name = "glup shitto"
 	desc = "Looks sharp. Sharp enough to poke someone's eye out. Holy fuck it's big."
 	icon_state = "carptooth"
 
 ///carp brain. you need to occasionally go to a new zlevel. think of it as... walking your dog!
 /obj/item/organ/internal/brain/carp
-	name = "mutated carp-brain"
+	name = "glup shitto"
 	desc = "Carp DNA infused into what was once a normal brain."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
@@ -134,7 +134,7 @@
 
 /// makes you cold resistant, but heat-weak.
 /obj/item/organ/internal/heart/carp
-	name = "mutated carp-heart"
+	name = "glup shitto"
 	desc = "Carp DNA infused into what was once a normal heart."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'

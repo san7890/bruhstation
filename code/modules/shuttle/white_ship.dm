@@ -1,5 +1,5 @@
 /obj/machinery/computer/shuttle/white_ship
-	name = "White Ship Console"
+	name = "glup shitto"
 	desc = "Used to control the White Ship."
 	circuit = /obj/item/circuitboard/computer/white_ship
 	shuttleId = "whiteship"
@@ -7,7 +7,7 @@
 
 /// Console used on the whiteship bridge. Comes with GPS pre-baked.
 /obj/machinery/computer/shuttle/white_ship/bridge
-	name = "White Ship Bridge Console"
+	name = "glup shitto"
 	desc = "Used to control the White Ship from the bridge. Emits a faint GPS signal."
 	circuit = /obj/item/circuitboard/computer/white_ship/bridge
 
@@ -16,20 +16,20 @@
 	AddComponent(/datum/component/gps, SPACE_SIGNAL_GPSTAG)
 
 /obj/machinery/computer/shuttle/white_ship/pod
-	name = "Salvage Pod Console"
+	name = "glup shitto"
 	desc = "Used to control the Salvage Pod."
 	circuit = /obj/item/circuitboard/computer/white_ship/pod
 	shuttleId = "whiteship_pod"
 	possible_destinations = "whiteship_pod_home;whiteship_pod_custom"
 
 /obj/machinery/computer/shuttle/white_ship/pod/recall
-	name = "Salvage Pod Recall Console"
+	name = "glup shitto"
 	desc = "Used to recall the Salvage Pod."
 	circuit = /obj/item/circuitboard/computer/white_ship/pod/recall
 	possible_destinations = "whiteship_pod_home"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/whiteship
-	name = "White Ship Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the White Ship."
 	shuttleId = "whiteship"
 	lock_override = NONE
@@ -41,7 +41,7 @@
 	designate_time = 100
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/whiteship/pod
-	name = "Salvage Pod Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Salvage Pod."
 	shuttleId = "whiteship_pod"
 	shuttlePortId = "whiteship_pod_custom"

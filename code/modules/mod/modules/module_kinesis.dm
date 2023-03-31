@@ -1,6 +1,6 @@
 ///Kinesis - Gives you the ability to move and launch objects.
 /obj/item/mod/module/anomaly_locked/kinesis
-	name = "MOD kinesis module"
+	name = "glup shitto"
 	desc = "A modular plug-in to the forearm, this module was presumed lost for many years, \
 		despite the suits it used to be mounted on still seeing some circulation. \
 		This piece of technology allows the user to generate precise anti-gravity fields, \
@@ -219,7 +219,7 @@
 	prebuilt = TRUE
 
 /obj/item/mod/module/anomaly_locked/kinesis/prebuilt/prototype
-	name = "MOD prototype kinesis module"
+	name = "glup shitto"
 	complexity = 0
 	use_power_cost = DEFAULT_CHARGE_DRAIN * 5
 	removable = FALSE
@@ -228,7 +228,7 @@
 	icon_state = "kinesis"
 
 /obj/item/mod/module/anomaly_locked/kinesis/plus
-	name = "MOD kinesis+ module"
+	name = "glup shitto"
 	desc = "A modular plug-in to the forearm, this module was recently redeveloped in secret. \
 		The bane of all ne'er-do-wells, the kinesis+ module is a powerful tool that allows the user \
 		to manipulate the world around them. Like it's older counterpart, it's capable of manipulating \

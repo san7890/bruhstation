@@ -4,7 +4,7 @@
 #define GRILL_FUELUSAGE_ACTIVE 5
 
 /obj/machinery/grill
-	name = "grill"
+	name = "glup shitto"
 	desc = "Just like the old days."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "grill_open"

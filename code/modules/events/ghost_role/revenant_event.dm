@@ -1,7 +1,7 @@
 #define REVENANT_SPAWN_THRESHOLD 20
 
 /datum/round_event_control/revenant
-	name = "Spawn Revenant" // Did you mean 'griefghost'?
+	name = "glup shitto" // Did you mean 'griefghost'?
 	typepath = /datum/round_event/ghost_role/revenant
 	weight = 7
 	max_occurrences = 1

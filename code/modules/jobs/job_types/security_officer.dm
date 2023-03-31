@@ -192,7 +192,7 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 	)
 
 /datum/outfit/job/security
-	name = "Security Officer"
+	name = "glup shitto"
 	jobtype = /datum/job/security_officer
 
 	id_trim = /datum/id_trim/job/security_officer
@@ -224,7 +224,7 @@ GLOBAL_LIST_EMPTY(security_officer_distribution)
 	implants = list(/obj/item/implant/mindshield)
 
 /datum/outfit/job/security/mod
-	name = "Security Officer (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/security

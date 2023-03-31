@@ -1,5 +1,5 @@
 /turf/open/openspace
-	name = "open space"
+	name = "glup shitto"
 	desc = "Watch your step!"
 	// We don't actually draw openspace, but it needs to have color
 	// In its icon state so we can count it as a "non black" tile
@@ -166,7 +166,7 @@
 	PlaceOnTop(new_floor_path, flags = flags)
 
 /turf/open/openspace/icemoon
-	name = "ice chasm"
+	name = "glup shitto"
 	baseturfs = /turf/open/openspace/icemoon
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 	planetary_atmos = TRUE

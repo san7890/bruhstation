@@ -1,5 +1,5 @@
 /obj/item/implant/abductor
-	name = "recall implant"
+	name = "glup shitto"
 	desc = "Returns you to the mothership."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "implant"

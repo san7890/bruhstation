@@ -1,5 +1,5 @@
 /obj/item/clothing/head/helmet/space/pirate
-	name = "modified EVA helmet"
+	name = "glup shitto"
 	desc = "A modified helmet to allow space pirates to intimidate their customers whilst staying safe from the void. Comes with some additional protection."
 	icon_state = "spacepirate"
 	inhand_icon_state = "space_pirate_helmet"
@@ -22,7 +22,7 @@
 	inhand_icon_state = "space_bandana_helmet"
 
 /obj/item/clothing/suit/space/pirate
-	name = "modified EVA suit"
+	name = "glup shitto"
 	desc = "A modified suit to allow space pirates to board shuttles and stations while avoiding the maw of the void. Comes with additional protection, and is lighter to move in."
 	icon_state = "spacepirate"
 	w_class = WEIGHT_CLASS_NORMAL

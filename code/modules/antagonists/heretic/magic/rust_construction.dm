@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/rust_construction
-	name = "Rust Formation"
+	name = "glup shitto"
 	desc = "Transforms a rusted floor into a full wall of rust. Creating a wall underneath a mob will harm it."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"

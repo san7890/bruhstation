@@ -1,5 +1,5 @@
 /obj/item/ammo_casing/caseless/laser
-	name = "laser casing"
+	name = "glup shitto"
 	desc = "You shouldn't be seeing this."
 	caliber = CALIBER_LASER
 	icon_state = "s-casing-live"

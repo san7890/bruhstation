@@ -1,5 +1,5 @@
 /obj/machinery/computer/cargo
-	name = "supply console"
+	name = "glup shitto"
 	desc = "Used to order supplies, approve requests, and control the shuttle."
 	icon_screen = "supply"
 	circuit = /obj/item/circuitboard/computer/cargo
@@ -38,7 +38,7 @@
 	var/interface_type = "Cargo"
 
 /obj/machinery/computer/cargo/request
-	name = "supply request console"
+	name = "glup shitto"
 	desc = "Used to request supplies from cargo."
 	icon_screen = "request"
 	circuit = /obj/item/circuitboard/computer/cargo/request

@@ -1,5 +1,5 @@
 /obj/item/binoculars
-	name = "binoculars"
+	name = "glup shitto"
 	desc = "Used for long-distance surveillance."
 	inhand_icon_state = "binoculars"
 	icon_state = "binoculars"

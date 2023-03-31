@@ -1,5 +1,5 @@
 /obj/structure/blob/special/factory
-	name = "factory blob"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/blob.dmi'
 	icon_state = "blob_factory"
 	desc = "A thick spire of tendrils."

@@ -3,7 +3,7 @@
  * The procs related to its unarmed attacks can be found in _onclick/other_mobs.dm (attack_lightgeist)
  */
 /mob/living/simple_animal/hostile/lightgeist
-	name = "lightgeist"
+	name = "glup shitto"
 	desc = "This small floating creature is a completely unknown form of life... being near it fills you with a sense of tranquility."
 	icon_state = "lightgeist"
 	icon_living = "lightgeist"

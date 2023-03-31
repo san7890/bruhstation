@@ -1,5 +1,5 @@
 /datum/reagent/freon
-	name = "Freon"
+	name = "glup shitto"
 	description = "A powerful heat absorbent."
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5 // Because nitrium/freon/hypernoblium are handled through gas breathing, metabolism must be lower for breathcode to keep up
@@ -16,7 +16,7 @@
 	return ..()
 
 /datum/reagent/halon
-	name = "Halon"
+	name = "glup shitto"
 	description = "A fire suppression gas that removes oxygen and cools down the area"
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5
@@ -35,7 +35,7 @@
 	return ..()
 
 /datum/reagent/healium
-	name = "Healium"
+	name = "glup shitto"
 	description = "A powerful sleeping agent with healing properties"
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5
@@ -58,7 +58,7 @@
 	return ..()
 
 /datum/reagent/hypernoblium
-	name = "Hyper-Noblium"
+	name = "glup shitto"
 	description = "A suppressive gas that stops gas reactions on those who inhale it."
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5 // Because nitrium/freon/hyper-nob are handled through gas breathing, metabolism must be lower for breathcode to keep up
@@ -72,7 +72,7 @@
 	..()
 
 /datum/reagent/nitrium_high_metabolization
-	name = "Nitrosyl plasmide"
+	name = "glup shitto"
 	description = "A highly reactive byproduct that stops you from sleeping, while dealing increasing toxin damage over time."
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5 // Because nitrium/freon/hypernoblium are handled through gas breathing, metabolism must be lower for breathcode to keep up
@@ -96,7 +96,7 @@
 	return ..()
 
 /datum/reagent/nitrium_low_metabolization
-	name = "Nitrium"
+	name = "glup shitto"
 	description = "A highly reactive gas that makes you feel faster."
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5 // Because nitrium/freon/hypernoblium are handled through gas breathing, metabolism must be lower for breathcode to keep up
@@ -114,7 +114,7 @@
 	return ..()
 
 /datum/reagent/pluoxium
-	name = "Pluoxium"
+	name = "glup shitto"
 	description = "A gas that is eight times more efficient than O2 at lung diffusion with organ healing properties on sleeping patients."
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5
@@ -132,7 +132,7 @@
 	return ..()
 
 /datum/reagent/zauker
-	name = "Zauker"
+	name = "glup shitto"
 	description = "An unstable gas that is toxic to all living beings."
 	reagent_state = GAS
 	metabolization_rate = REAGENTS_METABOLISM * 0.5

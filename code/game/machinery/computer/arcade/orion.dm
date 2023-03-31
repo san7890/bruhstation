@@ -14,7 +14,7 @@ GLOBAL_LIST_INIT(orion_events, generate_orion_events())
 		.[new_event] = new_event.weight
 
 /obj/machinery/computer/arcade/orion_trail
-	name = "The Orion Trail"
+	name = "glup shitto"
 	desc = "Learn how our ancestors got to Orion, and have fun in the process!"
 	icon_state = "arcade"
 	circuit = /obj/item/circuitboard/computer/arcade/orion_trail
@@ -57,7 +57,7 @@ GLOBAL_LIST_INIT(orion_events, generate_orion_events())
 	return ..()
 
 /obj/machinery/computer/arcade/orion_trail/kobayashi
-	name = "Kobayashi Maru control computer"
+	name = "glup shitto"
 	desc = "A test for cadets."
 	icon = 'icons/obj/machines/particle_accelerator.dmi'
 	icon_keyboard = null
@@ -494,19 +494,19 @@ GLOBAL_LIST_INIT(orion_events, generate_orion_events())
 		return
 	to_chat(user, span_notice("You override the cheat code menu and skip to Cheat #[rand(1, 50)]: Realism Mode."))
 	user.log_message("emagged [src], activating Realism Mode.", LOG_GAME)
-	name = "The Orion Trail: Realism Edition"
+	name = "glup shitto"
 	desc = "Learn how our ancestors got to Orion, and try not to die in the process!"
 	newgame()
 	obj_flags |= EMAGGED
 
 /mob/living/basic/syndicate/ranged/smg/orion
-	name = "spaceport security"
+	name = "glup shitto"
 	desc = "Premier corporate security forces for all spaceports found along the Orion Trail."
 	faction = list(FACTION_ORION)
 	loot = list()
 
 /obj/item/orion_ship
-	name = "model settler ship"
+	name = "glup shitto"
 	desc = "A model spaceship, it looks like those used back in the day when travelling to Orion! It even has a miniature FX-293 reactor, which was renowned for its instability and tendency to explode..."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "ship"

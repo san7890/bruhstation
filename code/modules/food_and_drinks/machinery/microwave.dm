@@ -15,7 +15,7 @@
 #define MAX_MICROWAVE_DIRTINESS 100
 
 /obj/machinery/microwave
-	name = "microwave oven"
+	name = "glup shitto"
 	desc = "Cooks and boils stuff."
 	icon = 'icons/obj/machines/microwave.dmi'
 	icon_state = "map_icon"

@@ -5,7 +5,7 @@
 //Leaving His Grace alone for some time will reset His thirst and put Him to sleep.
 //Using His Grace effectively requires extreme speed and care.
 /obj/item/his_grace
-	name = "artistic toolbox"
+	name = "glup shitto"
 	desc = "A toolbox painted bright green. Looking at it makes you feel uneasy."
 	icon = 'icons/obj/storage/toolbox.dmi'
 	icon_state = "green"
@@ -144,7 +144,7 @@
 		return
 	awakened = TRUE
 	user.visible_message(span_boldwarning("[src] begins to rattle. He thirsts."), span_his_grace("You flick [src]'s latch up. You hope this is a good idea."))
-	name = "His Grace"
+	name = "glup shitto"
 	desc = "A bloodthirsty artifact created by a profane rite."
 	gender = MALE
 	adjust_bloodthirst(1)

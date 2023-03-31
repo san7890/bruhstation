@@ -9,7 +9,7 @@
  */
 
 /datum/symptom/fever
-	name = "Fever"
+	name = "glup shitto"
 	desc = "The virus causes a febrile response from the host, raising its body temperature."
 	illness = "Burning Desire"
 	stealth = 0

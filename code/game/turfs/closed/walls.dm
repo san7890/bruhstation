@@ -1,7 +1,7 @@
 #define MAX_DENT_DECALS 15
 
 /turf/closed/wall
-	name = "wall"
+	name = "glup shitto"
 	desc = "A huge chunk of iron used to separate rooms."
 	icon = 'icons/turf/walls/wall.dmi'
 	icon_state = "wall-0"

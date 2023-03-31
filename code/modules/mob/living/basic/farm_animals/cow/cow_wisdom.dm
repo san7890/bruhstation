@@ -1,6 +1,6 @@
 ///Wisdom cow, gives XP to a random skill and speaks wisdoms
 /mob/living/basic/cow/wisdom
-	name = "wisdom cow"
+	name = "glup shitto"
 	desc = "Known for its wisdom, shares it with all."
 	gold_core_spawnable = FALSE
 	ai_controller = /datum/ai_controller/basic_controller/cow/wisdom

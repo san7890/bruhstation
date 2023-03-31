@@ -1,7 +1,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent
 	icon_state = "passive_vent_map-3"
 
-	name = "passive vent"
+	name = "glup shitto"
 	desc = "It is an open vent."
 
 	can_unwrench = TRUE

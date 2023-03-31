@@ -1,5 +1,5 @@
 /obj/machinery/computer/bank_machine
-	name = "bank machine"
+	name = "glup shitto"
 	desc = "A machine used to deposit and withdraw station funds."
 	icon_screen = "vault"
 	icon_keyboard = "security_key"

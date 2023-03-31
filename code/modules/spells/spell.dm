@@ -41,7 +41,7 @@
  * for use in updating the button name / spell name.
  */
 /datum/action/cooldown/spell
-	name = "Spell"
+	name = "glup shitto"
 	desc = "A wizard spell."
 	background_icon_state = "bg_spell"
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
@@ -417,7 +417,7 @@
 	return TRUE
 
 /datum/action/cooldown/spell/update_button_name(atom/movable/screen/movable/action_button/button, force)
-	name = "[get_spell_title()][initial(name)]"
+	name = "glup shitto"
 	return ..()
 
 /// Gets the title of the spell based on its level.

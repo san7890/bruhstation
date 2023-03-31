@@ -1,5 +1,5 @@
 /obj/item/clothing/under/rank/civilian/curator
-	name = "sensible suit"
+	name = "glup shitto"
 	desc = "It's very... sensible."
 	icon = 'icons/obj/clothing/under/suits.dmi'
 	icon_state = "red_suit"
@@ -8,7 +8,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/civilian/curator/skirt
-	name = "sensible suitskirt"
+	name = "glup shitto"
 	desc = "It's very... sensible."
 	icon = 'icons/obj/clothing/under/suits.dmi'
 	icon_state = "red_suit_skirt"
@@ -21,7 +21,7 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/civilian/curator/treasure_hunter
-	name = "treasure hunter uniform"
+	name = "glup shitto"
 	desc = "A rugged uniform suitable for treasure hunting."
 	icon = 'icons/obj/clothing/under/civilian.dmi'
 	icon_state = "curator"
@@ -29,7 +29,7 @@
 	worn_icon = 'icons/mob/clothing/under/civilian.dmi'
 
 /obj/item/clothing/under/rank/civilian/curator/nasa
-	name = "\improper NASA jumpsuit"
+	name = "glup shitto"
 	desc = "It has a NASA logo on it and is made of space-proofed materials."
 	icon_state = "jumpsuit"
 	inhand_icon_state = "jumpsuit"

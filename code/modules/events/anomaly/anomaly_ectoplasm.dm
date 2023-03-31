@@ -3,7 +3,7 @@
 #define ANOMALY_INTENSITY_MAJOR "Major Intensity"
 
 /datum/round_event_control/anomaly/anomaly_ectoplasm
-	name = "Anomaly: Ectoplasmic Outburst"
+	name = "glup shitto"
 	description = "Anomaly that produces an effect of varying intensity based on how many ghosts are orbiting it."
 	typepath = /datum/round_event/anomaly/anomaly_ectoplasm
 	min_players = 30

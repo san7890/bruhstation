@@ -4,7 +4,7 @@
 ///////////////////////////////////
 
 /datum/design/intellicard
-	name = "Intellicard AI Transportation System"
+	name = "glup shitto"
 	desc = "Allows for the construction of an intellicard."
 	id = "intellicard"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -16,7 +16,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/paicard
-	name = "Personal Artificial Intelligence Card"
+	name = "glup shitto"
 	desc = "Allows for the construction of a pAI Card."
 	id = "paicard"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -28,7 +28,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/ai_cam_upgrade
-	name = "AI Surveillance Software Update"
+	name = "glup shitto"
 	desc = "A software package that will allow an artificial intelligence to 'hear' from its cameras via lip reading."
 	id = "ai_cam_upgrade"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -43,7 +43,7 @@
 //////////Disk Construction Disks///////
 ////////////////////////////////////////
 /datum/design/tech_disk
-	name = "Technology Data Storage Disk"
+	name = "glup shitto"
 	desc = "Produce additional disks for storing technology data."
 	id = "tech_disk"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE

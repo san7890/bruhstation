@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/charged/beam/fire_blast
-	name = "Volcano Blast"
+	name = "glup shitto"
 	desc = "Charge up a blast of fire that chains between nearby targets, setting them ablaze. \
 		Targets already on fire will take priority. If the target fails to catch ablaze, or \
 		extinguishes themselves before it bounces, the chain will stop."
@@ -142,7 +142,7 @@
 
 // The beam fireblast spits out, causes people to walk through it to be on fire
 /obj/effect/ebeam/fire
-	name = "fire beam"
+	name = "glup shitto"
 
 /obj/effect/ebeam/fire/Initialize(mapload)
 	. = ..()
@@ -173,7 +173,7 @@
 
 // Visual effect played when we hit the max bounces
 /obj/effect/temp_visual/fire_blast_bonus
-	name = "fire blast"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "explosion"
 	duration = 1 SECONDS

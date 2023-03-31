@@ -1,5 +1,5 @@
 /obj/item/flashlight
-	name = "flashlight"
+	name = "glup shitto"
 	desc = "A hand-held emergency light."
 	custom_price = PAYCHECK_CREW
 	icon = 'icons/obj/lighting.dmi'
@@ -189,7 +189,7 @@
 		return ..()
 
 /obj/item/flashlight/pen
-	name = "penlight"
+	name = "glup shitto"
 	desc = "A pen-sized light, used by medical staff. It can also be used to create a hologram to alert people of incoming medical assistance."
 	icon_state = "penlight"
 	inhand_icon_state = ""
@@ -213,7 +213,7 @@
 
 // see: [/datum/wound/burn/proc/uv()]
 /obj/item/flashlight/pen/paramedic
-	name = "paramedic penlight"
+	name = "glup shitto"
 	desc = "A high-powered UV penlight intended to help stave off infection in the field on serious burned patients. Probably really bad to look into."
 	icon_state = "penlight_surgical"
 	/// Our current UV cooldown
@@ -224,7 +224,7 @@
 	var/uv_power = 1
 
 /obj/effect/temp_visual/medical_holosign
-	name = "medical holosign"
+	name = "glup shitto"
 	desc = "A small holographic glow that indicates a medic is coming to treat a patient."
 	icon_state = "medi_holo"
 	duration = 30
@@ -236,7 +236,7 @@
 		visible_message(span_danger("[creator] created a medical hologram!"))
 
 /obj/item/flashlight/seclite
-	name = "seclite"
+	name = "glup shitto"
 	desc = "A robust flashlight used by security."
 	icon_state = "seclite"
 	inhand_icon_state = "seclite"
@@ -249,7 +249,7 @@
 
 // the desk lamps are a bit special
 /obj/item/flashlight/lamp
-	name = "desk lamp"
+	name = "glup shitto"
 	desc = "A desk lamp with an adjustable mount."
 	icon_state = "lamp"
 	inhand_icon_state = "lamp"
@@ -273,7 +273,7 @@
 
 //Bananalamp
 /obj/item/flashlight/lamp/bananalamp
-	name = "banana lamp"
+	name = "glup shitto"
 	desc = "Only a clown would think to make a ghetto banana-shaped lamp. Even has a goofy pullstring."
 	icon_state = "bananalamp"
 	inhand_icon_state = null
@@ -281,7 +281,7 @@
 
 // FLARES
 /obj/item/flashlight/flare
-	name = "flare"
+	name = "glup shitto"
 	desc = "A red Nanotrasen issued flare. There are instructions on the side, it reads 'pull cord, make light'."
 	light_range = 7 // Pretty bright.
 	icon_state = "flare"
@@ -322,7 +322,7 @@
 	if(on || !fuel)
 		return FALSE
 
-	name = "lit [initial(name)]"
+	name = "glup shitto"
 	attack_verb_continuous = string_list(list("burns", "singes"))
 	attack_verb_simple = string_list(list("burn", "singe"))
 	hitsound = 'sound/items/welder.ogg'
@@ -393,7 +393,7 @@
 	return on * heat
 
 /obj/item/flashlight/flare/candle
-	name = "red candle"
+	name = "glup shitto"
 	desc = "In Greek myth, Prometheus stole fire from the Gods and gave it to \
 		humankind. The jewelry he kept for himself."
 	icon = 'icons/obj/candle.dmi'
@@ -436,14 +436,14 @@
 	update_appearance()
 
 /obj/item/flashlight/flare/candle/infinite
-	name = "eternal candle"
+	name = "glup shitto"
 	fuel = INFINITY
 	on = TRUE
 	randomize_fuel = FALSE
 	can_be_extinguished = FALSE
 
 /obj/item/flashlight/flare/torch
-	name = "torch"
+	name = "glup shitto"
 	desc = "A torch fashioned from some leaves and a log."
 	light_range = 4
 	icon_state = "torch"
@@ -457,7 +457,7 @@
 	can_be_extinguished = TRUE
 
 /obj/item/flashlight/lantern
-	name = "lantern"
+	name = "glup shitto"
 	icon_state = "lantern"
 	inhand_icon_state = "lantern"
 	lefthand_file = 'icons/mob/inhands/equipment/mining_lefthand.dmi'
@@ -467,26 +467,26 @@
 	light_system = MOVABLE_LIGHT
 
 /obj/item/flashlight/lantern/heirloom_moth
-	name = "old lantern"
+	name = "glup shitto"
 	desc = "An old lantern that has seen plenty of use."
 	light_range = 4
 
 /obj/item/flashlight/lantern/syndicate
-	name = "suspicious lantern"
+	name = "glup shitto"
 	desc = "A suspicious looking lantern."
 	icon_state = "syndilantern"
 	inhand_icon_state = null
 	light_range = 10
 
 /obj/item/flashlight/lantern/jade
-	name = "jade lantern"
+	name = "glup shitto"
 	desc = "An ornate, green lantern."
 	color = LIGHT_COLOR_GREEN
 	light_color = LIGHT_COLOR_GREEN
 
 /obj/item/flashlight/slime
 	gender = PLURAL
-	name = "glowing slime extract"
+	name = "glup shitto"
 	desc = "Extract from a yellow slime. It emits a strong light when squeezed."
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "slime"
@@ -547,14 +547,14 @@
 	return
 
 /obj/item/flashlight/emp/debug //for testing emp_act()
-	name = "debug EMP flashlight"
+	name = "glup shitto"
 	emp_max_charges = 100
 	emp_cur_charges = 100
 
 // Glowsticks, in the uncomfortable range of similar to flares,
 // but not similar enough to make it worth a refactor
 /obj/item/flashlight/glowstick
-	name = "glowstick"
+	name = "glup shitto"
 	desc = "A military-grade glowstick."
 	custom_price = PAYCHECK_LOWER
 	w_class = WEIGHT_CLASS_SMALL
@@ -640,31 +640,31 @@
 	return FIRELOSS
 
 /obj/item/flashlight/glowstick/red
-	name = "red glowstick"
+	name = "glup shitto"
 	color = COLOR_SOFT_RED
 
 /obj/item/flashlight/glowstick/blue
-	name = "blue glowstick"
+	name = "glup shitto"
 	color = LIGHT_COLOR_BLUE
 
 /obj/item/flashlight/glowstick/cyan
-	name = "cyan glowstick"
+	name = "glup shitto"
 	color = LIGHT_COLOR_CYAN
 
 /obj/item/flashlight/glowstick/orange
-	name = "orange glowstick"
+	name = "glup shitto"
 	color = LIGHT_COLOR_ORANGE
 
 /obj/item/flashlight/glowstick/yellow
-	name = "yellow glowstick"
+	name = "glup shitto"
 	color = LIGHT_COLOR_DIM_YELLOW
 
 /obj/item/flashlight/glowstick/pink
-	name = "pink glowstick"
+	name = "glup shitto"
 	color = LIGHT_COLOR_PINK
 
 /obj/item/flashlight/spotlight //invisible lighting source
-	name = "disco light"
+	name = "glup shitto"
 	desc = "Groovy..."
 	icon_state = null
 	light_system = MOVABLE_LIGHT
@@ -691,7 +691,7 @@
 		set_light_color(_light_color)
 
 /obj/item/flashlight/flashdark
-	name = "flashdark"
+	name = "glup shitto"
 	desc = "A strange device manufactured with mysterious elements that somehow emits darkness. Or maybe it just sucks in light? Nobody knows for sure."
 	icon_state = "flashdark"
 	inhand_icon_state = "flashdark"
@@ -711,7 +711,7 @@
 
 //type and subtypes spawned and used to give some eyes lights,
 /obj/item/flashlight/eyelight
-	name = "eyelight"
+	name = "glup shitto"
 	desc = "This shouldn't exist outside of someone's head, how are you seeing this?"
 	light_system = MOVABLE_LIGHT
 	light_range = 15
@@ -721,7 +721,7 @@
 	actions_types = list()
 
 /obj/item/flashlight/eyelight/adapted
-	name = "adaptedlight"
+	name = "glup shitto"
 	desc = "There is no possible way for a player to see this, so I can safely talk at length about why this exists. Adapted eyes come \
 	with icons that go above the lighting layer so to make sure the red eyes that pierce the darkness are always visible we make the \
 	human emit the smallest amount of light possible. Thanks for reading :)"

@@ -1,5 +1,5 @@
 /obj/machinery/modular_computer/console
-	name = "console"
+	name = "glup shitto"
 	desc = "A stationary computer."
 
 	icon = 'icons/obj/modular_console.dmi'

@@ -52,13 +52,13 @@
 		qdel(src)
 
 /obj/item/language_manual/codespeak_manual
-	name = "codespeak manual"
+	name = "glup shitto"
 	desc = "The book's cover reads: \"Codespeak(tm) - Secure your communication with metaphors so elaborate, they seem randomly generated!\""
 	language = /datum/language/codespeak
 	flavour_text = "suddenly your mind is filled with codewords and responses"
 
 /obj/item/language_manual/codespeak_manual/unlimited
-	name = "deluxe codespeak manual"
+	name = "glup shitto"
 	charges = INFINITY
 
 /obj/item/language_manual/roundstart_species
@@ -72,7 +72,7 @@
 		/datum/language/moffic, \
 		/datum/language/calcic \
 	)
-	name = "[initial(language.name)] manual"
+	name = "glup shitto"
 	desc = "The book's cover reads: \"[initial(language.name)] for Xenos - Learn common galactic tongues in seconds.\""
 	flavour_text = "you feel empowered with a mastery over [initial(language.name)]"
 
@@ -81,18 +81,18 @@
 
 /obj/item/language_manual/roundstart_species/unlimited/Initialize(mapload)
 	. = ..()
-	name = "deluxe [initial(language.name)] manual"
+	name = "glup shitto"
 
 /obj/item/language_manual/roundstart_species/five
 	charges = 5
 
 /obj/item/language_manual/roundstart_species/five/Initialize(mapload)
 	. = ..()
-	name = "extended [initial(language.name)] manual"
+	name = "glup shitto"
 
 // So drones can teach borgs and AI dronespeak. For best effect, combine with mother drone lawset.
 /obj/item/language_manual/dronespeak_manual
-	name = "dronespeak manual"
+	name = "glup shitto"
 	desc = "The book's cover reads: \"Understanding Dronespeak - An exercise in futility.\" The book is written entirely in binary, non-silicons probably won't understand it."
 	language = /datum/language/drone
 	flavour_text = "suddenly the drone chittering makes sense"

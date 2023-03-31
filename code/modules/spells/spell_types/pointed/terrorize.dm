@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/terrorize
-	name = "Terrorize"
+	name = "glup shitto"
 	desc = "Project yourself into a victim's mind, inflictng them with terror buildup. \
 		Prey will become increasingly terrified. Swatting terrified prey with an open hand will \
 		scare and disorient them."

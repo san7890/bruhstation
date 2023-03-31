@@ -2,7 +2,7 @@
 
 //The ammo/gun is stored in a back slot item
 /obj/item/minigunpack
-	name = "backpack power source"
+	name = "glup shitto"
 	desc = "The massive external power source for the laser gatling gun."
 	icon = 'icons/obj/weapons/guns/minigun.dmi'
 	icon_state = "holstered"
@@ -98,7 +98,7 @@
 
 
 /obj/item/gun/energy/minigun
-	name = "laser gatling gun"
+	name = "glup shitto"
 	desc = "An advanced laser cannon with an incredible rate of fire. Requires a bulky backpack power source to use."
 	icon = 'icons/obj/weapons/guns/minigun.dmi'
 	icon_state = "minigun_spin"
@@ -156,7 +156,7 @@
 	. = ..()
 
 /obj/item/stock_parts/cell/minigun
-	name = "gatling gun fusion core"
+	name = "glup shitto"
 	desc = "Where did these come from?"
 	maxcharge = 500000
 	chargerate = 5000

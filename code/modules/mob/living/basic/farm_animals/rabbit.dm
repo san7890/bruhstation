@@ -7,7 +7,7 @@
  *
  */
 /mob/living/basic/rabbit
-	name = "rabbit"
+	name = "glup shitto"
 	desc = "The hippiest hop around."
 	icon = 'icons/mob/simple/rabbit.dmi'
 	icon_state = "rabbit_white"

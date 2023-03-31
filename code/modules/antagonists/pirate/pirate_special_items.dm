@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/hypospray/medipen/gore
-	name = "gore autoinjector"
+	name = "glup shitto"
 	desc = "A ghetto looking autoinjector filled with gore, aka dirty kronkaine. Probably shouldn't take this while in the job, but it is a super-stimulant. Don't take two at once."
 	volume = 15
 	amount_per_transfer_from_this = 15
@@ -11,7 +11,7 @@
 //Captain's special mental recharge gear
 
 /obj/item/clothing/suit/armor/reactive/psykerboost
-	name = "reactive psykerboost armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor psykers use to push their mind further. Reacts to hostiles by powering up the wearer's psychic abilities."
 	cooldown_message = span_danger("The psykerboost armor's mental coils are still cooling down!")
 	emp_message = span_danger("The psykerboost armor's mental coils recalibrate for a moment with a soft whine.")
@@ -40,7 +40,7 @@
 	return TRUE
 
 /obj/structure/bouncy_castle
-	name = "bouncy castle"
+	name = "glup shitto"
 	desc = "And if you do drugs, you go to hell before you die. Please."
 	icon = 'icons/obj/bouncy_castle.dmi'
 	icon_state = "bouncy_castle"
@@ -63,6 +63,6 @@
 			playsound(src, 'sound/items/welder.ogg', 100, TRUE)
 
 /obj/item/paper/crumpled/fluff/fortune_teller
-	name = "scribbled note"
+	name = "glup shitto"
 	default_raw_text = "<b>Remember!</b> The customers love that gumball we have as a crystal ball. \
 		Even if it's completely useless to us, resist the urge to chew it."

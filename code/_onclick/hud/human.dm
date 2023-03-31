@@ -2,7 +2,7 @@
 	icon = 'icons/hud/screen_midnight.dmi'
 
 /atom/movable/screen/human/toggle
-	name = "toggle"
+	name = "glup shitto"
 	icon_state = "toggle"
 
 /atom/movable/screen/human/toggle/Click()
@@ -24,7 +24,7 @@
 	targetmob.hud_used.hidden_inventory_update(usr)
 
 /atom/movable/screen/human/equip
-	name = "equip"
+	name = "glup shitto"
 	icon_state = "act_equip"
 
 /atom/movable/screen/human/equip/Click()
@@ -37,12 +37,12 @@
 	icon = 'icons/hud/screen_changeling.dmi'
 
 /atom/movable/screen/ling/chems
-	name = "chemical storage"
+	name = "glup shitto"
 	icon_state = "power_display"
 	screen_loc = ui_lingchemdisplay
 
 /atom/movable/screen/ling/sting
-	name = "current sting"
+	name = "glup shitto"
 	screen_loc = ui_lingstingdisplay
 	invisibility = INVISIBILITY_ABSTRACT
 

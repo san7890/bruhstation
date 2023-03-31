@@ -1,5 +1,5 @@
 /obj/machinery/botpad
-	name = "Bot pad"
+	name = "glup shitto"
 	desc = "A lighter version of the orbital mech pad modified to launch bots. Requires linking to a remote to function."
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "botpad"

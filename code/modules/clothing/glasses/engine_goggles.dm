@@ -12,7 +12,7 @@
 #define TEMP_SHADE_RED 500
 
 /obj/item/clothing/glasses/meson/engine
-	name = "engineering scanner goggles"
+	name = "glup shitto"
 	desc = "Goggles used by engineers. The Meson Scanner mode lets you see basic structural and terrain layouts through walls and the T-ray Scanner mode lets you see underfloor objects such as cables and pipes."
 	icon_state = "trayson-meson"
 	inhand_icon_state = "trayson-meson"
@@ -136,7 +136,7 @@
 	return ..()
 
 /obj/item/clothing/glasses/meson/engine/tray //atmos techs have lived far too long without tray goggles while those damned engineers get their dual-purpose gogles all to themselves
-	name = "optical t-ray scanner"
+	name = "glup shitto"
 	icon_state = "trayson-t-ray"
 	inhand_icon_state = "trayson-t-ray"
 	desc = "Used by engineering staff to see underfloor objects such as cables and pipes."
@@ -151,7 +151,7 @@
 		connection_images.Cut()
 
 /obj/item/clothing/glasses/meson/engine/shuttle
-	name = "shuttle region scanner"
+	name = "glup shitto"
 	icon_state = "trayson-shuttle"
 	inhand_icon_state = "trayson-shuttle"
 	desc = "Used to see the boundaries of shuttle regions."
@@ -160,7 +160,7 @@
 
 
 /obj/item/clothing/glasses/meson/engine/atmos_imaging
-	name = "atmospheric thermal imaging goggles"
+	name = "glup shitto"
 	desc = "Goggles used by Atmospheric Technicians to see the thermal energy of gasses in open areas."
 	icon_state = "trayson-atmospheric-thermal"
 	inhand_icon_state = "trayson-meson"

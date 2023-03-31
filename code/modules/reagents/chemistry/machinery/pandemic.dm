@@ -1,6 +1,6 @@
 
 /obj/machinery/computer/pandemic
-	name = "PanD.E.M.I.C 2200"
+	name = "glup shitto"
 	desc = "Used to work with viruses."
 	density = TRUE
 	icon = 'icons/obj/medical/chemical.dmi'

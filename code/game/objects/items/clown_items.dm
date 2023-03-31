@@ -11,7 +11,7 @@
  */
 
 /obj/item/soap
-	name = "soap"
+	name = "glup shitto"
 	desc = "A cheap bar of soap. Doesn't smell."
 	gender = PLURAL
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
@@ -90,7 +90,7 @@
 	cleanspeed = 0.5 SECONDS //faster than mops so it's useful for traitors who want to clean crime scenes
 
 /obj/item/soap/omega
-	name = "\improper Omega soap"
+	name = "glup shitto"
 	desc = "The most advanced soap known to mankind. The beginning of the end for germs."
 	grind_results = list(/datum/reagent/consumable/potato_juice = 9, /datum/reagent/consumable/ethanol/lizardwine = 9, /datum/reagent/monkey_powder = 9, /datum/reagent/drug/krokodil = 9, /datum/reagent/toxin/acid/nitracid = 9, /datum/reagent/baldium = 9, /datum/reagent/consumable/ethanol/hooch = 9, /datum/reagent/bluespace = 9, /datum/reagent/drug/pumpup = 9, /datum/reagent/consumable/space_cola = 9)
 	icon_state = "soapomega"
@@ -105,7 +105,7 @@
 	return MANUAL_SUICIDE
 
 /obj/item/paper/fluff/stations/soap
-	name = "ancient janitorial poem"
+	name = "glup shitto"
 	desc = "An old paper that has passed many hands."
 	default_raw_text = "<B>The legend of the omega soap</B><BR><BR> Essence of <B>potato</B>. Juice, not grind.<BR><BR> A <B>lizard's</B> tail, turned into <B>wine</B>.<BR><BR> <B>powder of monkey</B>, to help the workload.<BR><BR> Some <B>Krokodil</B>, because meth would explode.<BR><BR> <B>Nitric acid</B> and <B>Baldium</B>, for organic dissolving.<BR><BR> A cup filled with <B>Hooch</B>, for sinful absolving<BR><BR> Some <B>Bluespace Dust</B>, for removal of stains.<BR><BR> A syringe full of <B>Pump-up</B>, it's security's bane.<BR><BR> Add a can of <B>Space Cola</B>, because we've been paid.<BR><BR> <B>Heat</B> as hot as you can, let the soap be your blade.<BR><BR> <B>Ten units of each reagent create a soap that could topple all others.</B>"
 
@@ -158,7 +158,7 @@
  */
 
 /obj/item/bikehorn
-	name = "bike horn"
+	name = "glup shitto"
 	desc = "A horn off of a bicycle. Rumour has it that they're made from recycled clowns."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "bike_horn"
@@ -197,7 +197,7 @@
 
 //air horn
 /obj/item/bikehorn/airhorn
-	name = "air horn"
+	name = "glup shitto"
 	desc = "Damn son, where'd you find this?"
 	icon_state = "air_horn"
 	worn_icon_state = "horn_air"
@@ -205,7 +205,7 @@
 
 //golden bikehorn
 /obj/item/bikehorn/golden
-	name = "golden bike horn"
+	name = "glup shitto"
 	desc = "Golden? Clearly, it's made with bananium! Honk!"
 	icon_state = "gold_horn"
 	inhand_icon_state = "gold_horn"
@@ -231,7 +231,7 @@
 
 //canned laughter
 /obj/item/reagent_containers/cup/soda_cans/canned_laughter
-	name = "Canned Laughter"
+	name = "glup shitto"
 	desc = "Just looking at this makes you want to giggle."
 	icon_state = "laughter"
 	volume = 50

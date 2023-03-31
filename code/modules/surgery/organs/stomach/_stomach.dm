@@ -2,7 +2,7 @@
 #define STOMACH_METABOLISM_CONSTANT 0.25
 
 /obj/item/organ/internal/stomach
-	name = "stomach"
+	name = "glup shitto"
 	icon_state = "stomach"
 	visual = FALSE
 	w_class = WEIGHT_CLASS_SMALL
@@ -291,7 +291,7 @@
 	return ..()
 
 /obj/item/organ/internal/stomach/bone/plasmaman
-	name = "digestive crystal"
+	name = "glup shitto"
 	icon_state = "stomach-p"
 	organ_traits = list()
 	desc = "A strange crystal that is responsible for metabolizing the unseen energy force that feeds plasmamen."
@@ -299,7 +299,7 @@
 	milk_burn_healing = 0
 
 /obj/item/organ/internal/stomach/cybernetic
-	name = "basic cybernetic stomach"
+	name = "glup shitto"
 	icon_state = "stomach-c"
 	desc = "A basic device designed to mimic the functions of a human stomach"
 	organ_flags = ORGAN_SYNTHETIC
@@ -308,7 +308,7 @@
 	metabolism_efficiency = 0.035 // not as good at digestion
 
 /obj/item/organ/internal/stomach/cybernetic/tier2
-	name = "cybernetic stomach"
+	name = "glup shitto"
 	icon_state = "stomach-c-u"
 	desc = "An electronic device designed to mimic the functions of a human stomach. Handles disgusting food a bit better."
 	maxHealth = 1.5 * STANDARD_ORGAN_THRESHOLD
@@ -317,7 +317,7 @@
 	metabolism_efficiency = 0.07
 
 /obj/item/organ/internal/stomach/cybernetic/tier3
-	name = "upgraded cybernetic stomach"
+	name = "glup shitto"
 	icon_state = "stomach-c-u2"
 	desc = "An upgraded version of the cybernetic stomach, designed to improve further upon organic stomachs. Handles disgusting food very well."
 	maxHealth = 2 * STANDARD_ORGAN_THRESHOLD

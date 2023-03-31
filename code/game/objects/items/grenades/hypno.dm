@@ -1,5 +1,5 @@
 /obj/item/grenade/hypnotic
-	name = "flashbang"
+	name = "glup shitto"
 	desc = "A modified flashbang which uses hypnotic flashes and mind-altering soundwaves to induce an instant trance upon detonation."
 	icon_state = "flashbang"
 	inhand_icon_state = "flashbang"

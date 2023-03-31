@@ -1,6 +1,6 @@
 //GUNCASES//
 /obj/structure/guncase
-	name = "gun locker"
+	name = "glup shitto"
 	desc = "A locker that holds guns."
 	icon = 'icons/obj/storage/closet.dmi'
 	icon_state = "shotguncase"
@@ -122,13 +122,13 @@
 			SSexplosions.low_mov_atom += contents
 
 /obj/structure/guncase/shotgun
-	name = "shotgun locker"
+	name = "glup shitto"
 	desc = "A locker that holds shotguns."
 	case_type = "shotgun"
 	gun_category = /obj/item/gun/ballistic/shotgun
 
 /obj/structure/guncase/ecase
-	name = "energy gun locker"
+	name = "glup shitto"
 	desc = "A locker that holds energy guns."
 	icon_state = "ecase"
 	case_type = "egun"

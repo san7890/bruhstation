@@ -1,5 +1,5 @@
 /obj/item/instrument/bilehorn
-	name = "bilehorn"
+	name = "glup shitto"
 	desc = "Bits of bileworm anatomy rearranged to produce wonderful music, not bile. Keeps the name though, because for an instrument, it is quite vile."
 	force = 5
 	icon = 'icons/mob/simple/lavaland/bileworm.dmi'
@@ -8,7 +8,7 @@
 	inhand_icon_state = null
 
 /datum/crafting_recipe/bilehorn
-	name = "Bilehorn"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/stack/sheet/animalhide/bileworm = 4,
 		/obj/item/stack/sheet/bone = 2,

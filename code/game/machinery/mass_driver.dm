@@ -1,5 +1,5 @@
 /obj/machinery/mass_driver
-	name = "mass driver"
+	name = "glup shitto"
 	desc = "The finest in spring-loaded piston toy technology, now on a space station near you."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "mass_driver"
@@ -9,7 +9,7 @@
 	var/drive_range = 50 //this is mostly irrelevant since current mass drivers throw into space, but you could make a lower-range mass driver for interstation transport or something I guess.
 
 /obj/machinery/mass_driver/chapelgun
-	name = "holy driver"
+	name = "glup shitto"
 	id = MASSDRIVER_CHAPEL
 
 /obj/machinery/mass_driver/ordnance

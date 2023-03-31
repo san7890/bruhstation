@@ -1,7 +1,7 @@
 #define EMP_RANDOMISE_TIME 300
 
 /datum/action/item_action/chameleon/drone/randomise
-	name = "Randomise Headgear"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "random"
 
@@ -21,7 +21,7 @@
 
 
 /datum/action/item_action/chameleon/drone/togglehatmask
-	name = "Toggle Headgear Mode"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 
 /datum/action/item_action/chameleon/drone/togglehatmask/New()
@@ -69,7 +69,7 @@
 
 
 /datum/action/chameleon_outfit
-	name = "Select Chameleon Outfit"
+	name = "glup shitto"
 	button_icon_state = "chameleon_outfit"
 	var/list/outfit_options //By default, this list is shared between all instances. It is not static because if it were, subtypes would not be able to have their own. If you ever want to edit it, copy it first.
 
@@ -136,7 +136,7 @@
 
 
 /datum/action/item_action/chameleon/change
-	name = "Chameleon Change"
+	name = "glup shitto"
 	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_INCAPACITATED|AB_CHECK_HANDS_BLOCKED
 	var/list/chameleon_blacklist = list() //This is a typecache
 	var/list/chameleon_list = list()
@@ -164,7 +164,7 @@
 	..()
 
 /datum/action/item_action/chameleon/change/proc/initialize_disguises()
-	name = "Change [chameleon_name] Appearance"
+	name = "glup shitto"
 	build_all_button_icons()
 
 	chameleon_blacklist |= typecacheof(target.type)
@@ -329,7 +329,7 @@
 		agent_card.update_icon()
 
 /datum/action/item_action/chameleon/change/id_trim/initialize_disguises()
-	name = "Change [chameleon_name] Appearance"
+	name = "glup shitto"
 	build_all_button_icons()
 
 	chameleon_blacklist |= typecacheof(target.type)
@@ -368,7 +368,7 @@
 
 /obj/item/clothing/under/chameleon
 //starts off as black
-	name = "black jumpsuit"
+	name = "glup shitto"
 	icon_state = "jumpsuit"
 	greyscale_colors = "#3f3f3f"
 	greyscale_config = /datum/greyscale_config/jumpsuit
@@ -416,7 +416,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/clothing/suit/chameleon
-	name = "armor"
+	name = "glup shitto"
 	desc = "A slim armored vest that protects against most types of damage."
 	icon_state = "armor"
 	icon = 'icons/obj/clothing/suits/armor.dmi'
@@ -459,7 +459,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/clothing/glasses/chameleon
-	name = "Optical Meson Scanner"
+	name = "glup shitto"
 	desc = "Used by engineering and mining staff to see basic structural and terrain layouts through walls, regardless of lighting condition."
 	icon_state = "meson"
 	inhand_icon_state = "meson"
@@ -500,7 +500,7 @@
 
 /obj/item/clothing/gloves/chameleon
 	desc = "These gloves provide protection against electric shock."
-	name = "insulated gloves"
+	name = "glup shitto"
 	icon_state = "yellow"
 	inhand_icon_state = "ygloves"
 	greyscale_colors = null
@@ -541,7 +541,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/clothing/head/chameleon
-	name = "grey cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteful grey colour."
 	icon = 'icons/obj/clothing/head/hats.dmi'
 	worn_icon = 'icons/mob/clothing/head/hats.dmi'
@@ -597,7 +597,7 @@
 	randomise_action.build_all_button_icons()
 
 /obj/item/clothing/mask/chameleon
-	name = "gas mask"
+	name = "glup shitto"
 	desc = "A face-covering mask that can be connected to an air supply. While good for concealing your identity, it isn't good for blocking gas flow." //More accurate
 	icon_state = "gas_alt"
 	inhand_icon_state = "gas_alt"
@@ -667,7 +667,7 @@
 	to_chat(user, span_notice("[src] does not have a voice changer."))
 
 /obj/item/clothing/shoes/chameleon
-	name = "black shoes"
+	name = "glup shitto"
 	icon_state = "sneakers"
 	inhand_icon_state = "sneakers_back"
 	greyscale_colors = "#545454#ffffff"
@@ -718,7 +718,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/storage/backpack/chameleon
-	name = "backpack"
+	name = "glup shitto"
 	var/datum/action/item_action/chameleon/change/chameleon_action
 
 /obj/item/storage/backpack/chameleon/Initialize(mapload)
@@ -744,7 +744,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/storage/belt/chameleon
-	name = "toolbelt"
+	name = "glup shitto"
 	desc = "Holds tools."
 	var/datum/action/item_action/chameleon/change/chameleon_action
 
@@ -774,7 +774,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/radio/headset/chameleon
-	name = "radio headset"
+	name = "glup shitto"
 	var/datum/action/item_action/chameleon/change/chameleon_action
 
 /obj/item/radio/headset/chameleon/Initialize(mapload)
@@ -800,7 +800,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/modular_computer/pda/chameleon
-	name = "tablet"
+	name = "glup shitto"
 	var/datum/action/item_action/chameleon/change/tablet/chameleon_action
 
 /obj/item/modular_computer/pda/chameleon/Initialize(mapload)
@@ -846,7 +846,7 @@
 	chameleon_action.emp_randomise(INFINITY)
 
 /obj/item/clothing/neck/chameleon
-	name = "black tie"
+	name = "glup shitto"
 	desc = "A neosilk clip-on tie."
 	icon_state = "detective" //we use this icon_state since the other ones are all generated by GAGS.
 	resistance_flags = NONE

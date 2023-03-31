@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/foilhat
-	name = "tinfoil hat"
+	name = "glup shitto"
 	desc = "Thought control rays, psychotronic scanning. Don't mind that, I'm protected cause I made this hat."
 	icon_state = "foilhat"
 	inhand_icon_state = null
@@ -59,7 +59,7 @@
 	to_chat(user, span_warning("[src] crumples slightly. Something is trying to get inside your mind!"))
 
 /obj/item/clothing/head/costume/foilhat/proc/warp_up()
-	name = "scorched tinfoil hat"
+	name = "glup shitto"
 	desc = "A badly warped up hat. Quite unprobable this will still work against any of fictional and contemporary dangers it used to."
 	warped = TRUE
 	clothing_flags &= ~ANTI_TINFOIL_MANEUVER

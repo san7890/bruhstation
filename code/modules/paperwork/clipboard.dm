@@ -2,7 +2,7 @@
  * Clipboard
  */
 /obj/item/clipboard
-	name = "clipboard"
+	name = "glup shitto"
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "clipboard"
 	inhand_icon_state = "clipboard"

@@ -876,7 +876,7 @@ GLOBAL_DATUM_INIT(podlauncher, /datum/centcom_podlauncher, new)
 	indicator.forceMove(target_turf)
 
 /obj/effect/client_image_holder/supplypod_selector // Shows which item will be taken next
-	name = "Supply Selector (Only you can see this)"
+	name = "glup shitto"
 	image_icon = 'icons/obj/supplypods_32x32.dmi'
 	image_state = "selector"
 	image_layer = FLY_LAYER
@@ -885,7 +885,7 @@ GLOBAL_DATUM_INIT(podlauncher, /datum/centcom_podlauncher, new)
 	alpha = 150
 
 /obj/effect/client_image_holder/dropoff_location // Shows where revese pods lands
-	name = "Dropoff Location (Only you can see this)"
+	name = "glup shitto"
 	image_icon = 'icons/obj/supplypods_32x32.dmi'
 	image_state = "dropoff_indicator"
 	image_layer = FLY_LAYER

@@ -11,7 +11,7 @@
 
 /atom/movable/screen/blob/jump_to_node
 	icon_state = "ui_tonode"
-	name = "Jump to Node"
+	name = "glup shitto"
 	desc = "Moves your camera to a selected blob node."
 
 /atom/movable/screen/blob/jump_to_node/Click()
@@ -22,7 +22,7 @@
 
 /atom/movable/screen/blob/jump_to_core
 	icon_state = "ui_tocore"
-	name = "Jump to Core"
+	name = "glup shitto"
 	desc = "Moves your camera to your blob core."
 
 /atom/movable/screen/blob/jump_to_core/MouseEntered(location,control,params)
@@ -47,12 +47,12 @@
 /atom/movable/screen/blob/blobbernaut
 	icon_state = "ui_blobbernaut"
 	// Name and description get given their proper values on Initialize()
-	name = "Produce Blobbernaut (ERROR)"
+	name = "glup shitto"
 	desc = "Produces a strong, smart blobbernaut from a factory blob for (ERROR) resources.<br>The factory blob used will become fragile and unable to produce spores."
 
 /atom/movable/screen/blob/blobbernaut/Initialize(mapload)
 	. = ..()
-	name = "Produce Blobbernaut ([BLOBMOB_BLOBBERNAUT_RESOURCE_COST])"
+	name = "glup shitto"
 	desc = "Produces a strong, smart blobbernaut from a factory blob for [BLOBMOB_BLOBBERNAUT_RESOURCE_COST] resources.<br>The factory blob used will become fragile and unable to produce spores."
 
 /atom/movable/screen/blob/blobbernaut/Click()
@@ -64,12 +64,12 @@
 /atom/movable/screen/blob/resource_blob
 	icon_state = "ui_resource"
 	// Name and description get given their proper values on Initialize()
-	name = "Produce Resource Blob (ERROR)"
+	name = "glup shitto"
 	desc = "Produces a resource blob for ERROR resources.<br>Resource blobs will give you resources every few seconds."
 
 /atom/movable/screen/blob/resource_blob/Initialize(mapload)
 	. = ..()
-	name = "Produce Resource Blob ([BLOB_STRUCTURE_RESOURCE_COST])"
+	name = "glup shitto"
 	desc = "Produces a resource blob for [BLOB_STRUCTURE_RESOURCE_COST] resources.<br>Resource blobs will give you resources every few seconds."
 
 /atom/movable/screen/blob/resource_blob/Click()
@@ -81,12 +81,12 @@
 /atom/movable/screen/blob/node_blob
 	icon_state = "ui_node"
 	// Name and description get given their proper values on Initialize()
-	name = "Produce Node Blob (ERROR)"
+	name = "glup shitto"
 	desc = "Produces a node blob for ERROR resources.<br>Node blobs will expand and activate nearby resource and factory blobs."
 
 /atom/movable/screen/blob/node_blob/Initialize(mapload)
 	. = ..()
-	name = "Produce Node Blob ([BLOB_STRUCTURE_NODE_COST])"
+	name = "glup shitto"
 	desc = "Produces a node blob for [BLOB_STRUCTURE_NODE_COST] resources.<br>Node blobs will expand and activate nearby resource and factory blobs."
 
 /atom/movable/screen/blob/node_blob/Click()
@@ -98,12 +98,12 @@
 /atom/movable/screen/blob/factory_blob
 	icon_state = "ui_factory"
 	// Name and description get given their proper values on Initialize()
-	name = "Produce Factory Blob (ERROR)"
+	name = "glup shitto"
 	desc = "Produces a factory blob for ERROR resources.<br>Factory blobs will produce spores every few seconds."
 
 /atom/movable/screen/blob/factory_blob/Initialize(mapload)
 	. = ..()
-	name = "Produce Factory Blob ([BLOB_STRUCTURE_FACTORY_COST])"
+	name = "glup shitto"
 	desc = "Produces a factory blob for [BLOB_STRUCTURE_FACTORY_COST] resources.<br>Factory blobs will produce spores every few seconds."
 
 /atom/movable/screen/blob/factory_blob/Click()
@@ -115,7 +115,7 @@
 /atom/movable/screen/blob/readapt_strain
 	icon_state = "ui_chemswap"
 	// Description gets given its proper values on Initialize()
-	name = "Readapt Strain"
+	name = "glup shitto"
 	desc = "Allows you to choose a new strain from ERROR random choices for ERROR resources."
 
 /atom/movable/screen/blob/readapt_strain/MouseEntered(location,control,params)
@@ -137,12 +137,12 @@
 /atom/movable/screen/blob/relocate_core
 	icon_state = "ui_swap"
 	// Name and description get given their proper values on Initialize()
-	name = "Relocate Core (ERROR)"
+	name = "glup shitto"
 	desc = "Swaps a node and your core for ERROR resources."
 
 /atom/movable/screen/blob/relocate_core/Initialize(mapload)
 	. = ..()
-	name = "Relocate Core ([BLOB_POWER_RELOCATE_COST])"
+	name = "glup shitto"
 	desc = "Swaps a node and your core for [BLOB_POWER_RELOCATE_COST] resources."
 
 /atom/movable/screen/blob/relocate_core/Click()

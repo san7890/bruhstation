@@ -1,7 +1,7 @@
 #define BEAM_FADE_TIME (1 SECONDS)
 
 /obj/machinery/launchpad
-	name = "bluespace launchpad"
+	name = "glup shitto"
 	desc = "A bluespace pad able to thrust matter through bluespace, teleporting it to or from nearby locations."
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "lpad-idle"
@@ -250,7 +250,7 @@
 
 //Starts in the briefcase. Don't spawn this directly, or it will runtime when closing.
 /obj/machinery/launchpad/briefcase
-	name = "briefcase launchpad"
+	name = "glup shitto"
 	desc = "A portable bluespace pad able to thrust matter through bluespace, teleporting it to or from nearby locations. Controlled via remote."
 	icon_state = "blpad-idle"
 	icon_teleport = "blpad-beam"
@@ -347,7 +347,7 @@
 		return ..()
 
 /obj/item/launchpad_remote
-	name = "folder"
+	name = "glup shitto"
 	desc = "A folder."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "folder"

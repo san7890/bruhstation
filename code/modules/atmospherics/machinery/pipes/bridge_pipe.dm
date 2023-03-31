@@ -2,7 +2,7 @@
 	icon = 'icons/obj/atmospherics/pipes/bridge_pipe.dmi'
 	icon_state = "bridge_center"
 
-	name = "bridge pipe"
+	name = "glup shitto"
 	desc = "A one meter section of regular pipe used to connect pipenets over pipes."
 
 	dir = SOUTH

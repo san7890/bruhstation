@@ -27,7 +27,7 @@
 
 
 /mob/living/simple_animal/parrot
-	name = "parrot"
+	name = "glup shitto"
 	desc = "The parrot squawks, \"They're a Parrot! BAWWK!\"" //'
 	icon = 'icons/mob/simple/animal.dmi'
 	icon_state = "parrot_fly"
@@ -893,7 +893,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
  * Sub-types
  */
 /mob/living/simple_animal/parrot/poly
-	name = "Poly"
+	name = "glup shitto"
 	desc = "Poly the Parrot. An expert on quantum cracker theory."
 	speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN MODSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
 	gold_core_spawnable = NO_SPAWN
@@ -987,7 +987,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	WRITE_FILE(json_file, json_encode(file_data))
 
 /mob/living/simple_animal/parrot/poly/ghost
-	name = "The Ghost of Poly"
+	name = "glup shitto"
 	desc = "Doomed to squawk the Earth."
 	color = "#FFFFFF77"
 	speak_chance = 20

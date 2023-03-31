@@ -1,5 +1,5 @@
 /mob/living/basic/faithless
-	name = "The Faithless"
+	name = "glup shitto"
 	desc = "The Wish Granter's faith in humanity, incarnate."
 	icon_state = "faithless"
 	icon_living = "faithless"

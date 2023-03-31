@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/shotgun
-	name = "shotgun"
+	name = "glup shitto"
 	desc = "A traditional shotgun with wood furniture and a four-shell capacity underneath."
 	icon_state = "shotgun"
 	worn_icon_state = null
@@ -39,7 +39,7 @@
 // RIOT SHOTGUN //
 
 /obj/item/gun/ballistic/shotgun/riot //for spawn in the armory
-	name = "riot shotgun"
+	name = "glup shitto"
 	desc = "A sturdy shotgun with a longer magazine and a fixed tactical stock designed for non-lethal riot control."
 	icon_state = "riotshotgun"
 	inhand_icon_state = "shotgun"
@@ -55,7 +55,7 @@
 	rack()
 
 /obj/item/gun/ballistic/shotgun/automatic/combat
-	name = "combat shotgun"
+	name = "glup shitto"
 	desc = "A semi automatic shotgun with tactical furniture and a six-shell capacity underneath."
 	icon_state = "cshotgun"
 	inhand_icon_state = "shotgun_combat"
@@ -66,7 +66,7 @@
 //Dual Feed Shotgun
 
 /obj/item/gun/ballistic/shotgun/automatic/dual_tube
-	name = "cycler shotgun"
+	name = "glup shitto"
 	desc = "An advanced shotgun with two separate magazine tubes, allowing you to quickly toggle between ammo types."
 	icon_state = "cycler"
 	inhand_icon_state = "bulldog"
@@ -86,7 +86,7 @@
 	var/obj/item/ammo_box/magazine/internal/shot/alternate_magazine
 
 /obj/item/gun/ballistic/shotgun/automatic/dual_tube/bounty
-	name = "bounty cycler shotgun"
+	name = "glup shitto"
 	desc = "An advanced shotgun with two separate magazine tubes. This one shows signs of bounty hunting customization, meaning it likely has a dual rubbershot/fire slug load."
 	alt_mag_type = /obj/item/ammo_box/magazine/internal/shot/tube/fire
 
@@ -128,7 +128,7 @@
 // Bulldog shotgun //
 
 /obj/item/gun/ballistic/shotgun/bulldog
-	name = "\improper Bulldog Shotgun"
+	name = "glup shitto"
 	desc = "A semi-auto, mag-fed shotgun for combat in narrow corridors, nicknamed 'Bulldog' by boarding parties. Compatible only with specialized 8-round drum magazines. Can have a secondary magazine attached to quickly swap between ammo types, or just to keep shooting."
 	icon_state = "bulldog"
 	inhand_icon_state = "bulldog"
@@ -250,7 +250,7 @@
 /////////////////////////////
 
 /obj/item/gun/ballistic/shotgun/doublebarrel
-	name = "double-barreled shotgun"
+	name = "glup shitto"
 	desc = "A true classic."
 	icon_state = "dshotgun"
 	inhand_icon_state = "shotgun_db"
@@ -286,13 +286,13 @@
 		weapon_weight = WEAPON_MEDIUM
 
 /obj/item/gun/ballistic/shotgun/doublebarrel/slugs
-	name = "hunting shotgun"
+	name = "glup shitto"
 	desc = "A hunting shotgun used by the wealthy to hunt \"game\"."
 	sawn_desc = "A sawn-off hunting shotgun. In its new state, it's remarkably less effective at hunting... anything."
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/dual/slugs
 
 /obj/item/gun/ballistic/shotgun/hook
-	name = "hook modified sawn-off shotgun"
+	name = "glup shitto"
 	desc = "Range isn't an issue when you can bring your victim to you."
 	icon_state = "hookshotgun"
 	inhand_icon_state = "hookshotgun"

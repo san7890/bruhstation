@@ -1,5 +1,5 @@
 /obj/projectile/neurotoxin
-	name = "neurotoxin spit"
+	name = "glup shitto"
 	icon_state = "neurotoxin"
 	damage = 5
 	damage_type = TOX

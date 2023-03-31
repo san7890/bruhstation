@@ -6,7 +6,7 @@
 #define CAPTIVE_XENO_PASS "captive_xeno_escaped"
 
 /datum/team/xeno
-	name = "\improper Aliens"
+	name = "glup shitto"
 
 //Simply lists them.
 /datum/team/xeno/roundend_report()
@@ -16,7 +16,7 @@
 	return "<div class='panel redborder'>[parts.Join("<br>")]</div>"
 
 /datum/antagonist/xeno
-	name = "\improper Xenomorph"
+	name = "glup shitto"
 	job_rank = ROLE_ALIEN
 	show_in_antagpanel = FALSE
 	antagpanel_category = ANTAG_GROUP_XENOS
@@ -53,7 +53,7 @@
 	objectives += objective
 
 /datum/antagonist/xeno/captive
-	name = "\improper Captive Xenomorph"
+	name = "glup shitto"
 	///Our associated antagonist team for captive xenomorphs
 	var/datum/team/xeno/captive/captive_team
 
@@ -100,7 +100,7 @@
 
 ///Captive Xenomorphs team
 /datum/team/xeno/captive
-	name = "\improper Captive Aliens"
+	name = "glup shitto"
 	///The first member of this team, presumably the queen.
 	var/datum/mind/progenitor
 

@@ -15,7 +15,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/soup/wish
-	name = "wish soup"
+	name = "glup shitto"
 	desc = "I wish this was soup."
 	icon_state = "wishsoup"
 	food_reagents = list(/datum/reagent/water = 10)
@@ -30,7 +30,7 @@
 		reagents.add_reagent(/datum/reagent/consumable/nutriment/vitamin, 1)
 
 /obj/item/food/soup/meatball
-	name = "meatball soup"
+	name = "glup shitto"
 	desc = "You've got balls kid, BALLS!"
 	icon_state = "meatballsoup"
 	food_reagents = list(
@@ -44,7 +44,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/slime
-	name = "slime soup"
+	name = "glup shitto"
 	desc = "If no water is available, you may substitute tears."
 	icon_state = "slimesoup"
 	food_reagents = list(
@@ -58,7 +58,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/blood
-	name = "tomato soup"
+	name = "glup shitto"
 	desc = "Smells like copper."
 	icon_state = "tomatosoup"
 	food_reagents = list(
@@ -70,7 +70,7 @@
 	foodtypes = GROSS
 
 /obj/item/food/soup/wingfangchu
-	name = "wing fang chu"
+	name = "glup shitto"
 	desc = "A savory dish of alien wing wang in soy."
 	icon_state = "wingfangchu"
 	trash_type = /obj/item/reagent_containers/cup/bowl
@@ -83,7 +83,7 @@
 	foodtypes = MEAT
 
 /obj/item/food/soup/clownstears
-	name = "clown's tears"
+	name = "glup shitto"
 	desc = "Not very funny."
 	icon_state = "clownstears"
 	food_reagents = list(
@@ -97,7 +97,7 @@
 	foodtypes = FRUIT | SUGAR
 
 /obj/item/food/soup/vegetable
-	name = "vegetable soup"
+	name = "glup shitto"
 	desc = "A true vegan meal."
 	icon_state = "vegetablesoup"
 	food_reagents = list(
@@ -110,7 +110,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/nettle
-	name = "nettle soup"
+	name = "glup shitto"
 	desc = "To think, the botanist would've beat you to death with one of these."
 	icon_state = "nettlesoup"
 	food_reagents = list(
@@ -125,7 +125,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/mystery
-	name = "mystery soup"
+	name = "glup shitto"
 	desc = "The mystery is, why aren't you eating it?"
 	icon_state = "mysterysoup"
 	food_reagents = list(
@@ -152,7 +152,7 @@
 	reagents.add_reagent(/datum/reagent/consumable/nutriment, 6)
 
 /obj/item/food/soup/hotchili
-	name = "hot chili"
+	name = "glup shitto"
 	desc = "A five alarm Texan Chili!"
 	icon_state = "hotchili"
 	food_reagents = list(
@@ -166,7 +166,7 @@
 	foodtypes = VEGETABLES | MEAT
 	venue_value = FOOD_PRICE_NORMAL
 /obj/item/food/soup/coldchili
-	name = "cold chili"
+	name = "glup shitto"
 	desc = "This slush is barely a liquid!"
 	icon_state = "coldchili"
 	food_reagents = list(
@@ -180,7 +180,7 @@
 	foodtypes = VEGETABLES | MEAT
 
 /obj/item/food/soup/clownchili
-	name = "chili con carnival"
+	name = "glup shitto"
 	desc = "A delicious stew of meat, chiles, and salty, salty clown tears."
 	icon_state = "clownchili"
 	food_reagents = list(
@@ -195,7 +195,7 @@
 	foodtypes = VEGETABLES | MEAT
 
 /obj/item/food/soup/monkeysdelight
-	name = "monkey's delight"
+	name = "glup shitto"
 	desc = "A delicious soup with dumplings and hunks of monkey meat simmered to perfection, in a broth that tastes faintly of bananas."
 	icon_state = "monkeysdelight"
 	food_reagents = list(
@@ -209,7 +209,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/tomato
-	name = "tomato soup"
+	name = "glup shitto"
 	desc = "Drinking this feels like being a vampire! A tomato vampire..."
 	icon_state = "tomatosoup"
 	food_reagents = list(
@@ -221,7 +221,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/soup/tomato/eyeball
-	name = "eyeball soup"
+	name = "glup shitto"
 	desc = "It looks back at you..."
 	icon_state = "eyeballsoup"
 	food_reagents = list(
@@ -235,7 +235,7 @@
 	foodtypes = MEAT | GORE
 
 /obj/item/food/soup/miso
-	name = "miso soup"
+	name = "glup shitto"
 	desc = "The universe's best soup! Yum!!!"
 	icon_state = "misosoup"
 	food_reagents = list(
@@ -249,7 +249,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/mushroom
-	name = "chantrelle soup"
+	name = "glup shitto"
 	desc = "A delicious and hearty mushroom soup."
 	icon_state = "mushroomsoup"
 	food_reagents = list(
@@ -260,7 +260,7 @@
 	foodtypes = VEGETABLES | DAIRY
 
 /obj/item/food/soup/beet
-	name = "beet soup"
+	name = "glup shitto"
 	desc = "Wait, how do you spell it again...?"
 	icon_state = "beetsoup"
 	food_reagents = list(
@@ -276,7 +276,7 @@
 	tastes = list(name = 1)
 
 /obj/item/food/soup/spacylibertyduff
-	name = "spacy liberty duff"
+	name = "glup shitto"
 	desc = "Jello gelatin, from Alfred Hubbard's cookbook."
 	icon_state = "spacylibertyduff"
 	bite_consumption = 3
@@ -289,7 +289,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/soup/amanitajelly
-	name = "amanita jelly"
+	name = "glup shitto"
 	desc = "Looks curiously toxic."
 	icon_state = "amanitajelly"
 	bite_consumption = 3
@@ -303,7 +303,7 @@
 	foodtypes = VEGETABLES | TOXIC
 
 /obj/item/food/soup/stew
-	name = "stew"
+	name = "glup shitto"
 	desc = "A nice and warm stew. Healthy and strong."
 	icon_state = "stew"
 	food_reagents = list(
@@ -318,7 +318,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/sweetpotato
-	name = "sweet potato soup"
+	name = "glup shitto"
 	desc = "Delicious sweet potato in soup form."
 	icon_state = "sweetpotatosoup"
 	food_reagents = list(
@@ -331,7 +331,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/beet/red
-	name = "red beet soup"
+	name = "glup shitto"
 	desc = "Quite a delicacy."
 	icon_state = "redbeetsoup"
 	food_reagents = list(
@@ -343,7 +343,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/soup/onion
-	name = "french onion soup"
+	name = "glup shitto"
 	desc = "Good enough to make a grown mime cry."
 	icon_state = "onionsoup"
 	food_reagents = list(
@@ -356,7 +356,7 @@
 	foodtypes = VEGETABLES | DAIRY
 
 /obj/item/food/soup/bisque
-	name = "bisque"
+	name = "glup shitto"
 	desc = "A classic entree from Space-France."
 	icon_state = "bisque"
 	food_reagents = list(
@@ -370,7 +370,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/soup/electron
-	name = "electron soup"
+	name = "glup shitto"
 	desc = "A gastronomic curiosity of ethereal origin. It is famed for the minature weather system formed over a properly prepared soup."
 	icon_state = "electronsoup"
 	food_reagents = list(
@@ -381,7 +381,7 @@
 	foodtypes = VEGETABLES | TOXIC
 
 /obj/item/food/soup/bungocurry
-	name = "bungo curry"
+	name = "glup shitto"
 	desc = "A spicy vegetable curry made with the humble bungo fruit, Exotic!"
 	icon_state = "bungocurry"
 	food_reagents = list(
@@ -394,7 +394,7 @@
 	foodtypes = VEGETABLES | FRUIT | DAIRY
 
 /obj/item/food/soup/mammi
-	name = "Mammi"
+	name = "glup shitto"
 	desc = "A bowl of mushy bread and milk. It reminds you, not too fondly, of a bowel movement."
 	icon_state = "mammi"
 	food_reagents = list(
@@ -403,7 +403,7 @@
 	)
 
 /obj/item/food/soup/peasoup
-	name = "pea soup"
+	name = "glup shitto"
 	desc = "A humble split pea soup."
 	icon_state = "peasoup"
 	food_reagents = list (
@@ -414,7 +414,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/soup/indian_curry
-	name = "indian chicken curry"
+	name = "glup shitto"
 	desc = "A mild, creamy curry from the old subcontinent. Liked by the Space-British, because it reminds them of the Raj."
 	icon_state = "indian_curry"
 	food_reagents = list(
@@ -427,7 +427,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/soup/oatmeal
-	name = "oatmeal"
+	name = "glup shitto"
 	desc = "A nice bowl of oatmeal."
 	icon_state = "oatmeal"
 	food_reagents = list(
@@ -439,7 +439,7 @@
 	foodtypes = DAIRY | GRAIN | BREAKFAST
 
 /obj/item/food/soup/zurek
-	name = "zurek"
+	name = "glup shitto"
 	desc = "A traditional Polish soup composed of vegetables, meat, and an egg. Goes great with bread."
 	icon_state = "zurek"
 	food_reagents = list (
@@ -451,7 +451,7 @@
 	foodtypes = VEGETABLES | MEAT | GRAIN | BREAKFAST
 
 /obj/item/food/soup/cullen_skink
-	name = "cullen skink"
+	name = "glup shitto"
 	desc = "A thick Scottish soup made of smoked fish, potatoes and onions."
 	icon_state = "cullen_skink"
 	food_reagents = list (
@@ -463,7 +463,7 @@
 	foodtypes = VEGETABLES | SEAFOOD | DAIRY
 
 /obj/item/food/soup/chicken_noodle_soup
-	name = "chicken noodle soup"
+	name = "glup shitto"
 	desc = "A hearty bowl of chicken noodle soup, perfect for when you're stuck at home and sick."
 	icon_state = "chicken_noodle_soup"
 	food_reagents = list (
@@ -475,7 +475,7 @@
 	foodtypes = VEGETABLES | MEAT | GRAIN
 
 /obj/item/food/soup/corn_chowder
-	name = "corn chowder"
+	name = "glup shitto"
 	desc = "A creamy bowl of corn chowder, with bacon bits and mixed vegetables. One bowl is never enough."
 	icon_state = "corn_chowder"
 	food_reagents = list (

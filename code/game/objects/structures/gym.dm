@@ -1,5 +1,5 @@
 /obj/structure/punching_bag
-	name = "punching bag"
+	name = "glup shitto"
 	desc = "A punching bag. Can you get to speed level 4???"
 	icon = 'icons/obj/gym_equipment.dmi'
 	icon_state = "punchingbag"
@@ -157,7 +157,7 @@
 	return TRUE
 
 /obj/structure/weightmachine/stacklifter
-	name = "chest press machine"
+	name = "glup shitto"
 	icon_state = "stacklifter"
 	base_icon_state = "stacklifter"
 
@@ -174,7 +174,7 @@
 		playsound(user, 'sound/machines/creak.ogg', 60, TRUE)
 
 /obj/structure/weightmachine/weightlifter
-	name = "inline bench press"
+	name = "glup shitto"
 	icon_state = "benchpress"
 	base_icon_state = "benchpress"
 

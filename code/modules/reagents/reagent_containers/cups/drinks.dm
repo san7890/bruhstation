@@ -2,7 +2,7 @@
 /// Drinks.
 ////////////////////////////////////////////////////////////////////////////////
 /obj/item/reagent_containers/cup/glass
-	name = "drink"
+	name = "glup shitto"
 	desc = "yummy"
 	icon = 'icons/obj/drinks/drinks.dmi'
 	icon_state = null
@@ -40,7 +40,7 @@
 
 
 /obj/item/reagent_containers/cup/glass/trophy
-	name = "pewter cup"
+	name = "glup shitto"
 	desc = "Everyone gets a trophy."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "pewter_cup"
@@ -57,7 +57,7 @@
 	isGlass = FALSE
 
 /obj/item/reagent_containers/cup/glass/trophy/gold_cup
-	name = "gold cup"
+	name = "glup shitto"
 	desc = "You're winner!"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "golden_cup"
@@ -70,7 +70,7 @@
 	volume = 150
 
 /obj/item/reagent_containers/cup/glass/trophy/silver_cup
-	name = "silver cup"
+	name = "glup shitto"
 	desc = "Best loser!"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "silver_cup"
@@ -83,7 +83,7 @@
 
 
 /obj/item/reagent_containers/cup/glass/trophy/bronze_cup
-	name = "bronze cup"
+	name = "glup shitto"
 	desc = "At least you ranked!"
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "bronze_cup"
@@ -100,7 +100,7 @@
 // Formatting is the same as food.
 
 /obj/item/reagent_containers/cup/glass/coffee
-	name = "robust coffee"
+	name = "glup shitto"
 	desc = "Careful, the beverage you're about to enjoy is extremely hot."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "coffee"
@@ -134,7 +134,7 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/glass/ice
-	name = "ice cup"
+	name = "glup shitto"
 	desc = "Careful, cold ice, do not chew."
 	custom_price = PAYCHECK_LOWER * 0.6
 	icon_state = "icecup"
@@ -143,12 +143,12 @@
 	isGlass = FALSE
 
 /obj/item/reagent_containers/cup/glass/ice/prison
-	name = "dirty ice cup"
+	name = "glup shitto"
 	desc = "Either Nanotrasen's water supply is contaminated, or this machine actually vends lemon, chocolate, and cherry snow cones."
 	list_reagents = list(/datum/reagent/consumable/ice = 25, /datum/reagent/consumable/liquidgibs = 5)
 
 /obj/item/reagent_containers/cup/glass/mug // parent type is literally just so empty mug sprites are a thing
-	name = "mug"
+	name = "glup shitto"
 	desc = "A drink served in a classy mug."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "tea_empty"
@@ -161,13 +161,13 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/glass/mug/tea
-	name = "Duke Purple tea"
+	name = "glup shitto"
 	desc = "An insult to Duke Purple is an insult to the Space Queen! Any proper gentleman will fight you, if you sully this tea."
 	icon_state = "tea"
 	list_reagents = list(/datum/reagent/consumable/tea = 30)
 
 /obj/item/reagent_containers/cup/glass/mug/coco
-	name = "Dutch hot coco"
+	name = "glup shitto"
 	desc = "Made in Space South America."
 	icon_state = "tea"
 	list_reagents = list(/datum/reagent/consumable/hot_coco = 15, /datum/reagent/consumable/sugar = 5)
@@ -176,13 +176,13 @@
 	custom_price = PAYCHECK_CREW * 1.2
 
 /obj/item/reagent_containers/cup/glass/mug/nanotrasen
-	name = "\improper Nanotrasen mug"
+	name = "glup shitto"
 	desc = "A mug to display your corporate pride."
 	icon_state = "mug_nt_empty"
 	base_icon_state = "mug_nt"
 
 /obj/item/reagent_containers/cup/glass/coffee_cup
-	name = "coffee cup"
+	name = "glup shitto"
 	desc = "A heat-formed plastic coffee cup. Can theoretically be used for other hot drinks, if you're feeling adventurous."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "coffee_cup_e"
@@ -197,7 +197,7 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/glass/dry_ramen
-	name = "cup ramen"
+	name = "glup shitto"
 	desc = "Just add 5ml of water, self heats! A taste that reminds you of your school years. Now new with salty flavour!"
 	icon_state = "ramen"
 	list_reagents = list(/datum/reagent/consumable/dry_ramen = 15, /datum/reagent/consumable/salt = 3)
@@ -206,7 +206,7 @@
 	custom_price = PAYCHECK_CREW * 0.9
 
 /obj/item/reagent_containers/cup/glass/waterbottle
-	name = "bottle of water"
+	name = "glup shitto"
 	desc = "A bottle of water filled at an old Earth bottling facility."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "smallbottle"
@@ -344,7 +344,7 @@
 
 // Admin spawn
 /obj/item/reagent_containers/cup/glass/waterbottle/relic
-	name = "mysterious bottle"
+	name = "glup shitto"
 	desc = "A bottle quite similar to a water bottle, but with some words scribbled on with a marker. It seems to be radiating some kind of energy."
 	flip_chance = 100 // FLIPP
 
@@ -358,7 +358,7 @@
 
 
 /obj/item/reagent_containers/cup/glass/sillycup
-	name = "paper cup"
+	name = "glup shitto"
 	desc = "A paper water cup."
 	icon_state = "water_cup_e"
 	possible_transfer_amounts = list(10)
@@ -371,7 +371,7 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/smallcarton
-	name = "small carton"
+	name = "glup shitto"
 	desc = "A small carton, intended for holding drinks."
 	icon = 'icons/obj/drinks/boxes.dmi'
 	icon_state = "juicebox"
@@ -401,7 +401,7 @@
 	target.Bumped(bottle_shard)
 
 /obj/item/reagent_containers/cup/glass/colocup
-	name = "colo cup"
+	name = "glup shitto"
 	desc = "A cheap, mass produced style of cup, typically used at parties. They never seem to come out red, for some reason..."
 	icon = 'icons/obj/drinks/colo.dmi'
 	icon_state = "colocup"
@@ -430,7 +430,7 @@
 // icon states.
 
 /obj/item/reagent_containers/cup/glass/shaker
-	name = "shaker"
+	name = "glup shitto"
 	desc = "A metal shaker to mix drinks in."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "shaker"
@@ -447,7 +447,7 @@
 		icon_state = "shaker_n"
 
 /obj/item/reagent_containers/cup/glass/flask
-	name = "flask"
+	name = "glup shitto"
 	desc = "Every good spaceman knows it's a good idea to bring along a couple of pints of whiskey wherever they go."
 	custom_price = PAYCHECK_COMMAND * 2
 	icon = 'icons/obj/drinks/bottles.dmi'
@@ -457,13 +457,13 @@
 	isGlass = FALSE
 
 /obj/item/reagent_containers/cup/glass/flask/gold
-	name = "captain's flask"
+	name = "glup shitto"
 	desc = "A gold flask belonging to the captain."
 	icon_state = "flask_gold"
 	custom_materials = list(/datum/material/gold=500)
 
 /obj/item/reagent_containers/cup/glass/flask/det
-	name = "detective's flask"
+	name = "glup shitto"
 	desc = "The detective's only true friend."
 	icon_state = "detflask"
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 30)
@@ -472,7 +472,7 @@
 	list_reagents = list(/datum/reagent/consumable/applejuice = 30)
 
 /obj/item/reagent_containers/cup/glass/mug/britcup
-	name = "cup"
+	name = "glup shitto"
 	desc = "A cup with the british flag emblazoned on it."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "britcup_empty"

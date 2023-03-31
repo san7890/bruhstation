@@ -4,7 +4,7 @@
 #define LIGHTFLOOR_BROKEN 3
 
 /turf/open/floor/light
-	name = "light floor"
+	name = "glup shitto"
 	desc = "A wired glass tile embedded into the floor. Modify the color with a Multitool."
 	light_range = 5
 	icon_state = "light_on-1"
@@ -159,7 +159,7 @@
 
 //Cycles through all of the colours
 /turf/open/floor/light/colour_cycle
-	name = "dancefloor"
+	name = "glup shitto"
 	desc = "Funky floor."
 	icon_state = "light_on-cycle_all"
 	light_color = LIGHT_COLOR_SLIME_LAMP

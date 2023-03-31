@@ -1,7 +1,7 @@
 #define SPAM_CD (3 SECONDS)
 
 /obj/machinery/prisongate
-	name = "prison gate scanner"
+	name = "glup shitto"
 	desc = "A hardlight gate with an ID scanner attached to the side. Good at deterring even the most persistent temporarily embarrassed employee."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "prisongate_on"

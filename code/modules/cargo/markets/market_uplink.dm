@@ -1,5 +1,5 @@
 /obj/item/market_uplink
-	name = "\improper Market Uplink"
+	name = "glup shitto"
 	desc = "An market uplink. Usable with markets. You probably shouldn't have this!"
 	icon = 'icons/obj/blackmarket.dmi'
 	icon_state = "uplink"
@@ -144,7 +144,7 @@
 			selected_item = null
 
 /obj/item/market_uplink/blackmarket
-	name = "\improper Black Market Uplink"
+	name = "glup shitto"
 	desc = "An illegal black market uplink. If command wanted you to have these, they wouldn't have made it so hard to get one."
 	icon = 'icons/obj/blackmarket.dmi'
 	icon_state = "uplink"
@@ -153,7 +153,7 @@
 
 
 /datum/crafting_recipe/blackmarket_uplink
-	name = "Black Market Uplink"
+	name = "glup shitto"
 	result = /obj/item/market_uplink/blackmarket
 	time = 30
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER, TOOL_MULTITOOL)

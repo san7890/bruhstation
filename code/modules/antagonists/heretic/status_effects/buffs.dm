@@ -82,17 +82,17 @@
 
 
 /atom/movable/screen/alert/status_effect/crucible_soul
-	name = "Blessing of Crucible Soul"
+	name = "glup shitto"
 	desc = "You phased through reality. You are halfway to your final destination..."
 	icon_state = "crucible"
 
 /atom/movable/screen/alert/status_effect/duskndawn
-	name = "Blessing of Dusk and Dawn"
+	name = "glup shitto"
 	desc = "Many things hide beyond the horizon. With Owl's help I managed to slip past Sun's guard and Moon's watch."
 	icon_state = "duskndawn"
 
 /atom/movable/screen/alert/status_effect/marshal
-	name = "Blessing of Wounded Soldier"
+	name = "glup shitto"
 	desc = "Some people seek power through redemption. One thing many people don't know is that battle \
 		is the ultimate redemption, and wounds let you bask in eternal glory."
 	icon_state = "wounded_soldier"

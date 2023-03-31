@@ -1,64 +1,64 @@
 //Research Base Areas//--
 
 /area/awaymission/research
-	name = "Research Outpost"
+	name = "glup shitto"
 	icon_state = "away"
 	static_lighting = TRUE
 
 /area/awaymission/research/interior
-	name = "Research Inside"
+	name = "glup shitto"
 	requires_power = TRUE
 	icon_state = "away2"
 
 /area/awaymission/research/interior/cryo
-	name = "Research Cryostasis Room"
+	name = "glup shitto"
 	icon_state = "medbay"
 
 /area/awaymission/research/interior/clonestorage
-	name = "Research Clone Storage"
+	name = "glup shitto"
 	icon_state = "cloning"
 
 /area/awaymission/research/interior/genetics
-	name = "Research Genetics Research"
+	name = "glup shitto"
 	icon_state = "genetics"
 
 /area/awaymission/research/interior/engineering
-	name = "Research Engineering"
+	name = "glup shitto"
 	icon_state = "engine"
 
 /area/awaymission/research/interior/security
-	name = "Research Security"
+	name = "glup shitto"
 	icon_state = "security"
 
 /area/awaymission/research/interior/secure
-	name = "Research Secure Vault"
+	name = "glup shitto"
 
 /area/awaymission/research/interior/maint
-	name = "Research Maintenance"
+	name = "glup shitto"
 	icon_state = "maintcentral"
 
 /area/awaymission/research/interior/dorm
-	name = "Research Dorms"
+	name = "glup shitto"
 	icon_state = "Sleep"
 
 /area/awaymission/research/interior/escapepods
-	name = "Research Escape Wing"
+	name = "glup shitto"
 	icon_state = "exit"
 
 /area/awaymission/research/interior/gateway
-	name = "Research Gateway"
+	name = "glup shitto"
 	icon_state = "start"
 
 /area/awaymission/research/interior/bathroom
-	name = "Research Bathrooms"
+	name = "glup shitto"
 	icon_state = "restrooms"
 
 /area/awaymission/research/interior/medbay
-	name = "Research Medbay"
+	name = "glup shitto"
 	icon_state = "medbay"
 
 /area/awaymission/research/exterior
-	name = "Research Exterior"
+	name = "glup shitto"
 	icon_state = "unknown"
 
 

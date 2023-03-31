@@ -6,7 +6,7 @@
  * Bonus: Drains nutrition from the host
 */
 /datum/symptom/weight_loss
-	name = "Weight Loss"
+	name = "glup shitto"
 	desc = "The virus mutates the host's metabolism, making it almost unable to gain nutrition from food."
 	illness = "Placid Reflux"
 	stealth = -2

@@ -1,6 +1,6 @@
 /// Docks the target's pay
 /datum/smite/dock_pay
-	name = "Dock Pay"
+	name = "glup shitto"
 
 /datum/smite/dock_pay/effect(client/user, mob/living/target)
 	. = ..()

@@ -27,7 +27,7 @@
  * Ashlord's Rite
  */
 /datum/heretic_knowledge/limited_amount/starting/base_ash
-	name = "Nightwatcher's Secret"
+	name = "glup shitto"
 	desc = "Opens up the Path of Ash to you. \
 		Allows you to transmute a match and a knife into an Ashen Blade. \
 		You can only create two at a time."
@@ -41,7 +41,7 @@
 	route = PATH_ASH
 
 /datum/heretic_knowledge/ashen_grasp
-	name = "Grasp of Ash"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp will burn the eyes of the victim, causing damage and blindness."
 	gain_text = "The Nightwatcher was the first of them, his treason started it all. \
 		Their lantern, expired to ash - their watch, absent."
@@ -69,7 +69,7 @@
 	target.set_eye_blur_if_lower(20 SECONDS)
 
 /datum/heretic_knowledge/spell/ash_passage
-	name = "Ashen Passage"
+	name = "glup shitto"
 	desc = "Grants you Ashen Passage, a silent but short range jaunt."
 	gain_text = "He knew how to walk between the planes."
 	next_knowledge = list(
@@ -83,7 +83,7 @@
 	route = PATH_ASH
 
 /datum/heretic_knowledge/mark/ash_mark
-	name = "Mark of Ash"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp now applies the Mark of Ash. The mark is triggered from an attack with your Ashen Blade. \
 		When triggered, the victim takes additional stamina and burn damage, and the mark is transferred to any nearby heathens. \
 		Damage dealt is decreased with each transfer."
@@ -110,7 +110,7 @@
 	route = PATH_ASH
 
 /datum/heretic_knowledge/spell/fire_blast
-	name = "Volcano Blast"
+	name = "glup shitto"
 	desc = "Grants you Volcano Blast, a spell that - after a short charge - fires off a beam of energy \
 		at a nearby enemy, setting them on fire and burning them. If they do not extinguish themselves, \
 		the beam will continue to another target."
@@ -122,7 +122,7 @@
 
 
 /datum/heretic_knowledge/mad_mask
-	name = "Mask of Madness"
+	name = "glup shitto"
 	desc = "Allows you to transmute any mask, four candles, a stun baton, and a liver to create a Mask of Madness. \
 		The mask instills fear into heathens who witness it, causing stamina damage, hallucinations, and insanity. \
 		It can also be forced onto a heathen, to make them unable to take it off..."
@@ -144,7 +144,7 @@
 	route = PATH_ASH
 
 /datum/heretic_knowledge/blade_upgrade/ash
-	name = "Fiery Blade"
+	name = "glup shitto"
 	desc = "Your blade now lights enemies ablaze on attack."
 	gain_text = "He returned, blade in hand, he swung and swung as the ash fell from the skies. \
 		His city, the people he swore to watch... and watch he did, as they all burnt to cinders."
@@ -159,7 +159,7 @@
 	target.ignite_mob()
 
 /datum/heretic_knowledge/spell/flame_birth
-	name = "Nightwatcher's Rebirth"
+	name = "glup shitto"
 	desc = "Grants you Nightwatcher's Rebirth, a spell that extinguishes you and \
 		burns all nearby heathens who are currently on fire, healing you for every victim afflicted. \
 		If any victims afflicted are in critical condition, they will also instantly die."
@@ -175,7 +175,7 @@
 	route = PATH_ASH
 
 /datum/heretic_knowledge/ultimate/ash_final
-	name = "Ashlord's Rite"
+	name = "glup shitto"
 	desc = "The ascension ritual of the Path of Ash. \
 		Bring 3 burning or husked corpses to a transmutation rune to complete the ritual. \
 		When completed, you become a harbinger of flames, gaining two abilites. \

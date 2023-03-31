@@ -1,6 +1,6 @@
 //Bluespace crystals, used in telescience and when crushed it will blink you to a random turf.
 /obj/item/stack/ore/bluespace_crystal
-	name = "bluespace crystal"
+	name = "glup shitto"
 	desc = "A glowing bluespace crystal, not much is known about how they work. It looks very delicate."
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "bluespace_crystal"
@@ -17,7 +17,7 @@
 	var/blink_range = 8
 
 /obj/item/stack/ore/bluespace_crystal/refined
-	name = "refined bluespace crystal"
+	name = "glup shitto"
 	points = 0
 	refined_type = null
 	merge_type = /obj/item/stack/ore/bluespace_crystal/refined
@@ -52,7 +52,7 @@
 
 //Artificial bluespace crystal, doesn't give you much research.
 /obj/item/stack/ore/bluespace_crystal/artificial
-	name = "artificial bluespace crystal"
+	name = "glup shitto"
 	desc = "An artificially made bluespace crystal, it looks delicate."
 	mats_per_unit = list(/datum/material/bluespace=MINERAL_MATERIAL_AMOUNT*0.5)
 	blink_range = 4 // Not as good as the organic stuff!
@@ -63,7 +63,7 @@
 
 //Polycrystals, aka stacks
 /obj/item/stack/sheet/bluespace_crystal
-	name = "bluespace polycrystal"
+	name = "glup shitto"
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "polycrystal"
 	inhand_icon_state = null

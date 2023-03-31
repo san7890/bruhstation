@@ -1,6 +1,6 @@
 //does toxin damage, hallucination, targets think they're not hurt at all
 /datum/blobstrain/reagent/regenerative_materia
-	name = "Regenerative Materia"
+	name = "glup shitto"
 	description = "will do medium initial toxin damage, injecting a poison which does more toxin damage and makes targets believe they are fully healed. The core regenerates much faster."
 	analyzerdescdamage = "Does medium initial toxin damage, injecting a poison which does more toxin damage and makes targets believe they are fully healed. Core regenerates much faster."
 	color = "#A88FB7"
@@ -11,7 +11,7 @@
 	point_rate_bonus = 1
 
 /datum/reagent/blob/regenerative_materia
-	name = "Regenerative Materia"
+	name = "glup shitto"
 	taste_description = "heaven"
 	color = "#A88FB7"
 

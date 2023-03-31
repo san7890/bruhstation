@@ -1,6 +1,6 @@
 /// Handles logic for ghost spawning code, visible object in game is handled by /obj/structure/alien/resin/flower_bud
 /obj/effect/mob_spawn/ghost_role/venus_human_trap
-	name = "flower bud"
+	name = "glup shitto"
 	desc = "A large pulsating plant..."
 	icon = 'icons/effects/spacevines.dmi'
 	icon_state = "bud0"

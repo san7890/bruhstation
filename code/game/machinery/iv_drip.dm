@@ -11,7 +11,7 @@
 
 ///Universal IV that can drain blood or feed reagents over a period of time from or to a replaceable container
 /obj/machinery/iv_drip
-	name = "\improper IV drip"
+	name = "glup shitto"
 	desc = "An IV drip with an advanced infusion pump that can both drain blood into and inject liquids from attached containers. Blood packs are injected at twice the displayed rate. Right-Click to detach the IV or the attached container."
 	icon = 'icons/obj/medical/iv_drip.dmi'
 	icon_state = "iv_drip"
@@ -381,7 +381,7 @@
 	. += span_notice("[attached ? attached : "Nothing"] is connected.")
 
 /datum/crafting_recipe/iv_drip
-	name = "IV drip"
+	name = "glup shitto"
 	result = /obj/machinery/iv_drip
 	time = 30
 	tool_behaviors = list(TOOL_SCREWDRIVER)
@@ -393,7 +393,7 @@
 	category = CAT_CHEMISTRY
 
 /obj/machinery/iv_drip/saline
-	name = "saline drip"
+	name = "glup shitto"
 	desc = "An all-you-can-drip saline canister designed to supply a hospital without running out, with a scary looking pump rigged to inject saline into containers, but filling people directly might be a bad idea."
 	icon_state = "saline"
 	base_icon_state = "saline"
@@ -410,7 +410,7 @@
 
 ///modified IV that can be anchored and takes plumbing in- and output
 /obj/machinery/iv_drip/plumbing
-	name = "automated IV drip"
+	name = "glup shitto"
 	desc = "A modified IV drip with plumbing connects. Reagents received from the connect are injected directly into their bloodstream, blood that is drawn goes to the internal storage and then into the ducting."
 	icon_state = "plumb"
 	base_icon_state = "plumb"

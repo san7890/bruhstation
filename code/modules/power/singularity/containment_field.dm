@@ -1,7 +1,7 @@
 
 
 /obj/machinery/field/containment
-	name = "containment field"
+	name = "glup shitto"
 	desc = "An energy field."
 	icon = 'icons/obj/engine/singularity.dmi'
 	icon_state = "Contain_F"

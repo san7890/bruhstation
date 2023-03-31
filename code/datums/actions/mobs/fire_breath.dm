@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown/fire_breath
-	name = "Fire Breath"
+	name = "glup shitto"
 	button_icon = 'icons/obj/wizard.dmi'
 	button_icon_state = "fireball"
 	desc = "Allows you to shoot fire towards a target."
@@ -33,7 +33,7 @@
 	return (get_line(owner, T) - get_turf(owner))
 
 /datum/action/cooldown/mob_cooldown/fire_breath/cone
-	name = "Fire Cone"
+	name = "glup shitto"
 	desc = "Allows you to shoot fire towards a target with surrounding lines of fire."
 	/// The angles relative to the target that shoot lines of fire
 	var/list/angles = list(-40, 0, 40)
@@ -44,7 +44,7 @@
 		INVOKE_ASYNC(src, PROC_REF(fire_line), target, offset)
 
 /datum/action/cooldown/mob_cooldown/fire_breath/mass_fire
-	name = "Mass Fire"
+	name = "glup shitto"
 	button_icon = 'icons/effects/fire.dmi'
 	button_icon_state = "1"
 	desc = "Allows you to shoot fire in all directions."

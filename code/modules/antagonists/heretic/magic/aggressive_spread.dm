@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/aoe/rust_conversion
-	name = "Aggressive Spread"
+	name = "glup shitto"
 	desc = "Spreads rust onto nearby surfaces."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -34,6 +34,6 @@
 	victim.rust_heretic_act()
 
 /datum/action/cooldown/spell/aoe/rust_conversion/small
-	name = "Rust Conversion"
+	name = "glup shitto"
 	desc = "Spreads rust onto nearby surfaces."
 	aoe_radius = 2

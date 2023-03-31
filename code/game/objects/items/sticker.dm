@@ -1,6 +1,6 @@
 /// parent type for all other stickers. do not spawn directly
 /obj/item/sticker
-	name = "sticker"
+	name = "glup shitto"
 	desc = "A sticker with some strong adhesive on the back, sticks to stuff!"
 	item_flags = NOBLUDGEON | XENOMORPH_HOLDABLE //funny
 	resistance_flags = FLAMMABLE
@@ -22,110 +22,110 @@
 	AddElement(/datum/element/sticker)
 
 /obj/item/sticker/smile
-	name = "smiley sticker"
+	name = "glup shitto"
 	icon_state = "smile"
 
 /obj/item/sticker/frown
-	name = "frowny sticker"
+	name = "glup shitto"
 	icon_state = "frown"
 
 /obj/item/sticker/left_arrow
-	name = "left arrow sticker"
+	name = "glup shitto"
 	icon_state = "larrow"
 
 /obj/item/sticker/right_arrow
-	name = "right arrow sticker"
+	name = "glup shitto"
 	icon_state = "rarrow"
 
 /obj/item/sticker/star
-	name = "star sticker"
+	name = "glup shitto"
 	icon_state = "star1"
 	icon_states = list("star1","star2")
 
 /obj/item/sticker/heart
-	name = "heart sticker"
+	name = "glup shitto"
 	icon_state = "heart"
 
 /obj/item/sticker/googly
-	name = "googly eye sticker"
+	name = "glup shitto"
 	icon_state = "googly1"
 	icon_states = list("googly1","googly2")
 
 /obj/item/sticker/rev
-	name = "blue R sticker"
+	name = "glup shitto"
 	desc = "A sticker of FUCK THE SYSTEM, the galaxy's premiere hardcore punk band."
 	icon_state = "revhead"
 
 /obj/item/sticker/pslime
-	name = "slime plushie sticker"
+	name = "glup shitto"
 	icon_state = "pslime"
 
 /obj/item/sticker/pliz
-	name = "lizard plushie sticker"
+	name = "glup shitto"
 	icon_state = "plizard"
 
 /obj/item/sticker/pbee
-	name = "bee plushie sticker"
+	name = "glup shitto"
 	icon_state = "pbee"
 
 /obj/item/sticker/psnake
-	name = "snake plushie sticker"
+	name = "glup shitto"
 	icon_state = "psnake"
 
 /obj/item/sticker/robot
-	name = "bot sticker"
+	name = "glup shitto"
 	icon_state = "tile"
 	icon_states = list("tile","medbot","clean")
 
 /obj/item/sticker/toolbox
-	name = "toolbox sticker"
+	name = "glup shitto"
 	icon_state = "toolbox"
 
 /obj/item/sticker/clown
-	name = "clown sticker"
+	name = "glup shitto"
 	icon_state = "honkman"
 
 /obj/item/sticker/mime
-	name = "mime sticker"
+	name = "glup shitto"
 	icon_state = "silentman"
 
 /obj/item/sticker/assistant
-	name = "assistant sticker"
+	name = "glup shitto"
 	icon_state = "tider"
 
 /obj/item/sticker/syndicate
-	name = "syndicate sticker"
+	name = "glup shitto"
 	icon_state = "synd"
 	contraband = TRUE
 
 /obj/item/sticker/syndicate/c4
-	name = "C-4 sticker"
+	name = "glup shitto"
 	icon_state = "c4"
 
 /obj/item/sticker/syndicate/bomb
-	name = "syndicate bomb sticker"
+	name = "glup shitto"
 	icon_state = "sbomb"
 
 /obj/item/sticker/syndicate/apc
-	name = "broken APC sticker"
+	name = "glup shitto"
 	icon_state = "milf"
 
 /obj/item/sticker/syndicate/larva
-	name = "larva sticker"
+	name = "glup shitto"
 	icon_state = "larva"
 
 /obj/item/sticker/syndicate/cult
-	name = "bloody paper sticker"
+	name = "glup shitto"
 	icon_state = "cult"
 
 /obj/item/sticker/syndicate/flash
-	name = "flash sticker"
+	name = "glup shitto"
 	icon_state = "flash"
 
 /obj/item/sticker/syndicate/op
-	name = "operative sticker"
+	name = "glup shitto"
 	icon_state = "newcop"
 
 /obj/item/sticker/syndicate/trap
-	name = "bear trap sticker"
+	name = "glup shitto"
 	icon_state = "trap"

@@ -2,7 +2,7 @@ GLOBAL_DATUM_INIT(fire_overlay, /mutable_appearance, mutable_appearance('icons/e
 
 /// Anything you can pick up and hold.
 /obj/item
-	name = "item"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	blocks_emissive = EMISSIVE_BLOCK_GENERIC
 	pass_flags_self = PASSITEM

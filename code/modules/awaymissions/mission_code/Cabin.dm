@@ -1,44 +1,44 @@
 
 /*Cabin areas*/
 /area/awaymission/cabin
-	name = "Cabin"
+	name = "glup shitto"
 	icon_state = "away2"
 	requires_power = TRUE
 	static_lighting = TRUE
 
 /area/awaymission/cabin/snowforest
-	name = "Snow Forest"
+	name = "glup shitto"
 	icon_state = "away"
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
 /area/awaymission/cabin/snowforest/sovietsurface
-	name = "Snow Forest"
+	name = "glup shitto"
 	icon_state = "awaycontent29"
 	requires_power = FALSE
 
 /area/awaymission/cabin/lumbermill
-	name = "Lumbermill"
+	name = "glup shitto"
 	icon_state = "away3"
 	requires_power = FALSE
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
 /area/awaymission/cabin/caves/sovietcave
-	name = "Soviet Bunker"
+	name = "glup shitto"
 	icon_state = "awaycontent4"
 
 /area/awaymission/cabin/caves
-	name = "North Snowdin Caves"
+	name = "glup shitto"
 	icon_state = "awaycontent15"
 	static_lighting = TRUE
 
 /area/awaymission/cabin/caves/mountain
-	name = "North Snowdin Mountains"
+	name = "glup shitto"
 	icon_state = "awaycontent24"
 
 /obj/structure/firepit
-	name = "firepit"
+	name = "glup shitto"
 	desc = "Warm and toasty."
 	icon = 'icons/obj/fireplace.dmi'
 	icon_state = "firepit-active"
@@ -90,7 +90,7 @@
 //other Cabin Stuff//
 
 /obj/machinery/recycler/lumbermill
-	name = "lumbermill saw"
+	name = "glup shitto"
 	desc = "Faster then the cartoons!"
 	obj_flags = CAN_BE_HIT | EMAGGED
 	item_recycle_sound = 'sound/weapons/chainsawhit.ogg'
@@ -104,7 +104,7 @@
 		new L.plank_type(src.loc, 1 + round(potency / 25))
 
 /obj/structure/ladder/unbreakable/rune
-	name = "\improper Teleportation Rune"
+	name = "glup shitto"
 	desc = "Could lead anywhere."
 	icon = 'icons/obj/rune.dmi'
 	icon_state = "1"

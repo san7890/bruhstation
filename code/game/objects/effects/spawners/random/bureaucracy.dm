@@ -1,9 +1,9 @@
 /obj/effect/spawner/random/bureaucracy
-	name = "bureaucracy loot spawner"
+	name = "glup shitto"
 	desc = "For the exotic art of paper shuffling."
 
 /obj/effect/spawner/random/bureaucracy/pen
-	name = "pen spawner"
+	name = "glup shitto"
 	icon_state = "pen"
 	loot = list(
 		/obj/item/pen = 30,
@@ -16,7 +16,7 @@
 	)
 
 /obj/effect/spawner/random/bureaucracy/stamp
-	name = "stamp spawner"
+	name = "glup shitto"
 	icon_state = "stamp"
 	loot = list(
 		/obj/item/stamp = 3,
@@ -24,7 +24,7 @@
 	)
 
 /obj/effect/spawner/random/bureaucracy/crayon
-	name = "crayon spawner"
+	name = "glup shitto"
 	icon_state = "crayon"
 	loot = list(
 		/obj/item/toy/crayon/red,
@@ -38,7 +38,7 @@
 	)
 
 /obj/effect/spawner/random/bureaucracy/paper
-	name = "paper spawner"
+	name = "glup shitto"
 	icon_state = "paper"
 	loot = list(
 		/obj/item/paper = 20,
@@ -50,7 +50,7 @@
 	)
 
 /obj/effect/spawner/random/bureaucracy/briefcase
-	name = "briefcase spawner"
+	name = "glup shitto"
 	icon_state = "briefcase"
 	loot = list(
 		/obj/item/storage/briefcase = 3,
@@ -58,7 +58,7 @@
 	)
 
 /obj/effect/spawner/random/bureaucracy/folder
-	name = "folder spawner"
+	name = "glup shitto"
 	icon_state = "folder"
 	loot = list(
 		/obj/item/folder/blue,
@@ -69,7 +69,7 @@
 	)
 
 /obj/effect/spawner/random/bureaucracy/birthday_wrap
-	name = "additional wrapping paper spawner"
+	name = "glup shitto"
 	icon_state = "wrapping_paper"
 	spawn_all_loot = TRUE
 	loot = list(

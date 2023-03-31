@@ -77,7 +77,7 @@
 	var/em_block = FALSE
 
 /datum/sprite_accessory/blank
-	name = "None"
+	name = "glup shitto"
 	icon_state = "None"
 
 //////////////////////
@@ -92,735 +92,735 @@
 	// you do not need to define _s or _l sub-states, game automatically does this for you
 
 /datum/sprite_accessory/hair/afro
-	name = "Afro"
+	name = "glup shitto"
 	icon_state = "hair_afro"
 
 /datum/sprite_accessory/hair/afro2
-	name = "Afro 2"
+	name = "glup shitto"
 	icon_state = "hair_afro2"
 
 /datum/sprite_accessory/hair/afro_large
-	name = "Afro (Large)"
+	name = "glup shitto"
 	icon_state = "hair_bigafro"
 
 /datum/sprite_accessory/hair/allthefuzz
-	name = "All The Fuzz"
+	name = "glup shitto"
 	icon_state = "hair_allthefuzz"
 
 /datum/sprite_accessory/hair/antenna
-	name = "Ahoge"
+	name = "glup shitto"
 	icon_state = "hair_antenna"
 
 /datum/sprite_accessory/hair/bald
-	name = "Bald"
+	name = "glup shitto"
 	icon_state = null
 
 /datum/sprite_accessory/hair/balding
-	name = "Balding Hair"
+	name = "glup shitto"
 	icon_state = "hair_e"
 
 /datum/sprite_accessory/hair/bedhead
-	name = "Bedhead"
+	name = "glup shitto"
 	icon_state = "hair_bedhead"
 
 /datum/sprite_accessory/hair/bedhead2
-	name = "Bedhead 2"
+	name = "glup shitto"
 	icon_state = "hair_bedheadv2"
 
 /datum/sprite_accessory/hair/bedhead3
-	name = "Bedhead 3"
+	name = "glup shitto"
 	icon_state = "hair_bedheadv3"
 
 /datum/sprite_accessory/hair/bedheadv4
-	name = "Bedhead 4x"
+	name = "glup shitto"
 	icon_state = "hair_bedheadv4"
 
 /datum/sprite_accessory/hair/bedheadlong
-	name = "Long Bedhead"
+	name = "glup shitto"
 	icon_state = "hair_long_bedhead"
 
 /datum/sprite_accessory/hair/bedheadfloorlength
-	name = "Floorlength Bedhead"
+	name = "glup shitto"
 	icon_state = "hair_floorlength_bedhead"
 
 /datum/sprite_accessory/hair/badlycut
-	name = "Shorter Long Bedhead"
+	name = "glup shitto"
 	icon_state = "hair_verybadlycut"
 
 /datum/sprite_accessory/hair/beehive
-	name = "Beehive"
+	name = "glup shitto"
 	icon_state = "hair_beehive"
 
 /datum/sprite_accessory/hair/beehive2
-	name = "Beehive 2"
+	name = "glup shitto"
 	icon_state = "hair_beehivev2"
 
 /datum/sprite_accessory/hair/bob
-	name = "Bob Hair"
+	name = "glup shitto"
 	icon_state = "hair_bob"
 
 /datum/sprite_accessory/hair/bob2
-	name = "Bob Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_bob2"
 
 /datum/sprite_accessory/hair/bob3
-	name = "Bob Hair 3"
+	name = "glup shitto"
 	icon_state = "hair_bobcut"
 
 /datum/sprite_accessory/hair/bob4
-	name = "Bob Hair 4"
+	name = "glup shitto"
 	icon_state = "hair_bob4"
 
 /datum/sprite_accessory/hair/bobcurl
-	name = "Bobcurl"
+	name = "glup shitto"
 	icon_state = "hair_bobcurl"
 
 /datum/sprite_accessory/hair/boddicker
-	name = "Boddicker"
+	name = "glup shitto"
 	icon_state = "hair_boddicker"
 
 /datum/sprite_accessory/hair/bowlcut
-	name = "Bowlcut"
+	name = "glup shitto"
 	icon_state = "hair_bowlcut"
 
 /datum/sprite_accessory/hair/bowlcut2
-	name = "Bowlcut 2"
+	name = "glup shitto"
 	icon_state = "hair_bowlcut2"
 
 /datum/sprite_accessory/hair/braid
-	name = "Braid (Floorlength)"
+	name = "glup shitto"
 	icon_state = "hair_braid"
 
 /datum/sprite_accessory/hair/braided
-	name = "Braided"
+	name = "glup shitto"
 	icon_state = "hair_braided"
 
 /datum/sprite_accessory/hair/front_braid
-	name = "Braided Front"
+	name = "glup shitto"
 	icon_state = "hair_braidfront"
 
 /datum/sprite_accessory/hair/not_floorlength_braid
-	name = "Braid (High)"
+	name = "glup shitto"
 	icon_state = "hair_braid2"
 
 /datum/sprite_accessory/hair/lowbraid
-	name = "Braid (Low)"
+	name = "glup shitto"
 	icon_state = "hair_hbraid"
 
 /datum/sprite_accessory/hair/shortbraid
-	name = "Braid (Short)"
+	name = "glup shitto"
 	icon_state = "hair_shortbraid"
 
 /datum/sprite_accessory/hair/braidtail
-	name = "Braided Tail"
+	name = "glup shitto"
 	icon_state = "hair_braidtail"
 
 /datum/sprite_accessory/hair/bun
-	name = "Bun Head"
+	name = "glup shitto"
 	icon_state = "hair_bun"
 
 /datum/sprite_accessory/hair/bun2
-	name = "Bun Head 2"
+	name = "glup shitto"
 	icon_state = "hair_bunhead2"
 
 /datum/sprite_accessory/hair/bun3
-	name = "Bun Head 3"
+	name = "glup shitto"
 	icon_state = "hair_bun3"
 
 /datum/sprite_accessory/hair/largebun
-	name = "Bun (Large)"
+	name = "glup shitto"
 	icon_state = "hair_largebun"
 
 /datum/sprite_accessory/hair/manbun
-	name = "Bun (Manbun)"
+	name = "glup shitto"
 	icon_state = "hair_manbun"
 
 /datum/sprite_accessory/hair/tightbun
-	name = "Bun (Tight)"
+	name = "glup shitto"
 	icon_state = "hair_tightbun"
 
 /datum/sprite_accessory/hair/business
-	name = "Business Hair"
+	name = "glup shitto"
 	icon_state = "hair_business"
 
 /datum/sprite_accessory/hair/business2
-	name = "Business Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_business2"
 
 /datum/sprite_accessory/hair/business3
-	name = "Business Hair 3"
+	name = "glup shitto"
 	icon_state = "hair_business3"
 
 /datum/sprite_accessory/hair/business4
-	name = "Business Hair 4"
+	name = "glup shitto"
 	icon_state = "hair_business4"
 
 /datum/sprite_accessory/hair/buzz
-	name = "Buzzcut"
+	name = "glup shitto"
 	icon_state = "hair_buzzcut"
 
 /datum/sprite_accessory/hair/chinbob
-	name = "Chin-Length Bob Cut"
+	name = "glup shitto"
 	icon_state = "hair_chinbob"
 
 /datum/sprite_accessory/hair/comet
-	name = "Comet"
+	name = "glup shitto"
 	icon_state = "hair_comet"
 
 /datum/sprite_accessory/hair/cia
-	name = "CIA"
+	name = "glup shitto"
 	icon_state = "hair_cia"
 
 /datum/sprite_accessory/hair/coffeehouse
-	name = "Coffee House"
+	name = "glup shitto"
 	icon_state = "hair_coffeehouse"
 
 /datum/sprite_accessory/hair/combover
-	name = "Combover"
+	name = "glup shitto"
 	icon_state = "hair_combover"
 
 /datum/sprite_accessory/hair/cornrows1
-	name = "Cornrows"
+	name = "glup shitto"
 	icon_state = "hair_cornrows"
 
 /datum/sprite_accessory/hair/cornrows2
-	name = "Cornrows 2"
+	name = "glup shitto"
 	icon_state = "hair_cornrows2"
 
 /datum/sprite_accessory/hair/cornrowbun
-	name = "Cornrow Bun"
+	name = "glup shitto"
 	icon_state = "hair_cornrowbun"
 
 /datum/sprite_accessory/hair/cornrowbraid
-	name = "Cornrow Braid"
+	name = "glup shitto"
 	icon_state = "hair_cornrowbraid"
 
 /datum/sprite_accessory/hair/cornrowdualtail
-	name = "Cornrow Tail"
+	name = "glup shitto"
 	icon_state = "hair_cornrowtail"
 
 /datum/sprite_accessory/hair/crew
-	name = "Crewcut"
+	name = "glup shitto"
 	icon_state = "hair_crewcut"
 
 /datum/sprite_accessory/hair/curls
-	name = "Curls"
+	name = "glup shitto"
 	icon_state = "hair_curls"
 
 /datum/sprite_accessory/hair/cut
-	name = "Cut Hair"
+	name = "glup shitto"
 	icon_state = "hair_c"
 
 /datum/sprite_accessory/hair/dandpompadour
-	name = "Dandy Pompadour"
+	name = "glup shitto"
 	icon_state = "hair_dandypompadour"
 
 /datum/sprite_accessory/hair/devillock
-	name = "Devil Lock"
+	name = "glup shitto"
 	icon_state = "hair_devilock"
 
 /datum/sprite_accessory/hair/doublebun
-	name = "Double Bun"
+	name = "glup shitto"
 	icon_state = "hair_doublebun"
 
 /datum/sprite_accessory/hair/dreadlocks
-	name = "Dreadlocks"
+	name = "glup shitto"
 	icon_state = "hair_dreads"
 
 /datum/sprite_accessory/hair/drillhair
-	name = "Drillruru"
+	name = "glup shitto"
 	icon_state = "hair_drillruru"
 
 /datum/sprite_accessory/hair/drillhairextended
-	name = "Drill Hair (Extended)"
+	name = "glup shitto"
 	icon_state = "hair_drillhairextended"
 
 /datum/sprite_accessory/hair/emo
-	name = "Emo"
+	name = "glup shitto"
 	icon_state = "hair_emo"
 
 /datum/sprite_accessory/hair/emofrine
-	name = "Emo Fringe"
+	name = "glup shitto"
 	icon_state = "hair_emofringe"
 
 /datum/sprite_accessory/hair/nofade
-	name = "Fade (None)"
+	name = "glup shitto"
 	icon_state = "hair_nofade"
 
 /datum/sprite_accessory/hair/highfade
-	name = "Fade (High)"
+	name = "glup shitto"
 	icon_state = "hair_highfade"
 
 /datum/sprite_accessory/hair/medfade
-	name = "Fade (Medium)"
+	name = "glup shitto"
 	icon_state = "hair_medfade"
 
 /datum/sprite_accessory/hair/lowfade
-	name = "Fade (Low)"
+	name = "glup shitto"
 	icon_state = "hair_lowfade"
 
 /datum/sprite_accessory/hair/baldfade
-	name = "Fade (Bald)"
+	name = "glup shitto"
 	icon_state = "hair_baldfade"
 
 /datum/sprite_accessory/hair/feather
-	name = "Feather"
+	name = "glup shitto"
 	icon_state = "hair_feather"
 
 /datum/sprite_accessory/hair/father
-	name = "Father"
+	name = "glup shitto"
 	icon_state = "hair_father"
 
 /datum/sprite_accessory/hair/sargeant
-	name = "Flat Top"
+	name = "glup shitto"
 	icon_state = "hair_sargeant"
 
 /datum/sprite_accessory/hair/flair
-	name = "Flair"
+	name = "glup shitto"
 	icon_state = "hair_flair"
 
 /datum/sprite_accessory/hair/bigflattop
-	name = "Flat Top (Big)"
+	name = "glup shitto"
 	icon_state = "hair_bigflattop"
 
 /datum/sprite_accessory/hair/flow_hair
-	name = "Flow Hair"
+	name = "glup shitto"
 	icon_state = "hair_f"
 
 /datum/sprite_accessory/hair/gelled
-	name = "Gelled Back"
+	name = "glup shitto"
 	icon_state = "hair_gelled"
 
 /datum/sprite_accessory/hair/gentle
-	name = "Gentle"
+	name = "glup shitto"
 	icon_state = "hair_gentle"
 
 /datum/sprite_accessory/hair/halfbang
-	name = "Half-banged Hair"
+	name = "glup shitto"
 	icon_state = "hair_halfbang"
 
 /datum/sprite_accessory/hair/halfbang2
-	name = "Half-banged Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_halfbang2"
 
 /datum/sprite_accessory/hair/halfshaved
-	name = "Half-shaved"
+	name = "glup shitto"
 	icon_state = "hair_halfshaved"
 
 /datum/sprite_accessory/hair/hedgehog
-	name = "Hedgehog Hair"
+	name = "glup shitto"
 	icon_state = "hair_hedgehog"
 
 /datum/sprite_accessory/hair/himecut
-	name = "Hime Cut"
+	name = "glup shitto"
 	icon_state = "hair_himecut"
 
 /datum/sprite_accessory/hair/himecut2
-	name = "Hime Cut 2"
+	name = "glup shitto"
 	icon_state = "hair_himecut2"
 
 /datum/sprite_accessory/hair/shorthime
-	name = "Hime Cut (Short)"
+	name = "glup shitto"
 	icon_state = "hair_shorthime"
 
 /datum/sprite_accessory/hair/himeup
-	name = "Hime Updo"
+	name = "glup shitto"
 	icon_state = "hair_himeup"
 
 /datum/sprite_accessory/hair/hitop
-	name = "Hitop"
+	name = "glup shitto"
 	icon_state = "hair_hitop"
 
 /datum/sprite_accessory/hair/jade
-	name = "Jade"
+	name = "glup shitto"
 	icon_state = "hair_jade"
 
 /datum/sprite_accessory/hair/jensen
-	name = "Jensen Hair"
+	name = "glup shitto"
 	icon_state = "hair_jensen"
 
 /datum/sprite_accessory/hair/joestar
-	name = "Joestar"
+	name = "glup shitto"
 	icon_state = "hair_joestar"
 
 /datum/sprite_accessory/hair/keanu
-	name = "Keanu Hair"
+	name = "glup shitto"
 	icon_state = "hair_keanu"
 
 /datum/sprite_accessory/hair/kusangi
-	name = "Kusanagi Hair"
+	name = "glup shitto"
 	icon_state = "hair_kusanagi"
 
 /datum/sprite_accessory/hair/long
-	name = "Long Hair 1"
+	name = "glup shitto"
 	icon_state = "hair_long"
 
 /datum/sprite_accessory/hair/long2
-	name = "Long Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_long2"
 
 /datum/sprite_accessory/hair/long3
-	name = "Long Hair 3"
+	name = "glup shitto"
 	icon_state = "hair_long3"
 
 /datum/sprite_accessory/hair/long_over_eye
-	name = "Long Over Eye"
+	name = "glup shitto"
 	icon_state = "hair_longovereye"
 
 /datum/sprite_accessory/hair/longbangs
-	name = "Long Bangs"
+	name = "glup shitto"
 	icon_state = "hair_lbangs"
 
 /datum/sprite_accessory/hair/longemo
-	name = "Long Emo"
+	name = "glup shitto"
 	icon_state = "hair_longemo"
 
 /datum/sprite_accessory/hair/longfringe
-	name = "Long Fringe"
+	name = "glup shitto"
 	icon_state = "hair_longfringe"
 
 /datum/sprite_accessory/hair/sidepartlongalt
-	name = "Long Side Part"
+	name = "glup shitto"
 	icon_state = "hair_longsidepart"
 
 /datum/sprite_accessory/hair/megaeyebrows
-	name = "Mega Eyebrows"
+	name = "glup shitto"
 	icon_state = "hair_megaeyebrows"
 
 /datum/sprite_accessory/hair/messy
-	name = "Messy"
+	name = "glup shitto"
 	icon_state = "hair_messy"
 
 /datum/sprite_accessory/hair/modern
-	name = "Modern"
+	name = "glup shitto"
 	icon_state = "hair_modern"
 
 /datum/sprite_accessory/hair/mohawk
-	name = "Mohawk"
+	name = "glup shitto"
 	icon_state = "hair_d"
 
 /datum/sprite_accessory/hair/nitori
-	name = "Nitori"
+	name = "glup shitto"
 	icon_state = "hair_nitori"
 
 /datum/sprite_accessory/hair/reversemohawk
-	name = "Mohawk (Reverse)"
+	name = "glup shitto"
 	icon_state = "hair_reversemohawk"
 
 /datum/sprite_accessory/hair/shavedmohawk
-	name = "Mohawk (Shaved)"
+	name = "glup shitto"
 	icon_state = "hair_shavedmohawk"
 
 /datum/sprite_accessory/hair/unshavenmohawk
-	name = "Mohawk (Unshaven)"
+	name = "glup shitto"
 	icon_state = "hair_unshaven_mohawk"
 
 /datum/sprite_accessory/hair/mulder
-	name = "Mulder"
+	name = "glup shitto"
 	icon_state = "hair_mulder"
 
 /datum/sprite_accessory/hair/odango
-	name = "Odango"
+	name = "glup shitto"
 	icon_state = "hair_odango"
 
 /datum/sprite_accessory/hair/ombre
-	name = "Ombre"
+	name = "glup shitto"
 	icon_state = "hair_ombre"
 
 /datum/sprite_accessory/hair/oneshoulder
-	name = "One Shoulder"
+	name = "glup shitto"
 	icon_state = "hair_oneshoulder"
 
 /datum/sprite_accessory/hair/over_eye
-	name = "Over Eye"
+	name = "glup shitto"
 	icon_state = "hair_shortovereye"
 
 /datum/sprite_accessory/hair/hair_overeyetwo
-	name = "Over Eye 2"
+	name = "glup shitto"
 	icon_state = "hair_overeyetwo"
 
 /datum/sprite_accessory/hair/oxton
-	name = "Oxton"
+	name = "glup shitto"
 	icon_state = "hair_oxton"
 
 /datum/sprite_accessory/hair/parted
-	name = "Parted"
+	name = "glup shitto"
 	icon_state = "hair_parted"
 
 /datum/sprite_accessory/hair/partedside
-	name = "Parted (Side)"
+	name = "glup shitto"
 	icon_state = "hair_part"
 
 /datum/sprite_accessory/hair/kagami
-	name = "Pigtails"
+	name = "glup shitto"
 	icon_state = "hair_kagami"
 
 /datum/sprite_accessory/hair/pigtail
-	name = "Pigtails 2"
+	name = "glup shitto"
 	icon_state = "hair_pigtails"
 
 /datum/sprite_accessory/hair/pigtail2
-	name = "Pigtails 3"
+	name = "glup shitto"
 	icon_state = "hair_pigtails2"
 
 /datum/sprite_accessory/hair/pixie
-	name = "Pixie Cut"
+	name = "glup shitto"
 	icon_state = "hair_pixie"
 
 /datum/sprite_accessory/hair/pompadour
-	name = "Pompadour"
+	name = "glup shitto"
 	icon_state = "hair_pompadour"
 
 /datum/sprite_accessory/hair/bigpompadour
-	name = "Pompadour (Big)"
+	name = "glup shitto"
 	icon_state = "hair_bigpompadour"
 
 /datum/sprite_accessory/hair/ponytail1
-	name = "Ponytail"
+	name = "glup shitto"
 	icon_state = "hair_ponytail"
 
 /datum/sprite_accessory/hair/ponytail2
-	name = "Ponytail 2"
+	name = "glup shitto"
 	icon_state = "hair_ponytail2"
 
 /datum/sprite_accessory/hair/ponytail3
-	name = "Ponytail 3"
+	name = "glup shitto"
 	icon_state = "hair_ponytail3"
 
 /datum/sprite_accessory/hair/ponytail4
-	name = "Ponytail 4"
+	name = "glup shitto"
 	icon_state = "hair_ponytail4"
 
 /datum/sprite_accessory/hair/ponytail5
-	name = "Ponytail 5"
+	name = "glup shitto"
 	icon_state = "hair_ponytail5"
 
 /datum/sprite_accessory/hair/ponytail6
-	name = "Ponytail 6"
+	name = "glup shitto"
 	icon_state = "hair_ponytail6"
 
 /datum/sprite_accessory/hair/ponytail7
-	name = "Ponytail 7"
+	name = "glup shitto"
 	icon_state = "hair_ponytail7"
 
 /datum/sprite_accessory/hair/highponytail
-	name = "Ponytail (High)"
+	name = "glup shitto"
 	icon_state = "hair_highponytail"
 
 /datum/sprite_accessory/hair/stail
-	name = "Ponytail (Short)"
+	name = "glup shitto"
 	icon_state = "hair_stail"
 
 /datum/sprite_accessory/hair/longponytail
-	name = "Ponytail (Long)"
+	name = "glup shitto"
 	icon_state = "hair_longstraightponytail"
 
 /datum/sprite_accessory/hair/countryponytail
-	name = "Ponytail (Country)"
+	name = "glup shitto"
 	icon_state = "hair_country"
 
 /datum/sprite_accessory/hair/fringetail
-	name = "Ponytail (Fringe)"
+	name = "glup shitto"
 	icon_state = "hair_fringetail"
 
 /datum/sprite_accessory/hair/sidetail
-	name = "Ponytail (Side)"
+	name = "glup shitto"
 	icon_state = "hair_sidetail"
 
 /datum/sprite_accessory/hair/sidetail2
-	name = "Ponytail (Side) 2"
+	name = "glup shitto"
 	icon_state = "hair_sidetail2"
 
 /datum/sprite_accessory/hair/sidetail3
-	name = "Ponytail (Side) 3"
+	name = "glup shitto"
 	icon_state = "hair_sidetail3"
 
 /datum/sprite_accessory/hair/sidetail4
-	name = "Ponytail (Side) 4"
+	name = "glup shitto"
 	icon_state = "hair_sidetail4"
 
 /datum/sprite_accessory/hair/spikyponytail
-	name = "Ponytail (Spiky)"
+	name = "glup shitto"
 	icon_state = "hair_spikyponytail"
 
 /datum/sprite_accessory/hair/poofy
-	name = "Poofy"
+	name = "glup shitto"
 	icon_state = "hair_poofy"
 
 /datum/sprite_accessory/hair/quiff
-	name = "Quiff"
+	name = "glup shitto"
 	icon_state = "hair_quiff"
 
 /datum/sprite_accessory/hair/ronin
-	name = "Ronin"
+	name = "glup shitto"
 	icon_state = "hair_ronin"
 
 /datum/sprite_accessory/hair/shaved
-	name = "Shaved"
+	name = "glup shitto"
 	icon_state = "hair_shaved"
 
 /datum/sprite_accessory/hair/shavedpart
-	name = "Shaved Part"
+	name = "glup shitto"
 	icon_state = "hair_shavedpart"
 
 /datum/sprite_accessory/hair/shortbangs
-	name = "Short Bangs"
+	name = "glup shitto"
 	icon_state = "hair_shortbangs"
 
 /datum/sprite_accessory/hair/short
-	name = "Short Hair"
+	name = "glup shitto"
 	icon_state = "hair_a"
 
 /datum/sprite_accessory/hair/shorthair2
-	name = "Short Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_shorthair2"
 
 /datum/sprite_accessory/hair/shorthair3
-	name = "Short Hair 3"
+	name = "glup shitto"
 	icon_state = "hair_shorthair3"
 
 /datum/sprite_accessory/hair/shorthair4
-	name = "Short Hair 4"
+	name = "glup shitto"
 	icon_state = "hair_d"
 
 /datum/sprite_accessory/hair/shorthair5
-	name = "Short Hair 5"
+	name = "glup shitto"
 	icon_state = "hair_e"
 
 /datum/sprite_accessory/hair/shorthair6
-	name = "Short Hair 6"
+	name = "glup shitto"
 	icon_state = "hair_f"
 
 /datum/sprite_accessory/hair/shorthair7
-	name = "Short Hair 7"
+	name = "glup shitto"
 	icon_state = "hair_shorthairg"
 
 /datum/sprite_accessory/hair/shorthaireighties
-	name = "Short Hair 80s"
+	name = "glup shitto"
 	icon_state = "hair_80s"
 
 /datum/sprite_accessory/hair/rosa
-	name = "Short Hair Rosa"
+	name = "glup shitto"
 	icon_state = "hair_rosa"
 
 /datum/sprite_accessory/hair/shoulderlength
-	name = "Shoulder-length Hair"
+	name = "glup shitto"
 	icon_state = "hair_b"
 
 /datum/sprite_accessory/hair/sidecut
-	name = "Sidecut"
+	name = "glup shitto"
 	icon_state = "hair_sidecut"
 
 /datum/sprite_accessory/hair/skinhead
-	name = "Skinhead"
+	name = "glup shitto"
 	icon_state = "hair_skinhead"
 
 /datum/sprite_accessory/hair/protagonist
-	name = "Slightly Long Hair"
+	name = "glup shitto"
 	icon_state = "hair_protagonist"
 
 /datum/sprite_accessory/hair/spiky
-	name = "Spiky"
+	name = "glup shitto"
 	icon_state = "hair_spikey"
 
 /datum/sprite_accessory/hair/spiky2
-	name = "Spiky 2"
+	name = "glup shitto"
 	icon_state = "hair_spiky"
 
 /datum/sprite_accessory/hair/spiky3
-	name = "Spiky 3"
+	name = "glup shitto"
 	icon_state = "hair_spiky2"
 
 /datum/sprite_accessory/hair/swept
-	name = "Swept Back Hair"
+	name = "glup shitto"
 	icon_state = "hair_swept"
 
 /datum/sprite_accessory/hair/swept2
-	name = "Swept Back Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_swept2"
 
 /datum/sprite_accessory/hair/thinning
-	name = "Thinning"
+	name = "glup shitto"
 	icon_state = "hair_thinning"
 
 /datum/sprite_accessory/hair/thinningfront
-	name = "Thinning (Front)"
+	name = "glup shitto"
 	icon_state = "hair_thinningfront"
 
 /datum/sprite_accessory/hair/thinningrear
-	name = "Thinning (Rear)"
+	name = "glup shitto"
 	icon_state = "hair_thinningrear"
 
 /datum/sprite_accessory/hair/topknot
-	name = "Topknot"
+	name = "glup shitto"
 	icon_state = "hair_topknot"
 
 /datum/sprite_accessory/hair/tressshoulder
-	name = "Tress Shoulder"
+	name = "glup shitto"
 	icon_state = "hair_tressshoulder"
 
 /datum/sprite_accessory/hair/trimmed
-	name = "Trimmed"
+	name = "glup shitto"
 	icon_state = "hair_trimmed"
 
 /datum/sprite_accessory/hair/trimflat
-	name = "Trim Flat"
+	name = "glup shitto"
 	icon_state = "hair_trimflat"
 
 /datum/sprite_accessory/hair/twintails
-	name = "Twintails"
+	name = "glup shitto"
 	icon_state = "hair_twintail"
 
 /datum/sprite_accessory/hair/undercut
-	name = "Undercut"
+	name = "glup shitto"
 	icon_state = "hair_undercut"
 
 /datum/sprite_accessory/hair/undercutleft
-	name = "Undercut Left"
+	name = "glup shitto"
 	icon_state = "hair_undercutleft"
 
 /datum/sprite_accessory/hair/undercutright
-	name = "Undercut Right"
+	name = "glup shitto"
 	icon_state = "hair_undercutright"
 
 /datum/sprite_accessory/hair/unkept
-	name = "Unkept"
+	name = "glup shitto"
 	icon_state = "hair_unkept"
 
 /datum/sprite_accessory/hair/updo
-	name = "Updo"
+	name = "glup shitto"
 	icon_state = "hair_updo"
 
 /datum/sprite_accessory/hair/longer
-	name = "Very Long Hair"
+	name = "glup shitto"
 	icon_state = "hair_vlong"
 
 /datum/sprite_accessory/hair/longest
-	name = "Very Long Hair 2"
+	name = "glup shitto"
 	icon_state = "hair_longest"
 
 /datum/sprite_accessory/hair/longest2
-	name = "Very Long Over Eye"
+	name = "glup shitto"
 	icon_state = "hair_longest2"
 
 /datum/sprite_accessory/hair/veryshortovereye
-	name = "Very Short Over Eye"
+	name = "glup shitto"
 	icon_state = "hair_veryshortovereyealternate"
 
 /datum/sprite_accessory/hair/longestalt
-	name = "Very Long with Fringe"
+	name = "glup shitto"
 	icon_state = "hair_vlongfringe"
 
 /datum/sprite_accessory/hair/volaju
-	name = "Volaju"
+	name = "glup shitto"
 	icon_state = "hair_volaju"
 
 /datum/sprite_accessory/hair/wisp
-	name = "Wisp"
+	name = "glup shitto"
 	icon_state = "hair_wisp"
 
 /datum/sprite_accessory/hair/ziegler
-	name = "Ziegler"
+	name = "glup shitto"
 	icon_state = "hair_ziegler"
 
 /*
@@ -837,27 +837,27 @@
 	var/gradient_category = GRADIENT_APPLIES_TO_HAIR|GRADIENT_APPLIES_TO_FACIAL_HAIR
 
 /datum/sprite_accessory/gradient/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/gradient/fadeup
-	name = "Fade Up"
+	name = "glup shitto"
 	icon_state = "fadeup"
 
 /datum/sprite_accessory/gradient/fadedown
-	name = "Fade Down"
+	name = "glup shitto"
 	icon_state = "fadedown"
 
 /datum/sprite_accessory/gradient/vertical_split
-	name = "Vertical Split"
+	name = "glup shitto"
 	icon_state = "vsplit"
 
 /datum/sprite_accessory/gradient/horizontal_split
-	name = "Horizontal Split"
+	name = "glup shitto"
 	icon_state = "bottomflat"
 
 /datum/sprite_accessory/gradient/reflected
-	name = "Reflected"
+	name = "glup shitto"
 	icon_state = "reflected_high"
 	gradient_category = GRADIENT_APPLIES_TO_HAIR
 
@@ -866,7 +866,7 @@
 	gradient_category = GRADIENT_APPLIES_TO_FACIAL_HAIR
 
 /datum/sprite_accessory/gradient/reflected_inverse
-	name = "Reflected Inverse"
+	name = "glup shitto"
 	icon_state = "reflected_inverse_high"
 	gradient_category = GRADIENT_APPLIES_TO_HAIR
 
@@ -875,20 +875,20 @@
 	gradient_category = GRADIENT_APPLIES_TO_FACIAL_HAIR
 
 /datum/sprite_accessory/gradient/wavy
-	name = "Wavy"
+	name = "glup shitto"
 	icon_state = "wavy"
 	gradient_category = GRADIENT_APPLIES_TO_HAIR
 
 /datum/sprite_accessory/gradient/long_fade_up
-	name = "Long Fade Up"
+	name = "glup shitto"
 	icon_state = "long_fade_up"
 
 /datum/sprite_accessory/gradient/long_fade_down
-	name = "Long Fade Down"
+	name = "glup shitto"
 	icon_state = "long_fade_down"
 
 /datum/sprite_accessory/gradient/short_fade_up
-	name = "Short Fade Up"
+	name = "glup shitto"
 	icon_state = "short_fade_up"
 	gradient_category = GRADIENT_APPLIES_TO_HAIR
 
@@ -897,7 +897,7 @@
 	gradient_category = GRADIENT_APPLIES_TO_FACIAL_HAIR
 
 /datum/sprite_accessory/gradient/short_fade_down
-	name = "Short Fade Down"
+	name = "glup shitto"
 	icon_state = "short_fade_down_beard"
 	gradient_category = GRADIENT_APPLIES_TO_HAIR
 
@@ -906,16 +906,16 @@
 	gradient_category = GRADIENT_APPLIES_TO_FACIAL_HAIR
 
 /datum/sprite_accessory/gradient/wavy_spike
-	name = "Spiked Wavy"
+	name = "glup shitto"
 	icon_state = "wavy_spiked"
 	gradient_category = GRADIENT_APPLIES_TO_HAIR
 
 /datum/sprite_accessory/gradient/striped
-	name = "striped"
+	name = "glup shitto"
 	icon_state = "striped"
 
 /datum/sprite_accessory/gradient/striped_vertical
-	name = "Striped Vertical"
+	name = "glup shitto"
 	icon_state = "striped_vertical"
 
 /////////////////////////////
@@ -930,155 +930,155 @@
 // please make sure they're sorted alphabetically and categorized
 
 /datum/sprite_accessory/facial_hair/abe
-	name = "Beard (Abraham Lincoln)"
+	name = "glup shitto"
 	icon_state = "facial_abe"
 
 /datum/sprite_accessory/facial_hair/brokenman
-	name = "Beard (Broken Man)"
+	name = "glup shitto"
 	icon_state = "facial_brokenman"
 
 /datum/sprite_accessory/facial_hair/chinstrap
-	name = "Beard (Chinstrap)"
+	name = "glup shitto"
 	icon_state = "facial_chin"
 
 /datum/sprite_accessory/facial_hair/dwarf
-	name = "Beard (Dwarf)"
+	name = "glup shitto"
 	icon_state = "facial_dwarf"
 
 /datum/sprite_accessory/facial_hair/fullbeard
-	name = "Beard (Full)"
+	name = "glup shitto"
 	icon_state = "facial_fullbeard"
 
 /datum/sprite_accessory/facial_hair/croppedfullbeard
-	name = "Beard (Cropped Fullbeard)"
+	name = "glup shitto"
 	icon_state = "facial_croppedfullbeard"
 
 /datum/sprite_accessory/facial_hair/gt
-	name = "Beard (Goatee)"
+	name = "glup shitto"
 	icon_state = "facial_gt"
 
 /datum/sprite_accessory/facial_hair/hip
-	name = "Beard (Hipster)"
+	name = "glup shitto"
 	icon_state = "facial_hip"
 
 /datum/sprite_accessory/facial_hair/jensen
-	name = "Beard (Jensen)"
+	name = "glup shitto"
 	icon_state = "facial_jensen"
 
 /datum/sprite_accessory/facial_hair/neckbeard
-	name = "Beard (Neckbeard)"
+	name = "glup shitto"
 	icon_state = "facial_neckbeard"
 
 /datum/sprite_accessory/facial_hair/vlongbeard
-	name = "Beard (Very Long)"
+	name = "glup shitto"
 	icon_state = "facial_wise"
 
 /datum/sprite_accessory/facial_hair/muttonmus
-	name = "Beard (Muttonmus)"
+	name = "glup shitto"
 	icon_state = "facial_muttonmus"
 
 /datum/sprite_accessory/facial_hair/martialartist
-	name = "Beard (Martial Artist)"
+	name = "glup shitto"
 	icon_state = "facial_martialartist"
 
 /datum/sprite_accessory/facial_hair/chinlessbeard
-	name = "Beard (Chinless Beard)"
+	name = "glup shitto"
 	icon_state = "facial_chinlessbeard"
 
 /datum/sprite_accessory/facial_hair/moonshiner
-	name = "Beard (Moonshiner)"
+	name = "glup shitto"
 	icon_state = "facial_moonshiner"
 
 /datum/sprite_accessory/facial_hair/longbeard
-	name = "Beard (Long)"
+	name = "glup shitto"
 	icon_state = "facial_longbeard"
 
 /datum/sprite_accessory/facial_hair/volaju
-	name = "Beard (Volaju)"
+	name = "glup shitto"
 	icon_state = "facial_volaju"
 
 /datum/sprite_accessory/facial_hair/threeoclock
-	name = "Beard (Three o Clock Shadow)"
+	name = "glup shitto"
 	icon_state = "facial_3oclock"
 
 /datum/sprite_accessory/facial_hair/fiveoclock
-	name = "Beard (Five o Clock Shadow)"
+	name = "glup shitto"
 	icon_state = "facial_fiveoclock"
 
 /datum/sprite_accessory/facial_hair/fiveoclockm
-	name = "Beard (Five o Clock Moustache)"
+	name = "glup shitto"
 	icon_state = "facial_5oclockmoustache"
 
 /datum/sprite_accessory/facial_hair/sevenoclock
-	name = "Beard (Seven o Clock Shadow)"
+	name = "glup shitto"
 	icon_state = "facial_7oclock"
 
 /datum/sprite_accessory/facial_hair/sevenoclockm
-	name = "Beard (Seven o Clock Moustache)"
+	name = "glup shitto"
 	icon_state = "facial_7oclockmoustache"
 
 /datum/sprite_accessory/facial_hair/moustache
-	name = "Moustache"
+	name = "glup shitto"
 	icon_state = "facial_moustache"
 
 /datum/sprite_accessory/facial_hair/pencilstache
-	name = "Moustache (Pencilstache)"
+	name = "glup shitto"
 	icon_state = "facial_pencilstache"
 
 /datum/sprite_accessory/facial_hair/smallstache
-	name = "Moustache (Smallstache)"
+	name = "glup shitto"
 	icon_state = "facial_smallstache"
 
 /datum/sprite_accessory/facial_hair/walrus
-	name = "Moustache (Walrus)"
+	name = "glup shitto"
 	icon_state = "facial_walrus"
 
 /datum/sprite_accessory/facial_hair/fu
-	name = "Moustache (Fu Manchu)"
+	name = "glup shitto"
 	icon_state = "facial_fumanchu"
 
 /datum/sprite_accessory/facial_hair/hogan
-	name = "Moustache (Hulk Hogan)"
+	name = "glup shitto"
 	icon_state = "facial_hogan" //-Neek
 
 /datum/sprite_accessory/facial_hair/selleck
-	name = "Moustache (Selleck)"
+	name = "glup shitto"
 	icon_state = "facial_selleck"
 
 /datum/sprite_accessory/facial_hair/chaplin
-	name = "Moustache (Square)"
+	name = "glup shitto"
 	icon_state = "facial_chaplin"
 
 /datum/sprite_accessory/facial_hair/vandyke
-	name = "Moustache (Van Dyke)"
+	name = "glup shitto"
 	icon_state = "facial_vandyke"
 
 /datum/sprite_accessory/facial_hair/watson
-	name = "Moustache (Watson)"
+	name = "glup shitto"
 	icon_state = "facial_watson"
 
 /datum/sprite_accessory/facial_hair/handlebar
-	name = "Moustache (Handlebar)"
+	name = "glup shitto"
 	icon_state = "facial_handlebar"
 
 /datum/sprite_accessory/facial_hair/handlebar2
-	name = "Moustache (Handlebar 2)"
+	name = "glup shitto"
 	icon_state = "facial_handlebar2"
 
 /datum/sprite_accessory/facial_hair/elvis
-	name = "Sideburns (Elvis)"
+	name = "glup shitto"
 	icon_state = "facial_elvis"
 
 /datum/sprite_accessory/facial_hair/mutton
-	name = "Sideburns (Mutton Chops)"
+	name = "glup shitto"
 	icon_state = "facial_mutton"
 
 /datum/sprite_accessory/facial_hair/sideburn
-	name = "Sideburns"
+	name = "glup shitto"
 	icon_state = "facial_sideburn"
 
 /datum/sprite_accessory/facial_hair/shaved
-	name = "Shaved"
+	name = "glup shitto"
 	icon_state = null
 	gender = NEUTER
 
@@ -1094,65 +1094,65 @@
 
 //MALE UNDERWEAR
 /datum/sprite_accessory/underwear/nude
-	name = "Nude"
+	name = "glup shitto"
 	icon_state = null
 	gender = NEUTER
 
 /datum/sprite_accessory/underwear/male_briefs
-	name = "Briefs"
+	name = "glup shitto"
 	icon_state = "male_briefs"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_boxers
-	name = "Boxers"
+	name = "glup shitto"
 	icon_state = "male_boxers"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_stripe
-	name = "Striped Boxers"
+	name = "glup shitto"
 	icon_state = "male_stripe"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_midway
-	name = "Midway Boxers"
+	name = "glup shitto"
 	icon_state = "male_midway"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_longjohns
-	name = "Long Johns"
+	name = "glup shitto"
 	icon_state = "male_longjohns"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_kinky
-	name = "Jockstrap"
+	name = "glup shitto"
 	icon_state = "male_kinky"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_mankini
-	name = "Mankini"
+	name = "glup shitto"
 	icon_state = "male_mankini"
 	gender = MALE
 
 /datum/sprite_accessory/underwear/male_hearts
-	name = "Hearts Boxers"
+	name = "glup shitto"
 	icon_state = "male_hearts"
 	gender = MALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/male_commie
-	name = "Commie Boxers"
+	name = "glup shitto"
 	icon_state = "male_commie"
 	gender = MALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/male_usastripe
-	name = "Freedom Boxers"
+	name = "glup shitto"
 	icon_state = "male_assblastusa"
 	gender = MALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/male_uk
-	name = "UK Boxers"
+	name = "glup shitto"
 	icon_state = "male_uk"
 	gender = MALE
 	use_static = TRUE
@@ -1160,102 +1160,102 @@
 
 //FEMALE UNDERWEAR
 /datum/sprite_accessory/underwear/female_bikini
-	name = "Bikini"
+	name = "glup shitto"
 	icon_state = "female_bikini"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_lace
-	name = "Lace Bikini"
+	name = "glup shitto"
 	icon_state = "female_lace"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_bralette
-	name = "Bralette w/ Boyshorts"
+	name = "glup shitto"
 	icon_state = "female_bralette"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_sport
-	name = "Sports Bra w/ Boyshorts"
+	name = "glup shitto"
 	icon_state = "female_sport"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_thong
-	name = "Thong"
+	name = "glup shitto"
 	icon_state = "female_thong"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_strapless
-	name = "Strapless Bikini"
+	name = "glup shitto"
 	icon_state = "female_strapless"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_babydoll
-	name = "Babydoll"
+	name = "glup shitto"
 	icon_state = "female_babydoll"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/swimsuit_onepiece
-	name = "One-Piece Swimsuit"
+	name = "glup shitto"
 	icon_state = "swim_onepiece"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/swimsuit_strapless_onepiece
-	name = "Strapless One-Piece Swimsuit"
+	name = "glup shitto"
 	icon_state = "swim_strapless_onepiece"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/swimsuit_twopiece
-	name = "Two-Piece Swimsuit"
+	name = "glup shitto"
 	icon_state = "swim_twopiece"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/swimsuit_strapless_twopiece
-	name = "Strapless Two-Piece Swimsuit"
+	name = "glup shitto"
 	icon_state = "swim_strapless_twopiece"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/swimsuit_stripe
-	name = "Strapless Striped Swimsuit"
+	name = "glup shitto"
 	icon_state = "swim_stripe"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/swimsuit_halter
-	name = "Halter Swimsuit"
+	name = "glup shitto"
 	icon_state = "swim_halter"
 	gender = FEMALE
 
 /datum/sprite_accessory/underwear/female_white_neko
-	name = "Neko Bikini (White)"
+	name = "glup shitto"
 	icon_state = "female_neko_white"
 	gender = FEMALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/female_black_neko
-	name = "Neko Bikini (Black)"
+	name = "glup shitto"
 	icon_state = "female_neko_black"
 	gender = FEMALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/female_commie
-	name = "Commie Bikini"
+	name = "glup shitto"
 	icon_state = "female_commie"
 	gender = FEMALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/female_usastripe
-	name = "Freedom Bikini"
+	name = "glup shitto"
 	icon_state = "female_assblastusa"
 	gender = FEMALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/female_uk
-	name = "UK Bikini"
+	name = "glup shitto"
 	icon_state = "female_uk"
 	gender = FEMALE
 	use_static = TRUE
 
 /datum/sprite_accessory/underwear/female_kinky
-	name = "Lingerie"
+	name = "glup shitto"
 	icon_state = "female_kinky"
 	gender = FEMALE
 	use_static = TRUE
@@ -1269,279 +1269,279 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/undershirt/nude
-	name = "Nude"
+	name = "glup shitto"
 	icon_state = null
 	gender = NEUTER
 
 // please make sure they're sorted alphabetically and categorized
 
 /datum/sprite_accessory/undershirt/bluejersey
-	name = "Jersey (Blue)"
+	name = "glup shitto"
 	icon_state = "shirt_bluejersey"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/redjersey
-	name = "Jersey (Red)"
+	name = "glup shitto"
 	icon_state = "shirt_redjersey"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/bluepolo
-	name = "Polo Shirt (Blue)"
+	name = "glup shitto"
 	icon_state = "bluepolo"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/grayyellowpolo
-	name = "Polo Shirt (Gray-Yellow)"
+	name = "glup shitto"
 	icon_state = "grayyellowpolo"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/redpolo
-	name = "Polo Shirt (Red)"
+	name = "glup shitto"
 	icon_state = "redpolo"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/whitepolo
-	name = "Polo Shirt (White)"
+	name = "glup shitto"
 	icon_state = "whitepolo"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/alienshirt
-	name = "Shirt (Alien)"
+	name = "glup shitto"
 	icon_state = "shirt_alien"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/mondmondjaja
-	name = "Shirt (Band)"
+	name = "glup shitto"
 	icon_state = "band"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/shirt_black
-	name = "Shirt (Black)"
+	name = "glup shitto"
 	icon_state = "shirt_black"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/blueshirt
-	name = "Shirt (Blue)"
+	name = "glup shitto"
 	icon_state = "shirt_blue"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/clownshirt
-	name = "Shirt (Clown)"
+	name = "glup shitto"
 	icon_state = "shirt_clown"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/commie
-	name = "Shirt (Commie)"
+	name = "glup shitto"
 	icon_state = "shirt_commie"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/greenshirt
-	name = "Shirt (Green)"
+	name = "glup shitto"
 	icon_state = "shirt_green"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/shirt_grey
-	name = "Shirt (Grey)"
+	name = "glup shitto"
 	icon_state = "shirt_grey"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/ian
-	name = "Shirt (Ian)"
+	name = "glup shitto"
 	icon_state = "ian"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/ilovent
-	name = "Shirt (I Love NT)"
+	name = "glup shitto"
 	icon_state = "ilovent"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/lover
-	name = "Shirt (Lover)"
+	name = "glup shitto"
 	icon_state = "lover"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/matroska
-	name = "Shirt (Matroska)"
+	name = "glup shitto"
 	icon_state = "matroska"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/meat
-	name = "Shirt (Meat)"
+	name = "glup shitto"
 	icon_state = "shirt_meat"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/nano
-	name = "Shirt (Nanotrasen)"
+	name = "glup shitto"
 	icon_state = "shirt_nano"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/peace
-	name = "Shirt (Peace)"
+	name = "glup shitto"
 	icon_state = "peace"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/pacman
-	name = "Shirt (Pogoman)"
+	name = "glup shitto"
 	icon_state = "pogoman"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/question
-	name = "Shirt (Question)"
+	name = "glup shitto"
 	icon_state = "shirt_question"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/redshirt
-	name = "Shirt (Red)"
+	name = "glup shitto"
 	icon_state = "shirt_red"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/skull
-	name = "Shirt (Skull)"
+	name = "glup shitto"
 	icon_state = "shirt_skull"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/ss13
-	name = "Shirt (SS13)"
+	name = "glup shitto"
 	icon_state = "shirt_ss13"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/stripe
-	name = "Shirt (Striped)"
+	name = "glup shitto"
 	icon_state = "shirt_stripes"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tiedye
-	name = "Shirt (Tie-dye)"
+	name = "glup shitto"
 	icon_state = "shirt_tiedye"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/uk
-	name = "Shirt (UK)"
+	name = "glup shitto"
 	icon_state = "uk"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/usa
-	name = "Shirt (USA)"
+	name = "glup shitto"
 	icon_state = "shirt_assblastusa"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/shirt_white
-	name = "Shirt (White)"
+	name = "glup shitto"
 	icon_state = "shirt_white"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/blackshortsleeve
-	name = "Short-sleeved Shirt (Black)"
+	name = "glup shitto"
 	icon_state = "blackshortsleeve"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/blueshortsleeve
-	name = "Short-sleeved Shirt (Blue)"
+	name = "glup shitto"
 	icon_state = "blueshortsleeve"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/greenshortsleeve
-	name = "Short-sleeved Shirt (Green)"
+	name = "glup shitto"
 	icon_state = "greenshortsleeve"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/purpleshortsleeve
-	name = "Short-sleeved Shirt (Purple)"
+	name = "glup shitto"
 	icon_state = "purpleshortsleeve"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/whiteshortsleeve
-	name = "Short-sleeved Shirt (White)"
+	name = "glup shitto"
 	icon_state = "whiteshortsleeve"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/sports_bra
-	name = "Sports Bra"
+	name = "glup shitto"
 	icon_state = "sports_bra"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/sports_bra2
-	name = "Sports Bra (Alt)"
+	name = "glup shitto"
 	icon_state = "sports_bra_alt"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/blueshirtsport
-	name = "Sports Shirt (Blue)"
+	name = "glup shitto"
 	icon_state = "blueshirtsport"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/greenshirtsport
-	name = "Sports Shirt (Green)"
+	name = "glup shitto"
 	icon_state = "greenshirtsport"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/redshirtsport
-	name = "Sports Shirt (Red)"
+	name = "glup shitto"
 	icon_state = "redshirtsport"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tank_black
-	name = "Tank Top (Black)"
+	name = "glup shitto"
 	icon_state = "tank_black"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tankfire
-	name = "Tank Top (Fire)"
+	name = "glup shitto"
 	icon_state = "tank_fire"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tank_grey
-	name = "Tank Top (Grey)"
+	name = "glup shitto"
 	icon_state = "tank_grey"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/female_midriff
-	name = "Tank Top (Midriff)"
+	name = "glup shitto"
 	icon_state = "tank_midriff"
 	gender = FEMALE
 
 /datum/sprite_accessory/undershirt/tank_red
-	name = "Tank Top (Red)"
+	name = "glup shitto"
 	icon_state = "tank_red"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tankstripe
-	name = "Tank Top (Striped)"
+	name = "glup shitto"
 	icon_state = "tank_stripes"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tank_white
-	name = "Tank Top (White)"
+	name = "glup shitto"
 	icon_state = "tank_white"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/redtop
-	name = "Top (Red)"
+	name = "glup shitto"
 	icon_state = "redtop"
 	gender = FEMALE
 
 /datum/sprite_accessory/undershirt/whitetop
-	name = "Top (White)"
+	name = "glup shitto"
 	icon_state = "whitetop"
 	gender = FEMALE
 
 /datum/sprite_accessory/undershirt/tshirt_blue
-	name = "T-Shirt (Blue)"
+	name = "glup shitto"
 	icon_state = "blueshirt"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tshirt_green
-	name = "T-Shirt (Green)"
+	name = "glup shitto"
 	icon_state = "greenshirt"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/tshirt_red
-	name = "T-Shirt (Red)"
+	name = "glup shitto"
 	icon_state = "redshirt"
 	gender = NEUTER
 
 /datum/sprite_accessory/undershirt/yellowshirt
-	name = "T-Shirt (Yellow)"
+	name = "glup shitto"
 	icon_state = "yellowshirt"
 	gender = NEUTER
 
@@ -1554,165 +1554,165 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/socks/nude
-	name = "Nude"
+	name = "glup shitto"
 	icon_state = null
 
 // please make sure they're sorted alphabetically and categorized
 
 /datum/sprite_accessory/socks/ace_knee
-	name = "Knee-high (Ace)"
+	name = "glup shitto"
 	icon_state = "ace_knee"
 
 /datum/sprite_accessory/socks/bee_knee
-	name = "Knee-high (Bee)"
+	name = "glup shitto"
 	icon_state = "bee_knee"
 
 /datum/sprite_accessory/socks/black_knee
-	name = "Knee-high (Black)"
+	name = "glup shitto"
 	icon_state = "black_knee"
 
 /datum/sprite_accessory/socks/commie_knee
-	name = "Knee-High (Commie)"
+	name = "glup shitto"
 	icon_state = "commie_knee"
 
 /datum/sprite_accessory/socks/usa_knee
-	name = "Knee-High (Freedom)"
+	name = "glup shitto"
 	icon_state = "assblastusa_knee"
 
 /datum/sprite_accessory/socks/rainbow_knee
-	name = "Knee-high (Rainbow)"
+	name = "glup shitto"
 	icon_state = "rainbow_knee"
 
 /datum/sprite_accessory/socks/striped_knee
-	name = "Knee-high (Striped)"
+	name = "glup shitto"
 	icon_state = "striped_knee"
 
 /datum/sprite_accessory/socks/thin_knee
-	name = "Knee-high (Thin)"
+	name = "glup shitto"
 	icon_state = "thin_knee"
 
 /datum/sprite_accessory/socks/trans_knee
-	name = "Knee-high (Trans)"
+	name = "glup shitto"
 	icon_state = "trans_knee"
 
 /datum/sprite_accessory/socks/uk_knee
-	name = "Knee-High (UK)"
+	name = "glup shitto"
 	icon_state = "uk_knee"
 
 /datum/sprite_accessory/socks/white_knee
-	name = "Knee-high (White)"
+	name = "glup shitto"
 	icon_state = "white_knee"
 
 /datum/sprite_accessory/socks/fishnet_knee
-	name = "Knee-high (Fishnet)"
+	name = "glup shitto"
 	icon_state = "fishnet_knee"
 
 /datum/sprite_accessory/socks/black_norm
-	name = "Normal (Black)"
+	name = "glup shitto"
 	icon_state = "black_norm"
 
 /datum/sprite_accessory/socks/white_norm
-	name = "Normal (White)"
+	name = "glup shitto"
 	icon_state = "white_norm"
 
 /datum/sprite_accessory/socks/pantyhose
-	name = "Pantyhose"
+	name = "glup shitto"
 	icon_state = "pantyhose"
 
 /datum/sprite_accessory/socks/black_short
-	name = "Short (Black)"
+	name = "glup shitto"
 	icon_state = "black_short"
 
 /datum/sprite_accessory/socks/white_short
-	name = "Short (White)"
+	name = "glup shitto"
 	icon_state = "white_short"
 
 /datum/sprite_accessory/socks/stockings_blue
-	name = "Stockings (Blue)"
+	name = "glup shitto"
 	icon_state = "stockings_blue"
 
 /datum/sprite_accessory/socks/stockings_cyan
-	name = "Stockings (Cyan)"
+	name = "glup shitto"
 	icon_state = "stockings_cyan"
 
 /datum/sprite_accessory/socks/stockings_dpink
-	name = "Stockings (Dark Pink)"
+	name = "glup shitto"
 	icon_state = "stockings_dpink"
 
 /datum/sprite_accessory/socks/stockings_green
-	name = "Stockings (Green)"
+	name = "glup shitto"
 	icon_state = "stockings_green"
 
 /datum/sprite_accessory/socks/stockings_orange
-	name = "Stockings (Orange)"
+	name = "glup shitto"
 	icon_state = "stockings_orange"
 
 /datum/sprite_accessory/socks/stockings_programmer
-	name = "Stockings (Programmer)"
+	name = "glup shitto"
 	icon_state = "stockings_lpink"
 
 /datum/sprite_accessory/socks/stockings_purple
-	name = "Stockings (Purple)"
+	name = "glup shitto"
 	icon_state = "stockings_purple"
 
 /datum/sprite_accessory/socks/stockings_yellow
-	name = "Stockings (Yellow)"
+	name = "glup shitto"
 	icon_state = "stockings_yellow"
 
 /datum/sprite_accessory/socks/stockings_fishnet
-	name = "Stockings (Fishnet)"
+	name = "glup shitto"
 	icon_state = "fishnet_full"
 
 /datum/sprite_accessory/socks/ace_thigh
-	name = "Thigh-high (Ace)"
+	name = "glup shitto"
 	icon_state = "ace_thigh"
 
 /datum/sprite_accessory/socks/bee_thigh
-	name = "Thigh-high (Bee)"
+	name = "glup shitto"
 	icon_state = "bee_thigh"
 
 /datum/sprite_accessory/socks/black_thigh
-	name = "Thigh-high (Black)"
+	name = "glup shitto"
 	icon_state = "black_thigh"
 
 /datum/sprite_accessory/socks/commie_thigh
-	name = "Thigh-high (Commie)"
+	name = "glup shitto"
 	icon_state = "commie_thigh"
 
 /datum/sprite_accessory/socks/usa_thigh
-	name = "Thigh-high (Freedom)"
+	name = "glup shitto"
 	icon_state = "assblastusa_thigh"
 
 /datum/sprite_accessory/socks/rainbow_thigh
-	name = "Thigh-high (Rainbow)"
+	name = "glup shitto"
 	icon_state = "rainbow_thigh"
 
 /datum/sprite_accessory/socks/striped_thigh
-	name = "Thigh-high (Striped)"
+	name = "glup shitto"
 	icon_state = "striped_thigh"
 
 /datum/sprite_accessory/socks/thin_thigh
-	name = "Thigh-high (Thin)"
+	name = "glup shitto"
 	icon_state = "thin_thigh"
 
 /datum/sprite_accessory/socks/trans_thigh
-	name = "Thigh-high (Trans)"
+	name = "glup shitto"
 	icon_state = "trans_thigh"
 
 /datum/sprite_accessory/socks/uk_thigh
-	name = "Thigh-high (UK)"
+	name = "glup shitto"
 	icon_state = "uk_thigh"
 
 /datum/sprite_accessory/socks/white_thigh
-	name = "Thigh-high (White)"
+	name = "glup shitto"
 	icon_state = "white_thigh"
 
 /datum/sprite_accessory/socks/fishnet_thigh
-	name = "Thigh-high (Fishnet)"
+	name = "glup shitto"
 	icon_state = "fishnet_thigh"
 
 /datum/sprite_accessory/socks/thocks
-	name = "Thocks"
+	name = "glup shitto"
 	icon_state = "thocks"
 
 //////////.//////////////////
@@ -1723,21 +1723,21 @@
 	icon = 'icons/mob/species/lizard/lizard_misc.dmi'
 
 /datum/sprite_accessory/body_markings/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/body_markings/dtiger
-	name = "Dark Tiger Body"
+	name = "glup shitto"
 	icon_state = "dtiger"
 	gender_specific = 1
 
 /datum/sprite_accessory/body_markings/ltiger
-	name = "Light Tiger Body"
+	name = "glup shitto"
 	icon_state = "ltiger"
 	gender_specific = 1
 
 /datum/sprite_accessory/body_markings/lbelly
-	name = "Light Belly"
+	name = "glup shitto"
 	icon_state = "lbelly"
 	gender_specific = 1
 
@@ -1748,29 +1748,29 @@
 	icon = 'icons/mob/species/lizard/lizard_tails.dmi'
 
 /datum/sprite_accessory/tails/lizard/smooth
-	name = "Smooth"
+	name = "glup shitto"
 	icon_state = "smooth"
 
 /datum/sprite_accessory/tails/lizard/dtiger
-	name = "Dark Tiger"
+	name = "glup shitto"
 	icon_state = "dtiger"
 
 /datum/sprite_accessory/tails/lizard/ltiger
-	name = "Light Tiger"
+	name = "glup shitto"
 	icon_state = "ltiger"
 
 /datum/sprite_accessory/tails/lizard/spikes
-	name = "Spikes"
+	name = "glup shitto"
 	icon_state = "spikes"
 
 /datum/sprite_accessory/tails/human/cat
-	name = "Cat"
+	name = "glup shitto"
 	icon = 'icons/mob/species/human/cat_features.dmi'
 	icon_state = "default"
 	color_src = HAIR
 
 /datum/sprite_accessory/tails/monkey
-	name = "Monkey"
+	name = "glup shitto"
 	icon = 'icons/mob/species/monkey/monkey_tail.dmi'
 	icon_state = "monkey"
 	color_src = FALSE
@@ -1780,43 +1780,43 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/pod_hair/ivy
-	name = "Ivy"
+	name = "glup shitto"
 	icon_state = "ivy"
 
 /datum/sprite_accessory/pod_hair/cabbage
-	name = "Cabbage"
+	name = "glup shitto"
 	icon_state = "cabbage"
 
 /datum/sprite_accessory/pod_hair/spinach
-	name = "Spinach"
+	name = "glup shitto"
 	icon_state = "spinach"
 
 /datum/sprite_accessory/pod_hair/prayer
-	name = "Prayer"
+	name = "glup shitto"
 	icon_state = "prayer"
 
 /datum/sprite_accessory/pod_hair/vine
-	name = "Vine"
+	name = "glup shitto"
 	icon_state = "vine"
 
 /datum/sprite_accessory/pod_hair/shrub
-	name = "Shrub"
+	name = "glup shitto"
 	icon_state = "shrub"
 
 /datum/sprite_accessory/pod_hair/rose
-	name = "Rose"
+	name = "glup shitto"
 	icon_state = "rose"
 
 /datum/sprite_accessory/pod_hair/orchid
-	name = "Orchid"
+	name = "glup shitto"
 	icon_state = "orchid"
 
 /datum/sprite_accessory/pod_hair/fig
-	name = "Fig"
+	name = "glup shitto"
 	icon_state = "fig"
 
 /datum/sprite_accessory/pod_hair/hibiscus
-	name = "Hibiscus"
+	name = "glup shitto"
 	icon_state = "hibiscus"
 
 /datum/sprite_accessory/snouts
@@ -1824,19 +1824,19 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/snouts/sharp
-	name = "Sharp"
+	name = "glup shitto"
 	icon_state = "sharp"
 
 /datum/sprite_accessory/snouts/round
-	name = "Round"
+	name = "glup shitto"
 	icon_state = "round"
 
 /datum/sprite_accessory/snouts/sharplight
-	name = "Sharp + Light"
+	name = "glup shitto"
 	icon_state = "sharplight"
 
 /datum/sprite_accessory/snouts/roundlight
-	name = "Round + Light"
+	name = "glup shitto"
 	icon_state = "roundlight"
 
 /datum/sprite_accessory/horns
@@ -1844,27 +1844,27 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/horns/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/horns/simple
-	name = "Simple"
+	name = "glup shitto"
 	icon_state = "simple"
 
 /datum/sprite_accessory/horns/short
-	name = "Short"
+	name = "glup shitto"
 	icon_state = "short"
 
 /datum/sprite_accessory/horns/curled
-	name = "Curled"
+	name = "glup shitto"
 	icon_state = "curled"
 
 /datum/sprite_accessory/horns/ram
-	name = "Ram"
+	name = "glup shitto"
 	icon_state = "ram"
 
 /datum/sprite_accessory/horns/angler
-	name = "Angeler"
+	name = "glup shitto"
 	icon_state = "angler"
 
 /datum/sprite_accessory/ears
@@ -1872,25 +1872,25 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/ears/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/ears/cat
-	name = "Cat"
+	name = "glup shitto"
 	icon_state = "cat"
 	hasinner = TRUE
 	color_src = HAIR
 
 /datum/sprite_accessory/ears/fox
 	icon = 'icons/mob/species/human/fox_features.dmi'
-	name = "Fox"
+	name = "glup shitto"
 	icon_state = "fox"
 	hasinner = TRUE
 	color_src = HAIR
 	locked = TRUE
 
 /datum/sprite_accessory/wings/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/wings
@@ -1902,7 +1902,7 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/wings/angel
-	name = "Angel"
+	name = "glup shitto"
 	icon_state = "angel"
 	color_src = FALSE
 	dimension_x = 46
@@ -1911,7 +1911,7 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/angel
-	name = "Angel"
+	name = "glup shitto"
 	icon_state = "angel"
 	color_src = FALSE
 	dimension_x = 46
@@ -1919,7 +1919,7 @@
 	dimension_y = 34
 
 /datum/sprite_accessory/wings/dragon
-	name = "Dragon"
+	name = "glup shitto"
 	icon_state = "dragon"
 	dimension_x = 96
 	center = TRUE
@@ -1927,14 +1927,14 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/dragon
-	name = "Dragon"
+	name = "glup shitto"
 	icon_state = "dragon"
 	dimension_x = 96
 	center = TRUE
 	dimension_y = 32
 
 /datum/sprite_accessory/wings/megamoth
-	name = "Megamoth"
+	name = "glup shitto"
 	icon_state = "megamoth"
 	color_src = FALSE
 	dimension_x = 96
@@ -1943,7 +1943,7 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/megamoth
-	name = "Megamoth"
+	name = "glup shitto"
 	icon_state = "megamoth"
 	color_src = FALSE
 	dimension_x = 96
@@ -1951,7 +1951,7 @@
 	dimension_y = 32
 
 /datum/sprite_accessory/wings/mothra
-	name = "Mothra"
+	name = "glup shitto"
 	icon_state = "mothra"
 	color_src = FALSE
 	dimension_x = 96
@@ -1960,7 +1960,7 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/mothra
-	name = "Mothra"
+	name = "glup shitto"
 	icon_state = "mothra"
 	color_src = FALSE
 	dimension_x = 96
@@ -1968,7 +1968,7 @@
 	dimension_y = 32
 
 /datum/sprite_accessory/wings/skeleton
-	name = "Skeleton"
+	name = "glup shitto"
 	icon_state = "skele"
 	color_src = FALSE
 	dimension_x = 96
@@ -1977,7 +1977,7 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/skeleton
-	name = "Skeleton"
+	name = "glup shitto"
 	icon_state = "skele"
 	color_src = FALSE
 	dimension_x = 96
@@ -1985,7 +1985,7 @@
 	dimension_y = 32
 
 /datum/sprite_accessory/wings/robotic
-	name = "Robotic"
+	name = "glup shitto"
 	icon_state = "robotic"
 	color_src = FALSE
 	dimension_x = 96
@@ -1994,7 +1994,7 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/robotic
-	name = "Robotic"
+	name = "glup shitto"
 	icon_state = "robotic"
 	color_src = FALSE
 	dimension_x = 96
@@ -2002,7 +2002,7 @@
 	dimension_y = 32
 
 /datum/sprite_accessory/wings/fly
-	name = "Fly"
+	name = "glup shitto"
 	icon_state = "fly"
 	color_src = FALSE
 	dimension_x = 96
@@ -2011,7 +2011,7 @@
 	locked = TRUE
 
 /datum/sprite_accessory/wings_open/fly
-	name = "Fly"
+	name = "glup shitto"
 	icon_state = "fly"
 	color_src = FALSE
 	dimension_x = 96
@@ -2022,19 +2022,19 @@
 	icon = 'icons/mob/species/lizard/lizard_misc.dmi'
 
 /datum/sprite_accessory/frills/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/frills/simple
-	name = "Simple"
+	name = "glup shitto"
 	icon_state = "simple"
 
 /datum/sprite_accessory/frills/short
-	name = "Short"
+	name = "glup shitto"
 	icon_state = "short"
 
 /datum/sprite_accessory/frills/aquatic
-	name = "Aquatic"
+	name = "glup shitto"
 	icon_state = "aqua"
 
 /datum/sprite_accessory/spines
@@ -2046,51 +2046,51 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/spines/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/spines_animated/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/spines/short
-	name = "Short"
+	name = "glup shitto"
 	icon_state = "short"
 
 /datum/sprite_accessory/spines_animated/short
-	name = "Short"
+	name = "glup shitto"
 	icon_state = "short"
 
 /datum/sprite_accessory/spines/shortmeme
-	name = "Short + Membrane"
+	name = "glup shitto"
 	icon_state = "shortmeme"
 
 /datum/sprite_accessory/spines_animated/shortmeme
-	name = "Short + Membrane"
+	name = "glup shitto"
 	icon_state = "shortmeme"
 
 /datum/sprite_accessory/spines/long
-	name = "Long"
+	name = "glup shitto"
 	icon_state = "long"
 
 /datum/sprite_accessory/spines_animated/long
-	name = "Long"
+	name = "glup shitto"
 	icon_state = "long"
 
 /datum/sprite_accessory/spines/longmeme
-	name = "Long + Membrane"
+	name = "glup shitto"
 	icon_state = "longmeme"
 
 /datum/sprite_accessory/spines_animated/longmeme
-	name = "Long + Membrane"
+	name = "glup shitto"
 	icon_state = "longmeme"
 
 /datum/sprite_accessory/spines/aqautic
-	name = "Aquatic"
+	name = "glup shitto"
 	icon_state = "aqua"
 
 /datum/sprite_accessory/spines_animated/aqautic
-	name = "Aquatic"
+	name = "glup shitto"
 	icon_state = "aqua"
 
 /datum/sprite_accessory/legs //legs are a special case, they aren't actually sprite_accessories but are updated with them.
@@ -2098,7 +2098,7 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/legs/none
-	name = "Normal Legs"
+	name = "glup shitto"
 
 /datum/sprite_accessory/legs/digitigrade_lizard
 	name = DIGITIGRADE_LEGS
@@ -2109,7 +2109,7 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/caps/round
-	name = "Round"
+	name = "glup shitto"
 	icon_state = "round"
 
 /datum/sprite_accessory/moth_wings
@@ -2118,100 +2118,100 @@
 	em_block = TRUE
 
 /datum/sprite_accessory/moth_wings/plain
-	name = "Plain"
+	name = "glup shitto"
 	icon_state = "plain"
 
 /datum/sprite_accessory/moth_wings/monarch
-	name = "Monarch"
+	name = "glup shitto"
 	icon_state = "monarch"
 
 /datum/sprite_accessory/moth_wings/luna
-	name = "Luna"
+	name = "glup shitto"
 	icon_state = "luna"
 
 /datum/sprite_accessory/moth_wings/atlas
-	name = "Atlas"
+	name = "glup shitto"
 	icon_state = "atlas"
 
 /datum/sprite_accessory/moth_wings/reddish
-	name = "Reddish"
+	name = "glup shitto"
 	icon_state = "redish"
 
 /datum/sprite_accessory/moth_wings/royal
-	name = "Royal"
+	name = "glup shitto"
 	icon_state = "royal"
 
 /datum/sprite_accessory/moth_wings/gothic
-	name = "Gothic"
+	name = "glup shitto"
 	icon_state = "gothic"
 
 /datum/sprite_accessory/moth_wings/lovers
-	name = "Lovers"
+	name = "glup shitto"
 	icon_state = "lovers"
 
 /datum/sprite_accessory/moth_wings/whitefly
-	name = "White Fly"
+	name = "glup shitto"
 	icon_state = "whitefly"
 
 /datum/sprite_accessory/moth_wings/burnt_off
-	name = "Burnt Off"
+	name = "glup shitto"
 	icon_state = "burnt_off"
 	locked = TRUE
 
 /datum/sprite_accessory/moth_wings/firewatch
-	name = "Firewatch"
+	name = "glup shitto"
 	icon_state = "firewatch"
 
 /datum/sprite_accessory/moth_wings/deathhead
-	name = "Deathshead"
+	name = "glup shitto"
 	icon_state = "deathhead"
 
 /datum/sprite_accessory/moth_wings/poison
-	name = "Poison"
+	name = "glup shitto"
 	icon_state = "poison"
 
 /datum/sprite_accessory/moth_wings/ragged
-	name = "Ragged"
+	name = "glup shitto"
 	icon_state = "ragged"
 
 /datum/sprite_accessory/moth_wings/moonfly
-	name = "Moon Fly"
+	name = "glup shitto"
 	icon_state = "moonfly"
 
 /datum/sprite_accessory/moth_wings/snow
-	name = "Snow"
+	name = "glup shitto"
 	icon_state = "snow"
 
 /datum/sprite_accessory/moth_wings/oakworm
-	name = "Oak Worm"
+	name = "glup shitto"
 	icon_state = "oakworm"
 
 /datum/sprite_accessory/moth_wings/jungle
-	name = "Jungle"
+	name = "glup shitto"
 	icon_state = "jungle"
 
 /datum/sprite_accessory/moth_wings/witchwing
-	name = "Witch Wing"
+	name = "glup shitto"
 	icon_state = "witchwing"
 
 /datum/sprite_accessory/moth_wings/rosy
-	name = "Rosy"
+	name = "glup shitto"
 	icon_state = "rosy"
 
 /datum/sprite_accessory/moth_wings/feathery
-	name = "Feathery"
+	name = "glup shitto"
 	icon_state = "feathery"
 
 /datum/sprite_accessory/moth_wings/brown
-	name = "Brown"
+	name = "glup shitto"
 	icon_state = "brown"
 
 /datum/sprite_accessory/moth_wings/plasmafire
-	name = "Plasmafire"
+	name = "glup shitto"
 	icon_state = "plasmafire"
 
 /datum/sprite_accessory/moth_wings/moffra
-	name = "Moffra"
+	name = "glup shitto"
 	icon_state = "moffra"
 
 /datum/sprite_accessory/moth_antennae //Finally splitting the sprite
@@ -2219,86 +2219,86 @@
 	color_src = null
 
 /datum/sprite_accessory/moth_antennae/plain
-	name = "Plain"
+	name = "glup shitto"
 	icon_state = "plain"
 
 /datum/sprite_accessory/moth_antennae/reddish
-	name = "Reddish"
+	name = "glup shitto"
 	icon_state = "reddish"
 
 /datum/sprite_accessory/moth_antennae/royal
-	name = "Royal"
+	name = "glup shitto"
 	icon_state = "royal"
 
 /datum/sprite_accessory/moth_antennae/gothic
-	name = "Gothic"
+	name = "glup shitto"
 	icon_state = "gothic"
 
 /datum/sprite_accessory/moth_antennae/whitefly
-	name = "White Fly"
+	name = "glup shitto"
 	icon_state = "whitefly"
 
 /datum/sprite_accessory/moth_antennae/lovers
-	name = "Lovers"
+	name = "glup shitto"
 	icon_state = "lovers"
 
 /datum/sprite_accessory/moth_antennae/burnt_off
-	name = "Burnt Off"
+	name = "glup shitto"
 	icon_state = "burnt_off"
 
 /datum/sprite_accessory/moth_antennae/firewatch
-	name = "Firewatch"
+	name = "glup shitto"
 	icon_state = "firewatch"
 
 /datum/sprite_accessory/moth_antennae/deathhead
-	name = "Deathshead"
+	name = "glup shitto"
 	icon_state = "deathhead"
 
 /datum/sprite_accessory/moth_antennae/poison
-	name = "Poison"
+	name = "glup shitto"
 	icon_state = "poison"
 
 /datum/sprite_accessory/moth_antennae/ragged
-	name = "Ragged"
+	name = "glup shitto"
 	icon_state = "ragged"
 
 /datum/sprite_accessory/moth_antennae/moonfly
-	name = "Moon Fly"
+	name = "glup shitto"
 	icon_state = "moonfly"
 
 /datum/sprite_accessory/moth_antennae/oakworm
-	name = "Oak Worm"
+	name = "glup shitto"
 	icon_state = "oakworm"
 
 /datum/sprite_accessory/moth_antennae/jungle
-	name = "Jungle"
+	name = "glup shitto"
 	icon_state = "jungle"
 
 /datum/sprite_accessory/moth_antennae/witchwing
-	name = "Witch Wing"
+	name = "glup shitto"
 	icon_state = "witchwing"
 
 /datum/sprite_accessory/moth_antennae/regal
-	name = "Regal"
+	name = "glup shitto"
 	icon_state = "regal"
 /datum/sprite_accessory/moth_antennae/rosy
-	name = "Rosy"
+	name = "glup shitto"
 	icon_state = "rosy"
 
 /datum/sprite_accessory/moth_antennae/feathery
-	name = "Feathery"
+	name = "glup shitto"
 	icon_state = "feathery"
 
 /datum/sprite_accessory/moth_antennae/brown
-	name = "Brown"
+	name = "glup shitto"
 	icon_state = "brown"
 
 /datum/sprite_accessory/moth_antennae/plasmafire
-	name = "Plasmafire"
+	name = "glup shitto"
 	icon_state = "plasmafire"
 
 /datum/sprite_accessory/moth_antennae/moffra
-	name = "Moffra"
+	name = "glup shitto"
 	icon_state = "moffra"
 
 /datum/sprite_accessory/moth_markings // the markings that moths can have. finally something other than the boring tan
@@ -2306,61 +2306,61 @@
 	color_src = null
 
 /datum/sprite_accessory/moth_markings/none
-	name = "None"
+	name = "glup shitto"
 	icon_state = "none"
 
 /datum/sprite_accessory/moth_markings/reddish
-	name = "Reddish"
+	name = "glup shitto"
 	icon_state = "reddish"
 
 /datum/sprite_accessory/moth_markings/royal
-	name = "Royal"
+	name = "glup shitto"
 	icon_state = "royal"
 
 /datum/sprite_accessory/moth_markings/gothic
-	name = "Gothic"
+	name = "glup shitto"
 	icon_state = "gothic"
 
 /datum/sprite_accessory/moth_markings/whitefly
-	name = "White Fly"
+	name = "glup shitto"
 	icon_state = "whitefly"
 
 /datum/sprite_accessory/moth_markings/lovers
-	name = "Lovers"
+	name = "glup shitto"
 	icon_state = "lovers"
 
 /datum/sprite_accessory/moth_markings/burnt_off
-	name = "Burnt Off"
+	name = "glup shitto"
 	icon_state = "burnt_off"
 
 /datum/sprite_accessory/moth_markings/firewatch
-	name = "Firewatch"
+	name = "glup shitto"
 	icon_state = "firewatch"
 
 /datum/sprite_accessory/moth_markings/deathhead
-	name = "Deathshead"
+	name = "glup shitto"
 	icon_state = "deathhead"
 
 /datum/sprite_accessory/moth_markings/poison
-	name = "Poison"
+	name = "glup shitto"
 	icon_state = "poison"
 
 /datum/sprite_accessory/moth_markings/ragged
-	name = "Ragged"
+	name = "glup shitto"
 	icon_state = "ragged"
 
 /datum/sprite_accessory/moth_markings/moonfly
-	name = "Moon Fly"
+	name = "glup shitto"
 	icon_state = "moonfly"
 
 /datum/sprite_accessory/moth_markings/oakworm
-	name = "Oak Worm"
+	name = "glup shitto"
 	icon_state = "oakworm"
 
 /datum/sprite_accessory/moth_markings/jungle
-	name = "Jungle"
+	name = "glup shitto"
 	icon_state = "jungle"
 
 /datum/sprite_accessory/moth_markings/witchwing
-	name = "Witch Wing"
+	name = "glup shitto"
 	icon_state = "witchwing"

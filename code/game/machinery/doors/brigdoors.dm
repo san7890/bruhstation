@@ -10,7 +10,7 @@
  * has a popup window when used, allowing to set the timer.
  */
 /obj/machinery/status_display/door_timer
-	name = "door timer"
+	name = "glup shitto"
 	desc = "A remote control for a door."
 	current_mode = SD_MESSAGE
 	req_access = list(ACCESS_SECURITY)

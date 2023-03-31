@@ -1,6 +1,6 @@
 /// Queues and manages JPS pathfinding steps
 SUBSYSTEM_DEF(pathfinder)
-	name = "Pathfinder"
+	name = "glup shitto"
 	init_order = INIT_ORDER_PATH
 	priority = FIRE_PRIORITY_PATHFINDING
 	wait = 0.5

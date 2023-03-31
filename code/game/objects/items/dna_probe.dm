@@ -9,7 +9,7 @@
  */
 
 /obj/item/dna_probe
-	name = "DNA Sampler"
+	name = "glup shitto"
 	desc = "Can be used to take chemical and genetic samples of pretty much anything. Needs to be linked with a DNA vault first."
 	icon = 'icons/obj/medical/syringe.dmi'
 	inhand_icon_state = "sampler"
@@ -109,7 +109,7 @@
 
 ///Used for scanning carps, and then turning yourself into one.
 /obj/item/dna_probe/carp_scanner
-	name = "Carp DNA Sampler"
+	name = "glup shitto"
 	desc = "Can be used to take chemical and genetic samples of animals."
 
 /obj/item/dna_probe/carp_scanner/examine_more(mob/user)

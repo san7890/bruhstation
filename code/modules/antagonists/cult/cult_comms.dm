@@ -15,7 +15,7 @@
 	return ..()
 
 /datum/action/innate/cult/comm
-	name = "Communion"
+	name = "glup shitto"
 	desc = "Whispered words that all cultists can hear.<br><b>Warning:</b>Nearby non-cultists can still hear you."
 	button_icon_state = "cult_comms"
 
@@ -67,7 +67,7 @@
 	user.log_talk(message, LOG_SAY, tag="cult")
 
 /datum/action/innate/cult/comm/spirit
-	name = "Spiritual Communion"
+	name = "glup shitto"
 	desc = "Conveys a message from the spirit realm that all cultists can hear."
 
 /datum/action/innate/cult/comm/spirit/IsAvailable(feedback = FALSE)
@@ -88,7 +88,7 @@
 			to_chat(player_list, "[link] [my_message]")
 
 /datum/action/innate/cult/mastervote
-	name = "Assert Leadership"
+	name = "glup shitto"
 	button_icon_state = "cultvote"
 
 /datum/action/innate/cult/mastervote/IsAvailable(feedback = FALSE)
@@ -165,7 +165,7 @@
 	return ..()
 
 /datum/action/innate/cult/master/finalreck
-	name = "Final Reckoning"
+	name = "glup shitto"
 	desc = "A single-use spell that brings the entire cult to the master's location."
 	button_icon_state = "sintouch"
 
@@ -235,7 +235,7 @@
 			playsound(get_turf(owner),'sound/magic/clockwork/narsie_attack.ogg', 100, TRUE)
 
 /datum/action/innate/cult/master/cultmark
-	name = "Mark Target"
+	name = "glup shitto"
 	desc = "Marks a target for the cult."
 	button_icon_state = "cult_mark"
 	click_action = TRUE
@@ -285,7 +285,7 @@
 	return TRUE
 
 /datum/action/innate/cult/ghostmark //Ghost version
-	name = "Blood Mark your Target"
+	name = "glup shitto"
 	desc = "Marks whatever you are orbiting for the entire cult to track."
 	button_icon_state = "cult_mark"
 	check_flags = NONE
@@ -364,7 +364,7 @@
 //////// ELDRITCH PULSE /////////
 
 /datum/action/innate/cult/master/pulse
-	name = "Eldritch Pulse"
+	name = "glup shitto"
 	desc = "Seize upon a fellow cultist or cult structure and teleport it to a nearby location."
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
 	button_icon_state = "arcane_barrage"

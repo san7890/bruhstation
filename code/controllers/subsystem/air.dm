@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(air)
-	name = "Atmospherics"
+	name = "glup shitto"
 	init_order = INIT_ORDER_AIR
 	priority = FIRE_PRIORITY_AIR
 	wait = 0.5 SECONDS

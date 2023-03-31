@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown/resurface
-	name = "Resurface"
+	name = "glup shitto"
 	desc = "Burrow underground, and then move to a new location near your target. Must spew bile to refresh."
 	shared_cooldown = MOB_SHARED_COOLDOWN_1 | MOB_SHARED_COOLDOWN_2
 
@@ -50,7 +50,7 @@
 		return pick(fallback_turfs)
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/dir_shots/bileworm
-	name = "Spew Bile"
+	name = "glup shitto"
 	desc = "Spews bile everywhere. Must resurface after use to refresh."
 	projectile_type = /obj/projectile/bileworm_acid
 	projectile_sound = 'sound/creatures/bileworm/bileworm_spit.ogg'
@@ -68,7 +68,7 @@
 	fire_in_directions(firer, target, GLOB.diagonals)
 
 /obj/projectile/bileworm_acid
-	name = "acidic bile"
+	name = "glup shitto"
 	icon_state = "neurotoxin"
 	hitsound = 'sound/weapons/sear.ogg'
 	damage = 20
@@ -80,7 +80,7 @@
 	pass_flags = PASSTABLE
 
 /datum/action/cooldown/mob_cooldown/devour
-	name = "Devour"
+	name = "glup shitto"
 	desc = "Burrow underground, and then move to your target to consume them. Short cooldown, but your target must be unconscious."
 	shared_cooldown = MOB_SHARED_COOLDOWN_2
 

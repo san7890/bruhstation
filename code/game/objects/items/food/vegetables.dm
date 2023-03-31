@@ -1,5 +1,5 @@
 /obj/item/food/eggplantparm
-	name = "eggplant parmigiana"
+	name = "glup shitto"
 	desc = "The only good recipe for eggplant."
 	icon_state = "eggplantparm"
 
@@ -14,7 +14,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/yakiimo
-	name = "yaki imo"
+	name = "glup shitto"
 	desc = "Made with roasted sweet potatoes!"
 	icon_state = "yakiimo"
 	food_reagents = list(
@@ -27,7 +27,7 @@
 	burns_in_oven = TRUE
 
 /obj/item/food/roastparsnip
-	name = "roast parsnip"
+	name = "glup shitto"
 	desc = "Sweet and crunchy."
 	icon_state = "roastparsnip"
 	food_reagents = list(
@@ -40,7 +40,7 @@
 
 // Potatoes
 /obj/item/food/tatortot
-	name = "tator tot"
+	name = "glup shitto"
 	desc = "A large fried potato nugget that may or may not try to valid you."
 	icon_state = "tatortot"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
@@ -54,7 +54,7 @@
 	AddElement(/datum/element/dunkable, 10)
 
 /obj/item/food/mashed_potatoes
-	name = "mashed potatoes"
+	name = "glup shitto"
 	desc = "A creamy serving of mashed potatoes, a staple of many Thanksgiving dinners."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "mashed_potatoes"
@@ -67,7 +67,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/baked_potato
-	name = "baked potato"
+	name = "glup shitto"
 	desc = "A piping hot potato baked in an oven. A bit bland by itself."
 	icon_state = "baked_potato"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 4)
@@ -77,7 +77,7 @@
 	burns_in_oven = TRUE
 
 /obj/item/food/buttered_baked_potato
-	name = "buttered baked potato"
+	name = "glup shitto"
 	desc = "A piping hot baked potato, now with a slice of butter mixed in. Perfection."
 	icon_state = "buttered_baked_potato"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 4)
@@ -86,7 +86,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/loaded_baked_potato
-	name = "loaded baked potato"
+	name = "glup shitto"
 	desc = "A piping hot baked potato, with the insides scooped out and mixed with bacon bits, cheese, and cabbage."
 	icon_state = "loaded_baked_potato"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 6, /datum/reagent/consumable/nutriment/protein = 4)
@@ -96,7 +96,7 @@
 
 // Fries
 /obj/item/food/fries
-	name = "space fries"
+	name = "glup shitto"
 	desc = "AKA: French Fries, Freedom Fries, etc."
 	icon_state = "fries"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
@@ -110,7 +110,7 @@
 	AddElement(/datum/element/dunkable, 10)
 
 /obj/item/food/cheesyfries
-	name = "cheesy fries"
+	name = "glup shitto"
 	desc = "Fries. Covered in cheese. Duh."
 	icon_state = "cheesyfries"
 	food_reagents = list(
@@ -127,7 +127,7 @@
 	AddElement(/datum/element/dunkable, 10)
 
 /obj/item/food/carrotfries
-	name = "carrot fries"
+	name = "glup shitto"
 	desc = "Tasty fries from fresh carrots."
 	icon_state = "carrotfries"
 
@@ -141,7 +141,7 @@
 	AddElement(/datum/element/dunkable, 10)
 
 /obj/item/food/poutine
-	name = "poutine"
+	name = "glup shitto"
 	desc = "Fries covered in cheese curds and gravy."
 	icon_state = "poutine"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 7)

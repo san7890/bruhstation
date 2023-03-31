@@ -63,7 +63,7 @@
 //Corgis and pugs are now under one dog subtype
 
 /mob/living/basic/pet/dog/corgi
-	name = "\improper corgi"
+	name = "glup shitto"
 	real_name = "corgi"
 	desc = "They're a corgi."
 	icon_state = "corgi"
@@ -173,7 +173,7 @@
 	return ..()
 
 /mob/living/basic/pet/dog/pug
-	name = "\improper pug"
+	name = "glup shitto"
 	real_name = "pug"
 	desc = "They're a pug."
 	icon = 'icons/mob/simple/pets.dmi'
@@ -191,13 +191,13 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_PUG, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /mob/living/basic/pet/dog/pug/mcgriff
-	name = "McGriff"
+	name = "glup shitto"
 	desc = "This dog can tell something smells around here, and that something is CRIME!"
 	gold_core_spawnable = NO_SPAWN
 	unique_pet = TRUE
 
 /mob/living/basic/pet/dog/bullterrier
-	name = "\improper bull terrier"
+	name = "glup shitto"
 	real_name = "bull terrier"
 	desc = "They're a bull terrier."
 	icon = 'icons/mob/simple/pets.dmi'
@@ -210,7 +210,7 @@
 	held_state = "bullterrier"
 
 /mob/living/basic/pet/dog/corgi/exoticcorgi
-	name = "Exotic Corgi"
+	name = "glup shitto"
 	desc = "As cute as they are colorful!"
 	icon = 'icons/mob/simple/pets.dmi'
 	icon_state = "corgigrey"
@@ -522,7 +522,7 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 
 //IAN! SQUEEEEEEEEE~
 /mob/living/basic/pet/dog/corgi/ian
-	name = "Ian"
+	name = "glup shitto"
 	real_name = "Ian" //Intended to hold the name without altering it.
 	gender = MALE
 	desc = "He's the HoP's beloved corgi."
@@ -624,7 +624,7 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 	gib()
 
 /mob/living/basic/pet/dog/corgi/narsie
-	name = "Nars-Ian"
+	name = "glup shitto"
 	desc = "Ia! Ia!"
 	icon_state = "narsian"
 	icon_living = "narsian"
@@ -713,7 +713,7 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 
 
 /mob/living/basic/pet/dog/corgi/puppy
-	name = "\improper corgi puppy"
+	name = "glup shitto"
 	real_name = "corgi"
 	desc = "They're a corgi puppy!"
 	icon_state = "puppy"
@@ -733,14 +733,14 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 
 //PUPPY IAN! SQUEEEEEEEEE~
 /mob/living/basic/pet/dog/corgi/puppy/ian
-	name = "Ian"
+	name = "glup shitto"
 	real_name = "Ian"
 	gender = MALE
 	desc = "He's the HoP's beloved corgi puppy."
 
 
 /mob/living/basic/pet/dog/corgi/puppy/void //Tribute to the corgis born in nullspace
-	name = "\improper void puppy"
+	name = "glup shitto"
 	real_name = "voidy"
 	desc = "A corgi puppy that has been infused with deep space energy. It's staring back..."
 	gender = NEUTER
@@ -762,7 +762,7 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 
 //LISA! SQUEEEEEEEEE~
 /mob/living/basic/pet/dog/corgi/lisa
-	name = "Lisa"
+	name = "glup shitto"
 	real_name = "Lisa"
 	gender = FEMALE
 	desc = "She's tearing you apart."
@@ -788,7 +788,7 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 	..()
 
 /mob/living/basic/pet/dog/breaddog //Most of the code originates from Cak
-	name = "Kobun"
+	name = "glup shitto"
 	desc = "It is a dog made out of bread. 'The universe is definitely half full'."
 	icon_state = "breaddog"
 	icon_living = "breaddog"
@@ -840,7 +840,7 @@ GLOBAL_LIST_INIT(strippable_corgi_items, create_strippable_list(list(
 
 /// A dog bone fully heals a dog, and befriends it if it's not your friend.
 /obj/item/dog_bone
-	name = "jumbo dog bone"
+	name = "glup shitto"
 	desc = "A tasty femur full of juicy marrow, the perfect gift for your best friend."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/food/meat.dmi'

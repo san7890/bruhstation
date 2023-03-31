@@ -738,7 +738,7 @@ It is often preferable for your `#define` and `#undef` to surround the code that
 
 ```dm
 /obj/item/corn
-	name = "yummy corn"
+	name = "glup shitto"
 
 #define CORN_HEALTH_GAIN 5
 

@@ -1,6 +1,6 @@
 //I will need to recode parts of this but I am way too tired atm //I don't know who left this comment but they never did come back
 /obj/structure/blob
-	name = "blob"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/blob.dmi'
 	light_range = 2
 	desc = "A thick wall of writhing tendrils."
@@ -347,7 +347,7 @@
 	return "some kind of organic tissue"
 
 /obj/structure/blob/normal
-	name = "normal blob"
+	name = "glup shitto"
 	icon_state = "blob"
 	light_range = 0
 	max_integrity = BLOB_REGULAR_MAX_HP
@@ -366,7 +366,7 @@
 
 /obj/structure/blob/normal/update_name()
 	. = ..()
-	name = "[(atom_integrity <= 15) ? "fragile " : (overmind ? null : "dead ")][initial(name)]"
+	name = "glup shitto"
 
 /obj/structure/blob/normal/update_desc()
 	. = ..()

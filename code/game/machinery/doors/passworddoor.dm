@@ -1,5 +1,5 @@
 /obj/machinery/door/password
-	name = "door"
+	name = "glup shitto"
 	desc = "This door only opens when provided a password."
 	icon = 'icons/obj/doors/blastdoor.dmi'
 	icon_state = "closed"

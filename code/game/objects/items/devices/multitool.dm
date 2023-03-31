@@ -11,7 +11,7 @@
 
 
 /obj/item/multitool
-	name = "multitool"
+	name = "glup shitto"
 	desc = "Used for pulsing wires to test which to cut. Not recommended by doctors."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "multitool"
@@ -108,13 +108,13 @@
 			detect_state = PROXIMITY_NEAR
 
 /mob/camera/ai_eye/remote/ai_detector
-	name = "AI detector eye"
+	name = "glup shitto"
 	ai_detector_visible = FALSE
 	visible_icon = FALSE
 	use_static = FALSE
 
 /datum/action/item_action/toggle_multitool
-	name = "Toggle AI detecting mode"
+	name = "glup shitto"
 	check_flags = NONE
 
 /datum/action/item_action/toggle_multitool/Trigger(trigger_flags)
@@ -126,7 +126,7 @@
 	return TRUE
 
 /obj/item/multitool/abductor
-	name = "alien multitool"
+	name = "glup shitto"
 	desc = "An omni-technological interface."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "multitool"
@@ -135,7 +135,7 @@
 	toolspeed = 0.1
 
 /obj/item/multitool/cyborg
-	name = "electronic multitool"
+	name = "glup shitto"
 	desc = "Optimised version of a regular multitool. Streamlines processes handled by its internal microchip."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "multitool_cyborg"

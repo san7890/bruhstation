@@ -64,7 +64,7 @@
 // LASER SHOTGUN
 
 /obj/item/gun/ballistic/shotgun/ctf
-	name = "laser shotgun"
+	name = "glup shitto"
 	desc = "This looks like it could really hurt in melee."
 	icon_state = "ctfshotgun"
 	inhand_icon_state = "shotgun_combat"
@@ -100,7 +100,7 @@
 // MARKSMAN RIFLE
 
 /obj/item/gun/ballistic/automatic/laser/ctf/marksman
-	name = "designated marksman rifle"
+	name = "glup shitto"
 	icon_state = "ctfmarksman"
 	inhand_icon_state = "ctfmarksman"
 	mag_type = /obj/item/ammo_box/magazine/recharge/ctf/marksman
@@ -150,7 +150,7 @@
 // INSTAKILL RIFLE
 
 /obj/item/gun/energy/laser/instakill
-	name = "instakill rifle"
+	name = "glup shitto"
 	icon_state = "instagib"
 	inhand_icon_state = "instagib"
 	desc = "A specialized ASMD laser-rifle, capable of flat-out disintegrating most targets in a single hit."
@@ -175,7 +175,7 @@
 	select_name = "DESTROY"
 
 /obj/projectile/beam/instakill
-	name = "instagib laser"
+	name = "glup shitto"
 	icon_state = "purple_laser"
 	damage = 200
 	damage_type = BURN
@@ -192,7 +192,7 @@
 // SHIELDED VEST
 
 /obj/item/clothing/suit/armor/vest/ctf
-	name = "white shielded vest"
+	name = "glup shitto"
 	desc = "Standard issue vest for playing capture the flag."
 	icon = 'icons/mob/clothing/suits/ctf.dmi'
 	worn_icon = 'icons/mob/clothing/suits/ctf.dmi'
@@ -223,7 +223,7 @@
 // LIGHT SHIELDED VEST
 
 /obj/item/clothing/suit/armor/vest/ctf/light
-	name = "light white shielded vest"
+	name = "glup shitto"
 	desc = "Lightweight vest for playing capture the flag."
 	icon_state = "light"
 	greyscale_config = /datum/greyscale_config/ctf_light
@@ -493,14 +493,14 @@
 
 // Regular
 /obj/item/clothing/suit/armor/vest/ctf/red
-	name = "red shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-red"
 	greyscale_colors = COLOR_VIVID_RED
 
 // Light
 /obj/item/clothing/suit/armor/vest/ctf/light/red
-	name = "light red shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-red"
 	greyscale_colors = COLOR_VIVID_RED
@@ -509,14 +509,14 @@
 
 // Regular
 /obj/item/clothing/suit/armor/vest/ctf/blue
-	name = "blue shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-old"
 	greyscale_colors = COLOR_DARK_CYAN
 
 // Light
 /obj/item/clothing/suit/armor/vest/ctf/light/blue
-	name = "light blue shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-old"
 	greyscale_colors = COLOR_DARK_CYAN
@@ -525,14 +525,14 @@
 
 // Regular
 /obj/item/clothing/suit/armor/vest/ctf/green
-	name = "green shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-green"
 	greyscale_colors = COLOR_LIME
 
 // Light
 /obj/item/clothing/suit/armor/vest/ctf/light/green
-	name = "light green shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-green"
 	greyscale_colors = COLOR_LIME
@@ -541,14 +541,14 @@
 
 // Regular
 /obj/item/clothing/suit/armor/vest/ctf/yellow
-	name = "yellow shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-yellow"
 	greyscale_colors = COLOR_VIVID_YELLOW
 
 // Light
 /obj/item/clothing/suit/armor/vest/ctf/light/yellow
-	name = "light yellow shielded vest"
+	name = "glup shitto"
 	inhand_icon_state = null
 	team_shield_icon = "shield-yellow"
 	greyscale_colors = COLOR_VIVID_YELLOW

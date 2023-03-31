@@ -134,15 +134,15 @@
 	return A
 
 /datum/uplink_category/discounts
-	name = "Discounted Gear"
+	name = "glup shitto"
 	weight = -1
 
 /datum/uplink_category/discount_team_gear
-	name = "Discounted Team Gear"
+	name = "glup shitto"
 	weight = -1
 
 /datum/uplink_category/limited_discount_team_gear
-	name = "Limited Stock Team Gear"
+	name = "glup shitto"
 	weight = -2
 
 //Discounts (dynamically filled above)
@@ -152,7 +152,7 @@
 // Special equipment (Dynamically fills in uplink component)
 /datum/uplink_item/special_equipment
 	category = "Objective-Specific Equipment"
-	name = "Objective-Specific Equipment"
+	name = "glup shitto"
 	desc = "Equipment necessary for accomplishing specific objectives. If you are seeing this, something has gone wrong."
 	limited_stock = 1
 	illegal_tech = FALSE

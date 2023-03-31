@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/cup/glass/drinkingglass
-	name = "drinking glass"
+	name = "glup shitto"
 	desc = "Your standard drinking glass."
 	icon_state = "glass_empty"
 	base_icon_state = "glass_empty"
@@ -52,7 +52,7 @@
 //  This is on a case-by-case basis, and you can even make a separate sprite for shot glasses if you want. //
 
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass
-	name = "shot glass"
+	name = "glup shitto"
 	desc = "A shot glass - the universal symbol for bad decisions."
 	icon = 'icons/obj/drinks/shot_glasses.dmi'
 	icon_state = "shotglass"
@@ -69,7 +69,7 @@
 	if(renamedByPlayer)
 		return
 	. = ..()
-	name = "[length(reagents.reagent_list) ? "filled " : ""]shot glass"
+	name = "glup shitto"
 
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass/update_desc(updates)
 	if(renamedByPlayer)
@@ -88,13 +88,13 @@
 	update_appearance()
 
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled/soda
-	name = "Soda Water"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/consumable/sodawater = 50)
 
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled/cola
-	name = "Space Cola"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/consumable/space_cola = 50)
 
 /obj/item/reagent_containers/cup/glass/drinkingglass/filled/nuka_cola
-	name = "Nuka Cola"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/consumable/nuka_cola = 50)

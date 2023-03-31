@@ -1,7 +1,7 @@
 //map and direction signs
 
 /obj/structure/sign/map
-	name = "station map"
+	name = "glup shitto"
 	desc = "A navigational chart of the station."
 	max_integrity = 500
 
@@ -12,84 +12,84 @@
 	icon_state = "map-right"
 
 /obj/structure/sign/directions/science
-	name = "science department sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the Science department is."
 	icon_state = "direction_sci"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/science, 32)
 
 /obj/structure/sign/directions/engineering
-	name = "engineering department sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the Engineering department is."
 	icon_state = "direction_eng"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/engineering, 32)
 
 /obj/structure/sign/directions/security
-	name = "security department sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the Security department is."
 	icon_state = "direction_sec"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/security, 32)
 
 /obj/structure/sign/directions/medical
-	name = "medbay sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the Medbay is."
 	icon_state = "direction_med"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/medical, 32)
 
 /obj/structure/sign/directions/evac
-	name = "evacuation sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the escape shuttle dock is."
 	icon_state = "direction_evac"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/evac, 32)
 
 /obj/structure/sign/directions/supply
-	name = "cargo sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the Cargo Bay is."
 	icon_state = "direction_supply"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/supply, 32)
 
 /obj/structure/sign/directions/command
-	name = "command department sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the Command department is."
 	icon_state = "direction_bridge"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/command, 32)
 
 /obj/structure/sign/directions/vault
-	name = "vault sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the station's Vault is."
 	icon_state = "direction_vault"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/vault, 32)
 
 /obj/structure/sign/directions/upload
-	name = "upload sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the station's AI Upload is."
 	icon_state = "direction_upload"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/upload, 32)
 
 /obj/structure/sign/directions/dorms
-	name = "dormitories sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the dormitories are."
 	icon_state = "direction_dorms"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/dorms, 32)
 
 /obj/structure/sign/directions/lavaland
-	name = "lava sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the hot stuff is."
 	icon_state = "direction_lavaland"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/directions/lavaland, 32)
 
 /obj/structure/sign/directions/arrival
-	name = "arrivals sign"
+	name = "glup shitto"
 	desc = "A direction sign, pointing out which way the arrivals shuttle dock is."
 	icon_state = "direction_arrival"
 

@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/rifle
-	name = "Bolt Rifle"
+	name = "glup shitto"
 	desc = "Some kind of bolt action rifle. You get the feeling you shouldn't have this."
 	icon_state = "moistnugget"
 	w_class = WEIGHT_CLASS_BULKY
@@ -46,7 +46,7 @@
 ///////////////////////
 
 /obj/item/gun/ballistic/rifle/boltaction
-	name = "\improper Mosin Nagant"
+	name = "glup shitto"
 	desc = "This piece of junk looks like something that could have been used 700 years ago. It feels slightly moist."
 	sawn_desc = "An extremely sawn-off Mosin Nagant, popularly known as an \"Obrez\". \
 		There was probably a reason it wasn't manufactured this short to begin with."
@@ -111,7 +111,7 @@
 		. = TRUE
 
 /obj/item/gun/ballistic/rifle/boltaction/harpoon
-	name = "ballistic harpoon gun"
+	name = "glup shitto"
 	desc = "A weapon favored by carp hunters, but just as infamously employed by agents of the Animal Rights Consortium against human aggressors. Because it's ironic."
 	icon_state = "speargun"
 	inhand_icon_state = "speargun"
@@ -127,7 +127,7 @@
 	can_jam = FALSE
 
 /obj/item/gun/ballistic/rifle/boltaction/brand_new/prime
-	name = "\improper Regal Nagant"
+	name = "glup shitto"
 	desc = "A prized hunting Mosin Nagant. Used for the most dangerous game."
 	icon_state = "moistprime"
 	inhand_icon_state = "moistprime"
@@ -143,7 +143,7 @@
 		name = "\improper Regal Obrez" // wear it loud and proud
 
 /obj/item/gun/ballistic/rifle/boltaction/pipegun
-	name = "pipegun"
+	name = "glup shitto"
 	desc = "An excellent weapon for flushing out tunnel rats and enemy assistants, but its rifling leaves much to be desired."
 	icon_state = "musket"
 	inhand_icon_state = "musket"
@@ -170,7 +170,7 @@
 	do_sparks(1, TRUE, src)
 
 /obj/item/gun/ballistic/rifle/boltaction/pipegun/prime
-	name = "regal pipegun"
+	name = "glup shitto"
 	desc = "Older, territorial assistants typically possess more valuable loot."
 	icon_state = "musket_prime"
 	inhand_icon_state = "musket_prime"
@@ -182,14 +182,14 @@
 /// MAGICAL BOLT ACTIONS + ARCANE BARRAGE? ///
 
 /obj/item/gun/ballistic/rifle/enchanted
-	name = "enchanted bolt action rifle"
+	name = "glup shitto"
 	desc = "Careful not to lose your head."
 	var/guns_left = 30
 	mag_type = /obj/item/ammo_box/magazine/internal/enchanted
 	can_be_sawn_off = FALSE
 
 /obj/item/gun/ballistic/rifle/enchanted/arcane_barrage
-	name = "arcane barrage"
+	name = "glup shitto"
 	desc = "Pew Pew Pew."
 	fire_sound = 'sound/weapons/emitter.ogg'
 	pin = /obj/item/firing_pin/magic
@@ -235,7 +235,7 @@
 // SNIPER //
 
 /obj/item/gun/ballistic/rifle/sniper_rifle
-	name = "anti-materiel sniper rifle"
+	name = "glup shitto"
 	desc = "A boltaction anti-materiel rifle, utilizing .50 BMG cartridges. While technically outdated in modern arms markets, it still works exceptionally well as \
 		an anti-personnel rifle. In particular, the employment of modern armored MODsuits utilizing advanced armor plating has given this weapon a new home on the battlefield. \
 		It is also able to be suppressed....somehow."

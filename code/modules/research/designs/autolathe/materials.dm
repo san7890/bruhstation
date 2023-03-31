@@ -1,5 +1,5 @@
 /datum/design/iron
-	name = "Iron"
+	name = "glup shitto"
 	id = "iron"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = MINERAL_MATERIAL_AMOUNT)
@@ -11,7 +11,7 @@
 	maxstack = 50
 
 /datum/design/rods
-	name = "Iron Rod"
+	name = "glup shitto"
 	id = "rods"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 1000)
@@ -23,7 +23,7 @@
 	maxstack = 50
 
 /datum/design/glass
-	name = "Glass"
+	name = "glup shitto"
 	id = "glass"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/glass = MINERAL_MATERIAL_AMOUNT)
@@ -35,7 +35,7 @@
 	maxstack = 50
 
 /datum/design/rglass
-	name = "Reinforced Glass"
+	name = "glup shitto"
 	id = "rglass"
 	build_type = AUTOLATHE | SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1000, /datum/material/glass = MINERAL_MATERIAL_AMOUNT)
@@ -48,7 +48,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/silver
-	name = "Silver"
+	name = "glup shitto"
 	id = "silver"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/silver = MINERAL_MATERIAL_AMOUNT)
@@ -60,7 +60,7 @@
 	maxstack = 50
 
 /datum/design/gold
-	name = "Gold"
+	name = "glup shitto"
 	id = "gold"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/gold = MINERAL_MATERIAL_AMOUNT)
@@ -72,7 +72,7 @@
 	maxstack = 50
 
 /datum/design/diamond
-	name = "Diamond"
+	name = "glup shitto"
 	id = "diamond"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/diamond = MINERAL_MATERIAL_AMOUNT)
@@ -84,7 +84,7 @@
 	maxstack = 50
 
 /datum/design/plasma
-	name = "Plasma"
+	name = "glup shitto"
 	id = "plasma"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/plasma = MINERAL_MATERIAL_AMOUNT)
@@ -96,7 +96,7 @@
 	maxstack = 50
 
 /datum/design/uranium
-	name = "Uranium"
+	name = "glup shitto"
 	id = "uranium"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/uranium = MINERAL_MATERIAL_AMOUNT)
@@ -108,7 +108,7 @@
 	maxstack = 50
 
 /datum/design/bananium
-	name = "Bananium"
+	name = "glup shitto"
 	id = "bananium"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/bananium = MINERAL_MATERIAL_AMOUNT)
@@ -120,7 +120,7 @@
 	maxstack = 50
 
 /datum/design/titanium
-	name = "Titanium"
+	name = "glup shitto"
 	id = "titanium"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/titanium = MINERAL_MATERIAL_AMOUNT)
@@ -132,7 +132,7 @@
 	maxstack = 50
 
 /datum/design/plastic
-	name = "Plastic"
+	name = "glup shitto"
 	id = "plastic"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/plastic = MINERAL_MATERIAL_AMOUNT)

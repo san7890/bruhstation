@@ -1,5 +1,5 @@
 /obj/item/toy/cards/deck/blank
-	name = "custom deck of cards"
+	name = "glup shitto"
 	desc = "A deck of playing cards that can be customized with writing."
 	cardgame_desc = "custom card game"
 	icon_state = "deck_white_full"
@@ -20,7 +20,7 @@
 		initial_cards += /datum/deck_card/blank
 
 /datum/deck_card/blank
-	name = "blank card"
+	name = "glup shitto"
 
 /datum/deck_card/blank/update_card(obj/item/toy/singlecard/card)
 	card.blank = TRUE

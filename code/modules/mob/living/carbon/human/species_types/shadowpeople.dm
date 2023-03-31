@@ -1,6 +1,6 @@
 /datum/species/shadow
 	// Humans cursed to stay in the darkness, lest their life forces drain. They regain health in shadow and die in light.
-	name = "Shadow"
+	name = "glup shitto"
 	plural_form = "Shadowpeople"
 	id = SPECIES_SHADOW
 	sexes = 0
@@ -89,7 +89,7 @@
 
 /// the key to some of their powers
 /obj/item/organ/internal/brain/shadow
-	name = "shadowling tumor"
+	name = "glup shitto"
 	desc = "Something that was once a brain, before being remolded by a shadowling. It has adapted to the dark, irreversibly."
 	icon = 'icons/obj/medical/organs/shadow_organs.dmi'
 
@@ -106,7 +106,7 @@
 		owner.heal_overall_damage(brute = 0.5 * delta_time, burn = 0.5 * delta_time, required_bodytype = BODYTYPE_ORGANIC)
 
 /obj/item/organ/internal/eyes/shadow
-	name = "burning red eyes"
+	name = "glup shitto"
 	desc = "Even without their shadowy owner, looking at these eyes gives you a sense of dread."
 	icon = 'icons/obj/medical/organs/shadow_organs.dmi'
 	color_cutoffs = list(20, 10, 40)

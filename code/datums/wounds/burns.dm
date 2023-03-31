@@ -5,7 +5,7 @@
 
 // TODO: well, a lot really, but specifically I want to add potential fusing of clothing/equipment on the affected area, and limb infections, though those may go in body part code
 /datum/wound/burn
-	name = "Burn Wound"
+	name = "glup shitto"
 	a_or_from = "from"
 	wound_type = WOUND_BURN
 	processes = TRUE
@@ -258,7 +258,7 @@
 
 // we don't even care about first degree burns, straight to second
 /datum/wound/burn/moderate
-	name = "Second Degree Burns"
+	name = "glup shitto"
 	desc = "Patient is suffering considerable burns with mild skin penetration, weakening limb integrity and increased burning sensations."
 	treat_text = "Recommended application of topical ointment or regenerative mesh to affected region."
 	examine_desc = "is badly burned and breaking out in blisters"
@@ -272,7 +272,7 @@
 	scar_keyword = "burnmoderate"
 
 /datum/wound/burn/severe
-	name = "Third Degree Burns"
+	name = "glup shitto"
 	desc = "Patient is suffering extreme burns with full skin penetration, creating serious risk of infection and greatly reduced limb integrity."
 	treat_text = "Recommended immediate disinfection and excision of any infected skin, followed by bandaging and ointment."
 	examine_desc = "appears seriously charred, with aggressive red splotches"
@@ -288,7 +288,7 @@
 	scar_keyword = "burnsevere"
 
 /datum/wound/burn/critical
-	name = "Catastrophic Burns"
+	name = "glup shitto"
 	desc = "Patient is suffering near complete loss of tissue and significantly charred muscle and bone, creating life-threatening risk of infection and negligible limb integrity."
 	treat_text = "Immediate surgical debriding of any infected skin, followed by potent tissue regeneration formula and bandaging."
 	examine_desc = "is a ruined mess of blanched bone, melted fat, and charred tissue"
@@ -306,7 +306,7 @@
 
 ///special severe wound caused by sparring interference or other god related punishments.
 /datum/wound/burn/severe/brand
-	name = "Holy Brand"
+	name = "glup shitto"
 	desc = "Patient is suffering extreme burns from a strange brand marking, creating serious risk of infection and greatly reduced limb integrity."
 	examine_desc = "appears to have holy symbols painfully branded into their flesh, leaving severe burns."
 	occur_text = "chars rapidly into a strange pattern of holy symbols, burned into the flesh."

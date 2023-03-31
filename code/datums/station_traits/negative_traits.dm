@@ -1,5 +1,5 @@
 /datum/station_trait/carp_infestation
-	name = "Carp infestation"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 5
 	show_in_report = TRUE
@@ -7,7 +7,7 @@
 	trait_to_give = STATION_TRAIT_CARP_INFESTATION
 
 /datum/station_trait/distant_supply_lines
-	name = "Distant supply lines"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 3
 	show_in_report = TRUE
@@ -18,7 +18,7 @@
 	SSeconomy.pack_price_modifier *= 1.2
 
 /datum/station_trait/late_arrivals
-	name = "Late Arrivals"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 2
 	show_in_report = TRUE
@@ -27,7 +27,7 @@
 	blacklist = list(/datum/station_trait/random_spawns, /datum/station_trait/hangover)
 
 /datum/station_trait/random_spawns
-	name = "Drive-by landing"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 2
 	show_in_report = TRUE
@@ -36,7 +36,7 @@
 	blacklist = list(/datum/station_trait/late_arrivals, /datum/station_trait/hangover)
 
 /datum/station_trait/hangover
-	name = "Hangover"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 2
 	show_in_report = TRUE
@@ -73,7 +73,7 @@
 
 
 /datum/station_trait/blackout
-	name = "Blackout"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 3
 	show_in_report = TRUE
@@ -86,7 +86,7 @@
 			apc.overload_lighting()
 
 /datum/station_trait/empty_maint
-	name = "Cleaned out maintenance"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 5
 	show_in_report = TRUE
@@ -98,7 +98,7 @@
 	can_revert = FALSE
 
 /datum/station_trait/overflow_job_bureaucracy
-	name = "Overflow bureaucracy mistake"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 5
 	show_in_report = TRUE
@@ -118,7 +118,7 @@
 	SSjob.set_overflow_role(picked_job.type)
 
 /datum/station_trait/slow_shuttle
-	name = "Slow Shuttle"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 5
 	show_in_report = TRUE
@@ -130,7 +130,7 @@
 	SSshuttle.supply.callTime *= 1.5
 
 /datum/station_trait/bot_languages
-	name = "Bot Language Matrix Malfunction"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 4
 	show_in_report = TRUE
@@ -150,7 +150,7 @@
 		found_bot.randomize_language_if_on_station()
 
 /datum/station_trait/revenge_of_pun_pun
-	name = "Revenge of Pun Pun"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 2
 
@@ -241,7 +241,7 @@
 
 // Abstract station trait used for traits that modify a random event in some way (their weight or max occurrences).
 /datum/station_trait/random_event_weight_modifier
-	name = "Random Event Modifier"
+	name = "glup shitto"
 	report_message = "A random event has been modified this shift! Someone forgot to set this!"
 	show_in_report = TRUE
 	trait_flags = STATION_TRAIT_ABSTRACT
@@ -264,7 +264,7 @@
 	modified_event.max_occurrences += max_occurrences_modifier
 
 /datum/station_trait/random_event_weight_modifier/ion_storms
-	name = "Ionic Stormfront"
+	name = "glup shitto"
 	report_message = "An ionic stormfront is passing over your station's system. Expect an increased likelihood of ion storms afflicting your station's silicon units."
 	trait_type = STATION_TRAIT_NEGATIVE
 	trait_flags = NONE
@@ -273,7 +273,7 @@
 	weight_multiplier = 2
 
 /datum/station_trait/random_event_weight_modifier/rad_storms
-	name = "Radiation Stormfront"
+	name = "glup shitto"
 	report_message = "A radioactive stormfront is passing through your station's system. Expect an increased likelihood of radiation storms passing over your station, as well the potential for multiple radiation storms to occur during your shift."
 	trait_type = STATION_TRAIT_NEGATIVE
 	trait_flags = NONE
@@ -283,7 +283,7 @@
 	max_occurrences_modifier = 2
 
 /datum/station_trait/cramped_escape_pods
-	name = "Cramped Escape Pods"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEGATIVE
 	weight = 5
 	show_in_report = TRUE
@@ -293,7 +293,7 @@
 
 ///A special trait, used only for when a revolution was won in the previous round. See /obj/effect/mapping_helpers/revolution_trash for more information.
 /datum/station_trait/revolutionary_trashing
-	name = "Post-Revolutionary Fervor"
+	name = "glup shitto"
 	show_in_report = TRUE
 	report_message = "Your station was recently reclaimed from a revolutionary commune. We couldn't clean up after them in time."
 	trait_type = STATION_TRAIT_NEGATIVE

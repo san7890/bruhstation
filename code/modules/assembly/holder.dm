@@ -1,5 +1,5 @@
 /obj/item/assembly_holder
-	name = "Assembly"
+	name = "glup shitto"
 	icon = 'icons/obj/assemblies/new_assemblies.dmi'
 	icon_state = "assembly_holder"
 	inhand_icon_state = "assembly"
@@ -31,7 +31,7 @@
 /obj/item/assembly_holder/proc/assemble(obj/item/assembly/A, obj/item/assembly/A2, mob/user)
 	attach(A,user)
 	attach(A2,user)
-	name = "[A.name]-[A2.name] assembly"
+	name = "glup shitto"
 	update_appearance()
 	SSblackbox.record_feedback("tally", "assembly_made", 1, "[initial(A.name)]-[initial(A2.name)]")
 

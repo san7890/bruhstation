@@ -1,6 +1,6 @@
 //Cardboard cutouts! They're man-shaped and can be colored with a crayon to look like a human in a certain outfit, although it's limited, discolored, and obvious to more than a cursory glance.
 /obj/item/cardboard_cutout
-	name = "cardboard cutout"
+	name = "glup shitto"
 	desc = "A vaguely humanoid cardboard cutout. It's completely blank."
 	icon = 'icons/obj/art/cardboard_cutout.dmi'
 	icon_state = "cutout_basic"
@@ -205,7 +205,7 @@
 	cutouts.desc = applied_desc
 
 /datum/cardboard_cutout/assistant
-	name = "Assistant"
+	name = "glup shitto"
 	applied_name = "John Greytide"
 	applied_desc = "A cardboard cutout of an assistant."
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/generic_assistant
@@ -214,7 +214,7 @@
 	return "[pick(GLOB.first_names_male)] [pick(GLOB.last_names)]"
 
 /datum/cardboard_cutout/clown
-	name = "Clown"
+	name = "glup shitto"
 	applied_name = "HONK"
 	applied_desc = "A cardboard cutout of a clown. You get the feeling that it should be in a corner."
 	outfit = /datum/outfit/job/clown
@@ -223,7 +223,7 @@
 	return pick(GLOB.clown_names)
 
 /datum/cardboard_cutout/mime
-	name = "Mime"
+	name = "glup shitto"
 	applied_name = "..."
 	applied_desc = "...(A cardboard cutout of a mime.)"
 	outfit = /datum/outfit/job/mime
@@ -232,7 +232,7 @@
 	return pick(GLOB.mime_names)
 
 /datum/cardboard_cutout/traitor
-	name = "Traitor"
+	name = "glup shitto"
 	applied_name = "Unknown"
 	applied_desc = "A cardboard cutout of a traitor."
 	outfit = /datum/outfit/traitor_cutout
@@ -241,7 +241,7 @@
 	return pick("Unknown", "Captain")
 
 /datum/cardboard_cutout/nuclear_operative
-	name = "Nuclear Operative"
+	name = "glup shitto"
 	applied_name = "Unknown"
 	applied_desc = "A cardboard cutout of a nuclear operative."
 	outfit = /datum/outfit/syndicate/full
@@ -250,19 +250,19 @@
 	return pick("Unknown", "COMMS", "Telecomms", "AI", "stealthy op", "STEALTH", "sneakybeaky", "MEDIC", "Medic")
 
 /datum/cardboard_cutout/cultist
-	name = "Cultist"
+	name = "glup shitto"
 	applied_name = "Unknown"
 	applied_desc = "A cardboard cutout of a cultist."
 	outfit = /datum/outfit/cult_cutout
 
 /datum/cardboard_cutout/revolutionary
-	name = "Revolutionary"
+	name = "glup shitto"
 	applied_name = "Unknown"
 	applied_desc = "A cardboard cutout of a revolutionary."
 	outfit = /datum/outfit/rev_cutout
 
 /datum/cardboard_cutout/wizard
-	name = "Wizard"
+	name = "glup shitto"
 	applied_name = "wizard"
 	applied_desc = "A cardboard cutout of a wizard."
 	outfit = /datum/outfit/wizard/bookless
@@ -271,7 +271,7 @@
 	return "[pick(GLOB.wizard_first)] [pick(GLOB.wizard_second)]"
 
 /datum/cardboard_cutout/nightmare
-	name = "Nightmare"
+	name = "glup shitto"
 	applied_name = "nightmare"
 	applied_desc = "A cardboard cutout of a nightmare."
 	species = /datum/species/shadow/nightmare
@@ -280,7 +280,7 @@
 	return pick(GLOB.nightmare_names)
 
 /datum/cardboard_cutout/xenomorph
-	name = "Xenomorph"
+	name = "glup shitto"
 	applied_name = "alien hunter"
 	applied_desc = "A cardboard cutout of a xenomorph."
 	direct_icon = 'icons/mob/nonhuman-player/alien.dmi'
@@ -290,7 +290,7 @@
 	return applied_name + " ([rand(1, 999)])"
 
 /datum/cardboard_cutout/xenomorph_maid
-	name = "Xenomorph Maid"
+	name = "glup shitto"
 	applied_name = "lusty xenomorph maid"
 	applied_desc = "A cardboard cutout of a xenomorph maid."
 	direct_icon = 'icons/mob/nonhuman-player/alien.dmi'
@@ -300,7 +300,7 @@
 	return applied_name + " ([rand(1, 999)])"
 
 /datum/cardboard_cutout/ash_walker
-	name = "Ash Walker"
+	name = "glup shitto"
 	applied_name = "lizard"
 	applied_desc = "A cardboard cutout of an ash walker."
 	species = /datum/species/lizard/ashwalker
@@ -310,7 +310,7 @@
 	return lizard_name(pick(MALE, FEMALE))
 
 /datum/cardboard_cutout/death_squad
-	name = "Deathsquad Officer"
+	name = "glup shitto"
 	applied_name = "deathsquad officer"
 	applied_desc = "A cardboard cutout of a death commando."
 	outfit = /datum/outfit/centcom/death_commando
@@ -319,28 +319,28 @@
 	return pick(GLOB.commando_names)
 
 /datum/cardboard_cutout/ian
-	name = "Ian"
+	name = "glup shitto"
 	applied_name = "Ian"
 	applied_desc = "A cardboard cutout of the HoP's beloved corgi."
 	direct_icon = 'icons/mob/simple/pets.dmi'
 	direct_icon_state = "corgi"
 
 /datum/cardboard_cutout/slaughter_demon
-	name = "Slaughter Demon"
+	name = "glup shitto"
 	applied_name = "slaughter demon"
 	applied_desc = "A cardboard cutout of a slaughter demon."
 	direct_icon = 'icons/mob/simple/mob.dmi'
 	direct_icon_state = "daemon"
 
 /datum/cardboard_cutout/laughter_demon
-	name = "Laughter Demon"
+	name = "glup shitto"
 	applied_name = "laughter demon"
 	applied_desc = "A cardboard cutout of a laughter demon."
 	direct_icon = 'icons/mob/simple/mob.dmi'
 	direct_icon_state = "bowmon"
 
 /datum/cardboard_cutout/security_officer
-	name = "Private Security Officer"
+	name = "glup shitto"
 	applied_name = "Private Security Officer"
 	applied_desc = "A cardboard cutout of a private security officer."
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/nanotrasensoldier

@@ -41,7 +41,7 @@ However there are some categories that overwrite these default values so pay att
 ```dm
 // Tech storage circuit board spawners
 /obj/effect/spawner/random/techstorage
-	name = "generic circuit board spawner"
+	name = "glup shitto"
 	spawn_loot_split = TRUE
 	spawn_all_loot = TRUE
 ```
@@ -50,7 +50,7 @@ This means any spawner you create under the techstorage will also have those var
 
 ```dm
 /obj/effect/spawner/random/techstorage/data_disk
-	name = "data disk spawner"
+	name = "glup shitto"
 	spawn_all_loot = FALSE // now our loot won't all be spawned
 	loot = list(
 		/obj/item/disk/data = 49,
@@ -64,7 +64,7 @@ All the random spawners follow the same template format to keep things consisten
 
 ```dm
 /obj/effect/spawner/random/INSERT_SPAWNER_GROUP/INSERT_SPAWNER_NAME
-	name = "INSERT_SPAWNER_NAME spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/PATH/INSERT_OBJ_1,
 		/obj/item/PATH/INSERT_OBJ_2,
@@ -76,7 +76,7 @@ All the capitalized code is the parts where you are supposed to swap out with yo
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture,
 		/obj/item/stack/medical/mesh,
@@ -92,7 +92,7 @@ Be aware that the `loot` list uses a *weighted chance* formula to determine prob
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture = 2,
 		/obj/item/stack/medical/mesh = 1,
@@ -104,7 +104,7 @@ Then now `suture` has a 50% chance of being spawned (2/4), `mesh` has a 25% chan
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture = 2,
 		/obj/item/stack/medical/mesh = 1,
@@ -127,7 +127,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture = 2,
 		/obj/item/stack/medical/mesh = 1,
@@ -140,7 +140,7 @@ Also Good:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture,
 		/obj/item/stack/medical/mesh,
@@ -153,7 +153,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture = 1,
 		/obj/item/stack/medical/mesh = 1,
@@ -171,7 +171,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/contraband/armory
-	name = "armory loot spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/gun/ballistic/automatic/pistol = 8,
 		/obj/item/gun/ballistic/shotgun/automatic/combat = 5,
@@ -187,7 +187,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/random/contraband/armory
-	name = "armory loot spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/storage/box/syndie_kit/throwing_weapons = 3,
 		/obj/item/gun/ballistic/automatic/pistol = 8,
@@ -207,7 +207,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/food_or_drink/donkpockets
-	name = "donk pocket box spawner"
+	name = "glup shitto"
 	spawn_loot_double = FALSE
 	loot = list(
 		/obj/item/storage/box/donkpockets/donkpocketspicy,
@@ -222,7 +222,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/random/food_or_drink/donkpockets
-	name = "donk pocket box spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/storage/box/donkpockets/donkpocketspicy,
 		/obj/item/storage/box/donkpockets/donkpocketteriyaki,
@@ -241,7 +241,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture,
 		/obj/item/stack/medical/mesh,
@@ -253,7 +253,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture,
 		/obj/item/stack/medical/mesh,
@@ -269,7 +269,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/medical/suture,
 		/obj/item/stack/medical/mesh,
@@ -291,7 +291,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(
 	/obj/item/stack/medical/suture,
 	/obj/item/stack/medical/mesh,
@@ -303,7 +303,7 @@ Also Bad:
 
 ```dm
 /obj/effect/spawner/random/medical/minor_healing
-	name = "minor healing spawner"
+	name = "glup shitto"
 	loot = list(/obj/item/stack/medical/suture,
 		/obj/item/stack/medical/mesh,
 		/obj/item/stack/medical/gauze,)
@@ -317,7 +317,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/trash/cigbutt
-	name = "cigarette butt spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/cigbutt = 65,
 		/obj/item/cigbutt/roach = 20,
@@ -329,7 +329,7 @@ Also Good:
 
 ```dm
 /obj/effect/spawner/random/trash/botanical_waste
-	name = "botanical waste spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/grown/bananapeel = 6,
 		/obj/item/grown/corncob = 3,
@@ -341,7 +341,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/random/entertainment/money_large
-	name = "large money spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/stack/spacecash/c1 = 521,
 		/obj/item/stack/spacecash/c10 = 378,
@@ -363,7 +363,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/structure/crate_abandoned
-	name = "locked crate spawner"
+	name = "glup shitto"
 	spawn_loot_chance = 20
 	loot = list(/obj/structure/closet/crate/secure/loot)
 ```
@@ -373,7 +373,7 @@ Bad:
 
 ```dm
 /obj/effect/spawner/lootdrop/crate_spawner
-	name = "lootcrate spawner"
+	name = "glup shitto"
 	loot = list(
 		"" = 80
 		/obj/structure/closet/crate/secure/loot = 20,
@@ -388,7 +388,7 @@ Good:
 
 ```dm
 /obj/effect/spawner/random/contraband/armory
-	name = "armory loot spawner"
+	name = "glup shitto"
 	icon_state = "pistol"
 	loot = list(
 		/obj/item/gun/ballistic/automatic/pistol = 8,

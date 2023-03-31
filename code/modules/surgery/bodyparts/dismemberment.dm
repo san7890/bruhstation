@@ -284,7 +284,7 @@
 		if(pill)
 			pill.forceMove(src)
 
-	name = "[owner.real_name]'s head"
+	name = "glup shitto"
 	return ..()
 
 ///Try to attach this bodypart to a mob, while replacing one if it exists, does nothing if it fails.

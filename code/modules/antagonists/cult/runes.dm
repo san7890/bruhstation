@@ -30,7 +30,7 @@ Runes can either be invoked by one's self or with many different cultists. Each 
 */
 
 /obj/effect/rune
-	name = "rune"
+	name = "glup shitto"
 	desc = "An odd collection of symbols drawn in what seems to be blood."
 	anchored = TRUE
 	icon = 'icons/obj/rune.dmi'

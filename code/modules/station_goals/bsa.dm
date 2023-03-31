@@ -7,7 +7,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 // Requires high amount of power
 // Requires high level stock parts
 /datum/station_goal/bluespace_cannon
-	name = "Bluespace Artillery"
+	name = "glup shitto"
 
 /datum/station_goal/bluespace_cannon/get_report()
 	return list(
@@ -42,7 +42,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/machinery/bsa/back
-	name = "Bluespace Artillery Generator"
+	name = "glup shitto"
 	desc = "Generates cannon pulse. Needs to be linked with a fusor."
 	icon_state = "power_box"
 
@@ -55,7 +55,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	return TRUE
 
 /obj/machinery/bsa/front
-	name = "Bluespace Artillery Bore"
+	name = "glup shitto"
 	desc = "Do not stand in front of cannon during operation. Needs to be linked with a fusor."
 	icon_state = "emitter_center"
 
@@ -68,7 +68,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	return TRUE
 
 /obj/machinery/bsa/middle
-	name = "Bluespace Artillery Fusor"
+	name = "glup shitto"
 	desc = "Contents classified by Nanotrasen Naval Command. Needs to be linked with the other BSA parts using a multitool."
 	icon_state = "fuel_chamber"
 	var/datum/weakref/back_ref
@@ -133,7 +133,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 
 
 /obj/machinery/bsa/full
-	name = "Bluespace Artillery"
+	name = "glup shitto"
 	desc = "Long range bluespace artillery."
 	icon = 'icons/obj/lavaland/cannon.dmi'
 	icon_state = "cannon_west"
@@ -247,7 +247,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	ready = TRUE
 
 /obj/structure/filler
-	name = "big machinery part"
+	name = "glup shitto"
 	density = TRUE
 	anchored = TRUE
 	invisibility = INVISIBILITY_ABSTRACT
@@ -257,7 +257,7 @@ GLOBAL_VAR_INIT(bsa_unlock, FALSE)
 	return FALSE
 
 /obj/machinery/computer/bsa_control
-	name = "bluespace artillery control"
+	name = "glup shitto"
 	use_power = NO_POWER_USE
 	circuit = /obj/item/circuitboard/computer/bsa_control
 	icon = 'icons/obj/machines/particle_accelerator.dmi'

@@ -1,5 +1,5 @@
 /obj/machinery/cell_charger
-	name = "cell charger"
+	name = "glup shitto"
 	desc = "It charges power cells."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "ccharger"

@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(nightshift)
-	name = "Night Shift"
+	name = "glup shitto"
 	wait = 10 MINUTES
 
 	var/nightshift_active = FALSE

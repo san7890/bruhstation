@@ -1,5 +1,5 @@
 /obj/structure/blob/special/resource
-	name = "resource blob"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/blob.dmi'
 	icon_state = "blob_resource"
 	desc = "A thin spire of slightly swaying tendrils."

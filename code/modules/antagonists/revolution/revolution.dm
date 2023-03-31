@@ -7,7 +7,7 @@
 #define STATION_VICTORY 2
 
 /datum/antagonist/rev
-	name = "\improper Revolutionary"
+	name = "glup shitto"
 	roundend_category = "revolutionaries" // if by some miracle revolutionaries without revolution happen
 	antagpanel_category = "Revolution"
 	job_rank = ROLE_REV
@@ -163,7 +163,7 @@
 	demote()
 
 /datum/antagonist/rev/head
-	name = "\improper Head Revolutionary"
+	name = "glup shitto"
 	antag_hud_name = "rev_head"
 	job_rank = ROLE_REV_HEAD
 
@@ -333,7 +333,7 @@
 		to_chat(C, "Your eyes have been implanted with a cybernetic security HUD which will help you keep track of who is mindshield-implanted, and therefore unable to be recruited.")
 
 /datum/team/revolution
-	name = "\improper Revolution"
+	name = "glup shitto"
 	var/max_headrevs = 3
 	var/list/ex_headrevs = list() // Dynamic removes revs on loss, used to keep a list for the roundend report.
 	var/list/ex_revs = list()
@@ -657,7 +657,7 @@
 	return common_part + heads_report
 
 /datum/outfit/revolutionary
-	name = "Revolutionary (Preview only)"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/costume/soviet
 	head = /obj/item/clothing/head/costume/ushanka

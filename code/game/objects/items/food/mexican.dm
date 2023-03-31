@@ -1,5 +1,5 @@
 /obj/item/food/tortilla
-	name = "tortilla"
+	name = "glup shitto"
 	desc = "The base for all your burritos."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "tortilla"
@@ -15,7 +15,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/hard_taco_shell, rand(15 SECONDS, 30 SECONDS), TRUE, TRUE)
 
 /obj/item/food/burrito
-	name = "burrito"
+	name = "glup shitto"
 	desc = "Tortilla wrapped goodness."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "burrito"
@@ -30,7 +30,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/cheesyburrito
-	name = "cheesy burrito"
+	name = "glup shitto"
 	desc = "It's a burrito filled with cheese."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "cheesyburrito"
@@ -45,7 +45,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/carneburrito
-	name = "carne asada burrito"
+	name = "glup shitto"
 	desc = "The best burrito for meat lovers."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "carneburrito"
@@ -60,7 +60,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/fuegoburrito
-	name = "fuego plasma burrito"
+	name = "glup shitto"
 	desc = "A super spicy burrito."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "fuegoburrito"
@@ -76,7 +76,7 @@
 	venue_value = FOOD_PRICE_LEGENDARY
 
 /obj/item/food/nachos
-	name = "nachos"
+	name = "glup shitto"
 	desc = "Chips from Space Mexico."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "nachos"
@@ -90,7 +90,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/cheesynachos
-	name = "cheesy nachos"
+	name = "glup shitto"
 	desc = "The delicious combination of nachos and melting cheese."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "cheesynachos"
@@ -105,7 +105,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/cubannachos
-	name = "Cuban nachos"
+	name = "glup shitto"
 	desc = "That's some dangerously spicy nachos."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "cubannachos"
@@ -119,7 +119,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/taco
-	name = "classic taco"
+	name = "glup shitto"
 	desc = "A traditional taco with meat, cheese, and lettuce."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "taco"
@@ -134,7 +134,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/taco/plain
-	name = "plain taco"
+	name = "glup shitto"
 	desc = "A traditional taco with meat and cheese, minus the rabbit food."
 	icon_state = "taco_plain"
 	food_reagents = list(
@@ -147,14 +147,14 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/taco/fish
-	name = "fish taco"
+	name = "glup shitto"
 	desc = "A taco with fish, cheese, and cabbage."
 	icon_state = "fishtaco"
 	tastes = list("taco" = 4, "fish" = 2, "cheese" = 2, "cabbage" = 1)
 	foodtypes = SEAFOOD | DAIRY | GRAIN | VEGETABLES
 
 /obj/item/food/enchiladas
-	name = "enchiladas"
+	name = "glup shitto"
 	desc = "Viva La Mexico!"
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "enchiladas"
@@ -170,7 +170,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/stuffedlegion
-	name = "stuffed legion"
+	name = "glup shitto"
 	desc = "The former skull of a damned human, filled with goliath meat. It has a decorative lava pool made of ketchup and hotsauce."
 	icon_state = "stuffed_legion"
 	food_reagents = list(
@@ -185,7 +185,7 @@
 	venue_value = FOOD_PRICE_LEGENDARY
 
 /obj/item/food/chipsandsalsa
-	name = "chips and salsa"
+	name = "glup shitto"
 	desc = "Some tortilla chips with a cup of zesty salsa. Highly addictive!"
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "chipsandsalsa"
@@ -199,7 +199,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/classic_chimichanga
-	name = "classic chimichanga"
+	name = "glup shitto"
 	desc = "A deep-fried burrito packed with a generous amount of meat and cheese."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "classic_chimichanga"
@@ -213,7 +213,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/vegetarian_chimichanga
-	name = "vegetarian chimichanga"
+	name = "glup shitto"
 	desc = "A deep-fried burrito packed with a generous amount of baked vegetables, for the non-meat eaters."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "vegetarian_chimichanga"
@@ -226,7 +226,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/hard_taco_shell
-	name = "hard taco shell"
+	name = "glup shitto"
 	desc = "A hard taco shell, just waiting to be stuffed with ingredients. Use an ingredient on it to start making custom tacos!"
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "hard_taco_shell"
@@ -242,14 +242,14 @@
 
 // empty taco shell for custom tacos
 /obj/item/food/hard_taco_shell/empty
-	name = "hard-shell taco"
+	name = "glup shitto"
 	foodtypes = NONE
 	tastes = list()
 	icon_state = "hard_taco_shell"
 	desc = "A customized hard-shell taco."
 
 /obj/item/food/classic_hard_shell_taco
-	name = "classic hard-shell taco"
+	name = "glup shitto"
 	desc = "A classically-made hard-shell taco, the most satisfying crunch in the galaxy."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "classic_hard_shell_taco"
@@ -263,7 +263,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/plain_hard_shell_taco
-	name = "plain hard-shell taco"
+	name = "glup shitto"
 	desc = "A hard-shell taco with just meat, for the picky eaters and children in us all."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "plain_hard_shell_taco"
@@ -277,7 +277,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/refried_beans
-	name = "refried beans"
+	name = "glup shitto"
 	desc = "A steaming bowl of delicious refried beans, a common staple in Mexican cuisine."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "refried_beans"
@@ -291,7 +291,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/spanish_rice
-	name = "spanish rice"
+	name = "glup shitto"
 	desc = "A bowl of delicious spanish rice, cooked in a tomato sauce which gives it the orange color."
 	icon = 'icons/obj/food/mexican.dmi'
 	icon_state = "spanish_rice"

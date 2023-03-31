@@ -1,6 +1,6 @@
 // Medical Designs
 /datum/design/pillbottle
-	name = "Pill Bottle"
+	name = "glup shitto"
 	id = "pillbottle"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 20, /datum/material/glass = 100)
@@ -12,7 +12,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/stethoscope
-	name = "Stethoscope"
+	name = "glup shitto"
 	id = "stethoscope"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1000)
@@ -24,7 +24,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/sticky_tape/surgical
-	name = "Surgical Tape"
+	name = "glup shitto"
 	id = "surgical_tape"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 500)
@@ -37,7 +37,7 @@
 
 // Science Designs
 /datum/design/slime_scanner
-	name = "Slime Scanner"
+	name = "glup shitto"
 	id = "slime_scanner"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 300, /datum/material/glass = 200)
@@ -49,7 +49,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/petridish
-	name = "Petri Dish"
+	name = "glup shitto"
 	id = "petri_dish"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE
 	materials = list(/datum/material/glass = 500)
@@ -61,7 +61,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/swab
-	name = "Sterile Swab"
+	name = "glup shitto"
 	id = "swab"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE
 	materials = list(/datum/material/plastic = 200)
@@ -73,7 +73,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/telescreen_research
-	name = "Research Telescreen"
+	name = "glup shitto"
 	id = "telescreen_research"
 	build_type = PROTOLATHE
 	materials = list(
@@ -88,7 +88,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/telescreen_ordnance
-	name = "Ordnance Telescreen"
+	name = "glup shitto"
 	id = "telescreen_ordnance"
 	build_type = PROTOLATHE
 	materials = list(
@@ -104,7 +104,7 @@
 
 // MedSci Designs
 /datum/design/syringe
-	name = "Syringe"
+	name = "glup shitto"
 	id = "syringe"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10, /datum/material/glass = 20)
@@ -116,7 +116,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/dropper
-	name = "Dropper"
+	name = "glup shitto"
 	id = "dropper"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 10, /datum/material/plastic = 30)
@@ -128,7 +128,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/blood_filter
-	name = "Blood Filter"
+	name = "glup shitto"
 	id = "blood_filter"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 4000, /datum/material/glass = 1500, /datum/material/silver = 500)
@@ -140,7 +140,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/scalpel
-	name = "Scalpel"
+	name = "glup shitto"
 	id = "scalpel"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 4000, /datum/material/glass = 1000)
@@ -152,7 +152,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/circular_saw
-	name = "Circular Saw"
+	name = "glup shitto"
 	id = "circular_saw"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 6000)
@@ -164,7 +164,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/bonesetter
-	name = "Bonesetter"
+	name = "glup shitto"
 	id = "bonesetter"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 5000,  /datum/material/glass = 2500)
@@ -176,7 +176,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/surgicaldrill
-	name = "Surgical Drill"
+	name = "glup shitto"
 	id = "surgicaldrill"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 6000)
@@ -188,7 +188,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/retractor
-	name = "Retractor"
+	name = "glup shitto"
 	id = "retractor"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 6000, /datum/material/glass = 3000)
@@ -200,7 +200,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/cautery
-	name = "Cautery"
+	name = "glup shitto"
 	id = "cautery"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 750)
@@ -212,7 +212,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/hemostat
-	name = "Hemostat"
+	name = "glup shitto"
 	id = "hemostat"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 5000, /datum/material/glass = 2500)

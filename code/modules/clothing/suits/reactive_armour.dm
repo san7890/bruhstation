@@ -1,5 +1,5 @@
 /obj/item/reactive_armour_shell
-	name = "reactive armour shell"
+	name = "glup shitto"
 	desc = "An experimental suit of armour, awaiting installation of an anomaly core."
 	icon_state = "reactiveoff"
 	icon = 'icons/obj/clothing/suits/armor.dmi'
@@ -29,7 +29,7 @@
 
 //Reactive armor
 /obj/item/clothing/suit/armor/reactive
-	name = "reactive armor"
+	name = "glup shitto"
 	desc = "Doesn't seem to do much for some reason."
 	icon_state = "reactiveoff"
 	inhand_icon_state = null
@@ -116,7 +116,7 @@
 
 //When the wearer gets hit, this armor will teleport the user a short distance away (to safety or to more danger, no one knows. That's the fun of it!)
 /obj/item/clothing/suit/armor/reactive/teleport
-	name = "reactive teleport armor"
+	name = "glup shitto"
 	desc = "Someone separated our Research Director from his own head!"
 	emp_message = span_warning("The reactive armor's teleportation calculations begin spewing errors!")
 	cooldown_message = span_danger("The reactive teleport system is still recharging! It fails to activate!")
@@ -142,7 +142,7 @@
 //Fire
 
 /obj/item/clothing/suit/armor/reactive/fire
-	name = "reactive incendiary armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor with a reactive sensor array rigged to a flame emitter. For the stylish pyromaniac."
 	cooldown_message = span_danger("The reactive incendiary armor activates, but fails to send out flames as it is still recharging its flame jets!")
 	emp_message = span_warning("The reactive incendiary armor's targeting system begins rebooting...")
@@ -169,7 +169,7 @@
 //Stealth
 
 /obj/item/clothing/suit/armor/reactive/stealth
-	name = "reactive stealth armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor that renders the wearer invisible on detection of imminent harm, and creates a decoy that runs away from the owner. You can't fight what you can't see."
 	cooldown_message = span_danger("The reactive stealth system activates, but is not charged enough to fully cloak!")
 	emp_message = span_warning("The reactive stealth armor's threat assessment system crashes...")
@@ -219,7 +219,7 @@
 //Tesla
 
 /obj/item/clothing/suit/armor/reactive/tesla
-	name = "reactive tesla armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor with sensitive detectors hooked up to a huge capacitor grid, with emitters strutting out of it. Zap."
 	siemens_coefficient = -1
 	cooldown_message = span_danger("The tesla capacitors on the reactive tesla armor are still recharging! The armor merely emits some sparks.")
@@ -255,7 +255,7 @@
 //Repulse
 
 /obj/item/clothing/suit/armor/reactive/repulse
-	name = "reactive repulse armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor that violently throws back attackers."
 	cooldown_message = span_danger("The repulse generator is still recharging! It fails to generate a strong enough wave!")
 	emp_message = span_warning("The repulse generator is reset to default settings...")
@@ -291,7 +291,7 @@
 	return FALSE
 
 /obj/item/clothing/suit/armor/reactive/table
-	name = "reactive table armor"
+	name = "glup shitto"
 	desc = "If you can't beat the memes, embrace them."
 	cooldown_message = span_danger("The reactive table armor's fabricators are still on cooldown!")
 	emp_message = span_danger("The reactive table armor's fabricators click and whirr ominously for a moment...")
@@ -323,7 +323,7 @@
 //Hallucinating
 
 /obj/item/clothing/suit/armor/reactive/hallucinating
-	name = "reactive hallucinating armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor with sensitive detectors hooked up to the mind of the wearer, sending mind pulses that causes hallucinations around you."
 	cooldown_message = span_danger("The connection is currently out of sync... Recalibrating.")
 	emp_message = span_warning("You feel the backsurge of a mind pulse.")
@@ -354,7 +354,7 @@
 
 //Bioscrambling
 /obj/item/clothing/suit/armor/reactive/bioscrambling
-	name = "reactive bioscrambling armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor with sensitive detectors hooked up to a biohazard release valve. It scrambles the bodies of those around."
 	cooldown_message = span_danger("The connection is currently out of sync... Recalibrating.")
 	emp_message = span_warning("You feel the armor squirm.")
@@ -410,7 +410,7 @@
 
 // When the wearer gets hit, this armor will push people nearby and spawn some blocking objects.
 /obj/item/clothing/suit/armor/reactive/barricade
-	name = "reactive barricade armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor that generates barriers from another world when it detects its bearer is in danger."
 	emp_message = span_warning("The reactive armor's dimensional coordinates are scrambled!")
 	cooldown_message = span_danger("The reactive barrier system is still recharging! It fails to activate!")
@@ -472,7 +472,7 @@
 	return FALSE
 
 /obj/item/clothing/suit/armor/reactive/ectoplasm
-	name = "reactive possession armor"
+	name = "glup shitto"
 	desc = "An experimental suit of armor that animates nearby objects with a ghostly possession."
 	emp_message = span_warning("The reactive armor lets out a horrible noise, and ghostly whispers fill your ears...")
 	cooldown_message = span_danger("Ectoplasmic Matrix out of balance. Please wait for calibration to complete!")

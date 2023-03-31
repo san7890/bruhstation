@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/rcd
-	name = "rcd-tgui"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/rcd/create_spritesheets()
 	//We load airlock icons seperatly from other icons cause they need overlays

@@ -1,5 +1,5 @@
 /datum/round_event_control/gravity_generator_blackout
-	name = "Gravity Generator Blackout"
+	name = "glup shitto"
 	typepath = /datum/round_event/gravity_generator_blackout
 	weight = 30
 	category = EVENT_CATEGORY_ENGINEERING

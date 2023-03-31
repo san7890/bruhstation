@@ -4,7 +4,7 @@ Consuming extracts:
 	After consuming enough, produces special cookies.
 */
 /obj/item/slimecross/consuming
-	name = "consuming extract"
+	name = "glup shitto"
 	desc = "It hungers... for <i>more</i>." //My slimecross has finally decided to eat... my buffet!
 	icon_state = "consuming"
 	effect = "consuming"
@@ -44,7 +44,7 @@ Consuming extracts:
 	return new cookietype(get_turf(src))
 
 /obj/item/slime_cookie //While this technically acts like food, it's so removed from it that I made it its' own type.
-	name = "error cookie"
+	name = "glup shitto"
 	desc = "A weird slime cookie. You shouldn't see this."
 	icon = 'icons/obj/food/slimecookies.dmi'
 	var/taste = "error"
@@ -88,7 +88,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/grey
 
 /obj/item/slime_cookie/grey
-	name = "slime cookie"
+	name = "glup shitto"
 	desc = "A grey-ish transparent cookie. Nutritious, probably."
 	icon_state = "grey"
 	taste = "goo"
@@ -100,7 +100,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/orange
 
 /obj/item/slime_cookie/orange
-	name = "fiery cookie"
+	name = "glup shitto"
 	desc = "An orange cookie with a fiery pattern. Feels warm."
 	icon_state = "orange"
 	taste = "cinnamon and burning"
@@ -114,7 +114,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/purple
 
 /obj/item/slime_cookie/purple
-	name = "health cookie"
+	name = "glup shitto"
 	desc = "A purple cookie with a cross pattern. Soothing."
 	icon_state = "purple"
 	taste = "fruit jam and cough medicine"
@@ -133,7 +133,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/blue
 
 /obj/item/slime_cookie/blue
-	name = "water cookie"
+	name = "glup shitto"
 	desc = "A transparent blue cookie. Constantly dripping wet."
 	icon_state = "blue"
 	taste = "water"
@@ -147,7 +147,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/metal
 
 /obj/item/slime_cookie/metal
-	name = "metallic cookie"
+	name = "glup shitto"
 	desc = "A shiny grey cookie. Hard to the touch."
 	icon_state = "metal"
 	taste = /datum/reagent/copper
@@ -161,7 +161,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/yellow
 
 /obj/item/slime_cookie/yellow
-	name = "sparking cookie"
+	name = "glup shitto"
 	desc = "A yellow cookie with a lightning pattern. Has a rubbery texture."
 	icon_state = "yellow"
 	taste = "lemon cake and rubber gloves"
@@ -175,7 +175,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/darkpurple
 
 /obj/item/slime_cookie/darkpurple
-	name = "toxic cookie"
+	name = "glup shitto"
 	desc = "A dark purple cookie, stinking of plasma."
 	icon_state = "darkpurple"
 	taste = "slime jelly and toxins"
@@ -189,7 +189,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/darkblue
 
 /obj/item/slime_cookie/darkblue
-	name = "frosty cookie"
+	name = "glup shitto"
 	desc = "A dark blue cookie with a snowflake pattern. Feels cold."
 	icon_state = "darkblue"
 	taste = "mint and bitter cold"
@@ -204,7 +204,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/silver
 
 /obj/item/slime_cookie/silver
-	name = "waybread cookie"
+	name = "glup shitto"
 	desc = "A warm, crispy cookie, sparkling silver in the light. Smells wonderful."
 	icon_state = "silver"
 	taste = "masterful elven baking"
@@ -219,7 +219,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/bluespace
 
 /obj/item/slime_cookie/bluespace
-	name = "space cookie"
+	name = "glup shitto"
 	desc = "A white cookie with green icing. Surprisingly hard to hold."
 	icon_state = "bluespace"
 	taste = "sugar and starlight"
@@ -255,7 +255,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/sepia
 
 /obj/item/slime_cookie/sepia
-	name = "time cookie"
+	name = "glup shitto"
 	desc = "A light brown cookie with a clock pattern. Takes some time to chew."
 	icon_state = "sepia"
 	taste = "brown sugar and a metronome"
@@ -270,7 +270,7 @@ Consuming extracts:
 	cookies = 3 //You're gonna get more.
 
 /obj/item/slime_cookie/cerulean
-	name = "duplicookie"
+	name = "glup shitto"
 	desc = "A cerulean cookie with strange proportions. It feels like it could break apart easily."
 	icon_state = "cerulean"
 	taste = "a sugar cookie"
@@ -287,7 +287,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/pyrite
 
 /obj/item/slime_cookie/pyrite
-	name = "color cookie"
+	name = "glup shitto"
 	desc = "A yellow cookie with rainbow-colored icing. Reflects the light strangely."
 	icon_state = "pyrite"
 	taste = "vanilla and " //Randomly selected color dye.
@@ -329,7 +329,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/red
 
 /obj/item/slime_cookie/red
-	name = "blood cookie"
+	name = "glup shitto"
 	desc = "A red cookie, oozing a thick red fluid. Vampires might enjoy it."
 	icon_state = "red"
 	taste = "red velvet and iron"
@@ -347,7 +347,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/green
 
 /obj/item/slime_cookie/green
-	name = "gross cookie"
+	name = "glup shitto"
 	desc = "A disgusting green cookie, seeping with pus. You kind of feel ill just looking at it."
 	icon_state = "green"
 	taste = "the contents of your stomach"
@@ -364,7 +364,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/pink
 
 /obj/item/slime_cookie/pink
-	name = "love cookie"
+	name = "glup shitto"
 	desc = "A pink cookie with an icing heart. D'aww."
 	icon_state = "pink"
 	taste = "love and hugs"
@@ -378,7 +378,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/gold
 
 /obj/item/slime_cookie/gold
-	name = "gilded cookie"
+	name = "glup shitto"
 	desc = "A buttery golden cookie, closer to a bread than anything. May good fortune find you."
 	icon_state = "gold"
 	taste = "sweet cornbread and wealth"
@@ -397,7 +397,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/oil
 
 /obj/item/slime_cookie/oil
-	name = "tar cookie"
+	name = "glup shitto"
 	desc = "An oily black cookie, which sticks to your hands. Smells like chocolate."
 	icon_state = "oil"
 	taste = "rich molten chocolate and tar"
@@ -411,7 +411,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/black
 
 /obj/item/slime_cookie/black
-	name = "spooky cookie"
+	name = "glup shitto"
 	desc = "A pitch black cookie with an icing ghost on the front. Spooky!"
 	icon_state = "black"
 	taste = "ghosts and stuff"
@@ -425,7 +425,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/lightpink
 
 /obj/item/slime_cookie/lightpink
-	name = "peace cookie"
+	name = "glup shitto"
 	desc = "A light pink cookie with a peace symbol in the icing. Lovely!"
 	icon_state = "lightpink"
 	taste = "strawberry icing and P.L.U.R" //Literal candy raver.
@@ -439,7 +439,7 @@ Consuming extracts:
 	cookietype = /obj/item/slime_cookie/adamantine
 
 /obj/item/slime_cookie/adamantine
-	name = "crystal cookie"
+	name = "glup shitto"
 	desc = "A translucent rock candy in the shape of a cookie. Surprisingly chewy."
 	icon_state = "adamantine"
 	taste = "crystalline sugar and metal"

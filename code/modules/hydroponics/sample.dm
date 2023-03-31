@@ -1,5 +1,5 @@
 /obj/item/seeds/sample
-	name = "plant sample"
+	name = "glup shitto"
 	icon_state = "sample-empty"
 	potency = -1
 	yield = -1
@@ -16,6 +16,6 @@
 	return "The DNA of this sample is damaged beyond recovery, it can't support life on its own."
 
 /obj/item/seeds/sample/alienweed
-	name = "alien weed sample"
+	name = "glup shitto"
 	icon_state = "alienweed"
 	sample_color = null

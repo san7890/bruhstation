@@ -1,6 +1,6 @@
 // Cult pylon. Heals nearby cultists and converts turfs to cult turfs.
 /obj/structure/destructible/cult/pylon
-	name = "pylon"
+	name = "glup shitto"
 	desc = "A floating crystal that slowly heals those faithful to Nar'Sie."
 	icon_state = "pylon"
 	light_range = 1.5

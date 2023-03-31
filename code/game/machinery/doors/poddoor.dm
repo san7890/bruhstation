@@ -1,5 +1,5 @@
 /obj/machinery/door/poddoor
-	name = "blast door"
+	name = "glup shitto"
 	desc = "A heavy duty blast door that opens mechanically."
 	icon = 'icons/obj/doors/blastdoor.dmi'
 	icon_state = "closed"
@@ -166,7 +166,7 @@
 	opacity = FALSE
 
 /obj/machinery/door/poddoor/ert
-	name = "hardened blast door"
+	name = "glup shitto"
 	desc = "A heavy duty blast door that only opens for dire emergencies."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
@@ -183,41 +183,41 @@
 		INVOKE_ASYNC(src, PROC_REF(close))
 
 /obj/machinery/door/poddoor/incinerator_ordmix
-	name = "combustion chamber vent"
+	name = "glup shitto"
 	id = INCINERATOR_ORDMIX_VENT
 
 /obj/machinery/door/poddoor/incinerator_atmos_main
-	name = "turbine vent"
+	name = "glup shitto"
 	id = INCINERATOR_ATMOS_MAINVENT
 
 /obj/machinery/door/poddoor/incinerator_atmos_aux
-	name = "combustion chamber vent"
+	name = "glup shitto"
 	id = INCINERATOR_ATMOS_AUXVENT
 
 /obj/machinery/door/poddoor/atmos_test_room_mainvent_1
-	name = "test chamber 1 vent"
+	name = "glup shitto"
 	id = TEST_ROOM_ATMOS_MAINVENT_1
 
 /obj/machinery/door/poddoor/atmos_test_room_mainvent_2
-	name = "test chamber 2 vent"
+	name = "glup shitto"
 	id = TEST_ROOM_ATMOS_MAINVENT_2
 
 /obj/machinery/door/poddoor/incinerator_syndicatelava_main
-	name = "turbine vent"
+	name = "glup shitto"
 	id = INCINERATOR_SYNDICATELAVA_MAINVENT
 
 /obj/machinery/door/poddoor/incinerator_syndicatelava_aux
-	name = "combustion chamber vent"
+	name = "glup shitto"
 	id = INCINERATOR_SYNDICATELAVA_AUXVENT
 
 /obj/machinery/door/poddoor/massdriver_ordnance
-	name = "Ordnance Launcher Bay Door"
+	name = "glup shitto"
 	id = MASSDRIVER_ORDNANCE
 
 /obj/machinery/door/poddoor/massdriver_chapel
-	name = "Chapel Launcher Bay Door"
+	name = "glup shitto"
 	id = MASSDRIVER_CHAPEL
 
 /obj/machinery/door/poddoor/massdriver_trash
-	name = "Disposals Launcher Bay Door"
+	name = "glup shitto"
 	id = MASSDRIVER_DISPOSALS

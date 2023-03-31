@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/retaliate/clown
-	name = "Clown"
+	name = "glup shitto"
 	desc = "A denizen of clown planet."
 	icon = 'icons/mob/simple/clown_mobs.dmi'
 	icon_state = "clown"
@@ -56,7 +56,7 @@
 	log_combat(src, attacked_target, "honksposivley ripened")
 
 /mob/living/simple_animal/hostile/retaliate/clown/lube
-	name = "Living Lube"
+	name = "glup shitto"
 	desc = "A puddle of lube brought to life by the honkmother."
 	icon_state = "lube"
 	icon_living = "lube"
@@ -73,7 +73,7 @@
 	AddElement(/datum/element/snailcrawl)
 
 /mob/living/simple_animal/hostile/retaliate/clown/banana
-	name = "Clownana"
+	name = "glup shitto"
 	desc = "A fusion of clown and banana DNA birthed from a botany experiment gone wrong."
 	icon_state = "banana tree"
 	icon_living = "banana tree"
@@ -107,7 +107,7 @@
 
 ///drops peels around the mob when activated
 /datum/action/cooldown/rustle
-	name = "Rustle"
+	name = "glup shitto"
 	desc = "Shake loose a few banana peels."
 	cooldown_time = 8 SECONDS
 	button_icon_state = "rustle"
@@ -138,7 +138,7 @@
 
 ///spawns a plumb bunch of bananas imbued with mystical power.
 /datum/action/cooldown/exquisite_bunch
-	name = "Exquisite Bunch"
+	name = "glup shitto"
 	desc = "Pluck your finest bunch of bananas from your head. This bunch is especially nutrious to monkeykind. A gentle tap will trigger an explosive ripening process."
 	button_icon = 'icons/obj/hydroponics/harvest.dmi'
 	cooldown_time = 60 SECONDS
@@ -176,7 +176,7 @@
 	StartCooldown()
 
 /mob/living/simple_animal/hostile/retaliate/clown/honkling
-	name = "Honkling"
+	name = "glup shitto"
 	desc = "A divine being sent by the Honkmother to spread joy. It's not dangerous, but it's a bit of a nuisance."
 	icon_state = "honkling"
 	icon_living = "honkling"
@@ -191,7 +191,7 @@
 	attack_reagent = /datum/reagent/consumable/laughter
 
 /mob/living/simple_animal/hostile/retaliate/clown/fleshclown
-	name = "Fleshclown"
+	name = "glup shitto"
 	desc = "A being forged out of the pure essence of pranking, cursed into existence by a cruel maker."
 	icon_state = "fleshclown"
 	icon_living = "fleshclown"
@@ -219,7 +219,7 @@
 	ADD_TRAIT(src, TRAIT_VENTCRAWLER_ALWAYS, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/clown/longface
-	name = "Longface"
+	name = "glup shitto"
 	desc = "Often found walking into the bar."
 	icon_state = "long face"
 	icon_living = "long face"
@@ -246,7 +246,7 @@
 	loot = list(/obj/item/clothing/mask/gas/clown_hat, /obj/effect/gibspawner/human, /obj/item/soap)
 
 /mob/living/simple_animal/hostile/retaliate/clown/clownhulk
-	name = "Honk Hulk"
+	name = "glup shitto"
 	desc = "A cruel and fearsome clown. Don't make him angry."
 	icon_state = "honkhulk"
 	icon_living = "honkhulk"
@@ -276,7 +276,7 @@
 	loot = list(/obj/item/clothing/mask/gas/clown_hat, /obj/effect/gibspawner/human, /obj/item/soap)
 
 /mob/living/simple_animal/hostile/retaliate/clown/clownhulk/chlown
-	name = "Chlown"
+	name = "glup shitto"
 	desc = "A real lunkhead who somehow gets all the girls."
 	icon_state = "chlown"
 	icon_living = "chlown"
@@ -299,7 +299,7 @@
 	loot = list(/obj/item/clothing/mask/gas/clown_hat, /obj/effect/gibspawner/human, /obj/effect/particle_effect/fluid/foam, /obj/item/soap)
 
 /mob/living/simple_animal/hostile/retaliate/clown/clownhulk/honcmunculus
-	name = "Honkmunculus"
+	name = "glup shitto"
 	desc = "A slender wiry figure of alchemical origin."
 	icon_state = "honkmunculus"
 	icon_living = "honkmunculus"
@@ -323,7 +323,7 @@
 	attack_reagent = /datum/reagent/peaceborg/confuse
 
 /mob/living/simple_animal/hostile/retaliate/clown/clownhulk/destroyer
-	name = "The Destroyer"
+	name = "glup shitto"
 	desc = "An ancient being born of arcane honking."
 	icon_state = "destroyer"
 	icon_living = "destroyer"
@@ -345,7 +345,7 @@
 	loot = list(/obj/item/clothing/mask/gas/clown_hat, /obj/effect/gibspawner/human, /obj/effect/particle_effect/fluid/foam, /obj/item/soap)
 
 /mob/living/simple_animal/hostile/retaliate/clown/mutant
-	name = "Unknown"
+	name = "glup shitto"
 	desc = "Kill it for its own sake."
 	icon_state = "mutant"
 	icon_living = "mutant"
@@ -377,7 +377,7 @@
 	move_to_delay = 60
 
 /mob/living/simple_animal/hostile/retaliate/clown/mutant/glutton
-	name = "banana glutton"
+	name = "glup shitto"
 	desc = "Something that was once a clown"
 	icon_state = "glutton"
 	icon_living = "glutton"
@@ -474,7 +474,7 @@
 
 ///This ability will let you fire one random item from your pouch,
 /datum/action/cooldown/regurgitate
-	name = "Regurgitate"
+	name = "glup shitto"
 	desc = "Regurgitates a single item from the depths of your pouch."
 	background_icon_state = "bg_changeling"
 	overlay_icon_state = "bg_changeling_border"

@@ -1,7 +1,7 @@
 // Ambrosia - base type
 /obj/item/food/grown/ambrosia
 	seed = /obj/item/seeds/ambrosia
-	name = "ambrosia branch"
+	name = "glup shitto"
 	desc = "This is a plant."
 	icon_state = "ambrosiavulgaris"
 	slot_flags = ITEM_SLOT_HEAD
@@ -11,7 +11,7 @@
 
 // Ambrosia Vulgaris
 /obj/item/seeds/ambrosia
-	name = "pack of ambrosia vulgaris seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into common ambrosia, a plant grown by and from medicine."
 	icon_state = "seed-ambrosiavulgaris"
 	plant_icon_offset = 0
@@ -30,13 +30,13 @@
 
 /obj/item/food/grown/ambrosia/vulgaris
 	seed = /obj/item/seeds/ambrosia
-	name = "ambrosia vulgaris branch"
+	name = "glup shitto"
 	desc = "This is a plant containing various healing chemicals."
 	wine_power = 30
 
 // Ambrosia Deus
 /obj/item/seeds/ambrosia/deus
-	name = "pack of ambrosia deus seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into ambrosia deus. Could it be the food of the gods..?"
 	icon_state = "seed-ambrosiadeus"
 	species = "ambrosiadeus"
@@ -48,14 +48,14 @@
 
 /obj/item/food/grown/ambrosia/deus
 	seed = /obj/item/seeds/ambrosia/deus
-	name = "ambrosia deus branch"
+	name = "glup shitto"
 	desc = "Eating this makes you feel immortal!"
 	icon_state = "ambrosiadeus"
 	wine_power = 50
 
 //Ambrosia Gaia
 /obj/item/seeds/ambrosia/gaia
-	name = "pack of ambrosia gaia seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into ambrosia gaia, filled with infinite potential."
 	icon_state = "seed-ambrosia_gaia"
 	species = "ambrosia_gaia"
@@ -69,7 +69,7 @@
 	weed_chance = 100
 
 /obj/item/food/grown/ambrosia/gaia
-	name = "ambrosia gaia branch"
+	name = "glup shitto"
 	desc = "Eating this <i>makes</i> you immortal."
 	icon_state = "ambrosia_gaia"
 	light_system = MOVABLE_LIGHT

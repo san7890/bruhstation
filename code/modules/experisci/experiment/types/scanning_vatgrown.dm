@@ -1,5 +1,5 @@
 /datum/experiment/scanning/random/cytology
-	name = "Cytology Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning atoms that were vatgrown"
 	exp_tag = "Cytology Scan"
 	total_requirement = 1

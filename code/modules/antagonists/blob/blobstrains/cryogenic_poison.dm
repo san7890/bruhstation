@@ -1,6 +1,6 @@
 //does brute, burn, and toxin damage, and cools targets down
 /datum/blobstrain/reagent/cryogenic_poison
-	name = "Cryogenic Poison"
+	name = "glup shitto"
 	description = "will inject targets with a freezing poison, applying little impact damage but dealing high damage over time."
 	analyzerdescdamage = "Injects targets with a freezing poison that will gradually solidify the target's internal organs."
 	color = "#8BA6E9"
@@ -11,7 +11,7 @@
 	reagent = /datum/reagent/blob/cryogenic_poison
 
 /datum/reagent/blob/cryogenic_poison
-	name = "Cryogenic Poison"
+	name = "glup shitto"
 	description = "will inject targets with a freezing poison that does high damage over time."
 	color = "#8BA6E9"
 	taste_description = "brain freeze"

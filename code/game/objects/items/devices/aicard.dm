@@ -1,5 +1,5 @@
 /obj/item/aicard
-	name = "intelliCard"
+	name = "glup shitto"
 	desc = "A storage device for AIs. Patent pending."
 	icon = 'icons/obj/aicards.dmi'
 	icon_state = "aicard" // aicard-full
@@ -14,12 +14,12 @@
 	var/mob/living/silicon/ai/AI
 
 /obj/item/aicard/aitater
-	name = "intelliTater"
+	name = "glup shitto"
 	desc = "A stylish upgrade (?) to the intelliCard."
 	icon_state = "aitater"
 
 /obj/item/aicard/aispook
-	name = "intelliLantern"
+	name = "glup shitto"
 	desc = "A spoOoOoky upgrade to the intelliCard."
 	icon_state = "aispook"
 
@@ -48,7 +48,7 @@
 		name = initial(name)
 		icon_state = initial(icon_state)
 		return ..()
-	name = "[initial(name)] - [AI.name]"
+	name = "glup shitto"
 	icon_state = "[initial(icon_state)][AI.stat == DEAD ? "-404" : "-full"]"
 	AI.cancel_camera()
 	return ..()

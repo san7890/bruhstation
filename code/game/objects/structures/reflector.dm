@@ -1,5 +1,5 @@
 /obj/structure/reflector
-	name = "reflector base"
+	name = "glup shitto"
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "reflector_map"
 	desc = "A base for reflector assemblies."
@@ -182,7 +182,7 @@
 //SINGLE
 
 /obj/structure/reflector/single
-	name = "reflector"
+	name = "glup shitto"
 	deflector_icon_state = "reflector"
 	desc = "An angled mirror for reflecting laser beams."
 	density = TRUE
@@ -208,7 +208,7 @@
 //DOUBLE
 
 /obj/structure/reflector/double
-	name = "double sided reflector"
+	name = "glup shitto"
 	deflector_icon_state = "reflector_double"
 	desc = "A double sided angled mirror for reflecting laser beams."
 	density = TRUE
@@ -232,7 +232,7 @@
 //BOX
 
 /obj/structure/reflector/box
-	name = "reflector box"
+	name = "glup shitto"
 	deflector_icon_state = "reflector_box"
 	desc = "A box with an internal set of mirrors that reflects all laser beams in a single direction."
 	density = TRUE

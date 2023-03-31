@@ -1,5 +1,5 @@
 /obj/structure/spider/eggcluster
-	name = "egg cluster"
+	name = "glup shitto"
 	desc = "There's something alive in there, and sooner or later it's going to find its way out."
 	icon_state = "eggs"
 	/// Mob spawner handling the actual spawn of the spider
@@ -37,18 +37,18 @@
 				. += span_info("These eggs are plump, teeming with life. Any moment now...")
 
 /obj/structure/spider/eggcluster/enriched
-	name = "enriched egg cluster"
+	name = "glup shitto"
 	color = rgb(148, 0, 211)
 
 /obj/structure/spider/eggcluster/bloody
-	name = "bloody egg cluster"
+	name = "glup shitto"
 	color = rgb(255, 0, 0)
 
 /obj/structure/spider/eggcluster/midwife
-	name = "midwife egg cluster"
+	name = "glup shitto"
 
 /obj/effect/mob_spawn/ghost_role/spider
-	name = "egg cluster"
+	name = "glup shitto"
 	desc = "They seem to pulse slightly with an inner life."
 	mob_name = "\improper spider"
 	icon = 'icons/effects/effects.dmi'
@@ -125,7 +125,7 @@
 	return ..()
 
 /obj/effect/mob_spawn/ghost_role/spider/enriched
-	name = "enriched egg cluster"
+	name = "glup shitto"
 	color = rgb(148, 0, 211)
 	you_are_text = "You are an enriched spider."
 	cluster_type = /obj/structure/spider/eggcluster/enriched
@@ -136,7 +136,7 @@
 	)
 
 /obj/effect/mob_spawn/ghost_role/spider/bloody
-	name = "bloody egg cluster"
+	name = "glup shitto"
 	color = rgb(255, 0, 0)
 	you_are_text = "You are a bloody spider."
 	flavour_text = "An abomination of nature set upon the station by changelings. Your only goal is to kill, terrorize, and survive."
@@ -147,7 +147,7 @@
 	)
 
 /obj/effect/mob_spawn/ghost_role/spider/midwife
-	name = "midwife egg cluster"
+	name = "glup shitto"
 	you_are_text = "You are a midwife spider."
 	flavour_text = "The crux of the spider horde. You have the ability to reproduce and create more spiders, and turn victims into special spider eggs."
 	directive = "Ensure the survival of the spider species and overtake whatever structure you find yourself in."

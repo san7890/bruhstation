@@ -1,6 +1,6 @@
 
 /datum/action/item_action/cult_dagger
-	name = "Draw Blood Rune"
+	name = "glup shitto"
 	desc = "Use the ritual dagger to create a powerful blood rune"
 	button_icon = 'icons/mob/actions/actions_cult.dmi'
 	button_icon_state = "draw"

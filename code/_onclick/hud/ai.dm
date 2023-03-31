@@ -6,7 +6,7 @@
 		return TRUE
 
 /atom/movable/screen/ai/aicore
-	name = "AI core"
+	name = "glup shitto"
 	icon_state = "ai_core"
 
 /atom/movable/screen/ai/aicore/Click()
@@ -16,7 +16,7 @@
 	AI.view_core()
 
 /atom/movable/screen/ai/camera_list
-	name = "Show Camera List"
+	name = "glup shitto"
 	icon_state = "camera"
 
 /atom/movable/screen/ai/camera_list/Click()
@@ -26,7 +26,7 @@
 	AI.show_camera_list()
 
 /atom/movable/screen/ai/camera_track
-	name = "Track With Camera"
+	name = "glup shitto"
 	icon_state = "track"
 
 /atom/movable/screen/ai/camera_track/Click()
@@ -39,7 +39,7 @@
 	AI.ai_camera_track(target_name)
 
 /atom/movable/screen/ai/camera_light
-	name = "Toggle Camera Light"
+	name = "glup shitto"
 	icon_state = "camera_light"
 
 /atom/movable/screen/ai/camera_light/Click()
@@ -49,7 +49,7 @@
 	AI.toggle_camera_light()
 
 /atom/movable/screen/ai/modpc
-	name = "Messenger"
+	name = "glup shitto"
 	icon_state = "pda_send"
 	var/mob/living/silicon/ai/robot
 
@@ -60,7 +60,7 @@
 	robot.modularInterface?.interact(robot)
 
 /atom/movable/screen/ai/crew_monitor
-	name = "Crew Monitoring Console"
+	name = "glup shitto"
 	icon_state = "crew_monitor"
 
 /atom/movable/screen/ai/crew_monitor/Click()
@@ -70,7 +70,7 @@
 	GLOB.crewmonitor.show(AI,AI)
 
 /atom/movable/screen/ai/crew_manifest
-	name = "Crew Manifest"
+	name = "glup shitto"
 	icon_state = "manifest"
 
 /atom/movable/screen/ai/crew_manifest/Click()
@@ -80,7 +80,7 @@
 	AI.ai_roster()
 
 /atom/movable/screen/ai/alerts
-	name = "Show Alerts"
+	name = "glup shitto"
 	icon_state = "alerts"
 
 /atom/movable/screen/ai/alerts/Click()
@@ -90,7 +90,7 @@
 	AI.alert_control.ui_interact(AI)
 
 /atom/movable/screen/ai/announcement
-	name = "Make Vox Announcement"
+	name = "glup shitto"
 	icon_state = "announcement"
 
 /atom/movable/screen/ai/announcement/Click()
@@ -100,7 +100,7 @@
 	AI.announcement()
 
 /atom/movable/screen/ai/call_shuttle
-	name = "Call Emergency Shuttle"
+	name = "glup shitto"
 	icon_state = "call_shuttle"
 
 /atom/movable/screen/ai/call_shuttle/Click()
@@ -110,7 +110,7 @@
 	AI.ai_call_shuttle()
 
 /atom/movable/screen/ai/state_laws
-	name = "State Laws"
+	name = "glup shitto"
 	icon_state = "state_laws"
 
 /atom/movable/screen/ai/state_laws/Click()
@@ -120,7 +120,7 @@
 	AI.checklaws()
 
 /atom/movable/screen/ai/image_take
-	name = "Take Image"
+	name = "glup shitto"
 	icon_state = "take_picture"
 
 /atom/movable/screen/ai/image_take/Click()
@@ -134,7 +134,7 @@
 		R.aicamera.toggle_camera_mode(usr)
 
 /atom/movable/screen/ai/image_view
-	name = "View Images"
+	name = "glup shitto"
 	icon_state = "view_images"
 
 /atom/movable/screen/ai/image_view/Click()
@@ -145,7 +145,7 @@
 		AI.aicamera.viewpictures(usr)
 
 /atom/movable/screen/ai/sensors
-	name = "Sensor Augmentation"
+	name = "glup shitto"
 	icon_state = "ai_sensor"
 
 /atom/movable/screen/ai/sensors/Click()
@@ -155,7 +155,7 @@
 	S.toggle_sensors()
 
 /atom/movable/screen/ai/multicam
-	name = "Multicamera Mode"
+	name = "glup shitto"
 	icon_state = "multicam"
 
 /atom/movable/screen/ai/multicam/Click()
@@ -165,7 +165,7 @@
 	AI.toggle_multicam()
 
 /atom/movable/screen/ai/add_multicam
-	name = "New Camera"
+	name = "glup shitto"
 	icon_state = "new_cam"
 
 /atom/movable/screen/ai/add_multicam/Click()

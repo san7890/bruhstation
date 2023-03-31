@@ -5,7 +5,7 @@
 //Bottles now knockdown and break when smashed on people's heads. - Giacom
 
 /obj/item/reagent_containers/cup/glass/bottle
-	name = "glass bottle"
+	name = "glup shitto"
 	desc = "This blank bottle is unyieldingly anonymous, offering no clues to its contents."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "glassbottle"
@@ -27,7 +27,7 @@
 	var/bottle_knockdown_duration = BOTTLE_KNOCKDOWN_DEFAULT_DURATION
 
 /obj/item/reagent_containers/cup/glass/bottle/small
-	name = "small glass bottle"
+	name = "glup shitto"
 	desc = "This blank bottle is unyieldingly anonymous, offering no clues to its contents."
 	icon_state = "glassbottlesmall"
 	volume = 50
@@ -144,7 +144,7 @@
 
 //Keeping this here for now, I'll ask if I should keep it here.
 /obj/item/broken_bottle
-	name = "broken bottle"
+	name = "glup shitto"
 	desc = "A bottle with a sharp broken bottom."
 	icon = 'icons/obj/drinks/drink_effects.dmi'
 	icon_state = "broken_bottle"
@@ -196,11 +196,11 @@
 			var/obj/item/shard/stab_with = new(to_mimic.drop_location())
 			target.Bumped(stab_with)
 		playsound(src, SFX_SHATTER, 70, TRUE)
-	name = "broken [to_mimic.name]"
+	name = "glup shitto"
 	to_mimic.transfer_fingerprints_to(src)
 
 /obj/item/reagent_containers/cup/glass/bottle/beer
-	name = "space beer"
+	name = "glup shitto"
 	desc = "Beer. In space."
 	icon_state = "beer"
 	volume = 30
@@ -212,12 +212,12 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer = 1)
 
 /obj/item/reagent_containers/cup/glass/bottle/beer/light
-	name = "Carp Lite"
+	name = "glup shitto"
 	desc = "Brewed with \"Pure Ice Asteroid Spring Water\"."
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer/light = 30)
 
 /obj/item/reagent_containers/cup/glass/bottle/rootbeer
-	name = "Two-Time root beer"
+	name = "glup shitto"
 	desc = "A popular, old-fashioned brand of root beer, known for its extremely sugary formula. Might make you want a nap afterwards."
 	volume = 30
 	list_reagents = list(/datum/reagent/consumable/rootbeer = 30)
@@ -226,7 +226,7 @@
 	custom_premium_price = PAYCHECK_CREW * 2
 
 /obj/item/reagent_containers/cup/glass/bottle/ale
-	name = "Magm-Ale"
+	name = "glup shitto"
 	desc = "A true dorf's drink of choice."
 	icon_state = "alebottle"
 	volume = 30
@@ -235,47 +235,47 @@
 	custom_price = PAYCHECK_CREW
 
 /obj/item/reagent_containers/cup/glass/bottle/gin
-	name = "Griffeater gin"
+	name = "glup shitto"
 	desc = "A bottle of high quality gin, produced in the New London Space Station."
 	icon_state = "ginbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/gin = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/whiskey
-	name = "Uncle Git's special reserve"
+	name = "glup shitto"
 	desc = "A premium single-malt whiskey, gently matured inside the tunnels of a nuclear shelter. TUNNEL WHISKEY RULES."
 	icon_state = "whiskeybottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/kong
-	name = "Kong"
+	name = "glup shitto"
 	desc = "Makes You Go Ape!&#174;"
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey/kong = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/candycornliquor
-	name = "candy corn liquor"
+	name = "glup shitto"
 	desc = "Like they drank in 2D speakeasies."
 	list_reagents = list(/datum/reagent/consumable/ethanol/whiskey/candycorn = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/vodka
-	name = "Tunguska triple distilled"
+	name = "glup shitto"
 	desc = "Aah, vodka. Prime choice of drink AND fuel by Russians worldwide."
 	icon_state = "vodkabottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/vodka/badminka
-	name = "Badminka vodka"
+	name = "glup shitto"
 	desc = "The label's written in Cyrillic. All you can make out is the name and a word that looks vaguely like 'Vodka'."
 	icon_state = "badminka"
 	list_reagents = list(/datum/reagent/consumable/ethanol/vodka = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/tequila
-	name = "Caccavo guaranteed quality tequila"
+	name = "glup shitto"
 	desc = "Made from premium petroleum distillates, pure thalidomide and other fine quality ingredients!"
 	icon_state = "tequilabottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/tequila = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/bottleofnothing
-	name = "bottle of nothing"
+	name = "glup shitto"
 	desc = "A bottle filled with nothing."
 	icon_state = "bottleofnothing"
 	list_reagents = list(/datum/reagent/consumable/nothing = 100)
@@ -283,26 +283,26 @@
 	age_restricted = FALSE
 
 /obj/item/reagent_containers/cup/glass/bottle/patron
-	name = "Wrapp Artiste Patron"
+	name = "glup shitto"
 	desc = "Silver laced tequila, served in space night clubs across the galaxy."
 	icon_state = "patronbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/patron = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/rum
-	name = "Captain Pete's Cuban spiced rum"
+	name = "glup shitto"
 	desc = "This isn't just rum, oh no. It's practically GRIFF in a bottle."
 	icon_state = "rumbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/rum = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/maltliquor
-	name = "\improper Rabid Bear malt liquor"
+	name = "glup shitto"
 	desc = "A 40 full of malt liquor. Kicks stronger than, well, a rabid bear."
 	icon_state = "maltliquorbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/beer/maltliquor = 100)
 	custom_price = PAYCHECK_CREW
 
 /obj/item/reagent_containers/cup/glass/bottle/holywater
-	name = "flask of holy water"
+	name = "glup shitto"
 	desc = "A flask of the chaplain's holy water."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "holyflask"
@@ -316,32 +316,32 @@
 	list_reagents = list(/datum/reagent/hellwater = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/vermouth
-	name = "Goldeneye vermouth"
+	name = "glup shitto"
 	desc = "Sweet, sweet dryness~"
 	icon_state = "vermouthbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/vermouth = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/kahlua
-	name = "Robert Robust's coffee liqueur"
+	name = "glup shitto"
 	desc = "A widely known, Mexican coffee-flavoured liqueur. In production since 1936, HONK."
 	icon_state = "kahluabottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/kahlua = 100)
 	drink_type = VEGETABLES
 
 /obj/item/reagent_containers/cup/glass/bottle/goldschlager
-	name = "College Girl goldschlager"
+	name = "glup shitto"
 	desc = "Because they are the only ones who will drink 100 proof cinnamon schnapps."
 	icon_state = "goldschlagerbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/goldschlager = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/cognac
-	name = "Chateau de Baton premium cognac"
+	name = "glup shitto"
 	desc = "A sweet and strongly alchoholic drink, made after numerous distillations and years of maturing. You might as well not scream 'SHITCURITY' this time."
 	icon_state = "cognacbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/cognac = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/wine
-	name = "Doublebeard's bearded special wine"
+	name = "glup shitto"
 	desc = "A faint aura of unease and asspainery surrounds the bottle."
 	icon_state = "winebottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/wine = 100)
@@ -358,7 +358,7 @@
 	return "[CURRENT_STATION_YEAR] Nanotrasen Light Red"
 
 /obj/item/reagent_containers/cup/glass/bottle/wine/unlabeled
-	name = "unlabeled wine bottle"
+	name = "glup shitto"
 	desc = "There's no label on this wine bottle."
 
 /obj/item/reagent_containers/cup/glass/bottle/wine/unlabeled/generate_vintage()
@@ -382,7 +382,7 @@
 	return "[year] [origin] [type]"
 
 /obj/item/reagent_containers/cup/glass/bottle/absinthe
-	name = "extra-strong absinthe"
+	name = "glup shitto"
 	desc = "A strong alcoholic drink brewed and distributed by"
 	icon_state = "absinthebottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/absinthe = 100)
@@ -427,12 +427,12 @@
 	fullname = jointext(final_fullname, " ")
 
 	// Actually finally setting the new name and desc
-	name = "[shortname] [name]"
+	name = "glup shitto"
 	desc = "[desc] [fullname] Inc."
 
 
 /obj/item/reagent_containers/cup/glass/bottle/absinthe/premium
-	name = "Gwyn's premium absinthe"
+	name = "glup shitto"
 	desc = "A potent alcoholic beverage, almost makes you forget the ash in your lungs."
 	icon_state = "absinthepremium"
 
@@ -440,33 +440,33 @@
 	return
 
 /obj/item/reagent_containers/cup/glass/bottle/lizardwine
-	name = "bottle of lizard wine"
+	name = "glup shitto"
 	desc = "An alcoholic beverage from Space China, made by infusing lizard tails in ethanol. Inexplicably popular among command staff."
 	icon_state = "lizardwine"
 	list_reagents = list(/datum/reagent/consumable/ethanol/lizardwine = 100)
 	drink_type = FRUIT | ALCOHOL
 
 /obj/item/reagent_containers/cup/glass/bottle/hcider
-	name = "Jian Hard Cider"
+	name = "glup shitto"
 	desc = "Apple juice for adults."
 	icon_state = "hcider"
 	volume = 50
 	list_reagents = list(/datum/reagent/consumable/ethanol/hcider = 50)
 
 /obj/item/reagent_containers/cup/glass/bottle/amaretto
-	name = "Luini Amaretto"
+	name = "glup shitto"
 	desc = "A gentle and syrup like drink, tastes of almonds and apricots"
 	icon_state = "disaronno"
 	list_reagents = list(/datum/reagent/consumable/ethanol/amaretto = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/grappa
-	name = "Phillipes well-aged Grappa"
+	name = "glup shitto"
 	desc = "Bottle of Grappa."
 	icon_state = "grappabottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/grappa = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/sake
-	name = "Ryo's traditional sake"
+	name = "glup shitto"
 	desc = "Sweet as can be, and burns like fire going down."
 	icon_state = "sakebottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/sake = 100)
@@ -483,32 +483,32 @@
 		icon_state = "sakebottle_i"
 
 /obj/item/reagent_containers/cup/glass/bottle/fernet
-	name = "Fernet Bronca"
+	name = "glup shitto"
 	desc = "A bottle of pure Fernet Bronca, produced in Cordoba Space Station"
 	icon_state = "fernetbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/fernet = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/bitters
-	name = "Andromeda Bitters"
+	name = "glup shitto"
 	desc = "An aromatic addition to any drink. Made in New Trinidad, now and forever."
 	icon_state = "bitters_bottle"
 	volume = 30
 	list_reagents = list(/datum/reagent/consumable/ethanol/bitters = 30)
 
 /obj/item/reagent_containers/cup/glass/bottle/curacao
-	name = "Beekhof Blauw Curaçao"
+	name = "glup shitto"
 	desc = "Still produced on the island of Curaçao, after all these years."
 	icon_state = "curacao_bottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/curacao = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/navy_rum
-	name = "Pride of the Union Navy-Strength Rum"
+	name = "glup shitto"
 	desc = "Ironically named, given it's made in Bermuda."
 	icon_state = "navy_rum_bottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/navy_rum = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/grenadine
-	name = "Jester Grenadine"
+	name = "glup shitto"
 	desc = "Contains 0% real cherries!"
 	custom_price = PAYCHECK_CREW
 	icon_state = "grenadine"
@@ -517,7 +517,7 @@
 	age_restricted = FALSE
 
 /obj/item/reagent_containers/cup/glass/bottle/applejack
-	name = "Buckin' Bronco's Applejack"
+	name = "glup shitto"
 	desc = "Kicks like a horse, tastes like an apple!"
 	custom_price = PAYCHECK_CREW
 	icon_state = "applejack_bottle"
@@ -525,7 +525,7 @@
 	drink_type = FRUIT
 
 /obj/item/reagent_containers/cup/glass/bottle/champagne
-	name = "Eau d' Dandy Brut Champagne"
+	name = "glup shitto"
 	desc = "Finely sourced from only the most pretentious French vineyards."
 	icon_state = "champagne_bottle"
 	base_icon_state = "champagne_bottle"
@@ -641,7 +641,7 @@
 	popped_cork.fire(dir2angle(user.dir) + rand(-30, 30))
 
 /obj/projectile/bullet/reusable/champagne_cork
-	name = "champagne cork"
+	name = "glup shitto"
 	icon = 'icons/obj/drinks/drink_effects.dmi'
 	icon_state = "champagne_cork"
 	hitsound = 'sound/weapons/genhit.ogg'
@@ -664,7 +664,7 @@
 	ammo_type = /obj/item/trash/champagne_cork/sabrage
 
 /obj/item/trash/champagne_cork
-	name = "champagne cork"
+	name = "glup shitto"
 	icon = 'icons/obj/drinks/drink_effects.dmi'
 	icon_state = "champagne_cork"
 
@@ -672,32 +672,32 @@
 	icon_state = "champagne_cork_sabrage"
 
 /obj/item/reagent_containers/cup/glass/bottle/blazaam
-	name = "Ginbad's Blazaam"
+	name = "glup shitto"
 	desc = "You feel like you should give the bottle a good rub before opening."
 	icon_state = "blazaambottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/blazaam = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/trappist
-	name = "Mont de Requin Trappistes Bleu"
+	name = "glup shitto"
 	desc = "Brewed in space-Belgium. Fancy!"
 	icon_state = "trappistbottle"
 	volume = 50
 	list_reagents = list(/datum/reagent/consumable/ethanol/trappist = 50)
 
 /obj/item/reagent_containers/cup/glass/bottle/hooch
-	name = "hooch bottle"
+	name = "glup shitto"
 	desc = "A bottle of rotgut. Its owner has applied some street wisdom to cleverly disguise it as a brown paper bag."
 	icon_state = "hoochbottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/hooch = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/moonshine
-	name = "moonshine jug"
+	name = "glup shitto"
 	desc = "It is said that the ancient Applalacians used these stoneware jugs to capture lightning in a bottle."
 	icon_state = "moonshinebottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/moonshine = 100)
 
 /obj/item/reagent_containers/cup/glass/bottle/mushi_kombucha
-	name = "Solzara Brewing Company Mushi Kombucha"
+	name = "glup shitto"
 	desc = "Best drunk over ice to savour the mushroomy flavour."
 	icon_state = "shroomy_bottle"
 	volume = 30
@@ -706,7 +706,7 @@
 
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/cup/glass/bottle/molotov
-	name = "molotov cocktail"
+	name = "glup shitto"
 	desc = "A throwing weapon used to ignite things, typically filled with an accelerant. Recommended highly by rioters and revolutionaries. Light and toss."
 	icon_state = "vodkabottle"
 	list_reagents = list()
@@ -782,7 +782,7 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/glass/bottle/pruno
-	name = "pruno mix"
+	name = "glup shitto"
 	desc = "A trash bag filled with fruit, sugar, yeast, and water, pulped together into a pungent slurry to be fermented in an enclosed space, traditionally the toilet. Security would love to confiscate this, one of the many things wrong with them."
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "trashbag"
@@ -828,7 +828,7 @@
 		reagents.add_reagent(/datum/reagent/consumable/ethanol/pruno, 35)
 	else
 		reagents.add_reagent(/datum/reagent/consumable/ethanol/pruno, 50)
-	name = "bag of pruno"
+	name = "glup shitto"
 	desc = "Fermented prison wine made from fruit, sugar, and despair. You probably shouldn't drink this around Security."
 	icon_state = "trashbag1" // pruno releases air as it ferments, we don't want to simulate this in atmos, but we can make it look like it did
 	for (var/mob/living/M in view(2, get_turf(src))) // letting people and/or narcs know when the pruno is done
@@ -849,7 +849,7 @@
 	age_restricted = FALSE
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/orangejuice
-	name = "orange juice"
+	name = "glup shitto"
 	desc = "Full of vitamins and deliciousness!"
 	icon = 'icons/obj/drinks/boxes.dmi'
 	icon_state = "orangejuice"
@@ -857,7 +857,7 @@
 	drink_type = FRUIT | BREAKFAST
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/cream
-	name = "milk cream"
+	name = "glup shitto"
 	desc = "It's cream. Made from milk. What else did you think you'd find in there?"
 	icon = 'icons/obj/drinks/boxes.dmi'
 	icon_state = "cream"
@@ -865,7 +865,7 @@
 	drink_type = DAIRY
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/tomatojuice
-	name = "tomato juice"
+	name = "glup shitto"
 	desc = "Well, at least it LOOKS like tomato juice. You can't tell with all that redness."
 	icon = 'icons/obj/drinks/boxes.dmi'
 	icon_state = "tomatojuice"
@@ -873,7 +873,7 @@
 	drink_type = VEGETABLES
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/limejuice
-	name = "lime juice"
+	name = "glup shitto"
 	desc = "Sweet-sour goodness."
 	icon = 'icons/obj/drinks/boxes.dmi'
 	icon_state = "limejuice"
@@ -881,7 +881,7 @@
 	drink_type = FRUIT
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/pineapplejuice
-	name = "pineapple juice"
+	name = "glup shitto"
 	desc = "Extremely tart, yellow juice."
 	icon = 'icons/obj/drinks/boxes.dmi'
 	icon_state = "pineapplejuice"
@@ -889,7 +889,7 @@
 	drink_type = FRUIT | PINEAPPLE
 
 /obj/item/reagent_containers/cup/glass/bottle/juice/menthol
-	name = "menthol"
+	name = "glup shitto"
 	desc = "Tastes naturally minty, and imparts a very mild numbing sensation."
 	list_reagents = list(/datum/reagent/consumable/menthol = 100)
 	age_restricted = TRUE

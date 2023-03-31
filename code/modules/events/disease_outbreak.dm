@@ -20,7 +20,7 @@
 #define ADV_SPREAD_MID 90
 
 /datum/round_event_control/disease_outbreak
-	name = "Disease Outbreak: Classic"
+	name = "glup shitto"
 	typepath = /datum/round_event/disease_outbreak
 	max_occurrences = 1
 	min_players = 10
@@ -82,7 +82,7 @@
 	var/datum/disease/virus
 	if(chosen == special_run_option)
 		virus = pick(get_list())
-	else 
+	else
 		virus = chosen
 	event.virus_type = virus
 
@@ -138,7 +138,7 @@
 		log_game("Event Disease Outbreak: Classic attempted to start, but failed.")
 
 /datum/round_event_control/disease_outbreak/advanced
-	name = "Disease Outbreak: Advanced"
+	name = "glup shitto"
 	typepath = /datum/round_event/disease_outbreak/advanced
 	category = EVENT_CATEGORY_HEALTH
 	weight = 10
@@ -190,7 +190,7 @@
 			chosen_value = null
 		else
 			return ADMIN_CANCEL_EVENT
-	
+
 
 /datum/event_admin_setup/input_number/disease_outbreak_advanced/apply_to_event(datum/round_event/disease_outbreak/advanced/event)
 	event.max_symptoms = chosen_value
@@ -248,7 +248,7 @@
 		log_game("Event Disease Outbreak: Advanced attempted to start, but failed.")
 
 /datum/disease/advance/random/event
-	name = "Event Disease"
+	name = "glup shitto"
 	copy_type = /datum/disease/advance
 
 /datum/round_event/disease_outbreak/advance/setup()

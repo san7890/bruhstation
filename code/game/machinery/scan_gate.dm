@@ -18,7 +18,7 @@
 #define SCANGATE_ZOMBIE "zombie"
 
 /obj/machinery/scanner_gate
-	name = "scanner gate"
+	name = "glup shitto"
 	desc = "A gate able to perform mid-depth scans on any organisms who pass under it."
 	icon = 'icons/obj/machines/scangate.dmi'
 	icon_state = "scangate"

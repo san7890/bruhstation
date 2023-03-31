@@ -3,7 +3,7 @@
 ////////////////////////////////////////
 // Data disks
 /datum/design/portabledrive/basic
-	name = "Data Disk"
+	name = "glup shitto"
 	id = "portadrive_basic"
 	build_type = IMPRINTER | AWAY_IMPRINTER
 	materials = list(/datum/material/glass = 800)
@@ -14,7 +14,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/portabledrive/advanced
-	name = "Advanced Data Disk"
+	name = "glup shitto"
 	id = "portadrive_advanced"
 	build_type = IMPRINTER | AWAY_IMPRINTER
 	materials = list(/datum/material/glass = 1600)
@@ -25,7 +25,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/portabledrive/super
-	name = "Super Data Disk"
+	name = "glup shitto"
 	id = "portadrive_super"
 	build_type = IMPRINTER | AWAY_IMPRINTER
 	materials = list(/datum/material/glass = 3200)

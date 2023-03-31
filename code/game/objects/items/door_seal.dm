@@ -1,5 +1,5 @@
 /obj/item/door_seal
-	name = "pneumatic airlock seal"
+	name = "glup shitto"
 	desc = "A brace used to seal and reinforce an airlock. Useful for making areas inaccessible to those without opposable thumbs."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "pneumatic_seal"

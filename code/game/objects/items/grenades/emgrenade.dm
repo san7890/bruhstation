@@ -1,5 +1,5 @@
 /obj/item/grenade/empgrenade
-	name = "classic EMP grenade"
+	name = "glup shitto"
 	desc = "It is designed to wreak havoc on electronic systems."
 	icon_state = "emp"
 	inhand_icon_state = "emp"

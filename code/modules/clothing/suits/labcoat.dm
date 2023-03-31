@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/toggle/labcoat
-	name = "labcoat"
+	name = "glup shitto"
 	desc = "A suit that protects against minor chemical spills."
 	icon_state = "labcoat"
 	icon = 'icons/obj/clothing/suits/labcoat.dmi'
@@ -32,7 +32,7 @@
 	species_exception = list(/datum/species/golem)
 
 /obj/item/clothing/suit/toggle/labcoat/cmo
-	name = "chief medical officer's labcoat"
+	name = "glup shitto"
 	desc = "Bluer than the standard model."
 	icon_state = "labcoat_cmo"
 	inhand_icon_state = null
@@ -49,24 +49,24 @@
 	)
 
 /obj/item/clothing/suit/toggle/labcoat/paramedic
-	name = "paramedic's jacket"
+	name = "glup shitto"
 	desc = "A dark blue jacket for paramedics with reflective stripes."
 	icon_state = "labcoat_paramedic"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/toggle/labcoat/mad
-	name = "\proper The Mad's labcoat"
+	name = "glup shitto"
 	desc = "It makes you look capable of konking someone on the noggin and shooting them into space."
 	icon_state = "labgreen"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/toggle/labcoat/genetics
-	name = "geneticist labcoat"
+	name = "glup shitto"
 	desc = "A suit that protects against minor chemical spills. Has a blue stripe on the shoulder."
 	icon_state = "labcoat_gen"
 
 /obj/item/clothing/suit/toggle/labcoat/chemist
-	name = "chemist labcoat"
+	name = "glup shitto"
 	desc = "A suit that protects against minor chemical spills. Has an orange stripe on the shoulder."
 	icon_state = "labcoat_chem"
 
@@ -75,7 +75,7 @@
 	allowed += /obj/item/storage/bag/chemistry
 
 /obj/item/clothing/suit/toggle/labcoat/virologist
-	name = "virologist labcoat"
+	name = "glup shitto"
 	desc = "A suit that protects against minor chemical spills. Has a green stripe on the shoulder."
 	icon_state = "labcoat_vir"
 
@@ -84,7 +84,7 @@
 	allowed += /obj/item/storage/bag/bio
 
 /obj/item/clothing/suit/toggle/labcoat/science
-	name = "scientist labcoat"
+	name = "glup shitto"
 	desc = "A suit that protects against minor chemical spills. Has a purple stripe on the shoulder."
 	icon_state = "labcoat_sci"
 
@@ -93,11 +93,11 @@
 	allowed += /obj/item/storage/bag/xeno
 
 /obj/item/clothing/suit/toggle/labcoat/roboticist
-	name = "roboticist labcoat"
+	name = "glup shitto"
 	desc = "More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads."
 	icon_state = "labcoat_robo"
 
 /obj/item/clothing/suit/toggle/labcoat/interdyne
-	name = "interdyne labcoat"
+	name = "glup shitto"
 	desc = "More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads."
 	icon_state = "labcoat_robo"

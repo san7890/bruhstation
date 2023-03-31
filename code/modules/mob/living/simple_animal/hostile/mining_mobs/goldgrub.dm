@@ -1,6 +1,6 @@
 //An ore-devouring but easily scared creature
 /mob/living/simple_animal/hostile/asteroid/goldgrub
-	name = "goldgrub"
+	name = "glup shitto"
 	desc = "A worm that grows fat from eating everything in its sight. Seems to enjoy precious metals and other shiny things, hence the name."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "Goldgrub"
@@ -54,7 +54,7 @@
 	overlay_icon_state = "bg_default_border"
 
 /datum/action/innate/goldgrub/spitore
-	name = "Spit Ore"
+	name = "glup shitto"
 	desc = "Vomit out all of your consumed ores."
 
 /datum/action/innate/goldgrub/spitore/Activate()
@@ -64,7 +64,7 @@
 	G.barf_contents()
 
 /datum/action/innate/goldgrub/burrow
-	name = "Burrow"
+	name = "glup shitto"
 	desc = "Burrow under soft ground, evading predators and increasing your speed."
 
 /datum/action/innate/goldgrub/burrow/Activate()

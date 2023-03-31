@@ -2,7 +2,7 @@
 GLOBAL_VAR_INIT(glowshrooms, 0)
 
 /obj/structure/glowshroom
-	name = "glowshroom"
+	name = "glup shitto"
 	desc = "Mycena Bregprox, a species of mushroom that glows in the dark."
 	anchored = TRUE
 	opacity = FALSE
@@ -39,13 +39,13 @@ GLOBAL_VAR_INIT(glowshrooms, 0)
 	))
 
 /obj/structure/glowshroom/glowcap
-	name = "glowcap"
+	name = "glup shitto"
 	desc = "Mycena Ruthenia, a species of mushroom that, while it does glow in the dark, is not actually bioluminescent."
 	icon_state = "glowcap"
 	myseed = /obj/item/seeds/glowshroom/glowcap
 
 /obj/structure/glowshroom/shadowshroom
-	name = "shadowshroom"
+	name = "glup shitto"
 	desc = "Mycena Umbra, a species of mushroom that emits shadow instead of light."
 	icon_state = "shadowshroom"
 	myseed = /obj/item/seeds/glowshroom/shadowshroom

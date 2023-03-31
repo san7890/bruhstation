@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(blackmarket)
-	name = "Blackmarket"
+	name = "glup shitto"
 	flags = SS_BACKGROUND
 	init_order = INIT_ORDER_DEFAULT
 

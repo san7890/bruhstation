@@ -195,7 +195,7 @@
 	return
 
 /obj/machinery/power/turbine/inlet_compressor
-	name = "inlet compressor"
+	name = "glup shitto"
 	desc = "The input side of a turbine generator, contains the compressor."
 	icon = 'icons/obj/turbine/turbine.dmi'
 	icon_state = "inlet_compressor"
@@ -216,7 +216,7 @@
 	mapped = FALSE
 
 /obj/machinery/power/turbine/turbine_outlet
-	name = "turbine outlet"
+	name = "glup shitto"
 	desc = "The output side of a turbine generator, contains the turbine and the stator."
 	icon = 'icons/obj/turbine/turbine.dmi'
 	icon_state = "turbine_outlet"
@@ -237,7 +237,7 @@
 	mapped = FALSE
 
 /obj/machinery/power/turbine/core_rotor
-	name = "core rotor"
+	name = "glup shitto"
 	desc = "The middle part of a turbine generator, contains the rotor and the main computer."
 	icon = 'icons/obj/turbine/turbine.dmi'
 	icon_state = "core_rotor"
@@ -569,7 +569,7 @@
 	return work_done
 
 /obj/item/paper/guides/jobs/atmos/turbine
-	name = "paper- 'Quick guide on the new and improved turbine!'"
+	name = "glup shitto"
 	default_raw_text = "<B>How to operate the turbine</B><BR>\
 	-The new turbine is not much different from the old one, just put gases in the chamber, light them up and activate the machine from the nearby computer.\
 	-There is a new parameter that's visible within the turbine computer's UI, damage. The turbine will be damaged when the heat gets too high, according to the tiers of the parts used. Make sure it doesn't get too hot!<BR>\

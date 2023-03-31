@@ -1,5 +1,5 @@
 /obj/item/grenade/flashbang
-	name = "flashbang"
+	name = "glup shitto"
 	icon_state = "flashbang"
 	inhand_icon_state = "flashbang"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
@@ -45,7 +45,7 @@
 		living_mob.soundbang_act(1, max(200 / max(1, distance), 60), rand(0, 5))
 
 /obj/item/grenade/stingbang
-	name = "stingbang"
+	name = "glup shitto"
 	icon_state = "timeg"
 	inhand_icon_state = "flashbang"
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
@@ -56,7 +56,7 @@
 	custom_premium_price = PAYCHECK_COMMAND * 3.5 // mostly gotten through cargo, but throw in one for the sec vendor ;)
 
 /obj/item/grenade/stingbang/mega
-	name = "mega stingbang"
+	name = "glup shitto"
 	shrapnel_type = /obj/projectile/bullet/pellet/stingball/mega
 	shrapnel_radius = 12
 
@@ -112,7 +112,7 @@
 
 // Grenade that releases more shrapnel the more times you use it in hand between priming and detonation (sorta like the 9bang from MW3), for admin goofs
 /obj/item/grenade/primer
-	name = "rotfrag grenade"
+	name = "glup shitto"
 	desc = "A grenade that generates more shrapnel the more you rotate it in your hand after pulling the pin. This one releases shrapnel shards."
 	icon_state = "timeg"
 	inhand_icon_state = "flashbang"
@@ -138,7 +138,7 @@
 	qdel(src)
 
 /obj/item/grenade/primer/stingbang
-	name = "rotsting"
+	name = "glup shitto"
 	desc = "A grenade that generates more shrapnel the more you rotate it in your hand after pulling the pin. This one releases stingballs."
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/security_righthand.dmi'

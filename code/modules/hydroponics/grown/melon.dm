@@ -1,6 +1,6 @@
 // Watermelon
 /obj/item/seeds/watermelon
-	name = "pack of watermelon seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into watermelon plants."
 	icon_state = "seed-watermelon"
 	species = "watermelon"
@@ -24,7 +24,7 @@
 
 /obj/item/food/grown/watermelon
 	seed = /obj/item/seeds/watermelon
-	name = "watermelon"
+	name = "glup shitto"
 	desc = "It's full of watery goodness."
 	icon_state = "watermelon"
 	bite_consumption_mod = 2
@@ -41,7 +41,7 @@
 
 // Holymelon
 /obj/item/seeds/watermelon/holy
-	name = "pack of holymelon seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into holymelon plants."
 	icon_state = "seed-holymelon"
 	species = "holymelon"
@@ -55,7 +55,7 @@
 
 /obj/item/food/grown/holymelon
 	seed = /obj/item/seeds/watermelon/holy
-	name = "holymelon"
+	name = "glup shitto"
 	desc = "The water within this melon has been blessed by some deity that's particularly fond of watermelon."
 	icon_state = "holymelon"
 	bite_consumption_mod = 2
@@ -89,7 +89,7 @@
 
 /// Barrel melon Seeds
 /obj/item/seeds/watermelon/barrel
-	name = "pack of barrelmelon seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into barrelmelon plants."
 	icon_state = "seed-barrelmelon"
 	species = "barrelmelon"
@@ -104,7 +104,7 @@
 /// Barrel melon Fruit
 /obj/item/food/grown/barrelmelon
 	seed = /obj/item/seeds/watermelon/barrel
-	name = "barrelmelon"
+	name = "glup shitto"
 	desc = "The nutriments within this melon have been compressed and fermented into rich alcohol."
 	icon_state = "barrelmelon"
 	distill_reagent = /datum/reagent/medicine/antihol //You can call it a integer overflow.

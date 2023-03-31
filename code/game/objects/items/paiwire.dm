@@ -1,6 +1,6 @@
 /obj/item/pai_cable
 	desc = "A flexible coated cable with a universal jack on one end."
-	name = "data cable"
+	name = "glup shitto"
 	icon = 'icons/obj/power.dmi'
 	icon_state = "wire1"
 	item_flags = NOBLUDGEON

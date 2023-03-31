@@ -8,7 +8,7 @@
  */
 
 /datum/round_event_control/sandstorm
-	name = "Sandstorm: Directional"
+	name = "glup shitto"
 	typepath = /datum/round_event/sandstorm
 	max_occurrences = 3
 	min_players = 35
@@ -65,7 +65,7 @@
  */
 
 /datum/round_event_control/sandstorm_classic
-	name = "Sandstorm: Classic"
+	name = "glup shitto"
 	typepath = /datum/round_event/sandstorm_classic
 	weight = 0
 	max_occurrences = 0

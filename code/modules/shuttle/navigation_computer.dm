@@ -1,5 +1,5 @@
 /obj/machinery/computer/camera_advanced/shuttle_docker
-	name = "navigation computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for a spacecraft."
 	jump_action = null
 	should_supress_view_changes = FALSE
@@ -326,7 +326,7 @@
 	return TRUE
 
 /datum/action/innate/shuttledocker_rotate
-	name = "Rotate"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_mecha.dmi'
 	button_icon_state = "mech_cycle_equip_off"
 
@@ -338,7 +338,7 @@
 	origin.rotateLandingSpot()
 
 /datum/action/innate/shuttledocker_place
-	name = "Place"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_mecha.dmi'
 	button_icon_state = "mech_zoom_off"
 
@@ -350,7 +350,7 @@
 	origin.placeLandingSpot(owner)
 
 /datum/action/innate/camera_jump/shuttle_docker
-	name = "Jump to Location"
+	name = "glup shitto"
 	button_icon_state = "camera_jump"
 
 /datum/action/innate/camera_jump/shuttle_docker/Activate()

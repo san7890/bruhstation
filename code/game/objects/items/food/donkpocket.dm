@@ -1,7 +1,7 @@
 ////////////////////////////////////////////DONK POCKETS////////////////////////////////////////////
 
 /obj/item/food/donkpocket
-	name = "\improper Donk-pocket"
+	name = "glup shitto"
 	desc = "The food of choice for the seasoned traitor."
 	icon_state = "donkpocket"
 	food_reagents = list(
@@ -27,7 +27,7 @@
 	AddElement(/datum/element/microwavable, warm_type)
 
 /obj/item/food/donkpocket/warm
-	name = "warm Donk-pocket"
+	name = "glup shitto"
 	desc = "The heated food of choice for the seasoned traitor."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -43,7 +43,7 @@
 	baking_time_long = 15 SECONDS
 
 /obj/item/food/dankpocket
-	name = "\improper Dank-pocket"
+	name = "glup shitto"
 	desc = "The food of choice for the seasoned botanist."
 	icon_state = "dankpocket"
 	food_reagents = list(
@@ -55,7 +55,7 @@
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/donkpocket/spicy
-	name = "\improper Spicy-pocket"
+	name = "glup shitto"
 	desc = "The classic snack food, now with a heat-activated spicy flair."
 	icon_state = "donkpocketspicy"
 	food_reagents = list(
@@ -68,7 +68,7 @@
 	warm_type = /obj/item/food/donkpocket/warm/spicy
 
 /obj/item/food/donkpocket/warm/spicy
-	name = "warm Spicy-pocket"
+	name = "glup shitto"
 	desc = "The classic snack food, now maybe a bit too spicy."
 	icon_state = "donkpocketspicy"
 	food_reagents = list(
@@ -81,7 +81,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/donkpocket/teriyaki
-	name = "\improper Teriyaki-pocket"
+	name = "glup shitto"
 	desc = "An east-asian take on the classic stationside snack."
 	icon_state = "donkpocketteriyaki"
 	food_reagents = list(
@@ -94,7 +94,7 @@
 	warm_type = /obj/item/food/donkpocket/warm/teriyaki
 
 /obj/item/food/donkpocket/warm/teriyaki
-	name = "warm Teriyaki-pocket"
+	name = "glup shitto"
 	desc = "An east-asian take on the classic stationside snack, now steamy and warm."
 	icon_state = "donkpocketteriyaki"
 	food_reagents = list(
@@ -107,7 +107,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/donkpocket/pizza
-	name = "\improper Pizza-pocket"
+	name = "glup shitto"
 	desc = "Delicious, cheesy and surprisingly filling."
 	icon_state = "donkpocketpizza"
 	food_reagents = list(
@@ -120,7 +120,7 @@
 	warm_type = /obj/item/food/donkpocket/warm/pizza
 
 /obj/item/food/donkpocket/warm/pizza
-	name = "warm Pizza-pocket"
+	name = "glup shitto"
 	desc = "Delicious, cheesy, and even better when hot."
 	icon_state = "donkpocketpizza"
 	food_reagents = list(
@@ -133,7 +133,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/donkpocket/honk
-	name = "\improper Honk-pocket"
+	name = "glup shitto"
 	desc = "The award-winning donk-pocket that won the hearts of clowns and humans alike."
 	icon_state = "donkpocketbanana"
 	food_reagents = list(
@@ -146,7 +146,7 @@
 	warm_type = /obj/item/food/donkpocket/warm/honk
 
 /obj/item/food/donkpocket/warm/honk
-	name = "warm Honk-pocket"
+	name = "glup shitto"
 	desc = "The award-winning donk-pocket, now warm and toasty."
 	icon_state = "donkpocketbanana"
 	food_reagents = list(
@@ -159,7 +159,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/donkpocket/berry
-	name = "\improper Berry-pocket"
+	name = "glup shitto"
 	desc = "A relentlessly sweet donk-pocket first created for use in Operation Dessert Storm."
 	icon_state = "donkpocketberry"
 	food_reagents = list(
@@ -172,7 +172,7 @@
 	warm_type = /obj/item/food/donkpocket/warm/berry
 
 /obj/item/food/donkpocket/warm/berry
-	name = "warm Berry-pocket"
+	name = "glup shitto"
 	desc = "A relentlessly sweet donk-pocket, now warm and delicious."
 	icon_state = "donkpocketberry"
 	food_reagents = list(
@@ -184,7 +184,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/donkpocket/gondola
-	name = "\improper Gondola-pocket"
+	name = "glup shitto"
 	desc = "The choice to use real gondola meat in the recipe is controversial, to say the least." //Only a monster would craft this.
 	icon_state = "donkpocketgondola"
 	food_reagents = list(
@@ -198,7 +198,7 @@
 	warm_type = /obj/item/food/donkpocket/warm/gondola
 
 /obj/item/food/donkpocket/warm/gondola
-	name = "warm Gondola-pocket"
+	name = "glup shitto"
 	desc = "The choice to use real gondola meat in the recipe is controversial, to say the least."
 	icon_state = "donkpocketgondola"
 	food_reagents = list(

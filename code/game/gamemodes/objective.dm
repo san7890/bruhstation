@@ -176,7 +176,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 					receiver.try_give_equipment_fallback()
 
 /datum/action/special_equipment_fallback
-	name = "Request Objective-specific Equipment"
+	name = "glup shitto"
 	desc = "Call down a supply pod containing the equipment required for specific objectives."
 	button_icon = 'icons/obj/device.dmi'
 	button_icon_state = "beacon"
@@ -203,7 +203,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/assassinate
-	name = "assasinate"
+	name = "glup shitto"
 	martyr_compatible = TRUE
 	admin_grantable = TRUE
 	var/target_role_type = FALSE
@@ -223,7 +223,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	admin_simple_target_pick(admin)
 
 /datum/objective/mutiny
-	name = "mutiny"
+	name = "glup shitto"
 	martyr_compatible = 1
 	var/target_role_type = FALSE
 
@@ -242,7 +242,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 		explanation_text = "Free objective."
 
 /datum/objective/maroon
-	name = "maroon"
+	name = "glup shitto"
 	martyr_compatible = TRUE
 	admin_grantable = TRUE
 	var/target_role_type = FALSE
@@ -267,7 +267,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	admin_simple_target_pick(admin)
 
 /datum/objective/debrain
-	name = "debrain"
+	name = "glup shitto"
 	admin_grantable = TRUE
 	var/target_role_type = FALSE
 
@@ -298,7 +298,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	admin_simple_target_pick(admin)
 
 /datum/objective/protect//The opposite of killing a dude.
-	name = "protect"
+	name = "glup shitto"
 	martyr_compatible = TRUE
 	admin_grantable = TRUE
 	var/target_role_type = FALSE
@@ -322,12 +322,12 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	admin_simple_target_pick(admin)
 
 /datum/objective/protect/nonhuman
-	name = "protect nonhuman"
+	name = "glup shitto"
 	human_check = FALSE
 	admin_grantable = FALSE
 
 /datum/objective/jailbreak
-	name = "jailbreak"
+	name = "glup shitto"
 	martyr_compatible = TRUE //why not?
 	admin_grantable = TRUE
 	var/target_role_type
@@ -347,7 +347,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	admin_simple_target_pick(admin)
 
 /datum/objective/jailbreak/detain
-	name = "detain"
+	name = "glup shitto"
 
 /datum/objective/jailbreak/detain/check_completion()
 	return completed || (!considered_escaped(target) && (considered_alive(target) && target.current.onCentCom()))
@@ -360,7 +360,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 		explanation_text = "Free objective."
 
 /datum/objective/hijack
-	name = "hijack"
+	name = "glup shitto"
 	explanation_text = "Hijack the emergency shuttle by hacking its navigational protocols through the control console (alt click emergency shuttle console)."
 	team_explanation_text = "Hijack the emergency shuttle by hacking its navigational protocols through the control console (alt click emergency shuttle console). Leave no team member behind."
 	martyr_compatible = FALSE //Technically you won't get both anyway.
@@ -378,7 +378,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return SSshuttle.emergency.is_hijacked()
 
 /datum/objective/elimination
-	name = "elimination"
+	name = "glup shitto"
 	explanation_text = "Slaughter all loyalist crew aboard the shuttle. You, and any likeminded individuals, must be the only remaining people on the shuttle."
 	team_explanation_text = "Slaughter all loyalist crew aboard the shuttle. You, and any likeminded individuals, must be the only remaining people on the shuttle. Leave no team member behind."
 	martyr_compatible = FALSE
@@ -406,7 +406,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return SSshuttle.emergency.elimination_hijack(filter_by_human = FALSE, solo_hijack = TRUE)
 
 /datum/objective/block
-	name = "no organics on shuttle"
+	name = "glup shitto"
 	explanation_text = "Do not allow any organic lifeforms with sapience to escape on the shuttle alive."
 	martyr_compatible = 1
 
@@ -420,7 +420,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/purge
-	name = "no mutants on shuttle"
+	name = "glup shitto"
 	explanation_text = "Ensure no nonhuman humanoid species with sapience are present aboard the escape shuttle."
 	martyr_compatible = TRUE
 
@@ -435,7 +435,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/robot_army
-	name = "robot army"
+	name = "glup shitto"
 	explanation_text = "Have at least eight active cyborgs synced to you."
 	martyr_compatible = FALSE
 
@@ -452,7 +452,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return counter >= 8
 
 /datum/objective/escape
-	name = "escape"
+	name = "glup shitto"
 	explanation_text = "Escape on the shuttle or an escape pod alive and without being in custody."
 	team_explanation_text = "Have all members of your team escape on a shuttle or pod alive, without being in custody."
 	admin_grantable = TRUE
@@ -466,7 +466,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/escape/escape_with_identity
-	name = "escape with identity"
+	name = "glup shitto"
 	var/target_real_name // Has to be stored because the target's real_name can change over the course of the round
 	var/target_missing_id
 
@@ -506,7 +506,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	admin_simple_target_pick(admin)
 
 /datum/objective/survive
-	name = "survive"
+	name = "glup shitto"
 	explanation_text = "Stay alive until the end."
 	admin_grantable = TRUE
 
@@ -518,7 +518,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/survive/malf //Like survive, but for Malf AIs
-	name = "survive AI"
+	name = "glup shitto"
 	explanation_text = "Prevent your own deactivation."
 	admin_grantable = FALSE
 
@@ -530,7 +530,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 		return TRUE
 
 /datum/objective/exile
-	name = "exile"
+	name = "glup shitto"
 	explanation_text = "Stay alive off station. Do not go to CentCom."
 
 /datum/objective/exile/check_completion()
@@ -543,7 +543,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/martyr
-	name = "martyr"
+	name = "glup shitto"
 	explanation_text = "Die a glorious death."
 	admin_grantable = TRUE
 
@@ -557,7 +557,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 	return TRUE
 
 /datum/objective/nuclear
-	name = "nuclear"
+	name = "glup shitto"
 	explanation_text = "Destroy the station with a nuclear device."
 	martyr_compatible = TRUE
 	admin_grantable = TRUE
@@ -569,7 +569,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 
 GLOBAL_LIST_EMPTY(possible_items)
 /datum/objective/steal
-	name = "steal"
+	name = "glup shitto"
 	martyr_compatible = FALSE
 	admin_grantable = TRUE
 	var/datum/objective_item/targetinfo = null //Save the chosen item datum so we can access it later.
@@ -656,7 +656,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	return FALSE
 
 /datum/objective/capture
-	name = "capture"
+	name = "glup shitto"
 	admin_grantable = TRUE
 
 /datum/objective/capture/proc/gen_amount_goal()
@@ -704,7 +704,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	update_explanation_text()
 
 /datum/objective/protect_object
-	name = "protect object"
+	name = "glup shitto"
 	var/obj/protect_target
 
 /datum/objective/protect_object/proc/set_target(obj/O)
@@ -724,7 +724,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 //Changeling Objectives
 
 /datum/objective/absorb
-	name = "absorb"
+	name = "glup shitto"
 	admin_grantable = TRUE
 
 /datum/objective/absorb/proc/gen_amount_goal(lowbound = 4, highbound = 6)
@@ -768,7 +768,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	return absorbed_count >= target_amount
 
 /datum/objective/absorb_most
-	name = "absorb most"
+	name = "glup shitto"
 	explanation_text = "Extract more compatible genomes than any other Changeling."
 
 /datum/objective/absorb_most/check_completion()
@@ -789,7 +789,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	return TRUE
 
 /datum/objective/absorb_changeling
-	name = "absorb changeling"
+	name = "glup shitto"
 	explanation_text = "Absorb another Changeling."
 
 /datum/objective/absorb_changeling/check_completion()
@@ -811,7 +811,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 //End Changeling Objectives
 
 /datum/objective/destroy
-	name = "destroy AI"
+	name = "glup shitto"
 	martyr_compatible = TRUE
 
 /datum/objective/destroy/find_target(dupe_search_range, list/blacklist)
@@ -844,7 +844,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	update_explanation_text()
 
 /datum/objective/steal_n_of_type
-	name = "steal five of"
+	name = "glup shitto"
 	explanation_text = "Steal some items!"
 	//what types we want to steal
 	var/list/wanted_items = list()
@@ -872,7 +872,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	return TRUE
 
 /datum/objective/steal_n_of_type/summon_guns
-	name = "steal guns"
+	name = "glup shitto"
 	explanation_text = "Steal at least five guns!"
 	wanted_items = list(/obj/item/gun)
 	amount = 5
@@ -882,7 +882,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	return !(gun.gun_flags & NOT_A_REAL_GUN)
 
 /datum/objective/steal_n_of_type/summon_magic
-	name = "steal magic"
+	name = "glup shitto"
 	explanation_text = "Steal at least five magical artefacts!"
 	wanted_items = list()
 	amount = 5
@@ -908,7 +908,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 	return stolen_count >= amount
 
 /datum/objective/steal_n_of_type/organs
-	name = "steal organs"
+	name = "glup shitto"
 	explanation_text = "Steal at least 5 organic organs! They must be kept healthy."
 	wanted_items = list(/obj/item/organ)
 	amount = 5 //i want this to be higher, but the organs must be fresh at roundend
@@ -936,7 +936,7 @@ GLOBAL_LIST_EMPTY(possible_items)
 
 //Created by admin tools
 /datum/objective/custom
-	name = "custom"
+	name = "glup shitto"
 	admin_grantable = TRUE
 
 /datum/objective/custom/admin_edit(mob/admin)

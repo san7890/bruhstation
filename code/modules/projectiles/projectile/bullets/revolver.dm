@@ -1,19 +1,19 @@
 // 7.62x38mmR (Nagant Revolver)
 
 /obj/projectile/bullet/n762
-	name = "7.62x38mmR bullet"
+	name = "glup shitto"
 	damage = 60
 
 // .50AE (Desert Eagle)
 
 /obj/projectile/bullet/a50ae
-	name = ".50AE bullet"
+	name = "glup shitto"
 	damage = 60
 
 // .38 (Detective's Gun)
 
 /obj/projectile/bullet/c38
-	name = ".38 bullet"
+	name = "glup shitto"
 	damage = 25
 	ricochets_max = 2
 	ricochet_chance = 50
@@ -25,7 +25,7 @@
 	embed_falloff_tile = -4
 
 /obj/projectile/bullet/c38/match
-	name = ".38 Match bullet"
+	name = "glup shitto"
 	ricochets_max = 4
 	ricochet_chance = 100
 	ricochet_auto_aim_angle = 40
@@ -35,7 +35,7 @@
 	ricochet_decay_damage = 1
 
 /obj/projectile/bullet/c38/match/bouncy
-	name = ".38 Rubber bullet"
+	name = "glup shitto"
 	damage = 10
 	stamina = 30
 	weak_against_armour = TRUE
@@ -49,7 +49,7 @@
 
 // premium .38 ammo from cargo, weak against armor, lower base damage, but excellent at embedding and causing slice wounds at close range
 /obj/projectile/bullet/c38/dumdum
-	name = ".38 DumDum bullet"
+	name = "glup shitto"
 	damage = 15
 	weak_against_armour = TRUE
 	ricochets_max = 0
@@ -61,7 +61,7 @@
 	embed_falloff_tile = -15
 
 /obj/projectile/bullet/c38/trac
-	name = ".38 TRAC bullet"
+	name = "glup shitto"
 	damage = 10
 	ricochets_max = 0
 
@@ -79,7 +79,7 @@
 		imp.implant(M)
 
 /obj/projectile/bullet/c38/hotshot //similar to incendiary bullets, but do not leave a flaming trail
-	name = ".38 Hot Shot bullet"
+	name = "glup shitto"
 	damage = 20
 	ricochets_max = 0
 
@@ -91,7 +91,7 @@
 		M.ignite_mob()
 
 /obj/projectile/bullet/c38/iceblox //see /obj/projectile/temp for the original code
-	name = ".38 Iceblox bullet"
+	name = "glup shitto"
 	damage = 20
 	var/temperature = 100
 	ricochets_max = 0
@@ -105,13 +105,13 @@
 // .357 (Syndie Revolver)
 
 /obj/projectile/bullet/a357
-	name = ".357 bullet"
+	name = "glup shitto"
 	damage = 60
 	wound_bonus = -30
 
 // admin only really, for ocelot memes
 /obj/projectile/bullet/a357/match
-	name = ".357 match bullet"
+	name = "glup shitto"
 	ricochets_max = 5
 	ricochet_chance = 140
 	ricochet_auto_aim_angle = 50

@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/jaunt/shadow_walk
-	name = "Shadow Walk"
+	name = "glup shitto"
 	desc = "Grants unlimited movement in darkness."
 	background_icon_state = "bg_alien"
 	overlay_icon_state = "bg_alien_border"
@@ -43,7 +43,7 @@
 	enter_jaunt(cast_on)
 
 /obj/effect/dummy/phased_mob/shadow
-	name = "shadows"
+	name = "glup shitto"
 	/// The amount that shadow heals us per SSobj tick (times delta_time)
 	var/healing_rate = 1.5
 	/// When cooldown is active, you are prevented from moving into tiles that would eject you from your jaunt

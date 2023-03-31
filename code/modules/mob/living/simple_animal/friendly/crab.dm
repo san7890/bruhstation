@@ -1,6 +1,6 @@
 //Look Sir, free crabs!
 /mob/living/simple_animal/crab
-	name = "crab"
+	name = "glup shitto"
 	desc = "Free crabs!"
 	icon_state = "crab"
 	icon_living = "crab"
@@ -48,19 +48,19 @@
 
 //COFFEE! SQUEEEEEEEEE!
 /mob/living/simple_animal/crab/coffee
-	name = "Coffee"
+	name = "glup shitto"
 	real_name = "Coffee"
 	desc = "It's Coffee, the other pet!"
 	gender = FEMALE
 	gold_core_spawnable = NO_SPAWN
 
 /mob/living/simple_animal/crab/jon //holodeck crab
-	name = "Jon"
+	name = "glup shitto"
 	real_name = "Jon"
 	gold_core_spawnable = NO_SPAWN
 
 /mob/living/simple_animal/crab/evil
-	name = "Evil Crab"
+	name = "glup shitto"
 	real_name = "Evil Crab"
 	desc = "Unnerving, isn't it? It has to be planning something nefarious..."
 	icon_state = "evilcrab"
@@ -69,7 +69,7 @@
 	gold_core_spawnable = FRIENDLY_SPAWN
 
 /mob/living/simple_animal/crab/kreb
-	name = "Kreb"
+	name = "glup shitto"
 	desc = "This is a real crab. The other crabs are simply gubbucks in disguise!"
 	real_name = "Kreb"
 	icon_state = "kreb"
@@ -78,7 +78,7 @@
 	gold_core_spawnable = NO_SPAWN
 
 /mob/living/simple_animal/crab/evil/kreb
-	name = "Evil Kreb"
+	name = "glup shitto"
 	real_name = "Evil Kreb"
 	icon_state = "evilkreb"
 	icon_living = "evilkreb"

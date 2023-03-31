@@ -1,5 +1,5 @@
 /obj/structure/closet/athletic_mixed
-	name = "athletic wardrobe"
+	name = "glup shitto"
 	desc = "It's a storage unit for athletic wear."
 	icon_door = "mixed"
 
@@ -15,7 +15,7 @@
 
 
 /obj/structure/closet/boxinggloves
-	name = "boxing gloves closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for gloves for use in the boxing ring."
 
 /obj/structure/closet/boxinggloves/PopulateContents()
@@ -27,7 +27,7 @@
 
 
 /obj/structure/closet/masks
-	name = "mask closet"
+	name = "glup shitto"
 	desc = "IT'S A STORAGE UNIT FOR FIGHTER MASKS OLE!"
 
 /obj/structure/closet/masks/PopulateContents()
@@ -38,7 +38,7 @@
 
 
 /obj/structure/closet/lasertag/red
-	name = "red laser tag equipment"
+	name = "glup shitto"
 	desc = "It's a storage unit for laser tag equipment."
 	icon_door = "red"
 
@@ -52,7 +52,7 @@
 
 
 /obj/structure/closet/lasertag/blue
-	name = "blue laser tag equipment"
+	name = "glup shitto"
 	desc = "It's a storage unit for laser tag equipment."
 	icon_door = "blue"
 

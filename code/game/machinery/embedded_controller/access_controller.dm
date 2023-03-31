@@ -41,7 +41,7 @@
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "access_button_standby"
 	base_icon_state = "access_button"
-	name = "access button"
+	name = "glup shitto"
 	desc = "A button used for the explicit purpose of opening an airlock."
 	var/idDoor
 	var/obj/machinery/door/airlock/door
@@ -103,7 +103,7 @@
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "access_control_standby"
 	base_icon_state = "access_control"
-	name = "access console"
+	name = "glup shitto"
 	desc = "A small console that can cycle opening between two airlocks."
 	var/obj/machinery/door/airlock/interiorAirlock
 	var/obj/machinery/door/airlock/exteriorAirlock

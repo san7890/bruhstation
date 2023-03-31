@@ -1,5 +1,5 @@
 /obj/item/modular_computer/pda
-	name = "pda"
+	name = "glup shitto"
 	icon = 'icons/obj/modular_pda.dmi'
 	icon_state = "pda"
 	worn_icon_state = "pda"
@@ -253,7 +253,7 @@
  * Resistant to emags, these are given to nukies for disk pinpointer stuff.
  */
 /obj/item/modular_computer/pda/nukeops
-	name = "nuclear pda"
+	name = "glup shitto"
 	device_theme = PDA_THEME_SYNDICATE
 	comp_light_luminosity = 6.3 //matching a flashlight
 	light_color = COLOR_RED
@@ -277,7 +277,7 @@
  * PDAs that are built-in to Silicons and should not exist at any point without being inside of one.
  */
 /obj/item/modular_computer/pda/silicon
-	name = "modular interface"
+	name = "glup shitto"
 	icon_state = "tablet-silicon"
 	base_icon_state = "tablet-silicon"
 	greyscale_config = null

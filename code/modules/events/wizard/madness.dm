@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/madness
-	name = "Curse of Madness"
+	name = "glup shitto"
 	weight = 1
 	typepath = /datum/round_event/wizard/madness
 	earliest_start = 0 MINUTES

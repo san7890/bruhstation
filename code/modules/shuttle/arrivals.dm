@@ -1,5 +1,5 @@
 /obj/docking_port/mobile/arrivals
-	name = "arrivals shuttle"
+	name = "glup shitto"
 	shuttle_id = "arrival"
 
 	dir = WEST

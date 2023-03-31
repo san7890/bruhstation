@@ -1,7 +1,7 @@
 //~*~*~*~*SPARKLER*~*~*~*~*~*~
 
 /obj/item/sparkler
-	name = "sparkler"
+	name = "glup shitto"
 	desc = "A little stick coated with metal powder and barium nitrate, burns with a pleasing sparkle."
 	icon = 'icons/obj/holiday/holiday_misc.dmi'
 	icon_state = "sparkler"
@@ -30,7 +30,7 @@
 	icon_state = "sparkler_on"
 	force = 6
 	hitsound = 'sound/items/welder.ogg'
-	name = "lit [initial(name)]"
+	name = "glup shitto"
 	attack_verb_continuous = list("burns")
 	attack_verb_simple = list("burn")
 	set_light(l_range = 2, l_power = 2)
@@ -60,7 +60,7 @@
 //~*~*~*~*FIRECRACKER*~*~*~*~*~*~
 
 /obj/item/grenade/firecracker
-	name = "large firecracker"
+	name = "glup shitto"
 	desc = "Outlawed in most of the sector. Doubles as an excellent finger remover."
 	icon = 'icons/obj/holiday/holiday_misc.dmi'
 	icon_state = "firecracker"

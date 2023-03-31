@@ -1,5 +1,5 @@
 /obj/item/food/drug
-	name = "generic drug"
+	name = "glup shitto"
 	desc = "I am error"
 	icon = 'icons/obj/drugs.dmi'
 	foodtypes = GROSS
@@ -13,13 +13,13 @@
 	preserved_food = TRUE
 
 /obj/item/food/drug/saturnx
-	name = "saturnX glob"
+	name = "glup shitto"
 	desc = "A congealed glob of pure saturnX.\nThis compound was first discovered during the infancy of cloaking technology and at the time thought to be a promising candidate agent. It was withdrawn for consideration after the researchers discovered a slew of associated safety issues including thought disorders and hepatoxicity.\nIt has since attained some limited popularity as a street drug."
 	icon_state = "saturnx_glob" //tell kryson to sprite two more variants in the future.
 	food_reagents = list(/datum/reagent/drug/saturnx = 10)
 
 /obj/item/food/drug/moon_rock
-	name = "moon rock"
+	name = "glup shitto"
 	desc = "A small hard lump of kronkaine freebase.\nIt is said the average kronkaine addict causes as much criminal damage as four cat burglars, two arsonists and one rabid pit bull terrier combined."
 	icon_state = "moon_rock1"
 	food_reagents = list(/datum/reagent/drug/kronkaine = 10)
@@ -30,7 +30,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_MOONICORN, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /obj/item/reagent_containers/cup/blastoff_ampoule
-	name = "bLaSToFF ampoule" //stylized name
+	name = "glup shitto" //stylized name
 	desc = "A small ampoule. The liquid inside appears to be boiling violently.\nYou suspect it contains bLasSToFF; the drug thought to be the cause of the infamous Luna nightclub mass casualty incident."
 	icon = 'icons/obj/drugs.dmi'
 	icon_state = "blastoff_ampoule"

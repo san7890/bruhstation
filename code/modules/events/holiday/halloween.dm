@@ -1,5 +1,5 @@
 /datum/round_event_control/spooky
-	name = "2 SPOOKY! (Halloween)"
+	name = "glup shitto"
 	holidayID = HALLOWEEN
 	typepath = /datum/round_event/spooky
 	weight = -1 //forces it to be called, regardless of weight
@@ -27,13 +27,13 @@
 
 //spooky foods (you can't actually make these when it's not halloween)
 /obj/item/food/cookie/sugar/spookyskull
-	name = "skull cookie"
+	name = "glup shitto"
 	desc = "Spooky! It's got delicious calcium flavouring!"
 	icon = 'icons/obj/holiday/halloween_items.dmi'
 	icon_state = "skeletoncookie"
 
 /obj/item/food/cookie/sugar/spookycoffin
-	name = "coffin cookie"
+	name = "glup shitto"
 	desc = "Spooky! It's got delicious coffee flavouring!"
 	icon = 'icons/obj/holiday/halloween_items.dmi'
 	icon_state = "coffincookie"
@@ -41,7 +41,7 @@
 //spooky items
 
 /obj/item/storage/spooky
-	name = "trick-o-treat bag"
+	name = "glup shitto"
 	desc = "A pumpkin-shaped bag that holds all sorts of goodies!"
 	icon = 'icons/obj/holiday/halloween_items.dmi'
 	icon_state = "treatbag"

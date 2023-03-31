@@ -3,7 +3,7 @@
 #define DEFIB_CAN_HURT(source) (source.combat || (source.req_defib && !source.defib.safety))
 
 /obj/item/defibrillator
-	name = "defibrillator"
+	name = "glup shitto"
 	desc = "A device that delivers powerful shocks to detachable paddles that resuscitate incapacitated patients. \
 	Has a rear bracket for attachments to wall mounts and medical cyborgs."
 	icon = 'icons/obj/medical/defib.dmi'
@@ -270,7 +270,7 @@
 	return COMPONENT_DEFIB_STOP
 
 /obj/item/defibrillator/compact
-	name = "compact defibrillator"
+	name = "glup shitto"
 	desc = "A belt-equipped defibrillator that can be rapidly deployed."
 	icon_state = "defibcompact"
 	inhand_icon_state = null
@@ -293,7 +293,7 @@
 	update_power()
 
 /obj/item/defibrillator/compact/combat
-	name = "combat defibrillator"
+	name = "glup shitto"
 	desc = "A belt-equipped blood-red defibrillator. Can revive through thick clothing, has an experimental self-recharging battery, and can be utilized in combat via applying the paddles in a disarming or aggressive manner."
 	icon_state = "defibcombat" //needs defib inhand sprites
 	inhand_icon_state = null
@@ -320,7 +320,7 @@
 		return
 
 /obj/item/defibrillator/compact/combat/loaded/nanotrasen
-	name = "elite Nanotrasen defibrillator"
+	name = "glup shitto"
 	desc = "A belt-equipped state-of-the-art defibrillator. Can revive through thick clothing, has an experimental self-recharging battery, and can be utilized in combat via applying the paddles in a disarming or aggressive manner."
 	icon_state = "defibnt" //needs defib inhand sprites
 	inhand_icon_state = null
@@ -331,7 +331,7 @@
 //paddles
 
 /obj/item/shockpaddles
-	name = "defibrillator paddles"
+	name = "glup shitto"
 	desc = "A pair of plastic-gripped paddles with flat metal surfaces that are used to deliver powerful electric shocks."
 	icon = 'icons/obj/medical/defib.dmi'
 	icon_state = "defibpaddles0"
@@ -672,7 +672,7 @@
 	return HAS_TRAIT(src, TRAIT_WIELDED)
 
 /obj/item/shockpaddles/cyborg
-	name = "cyborg defibrillator paddles"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/defib.dmi'
 	icon_state = "defibpaddles0"
 	inhand_icon_state = "defibpaddles0"
@@ -691,7 +691,7 @@
 	. = ..()
 
 /obj/item/shockpaddles/syndicate
-	name = "syndicate defibrillator paddles"
+	name = "glup shitto"
 	desc = "A pair of paddles used to revive deceased operatives. They possess both the ability to penetrate armor and to deliver powerful or disabling shocks offensively."
 	combat = TRUE
 	icon = 'icons/obj/medical/defib.dmi'
@@ -700,7 +700,7 @@
 	base_icon_state = "syndiepaddles"
 
 /obj/item/shockpaddles/syndicate/nanotrasen
-	name = "elite nanotrasen defibrillator paddles"
+	name = "glup shitto"
 	desc = "A pair of paddles used to revive deceased ERT members. They possess both the ability to penetrate armor and to deliver powerful or disabling shocks offensively."
 	icon_state = "ntpaddles0"
 	inhand_icon_state = "ntpaddles0"

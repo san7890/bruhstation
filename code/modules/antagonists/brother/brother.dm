@@ -1,5 +1,5 @@
 /datum/antagonist/brother
-	name = "\improper Brother"
+	name = "glup shitto"
 	antagpanel_category = "Brother"
 	job_rank = ROLE_BROTHER
 	var/special_role = ROLE_BROTHER
@@ -120,7 +120,7 @@
 	return data
 
 /datum/team/brother_team
-	name = "\improper Blood Brothers"
+	name = "glup shitto"
 	member_name = "blood brother"
 	///Selected meeting area given to the team members
 	var/meeting_area
@@ -147,7 +147,7 @@
 		var/list/split_name = splittext(team_minds.name," ")
 		last_names += split_name[split_name.len]
 
-	name = "[initial(name)] of " + last_names.Join(" & ")
+	name = "glup shitto")
 
 /datum/team/brother_team/proc/forge_brother_objectives()
 	objectives = list()

@@ -4,7 +4,7 @@
  * Handle interaction with tiles and lets you put stuff on top of it.
  */
 /turf/open/floor/plating
-	name = "plating"
+	name = "glup shitto"
 	icon_state = "plating"
 	base_icon_state = "plating"
 	overfloor_placed = FALSE
@@ -130,7 +130,7 @@
 	return
 
 /turf/open/floor/plating/foam
-	name = "metal foam plating"
+	name = "glup shitto"
 	desc = "Thin, fragile flooring created with metal foam."
 	icon_state = "foam_plating"
 	upgradable = FALSE
@@ -186,7 +186,7 @@
 #define PLATE_CUT 2
 
 /turf/open/floor/plating/reinforced //RCD Proof plating designed to be used on Multi-Z maps to protect the rooms below
-	name = "reinforced plating"
+	name = "glup shitto"
 	desc = "Thick, tough flooring created with multiple layers of metal."
 	icon_state = "r_plate-0"
 

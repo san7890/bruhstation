@@ -4,7 +4,7 @@
  * An assembly that triggers and can be triggered by wires.
  */
 /obj/item/assembly/wiremod
-	name = "circuit assembly"
+	name = "glup shitto"
 	desc = "A small electronic device that can house an integrated circuit."
 	icon_state = "wiremod"
 	attachable = TRUE

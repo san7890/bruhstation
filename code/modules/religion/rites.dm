@@ -68,7 +68,7 @@
 /**** Mechanical God ****/
 
 /datum/religion_rites/synthconversion
-	name = "Synthetic Conversion"
+	name = "glup shitto"
 	desc = "Convert a human-esque individual into a (superior) Android. Buckle a human to convert them, otherwise it will convert you."
 	ritual_length = 30 SECONDS
 	ritual_invocations = list("By the inner workings of our god ...",
@@ -117,7 +117,7 @@
 
 
 /datum/religion_rites/machine_blessing
-	name = "Receive Blessing"
+	name = "glup shitto"
 	desc = "Receive a blessing from the machine god to further your ascension."
 	ritual_length = 5 SECONDS
 	ritual_invocations =list( "Let your will power our forges.",
@@ -149,7 +149,7 @@
 	fireproofed.resistance_flags |= FIRE_PROOF
 
 /datum/religion_rites/fireproof
-	name = "Unmelting Protection"
+	name = "glup shitto"
 	desc = "Grants fire immunity to any piece of clothing."
 	ritual_length = 15 SECONDS
 	ritual_invocations = list("And so to support the holder of the Ever-Burning candle...",
@@ -184,7 +184,7 @@
 
 
 /datum/religion_rites/burning_sacrifice
-	name = "Burning Offering"
+	name = "glup shitto"
 	desc = "Sacrifice a buckled burning corpse for favor, the more burn damage the corpse has the more favor you will receive."
 	ritual_length = 20 SECONDS
 	ritual_invocations = list("Burning body ...",
@@ -243,7 +243,7 @@
 
 
 /datum/religion_rites/infinite_candle
-	name = "Immortal Candles"
+	name = "glup shitto"
 	desc = "Creates 5 candles that never run out of wax."
 	ritual_length = 10 SECONDS
 	invoke_msg = "Burn bright, little candles, for you will only extinguish along with the universe."
@@ -284,7 +284,7 @@
 	. = ..()
 
 /datum/religion_rites/greed/vendatray
-	name = "Purchase Vend-a-tray"
+	name = "glup shitto"
 	desc = "Summons a Vend-a-tray. You can use it to sell items!"
 	invoke_msg = "I need a vend-a-tray to make some more money!"
 	money_cost = 300
@@ -297,7 +297,7 @@
 	return TRUE
 
 /datum/religion_rites/greed/custom_vending
-	name = "Purchase Personal Vending Machine"
+	name = "glup shitto"
 	desc = "Summons a custom vending machine. You can use it to sell MANY items!"
 	invoke_msg = "If I get a custom vending machine for my products, I can be RICH!"
 	money_cost = 1000 //quite a step up from vendatray
@@ -312,7 +312,7 @@
 /*********Maintenance God**********/
 
 /datum/religion_rites/maint_adaptation
-	name = "Maintenance Adaptation"
+	name = "glup shitto"
 	desc = "Begin your metamorphasis into a being more fit for Maintenance."
 	ritual_length = 10 SECONDS
 	ritual_invocations = list("I abandon the world ...",
@@ -346,7 +346,7 @@
 	user.mind.add_addiction_points(/datum/addiction/maintenance_drugs, 1000)//ensure addiction
 
 /datum/religion_rites/adapted_eyes
-	name = "Adapted Eyes"
+	name = "glup shitto"
 	desc = "Only available after maintenance adaptation. Your eyes will adapt as well, becoming useless in the light."
 	ritual_length = 10 SECONDS
 	invoke_msg = "I no longer want to see the light."
@@ -375,7 +375,7 @@
 	neweyes.Insert(user, special = TRUE)
 
 /datum/religion_rites/adapted_food
-	name = "Moldify"
+	name = "glup shitto"
 	desc = "Once adapted to the Maintenance, you will not be able to eat regular food. This should help."
 	ritual_length = 5 SECONDS
 	invoke_msg = "Moldify!"
@@ -406,7 +406,7 @@
 	return TRUE
 
 /datum/religion_rites/ritual_totem
-	name = "Create Ritual Totem"
+	name = "glup shitto"
 	desc = "Creates a Ritual Totem, a portable tool for performing rites on the go. Requires wood. Can only be picked up by the holy."
 	favor_cost = 100
 	invoke_msg = "Padala!!"
@@ -438,7 +438,7 @@
 ///sparring god rites
 
 /datum/religion_rites/sparring_contract
-	name = "Summon Sparring Contract"
+	name = "glup shitto"
 	desc = "Turns some paper into a sparring contract."
 	invoke_msg = "I will train in the name of my god."
 	///paper to turn into a sparring contract
@@ -472,7 +472,7 @@
 	return TRUE
 
 /datum/religion_rites/declare_arena
-	name = "Declare Arena"
+	name = "glup shitto"
 	desc = "Declare a new area as fit for sparring. You'll be able to select it in contracts."
 	ritual_length = 6 SECONDS
 	ritual_invocations = list("I seek new horizons ...")
@@ -499,7 +499,7 @@
 	to_chat(user, span_warning("[area_instance] is a now an option to select on sparring contracts."))
 
 /datum/religion_rites/ceremonial_weapon
-	name = "Forge Ceremonial Gear"
+	name = "glup shitto"
 	desc = "Turn some material into ceremonial gear. Ceremonial blades are weak outside of sparring, and are quite heavy to lug around."
 	ritual_length = 10 SECONDS
 	invoke_msg = "Weapons in your name! Battles with your blood!"
@@ -535,7 +535,7 @@
 	return TRUE
 
 /datum/religion_rites/unbreakable
-	name = "Become Unbreakable"
+	name = "glup shitto"
 	desc = "Your training has made you unbreakable. In times of crisis, you will attempt to keep fighting on."
 	ritual_length = 10 SECONDS
 	invoke_msg = "My will must be unbreakable. Grant me this boon!"
@@ -555,7 +555,7 @@
 	user.AddComponent(/datum/component/unbreakable)
 
 /datum/religion_rites/tenacious
-	name = "Become Tenacious"
+	name = "glup shitto"
 	desc = "Your training has made you tenacious. In times of crisis, you will be able to crawl faster."
 	ritual_length = 10 SECONDS
 	invoke_msg = "Grant me your tenacity! I have proven myself!"

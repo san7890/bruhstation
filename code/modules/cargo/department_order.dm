@@ -9,7 +9,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 ))
 
 /obj/machinery/computer/department_orders
-	name = "department order console"
+	name = "glup shitto"
 	desc = "Used to order supplies for a department. Crates ordered this way will be locked until they reach their destination."
 	icon_screen = "supply"
 	light_color = COLOR_BRIGHT_ORANGE
@@ -164,7 +164,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 	GLOB.department_order_cooldowns[type] = world.time + time_y
 
 /obj/machinery/computer/department_orders/service
-	name = "service order console"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/service_orders
 	department_delivery_areas = list(/area/station/hallway/secondary/service, /area/station/service/bar/atrium)
 	override_access = ACCESS_HOP
@@ -172,7 +172,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 	dep_groups = list("Service", "Food & Hydroponics", "Livestock", "Costumes & Toys")
 
 /obj/machinery/computer/department_orders/engineering
-	name = "engineering order console"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/engineering_orders
 	department_delivery_areas = list(/area/station/engineering/main)
 	override_access = ACCESS_CE
@@ -180,7 +180,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 	dep_groups = list("Engineering", "Engine Construction", "Canisters & Materials")
 
 /obj/machinery/computer/department_orders/science
-	name = "science order console"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/science_orders
 	department_delivery_areas = list(/area/station/science/research)
 	override_access = ACCESS_RD
@@ -188,7 +188,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 	dep_groups = list("Science", "Livestock")
 
 /obj/machinery/computer/department_orders/security
-	name = "security order console"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/security_orders
 	department_delivery_areas = list(
 		/area/station/security/office,
@@ -200,7 +200,7 @@ GLOBAL_LIST_INIT(department_order_cooldowns, list(
 	dep_groups = list("Security", "Armory")
 
 /obj/machinery/computer/department_orders/medical
-	name = "medical order console"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/medical_orders
 	department_delivery_areas = list(
 		/area/station/medical/medbay/central,

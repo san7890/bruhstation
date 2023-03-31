@@ -9,7 +9,7 @@
 // Powersink - used to drain station power
 
 /obj/item/powersink
-	name = "power sink"
+	name = "glup shitto"
 	desc = "A power sink which drains energy from electrical systems and converts it to heat. Ensure short workloads and ample time to cool down if used in high energy systems."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "powersink0"

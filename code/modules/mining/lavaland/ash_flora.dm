@@ -2,7 +2,7 @@
 //This includes: The structures, their produce, their seeds and the crafting recipe for the mushroom bowl
 
 /obj/structure/flora/ash
-	name = "large mushrooms"
+	name = "glup shitto"
 	desc = "A number of large mushrooms, covered in a faint layer of ash and what can only be spores."
 	icon = 'icons/obj/lavaland/ash_flora.dmi'
 	icon_state = "l_mushroom1"
@@ -40,7 +40,7 @@
 	regrowth_time_low = 4200
 
 /obj/structure/flora/ash/leaf_shroom
-	name = "leafy mushrooms"
+	name = "glup shitto"
 	desc = "A number of mushrooms, each of which surrounds a greenish sporangium with a number of leaf-like structures."
 	icon_state = "s_mushroom1"
 	base_icon_state = "s_mushroom"
@@ -56,7 +56,7 @@
 	regrowth_time_high = 6000
 
 /obj/structure/flora/ash/cap_shroom
-	name = "tall mushrooms"
+	name = "glup shitto"
 	desc = "Several mushrooms, the larger of which have a ring of conks at the midpoint of their stems."
 	icon_state = "r_mushroom1"
 	base_icon_state = "r_mushroom"
@@ -72,7 +72,7 @@
 	regrowth_time_high = 5400
 
 /obj/structure/flora/ash/stem_shroom
-	name = "numerous mushrooms"
+	name = "glup shitto"
 	desc = "A large number of mushrooms, some of which have long, fleshy stems. They're radiating light!"
 	icon_state = "t_mushroom1"
 	base_icon_state = "t_mushroom"
@@ -90,7 +90,7 @@
 	regrowth_time_high = 6000
 
 /obj/structure/flora/ash/cacti
-	name = "fruiting cacti"
+	name = "glup shitto"
 	desc = "Several prickly cacti, brimming with ripe fruit and covered in a thin layer of ash."
 	icon_state = "cactus1"
 	base_icon_state = "cactus"
@@ -111,7 +111,7 @@
 	AddComponent(/datum/component/caltrop, min_damage = 3, max_damage = 6, probability = 70)
 
 /obj/structure/flora/ash/seraka
-	name = "seraka mushrooms"
+	name = "glup shitto"
 	desc = "A small cluster of seraka mushrooms. These must have come with the ashlizards."
 	icon_state = "seraka_mushroom1"
 	base_icon_state = "seraka_mushroom"
@@ -129,7 +129,7 @@
 	harvest_message_true_thresholds = FALSE
 
 /obj/structure/flora/ash/fireblossom
-	name = "fire blossom"
+	name = "glup shitto"
 	desc = "An odd flower that grows commonly near bodies of lava."
 	icon_state = "fireblossom1"
 	base_icon_state = "fireblossom"
@@ -146,7 +146,7 @@
 
 ///Snow flora to exist on icebox.
 /obj/structure/flora/ash/chilly
-	name = "springy grassy fruit"
+	name = "glup shitto"
 	desc = "A number of bright, springy blue fruiting plants. They seem to be unconcerned with the hardy, cold environment."
 	icon_state = "chilly_pepper1"
 	base_icon_state = "chilly_pepper"
@@ -165,7 +165,7 @@
 //SNACKS
 
 /obj/item/food/grown/ash_flora
-	name = "mushroom shavings"
+	name = "glup shitto"
 	desc = "Some shavings from a tall mushroom. With enough, might serve as a bowl."
 	icon = 'icons/obj/lavaland/ash_flora.dmi'
 	icon_state = "mushroom_shavings"
@@ -184,42 +184,42 @@
 	grind_results = list(/datum/reagent/toxin/mushroom_powder = 5)
 
 /obj/item/food/grown/ash_flora/mushroom_leaf
-	name = "mushroom leaf"
+	name = "glup shitto"
 	desc = "A leaf, from a mushroom."
 	icon_state = "mushroom_leaf"
 	seed = /obj/item/seeds/lavaland/porcini
 	wine_power = 40
 
 /obj/item/food/grown/ash_flora/mushroom_cap
-	name = "mushroom cap"
+	name = "glup shitto"
 	desc = "The cap of a large mushroom."
 	icon_state = "mushroom_cap"
 	seed = /obj/item/seeds/lavaland/inocybe
 	wine_power = 70
 
 /obj/item/food/grown/ash_flora/mushroom_stem
-	name = "mushroom stem"
+	name = "glup shitto"
 	desc = "A long mushroom stem. It's slightly glowing."
 	icon_state = "mushroom_stem"
 	seed = /obj/item/seeds/lavaland/ember
 	wine_power = 60
 
 /obj/item/food/grown/ash_flora/cactus_fruit
-	name = "cactus fruit"
+	name = "glup shitto"
 	desc = "A cactus fruit covered in a thick, reddish skin. And some ash."
 	icon_state = "cactus_fruit"
 	seed = /obj/item/seeds/lavaland/cactus
 	wine_power = 50
 
 /obj/item/food/grown/ash_flora/seraka
-	name = "seraka cap"
+	name = "glup shitto"
 	desc = "Small, deeply flavourful mushrooms originally native to Tizira."
 	icon_state = "seraka_cap"
 	seed = /obj/item/seeds/lavaland/seraka
 	wine_power = 40
 
 /obj/item/food/grown/ash_flora/fireblossom
-	name = "fire blossom"
+	name = "glup shitto"
 	desc = "A flower from a fire blossom."
 	icon_state = "fireblossom"
 	slot_flags = ITEM_SLOT_HEAD
@@ -229,7 +229,7 @@
 //SEEDS
 
 /obj/item/seeds/lavaland
-	name = "lavaland seeds"
+	name = "glup shitto"
 	desc = "You should never see this."
 	lifespan = 50
 	endurance = 25
@@ -245,7 +245,7 @@
 	graft_gene = /datum/plant_gene/trait/fire_resistance
 
 /obj/item/seeds/lavaland/cactus
-	name = "pack of fruiting cactus seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into fruiting cacti."
 	icon_state = "seed-cactus"
 	species = "cactus"
@@ -259,7 +259,7 @@
 
 ///Star Cactus seeds, mutation of lavaland cactus.
 /obj/item/seeds/star_cactus
-	name = "pack of star cacti seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into star cacti."
 	icon_state = "seed-starcactus"
 	species = "starcactus"
@@ -279,7 +279,7 @@
 ///Star Cactus Plants.
 /obj/item/food/grown/star_cactus
 	seed = /obj/item/seeds/star_cactus
-	name = "star cacti"
+	name = "glup shitto"
 	desc = "A spikey, round cluster of prickly star cacti. And no, it's not called a star cactus because it's in space."
 	icon_state = "starcactus"
 	filling_color = "#1c801c"
@@ -287,7 +287,7 @@
 	distill_reagent = /datum/reagent/consumable/ethanol/tequila
 
 /obj/item/seeds/lavaland/polypore
-	name = "pack of polypore mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into bracket mushrooms, also known as polypores. Woody and firm, shaft miners often use them for makeshift crafts."
 	icon_state = "mycelium-polypore"
 	species = "polypore"
@@ -298,7 +298,7 @@
 	reagents_add = list(/datum/reagent/consumable/sugar = 0.06, /datum/reagent/consumable/ethanol = 0.04, /datum/reagent/stabilizing_agent = 0.06, /datum/reagent/consumable/mintextract = 0.02)
 
 /obj/item/seeds/lavaland/porcini
-	name = "pack of porcini mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into Boletus edulus, also known as porcini. Native to the late Earth, but discovered on Lavaland. Has culinary, medicinal and relaxant effects."
 	icon_state = "mycelium-porcini"
 	species = "porcini"
@@ -309,7 +309,7 @@
 	reagents_add = list(/datum/reagent/consumable/nutriment = 0.06, /datum/reagent/consumable/vitfro = 0.04, /datum/reagent/drug/nicotine = 0.04)
 
 /obj/item/seeds/lavaland/inocybe
-	name = "pack of inocybe mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into an inocybe mushroom, a species of Lavaland origin with hallucinatory and toxic effects."
 	icon_state = "mycelium-inocybe"
 	species = "inocybe"
@@ -320,7 +320,7 @@
 	reagents_add = list(/datum/reagent/toxin/mindbreaker = 0.04, /datum/reagent/consumable/entpoly = 0.08, /datum/reagent/drug/mushroomhallucinogen = 0.04)
 
 /obj/item/seeds/lavaland/ember
-	name = "pack of embershroom mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into embershrooms, a species of bioluminescent mushrooms native to Lavaland."
 	icon_state = "mycelium-ember"
 	species = "ember"
@@ -331,7 +331,7 @@
 	reagents_add = list(/datum/reagent/consumable/tinlux = 0.04, /datum/reagent/consumable/nutriment/vitamin = 0.02, /datum/reagent/drug/space_drugs = 0.02)
 
 /obj/item/seeds/lavaland/seraka
-	name = "pack of seraka mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into seraka mushrooms, a species of savoury mushrooms originally native to Tizira used in food and traditional medicine."
 	icon_state = "mycelium-seraka"
 	species = "seraka"
@@ -342,7 +342,7 @@
 	reagents_add = list(/datum/reagent/toxin/mushroom_powder = 0.1, /datum/reagent/medicine/coagulant/seraka_extract = 0.02)
 
 /obj/item/seeds/lavaland/fireblossom
-	name = "pack of fire blossom seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into fire blossoms."
 	plantname = "Fire Blossom"
 	icon_state = "seed-fireblossom"
@@ -356,14 +356,14 @@
 //CRAFTING
 
 /datum/crafting_recipe/mushroom_bowl
-	name = "Mushroom Bowl"
+	name = "glup shitto"
 	result = /obj/item/reagent_containers/cup/bowl/mushroom_bowl
 	reqs = list(/obj/item/food/grown/ash_flora/shavings = 5)
 	time = 30
 	category = CAT_CONTAINERS
 
 /obj/item/reagent_containers/cup/bowl/mushroom_bowl
-	name = "mushroom bowl"
+	name = "glup shitto"
 	desc = "A bowl made out of mushrooms. Not food, though it might have contained some at some point."
 	icon = 'icons/obj/lavaland/ash_flora.dmi'
 	icon_state = "mushroom_bowl"

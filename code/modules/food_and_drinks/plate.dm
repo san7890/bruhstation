@@ -1,5 +1,5 @@
 /obj/item/plate
-	name = "plate"
+	name = "glup shitto"
 	desc = "Holds food, powerful. Good for morale when you're not eating your spaghetti off of a desk."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "plate"
@@ -96,7 +96,7 @@
 	qdel(src)
 
 /obj/item/plate/large
-	name = "buffet plate"
+	name = "glup shitto"
 	desc = "A large plate made for the professional catering industry but also apppreciated by mukbangers and other persons of considerable size and heft."
 	icon_state = "plate_large"
 	max_items = 12
@@ -104,7 +104,7 @@
 	max_height_offset = 12
 
 /obj/item/plate/small
-	name = "appetizer plate"
+	name = "glup shitto"
 	desc = "A small plate, perfect for appetizers, desserts or trendy modern cusine."
 	icon_state = "plate_small"
 	max_items = 4
@@ -112,7 +112,7 @@
 	max_height_offset = 5
 
 /obj/item/plate_shard
-	name = "ceramic shard"
+	name = "glup shitto"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "plate_shard1"
 	base_icon_state = "plate_shard"

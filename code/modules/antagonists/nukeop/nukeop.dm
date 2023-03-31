@@ -203,7 +203,7 @@
 	return finish_preview_icon(final_icon)
 
 /datum/outfit/nuclear_operative
-	name = "Nuclear Operative (Preview only)"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/empty/syndicate
 	uniform = /obj/item/clothing/under/syndicate
@@ -214,7 +214,7 @@
 	H.update_worn_back()
 
 /datum/outfit/nuclear_operative_elite
-	name = "Nuclear Operative (Elite, Preview only)"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/empty/elite
 	uniform = /obj/item/clothing/under/syndicate
@@ -230,7 +230,7 @@
 	H.update_held_items()
 
 /datum/antagonist/nukeop/leader
-	name = "Nuclear Operative Leader"
+	name = "glup shitto"
 	nukeop_outfit = /datum/outfit/syndicate/leader
 	always_new_team = TRUE
 	var/title
@@ -280,7 +280,7 @@
 
 /datum/team/nuclear/proc/rename_team(new_name)
 	syndicate_name = new_name
-	name = "[syndicate_name] Team"
+	name = "glup shitto"
 	for(var/I in members)
 		var/datum/mind/synd_mind = I
 		var/mob/living/carbon/human/H = synd_mind.current
@@ -302,7 +302,7 @@
 	return capitalize(newname)
 
 /datum/antagonist/nukeop/lone
-	name = "Lone Operative"
+	name = "glup shitto"
 	always_new_team = TRUE
 	send_to_spawnpoint = FALSE //Handled by event
 	nukeop_outfit = /datum/outfit/syndicate/full

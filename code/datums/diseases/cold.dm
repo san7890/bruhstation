@@ -1,5 +1,5 @@
 /datum/disease/cold
-	name = "The Cold"
+	name = "glup shitto"
 	desc = "If left untreated the subject will contract the flu."
 	max_stages = 3
 	cure_text = "Rest & Spaceacillin"

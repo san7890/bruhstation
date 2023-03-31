@@ -1,5 +1,5 @@
 /obj/projectile/energy/declone
-	name = "radiation beam"
+	name = "glup shitto"
 	icon_state = "declone"
 	damage = 20
 	damage_type = CLONE

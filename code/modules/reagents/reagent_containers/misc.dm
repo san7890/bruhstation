@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/cup/maunamug
-	name = "mauna mug"
+	name = "glup shitto"
 	desc = "A drink served in a classy mug. Now with built-in heating!"
 	icon = 'icons/obj/mauna_mug.dmi'
 	icon_state = "maunamug"
@@ -117,7 +117,7 @@
 	. += mug_glow
 
 /obj/item/reagent_containers/cup/rag
-	name = "damp rag"
+	name = "glup shitto"
 	desc = "For cleaning up messes, you suppose."
 	w_class = WEIGHT_CLASS_TINY
 	icon = 'icons/obj/toys/toy.dmi'

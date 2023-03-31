@@ -1,7 +1,7 @@
 #define MOTH_EATING_CLOTHING_DAMAGE 15
 
 /obj/item/clothing
-	name = "clothing"
+	name = "glup shitto"
 	resistance_flags = FLAMMABLE
 	max_integrity = 200
 	integrity_failure = 0.4
@@ -75,7 +75,7 @@
 			add_fingerprint(usr)
 
 /obj/item/food/clothing
-	name = "temporary moth clothing snack item"
+	name = "glup shitto"
 	desc = "If you're reading this it means I messed up. This is related to moths eating clothes and I didn't know a better way to do it than making a new food object. <--- stinky idiot wrote this"
 	bite_consumption = 1
 	// sigh, ok, so it's not ACTUALLY infinite nutrition. this is so you can eat clothes more than...once.

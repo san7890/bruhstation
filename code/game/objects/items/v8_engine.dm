@@ -4,7 +4,7 @@
 #define HOUSE_EDGE_ICONS_MIN 0
 
 /obj/item/v8_engine
-	name = "ancient engine"
+	name = "glup shitto"
 	desc = "An extremely well perserved, massive V8 engine from the early 2000s. It seems to be missing the rest of the vehicle. There's a tiny label on the side."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "v8_engine"
@@ -44,7 +44,7 @@
 
 
 /obj/item/house_edge
-	name = "House Edge"
+	name = "glup shitto"
 	desc = "Dangerous. Loud. Sleek. It has a built in roulette wheel. This thing could easily rip your arm off if you're not careful."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "house_edge0"

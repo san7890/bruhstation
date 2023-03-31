@@ -1,5 +1,5 @@
 /obj/structure/door_assembly
-	name = "airlock assembly"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/public.dmi'
 	icon_state = "construction"
 	var/overlays_file = 'icons/obj/doors/airlocks/station/overlays.dmi'

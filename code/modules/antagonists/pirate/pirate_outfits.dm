@@ -1,5 +1,5 @@
 /datum/outfit/pirate
-	name = "Space Pirate"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/pirate
@@ -31,13 +31,13 @@
 		equipped.update_suit_sensors()
 
 /datum/outfit/pirate/captain
-	name = "Space Pirate Captain"
+	name = "glup shitto"
 
 	id_trim = /datum/id_trim/pirate/captain
 	head = /obj/item/clothing/head/costume/pirate/armored
 
 /datum/outfit/pirate/space
-	name = "Space Pirate (EVA)"
+	name = "glup shitto"
 
 	suit = /obj/item/clothing/suit/space/pirate
 	suit_store = /obj/item/tank/internals/oxygen
@@ -45,12 +45,12 @@
 	mask = /obj/item/clothing/mask/breath
 
 /datum/outfit/pirate/space/captain
-	name = "Space Pirate Captain (EVA)"
+	name = "glup shitto"
 
 	head = /obj/item/clothing/head/helmet/space/pirate
 
 /datum/outfit/pirate/silverscale
-	name = "Silver Scale Member"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/silver
 	id_trim = /datum/id_trim/pirate/silverscale
@@ -62,7 +62,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 
 /datum/outfit/pirate/silverscale/captain
-	name = "Silver Scale Captain"
+	name = "glup shitto"
 
 	id_trim = /datum/id_trim/pirate/captain/silverscale
 	head = /obj/item/clothing/head/costume/crown
@@ -70,7 +70,7 @@
 	l_pocket = /obj/item/lighter
 
 /datum/outfit/pirate/psyker
-	name = "Psyker-gang Member"
+	name = "glup shitto"
 
 	glasses = null
 	head = null
@@ -89,7 +89,7 @@
 	equipped.psykerize()
 
 /datum/outfit/pirate/psyker/captain
-	name = "Psyker-gang Leader"
+	name = "glup shitto"
 
 	id_trim = /datum/id_trim/pirate/captain/psykers
 	suit = /obj/item/clothing/suit/armor/reactive/psykerboost

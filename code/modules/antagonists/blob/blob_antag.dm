@@ -1,5 +1,5 @@
 /datum/antagonist/blob
-	name = "\improper Blob"
+	name = "glup shitto"
 	roundend_category = "blobs"
 	antagpanel_category = ANTAG_GROUP_BIOHAZARDS
 	show_to_ghosts = TRUE
@@ -85,7 +85,7 @@
 
 //Non-overminds get this on blob antag assignment
 /datum/action/innate/blobpop
-	name = "Pop"
+	name = "glup shitto"
 	desc = "Unleash the blob!"
 	button_icon = 'icons/mob/nonhuman-player/blob.dmi'
 	button_icon_state = "blob"
@@ -141,7 +141,7 @@
 
 /// A subtype of blob meant to represent the infective version.
 /datum/antagonist/blob/infection
-	name = "\improper Blob Infection"
+	name = "glup shitto"
 	show_in_antagpanel = TRUE
 	job_rank = ROLE_BLOB_INFECTION
 

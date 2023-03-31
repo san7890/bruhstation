@@ -2,7 +2,7 @@
 
 //KA modkit design discs
 /obj/item/disk/design_disk/modkit_disc
-	name = "KA Mod Disk"
+	name = "glup shitto"
 	desc = "A design disc containing the design for a unique kinetic accelerator modkit. It's compatible with a research console."
 	icon_state = "datadisk1"
 	var/modkit_design = /datum/design/unique_modkit
@@ -12,19 +12,19 @@
 	blueprints += new modkit_design
 
 /obj/item/disk/design_disk/modkit_disc/mob_and_turf_aoe
-	name = "Offensive Mining Explosion Mod Disk"
+	name = "glup shitto"
 	modkit_design = /datum/design/unique_modkit/offensive_turf_aoe
 
 /obj/item/disk/design_disk/modkit_disc/rapid_repeater
-	name = "Rapid Repeater Mod Disk"
+	name = "glup shitto"
 	modkit_design = /datum/design/unique_modkit/rapid_repeater
 
 /obj/item/disk/design_disk/modkit_disc/resonator_blast
-	name = "Resonator Blast Mod Disk"
+	name = "glup shitto"
 	modkit_design = /datum/design/unique_modkit/resonator_blast
 
 /obj/item/disk/design_disk/modkit_disc/bounty
-	name = "Death Syphon Mod Disk"
+	name = "glup shitto"
 	modkit_design = /datum/design/unique_modkit/bounty
 
 /datum/design/unique_modkit
@@ -35,28 +35,28 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/unique_modkit/offensive_turf_aoe
-	name = "Kinetic Accelerator Offensive Mining Explosion Mod"
+	name = "glup shitto"
 	desc = "A device which causes kinetic accelerators to fire AoE blasts that destroy rock and damage creatures."
 	id = "hyperaoemod"
 	materials = list(/datum/material/iron = 7000, /datum/material/glass = 3000, /datum/material/silver = 3000, /datum/material/gold = 3000, /datum/material/diamond = 4000)
 	build_path = /obj/item/borg/upgrade/modkit/aoe/turfs/andmobs
 
 /datum/design/unique_modkit/rapid_repeater
-	name = "Kinetic Accelerator Rapid Repeater Mod"
+	name = "glup shitto"
 	desc = "A device which greatly reduces a kinetic accelerator's cooldown on striking a living target or rock, but greatly increases its base cooldown."
 	id = "repeatermod"
 	materials = list(/datum/material/iron = 5000, /datum/material/glass = 5000, /datum/material/uranium = 8000, /datum/material/bluespace = 2000)
 	build_path = /obj/item/borg/upgrade/modkit/cooldown/repeater
 
 /datum/design/unique_modkit/resonator_blast
-	name = "Kinetic Accelerator Resonator Blast Mod"
+	name = "glup shitto"
 	desc = "A device which causes kinetic accelerators to fire shots that leave and detonate resonator blasts."
 	id = "resonatormod"
 	materials = list(/datum/material/iron = 5000, /datum/material/glass = 5000, /datum/material/silver = 5000, /datum/material/uranium = 5000)
 	build_path = /obj/item/borg/upgrade/modkit/resonator_blasts
 
 /datum/design/unique_modkit/bounty
-	name = "Kinetic Accelerator Death Syphon Mod"
+	name = "glup shitto"
 	desc = "A device which causes kinetic accelerators to permanently gain damage against creature types killed with it."
 	id = "bountymod"
 	materials = list(/datum/material/iron = 4000, /datum/material/silver = 4000, /datum/material/gold = 4000, /datum/material/bluespace = 4000)
@@ -67,7 +67,7 @@
 
 //Rod of Asclepius
 /obj/item/rod_of_asclepius
-	name = "\improper Rod of Asclepius"
+	name = "glup shitto"
 	desc = "A wooden rod about the size of your forearm with a snake carved around it, winding its way up the sides of the rod. Something about it seems to inspire in you the responsibilty and duty to help others."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	lefthand_file = 'icons/mob/inhands/weapons/staves_lefthand.dmi'
@@ -139,7 +139,7 @@
 
 //Memento Mori
 /obj/item/clothing/neck/necklace/memento_mori
-	name = "Memento Mori"
+	name = "glup shitto"
 	desc = "A mysterious pendant. An inscription on it says: \"Certain death tomorrow means certain life today.\""
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "memento_mori"
@@ -213,7 +213,7 @@
 
 /datum/action/item_action/hands_free/memento_mori
 	check_flags = NONE
-	name = "Memento Mori"
+	name = "glup shitto"
 	desc = "Bind your life to the pendant."
 
 /datum/action/item_action/hands_free/memento_mori/Trigger(trigger_flags)
@@ -225,7 +225,7 @@
 
 //Wisp Lantern
 /obj/item/wisp_lantern
-	name = "spooky lantern"
+	name = "glup shitto"
 	desc = "This lantern gives off no light, but is home to a friendly wisp."
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "lantern-blue"
@@ -265,7 +265,7 @@
 	return ..()
 
 /obj/effect/wisp
-	name = "friendly wisp"
+	name = "glup shitto"
 	desc = "Happy to light your way."
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "orb"
@@ -299,7 +299,7 @@
 
 //Red/Blue Cubes
 /obj/item/warp_cube
-	name = "blue cube"
+	name = "glup shitto"
 	desc = "A mysterious blue cube."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "blue_cube"
@@ -349,7 +349,7 @@
 	qdel(link_holder)
 
 /obj/item/warp_cube/red
-	name = "red cube"
+	name = "glup shitto"
 	desc = "A mysterious red cube."
 	icon_state = "red_cube"
 	teleport_color = "#FD3F48"
@@ -367,7 +367,7 @@
 
 //Immortality Talisman
 /obj/item/immortality_talisman
-	name = "\improper Immortality Talisman"
+	name = "glup shitto"
 	desc = "A dread talisman that can render you completely invulnerable."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "talisman"
@@ -380,7 +380,7 @@
 	AddComponent(/datum/component/anti_magic, ALL)
 
 /datum/action/item_action/immortality
-	name = "Immortality"
+	name = "glup shitto"
 
 /obj/item/immortality_talisman/attack_self(mob/user)
 	if(cooldown < world.time)
@@ -391,7 +391,7 @@
 		to_chat(user, span_warning("[src] is not ready yet!"))
 
 /obj/effect/immortality_talisman
-	name = "hole in reality"
+	name = "glup shitto"
 	desc = "It's shaped an awful lot like a person."
 	icon_state = "blank"
 	icon = 'icons/effects/effects.dmi'
@@ -456,7 +456,7 @@
 //Shared Bag
 
 /obj/item/shared_storage
-	name = "paradox bag"
+	name = "glup shitto"
 	desc = "Somehow, it's in two places at once."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "paradox_bag"
@@ -465,7 +465,7 @@
 	resistance_flags = INDESTRUCTIBLE
 
 /obj/item/shared_storage/red
-	name = "paradox bag"
+	name = "glup shitto"
 	desc = "Somehow, it's in two places at once."
 
 /obj/item/shared_storage/red/Initialize(mapload)
@@ -486,7 +486,7 @@
 //Book of Babel
 
 /obj/item/book_of_babel
-	name = "Book of Babel"
+	name = "glup shitto"
 	desc = "An ancient tome written in countless tongues."
 	icon = 'icons/obj/library.dmi'
 	icon_state = "book1"
@@ -521,12 +521,12 @@
 		. += "potionflask_cap"
 
 /obj/item/reagent_containers/cup/bottle/potion/flight
-	name = "strange elixir"
+	name = "glup shitto"
 	desc = "A flask with an almost-holy aura emitting from it. The label on the bottle says: 'erqo'hyy tvi'rf lbh jv'atf'."
 	list_reagents = list(/datum/reagent/flightpotion = 5)
 
 /datum/reagent/flightpotion
-	name = "Flight Potion"
+	name = "glup shitto"
 	description = "Strange mutagenic compound of unknown origins."
 	reagent_state = LIQUID
 	color = "#976230"
@@ -576,7 +576,7 @@
 	return wing_type
 
 /obj/item/jacobs_ladder
-	name = "jacob's ladder"
+	name = "glup shitto"
 	desc = "A celestial ladder that violates the laws of physics."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "ladder00"
@@ -596,12 +596,12 @@
 
 // Inherit from unbreakable but don't set ID, to suppress the default Z linkage
 /obj/structure/ladder/unbreakable/jacob
-	name = "jacob's ladder"
+	name = "glup shitto"
 	desc = "An indestructible celestial ladder that violates the laws of physics."
 
 //Concussive Gauntlets
 /obj/item/clothing/gloves/gauntlets
-	name = "concussive gauntlets"
+	name = "glup shitto"
 	desc = "Pickaxes... for your hands!"
 	icon_state = "concussive_gauntlets"
 	inhand_icon_state = null
@@ -650,7 +650,7 @@
 	return COMPONENT_CANCEL_ATTACK_CHAIN
 
 /obj/item/clothing/suit/hooded/berserker
-	name = "berserker armor"
+	name = "glup shitto"
 	desc = "Voices echo from the armor, driving the user insane. Is not space-proof."
 	icon_state = "berserker"
 	icon = 'icons/obj/clothing/suits/armor.dmi'
@@ -697,7 +697,7 @@
 #define BERSERK_ATTACK_SPEED_MODIFIER 0.25
 
 /obj/item/clothing/head/hooded/berserker
-	name = "berserker helmet"
+	name = "glup shitto"
 	desc = "Peering into the eyes of the helmet is enough to seal damnation."
 	icon_state = "berserker"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
@@ -787,7 +787,7 @@
 #undef BERSERK_ATTACK_SPEED_MODIFIER
 
 /obj/item/clothing/glasses/godeye
-	name = "eye of god"
+	name = "glup shitto"
 	desc = "A strange eye, said to have been torn from an omniscient creature that used to roam the wastes."
 	icon_state = "godeye"
 	inhand_icon_state = null
@@ -828,7 +828,7 @@
 	victim.flash_act()
 
 /datum/action/cooldown/scan
-	name = "Scan"
+	name = "glup shitto"
 	desc = "Scan an enemy, to get their location and stagger them, increasing their time between attacks."
 	background_icon_state = "bg_clock"
 	overlay_icon_state = "bg_clock_border"
@@ -885,11 +885,11 @@
 	return
 
 /atom/movable/screen/alert/status_effect/agent_pinpointer/scan
-	name = "Scan Target"
+	name = "glup shitto"
 	desc = "Contact may or may not be close."
 
 /obj/item/organ/internal/cyberimp/arm/katana
-	name = "dark shard"
+	name = "glup shitto"
 	desc = "An eerie metal shard surrounded by dark energies."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "cursed_katana_organ"
@@ -938,7 +938,7 @@
 #define ATTACK_SHATTER "Shatter"
 
 /obj/item/cursed_katana
-	name = "cursed katana"
+	name = "glup shitto"
 	desc = "A katana used to seal something vile away long ago. \
 	Even with the weapon destroyed, all the pieces containing the creature have coagulated back together to find a new host."
 	icon = 'icons/obj/lavaland/artefacts.dmi'

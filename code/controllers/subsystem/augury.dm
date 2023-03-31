@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(augury)
-	name = "Augury"
+	name = "glup shitto"
 	flags = SS_NO_INIT
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME
 
@@ -58,7 +58,7 @@ SUBSYSTEM_DEF(augury)
 			O.ManualFollow(biggest_doom)
 
 /datum/action/innate/augury
-	name = "Auto Follow Debris"
+	name = "glup shitto"
 	button_icon = 'icons/obj/meteor.dmi'
 	button_icon_state = "flaming"
 

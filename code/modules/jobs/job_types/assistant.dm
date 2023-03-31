@@ -63,7 +63,7 @@ Assistant
 		uniform = GLOB.colored_assistant.jumpskirts[index]
 
 /datum/outfit/job/assistant/consistent
-	name = "Assistant - Consistent"
+	name = "glup shitto"
 
 /datum/outfit/job/assistant/consistent/give_jumpsuit(mob/living/carbon/human/target)
 	uniform = /obj/item/clothing/under/color/grey

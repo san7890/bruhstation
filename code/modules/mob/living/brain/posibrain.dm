@@ -1,7 +1,7 @@
 GLOBAL_VAR(posibrain_notify_cooldown)
 
 /obj/item/mmi/posibrain
-	name = "positronic brain"
+	name = "glup shitto"
 	desc = "A cube of shining metal, four inches to a side and covered in shallow grooves."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	icon_state = "posibrain"
@@ -128,7 +128,7 @@ GLOBAL_VAR(posibrain_notify_cooldown)
 	transfer_personality(user)
 
 /obj/item/mmi/posibrain/transfer_identity(mob/living/carbon/transfered_user)
-	name = "[initial(name)] ([transfered_user])"
+	name = "glup shitto"
 	brainmob.name = transfered_user.real_name
 	brainmob.real_name = transfered_user.real_name
 	if(transfered_user.has_dna())
@@ -157,7 +157,7 @@ GLOBAL_VAR(posibrain_notify_cooldown)
 		candidate.mind.transfer_to(brainmob)
 	else
 		brainmob.ckey = candidate.ckey
-	name = "[initial(name)] ([brainmob.name])"
+	name = "glup shitto"
 	var/policy = get_policy(ROLE_POSIBRAIN)
 	if(policy)
 		to_chat(brainmob, policy)

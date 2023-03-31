@@ -1,6 +1,6 @@
 ///Honorbound prevents you from attacking the unready, the just, or the innocent
 /datum/brain_trauma/special/honorbound
-	name = "Dogmatic Compulsions"
+	name = "glup shitto"
 	desc = "Patient feels compelled to follow supposed \"rules of combat\"."
 	scan_desc = "damaged frontal lobe"
 	gain_text = span_notice("You feel honorbound!")
@@ -199,7 +199,7 @@
 			owner.add_mood_event("honorbound", /datum/mood_event/holy_smite)//permanently lose your moodlet after this
 
 /datum/action/cooldown/spell/pointed/declare_evil
-	name = "Declare Evil"
+	name = "glup shitto"
 	desc = "If someone is so obviously an evil of this world you can spend a huge amount of favor to declare them guilty."
 	button_icon_state = "declaration"
 	ranged_mousepointer = 'icons/effects/mouse_pointers/honorbound.dmi'

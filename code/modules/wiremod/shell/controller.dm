@@ -5,7 +5,7 @@
  * In game, this translates to having different signals for normal usage, alt-clicking, and ctrl-clicking when in your hand.
  */
 /obj/item/controller
-	name = "controller"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_small_calc"
 	inhand_icon_state = "electronic"

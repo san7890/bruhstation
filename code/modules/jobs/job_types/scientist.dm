@@ -39,7 +39,7 @@
 
 
 /datum/outfit/job/scientist
-	name = "Scientist"
+	name = "glup shitto"
 	jobtype = /datum/job/scientist
 
 	id_trim = /datum/id_trim/job/scientist
@@ -67,7 +67,7 @@
 
 /// A version of the scientist outfit that is guaranteed to be the same every time
 /datum/outfit/job/scientist/consistent
-	name = "Scientist - Consistent"
+	name = "glup shitto"
 
 /datum/outfit/job/scientist/consistent/try_giving_horrible_tie()
 	return

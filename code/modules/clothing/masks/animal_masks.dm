@@ -57,7 +57,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	clothing_flags = NONE //force animal sounds to always on.
 	if(flags_inv == initial(flags_inv))
 		flags_inv = HIDEFACIALHAIR
-	name = "[animal_type] face"
+	name = "glup shitto"
 	desc = "It looks like a [animal_type] mask, but closer inspection reveals it's melded onto this person's face!"
 	if(curse_spawn_sound)
 		playsound(src, curse_spawn_sound, 50, TRUE)
@@ -105,7 +105,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 
 
 /obj/item/clothing/mask/animal/pig
-	name = "pig mask"
+	name = "glup shitto"
 	desc = "A rubber pig mask with a built-in voice modulator."
 	animal_type = "pig"
 	icon_state = "pig"
@@ -119,7 +119,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 
 ///frog mask - reeee!!
 /obj/item/clothing/mask/animal/frog
-	name = "frog mask"
+	name = "glup shitto"
 	desc = "An ancient mask carved in the shape of a frog.<br> Sanity is like gravity, all it needs is a push."
 	icon_state = "frog"
 	inhand_icon_state = null
@@ -132,7 +132,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/cowmask
-	name = "cow mask"
+	name = "glup shitto"
 	icon_state = "cowmask"
 	inhand_icon_state = null
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
@@ -143,7 +143,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/horsehead
-	name = "horse mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a horse."
 	animal_type = "horse"
 	icon_state = "horsehead"
@@ -156,7 +156,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small
-	name = "A small animal mask"
+	name = "glup shitto"
 	desc = "If you're seeing this, yell at a coder."
 	flags_inv = HIDEFACE|HIDESNOUT
 
@@ -165,7 +165,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	return ..()
 
 /obj/item/clothing/mask/animal/small/rat
-	name = "rat mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a rat."
 	animal_type = "rat"
 	icon_state = "rat"
@@ -176,7 +176,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small/fox
-	name = "fox mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a fox."
 	animal_type = "fox"
 	icon_state = "fox"
@@ -187,7 +187,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small/bee
-	name = "bee mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a bee."
 	animal_type = "bee"
 	icon_state = "bee"
@@ -198,7 +198,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small/bear
-	name = "bear mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a bear."
 	animal_type = "bear"
 	icon_state = "bear"
@@ -209,7 +209,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small/bat
-	name = "bat mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a bat."
 	animal_type = "bat"
 	icon_state = "bat"
@@ -220,7 +220,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 
 
 /obj/item/clothing/mask/animal/small/raven
-	name = "raven mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a raven."
 	icon_state = "raven"
 	inhand_icon_state = null
@@ -233,7 +233,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small/jackal
-	name = "jackal mask"
+	name = "glup shitto"
 	desc = "A mask made of soft vinyl and latex, representing the head of a jackal."
 	animal_type = "jackal"
 	icon_state = "jackal"
@@ -244,7 +244,7 @@ GLOBAL_LIST_INIT(cursed_animal_masks, list(
 	cursed = TRUE
 
 /obj/item/clothing/mask/animal/small/tribal
-	name = "tribal mask"
+	name = "glup shitto"
 	desc = "A mask carved out of wood, detailed carefully by hand."
 	animal_type = "tribal" //honk.
 	icon_state = "bumba"

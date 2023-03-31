@@ -1,5 +1,5 @@
 /datum/outfit/centcom
-	name = "CentCom Base"
+	name = "glup shitto"
 
 /datum/outfit/centcom/post_equip(mob/living/carbon/human/centcom_member, visualsOnly = FALSE)
 	if(visualsOnly)
@@ -8,7 +8,7 @@
 	mindshield.implant(centcom_member, null, silent = TRUE)
 
 /datum/outfit/centcom/ert
-	name = "ERT Common"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/centcom/officer
 	ears = /obj/item/radio/headset/headset_cent/alt
@@ -36,7 +36,7 @@
 	return ..()
 
 /datum/outfit/centcom/ert/commander
-	name = "ERT Commander"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert
 	back = /obj/item/mod/control/pre_equipped/responsory/commander
@@ -51,7 +51,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/captain
 
 /datum/outfit/centcom/ert/commander/alert
-	name = "ERT Commander - High Alert"
+	name = "glup shitto"
 
 	backpack_contents = list(
 		/obj/item/gun/energy/pulse/pistol/loyalpin = 1,
@@ -61,7 +61,7 @@
 	l_pocket = /obj/item/melee/energy/sword/saber
 
 /datum/outfit/centcom/ert/security
-	name = "ERT Security"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/security
 	back = /obj/item/mod/control/pre_equipped/responsory/security
@@ -77,7 +77,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/hos
 
 /datum/outfit/centcom/ert/security/alert
-	name = "ERT Security - High Alert"
+	name = "glup shitto"
 
 	l_hand = /obj/item/gun/energy/pulse/carbine/loyalpin
 	backpack_contents = list(
@@ -86,7 +86,7 @@
 	)
 
 /datum/outfit/centcom/ert/medic
-	name = "ERT Medic"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/medical
 	back = /obj/item/mod/control/pre_equipped/responsory/medic
@@ -105,7 +105,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/cmo
 
 /datum/outfit/centcom/ert/medic/alert
-	name = "ERT Medic - High Alert"
+	name = "glup shitto"
 
 	backpack_contents = list(
 		/obj/item/gun/energy/pulse/pistol/loyalpin = 1,
@@ -117,7 +117,7 @@
 	mask = /obj/item/clothing/mask/gas/sechailer/swat
 
 /datum/outfit/centcom/ert/engineer
-	name = "ERT Engineer"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/engineer
 	back = /obj/item/mod/control/pre_equipped/responsory/engineer
@@ -134,7 +134,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/ce
 
 /datum/outfit/centcom/ert/engineer/alert
-	name = "ERT Engineer - High Alert"
+	name = "glup shitto"
 
 	backpack_contents = list(
 		/obj/item/construction/rcd/combat = 1,
@@ -144,7 +144,7 @@
 	)
 
 /datum/outfit/centcom/centcom_official
-	name = "CentCom Official"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom
 	id_trim = /datum/id_trim/centcom/official
@@ -178,7 +178,7 @@
 	return ..()
 
 /datum/outfit/centcom/ert/commander/inquisitor
-	name = "Inquisition Commander"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/responsory/inquisitory/commander
 	r_hand = /obj/item/nullrod/scythe/talking/chainsword
@@ -187,7 +187,7 @@
 	)
 
 /datum/outfit/centcom/ert/security/inquisitor
-	name = "Inquisition Security"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/responsory/inquisitory/security
 	backpack_contents = list(
@@ -197,7 +197,7 @@
 	)
 
 /datum/outfit/centcom/ert/medic/inquisitor
-	name = "Inquisition Medic"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/responsory/inquisitory/medic
 	backpack_contents = list(
@@ -208,7 +208,7 @@
 	)
 
 /datum/outfit/centcom/ert/chaplain
-	name = "ERT Chaplain"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/chaplain
 	back = /obj/item/mod/control/pre_equipped/responsory/chaplain
@@ -222,7 +222,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/hop
 
 /datum/outfit/centcom/ert/chaplain/inquisitor
-	name = "Inquisition Chaplain"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/responsory/inquisitory/chaplain
 	backpack_contents = list(
@@ -232,7 +232,7 @@
 	belt = /obj/item/storage/belt/soulstone/full/chappy
 
 /datum/outfit/centcom/ert/janitor
-	name = "ERT Janitor"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/janitor
 	back = /obj/item/mod/control/pre_equipped/responsory/janitor
@@ -252,7 +252,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/hop
 
 /datum/outfit/centcom/ert/janitor/heavy
-	name = "ERT Janitor - Heavy Duty"
+	name = "glup shitto"
 
 	backpack_contents = list(
 		/obj/item/grenade/clusterbuster/cleaner = 3,
@@ -262,7 +262,7 @@
 	r_hand = /obj/item/reagent_containers/spray/chemsprayer/janitor
 
 /datum/outfit/centcom/ert/clown
-	name = "ERT Clown"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/clown
 	back = /obj/item/mod/control/pre_equipped/responsory/clown
@@ -290,7 +290,7 @@
 		M.mutadone_proof = TRUE
 
 /datum/outfit/centcom/centcom_intern
-	name = "CentCom Intern"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom
 	id_trim = /datum/id_trim/centcom/intern
@@ -319,7 +319,7 @@
 	return ..()
 
 /datum/outfit/centcom/centcom_intern/unarmed
-	name = "CentCom Intern (Unarmed)"
+	name = "glup shitto"
 
 	belt = null
 	l_pocket = null
@@ -327,7 +327,7 @@
 	l_hand = null
 
 /datum/outfit/centcom/centcom_intern/leader
-	name = "CentCom Head Intern"
+	name = "glup shitto"
 
 	suit = /obj/item/clothing/suit/armor/vest
 	suit_store = /obj/item/gun/ballistic/rifle/boltaction/brand_new
@@ -336,14 +336,14 @@
 	l_hand = /obj/item/megaphone
 
 /datum/outfit/centcom/centcom_intern/leader/unarmed // i'll be nice and let the leader keep their baton and vest
-	name = "CentCom Head Intern (Unarmed)"
+	name = "glup shitto"
 
 	suit_store = null
 	l_pocket = null
 	r_pocket = null
 
 /datum/outfit/centcom/ert/janitor/party
-	name = "ERP Cleaning Service"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/misc/overalls
 	suit = /obj/item/clothing/suit/apron
@@ -362,7 +362,7 @@
 	l_hand = /obj/item/storage/bag/trash
 
 /datum/outfit/centcom/ert/security/party
-	name = "ERP Bouncer"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/misc/bouncer
 	suit = /obj/item/clothing/suit/armor/vest
@@ -377,7 +377,7 @@
 	r_pocket = /obj/item/storage/wallet
 
 /datum/outfit/centcom/ert/engineer/party
-	name = "ERP Constructor"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/engineering/engineer/hazard
 	suit = /obj/item/clothing/suit/hazardvest
@@ -396,7 +396,7 @@
 	l_hand = /obj/item/areaeditor/blueprints
 
 /datum/outfit/centcom/ert/clown/party
-	name = "ERP Comedian"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/clown
 	suit = /obj/item/clothing/suit/chameleon
@@ -410,7 +410,7 @@
 	head = /obj/item/clothing/head/chameleon
 
 /datum/outfit/centcom/ert/commander/party
-	name = "ERP Coordinator"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/misc/coordinator
 	suit = /obj/item/clothing/suit/coordinator
@@ -426,7 +426,7 @@
 	l_hand = /obj/item/toy/balloon
 
 /datum/outfit/centcom/death_commando
-	name = "Death Commando"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/black/deathsquad
 	id_trim = /datum/id_trim/centcom/deathsquad
@@ -468,12 +468,12 @@
 	..()
 
 /datum/outfit/centcom/death_commando/officer
-	name = "Death Commando Officer"
+	name = "glup shitto"
 
 	head = /obj/item/clothing/head/helmet/space/beret
 
 /datum/outfit/centcom/ert/marine
-	name = "Marine Commander"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert
 	suit = /obj/item/clothing/suit/armor/vest/marine
@@ -489,7 +489,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/captain
 
 /datum/outfit/centcom/ert/marine/security
-	name = "Marine Heavy"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/security
 	suit = /obj/item/clothing/suit/armor/vest/marine/security
@@ -498,7 +498,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/hos
 
 /datum/outfit/centcom/ert/marine/medic
-	name = "Marine Medic"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/medical
 	suit = /obj/item/clothing/suit/armor/vest/marine/medic
@@ -516,7 +516,7 @@
 	additional_radio = /obj/item/encryptionkey/heads/cmo
 
 /datum/outfit/centcom/ert/marine/engineer
-	name = "Marine Engineer"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom/ert/engineer
 	suit = /obj/item/clothing/suit/armor/vest/marine/engineer

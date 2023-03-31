@@ -3,7 +3,7 @@
 	damage_type = BRUTE
 
 /mob/living/simple_animal/hostile/hivebot
-	name = "hivebot"
+	name = "glup shitto"
 	desc = "A small robot."
 	icon = 'icons/mob/simple/hivebot.dmi'
 	icon_state = "basic"
@@ -67,7 +67,7 @@
 	..(TRUE)
 
 /mob/living/simple_animal/hostile/hivebot/range
-	name = "hivebot"
+	name = "glup shitto"
 	desc = "A smallish robot, this one is armed!"
 	icon_state = "ranged"
 	icon_living = "ranged"
@@ -86,7 +86,7 @@
 	minimum_distance = 5
 
 /mob/living/simple_animal/hostile/hivebot/strong
-	name = "strong hivebot"
+	name = "glup shitto"
 	icon_state = "strong"
 	icon_living = "strong"
 	icon_dead = "strong"
@@ -96,7 +96,7 @@
 	ranged = TRUE
 
 /mob/living/simple_animal/hostile/hivebot/mechanic
-	name = "hivebot mechanic"
+	name = "glup shitto"
 	icon_state = "strong"
 	icon_living = "strong"
 	icon_dead = "strong"
@@ -143,7 +143,7 @@
 	overlay_icon_state = "bg_default_border"
 
 /datum/action/innate/hivebot/foamwall
-	name = "Foam Wall"
+	name = "glup shitto"
 	desc = "Creates a foam wall that resists against the vacuum of space."
 
 /datum/action/innate/hivebot/foamwall/Activate()

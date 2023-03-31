@@ -7,7 +7,7 @@
 //As long as this is working, solar panels on same powernet will track automatically
 
 /obj/machinery/power/tracker
-	name = "solar tracker"
+	name = "glup shitto"
 	desc = "A solar directional tracker."
 	icon = 'icons/obj/solar.dmi'
 	icon_state = "tracker_base"
@@ -153,7 +153,7 @@
 // Tracker Electronic
 
 /obj/item/electronics/tracker
-	name = "tracker electronics"
+	name = "glup shitto"
 
 #undef TRACKER_Z_OFFSET
 #undef TRACKER_EDGE_Z_OFFSET

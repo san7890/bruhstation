@@ -1,5 +1,5 @@
 /datum/surgery/implant_removal
-	name = "Implant removal"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_CHEST)
 	steps = list(
 		/datum/surgery_step/incise,
@@ -11,7 +11,7 @@
 
 //extract implant
 /datum/surgery_step/extract_implant
-	name = "extract implant (hemostat)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_HEMOSTAT = 100,
 		TOOL_CROWBAR = 65,
@@ -79,7 +79,7 @@
 	return ..()
 
 /datum/surgery/implant_removal/mechanic
-	name = "implant removal"
+	name = "glup shitto"
 	requires_bodypart_type = BODYTYPE_ROBOTIC
 	steps = list(
 		/datum/surgery_step/mechanic_open,

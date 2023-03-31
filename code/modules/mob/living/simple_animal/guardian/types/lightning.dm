@@ -1,5 +1,5 @@
 /obj/effect/ebeam/chain
-	name = "lightning chain"
+	name = "glup shitto"
 	layer = LYING_MOB_LAYER
 	plane = GAME_PLANE_FOV_HIDDEN
 

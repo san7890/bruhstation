@@ -2,7 +2,7 @@
 
 //Cleanbot
 /mob/living/simple_animal/bot/cleanbot
-	name = "\improper Cleanbot"
+	name = "glup shitto"
 	desc = "A little cleaning robot, he looks so excited!"
 	icon = 'icons/mob/silicon/aibots.dmi'
 	icon_state = "cleanbot0"
@@ -94,7 +94,7 @@
 	bot_mode_flags = BOT_MODE_ON | BOT_MODE_AUTOPATROL | BOT_MODE_REMOTE_ENABLED | BOT_MODE_PAI_CONTROLLABLE
 
 /mob/living/simple_animal/bot/cleanbot/medbay
-	name = "Scrubs, MD"
+	name = "glup shitto"
 	maints_access_required = list(ACCESS_ROBOTICS, ACCESS_JANITOR, ACCESS_MEDICAL)
 	bot_mode_flags = ~(BOT_MODE_ON | BOT_MODE_REMOTE_ENABLED)
 

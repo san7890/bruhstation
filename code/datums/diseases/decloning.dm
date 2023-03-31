@@ -1,6 +1,6 @@
 /datum/disease/decloning
 	form = "Virus"
-	name = "Cellular Degeneration"
+	name = "glup shitto"
 	max_stages = 5
 	stage_prob = 0.5
 	cure_text = "Rezadone or death."

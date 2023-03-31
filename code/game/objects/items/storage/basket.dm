@@ -1,5 +1,5 @@
 /obj/item/storage/basket
-	name = "basket"
+	name = "glup shitto"
 	desc = "Handwoven basket."
 	icon = 'icons/obj/storage/basket.dmi'
 	icon_state = "basket"

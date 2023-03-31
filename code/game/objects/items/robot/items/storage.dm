@@ -1,5 +1,5 @@
 /obj/item/borg/apparatus
-	name = "unknown storage apparatus"
+	name = "glup shitto"
 	desc = "This device seems nonfunctional."
 	icon = 'icons/mob/silicon/robot_items.dmi'
 	icon_state = "hugmodule"
@@ -92,7 +92,7 @@
 	return ..()
 
 /obj/item/borg/apparatus/beaker
-	name = "beaker storage apparatus"
+	name = "glup shitto"
 	desc = "A special apparatus for carrying beakers without spilling the contents."
 	icon_state = "borg_beaker_apparatus"
 	storable = list(/obj/item/reagent_containers/cup/beaker,
@@ -154,11 +154,11 @@
 	return ..()
 
 /obj/item/borg/apparatus/beaker/extra
-	name = "secondary beaker storage apparatus"
+	name = "glup shitto"
 	desc = "A supplementary beaker storage apparatus."
 
 /obj/item/borg/apparatus/beaker/service
-	name = "beverage storage apparatus"
+	name = "glup shitto"
 	desc = "A special apparatus for carrying drinks without spilling the contents. Will resynthesize any drinks you pour out!"
 	icon_state = "borg_beaker_apparatus"
 	storable = list(/obj/item/reagent_containers/cup/glass,
@@ -185,7 +185,7 @@
 
 /// allows medical cyborgs to manipulate organs without hands
 /obj/item/borg/apparatus/organ_storage
-	name = "organ storage bag"
+	name = "glup shitto"
 	desc = "A container for holding body parts."
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "evidenceobj"
@@ -231,7 +231,7 @@
 	return
 
 /obj/item/borg/apparatus/circuit
-	name = "circuit manipulation apparatus"
+	name = "glup shitto"
 	desc = "A special apparatus for carrying and manipulating circuit boards."
 	icon_state = "borg_hardware_apparatus"
 	storable = list(/obj/item/circuitboard,

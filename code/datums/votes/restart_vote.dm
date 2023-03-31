@@ -2,7 +2,7 @@
 #define CHOICE_CONTINUE "Continue Playing"
 
 /datum/vote/restart_vote
-	name = "Restart"
+	name = "glup shitto"
 	default_choices = list(
 		CHOICE_RESTART,
 		CHOICE_CONTINUE,

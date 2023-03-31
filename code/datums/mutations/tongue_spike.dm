@@ -1,5 +1,5 @@
 /datum/mutation/human/tongue_spike
-	name = "Tongue Spike"
+	name = "glup shitto"
 	desc = "Allows a creature to voluntary shoot their tongue out as a deadly weapon."
 	quality = POSITIVE
 	text_gain_indication = span_notice("Your feel like you can throw your voice.")
@@ -10,7 +10,7 @@
 	synchronizer_coeff = 1
 
 /datum/action/cooldown/spell/tongue_spike
-	name = "Launch spike"
+	name = "glup shitto"
 	desc = "Shoot your tongue out in the direction you're facing, embedding it and dealing damage until they remove it."
 	button_icon = 'icons/mob/actions/actions_genetic.dmi'
 	button_icon_state = "spike"
@@ -41,7 +41,7 @@
 	spike.throw_at(get_edge_target_turf(cast_on, cast_on.dir), 14, 4, cast_on)
 
 /obj/item/hardened_spike
-	name = "biomass spike"
+	name = "glup shitto"
 	desc = "Hardened biomass, shaped into a spike. Very pointy!"
 	icon_state = "tonguespike"
 	force = 2
@@ -82,7 +82,7 @@
 	qdel(src)
 
 /datum/mutation/human/tongue_spike/chem
-	name = "Chem Spike"
+	name = "glup shitto"
 	desc = "Allows a creature to voluntary shoot their tongue out as biomass, allowing a long range transfer of chemicals."
 	quality = POSITIVE
 	text_gain_indication = span_notice("Your feel like you can really connect with people by throwing your voice.")
@@ -93,7 +93,7 @@
 	synchronizer_coeff = 1
 
 /datum/action/cooldown/spell/tongue_spike/chem
-	name = "Launch chem spike"
+	name = "glup shitto"
 	desc = "Shoot your tongue out in the direction you're facing, \
 		embedding it for a very small amount of damage. \
 		While the other person has the spike embedded, \
@@ -103,7 +103,7 @@
 	spike_path = /obj/item/hardened_spike/chem
 
 /obj/item/hardened_spike/chem
-	name = "chem spike"
+	name = "glup shitto"
 	desc = "Hardened biomass, shaped into... something."
 	icon_state = "tonguespikechem"
 	throwforce = 2 //2 + 2 (WEIGHT_CLASS_SMALL) * 0 (EMBEDDED_IMPACT_PAIN_MULTIPLIER) = i didnt do the math again but very low or smthin
@@ -143,7 +143,7 @@
 	return ..()
 
 /datum/action/send_chems
-	name = "Transfer Chemicals"
+	name = "glup shitto"
 	desc = "Send all of your reagents into whomever the chem spike is embedded in. One use."
 	background_icon_state = "bg_spell"
 	button_icon = 'icons/mob/actions/actions_genetic.dmi'

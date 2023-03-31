@@ -2,7 +2,7 @@
 // Contains various borg upgrades.
 
 /obj/item/borg/upgrade
-	name = "borg upgrade module."
+	name = "glup shitto"
 	desc = "Protected by FRM."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "cyborg_upgrade"
@@ -33,7 +33,7 @@
 	return TRUE
 
 /obj/item/borg/upgrade/rename
-	name = "cyborg reclassification board"
+	name = "glup shitto"
 	desc = "Used to rename a cyborg."
 	icon_state = "cyborg_upgrade1"
 	var/heldname = ""
@@ -55,7 +55,7 @@
 		usr.log_message("used a cyborg reclassification board to rename [oldkeyname] to [key_name(R)]", LOG_GAME)
 
 /obj/item/borg/upgrade/disablercooler
-	name = "cyborg rapid disabler cooling module"
+	name = "glup shitto"
 	desc = "Used to cool a mounted disabler, increasing the potential current in it and thus its recharge rate."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -85,7 +85,7 @@
 		T.charge_delay = initial(T.charge_delay)
 
 /obj/item/borg/upgrade/thrusters
-	name = "ion thruster upgrade"
+	name = "glup shitto"
 	desc = "An energy-operated thruster system for cyborgs."
 	icon_state = "cyborg_upgrade3"
 
@@ -105,7 +105,7 @@
 		R.ionpulse = FALSE
 
 /obj/item/borg/upgrade/ddrill
-	name = "mining cyborg diamond drill"
+	name = "glup shitto"
 	desc = "A diamond drill replacement for the mining model's standard drill."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -138,7 +138,7 @@
 		R.model.add_module(S, FALSE, TRUE)
 
 /obj/item/borg/upgrade/soh
-	name = "mining cyborg satchel of holding"
+	name = "glup shitto"
 	desc = "A satchel of holding replacement for mining cyborg's ore satchel module."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -166,7 +166,7 @@
 		R.model.add_module(S, FALSE, TRUE)
 
 /obj/item/borg/upgrade/tboh
-	name = "janitor cyborg trash bag of holding"
+	name = "glup shitto"
 	desc = "A trash bag of holding replacement for the janiborg's standard trash bag."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -194,7 +194,7 @@
 		R.model.add_module(TB, FALSE, TRUE)
 
 /obj/item/borg/upgrade/amop
-	name = "janitor cyborg advanced mop"
+	name = "glup shitto"
 	desc = "An advanced mop replacement for the janiborg's standard mop."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -222,7 +222,7 @@
 		R.model.add_module(M, FALSE, TRUE)
 
 /obj/item/borg/upgrade/prt
-	name = "janitor cyborg plating repair tool"
+	name = "glup shitto"
 	desc = "A tiny heating device to repair burnt and damaged hull platings with."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -243,7 +243,7 @@
 			R.model.remove_module(P, TRUE)
 
 /obj/item/borg/upgrade/syndicate
-	name = "illegal equipment module"
+	name = "glup shitto"
 	desc = "Unlocks the hidden, deadlier functions of a cyborg."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -266,7 +266,7 @@
 		R.SetEmagged(FALSE)
 
 /obj/item/borg/upgrade/lavaproof
-	name = "mining cyborg lavaproof chassis"
+	name = "glup shitto"
 	desc = "An upgrade kit to apply specialized coolant systems and insulation layers to a mining cyborg's chassis, enabling them to withstand exposure to molten rock."
 	icon_state = "ash_plating"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
@@ -285,7 +285,7 @@
 		REMOVE_TRAIT(R, TRAIT_LAVA_IMMUNE, type)
 
 /obj/item/borg/upgrade/selfrepair
-	name = "self-repair module"
+	name = "glup shitto"
 	desc = "This module will repair the cyborg over time."
 	icon_state = "cyborg_upgrade5"
 	require_model = TRUE
@@ -387,7 +387,7 @@
 		deactivate_sr()
 
 /obj/item/borg/upgrade/hypospray
-	name = "medical cyborg hypospray advanced synthesiser"
+	name = "glup shitto"
 	desc = "An upgrade to the Medical model cyborg's hypospray, allowing it \
 		to produce more advanced and complex medical reagents."
 	icon_state = "cyborg_upgrade3"
@@ -409,12 +409,12 @@
 			H.remove_hypo_upgrade()
 
 /obj/item/borg/upgrade/hypospray/expanded
-	name = "medical cyborg expanded hypospray"
+	name = "glup shitto"
 	desc = "An upgrade to the Medical model's hypospray, allowing it \
 		to treat a wider range of conditions and problems."
 
 /obj/item/borg/upgrade/piercing_hypospray
-	name = "cyborg piercing hypospray"
+	name = "glup shitto"
 	desc = "An upgrade to a cyborg's hypospray, allowing it to \
 		pierce armor and thick material."
 	icon_state = "cyborg_upgrade3"
@@ -437,7 +437,7 @@
 			H.bypass_protection = initial(H.bypass_protection)
 
 /obj/item/borg/upgrade/defib
-	name = "medical cyborg defibrillator"
+	name = "glup shitto"
 	desc = "An upgrade to the Medical model, installing a built-in \
 		defibrillator, for on the scene revival."
 	icon_state = "cyborg_upgrade3"
@@ -492,7 +492,7 @@
 		defib_instance?.forceMove(R.drop_location()) // [on_defib_instance_qdel_or_moved()] handles the rest.
 
 /obj/item/borg/upgrade/processor
-	name = "medical cyborg surgical processor"
+	name = "glup shitto"
 	desc = "An upgrade to the Medical model, installing a processor \
 		capable of scanning surgery disks and carrying \
 		out procedures"
@@ -515,7 +515,7 @@
 		R.model.remove_module(SP, TRUE)
 
 /obj/item/borg/upgrade/ai
-	name = "B.O.R.I.S. module"
+	name = "glup shitto"
 	desc = "Bluespace Optimized Remote Intelligence Synchronization. An uplink device which takes the place of an MMI in cyborg endoskeletons, creating a robotic shell controlled by an AI."
 	icon_state = "boris"
 
@@ -539,7 +539,7 @@
 			R.notify_ai(AI_NOTIFICATION_AI_SHELL)
 
 /obj/item/borg/upgrade/expand
-	name = "borg expander"
+	name = "glup shitto"
 	desc = "A cyborg resizer, it makes a cyborg huge."
 	icon_state = "cyborg_upgrade3"
 
@@ -579,7 +579,7 @@
 			R.update_transform()
 
 /obj/item/borg/upgrade/rped
-	name = "engineering cyborg RPED"
+	name = "glup shitto"
 	desc = "A rapid part exchange device for the engineering cyborg."
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "borgrped"
@@ -608,7 +608,7 @@
 			R.model.remove_module(RPED, TRUE)
 
 /obj/item/borg/upgrade/pinpointer
-	name = "medical cyborg crew pinpointer"
+	name = "glup shitto"
 	desc = "A crew pinpointer module for the medical cyborg. Permits remote access to the crew monitor."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "pinpointer_crew"
@@ -650,10 +650,10 @@
 	GLOB.crewmonitor.show(Cyborg,Cyborg)
 
 /datum/action/item_action/crew_monitor
-	name = "Interface With Crew Monitor"
+	name = "glup shitto"
 
 /obj/item/borg/upgrade/transform
-	name = "borg model picker (Standard)"
+	name = "glup shitto"
 	desc = "Allows you to to turn a cyborg into a standard cyborg."
 	icon_state = "cyborg_upgrade3"
 	var/obj/item/robot_model/new_model = null
@@ -664,13 +664,13 @@
 		R.model.transform_to(new_model)
 
 /obj/item/borg/upgrade/transform/clown
-	name = "borg model picker (Clown)"
+	name = "glup shitto"
 	desc = "Allows you to to turn a cyborg into a clown, honk."
 	icon_state = "cyborg_upgrade3"
 	new_model = /obj/item/robot_model/clown
 
 /obj/item/borg/upgrade/circuit_app
-	name = "circuit manipulation apparatus"
+	name = "glup shitto"
 	desc = "An engineering cyborg upgrade allowing for manipulation of circuit boards."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -697,7 +697,7 @@
 			R.model.remove_module(C, TRUE)
 
 /obj/item/borg/upgrade/beaker_app
-	name = "beaker storage apparatus"
+	name = "glup shitto"
 	desc = "A supplementary beaker storage apparatus for medical cyborgs."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -724,7 +724,7 @@
 			R.model.remove_module(E, TRUE)
 
 /obj/item/borg/upgrade/broomer
-	name = "experimental push broom"
+	name = "glup shitto"
 	desc = "An experimental push broom used for efficiently pushing refuse."
 	icon_state = "cyborg_upgrade3"
 	require_model = TRUE
@@ -754,7 +754,7 @@
 ///This isn't an upgrade or part of the same path, but I'm gonna just stick it here because it's a tool used on cyborgs.
 //A reusable tool that can bring borgs back to life. They gotta be repaired first, though.
 /obj/item/borg_restart_board
-	name = "cyborg emergency reboot module"
+	name = "glup shitto"
 	desc = "A reusable firmware reset tool that can force a reboot of a disabled-but-repaired cyborg, bringing it back online."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/module.dmi'

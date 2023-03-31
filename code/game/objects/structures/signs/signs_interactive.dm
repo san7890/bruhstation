@@ -1,7 +1,7 @@
 #define COLLISION_HAZARD_THRESHOLD 11
 
 /obj/structure/sign/clock
-	name = "wall clock"
+	name = "glup shitto"
 	desc = "It's your run-of-the-mill wall clock showing both the local Coalition Standard Time and the galactic Treaty Coordinated Time. Perfect for staring at instead of working."
 	icon_state = "clock"
 
@@ -13,7 +13,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/clock, 32)
 	. += span_info("The current TCT (galactic) time is: [time2text(world.realtime, "hh:mm:ss")].")
 
 /obj/structure/sign/calendar
-	name = "wall calendar"
+	name = "glup shitto"
 	desc = "It's an old-school wall calendar. Sure, it might be obsolete with modern technology, but it's still hard to imagine an office without one."
 	icon_state = "calendar"
 
@@ -34,7 +34,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/calendar, 32)
 GLOBAL_LIST_EMPTY(map_delamination_counters)
 
 /obj/structure/sign/delamination_counter
-	name = "delamination counter"
+	name = "glup shitto"
 	sign_change_name = "Flip Sign- Supermatter Delamination"
 	desc = "A pair of flip signs describe how long it's been since the last delamination incident."
 	icon_state = "days_since_explosion"
@@ -86,7 +86,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/delamination_counter, 32)
 			. += span_info("Incredible!")
 
 /obj/structure/sign/collision_counter
-	name = "incident counter"
+	name = "glup shitto"
 	sign_change_name = "Indicator board- Tram incidents"
 	desc = "A display that indicates how many tram related incidents have occured today."
 	icon_state = "tram_hits"

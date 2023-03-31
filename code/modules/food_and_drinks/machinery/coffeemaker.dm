@@ -1,7 +1,7 @@
 #define BEAN_CAPACITY 10 //amount of coffee beans that can fit inside the impressa coffeemaker
 
 /obj/machinery/coffeemaker
-	name = "coffeemaker"
+	name = "glup shitto"
 	desc = "A Modello 3 Coffeemaker that brews coffee and holds it at the perfect temperature of 176 fahrenheit. Made by Piccionaia Home Appliances."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "coffeemaker_nopot_nocart"
@@ -425,7 +425,7 @@
 
 //Coffee Cartridges: like toner, but for your coffee!
 /obj/item/coffee_cartridge
-	name = "coffeemaker cartridge- Caffè Generico"
+	name = "glup shitto"
 	desc = "A coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon = 'icons/obj/food/cartridges.dmi'
 	icon_state = "cartridge_basic"
@@ -440,7 +440,7 @@
 		. += span_warning("The cartridge has no unspent grounds remaining.")
 
 /obj/item/coffee_cartridge/fancy
-	name = "coffeemaker cartridge - Caffè Fantasioso"
+	name = "glup shitto"
 	desc = "A fancy coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_blend"
 
@@ -463,26 +463,26 @@
 			icon_state = "cartridge_mocha"
 
 /obj/item/coffee_cartridge/decaf
-	name = "coffeemaker cartridge - Caffè Decaffeinato"
+	name = "glup shitto"
 	desc = "A decaf coffee cartridge manufactured by Piccionaia Coffee, for use with the Modello 3 system."
 	icon_state = "cartridge_decaf"
 
 // no you can't just squeeze the juice bag into a glass!
 /obj/item/coffee_cartridge/bootleg
-	name = "coffeemaker cartridge - Botany Blend"
+	name = "glup shitto"
 	desc = "A jury-rigged coffee cartridge. Should work with a Modello 3 system, though it might void the warranty."
 	icon_state = "cartridge_bootleg"
 
 // blank cartridge for crafting's sake, can be made at the service lathe
 /obj/item/blank_coffee_cartridge
-	name = "blank coffee cartridge"
+	name = "glup shitto"
 	desc = "A blank coffee cartridge, ready to be filled with coffee paste."
 	icon = 'icons/obj/food/cartridges.dmi'
 	icon_state = "cartridge_blank"
 
 //now, how do you store coffee carts? well, in a rack, of course!
 /obj/item/storage/fancy/coffee_cart_rack
-	name = "coffeemaker cartridge rack"
+	name = "glup shitto"
 	desc = "A small rack for storing coffeemaker cartridges."
 	icon = 'icons/obj/food/containers.dmi'
 	icon_state = "coffee_cartrack4"
@@ -502,7 +502,7 @@
  */
 
 /obj/machinery/coffeemaker/impressa
-	name = "impressa coffeemaker"
+	name = "glup shitto"
 	desc = "An industry-grade Impressa Modello 5 Coffeemaker of the Piccionaia Home Appliances premium coffeemakers product line. Makes coffee from fresh dried whole beans."
 	icon = 'icons/obj/machines/coffeemaker.dmi'
 	icon_state = "coffeemaker_impressa"

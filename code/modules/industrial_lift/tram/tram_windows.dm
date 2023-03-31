@@ -1,5 +1,5 @@
 /obj/structure/window/reinforced/tram
-	name = "tram window"
+	name = "glup shitto"
 	desc = "A window made out of a titanium-silicate alloy. It looks tough to break. Is that a challenge?"
 	icon = 'icons/obj/smooth_structures/tram_window.dmi'
 	icon_state = "tram_mid"
@@ -13,7 +13,7 @@
 	glass_material_datum = /datum/material/alloy/titaniumglass
 
 /obj/structure/window/reinforced/tram/front
-	name = "tram wall"
+	name = "glup shitto"
 	desc = "A lightweight titanium composite structure with a windscreen installed."
 	icon_state = "tram_window-0"
 	base_icon_state = "tram_window"

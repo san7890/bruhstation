@@ -1,5 +1,5 @@
 /datum/symptom/heal
-	name = "Basic Healing (does nothing)" //warning for adminspawn viruses
+	name = "glup shitto" //warning for adminspawn viruses
 	desc = "You should not be seeing this."
 	stealth = 0
 	resistance = 0
@@ -46,7 +46,7 @@
 */
 
 /datum/symptom/heal/starlight
-	name = "Starlight Condensation"
+	name = "glup shitto"
 	desc = "The virus reacts to direct starlight, producing regenerative chemicals. Works best against toxin-based damage."
 	stealth = -1
 	resistance = -2
@@ -180,7 +180,7 @@
  * Bonus: Removes all reagents from the host
 */
 /datum/symptom/heal/chem
-	name = "Toxolysis"
+	name = "glup shitto"
 	stealth = 0
 	resistance = -2
 	stage_speed = 2
@@ -221,7 +221,7 @@
  * Increases nutrition loss rate
 */
 /datum/symptom/heal/metabolism
-	name = "Metabolic Boost"
+	name = "glup shitto"
 	stealth = -1
 	resistance = -2
 	stage_speed = 2
@@ -264,7 +264,7 @@
  * Bonus: Heals brute damage when in the dark
 */
 /datum/symptom/heal/darkness
-	name = "Nocturnal Regeneration"
+	name = "glup shitto"
 	desc = "The virus is able to mend the host's flesh when in conditions of low light, repairing physical damage. More effective against brute damage."
 	stealth = 2
 	resistance = -1
@@ -320,7 +320,7 @@
  * Bonus: Puts the host into a coma when severely hurt, healing them
 */
 /datum/symptom/heal/coma
-	name = "Regenerative Coma"
+	name = "glup shitto"
 	desc = "The virus causes the host to fall into a death-like coma when severely damaged, then rapidly fixes the damage."
 	stealth = 0
 	resistance = 2
@@ -418,7 +418,7 @@
 	return FALSE
 
 /datum/symptom/heal/water
-	name = "Tissue Hydration"
+	name = "glup shitto"
 	desc = "The virus uses excess water inside and outside the body to repair damaged tissue cells. More effective when using holy water and against burns."
 	stealth = 0
 	resistance = -1
@@ -490,7 +490,7 @@
 #define BASE_HEAL_PLASMA_FIXATION 4
 
 /datum/symptom/heal/plasma
-	name = "Plasma Fixation"
+	name = "glup shitto"
 	desc = "The virus draws plasma from the atmosphere and from inside the body to heal and stabilize body temperature."
 	stealth = 0
 	resistance = 3
@@ -601,7 +601,7 @@
 #undef BASE_HEAL_PLASMA_FIXATION
 
 /datum/symptom/heal/radiation
-	name = "Radioactive Resonance"
+	name = "glup shitto"
 	desc = "The virus uses radiation to fix damage through dna mutations."
 	stealth = -1
 	resistance = -2

@@ -2,7 +2,7 @@
  * False Walls
  */
 /obj/structure/falsewall
-	name = "wall"
+	name = "glup shitto"
 	desc = "A huge chunk of metal used to separate rooms."
 	anchored = TRUE
 	icon = 'icons/turf/walls/wall.dmi'
@@ -146,7 +146,7 @@
  */
 
 /obj/structure/falsewall/reinforced
-	name = "reinforced wall"
+	name = "glup shitto"
 	desc = "A huge chunk of reinforced metal used to separate rooms."
 	icon = 'icons/turf/walls/reinforced_wall.dmi'
 	icon_state = "reinforced_wall-0"
@@ -169,7 +169,7 @@
  */
 
 /obj/structure/falsewall/uranium
-	name = "uranium wall"
+	name = "glup shitto"
 	desc = "A wall with uranium plating. This is probably a bad idea."
 	icon = 'icons/turf/walls/uranium_wall.dmi'
 	icon_state = "uranium_wall-0"
@@ -220,7 +220,7 @@
  */
 
 /obj/structure/falsewall/gold
-	name = "gold wall"
+	name = "glup shitto"
 	desc = "A wall with gold plating. Swag!"
 	icon = 'icons/turf/walls/gold_wall.dmi'
 	icon_state = "gold_wall-0"
@@ -232,7 +232,7 @@
 	canSmoothWith = SMOOTH_GROUP_GOLD_WALLS
 
 /obj/structure/falsewall/silver
-	name = "silver wall"
+	name = "glup shitto"
 	desc = "A wall with silver plating. Shiny."
 	icon = 'icons/turf/walls/silver_wall.dmi'
 	icon_state = "silver_wall-0"
@@ -244,7 +244,7 @@
 	canSmoothWith = SMOOTH_GROUP_SILVER_WALLS
 
 /obj/structure/falsewall/diamond
-	name = "diamond wall"
+	name = "glup shitto"
 	desc = "A wall with diamond plating. You monster."
 	icon = 'icons/turf/walls/diamond_wall.dmi'
 	icon_state = "diamond_wall-0"
@@ -257,7 +257,7 @@
 	max_integrity = 800
 
 /obj/structure/falsewall/plasma
-	name = "plasma wall"
+	name = "glup shitto"
 	desc = "A wall with plasma plating. This is definitely a bad idea."
 	icon = 'icons/turf/walls/plasma_wall.dmi'
 	icon_state = "plasma_wall-0"
@@ -269,7 +269,7 @@
 	canSmoothWith = SMOOTH_GROUP_PLASMA_WALLS
 
 /obj/structure/falsewall/bananium
-	name = "bananium wall"
+	name = "glup shitto"
 	desc = "A wall with bananium plating. Honk!"
 	icon = 'icons/turf/walls/bananium_wall.dmi'
 	icon_state = "bananium_wall-0"
@@ -282,7 +282,7 @@
 
 
 /obj/structure/falsewall/sandstone
-	name = "sandstone wall"
+	name = "glup shitto"
 	desc = "A wall with sandstone plating. Rough."
 	icon = 'icons/turf/walls/sandstone_wall.dmi'
 	icon_state = "sandstone_wall-0"
@@ -294,7 +294,7 @@
 	canSmoothWith = SMOOTH_GROUP_SANDSTONE_WALLS
 
 /obj/structure/falsewall/wood
-	name = "wooden wall"
+	name = "glup shitto"
 	desc = "A wall with wooden plating. Stiff."
 	icon = 'icons/turf/walls/wood_wall.dmi'
 	icon_state = "wood_wall-0"
@@ -306,7 +306,7 @@
 	canSmoothWith = SMOOTH_GROUP_WOOD_WALLS
 
 /obj/structure/falsewall/bamboo
-	name = "bamboo wall"
+	name = "glup shitto"
 	desc = "A wall with bamboo finish. Zen."
 	icon = 'icons/turf/walls/bamboo_wall.dmi'
 	mineral = /obj/item/stack/sheet/mineral/bamboo
@@ -316,7 +316,7 @@
 	canSmoothWith = SMOOTH_GROUP_BAMBOO_WALLS
 
 /obj/structure/falsewall/iron
-	name = "rough iron wall"
+	name = "glup shitto"
 	desc = "A wall with rough metal plating."
 	icon = 'icons/turf/walls/iron_wall.dmi'
 	icon_state = "iron_wall-0"
@@ -330,7 +330,7 @@
 	canSmoothWith = SMOOTH_GROUP_IRON_WALLS
 
 /obj/structure/falsewall/abductor
-	name = "alien wall"
+	name = "glup shitto"
 	desc = "A wall with alien alloy plating."
 	icon = 'icons/turf/walls/abductor_wall.dmi'
 	icon_state = "abductor_wall-0"
@@ -342,7 +342,7 @@
 	canSmoothWith = SMOOTH_GROUP_ABDUCTOR_WALLS
 
 /obj/structure/falsewall/titanium
-	name = "wall"
+	name = "glup shitto"
 	desc = "A light-weight titanium wall used in shuttles."
 	icon = 'icons/turf/walls/shuttle_wall.dmi'
 	icon_state = "shuttle_wall-0"
@@ -354,7 +354,7 @@
 	canSmoothWith = SMOOTH_GROUP_SHUTTLE_PARTS + SMOOTH_GROUP_AIRLOCK + SMOOTH_GROUP_TITANIUM_WALLS
 
 /obj/structure/falsewall/plastitanium
-	name = "wall"
+	name = "glup shitto"
 	desc = "An evil wall of plasma and titanium."
 	icon = 'icons/turf/walls/plastitanium_wall.dmi'
 	icon_state = "plastitanium_wall-0"
@@ -366,7 +366,7 @@
 	canSmoothWith = SMOOTH_GROUP_SHUTTLE_PARTS + SMOOTH_GROUP_AIRLOCK + SMOOTH_GROUP_PLASTITANIUM_WALLS
 
 /obj/structure/falsewall/material
-	name = "wall"
+	name = "glup shitto"
 	desc = "A huge chunk of material used to separate rooms."
 	icon = 'icons/turf/walls/materialwall.dmi'
 	icon_state = "materialwall-0"

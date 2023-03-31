@@ -191,7 +191,7 @@
 		qdel(src)
 
 /datum/action/innate/end_holocall
-	name = "End Holocall"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "camera_off"
 	var/datum/holocall/hcall
@@ -218,7 +218,7 @@
 	user.setDir(olddir)
 
 /obj/item/disk/holodisk
-	name = "holorecord disk"
+	name = "glup shitto"
 	desc = "Stores recorder holocalls."
 	icon_state = "holodisk"
 	obj_flags = UNIQUE_RENAME
@@ -381,7 +381,7 @@
 	DELAY 20"}
 
 /obj/item/disk/holodisk/donutstation/whiteship
-	name = "Blackbox Print-out #DS024"
+	name = "glup shitto"
 	desc = "A holodisk containing the last viable recording of DS024's blackbox."
 	preset_image_type = /datum/preset_holoimage/engineer/ce
 	preset_record_text = {"
@@ -427,7 +427,7 @@
 	"}
 
 /obj/item/disk/holodisk/ruin/snowengieruin
-	name = "Blackbox Print-out #EB412"
+	name = "glup shitto"
 	desc = "A holodisk containing the last moments of EB412. There's a bloody fingerprint on it."
 	preset_image_type = /datum/preset_holoimage/engineer
 	preset_record_text = {"
@@ -470,7 +470,7 @@
 	DELAY 50"}
 
 /obj/item/disk/holodisk/ruin/space/travelers_rest
-	name = "Owner's memo"
+	name = "glup shitto"
 	desc = "A holodisk containing a small memo from the previous owner, addressed to someone else."
 	preset_image_type = /datum/preset_holoimage/engineer/atmos
 	preset_record_text = {"

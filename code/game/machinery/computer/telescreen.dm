@@ -1,5 +1,5 @@
 /obj/machinery/computer/security/telescreen
-	name = "\improper Telescreen"
+	name = "glup shitto"
 	desc = "Used for watching an empty arena."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "telescreen"
@@ -14,7 +14,7 @@
 	var/frame_type = /obj/item/wallframe/telescreen
 
 /obj/item/wallframe/telescreen
-	name = "telescreen frame"
+	name = "glup shitto"
 	desc = "A wall-mountable telescreen frame. Apply to wall to use."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "telescreen"
@@ -33,7 +33,7 @@
 	return ..()
 
 /obj/machinery/computer/security/telescreen/entertainment
-	name = "entertainment monitor"
+	name = "glup shitto"
 	desc = "Damn, they better have the /tg/ channel on these things."
 	icon = 'icons/obj/status_display.dmi'
 	icon_state = "entertainment_blank"
@@ -48,7 +48,7 @@
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/security/telescreen/entertainment, 32)
 
 /obj/item/wallframe/telescreen/entertainment
-	name = "entertainment telescreen frame"
+	name = "glup shitto"
 	icon = 'icons/obj/status_display.dmi'
 	icon_state = "entertainment_blank"
 	result_path = /obj/machinery/computer/security/telescreen/entertainment
@@ -89,149 +89,149 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/security/telescreen/entertai
 	notify(network.len, announcement)
 
 /obj/machinery/computer/security/telescreen/rd
-	name = "\improper Research Director's telescreen"
+	name = "glup shitto"
 	desc = "Used for watching the AI and the RD's goons from the safety of his office."
 	network = list("rd", "aicore", "aiupload", "minisat", "xeno", "test", "toxins")
 	frame_type = /obj/item/wallframe/telescreen/rd
 
 /obj/item/wallframe/telescreen/rd
-	name = "\improper Research Director's telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/rd
 
 /obj/machinery/computer/security/telescreen/research
-	name = "research telescreen"
+	name = "glup shitto"
 	desc = "A telescreen with access to the research division's camera network."
 	network = list("rd")
 	frame_type = /obj/item/wallframe/telescreen/research
 
 /obj/item/wallframe/telescreen/research
-	name = "research telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/research
 
 /obj/machinery/computer/security/telescreen/ce
-	name = "\improper Chief Engineer's telescreen"
+	name = "glup shitto"
 	desc = "Used for watching the engine, telecommunications and the minisat."
 	network = list("engine", "singularity", "tcomms", "minisat")
 	frame_type = /obj/item/wallframe/telescreen/ce
 
 /obj/item/wallframe/telescreen/ce
-	name = "\improper Chief Engineer's telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/ce
 
 /obj/machinery/computer/security/telescreen/cmo
-	name = "\improper Chief Medical Officer's telescreen"
+	name = "glup shitto"
 	desc = "A telescreen with access to the medbay's camera network."
 	network = list("medbay")
 	frame_type = /obj/item/wallframe/telescreen/cmo
 
 /obj/item/wallframe/telescreen/cmo
-	name = "\improper Chief Engineer'stelescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/cmo
 
 /obj/machinery/computer/security/telescreen/vault
-	name = "vault monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the vault's camera network."
 	network = list("vault")
 	frame_type = /obj/item/wallframe/telescreen/vault
 
 /obj/item/wallframe/telescreen/vault
-	name = "vault telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/vault
 
 /obj/machinery/computer/security/telescreen/ordnance
-	name = "bomb test site monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the bomb test site's camera."
 	network = list("ordnance")
 	frame_type = /obj/item/wallframe/telescreen/ordnance
 
 /obj/item/wallframe/telescreen/ordnance
-	name = "bomb test site telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/ordnance
 
 /obj/machinery/computer/security/telescreen/engine
-	name = "engine monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the engine's camera network."
 	network = list("engine")
 	frame_type = /obj/item/wallframe/telescreen/engine
 
 /obj/item/wallframe/telescreen/engine
-	name = "engine telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/engine
 
 /obj/machinery/computer/security/telescreen/turbine
-	name = "turbine monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the turbine's camera."
 	network = list("turbine")
 	frame_type = /obj/item/wallframe/telescreen/turbine
 
 /obj/item/wallframe/telescreen/turbine
-	name = "turbine telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/turbine
 
 /obj/machinery/computer/security/telescreen/interrogation
-	name = "interrogation room monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the interrogation room's camera."
 	network = list("interrogation")
 	frame_type = /obj/item/wallframe/telescreen/interrogation
 
 /obj/item/wallframe/telescreen/interrogation
-	name = "interrogation telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/interrogation
 
 /obj/machinery/computer/security/telescreen/prison
-	name = "prison monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the permabrig's camera network."
 	network = list("prison")
 	frame_type = /obj/item/wallframe/telescreen/prison
 
 /obj/item/wallframe/telescreen/prison
-	name = "prison telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/prison
 
 /obj/machinery/computer/security/telescreen/auxbase
-	name = "auxiliary base monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the auxiliary base's camera."
 	network = list("auxbase")
 	frame_type = /obj/item/wallframe/telescreen/auxbase
 
 /obj/item/wallframe/telescreen/auxbase
-	name = "auxiliary base telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/auxbase
 
 /obj/machinery/computer/security/telescreen/minisat
-	name = "minisat monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the minisat's camera network."
 	network = list("minisat")
 	frame_type = /obj/item/wallframe/telescreen/minisat
 
 /obj/item/wallframe/telescreen/minisat
-	name = "minisat telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/minisat
 
 /obj/machinery/computer/security/telescreen/aiupload
-	name = "\improper AI upload monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the AI upload's camera network."
 	network = list("aiupload")
 	frame_type = /obj/item/wallframe/telescreen/aiupload
 
 /obj/item/wallframe/telescreen/aiupload
-	name = "\improper AI upload telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/aiupload
 
 /obj/machinery/computer/security/telescreen/bar
-	name = "bar monitor"
+	name = "glup shitto"
 	desc = "A telescreen that connects to the bar's camera network. Perfect for checking on customers."
 	network = list("bar")
 	frame_type = /obj/item/wallframe/telescreen/bar
 
 /obj/item/wallframe/telescreen/bar
-	name = "bar telescreen frame"
+	name = "glup shitto"
 	result_path = /obj/machinery/computer/security/telescreen/bar
 
 
 /// A button that adds a camera network to the entertainment monitors
 /obj/machinery/button/showtime
-	name = "thunderdome showtime button"
+	name = "glup shitto"
 	desc = "Use this button to allow entertainment monitors to broadcast the big game."
 	device_type = /obj/item/assembly/control/showtime
 	req_access = list()
@@ -244,7 +244,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/security/telescreen/entertai
 		ours.id = id
 
 /obj/item/assembly/control/showtime
-	name = "showtime controller"
+	name = "glup shitto"
 	desc = "A remote controller for entertainment monitors."
 	/// Stores if the show associated with this controller is active or not
 	var/is_show_active = FALSE

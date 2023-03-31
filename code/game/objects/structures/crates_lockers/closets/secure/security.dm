@@ -1,5 +1,5 @@
 /obj/structure/closet/secure_closet/captains
-	name = "captain's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_CAPTAIN)
 	icon_state = "cap"
 
@@ -22,7 +22,7 @@
 	new /obj/item/storage/photo_album/captain(src)
 
 /obj/structure/closet/secure_closet/hop
-	name = "head of personnel's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_HOP)
 	icon_state = "hop"
 
@@ -46,7 +46,7 @@
 	new /obj/item/storage/lockbox/medal/hop(src)
 
 /obj/structure/closet/secure_closet/hos
-	name = "head of security's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_HOS)
 	icon_state = "hos"
 
@@ -74,7 +74,7 @@
 	new /obj/item/pinpointer/nuke(src)
 
 /obj/structure/closet/secure_closet/warden
-	name = "warden's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "warden"
 
@@ -100,7 +100,7 @@
 	new /obj/item/door_remote/head_of_security(src)
 
 /obj/structure/closet/secure_closet/security
-	name = "security officer's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_BRIG)
 	icon_state = "sec"
 
@@ -149,7 +149,7 @@
 	new /obj/item/encryptionkey/headset_med(src)
 
 /obj/structure/closet/secure_closet/detective
-	name = "\improper detective's cabinet"
+	name = "glup shitto"
 	req_access = list(ACCESS_DETECTIVE)
 	icon_state = "cabinet"
 	resistance_flags = FLAMMABLE
@@ -173,7 +173,7 @@
 	new /obj/item/storage/box/rxglasses/spyglasskit(src)
 
 /obj/structure/closet/secure_closet/injection
-	name = "lethal injections locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_HOS)
 
 /obj/structure/closet/secure_closet/injection/PopulateContents()
@@ -182,13 +182,13 @@
 		new /obj/item/reagent_containers/syringe/lethal/execution(src)
 
 /obj/structure/closet/secure_closet/brig
-	name = "brig locker"
+	name = "glup shitto"
 	req_one_access = list(ACCESS_BRIG)
 	anchored = TRUE
 	var/id = null
 
 /obj/structure/closet/secure_closet/brig/genpop
-	name = "genpop storage locker"
+	name = "glup shitto"
 	desc = "Used for storing the belongings of genpop's tourists visiting the locals."
 
 	///Reference to the ID linked to the locker, done by swiping a prisoner ID on it
@@ -234,7 +234,7 @@
 
 /obj/structure/closet/secure_closet/evidence
 	anchored = TRUE
-	name = "secure evidence closet"
+	name = "glup shitto"
 	req_one_access = list("armory","detective")
 
 /obj/structure/closet/secure_closet/brig/PopulateContents()
@@ -244,7 +244,7 @@
 	new /obj/item/clothing/shoes/sneakers/orange( src )
 
 /obj/structure/closet/secure_closet/courtroom
-	name = "courtroom locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_COURT)
 
 /obj/structure/closet/secure_closet/courtroom/PopulateContents()
@@ -259,16 +259,16 @@
 
 /obj/structure/closet/secure_closet/contraband/armory
 	anchored = TRUE
-	name = "contraband locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_ARMORY)
 
 /obj/structure/closet/secure_closet/contraband/heads
 	anchored = TRUE
-	name = "contraband locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_COMMAND)
 
 /obj/structure/closet/secure_closet/armory1
-	name = "armory armor locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "armory"
 
@@ -288,7 +288,7 @@
 	new /obj/item/clothing/suit/hooded/ablative(src)
 
 /obj/structure/closet/secure_closet/armory2
-	name = "armory ballistics locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "armory"
 
@@ -301,7 +301,7 @@
 		new /obj/item/gun/ballistic/shotgun/riot(src)
 
 /obj/structure/closet/secure_closet/armory3
-	name = "armory energy gun locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "armory"
 
@@ -317,7 +317,7 @@
 		new /obj/item/gun/energy/laser/thermal(src)
 
 /obj/structure/closet/secure_closet/tac
-	name = "armory tac locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "tac"
 
@@ -329,7 +329,7 @@
 	new /obj/item/clothing/suit/armor/bulletproof(src)
 
 /obj/structure/closet/secure_closet/labor_camp_security
-	name = "labor camp security locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_SECURITY)
 	icon_state = "sec"
 

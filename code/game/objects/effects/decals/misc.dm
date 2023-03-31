@@ -1,6 +1,6 @@
 //Used by spraybottles.
 /obj/effect/decal/chempuff
-	name = "chemicals"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/chempuff.dmi'
 	pass_flags = PASSTABLE | PASSGRILLE
 	layer = FLY_LAYER
@@ -84,7 +84,7 @@
 		end_life(source)
 
 /obj/effect/decal/fakelattice
-	name = "lattice"
+	name = "glup shitto"
 	desc = "A lightweight support lattice."
 	icon = 'icons/obj/smooth_structures/lattice.dmi'
 	icon_state = "lattice-255"

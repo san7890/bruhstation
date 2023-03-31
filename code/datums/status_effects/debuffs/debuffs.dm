@@ -219,7 +219,7 @@
 #undef HEALING_SLEEP_DEFAULT
 
 /atom/movable/screen/alert/status_effect/asleep
-	name = "Asleep"
+	name = "glup shitto"
 	desc = "You've fallen asleep. Wait a bit and you should wake up. Unless you don't, considering how helpless you are."
 	icon_state = "asleep"
 
@@ -272,7 +272,7 @@
 	return ..()
 
 /atom/movable/screen/alert/status_effect/stasis
-	name = "Stasis"
+	name = "glup shitto"
 	desc = "Your biological functions have halted. You could live forever this way, but it's pretty boring."
 	icon_state = "stasis"
 
@@ -283,7 +283,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/his_wrath
 
 /atom/movable/screen/alert/status_effect/his_wrath
-	name = "His Wrath"
+	name = "glup shitto"
 	desc = "You fled from His Grace instead of feeding Him, and now you suffer."
 	icon_state = "his_grace"
 	alerttooltipstyle = "hisgrace"
@@ -522,7 +522,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/trance
 
 /atom/movable/screen/alert/status_effect/trance
-	name = "Trance"
+	name = "glup shitto"
 	desc = "Everything feels so distant, and you can feel your thoughts forming loops inside your head..."
 	icon_state = "high"
 
@@ -651,7 +651,7 @@
 			H.adjust_jitter(10 SECONDS)
 
 /atom/movable/screen/alert/status_effect/convulsing
-	name = "Shaky Hands"
+	name = "glup shitto"
 	desc = "You've been zapped with something and your hands can't stop shaking! You can't seem to hold on to anything."
 	icon_state = "convulsing"
 
@@ -674,7 +674,7 @@
 	H.something_horrible(kill_either_way)
 
 /atom/movable/screen/alert/status_effect/dna_melt
-	name = "Genetic Breakdown"
+	name = "glup shitto"
 	desc = "I don't feel so good. Your body can't handle the mutations! You have one minute to remove your mutations, or you will be met with a horrible fate."
 	icon_state = "dna_melt"
 
@@ -697,7 +697,7 @@
 	owner.forceMove(T)
 
 /atom/movable/screen/alert/status_effect/go_away
-	name = "TO THE STARS AND BEYOND!"
+	name = "glup shitto"
 	desc = "I must go, my people need me!"
 	icon_state = "high"
 
@@ -832,7 +832,7 @@
 		victim.remove_status_effect(/datum/status_effect/ants) //If this person has no more ants on them or are dead, they are no longer affected.
 
 /atom/movable/screen/alert/status_effect/ants
-	name = "Ants!"
+	name = "glup shitto"
 	desc = span_warning("JESUS FUCKING CHRIST! CLICK TO GET THOSE THINGS OFF!")
 	icon_state = "antalert"
 
@@ -877,7 +877,7 @@
 	status_type = STATUS_EFFECT_REPLACE
 
 /atom/movable/screen/alert/status_effect/freezing_blast
-	name = "Freezing Blast"
+	name = "glup shitto"
 	desc = "You've been struck by a freezing blast! Your body moves more slowly!"
 	icon_state = "frozen"
 
@@ -897,7 +897,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/discoordinated
 
 /atom/movable/screen/alert/status_effect/discoordinated
-	name = "Discoordinated"
+	name = "glup shitto"
 	desc = "You can't seem to properly use anything..."
 	icon_state = "convulsing"
 

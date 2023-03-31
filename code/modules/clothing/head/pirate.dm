@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/pirate
-	name = "pirate hat"
+	name = "glup shitto"
 	desc = "Yarr."
 	icon_state = "pirate"
 	inhand_icon_state = null
@@ -41,12 +41,12 @@
 	acid = 75
 
 /obj/item/clothing/head/costume/pirate/captain
-	name = "pirate captain hat"
+	name = "glup shitto"
 	icon_state = "hgpiratecap"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/costume/pirate/bandana
-	name = "pirate bandana"
+	name = "glup shitto"
 	desc = "Yarr."
 	icon_state = "bandana"
 	inhand_icon_state = null

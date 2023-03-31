@@ -3,7 +3,7 @@
 * Highlights low purity reactions and and reactions that don't happen
 */
 /obj/machinery/chem_recipe_debug
-	name = "chemical reaction tester"
+	name = "glup shitto"
 	density = TRUE
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "HPLC_debug"

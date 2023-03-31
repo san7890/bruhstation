@@ -1,5 +1,5 @@
 /obj/item/ammo_casing
-	name = "bullet casing"
+	name = "glup shitto"
 	desc = "A bullet casing."
 	icon = 'icons/obj/weapons/guns/ammo.dmi'
 	icon_state = "s-casing"
@@ -35,7 +35,7 @@
 	var/harmful = TRUE
 
 /obj/item/ammo_casing/spent
-	name = "spent bullet casing"
+	name = "glup shitto"
 	loaded_projectile = null
 
 /obj/item/ammo_casing/Initialize(mapload)

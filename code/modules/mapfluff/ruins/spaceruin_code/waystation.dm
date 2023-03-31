@@ -1,23 +1,23 @@
 /// Dorms Room Papers
 /obj/item/paper/fluff/ruins/waystation/menu
-	name = "This week's food menu"
+	name = "glup shitto"
 	default_raw_text = "Here is what Corporate sent us for this week, The usual.<BR><BR><B>Monday</B> - Pizza and Mac & Cheese<BR><B>Tuesday</B> - Space Carp Sashimi & Sushi<BR><B>ednesday</B> - Garlic-and-oil nizaya & Khinkali<BR><B>Thursday</B> - QM's birthday, Cake and a bunch of Pastries<BR><B>Frida</B>y - Fish & Chips<BR><BR>Plus whatever kind of booze and food that the techies manage to \"accidentally\" steal from the crates (This is a reminder) -Cook"
 
 /obj/item/paper/fluff/ruins/waystation/toilet
-	name = "REMINDER!!"
+	name = "glup shitto"
 	default_raw_text = "I already told you fucks verbally but none of you listened, Flush the goddamn toilet after you use it!<BR>I'm the only guy that cleans things around here and you need to appreciate it! -Grey"
 
 /// Cargo Bay Paper
 /obj/item/paper/fluff/ruins/waystation/sop
-	name = "S.O.P Reminder"
+	name = "glup shitto"
 	default_raw_text= "Quick reminder for the new SOP guidelines.<BR>Please remember to haul all security-locked crates and other high-value items into secure storage. I don't care if you steal from the other crates, those paperwork is on you. Just don't steal anything that would get all of us in trouble, alright?"
 /// Vault Paper
 /obj/item/paper/fluff/ruins/waystation/memo
-	name = "Memo"
+	name = "glup shitto"
 	default_raw_text= "Please keep the documents from the malfunctioning shuttle safe until someone picks it up. We really shouldn't have this kind of stuff on us."
 /// Syndicate Holodisk
 /obj/item/disk/holodisk/ruin/waystation
-	name = "Ops NUCLEUS - Briefing"
+	name = "glup shitto"
 	preset_image_type = /datum/preset_holoimage/syndicatebattlecruisercaptain
 	preset_record_text = {"
 	NAME Raymond Johnson
@@ -40,10 +40,10 @@
 
 // Outfits
 /datum/outfit/waystation/
-	name = "improper Waystation Outfit"
+	name = "glup shitto"
 
 /datum/outfit/waystation/cargohauler
-	name = "Waystation Cargo Hauler"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/away/waystation/cargo_technician
 	uniform = /obj/item/clothing/under/rank/cargo/tech
@@ -51,7 +51,7 @@
 	ears = /obj/item/radio/headset/headset_cargo
 
 /datum/outfit/waystation/qm
-	name = "Waystation Quartermaster"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/silver
 	id_trim = /datum/id_trim/away/waystation/quartermaster
 	uniform = /obj/item/clothing/under/rank/cargo/qm
@@ -61,7 +61,7 @@
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 
 /datum/outfit/waystation/nanotrasenofficer
-	name = "Waystation Security Officer"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/away/waystation/security
 	uniform = /obj/item/clothing/under/rank/security/officer
@@ -74,13 +74,13 @@
 	l_pocket = /obj/item/ammo_box/magazine/m45
 // Corpse Spawner
 /obj/effect/mob_spawn/corpse/human/waystation/cargo_technician
-	name = "Waystation Cargo Hauler"
+	name = "glup shitto"
 	outfit = /datum/outfit/waystation/cargohauler
 
 /obj/effect/mob_spawn/corpse/human/waystation/quartermaster
-	name = "Waystation Quartermaster"
+	name = "glup shitto"
 	outfit = /datum/outfit/waystation/qm
 
 /obj/effect/mob_spawn/corpse/human/waystation/nanotrasenofficer
-	name = "Waystation Security Officer"
+	name = "glup shitto"
 	outfit = /datum/outfit/waystation/nanotrasenofficer

@@ -43,7 +43,7 @@
 	return SHELTER_DEPLOY_ALLOWED
 
 /datum/map_template/shelter/alpha
-	name = "Shelter Alpha"
+	name = "glup shitto"
 	shelter_id = "shelter_alpha"
 	description = "A cosy self-contained pressurized shelter, with \
 		built-in navigation, entertainment, medical facilities and a \
@@ -57,7 +57,7 @@
 	banned_objects = typecacheof(/obj/structure/stone_tile)
 
 /datum/map_template/shelter/beta
-	name = "Shelter Beta"
+	name = "glup shitto"
 	shelter_id = "shelter_beta"
 	description = "An extremely luxurious shelter, containing all \
 		the amenities of home, including carpeted floors, hot and cold \
@@ -72,7 +72,7 @@
 	banned_objects = typecacheof(/obj/structure/stone_tile)
 
 /datum/map_template/shelter/charlie
-	name = "Shelter Charlie"
+	name = "glup shitto"
 	shelter_id = "shelter_charlie"
 	description = "A luxury elite bar which holds an entire bar \
 		along with two vending machines, tables, and a restroom that \

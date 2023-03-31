@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/projectile/fireball
-	name = "Fireball"
+	name = "glup shitto"
 	desc = "This spell fires an explosive fireball at a target."
 	button_icon_state = "fireball0"
 

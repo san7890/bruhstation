@@ -8,7 +8,7 @@
 #define HIGH_PRESSURE 3
 
 /obj/item/pneumatic_cannon
-	name = "pneumatic cannon"
+	name = "glup shitto"
 	desc = "A gas-powered cannon that can fire any object loaded into it."
 	w_class = WEIGHT_CLASS_BULKY
 	force = 8 //Very heavy
@@ -263,7 +263,7 @@
 		update_appearance()
 
 /obj/item/pneumatic_cannon/ghetto //Obtainable by improvised methods; more gas per use, less capacity
-	name = "improvised pneumatic cannon"
+	name = "glup shitto"
 	desc = "A gas-powered, object-firing cannon made out of common parts."
 	force = 5
 	maxWeightClass = 10
@@ -306,7 +306,7 @@
 		CHECK_TICK
 
 /obj/item/pneumatic_cannon/pie
-	name = "pie cannon"
+	name = "glup shitto"
 	desc = "Load cream pie for optimal results."
 	force = 10
 	icon_state = "piecannon"
@@ -331,7 +331,7 @@
 	maxWeightClass = 60 //20 pies.
 
 /obj/item/pneumatic_cannon/pie/selfcharge/cyborg
-	name = "low velocity pie cannon"
+	name = "glup shitto"
 	automatic = FALSE
 	charge_type = /obj/item/food/pie/cream/nostun
 	maxWeightClass = 6 //2 pies

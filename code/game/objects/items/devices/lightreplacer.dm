@@ -32,7 +32,7 @@
 #define BULB_SHARDS_REQUIRED 4
 
 /obj/item/lightreplacer
-	name = "light replacer"
+	name = "glup shitto"
 	desc = "A device to automatically replace lights. Refill with broken or working light bulbs, or sheets of glass."
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "lightreplacer"
@@ -265,7 +265,7 @@
 	ADD_TRAIT(src, TRAIT_NODROP, CYBORG_ITEM_TRAIT)
 
 /obj/item/lightreplacer/blue
-	name = "bluespace light replacer"
+	name = "glup shitto"
 	desc = "A modified light replacer that zaps lights into place. Refill with broken or working lightbulbs, or sheets of glass."
 	icon_state = "lightreplacer_blue"
 	bluespace_toggle = TRUE

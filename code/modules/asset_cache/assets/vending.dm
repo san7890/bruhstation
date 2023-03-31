@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/vending
-	name = "vending"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/vending/create_spritesheets()
 	// initialising the list of items we need

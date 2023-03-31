@@ -5,7 +5,7 @@
 
 /datum/crafting_recipe/food/donut
 	time = 15
-	name = "Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/sugar = 1,
 		/obj/item/food/pastrybase = 1
@@ -15,7 +15,7 @@
 
 
 /datum/crafting_recipe/food/donut/chaos
-	name = "Chaos donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/frostoil = 5,
 		/datum/reagent/consumable/capsaicin = 5,
@@ -25,7 +25,7 @@
 
 /datum/crafting_recipe/food/donut/meat
 	time = 15
-	name = "Meat donut"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/meat/rawcutlet = 1,
 		/obj/item/food/pastrybase = 1
@@ -33,7 +33,7 @@
 	result = /obj/item/food/donut/meat
 
 /datum/crafting_recipe/food/donut/jelly
-	name = "Jelly donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/berryjuice = 5,
 		/obj/item/food/pastrybase = 1
@@ -41,7 +41,7 @@
 	result = /obj/item/food/donut/jelly/plain
 
 /datum/crafting_recipe/food/donut/slimejelly
-	name = "Slime jelly donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/toxin/slimejelly = 5,
 		/obj/item/food/pastrybase = 1
@@ -50,7 +50,7 @@
 
 
 /datum/crafting_recipe/food/donut/berry
-	name = "Berry Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/berryjuice = 3,
 		/obj/item/food/donut/plain = 1
@@ -58,7 +58,7 @@
 	result = /obj/item/food/donut/berry
 
 /datum/crafting_recipe/food/donut/trumpet
-	name = "Spaceman's Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/medicine/polypyr = 3,
 		/obj/item/food/donut/plain = 1
@@ -67,7 +67,7 @@
 	result = /obj/item/food/donut/trumpet
 
 /datum/crafting_recipe/food/donut/apple
-	name = "Apple Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/applejuice = 3,
 		/obj/item/food/donut/plain = 1
@@ -75,7 +75,7 @@
 	result = /obj/item/food/donut/apple
 
 /datum/crafting_recipe/food/donut/caramel
-	name = "Caramel Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/caramel = 3,
 		/obj/item/food/donut/plain = 1
@@ -83,7 +83,7 @@
 	result = /obj/item/food/donut/caramel
 
 /datum/crafting_recipe/food/donut/choco
-	name = "Chocolate Donut"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/obj/item/food/donut/plain = 1
@@ -91,7 +91,7 @@
 	result = /obj/item/food/donut/choco
 
 /datum/crafting_recipe/food/donut/blumpkin
-	name = "Blumpkin Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/blumpkinjuice = 3,
 		/obj/item/food/donut/plain = 1
@@ -99,7 +99,7 @@
 	result = /obj/item/food/donut/blumpkin
 
 /datum/crafting_recipe/food/donut/bungo
-	name = "Bungo Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/bungojuice = 3,
 		/obj/item/food/donut/plain = 1
@@ -107,7 +107,7 @@
 	result = /obj/item/food/donut/bungo
 
 /datum/crafting_recipe/food/donut/matcha
-	name = "Matcha Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/toxin/teapowder = 3,
 		/obj/item/food/donut/plain = 1
@@ -115,7 +115,7 @@
 	result = /obj/item/food/donut/matcha
 
 /datum/crafting_recipe/food/donut/laugh
-	name = "Sweet Pea Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/laughsyrup = 3,
 		/obj/item/food/donut/plain = 1
@@ -125,7 +125,7 @@
 ////////////////////////////////////////////////////JELLY DONUTS///////////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/donut/jelly/berry
-	name = "Berry Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/berryjuice = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -133,7 +133,7 @@
 	result = /obj/item/food/donut/jelly/berry
 
 /datum/crafting_recipe/food/donut/jelly/trumpet
-	name = "Spaceman's Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/medicine/polypyr = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -142,7 +142,7 @@
 	result = /obj/item/food/donut/jelly/trumpet
 
 /datum/crafting_recipe/food/donut/jelly/apple
-	name = "Apple Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/applejuice = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -150,7 +150,7 @@
 	result = /obj/item/food/donut/jelly/apple
 
 /datum/crafting_recipe/food/donut/jelly/caramel
-	name = "Caramel Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/caramel = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -158,7 +158,7 @@
 	result = /obj/item/food/donut/jelly/caramel
 
 /datum/crafting_recipe/food/donut/jelly/choco
-	name = "Chocolate Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/obj/item/food/donut/jelly/plain = 1
@@ -166,7 +166,7 @@
 	result = /obj/item/food/donut/jelly/choco
 
 /datum/crafting_recipe/food/donut/jelly/blumpkin
-	name = "Blumpkin Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/blumpkinjuice = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -174,7 +174,7 @@
 	result = /obj/item/food/donut/jelly/blumpkin
 
 /datum/crafting_recipe/food/donut/jelly/bungo
-	name = "Bungo Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/bungojuice = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -182,7 +182,7 @@
 	result = /obj/item/food/donut/jelly/bungo
 
 /datum/crafting_recipe/food/donut/jelly/matcha
-	name = "Matcha Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/toxin/teapowder = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -190,7 +190,7 @@
 	result = /obj/item/food/donut/jelly/matcha
 
 /datum/crafting_recipe/food/donut/jelly/laugh
-	name = "Sweet Pea Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/laughsyrup = 3,
 		/obj/item/food/donut/jelly/plain = 1
@@ -200,7 +200,7 @@
 ////////////////////////////////////////////////////SLIME  DONUTS///////////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/donut/slimejelly/berry
-	name = "Berry Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/berryjuice = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -208,7 +208,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/berry
 
 /datum/crafting_recipe/food/donut/slimejelly/trumpet
-	name = "Spaceman's Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/medicine/polypyr = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -217,7 +217,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/trumpet
 
 /datum/crafting_recipe/food/donut/slimejelly/apple
-	name = "Apple Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/applejuice = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -225,7 +225,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/apple
 
 /datum/crafting_recipe/food/donut/slimejelly/caramel
-	name = "Caramel Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/caramel = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -233,7 +233,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/caramel
 
 /datum/crafting_recipe/food/donut/slimejelly/choco
-	name = "Chocolate Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -241,7 +241,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/choco
 
 /datum/crafting_recipe/food/donut/slimejelly/blumpkin
-	name = "Blumpkin Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/blumpkinjuice = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -249,7 +249,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/blumpkin
 
 /datum/crafting_recipe/food/donut/slimejelly/bungo
-	name = "Bungo Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/bungojuice = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -257,7 +257,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/bungo
 
 /datum/crafting_recipe/food/donut/slimejelly/matcha
-	name = "Matcha Slime Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/toxin/teapowder = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -265,7 +265,7 @@
 	result = /obj/item/food/donut/jelly/slimejelly/matcha
 
 /datum/crafting_recipe/food/donut/slimejelly/laugh
-	name = "Sweet Pea Jelly Donut"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/laughsyrup = 3,
 		/obj/item/food/donut/jelly/slimejelly/plain = 1
@@ -276,7 +276,7 @@
 
 /datum/crafting_recipe/food/waffles
 	time = 15
-	name = "Waffles"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 2
 	)
@@ -285,7 +285,7 @@
 
 
 /datum/crafting_recipe/food/soylenviridians
-	name = "Soylent viridians"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 2,
 		/obj/item/food/grown/soybeans = 1
@@ -294,7 +294,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/soylentgreen
-	name = "Soylent green"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 2,
 		/obj/item/food/meat/slab/human = 2
@@ -304,7 +304,7 @@
 
 
 /datum/crafting_recipe/food/rofflewaffles
-	name = "Roffle waffles"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/drug/mushroomhallucinogen = 5,
 		/obj/item/food/pastrybase = 2
@@ -316,7 +316,7 @@
 
 /datum/crafting_recipe/food/donkpocket
 	time = 15
-	name = "Donk-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/meatball = 1
@@ -326,7 +326,7 @@
 
 /datum/crafting_recipe/food/dankpocket
 	time = 15
-	name = "Dank-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/cannabis = 1
@@ -336,7 +336,7 @@
 
 /datum/crafting_recipe/food/donkpocket/spicy
 	time = 15
-	name = "Spicy-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/meatball = 1,
@@ -347,7 +347,7 @@
 
 /datum/crafting_recipe/food/donkpocket/teriyaki
 	time = 15
-	name = "Teriyaki-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/meatball = 1,
@@ -358,7 +358,7 @@
 
 /datum/crafting_recipe/food/donkpocket/pizza
 	time = 15
-	name = "Pizza-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/meatball = 1,
@@ -369,7 +369,7 @@
 
 /datum/crafting_recipe/food/donkpocket/honk
 	time = 15
-	name = "Honk-Pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/banana = 1,
@@ -380,7 +380,7 @@
 
 /datum/crafting_recipe/food/donkpocket/berry
 	time = 15
-	name = "Berry-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/berries = 1
@@ -390,7 +390,7 @@
 
 /datum/crafting_recipe/food/donkpocket/gondola
 	time = 15
-	name = "Gondola-pocket"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/meatball = 1,
@@ -403,7 +403,7 @@
 
 /datum/crafting_recipe/food/muffin
 	time = 15
-	name = "Muffin"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/obj/item/food/pastrybase = 1
@@ -412,7 +412,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/berrymuffin
-	name = "Berry muffin"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/obj/item/food/pastrybase = 1,
@@ -422,7 +422,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/booberrymuffin
-	name = "Booberry muffin"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/obj/item/food/pastrybase = 1,
@@ -436,7 +436,7 @@
 
 
 /datum/crafting_recipe/food/khachapuri
-	name = "Khachapuri"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/eggyolk = 2,
 		/datum/reagent/consumable/eggwhite = 4,
@@ -448,7 +448,7 @@
 
 /datum/crafting_recipe/food/sugarcookie
 	time = 15
-	name = "Sugar cookie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/sugar = 5,
 		/obj/item/food/pastrybase = 1
@@ -458,7 +458,7 @@
 
 /datum/crafting_recipe/food/spookyskull
 	time = 15
-	name = "Skull cookie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/datum/reagent/consumable/sugar = 5,
@@ -469,7 +469,7 @@
 
 /datum/crafting_recipe/food/spookycoffin
 	time = 15
-	name = "Coffin cookie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/datum/reagent/consumable/sugar = 5,
@@ -480,7 +480,7 @@
 
 /datum/crafting_recipe/food/fortunecookie
 	time = 15
-	name = "Fortune cookie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/paper = 1
@@ -493,7 +493,7 @@
 
 /datum/crafting_recipe/food/poppypretzel
 	time = 15
-	name = "Poppy pretzel"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/seeds/poppy = 1,
 		/obj/item/food/pastrybase = 1
@@ -503,7 +503,7 @@
 
 /datum/crafting_recipe/food/plumphelmetbiscuit
 	time = 15
-	name = "Plumphelmet biscuit"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/mushroom/plumphelmet = 1
@@ -513,7 +513,7 @@
 
 /datum/crafting_recipe/food/cracker
 	time = 15
-	name = "Cracker"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/salt = 1,
 		/obj/item/food/pastrybase = 1,
@@ -522,7 +522,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/chococornet
-	name = "Choco cornet"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/salt = 1,
 		/obj/item/food/pastrybase = 1,
@@ -532,7 +532,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/oatmealcookie
-	name = "Oatmeal cookie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/oat = 1
@@ -541,7 +541,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/raisincookie
-	name = "Raisin cookie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/no_raisin = 1,
 		/obj/item/food/pastrybase = 1,
@@ -551,7 +551,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/cherrycupcake
-	name = "Cherry cupcake"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/cherries = 1
@@ -560,7 +560,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/bluecherrycupcake
-	name = "Blue cherry cupcake"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/obj/item/food/grown/bluecherries = 1
@@ -569,7 +569,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/honeybun
-	name = "Honey bun"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/datum/reagent/consumable/honey = 5
@@ -578,7 +578,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/cannoli
-	name = "Cannoli"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/datum/reagent/consumable/milk = 1,
@@ -588,7 +588,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/peanut_butter_cookie
-	name = "Peanut butter cookie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/peanut_butter = 5,
 		/obj/item/food/pastrybase = 1
@@ -597,7 +597,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/raw_brownie_batter
-	name = "Raw brownie batter"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/flour = 5,
 		/datum/reagent/consumable/sugar = 5,
@@ -609,7 +609,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/peanut_butter_brownie_batter
-	name = "Raw peanut butter brownie batter"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/flour = 5,
 		/datum/reagent/consumable/sugar = 5,
@@ -622,7 +622,7 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/crunchy_peanut_butter_tart
-	name = "Crunchy peanut butter tart"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pastrybase = 1,
 		/datum/reagent/consumable/peanut_butter = 5,

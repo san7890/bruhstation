@@ -1,6 +1,6 @@
 /datum/disease/advance/sentient_disease
 	form = "Virus"
-	name = "Sentient Virus"
+	name = "glup shitto"
 	desc = "An apparently sentient virus, extremely adaptable and resistant to outside sources of mutation."
 	viable_mobtypes = list(/mob/living/carbon/human)
 	mutable = FALSE

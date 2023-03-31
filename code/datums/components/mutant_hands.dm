@@ -142,7 +142,7 @@
  * Implements nothing except changing its icon state between left and right depending on hand slot equipped in
  */
 /obj/item/mutant_hand
-	name = "mutant hand"
+	name = "glup shitto"
 	desc = "Won't somebody give me a hand?"
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "bloodhand_left"

@@ -4,7 +4,7 @@
 /////////////////////////////////////////
 
 /datum/design/fire_extinguisher_advanced
-	name = "Advanced Fire Extinguisher"
+	name = "glup shitto"
 	id = "adv_fire_extinguisher"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/titanium = 500, /datum/material/gold = 500)
@@ -15,7 +15,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/handdrill
-	name = "Hand Drill"
+	name = "glup shitto"
 	desc = "A small electric hand drill with an interchangeable screwdriver and bolt bit"
 	id = "handdrill"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -27,7 +27,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/jawsoflife
-	name = "Jaws of Life"
+	name = "glup shitto"
 	desc = "A small, compact Jaws of Life with an interchangeable pry jaws and cutting jaws"
 	id = "jawsoflife" // added one more requirment since the Jaws of Life are a bit OP
 	build_path = /obj/item/crowbar/power
@@ -40,7 +40,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/exwelder
-	name = "Experimental Welding Tool"
+	name = "glup shitto"
 	desc = "An experimental welder capable of self-fuel generation."
 	id = "exwelder"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -52,7 +52,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rangedanalyzer
-	name = "Experimental Long-range Gas Analyzer"
+	name = "glup shitto"
 	desc = "An experimental gas analyzer capable of operating at long distance"
 	id = "rangedanalyzer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -64,7 +64,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/rpd
-	name = "Rapid Pipe Dispenser (RPD)"
+	name = "glup shitto"
 	id = "rpd_loaded"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 75000, /datum/material/glass = 37500)
@@ -75,7 +75,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rcd_loaded
-	name = "Rapid Construction Device"
+	name = "glup shitto"
 	desc = "A tool that can construct and deconstruct walls, airlocks and floors on the fly."
 	id = "rcd_loaded"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -87,7 +87,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rtd_loaded
-	name = "Rapid Tiling Device"
+	name = "glup shitto"
 	desc = "A tool that can lay & destory floor tiles on the fly."
 	id = "rtd_loaded"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -99,7 +99,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rcd_ammo
-	name = "RCD Matter Cartridge"
+	name = "glup shitto"
 	id = "rcd_ammo"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 12000, /datum/material/glass = 8000)
@@ -110,7 +110,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rcd_upgrade/frames
-	name = "RCD frames designs upgrade"
+	name = "glup shitto"
 	desc = "Adds computer and machine frame designs to the RCD."
 	id = "rcd_upgrade_frames"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -122,7 +122,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rcd_upgrade/simple_circuits
-	name = "RCD simple circuits designs upgrade"
+	name = "glup shitto"
 	desc = "Adds the ability to produce simple circuits using the RCD."
 	id = "rcd_upgrade_simple_circuits"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -134,7 +134,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rcd_upgrade/furnishing
-	name = "RCD furnishing upgrade"
+	name = "glup shitto"
 	desc = "Adds the ability to furnish areas using the RCD."
 	id = "rcd_upgrade_furnishing"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -146,7 +146,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rcd_upgrade/silo_link
-	name = "Advanced RCD silo link upgrade"
+	name = "glup shitto"
 	desc = "Upgrades the RCD to be able to pull materials from the ore silo. The RCD must be linked to the silo using a multitool before it will function."
 	id = "rcd_upgrade_silo_link"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -158,7 +158,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rpd_upgrade/unwrench
-	name = "RPD unwrenching upgrade"
+	name = "glup shitto"
 	desc = "Adds reverse wrench mode to the RPD. Attention, due to budget cuts, the mode is hard linked to the destroy mode control button."
 	id = "rpd_upgrade_unwrench"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -170,7 +170,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/rld_mini
-	name = "Mini Rapid Light Device (MRLD)"
+	name = "glup shitto"
 	desc = "A tool that can portable and standing lighting orbs and glowsticks."
 	id = "rld_mini"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -182,7 +182,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/geneshears
-	name = "Botanogenetic Plant Shears"
+	name = "glup shitto"
 	desc = "A high tech, high fidelity pair of plant shears, capable of cutting genetic traits out of a plant."
 	id = "gene_shears"
 	build_path = /obj/item/geneshears
@@ -194,7 +194,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/plumbing_rcd_sci
-	name = "Research Plumbing Constructor"
+	name = "glup shitto"
 	id = "plumbing_rcd_sci"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 75000, /datum/material/glass = 37500, /datum/material/plastic = 1000)
@@ -205,7 +205,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/plumbing_rcd_service
-	name = "Service Plumbing Constructor"
+	name = "glup shitto"
 	id = "plumbing_rcd_service"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 75000, /datum/material/glass = 37500, /datum/material/plastic = 1000)
@@ -216,7 +216,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/biopsy_tool
-	name = "Biopsy Tool"
+	name = "glup shitto"
 	id = "biopsy_tool"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 4000, /datum/material/glass = 3000)
@@ -231,7 +231,7 @@
 /////////////////////////////////////////
 
 /datum/design/alienwrench
-	name = "Alien Wrench"
+	name = "glup shitto"
 	desc = "An advanced wrench obtained through Abductor technology."
 	id = "alien_wrench"
 	build_path = /obj/item/wrench/abductor
@@ -243,7 +243,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/alienwirecutters
-	name = "Alien Wirecutters"
+	name = "glup shitto"
 	desc = "Advanced wirecutters obtained through Abductor technology."
 	id = "alien_wirecutters"
 	build_path = /obj/item/wirecutters/abductor
@@ -255,7 +255,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/alienscrewdriver
-	name = "Alien Screwdriver"
+	name = "glup shitto"
 	desc = "An advanced screwdriver obtained through Abductor technology."
 	id = "alien_screwdriver"
 	build_path = /obj/item/screwdriver/abductor
@@ -267,7 +267,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/aliencrowbar
-	name = "Alien Crowbar"
+	name = "glup shitto"
 	desc = "An advanced crowbar obtained through Abductor technology."
 	id = "alien_crowbar"
 	build_path = /obj/item/crowbar/abductor
@@ -279,7 +279,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/alienwelder
-	name = "Alien Welding Tool"
+	name = "glup shitto"
 	desc = "An advanced welding tool obtained through Abductor technology."
 	id = "alien_welder"
 	build_path = /obj/item/weldingtool/abductor
@@ -291,7 +291,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/alienmultitool
-	name = "Alien Multitool"
+	name = "glup shitto"
 	desc = "An advanced multitool obtained through Abductor technology."
 	id = "alien_multitool"
 	build_path = /obj/item/multitool/abductor
@@ -307,7 +307,7 @@
 /////////////////////////////////////////
 
 /datum/design/alienscalpel
-	name = "Alien Scalpel"
+	name = "glup shitto"
 	desc = "An advanced scalpel obtained through Abductor technology."
 	id = "alien_scalpel"
 	build_path = /obj/item/scalpel/alien
@@ -319,7 +319,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/alienhemostat
-	name = "Alien Hemostat"
+	name = "glup shitto"
 	desc = "An advanced hemostat obtained through Abductor technology."
 	id = "alien_hemostat"
 	build_path = /obj/item/hemostat/alien
@@ -331,7 +331,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/alienretractor
-	name = "Alien Retractor"
+	name = "glup shitto"
 	desc = "An advanced retractor obtained through Abductor technology."
 	id = "alien_retractor"
 	build_path = /obj/item/retractor/alien
@@ -343,7 +343,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/aliensaw
-	name = "Alien Circular Saw"
+	name = "glup shitto"
 	desc = "An advanced surgical saw obtained through Abductor technology."
 	id = "alien_saw"
 	build_path = /obj/item/circular_saw/alien
@@ -355,7 +355,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/aliendrill
-	name = "Alien Drill"
+	name = "glup shitto"
 	desc = "An advanced drill obtained through Abductor technology."
 	id = "alien_drill"
 	build_path = /obj/item/surgicaldrill/alien
@@ -367,7 +367,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/aliencautery
-	name = "Alien Cautery"
+	name = "glup shitto"
 	desc = "An advanced cautery obtained through Abductor technology."
 	id = "alien_cautery"
 	build_path = /obj/item/cautery/alien
@@ -379,7 +379,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/wirebrush
-	name = "Wirebrush"
+	name = "glup shitto"
 	desc = "A tool to remove rust from walls."
 	id = "wirebrush"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
@@ -393,7 +393,7 @@
 	)
 
 /datum/design/bolter_wrench
-	name = "Bolter Wrench"
+	name = "glup shitto"
 	desc = "A wrench that can unbolt airlocks regardless of power status."
 	id = "bolter_wrench"
 	build_type = PROTOLATHE | AWAY_LATHE

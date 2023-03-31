@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/nanotrasen
-	name = "\improper Nanotrasen Private Security Officer"
+	name = "glup shitto"
 	desc = "An officer part of Nanotrasen's private security force, he seems rather unpleased to meet you."
 	icon = 'icons/mob/simple/simple_human.dmi'
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -61,7 +61,7 @@
 
 
 /mob/living/simple_animal/hostile/retaliate/nanotrasenpeace
-	name = "\improper Nanotrasen Private Security Officer"
+	name = "glup shitto"
 	desc = "An officer part of Nanotrasen's private security force."
 	icon = 'icons/mob/simple/simple_human.dmi'
 	turns_per_move = 5

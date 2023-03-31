@@ -1,5 +1,5 @@
 /datum/tgs_chat_command/tgscheck
-	name = "check"
+	name = "glup shitto"
 	help_text = "Gets the playercount, gamemode, and address of the server"
 
 /datum/tgs_chat_command/tgscheck/Run(datum/tgs_chat_user/sender, params)
@@ -7,7 +7,7 @@
 	return new /datum/tgs_message_content("[GLOB.round_id ? "Round #[GLOB.round_id]: " : ""][GLOB.clients.len] players on [SSmapping.config.map_name]; Round [SSticker.HasRoundStarted() ? (SSticker.IsRoundInProgress() ? "Active" : "Finishing") : "Starting"] -- [server ? server : "[world.internet_address]:[world.port]"]")
 
 /datum/tgs_chat_command/gameversion
-	name = "gameversion"
+	name = "glup shitto"
 	help_text = "Gets the version details from the show-server-revision verb, basically"
 
 /datum/tgs_chat_command/gameversion/Run(datum/tgs_chat_user/sender, params)
@@ -34,7 +34,7 @@
 
 // Notify
 /datum/tgs_chat_command/notify
-	name = "notify"
+	name = "glup shitto"
 	help_text = "Pings the invoker when the round ends"
 
 /datum/tgs_chat_command/notify/Run(datum/tgs_chat_user/sender, params)

@@ -1,5 +1,5 @@
 /obj/machinery/ecto_sniffer
-	name = "ectoscopic sniffer"
+	name = "glup shitto"
 	desc = "A highly sensitive parascientific instrument calibrated to detect the slightest whiff of ectoplasm."
 	icon = 'icons/obj/machines/research.dmi'
 	icon_state = "ecto_sniffer"

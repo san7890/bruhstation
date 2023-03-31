@@ -140,7 +140,7 @@
 
 //DEBUG FIELD ITEM
 /obj/item/multitool/field_debug
-	name = "strange multitool"
+	name = "glup shitto"
 	desc = "Seems to project a colored field!"
 	var/operating = FALSE
 	var/datum/proximity_monitor/advanced/debug/current = null

@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/syringe
-	name = "syringe"
+	name = "glup shitto"
 	desc = "A syringe that can hold up to 15 units."
 	icon = 'icons/obj/medical/syringe.dmi'
 	base_icon_state = "syringe"
@@ -157,42 +157,42 @@
 	return clamp(round((reagents.total_volume / volume * 15), 5), 1, 15)
 
 /obj/item/reagent_containers/syringe/epinephrine
-	name = "syringe (epinephrine)"
+	name = "glup shitto"
 	desc = "Contains epinephrine - used to stabilize patients."
 	list_reagents = list(/datum/reagent/medicine/epinephrine = 15)
 
 /obj/item/reagent_containers/syringe/multiver
-	name = "syringe (multiver)"
+	name = "glup shitto"
 	desc = "Contains multiver. Diluted with granibitaluri."
 	list_reagents = list(/datum/reagent/medicine/c2/multiver = 6, /datum/reagent/medicine/granibitaluri = 9)
 
 /obj/item/reagent_containers/syringe/convermol
-	name = "syringe (convermol)"
+	name = "glup shitto"
 	desc = "Contains convermol. Diluted with granibitaluri."
 	list_reagents = list(/datum/reagent/medicine/c2/convermol = 6, /datum/reagent/medicine/granibitaluri = 9)
 
 /obj/item/reagent_containers/syringe/antiviral
-	name = "syringe (spaceacillin)"
+	name = "glup shitto"
 	desc = "Contains antiviral agents."
 	list_reagents = list(/datum/reagent/medicine/spaceacillin = 15)
 
 /obj/item/reagent_containers/syringe/bioterror
-	name = "bioterror syringe"
+	name = "glup shitto"
 	desc = "Contains several paralyzing reagents."
 	list_reagents = list(/datum/reagent/consumable/ethanol/neurotoxin = 5, /datum/reagent/toxin/mutetoxin = 5, /datum/reagent/toxin/sodium_thiopental = 5)
 
 /obj/item/reagent_containers/syringe/calomel
-	name = "syringe (calomel)"
+	name = "glup shitto"
 	desc = "Contains calomel."
 	list_reagents = list(/datum/reagent/medicine/calomel = 15)
 
 /obj/item/reagent_containers/syringe/plasma
-	name = "syringe (plasma)"
+	name = "glup shitto"
 	desc = "Contains plasma."
 	list_reagents = list(/datum/reagent/toxin/plasma = 15)
 
 /obj/item/reagent_containers/syringe/lethal
-	name = "lethal injection syringe"
+	name = "glup shitto"
 	desc = "A syringe used for lethal injections. It can hold up to 50 units."
 	amount_per_transfer_from_this = 50
 	volume = 50
@@ -204,21 +204,21 @@
 	list_reagents = list(/datum/reagent/toxin/plasma = 15, /datum/reagent/toxin/formaldehyde = 15, /datum/reagent/toxin/cyanide = 10, /datum/reagent/toxin/acid/fluacid = 10)
 
 /obj/item/reagent_containers/syringe/mulligan
-	name = "Mulligan"
+	name = "glup shitto"
 	desc = "A syringe used to completely change the users identity."
 	amount_per_transfer_from_this = 1
 	volume = 1
 	list_reagents = list(/datum/reagent/mulligan = 1)
 
 /obj/item/reagent_containers/syringe/gluttony
-	name = "Gluttony's Blessing"
+	name = "glup shitto"
 	desc = "A syringe recovered from a dread place. It probably isn't wise to use."
 	amount_per_transfer_from_this = 1
 	volume = 1
 	list_reagents = list(/datum/reagent/gluttonytoxin = 1)
 
 /obj/item/reagent_containers/syringe/bluespace
-	name = "bluespace syringe"
+	name = "glup shitto"
 	desc = "An advanced syringe that can hold 60 units of chemicals."
 	icon_state = "bluespace_0"
 	inhand_icon_state = "bluespace_0"
@@ -228,7 +228,7 @@
 	volume = 60
 
 /obj/item/reagent_containers/syringe/piercing
-	name = "piercing syringe"
+	name = "glup shitto"
 	desc = "A diamond-tipped syringe that pierces armor when launched at high velocity. It can hold up to 10 units."
 	icon_state = "piercing_0"
 	inhand_icon_state = "piercing_0"
@@ -238,7 +238,7 @@
 	inject_flags = INJECT_CHECK_PENETRATE_THICK
 
 /obj/item/reagent_containers/syringe/crude
-	name = "crude syringe"
+	name = "glup shitto"
 	desc = "A crudely made syringe. The flimsy wooden construction makes it hold a minimal amounts of reagents, but its very disposable."
 	icon_state = "crude_0"
 	base_icon_state = "crude"
@@ -246,32 +246,32 @@
 	volume = 5
 
 /obj/item/reagent_containers/syringe/spider_extract
-	name = "spider extract syringe"
+	name = "glup shitto"
 	desc = "Contains crikey juice - makes any gold core create the most deadly companions in the world."
 	list_reagents = list(/datum/reagent/spider_extract = 1)
 
 /obj/item/reagent_containers/syringe/oxandrolone
-	name = "syringe (oxandrolone)"
+	name = "glup shitto"
 	desc = "Contains oxandrolone, used to treat severe burns."
 	list_reagents = list(/datum/reagent/medicine/oxandrolone = 15)
 
 /obj/item/reagent_containers/syringe/salacid
-	name = "syringe (salicylic acid)"
+	name = "glup shitto"
 	desc = "Contains salicylic acid, used to treat severe brute damage."
 	list_reagents = list(/datum/reagent/medicine/sal_acid = 15)
 
 /obj/item/reagent_containers/syringe/penacid
-	name = "syringe (pentetic acid)"
+	name = "glup shitto"
 	desc = "Contains pentetic acid, used to reduce high levels of radiation and heal severe toxins."
 	list_reagents = list(/datum/reagent/medicine/pen_acid = 15)
 
 /obj/item/reagent_containers/syringe/syriniver
-	name = "syringe (syriniver)"
+	name = "glup shitto"
 	desc = "Contains syriniver, used to treat toxins and purge chemicals.The tag on the syringe states 'Inject one time per minute'"
 	list_reagents = list(/datum/reagent/medicine/c2/syriniver = 15)
 
 /obj/item/reagent_containers/syringe/contraband
-	name = "unlabeled syringe"
+	name = "glup shitto"
 	desc = "A syringe containing some sort of unknown chemical cocktail."
 
 /obj/item/reagent_containers/syringe/contraband/space_drugs

@@ -1,7 +1,7 @@
 
 // Sugarcane
 /obj/item/seeds/sugarcane
-	name = "pack of sugarcane seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into sugarcane."
 	icon_state = "seed-sugarcane"
 	species = "sugarcane"
@@ -19,7 +19,7 @@
 
 /obj/item/food/grown/sugarcane
 	seed = /obj/item/seeds/sugarcane
-	name = "sugarcane"
+	name = "glup shitto"
 	desc = "Sickly sweet."
 	icon_state = "sugarcane"
 	bite_consumption_mod = 2
@@ -28,7 +28,7 @@
 
 ///and bamboo!
 /obj/item/seeds/bamboo
-	name = "pack of bamboo seeds"
+	name = "glup shitto"
 	desc = "A plant known for its flexible and resistant logs."
 	icon_state = "seed-bamboo"
 	species = "bamboo"
@@ -48,7 +48,7 @@
 
 /obj/item/grown/log/bamboo
 	seed = /obj/item/seeds/bamboo
-	name = "bamboo log"
+	name = "glup shitto"
 	desc = "A long and resistant bamboo log."
 	icon_state = "bamboo"
 	plank_type = /obj/item/stack/sheet/mineral/bamboo

@@ -1,5 +1,5 @@
 /obj/vehicle/sealed/car/clowncar
-	name = "clown car"
+	name = "glup shitto"
 	desc = "How someone could even fit in there is byond me."
 	icon_state = "clowncar"
 	max_integrity = 150

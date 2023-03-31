@@ -3,7 +3,7 @@
 #define ROD_SLOT_HOOK "hook"
 
 /obj/item/fishing_rod
-	name = "fishing rod"
+	name = "glup shitto"
 	desc = "You can fish with this."
 	icon = 'icons/obj/fishing.dmi'
 	icon_state = "fishing_rod"
@@ -398,12 +398,12 @@
 		hook = null
 
 /obj/item/fishing_rod/bone
-	name = "bone fishing rod"
+	name = "glup shitto"
 	desc = "A humble rod, made with whatever happened to be on hand."
 	icon_state = "fishing_rod_bone"
 
 /datum/crafting_recipe/bone_rod
-	name = "Bone Fishing Rod"
+	name = "glup shitto"
 	result = /obj/item/fishing_rod/bone
 	time = 5 SECONDS
 	reqs = list(/obj/item/stack/sheet/leather = 1,
@@ -412,7 +412,7 @@
 	category = CAT_TOOLS
 
 /obj/item/fishing_rod/master
-	name = "master fishing rod"
+	name = "glup shitto"
 	desc = "The mythical rod of a lost fisher king. Said to be imbued with un-paralleled fishing power. There's writing on the back of the pole. \"中国航天制造\""
 	difficulty_modifier = -10
 	ui_description = "This rods makes fishing easy even for an absolute beginner."
@@ -420,7 +420,7 @@
 
 
 /obj/item/fishing_rod/tech
-	name = "advanced fishing rod"
+	name = "glup shitto"
 	desc = "An embedded universal constructor along with micro-fusion generator makes this marvel of technology never run out of bait. Interstellar treaties prevent using it outside of recreational fishing. And you can fish with this. "
 	ui_description = "This rod has an infinite supply of synthetic bait."
 	icon_state = "fishing_rod_science"
@@ -444,7 +444,7 @@
 #undef ROD_SLOT_HOOK
 
 /obj/projectile/fishing_cast
-	name = "fishing hook"
+	name = "glup shitto"
 	icon = 'icons/obj/fishing.dmi'
 	icon_state = "hook_projectile"
 	damage = 0

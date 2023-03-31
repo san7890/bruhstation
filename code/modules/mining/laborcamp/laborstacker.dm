@@ -3,7 +3,7 @@ GLOBAL_LIST(labor_sheet_values)
 /**********************Prisoners' Console**************************/
 
 /obj/machinery/mineral/labor_claim_console
-	name = "point claim console"
+	name = "glup shitto"
 	desc = "A stacking console with an electromagnetic writer, used to track ore mined by prisoners."
 	icon = 'icons/obj/machines/mining_machines.dmi'
 	icon_state = "console"
@@ -163,7 +163,7 @@ GLOBAL_LIST(labor_sheet_values)
 /**********************Point Lookup Console**************************/
 
 /obj/machinery/mineral/labor_points_checker
-	name = "points checking console"
+	name = "glup shitto"
 	desc = "A console used by prisoners to check the progress on their quotas. Simply swipe a prisoner ID."
 	icon = 'icons/obj/machines/mining_machines.dmi'
 	icon_state = "console"

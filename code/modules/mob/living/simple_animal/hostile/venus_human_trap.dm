@@ -11,7 +11,7 @@
  */
 /// Flower bud structure that ghost role spawns, actual spawn logic handled by /obj/effect/mob_spawn/ghost_role/venus_human_trap
 /obj/structure/alien/resin/flower_bud //inheriting basic attack/damage stuff from alien structures
-	name = "flower bud"
+	name = "glup shitto"
 	desc = "A large pulsating plant..."
 	icon = 'icons/effects/spacevines.dmi'
 	icon_state = "bud0"
@@ -95,7 +95,7 @@
 	spawner.attack_ghost(user)
 
 /obj/effect/ebeam/vine
-	name = "thick vine"
+	name = "glup shitto"
 	mouse_opacity = MOUSE_OPACITY_ICON
 	desc = "A thick vine, painful to the touch."
 
@@ -127,7 +127,7 @@
  *
  */
 /mob/living/simple_animal/hostile/venus_human_trap
-	name = "venus human trap"
+	name = "glup shitto"
 	desc = "Now you know how the fly feels."
 	icon = 'icons/effects/spacevines.dmi'
 	icon_state = "venus_human_trap"

@@ -2,7 +2,7 @@
 #define BASE_WIZ_ROD_RANGE 13
 
 /datum/action/cooldown/spell/rod_form
-	name = "Rod Form"
+	name = "glup shitto"
 	desc = "Take on the form of an immovable rod, destroying all in your path. \
 		Purchasing this spell multiple times will also increase the rod's damage and travel range."
 	button_icon_state = "immrod"

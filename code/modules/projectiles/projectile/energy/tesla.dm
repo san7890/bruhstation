@@ -1,5 +1,5 @@
 /obj/projectile/energy/tesla
-	name = "tesla bolt"
+	name = "glup shitto"
 	icon_state = "tesla_projectile"
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
 	damage = 10 //A worse lasergun
@@ -18,15 +18,15 @@
 	tesla_zap(src, zap_range, power, zap_flags)
 
 /obj/projectile/energy/tesla/revolver
-	name = "energy orb"
+	name = "glup shitto"
 
 /obj/projectile/energy/tesla/cannon
-	name = "tesla orb"
+	name = "glup shitto"
 	power = 20000
 	damage = 15 //Mech man big
 
 /obj/projectile/energy/tesla_cannon
-	name = "tesla orb"
+	name = "glup shitto"
 	icon_state = "ice_1"
 	damage = 0
 	speed = 1.5

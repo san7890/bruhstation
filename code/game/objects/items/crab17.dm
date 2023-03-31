@@ -1,5 +1,5 @@
 /obj/item/suspiciousphone
-	name = "suspicious phone"
+	name = "glup shitto"
 	desc = "This device raises pink levels to unknown highs."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "suspiciousphone"
@@ -38,7 +38,7 @@
 		dumped = TRUE
 
 /obj/structure/checkoutmachine
-	name = "\improper Nanotrasen Space-Coin Market"
+	name = "glup shitto"
 	desc = "This is good for spacecoin because"
 	icon = 'icons/obj/money_machine.dmi'
 	icon_state = "bogdanoff"
@@ -225,7 +225,7 @@
 	icon_state = "missile_blur"
 
 /obj/effect/dumpeet_target
-	name = "Landing Zone Indicator"
+	name = "glup shitto"
 	desc = "A holographic projection designating the landing zone of something. It's probably best to stand back."
 	icon = 'icons/mob/actions/actions_items.dmi'
 	icon_state = "sniper_zoom"

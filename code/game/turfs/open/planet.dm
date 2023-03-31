@@ -1,6 +1,6 @@
 /turf/open/misc/dirt
 	gender = PLURAL
-	name = "dirt"
+	name = "glup shitto"
 	desc = "Upon closer examination, it's still dirt."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "dirt"
@@ -27,7 +27,7 @@
 	base_icon_state = "greenerdirt"
 
 /turf/open/misc/dirt/jungle/wasteland //Like a more fun version of living in Arizona.
-	name = "cracked earth"
+	name = "glup shitto"
 	desc = "Looks a bit dry."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "wasteland"
@@ -45,7 +45,7 @@
 	icon_state = "[initial(icon_state)]0"
 
 /turf/open/misc/grass/jungle
-	name = "jungle grass"
+	name = "glup shitto"
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 	planetary_atmos = TRUE
 	baseturfs = /turf/open/misc/dirt

@@ -92,7 +92,7 @@
 		icon_state = no_charge_state
 
 /obj/item/gun/energy/recharge/ebow
-	name = "mini energy crossbow"
+	name = "glup shitto"
 	desc = "A weapon favored by syndicate stealth specialists."
 	icon_state = "crossbow"
 	base_icon_state = "crossbow"
@@ -110,7 +110,7 @@
 	knife_y_offset = 12
 
 /obj/item/gun/energy/recharge/ebow/halloween
-	name = "candy corn crossbow"
+	name = "glup shitto"
 	desc = "A weapon favored by Syndicate trick-or-treaters."
 	icon_state = "crossbow_halloween"
 	base_icon_state = "crossbow_halloween"
@@ -118,7 +118,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/bolt/halloween)
 
 /obj/item/gun/energy/recharge/ebow/large
-	name = "energy crossbow"
+	name = "glup shitto"
 	desc = "A reverse engineered weapon using syndicate technology."
 	icon_state = "crossbowlarge"
 	base_icon_state = "crossbowlarge"

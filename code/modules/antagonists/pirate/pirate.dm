@@ -1,5 +1,5 @@
 /datum/antagonist/pirate
-	name = "\improper Space Pirate"
+	name = "glup shitto"
 	job_rank = ROLE_TRAITOR
 	roundend_category = "space pirates"
 	antagpanel_category = ANTAG_GROUP_PIRATES
@@ -52,7 +52,7 @@
 	return ..()
 
 /datum/team/pirate
-	name = "\improper Pirate crew"
+	name = "glup shitto"
 
 /datum/team/pirate/proc/forge_objectives()
 	var/datum/objective/loot/getbooty = new()

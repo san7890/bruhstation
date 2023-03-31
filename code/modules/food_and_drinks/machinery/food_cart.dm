@@ -1,6 +1,6 @@
 
 /obj/machinery/food_cart
-	name = "food cart"
+	name = "glup shitto"
 	desc = "A compact unpackable mobile cooking stand. Wow! When unpacked, it reminds you of those greasy gamer setups some people on NTNet have."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "foodcart"
@@ -132,7 +132,7 @@
 		QDEL_NULL(cart_tent)
 
 /obj/effect/food_cart_stand
-	name = "food cart tent"
+	name = "glup shitto"
 	desc = "Something to battle the sun, for there are no breaks for the burger flippers."
 	icon = 'icons/obj/3x3.dmi'
 	icon_state = "stand"

@@ -1,18 +1,18 @@
 /datum/uplink_category/explosives
-	name = "Explosives"
+	name = "glup shitto"
 	weight = 6
 
 /datum/uplink_item/explosives
 	category = /datum/uplink_category/explosives
 
 /datum/uplink_item/explosives/soap_clusterbang
-	name = "Slipocalypse Clusterbang"
+	name = "glup shitto"
 	desc = "A traditional clusterbang grenade with a payload consisting entirely of Syndicate soap. Useful in any scenario!"
 	item = /obj/item/grenade/clusterbuster/soap
 	cost = 3
 
 /datum/uplink_item/explosives/c4
-	name = "Composition C-4"
+	name = "glup shitto"
 	desc = "C-4 is plastic explosive of the common variety Composition C. You can use it to breach walls, sabotage equipment, or connect \
 			an assembly to it in order to alter the way it detonates. It can be attached to almost all objects and has a modifiable timer with a \
 			minimum setting of 10 seconds."
@@ -21,7 +21,7 @@
 	cost = 1
 
 /datum/uplink_item/explosives/c4bag
-	name = "Bag of C-4 explosives"
+	name = "glup shitto"
 	desc = "Because sometimes quantity is quality. Contains 10 C-4 plastic explosives."
 	item = /obj/item/storage/backpack/duffelbag/syndie/c4
 	progression_minimum = 10 MINUTES
@@ -29,7 +29,7 @@
 	cant_discount = TRUE
 
 /datum/uplink_item/explosives/x4bag
-	name = "Bag of X-4 explosives"
+	name = "glup shitto"
 	desc = "Contains 3 X-4 shaped plastic explosives. Similar to C4, but with a stronger blast that is directional instead of circular. \
 			X-4 can be placed on a solid surface, such as a wall or window, and it will blast through the wall, injuring anything on the opposite side, while being safer to the user. \
 			For when you want a controlled explosion that leaves a wider, deeper, hole."
@@ -39,7 +39,7 @@
 	cant_discount = TRUE
 
 /datum/uplink_item/explosives/detomatix
-	name = "Detomatix disk"
+	name = "glup shitto"
 	desc = "When inserted into a tablet, this cartridge gives you four opportunities to \
 			detonate tablets of crewmembers who have their message feature enabled. \
 			The concussive effect from the explosion will knock the recipient out for a short period, and deafen them for longer."
@@ -49,7 +49,7 @@
 	restricted = TRUE
 
 /datum/uplink_item/explosives/emp
-	name = "EMP Grenades and Implanter Kit"
+	name = "glup shitto"
 	desc = "A box that contains five EMP grenades and an EMP implant with three uses. Useful to disrupt communications, \
 			security's energy weapons and silicon lifeforms when you're in a tight spot."
 	item = /obj/item/storage/box/syndie_kit/emp
@@ -61,7 +61,7 @@
 		cost *= 3
 
 /datum/uplink_item/explosives/pizza_bomb
-	name = "Pizza Bomb"
+	name = "glup shitto"
 	desc = "A pizza box with a bomb cunningly attached to the lid. The timer needs to be set by opening the box; afterwards, \
 			opening the box again will trigger the detonation after the timer has elapsed. Comes with free pizza, for you or your target!"
 	progression_minimum = 30 MINUTES
@@ -70,7 +70,7 @@
 	surplus = 8
 
 /datum/uplink_item/explosives/syndicate_minibomb
-	name = "Syndicate Minibomb"
+	name = "glup shitto"
 	desc = "The minibomb is a grenade with a five-second fuse. Upon detonation, it will create a small hull breach \
 			in addition to dealing high amounts of damage to nearby personnel."
 	progression_minimum = 30 MINUTES
@@ -80,7 +80,7 @@
 
 
 /datum/uplink_item/explosives/syndicate_bomb/emp
-	name = "Syndicate EMP Bomb"
+	name = "glup shitto"
 	desc = "A variation of the syndicate bomb designed to produce a large EMP effect."
 	progression_minimum = 30 MINUTES
 	item = /obj/item/sbeacondrop/emp
@@ -92,7 +92,7 @@
 		cost *= 2
 
 /datum/uplink_item/explosives/syndicate_bomb
-	name = "Syndicate Bomb"
+	name = "glup shitto"
 	desc = "The Syndicate bomb is a fearsome device capable of massive destruction. It has an adjustable timer, \
 		with a minimum of %MIN_BOMB_TIMER seconds, and can be bolted to the floor with a wrench to prevent \
 		movement. The bomb is bulky and cannot be moved; upon ordering this item, a smaller beacon will be \

@@ -8,7 +8,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 ))
 
 /obj/item/clothing/mask/gas
-	name = "gas mask"
+	name = "glup shitto"
 	desc = "A face-covering mask that can be connected to an air supply. Good for concealing your identity and with a filter slot to help remove those toxins." //More accurate
 	icon_state = "gas_alt"
 	clothing_flags = BLOCK_GAS_SMOKE_EFFECT | MASKINTERNALS | GAS_FILTERING
@@ -107,7 +107,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	return durability
 
 /obj/item/clothing/mask/gas/atmos
-	name = "atmospheric gas mask"
+	name = "glup shitto"
 	desc = "Improved gas mask utilized by atmospheric technicians. It's flameproof!"
 	icon_state = "gas_atmos"
 	inhand_icon_state = "gas_atmos"
@@ -121,14 +121,14 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	acid = 10
 
 /obj/item/clothing/mask/gas/atmos/captain
-	name = "captain's gas mask"
+	name = "glup shitto"
 	desc = "Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone."
 	icon_state = "gas_cap"
 	inhand_icon_state = "gasmask_captain"
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/mask/gas/atmos/centcom
-	name = "\improper CentCom gas mask"
+	name = "glup shitto"
 	desc = "Oooh, gold and green. Fancy! This should help as you sit in your office."
 	icon = 'icons/obj/clothing/masks.dmi'
 	worn_icon = 'icons/mob/clothing/mask.dmi'
@@ -140,7 +140,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 // **** Welding gas mask ****
 
 /obj/item/clothing/mask/gas/welding
-	name = "welding mask"
+	name = "glup shitto"
 	desc = "A gas mask with built-in welding goggles and a face shield. Looks like a skull - clearly designed by a nerd."
 	icon_state = "weldingmask"
 	flash_protect = FLASH_PROTECTION_WELDER
@@ -173,7 +173,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 
 //Plague Dr suit can be found in clothing/suits/bio.dm
 /obj/item/clothing/mask/gas/plaguedoctor
-	name = "plague doctor mask"
+	name = "glup shitto"
 	desc = "A modernised version of the classic design, this mask will not only filter out toxins but it can also be connected to an air supply."
 	icon_state = "plaguedoctor"
 	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEFACIALHAIR|HIDESNOUT|HIDEHAIR
@@ -182,7 +182,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	flags_cover = MASKCOVERSEYES
 
 /obj/item/clothing/mask/gas/syndicate
-	name = "syndicate mask"
+	name = "glup shitto"
 	desc = "A close-fitting tactical mask that can be connected to an air supply."
 	icon_state = "syndicate"
 	inhand_icon_state = "syndicate_gasmask"
@@ -192,7 +192,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/clown_hat
-	name = "clown wig and mask"
+	name = "glup shitto"
 	desc = "A true prankster's facial attire. A clown is incomplete without his wig and mask."
 	clothing_flags = MASKINTERNALS
 	icon_state = "clown"
@@ -240,7 +240,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 		return TRUE
 
 /obj/item/clothing/mask/gas/sexyclown
-	name = "sexy-clown wig and mask"
+	name = "glup shitto"
 	desc = "A feminine clown mask for the dabbling crossdressers or female entertainers."
 	clothing_flags = MASKINTERNALS
 	icon_state = "sexyclown"
@@ -253,7 +253,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/mime
-	name = "mime mask"
+	name = "glup shitto"
 	desc = "The traditional mime's mask. It has an eerie facial posture."
 	clothing_flags = MASKINTERNALS
 	icon_state = "mime"
@@ -300,7 +300,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 		return TRUE
 
 /obj/item/clothing/mask/gas/monkeymask
-	name = "monkey mask"
+	name = "glup shitto"
 	desc = "A mask used when acting as a monkey."
 	clothing_flags = MASKINTERNALS
 	icon_state = "monkeymask"
@@ -310,7 +310,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/sexymime
-	name = "sexy mime mask"
+	name = "glup shitto"
 	desc = "A traditional female mime's mask."
 	clothing_flags = MASKINTERNALS
 	icon_state = "sexymime"
@@ -321,7 +321,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/cyborg
-	name = "cyborg visor"
+	name = "glup shitto"
 	desc = "Beep boop."
 	icon_state = "death"
 	resistance_flags = FLAMMABLE
@@ -329,7 +329,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	flags_cover = MASKCOVERSEYES
 
 /obj/item/clothing/mask/gas/owl_mask
-	name = "owl mask"
+	name = "glup shitto"
 	desc = "Twoooo!"
 	icon_state = "owl"
 	inhand_icon_state = "owl_mask"
@@ -339,7 +339,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/carp
-	name = "carp mask"
+	name = "glup shitto"
 	desc = "Gnash gnash."
 	icon_state = "carp_mask"
 	inhand_icon_state = null
@@ -347,7 +347,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	flags_cover = MASKCOVERSEYES
 
 /obj/item/clothing/mask/gas/tiki_mask
-	name = "tiki mask"
+	name = "glup shitto"
 	desc = "A creepy wooden mask. Surprisingly expressive for a poorly carved bit of wood."
 	icon_state = "tiki_eyebrow"
 	inhand_icon_state = null
@@ -394,7 +394,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	actions_types = list()
 
 /obj/item/clothing/mask/gas/hunter
-	name = "bounty hunting mask"
+	name = "glup shitto"
 	desc = "A custom tactical mask with decals added."
 	icon_state = "hunter"
 	inhand_icon_state = "gas_atmos"
@@ -403,7 +403,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/prop
-	name = "prop gas mask"
+	name = "glup shitto"
 	desc = "A prop gas mask designed for appearance. Unlike a normal gas mask this does not filter gasses or protect against pepper spray."
 	icon_state = "gas_prop"
 	inhand_icon_state = "gas_prop"
@@ -413,7 +413,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/atmosprop
-	name = "prop atmospheric gas mask"
+	name = "glup shitto"
 	desc = "A prop atmospheric gas mask designed for appearance. Unlike a normal atmospheric gas mask this does not filter gasses or protect against pepper spray."
 	worn_icon_state = "gas_prop_atmos"
 	icon_state = "gas_atmos"
@@ -424,7 +424,7 @@ GLOBAL_LIST_INIT(clown_mask_options, list(
 	has_fov = FALSE
 
 /obj/item/clothing/mask/gas/driscoll
-	name = "driscoll mask"
+	name = "glup shitto"
 	desc = "Great for train hijackings. Works like a normal full face gas mask, but won't conceal your identity."
 	icon_state = "driscoll_mask"
 	flags_inv = HIDEFACIALHAIR

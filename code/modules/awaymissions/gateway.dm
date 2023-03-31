@@ -141,7 +141,7 @@ GLOBAL_LIST_EMPTY(gateway_destinations)
 	gateway = null
 
 /obj/machinery/gateway
-	name = "gateway"
+	name = "glup shitto"
 	desc = "A mysterious gateway built by unknown hands, it allows for faster than light travel to far-flung locations."
 	icon = 'icons/obj/machines/gateway.dmi'
 	icon_state = "portal_frame"
@@ -311,7 +311,7 @@ GLOBAL_LIST_EMPTY(gateway_destinations)
 
 /* Gateway control computer */
 /obj/machinery/computer/gateway_control
-	name = "Gateway Control"
+	name = "glup shitto"
 	desc = "Human friendly interface to the mysterious gate next to it."
 	var/obj/machinery/gateway/G
 
@@ -374,7 +374,7 @@ GLOBAL_LIST_EMPTY(gateway_destinations)
 
 /obj/item/paper/fluff/gateway
 	default_raw_text = "Congratulations,<br><br>Your station has been selected to carry out the Gateway Project.<br><br>The equipment will be shipped to you at the start of the next quarter.<br> You are to prepare a secure location to house the equipment as outlined in the attached documents.<br><br>--Nanotrasen Bluespace Research"
-	name = "Confidential Correspondence, Pg 1"
+	name = "glup shitto"
 
 /atom/movable/screen/map_view/gateway_port
 	var/datum/gateway_destination/our_destination

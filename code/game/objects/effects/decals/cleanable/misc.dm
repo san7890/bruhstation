@@ -1,12 +1,12 @@
 /obj/effect/decal/cleanable/generic
-	name = "clutter"
+	name = "glup shitto"
 	desc = "Someone should clean that up."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "shards"
 	beauty = -50
 
 /obj/effect/decal/cleanable/ash
-	name = "ashes"
+	name = "glup shitto"
 	desc = "Ashes to ashes, dust to dust, and into space."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "ash"
@@ -25,14 +25,14 @@
 	turf_loc_check = FALSE
 
 /obj/effect/decal/cleanable/ash/large
-	name = "large pile of ashes"
+	name = "glup shitto"
 	icon_state = "big_ash"
 	beauty = -100
 	decal_reagent = /datum/reagent/ash
 	reagent_amount = 60
 
 /obj/effect/decal/cleanable/glass
-	name = "tiny shards"
+	name = "glup shitto"
 	desc = "Back to sand."
 	icon = 'icons/obj/shards.dmi'
 	icon_state = "tiny"
@@ -56,11 +56,11 @@
 
 //Screws that are dropped on the Z level below when deconstructing a reinforced floor plate.
 /obj/effect/decal/cleanable/glass/plastitanium/screws //I don't know how to sprite scattered screws, this can work until a spriter gets their hands on it.
-	name = "pile of screws"
+	name = "glup shitto"
 	desc = "Looks like they fell from the ceiling"
 
 /obj/effect/decal/cleanable/dirt
-	name = "dirt"
+	name = "glup shitto"
 	desc = "Someone should clean that up."
 	icon = 'icons/effects/dirt.dmi'
 	icon_state = "dirt"
@@ -86,11 +86,11 @@
 	return ..()
 
 /obj/effect/decal/cleanable/dirt/dust
-	name = "dust"
+	name = "glup shitto"
 	desc = "A thin layer of dust coating the floor."
 
 /obj/effect/decal/cleanable/greenglow
-	name = "glowing goo"
+	name = "glup shitto"
 	desc = "Jeez. I hope that's not for lunch."
 	icon_state = "greenglow"
 	light_power = 3
@@ -110,12 +110,12 @@
 	. = ..()
 
 /obj/effect/decal/cleanable/greenglow/ecto
-	name = "ectoplasmic puddle"
+	name = "glup shitto"
 	desc = "You know who to call."
 	light_power = 2
 
 /obj/effect/decal/cleanable/cobweb
-	name = "cobweb"
+	name = "glup shitto"
 	desc = "Somebody should remove that."
 	gender = NEUTER
 	layer = WALL_OBJ_LAYER
@@ -129,7 +129,7 @@
 	icon_state = "cobweb2"
 
 /obj/effect/decal/cleanable/molten_object
-	name = "gooey grey mass"
+	name = "glup shitto"
 	desc = "It looks like a melted... something."
 	gender = NEUTER
 	icon = 'icons/effects/effects.dmi'
@@ -139,13 +139,13 @@
 	clean_type = CLEAN_TYPE_HARD_DECAL
 
 /obj/effect/decal/cleanable/molten_object/large
-	name = "big gooey grey mass"
+	name = "glup shitto"
 	icon_state = "big_molten"
 	beauty = -300
 
 //Vomit (sorry)
 /obj/effect/decal/cleanable/vomit
-	name = "vomit"
+	name = "glup shitto"
 	desc = "Gosh, how unpleasant."
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "vomit_1"
@@ -165,7 +165,7 @@
 			qdel(src)
 
 /obj/effect/decal/cleanable/vomit/old
-	name = "crusty dried vomit"
+	name = "glup shitto"
 	desc = "You try not to look at the chunks, and fail."
 
 /obj/effect/decal/cleanable/vomit/old/Initialize(mapload, list/datum/disease/diseases)
@@ -175,14 +175,14 @@
 
 
 /obj/effect/decal/cleanable/chem_pile
-	name = "chemical pile"
+	name = "glup shitto"
 	desc = "A pile of chemicals. You can't quite tell what's inside it."
 	gender = NEUTER
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "ash"
 
 /obj/effect/decal/cleanable/shreds
-	name = "shreds"
+	name = "glup shitto"
 	desc = "The shredded remains of what appears to be clothing."
 	icon_state = "shreds"
 	gender = PLURAL
@@ -200,7 +200,7 @@
 	. = ..()
 
 /obj/effect/decal/cleanable/glitter
-	name = "generic glitter pile"
+	name = "glup shitto"
 	desc = "The herpes of arts and crafts."
 	icon = 'icons/effects/atmospherics.dmi'
 	icon_state = "plasma_old"
@@ -208,53 +208,53 @@
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
 /obj/effect/decal/cleanable/glitter/pink
-	name = "pink glitter"
+	name = "glup shitto"
 	icon_state = "plasma"
 
 /obj/effect/decal/cleanable/glitter/white
-	name = "white glitter"
+	name = "glup shitto"
 	icon_state = "nitrous_oxide"
 
 /obj/effect/decal/cleanable/glitter/blue
-	name = "blue glitter"
+	name = "glup shitto"
 	icon_state = "freon"
 
 /obj/effect/decal/cleanable/plasma
-	name = "stabilized plasma"
+	name = "glup shitto"
 	desc = "A puddle of stabilized plasma."
 	icon_state = "flour"
 	icon = 'icons/effects/tomatodecal.dmi'
 	color = "#2D2D2D"
 
 /obj/effect/decal/cleanable/insectguts
-	name = "insect guts"
+	name = "glup shitto"
 	desc = "One bug squashed. Four more will rise in its place."
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "xfloor1"
 	random_icon_states = list("xfloor1", "xfloor2", "xfloor3", "xfloor4", "xfloor5", "xfloor6", "xfloor7")
 
 /obj/effect/decal/cleanable/confetti
-	name = "confetti"
+	name = "glup shitto"
 	desc = "Tiny bits of colored paper thrown about for the janitor to enjoy!"
 	icon = 'icons/effects/confetti_and_decor.dmi'
 	icon_state = "confetti"
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT //the confetti itself might be annoying enough
 
 /obj/effect/decal/cleanable/plastic
-	name = "plastic shreds"
+	name = "glup shitto"
 	desc = "Bits of torn, broken, worthless plastic."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "shards"
 	color = "#c6f4ff"
 
 /obj/effect/decal/cleanable/wrapping
-	name = "wrapping shreds"
+	name = "glup shitto"
 	desc = "Torn pieces of cardboard and paper, left over from a package."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "paper_shreds"
 
 /obj/effect/decal/cleanable/wrapping/pinata
-	name = "pinata shreds"
+	name = "glup shitto"
 	desc = "Torn pieces of papier-mâché, left over from a pinata"
 	icon_state = "pinata_shreds"
 
@@ -262,7 +262,7 @@
 	icon_state = "syndie_pinata_shreds"
 
 /obj/effect/decal/cleanable/garbage
-	name = "decomposing garbage"
+	name = "glup shitto"
 	desc = "A split open garbage bag, its stinking content seems to be partially liquified. Yuck!"
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "garbage"
@@ -276,7 +276,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_SLUDGE, CELL_VIRUS_TABLE_GENERIC, rand(2,4), 15)
 
 /obj/effect/decal/cleanable/ants
-	name = "space ants"
+	name = "glup shitto"
 	desc = "A small colony of space ants. They're normally used to the vacuum of space, so they can't climb too well."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "ants"
@@ -356,7 +356,7 @@
 	qdel(src)
 
 /obj/effect/decal/cleanable/ants/fire
-	name = "space fire ants"
+	name = "glup shitto"
 	desc = "A small colony no longer. We are the fire nation."
 	icon_state = "fire_ants"
 	mergeable_decal = FALSE
@@ -368,7 +368,7 @@
 	return
 
 /obj/effect/decal/cleanable/fuel_pool
-	name = "pool of fuel"
+	name = "glup shitto"
 	desc = "A pool of flammable fuel. Its probably wise to clean this off before something ignites it..."
 	icon_state = "fuel_pool"
 	layer = LOW_OBJ_LAYER

@@ -1,5 +1,5 @@
 /obj/item/dyespray
-	name = "hair dye spray"
+	name = "glup shitto"
 	desc = "A spray to dye your hair any gradients you'd like."
 	w_class = WEIGHT_CLASS_TINY
 	icon = 'icons/obj/dyespray.dmi'

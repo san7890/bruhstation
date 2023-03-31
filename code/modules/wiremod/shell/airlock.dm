@@ -9,7 +9,7 @@
 	return ..()
 
 /obj/machinery/door/airlock/shell
-	name = "circuit airlock"
+	name = "glup shitto"
 	autoclose = FALSE
 
 /obj/machinery/door/airlock/shell/Initialize(mapload)

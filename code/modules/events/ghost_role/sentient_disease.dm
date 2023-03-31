@@ -1,5 +1,5 @@
 /datum/round_event_control/sentient_disease
-	name = "Spawn Sentient Disease"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/sentient_disease
 	weight = 7
 	max_occurrences = 1

@@ -6,7 +6,7 @@
 #define MODPAINT_MIN_OVERALL_COLORS 1.5
 
 /obj/item/mod/paint
-	name = "MOD paint kit"
+	name = "glup shitto"
 	desc = "This kit will repaint your MODsuit to something unique."
 	icon = 'icons/obj/clothing/modsuit/mod_construction.dmi'
 	icon_state = "paintkit"
@@ -165,7 +165,7 @@
 #undef MODPAINT_MIN_OVERALL_COLORS
 
 /obj/item/mod/skin_applier
-	name = "MOD skin applier"
+	name = "glup shitto"
 	desc = "This one-use skin applier will add a skin to MODsuits of a specific type."
 	icon = 'icons/obj/clothing/modsuit/mod_construction.dmi'
 	icon_state = "skinapplier"
@@ -174,7 +174,7 @@
 
 /obj/item/mod/skin_applier/Initialize(mapload)
 	. = ..()
-	name = "MOD [skin] skin applier"
+	name = "glup shitto"
 
 /obj/item/mod/skin_applier/pre_attack(atom/attacked_atom, mob/living/user, params)
 	if(!istype(attacked_atom, /obj/item/mod/control))

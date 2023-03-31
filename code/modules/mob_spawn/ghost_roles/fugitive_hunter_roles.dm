@@ -21,7 +21,7 @@
 	spawned_human.log_message("was spawned as a Fugitive Hunter by an event.", LOG_GAME)
 
 /obj/effect/mob_spawn/ghost_role/human/fugitive/spacepol
-	name = "police pod"
+	name = "glup shitto"
 	desc = "A small sleeper typically used to put people to sleep for briefing on the mission."
 	prompt_name = "a spacepol officer"
 	you_are_text = "I am a member of the Spacepol!"
@@ -32,7 +32,7 @@
 	icon_state = "sleeper"
 
 /obj/effect/mob_spawn/ghost_role/human/fugitive/russian
-	name = "russian pod"
+	name = "glup shitto"
 	desc = "A small sleeper typically used to make long distance travel a bit more bearable."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -45,12 +45,12 @@
 	outfit = /datum/outfit/russian_hunter
 
 /obj/effect/mob_spawn/ghost_role/human/fugitive/russian/leader
-	name = "russian commandant pod"
+	name = "glup shitto"
 	you_are_text = "Ay blyat. I am the commandant of a Space-Russian smuggler ring!"
 	outfit = /datum/outfit/russian_hunter/leader
 
 /obj/effect/mob_spawn/ghost_role/human/fugitive/bounty
-	name = "bounty hunter pod"
+	name = "glup shitto"
 	prompt_name = "a bounty hunter"
 	you_are_text = "I'm a bounty hunter."
 	flavour_text = "We got a new bounty on some fugitives, dead or alive."

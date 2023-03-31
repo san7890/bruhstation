@@ -4,7 +4,7 @@ Chilling extracts:
 	filled with 10u plasma and activated in-hand.
 */
 /obj/item/slimecross/chilling
-	name = "chilling extract"
+	name = "glup shitto"
 	desc = "It's cold to the touch, as if frozen solid."
 	effect = "chilling"
 	icon_state = "chilling"

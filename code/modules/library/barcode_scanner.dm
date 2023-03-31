@@ -1,5 +1,5 @@
 /obj/item/barcodescanner
-	name = "barcode scanner"
+	name = "glup shitto"
 	icon = 'icons/obj/library.dmi'
 	icon_state ="scanner"
 	desc = "A fabulous tool if you need to scan a barcode."

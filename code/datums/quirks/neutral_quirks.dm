@@ -2,7 +2,7 @@
 //MAKE SURE THESE DO NOT MAJORLY IMPACT GAMEPLAY. those should be positive or negative traits.
 
 /datum/quirk/extrovert
-	name = "Extrovert"
+	name = "glup shitto"
 	desc = "You are energized by talking to others, and enjoy spending your free time in the bar."
 	icon = "users"
 	value = 0
@@ -13,7 +13,7 @@
 	mail_goodies = list(/obj/item/reagent_containers/cup/glass/flask)
 
 /datum/quirk/introvert
-	name = "Introvert"
+	name = "glup shitto"
 	desc = "You are energized by having time to yourself, and enjoy spending your free time in the library."
 	icon = "book-reader"
 	value = 0
@@ -24,7 +24,7 @@
 	mail_goodies = list(/obj/item/book/random)
 
 /datum/quirk/no_taste
-	name = "Ageusia"
+	name = "glup shitto"
 	desc = "You can't taste anything! Toxic food will still poison you."
 	icon = "meh-blank"
 	value = 0
@@ -35,7 +35,7 @@
 	mail_goodies = list(/obj/effect/spawner/random/food_or_drink/condiment) // but can you taste the salt? CAN YOU?!
 
 /datum/quirk/foreigner
-	name = "Foreigner"
+	name = "glup shitto"
 	desc = "You're not from around here. You don't know Galactic Common!"
 	icon = "language"
 	value = 0
@@ -57,7 +57,7 @@
 		human_holder.remove_language(/datum/language/uncommon)
 
 /datum/quirk/vegetarian
-	name = "Vegetarian"
+	name = "glup shitto"
 	desc = "You find the idea of eating meat morally and physically repulsive."
 	icon = "carrot"
 	value = 0
@@ -89,7 +89,7 @@
 	UnregisterSignal(human_holder, COMSIG_SPECIES_GAIN)
 
 /datum/quirk/snob
-	name = "Snob"
+	name = "glup shitto"
 	desc = "You care about the finer things, if a room doesn't look nice its just not really worth it, is it?"
 	icon = "user-tie"
 	value = 0
@@ -100,7 +100,7 @@
 	mail_goodies = list(/obj/item/chisel, /obj/item/paint_palette)
 
 /datum/quirk/pineapple_liker
-	name = "Ananas Affinity"
+	name = "glup shitto"
 	desc = "You find yourself greatly enjoying fruits of the ananas genus. You can't seem to ever get enough of their sweet goodness!"
 	icon = "thumbs-up"
 	value = 0
@@ -126,7 +126,7 @@
 	UnregisterSignal(human_holder, COMSIG_SPECIES_GAIN)
 
 /datum/quirk/pineapple_hater
-	name = "Ananas Aversion"
+	name = "glup shitto"
 	desc = "You find yourself greatly detesting fruits of the ananas genus. Serious, how the hell can anyone say these things are good? And what kind of madman would even dare putting it on a pizza!?"
 	icon = "thumbs-down"
 	value = 0
@@ -158,7 +158,7 @@
 	UnregisterSignal(human_holder, COMSIG_SPECIES_GAIN)
 
 /datum/quirk/deviant_tastes
-	name = "Deviant Tastes"
+	name = "glup shitto"
 	desc = "You dislike food that most people enjoy, and find delicious what they don't."
 	icon = "grin-tongue-squint"
 	value = 0
@@ -189,7 +189,7 @@
 	UnregisterSignal(human_holder, COMSIG_SPECIES_GAIN)
 
 /datum/quirk/heterochromatic
-	name = "Heterochromatic"
+	name = "glup shitto"
 	desc = "One of your eyes is a different color than the other!"
 	icon = "eye-low-vision" // Ignore the icon name, its actually a fairly good representation of different color eyes
 	quirk_flags = QUIRK_HUMAN_ONLY|QUIRK_CHANGES_APPEARANCE
@@ -244,7 +244,7 @@
 	UnregisterSignal(human_holder, COMSIG_CARBON_LOSE_ORGAN)
 
 /datum/quirk/monochromatic
-	name = "Monochromacy"
+	name = "glup shitto"
 	desc = "You suffer from full colorblindness, and perceive nearly the entire world in blacks and whites."
 	icon = "adjust"
 	value = 0
@@ -268,7 +268,7 @@
 	quirk_holder.remove_client_colour(/datum/client_colour/monochrome)
 
 /datum/quirk/phobia
-	name = "Phobia"
+	name = "glup shitto"
 	desc = "You are irrationally afraid of something."
 	icon = "spider"
 	value = 0
@@ -289,7 +289,7 @@
 	human_holder.cure_trauma_type(/datum/brain_trauma/mild/phobia, TRAUMA_RESILIENCE_ABSOLUTE)
 
 /datum/quirk/shifty_eyes
-	name = "Shifty Eyes"
+	name = "glup shitto"
 	desc = "Your eyes tend to wander all over the place, whether you mean to or not, causing people to sometimes think you're looking directly at them when you aren't."
 	icon = "far fa-eye"
 	value = 0
@@ -298,7 +298,7 @@
 	mail_goodies = list(/obj/item/clothing/head/costume/papersack, /obj/item/clothing/head/costume/papersack/smiley)
 
 /datum/quirk/item_quirk/bald
-	name = "Smooth-Headed"
+	name = "glup shitto"
 	desc = "You have no hair and are quite insecure about it! Keep your wig on, or at least your head covered up."
 	icon = "egg"
 	value = 0
@@ -354,7 +354,7 @@
 	quirk_holder.add_mood_event("bad_hair_day", /datum/mood_event/bald)
 
 /datum/quirk/item_quirk/photographer
-	name = "Photographer"
+	name = "glup shitto"
 	desc = "You carry your camera and personal photo album everywhere you go, and your scrapbooks are legendary among your coworkers."
 	icon = "camera"
 	value = 0
@@ -384,7 +384,7 @@
 	)
 
 /datum/quirk/item_quirk/colorist
-	name = "Colorist"
+	name = "glup shitto"
 	desc = "You like carrying around a hair dye spray to quickly apply color patterns to your hair."
 	icon = "fill-drip"
 	value = 0
@@ -396,7 +396,7 @@
 
 #define GAMING_WITHDRAWAL_TIME (15 MINUTES)
 /datum/quirk/gamer
-	name = "Gamer"
+	name = "glup shitto"
 	desc = "You are a hardcore gamer, and you have a need to game. You love winning and hate losing. You only like gamer food."
 	icon = "gamepad"
 	value = 0
@@ -493,7 +493,7 @@
 
 
 /datum/quirk/item_quirk/pride_pin
-	name = "Pride Pin"
+	name = "glup shitto"
 	desc = "Show off your pride with this changing pride pin!"
 	icon = "rainbow"
 	value = 0

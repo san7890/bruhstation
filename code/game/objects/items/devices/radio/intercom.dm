@@ -1,5 +1,5 @@
 /obj/item/radio/intercom
-	name = "station intercom"
+	name = "glup shitto"
 	desc = "Talk through this."
 	icon_state = "intercom"
 	anchored = TRUE
@@ -19,7 +19,7 @@
 	unscrewed = TRUE
 
 /obj/item/radio/intercom/prison
-	name = "prison intercom"
+	name = "glup shitto"
 	desc = "A station intercom. It looks like it has been modified to not broadcast."
 
 /obj/item/radio/intercom/prison/Initialize(mapload, ndir, building)
@@ -173,7 +173,7 @@
 
 //Created through the autolathe or through deconstructing intercoms. Can be applied to wall to make a new intercom on it!
 /obj/item/wallframe/intercom
-	name = "intercom frame"
+	name = "glup shitto"
 	desc = "A ready-to-go intercom. Just slap it on a wall and screw it in!"
 	icon_state = "intercom"
 	result_path = /obj/item/radio/intercom/unscrewed
@@ -183,7 +183,7 @@
 MAPPING_DIRECTIONAL_HELPERS(/obj/item/radio/intercom, 26)
 
 /obj/item/radio/intercom/chapel
-	name = "Confessional intercom"
+	name = "glup shitto"
 	desc = "Talk through this... to confess your many sins. Conceals your voice, to keep them secret."
 	anonymize = TRUE
 	freqlock = RADIO_FREQENCY_EMAGGABLE_LOCK
@@ -194,7 +194,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/item/radio/intercom, 26)
 	set_broadcasting(TRUE)
 
 /obj/item/radio/intercom/command
-	name = "command intercom"
+	name = "glup shitto"
 	desc = "The command team's special extended-frequency intercom. Mostly just used for eavesdropping, gossiping about subordinates, and complaining about the higher-ups."
 	icon_state = "intercom_command"
 	freerange = TRUE

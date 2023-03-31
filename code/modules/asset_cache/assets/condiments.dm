@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/simple/condiments
-	name = "condiments"
+	name = "glup shitto"
 	assets = list(
 		CONDIMASTER_STYLE_FALLBACK = 'icons/ui_icons/condiments/emptycondiment.png',
 		"enzyme" = 'icons/ui_icons/condiments/enzyme.png',

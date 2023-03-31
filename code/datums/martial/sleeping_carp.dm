@@ -3,7 +3,7 @@
 #define DROP_KICK_COMBO "HG"
 
 /datum/martial_art/the_sleeping_carp
-	name = "The Sleeping Carp"
+	name = "glup shitto"
 	id = MARTIALART_SLEEPINGCARP
 	allow_temp_override = FALSE
 	help_verb = /mob/living/proc/sleeping_carp_help
@@ -168,7 +168,7 @@
 
 
 /obj/item/staff/bostaff
-	name = "bo staff"
+	name = "glup shitto"
 	desc = "A long, tall staff made of polished wood. Traditionally used in ancient old-Earth martial arts. Can be wielded to both kill and incapacitate."
 	force = 10
 	w_class = WEIGHT_CLASS_BULKY

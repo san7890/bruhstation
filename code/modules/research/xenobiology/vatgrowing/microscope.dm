@@ -1,5 +1,5 @@
 /obj/structure/microscope
-	name = "Microscope"
+	name = "glup shitto"
 	desc = "A simple microscope, allowing you to examine micro-organisms."
 	icon = 'icons/obj/xenobiology/vatgrowing.dmi'
 	icon_state = "microscope"
@@ -81,7 +81,7 @@
 	update_appearance()
 
 /datum/crafting_recipe/microscope
-	name = "Microscope"
+	name = "glup shitto"
 	result = /obj/structure/microscope
 	time = 30
 	tool_behaviors = list(TOOL_SCREWDRIVER)

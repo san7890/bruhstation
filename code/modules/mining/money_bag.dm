@@ -1,7 +1,7 @@
 /*****************************Money bag********************************/
 
 /obj/item/storage/bag/money
-	name = "money bag"
+	name = "glup shitto"
 	icon_state = "moneybag"
 	worn_icon_state = "moneybag"
 	force = 10

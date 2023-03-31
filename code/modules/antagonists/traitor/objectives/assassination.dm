@@ -1,5 +1,5 @@
 /datum/traitor_objective_category/assassinate_kidnap
-	name = "Assassination/Kidnap"
+	name = "glup shitto"
 	objectives = list(
 		list(
 			list(
@@ -23,7 +23,7 @@
 	)
 
 /datum/traitor_objective/target_player/assassinate
-	name = "Assassinate %TARGET% the %JOB TITLE%"
+	name = "glup shitto"
 	description = "Simply kill your target to accomplish this objective."
 
 	abstract_type = /datum/traitor_objective/target_player/assassinate
@@ -45,7 +45,7 @@
 	. += NAMEOF(src, maximum_objectives_in_period)
 
 /datum/traitor_objective/target_player/assassinate/calling_card
-	name = "Assassinate %TARGET% the %JOB TITLE%, and plant a calling card"
+	name = "glup shitto"
 	description = "Kill your target and plant a calling card in the pockets of your victim. If your calling card gets destroyed before you are able to plant it, this objective will fail."
 	progression_reward = 2 MINUTES
 	telecrystal_reward = list(1, 2)
@@ -59,7 +59,7 @@
 	heads_of_staff = TRUE
 
 /datum/traitor_objective/target_player/assassinate/behead
-	name = "Behead %TARGET%, the %JOB TITLE%"
+	name = "glup shitto"
 	description = "Behead and hold %TARGET%'s head to succeed this objective. If the head gets destroyed before you can do this, you will fail this objective."
 	progression_reward = 2 MINUTES
 	telecrystal_reward = list(1, 2)
@@ -255,7 +255,7 @@
 		fail_objective()
 
 /obj/item/paper/calling_card
-	name = "calling card"
+	name = "glup shitto"
 	icon_state = "syndicate_calling_card"
 	color = "#ff5050"
 	show_written_words = FALSE

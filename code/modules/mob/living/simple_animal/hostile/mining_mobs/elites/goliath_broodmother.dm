@@ -17,7 +17,7 @@
  */
 
 /mob/living/simple_animal/hostile/asteroid/elite/broodmother
-	name = "goliath broodmother"
+	name = "glup shitto"
 	desc = "An example of sexual dimorphism, this female goliath looks much different than the males of her species.  She is, however, just as dangerous, if not more."
 	gender = FEMALE
 	icon_state = "broodmother"
@@ -51,25 +51,25 @@
 	var/list/mob/living/simple_animal/hostile/asteroid/elite/broodmother_child/children_list = list()
 
 /datum/action/innate/elite_attack/tentacle_patch
-	name = "Tentacle Patch"
+	name = "glup shitto"
 	button_icon_state = "tentacle_patch"
 	chosen_message = "<span class='boldwarning'>You are now attacking with a patch of tentacles.</span>"
 	chosen_attack_num = TENTACLE_PATCH
 
 /datum/action/innate/elite_attack/spawn_children
-	name = "Spawn Children"
+	name = "glup shitto"
 	button_icon_state = "spawn_children"
 	chosen_message = "<span class='boldwarning'>You will spawn two children at your location to assist you in combat.  You can have up to 8.</span>"
 	chosen_attack_num = SPAWN_CHILDREN
 
 /datum/action/innate/elite_attack/rage
-	name = "Rage"
+	name = "glup shitto"
 	button_icon_state = "rage"
 	chosen_message = "<span class='boldwarning'>You will temporarily increase your movement speed.</span>"
 	chosen_attack_num = RAGE
 
 /datum/action/innate/elite_attack/call_children
-	name = "Call Children"
+	name = "glup shitto"
 	button_icon_state = "call_children"
 	chosen_message = "<span class='boldwarning'>You will summon your children to your location.</span>"
 	chosen_attack_num = CALL_CHILDREN
@@ -159,7 +159,7 @@
 
 //The goliath's children.  Pretty weak, simple mobs which are able to put a single tentacle under their target when at range.
 /mob/living/simple_animal/hostile/asteroid/elite/broodmother_child
-	name = "baby goliath"
+	name = "glup shitto"
 	desc = "A young goliath recently born from it's mother.  While they hatch from eggs, said eggs are incubated in the mother until they are ready to be born."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "goliath_baby"
@@ -234,7 +234,7 @@
 
 // Broodmother's loot: Broodmother Tongue
 /obj/item/crusher_trophy/broodmother_tongue
-	name = "broodmother tongue"
+	name = "glup shitto"
 	desc = "The tongue of a broodmother. If attached a certain way, makes for a suitable crusher trophy.  It also feels very spongey, I wonder what would happen if you squeezed it?..."
 	icon = 'icons/obj/lavaland/elite_trophies.dmi'
 	icon_state = "broodmother_tongue"

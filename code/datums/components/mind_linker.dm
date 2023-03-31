@@ -165,7 +165,7 @@
 	qdel(src)
 
 /datum/action/innate/linked_speech
-	name = "Mind Link Speech"
+	name = "glup shitto"
 	desc = "Send a psychic message to everyone connected to your Link."
 	button_icon_state = "link_speech"
 	button_icon = 'icons/mob/actions/actions_slime.dmi'
@@ -180,7 +180,7 @@
 		return
 
 	var/datum/component/mind_linker/linker = Target
-	name = "[linker.network_name] Speech"
+	name = "glup shitto"
 	desc = "Send a psychic message to everyone connected to your [linker.network_name]."
 	button_icon = linker.speech_action_icon
 	button_icon_state = linker.speech_action_icon_state

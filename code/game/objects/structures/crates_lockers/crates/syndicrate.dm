@@ -1,5 +1,5 @@
 /obj/structure/closet/crate/syndicrate
-	name = "surplus syndicrate"
+	name = "glup shitto"
 	desc = "A conspicuous crate with the Syndicate logo on it. You don't know how to open it."
 	icon_state = "syndicrate"
 	max_integrity = 500
@@ -60,7 +60,7 @@
 		. += "syndicrate_unlocked"
 
 /obj/item/syndicrate_key
-	name = "syndicrate key"
+	name = "glup shitto"
 	desc = "A device bearing a serpentine emblem, capable of splitting itself into two keys. Can be used to open one syndicrate."
 	icon = 'icons/obj/storage/crates.dmi'
 	icon_state = "syndicrate_key"

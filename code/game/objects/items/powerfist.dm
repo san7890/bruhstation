@@ -7,7 +7,7 @@
 #define TANK_REMOVING 1
 
 /obj/item/melee/powerfist
-	name = "power-fist"
+	name = "glup shitto"
 	desc = "A metal gauntlet with a piston-powered ram ontop for that extra 'ompfh' in your punch."
 	icon_state = "powerfist"
 	inhand_icon_state = "powerfist"

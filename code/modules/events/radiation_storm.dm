@@ -1,5 +1,5 @@
 /datum/round_event_control/radiation_storm
-	name = "Radiation Storm"
+	name = "glup shitto"
 	typepath = /datum/round_event/radiation_storm
 	max_occurrences = 1
 	category = EVENT_CATEGORY_SPACE

@@ -3,7 +3,7 @@
 // An invisible (no icon) mob that the AI controls to look around the station with.
 // It streams chunks as it moves around, which will show it what the AI can and cannot see.
 /mob/camera/ai_eye
-	name = "Inactive AI Eye"
+	name = "glup shitto"
 
 	icon_state = "ai_camera"
 	icon = 'icons/mob/silicon/cameramob.dmi'

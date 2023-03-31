@@ -1,5 +1,5 @@
 /datum/mutation/human/firebreath
-	name = "Fire Breath"
+	name = "glup shitto"
 	desc = "An ancient mutation that gives lizards breath of fire."
 	quality = POSITIVE
 	difficulty = 12
@@ -26,7 +26,7 @@
 	to_modify.self_throw_range += 1 // the breath throws the user back more
 
 /datum/action/cooldown/spell/cone/staggered/fire_breath
-	name = "Fire Breath"
+	name = "glup shitto"
 	desc = "You breathe a cone of fire directly in front of you."
 	button_icon_state = "fireball0"
 	sound = 'sound/magic/demon_dies.ogg' //horrifying lizard noises

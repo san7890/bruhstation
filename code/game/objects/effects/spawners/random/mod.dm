@@ -1,10 +1,10 @@
 /obj/effect/spawner/random/mod
-	name = "MOD module spawner"
+	name = "glup shitto"
 	desc = "Modularize this, please."
 	icon_state = "circuit"
 
 /obj/effect/spawner/random/mod/maint
-	name = "maint MOD module spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/mod/module/springlock = 2,
 		/obj/item/mod/module/visor/rave = 2,

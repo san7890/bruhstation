@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/eyeball
-	name = "eyeball"
+	name = "glup shitto"
 	desc = "An odd looking creature, it won't stop staring..."
 	icon = 'icons/mob/simple/carp.dmi'
 	icon_state = "eyeball"

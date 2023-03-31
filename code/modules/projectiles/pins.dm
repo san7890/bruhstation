@@ -1,5 +1,5 @@
 /obj/item/firing_pin
-	name = "electronic firing pin"
+	name = "glup shitto"
 	desc = "A small authentication device, to be inserted into a firearm receiver to allow operation. NT safety regulations require all new designs to incorporate one."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "firing_pin"
@@ -85,13 +85,13 @@
 
 
 /obj/item/firing_pin/magic
-	name = "magic crystal shard"
+	name = "glup shitto"
 	desc = "A small enchanted shard which allows magical weapons to fire."
 
 
 // Test pin, works only near firing range.
 /obj/item/firing_pin/test_range
-	name = "test-range firing pin"
+	name = "glup shitto"
 	desc = "This safety firing pin allows weapons to be fired within proximity to a firing range."
 	fail_message = "test range check failed!"
 	pin_hot_swappable = TRUE
@@ -106,7 +106,7 @@
 
 // Implant pin, checks for implant
 /obj/item/firing_pin/implant
-	name = "implant-keyed firing pin"
+	name = "glup shitto"
 	desc = "This is a security firing pin which only authorizes users who are implanted with a certain device."
 	fail_message = "implant check failed!"
 	var/obj/item/implant/req_implant = null
@@ -119,13 +119,13 @@
 	return FALSE
 
 /obj/item/firing_pin/implant/mindshield
-	name = "mindshield firing pin"
+	name = "glup shitto"
 	desc = "This Security firing pin authorizes the weapon for only mindshield-implanted users."
 	icon_state = "firing_pin_loyalty"
 	req_implant = /obj/item/implant/mindshield
 
 /obj/item/firing_pin/implant/pindicate
-	name = "syndicate firing pin"
+	name = "glup shitto"
 	icon_state = "firing_pin_pindi"
 	req_implant = /obj/item/implant/weapons_auth
 
@@ -134,7 +134,7 @@
 // Honk pin, clown's joke item.
 // Can replace other pins. Replace a pin in cap's laser for extra fun!
 /obj/item/firing_pin/clown
-	name = "hilarious firing pin"
+	name = "glup shitto"
 	desc = "Advanced clowntech that can convert any firearm into a far more useful object."
 	color = "#FFFF00"
 	fail_message = "honk!"
@@ -147,7 +147,7 @@
 // Ultra-honk pin, clown's deadly joke item.
 // A gun with ultra-honk pin is useful for clown and useless for everyone else.
 /obj/item/firing_pin/clown/ultra
-	name = "ultra hilarious firing pin"
+	name = "glup shitto"
 
 /obj/item/firing_pin/clown/ultra/pin_auth(mob/living/user)
 	playsound(src.loc, 'sound/items/bikehorn.ogg', 50, TRUE)
@@ -175,7 +175,7 @@
 
 // Now two times deadlier!
 /obj/item/firing_pin/clown/ultra/selfdestruct
-	name = "super ultra hilarious firing pin"
+	name = "glup shitto"
 	desc = "Advanced clowntech that can convert any firearm into a far more useful object. It has a small nitrobananium charge on it."
 	selfdestruct = TRUE
 
@@ -183,7 +183,7 @@
 // DNA-keyed pin.
 // When you want to keep your toys for yourself.
 /obj/item/firing_pin/dna
-	name = "DNA-keyed firing pin"
+	name = "glup shitto"
 	desc = "This is a DNA-locked firing pin which only authorizes one user. Attempt to fire once to DNA-link."
 	icon_state = "firing_pin_dna"
 	fail_message = "dna check failed!"
@@ -218,17 +218,17 @@
 // Paywall pin, brought to you by ARMA 3 DLC.
 // Checks if the user has a valid bank account on an ID and if so attempts to extract a one-time payment to authorize use of the gun. Otherwise fails to shoot.
 /obj/item/firing_pin/paywall
-	name = "paywall firing pin"
+	name = "glup shitto"
 	desc = "A firing pin with a built-in configurable paywall."
 	color = "#FFD700"
 	fail_message = ""
 	///list of account IDs which have accepted the license prompt. If this is the multi-payment pin, then this means they accepted the waiver that each shot will cost them money
-	var/list/gun_owners = list() 
+	var/list/gun_owners = list()
 	///how much gets paid out to license yourself to the gun
-	var/payment_amount 
+	var/payment_amount
 	var/datum/bank_account/pin_owner
 	///if true, user has to pay everytime they fire the gun
-	var/multi_payment = FALSE 
+	var/multi_payment = FALSE
 	var/owned = FALSE
 	///purchase prompt to prevent spamming it, set to the user who opens to prompt to prevent locking the gun up for other users.
 	var/active_prompt_user
@@ -321,10 +321,10 @@
 					pin_owner.adjust_money(payment_amount, "Firing Pin: Gun License Bought")
 				gun_owners += credit_card_details
 				to_chat(user, span_notice("Gun license purchased, have a secure day!"))
-					
-			else 
+
+			else
 				to_chat(user, span_warning("ERROR: User balance insufficent for successful transaction!"))
- 
+
 		if("No", null)
 			to_chat(user, span_warning("ERROR: User has declined to purchase gun license!"))
 	active_prompt_user = null
@@ -332,7 +332,7 @@
 
 // Explorer Firing Pin- Prevents use on station Z-Level, so it's justifiable to give Explorers guns that don't suck.
 /obj/item/firing_pin/explorer
-	name = "outback firing pin"
+	name = "glup shitto"
 	desc = "A firing pin used by the austrailian defense force, retrofit to prevent weapon discharge on the station."
 	icon_state = "firing_pin_explorer"
 	fail_message = "cannot fire while on station, mate!"
@@ -346,7 +346,7 @@
 
 // Laser tag pins
 /obj/item/firing_pin/tag
-	name = "laser tag firing pin"
+	name = "glup shitto"
 	desc = "A recreational firing pin, used in laser tag units to ensure users have their vests on."
 	fail_message = "suit check failed!"
 	var/obj/item/clothing/suit/suit_requirement = null
@@ -361,13 +361,13 @@
 	return FALSE
 
 /obj/item/firing_pin/tag/red
-	name = "red laser tag firing pin"
+	name = "glup shitto"
 	icon_state = "firing_pin_red"
 	suit_requirement = /obj/item/clothing/suit/redtag
 	tagcolor = "red"
 
 /obj/item/firing_pin/tag/blue
-	name = "blue laser tag firing pin"
+	name = "glup shitto"
 	icon_state = "firing_pin_blue"
 	suit_requirement = /obj/item/clothing/suit/bluetag
 	tagcolor = "blue"

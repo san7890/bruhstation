@@ -1,6 +1,6 @@
 ///A single machine that produces a single chem. Can be placed in unison with others through plumbing to create chemical factories
 /obj/machinery/plumbing/synthesizer
-	name = "chemical synthesizer"
+	name = "glup shitto"
 	desc = "Produces a single chemical at a given volume. Must be plumbed. Most effective when working in unison with other chemical synthesizers, heaters and filters."
 
 	icon_state = "synthesizer"
@@ -112,7 +112,7 @@
 	. += r_overlay
 
 /obj/machinery/plumbing/synthesizer/soda
-	name = "soda synthesizer"
+	name = "glup shitto"
 	desc = "Produces a single chemical at a given volume. Must be plumbed."
 	icon_state = "synthesizer_soda"
 
@@ -144,7 +144,7 @@
 	)
 
 /obj/machinery/plumbing/synthesizer/beer
-	name = "beer synthesizer"
+	name = "glup shitto"
 	desc = "Produces a single chemical at a given volume. Must be plumbed."
 
 	icon_state = "synthesizer_booze"

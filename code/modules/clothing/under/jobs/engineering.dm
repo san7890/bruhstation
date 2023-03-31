@@ -13,7 +13,7 @@
 
 /obj/item/clothing/under/rank/engineering/chief_engineer
 	desc = "It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of \"Chief Engineer\". Made from fire resistant materials."
-	name = "chief engineer's jumpsuit"
+	name = "glup shitto"
 	icon_state = "chiefengineer"
 	inhand_icon_state = "gy_suit"
 	armor_type = /datum/armor/engineering_chief_engineer
@@ -24,7 +24,7 @@
 	acid = 40
 
 /obj/item/clothing/under/rank/engineering/chief_engineer/skirt
-	name = "chief engineer's jumpskirt"
+	name = "glup shitto"
 	desc = "It's a high visibility jumpskirt given to those engineers insane enough to achieve the rank of \"Chief Engineer\". Made from fire resistant materials."
 	icon_state = "chief_skirt"
 	inhand_icon_state = "gy_suit"
@@ -35,12 +35,12 @@
 
 /obj/item/clothing/under/rank/engineering/atmospheric_technician
 	desc = "It's a jumpsuit worn by atmospheric technicians. Made from fire resistant materials."
-	name = "atmospheric technician's jumpsuit"
+	name = "glup shitto"
 	icon_state = "atmos"
 	inhand_icon_state = "atmos_suit"
 
 /obj/item/clothing/under/rank/engineering/atmospheric_technician/skirt
-	name = "atmospheric technician's jumpskirt"
+	name = "glup shitto"
 	desc = "It's a jumpskirt worn by atmospheric technicians. Made from fire resistant materials."
 	icon_state = "atmos_skirt"
 	inhand_icon_state = "atmos_suit"
@@ -51,20 +51,20 @@
 
 /obj/item/clothing/under/rank/engineering/engineer
 	desc = "It's an orange high visibility jumpsuit worn by engineers. Made from fire resistant materials."
-	name = "engineer's jumpsuit"
+	name = "glup shitto"
 	icon_state = "engine"
 	inhand_icon_state = "engi_suit"
 	species_exception = list(/datum/species/golem/uranium)
 
 /obj/item/clothing/under/rank/engineering/engineer/hazard
-	name = "engineer's hazard jumpsuit"
+	name = "glup shitto"
 	desc = "A high visibility jumpsuit. Made from fire resistant materials."
 	icon_state = "hazard"
 	inhand_icon_state = "syndicate-orange"
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/engineering/engineer/skirt
-	name = "engineer's jumpskirt"
+	name = "glup shitto"
 	desc = "It's an orange high visibility jumpskirt worn by engineers. Made from fire resistant materials."
 	icon_state = "engine_skirt"
 	inhand_icon_state = "engi_suit"

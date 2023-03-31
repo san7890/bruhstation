@@ -1,5 +1,5 @@
 /obj/item/laser_pointer
-	name = "laser pointer"
+	name = "glup shitto"
 	desc = "Don't shine it in your eyes!"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "pointer"

@@ -70,7 +70,7 @@
 		new /obj/effect/hotspot(nearby_turf)
 
 /obj/projectile/bullet/p50/penetrator
-	name = ".50 BMG penetrator round"
+	name = "glup shitto"
 	icon_state = "gauss"
 	damage = 60
 	range = 50
@@ -83,14 +83,14 @@
 	object_damage = 0
 
 /obj/projectile/bullet/p50/penetrator/shuttle //Nukeop Shuttle Variety
-	name = ".50 BMG aggression dissuasion round"
+	name = "glup shitto"
 	icon_state = "gaussstrong"
 	damage = 25
 	speed = 0.3
 	range = 16
 
 /obj/projectile/bullet/p50/marksman
-	name = ".50 BMG marksman round"
+	name = "glup shitto"
 	damage = 50
 	range = 50
 	paralyze = 0

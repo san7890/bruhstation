@@ -1,5 +1,5 @@
 /obj/item/clothing/head/wizard
-	name = "wizard hat"
+	name = "glup shitto"
 	desc = "Strange-looking hat-wear that most certainly belongs to a real magic user."
 	icon = 'icons/obj/clothing/head/wizard.dmi'
 	worn_icon = 'icons/mob/clothing/head/wizard.dmi'
@@ -24,25 +24,25 @@
 	wound = 20
 
 /obj/item/clothing/head/wizard/red
-	name = "red wizard hat"
+	name = "glup shitto"
 	desc = "Strange-looking red hat-wear that most certainly belongs to a real magic user."
 	icon_state = "redwizard"
 	dog_fashion = /datum/dog_fashion/head/red_wizard
 
 /obj/item/clothing/head/wizard/yellow
-	name = "yellow wizard hat"
+	name = "glup shitto"
 	desc = "Strange-looking yellow hat-wear that most certainly belongs to a powerful magic user."
 	icon_state = "yellowwizard"
 	dog_fashion = null
 
 /obj/item/clothing/head/wizard/black
-	name = "black wizard hat"
+	name = "glup shitto"
 	desc = "Strange-looking black hat-wear that most certainly belongs to a real skeleton. Spooky."
 	icon_state = "blackwizard"
 	dog_fashion = null
 
 /obj/item/clothing/head/wizard/fake
-	name = "wizard hat"
+	name = "glup shitto"
 	desc = "It has WIZZARD written across it in sequins. Comes with a cool beard."
 	icon_state = "wizard-fake"
 	armor_type = /datum/armor/none
@@ -50,7 +50,7 @@
 	dog_fashion = /datum/dog_fashion/head/blue_wizard
 
 /obj/item/clothing/head/wizard/marisa
-	name = "witch hat"
+	name = "glup shitto"
 	desc = "Strange-looking hat-wear. Makes you want to cast fireballs."
 	icon_state = "witch_hat"
 	greyscale_colors = "#343640#e0cab8#e0cab8"
@@ -60,7 +60,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/wizard/tape
-	name = "tape hat"
+	name = "glup shitto"
 	desc = "A magically attuned hat made exclusively from duct tape. You can barely see."
 	icon_state = "tapehat"
 	inhand_icon_state = "tapehat"
@@ -70,14 +70,14 @@
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 
 /obj/item/clothing/head/wizard/magus
-	name = "\improper Magus helm"
+	name = "glup shitto"
 	desc = "A mysterious helmet that hums with an unearthly power."
 	icon_state = "magus"
 	inhand_icon_state = null
 	dog_fashion = null
 
 /obj/item/clothing/head/wizard/santa
-	name = "Santa's hat"
+	name = "glup shitto"
 	desc = "Ho ho ho. Merrry X-mas!"
 	icon_state = "santahat"
 	inhand_icon_state = "santahat"
@@ -85,11 +85,11 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/wizard/hood
-	name = "wizard hood"
+	name = "glup shitto"
 	icon_state = "wizhood"
 
 /obj/item/clothing/suit/wizrobe
-	name = "wizard robe"
+	name = "glup shitto"
 	desc = "A magnificent, gem-lined robe that seems to radiate power."
 	icon = 'icons/obj/clothing/suits/wizard.dmi'
 	icon_state = "wizard"
@@ -116,55 +116,55 @@
 	wound = 20
 
 /obj/item/clothing/suit/wizrobe/red
-	name = "red wizard robe"
+	name = "glup shitto"
 	desc = "A magnificent red gem-lined robe that seems to radiate power."
 	icon_state = "redwizard"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/wizrobe/yellow
-	name = "yellow wizard robe"
+	name = "glup shitto"
 	desc = "A magnificent yellow gem-lined robe that seems to radiate power."
 	icon_state = "yellowwizard"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/wizrobe/black
-	name = "black wizard robe"
+	name = "glup shitto"
 	desc = "An unnerving black gem-lined robe that reeks of death and decay."
 	icon_state = "blackwizard"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/wizrobe/marisa
-	name = "witch robe"
+	name = "glup shitto"
 	desc = "Magic is all about the spell power, ZE!"
 	icon_state = "marisa"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/wizrobe/tape
-	name = "tape robe"
+	name = "glup shitto"
 	desc = "A fine robe made from magically attuned duct tape."
 	icon_state = "taperobe"
 	inhand_icon_state = "taperobe"
 
 /obj/item/clothing/suit/wizrobe/magusblue
-	name = "\improper Magus robe"
+	name = "glup shitto"
 	desc = "A set of armored robes that seem to radiate a dark power."
 	icon_state = "magusblue"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/wizrobe/magusred
-	name = "\improper Magus robe"
+	name = "glup shitto"
 	desc = "A set of armored robes that seem to radiate a dark power."
 	icon_state = "magusred"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/wizrobe/santa
-	name = "Santa's suit"
+	name = "glup shitto"
 	desc = "Festive!"
 	icon_state = "santa"
 	inhand_icon_state = "santa"
 
 /obj/item/clothing/suit/wizrobe/fake
-	name = "wizard robe"
+	name = "glup shitto"
 	desc = "A rather dull blue robe meant to mimic real wizard robes."
 	icon_state = "wizard-fake"
 	inhand_icon_state = "wizrobe"
@@ -172,18 +172,18 @@
 	resistance_flags = FLAMMABLE
 
 /obj/item/clothing/head/wizard/marisa/fake
-	name = "witch hat"
+	name = "glup shitto"
 	armor_type = /datum/armor/none
 	resistance_flags = FLAMMABLE
 
 /obj/item/clothing/head/wizard/tape/fake
-	name = "tape hat"
+	name = "glup shitto"
 	desc = "A hat designed exclusively from duct tape. You can barely see."
 	armor_type = /datum/armor/none
 	resistance_flags = FLAMMABLE
 
 /obj/item/clothing/suit/wizrobe/marisa/fake
-	name = "witch robe"
+	name = "glup shitto"
 	desc = "Magic is all about the spell power, ZE!"
 	icon_state = "marisa"
 	inhand_icon_state = null
@@ -191,13 +191,13 @@
 	resistance_flags = FLAMMABLE
 
 /obj/item/clothing/suit/wizrobe/tape/fake
-	name = "tape robe"
+	name = "glup shitto"
 	desc = "An outfit designed exclusively from duct tape. It was hard to put on."
 	armor_type = /datum/armor/none
 	resistance_flags = FLAMMABLE
 
 /obj/item/clothing/suit/wizrobe/paper
-	name = "papier-mache robe" // no non-latin characters!
+	name = "glup shitto" // no non-latin characters!
 	desc = "A robe held together by various bits of clear-tape and paste."
 	icon_state = "wizard-paper"
 	inhand_icon_state = null
@@ -229,7 +229,7 @@
 
 // The actual code for this is handled in the shielded component, see [/datum/component/shielded/proc/check_recharge_rune]
 /obj/item/wizard_armour_charge
-	name = "battlemage shield charges"
+	name = "glup shitto"
 	desc = "A powerful rune that will increase the number of hits a suit of battlemage armour can take before failing.."
 	icon = 'icons/effects/anomalies.dmi'
 	icon_state = "flux"

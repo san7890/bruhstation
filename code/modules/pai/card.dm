@@ -5,7 +5,7 @@
 	icon_state = "pai"
 	inhand_icon_state = "electronic"
 	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'
-	name = "personal AI device"
+	name = "glup shitto"
 	resistance_flags = FIRE_PROOF | ACID_PROOF | INDESTRUCTIBLE
 	righthand_file = 'icons/mob/inhands/items/devices_righthand.dmi'
 	slot_flags = ITEM_SLOT_BELT

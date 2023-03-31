@@ -1,7 +1,7 @@
 
 //make incision
 /datum/surgery_step/incise
-	name = "make incision (scalpel)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_SCALPEL = 100,
 		/obj/item/melee/energy/sword = 75,
@@ -56,7 +56,7 @@
 
 //clamp bleeders
 /datum/surgery_step/clamp_bleeders
-	name = "clamp bleeders (hemostat)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_HEMOSTAT = 100,
 		TOOL_WIRECUTTER = 60,
@@ -87,7 +87,7 @@
 
 //retract skin
 /datum/surgery_step/retract_skin
-	name = "retract skin (retractor)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_RETRACTOR = 100,
 		TOOL_SCREWDRIVER = 45,
@@ -109,7 +109,7 @@
 
 //close incision
 /datum/surgery_step/close
-	name = "mend incision (cautery)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_CAUTERY = 100,
 		/obj/item/gun/energy/laser = 90,
@@ -149,7 +149,7 @@
 
 //saw bone
 /datum/surgery_step/saw
-	name = "saw bone (circular saw)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_SAW = 100,
 		/obj/item/melee/arm_blade = 75,
@@ -197,7 +197,7 @@
 
 //drill bone
 /datum/surgery_step/drill
-	name = "drill bone (surgical drill)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_DRILL = 100,
 		/obj/item/screwdriver/power = 80,

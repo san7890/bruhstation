@@ -8,7 +8,7 @@
  * Beds
  */
 /obj/structure/bed
-	name = "bed"
+	name = "glup shitto"
 	desc = "This is used to lie in, sleep in or strap on."
 	icon_state = "bed"
 	icon = 'icons/obj/objects.dmi'
@@ -52,7 +52,7 @@
  * Roller beds
  */
 /obj/structure/bed/roller
-	name = "roller bed"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/rollerbed.dmi'
 	icon_state = "down"
 	anchored = FALSE
@@ -126,7 +126,7 @@
 
 
 /obj/item/roller
-	name = "roller bed"
+	name = "glup shitto"
 	desc = "A collapsed roller bed that can be carried around."
 	icon = 'icons/obj/medical/rollerbed.dmi'
 	icon_state = "folded"
@@ -161,7 +161,7 @@
 	qdel(src)
 
 /obj/item/roller/robo //ROLLER ROBO DA!
-	name = "roller bed dock"
+	name = "glup shitto"
 	desc = "A collapsed roller bed that can be ejected for emergency use. Must be collected or replaced after use."
 	var/obj/structure/bed/roller/loaded = null
 
@@ -184,7 +184,7 @@
 //Dog bed
 
 /obj/structure/bed/dogbed
-	name = "dog bed"
+	name = "glup shitto"
 	icon_state = "dogbed"
 	desc = "A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off."
 	anchored = FALSE
@@ -194,31 +194,31 @@
 
 /obj/structure/bed/dogbed/ian
 	desc = "Ian's bed! Looks comfy."
-	name = "Ian's bed"
+	name = "glup shitto"
 	anchored = TRUE
 
 /obj/structure/bed/dogbed/cayenne
 	desc = "Seems kind of... fishy."
-	name = "Cayenne's bed"
+	name = "glup shitto"
 	anchored = TRUE
 
 /obj/structure/bed/dogbed/lia
 	desc = "Seems kind of... fishy."
-	name = "Lia's bed"
+	name = "glup shitto"
 	anchored = TRUE
 
 /obj/structure/bed/dogbed/renault
 	desc = "Renault's bed! Looks comfy. A foxy person needs a foxy pet."
-	name = "Renault's bed"
+	name = "glup shitto"
 	anchored = TRUE
 
 /obj/structure/bed/dogbed/mcgriff
 	desc = "McGriff's bed, because even crimefighters sometimes need a nap."
-	name = "McGriff's bed"
+	name = "glup shitto"
 
 /obj/structure/bed/dogbed/runtime
 	desc = "A comfy-looking cat bed. You can even strap your pet in, in case the gravity turns off."
-	name = "Runtime's bed"
+	name = "glup shitto"
 	anchored = TRUE
 
 ///Used to set the owner of a dogbed, returns FALSE if called on an owned bed or an invalid one, TRUE if the possesion succeeds
@@ -226,7 +226,7 @@
 	if(owned || type != /obj/structure/bed/dogbed) //Only marked beds work, this is hacky but I'm a hacky man
 		return FALSE //Failed
 	owned = TRUE
-	name = "[M]'s bed"
+	name = "glup shitto"
 	desc = "[M]'s bed! Looks comfy."
 	return TRUE //Let any callers know that this bed is ours now
 
@@ -235,7 +235,7 @@
 	update_owner(M)
 
 /obj/structure/bed/maint
-	name = "dirty mattress"
+	name = "glup shitto"
 	desc = "An old grubby mattress. You try to not think about what could be the cause of those stains."
 	icon_state = "dirty_mattress"
 
@@ -245,7 +245,7 @@
 
 //Double Beds, for luxurious sleeping, i.e. the captain and maybe heads- if people use this for ERP, send them to skyrat
 /obj/structure/bed/double
-	name = "double bed"
+	name = "glup shitto"
 	desc = "A luxurious double bed, for those too important for small dreams."
 	icon_state = "bed_double"
 	buildstackamount = 4

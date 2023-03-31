@@ -13,7 +13,7 @@
 
 
 /mob/living/silicon/ai
-	name = "AI"
+	name = "glup shitto"
 	real_name = "AI"
 	icon = 'icons/mob/silicon/ai.dmi'
 	icon_state = "ai"
@@ -748,7 +748,7 @@
 	return
 
 /datum/action/innate/core_return
-	name = "Return to Main Core"
+	name = "glup shitto"
 	desc = "Leave the APC and resume normal core operations."
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "ai_malf_core"
@@ -904,7 +904,7 @@
 			Slave.show_laws()
 
 /datum/action/innate/choose_modules
-	name = "Malfunction Modules"
+	name = "glup shitto"
 	desc = "Choose from a variety of insidious modules to aid you."
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "modules_menu"
@@ -1032,7 +1032,7 @@
 	diag_hud_set_deployed()
 
 /datum/action/innate/deploy_shell
-	name = "Deploy to AI Shell"
+	name = "glup shitto"
 	desc = "Wirelessly control a specialized cyborg shell."
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "ai_shell"
@@ -1044,7 +1044,7 @@
 	AI.deploy_to_shell()
 
 /datum/action/innate/deploy_last_shell
-	name = "Reconnect to shell"
+	name = "glup shitto"
 	desc = "Reconnect to the most recently used AI shell."
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "ai_last_shell"

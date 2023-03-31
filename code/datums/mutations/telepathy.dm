@@ -1,5 +1,5 @@
 /datum/mutation/human/telepathy
-	name = "Telepathy"
+	name = "glup shitto"
 	desc = "A rare mutation that allows the user to telepathically communicate to others."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>You can hear your own voice echoing in your mind!</span>"

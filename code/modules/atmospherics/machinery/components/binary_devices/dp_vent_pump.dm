@@ -9,7 +9,7 @@
 	//node2 is output port
 	//node1 is input port
 
-	name = "dual-port air vent"
+	name = "glup shitto"
 	desc = "Has a valve and pump attached to it. There are two ports."
 
 	hide = TRUE
@@ -99,7 +99,7 @@
 		parent2.update = TRUE
 
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume
-	name = "large dual-port air vent"
+	name = "glup shitto"
 
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/New()
 	..()

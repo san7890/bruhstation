@@ -1,5 +1,5 @@
 /obj/item/storage/wallet
-	name = "wallet"
+	name = "glup shitto"
 	desc = "It can hold a few small and personal things."
 	icon_state = "wallet"
 	w_class = WEIGHT_CLASS_SMALL

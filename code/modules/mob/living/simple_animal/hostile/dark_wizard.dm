@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/dark_wizard
-	name = "Dark Wizard"
+	name = "glup shitto"
 	desc = "Killing amateurs since the dawn of times."
 	icon = 'icons/mob/simple/simple_human.dmi'
 	icon_state = "dark_wizard"
@@ -38,7 +38,7 @@
 	apply_dynamic_human_appearance(src, mob_spawn_path = /obj/effect/mob_spawn/corpse/human/wizard/dark, r_hand = /obj/item/staff)
 
 /obj/projectile/temp/earth_bolt
-	name = "earth bolt"
+	name = "glup shitto"
 	icon_state = "declone"
 	damage = 4
 	damage_type = BURN

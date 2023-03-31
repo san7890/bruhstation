@@ -31,7 +31,7 @@
 
 
 /datum/outfit/job/lawyer
-	name = "Lawyer"
+	name = "glup shitto"
 	jobtype = /datum/job/lawyer
 
 	id_trim = /datum/id_trim/job/lawyer

@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/mothcoat
-	name = "mothic flightsuit"
+	name = "glup shitto"
 	desc = "This peculiar utility harness is a common sight among the moth fleet's crews due to its ability to fasten the wings to the body without impacting mobility inside cramped ship interiors. It looks somewhat crude yet it's surprisingly comfortable."
 	icon_state = "mothcoat"
 	greyscale_config = /datum/greyscale_config/mothcoat
@@ -20,7 +20,7 @@
 	create_storage(storage_type = /datum/storage/pockets)
 
 /obj/item/clothing/suit/mothcoat/winter
-	name = "mothic mantella"
+	name = "glup shitto"
 	desc = "A thick garment that keeps warm and protects those precious wings from harsh weather, also commonly used during festivities. Feels much heavier than it looks."
 	icon_state = "mothcoat_winter"
 	greyscale_config = /datum/greyscale_config/mothcoat_winter

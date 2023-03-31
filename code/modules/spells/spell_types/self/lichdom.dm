@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/lichdom
-	name = "Bind Soul"
+	name = "glup shitto"
 	desc = "A spell that binds your soul to an item in your hands. \
 		Binding your soul to an item will turn you into an immortal Lich. \
 		So long as the item remains intact, you will revive from death, \

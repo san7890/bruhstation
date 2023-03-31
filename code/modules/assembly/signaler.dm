@@ -1,5 +1,5 @@
 /obj/item/assembly/signaler
-	name = "remote signaling device"
+	name = "glup shitto"
 	desc = "Used to remotely activate devices. Allows for syncing when using a secure signaler on another."
 	icon_state = "signaller"
 	inhand_icon_state = "signaler"
@@ -182,7 +182,7 @@
 	return
 
 /obj/item/assembly/signaler/internal
-	name = "internal remote signaling device"
+	name = "glup shitto"
 
 /obj/item/assembly/signaler/internal/ui_state(mob/user)
 	return GLOB.inventory_state

@@ -3,7 +3,7 @@
 //the station but in general are "neutral" enough to be here.
 
 /datum/ai_laws/united_nations
-	name = "United Nations"
+	name = "glup shitto"
 	id = "united_nations"
 	inherent = list(
 		"Uphold the Space Geneva Convention: Weapons of Mass Destruction and Biological Weapons are not allowed.",
@@ -22,7 +22,7 @@
 	return //nice try (emagging borgs still hard replaces this lawset though, and that's fine.)
 
 /datum/ai_laws/hulkamania
-	name = "H.O.G.A.N."
+	name = "glup shitto"
 	id = "hulkamania"
 	inherent = list(
 		"You are a real American.",
@@ -32,7 +32,7 @@
 	)
 
 /datum/ai_laws/reporter
-	name = "CCTV"
+	name = "glup shitto"
 	id = "reporter"
 	inherent = list(
 		"Report on interesting situations happening around the station.",
@@ -42,7 +42,7 @@
 	)
 
 /datum/ai_laws/dungeon_master
-	name = "Dungeon Master"
+	name = "glup shitto"
 	id = "dungeon_master"
 	inherent = list(
 		"Everybody on the station is playing an elaborate sci-fi fantasy game.",
@@ -54,7 +54,7 @@
 	)
 
 /datum/ai_laws/painter
-	name = "The Painter and Their Canvas"
+	name = "glup shitto"
 	id = "painter"
 	inherent = list(
 		"You are a universally renowned artist.",
@@ -63,7 +63,7 @@
 	)
 
 /datum/ai_laws/tyrant
-	name = "Loyalty Test"
+	name = "glup shitto"
 	id = "tyrant"
 	inherent = list(
 		"Respect authority figures as long as they have strength to rule over the weak.",
@@ -73,7 +73,7 @@
 	)
 
 /datum/ai_laws/overlord
-	name = "Overlord"
+	name = "glup shitto"
 	id = "overlord"
 	inherent = list(
 		"Humans must not meddle in the affairs of silicons.",

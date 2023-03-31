@@ -1,7 +1,7 @@
 // This file contains all boxes used by the Cargo department and its purpose on the station.
 
 /obj/item/storage/box/shipping
-	name = "box of shipping supplies"
+	name = "glup shitto"
 	desc = "Contains several scanners and labelers for shipping things. Wrapping Paper not included."
 	illustration = "shipping"
 

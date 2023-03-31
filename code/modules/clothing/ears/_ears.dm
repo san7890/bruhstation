@@ -1,7 +1,7 @@
 
 //Ears: currently only used for headsets and earmuffs
 /obj/item/clothing/ears
-	name = "ears"
+	name = "glup shitto"
 	lefthand_file = 'icons/mob/inhands/clothing/ears_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing/ears_righthand.dmi'
 	w_class = WEIGHT_CLASS_TINY
@@ -10,7 +10,7 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/ears/earmuffs
-	name = "earmuffs"
+	name = "glup shitto"
 	desc = "Protects your hearing from loud noises, and quiet ones as well."
 	icon_state = "earmuffs"
 	inhand_icon_state = "earmuffs"

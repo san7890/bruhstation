@@ -1,5 +1,5 @@
 /datum/action/changeling/panacea
-	name = "Anatomic Panacea"
+	name = "glup shitto"
 	desc = "Expels impurifications from our form; curing diseases, removing parasites, sobering us, purging toxins and radiation, curing traumas and brain damage, and resetting our genetic code completely. Costs 20 chemicals."
 	helptext = "Can be used while unconscious."
 	button_icon_state = "panacea"

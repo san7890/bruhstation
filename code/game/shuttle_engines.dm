@@ -5,7 +5,7 @@
 #define ENGINE_WELDTIME (20 SECONDS)
 
 /obj/machinery/power/shuttle_engine
-	name = "engine"
+	name = "glup shitto"
 	desc = "A bluespace engine used to make shuttles move."
 	icon = 'icons/turf/shuttle.dmi'
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
@@ -123,29 +123,29 @@
 		port.alter_engines(mod)
 
 /obj/machinery/power/shuttle_engine/heater
-	name = "engine heater"
+	name = "glup shitto"
 	desc = "Directs energy into compressed particles in order to power engines."
 	icon_state = "heater"
 	circuit = /obj/item/circuitboard/machine/engine/heater
 	engine_power = 0 // todo make these into 2x1 parts
 
 /obj/machinery/power/shuttle_engine/propulsion
-	name = "propulsion engine"
+	name = "glup shitto"
 	icon_state = "propulsion"
 	desc = "A standard reliable bluespace engine used by many forms of shuttles."
 	circuit = /obj/item/circuitboard/machine/engine/propulsion
 	opacity = TRUE
 
 /obj/machinery/power/shuttle_engine/propulsion/left
-	name = "left propulsion engine"
+	name = "glup shitto"
 	icon_state = "propulsion_l"
 
 /obj/machinery/power/shuttle_engine/propulsion/right
-	name = "right propulsion engine"
+	name = "glup shitto"
 	icon_state = "propulsion_r"
 
 /obj/machinery/power/shuttle_engine/propulsion/burst
-	name = "burst engine"
+	name = "glup shitto"
 	desc = "An engine that releases a large bluespace burst to propel it."
 
 /obj/machinery/power/shuttle_engine/propulsion/burst/cargo
@@ -153,15 +153,15 @@
 	anchored = FALSE
 
 /obj/machinery/power/shuttle_engine/propulsion/burst/left
-	name = "left burst engine"
+	name = "glup shitto"
 	icon_state = "burst_l"
 
 /obj/machinery/power/shuttle_engine/propulsion/burst/right
-	name = "right burst engine"
+	name = "glup shitto"
 	icon_state = "burst_r"
 
 /obj/machinery/power/shuttle_engine/large
-	name = "engine"
+	name = "glup shitto"
 	icon = 'icons/obj/2x2.dmi'
 	icon_state = "large_engine"
 	desc = "A very large bluespace engine used to propel very large ships."
@@ -172,7 +172,7 @@
 	appearance_flags = LONG_GLIDE
 
 /obj/machinery/power/shuttle_engine/huge
-	name = "engine"
+	name = "glup shitto"
 	icon = 'icons/obj/3x3.dmi'
 	icon_state = "huge_engine"
 	desc = "An extremely large bluespace engine used to propel extremely large ships."

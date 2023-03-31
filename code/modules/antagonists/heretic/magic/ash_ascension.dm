@@ -1,6 +1,6 @@
 /// Creates a constant Ring of Fire around the caster for a set duration of time, which follows them.
 /datum/action/cooldown/spell/fire_sworn
-	name = "Oath of Flame"
+	name = "glup shitto"
 	desc = "For a minute, you will passively create a ring of fire around you."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -60,7 +60,7 @@
 
 /// Creates one, large, expanding ring of fire around the caster, which does not follow them.
 /datum/action/cooldown/spell/fire_cascade
-	name = "Lesser Fire Cascade"
+	name = "glup shitto"
 	desc = "Heats the air around you."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -94,12 +94,12 @@
 		stoplag(0.3 SECONDS)
 
 /datum/action/cooldown/spell/fire_cascade/big
-	name = "Greater Fire Cascade"
+	name = "glup shitto"
 	flame_radius = 6
 
 // Currently unused - releases streams of fire around the caster.
 /datum/action/cooldown/spell/pointed/ash_beams
-	name = "Nightwatcher's Rite"
+	name = "glup shitto"
 	desc = "A powerful spell that releases five streams of eldritch fire towards the target."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"

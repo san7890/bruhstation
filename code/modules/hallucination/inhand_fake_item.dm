@@ -115,7 +115,7 @@
 	return hallucinated_item
 
 /obj/item/hallucinated
-	name = "mirage"
+	name = "glup shitto"
 	plane = ABOVE_HUD_PLANE
 	interaction_flags_item = NONE
 	item_flags = ABSTRACT | DROPDEL | EXAMINE_SKIP | HAND_ITEM | NOBLUDGEON // Most of these flags don't matter, but better safe than sorry

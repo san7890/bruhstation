@@ -1,5 +1,5 @@
 /datum/traitor_objective/ultimate/romerol
-	name = "Spread the experimental bioterror agent Romerol by calling a droppod down at %AREA%"
+	name = "glup shitto"
 	description = "Go to %AREA%, and recieve the bioterror agent. Spread it to the crew, \
 	and watch then raise from the dead as mindless killing machines. Warning: The undead will attack you too."
 

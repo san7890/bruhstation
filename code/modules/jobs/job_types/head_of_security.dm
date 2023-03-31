@@ -44,7 +44,7 @@
 
 
 /datum/outfit/job/hos
-	name = "Head of Security"
+	name = "glup shitto"
 	jobtype = /datum/job/head_of_security
 
 	id = /obj/item/card/id/advanced/silver
@@ -76,7 +76,7 @@
 	implants = list(/obj/item/implant/mindshield)
 
 /datum/outfit/job/hos/mod
-	name = "Head of Security (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/safeguard

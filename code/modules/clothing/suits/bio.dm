@@ -1,6 +1,6 @@
 //Biosuit complete with shoes (in the item sprite)
 /obj/item/clothing/head/bio_hood
-	name = "bio hood"
+	name = "glup shitto"
 	desc = "A hood that protects the head and face from biological contaminants."
 	icon = 'icons/obj/clothing/head/bio.dmi'
 	worn_icon = 'icons/mob/clothing/head/bio.dmi'
@@ -22,7 +22,7 @@
 	acid = 100
 
 /obj/item/clothing/suit/bio_suit
-	name = "bio suit"
+	name = "glup shitto"
 	desc = "A suit that protects against biological contamination."
 	icon = 'icons/obj/clothing/suits/bio.dmi'
 	icon_state = "bio"
@@ -122,7 +122,7 @@
 
 //Plague Dr mask can be found in clothing/masks/gasmask.dm
 /obj/item/clothing/suit/bio_suit/plaguedoctorsuit
-	name = "plague doctor suit"
+	name = "glup shitto"
 	desc = "It protected doctors from the Black Death, back then. You bet your arse it's gonna help you against viruses."
 	icon_state = "plaguedoctor"
 	inhand_icon_state = "bio_suit"

@@ -4,7 +4,7 @@ GLOBAL_LIST_EMPTY(TabletMessengers) // a list of all active messengers, similar 
 // Other types expand it - tablets and laptops are subtypes
 // consoles use "procssor" item that is held inside it.
 /obj/item/modular_computer
-	name = "modular microcomputer"
+	name = "glup shitto"
 	desc = "A small portable microcomputer."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "laptop"
@@ -699,7 +699,7 @@ GLOBAL_LIST_EMPTY(TabletMessengers) // a list of all active messengers, similar 
 	if(!saved_identification && !saved_job)
 		name = initial(name)
 		return
-	name = "[saved_identification] ([saved_job])"
+	name = "glup shitto"
 
 /obj/item/modular_computer/attackby(obj/item/attacking_item, mob/user, params)
 	// Check for ID first

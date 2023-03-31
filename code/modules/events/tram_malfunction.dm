@@ -2,7 +2,7 @@
 #define TRAM_MALFUNCTION_TIME_LOWER 120
 
 /datum/round_event_control/tram_malfunction
-	name = "Tram Malfunction"
+	name = "glup shitto"
 	typepath = /datum/round_event/tram_malfunction
 	weight = 40
 	max_occurrences = 4

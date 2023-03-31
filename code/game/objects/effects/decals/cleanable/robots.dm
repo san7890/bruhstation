@@ -1,7 +1,7 @@
 // Note: BYOND is object oriented. There is no reason for this to be copy/pasted blood code.
 
 /obj/effect/decal/cleanable/robot_debris
-	name = "robot debris"
+	name = "glup shitto"
 	desc = "It's a useless heap of junk... <i>or is it?</i>"
 	icon = 'icons/mob/silicon/robots.dmi'
 	icon_state = "gib1"
@@ -70,7 +70,7 @@
 	random_icon_states = list("gib1", "gib2", "gib3", "gib4", "gib5", "gib6", "gib7","gibdown","gibdown")
 
 /obj/effect/decal/cleanable/oil
-	name = "motor oil"
+	name = "glup shitto"
 	desc = "It's black and greasy. Looks like Beepsky made another mess."
 	icon = 'icons/mob/silicon/robots.dmi'
 	icon_state = "floor1"

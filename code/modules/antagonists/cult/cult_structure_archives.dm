@@ -5,7 +5,7 @@
 
 // Cult archives. Gives out utility items.
 /obj/structure/destructible/cult/item_dispenser/archives
-	name = "archives"
+	name = "glup shitto"
 	desc = "A desk covered in arcane manuscripts and tomes in unknown languages. Looking at the text makes your skin crawl."
 	cult_examine_tip = "Can be used to create zealot's blindfolds, shuttle curse orbs, and veil walker equipment."
 	icon_state = "tomealtar"

@@ -1,7 +1,7 @@
 #define POSTER_MOOD_CAT "poster_mood"
 
 /obj/item/poster/quirk
-	name = "placeholder quirk poster"
+	name = "glup shitto"
 	desc = "Uh oh! You shouldn't have this!"
 	icon_state = "rolled_poster_legit"
 	/// People from the selected department will gain a mood buff. If no department is specified applies to the entire crew.
@@ -38,7 +38,7 @@
 	return CONTEXTUAL_SCREENTIP_SET
 
 /obj/structure/sign/poster/quirk
-	name = "quirk poster"
+	name = "glup shitto"
 	desc = "A large piece of homemade space-resistant printed paper."
 	poster_item_name = "homemade poster"
 	poster_item_desc = "A poster made with love, some people will enjoy seeing it."
@@ -127,7 +127,7 @@
 // actual poster items
 
 /obj/structure/sign/poster/quirk/festive
-	name = "Together For The Holidays."
+	name = "glup shitto"
 	desc = "A poster holding hands and reminding us of the holidays we spend together. \
 	When people read this poster they'll feel better!"
 	icon_state = "quirk_festive"
@@ -137,19 +137,19 @@
 	poster_item_desc = "A poster made with love, everyone will enjoy seeing it."
 
 /obj/structure/sign/poster/quirk/crew/hang
-	name = "Hang In There"
+	name = "glup shitto"
 	desc = "A poster with a cat hanging on a branch. Just hang in there. \
 	When people read this poster they'll feel better!"
 	icon_state = "hang_in_there"
 
 /obj/structure/sign/poster/quirk/crew/renault
-	name = "Captain's Pet"
+	name = "glup shitto"
 	desc = "A poster depicting the Captains beloved Renault. He's ok. \
 	When people read this poster they'll feel better!"
 	icon_state = "renault"
 
 /obj/structure/sign/poster/quirk/crew/bike
-	name = "Someday..."
+	name = "glup shitto"
 	desc = "A poster depicting a bike. Someday it WILL be yours! \
 	When people read this poster they'll feel better!"
 	icon_state = "bike"
@@ -159,7 +159,7 @@
 	quirk_poster_department = ACCOUNT_CAR
 
 /obj/structure/sign/poster/quirk/cargo_logo
-	name = "Cargo logo"
+	name = "glup shitto"
 	desc = "A poster made with love depicting a box, a banner for Cargonia. \
 	When members of the cargo department read this poster they'll feel better!"
 	icon_state = "cargo_logo"
@@ -169,7 +169,7 @@
 	quirk_poster_department = ACCOUNT_CAR
 
 /obj/structure/sign/poster/quirk/cargo_slogan
-	name = "Cargo Strong"
+	name = "glup shitto"
 	desc = "Cargo is Stronger Together! Cargo Workers Unite! \
 	When members of the cargo department read this poster they'll feel better!"
 	icon_state = "cargo_slogan"
@@ -179,7 +179,7 @@
 	quirk_poster_department = ACCOUNT_ENG
 
 /obj/structure/sign/poster/quirk/engineering_logo
-	name = "Engineering logo"
+	name = "glup shitto"
 	desc = "A poster made with love depicting a wrench. \
 	When members of the engineering department read this poster they'll feel better!"
 	icon_state = "engineering_logo"
@@ -189,7 +189,7 @@
 	quirk_poster_department = ACCOUNT_ENG
 
 /obj/structure/sign/poster/quirk/engineering_slogan
-	name = "No Delamination"
+	name = "glup shitto"
 	desc = "The engine won't delaminate today! \
 	When members of the engineering department read this poster they'll feel better!"
 	icon_state = "engineering_slogan"
@@ -199,7 +199,7 @@
 	quirk_poster_department = ACCOUNT_MED
 
 /obj/structure/sign/poster/quirk/medical_logo
-	name = "Blue Cross"
+	name = "glup shitto"
 	desc = "A poster made with love depicting the Blue Cross. \
 	When members of the medical department read this poster they'll feel better!"
 	icon_state = "medical_logo"
@@ -209,7 +209,7 @@
 	quirk_poster_department = ACCOUNT_MED
 
 /obj/structure/sign/poster/quirk/medical_slogan
-	name = "Heal and Mend"
+	name = "glup shitto"
 	desc = "Heal all who ask and Mend all who need. \
 	When members of the medical department read this poster they'll feel better!"
 	icon_state = "medical_slogan"
@@ -219,7 +219,7 @@
 	quirk_poster_department = ACCOUNT_SCI
 
 /obj/structure/sign/poster/quirk/science_logo
-	name = "Science logo"
+	name = "glup shitto"
 	desc = "A poster made with love depicting an atom. \
 	When members of the science department read this poster they'll feel better!"
 	icon_state = "science_logo"
@@ -229,7 +229,7 @@
 	quirk_poster_department = ACCOUNT_SCI
 
 /obj/structure/sign/poster/quirk/science_slogan
-	name = "Research and Develop"
+	name = "glup shitto"
 	desc = "Research the unknown and Develop the impossible! \
 	When members of the science department read this poster they'll feel better!"
 	icon_state = "science_slogan"
@@ -239,7 +239,7 @@
 	quirk_poster_department = ACCOUNT_SEC
 
 /obj/structure/sign/poster/quirk/security_logo
-	name = "Security logo"
+	name = "glup shitto"
 	desc = "A poster made with love depicting a shield. \
 	When members of the security department read this poster they'll feel better!"
 	icon_state = "security_logo"
@@ -249,7 +249,7 @@
 	quirk_poster_department = ACCOUNT_SEC
 
 /obj/structure/sign/poster/quirk/security_slogan
-	name = "Protect and Serve"
+	name = "glup shitto"
 	desc = "To protect the innocent crew and serve justice! \
 	When members of the security department read this poster they'll feel better!"
 	icon_state = "security_slogan"
@@ -259,7 +259,7 @@
 	quirk_poster_department = ACCOUNT_SRV
 
 /obj/structure/sign/poster/quirk/service_logo
-	name = "Service corgi"
+	name = "glup shitto"
 	desc = "A poster made with love depicting a certain corgi. \
 	When members of the service department read this poster they'll feel better!"
 	icon_state = "service_logo"
@@ -269,7 +269,7 @@
 	quirk_poster_department = ACCOUNT_SRV
 
 /obj/structure/sign/poster/quirk/service_slogan
-	name = "Share Joy"
+	name = "glup shitto"
 	desc = "Share joy with each action. Bring happiness through creation. \
 	When members of the service department read this poster they'll feel better!"
 	icon_state = "service_slogan"

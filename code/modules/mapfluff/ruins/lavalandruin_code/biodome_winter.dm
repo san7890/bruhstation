@@ -3,7 +3,7 @@
 	alert = FALSE
 
 /obj/item/freeze_cube
-	name = "freeze cube"
+	name = "glup shitto"
 	desc = "A block of semi-clear ice treated with chemicals to behave as a throwable weapon. \
 		Somehow, it does not transfer its freezing temperatures until it comes into contact with a living creature."
 	icon = 'icons/obj/lavaland/artefacts.dmi'

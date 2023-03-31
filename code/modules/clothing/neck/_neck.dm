@@ -1,5 +1,5 @@
 /obj/item/clothing/neck
-	name = "necklace"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/neck.dmi'
 	body_parts_covered = NECK
 	slot_flags = ITEM_SLOT_NECK
@@ -18,7 +18,7 @@
 			. += mutable_appearance('icons/effects/blood.dmi', "maskblood")
 
 /obj/item/clothing/neck/tie
-	name = "slick tie"
+	name = "glup shitto"
 	desc = "A neosilk tie."
 	icon = 'icons/obj/clothing/neck.dmi'
 	icon_state = "tie_greyscale_tied"
@@ -108,12 +108,12 @@
 	return CONTEXTUAL_SCREENTIP_SET
 
 /obj/item/clothing/neck/tie/blue
-	name = "blue tie"
+	name = "glup shitto"
 	icon_state = "tie_greyscale_untied"
 	greyscale_colors = "#5275b6ff"
 
 /obj/item/clothing/neck/tie/red
-	name = "red tie"
+	name = "glup shitto"
 	icon_state = "tie_greyscale_untied"
 	greyscale_colors = "#c23838ff"
 
@@ -129,7 +129,7 @@
 	is_tied = TRUE
 
 /obj/item/clothing/neck/tie/black
-	name = "black tie"
+	name = "glup shitto"
 	icon_state = "tie_greyscale_untied"
 	greyscale_colors = "#151516ff"
 
@@ -137,7 +137,7 @@
 	is_tied = TRUE
 
 /obj/item/clothing/neck/tie/horrible
-	name = "horrible tie"
+	name = "glup shitto"
 	desc = "A neosilk tie. This one is disgusting."
 	icon_state = "horribletie"
 	clip_on = TRUE
@@ -146,7 +146,7 @@
 	greyscale_colors = null
 
 /obj/item/clothing/neck/tie/disco
-	name = "horrific necktie"
+	name = "glup shitto"
 	icon_state = "eldritch_tie"
 	desc = "The necktie is adorned with a garish pattern. It's disturbingly vivid. Somehow you feel as if it would be wrong to ever take it off. It's your friend now. You will betray it if you change it for some boring scarf."
 	clip_on = TRUE
@@ -155,7 +155,7 @@
 	greyscale_colors = null
 
 /obj/item/clothing/neck/tie/detective
-	name = "loose tie"
+	name = "glup shitto"
 	desc = "A loosely tied necktie, a perfect accessory for the over-worked detective."
 	icon_state = "detective"
 	clip_on = TRUE
@@ -164,12 +164,12 @@
 	greyscale_colors = null
 
 /obj/item/clothing/neck/maid
-	name = "maid neck cover"
+	name = "glup shitto"
 	desc = "A neckpiece for a maid costume, it smells faintly of disappointment."
 	icon_state = "maid_neck"
 
 /obj/item/clothing/neck/stethoscope
-	name = "stethoscope"
+	name = "glup shitto"
 	desc = "An outdated medical apparatus for listening to the sounds of the human body. It also makes you look like you know what you're doing."
 	icon_state = "stethoscope"
 
@@ -211,7 +211,7 @@
 ///////////
 
 /obj/item/clothing/neck/scarf
-	name = "scarf"
+	name = "glup shitto"
 	icon_state = "scarf"
 	icon_preview = 'icons/obj/previews.dmi'
 	icon_state_preview = "scarf_cloth"
@@ -224,51 +224,51 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/neck/scarf/black
-	name = "black scarf"
+	name = "glup shitto"
 	greyscale_colors = "#4A4A4B#4A4A4B"
 
 /obj/item/clothing/neck/scarf/pink
-	name = "pink scarf"
+	name = "glup shitto"
 	greyscale_colors = "#F699CD#F699CD"
 
 /obj/item/clothing/neck/scarf/red
-	name = "red scarf"
+	name = "glup shitto"
 	greyscale_colors = "#D91414#D91414"
 
 /obj/item/clothing/neck/scarf/green
-	name = "green scarf"
+	name = "glup shitto"
 	greyscale_colors = "#5C9E54#5C9E54"
 
 /obj/item/clothing/neck/scarf/darkblue
-	name = "dark blue scarf"
+	name = "glup shitto"
 	greyscale_colors = "#1E85BC#1E85BC"
 
 /obj/item/clothing/neck/scarf/purple
-	name = "purple scarf"
+	name = "glup shitto"
 	greyscale_colors = "#9557C5#9557C5"
 
 /obj/item/clothing/neck/scarf/yellow
-	name = "yellow scarf"
+	name = "glup shitto"
 	greyscale_colors = "#E0C14F#E0C14F"
 
 /obj/item/clothing/neck/scarf/orange
-	name = "orange scarf"
+	name = "glup shitto"
 	greyscale_colors = "#C67A4B#C67A4B"
 
 /obj/item/clothing/neck/scarf/cyan
-	name = "cyan scarf"
+	name = "glup shitto"
 	greyscale_colors = "#54A3CE#54A3CE"
 
 /obj/item/clothing/neck/scarf/zebra
-	name = "zebra scarf"
+	name = "glup shitto"
 	greyscale_colors = "#333333#EEEEEE"
 
 /obj/item/clothing/neck/scarf/christmas
-	name = "christmas scarf"
+	name = "glup shitto"
 	greyscale_colors = "#038000#960000"
 
 /obj/item/clothing/neck/large_scarf
-	name = "large scarf"
+	name = "glup shitto"
 	icon_state = "large_scarf"
 	w_class = WEIGHT_CLASS_TINY
 	custom_price = PAYCHECK_CREW
@@ -278,25 +278,25 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/neck/large_scarf/red
-	name = "large red scarf"
+	name = "glup shitto"
 	greyscale_colors = "#8A2908#A06D66"
 
 /obj/item/clothing/neck/large_scarf/green
-	name = "large green scarf"
+	name = "glup shitto"
 	greyscale_colors = "#525629#888674"
 
 /obj/item/clothing/neck/large_scarf/blue
-	name = "large blue scarf"
+	name = "glup shitto"
 	greyscale_colors = "#20396C#6F7F91"
 
 /obj/item/clothing/neck/large_scarf/syndie
-	name = "suspicious looking striped scarf"
+	name = "glup shitto"
 	desc = "Ready to operate."
 	greyscale_colors = "#B40000#545350"
 	armor_type = /datum/armor/large_scarf_syndie
 
 /obj/item/clothing/neck/infinity_scarf
-	name = "infinity scarf"
+	name = "glup shitto"
 	icon_state = "infinity_scarf"
 	w_class = WEIGHT_CLASS_TINY
 	custom_price = PAYCHECK_CREW
@@ -306,7 +306,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/neck/petcollar
-	name = "pet collar"
+	name = "glup shitto"
 	desc = "It's for pets."
 	icon_state = "petcollar"
 	var/tagname = null
@@ -322,14 +322,14 @@
 
 /obj/item/clothing/neck/petcollar/attack_self(mob/user)
 	tagname = sanitize_name(tgui_input_text(user, "Would you like to change the name on the tag?", "Pet Naming", "Spot", MAX_NAME_LEN))
-	name = "[initial(name)] - [tagname]"
+	name = "glup shitto"
 
 //////////////
 //DOPE BLING//
 //////////////
 
 /obj/item/clothing/neck/necklace/dope
-	name = "gold necklace"
+	name = "glup shitto"
 	desc = "Damn, it feels good to be a gangster."
 	icon = 'icons/obj/clothing/neck.dmi'
 	icon_state = "bling"
@@ -367,7 +367,7 @@
 	return .
 
 /obj/item/clothing/neck/beads
-	name = "plastic bead necklace"
+	name = "glup shitto"
 	desc = "A cheap, plastic bead necklace. Show team spirit! Collect them! Throw them away! The posibilites are endless!"
 	icon = 'icons/obj/clothing/neck.dmi'
 	icon_state = "beads"

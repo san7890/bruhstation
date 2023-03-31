@@ -27,18 +27,18 @@
 // 7.12x82mm (SAW)
 
 /obj/projectile/bullet/mm712x82
-	name = "7.12x82mm bullet"
+	name = "glup shitto"
 	damage = 30
 	armour_penetration = 5
 	wound_bonus = -50
 	wound_falloff_tile = 0
 
 /obj/projectile/bullet/mm712x82/ap
-	name = "7.12x82mm armor-piercing bullet"
+	name = "glup shitto"
 	armour_penetration = 75
 
 /obj/projectile/bullet/mm712x82/hp
-	name = "7.12x82mm hollow-point bullet"
+	name = "glup shitto"
 	damage = 50
 	sharpness = SHARP_EDGED
 	weak_against_armour = TRUE
@@ -47,19 +47,19 @@
 	wound_falloff_tile = -8
 
 /obj/projectile/bullet/incendiary/mm712x82
-	name = "7.12x82mm incendiary bullet"
+	name = "glup shitto"
 	damage = 15
 	fire_stacks = 3
 
 /obj/projectile/bullet/mm712x82/match
-	name = "7.12x82mm match bullet"
+	name = "glup shitto"
 	ricochets_max = 2
 	ricochet_chance = 60
 	ricochet_auto_aim_range = 4
 	ricochet_incidence_leeway = 55
 
 /obj/projectile/bullet/mm712x82/bouncy
-	name = "7.12x82mm rubber bullet"
+	name = "glup shitto"
 	damage = 20
 	ricochets_max = 40
 	ricochet_chance = 500 // will bounce off anything and everything, whether they like it or not

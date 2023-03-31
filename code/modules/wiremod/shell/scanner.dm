@@ -4,7 +4,7 @@
  * A handheld device that lets you flash it over people.
  */
 /obj/item/wiremod_scanner
-	name = "scanner"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_small"
 	inhand_icon_state = "electronic"

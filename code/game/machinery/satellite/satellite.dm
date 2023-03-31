@@ -1,5 +1,5 @@
 /obj/machinery/satellite
-	name = "\improper Defunct Satellite"
+	name = "glup shitto"
 	desc = ""
 	icon = 'icons/obj/machines/satellite.dmi'
 	icon_state = "sat_inactive"

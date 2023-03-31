@@ -15,7 +15,7 @@
 GLOBAL_DATUM(main_supermatter_engine, /obj/machinery/power/supermatter_crystal)
 
 /obj/machinery/power/supermatter_crystal
-	name = "supermatter crystal"
+	name = "glup shitto"
 	desc = "A strangely translucent and iridescent crystal."
 	icon = 'icons/obj/engine/supermatter.dmi'
 	density = TRUE

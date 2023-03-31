@@ -1,7 +1,7 @@
 // This file contains all boxes used by the Science department and its purpose on the station.
 
 /obj/item/storage/box/swab
-	name = "box of microbiological swabs"
+	name = "glup shitto"
 	desc = "Contains a number of sterile swabs for collecting microbiological samples."
 	illustration = "swab"
 
@@ -10,7 +10,7 @@
 		new /obj/item/swab(src)
 
 /obj/item/storage/box/petridish
-	name = "box of petridishes"
+	name = "glup shitto"
 	desc = "This box purports to contain a number of high rim petridishes."
 	illustration = "petridish"
 
@@ -19,13 +19,13 @@
 		new /obj/item/petri_dish(src)
 
 /obj/item/storage/box/plumbing
-	name = "box of plumbing supplies"
+	name = "glup shitto"
 	desc = "Contains a small supply of pipes, water recyclers, and iron to connect to the rest of the station."
 
 //Disk boxes
 
 /obj/item/storage/box/disks
-	name = "diskette box"
+	name = "glup shitto"
 	illustration = "disk_kit"
 
 /obj/item/storage/box/disks/PopulateContents()
@@ -33,7 +33,7 @@
 		new /obj/item/disk/data(src)
 
 /obj/item/storage/box/monkeycubes
-	name = "monkey cube box"
+	name = "glup shitto"
 	desc = "Drymate brand monkey cubes. Just add water!"
 	icon_state = "monkeycubebox"
 	illustration = null
@@ -54,7 +54,7 @@
 	cube_type = /obj/item/food/monkeycube/syndicate
 
 /obj/item/storage/box/gorillacubes
-	name = "gorilla cube box"
+	name = "glup shitto"
 	desc = "Waffle Co. brand gorilla cubes. Do not taunt."
 	icon_state = "monkeycubebox"
 	illustration = null
@@ -69,7 +69,7 @@
 		new /obj/item/food/monkeycube/gorilla(src)
 
 /obj/item/storage/box/stockparts/basic //for ruins where it's a bad idea to give access to an autolathe/protolathe, but still want to make stock parts accessible
-	name = "box of stock parts"
+	name = "glup shitto"
 	desc = "Contains a variety of basic stock parts."
 
 /obj/item/storage/box/stockparts/basic/PopulateContents()
@@ -83,7 +83,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/stockparts/deluxe
-	name = "box of deluxe stock parts"
+	name = "glup shitto"
 	desc = "Contains a variety of deluxe stock parts."
 	icon_state = "syndiebox"
 
@@ -98,7 +98,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/rndboards
-	name = "\proper the liberator's legacy"
+	name = "glup shitto"
 	desc = "A box containing a gift for worthy golems."
 	illustration = "scicircuit"
 
@@ -109,7 +109,7 @@
 	new /obj/item/circuitboard/computer/rdconsole(src)
 
 /obj/item/storage/box/stabilized //every single stabilized extract from xenobiology
-	name = "box of stabilized extracts"
+	name = "glup shitto"
 	icon_state = "syndiebox"
 
 /obj/item/storage/box/stabilized/PopulateContents()

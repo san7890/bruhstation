@@ -6,7 +6,7 @@
 	resilience = TRAUMA_RESILIENCE_SURGERY
 
 /datum/brain_trauma/severe/mute
-	name = "Mutism"
+	name = "glup shitto"
 	desc = "Patient is completely unable to speak."
 	scan_desc = "extensive damage to the brain's speech center"
 	gain_text = span_warning("You forget how to speak!")
@@ -21,7 +21,7 @@
 	..()
 
 /datum/brain_trauma/severe/aphasia
-	name = "Aphasia"
+	name = "glup shitto"
 	desc = "Patient is unable to speak or understand any language."
 	scan_desc = "extensive damage to the brain's language center"
 	gain_text = span_warning("You have trouble forming words in your head...")
@@ -38,7 +38,7 @@
 	..()
 
 /datum/brain_trauma/severe/blindness
-	name = "Cerebral Blindness"
+	name = "glup shitto"
 	desc = "Patient's brain is no longer connected to its eyes."
 	scan_desc = "extensive damage to the brain's occipital lobe"
 	gain_text = span_warning("You can't see!")
@@ -53,7 +53,7 @@
 	..()
 
 /datum/brain_trauma/severe/paralysis
-	name = "Paralysis"
+	name = "glup shitto"
 	desc = "Patient's brain can no longer control part of its motor functions."
 	scan_desc = "cerebral paralysis"
 	gain_text = ""
@@ -118,7 +118,7 @@
 	resilience = TRAUMA_RESILIENCE_ABSOLUTE
 
 /datum/brain_trauma/severe/narcolepsy
-	name = "Narcolepsy"
+	name = "glup shitto"
 	desc = "Patient may involuntarily fall asleep during normal activities."
 	scan_desc = "traumatic narcolepsy"
 	gain_text = span_warning("You have a constant feeling of drowsiness...")
@@ -144,7 +144,7 @@
 		owner.adjust_drowsiness(20 SECONDS)
 
 /datum/brain_trauma/severe/monophobia
-	name = "Monophobia"
+	name = "glup shitto"
 	desc = "Patient feels sick and distressed when not around other people, leading to potentially lethal levels of stress."
 	scan_desc = "monophobia"
 	gain_text = ""
@@ -226,7 +226,7 @@
 			return
 
 /datum/brain_trauma/severe/discoordination
-	name = "Discoordination"
+	name = "glup shitto"
 	desc = "Patient is unable to use complex tools or machinery."
 	scan_desc = "extreme discoordination"
 	gain_text = span_warning("You can barely control your hands!")
@@ -241,7 +241,7 @@
 	return ..()
 
 /datum/brain_trauma/severe/pacifism
-	name = "Traumatic Non-Violence"
+	name = "glup shitto"
 	desc = "Patient is extremely unwilling to harm others in violent ways."
 	scan_desc = "pacific syndrome"
 	gain_text = span_notice("You feel oddly peaceful.")
@@ -256,7 +256,7 @@
 	..()
 
 /datum/brain_trauma/severe/hypnotic_stupor
-	name = "Hypnotic Stupor"
+	name = "glup shitto"
 	desc = "Patient is prone to episodes of extreme stupor that leaves them extremely suggestible."
 	scan_desc = "oneiric feedback loop"
 	gain_text = span_warning("You feel somewhat dazed.")
@@ -272,7 +272,7 @@
 		owner.apply_status_effect(/datum/status_effect/trance, rand(100,300), FALSE)
 
 /datum/brain_trauma/severe/hypnotic_trigger
-	name = "Hypnotic Trigger"
+	name = "glup shitto"
 	desc = "Patient has a trigger phrase set in their subconscious that will trigger a suggestible trance-like state."
 	scan_desc = "oneiric feedback loop"
 	gain_text = span_warning("You feel odd, like you just forgot something important.")
@@ -304,7 +304,7 @@
 	owner.apply_status_effect(/datum/status_effect/trance, rand(100,300), FALSE)
 
 /datum/brain_trauma/severe/dyslexia
-	name = "Dyslexia"
+	name = "glup shitto"
 	desc = "Patient is unable to read or write."
 	scan_desc = "dyslexia"
 	gain_text = span_warning("You have trouble reading or writing...")

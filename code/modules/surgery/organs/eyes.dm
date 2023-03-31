@@ -235,19 +235,19 @@
 #undef NIGHTVISION_LIGHT_HIG
 
 /obj/item/organ/internal/eyes/night_vision/mushroom
-	name = "fung-eye"
+	name = "glup shitto"
 	desc = "While on the outside they look inert and dead, the eyes of mushroom people are actually very advanced."
 	low_light_cutoff = list(0, 15, 20)
 	medium_light_cutoff = list(0, 20, 35)
 	high_light_cutoff = list(0, 40, 50)
 
 /obj/item/organ/internal/eyes/zombie
-	name = "undead eyes"
+	name = "glup shitto"
 	desc = "Somewhat counterintuitively, these half-rotten eyes actually have superior vision to those of a living human."
 	color_cutoffs = list(25, 35, 5)
 
 /obj/item/organ/internal/eyes/alien
-	name = "alien eyes"
+	name = "glup shitto"
 	desc = "It turned out they had them after all!"
 	sight_flags = SEE_MOBS
 	color_cutoffs = list(25, 5, 42)
@@ -255,7 +255,7 @@
 ///Robotic
 
 /obj/item/organ/internal/eyes/robotic
-	name = "robotic eyes"
+	name = "glup shitto"
 	icon_state = "cybernetic_eyeballs"
 	desc = "Your vision is augmented."
 	status = ORGAN_ROBOTIC
@@ -271,7 +271,7 @@
 	owner.flash_act(visual = 1)
 
 /obj/item/organ/internal/eyes/robotic/basic
-	name = "basic robotic eyes"
+	name = "glup shitto"
 	desc = "A pair of basic cybernetic eyes that restore vision, but at some vulnerability to light."
 	eye_color_left = "5500ff"
 	eye_color_right = "5500ff"
@@ -288,7 +288,7 @@
 		owner.emote("scream")
 
 /obj/item/organ/internal/eyes/robotic/xray
-	name = "\improper X-ray eyes"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will give you X-ray vision. Blinking is futile."
 	eye_color_left = "000"
 	eye_color_right = "000"
@@ -303,7 +303,7 @@
 	REMOVE_TRAIT(eye_owner, TRAIT_XRAY_VISION, ORGAN_TRAIT)
 
 /obj/item/organ/internal/eyes/robotic/thermals
-	name = "thermal eyes"
+	name = "glup shitto"
 	desc = "These cybernetic eye implants will give you thermal vision. Vertical slit pupil included."
 	eye_color_left = "FC0"
 	eye_color_right = "FC0"
@@ -313,7 +313,7 @@
 	flash_protect = FLASH_PROTECTION_SENSITIVE
 
 /obj/item/organ/internal/eyes/robotic/flashlight
-	name = "flashlight eyes"
+	name = "glup shitto"
 	desc = "It's two flashlights rigged together with some wire. Why would you put these in someone's head?"
 	eye_color_left ="fee5a3"
 	eye_color_right ="fee5a3"
@@ -345,7 +345,7 @@
 
 // Welding shield implant
 /obj/item/organ/internal/eyes/robotic/shield
-	name = "shielded robotic eyes"
+	name = "glup shitto"
 	desc = "These reactive micro-shields will protect you from welders and flashes without obscuring your vision."
 	flash_protect = FLASH_PROTECTION_WELDER
 
@@ -355,7 +355,7 @@
 #define RGB2EYECOLORSTRING(definitionvar) ("[copytext_char(definitionvar, 2, 3)][copytext_char(definitionvar, 4, 5)][copytext_char(definitionvar, 6, 7)]")
 
 /obj/item/organ/internal/eyes/robotic/glow
-	name = "High Luminosity Eyes"
+	name = "glup shitto"
 	desc = "Special glowing eyes, used by snowflakes who want to be special."
 	eye_color_left = "000"
 	eye_color_right = "000"
@@ -552,26 +552,26 @@
 
 
 /obj/item/organ/internal/eyes/moth
-	name = "moth eyes"
+	name = "glup shitto"
 	desc = "These eyes seem to have increased sensitivity to bright light, with no improvement to low light vision."
 	eye_icon_state = "motheyes"
 	icon_state = "eyeballs-moth"
 	flash_protect = FLASH_PROTECTION_SENSITIVE
 
 /obj/item/organ/internal/eyes/snail
-	name = "snail eyes"
+	name = "glup shitto"
 	desc = "These eyes seem to have a large range, but might be cumbersome with glasses."
 	eye_icon_state = "snail_eyes"
 	icon_state = "snail_eyeballs"
 
 /obj/item/organ/internal/eyes/jelly
-	name = "jelly eyes"
+	name = "glup shitto"
 	desc = "These eyes are made of a soft jelly. Unlike all other eyes, though, there are three of them."
 	eye_icon_state = "jelleyes"
 	icon_state = "eyeballs-jelly"
 
 /obj/item/organ/internal/eyes/night_vision/maintenance_adapted
-	name = "adapted eyes"
+	name = "glup shitto"
 	desc = "These red eyes look like two foggy marbles. They give off a particularly worrying glow in the dark."
 	flash_protect = FLASH_PROTECTION_HYPER_SENSITIVE
 	eye_color_left = "f00"

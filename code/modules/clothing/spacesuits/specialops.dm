@@ -1,5 +1,5 @@
 /obj/item/clothing/head/helmet/space/beret
-	name = "CentCom officer's beret"
+	name = "glup shitto"
 	desc = "An armored beret commonly used by special operations officers. Uses advanced force field technology to protect the head from space."
 	greyscale_config = /datum/greyscale_config/beret_badge
 	greyscale_config_worn = /datum/greyscale_config/beret_badge/worn
@@ -25,7 +25,7 @@
 	wound = 15
 
 /obj/item/clothing/suit/space/officer
-	name = "CentCom officer's coat"
+	name = "glup shitto"
 	desc = "An armored, space-proof coat used in special operations."
 	icon_state = "centcom_coat"
 	icon = 'icons/obj/clothing/suits/jacket.dmi'

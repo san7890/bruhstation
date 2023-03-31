@@ -1,5 +1,5 @@
 /datum/antagonist/slaughter
-	name = "\improper Slaughter Demon"
+	name = "glup shitto"
 	show_name_in_check_antagonists = TRUE
 	ui_name = "AntagInfoDemon"
 	job_rank = ROLE_ALIEN
@@ -39,6 +39,6 @@
 	return data
 
 /datum/antagonist/slaughter/laughter
-	name = "Laughter demon"
+	name = "glup shitto"
 	objective_verb = "Hug and Tickle"
 	fluff = "You're a Demon of Envy, sometimes dragged into reality by wizards as a way to cause wanton chaos."

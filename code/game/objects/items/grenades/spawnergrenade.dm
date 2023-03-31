@@ -1,6 +1,6 @@
 /obj/item/grenade/spawnergrenade
 	desc = "It will unleash an unspecified anomaly in the surrounding vicinity."
-	name = "delivery grenade"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/grenade.dmi'
 	icon_state = "delivery"
 	inhand_icon_state = "flashbang"
@@ -30,28 +30,28 @@
 	return
 
 /obj/item/grenade/spawnergrenade/manhacks
-	name = "viscerator delivery grenade"
+	name = "glup shitto"
 	spawner_type = /mob/living/basic/viscerator
 	deliveryamt = 10
 
 /obj/item/grenade/spawnergrenade/spesscarp
-	name = "carp delivery grenade"
+	name = "glup shitto"
 	spawner_type = /mob/living/basic/carp
 	deliveryamt = 5
 
 /obj/item/grenade/spawnergrenade/syndiesoap
-	name = "Mister Scrubby"
+	name = "glup shitto"
 	spawner_type = /obj/item/soap/syndie
 
 /obj/item/grenade/spawnergrenade/buzzkill
-	name = "Buzzkill grenade"
+	name = "glup shitto"
 	desc = "The label reads: \"WARNING: DEVICE WILL RELEASE LIVE SPECIMENS UPON ACTIVATION. SEAL SUIT BEFORE USE.\" It is warm to the touch and vibrates faintly."
 	icon_state = "holy_grenade"
 	spawner_type = /mob/living/simple_animal/hostile/bee/toxin
 	deliveryamt = 10
 
 /obj/item/grenade/spawnergrenade/clown
-	name = "C.L.U.W.N.E."
+	name = "glup shitto"
 	desc = "A sleek device often given to clowns on their 10th birthdays for protection. You can hear faint scratching coming from within."
 	icon_state = "clown_ball"
 	inhand_icon_state = null
@@ -59,7 +59,7 @@
 	deliveryamt = 1
 
 /obj/item/grenade/spawnergrenade/clown_broken
-	name = "stuffed C.L.U.W.N.E."
+	name = "glup shitto"
 	desc = "A sleek device often given to clowns on their 10th birthdays for protection. While a typical C.L.U.W.N.E only holds one creature, sometimes foolish young clowns try to cram more in, often to disasterous effect."
 	icon_state = "clown_broken"
 	inhand_icon_state = null

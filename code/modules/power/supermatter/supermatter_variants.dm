@@ -11,7 +11,7 @@
 
 /// Shard SM.
 /obj/machinery/power/supermatter_crystal/shard
-	name = "supermatter shard"
+	name = "glup shitto"
 	desc = "A strangely translucent and iridescent crystal that looks like it used to be part of a larger structure."
 	base_icon_state = "sm_shard"
 	icon_state = "sm_shard"
@@ -24,7 +24,7 @@
 
 /// Shard SM with it's processing disabled.
 /obj/machinery/power/supermatter_crystal/shard/hugbox
-	name = "anchored supermatter shard"
+	name = "glup shitto"
 	disable_damage = TRUE
 	disable_gas =  TRUE
 	disable_power_change = TRUE
@@ -34,7 +34,7 @@
 
 /// Shard SM designated as the main engine.
 /obj/machinery/power/supermatter_crystal/shard/engine
-	name = "anchored supermatter shard"
+	name = "glup shitto"
 	is_main_engine = TRUE
 	anchored = TRUE
 	moveable = FALSE

@@ -1,5 +1,5 @@
 /obj/item/clothing/neck/heretic_focus
-	name = "Amber Focus"
+	name = "glup shitto"
 	desc = "An amber focusing glass that provides a link to the world beyond. The necklace seems to twitch, but only when you look at it from the corner of your eye."
 	icon_state = "eldritch_necklace"
 	w_class = WEIGHT_CLASS_SMALL
@@ -10,7 +10,7 @@
 	AddElement(/datum/element/heretic_focus)
 
 /obj/item/clothing/neck/eldritch_amulet
-	name = "Warm Eldritch Medallion"
+	name = "glup shitto"
 	desc = "A strange medallion. Peering through the crystalline surface, the world around you melts away. You see your own beating heart, and the pulsing of a thousand others."
 	icon = 'icons/obj/eldritch.dmi'
 	icon_state = "eye_medalion"
@@ -39,6 +39,6 @@
 	user.update_sight()
 
 /obj/item/clothing/neck/eldritch_amulet/piercing
-	name = "Piercing Eldritch Medallion"
+	name = "glup shitto"
 	desc = "A strange medallion. Peering through the crystalline surface, the light refracts into new and terrifying spectrums of color. You see yourself, reflected off cascading mirrors, warped into impossible shapes."
 	heretic_only_trait = TRAIT_XRAY_VISION

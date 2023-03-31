@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/asteroid/wolf
-	name = "white wolf"
+	name = "glup shitto"
 	desc = "A beast that survives by feasting on weaker opponents, they're much stronger with numbers."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "whitewolf"
@@ -60,7 +60,7 @@
 	retreat_message_said = FALSE
 
 /obj/item/crusher_trophy/wolf_ear
-	name = "wolf ear"
+	name = "glup shitto"
 	desc = "It's a wolf ear."
 	icon_state = "wolf_ear"
 	denied_type = /obj/item/crusher_trophy/wolf_ear

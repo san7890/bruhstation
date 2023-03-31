@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/touch/mansus_grasp
-	name = "Mansus Grasp"
+	name = "glup shitto"
 	desc = "A touch spell that lets you channel the power of the Old Gods through your grip."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -56,7 +56,7 @@
 	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/melee/touch_attack/mansus_fist
-	name = "Mansus Grasp"
+	name = "glup shitto"
 	desc = "A sinister looking aura that distorts the flow of reality around it. \
 		Causes knockdown, minor bruises, and major stamina damage. \
 		It gains additional beneficial effects as you expand your knowledge of the Mansus."

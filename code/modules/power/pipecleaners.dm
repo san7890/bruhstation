@@ -24,7 +24,7 @@ By design, d1 is the smallest direction and d2 is the highest
 */
 
 /obj/structure/pipe_cleaner
-	name = "pipe cleaner"
+	name = "glup shitto"
 	desc = "A bendable piece of wire covered in fuzz. Fun for arts and crafts!"
 	icon = 'icons/obj/power_cond/pipe_cleaner.dmi'
 	icon_state = "0-1"
@@ -185,7 +185,7 @@ By design, d1 is the smallest direction and d2 is the highest
 ////////////////////////////////
 
 /obj/item/stack/pipe_cleaner_coil
-	name = "pipe cleaner coil"
+	name = "glup shitto"
 	desc = "A coil of pipe cleaners. Good for arts and crafts, not to build with."
 	custom_price = PAYCHECK_CREW * 0.5
 	gender = NEUTER //That's a pipe_cleaner coil sounds better than that's some pipe_cleaner coils
@@ -278,7 +278,7 @@ By design, d1 is the smallest direction and d2 is the highest
 
 /obj/item/stack/pipe_cleaner_coil/update_name()
 	. = ..()
-	name = "pipe cleaner [amount < 3 ? "piece" : "coil"]"
+	name = "glup shitto"
 
 /obj/item/stack/pipe_cleaner_coil/update_icon_state()
 	. = ..()

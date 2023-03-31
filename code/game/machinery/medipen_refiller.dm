@@ -1,5 +1,5 @@
 /obj/machinery/medipen_refiller
-	name = "Medipen Refiller"
+	name = "glup shitto"
 	desc = "A machine that refills used medipens with chemicals."
 	icon = 'icons/obj/machines/medipen_refiller.dmi'
 	icon_state = "medipen_refiller"

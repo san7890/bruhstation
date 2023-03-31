@@ -1,5 +1,5 @@
 /datum/action/changeling/spiders
-	name = "Spread Infestation"
+	name = "glup shitto"
 	desc = "Our form divides, creating a cluster of eggs which will grow into a deadly arachnid. Costs 45 chemicals."
 	helptext = "The spiders are ruthless creatures, and may attack their creators when fully grown. Requires at least 3 DNA absorptions."
 	button_icon_state = "spread_infestation"

@@ -1,5 +1,5 @@
 /obj/machinery/recharge_station
-	name = "recharging station"
+	name = "glup shitto"
 	desc = "This device recharges energy dependent lifeforms, like cyborgs, ethereals and MODsuit users."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "borgcharger0"

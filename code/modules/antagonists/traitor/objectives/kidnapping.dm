@@ -1,5 +1,5 @@
 /datum/traitor_objective/target_player/kidnapping
-	name = "Kidnap %TARGET% the %JOB TITLE% and deliver them to %AREA%"
+	name = "glup shitto"
 	description = "%TARGET% holds extremely important information regarding secret NT projects - and you'll need to kidnap and deliver them to %AREA%, where our transport pod will be waiting. \
 		You'll get additional reward if %TARGET% is delivered alive."
 

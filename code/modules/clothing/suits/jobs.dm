@@ -4,7 +4,7 @@
 
 //Botanist
 /obj/item/clothing/suit/apron
-	name = "apron"
+	name = "glup shitto"
 	desc = "A basic blue apron."
 	icon_state = "apron"
 	icon = 'icons/obj/clothing/suits/utility.dmi'
@@ -33,7 +33,7 @@
 	bio = 50
 
 /obj/item/clothing/suit/apron/waders
-	name = "horticultural waders"
+	name = "glup shitto"
 	desc = "A pair of heavy duty leather waders, perfect for insulating your soft flesh from spills, soil and thorns."
 	icon_state = "hort_waders"
 	inhand_icon_state = null
@@ -41,7 +41,7 @@
 
 //Captain
 /obj/item/clothing/suit/jacket/capjacket
-	name = "captain's parade jacket"
+	name = "glup shitto"
 	desc = "Worn by a Captain to show their class."
 	icon_state = "capjacket"
 	inhand_icon_state = "bio_suit"
@@ -63,7 +63,7 @@
 
 //Chef
 /obj/item/clothing/suit/toggle/chef
-	name = "chef's apron"
+	name = "glup shitto"
 	desc = "An apron-jacket used by a high class chef."
 	icon_state = "chef"
 	inhand_icon_state = "chef"
@@ -84,7 +84,7 @@
 	bio = 50
 
 /obj/item/clothing/suit/apron/chef
-	name = "cook's apron"
+	name = "glup shitto"
 	desc = "A basic, dull, white chef's apron."
 	icon_state = "apronchef"
 	inhand_icon_state = null
@@ -98,7 +98,7 @@
 
 //Detective
 /obj/item/clothing/suit/jacket/det_suit
-	name = "trenchcoat"
+	name = "glup shitto"
 	desc = "A 18th-century multi-purpose trenchcoat. Someone who wears this means serious business."
 	icon_state = "detective"
 	inhand_icon_state = "det_suit"
@@ -120,32 +120,32 @@
 	allowed = GLOB.detective_vest_allowed
 
 /obj/item/clothing/suit/jacket/det_suit/dark
-	name = "noir trenchcoat"
+	name = "glup shitto"
 	desc = "A hard-boiled private investigator's dark trenchcoat."
 	icon_state = "noirdet"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/jacket/det_suit/noir
-	name = "noir suit coat"
+	name = "glup shitto"
 	desc = "A dapper private investigator's dark suit coat."
 	icon_state = "detsuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/jacket/det_suit/kim
-	name = "aerostatic bomber jacket"
+	name = "glup shitto"
 	desc = "A jacket once worn by the revolutionary air brigades during the Antecentennial Revolution. There are quite a few pockets on the inside, mostly for storing notebooks and compasses."
 	icon_state = "aerostatic_bomber_jacket"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/jacket/det_suit/disco
-	name = "disco ass blazer"
+	name = "glup shitto"
 	desc = "Looks like someone skinned this blazer off some long extinct disco-animal. It has an enigmatic white rectangle on the back and the right sleeve."
 	icon_state = "jamrock_blazer"
 	inhand_icon_state = null
 
 //Engineering
 /obj/item/clothing/suit/hazardvest
-	name = "hazard vest"
+	name = "glup shitto"
 	desc = "A high-visibility vest used in work zones."
 	icon_state = "hazard"
 	icon = 'icons/obj/clothing/suits/utility.dmi'
@@ -172,7 +172,7 @@
 
 //Lawyer
 /obj/item/clothing/suit/toggle/lawyer
-	name = "blue suit jacket"
+	name = "glup shitto"
 	desc = "A snappy dress jacket."
 	icon_state = "suitjacket_blue"
 	icon = 'icons/obj/clothing/suits/jacket.dmi'
@@ -183,20 +183,20 @@
 	species_exception = list(/datum/species/golem)
 
 /obj/item/clothing/suit/toggle/lawyer/purple
-	name = "purple suit jacket"
+	name = "glup shitto"
 	desc = "A foppish dress jacket."
 	icon_state = "suitjacket_purp"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/toggle/lawyer/black
-	name = "black suit jacket"
+	name = "glup shitto"
 	desc = "A professional suit jacket."
 	icon_state = "suitjacket_black"
 	inhand_icon_state = "ro_suit"
 
 //Mime
 /obj/item/clothing/suit/toggle/suspenders
-	name = "suspenders"
+	name = "glup shitto"
 	desc = "They suspend the illusion of the mime's play."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "suspenders"
@@ -212,42 +212,42 @@
 
 //Security
 /obj/item/clothing/suit/jacket/officer/blue
-	name = "security officer's jacket"
+	name = "glup shitto"
 	desc = "This jacket is for those special occasions when a security officer isn't required to wear their armor."
 	icon_state = "officerbluejacket"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/jacket/officer/tan
-	name = "security officer's jacket"
+	name = "glup shitto"
 	desc = "This jacket is for those special occasions when a security officer isn't required to wear their armor."
 	icon_state = "officertanjacket"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/jacket/warden/blue
-	name = "warden's jacket"
+	name = "glup shitto"
 	desc = "Perfectly suited for the warden that wants to leave an impression of style on those who visit the brig."
 	icon_state = "wardenbluejacket"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/jacket/warden/tan
-	name = "warden's jacket"
+	name = "glup shitto"
 	desc = "Perfectly suited for the warden that wants to leave an impression of style on those who visit the brig."
 	icon_state = "wardentanjacket"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/jacket/hos/blue
-	name = "head of security's jacket"
+	name = "glup shitto"
 	desc = "This piece of clothing was specifically designed for asserting superior authority."
 	icon_state = "hosbluejacket"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|ARMS
 
 /obj/item/clothing/suit/jacket/hos/tan
-	name = "head of security's jacket"
+	name = "glup shitto"
 	desc = "This piece of clothing was specifically designed for asserting superior authority."
 	icon_state = "hostanjacket"
 	inhand_icon_state = null
@@ -255,7 +255,7 @@
 
 //Surgeon
 /obj/item/clothing/suit/apron/surgical
-	name = "surgical apron"
+	name = "glup shitto"
 	desc = "A sterile blue surgical apron."
 	icon_state = "surgical"
 	allowed = list(
@@ -278,7 +278,7 @@
 
 //Curator
 /obj/item/clothing/suit/jacket/curator
-	name = "treasure hunter's coat"
+	name = "glup shitto"
 	desc = "Both fashionable and lightly armoured, this jacket is favoured by treasure hunters the galaxy over."
 	icon_state = "curator"
 	inhand_icon_state = null
@@ -302,7 +302,7 @@
 	acid = 45
 
 /obj/item/clothing/suit/hooded/techpriest
-	name = "techpriest robes"
+	name = "glup shitto"
 	desc = "For those who REALLY love their toasters."
 	icon_state = "techpriest"
 	icon = 'icons/obj/clothing/suits/costume.dmi'
@@ -312,7 +312,7 @@
 	hoodtype = /obj/item/clothing/head/hooded/techpriest
 
 /obj/item/clothing/head/hooded/techpriest
-	name = "techpriest's hood"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
 	desc = "A hood for those who REALLY love their toasters."
@@ -324,7 +324,7 @@
 // Research Director
 
 /obj/item/clothing/suit/jacket/research_director
-	name = "research director's coat"
+	name = "glup shitto"
 	desc = "A mix between a labcoat and just a regular coat. It's made out of a special anti-bacterial, anti-acidic, and anti-biohazardous synthetic fabric."
 	icon_state = "labcoat_rd"
 	armor_type = /datum/armor/jacket_research_director

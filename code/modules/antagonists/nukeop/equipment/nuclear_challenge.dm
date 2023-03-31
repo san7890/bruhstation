@@ -6,7 +6,7 @@
 GLOBAL_LIST_EMPTY(jam_on_wardec)
 
 /obj/item/nuclear_challenge
-	name = "Declaration of War (Challenge Mode)"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "gangtool-red"
 	inhand_icon_state = "radio"
@@ -148,7 +148,7 @@ GLOBAL_LIST_EMPTY(jam_on_wardec)
 
 /// Subtype that does nothing but plays the war op message. Intended for debugging
 /obj/item/nuclear_challenge/literally_just_does_the_message
-	name = "\"Declaration of War\""
+	name = "glup shitto"
 	desc = "It's a Syndicate Declaration of War thing-a-majig, but it only plays the loud sound and message. Nothing else."
 	var/admin_only = TRUE
 

@@ -14,7 +14,7 @@
 	return TRUE
 
 /atom/movable/screen/pai/software
-	name = "Software Interface"
+	name = "glup shitto"
 	icon_state = "pai"
 
 /atom/movable/screen/pai/software/Click()
@@ -24,7 +24,7 @@
 	pAI.ui_interact(pAI)
 
 /atom/movable/screen/pai/shell
-	name = "Toggle Holoform"
+	name = "glup shitto"
 	icon_state = "pai_holoform"
 
 /atom/movable/screen/pai/shell/Click()
@@ -37,7 +37,7 @@
 		pAI.fold_out()
 
 /atom/movable/screen/pai/chassis
-	name = "Holochassis Appearance Composite"
+	name = "glup shitto"
 	icon_state = "pai_chassis"
 
 /atom/movable/screen/pai/chassis/Click()
@@ -47,7 +47,7 @@
 	pAI.choose_chassis()
 
 /atom/movable/screen/pai/rest
-	name = "Rest"
+	name = "glup shitto"
 	icon_state = "pai_rest"
 
 /atom/movable/screen/pai/rest/Click()
@@ -57,7 +57,7 @@
 	pAI.toggle_resting()
 
 /atom/movable/screen/pai/light
-	name = "Toggle Integrated Lights"
+	name = "glup shitto"
 	icon_state = "light"
 
 /atom/movable/screen/pai/light/Click()
@@ -67,7 +67,7 @@
 	pAI.toggle_integrated_light()
 
 /atom/movable/screen/pai/newscaster
-	name = "pAI Newscaster"
+	name = "glup shitto"
 	icon_state = "newscaster"
 	required_software = "Newscaster"
 
@@ -78,7 +78,7 @@
 	pAI.newscaster.ui_interact(usr)
 
 /atom/movable/screen/pai/host_monitor
-	name = "Host Health Scan"
+	name = "glup shitto"
 	icon_state = "host_monitor"
 	required_software = "Host Scan"
 
@@ -95,7 +95,7 @@
 		pAI.host_scan(PAI_SCAN_MASTER)
 		return TRUE
 /atom/movable/screen/pai/crew_manifest
-	name = "Crew Manifest"
+	name = "glup shitto"
 	icon_state = "manifest"
 	required_software = "Crew Manifest"
 
@@ -106,7 +106,7 @@
 	pAI.ai_roster()
 
 /atom/movable/screen/pai/state_laws
-	name = "State Laws"
+	name = "glup shitto"
 	icon_state = "state_laws"
 
 /atom/movable/screen/pai/state_laws/Click()
@@ -116,7 +116,7 @@
 	pAI.checklaws()
 
 /atom/movable/screen/pai/modpc
-	name = "Messenger"
+	name = "glup shitto"
 	icon_state = "pda_send"
 	required_software = "Digital Messenger"
 	var/mob/living/silicon/pai/pAI
@@ -128,7 +128,7 @@
 	pAI.modularInterface?.interact(pAI)
 
 /atom/movable/screen/pai/internal_gps
-	name = "Internal GPS"
+	name = "glup shitto"
 	icon_state = "internal_gps"
 	required_software = "Internal GPS"
 
@@ -142,7 +142,7 @@
 	pAI.internal_gps.attack_self(pAI)
 
 /atom/movable/screen/pai/image_take
-	name = "Take Image"
+	name = "glup shitto"
 	icon_state = "take_picture"
 	required_software = "Photography Module"
 
@@ -153,7 +153,7 @@
 	pAI.camera.toggle_camera_mode(usr)
 
 /atom/movable/screen/pai/image_view
-	name = "View Images"
+	name = "glup shitto"
 	icon_state = "view_images"
 	required_software = "Photography Module"
 
@@ -164,7 +164,7 @@
 	pAI.camera.viewpictures(usr)
 
 /atom/movable/screen/pai/radio
-	name = "radio"
+	name = "glup shitto"
 	icon = 'icons/hud/screen_cyborg.dmi'
 	icon_state = "radio"
 

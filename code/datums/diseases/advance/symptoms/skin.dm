@@ -7,7 +7,7 @@
  * Bonus: Makes the mob gain a random crayon powder colorful reagent.
 */
 /datum/symptom/polyvitiligo
-	name = "Polyvitiligo"
+	name = "glup shitto"
 	desc = "The virus replaces the melanin in the skin with reactive pigment."
 	illness = "Chroma Imbalance"
 	stealth = -1

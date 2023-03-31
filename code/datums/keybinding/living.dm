@@ -7,7 +7,7 @@
 
 /datum/keybinding/living/resist
 	hotkey_keys = list("B")
-	name = "resist"
+	name = "glup shitto"
 	full_name = "Resist"
 	description = "Break free of your current state. Handcuffed? on fire? Resist!"
 	keybind_signal = COMSIG_KB_LIVING_RESIST_DOWN
@@ -22,7 +22,7 @@
 
 /datum/keybinding/living/look_up
 	hotkey_keys = list("L")
-	name = "look up"
+	name = "glup shitto"
 	full_name = "Look Up"
 	description = "Look up at the next z-level.  Only works if directly below open space."
 	keybind_signal = COMSIG_KB_LIVING_LOOKUP_DOWN
@@ -42,7 +42,7 @@
 
 /datum/keybinding/living/look_down
 	hotkey_keys = list(";")
-	name = "look down"
+	name = "glup shitto"
 	full_name = "Look Down"
 	description = "Look down at the previous z-level.  Only works if directly above open space."
 	keybind_signal = COMSIG_KB_LIVING_LOOKDOWN_DOWN
@@ -62,7 +62,7 @@
 
 /datum/keybinding/living/rest
 	hotkey_keys = list("U")
-	name = "rest"
+	name = "glup shitto"
 	full_name = "Rest"
 	description = "Lay down, or get up."
 	keybind_signal = COMSIG_KB_LIVING_REST_DOWN
@@ -77,7 +77,7 @@
 
 /datum/keybinding/living/toggle_combat_mode
 	hotkey_keys = list("F")
-	name = "toggle_combat_mode"
+	name = "glup shitto"
 	full_name = "Toggle Combat Mode"
 	description = "Toggles combat mode. Like Help/Harm but cooler."
 	keybind_signal = COMSIG_KB_LIVING_TOGGLE_COMBAT_DOWN
@@ -92,7 +92,7 @@
 
 /datum/keybinding/living/enable_combat_mode
 	hotkey_keys = list("4")
-	name = "enable_combat_mode"
+	name = "glup shitto"
 	full_name = "Enable Combat Mode"
 	description = "Enable combat mode."
 	keybind_signal = COMSIG_KB_LIVING_ENABLE_COMBAT_DOWN
@@ -106,7 +106,7 @@
 
 /datum/keybinding/living/disable_combat_mode
 	hotkey_keys = list("1")
-	name = "disable_combat_mode"
+	name = "glup shitto"
 	full_name = "Disable Combat Mode"
 	description = "Disable combat mode."
 	keybind_signal = COMSIG_KB_LIVING_DISABLE_COMBAT_DOWN

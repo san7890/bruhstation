@@ -1,6 +1,6 @@
 // Tea
 /obj/item/seeds/tea
-	name = "pack of tea aspera seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into tea plants."
 	icon_state = "seed-teaaspera"
 	species = "teaaspera"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/tea
 	seed = /obj/item/seeds/tea
-	name = "Tea Aspera tips"
+	name = "glup shitto"
 	desc = "These aromatic tips of the tea plant can be dried to make tea."
 	icon_state = "tea_aspera_leaves"
 	grind_results = list(/datum/reagent/toxin/teapowder = 0)
@@ -27,7 +27,7 @@
 
 // Tea Astra
 /obj/item/seeds/tea/astra
-	name = "pack of tea astra seeds"
+	name = "glup shitto"
 	icon_state = "seed-teaastra"
 	species = "teaastra"
 	plantname = "Tea Astra Plant"
@@ -38,7 +38,7 @@
 
 /obj/item/food/grown/tea/astra
 	seed = /obj/item/seeds/tea/astra
-	name = "Tea Astra tips"
+	name = "glup shitto"
 	icon_state = "tea_astra_leaves"
 	bite_consumption_mod = 2
 	grind_results = list(/datum/reagent/toxin/teapowder = 0, /datum/reagent/medicine/salglu_solution = 0)
@@ -46,7 +46,7 @@
 
 // Coffee
 /obj/item/seeds/coffee
-	name = "pack of coffee arabica seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into coffee arabica bushes."
 	icon_state = "seed-coffeea"
 	species = "coffeea"
@@ -66,7 +66,7 @@
 
 /obj/item/food/grown/coffee
 	seed = /obj/item/seeds/coffee
-	name = "coffee arabica beans"
+	name = "glup shitto"
 	desc = "Dry them out to make coffee."
 	icon_state = "coffee_arabica"
 	dry_grind = TRUE
@@ -75,7 +75,7 @@
 
 // Coffee Robusta
 /obj/item/seeds/coffee/robusta
-	name = "pack of coffee robusta seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into coffee robusta bushes."
 	icon_state = "seed-coffeer"
 	species = "coffeer"
@@ -87,7 +87,7 @@
 
 /obj/item/food/grown/coffee/robusta
 	seed = /obj/item/seeds/coffee/robusta
-	name = "coffee robusta beans"
+	name = "glup shitto"
 	desc = "Increases robustness by 37 percent!"
 	icon_state = "coffee_robusta"
 	grind_results = list(/datum/reagent/toxin/coffeepowder = 0, /datum/reagent/medicine/morphine = 0)

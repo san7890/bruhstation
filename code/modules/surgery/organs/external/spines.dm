@@ -1,6 +1,6 @@
 ///A lizards spines (those things on their back), but also including tail spines (gasp)
 /obj/item/organ/external/spines
-	name = "lizard spines"
+	name = "glup shitto"
 	desc = "Not an actual spine, obviously."
 	icon_state = "spines"
 

@@ -2,7 +2,7 @@
 
 ///Storage - Adds a storage component to the suit.
 /obj/item/mod/module/storage
-	name = "MOD storage module"
+	name = "glup shitto"
 	desc = "What amounts to a series of integrated storage compartments and specialized pockets installed across \
 		the surface of the suit, useful for storing various bits, and or bobs."
 	icon_state = "storage"
@@ -43,7 +43,7 @@
 		mod.wearer.temporarilyRemoveItemFromInventory(mod.wearer.s_store)
 
 /obj/item/mod/module/storage/large_capacity
-	name = "MOD expanded storage module"
+	name = "glup shitto"
 	desc = "Reverse engineered by Nakamura Engineering from Donk Corporation designs, this system of hidden compartments \
 		is entirely within the suit, distributing items and weight evenly to ensure a comfortable experience for the user; \
 		whether smuggling, or simply hauling."
@@ -52,7 +52,7 @@
 	max_items = 14
 
 /obj/item/mod/module/storage/syndicate
-	name = "MOD syndicate storage module"
+	name = "glup shitto"
 	desc = "A storage system using nanotechnology developed by Cybersun Industries, these compartments use \
 		esoteric technology to compress the physical matter of items put inside of them, \
 		essentially shrinking items for much easier and more portable storage."
@@ -61,7 +61,7 @@
 	max_items = 21
 
 /obj/item/mod/module/storage/belt
-	name = "MOD case storage module"
+	name = "glup shitto"
 	desc = "Some concessions had to be made when creating a compressed modular suit core. \
 	As a result, Roseus Galactic equipped their suit with a slimline storage case.  \
 	If you find this equipped to a standard modular suit, then someone has almost certainly shortchanged you on a proper storage module."
@@ -73,7 +73,7 @@
 	max_items = 7
 
 /obj/item/mod/module/storage/bluespace
-	name = "MOD bluespace storage module"
+	name = "glup shitto"
 	desc = "A storage system developed by Nanotrasen, these compartments employ \
 		miniaturized bluespace pockets for the ultimate in storage technology; regardless of the weight of objects put inside."
 	icon_state = "storage_large"
@@ -83,7 +83,7 @@
 
 ///Ion Jetpack - Lets the user fly freely through space using battery charge.
 /obj/item/mod/module/jetpack
-	name = "MOD ion jetpack module"
+	name = "glup shitto"
 	desc = "A series of electric thrusters installed across the suit, this is a module highly anticipated by trainee Engineers. \
 		Rather than using gasses for combustion thrust, these jets are capable of accelerating ions using \
 		charge from the suit's charge. Some say this isn't Nakamura Engineering's first foray into jet-enabled suits."
@@ -155,7 +155,7 @@
 	return mod.wearer
 
 /obj/item/mod/module/jetpack/advanced
-	name = "MOD advanced ion jetpack module"
+	name = "glup shitto"
 	desc = "An improvement on the previous model of electric thrusters. This one achieves higher speeds through \
 		mounting of more jets and a red paint applied on it."
 	icon_state = "jetpack_advanced"
@@ -165,7 +165,7 @@
 
 ///Eating Apparatus - Lets the user eat/drink with the suit on.
 /obj/item/mod/module/mouthhole
-	name = "MOD eating apparatus module"
+	name = "glup shitto"
 	desc = "A favorite by Miners, this modification to the helmet utilizes a nanotechnology barrier infront of the mouth \
 		to allow eating and drinking while retaining protection and atmosphere. However, it won't free you from masks, \
 		lets pepper spray pass through and it will do nothing to improve the taste of a goliath steak."
@@ -192,7 +192,7 @@
 
 ///EMP Shield - Protects the suit from EMPs.
 /obj/item/mod/module/emp_shield
-	name = "MOD EMP shield module"
+	name = "glup shitto"
 	desc = "A field inhibitor installed into the suit, protecting it against feedback such as \
 		electromagnetic pulses that would otherwise damage the electronic systems of the suit or it's modules. \
 		However, it will take from the suit's power to do so."
@@ -208,7 +208,7 @@
 	mod.RemoveElement(/datum/element/empprotection, EMP_PROTECT_SELF|EMP_PROTECT_WIRES|EMP_PROTECT_CONTENTS)
 
 /obj/item/mod/module/emp_shield/advanced
-	name = "MOD advanced EMP shield module"
+	name = "glup shitto"
 	desc = "An advanced field inhibitor installed into the suit, protecting it against feedback such as \
 		electromagnetic pulses that would otherwise damage the electronic systems of the suit or electronic devices on the wearer, \
 		including augmentations. However, it will take from the suit's power to do so."
@@ -222,7 +222,7 @@
 
 ///Flashlight - Gives the suit a customizable flashlight.
 /obj/item/mod/module/flashlight
-	name = "MOD flashlight module"
+	name = "glup shitto"
 	desc = "A simple pair of configurable flashlights installed on the left and right sides of the helmet, \
 		useful for providing light in a variety of ranges and colors. \
 		Some survivalists prefer the color green for their illumination, for reasons unknown."
@@ -294,7 +294,7 @@
 
 ///Dispenser - Dispenses an item after a time passes.
 /obj/item/mod/module/dispenser
-	name = "MOD burger dispenser module"
+	name = "glup shitto"
 	desc = "A rare piece of technology reverse-engineered from a prototype found in a Donk Corporation vessel. \
 		This can draw incredible amounts of power from the suit's charge to create edible organic matter in the \
 		palm of the wearer's glove; however, research seemed to have entirely stopped at burgers. \
@@ -326,7 +326,7 @@
 
 ///Longfall - Nullifies fall damage, removing charge instead.
 /obj/item/mod/module/longfall
-	name = "MOD longfall module"
+	name = "glup shitto"
 	desc = "Useful for protecting both the suit and the wearer, \
 		utilizing commonplace systems to convert the possible damage from a fall into kinetic charge, \
 		as well as internal gyroscopes to ensure the user's safe falling. \
@@ -352,7 +352,7 @@
 
 ///Thermal Regulator - Regulates the wearer's core temperature.
 /obj/item/mod/module/thermal_regulator
-	name = "MOD thermal regulator module"
+	name = "glup shitto"
 	desc = "Advanced climate control, using an inner body glove interwoven with thousands of tiny, \
 		flexible cooling lines. This circulates coolant at various user-controlled temperatures, \
 		ensuring they're comfortable; even if they're some that like it hot."
@@ -383,7 +383,7 @@
 
 ///DNA Lock - Prevents people without the set DNA from activating the suit.
 /obj/item/mod/module/dna_lock
-	name = "MOD DNA lock module"
+	name = "glup shitto"
 	desc = "A module which engages with the various locks and seals tied to the suit's systems, \
 		enabling it to only be worn by someone corresponding with the user's exact DNA profile; \
 		however, this incredibly sensitive module is shorted out by EMPs. Luckily, cloning has been outlawed."
@@ -459,7 +459,7 @@
 
 ///Plasma Stabilizer - Prevents plasmamen from igniting in the suit
 /obj/item/mod/module/plasma_stabilizer
-	name = "MOD plasma stabilizer module"
+	name = "glup shitto"
 	desc = "This system essentially forms an atmosphere of its own, within the suit, \
 		efficiently and quickly preventing oxygen from causing the user's head to burst into flame. \
 		This allows plasmamen to safely remove their helmet, allowing for easier \
@@ -481,7 +481,7 @@
 //Finally, https://pipe.miroware.io/5b52ba1d94357d5d623f74aa/mspfa/Nuke%20Ops/Panels/0648.gif can be real:
 ///Hat Stabilizer - Allows displaying a hat over the MOD-helmet, à la plasmamen helmets.
 /obj/item/mod/module/hat_stabilizer
-	name = "MOD hat stabilizer module"
+	name = "glup shitto"
 	desc = "A simple set of deployable stands, directly atop one's head; \
 		these will deploy under a select few hats to keep them from falling off, allowing them to be worn atop the sealed helmet. \
 		You still need to take the hat off your head while the helmet deploys, though. \
@@ -581,7 +581,7 @@
 
 ///Sign Language Translator - allows people to sign over comms using the modsuit's gloves.
 /obj/item/mod/module/signlang_radio
-	name = "MOD glove translator module"
+	name = "glup shitto"
 	desc = "A module that adds motion sensors into the suit's gloves, \
 		which works in tandem with a short-range subspace transmitter, \
 		letting the audibly impaired use sign language over comms."

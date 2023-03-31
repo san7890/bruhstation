@@ -1,9 +1,9 @@
 ///Representative icons for the contents of each crafting recipe
 /datum/asset/spritesheet/crafting
-	name = "crafting"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/crafting/cooking
-	name = "cooking"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/crafting/create_spritesheets()
 	var/id = 1

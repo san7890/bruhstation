@@ -1,5 +1,5 @@
 /obj/item/food/icecreamsandwich
-	name = "ice cream sandwich"
+	name = "glup shitto"
 	desc = "Portable ice cream in its own packaging."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "icecreamsandwich"
@@ -13,7 +13,7 @@
 	food_flags = FOOD_FINGER_FOOD
 
 /obj/item/food/strawberryicecreamsandwich
-	name = "strawberry ice cream sandwich"
+	name = "glup shitto"
 	desc = "Portable ice cream in its own packaging of the strawberry variety."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "strawberryicecreamsandwich"
@@ -28,7 +28,7 @@
 
 
 /obj/item/food/spacefreezy
-	name = "space freezy"
+	name = "glup shitto"
 	desc = "The best ice cream in space."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "spacefreezy"
@@ -46,7 +46,7 @@
 	AddComponent(/datum/component/ice_cream_holder)
 
 /obj/item/food/sundae
-	name = "sundae"
+	name = "glup shitto"
 	desc = "A classic dessert."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "sundae"
@@ -64,7 +64,7 @@
 	AddComponent(/datum/component/ice_cream_holder, y_offset = -2, sweetener = /datum/reagent/consumable/caramel)
 
 /obj/item/food/honkdae
-	name = "honkdae"
+	name = "glup shitto"
 	desc = "The clown's favorite dessert."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "honkdae"
@@ -86,7 +86,7 @@
 /////////////
 
 /obj/item/food/snowcones //We use this as a base for all other snowcones
-	name = "flavorless snowcone"
+	name = "glup shitto"
 	desc = "It's just shaved ice. Still fun to chew on."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "flavorless_sc"
@@ -100,7 +100,7 @@
 	food_flags = FOOD_FINGER_FOOD
 
 /obj/item/food/snowcones/lime
-	name = "lime snowcone"
+	name = "glup shitto"
 	desc = "Lime syrup drizzled over a snowball in a paper cup."
 	icon_state = "lime_sc"
 	food_reagents = list(
@@ -112,7 +112,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/lemon
-	name = "lemon snowcone"
+	name = "glup shitto"
 	desc = "Lemon syrup drizzled over a snowball in a paper cup."
 	icon_state = "lemon_sc"
 	food_reagents = list(
@@ -124,7 +124,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/apple
-	name = "apple snowcone"
+	name = "glup shitto"
 	desc = "Apple syrup drizzled over a snowball in a paper cup."
 	icon_state = "amber_sc"
 	food_reagents = list(
@@ -136,7 +136,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/grape
-	name = "grape snowcone"
+	name = "glup shitto"
 	desc = "Grape syrup drizzled over a snowball in a paper cup."
 	icon_state = "grape_sc"
 	food_reagents = list(
@@ -148,7 +148,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/orange
-	name = "orange snowcone"
+	name = "glup shitto"
 	desc = "Orange syrup drizzled over a snowball in a paper cup."
 	icon_state = "orange_sc"
 	food_reagents = list(
@@ -160,7 +160,7 @@
 	foodtypes = FRUIT | ORANGES
 
 /obj/item/food/snowcones/blue
-	name = "bluecherry snowcone"
+	name = "glup shitto"
 	desc = "Bluecherry syrup drizzled over a snowball in a paper cup, how rare!"
 	icon_state = "blue_sc"
 	food_reagents = list(
@@ -172,7 +172,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/red
-	name = "cherry snowcone"
+	name = "glup shitto"
 	desc = "Cherry syrup drizzled over a snowball in a paper cup."
 	icon_state = "red_sc"
 	food_reagents = list(
@@ -184,7 +184,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/berry
-	name = "berry snowcone"
+	name = "glup shitto"
 	desc = "Berry syrup drizzled over a snowball in a paper cup."
 	icon_state = "berry_sc"
 	food_reagents = list(
@@ -196,7 +196,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/snowcones/fruitsalad
-	name = "fruit salad snowcone"
+	name = "glup shitto"
 	desc = "A delightful mix of citrus syrups drizzled over a snowball in a paper cup."
 	icon_state = "fruitsalad_sc"
 	food_reagents = list(
@@ -210,7 +210,7 @@
 	foodtypes = FRUIT | ORANGES
 
 /obj/item/food/snowcones/pineapple
-	name = "pineapple snowcone"
+	name = "glup shitto"
 	desc = "Pineapple syrup drizzled over a snowball in a paper cup."
 	icon_state = "pineapple_sc"
 	food_reagents = list(
@@ -222,7 +222,7 @@
 	foodtypes = PINEAPPLE //Pineapple to allow all that like pineapple to enjoy
 
 /obj/item/food/snowcones/mime
-	name = "mime snowcone"
+	name = "glup shitto"
 	desc = "..."
 	icon_state = "mime_sc"
 	food_reagents = list(
@@ -234,7 +234,7 @@
 	foodtypes = SUGAR
 
 /obj/item/food/snowcones/clown
-	name = "clown snowcone"
+	name = "glup shitto"
 	desc = "Laughter drizzled over a snowball in a paper cup."
 	icon_state = "clown_sc"
 	food_reagents = list(
@@ -246,7 +246,7 @@
 	foodtypes = SUGAR | FRUIT
 
 /obj/item/food/snowcones/soda
-	name = "space cola snowcone"
+	name = "glup shitto"
 	desc = "Space Cola drizzled over a snowball in a paper cup."
 	icon_state = "soda_sc"
 	food_reagents = list(
@@ -258,7 +258,7 @@
 	foodtypes = SUGAR
 
 /obj/item/food/snowcones/spacemountainwind
-	name = "Space Mountain Wind snowcone"
+	name = "glup shitto"
 	desc = "Space Mountain Wind drizzled over a snowball in a paper cup."
 	icon_state = "mountainwind_sc"
 	food_reagents = list(
@@ -271,7 +271,7 @@
 
 
 /obj/item/food/snowcones/pwrgame
-	name = "pwrgame snowcone"
+	name = "glup shitto"
 	desc = "Pwrgame soda drizzled over a snowball in a paper cup."
 	icon_state = "pwrgame_sc"
 	food_reagents = list(
@@ -283,7 +283,7 @@
 	foodtypes = SUGAR
 
 /obj/item/food/snowcones/honey
-	name = "honey snowcone"
+	name = "glup shitto"
 	desc = "Honey drizzled over a snowball in a paper cup."
 	icon_state = "amber_sc"
 	food_reagents = list(
@@ -295,7 +295,7 @@
 	foodtypes = SUGAR
 
 /obj/item/food/snowcones/rainbow
-	name = "rainbow snowcone"
+	name = "glup shitto"
 	desc = "A very colorful snowball in a paper cup."
 	icon_state = "rainbow_sc"
 	food_reagents = list(
@@ -307,7 +307,7 @@
 	foodtypes = SUGAR
 
 /obj/item/food/popsicle
-	name = "bug popsicle"
+	name = "glup shitto"
 	desc = "Mmmm, this should not exist."
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "popsicle_stick_s"
@@ -349,7 +349,7 @@
 	update_appearance()
 
 /obj/item/popsicle_stick
-	name = "popsicle stick"
+	name = "glup shitto"
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "popsicle_stick"
 	desc = "This humble little stick usually carries a frozen treat, at the moment it seems freed from this Atlassian burden."
@@ -358,7 +358,7 @@
 	force = 0
 
 /obj/item/food/popsicle/creamsicle_orange
-	name = "orange creamsicle"
+	name = "glup shitto"
 	desc = "A classic orange creamsicle. A sunny frozen treat."
 	food_reagents = list(
 		/datum/reagent/consumable/orangejuice = 4,
@@ -369,7 +369,7 @@
 	foodtypes = FRUIT | DAIRY | SUGAR | ORANGES
 
 /obj/item/food/popsicle/creamsicle_berry
-	name = "berry creamsicle"
+	name = "glup shitto"
 	desc = "A vibrant berry creamsicle. A berry good frozen treat."
 	food_reagents = list(
 		/datum/reagent/consumable/berryjuice = 4,
@@ -381,7 +381,7 @@
 	foodtypes = FRUIT | DAIRY | SUGAR
 
 /obj/item/food/popsicle/jumbo
-	name = "jumbo ice cream"
+	name = "glup shitto"
 	desc = "A luxurious ice cream covered in rich chocolate. It seems smaller than you remember it being."
 	food_reagents = list(
 		/datum/reagent/consumable/hot_coco = 4,
@@ -392,7 +392,7 @@
 	overlay_state = "jumbo"
 
 /obj/item/food/popsicle/licorice_creamsicle
-	name = "Void Bar™"
+	name = "glup shitto"
 	desc = "A salty licorice ice cream. A salty frozen treat."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 4,
@@ -405,7 +405,7 @@
 	overlay_state = "licorice_creamsicle"
 
 /obj/item/food/cornuto
-	name = "cornuto"
+	name = "glup shitto"
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/food/frozen_treats.dmi'
 	icon_state = "cornuto"

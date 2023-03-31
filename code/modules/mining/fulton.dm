@@ -1,7 +1,7 @@
 GLOBAL_LIST_EMPTY(total_extraction_beacons)
 
 /obj/item/extraction_pack
-	name = "fulton extraction pack"
+	name = "glup shitto"
 	desc = "A balloon that can be used to extract equipment or personnel to a Fulton Recovery Beacon. Anything not bolted down can be moved. Link the pack to a beacon by using the pack in hand."
 	icon = 'icons/obj/fulton.dmi'
 	icon_state = "extraction_pack"
@@ -139,7 +139,7 @@ GLOBAL_LIST_EMPTY(total_extraction_beacons)
 
 
 /obj/item/fulton_core
-	name = "extraction beacon assembly kit"
+	name = "glup shitto"
 	desc = "When built, emits a signal which fulton recovery devices can lock onto. Activate in hand to unfold into a beacon."
 	icon = 'icons/obj/fulton.dmi'
 	icon_state = "folded_extraction"
@@ -151,7 +151,7 @@ GLOBAL_LIST_EMPTY(total_extraction_beacons)
 		qdel(src)
 
 /obj/structure/extraction_point
-	name = "fulton recovery beacon"
+	name = "glup shitto"
 	desc = "A beacon for the fulton recovery system. Activate a pack in your hand to link it to a beacon."
 	icon = 'icons/obj/fulton.dmi'
 	icon_state = "extraction_point"
@@ -174,7 +174,7 @@ GLOBAL_LIST_EMPTY(total_extraction_beacons)
 	. += emissive_appearance(icon, "[icon_state]_light", src, alpha = src.alpha)
 
 /obj/effect/extraction_holder
-	name = "extraction holder"
+	name = "glup shitto"
 	desc = "you shouldn't see this"
 	var/atom/movable/stored_obj
 

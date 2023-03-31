@@ -11,7 +11,7 @@
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/open/floor/plating/abductor
-	name = "alien floor"
+	name = "glup shitto"
 	icon_state = "alienpod1"
 	base_icon_state = "alienpod1"
 	tiled_dirt = FALSE
@@ -26,7 +26,7 @@
 	icon_state = "alienpod[rand(1,9)]"
 
 /turf/open/floor/plating/abductor2
-	name = "alien plating"
+	name = "glup shitto"
 	icon_state = "alienplating"
 	base_icon_state = "alienplating"
 	tiled_dirt = FALSE
@@ -41,7 +41,7 @@
 	return
 
 /turf/open/floor/plating/snowed
-	name = "snowed-over plating"
+	name = "glup shitto"
 	desc = "A section of heated plating, helps keep the snow from stacking up too high."
 	icon = 'icons/turf/snow.dmi'
 	icon_state = "snowplating"
@@ -95,6 +95,6 @@
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
 
 /turf/open/floor/plating/elevatorshaft
-	name = "elevator shaft"
+	name = "glup shitto"
 	icon_state = "elevatorshaft"
 	base_icon_state = "elevatorshaft"

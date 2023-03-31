@@ -5,7 +5,7 @@ again.
 */
 
 /obj/effect/spawner/structure
-	name = "map structure spawner"
+	name = "glup shitto"
 	var/list/spawn_list
 
 /obj/effect/spawner/structure/Initialize(mapload)
@@ -18,7 +18,7 @@ again.
 /obj/effect/spawner/structure/window
 	icon = 'icons/obj/structures_spawners.dmi'
 	icon_state = "window_spawner"
-	name = "window spawner"
+	name = "glup shitto"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/fulltile)
 	dir = SOUTH
 
@@ -29,7 +29,7 @@ again.
 	current_turf.rcd_memory = RCD_MEMORY_WINDOWGRILLE
 
 /obj/effect/spawner/structure/window/hollow
-	name = "hollow window spawner"
+	name = "glup shitto"
 	icon_state = "hwindow_spawner_full"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window, /obj/structure/window/spawner/north, /obj/structure/window/spawner/east, /obj/structure/window/spawner/west)
 
@@ -85,12 +85,12 @@ again.
 //reinforced
 
 /obj/effect/spawner/structure/window/reinforced
-	name = "reinforced window spawner"
+	name = "glup shitto"
 	icon_state = "rwindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/fulltile)
 
 /obj/effect/spawner/structure/window/hollow/reinforced
-	name = "hollow reinforced window spawner"
+	name = "glup shitto"
 	icon_state = "hrwindow_spawner_full"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced, /obj/structure/window/reinforced/spawner/north, /obj/structure/window/reinforced/spawner/east, /obj/structure/window/reinforced/spawner/west)
 
@@ -146,14 +146,14 @@ again.
 //tinted
 
 /obj/effect/spawner/structure/window/reinforced/tinted
-	name = "tinted reinforced window spawner"
+	name = "glup shitto"
 	icon_state = "twindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/tinted/fulltile)
 
 //bronze
 
 /obj/effect/spawner/structure/window/bronze
-	name = "bronze window spawner"
+	name = "glup shitto"
 	icon_state = "bronzewindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/bronze/fulltile)
 
@@ -161,19 +161,19 @@ again.
 //shuttle window
 
 /obj/effect/spawner/structure/window/reinforced/shuttle
-	name = "shuttle window spawner"
+	name = "glup shitto"
 	icon_state = "swindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/shuttle)
 
 /obj/effect/spawner/structure/window/reinforced/shuttle/indestructible
-	name = "indestructible shuttle window spawner"
+	name = "glup shitto"
 	icon_state = "swindow_spawner"
 	spawn_list = list(/obj/structure/grille/indestructible, /obj/structure/window/reinforced/shuttle/indestructible)
 
 //plastitanium window
 
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium
-	name = "plastitanium window spawner"
+	name = "glup shitto"
 	icon_state = "plastitaniumwindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/plasma/plastitanium)
 
@@ -181,7 +181,7 @@ again.
 //ice window
 
 /obj/effect/spawner/structure/window/ice
-	name = "ice window spawner"
+	name = "glup shitto"
 	icon_state = "icewindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/fulltile/ice)
 
@@ -189,12 +189,12 @@ again.
 //survival pod window
 
 /obj/effect/spawner/structure/window/survival_pod
-	name = "pod window spawner"
+	name = "glup shitto"
 	icon_state = "podwindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/shuttle/survival_pod)
 
 /obj/effect/spawner/structure/window/hollow/survival_pod
-	name = "hollow pod window spawner"
+	name = "glup shitto"
 	icon_state = "podwindow_spawner_full"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/survival_pod, /obj/structure/window/reinforced/survival_pod/spawner/north, /obj/structure/window/reinforced/survival_pod/spawner/east, /obj/structure/window/reinforced/survival_pod/spawner/west)
 
@@ -251,12 +251,12 @@ again.
 //plasma windows
 
 /obj/effect/spawner/structure/window/plasma
-	name = "plasma window spawner"
+	name = "glup shitto"
 	icon_state = "pwindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/plasma/fulltile)
 
 /obj/effect/spawner/structure/window/hollow/plasma
-	name = "hollow plasma window spawner"
+	name = "glup shitto"
 	icon_state = "phwindow_spawner_full"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/plasma, /obj/structure/window/plasma/spawner/north, /obj/structure/window/plasma/spawner/east, /obj/structure/window/plasma/spawner/west)
 
@@ -312,12 +312,12 @@ again.
 //reinforced plasma
 
 /obj/effect/spawner/structure/window/reinforced/plasma
-	name = "reinforced plasma window spawner"
+	name = "glup shitto"
 	icon_state = "prwindow_spawner"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/plasma/fulltile)
 
 /obj/effect/spawner/structure/window/hollow/reinforced/plasma
-	name = "hollow reinforced plasma window spawner"
+	name = "glup shitto"
 	icon_state = "phrwindow_spawner_full"
 	spawn_list = list(/obj/structure/grille, /obj/structure/window/reinforced/plasma, /obj/structure/window/reinforced/plasma/spawner/north, /obj/structure/window/reinforced/plasma/spawner/east, /obj/structure/window/reinforced/plasma/spawner/west)
 
@@ -371,7 +371,7 @@ again.
 	return ..()
 
 /obj/effect/spawner/structure/electrified_grille
-	name = "electrified grill spawner"
+	name = "glup shitto"
 	icon = 'icons/obj/structures_spawners.dmi'
 	icon_state = "electrified_grille"
 	spawn_list = list(/obj/structure/grille, /obj/structure/cable)

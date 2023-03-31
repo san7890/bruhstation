@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/phazon
 	desc = "This is a Phazon exosuit. The pinnacle of scientific research and pride of Nanotrasen, it uses cutting edge bluespace technology and expensive materials."
-	name = "\improper Phazon"
+	name = "glup shitto"
 	icon_state = "phazon"
 	base_icon_state = "phazon"
 	movedelay = 2
@@ -36,7 +36,7 @@
 	initialize_passenger_action_type(/datum/action/vehicle/sealed/mecha/mech_switch_damtype)
 
 /datum/action/vehicle/sealed/mecha/mech_switch_damtype
-	name = "Reconfigure arm microtool arrays"
+	name = "glup shitto"
 	button_icon_state = "mech_damtype_brute"
 
 /datum/action/vehicle/sealed/mecha/mech_switch_damtype/Trigger(trigger_flags)
@@ -59,7 +59,7 @@
 	build_all_button_icons()
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_phasing
-	name = "Toggle Phasing"
+	name = "glup shitto"
 	button_icon_state = "mech_phasing_off"
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_phasing/Trigger(trigger_flags)

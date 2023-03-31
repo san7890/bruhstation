@@ -8,7 +8,7 @@
 	return TRUE
 
 /obj/item/camera/siliconcam/pai_camera
-	name = "pAI photo camera"
+	name = "glup shitto"
 	light_color = COLOR_PAI_GREEN
 
 /obj/item/camera/siliconcam/pai_camera/after_picture(mob/user, datum/picture/picture)

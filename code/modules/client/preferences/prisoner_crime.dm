@@ -45,101 +45,101 @@ GLOBAL_LIST_INIT(prisoner_crimes, init_prisoner_crimes())
 		stack_trace("\"[src]\" prisoner_crime does not have a set amount of tattoos!")
 
 /datum/prisoner_crime/negligence
-	name = "Abhorrent Criminal Negligence"
+	name = "glup shitto"
 	desc = "Incompetently risked numerous lives."
 	tattoos = 0
 
 /datum/prisoner_crime/cloning
-	name = "Attempted Development of Cloning"
+	name = "glup shitto"
 	desc = "Attempted illegal research in the cloning sphere. Cloning, cloning construction, and cloning-related R&D was outlawed in 2560."
 	tattoos = 0
 
 /datum/prisoner_crime/attempted_murder
-	name = "Attempted Murder"
+	name = "glup shitto"
 	desc = "Attempted to maliciously kill someone."
 	tattoos = 2
 
 /datum/prisoner_crime/bio_terrorism
-	name = "Biological Terrorism"
+	name = "glup shitto"
 	desc = "Created and or released a lethal biological agent/lifeform."
 	tattoos = 3
 
 /datum/prisoner_crime/classified
-	name = "Classified"
+	name = "glup shitto"
 	desc = "Consult Legal."
 	tattoos = 0
 
 /datum/prisoner_crime/espionage
-	name = "Corporate Espionage"
+	name = "glup shitto"
 	desc = "Conducted espionage against Nanotrasen for commercial purposes."
 	tattoos = 1
 
 /datum/prisoner_crime/counterfeiting
-	name = "Counterfeiting"
+	name = "glup shitto"
 	desc = "Engaged in widespread fraud."
 	tattoos = 1
 
 /datum/prisoner_crime/enemy_of_the_corp
-	name = "Enemy of the Corporation"
+	name = "glup shitto"
 	desc = "Acted as, or knowingly aided, an enemy of Nanotrasen."
 	tattoos = 1
 
 /datum/prisoner_crime/grand_sabo
-	name = "Grand Sabotage"
+	name = "glup shitto"
 	desc = "Engaged in malicious destructive actions, seriously threatening Nanotrasen employees and or infrastructure."
 	tattoos = 2
 
 /datum/prisoner_crime/grand_theft
-	name = "Grand Theft"
+	name = "glup shitto"
 	desc = "Stole items of high value or sensitive nature."
 	tattoos = 1
 
 /datum/prisoner_crime/identity_theft
-	name = "Identity Theft of High-Ranking Figure"
+	name = "glup shitto"
 	desc = "Impersonated a high-ranking figure."
 	tattoos = 0 //well, obviously can't impersonate people with tats. if they want to go back to doing that
 
 /datum/prisoner_crime/kidnapping
-	name = "Kidnapping"
+	name = "glup shitto"
 	desc = "Planned and executed a kidnapping."
 	tattoos = 1
 
 /datum/prisoner_crime/malpractice
-	name = "Medical Malpractice"
+	name = "glup shitto"
 	desc = "Engaged in organ harvesting, limb theft, or other malicious medical procedures."
 	tattoos = 2
 
 /datum/prisoner_crime/murder
-	name = "Murder"
+	name = "glup shitto"
 	desc = "Maliciously killed someone."
 	tattoos = 3
 
 /datum/prisoner_crime/mutiny
-	name = "Mutiny"
+	name = "glup shitto"
 	desc = "Attempted to overthrow/subvert Chain of Command."
 	tattoos = 5 //+rep for trying
 
 /datum/prisoner_crime/other
-	name = "Other"
+	name = "glup shitto"
 	desc = "Consult Legal."
 	tattoos = 1
 
 /datum/prisoner_crime/ai_tampering
-	name = "Tampering of Artificial Intelligence"
+	name = "glup shitto"
 	desc = "Uploaded malicious, negligent, or otherwise blacklisted directives to an Artificial Intelligence."
 	tattoos = 3
 
 /datum/prisoner_crime/tax_evasion
-	name = "Tax Evasion"
+	name = "glup shitto"
 	desc = "Outstanding amount of tax evasion."
 	tattoos = 1
 
 /datum/prisoner_crime/cultist
-	name = "Worship of Blacklisted Deities"
+	name = "glup shitto"
 	desc = "Practiced worship of blacklisted deities."
 	tattoos = 1
 
 /datum/prisoner_crime/mass_murder
-	name = "Mass Murder"
+	name = "glup shitto"
 	desc = "Maliciously planned and executed the slaughter of many people."
 	tattoos = 6

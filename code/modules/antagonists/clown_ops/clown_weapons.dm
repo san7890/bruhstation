@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/spray/waterflower/lube
-	name = "water flower"
+	name = "glup shitto"
 	desc = "A seemingly innocent sunflower...with a twist. A <i>slippery</i> twist."
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	icon_state = "sunflower"
@@ -13,7 +13,7 @@
 //COMBAT CLOWN SHOES
 //Clown shoes with combat stats and noslip. Of course they still squeak.
 /obj/item/clothing/shoes/clown_shoes/combat
-	name = "combat clown shoes"
+	name = "glup shitto"
 	desc = "advanced clown shoes that protect the wearer and render them nearly immune to slipping on their own peels. They also squeak at 100% capacity."
 	clothing_traits = list(TRAIT_NO_SLIP_WATER)
 	slowdown = SHOES_SLOWDOWN
@@ -42,7 +42,7 @@
 
 //The super annoying version
 /obj/item/clothing/shoes/clown_shoes/banana_shoes/combat
-	name = "mk-honk combat shoes"
+	name = "glup shitto"
 	desc = "The culmination of years of clown combat research, these shoes leave a trail of chaos in their wake. They will slowly recharge themselves over time, or can be manually charged with bananium."
 	slowdown = SHOES_SLOWDOWN
 	armor_type = /datum/armor/banana_shoes_combat
@@ -84,7 +84,7 @@
 //BANANIUM SWORD
 
 /obj/item/melee/energy/sword/bananium
-	name = "bananium sword"
+	name = "glup shitto"
 	icon_state = "e_sword"
 	attack_verb_continuous = list("hits", "taps", "pokes")
 	attack_verb_simple = list("hit", "tap", "poke")
@@ -150,7 +150,7 @@
 //BANANIUM SHIELD
 
 /obj/item/shield/energy/bananium
-	name = "bananium energy shield"
+	name = "glup shitto"
 	desc = "A shield that stops most melee attacks, protects user from almost all energy projectiles, and can be thrown to slip opponents."
 	icon_state = "bananaeshield"
 	inhand_icon_state = "bananaeshield"
@@ -192,7 +192,7 @@
 //BOMBANANA
 
 /obj/item/seeds/banana/bombanana
-	name = "pack of bombanana seeds"
+	name = "glup shitto"
 	desc = "They're seeds that grow into bombanana trees. When grown, give to the clown."
 	plantname = "Bombanana Tree"
 	product = /obj/item/food/grown/banana/bombanana
@@ -231,7 +231,7 @@
 //TEARSTACHE GRENADE
 
 /obj/item/grenade/chem_grenade/teargas/moustache
-	name = "tear-stache grenade"
+	name = "glup shitto"
 	desc = "A handsomely-attired teargas grenade."
 	icon_state = "moustacheg"
 	clumsy_check = GRENADE_NONCLUMSY_FUMBLE

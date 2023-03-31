@@ -4,7 +4,7 @@
 // Circuitboard
 
 /obj/item/circuitboard
-	name = "circuit board"
+	name = "glup shitto"
 	/// extension that is applied after the initial name AKA (Computer/Machine Board)
 	var/name_extension = null
 	icon = 'icons/obj/module.dmi'

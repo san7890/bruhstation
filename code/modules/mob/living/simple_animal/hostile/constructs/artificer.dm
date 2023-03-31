@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/construct/artificer
-	name = "Artificer"
+	name = "glup shitto"
 	real_name = "Artificer"
 	desc = "A bulbous construct dedicated to building and maintaining the Cult of Nar'Sie's armies."
 	icon_state = "artificer"

@@ -1,5 +1,5 @@
 /obj/item/seeds/onion
-	name = "pack of onion seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into onions."
 	icon_state = "seed-onion"
 	species = "onion"
@@ -19,7 +19,7 @@
 
 /obj/item/food/grown/onion
 	seed = /obj/item/seeds/onion
-	name = "onion"
+	name = "glup shitto"
 	desc = "Nothing to cry over."
 	icon_state = "onion"
 	tastes = list("onions" = 1)
@@ -29,7 +29,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/onion_slice, 2, 15, screentip_verb = "Cut")
 
 /obj/item/seeds/onion/red
-	name = "pack of red onion seeds"
+	name = "glup shitto"
 	desc = "For growing exceptionally potent onions."
 	icon_state = "seed-onionred"
 	species = "onion_red"
@@ -40,7 +40,7 @@
 
 /obj/item/food/grown/onion/red
 	seed = /obj/item/seeds/onion/red
-	name = "red onion"
+	name = "glup shitto"
 	desc = "Purple despite the name."
 	icon_state = "onion_red"
 	wine_power = 60
@@ -58,7 +58,7 @@
 	return ..()
 
 /obj/item/food/onion_slice
-	name = "onion slice"
+	name = "glup shitto"
 	desc = "Ring, not for wearing."
 	icon_state = "onionslice"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 2)
@@ -71,7 +71,7 @@
 	AddElement(/datum/element/microwavable, /obj/item/food/onionrings)
 
 /obj/item/food/onion_slice/red
-	name = "red onion slice"
+	name = "glup shitto"
 	desc = "It shines like an exceptionally low quality amethyst."
 	icon_state = "onionslice_red"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/tearjuice = 2.5)

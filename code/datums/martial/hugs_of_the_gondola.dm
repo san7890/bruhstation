@@ -1,6 +1,6 @@
 /// Gondola love, makes hugs inject pax if the arms are exposed
 /datum/martial_art/hugs_of_the_gondola
-	name = "Hugs of the Gondola"
+	name = "glup shitto"
 	id = MARTIALART_HUGS_OF_THE_GONDOLA
 
 /datum/martial_art/hugs_of_the_gondola/help_act(mob/living/attacker, mob/living/defender)

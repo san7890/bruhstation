@@ -4,7 +4,7 @@
 * Unlike normal organs, we're actually inside a persons limbs at all times
 */
 /obj/item/organ/external
-	name = "external organ"
+	name = "glup shitto"
 	desc = "An external organ that is too external."
 
 	organ_flags = ORGAN_EDIBLE
@@ -162,7 +162,7 @@
 
 ///The horns of a lizard!
 /obj/item/organ/external/horns
-	name = "horns"
+	name = "glup shitto"
 	desc = "Why do lizards even have horns? Well, this one obviously doesn't."
 	icon_state = "horns"
 
@@ -190,7 +190,7 @@
 
 ///The frills of a lizard (like weird fin ears)
 /obj/item/organ/external/frills
-	name = "frills"
+	name = "glup shitto"
 	desc = "Ear-like external organs often seen on aquatic reptillians."
 	icon_state = "frills"
 
@@ -217,7 +217,7 @@
 
 ///Guess what part of the lizard this is?
 /obj/item/organ/external/snout
-	name = "lizard snout"
+	name = "glup shitto"
 	desc = "Take a closer look at that snout!"
 	icon_state = "snout"
 
@@ -246,7 +246,7 @@
 
 ///A moth's antennae
 /obj/item/organ/external/antennae
-	name = "moth antennae"
+	name = "glup shitto"
 	desc = "A moths antennae. What is it telling them? What are they sensing?"
 	icon_state = "antennae"
 
@@ -325,7 +325,7 @@
 
 ///The leafy hair of a podperson
 /obj/item/organ/external/pod_hair
-	name = "podperson hair"
+	name = "glup shitto"
 	desc = "Base for many-o-salads."
 
 	zone = BODY_ZONE_HEAD

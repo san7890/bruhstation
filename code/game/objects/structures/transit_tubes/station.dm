@@ -7,7 +7,7 @@
 
 
 /obj/structure/transit_tube/station
-	name = "station tube station"
+	name = "glup shitto"
 	icon_state = "closed_station0"
 	base_icon_state = "station0"
 	desc = "The lynchpin of the transit system."
@@ -226,7 +226,7 @@
 //special dispenser station, it creates a pod for you to enter when you bump into it.
 
 /obj/structure/transit_tube/station/dispenser
-	name = "station tube pod dispenser"
+	name = "glup shitto"
 	icon_state = "open_dispenser0"
 	desc = "The lynchpin of a GOOD transit system."
 	enter_delay = 1

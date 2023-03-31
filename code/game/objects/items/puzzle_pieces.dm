@@ -3,7 +3,7 @@
 //*****Keys*******************
 //************** **  **
 /obj/item/keycard
-	name = "security keycard"
+	name = "glup shitto"
 	desc = "This feels like it belongs to a door."
 	icon = 'icons/obj/puzzle_small.dmi'
 	icon_state = "keycard"
@@ -17,13 +17,13 @@
 
 //Two test keys for use alongside the two test doors.
 /obj/item/keycard/yellow
-	name = "yellow keycard"
+	name = "glup shitto"
 	desc = "A yellow keycard. How fantastic. Looks like it belongs to a high security door."
 	color = "#f0da12"
 	puzzle_id = "yellow"
 
 /obj/item/keycard/blue
-	name = "blue keycard"
+	name = "glup shitto"
 	desc = "A blue keycard. How terrific. Looks like it belongs to a high security door."
 	color = "#3bbbdb"
 	puzzle_id = "blue"
@@ -33,7 +33,7 @@
 //***************
 
 /obj/machinery/door/puzzle
-	name = "locked door"
+	name = "glup shitto"
 	desc = "This door only opens under certain conditions. It looks virtually indestructible."
 	icon = 'icons/obj/doors/puzzledoor/default.dmi'
 	icon_state = "door_closed"
@@ -98,12 +98,12 @@
 
 //Test doors. Gives admins a few doors to use quickly should they so choose for events.
 /obj/machinery/door/puzzle/keycard/yellow_required
-	name = "blue airlock"
+	name = "glup shitto"
 	desc = "It looks like it requires a yellow keycard."
 	puzzle_id = "yellow"
 
 /obj/machinery/door/puzzle/keycard/blue_required
-	name = "blue airlock"
+	name = "glup shitto"
 	desc = "It looks like it requires a blue keycard."
 	puzzle_id = "blue"
 
@@ -124,7 +124,7 @@
 //*************************
 //We're working off a subtype of pressureplates, which should work just a BIT better now.
 /obj/structure/holobox
-	name = "holobox"
+	name = "glup shitto"
 	desc = "A hard-light box, containing a secure decryption key."
 	icon = 'icons/obj/puzzle_small.dmi'
 	icon_state = "laserbox"
@@ -133,7 +133,7 @@
 
 //Uses the pressure_plate settings for a pretty basic custom pattern that waits for a specific item to trigger. Easy enough to retool for mapping purposes or subtypes.
 /obj/item/pressure_plate/hologrid
-	name = "hologrid"
+	name = "glup shitto"
 	desc = "A high power, electronic input port for a holobox, which can unlock the hologrid's storage compartment. Safe to stand on."
 	icon = 'icons/obj/puzzle_small.dmi'
 	icon_state = "lasergrid"
@@ -178,7 +178,7 @@
 
 //Light puzzle
 /obj/structure/light_puzzle
-	name = "light mechanism"
+	name = "glup shitto"
 	desc = "It's a mechanism that seems to power something when all the lights are lit up. It looks virtually indestructible."
 	icon = 'icons/obj/puzzle_small.dmi'
 	icon_state = "light_puzzle"

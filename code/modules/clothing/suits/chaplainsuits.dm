@@ -28,7 +28,7 @@
 
 //Suits
 /obj/item/clothing/suit/chaplainsuit/holidaypriest
-	name = "holiday priest"
+	name = "glup shitto"
 	desc = "This is a nice holiday, my son."
 	icon_state = "holidaypriest"
 	inhand_icon_state = "w_suit"
@@ -36,7 +36,7 @@
 	flags_inv = HIDEJUMPSUIT
 
 /obj/item/clothing/suit/chaplainsuit/nun
-	name = "nun robe"
+	name = "glup shitto"
 	desc = "Maximum piety in this star system."
 	icon_state = "nun"
 	inhand_icon_state = "nun"
@@ -44,7 +44,7 @@
 	flags_inv = HIDEJUMPSUIT
 
 /obj/item/clothing/suit/chaplainsuit/bishoprobe
-	name = "bishop's robes"
+	name = "glup shitto"
 	desc = "Glad to see the tithes you collected were well spent."
 	icon_state = "bishoprobe"
 	inhand_icon_state = "bishoprobe"
@@ -52,21 +52,21 @@
 	flags_inv = HIDEJUMPSUIT
 
 /obj/item/clothing/suit/chaplainsuit/armor/studentuni
-	name = "student robe"
+	name = "glup shitto"
 	desc = "The uniform of a bygone institute of learning."
 	icon_state = "studentuni"
 	inhand_icon_state = null
 	body_parts_covered = ARMS|CHEST
 
 /obj/item/clothing/suit/chaplainsuit/armor/witchhunter
-	name = "witchunter garb"
+	name = "glup shitto"
 	desc = "This worn outfit saw much use back in the day."
 	icon_state = "witchhunter"
 	inhand_icon_state = null
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 
 /obj/item/clothing/suit/hooded/chaplainsuit/monkhabit
-	name = "monk's habit"
+	name = "glup shitto"
 	desc = "A few steps above rended sackcloth."
 	icon_state = "monkfrock"
 	icon = 'icons/obj/clothing/suits/chaplain.dmi'
@@ -76,7 +76,7 @@
 	hoodtype = /obj/item/clothing/head/hooded/monkhabit
 
 /obj/item/clothing/head/hooded/monkhabit
-	name = "monk's hood"
+	name = "glup shitto"
 	desc = "For when a man wants to cover up his tonsure."
 	icon = 'icons/obj/clothing/head/chaplain.dmi'
 	worn_icon = 'icons/mob/clothing/head/chaplain.dmi'
@@ -86,7 +86,7 @@
 	flags_inv = HIDEHAIR|HIDEEARS
 
 /obj/item/clothing/suit/chaplainsuit/monkrobeeast
-	name = "eastern monk's robes"
+	name = "glup shitto"
 	desc = "Best combined with a shaved head."
 	icon_state = "monkrobeeast"
 	inhand_icon_state = null
@@ -94,7 +94,7 @@
 	flags_inv = HIDEJUMPSUIT
 
 /obj/item/clothing/suit/chaplainsuit/whiterobe
-	name = "white robe"
+	name = "glup shitto"
 	desc = "Good for clerics and sleepy crewmembers."
 	icon_state = "whiterobe"
 	inhand_icon_state = null
@@ -102,7 +102,7 @@
 	flags_inv = HIDEJUMPSUIT
 
 /obj/item/clothing/suit/chaplainsuit/clownpriest
-	name = "Robes of the Honkmother"
+	name = "glup shitto"
 	desc = "Meant for a clown of the cloth."
 	icon_state = "clownpriest"
 	inhand_icon_state = "clownpriest"
@@ -111,7 +111,7 @@
 	allowed = list(/obj/item/megaphone/clown, /obj/item/soap, /obj/item/food/pie/cream, /obj/item/bikehorn, /obj/item/bikehorn/golden, /obj/item/bikehorn/airhorn, /obj/item/instrument/bikehorn, /obj/item/reagent_containers/cup/soda_cans/canned_laughter, /obj/item/toy/crayon, /obj/item/toy/crayon/spraycan, /obj/item/toy/crayon/spraycan/lubecan, /obj/item/grown/bananapeel, /obj/item/food/grown/banana)
 
 /obj/item/clothing/head/helmet/chaplain/clock
-	name = "forgotten helmet"
+	name = "glup shitto"
 	desc = "It has the unyielding gaze of a god eternally forgotten."
 	icon_state = "clockwork_helmet"
 	inhand_icon_state = null
@@ -130,7 +130,7 @@
 	acid = 80
 
 /obj/item/clothing/suit/chaplainsuit/armor/clock
-	name = "forgotten armour"
+	name = "glup shitto"
 	desc = "It sounds like hissing steam, ticking cogs, gone silent, It looks like a dead machine, trying to tick with life."
 	icon_state = "clockwork_cuirass"
 	inhand_icon_state = null
@@ -139,7 +139,7 @@
 	clothing_flags = NONE
 
 /obj/item/clothing/head/helmet/chaplain
-	name = "crusader helmet"
+	name = "glup shitto"
 	desc = "Deus Vult."
 	icon = 'icons/obj/clothing/head/chaplain.dmi'
 	worn_icon = 'icons/mob/clothing/head/chaplain.dmi'
@@ -160,7 +160,7 @@
 	acid = 80
 
 /obj/item/clothing/suit/chaplainsuit/armor/templar
-	name = "crusader armour"
+	name = "glup shitto"
 	desc = "God wills it!"
 	icon_state = "knight_templar"
 	inhand_icon_state = null
@@ -169,7 +169,7 @@
 	clothing_flags = NONE
 
 /obj/item/clothing/head/helmet/chaplain/cage
-	name = "cage"
+	name = "glup shitto"
 	desc = "A cage that restrains the will of the self, allowing one to see the profane world for what it is."
 	flags_inv = NONE
 	icon_state = "cage"
@@ -177,19 +177,19 @@
 	worn_y_offset = 7
 
 /obj/item/clothing/head/helmet/chaplain/ancient
-	name = "ancient helmet"
+	name = "glup shitto"
 	desc = "None may pass!"
 	icon_state = "knight_ancient"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/chaplainsuit/armor/ancient
-	name = "ancient armour"
+	name = "glup shitto"
 	desc = "Defend the treasure..."
 	icon_state = "knight_ancient"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/chaplain/witchunter_hat
-	name = "witchunter hat"
+	name = "glup shitto"
 	desc = "This hat saw much use back in the day."
 	icon_state = "witchhunterhat"
 	inhand_icon_state = null
@@ -197,7 +197,7 @@
 	flags_inv = HIDEEYES
 
 /obj/item/clothing/head/helmet/chaplain/adept
-	name = "adept hood"
+	name = "glup shitto"
 	desc = "Its only heretical when others do it."
 	icon_state = "crusader"
 	inhand_icon_state = null
@@ -205,13 +205,13 @@
 	flags_inv = HIDEHAIR|HIDEFACE|HIDEEARS
 
 /obj/item/clothing/suit/chaplainsuit/armor/adept
-	name = "adept robes"
+	name = "glup shitto"
 	desc = "The ideal outfit for burning the unfaithful."
 	icon_state = "crusader"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/chaplainsuit/armor/crusader
-	name = "Crusader's Armour"
+	name = "glup shitto"
 	desc = "Armour that's comprised of metal and cloth."
 	icon_state = "crusader"
 	w_class = WEIGHT_CLASS_BULKY
@@ -235,7 +235,7 @@
 	icon_state = "crusader-blue"
 
 /obj/item/clothing/suit/hooded/chaplain_hoodie
-	name = "follower hoodie"
+	name = "glup shitto"
 	desc = "Hoodie made for acolytes of the chaplain."
 	icon_state = "chaplain_hoodie"
 	icon = 'icons/obj/clothing/suits/chaplain.dmi'
@@ -246,7 +246,7 @@
 	hoodtype = /obj/item/clothing/head/hooded/chaplain_hood
 
 /obj/item/clothing/head/hooded/chaplain_hood
-	name = "follower hood"
+	name = "glup shitto"
 	desc = "Hood made for acolytes of the chaplain."
 	icon = 'icons/obj/clothing/head/chaplain.dmi'
 	worn_icon = 'icons/mob/clothing/head/chaplain.dmi'
@@ -255,19 +255,19 @@
 	flags_inv = HIDEHAIR|HIDEFACE|HIDEEARS
 
 /obj/item/clothing/suit/hooded/chaplain_hoodie/leader
-	name = "leader hoodie"
+	name = "glup shitto"
 	desc = "Now you're ready for some 50 dollar bling water."
 	icon_state = "chaplain_hoodie_leader"
 	inhand_icon_state = null
 	hoodtype = /obj/item/clothing/head/hooded/chaplain_hood/leader
 
 /obj/item/clothing/head/hooded/chaplain_hood/leader
-	name = "leader hood"
+	name = "glup shitto"
 	desc = "I mean, you don't /have/ to seek bling water. I just think you should."
 	icon_state = "chaplain_hood_leader"
 
 /obj/item/clothing/suit/chaplainsuit/shrinehand
-	name = "shrinehand robe"
+	name = "glup shitto"
 	desc = "Won't help you communicate with spirits, but you'll certainly look the part."
 	icon_state = "shrinehand"
 	inhand_icon_state = "shrinehand"

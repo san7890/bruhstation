@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/tree
-	name = "pine tree"
+	name = "glup shitto"
 	desc = "A pissed off tree-like alien. It seems annoyed with the festivities..."
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	icon_state = "pine_1"
@@ -78,7 +78,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_PINE, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /mob/living/simple_animal/hostile/tree/festivus
-	name = "festivus pole"
+	name = "glup shitto"
 	desc = "Serenity now... SERENITY NOW!"
 	maxHealth = 200
 	health = 200

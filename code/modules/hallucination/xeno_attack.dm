@@ -70,7 +70,7 @@
 
 /obj/effect/client_image_holder/hallucination/xeno/Initialize(mapload, list/mobs_which_see_us, datum/hallucination/parent)
 	. = ..()
-	name = "alien hunter ([rand(1, 1000)])"
+	name = "glup shitto"
 
 // The hallucination "throws" us at the hallucinator, so whenever we impact, we're actually landing a "leap".
 /obj/effect/client_image_holder/hallucination/xeno/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)

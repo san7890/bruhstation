@@ -8,7 +8,7 @@
 #define LINE2_Y -15
 /// Status display which can show images and scrolling text.
 /obj/machinery/status_display
-	name = "status display"
+	name = "glup shitto"
 	desc = null
 	icon = 'icons/obj/status_display.dmi'
 	icon_state = "frame"
@@ -31,7 +31,7 @@
 	var/header_text_color = "#2CF"
 
 /obj/item/wallframe/status_display
-	name = "status display frame"
+	name = "glup shitto"
 	desc = "Used to build status displays, just secure to the wall."
 	icon_state = "unanchoredstatusdisplay"
 	custom_materials = list(/datum/material/iron=14000, /datum/material/glass=8000)
@@ -396,7 +396,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/status_display/evac, 32)
 
 /// Supply display which shows the status of the supply shuttle.
 /obj/machinery/status_display/supply
-	name = "supply display"
+	name = "glup shitto"
 	current_mode = SD_MESSAGE
 	text_color = "#F90"
 	header_text_color = "#FC2"
@@ -429,7 +429,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/status_display/evac, 32)
 
 /// General-purpose shuttle status display.
 /obj/machinery/status_display/shuttle
-	name = "shuttle display"
+	name = "glup shitto"
 	current_mode = SD_MESSAGE
 	var/shuttle_id
 
@@ -460,7 +460,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/status_display/evac, 32)
 
 /// Pictograph display which the AI can use to emote.
 /obj/machinery/status_display/ai
-	name = "\improper AI display"
+	name = "glup shitto"
 	desc = "A small screen which the AI can use to present itself."
 	current_mode = SD_PICTURE
 

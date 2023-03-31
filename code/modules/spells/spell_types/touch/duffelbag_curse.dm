@@ -1,6 +1,6 @@
 
 /datum/action/cooldown/spell/touch/duffelbag
-	name = "Bestow Cursed Duffel Bag"
+	name = "glup shitto"
 	desc = "A spell that summons a duffel bag demon on the target, slowing them down and slowly eating them."
 	button_icon_state = "duffelbag_curse"
 	sound = 'sound/magic/mm_hit.ogg'
@@ -80,7 +80,7 @@
 	return TRUE
 
 /obj/item/melee/touch_attack/duffelbag
-	name = "\improper burdening touch"
+	name = "glup shitto"
 	desc = "Where is the bar from here?"
 	icon_state = "duffelcurse"
 	inhand_icon_state = "duffelcurse"

@@ -1,5 +1,5 @@
 /datum/crafting_recipe/food/herby_cheese
-	name = "Herby cheese"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/curd_cheese = 1,
 		/obj/item/food/grown/herbs = 4
@@ -8,7 +8,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/mothic_salad
-	name = "Mothic salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/cabbage = 1,
 		/obj/item/food/onion_slice/red = 2,
@@ -18,7 +18,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/toasted_seeds
-	name = "Toasted seeds"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/seeds/sunflower = 1,
 		/obj/item/seeds/pumpkin = 1,
@@ -29,7 +29,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/engine_fodder
-	name = "Engine fodder"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/toasted_seeds = 1,
 		/obj/item/food/cnds = 1,
@@ -41,7 +41,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/squeaking_stir_fry
-	name = "Skeklitmischtpoppl (Squeaking stir fry)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/cheese/cheese_curds = 1,
@@ -55,7 +55,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/sweet_chili_cabbage_wrap
-	name = "Sweet chili cabbage wrap"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grilled_cheese = 1,
 		/obj/item/food/mothic_salad = 1,
@@ -67,7 +67,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/loaded_curds
-	name = "Ozlsettitæloskekllön ede pommes (Loaded curds and fries)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/cheese_curds = 1,
 		/obj/item/food/soup/vegetarian_chili = 1,
@@ -79,7 +79,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/baked_cheese_platter
-	name = "Stanntkraktælo (Baked cheese platter)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/baked_cheese = 1,
 		/obj/item/food/griddle_toast = 3
@@ -109,7 +109,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/buttered_baked_corn
-	name = "Buttered baked corn"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/oven_baked_corn = 1,
 		/obj/item/food/butter = 1
@@ -118,7 +118,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/fiesta_corn_skillet
-	name = "Fiesta corn skillet"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/oven_baked_corn = 1,
 		/obj/item/food/cornchips = 1,
@@ -141,7 +141,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/mozzarella_sticks
-	name = "Mozzarella sticks"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/mozzarella = 1,
 		/obj/item/food/breadslice/plain = 2,
@@ -151,7 +151,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/raw_stuffed_peppers
-	name = "Voltölpapriken (Stuffed peppers)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/bell_pepper = 1,
 		/obj/item/food/herby_cheese = 1,
@@ -161,7 +161,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/fueljacks_lunch
-	name = "Fueljack's lunch"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/cabbage = 1,
 		/obj/item/food/grown/potato = 1,
@@ -173,7 +173,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/mac_balls
-	name = "Macheronirölen (Mac balls)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/ready_donk/warm/mac_n_cheese = 1,
 		/obj/item/food/tomato_sauce = 1,
@@ -183,7 +183,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_cotton_soup
-	name = "Flöfrölenmæsch (Cottonball soup)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/grown/cotton = 1,
 		/obj/item/food/grown/onion = 1,
@@ -197,7 +197,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_cheese_soup
-	name = "Ælosterrmæsch (Cheese soup)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/wedge = 2,
 		/obj/item/food/butter = 1,
@@ -210,7 +210,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_seed_soup
-	name = "Misklmæsch (Seed soup)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/seeds/sunflower = 1,
 		/obj/item/seeds/poppy/lily = 1,
@@ -223,7 +223,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_bean_stew
-	name = "Prickeldröndolhaskl (Spicy bean stew)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/canned/beans = 1,
 		/obj/item/food/grown/cabbage = 1,
@@ -238,7 +238,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_oat_stew
-	name = "Häfmisklhaskl (Oat stew)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/oat = 1,
 		/obj/item/food/grown/potato/sweet = 1,
@@ -251,7 +251,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_fire_soup
-	name = "Tömpröttkrakklmæsch (Heartburn soup)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/ghost_chili = 1,
 		/obj/item/food/tofu = 1,
@@ -263,7 +263,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/rice_porridge
-	name = "Rice porridge"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/boiledrice = 1,
@@ -274,7 +274,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/hua_mulan_congee
-	name = "Hua Mulan congee"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/soup/rice_porridge = 1,
 		/obj/item/food/meat/bacon = 1,
@@ -284,7 +284,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/toechtauese_rice_porridge
-	name = "Töchtaüse rice porridge"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/soup/rice_porridge = 1,
 		/obj/item/food/grown/chili = 1,
@@ -294,7 +294,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/cornmeal_porridge
-	name = "Cornmeal porridge"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/cornmeal = 10,
 		/datum/reagent/water = 10,
@@ -304,7 +304,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/cheesy_porridge
-	name = "Cheesy porridge"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/soup/cornmeal_porridge = 1,
 		/datum/reagent/consumable/milk = 5,
@@ -316,7 +316,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/fried_eggplant_polenta
-	name = "Fried eggplant and polenta"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/soup/cheesy_porridge = 1,
 		/obj/item/food/grown/eggplant = 1,
@@ -328,7 +328,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/caprese_salad
-	name = "Caprese salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/tomato = 1,
 		/obj/item/food/cheese/mozzarella = 1,
@@ -340,7 +340,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/fleet_salad
-	name = "Lörtonknusksolt (Fleet salad)"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/quality_oil = 2,
 		/datum/reagent/consumable/vinegar = 2,
@@ -354,7 +354,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/cotton_salad
-	name = "Flöfrölenknusksolt (Cotton salad)"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/quality_oil = 2,
 		/datum/reagent/consumable/vinegar = 2,
@@ -367,7 +367,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moth_kachumbari
-	name = "Kæniatknusksolt (Kenyan salad)"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/limejuice = 2,
 		/obj/item/food/grown/chili = 1,
@@ -448,7 +448,7 @@
 	category = CAT_PIZZA
 
 /datum/crafting_recipe/food/moth_cheese_cakes
-	name = "Ælorölen (Cheesecake balls)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/curd_cheese = 1,
 		/obj/item/food/chocolatebar = 1,
@@ -460,7 +460,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/mothmallow
-	name = "Mothmallows"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/soybeans = 1,
 		/datum/reagent/consumable/vanilla = 5,
@@ -471,7 +471,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/red_porridge
-	name = "Eltsløsk ül a priktæolk (Red Porridge and Yoghurt)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/redbeet = 1,
 		/datum/reagent/consumable/vanilla = 5,
@@ -482,7 +482,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/chili_sin_carne
-	name = "Chili sin carne (vegetarian chili)"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/datum/reagent/water = 10,
@@ -494,7 +494,7 @@
 	category = CAT_MOTH
 
 /datum/crafting_recipe/food/moffin
-	name = "Moffin"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/obj/item/food/pastrybase = 1,

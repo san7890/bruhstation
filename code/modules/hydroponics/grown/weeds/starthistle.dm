@@ -1,6 +1,6 @@
 // Starthistle
 /obj/item/seeds/starthistle
-	name = "pack of starthistle seeds"
+	name = "glup shitto"
 	desc = "A robust species of weed that often springs up in-between the cracks of spaceship parking lots."
 	icon_state = "seed-starthistle"
 	plant_icon_offset = 3
@@ -33,7 +33,7 @@
 
 // Corpse flower
 /obj/item/seeds/starthistle/corpse_flower
-	name = "pack of corpse flower seeds"
+	name = "glup shitto"
 	desc = "A species of plant that emits a horrible odor. The odor stops being produced in difficult atmospheric conditions."
 	icon_state = "seed-corpse-flower"
 	species = "corpse-flower"
@@ -46,7 +46,7 @@
 
 //Galaxy Thistle
 /obj/item/seeds/galaxythistle
-	name = "pack of galaxythistle seeds"
+	name = "glup shitto"
 	desc = "An impressive species of weed that is thought to have evolved from the simple milk thistle. Contains flavolignans that can help repair a damaged liver."
 	icon_state = "seed-galaxythistle"
 	species = "galaxythistle"
@@ -68,7 +68,7 @@
 
 /obj/item/food/grown/galaxythistle
 	seed = /obj/item/seeds/galaxythistle
-	name = "galaxythistle flower head"
+	name = "glup shitto"
 	desc = "This spiny cluster of florets reminds you of the highlands."
 	icon_state = "galaxythistle"
 	bite_consumption_mod = 2

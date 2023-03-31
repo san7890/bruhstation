@@ -1,5 +1,5 @@
 /datum/round_event_control/scrubber_overflow
-	name = "Scrubber Overflow: Normal"
+	name = "glup shitto"
 	typepath = /datum/round_event/scrubber_overflow
 	weight = 10
 	max_occurrences = 3
@@ -125,7 +125,7 @@
 		CHECK_TICK
 
 /datum/round_event_control/scrubber_overflow/threatening
-	name = "Scrubber Overflow: Threatening"
+	name = "glup shitto"
 	typepath = /datum/round_event/scrubber_overflow/threatening
 	weight = 4
 	min_players = 25
@@ -140,7 +140,7 @@
 	reagents_amount = 100
 
 /datum/round_event_control/scrubber_overflow/catastrophic
-	name = "Scrubber Overflow: Catastrophic"
+	name = "glup shitto"
 	typepath = /datum/round_event/scrubber_overflow/catastrophic
 	weight = 2
 	min_players = 35
@@ -155,7 +155,7 @@
 	reagents_amount = 150
 
 /datum/round_event_control/scrubber_overflow/every_vent
-	name = "Scrubber Overflow: Every Vent"
+	name = "glup shitto"
 	typepath = /datum/round_event/scrubber_overflow/every_vent
 	weight = 0
 	max_occurrences = 0

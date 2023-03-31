@@ -1,7 +1,7 @@
 // Normal strength
 
 /datum/round_event_control/meteor_wave
-	name = "Meteor Wave: Normal"
+	name = "glup shitto"
 	typepath = /datum/round_event/meteor_wave
 	weight = 4
 	min_players = 15
@@ -57,7 +57,7 @@
 		spawn_meteors(5, wave_type) //meteor list types defined in gamemode/meteor/meteors.dm
 
 /datum/round_event_control/meteor_wave/threatening
-	name = "Meteor Wave: Threatening"
+	name = "glup shitto"
 	typepath = /datum/round_event/meteor_wave/threatening
 	weight = 5
 	min_players = 20
@@ -69,7 +69,7 @@
 	wave_name = "threatening"
 
 /datum/round_event_control/meteor_wave/catastrophic
-	name = "Meteor Wave: Catastrophic"
+	name = "glup shitto"
 	typepath = /datum/round_event/meteor_wave/catastrophic
 	weight = 7
 	min_players = 25
@@ -81,7 +81,7 @@
 	wave_name = "catastrophic"
 
 /datum/round_event_control/meteor_wave/meaty
-	name = "Meteor Wave: Meaty"
+	name = "glup shitto"
 	typepath = /datum/round_event/meteor_wave/meaty
 	weight = 2
 	max_occurrences = 1

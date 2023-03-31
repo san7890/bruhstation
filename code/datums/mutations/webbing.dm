@@ -1,6 +1,6 @@
 //spider webs
 /datum/mutation/human/webbing
-	name = "Webbing Production"
+	name = "glup shitto"
 	desc = "Allows the user to lay webbing, and travel through it."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>Your skin feels webby.</span>"

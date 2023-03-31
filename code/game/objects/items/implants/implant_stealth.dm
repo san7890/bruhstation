@@ -1,16 +1,16 @@
 /obj/item/implant/stealth
-	name = "S3 implant"
+	name = "glup shitto"
 	desc = "Allows you to be hidden in plain sight."
 	actions_types = list(/datum/action/item_action/agent_box)
 
 /obj/item/implanter/stealth
-	name = "implanter (stealth)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/stealth
 
 //Box Object
 
 /obj/structure/closet/cardboard/agent
-	name = "inconspicious box"
+	name = "glup shitto"
 	desc = "It's so normal that you didn't notice it before."
 	icon_state = "agentbox"
 	max_integrity = 1 // "This dumb box shouldn't take more than one hit to make it vanish."

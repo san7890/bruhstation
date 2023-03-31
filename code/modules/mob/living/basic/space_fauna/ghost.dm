@@ -1,5 +1,5 @@
 /mob/living/basic/ghost
-	name = "ghost"
+	name = "glup shitto"
 	desc = "A soul of the dead, spooky."
 	icon = 'icons/mob/simple/mob.dmi'
 	icon_state = "ghost"
@@ -104,7 +104,7 @@
 
 /// Weaker variant of ghosts. Meant to be summoned in swarms via the ectoplasmic anomaly and associated ghost portal.
 /mob/living/basic/ghost/swarm
-	name = "vengeful spirit"
+	name = "glup shitto"
 	desc = "Back from the grave, and not happy about it."
 	maxHealth = 30
 	health = 30

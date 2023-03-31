@@ -1,5 +1,5 @@
 /obj/item/organ/internal/tongue
-	name = "tongue"
+	name = "glup shitto"
 	desc = "A fleshy muscle mostly used for lying."
 	icon_state = "tongue"
 	visual = FALSE
@@ -116,7 +116,7 @@
 	return owner_species.mutanttongue
 
 /obj/item/organ/internal/tongue/lizard
-	name = "forked tongue"
+	name = "glup shitto"
 	desc = "A thin and long muscle typically found in reptilian races, apparently moonlights as a nose."
 	icon_state = "tonguelizard"
 	say_mod = "hisses"
@@ -142,13 +142,13 @@
 	speech_args[SPEECH_MESSAGE] = message
 
 /obj/item/organ/internal/tongue/lizard/silver
-	name = "silver tongue"
+	name = "glup shitto"
 	desc = "A genetic branch of the high society Silver Scales that gives them their silverizing properties. To them, it is everything, and society traitors have their tongue forcibly revoked. Oddly enough, it itself is just blue."
 	icon_state = "silvertongue"
 	actions_types = list(/datum/action/item_action/organ_action/statue)
 
 /datum/action/item_action/organ_action/statue
-	name = "Become Statue"
+	name = "glup shitto"
 	desc = "Become an elegant silver statue. Its durability and yours are directly tied together, so make sure you're careful."
 	COOLDOWN_DECLARE(ability_cooldown)
 
@@ -222,7 +222,7 @@
 	qdel(owner)
 
 /obj/item/organ/internal/tongue/abductor
-	name = "superlingual matrix"
+	name = "glup shitto"
 	desc = "A mysterious structure that allows for instant communication between users. Pretty impressive until you need to eat something."
 	icon_state = "tongueayylmao"
 	say_mod = "gibbers"
@@ -275,7 +275,7 @@
 	speech_args[SPEECH_MESSAGE] = ""
 
 /obj/item/organ/internal/tongue/zombie
-	name = "rotting tongue"
+	name = "glup shitto"
 	desc = "Between the decay and the fact that it's just lying there you doubt a tongue has ever seemed less sexy."
 	icon_state = "tonguezombie"
 	say_mod = "moans"
@@ -340,7 +340,7 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 		speech_args[SPEECH_MESSAGE] = message
 
 /obj/item/organ/internal/tongue/alien
-	name = "alien tongue"
+	name = "glup shitto"
 	desc = "According to leading xenobiologists the evolutionary benefit of having a second mouth in your mouth is \"that it looks badass\"."
 	icon_state = "tonguexeno"
 	say_mod = "hisses"
@@ -365,7 +365,7 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	playsound(owner, SFX_HISS, 25, TRUE, TRUE)
 
 /obj/item/organ/internal/tongue/bone
-	name = "bone \"tongue\""
+	name = "glup shitto"
 	desc = "Apparently skeletons alter the sounds they produce through oscillation of their teeth, hence their characteristic rattling."
 	icon_state = "tonguebone"
 	say_mod = "rattles"
@@ -395,13 +395,13 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 			speech_args[SPEECH_SPANS] |= SPAN_PAPYRUS
 
 /obj/item/organ/internal/tongue/bone/plasmaman
-	name = "plasma bone \"tongue\""
+	name = "glup shitto"
 	desc = "Like animated skeletons, Plasmamen vibrate their teeth in order to produce speech."
 	icon_state = "tongueplasma"
 	modifies_speech = FALSE
 
 /obj/item/organ/internal/tongue/robot
-	name = "robotic voicebox"
+	name = "glup shitto"
 	desc = "A voice synthesizer that can interface with organic lifeforms."
 	status = ORGAN_ROBOTIC
 	organ_flags = NONE
@@ -419,7 +419,7 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	speech_args[SPEECH_SPANS] |= SPAN_ROBOT
 
 /obj/item/organ/internal/tongue/snail
-	name = "radula"
+	name = "glup shitto"
 	color = "#96DB00" // TODO proper sprite, rather than recoloured pink tongue
 	desc = "A minutely toothed, chitious ribbon, which as a side effect, makes all snails talk IINNCCRREEDDIIBBLLYY SSLLOOWWLLYY."
 	modifies_speech = TRUE
@@ -435,7 +435,7 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	speech_args[SPEECH_MESSAGE] = new_message
 
 /obj/item/organ/internal/tongue/ethereal
-	name = "electric discharger"
+	name = "glup shitto"
 	desc = "A sophisticated ethereal organ, capable of synthesising speech via electrical discharge."
 	icon_state = "electrotongue"
 	say_mod = "crackles"
@@ -448,12 +448,12 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	return ..() + /datum/language/voltaic
 
 /obj/item/organ/internal/tongue/cat
-	name = "felinid tongue"
+	name = "glup shitto"
 	desc = "A fleshy muscle mostly used for meowing."
 	say_mod = "meows"
 
 /obj/item/organ/internal/tongue/bananium
-	name = "bananium tongue"
+	name = "glup shitto"
 	desc = "A bananium geode mostly used for honking."
 	say_mod = "honks"
 
@@ -463,27 +463,27 @@ GLOBAL_LIST_INIT(english_to_zombie, list())
 	icon_state = "gold_horn"
 
 /obj/item/organ/internal/tongue/jelly
-	name = "jelly tongue"
+	name = "glup shitto"
 	desc = "Ah... That's not the sound I expected it to make. Sounds like a Space Autumn Bird."
 	say_mod = "chirps"
 
 /obj/item/organ/internal/tongue/monkey
-	name = "primitive tongue"
+	name = "glup shitto"
 	desc = "For aggressively chimpering. And consuming bananas."
 	say_mod = "chimpers"
 
 /obj/item/organ/internal/tongue/moth
-	name = "moth tongue"
+	name = "glup shitto"
 	desc = "Moths don't have tongues. Someone get god on the phone, tell them I'm not happy."
 	say_mod = "flutters"
 
 /obj/item/organ/internal/tongue/zombie
-	name = "rotting tongue"
+	name = "glup shitto"
 	desc = "Makes you speak like you're at the dentist and you just absolutely refuse to spit because you forgot to mention you were allergic to space shellfish."
 	say_mod = "moans"
 
 /obj/item/organ/internal/tongue/mush
-	name = "mush-tongue-room"
+	name = "glup shitto"
 	desc = "You poof with this. Got it?"
 	say_mod = "poofs"
 

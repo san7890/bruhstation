@@ -1,5 +1,5 @@
 /datum/uplink_category/species
-	name = "Species Restricted"
+	name = "glup shitto"
 	weight = 1
 
 /datum/uplink_item/species_restricted
@@ -7,7 +7,7 @@
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 
 /datum/uplink_item/species_restricted/moth_lantern
-	name = "Extra-Bright Lantern"
+	name = "glup shitto"
 	desc = "We heard that moths such as yourself really like lamps, so we decided to grant you early access to a prototype \
 	Syndicate brand \"Extra-Bright Lantern™\". Enjoy."
 	cost = 2

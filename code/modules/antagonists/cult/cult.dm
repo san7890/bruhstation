@@ -4,7 +4,7 @@
 #define CULT_NARSIE_KILLED -1
 
 /datum/antagonist/cult
-	name = "Cultist"
+	name = "glup shitto"
 	roundend_category = "cultists"
 	antagpanel_category = "Cult"
 	antag_moodlet = /datum/mood_event/cult
@@ -249,7 +249,7 @@
 	current.remove_status_effect(/datum/status_effect/cult_master)
 
 /datum/team/cult
-	name = "\improper Cult"
+	name = "glup shitto"
 
 	///The blood mark target
 	var/atom/blood_target
@@ -563,7 +563,7 @@
 	unset_blood_target()
 
 /datum/outfit/cultist
-	name = "Cultist (Preview only)"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/black
 	suit = /obj/item/clothing/suit/hooded/cultrobes/alt

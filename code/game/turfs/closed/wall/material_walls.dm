@@ -1,5 +1,5 @@
 /turf/closed/wall/material
-	name = "wall"
+	name = "glup shitto"
 	desc = "A huge chunk of material used to separate rooms."
 	icon = 'icons/turf/walls/materialwall.dmi'
 	icon_state = "materialwall-0"

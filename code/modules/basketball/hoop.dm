@@ -1,7 +1,7 @@
 #define PICKUP_RESTRICTION_TIME 3 SECONDS // so other players can pickup the ball after someone scores
 
 /datum/crafting_recipe/basketball_hoop
-	name = "Basketball Hoop"
+	name = "glup shitto"
 	result = /obj/structure/hoop
 	reqs = list(/obj/item/stack/sheet/durathread = 5,
 				/obj/item/stack/sheet/iron = 1, // the backboard
@@ -10,7 +10,7 @@
 	category = CAT_STRUCTURE
 
 /obj/structure/hoop
-	name = "basketball hoop"
+	name = "glup shitto"
 	desc = "Boom, shakalaka!"
 	icon = 'icons/obj/toys/basketball_hoop.dmi'
 	icon_state = "hoop"

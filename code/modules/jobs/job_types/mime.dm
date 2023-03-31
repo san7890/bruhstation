@@ -45,7 +45,7 @@
 
 
 /datum/outfit/job/mime
-	name = "Mime"
+	name = "glup shitto"
 	jobtype = /datum/job/mime
 
 	id_trim = /datum/id_trim/job/mime
@@ -84,7 +84,7 @@
 	fan.show_to(H)
 
 /obj/item/book/mimery
-	name = "Guide to Dank Mimery"
+	name = "glup shitto"
 	desc = "Teaches one of three classic pantomime routines, allowing a practiced mime to conjure invisible objects into corporeal existence. One use only."
 	icon_state = "bookmime"
 	starting_title = "Guide to Dank Mimery"

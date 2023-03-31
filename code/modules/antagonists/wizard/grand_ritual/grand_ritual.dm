@@ -14,7 +14,7 @@
  * Further completion after that returns to the usual behaviour.
  */
 /datum/action/cooldown/grand_ritual
-	name = "Grand Ritual"
+	name = "glup shitto"
 	desc = "Provides direction to a nexus of power, then draws a rune in that location for completing the Grand Ritual. \
 		The ritual process will take longer each time it is completed."
 	check_flags = AB_CHECK_CONSCIOUS | AB_CHECK_INCAPACITATED | AB_CHECK_HANDS_BLOCKED

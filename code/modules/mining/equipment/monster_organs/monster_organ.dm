@@ -2,7 +2,7 @@
  * Stabilising serum prevents monster organs from decaying before you can use them.
  */
 /obj/item/mining_stabilizer
-	name = "stabilizing serum"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "bottle19"
 	desc = "Inject certain types of monster organs with this stabilizer to prevent their rapid decay."
@@ -33,7 +33,7 @@
  * These should usually do something both when used in-hand, or when implanted into someone.
  */
 /obj/item/organ/internal/monster_core
-	name = "monster core"
+	name = "glup shitto"
 	desc = "All that remains of a monster. This abstract item should not spawn. \
 		It will rapidly decay into uselessness. but don't worry because it's already useless."
 	icon = 'icons/obj/medical/organs/mining_organs.dmi'
@@ -111,7 +111,7 @@
 	inert = TRUE
 	deltimer(decay_timer)
 	decay_timer = null
-	name = "decayed [name]"
+	name = "glup shitto"
 	update_appearance()
 	return TRUE
 

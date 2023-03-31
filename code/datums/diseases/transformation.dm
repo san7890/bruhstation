@@ -1,5 +1,5 @@
 /datum/disease/transformation
-	name = "Transformation"
+	name = "glup shitto"
 	max_stages = 5
 	spread_text = "Acute"
 	spread_flags = DISEASE_SPREAD_SPECIAL
@@ -99,7 +99,7 @@
 			new_mob.key = null
 
 /datum/disease/transformation/jungle_flu
-	name = "Jungle Flu"
+	name = "glup shitto"
 	cure_text = "Death."
 	cures = list(/datum/reagent/medicine/adminordrazine)
 	spread_text = "Unknown"
@@ -149,7 +149,7 @@
 
 /datum/disease/transformation/robot
 
-	name = "Robotic Transformation"
+	name = "glup shitto"
 	cure_text = "An injection of copper."
 	cures = list(/datum/reagent/copper)
 	cure_chance = 2.5
@@ -190,7 +190,7 @@
 
 /datum/disease/transformation/xeno
 
-	name = "Xenomorph Transformation"
+	name = "glup shitto"
 	cure_text = "Spaceacillin & Glycerol"
 	cures = list(/datum/reagent/medicine/spaceacillin, /datum/reagent/glycerol)
 	cure_chance = 2.5
@@ -231,7 +231,7 @@
 
 
 /datum/disease/transformation/slime
-	name = "Advanced Mutation Transformation"
+	name = "glup shitto"
 	cure_text = "frost oil"
 	cures = list(/datum/reagent/consumable/frostoil)
 	cure_chance = 55
@@ -272,7 +272,7 @@
 	return ..()
 
 /datum/disease/transformation/corgi
-	name = "The Barkening"
+	name = "glup shitto"
 	cure_text = "Death"
 	cures = list(/datum/reagent/medicine/adminordrazine)
 	agent = "Fell Doge Majicks"
@@ -301,7 +301,7 @@
 
 
 /datum/disease/transformation/morph
-	name = "Gluttony's Blessing"
+	name = "glup shitto"
 	cure_text = "Nothing"
 	cures = list(/datum/reagent/consumable/nothing)
 	agent = "Gluttony's Blessing"
@@ -319,7 +319,7 @@
 	transformed_antag_datum = /datum/antagonist/morph
 
 /datum/disease/transformation/gondola
-	name = "Gondola Transformation"
+	name = "glup shitto"
 	cure_text = "Condensed Capsaicin, ingested or injected." //getting pepper sprayed doesn't help
 	cures = list(/datum/reagent/consumable/condensedcapsaicin) //beats the hippie crap right out of your system
 	cure_chance = 55

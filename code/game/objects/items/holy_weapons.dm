@@ -1,7 +1,7 @@
 // CHAPLAIN NULLROD AND CUSTOM WEAPONS //
 
 /obj/item/nullrod
-	name = "null rod"
+	name = "glup shitto"
 	desc = "A rod of pure obsidian; its very presence disrupts and dampens 'magical forces'. That's what the guidebook says, anyway."
 	icon_state = "nullrod"
 	inhand_icon_state = "nullrod"
@@ -59,7 +59,7 @@
 	return (BRUTELOSS|FIRELOSS)
 
 /obj/item/nullrod/godhand
-	name = "god hand"
+	name = "glup shitto"
 	desc = "This hand of yours glows with an awesome power!"
 	icon_state = "disintegrate"
 	inhand_icon_state = "disintegrate"
@@ -79,7 +79,7 @@
 	ADD_TRAIT(src, TRAIT_NODROP, HAND_REPLACEMENT_TRAIT)
 
 /obj/item/nullrod/staff
-	name = "red holy staff"
+	name = "glup shitto"
 	desc = "It has a mysterious, protective aura."
 	icon_state = "godstaff-red"
 	inhand_icon_state = "godstaff-red"
@@ -99,14 +99,14 @@
 		. += mutable_appearance('icons/effects/effects.dmi', shield_icon, MOB_SHIELD_LAYER)
 
 /obj/item/nullrod/staff/blue
-	name = "blue holy staff"
+	name = "glup shitto"
 	icon_state = "godstaff-blue"
 	inhand_icon_state = "godstaff-blue"
 	shield_icon = "shield-old"
 	menu_description = "A blue staff which provides a medium chance of blocking incoming attacks via a protective blue aura around its user, but deals very low amount of damage. Can be worn only on the back."
 
 /obj/item/nullrod/claymore
-	name = "holy claymore"
+	name = "glup shitto"
 	desc = "A weapon fit for a crusade!"
 	icon_state = "claymore_gold"
 	inhand_icon_state = "claymore_gold"
@@ -128,7 +128,7 @@
 	return ..()
 
 /obj/item/nullrod/claymore/darkblade
-	name = "dark blade"
+	name = "glup shitto"
 	desc = "Spread the glory of the dark gods!"
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "cultblade"
@@ -142,7 +142,7 @@
 	menu_description = "A sharp blade which provides a low chance of blocking incoming melee attacks. Can be worn on the back or belt."
 
 /obj/item/nullrod/claymore/chainsaw_sword
-	name = "sacred chainsaw sword"
+	name = "glup shitto"
 	desc = "Suffer not a heretic to live."
 	icon_state = "chainswordon"
 	inhand_icon_state = "chainswordon"
@@ -156,7 +156,7 @@
 	menu_description = "A sharp chainsaw sword which provides a low chance of blocking incoming melee attacks. Can be used as a slower saw tool. Can be worn on the belt."
 
 /obj/item/nullrod/claymore/glowing
-	name = "force weapon"
+	name = "glup shitto"
 	desc = "The blade glows with the power of faith. Or possibly a battery."
 	icon_state = "swordon"
 	inhand_icon_state = "swordon"
@@ -164,7 +164,7 @@
 	menu_description = "A sharp weapon which provides a low chance of blocking incoming melee attacks. Can be worn on the back or belt."
 
 /obj/item/nullrod/claymore/katana
-	name = "\improper Hanzo steel"
+	name = "glup shitto"
 	desc = "Capable of cutting clean through a holy claymore."
 	icon_state = "katana"
 	inhand_icon_state = "katana"
@@ -172,7 +172,7 @@
 	menu_description = "A sharp katana which provides a low chance of blocking incoming melee attacks. Can be worn on the back or belt."
 
 /obj/item/nullrod/claymore/multiverse
-	name = "extradimensional blade"
+	name = "glup shitto"
 	desc = "Once the harbinger of an interdimensional war, its sharpness fluctuates wildly."
 	icon_state = "multiverse"
 	inhand_icon_state = "multiverse"
@@ -188,7 +188,7 @@
 	force = old_force
 
 /obj/item/nullrod/claymore/saber
-	name = "light energy sword"
+	name = "glup shitto"
 	desc = "If you strike me down, I shall become more robust than you can possibly imagine."
 	icon = 'icons/obj/weapons/transforming_energy.dmi'
 	icon_state = "e_sword_on_blue"
@@ -199,21 +199,21 @@
 	menu_description = "A sharp energy sword which provides a low chance of blocking incoming melee attacks. Can be worn on the belt."
 
 /obj/item/nullrod/claymore/saber/red
-	name = "dark energy sword"
+	name = "glup shitto"
 	desc = "Woefully ineffective when used on steep terrain."
 	icon_state = "e_sword_on_red"
 	inhand_icon_state = "e_sword_on_red"
 	worn_icon_state = "swordred"
 
 /obj/item/nullrod/claymore/saber/pirate
-	name = "nautical energy sword"
+	name = "glup shitto"
 	desc = "Convincing HR that your religion involved piracy was no mean feat."
 	icon_state = "e_cutlass_on"
 	inhand_icon_state = "e_cutlass_on"
 	worn_icon_state = "swordred"
 
 /obj/item/nullrod/sord
-	name = "\improper UNREAL SORD"
+	name = "glup shitto"
 	desc = "This thing is so unspeakably HOLY you are having a hard time even holding it."
 	icon_state = "sord"
 	inhand_icon_state = "sord"
@@ -234,7 +234,7 @@
 	return SHAME
 
 /obj/item/nullrod/scythe
-	name = "reaper scythe"
+	name = "glup shitto"
 	desc = "Ask not for whom the bell tolls..."
 	icon_state = "scythe1"
 	inhand_icon_state = "scythe1"
@@ -257,7 +257,7 @@
 	AddElement(/datum/element/bane, mob_biotypes = MOB_PLANT, damage_multiplier = 0.5, requires_combat_mode = FALSE)
 
 /obj/item/nullrod/scythe/vibro
-	name = "high frequency blade"
+	name = "glup shitto"
 	desc = "Bad references are the DNA of the soul."
 	icon_state = "hfrequency0"
 	inhand_icon_state = "hfrequency1"
@@ -270,7 +270,7 @@
 	menu_description = "A sharp blade which partially penetrates armor. Very effective at butchering bodies. Can be worn on the back."
 
 /obj/item/nullrod/scythe/spellblade
-	name = "dormant spellblade"
+	name = "glup shitto"
 	desc = "The blade grants the wielder nearly limitless power...if they can figure out how to turn it on, that is."
 	icon_state = "spellblade"
 	inhand_icon_state = "spellblade"
@@ -282,7 +282,7 @@
 	menu_description = "A sharp blade which partially penetrates armor. Very effective at butchering bodies. Can be worn on the back."
 
 /obj/item/nullrod/scythe/talking
-	name = "possessed blade"
+	name = "glup shitto"
 	desc = "When the station falls into chaos, it's nice to have a friend by your side."
 	icon_state = "talking_sword"
 	inhand_icon_state = "talking_sword"
@@ -299,7 +299,7 @@
 	AddComponent(/datum/component/spirit_holding)
 
 /obj/item/nullrod/scythe/talking/chainsword
-	name = "possessed chainsaw sword"
+	name = "glup shitto"
 	desc = "Suffer not a heretic to live."
 	icon_state = "chainswordon"
 	inhand_icon_state = "chainswordon"
@@ -314,7 +314,7 @@
 	chaplain_spawnable = FALSE //prevents being pickable as a chaplain weapon (it has 30 force)
 
 /obj/item/nullrod/hammer
-	name = "relic war hammer"
+	name = "glup shitto"
 	desc = "This war hammer cost the chaplain forty thousand space dollars."
 	icon_state = "hammeron"
 	inhand_icon_state = "hammeron"
@@ -331,7 +331,7 @@
 	AddElement(/datum/element/kneejerk)
 
 /obj/item/nullrod/chainsaw
-	name = "chainsaw hand"
+	name = "glup shitto"
 	desc = "Good? Bad? You're the guy with the chainsaw hand."
 	icon_state = "chainsaw_on"
 	inhand_icon_state = "mounted_chainsaw"
@@ -359,7 +359,7 @@
 	)
 
 /obj/item/nullrod/clown
-	name = "clown dagger"
+	name = "glup shitto"
 	desc = "Used for absolutely hilarious sacrifices."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "clownrender"
@@ -376,7 +376,7 @@
 #define CHEMICAL_TRANSFER_CHANCE 30
 
 /obj/item/nullrod/pride_hammer
-	name = "Pride-struck Hammer"
+	name = "glup shitto"
 	desc = "It resonates an aura of Pride."
 	icon_state = "pride"
 	inhand_icon_state = "pride"
@@ -405,7 +405,7 @@
 #undef CHEMICAL_TRANSFER_CHANCE
 
 /obj/item/nullrod/whip
-	name = "holy whip"
+	name = "glup shitto"
 	desc = "What a terrible night to be on Space Station 13."
 	icon_state = "chain"
 	inhand_icon_state = "chain"
@@ -419,7 +419,7 @@
 	menu_description = "A whip. Deals extra damage to vampires. Fits in pockets. Can be worn on the belt."
 
 /obj/item/nullrod/fedora
-	name = "atheist's fedora"
+	name = "glup shitto"
 	desc = "The brim of the hat is as sharp as your wit. The edge would hurt almost as much as disproving the existence of God."
 	icon_state = "fedora"
 	inhand_icon_state = "fedora"
@@ -442,7 +442,7 @@
 	return (BRUTELOSS|FIRELOSS)
 
 /obj/item/nullrod/armblade
-	name = "dark blessing"
+	name = "glup shitto"
 	desc = "Particularly twisted deities grant gifts of dubious value."
 	icon = 'icons/obj/weapons/changeling_items.dmi'
 	icon_state = "arm_blade"
@@ -466,13 +466,13 @@
 	)
 
 /obj/item/nullrod/armblade/tentacle
-	name = "unholy blessing"
+	name = "glup shitto"
 	icon_state = "tentacle"
 	inhand_icon_state = "tentacle"
 	menu_description = "An undroppable sharp tentacle capable of inflicting deep wounds. Capable of an ineffective butchering of bodies. Disappears if the arm holding it is cut off."
 
 /obj/item/nullrod/carp
-	name = "carp-sie plushie"
+	name = "glup shitto"
 	desc = "An adorable stuffed toy that resembles the god of all carp. The teeth look pretty sharp. Activate it to receive the blessing of Carp-Sie."
 	icon = 'icons/obj/toys/plushes.dmi'
 	icon_state = "carpplush"
@@ -491,7 +491,7 @@
 	AddComponent(/datum/component/faction_granter, FACTION_CARP, holy_role_required = HOLY_ROLE_PRIEST, grant_message = span_boldnotice("You are blessed by Carp-Sie. Wild space carp will no longer attack you."))
 
 /obj/item/nullrod/claymore/bostaff //May as well make it a "claymore" and inherit the blocking
-	name = "monk's staff"
+	name = "glup shitto"
 	desc = "A long, tall staff made of polished wood. Traditionally used in ancient old-Earth martial arts, it is now used to harass the clown."
 	force = 15
 	block_chance = 40
@@ -515,7 +515,7 @@
 	inhand_icon_state = "crysknife"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
-	name = "arrhythmic knife"
+	name = "glup shitto"
 	w_class = WEIGHT_CLASS_HUGE
 	sharpness = SHARP_EDGED
 	slot_flags = null
@@ -545,7 +545,7 @@
 			wielder.update_equipment_speed_mods()
 
 /obj/item/nullrod/pitchfork
-	name = "unholy pitchfork"
+	name = "glup shitto"
 	desc = "Holding this makes you look absolutely devilish."
 	icon_state = "pitchfork0"
 	inhand_icon_state = "pitchfork0"
@@ -561,7 +561,7 @@
 	menu_description = "A sharp pitchfork. Can be worn on the back."
 
 /obj/item/nullrod/egyptian
-	name = "egyptian staff"
+	name = "glup shitto"
 	desc = "A tutorial in mummification is carved into the staff. You could probably craft the wraps if you had some cloth."
 	icon = 'icons/obj/weapons/guns/magic.dmi'
 	icon_state = "pharoah_sceptre"
@@ -576,7 +576,7 @@
 	menu_description = "A staff. Can be used as a tool to craft exclusive egyptian items. Easily stored. Can be worn on the back."
 
 /obj/item/nullrod/hypertool
-	name = "hypertool"
+	name = "glup shitto"
 	desc = "A tool so powerful even you cannot perfectly use it."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "hypertool"
@@ -593,7 +593,7 @@
 	menu_description = "A tool dealing brain damage which partially penetrates armor. Fits in pockets. Can be worn on the belt."
 
 /obj/item/nullrod/spear
-	name = "ancient spear"
+	name = "glup shitto"
 	desc = "An ancient spear made of brass, I mean gold, I mean bronze. It looks highly mechanical."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "ratvarian_spear"

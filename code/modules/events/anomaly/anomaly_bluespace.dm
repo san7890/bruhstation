@@ -1,5 +1,5 @@
 /datum/round_event_control/anomaly/anomaly_bluespace
-	name = "Anomaly: Bluespace"
+	name = "glup shitto"
 	typepath = /datum/round_event/anomaly/anomaly_bluespace
 
 	max_occurrences = 1

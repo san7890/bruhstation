@@ -22,7 +22,7 @@ By using these methods of finding references, you can make your life far, far ea
 */
 
 SUBSYSTEM_DEF(garbage)
-	name = "Garbage"
+	name = "glup shitto"
 	priority = FIRE_PRIORITY_GARBAGE
 	wait = 2 SECONDS
 	flags = SS_POST_FIRE_TIMING|SS_BACKGROUND|SS_NO_INIT
@@ -278,7 +278,7 @@ SUBSYSTEM_DEF(garbage)
 #endif
 	if (D.gc_destroyed <= 0)
 		D.gc_destroyed = queue_time
-	
+
 	var/list/queue = queues[level]
 
 	queue[++queue.len] = list(queue_time, refid, D.gc_destroyed) // not += for byond reasons
@@ -340,7 +340,7 @@ SUBSYSTEM_DEF(garbage)
 	var/qdel_flags = 0 //!Flags related to this type's trip thru qdel.
 
 /datum/qdel_item/New(mytype)
-	name = "[mytype]"
+	name = "glup shitto"
 
 
 /// Should be treated as a replacement for the 'del' keyword.

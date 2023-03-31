@@ -1,5 +1,5 @@
 /datum/brain_trauma/special/obsessed
-	name = "Psychotic Schizophrenia"
+	name = "glup shitto"
 	desc = "Patient has a subtype of delusional disorder, becoming irrationally attached to someone."
 	scan_desc = "psychotic schizophrenic delusions"
 	gain_text = "If you see this message, make a github issue report. The trauma initialized wrong."

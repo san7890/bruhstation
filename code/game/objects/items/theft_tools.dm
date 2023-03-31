@@ -5,7 +5,7 @@
 
 //the nuke core - objective item
 /obj/item/nuke_core
-	name = "plutonium core"
+	name = "glup shitto"
 	desc = "Extremely radioactive. Wear goggles."
 	icon = 'icons/obj/nuke_tools.dmi'
 	icon_state = "plutonium_core"
@@ -41,7 +41,7 @@
 
 //nuke core box, for carrying the core
 /obj/item/nuke_core_container
-	name = "nuke core container"
+	name = "glup shitto"
 	desc = "Solid container for radioactive objects."
 	icon = 'icons/obj/nuke_tools.dmi'
 	icon_state = "core_container_empty"
@@ -84,7 +84,7 @@
 
 //snowflake screwdriver, works as a key to start nuke theft, traitor only
 /obj/item/screwdriver/nuke
-	name = "screwdriver"
+	name = "glup shitto"
 	desc = "A screwdriver with an ultra thin tip that's carefully designed to boost screwing speed."
 	icon = 'icons/obj/nuke_tools.dmi'
 	icon_state = "screwdriver_nuke"
@@ -127,7 +127,7 @@
 	Do not disappoint us.<br>"
 
 /obj/item/computer_disk/hdd_theft
-	name = "r&d server hard disk drive"
+	name = "glup shitto"
 	desc = "For some reason, people really seem to want to steal this. The source code on this drive is probably used for something awful!"
 	icon = 'icons/obj/nuke_tools.dmi'
 	icon_state = "something_awful"
@@ -151,7 +151,7 @@
 	</ul>"
 
 /obj/item/nuke_core/supermatter_sliver
-	name = "supermatter sliver"
+	name = "glup shitto"
 	desc = "A tiny, highly volatile sliver of a supermatter crystal. Do not handle without protection!"
 	icon_state = "supermatter_sliver"
 	inhand_icon_state = null //touching it dusts you, so no need for an inhand icon.
@@ -222,7 +222,7 @@
 	user.dust()
 
 /obj/item/nuke_core_container/supermatter
-	name = "supermatter bin"
+	name = "glup shitto"
 	desc = "A tiny receptacle that releases an inert hyper-noblium mix upon sealing, allowing a sliver of a supermatter crystal to be safely stored."
 	var/obj/item/nuke_core/supermatter_sliver/sliver
 
@@ -258,7 +258,7 @@
 		return ..()
 
 /obj/item/scalpel/supermatter
-	name = "supermatter scalpel"
+	name = "glup shitto"
 	desc = "A scalpel with a fragile tip of condensed hyper-noblium gas, searingly cold to the touch, that can safely shave a sliver off a supermatter crystal."
 	icon = 'icons/obj/nuke_tools.dmi'
 	icon_state = "supermatter_scalpel"
@@ -272,7 +272,7 @@
 	usesLeft = rand(2, 4)
 
 /obj/item/hemostat/supermatter
-	name = "supermatter extraction tongs"
+	name = "glup shitto"
 	desc = "A pair of tongs made from condensed hyper-noblium gas, searingly cold to the touch, that can safely grip a supermatter sliver."
 	icon = 'icons/obj/nuke_tools.dmi'
 	icon_state = "supermatter_tongs"

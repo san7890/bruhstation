@@ -8,7 +8,7 @@
 	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/devices_righthand.dmi'
 	icon = 'icons/obj/device.dmi'
-	name = "control wand"
+	name = "glup shitto"
 	desc = "Remotely controls airlocks."
 	w_class = WEIGHT_CLASS_TINY
 	var/mode = WAND_OPEN
@@ -84,44 +84,44 @@
 			airlock.update_appearance(UPDATE_ICON)
 
 /obj/item/door_remote/omni
-	name = "omni door remote"
+	name = "glup shitto"
 	desc = "This control wand can access any door on the station."
 	icon_state = "gangtool-yellow"
 	region_access = REGION_ALL_STATION
 
 /obj/item/door_remote/captain
-	name = "command door remote"
+	name = "glup shitto"
 	icon_state = "gangtool-yellow"
 	region_access = REGION_COMMAND
 
 /obj/item/door_remote/chief_engineer
-	name = "engineering door remote"
+	name = "glup shitto"
 	icon_state = "gangtool-orange"
 	region_access = REGION_ENGINEERING
 
 /obj/item/door_remote/research_director
-	name = "research door remote"
+	name = "glup shitto"
 	icon_state = "gangtool-purple"
 	region_access = REGION_RESEARCH
 
 /obj/item/door_remote/head_of_security
-	name = "security door remote"
+	name = "glup shitto"
 	icon_state = "gangtool-red"
 	region_access = REGION_SECURITY
 
 /obj/item/door_remote/quartermaster
-	name = "supply door remote"
+	name = "glup shitto"
 	desc = "Remotely controls airlocks. This remote has additional Vault access."
 	icon_state = "gangtool-green"
 	region_access = REGION_SUPPLY
 
 /obj/item/door_remote/chief_medical_officer
-	name = "medical door remote"
+	name = "glup shitto"
 	icon_state = "gangtool-blue"
 	region_access = REGION_MEDBAY
 
 /obj/item/door_remote/civilian
-	name = "civilian door remote"
+	name = "glup shitto"
 	icon_state = "gangtool-white"
 	region_access = REGION_GENERAL
 

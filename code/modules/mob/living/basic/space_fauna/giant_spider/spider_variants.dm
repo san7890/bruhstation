@@ -4,7 +4,7 @@
  * This spider is only slightly slower than a human.
  */
 /mob/living/basic/giant_spider/hunter
-	name = "hunter spider"
+	name = "glup shitto"
 	desc = "Furry and black, it makes you shudder to look at it. This one has sparkling purple eyes."
 	icon_state = "hunter"
 	icon_living = "hunter"
@@ -26,7 +26,7 @@
  * Note that it cannot heal itself.
  */
 /mob/living/basic/giant_spider/nurse
-	name = "nurse spider"
+	name = "glup shitto"
 	desc = "Furry and black, it makes you shudder to look at it. This one has brilliant green eyes."
 	icon_state = "nurse"
 	icon_living = "nurse"
@@ -62,7 +62,7 @@
  * Is slowed down when not on webbing, but can lunge to throw off attackers and possibly to stun them.
  */
 /mob/living/basic/giant_spider/tarantula
-	name = "tarantula"
+	name = "glup shitto"
 	desc = "Furry and black, it makes you shudder to look at it. This one has abyssal red eyes."
 	icon_state = "tarantula"
 	icon_living = "tarantula"
@@ -103,7 +103,7 @@
  * Injects a deadlier toxin than other spiders, moves extremely fast, but has a limited amount of health.
  */
 /mob/living/basic/giant_spider/viper
-	name = "viper spider"
+	name = "glup shitto"
 	desc = "Furry and black, it makes you shudder to look at it. This one has effervescent purple eyes."
 	icon_state = "viper"
 	icon_living = "viper"
@@ -128,7 +128,7 @@
  * They are also capable of sending messages to all living spiders and setting directives for their children.
  */
 /mob/living/basic/giant_spider/midwife
-	name = "broodmother spider"
+	name = "glup shitto"
 	desc = "Furry and black, it makes you shudder to look at it. This one has scintillating green eyes. Might also be hiding a real knife somewhere."
 	gender = FEMALE
 	icon_state = "midwife"
@@ -167,7 +167,7 @@
  * Currently unused in the game unless spawned by admins.
  */
 /mob/living/basic/giant_spider/ice
-	name = "giant ice spider"
+	name = "glup shitto"
 	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minimum_survivable_temperature = 0
 	maximum_survivable_temperature = 1500
@@ -181,7 +181,7 @@
  * A temperature-proof nurse spider. Also unused.
  */
 /mob/living/basic/giant_spider/nurse/ice
-	name = "giant ice spider"
+	name = "glup shitto"
 	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minimum_survivable_temperature = 0
 	maximum_survivable_temperature = 1500
@@ -195,7 +195,7 @@
  * A temperature-proof hunter with chilling venom. Also unused.
  */
 /mob/living/basic/giant_spider/hunter/ice
-	name = "giant ice spider"
+	name = "glup shitto"
 	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minimum_survivable_temperature = 0
 	maximum_survivable_temperature = 1500
@@ -211,7 +211,7 @@
  * Used as a minor threat in abandoned places, such as areas in maintenance or a ruin.
  */
 /mob/living/basic/giant_spider/hunter/scrawny
-	name = "scrawny spider"
+	name = "glup shitto"
 	health = 60
 	maxHealth = 60
 	melee_damage_lower = 5
@@ -227,7 +227,7 @@
  * Used as a moderately strong but slow threat in abandoned places, such as areas in maintenance or a ruin.
  */
 /mob/living/basic/giant_spider/tarantula/scrawny
-	name = "scrawny tarantula"
+	name = "glup shitto"
 	health = 150
 	maxHealth = 150
 	melee_damage_lower = 20
@@ -244,7 +244,7 @@
  * In the future we should give this AI so that it actually heals its teammates.
  */
 /mob/living/basic/giant_spider/nurse/scrawny
-	name = "scrawny nurse spider"
+	name = "glup shitto"
 	health = 30
 	maxHealth = 30
 	desc = "Furry and black, it makes you shudder to look at it. This one has brilliant green eyes, and looks abnormally thin and frail."
@@ -311,7 +311,7 @@
  * This friendly arachnid hangs out in the HoS office on some space stations. Better trained than an average officer and does not attack except in self-defence.
  */
 /mob/living/basic/giant_spider/sgt_araneus
-	name = "Sergeant Araneus"
+	name = "glup shitto"
 	real_name = "Sergeant Araneus"
 	desc = "A fierce companion of the Head of Security, this spider has been carefully trained by Nanotrasen specialists. Its beady, staring eyes send shivers down your spine."
 	faction = list(FACTION_SPIDER)
@@ -334,7 +334,7 @@
  * A less giant spider which lives in the maintenance ducts and makes them annoying to traverse.
  */
 /mob/living/basic/giant_spider/maintenance
-	name = "duct spider"
+	name = "glup shitto"
 	desc = "Nanotrasen's imported solution to mice, comes with its own problems."
 	icon_state = "maint_spider"
 	icon_living = "maint_spider"

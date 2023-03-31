@@ -1,6 +1,6 @@
 
 /obj/item/organ/internal/cyberimp
-	name = "cybernetic implant"
+	name = "glup shitto"
 	desc = "A state-of-the-art implant that improves a baseline's functionality."
 	visual = FALSE
 	status = ORGAN_ROBOTIC
@@ -21,7 +21,7 @@
 //[[[[BRAIN]]]]
 
 /obj/item/organ/internal/cyberimp/brain
-	name = "cybernetic brain implant"
+	name = "glup shitto"
 	desc = "Injectors of extra sub-routines for the brain."
 	icon_state = "brain_implant"
 	implant_overlay = "brain_implant_overlay"
@@ -38,7 +38,7 @@
 
 
 /obj/item/organ/internal/cyberimp/brain/anti_drop
-	name = "anti-drop implant"
+	name = "glup shitto"
 	desc = "This cybernetic brain implant will allow you to force your hand muscles to contract, preventing item dropping. Twitch ear to toggle."
 	var/active = FALSE
 	var/list/stored_items = list()
@@ -100,7 +100,7 @@
 	stored_items -= source
 
 /obj/item/organ/internal/cyberimp/brain/anti_stun
-	name = "CNS Rebooter implant"
+	name = "glup shitto"
 	desc = "This implant will automatically give you back control over your central nervous system, reducing downtime when stunned."
 	implant_color = "#FFFF00"
 	slot = ORGAN_SLOT_BRAIN_ANTISTUN
@@ -149,7 +149,7 @@
 	zone = BODY_ZONE_PRECISE_MOUTH
 
 /obj/item/organ/internal/cyberimp/mouth/breathing_tube
-	name = "breathing tube implant"
+	name = "glup shitto"
 	desc = "This simple implant adds an internals connector to your back, allowing you to use internals without a mask and protecting you from being choked."
 	icon_state = "implant_mask"
 	slot = ORGAN_SLOT_BREATHING_TUBE
@@ -166,7 +166,7 @@
 //BOX O' IMPLANTS
 
 /obj/item/storage/box/cyber_implants
-	name = "boxed cybernetic implants"
+	name = "glup shitto"
 	desc = "A sleek, sturdy box."
 	icon_state = "cyber_implants"
 	var/list/boxed = list(

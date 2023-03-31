@@ -29,7 +29,7 @@
  * This is an absolute clusterfuck, but its my clusterfuck -aa07
  */
 SUBSYSTEM_DEF(discord)
-	name = "Discord"
+	name = "glup shitto"
 	wait = 3000
 	init_order = INIT_ORDER_DISCORD
 

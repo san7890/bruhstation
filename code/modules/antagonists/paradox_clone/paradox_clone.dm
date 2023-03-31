@@ -1,5 +1,5 @@
 /datum/antagonist/paradox_clone
-	name = "\improper Paradox Clone"
+	name = "glup shitto"
 	roundend_category = "Paradox Clone"
 	job_rank = ROLE_PARADOX_CLONE
 	antag_hud_name = "paradox_clone"
@@ -81,7 +81,7 @@
 	return "<span class='header'>A paradox clone appeared on the station!</span><br>"
 
 /datum/outfit/paradox_clone
-	name = "Paradox Clone (Preview only)"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/janitor
 	gloves = /obj/item/clothing/gloves/color/black
@@ -92,7 +92,7 @@
  * Similar to the original, but with a different flavortext.
  */
 /datum/objective/assassinate/paradox_clone
-	name = "clone assassinate"
+	name = "glup shitto"
 
 /datum/objective/assassinate/paradox_clone/update_explanation_text()
 	. = ..()

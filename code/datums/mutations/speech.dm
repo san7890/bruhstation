@@ -2,7 +2,7 @@
 //Individual ones aren't commented since their functions should be evident at a glance
 
 /datum/mutation/human/nervousness
-	name = "Nervousness"
+	name = "glup shitto"
 	desc = "Causes the holder to stutter."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='danger'>You feel nervous.</span>"
@@ -12,7 +12,7 @@
 		owner.set_stutter_if_lower(20 SECONDS)
 
 /datum/mutation/human/wacky
-	name = "Wacky"
+	name = "glup shitto"
 	desc = "You are not a clown. You are the entire circus."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='sans'><span class='infoplain'>You feel an off sensation in your voicebox.</span></span>"
@@ -34,7 +34,7 @@
 	speech_args[SPEECH_SPANS] |= SPAN_SANS
 
 /datum/mutation/human/mute
-	name = "Mute"
+	name = "glup shitto"
 	desc = "Completely inhibits the vocal section of the brain."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You feel unable to express yourself at all.</span>"
@@ -51,7 +51,7 @@
 	REMOVE_TRAIT(owner, TRAIT_MUTE, GENETIC_MUTATION)
 
 /datum/mutation/human/unintelligible
-	name = "Unintelligible"
+	name = "glup shitto"
 	desc = "Partially inhibits the vocal center of the brain, severely distorting speech."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You can't seem to form any coherent thoughts!</span>"
@@ -68,7 +68,7 @@
 	REMOVE_TRAIT(owner, TRAIT_UNINTELLIGIBLE_SPEECH, GENETIC_MUTATION)
 
 /datum/mutation/human/swedish
-	name = "Swedish"
+	name = "glup shitto"
 	desc = "A horrible mutation originating from the distant past. Thought to be eradicated after the incident in 2037."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='notice'>You feel Swedish, however that works.</span>"
@@ -99,7 +99,7 @@
 		speech_args[SPEECH_MESSAGE] = trim(message)
 
 /datum/mutation/human/chav
-	name = "Chav"
+	name = "glup shitto"
 	desc = "Unknown"
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='notice'>Ye feel like a reet prat like, innit?</span>"
@@ -136,7 +136,7 @@
 		speech_args[SPEECH_MESSAGE] = trim(message)
 
 /datum/mutation/human/elvis
-	name = "Elvis"
+	name = "glup shitto"
 	desc = "A terrifying mutation named after its 'patient-zero'."
 	quality = MINOR_NEGATIVE
 	locked = TRUE
@@ -183,7 +183,7 @@
 
 
 /datum/mutation/human/stoner
-	name = "Stoner"
+	name = "glup shitto"
 	desc = "A common mutation that severely decreases intelligence."
 	quality = NEGATIVE
 	locked = TRUE
@@ -201,7 +201,7 @@
 	owner.remove_blocked_language(subtypesof(/datum/language) - /datum/language/beachbum, LANGUAGE_STONER)
 
 /datum/mutation/human/medieval
-	name = "Medieval"
+	name = "glup shitto"
 	desc = "A horrible mutation originating from the distant past, thought to have once been a common gene in all of old world Europe."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='notice'>You feel like seeking the holy grail!</span>"
@@ -241,7 +241,7 @@
 		speech_args[SPEECH_MESSAGE] = message
 
 /datum/mutation/human/piglatin
-	name = "Pig Latin"
+	name = "glup shitto"
 	desc = "Historians say back in the 2020's humanity spoke entirely in this mystical language."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = span_notice("Omethingsay eelsfay offyay.")

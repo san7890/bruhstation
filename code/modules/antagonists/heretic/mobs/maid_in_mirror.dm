@@ -1,6 +1,6 @@
 // A summon which floats around the station incorporeally, and can appear in any mirror
 /mob/living/simple_animal/hostile/heretic_summon/maid_in_the_mirror
-	name = "Maid in the Mirror"
+	name = "glup shitto"
 	real_name = "Maid in the Mirror"
 	desc = "A floating and flowing wisp of chilled air. Glancing at it causes it to shimmer slightly."
 	icon = 'icons/mob/simple/mob.dmi'

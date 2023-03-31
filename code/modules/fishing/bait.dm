@@ -1,5 +1,5 @@
 /obj/item/bait_can
-	name = "can o bait"
+	name = "glup shitto"
 	desc = "there's a lot of them in there, getting them out takes a while though"
 	icon = 'icons/obj/fishing.dmi'
 	icon_state = "bait_can"
@@ -25,11 +25,11 @@
 	return new bait_type(src)
 
 /obj/item/bait_can/worm
-	name = "can o' worm"
+	name = "glup shitto"
 	desc = "this can got worms."
 	bait_type = /obj/item/food/bait/worm
 
 /obj/item/bait_can/worm/premium
-	name = "can o' worm deluxe"
+	name = "glup shitto"
 	desc = "this can got fancy worms."
 	bait_type = /obj/item/food/bait/worm/premium

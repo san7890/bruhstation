@@ -11,7 +11,7 @@
 //Failure to follow this pattern will cause the hand's icons to be missing due to the way get_limb_icon() works to generate the mob's icons using the aux_zone var.
 
 /obj/item/bodypart/arm/left/robot
-	name = "cyborg left arm"
+	name = "glup shitto"
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case."
 	limb_id = BODYPART_ID_ROBOTIC
 	attack_verb_simple = list("slapped", "punched")
@@ -41,7 +41,7 @@
 	disabling_threshold_percentage = 1
 
 /obj/item/bodypart/arm/right/robot
-	name = "cyborg right arm"
+	name = "glup shitto"
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case."
 	attack_verb_simple = list("slapped", "punched")
 	inhand_icon_state = "buildpipe"
@@ -71,7 +71,7 @@
 	damage_examines = list(BRUTE = ROBOTIC_BRUTE_EXAMINE_TEXT, BURN = ROBOTIC_BURN_EXAMINE_TEXT, CLONE = DEFAULT_CLONE_EXAMINE_TEXT)
 
 /obj/item/bodypart/leg/left/robot
-	name = "cyborg left leg"
+	name = "glup shitto"
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case."
 	attack_verb_simple = list("kicked", "stomped")
 	inhand_icon_state = "buildpipe"
@@ -101,7 +101,7 @@
 	damage_examines = list(BRUTE = ROBOTIC_BRUTE_EXAMINE_TEXT, BURN = ROBOTIC_BURN_EXAMINE_TEXT, CLONE = DEFAULT_CLONE_EXAMINE_TEXT)
 
 /obj/item/bodypart/leg/right/robot
-	name = "cyborg right leg"
+	name = "glup shitto"
 	desc = "A skeletal limb wrapped in pseudomuscles, with a low-conductivity case."
 	attack_verb_simple = list("kicked", "stomped")
 	inhand_icon_state = "buildpipe"
@@ -131,7 +131,7 @@
 	damage_examines = list(BRUTE = ROBOTIC_BRUTE_EXAMINE_TEXT, BURN = ROBOTIC_BURN_EXAMINE_TEXT, CLONE = DEFAULT_CLONE_EXAMINE_TEXT)
 
 /obj/item/bodypart/chest/robot
-	name = "cyborg torso"
+	name = "glup shitto"
 	desc = "A heavily reinforced case containing cyborg logic boards, with space for a standard power cell."
 	inhand_icon_state = "buildpipe"
 	icon_static =  'icons/mob/augmentation/augments.dmi'
@@ -243,7 +243,7 @@
 
 
 /obj/item/bodypart/head/robot
-	name = "cyborg head"
+	name = "glup shitto"
 	desc = "A standard reinforced braincase, with spine-plugged neural socket and sensor gimbals."
 	inhand_icon_state = "buildpipe"
 	icon_static = 'icons/mob/augmentation/augments.dmi'
@@ -349,7 +349,7 @@
 
 
 /obj/item/bodypart/arm/left/robot/surplus
-	name = "surplus prosthetic left arm"
+	name = "glup shitto"
 	desc = "A skeletal, robotic limb. Outdated and fragile, but it's still better than nothing."
 	icon_static = 'icons/mob/augmentation/surplus_augments.dmi'
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
@@ -358,7 +358,7 @@
 	max_damage = 20
 
 /obj/item/bodypart/arm/right/robot/surplus
-	name = "surplus prosthetic right arm"
+	name = "glup shitto"
 	desc = "A skeletal, robotic limb. Outdated and fragile, but it's still better than nothing."
 	icon_static = 'icons/mob/augmentation/surplus_augments.dmi'
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
@@ -367,7 +367,7 @@
 	max_damage = 20
 
 /obj/item/bodypart/leg/left/robot/surplus
-	name = "surplus prosthetic left leg"
+	name = "glup shitto"
 	desc = "A skeletal, robotic limb. Outdated and fragile, but it's still better than nothing."
 	icon_static = 'icons/mob/augmentation/surplus_augments.dmi'
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'
@@ -376,7 +376,7 @@
 	max_damage = 20
 
 /obj/item/bodypart/leg/right/robot/surplus
-	name = "surplus prosthetic right leg"
+	name = "glup shitto"
 	desc = "A skeletal, robotic limb. Outdated and fragile, but it's still better than nothing."
 	icon_static = 'icons/mob/augmentation/surplus_augments.dmi'
 	icon = 'icons/mob/augmentation/surplus_augments.dmi'

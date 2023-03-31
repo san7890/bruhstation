@@ -1,5 +1,5 @@
 /obj/item/tank/jetpack
-	name = "jetpack (empty)"
+	name = "glup shitto"
 	desc = "A tank of compressed gas for use as propulsion in zero-gravity areas. Use with caution."
 	icon_state = "jetpack"
 	inhand_icon_state = "jetpack"
@@ -135,7 +135,7 @@
 	return OXYLOSS
 
 /obj/item/tank/jetpack/improvised
-	name = "improvised jetpack"
+	name = "glup shitto"
 	desc = "A jetpack made from two air tanks, a fire extinguisher and some atmospherics equipment. It doesn't look like it can hold much."
 	icon_state = "jetpack-improvised"
 	inhand_icon_state = "jetpack-improvised"
@@ -156,19 +156,19 @@
 	return ..()
 
 /obj/item/tank/jetpack/void
-	name = "void jetpack (oxygen)"
+	name = "glup shitto"
 	desc = "It works well in a void."
 	icon_state = "jetpack-void"
 	inhand_icon_state = "jetpack-void"
 
 /obj/item/tank/jetpack/oxygen
-	name = "jetpack (oxygen)"
+	name = "glup shitto"
 	desc = "A tank of compressed oxygen for use as propulsion in zero-gravity areas. Use with caution."
 	icon_state = "jetpack"
 	inhand_icon_state = "jetpack"
 
 /obj/item/tank/jetpack/oxygen/harness
-	name = "jet harness (oxygen)"
+	name = "glup shitto"
 	desc = "A lightweight tactical harness, used by those who don't want to be weighed down by traditional jetpacks."
 	icon_state = "jetpack-mini"
 	inhand_icon_state = "jetpack-black"
@@ -177,7 +177,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/tank/jetpack/oxygen/captain
-	name = "captain's jetpack"
+	name = "glup shitto"
 	desc = "A compact, lightweight jetpack containing a high amount of compressed oxygen."
 	icon_state = "jetpack-captain"
 	inhand_icon_state = "jetpack-captain"
@@ -187,7 +187,7 @@
 	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 
 /obj/item/tank/jetpack/oxygen/security
-	name = "security jetpack (oxygen)"
+	name = "glup shitto"
 	desc = "A tank of compressed oxygen for use as propulsion in zero-gravity areas by security forces."
 	icon_state = "jetpack-sec"
 	inhand_icon_state = "jetpack-sec"
@@ -195,7 +195,7 @@
 
 
 /obj/item/tank/jetpack/carbondioxide
-	name = "jetpack (carbon dioxide)"
+	name = "glup shitto"
 	desc = "A tank of compressed carbon dioxide for use as propulsion in zero-gravity areas. Painted black to indicate that it should not be used as a source for internals."
 	icon_state = "jetpack-black"
 	inhand_icon_state = "jetpack-black"

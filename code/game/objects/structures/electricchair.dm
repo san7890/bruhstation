@@ -1,6 +1,6 @@
 
 /obj/structure/chair/e_chair
-	name = "electric chair"
+	name = "glup shitto"
 	desc = "Looks absolutely SHOCKING!"
 	icon_state = "echair0"
 	var/last_time = 1

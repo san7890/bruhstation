@@ -7,7 +7,7 @@
 
 /datum/keybinding/carbon/toggle_throw_mode
 	hotkey_keys = list("R", "Southwest") // END
-	name = "toggle_throw_mode"
+	name = "glup shitto"
 	full_name = "Toggle throw mode"
 	description = "Toggle throwing the current item or not."
 	category = CATEGORY_CARBON
@@ -23,7 +23,7 @@
 
 /datum/keybinding/carbon/hold_throw_mode
 	hotkey_keys = list("Space")
-	name = "hold_throw_mode"
+	name = "glup shitto"
 	full_name = "Hold throw mode"
 	description = "Hold this to turn on throw mode, and release it to turn off throw mode"
 	category = CATEGORY_CARBON
@@ -44,7 +44,7 @@
 	carbon_user.throw_mode_off(THROW_MODE_HOLD)
 /datum/keybinding/carbon/give
 	hotkey_keys = list("G")
-	name = "Give_Item"
+	name = "glup shitto"
 	full_name = "Give item"
 	description = "Give the item you're currently holding"
 	keybind_signal = COMSIG_KB_CARBON_GIVEITEM_DOWN

@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/emp
-	name = "Emplosion"
+	name = "glup shitto"
 	desc = "This spell causes an EMP in an area."
 	button_icon_state = "emp"
 	sound = 'sound/weapons/zapbang.ogg'
@@ -16,7 +16,7 @@
 	empulse(get_turf(cast_on), emp_heavy, emp_light)
 
 /datum/action/cooldown/spell/emp/disable_tech
-	name = "Disable Tech"
+	name = "glup shitto"
 	desc = "This spell disables all weapons, cameras and most other technology in range."
 	sound = 'sound/magic/disable_tech.ogg'
 

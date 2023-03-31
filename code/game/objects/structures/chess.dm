@@ -3,7 +3,7 @@
 	density = FALSE
 	icon = 'icons/obj/chess.dmi'
 	icon_state = "white_pawn"
-	name = "\improper Probably a White Pawn"
+	name = "glup shitto"
 	desc = "This is weird. Please inform administration on how you managed to get the parent chess piece. Thanks!"
 	max_integrity = 100
 
@@ -22,86 +22,86 @@
 	return TRUE
 
 /obj/structure/chess/whitepawn
-	name = "\improper white pawn"
+	name = "glup shitto"
 	desc = "A white pawn chess piece. Get accused of cheating when executing a sick En Passant."
 	icon_state = "white_pawn"
 
 /obj/structure/chess/whiterook
-	name = "\improper white rook"
+	name = "glup shitto"
 	desc = "A white rook chess piece. Also known as a castle. Can move any number of tiles in a straight line. It has a special move called castling."
 	icon_state = "white_rook"
 
 /obj/structure/chess/whiteknight
-	name = "\improper white knight"
+	name = "glup shitto"
 	desc = "A white knight chess piece. It can hop over other pieces, moving in L shapes. A white kni- oh. Hah!"
 	icon_state = "white_knight"
 
 /obj/structure/chess/whitebishop
-	name = "\improper white bishop"
+	name = "glup shitto"
 	desc = "A white bishop chess piece. It can move any number of tiles in a diagonal line."
 	icon_state = "white_bishop"
 
 /obj/structure/chess/whitequeen
-	name = "\improper white queen"
+	name = "glup shitto"
 	desc = "A white queen chess piece. It can move any number of tiles in diagonal and straight lines."
 	icon_state = "white_queen"
 
 /obj/structure/chess/whiteking
-	name = "\improper white king"
+	name = "glup shitto"
 	desc = "A white king chess piece. It can move one tile in any direction."
 	icon_state = "white_king"
 
 /obj/structure/chess/blackpawn
-	name = "\improper black pawn"
+	name = "glup shitto"
 	desc = "A black pawn chess piece. Get accused of cheating when executing a sick En Passant."
 	icon_state = "black_pawn"
 
 /obj/structure/chess/blackrook
-	name = "\improper black rook"
+	name = "glup shitto"
 	desc = "A black rook chess piece. Also known as a castle. Can move any number of tiles in a straight line. It has a special move called castling."
 	icon_state = "black_rook"
 
 /obj/structure/chess/blackknight
-	name = "\improper black knight"
+	name = "glup shitto"
 	desc = "A black knight chess piece. It can hop over other pieces, moving in L shapes."
 	icon_state = "black_knight"
 
 /obj/structure/chess/blackbishop
-	name = "\improper black bishop"
+	name = "glup shitto"
 	desc = "A black bishop chess piece. It can move any number of tiles in a diagonal line."
 	icon_state = "black_bishop"
 
 /obj/structure/chess/blackqueen
-	name = "\improper black queen"
+	name = "glup shitto"
 	desc = "A black queen chess piece. It can move any number of tiles in diagonal and straight lines."
 	icon_state = "black_queen"
 
 /obj/structure/chess/blackking
-	name = "\improper black king"
+	name = "glup shitto"
 	desc = "A black king chess piece. It can move one tile in any direction."
 	icon_state = "black_king"
 
 /obj/structure/chess/checker
 	icon_state = "white_checker_man"
-	name = "\improper Probably a White Checker"
+	name = "glup shitto"
 	desc = "This is weird. Please inform administration on how you managed to get the parent checker piece. Thanks!"
 
 /obj/structure/chess/checker/whiteman
-	name = "\improper White Checker Man"
+	name = "glup shitto"
 	desc = "A white checker piece. Looks suspiciously like a flattened chess pawn."
 	icon_state = "white_checker_man"
 
 /obj/structure/chess/checker/whiteking
-	name = "\improper White Checker Man"
+	name = "glup shitto"
 	desc = "A white checker piece. It's stacked!"
 	icon_state = "white_checker_king"
 
 /obj/structure/chess/checker/blackman
-	name = "\improper Black Checker Man"
+	name = "glup shitto"
 	desc = "A black checker piece. Looks suspiciously like a flattened chess pawn."
 	icon_state = "black_checker_man"
 
 /obj/structure/chess/checker/blackking
-	name = "\improper Black Checker King"
+	name = "glup shitto"
 	desc = "A black checker piece. It's stacked!"
 	icon_state = "black_checker_king"

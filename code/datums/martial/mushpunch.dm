@@ -1,5 +1,5 @@
 /datum/martial_art/mushpunch
-	name = "Mushroom Punch"
+	name = "glup shitto"
 	id = MARTIALART_MUSHPUNCH
 
 /datum/martial_art/mushpunch/harm_act(mob/living/A, mob/living/D)
@@ -23,7 +23,7 @@
 	return TRUE
 
 /obj/item/mushpunch
-	name = "odd mushroom"
+	name = "glup shitto"
 	desc = "<I>Sapienza Ophioglossoides</I>:An odd mushroom from the flesh of a mushroom person. It has apparently retained some innate power of its owner, as it quivers with barely-contained POWER!"
 	icon = 'icons/obj/hydroponics/seeds.dmi'
 	icon_state = "mycelium-angel"

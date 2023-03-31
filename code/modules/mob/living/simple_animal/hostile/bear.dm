@@ -1,6 +1,6 @@
 //Space bears!
 /mob/living/simple_animal/hostile/bear
-	name = "space bear"
+	name = "glup shitto"
 	desc = "You don't need to be faster than a space bear, you just need to outrun your crewmates."
 	icon_state = "bear"
 	icon_living = "bear"
@@ -71,12 +71,12 @@
 
 //SPACE BEARS! SQUEEEEEEEE~     OW! FUCK! IT BIT MY HAND OFF!!
 /mob/living/simple_animal/hostile/bear/hudson
-	name = "Hudson"
+	name = "glup shitto"
 	gender = MALE
 	desc = "Feared outlaw, this guy is one bad news bear." //I'm sorry...
 
 /mob/living/simple_animal/hostile/bear/snow
-	name = "space polar bear"
+	name = "glup shitto"
 	icon_state = "snowbear"
 	icon_living = "snowbear"
 	icon_dead = "snowbear_dead"
@@ -84,7 +84,7 @@
 	weather_immunities = list(TRAIT_SNOWSTORM_IMMUNE)
 
 /mob/living/simple_animal/hostile/bear/russian
-	name = "combat bear"
+	name = "glup shitto"
 	desc = "A ferocious brown bear decked out in armor plating, a red star with yellow outlining details the shoulder plating."
 	icon_state = "combatbear"
 	icon_living = "combatbear"
@@ -101,7 +101,7 @@
 	gold_core_spawnable = HOSTILE_SPAWN
 
 /obj/item/bear_armor
-	name = "pile of bear armor"
+	name = "glup shitto"
 	desc = "A scattered pile of various shaped armor pieces fitted for a bear, some duct tape, and a nail filer. Crude instructions \
 		are written on the back of one of the plates in russian. This seems like an awful idea."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
@@ -126,7 +126,7 @@
 		qdel(src)
 
 /mob/living/simple_animal/hostile/bear/butter //The mighty companion to Cak. Several functions used from it.
-	name = "Terrygold"
+	name = "glup shitto"
 	icon_state = "butterbear"
 	icon_living = "butterbear"
 	icon_dead = "butterbear_dead"

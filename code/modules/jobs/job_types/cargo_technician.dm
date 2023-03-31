@@ -36,7 +36,7 @@
 
 
 /datum/outfit/job/cargo_tech
-	name = "Cargo Technician"
+	name = "glup shitto"
 	jobtype = /datum/job/cargo_technician
 
 	backpack_contents = list(
@@ -49,6 +49,6 @@
 	l_hand = /obj/item/universal_scanner
 
 /datum/outfit/job/cargo_tech/mod
-	name = "Cargo Technician (MODsuit)"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/loader

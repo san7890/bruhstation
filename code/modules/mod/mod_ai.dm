@@ -103,7 +103,7 @@
 	REMOVE_TRAIT(wearer, TRAIT_FORCED_STANDING, MOD_TRAIT)
 
 /obj/item/mod/ai_minicard
-	name = "AI mini-card"
+	name = "glup shitto"
 	desc = "A small card designed to eject dead AIs. You could use an intellicard to recover it."
 	icon = 'icons/obj/aicards.dmi'
 	icon_state = "minicard"

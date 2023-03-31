@@ -1,6 +1,6 @@
 // Eggplant
 /obj/item/seeds/eggplant
-	name = "pack of eggplant seeds"
+	name = "glup shitto"
 	desc = "These seeds grow to produce berries that look nothing like eggs."
 	icon_state = "seed-eggplant"
 	species = "eggplant"
@@ -17,7 +17,7 @@
 
 /obj/item/food/grown/eggplant
 	seed = /obj/item/seeds/eggplant
-	name = "eggplant"
+	name = "glup shitto"
 	desc = "Maybe there's a chicken inside?"
 	icon_state = "eggplant"
 	foodtypes = FRUIT
@@ -25,7 +25,7 @@
 
 // Egg-Plant
 /obj/item/seeds/eggplant/eggy
-	name = "pack of egg-plant seeds"
+	name = "glup shitto"
 	desc = "These seeds grow to produce berries that look a lot like eggs."
 	icon_state = "seed-eggy"
 	species = "eggy"
@@ -38,7 +38,7 @@
 
 /obj/item/food/grown/shell/eggy
 	seed = /obj/item/seeds/eggplant/eggy
-	name = "egg-plant"
+	name = "glup shitto"
 	desc = "There MUST be a chicken inside."
 	icon_state = "eggyplant"
 	trash_type = /obj/item/food/egg

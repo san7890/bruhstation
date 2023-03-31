@@ -12,7 +12,7 @@
  * It will also automatically grant you one stack every 30 seconds if you are on lavaland.
  */
 /obj/item/organ/internal/monster_core/brimdust_sac
-	name = "brimdust sac"
+	name = "glup shitto"
 	desc = "A strange organ from a brimdemon. You can shake it out to coat yourself in explosive powder."
 	icon_state = "brim_sac"
 	icon_state_preserved = "brim_sac_stable"
@@ -87,7 +87,7 @@
 	var/mutable_appearance/dust_overlay
 
 /atom/movable/screen/alert/status_effect/brimdust_coating
-	name = "Brimdust Coating"
+	name = "glup shitto"
 	desc = "You %STACKS% explosive dust, kinetic impacts will cause it to detonate! \
 		The explosion will not harm you as long as you're not under atmospheric pressure."
 
@@ -191,7 +191,7 @@
 
 /// Action used by the brimdust sac
 /datum/action/cooldown/monster_core_action/exhale_brimdust
-	name = "Exhale Brimdust"
+	name = "glup shitto"
 	desc = "Cough out a choking cloud of explosive brimdust to coat those nearby."
 	button_icon_state = "brim_sac_stable"
 	cooldown_time = 90 SECONDS

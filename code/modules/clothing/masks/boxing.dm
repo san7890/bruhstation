@@ -1,5 +1,5 @@
 /obj/item/clothing/mask/balaclava
-	name = "balaclava"
+	name = "glup shitto"
 	desc = "LOADSAMONEY"
 	icon_state = "balaclava"
 	inhand_icon_state = "balaclava"
@@ -12,7 +12,7 @@
 	adjustmask(user)
 
 /obj/item/clothing/mask/luchador
-	name = "Luchador Mask"
+	name = "glup shitto"
 	desc = "Worn by robust fighters, flying high to defeat their foes!"
 	icon_state = "luchag"
 	inhand_icon_state = null
@@ -45,17 +45,17 @@
 	speech_args[SPEECH_MESSAGE] = message
 
 /obj/item/clothing/mask/luchador/tecnicos
-	name = "Tecnicos Mask"
+	name = "glup shitto"
 	desc = "Worn by robust fighters who uphold justice and fight honorably."
 	icon_state = "luchador"
 
 /obj/item/clothing/mask/luchador/rudos
-	name = "Rudos Mask"
+	name = "glup shitto"
 	desc = "Worn by robust fighters who are willing to do anything to win."
 	icon_state = "luchar"
 
 /obj/item/clothing/mask/russian_balaclava
-	name = "russian balaclava"
+	name = "glup shitto"
 	desc = "Protects your face from snow."
 	icon_state = "rus_balaclava"
 	inhand_icon_state = "balaclava"

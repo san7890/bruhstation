@@ -1,5 +1,5 @@
 /datum/action/item_action/berserk_mode
-	name = "Berserk"
+	name = "glup shitto"
 	desc = "Increase your movement and melee speed while also increasing your melee armor for a short amount of time."
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "berserk_mode"

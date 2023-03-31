@@ -147,7 +147,7 @@ GLOBAL_LIST_INIT(transit_tube_recipes, list(
 		var/flipped = ((dirtype == PIPE_TRIN_M) || (dirtype == PIPE_UNARY_FLIPPABLE)) && (ISDIAGONALDIR(numdir))
 		row["previews"] += list(list(
 			"selected" = dirtype == PIPE_ONEDIR ? TRUE : (numdir == selected_dir),
-			"dir" = dir2text(numdir), 
+			"dir" = dir2text(numdir),
 			"dir_name" = dirs[dir],
 			"icon_state" = icon_state,
 			"flipped" = flipped,
@@ -210,7 +210,7 @@ GLOBAL_LIST_INIT(transit_tube_recipes, list(
 		icon_state = "[icon_state]_preview"
 
 /obj/item/pipe_dispenser
-	name = "Rapid Pipe Dispenser (RPD)"
+	name = "glup shitto"
 	desc = "A device used to rapidly pipe things."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rpd"
@@ -728,7 +728,7 @@ GLOBAL_LIST_INIT(transit_tube_recipes, list(
 #undef REPROGRAM_MODE
 
 /obj/item/rpd_upgrade
-	name = "RPD advanced design disk"
+	name = "glup shitto"
 	desc = "It seems to be empty."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "datadisk3"

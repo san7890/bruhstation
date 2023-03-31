@@ -1,6 +1,6 @@
 /turf/open/misc/snow
 	gender = PLURAL
-	name = "snow"
+	name = "glup shitto"
 	icon = 'icons/turf/snow.dmi'
 	desc = "Looks cold."
 	icon_state = "snow"

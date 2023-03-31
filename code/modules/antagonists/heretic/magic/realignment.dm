@@ -1,6 +1,6 @@
 // Realignment. It's like Fleshmend but solely for stamina damage and stuns. Sec meta
 /datum/action/cooldown/spell/realignment
-	name = "Realignment"
+	name = "glup shitto"
 	desc = "Realign yourself, rapidly regenerating stamina and reducing any stuns or knockdowns. \
 		You cannot attack while realigning. Can be casted multiple times in short succession, but each cast lengthens the cooldown."
 	background_icon_state = "bg_heretic"
@@ -74,6 +74,6 @@
 	owner.AdjustAllImmobility(-0.5 SECONDS)
 
 /atom/movable/screen/alert/status_effect/realignment
-	name = "Realignment"
+	name = "glup shitto"
 	desc = "You're realignment yourself. You cannot attack, but are rapidly regenerating stamina."
 	icon_state = "realignment"

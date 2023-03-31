@@ -4,7 +4,7 @@
 /////////////////////////////////////////
 
 /datum/design/health_hud
-	name = "Health Scanner HUD"
+	name = "glup shitto"
 	desc = "A heads-up display that scans the humans in view and provides accurate data about their health status."
 	id = "health_hud"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -16,7 +16,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/health_hud_night
-	name = "Night Vision Health Scanner HUD"
+	name = "glup shitto"
 	desc = "An advanced medical head-up display that allows doctors to find patients in complete darkness."
 	id = "health_hud_night"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -28,7 +28,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/security_hud
-	name = "Security HUD"
+	name = "glup shitto"
 	desc = "A heads-up display that scans the humans in view and provides accurate data about their ID status."
 	id = "security_hud"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -40,7 +40,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/security_hud_night
-	name = "Night Vision Security HUD"
+	name = "glup shitto"
 	desc = "A heads-up display which provides id data and vision in complete darkness."
 	id = "security_hud_night"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -52,7 +52,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/diagnostic_hud
-	name = "Diagnostic HUD"
+	name = "glup shitto"
 	desc = "A HUD used to analyze and determine faults within robotic machinery."
 	id = "diagnostic_hud"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -64,7 +64,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/diagnostic_hud_night
-	name = "Night Vision Diagnostic HUD"
+	name = "glup shitto"
 	desc = "Upgraded version of the diagnostic HUD designed to function during a power failure."
 	id = "diagnostic_hud_night"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -80,7 +80,7 @@
 /////////////////////////////////////////
 
 /datum/design/welding_goggles
-	name = "Welding Goggles"
+	name = "glup shitto"
 	desc = "Protects the eyes from bright flashes; approved by the mad scientist association."
 	id = "welding_goggles"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -92,7 +92,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/welding_mask
-	name = "Welding Gas Mask"
+	name = "glup shitto"
 	desc = "A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd."
 	id = "weldingmask"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -104,7 +104,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/bright_helmet
-	name = "Workplace-Ready Firefighter Helmet"
+	name = "glup shitto"
 	desc = "By applying state of the art lighting technology to a fire helmet with industry standard photo-chemical hardening methods, this hardhat will protect you from robust workplace hazards."
 	id = "bright_helmet"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -116,7 +116,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/mauna_mug
-	name = "Mauna Mug"
+	name = "glup shitto"
 	desc = "This awesome mug will ensure your coffee never stays cold!"
 	id = "mauna_mug"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -128,7 +128,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/rolling_table
-	name = "Rolly poly"
+	name = "glup shitto"
 	desc = "We duct-taped some wheels to the bottom of a table. It's goddamn science alright?"
 	id = "rolling_table"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -140,7 +140,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/portaseeder
-	name = "Portable Seed Extractor"
+	name = "glup shitto"
 	desc = "For the enterprising botanist on the go. Less efficient than the stationary model, it creates one seed per plant."
 	id = "portaseeder"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -152,7 +152,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/air_horn
-	name = "Air Horn"
+	name = "glup shitto"
 	desc = "Damn son, where'd you find this?"
 	id = "air_horn"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -164,7 +164,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/clown_firing_pin
-	name = "Hilarious Firing Pin"
+	name = "glup shitto"
 	id = "clown_firing_pin"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 300, /datum/material/bananium = 500)
@@ -175,7 +175,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/mesons
-	name = "Optical Meson Scanners"
+	name = "glup shitto"
 	desc = "Used by engineering and mining staff to see basic structural and terrain layouts through walls, regardless of lighting condition."
 	id = "mesons"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -187,7 +187,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/engine_goggles
-	name = "Engineering Scanner Goggles"
+	name = "glup shitto"
 	desc = "Goggles used by engineers. The Meson Scanner mode lets you see basic structural and terrain layouts through walls, regardless of lighting condition. The T-ray Scanner mode lets you see underfloor objects such as cables and pipes."
 	id = "engine_goggles"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -199,7 +199,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/tray_goggles
-	name = "Optical T-Ray Scanners"
+	name = "glup shitto"
 	desc = "Used by engineering staff to see underfloor objects such as cables and pipes."
 	id = "tray_goggles"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -211,7 +211,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/atmos_thermal
-	name = "Atmospheric thermal imaging goggles"
+	name = "glup shitto"
 	desc = "Used by Atmospheric Technician to determine the temperature of the air"
 	id = "atmos_thermal"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -223,7 +223,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/nvgmesons
-	name = "Night Vision Optical Meson Scanners"
+	name = "glup shitto"
 	desc = "Prototype meson scanners fitted with an extra sensor which amplifies the visible light spectrum and overlays it to the UHD display."
 	id = "nvgmesons"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -235,7 +235,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/night_vision_goggles
-	name = "Night Vision Goggles"
+	name = "glup shitto"
 	desc = "Goggles that let you see through darkness unhindered."
 	id = "night_visision_goggles"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -247,7 +247,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/magboots
-	name = "Magnetic Boots"
+	name = "glup shitto"
 	desc = "Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle."
 	id = "magboots"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -259,7 +259,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/forcefield_projector
-	name = "Forcefield Projector"
+	name = "glup shitto"
 	desc = "A device which can project temporary forcefields to seal off an area."
 	id = "forcefield_projector"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -271,7 +271,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/sci_goggles
-	name = "Science Goggles"
+	name = "glup shitto"
 	desc = "Goggles fitted with a portable analyzer capable of determining the research worth of an item or components of a machine."
 	id = "scigoggles"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -283,7 +283,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/nv_sci_goggles
-	name = "Night Vision Science Goggles"
+	name = "glup shitto"
 	desc = "Goggles that lets the user see in the dark and recognize chemical compounds at a glance."
 	id = "nv_scigoggles"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -295,7 +295,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/roastingstick
-	name = "Advanced Roasting Stick"
+	name = "glup shitto"
 	desc = "A roasting stick for cooking sausages in exotic ovens."
 	id = "roastingstick"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -307,7 +307,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/locator
-	name = "Bluespace Locator"
+	name = "glup shitto"
 	desc = "Used to track portable teleportation beacons and targets with embedded tracking implants."
 	id = "locator"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -319,7 +319,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/quantum_keycard
-	name = "Quantum Keycard"
+	name = "glup shitto"
 	desc = "Allows for the construction of a quantum keycard."
 	id = "quantum_keycard"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -331,7 +331,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/botpad_remote
-	name = "Bot Launchpad Controller"
+	name = "glup shitto"
 	desc = "Allows you to control the connected bot launchpad"
 	id = "botpad_remote"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -343,7 +343,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/anomaly_neutralizer
-	name = "Anomaly Neutralizer"
+	name = "glup shitto"
 	desc = "An advanced tool capable of instantly neutralizing anomalies, designed to capture the fleeting aberrations created by the engine."
 	id = "anomaly_neutralizer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -355,7 +355,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/donksoft_refill
-	name = "Donksoft Toy Vendor Refill"
+	name = "glup shitto"
 	desc = "A refill canister for Donksoft Toy Vendors."
 	id = "donksoft_refill"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -367,7 +367,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/oxygen_tank
-	name = "Oxygen Tank"
+	name = "glup shitto"
 	desc = "An empty oxygen tank."
 	id = "oxygen_tank"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -379,7 +379,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/plasma_tank
-	name = "Plasma Tank"
+	name = "glup shitto"
 	desc = "An empty oxygen tank."
 	id = "plasma_tank"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -391,7 +391,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/id
-	name = "Identification Card"
+	name = "glup shitto"
 	desc = "A card used to provide ID and determine access across the station. Has an integrated digital display and advanced microchips."
 	id = "idcard"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -403,7 +403,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/eng_gloves
-	name = "Tinkers Gloves"
+	name = "glup shitto"
 	desc = "Overdesigned engineering gloves that have automated construction subroutines dialed in, allowing for faster construction while worn."
 	id = "eng_gloves"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -415,7 +415,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/lavarods
-	name = "Lava-Resistant Iron Rods"
+	name = "glup shitto"
 	id = "lava_rods"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron=1000, /datum/material/plasma=500, /datum/material/titanium=2000)
@@ -426,7 +426,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/plasticducky
-	name = "Rubber Ducky"
+	name = "glup shitto"
 	desc = "The classic Nanotrasen design for competitively priced bath based duck toys. No need for fancy Waffle co. rubber, buy Plastic Ducks today!"
 	id = "plasticducky"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -438,7 +438,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/pneumatic_seal
-	name = "Pneumatic Airlock Seal"
+	name = "glup shitto"
 	desc = "A heavy brace used to seal airlocks. Useful for keeping out people without the dexterity to remove it."
 	id = "pneumatic_seal"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -454,7 +454,7 @@
 /////////////////////////////////////////
 
 /datum/design/advmop
-	name = "Advanced Mop"
+	name = "glup shitto"
 	desc = "An upgraded mop with a large internal capacity for holding water or other cleaning chemicals."
 	id = "advmop"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -466,7 +466,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/normtrash
-	name = "Trashbag"
+	name = "glup shitto"
 	desc = "It's a bag for trash, you put garbage in it."
 	id = "normtrash"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -478,7 +478,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/blutrash
-	name = "Trashbag of Holding"
+	name = "glup shitto"
 	desc = "An advanced trash bag with bluespace properties; capable of holding a plethora of garbage."
 	id = "blutrash"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -490,7 +490,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/light_replacer
-	name = "Light Replacer"
+	name = "glup shitto"
 	desc = "A device to automatically replace lights. Refill with working light bulbs."
 	id = "light_replacer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -502,7 +502,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/light_replacer_blue
-	name = "Bluespace Light Replacer"
+	name = "glup shitto"
 	desc = "A device to automatically replace lights at a distance. Refill with working light bulbs."
 	id = "light_replacer_blue"
 	build_type = PROTOLATHE
@@ -514,7 +514,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/buffer_upgrade
-	name = "Floor Buffer Upgrade"
+	name = "glup shitto"
 	desc = "A floor buffer that can be attached to vehicular janicarts."
 	id = "buffer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -526,7 +526,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/vacuum_upgrade
-	name = "Vacuum Upgrade"
+	name = "glup shitto"
 	desc = "A vacuum that can be attached to vehicular janicarts."
 	id = "vacuum"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -538,7 +538,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/paint_remover
-	name = "Paint Remover"
+	name = "glup shitto"
 	desc = "Removes stains from the floor, and not much else."
 	id = "paint_remover"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -551,7 +551,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/spraybottle
-	name = "Spray Bottle"
+	name = "glup shitto"
 	desc = "A spray bottle, with an unscrewable top."
 	id = "spraybottle"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -563,7 +563,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/beartrap
-	name = "Bear Trap"
+	name = "glup shitto"
 	desc = "A trap used to catch space bears and other legged creatures."
 	id = "beartrap"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -580,7 +580,7 @@
 /////////////////////////////////////////
 
 /datum/design/adv_watering_can
-	name = "Advanced Watering Can"
+	name = "glup shitto"
 	id = "adv_watering_can"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 200)
@@ -595,7 +595,7 @@
 /////////////////////////////////////////
 
 /datum/design/holosign
-	name = "Holographic Sign Projector"
+	name = "glup shitto"
 	desc = "A holograpic projector used to project various warning signs."
 	id = "holosign"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -607,7 +607,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/holobarrier_jani
-	name = "Custodial Holobarrier Projector"
+	name = "glup shitto"
 	desc = "A holograpic projector used to project hard light wet floor barriers."
 	id = "holobarrier_jani"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -619,7 +619,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/holosignsec
-	name = "Security Holobarrier Projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates holographic security barriers."
 	id = "holosignsec"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -631,7 +631,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/holosignengi
-	name = "Engineering Holobarrier Projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates holographic engineering barriers."
 	id = "holosignengi"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -643,7 +643,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/holosignatmos
-	name = "ATMOS Holofan Projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates holographic barriers that prevent changes in atmospheric conditions."
 	id = "holosignatmos"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -655,7 +655,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/holobarrier_med
-	name = "PENLITE Holobarrier Projector"
+	name = "glup shitto"
 	desc = "PENLITE holobarriers, a device that halts individuals with malicious diseases."
 	build_type = PROTOLATHE | AWAY_LATHE
 	build_path = /obj/item/holosign_creator/medical
@@ -671,7 +671,7 @@
 /////////////////////////////////////////
 
 /datum/design/reactive_armour
-	name = "Reactive Armour Shell"
+	name = "glup shitto"
 	desc = "An experimental suit of armour capable of utilizing an implanted anomaly core to protect the user."
 	id = "reactive_armour"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -683,7 +683,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/knight_armour
-	name = "Knight Armour"
+	name = "glup shitto"
 	desc = "A royal knight's favorite garments. Can be trimmed by any friendly person."
 	id = "knight_armour"
 	build_type = AUTOLATHE
@@ -692,7 +692,7 @@
 	category = list(RND_CATEGORY_IMPORTED)
 
 /datum/design/knight_helmet
-	name = "Knight Helmet"
+	name = "glup shitto"
 	desc = "A royal knight's favorite hat. If you hold it upside down it's actually a bucket."
 	id = "knight_helmet"
 	build_type = AUTOLATHE
@@ -707,7 +707,7 @@
 /////////////////////////////////////////
 
 /datum/design/seclite
-	name = "Seclite"
+	name = "glup shitto"
 	desc = "A robust flashlight used by security."
 	id = "seclite"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -719,7 +719,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/pepperspray
-	name = "Pepper Spray"
+	name = "glup shitto"
 	desc = "Manufactured by UhangInc, used to blind and down an opponent quickly. Printed pepper sprays do not contain reagents."
 	id = "pepperspray"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -731,7 +731,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/bola_energy
-	name = "Energy Bola"
+	name = "glup shitto"
 	desc = "A specialized hard-light bola designed to ensnare fleeing criminals and aid in arrests."
 	id = "bola_energy"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -744,7 +744,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/zipties
-	name = "Zipties"
+	name = "glup shitto"
 	desc = "Plastic, disposable zipties that can be used to restrain temporarily but are destroyed after use."
 	id = "zipties"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -756,7 +756,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/evidencebag
-	name = "Evidence Bag"
+	name = "glup shitto"
 	desc = "An empty evidence bag."
 	id = "evidencebag"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -768,7 +768,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/inspector
-	name = "N-Spect Scanner"
+	name = "glup shitto"
 	desc = "Central Command-issued inspection device. Performs inspections according to Nanotrasen protocols when activated, then prints an encrypted report regarding the maintenance of the station. Definitely not giving you cancer."
 	id = "inspector"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -780,7 +780,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/plumbing_rcd
-	name = "Plumbing Constructor"
+	name = "glup shitto"
 	id = "plumbing_rcd"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 75000, /datum/material/glass = 37500, /datum/material/plastic = 1000)
@@ -791,7 +791,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/gas_filter
-	name = "Gas Filter"
+	name = "glup shitto"
 	id = "gas_filter"
 	build_type = PROTOLATHE | AUTOLATHE
 	materials = list(/datum/material/iron = 100)
@@ -802,7 +802,7 @@
 	departmental_flags = ALL
 
 /datum/design/plasmaman_gas_filter
-	name = "Plasmaman Gas Filter"
+	name = "glup shitto"
 	id = "plasmaman_gas_filter"
 	build_type = PROTOLATHE | AUTOLATHE
 	materials = list(/datum/material/iron = 100)
@@ -817,7 +817,7 @@
 /////////////////////////////////////////
 
 /datum/design/super_sticky_tape
-	name = "Super Sticky Tape"
+	name = "glup shitto"
 	id = "super_sticky_tape"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 3000)
@@ -828,7 +828,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/pointy_tape
-	name = "Pointy Tape"
+	name = "glup shitto"
 	id = "pointy_tape"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1500, /datum/material/plastic = 1000)
@@ -839,7 +839,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/super_pointy_tape
-	name = "Super Pointy Tape"
+	name = "glup shitto"
 	id = "super_pointy_tape"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 3000, /datum/material/plastic = 2000)
@@ -854,7 +854,7 @@
 /////////////////////////////////////////
 
 /datum/design/tackle_dolphin
-	name = "Dolphin Gloves"
+	name = "glup shitto"
 	id = "tackle_dolphin"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 2500)
@@ -865,7 +865,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/tackle_rocket
-	name = "Rocket Gloves"
+	name = "glup shitto"
 	id = "tackle_rocket"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plasma = 1000, /datum/material/plastic = 2000)
@@ -882,7 +882,7 @@
 /////////////////////////////////////////
 
 /datum/design/holosign/restaurant
-	name = "Restaurant Seating Projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates seating designation for restaurants."
 	id = "holosignrestaurant"
 	build_type = PROTOLATHE
@@ -894,7 +894,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/holosign/bar
-	name = "Bar Seating Projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates seating designation for bars."
 	id = "holosignbar"
 	build_type = PROTOLATHE
@@ -906,7 +906,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/oven_tray
-	name = "Oven Tray"
+	name = "glup shitto"
 	desc = "Gotta shove something in!"
 	id = "oven_tray"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
@@ -922,7 +922,7 @@
 /////////////////////////////////////////
 
 /datum/design/fishing_rod_tech
-	name = "Advanced Fishing Rod"
+	name = "glup shitto"
 	id = "fishing_rod_tech"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/uranium = 1000, /datum/material/plastic = 2000)
@@ -937,7 +937,7 @@
 /////////////////////////////////////////
 
 /datum/design/coffeepot
-	name = "Coffeepot"
+	name = "glup shitto"
 	id = "coffeepot"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 500, /datum/material/plastic = 500)
@@ -948,7 +948,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/coffeepot_bluespace
-	name = "Bluespace Coffeepot"
+	name = "glup shitto"
 	id = "bluespace_coffeepot"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1000, /datum/material/plastic = 500, /datum/material/bluespace = 500)
@@ -959,7 +959,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/coffee_cartridge
-	name = "Blank Coffee Cartridge"
+	name = "glup shitto"
 	id = "coffee_cartridge"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 1000)
@@ -970,7 +970,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/syrup_bottle
-	name = "Syrup bottle"
+	name = "glup shitto"
 	id = "syrup_bottle"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 1000)

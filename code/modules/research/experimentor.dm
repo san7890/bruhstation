@@ -18,7 +18,7 @@
 
 #define FAIL 8
 /obj/machinery/rnd/experimentor
-	name = "\improper E.X.P.E.R.I-MENTOR"
+	name = "glup shitto"
 	desc = "A \"replacement\" for the destructive analyzer with a slight tendency to catastrophically fail."
 	icon = 'icons/obj/machines/heavy_lathe.dmi'
 	icon_state = "h_lathe"
@@ -572,7 +572,7 @@
 //////////////////////////////////SPECIAL ITEMS////////////////////////////////////////
 
 /obj/item/relic
-	name = "strange object"
+	name = "glup shitto"
 	desc = "What mysteries could this hold? Maybe Research & Development could find out."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	var/realName = "defined object"

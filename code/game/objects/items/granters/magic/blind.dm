@@ -19,7 +19,7 @@
 	user.adjust_temp_blindness(20 SECONDS)
 
 /obj/item/book/granter/action/spell/blind/wgw
-	name = "Woody's Got Wood"
+	name = "glup shitto"
 	pages_to_mastery = 69 // Andy's favorite number
 	uses = 0 // it's spent
 	desc = "This book looks dangerous. Only suffering awaits those who read."

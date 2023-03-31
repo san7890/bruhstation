@@ -1,5 +1,5 @@
 /datum/surgery/dissection
-	name = "Dissection"
+	name = "glup shitto"
 	target_mobtypes = list(
 		/mob/living/carbon/human,
 		/mob/living/carbon/alien,
@@ -30,7 +30,7 @@
 	return TRUE
 
 /datum/surgery_step/dissection
-	name = "dissect (scalpel)"
+	name = "glup shitto"
 	time = 16 SECONDS
 	implements = list(
 		TOOL_SCALPEL = 100,

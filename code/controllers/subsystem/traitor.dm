@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(traitor)
-	name = "Traitor"
+	name = "glup shitto"
 	flags = SS_KEEP_TIMING
 	wait = 10 SECONDS
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME

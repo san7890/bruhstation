@@ -17,7 +17,7 @@ Fluoride Stare: After someone says 5 words, blah blah blah...
 
 /// makes you a pacifist and turns most mobs neutral towards you
 /obj/item/organ/internal/heart/gondola
-	name = "mutated gondola-heart"
+	name = "glup shitto"
 	desc = "Gondola DNA infused into what was once a normal heart."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
@@ -50,7 +50,7 @@ Fluoride Stare: After someone says 5 words, blah blah blah...
 
 /// Zen (tounge): You can no longer speak, but get a powerful positive moodlet
 /obj/item/organ/internal/tongue/gondola
-	name = "mutated gondola-tongue"
+	name = "glup shitto"
 	desc = "Gondola DNA infused into what was once a normal tongue."
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
 	icon_state = "tongue"
@@ -73,7 +73,7 @@ Fluoride Stare: After someone says 5 words, blah blah blah...
 
 /// Loving arms: your hands become unable to hold much of anything but your hugs now infuse the subject with pax.
 /obj/item/organ/internal/liver/gondola
-	name = "mutated gondola-liver"
+	name = "glup shitto"
 	desc = "Gondola DNA infused into what was once a normal liver."
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
 	icon_state = "liver"

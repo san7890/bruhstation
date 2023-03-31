@@ -1,6 +1,6 @@
 
 /datum/action/cooldown/spell/conjure_item/spellpacket
-	name = "Thrown Lightning"
+	name = "glup shitto"
 	desc = "Forged from eldrich energies, a packet of pure power, \
 		known as a spell packet will appear in your hand, that - when thrown - will stun the target."
 	button_icon_state = "thrownlightning"
@@ -15,7 +15,7 @@
 	cast_on.throw_mode_on(THROW_MODE_TOGGLE)
 
 /obj/item/spellpacket/lightningbolt
-	name = "\improper Lightning bolt Spell Packet"
+	name = "glup shitto"
 	desc = "Some birdseed wrapped in cloth that crackles with electricity."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "snappop"

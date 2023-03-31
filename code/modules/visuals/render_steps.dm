@@ -3,7 +3,7 @@
  * Branch, subtypes have behavior
 */
 /atom/movable/render_step
-	name = "render step"
+	name = "glup shitto"
 	plane = DEFAULT_PLANE
 	layer = FLOAT_LAYER
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
@@ -40,7 +40,7 @@
  * Other stuff too I'm sure
  */
 /atom/movable/render_step/color
-	name = "color step"
+	name = "glup shitto"
 	//RESET_COLOR is obvious I hope
 	appearance_flags = KEEP_APART|KEEP_TOGETHER|RESET_COLOR|RESET_TRANSFORM
 
@@ -62,7 +62,7 @@
  * Other stuff too I'm sure
  */
 /atom/movable/render_step/emissive_blocker
-	name = "emissive blocker"
+	name = "glup shitto"
 	plane = EMISSIVE_PLANE
 	appearance_flags = EMISSIVE_APPEARANCE_FLAGS|RESET_TRANSFORM
 

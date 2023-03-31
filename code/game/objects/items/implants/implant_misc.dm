@@ -1,5 +1,5 @@
 /obj/item/implant/weapons_auth
-	name = "firearms authentication implant"
+	name = "glup shitto"
 	desc = "Lets you shoot your guns."
 	icon_state = "auth"
 	actions_types = null
@@ -13,7 +13,7 @@
 	return dat
 
 /obj/item/implant/emp
-	name = "emp implant"
+	name = "glup shitto"
 	desc = "Triggers an EMP."
 	icon_state = "emp"
 	uses = 3
@@ -26,11 +26,11 @@
 		qdel(src)
 
 /obj/item/implanter/emp
-	name = "implanter (EMP)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/emp
 
 /obj/item/implant/radio
-	name = "internal radio implant"
+	name = "glup shitto"
 	var/obj/item/radio/radio
 	var/radio_key
 	var/subspace_transmission = FALSE
@@ -68,7 +68,7 @@
 	subspace_transmission = TRUE
 
 /obj/item/implant/radio/slime
-	name = "slime radio"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/organs/organs.dmi'
 	icon_state = "adamantine_resonator"
 	radio_key = /obj/item/encryptionkey/headset_sci
@@ -82,9 +82,9 @@
 	return dat
 
 /obj/item/implanter/radio
-	name = "implanter (internal radio)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/radio
 
 /obj/item/implanter/radio/syndicate
-	name = "implanter (internal syndicate radio)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/radio/syndicate

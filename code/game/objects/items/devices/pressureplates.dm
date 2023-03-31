@@ -1,5 +1,5 @@
 /obj/item/pressure_plate
-	name = "pressure plate"
+	name = "glup shitto"
 	desc = "An electronic device that triggers when stepped on."
 	desc_controls = "Ctrl-Click to toggle the pressure plate off and on."
 	icon = 'icons/obj/puzzle_small.dmi'

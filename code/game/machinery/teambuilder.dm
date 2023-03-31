@@ -2,7 +2,7 @@
  * Simple admin tool that enables players to be assigned to a VERY SHITTY, very visually distinct team, quickly and affordably.
  */
 /obj/machinery/teambuilder
-	name = "Teambuilding Machine"
+	name = "glup shitto"
 	desc = "A machine that, when passed, colors you based on the color of your team. Lead free!"
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "lpad-idle"
@@ -45,14 +45,14 @@
 		Radio.set_frequency(team_radio)
 
 /obj/machinery/teambuilder/red
-	name = "Teambuilding Machine (Red)"
+	name = "glup shitto"
 	desc = "A machine that, when passed, colors you based on the color of your team. Go red team!"
 	humans_only = TRUE
 	team_color = COLOR_RED
 	team_radio = FREQ_CTF_RED
 
 /obj/machinery/teambuilder/blue
-	name = "Teambuilding Machine (Blue)"
+	name = "glup shitto"
 	desc = "A machine that, when passed, colors you based on the color of your team. Go blue team!"
 	humans_only = TRUE
 	team_color = COLOR_BLUE

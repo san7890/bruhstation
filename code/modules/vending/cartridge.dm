@@ -1,6 +1,6 @@
 //This one's from bay12
 /obj/machinery/vending/cart
-	name = "\improper PTech"
+	name = "glup shitto"
 	desc = "Cartridges for PDAs."
 	product_slogans = "Carts to go!"
 	icon_state = "cart"

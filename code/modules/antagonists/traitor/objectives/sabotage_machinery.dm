@@ -8,14 +8,14 @@ GLOBAL_DATUM_INIT(objective_machine_handler, /datum/objective_target_machine_han
 
 /// Traitor objective to destroy a machine the crew cares about
 /datum/traitor_objective_category/sabotage_machinery
-	name = "Sabotage Worksite"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/sabotage_machinery/trap = 1,
 		/datum/traitor_objective/sabotage_machinery/destroy = 1,
 	)
 
 /datum/traitor_objective/sabotage_machinery
-	name = "Sabotage the %MACHINE%"
+	name = "glup shitto"
 	description = "Abstract objective holder which shouldn't appear in your uplink."
 	abstract_type = /datum/traitor_objective/sabotage_machinery
 
@@ -59,7 +59,7 @@ GLOBAL_DATUM_INIT(objective_machine_handler, /datum/objective_target_machine_han
 
 // Destroy machines which are in annoying locations, are annoying when destroyed, and aren't directly interacted with
 /datum/traitor_objective/sabotage_machinery/destroy
-	name = "Destroy the %MACHINE%"
+	name = "glup shitto"
 	description = "Destroy the %MACHINE% to cause disarray and disrupt the operations of the %JOB%'s department."
 
 	progression_reward = list(5 MINUTES, 10 MINUTES)
@@ -75,7 +75,7 @@ GLOBAL_DATUM_INIT(objective_machine_handler, /datum/objective_target_machine_han
 
 // Rig machines which are in public locations to explode when interacted with
 /datum/traitor_objective/sabotage_machinery/trap
-	name = "Sabotage the %MACHINE%"
+	name = "glup shitto"
 	description = "Destroy the %MACHINE% to cause disarray and disrupt the operations of the %JOB%'s department. If you can get another crew member to destroy the machine using the provided booby trap, you will be rewarded with an additional %PROGRESSION% reputation and %TC% telecrystals."
 
 	progression_reward = list(2 MINUTES, 4 MINUTES)
@@ -139,7 +139,7 @@ GLOBAL_DATUM_INIT(objective_machine_handler, /datum/objective_target_machine_han
 
 /// Item which you use on a machine to cause it to explode next time someone interacts with it
 /obj/item/traitor_machine_trapper
-	name = "suspicious device"
+	name = "glup shitto"
 	desc = "It looks dangerous."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "boobytrap"

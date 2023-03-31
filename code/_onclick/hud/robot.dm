@@ -2,7 +2,7 @@
 	icon = 'icons/hud/screen_cyborg.dmi'
 
 /atom/movable/screen/robot/module
-	name = "cyborg module"
+	name = "glup shitto"
 	icon_state = "nomod"
 
 /atom/movable/screen/robot/Click()
@@ -19,7 +19,7 @@
 	R.pick_model()
 
 /atom/movable/screen/robot/module1
-	name = "module1"
+	name = "glup shitto"
 	icon_state = "inv1"
 
 /atom/movable/screen/robot/module1/Click()
@@ -29,7 +29,7 @@
 	R.toggle_module(1)
 
 /atom/movable/screen/robot/module2
-	name = "module2"
+	name = "glup shitto"
 	icon_state = "inv2"
 
 /atom/movable/screen/robot/module2/Click()
@@ -39,7 +39,7 @@
 	R.toggle_module(2)
 
 /atom/movable/screen/robot/module3
-	name = "module3"
+	name = "glup shitto"
 	icon_state = "inv3"
 
 /atom/movable/screen/robot/module3/Click()
@@ -49,7 +49,7 @@
 	R.toggle_module(3)
 
 /atom/movable/screen/robot/radio
-	name = "radio"
+	name = "glup shitto"
 	icon_state = "radio"
 
 /atom/movable/screen/robot/radio/Click()
@@ -59,7 +59,7 @@
 	R.radio.interact(R)
 
 /atom/movable/screen/robot/store
-	name = "store"
+	name = "glup shitto"
 	icon_state = "store"
 
 /atom/movable/screen/robot/store/Click()
@@ -277,7 +277,7 @@
 				screenmob.client.screen -= I
 
 /atom/movable/screen/robot/lamp
-	name = "headlamp"
+	name = "glup shitto"
 	icon_state = "lamp_off"
 	base_icon_state = "lamp"
 	var/mob/living/silicon/robot/robot
@@ -300,7 +300,7 @@
 	return ..()
 
 /atom/movable/screen/robot/modpc
-	name = "Modular Interface"
+	name = "glup shitto"
 	icon_state = "template"
 	var/mob/living/silicon/robot/robot
 
@@ -317,7 +317,7 @@
 	return ..()
 
 /atom/movable/screen/robot/alerts
-	name = "Alert Panel"
+	name = "glup shitto"
 	icon = 'icons/hud/screen_ai.dmi'
 	icon_state = "alerts"
 

@@ -13,7 +13,7 @@
 // A chain of satellites encircles the station
 // Satellites be actived to generate a shield that will block unorganic matter from passing it.
 /datum/station_goal/station_shield
-	name = "Station Shield"
+	name = "glup shitto"
 	var/coverage_goal = 500
 	requires_space = TRUE
 
@@ -50,7 +50,7 @@
 	return coverage.len
 
 /obj/machinery/satellite/meteor_shield
-	name = "\improper Meteor Shield Satellite"
+	name = "glup shitto"
 	desc = "A meteor point-defense satellite."
 	mode = "M-SHIELD"
 	processing_flags = START_PROCESSING_MANUALLY

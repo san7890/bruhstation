@@ -1,7 +1,7 @@
 #define PREFILL_AMOUNT 5
 
 /obj/machinery/icecream_vat
-	name = "ice cream vat"
+	name = "glup shitto"
 	desc = "Ding-aling ding dong. Get your Nanotrasen-approved ice cream!"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "icecream_vat"

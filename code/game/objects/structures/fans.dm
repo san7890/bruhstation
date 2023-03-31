@@ -2,7 +2,7 @@
 /obj/structure/fans
 	icon = 'icons/obj/lavaland/survival_pod.dmi'
 	icon_state = "fans"
-	name = "environmental regulation system"
+	name = "glup shitto"
 	desc = "A large machine releasing a constant gust of air."
 	anchored = TRUE
 	density = TRUE
@@ -28,7 +28,7 @@
 	return TRUE
 
 /obj/structure/fans/tiny
-	name = "tiny fan"
+	name = "glup shitto"
 	desc = "A tiny fan, releasing a thin gust of air."
 	layer = ABOVE_NORMAL_TURF_LAYER
 	density = FALSE
@@ -45,12 +45,12 @@
 
 //Invisible, indestructible fans
 /obj/structure/fans/tiny/invisible
-	name = "air flow blocker"
+	name = "glup shitto"
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 	invisibility = INVISIBILITY_ABSTRACT
 
 /obj/structure/fans/tiny/shield
-	name = "shuttle bay shield"
+	name = "glup shitto"
 	desc = "An tenuously thin energy shield only capable of holding in air, but not solid objects or people."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "shield-old" // We should probably get these their own icon at some point

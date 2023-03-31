@@ -1,6 +1,6 @@
 /obj/item/lipstick
 	gender = PLURAL
-	name = "red lipstick"
+	name = "glup shitto"
 	desc = "A generic brand of lipstick."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "lipstick"
@@ -37,44 +37,44 @@
 
 
 /obj/item/lipstick/purple
-	name = "purple lipstick"
+	name = "glup shitto"
 	colour = "purple"
 
 /obj/item/lipstick/jade
 	//It's still called Jade, but theres no HTML color for jade, so we use lime.
-	name = "jade lipstick"
+	name = "glup shitto"
 	colour = "lime"
-	
+
 /obj/item/lipstick/blue
-	name = "blue lipstick"
+	name = "glup shitto"
 	colour = "blue"
 
 /obj/item/lipstick/green
-	name = "green lipstick"
+	name = "glup shitto"
 	colour = "green"
 
 /obj/item/lipstick/white
-	name = "white lipstick"
+	name = "glup shitto"
 	colour = "white"
 
 /obj/item/lipstick/black
-	name = "black lipstick"
+	name = "glup shitto"
 	colour = "black"
 
 /obj/item/lipstick/black/death
-	name = "\improper Kiss of Death"
+	name = "glup shitto"
 	desc = "An incredibly potent tube of lipstick made from the venom of the dreaded Yellow Spotted Space Lizard, as deadly as it is chic. Try not to smear it!"
 	lipstick_trait = TRAIT_KISS_OF_DEATH
 
 /obj/item/lipstick/random
-	name = "lipstick"
+	name = "glup shitto"
 	icon_state = "random_lipstick"
 
 /obj/item/lipstick/random/Initialize(mapload)
 	. = ..()
 	icon_state = "lipstick"
 	colour = pick("red","purple","lime","black","green","blue","white")
-	name = "[colour] lipstick"
+	name = "glup shitto"
 
 /obj/item/lipstick/attack_self(mob/user)
 	to_chat(user, span_notice("You twist [src] [open ? "closed" : "open"]."))
@@ -133,7 +133,7 @@
 
 
 /obj/item/razor
-	name = "electric razor"
+	name = "glup shitto"
 	desc = "The latest and greatest power razor born from the science of shaving."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "razor"

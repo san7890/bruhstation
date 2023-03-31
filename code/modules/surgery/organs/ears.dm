@@ -1,5 +1,5 @@
 /obj/item/organ/internal/ears
-	name = "ears"
+	name = "glup shitto"
 	icon_state = "ears"
 	desc = "There are three parts to the ear. Inner, middle and outer. Only one of these parts should be normally visible."
 	zone = BODY_ZONE_HEAD
@@ -61,7 +61,7 @@
 	damage_multiplier = 0
 
 /obj/item/organ/internal/ears/cat
-	name = "cat ears"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
 	icon_state = "kitty"
@@ -84,7 +84,7 @@
 		ear_owner.update_body()
 
 /obj/item/organ/internal/ears/penguin
-	name = "penguin ears"
+	name = "glup shitto"
 	desc = "The source of a penguin's happy feet."
 
 /obj/item/organ/internal/ears/penguin/on_insert(mob/living/carbon/human/ear_owner)
@@ -100,20 +100,20 @@
 		ear_owner.RemoveElement(/datum/element/waddling)
 
 /obj/item/organ/internal/ears/bronze
-	name = "tin ears"
+	name = "glup shitto"
 	desc = "The robust ears of a bronze golem. "
 	damage_multiplier = 0.1 //STRONK
 	bang_protect = 1 //Fear me weaklings.
 
 /obj/item/organ/internal/ears/cybernetic
-	name = "cybernetic ears"
+	name = "glup shitto"
 	icon_state = "ears-c"
 	desc = "A basic cybernetic organ designed to mimic the operation of ears."
 	damage_multiplier = 0.9
 	organ_flags = ORGAN_SYNTHETIC
 
 /obj/item/organ/internal/ears/cybernetic/upgraded
-	name = "upgraded cybernetic ears"
+	name = "glup shitto"
 	icon_state = "ears-c-u"
 	desc = "An advanced cybernetic ear, surpassing the performance of organic ears."
 	damage_multiplier = 0.5

@@ -3,7 +3,7 @@
 //Note: Everything in modules/clothing/spacesuits should have the entire suit grouped together.
 //      Meaning the the suit is defined directly after the corrisponding helmet. Just like below!
 /obj/item/clothing/head/helmet/space
-	name = "space helmet"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/spacehelm.dmi'
 	worn_icon = 'icons/mob/clothing/head/spacehelm.dmi'
 	icon_state = "spaceold"
@@ -30,7 +30,7 @@
 	acid = 70
 
 /obj/item/clothing/suit/space
-	name = "space suit"
+	name = "glup shitto"
 	desc = "A suit that protects against low pressure environments. Has a big 13 on the back."
 	icon_state = "spaceold"
 	icon = 'icons/obj/clothing/suits/spacesuit.dmi'

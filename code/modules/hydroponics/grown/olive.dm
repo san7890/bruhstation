@@ -1,6 +1,6 @@
 // Olive
 /obj/item/seeds/olive
-	name = "pack of olive seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into olive trees."
 	icon_state = "seed-olive"
 	species = "olive"
@@ -18,10 +18,10 @@
 
 /obj/item/food/grown/olive
 	seed = /obj/item/seeds/olive
-	name = "olive"
+	name = "glup shitto"
 	desc = "A small cylindrical salty fruit closely related to mangoes. Can be ground into a paste and mixed with water to make quality oil."
 	icon_state = "olive"
 	foodtypes = FRUIT
 	grind_results = list(/datum/reagent/consumable/olivepaste = 0)
 	tastes = list("olive" = 1)
-	
+

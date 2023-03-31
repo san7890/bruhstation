@@ -1,5 +1,5 @@
 /obj/item/stack/cannonball
-	name = "cannonballs"
+	name = "glup shitto"
 	desc = "A stack of heavy plasteel cannonballs. Gunnery for the space age!"
 	icon_state = "cannonballs"
 	base_icon_state = "cannonballs"
@@ -23,7 +23,7 @@
 	amount = 14
 
 /obj/item/stack/cannonball/shellball
-	name = "explosive shellballs"
+	name = "glup shitto"
 	singular_name = "explosive shellball"
 	desc = "An explosive anti-materiel and counter-battery projectile cannonball. Makes great work out of any wall, for easy entrances."
 	color = "#FF0000"
@@ -37,7 +37,7 @@
 	amount = 14
 
 /obj/item/stack/cannonball/emp
-	name = "malfunction shots"
+	name = "glup shitto"
 	singular_name = "malfunction shot"
 	icon_state = "emp_cannonballs"
 	base_icon_state = "emp_cannonballs"
@@ -47,7 +47,7 @@
 	projectile_type = /obj/projectile/bullet/cannonball/emp
 
 /obj/item/stack/cannonball/the_big_one
-	name = "\"The Biggest Ones\""
+	name = "glup shitto"
 	singular_name = "\"The Biggest One\""
 	desc = "An insane amount of explosives jammed into a massive cannonball. The last cannonball you'll ever fire in a fight, mostly because there'll be nothing left to shoot at afterwards."
 	max_amount = 5
@@ -60,7 +60,7 @@
 	amount = 5
 
 /obj/item/stack/cannonball/trashball
-	name = "trashballs"
+	name = "glup shitto"
 	singular_name = "trashball"
 	desc = "A clump of tightly packed garbage. It'll work as a cannonball, but it may be unhealthy to actually put this in a real cannon."
 	max_amount = 4

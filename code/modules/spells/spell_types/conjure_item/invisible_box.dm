@@ -1,7 +1,7 @@
 
 
 /datum/action/cooldown/spell/conjure_item/invisible_box
-	name = "Invisible Box"
+	name = "glup shitto"
 	desc = "The mime's performance transmutates a box into physical reality."
 	background_icon_state = "bg_mime"
 	overlay_icon_state = "bg_mime_border"

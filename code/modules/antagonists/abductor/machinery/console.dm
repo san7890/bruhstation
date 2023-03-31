@@ -13,7 +13,7 @@
 //Console
 
 /obj/machinery/abductor/console
-	name = "abductor console"
+	name = "glup shitto"
 	desc = "Ship command center."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "console"

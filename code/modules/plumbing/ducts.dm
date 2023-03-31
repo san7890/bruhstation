@@ -4,7 +4,7 @@ All the important duct code:
 /code/datums/ductnet.dm
 */
 /obj/machinery/duct
-	name = "fluid duct"
+	name = "glup shitto"
 	icon = 'icons/obj/plumbing/fluid_ducts.dmi'
 	icon_state = "nduct"
 	layer = PLUMBING_PIPE_VISIBILE_LAYER
@@ -320,7 +320,7 @@ All the important duct code:
 	to_chat(user, span_notice("You connect the two plumbing ducts."))
 
 /obj/item/stack/ducts
-	name = "stack of duct"
+	name = "glup shitto"
 	desc = "A stack of fluid ducts."
 	singular_name = "duct"
 	icon = 'icons/obj/plumbing/fluid_ducts.dmi'

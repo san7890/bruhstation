@@ -1,5 +1,5 @@
 /obj/item/gun/energy/laser
-	name = "laser gun"
+	name = "glup shitto"
 	desc = "A basic energy-based laser gun that fires concentrated beams of light which pass through glass and thin metal."
 	icon_state = "laser"
 	inhand_icon_state = "laser"
@@ -10,7 +10,7 @@
 	shaded_charge = 1
 
 /obj/item/gun/energy/laser/practice
-	name = "practice laser gun"
+	name = "glup shitto"
 	desc = "A modified version of the basic laser gun, this one fires less concentrated energy bolts designed for target practice."
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/practice)
 	clumsy_check = FALSE
@@ -37,7 +37,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/hellfire)
 
 /obj/item/gun/energy/laser/captain
-	name = "antique laser gun"
+	name = "glup shitto"
 	icon_state = "caplaser"
 	w_class = WEIGHT_CLASS_NORMAL
 	inhand_icon_state = null
@@ -50,7 +50,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/hellfire/antique)
 
 /obj/item/gun/energy/laser/captain/scattershot
-	name = "scatter shot laser rifle"
+	name = "glup shitto"
 	icon_state = "lasercannon"
 	w_class = WEIGHT_CLASS_BULKY
 	inhand_icon_state = "laser"
@@ -67,12 +67,12 @@
 	return
 
 /obj/item/gun/energy/laser/scatter
-	name = "scatter laser gun"
+	name = "glup shitto"
 	desc = "A laser gun equipped with a refraction kit that spreads bolts."
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/scatter, /obj/item/ammo_casing/energy/laser)
 
 /obj/item/gun/energy/laser/scatter/shotty
-	name = "energy shotgun"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "cshotgun"
 	inhand_icon_state = "shotgun"
@@ -85,7 +85,7 @@
 ///Laser Cannon
 
 /obj/item/gun/energy/lasercannon
-	name = "accelerator laser cannon"
+	name = "glup shitto"
 	desc = "An advanced laser cannon that does more damage the farther away the target is."
 	icon_state = "lasercannon"
 	inhand_icon_state = "laser"
@@ -104,7 +104,7 @@
 	fire_sound = 'sound/weapons/lasercannonfire.ogg'
 
 /obj/projectile/beam/laser/accelerator
-	name = "accelerator laser"
+	name = "glup shitto"
 	icon_state = "scatterlaser"
 	range = 255
 	damage = 6
@@ -117,7 +117,7 @@
 ///X-ray gun
 
 /obj/item/gun/energy/xray
-	name = "\improper X-ray laser gun"
+	name = "glup shitto"
 	desc = "A high-power laser gun capable of expelling concentrated X-ray blasts that pass through multiple soft targets and heavier materials."
 	icon_state = "xray"
 	w_class = WEIGHT_CLASS_BULKY
@@ -128,7 +128,7 @@
 ////////Laser Tag////////////////////
 
 /obj/item/gun/energy/laser/bluetag
-	name = "laser tag gun"
+	name = "glup shitto"
 	icon_state = "bluetag"
 	desc = "A retro laser gun modified to fire harmless blue beams of light. Sound effects included!"
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/bluetag)
@@ -143,7 +143,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/bluetag/hitscan)
 
 /obj/item/gun/energy/laser/redtag
-	name = "laser tag gun"
+	name = "glup shitto"
 	icon_state = "redtag"
 	desc = "A retro laser gun modified to fire harmless beams red of light. Sound effects included!"
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/redtag)
@@ -160,7 +160,7 @@
 //Inferno and Cryo Pistols
 
 /obj/item/gun/energy/laser/thermal //the common parent of these guns, it just shoots hard bullets, somoene might like that?
-	name = "nanite pistol"
+	name = "glup shitto"
 	desc = "A modified handcannon with a metamorphic reserve of decommissioned weaponized nanites. Spit globs of angry robots into the bad guys."
 	icon_state = "infernopistol"
 	inhand_icon_state = null
@@ -186,14 +186,14 @@
 		overlay_y = 9)
 
 /obj/item/gun/energy/laser/thermal/inferno //the magma gun
-	name = "inferno pistol"
+	name = "glup shitto"
 	desc = "A modified handcannon with a metamorphic reserve of decommissioned weaponized nanites. Spit globs of molten angry robots into the bad guys. \
 		While it doesn't manipulate temperature in and of itself, it does cause an violent eruption in anyone who is severely cold."
 	icon_state = "infernopistol"
 	ammo_type = list(/obj/item/ammo_casing/energy/nanite/inferno)
 
 /obj/item/gun/energy/laser/thermal/cryo //the ice gun
-	name = "cryo pistol"
+	name = "glup shitto"
 	desc = "A modified handcannon with a metamorphic reserve of decommissioned weaponized nanites. Spit shards of frozen angry robots into the bad guys. \
 		While it doesn't manipulate temperature in and of itself, it does cause an internal explosion in anyone who is severely hot."
 	icon_state = "cryopistol"
@@ -206,6 +206,6 @@
 	payment_amount = 20
 
 /obj/item/gun/energy/laser/luxurypaywall
-	name = "luxurious laser gun"
+	name = "glup shitto"
 	desc = "A laser gun modified to cost 20 credits to fire. Point towards poor people."
 	pin = /obj/item/firing_pin/paywall/luxury

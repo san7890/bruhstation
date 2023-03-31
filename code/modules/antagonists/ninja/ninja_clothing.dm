@@ -7,7 +7,7 @@
  *
  */
 /obj/item/clothing/mask/gas/ninja
-	name = "ninja mask"
+	name = "glup shitto"
 	desc = "A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement."
 	icon_state = "ninja"
 	inhand_icon_state = "sechailer"
@@ -18,7 +18,7 @@
 	has_fov = FALSE
 
 /obj/item/clothing/under/syndicate/ninja
-	name = "ninja suit"
+	name = "glup shitto"
 	desc = "A nano-enhanced jumpsuit designed for maximum comfort and tacticality."
 	icon_state = "ninja_suit"
 	strip_delay = 12 SECONDS

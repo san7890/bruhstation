@@ -234,7 +234,7 @@ GLOBAL_LIST_INIT(chasm_storage, list())
  * An abstract object which is basically just a bag that the chasm puts people inside
  */
 /obj/effect/abstract/chasm_storage
-	name = "chasm depths"
+	name = "glup shitto"
 	desc = "The bottom of a hole. You shouldn't be able to interact with this."
 	anchored = TRUE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT

@@ -1,5 +1,5 @@
 /obj/structure/scanner_gate_shell
-	name = "circuit scanner gate"
+	name = "glup shitto"
 	desc = "A gate able to perform mid-depth scans on any organisms who pass under it."
 	icon = 'icons/obj/machines/scangate.dmi'
 	icon_state = "scangate_black"

@@ -1,5 +1,5 @@
 /obj/machinery/computer/aifixer
-	name = "\improper AI system integrity restorer"
+	name = "glup shitto"
 	desc = "Used with intelliCards containing nonfunctional AIs to restore them to working order."
 	req_access = list(ACCESS_CAPTAIN, ACCESS_ROBOTICS, ACCESS_COMMAND)
 	circuit = /obj/item/circuitboard/computer/aifixer

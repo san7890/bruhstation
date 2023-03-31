@@ -1,5 +1,5 @@
 /obj/structure/chair/pew
-	name = "wooden pew"
+	name = "glup shitto"
 	desc = "Kneel here and pray."
 	icon = 'icons/obj/sofa.dmi'
 	icon_state = "pewmiddle"
@@ -14,7 +14,7 @@
 	AddComponent(/datum/component/simple_rotation, ROTATION_REQUIRE_WRENCH|ROTATION_IGNORE_ANCHORED)
 
 /obj/structure/chair/pew/left
-	name = "left wooden pew end"
+	name = "glup shitto"
 	icon_state = "pewend_left"
 	var/mutable_appearance/leftpewarmrest
 
@@ -59,7 +59,7 @@
 	update_leftpewarmrest()
 
 /obj/structure/chair/pew/right
-	name = "right wooden pew end"
+	name = "glup shitto"
 	icon_state = "pewend_right"
 	var/mutable_appearance/rightpewarmrest
 

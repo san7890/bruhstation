@@ -1,5 +1,5 @@
 MOVEMENT_SUBSYSTEM_DEF(spacedrift)
-	name = "Space Drift"
+	name = "glup shitto"
 	priority = FIRE_PRIORITY_SPACEDRIFT
 	flags = SS_NO_INIT|SS_TICKER
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME

@@ -1,6 +1,6 @@
 //Glasses
 /obj/item/clothing/glasses
-	name = "glasses"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/glasses.dmi'
 	lefthand_file = 'icons/mob/inhands/clothing/glasses_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing/glasses_righthand.dmi'
@@ -108,7 +108,7 @@
 
 
 /obj/item/clothing/glasses/meson
-	name = "optical meson scanner"
+	name = "glup shitto"
 	desc = "Used by engineering and mining staff to see basic structural and terrain layouts through walls, regardless of lighting conditions."
 	icon_state = "meson"
 	inhand_icon_state = "meson"
@@ -123,7 +123,7 @@
 	return BRUTELOSS
 
 /obj/item/clothing/glasses/meson/night
-	name = "night vision meson scanner"
+	name = "glup shitto"
 	desc = "An optical meson scanner fitted with an amplified visible light spectrum overlay, providing greater visual clarity in darkness."
 	icon_state = "nvgmeson"
 	inhand_icon_state = "nvgmeson"
@@ -133,7 +133,7 @@
 	glass_colour_type = /datum/client_colour/glass_colour/green
 
 /obj/item/clothing/glasses/meson/gar
-	name = "gar mesons"
+	name = "glup shitto"
 	desc = "Do the impossible, see the invisible!"
 	icon_state = "gar_meson"
 	inhand_icon_state = "gar_meson"
@@ -147,7 +147,7 @@
 	sharpness = SHARP_EDGED
 
 /obj/item/clothing/glasses/science
-	name = "science goggles"
+	name = "glup shitto"
 	desc = "A pair of snazzy goggles used to protect against chemical spills. Fitted with an analyzer for scanning items and reagents."
 	icon_state = "purple"
 	inhand_icon_state = "glasses"
@@ -169,7 +169,7 @@
 	return OXYLOSS
 
 /obj/item/clothing/glasses/science/night
-	name = "night vision science goggles"
+	name = "glup shitto"
 	desc = "Lets the user see in the dark and recognize chemical compounds at a glance."
 	icon_state = "scihudnight"
 	flash_protect = FLASH_PROTECTION_SENSITIVE
@@ -178,7 +178,7 @@
 	glass_colour_type = /datum/client_colour/glass_colour/green
 
 /obj/item/clothing/glasses/night
-	name = "night vision goggles"
+	name = "glup shitto"
 	desc = "You can totally see in the dark now!"
 	icon_state = "night"
 	inhand_icon_state = "glasses"
@@ -188,7 +188,7 @@
 	glass_colour_type = /datum/client_colour/glass_colour/green
 
 /obj/item/clothing/glasses/eyepatch
-	name = "eyepatch"
+	name = "glup shitto"
 	desc = "Yarr."
 	icon_state = "eyepatch"
 	base_icon_state = "eyepatch"
@@ -201,7 +201,7 @@
 	user.update_worn_glasses()
 
 /obj/item/clothing/glasses/monocle
-	name = "monocle"
+	name = "glup shitto"
 	desc = "Such a dapper eyepiece!"
 	icon_state = "monocle"
 	inhand_icon_state = "headset" // lol
@@ -209,7 +209,7 @@
 	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
 
 /obj/item/clothing/glasses/material
-	name = "optical material scanner"
+	name = "glup shitto"
 	desc = "Very confusing glasses."
 	icon_state = "material"
 	inhand_icon_state = "glasses"
@@ -217,13 +217,13 @@
 	glass_colour_type = /datum/client_colour/glass_colour/lightblue
 
 /obj/item/clothing/glasses/material/mining
-	name = "optical material scanner"
+	name = "glup shitto"
 	desc = "Used by miners to detect ores deep within the rock."
 	icon_state = "material"
 	inhand_icon_state = "glasses"
 
 /obj/item/clothing/glasses/material/mining/gar
-	name = "gar material scanner"
+	name = "glup shitto"
 	desc = "Do the impossible, see the invisible!"
 	icon_state = "gar_meson"
 	inhand_icon_state = "gar_meson"
@@ -238,7 +238,7 @@
 	glass_colour_type = /datum/client_colour/glass_colour/lightgreen
 
 /obj/item/clothing/glasses/regular
-	name = "prescription glasses"
+	name = "glup shitto"
 	desc = "Made by Nerd. Co."
 	icon_state = "glasses"
 	inhand_icon_state = "glasses"
@@ -287,24 +287,24 @@
 	attach_clothing_traits(TRAIT_NEARSIGHTED_CORRECTED)
 
 /obj/item/clothing/glasses/regular/thin
-	name = "thin prescription glasses"
+	name = "glup shitto"
 	desc = "More expensive, more fragile and much less practical, but oh so fashionable."
 	icon_state = "glasses_thin"
 
 /obj/item/clothing/glasses/regular/jamjar
-	name = "jamjar glasses"
+	name = "glup shitto"
 	desc = "Also known as Virginity Protectors."
 	icon_state = "jamjar_glasses"
 	inhand_icon_state = "jamjar_glasses"
 
 /obj/item/clothing/glasses/regular/hipster
-	name = "prescription glasses"
+	name = "glup shitto"
 	desc = "Made by Uncool. Co."
 	icon_state = "hipster_glasses"
 	inhand_icon_state = null
 
 /obj/item/clothing/glasses/regular/circle
-	name = "circle glasses"
+	name = "glup shitto"
 	desc = "Why would you wear something so controversial yet so brave?"
 	icon_state = "circle_glasses"
 	inhand_icon_state = null
@@ -312,7 +312,7 @@
 //Here lies green glasses, so ugly they died. RIP
 
 /obj/item/clothing/glasses/sunglasses
-	name = "sunglasses"
+	name = "glup shitto"
 	desc = "Strangely ancient technology used to help provide rudimentary eye cover. Enhanced shielding blocks flashes."
 	icon_state = "sun"
 	inhand_icon_state = "sunglasses"
@@ -322,19 +322,19 @@
 	dog_fashion = /datum/dog_fashion/head
 
 /obj/item/clothing/glasses/sunglasses/reagent
-	name = "beer goggles"
+	name = "glup shitto"
 	icon_state = "sunhudbeer"
 	desc = "A pair of sunglasses outfitted with apparatus to scan reagents, as well as providing an innate understanding of liquid viscosity while in motion."
 	clothing_traits = list(TRAIT_BOOZE_SLIDER, TRAIT_REAGENT_SCANNER)
 
 /obj/item/clothing/glasses/sunglasses/chemical
-	name = "science glasses"
+	name = "glup shitto"
 	icon_state = "sunhudsci"
 	desc = "A pair of tacky purple sunglasses that allow the wearer to recognize various chemical compounds with only a glance."
 	clothing_traits = list(TRAIT_REAGENT_SCANNER, TRAIT_RESEARCH_SCANNER)
 
 /obj/item/clothing/glasses/sunglasses/gar
-	name = "black gar glasses"
+	name = "glup shitto"
 	desc = "Go beyond impossible and kick reason to the curb!"
 	icon_state = "gar_black"
 	inhand_icon_state = "gar_black"
@@ -348,28 +348,28 @@
 	sharpness = SHARP_EDGED
 
 /obj/item/clothing/glasses/sunglasses/gar/orange
-	name = "gar glasses"
+	name = "glup shitto"
 	desc = "Just who the hell do you think I am?!"
 	icon_state = "gar"
 	inhand_icon_state = "gar"
 	glass_colour_type = /datum/client_colour/glass_colour/orange
 
 /obj/item/clothing/glasses/sunglasses/gar/giga
-	name = "black giga gar glasses"
+	name = "glup shitto"
 	desc = "Believe in us humans."
 	icon_state = "gigagar_black"
 	force = 12
 	throwforce = 12
 
 /obj/item/clothing/glasses/sunglasses/gar/giga/red
-	name = "giga gar glasses"
+	name = "glup shitto"
 	desc = "We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!"
 	icon_state = "gigagar_red"
 	inhand_icon_state = "gar"
 	glass_colour_type = /datum/client_colour/glass_colour/red
 
 /obj/item/clothing/glasses/welding
-	name = "welding goggles"
+	name = "glup shitto"
 	desc = "Protects the eyes from bright flashes; approved by the mad scientist association."
 	icon_state = "welding-g"
 	inhand_icon_state = "welding-g"
@@ -389,7 +389,7 @@
 	visor_toggling()
 
 /obj/item/clothing/glasses/blindfold
-	name = "blindfold"
+	name = "glup shitto"
 	desc = "Covers the eyes, preventing sight."
 	icon_state = "blindfold"
 	inhand_icon_state = "blindfold"
@@ -398,13 +398,13 @@
 	dog_fashion = /datum/dog_fashion/head
 
 /obj/item/clothing/glasses/trickblindfold
-	name = "blindfold"
+	name = "glup shitto"
 	desc = "A see-through blindfold perfect for cheating at games like pin the stun baton on the clown."
 	icon_state = "trickblindfold"
 	inhand_icon_state = "blindfold"
 
 /obj/item/clothing/glasses/blindfold/white
-	name = "blind personnel blindfold"
+	name = "glup shitto"
 	desc = "Indicates that the wearer suffers from blindness."
 	icon_state = "blindfoldwhite"
 	inhand_icon_state = null
@@ -439,7 +439,7 @@
 	inhand_icon_state = null
 
 /obj/item/clothing/glasses/thermal
-	name = "optical thermal scanner"
+	name = "glup shitto"
 	desc = "Thermals in the shape of glasses."
 	icon_state = "thermal"
 	inhand_icon_state = "glasses"
@@ -456,7 +456,7 @@
 	thermal_overload()
 
 /obj/item/clothing/glasses/thermal/xray
-	name = "syndicate xray goggles"
+	name = "glup shitto"
 	desc = "A pair of xray goggles manufactured by the Syndicate."
 	vision_flags = SEE_TURFS|SEE_MOBS|SEE_OBJS
 
@@ -471,7 +471,7 @@
 	REMOVE_TRAIT(user, TRAIT_XRAY_VISION, GLASSES_TRAIT)
 
 /obj/item/clothing/glasses/thermal/syndi //These are now a traitor item, concealed as mesons. -Pete
-	name = "chameleon thermals"
+	name = "glup shitto"
 	desc = "A pair of thermal optic goggles with an onboard chameleon generator."
 
 	var/datum/action/item_action/chameleon/change/chameleon_action
@@ -492,7 +492,7 @@
 	chameleon_action.emp_randomise()
 
 /obj/item/clothing/glasses/thermal/monocle
-	name = "thermoncle"
+	name = "glup shitto"
 	desc = "Never before has seeing through walls felt so gentlepersonly."
 	icon_state = "thermoncle"
 	flags_1 = null //doesn't protect eyes because it's a monocle, duh
@@ -506,7 +506,7 @@
 	desc = initial(desc)
 
 /obj/item/clothing/glasses/thermal/eyepatch
-	name = "optical thermal eyepatch"
+	name = "glup shitto"
 	desc = "An eyepatch with built-in thermal optics."
 	icon_state = "eyepatch"
 	base_icon_state = "eyepatch"
@@ -519,45 +519,45 @@
 	user.update_worn_glasses()
 
 /obj/item/clothing/glasses/cold
-	name = "cold goggles"
+	name = "glup shitto"
 	desc = "A pair of goggles meant for low temperatures."
 	icon_state = "cold"
 	inhand_icon_state = null
 
 /obj/item/clothing/glasses/heat
-	name = "heat goggles"
+	name = "glup shitto"
 	desc = "A pair of goggles meant for high temperatures."
 	icon_state = "heat"
 	inhand_icon_state = null
 
 /obj/item/clothing/glasses/orange
-	name = "orange glasses"
+	name = "glup shitto"
 	desc = "A sweet pair of orange shades."
 	icon_state = "orangeglasses"
 	inhand_icon_state = null
 	glass_colour_type = /datum/client_colour/glass_colour/lightorange
 
 /obj/item/clothing/glasses/red
-	name = "red glasses"
+	name = "glup shitto"
 	desc = "Hey, you're looking good, senpai!"
 	icon_state = "redglasses"
 	inhand_icon_state = null
 	glass_colour_type = /datum/client_colour/glass_colour/red
 
 /obj/item/clothing/glasses/geist_gazers
-	name = "geist gazers"
+	name = "glup shitto"
 	icon_state = "geist_gazers"
 	worn_icon_state = "geist_gazers"
 	glass_colour_type = /datum/client_colour/glass_colour/green
 
 /obj/item/clothing/glasses/psych
-	name = "psych glasses"
+	name = "glup shitto"
 	icon_state = "psych_glasses"
 	worn_icon_state = "psych_glasses"
 	glass_colour_type = /datum/client_colour/glass_colour/red
 
 /obj/item/clothing/glasses/debug
-	name = "debug glasses"
+	name = "glup shitto"
 	desc = "Medical, security and diagnostic hud."
 	desc_controls = "Alt click to toggle xray."
 	icon_state = "nvgmeson"
@@ -605,13 +605,13 @@
 		H.update_sight()
 
 /obj/item/clothing/glasses/regular/kim
-	name = "binoclard lenses"
+	name = "glup shitto"
 	desc = "Shows you know how to sew a lapel and center a back vent."
 	icon_state = "binoclard_lenses"
 	inhand_icon_state = null
 
 /obj/item/clothing/glasses/salesman
-	name = "colored glasses"
+	name = "glup shitto"
 	desc = "A pair of glasses with uniquely colored lenses. The frame is inscribed with 'Best Salesman 1997'."
 	icon_state = "salesman"
 	inhand_icon_state = "salesman"
@@ -644,7 +644,7 @@
 		bigshot.update_worn_glasses()
 
 /obj/item/clothing/glasses/nightmare_vision
-	name = "nightmare vision goggles"
+	name = "glup shitto"
 	desc = "They give off a putrid stench. Seemingly no effect on anything."
 	icon_state = "nightmare"
 	inhand_icon_state = "glasses"
@@ -652,13 +652,13 @@
 	forced_glass_color = TRUE
 
 /obj/item/clothing/glasses/osi
-	name = "O.S.I. Sunglasses"
+	name = "glup shitto"
 	desc = "There's no such thing as good news! Just bad news and... weird news.."
 	icon_state = "osi_glasses"
 	inhand_icon_state = null
 
 /obj/item/clothing/glasses/phantom
-	name = "Phantom Thief Mask"
+	name = "glup shitto"
 	desc = "Lookin' cool."
 	icon_state = "phantom_glasses"
 	inhand_icon_state = null

@@ -36,7 +36,7 @@
  */
 
 /obj/structure/alien/gelpod
-	name = "gelatinous mound"
+	name = "glup shitto"
 	desc = "A mound of jelly-like substance encasing something inside."
 	icon = 'icons/obj/fluff.dmi'
 	icon_state = "gelmound"
@@ -50,7 +50,7 @@
  * Resin
  */
 /obj/structure/alien/resin
-	name = "resin"
+	name = "glup shitto"
 	desc = "Looks like some kind of thick resin."
 	icon = 'icons/obj/smooth_structures/alien/resin_wall.dmi'
 	icon_state = "resin_wall-0"
@@ -80,7 +80,7 @@
 	move_update_air(T)
 
 /obj/structure/alien/resin/wall
-	name = "resin wall"
+	name = "glup shitto"
 	desc = "Thick resin solidified into a wall."
 	icon = 'icons/obj/smooth_structures/alien/resin_wall.dmi'
 	icon_state = "resin_wall-0"
@@ -98,12 +98,12 @@
 	move_resist = MOVE_FORCE_VERY_STRONG
 
 /obj/structure/alien/resin/wall/creature
-	name = "gelatinous wall"
+	name = "glup shitto"
 	desc = "Thick material shaped into a wall. Yuck."
 	color = "#8EC127"
 
 /obj/structure/alien/resin/membrane
-	name = "resin membrane"
+	name = "glup shitto"
 	desc = "Resin just thin enough to let light pass through."
 	icon = 'icons/obj/smooth_structures/alien/resin_membrane.dmi'
 	icon_state = "resin_membrane-0"
@@ -119,7 +119,7 @@
 
 ///Used in the big derelict ruin exclusively.
 /obj/structure/alien/resin/membrane/creature
-	name = "gelatinous membrane"
+	name = "glup shitto"
 	desc = "A strange combination of thin, gelatinous material."
 	color = "#4BAE56"
 
@@ -131,7 +131,7 @@
 
 /obj/structure/alien/weeds
 	gender = PLURAL
-	name = "resin floor"
+	name = "glup shitto"
 	desc = "A thick resin surface covers the floor."
 	anchored = TRUE
 	density = FALSE
@@ -253,7 +253,7 @@
 	take_damage(5, BURN, 0, 0)
 
 /obj/structure/alien/weeds/node
-	name = "glowing resin"
+	name = "glup shitto"
 	desc = "Blue bioluminescence shines from beneath the surface."
 	icon = 'icons/obj/smooth_structures/alien/weednode.dmi'
 	icon_state = "weednode-0"
@@ -306,7 +306,7 @@
 	return //No icon randomization at init. The node's icon is already well defined.
 
 /obj/structure/alien/weeds/creature
-	name = "gelatinous floor"
+	name = "glup shitto"
 	desc = "A thick gelatinous surface covers the floor.  Someone get the galoshes."
 	color = "#4BAE56"
 
@@ -328,7 +328,7 @@
 #define MAX_GROWTH_TIME 1500
 
 /obj/structure/alien/egg
-	name = "egg"
+	name = "glup shitto"
 	desc = "A large mottled egg."
 	icon_state = "egg_growing"
 	base_icon_state = "egg"

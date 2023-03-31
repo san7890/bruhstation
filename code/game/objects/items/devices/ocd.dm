@@ -1,5 +1,5 @@
 /obj/item/devices/bureaucratic_error_remote
-	name = "Occupational Corruption Device"
+	name = "glup shitto"
 	desc = "When you need to make the lives of new-hires that much more confusing, think OCD."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "gangtool-white"

@@ -35,7 +35,7 @@
 GLOBAL_DATUM(the_one_and_only_punpun, /mob/living/carbon/human/species/monkey/punpun)
 
 /mob/living/carbon/human/species/monkey/punpun
-	name = "Pun Pun" //C A N O N
+	name = "glup shitto" //C A N O N
 	unique_name = FALSE
 	use_random_name = FALSE
 	ai_controller = /datum/ai_controller/monkey/pun_pun

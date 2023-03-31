@@ -5,7 +5,7 @@ Charged extracts:
 	normal extract effect.
 */
 /obj/item/slimecross/charged
-	name = "charged extract"
+	name = "glup shitto"
 	desc = "It sparks with electric power."
 	effect = "charged"
 	icon_state = "charged"

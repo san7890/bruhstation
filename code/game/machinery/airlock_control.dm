@@ -50,7 +50,7 @@
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "airlock_sensor_off"
 	base_icon_state = "airlock_sensor"
-	name = "airlock sensor"
+	name = "glup shitto"
 	resistance_flags = FIRE_PROOF
 
 	power_channel = AREA_USAGE_ENVIRON

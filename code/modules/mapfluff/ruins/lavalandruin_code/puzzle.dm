@@ -1,5 +1,5 @@
 /obj/effect/sliding_puzzle
-	name = "Sliding puzzle generator"
+	name = "glup shitto"
 	icon = 'icons/obj/toys/balloons.dmi' //mapping
 	icon_state = "syndballoon"
 	invisibility = INVISIBILITY_ABSTRACT
@@ -195,7 +195,7 @@
 		make_solvable()
 
 /obj/structure/puzzle_element
-	name = "mysterious pillar"
+	name = "glup shitto"
 	desc = "puzzling..."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "puzzle_pillar"
@@ -311,7 +311,7 @@
 	return
 
 /obj/item/prisoncube
-	name = "Prison Cube"
+	name = "glup shitto"
 	desc = "Dusty cube with humanoid imprint on it."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "prison_cube"

@@ -1,5 +1,5 @@
 /obj/item/storage
-	name = "storage"
+	name = "glup shitto"
 	icon = 'icons/obj/storage/storage.dmi'
 	w_class = WEIGHT_CLASS_NORMAL
 	var/rummage_if_nodrop = TRUE

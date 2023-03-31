@@ -1,5 +1,5 @@
 /obj/item/computer_disk/maintenance
-	name = "maintenance data disk"
+	name = "glup shitto"
 	desc = "A data disk forgotten in the depths of maintenance, might have some useful program on it."
 
 /// Medical health analyzer app

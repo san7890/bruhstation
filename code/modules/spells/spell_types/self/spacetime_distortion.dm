@@ -1,6 +1,6 @@
 // This could probably be an aoe spell but it's a little cursed, so I'm not touching it
 /datum/action/cooldown/spell/spacetime_dist
-	name = "Spacetime Distortion"
+	name = "glup shitto"
 	desc = "Entangle the strings of space-time in an area around you, \
 		randomizing the layout and making proper movement impossible. The strings vibrate..."
 	sound = 'sound/effects/magic.ogg'
@@ -97,12 +97,12 @@
 
 
 /obj/effect/cross_action
-	name = "cross me"
+	name = "glup shitto"
 	desc = "for crossing"
 	anchored = TRUE
 
 /obj/effect/cross_action/spacetime_dist
-	name = "spacetime distortion"
+	name = "glup shitto"
 	desc = "A distortion in spacetime. You can hear faint music..."
 	icon_state = ""
 	/// A flags which save people from being thrown about

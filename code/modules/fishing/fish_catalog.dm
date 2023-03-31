@@ -1,6 +1,6 @@
 ///Book detailing where to get the fish and their properties.
 /obj/item/book/fish_catalog
-	name = "Fish Encyclopedia"
+	name = "glup shitto"
 	desc = "Indexes all fish known to mankind (and related species)."
 	icon_state = "fishbook"
 	starting_content = "Lot of fish stuff" //book wrappers could use cleaning so this is not necessary

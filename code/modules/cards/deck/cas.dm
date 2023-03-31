@@ -4,7 +4,7 @@
 // https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode
 // Original code by Zuhayr, Polaris Station, ported with modifications
 /obj/item/toy/cards/deck/cas
-	name = "\improper CAS deck (white)"
+	name = "glup shitto"
 	desc = "A deck for the game Cards Against Spess, still popular after all these centuries. Warning: may include traces of broken fourth wall. This is the white deck."
 	cardgame_desc = "Cards Against Spess game"
 	icon_state = "deck_white_full"
@@ -15,7 +15,7 @@
 	can_play_52_card_pickup = FALSE
 
 /obj/item/toy/cards/deck/cas/black
-	name = "\improper CAS deck (black)"
+	name = "glup shitto"
 	desc = "A deck for the game Cards Against Spess, still popular after all these centuries. Warning: may include traces of broken fourth wall. This is the black deck."
 	icon_state = "deck_black_full"
 	deckstyle = "black"

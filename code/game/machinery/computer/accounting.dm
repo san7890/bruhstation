@@ -1,5 +1,5 @@
 /obj/machinery/computer/accounting
-	name = "account lookup console"
+	name = "glup shitto"
 	desc = "Used to view crew member accounts and purchases."
 	icon_screen = "accounts"
 	icon_keyboard = "id_key"

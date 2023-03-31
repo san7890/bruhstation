@@ -14,7 +14,7 @@
 	)
 
 /obj/item/modular_computer/pda/heads/captain
-	name = "captain PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/captain
 	greyscale_colors = "#2C7CB2#FF0000#FFFFFF#FFD55B"
 	inserted_item = /obj/item/pen/fountain/captain
@@ -30,7 +30,7 @@
 	return COMPONENT_TABLET_NO_DETONATE
 
 /obj/item/modular_computer/pda/heads/hop
-	name = "head of personnel PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick/head
 	greyscale_colors = "#374f7e#a52f29#a52f29"
 	starting_programs = list(
@@ -44,7 +44,7 @@
 	)
 
 /obj/item/modular_computer/pda/heads/hos
-	name = "head of security PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/head
 	greyscale_colors = "#EA3232#0000CC"
 	starting_programs = list(
@@ -57,7 +57,7 @@
 	)
 
 /obj/item/modular_computer/pda/heads/ce
-	name = "chief engineer PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick/head
 	greyscale_colors = "#D99A2E#69DBF3#FAFAFA"
 	starting_programs = list(
@@ -72,7 +72,7 @@
 	)
 
 /obj/item/modular_computer/pda/heads/cmo
-	name = "chief medical officer PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick/head
 	greyscale_colors = "#FAFAFA#000099#3F96CC"
 	starting_programs = list(
@@ -86,7 +86,7 @@
 	)
 
 /obj/item/modular_computer/pda/heads/rd
-	name = "research director PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick/head
 	greyscale_colors = "#FAFAFA#000099#B347BC"
 	inserted_item = /obj/item/pen/fountain
@@ -100,7 +100,7 @@
 	)
 
 /obj/item/modular_computer/pda/heads/quartermaster
-	name = "quartermaster PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#D6B328#6506CA#927444"
 	inserted_item = /obj/item/pen/survival
@@ -120,7 +120,7 @@
  */
 
 /obj/item/modular_computer/pda/security
-	name = "security PDA"
+	name = "glup shitto"
 	greyscale_colors = "#EA3232#0000cc"
 	starting_programs = list(
 		/datum/computer_file/program/records/security,
@@ -129,7 +129,7 @@
 	)
 
 /obj/item/modular_computer/pda/detective
-	name = "detective PDA"
+	name = "glup shitto"
 	greyscale_colors = "#805A2F#990202"
 	starting_programs = list(
 		/datum/computer_file/program/records/security,
@@ -138,7 +138,7 @@
 	)
 
 /obj/item/modular_computer/pda/warden
-	name = "warden PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_split
 	greyscale_colors = "#EA3232#0000CC#363636"
 	starting_programs = list(
@@ -152,7 +152,7 @@
  */
 
 /obj/item/modular_computer/pda/engineering
-	name = "engineering PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#D99A2E#69DBF3#E3DF3D"
 	starting_programs = list(
@@ -160,7 +160,7 @@
 	)
 
 /obj/item/modular_computer/pda/atmos
-	name = "atmospherics PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#EEDC43#00E5DA#727272"
 	starting_programs = list(
@@ -173,7 +173,7 @@
  */
 
 /obj/item/modular_computer/pda/science
-	name = "scientist PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#FAFAFA#000099#B347BC"
 	starting_programs = list(
@@ -182,7 +182,7 @@
 	)
 
 /obj/item/modular_computer/pda/roboticist
-	name = "roboticist PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_split
 	greyscale_colors = "#484848#0099CC#D94927"
 	starting_programs = list(
@@ -190,7 +190,7 @@
 	)
 
 /obj/item/modular_computer/pda/geneticist
-	name = "geneticist PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_split
 	greyscale_colors = "#FAFAFA#000099#0097CA"
 	starting_programs = list(
@@ -202,7 +202,7 @@
  */
 
 /obj/item/modular_computer/pda/medical
-	name = "medical PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#FAFAFA#000099#3F96CC"
 	starting_programs = list(
@@ -211,14 +211,14 @@
 	)
 
 /obj/item/modular_computer/pda/medical/paramedic
-	name = "paramedic PDA"
+	name = "glup shitto"
 	starting_programs = list(
 		/datum/computer_file/program/records/medical,
 		/datum/computer_file/program/radar/lifeline,
 	)
 
 /obj/item/modular_computer/pda/viro
-	name = "virology PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_split
 	greyscale_colors = "#FAFAFA#355FAC#57C451"
 	starting_programs = list(
@@ -227,7 +227,7 @@
 	)
 
 /obj/item/modular_computer/pda/chemist
-	name = "chemist PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#FAFAFA#355FAC#EA6400"
 
@@ -236,7 +236,7 @@
  */
 
 /obj/item/modular_computer/pda/cargo
-	name = "cargo technician PDA"
+	name = "glup shitto"
 	greyscale_colors = "#D6B328#6506CA"
 	stored_paper = 20
 	starting_programs = list(
@@ -246,7 +246,7 @@
 	)
 
 /obj/item/modular_computer/pda/shaftminer
-	name = "shaft miner PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#927444#D6B328#6C3BA1"
 	starting_programs = list(
@@ -258,7 +258,7 @@
  */
 
 /obj/item/modular_computer/pda/janitor
-	name = "janitor PDA"
+	name = "glup shitto"
 	greyscale_colors = "#933ea8#235AB2"
 	starting_programs = list(
 		/datum/computer_file/program/skill_tracker,
@@ -266,12 +266,12 @@
 	)
 
 /obj/item/modular_computer/pda/chaplain
-	name = "chaplain PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/chaplain
 	greyscale_colors = "#333333#D11818"
 
 /obj/item/modular_computer/pda/lawyer
-	name = "lawyer PDA"
+	name = "glup shitto"
 	greyscale_colors = "#4C76C8#FFE243"
 	inserted_item = /obj/item/pen/fountain
 	starting_programs = list(
@@ -284,21 +284,21 @@
 		messenger_app.spam_mode = TRUE
 
 /obj/item/modular_computer/pda/botanist
-	name = "botanist PDA"
+	name = "glup shitto"
 	greyscale_config = /datum/greyscale_config/tablet/stripe_thick
 	greyscale_colors = "#50E193#E26F41#71A7CA"
 
 /obj/item/modular_computer/pda/cook
-	name = "cook PDA"
+	name = "glup shitto"
 	greyscale_colors = "#FAFAFA#A92323"
 
 /obj/item/modular_computer/pda/bar
-	name = "bartender PDA"
+	name = "glup shitto"
 	greyscale_colors = "#333333#C7C7C7"
 	inserted_item = /obj/item/pen/fountain
 
 /obj/item/modular_computer/pda/clown
-	name = "clown PDA"
+	name = "glup shitto"
 	inserted_disk = /obj/item/computer_disk/virus/clown
 	icon_state = "pda-clown"
 	greyscale_config = null
@@ -325,7 +325,7 @@
 	victim.visible_message("[src] lets out a burst of laughter!")
 
 /obj/item/modular_computer/pda/mime
-	name = "mime PDA"
+	name = "glup shitto"
 	inserted_disk = /obj/item/computer_disk/virus/mime
 	greyscale_config = /datum/greyscale_config/tablet/mime
 	greyscale_colors = "#FAFAFA#EA3232"
@@ -341,7 +341,7 @@
 		msg.ringer_status = FALSE
 
 /obj/item/modular_computer/pda/curator
-	name = "curator PDA"
+	name = "glup shitto"
 	desc = "A small experimental microcomputer."
 	greyscale_config = null
 	greyscale_colors = null
@@ -363,7 +363,7 @@
  */
 
 /obj/item/modular_computer/pda/assistant
-	name = "assistant PDA"
+	name = "glup shitto"
 	starting_programs = list(
 		/datum/computer_file/program/bounty_board,
 	)
@@ -373,7 +373,7 @@
  */
 
 /obj/item/modular_computer/pda/syndicate
-	name = "military PDA"
+	name = "glup shitto"
 	greyscale_colors = "#891417#80FF80"
 	saved_identification = "John Doe"
 	saved_job = "Citizen"
@@ -386,7 +386,7 @@
 		msg.invisible = TRUE
 
 /obj/item/modular_computer/pda/clear
-	name = "clear PDA"
+	name = "glup shitto"
 	icon_state = "pda-clear"
 	greyscale_config = null
 	greyscale_colors = null

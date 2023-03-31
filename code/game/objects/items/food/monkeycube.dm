@@ -1,5 +1,5 @@
 /obj/item/food/monkeycube
-	name = "monkey cube"
+	name = "glup shitto"
 	desc = "Just add water!"
 	icon_state = "monkeycube"
 	bite_consumption = 12
@@ -54,7 +54,7 @@
 	faction = list(FACTION_NEUTRAL, ROLE_SYNDICATE)
 
 /obj/item/food/monkeycube/gorilla
-	name = "gorilla cube"
+	name = "glup shitto"
 	desc = "A Waffle Co. brand gorilla cube. Now with extra molecules!"
 	bite_consumption = 20
 	food_reagents = list(
@@ -65,7 +65,7 @@
 	spawned_mob = /mob/living/simple_animal/hostile/gorilla
 
 /obj/item/food/monkeycube/chicken
-	name = "chicken cube"
+	name = "glup shitto"
 	desc = "A new Nanotrasen classic, the chicken cube. Tastes like everything!"
 	bite_consumption = 20
 	food_reagents = list(
@@ -76,7 +76,7 @@
 	spawned_mob = /mob/living/simple_animal/chicken
 
 /obj/item/food/monkeycube/bee
-	name = "bee cube"
+	name = "glup shitto"
 	desc = "We were sure it was a good idea. Just add water."
 	bite_consumption = 20
 	food_reagents = list(

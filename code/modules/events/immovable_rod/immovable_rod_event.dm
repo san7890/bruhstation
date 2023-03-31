@@ -1,7 +1,7 @@
 /// Immovable rod random event.
 /// The rod will spawn at some location outside the station, and travel in a straight line to the opposite side of the station
 /datum/round_event_control/immovable_rod
-	name = "Immovable Rod"
+	name = "glup shitto"
 	typepath = /datum/round_event/immovable_rod
 	min_players = 15
 	max_occurrences = 5

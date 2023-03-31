@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/heretic_summon
-	name = "Eldritch Demon"
+	name = "glup shitto"
 	real_name = "Eldritch Demon"
 	desc = "A horror from beyond this realm."
 	icon = 'icons/mob/nonhuman-player/eldritch_mobs.dmi'
@@ -45,7 +45,7 @@
 		new_spell.Grant(src)
 
 /mob/living/simple_animal/hostile/heretic_summon/raw_prophet
-	name = "Raw Prophet"
+	name = "glup shitto"
 	real_name = "Raw Prophet"
 	desc = "An abomination stitched together from a few severed arms and one lost eye."
 	icon_state = "raw_prophet"
@@ -128,7 +128,7 @@
 // What if we took a linked list... But made it a mob?
 /// The "Terror of the Night" / Armsy, a large worm made of multiple bodyparts that occupies multiple tiles
 /mob/living/simple_animal/hostile/heretic_summon/armsy
-	name = "Terror of the night"
+	name = "glup shitto"
 	real_name = "Armsy"
 	desc = "An abomination made from dozens and dozens of severed and malformed limbs piled onto each other."
 	icon_state = "armsy_start"
@@ -337,7 +337,7 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/heretic_summon/armsy/prime
-	name = "Lord of the Night"
+	name = "glup shitto"
 	real_name = "Master of Decay"
 	maxHealth = 400
 	health = 400
@@ -351,7 +351,7 @@
 	transform = matrix_transformation
 
 /mob/living/simple_animal/hostile/heretic_summon/rust_spirit
-	name = "Rust Walker"
+	name = "glup shitto"
 	real_name = "Rusty"
 	desc = "An incomprehensible abomination. Everywhere it steps, it appears to be actively seeping life out of its surroundings."
 	icon_state = "rust_walker_s"
@@ -391,7 +391,7 @@
 	return ..()
 
 /mob/living/simple_animal/hostile/heretic_summon/ash_spirit
-	name = "Ash Man"
+	name = "glup shitto"
 	real_name = "Ashy"
 	desc = "An incomprehensible abomination. As it moves, a thin trail of ash follows, appearing from seemingly nowhere."
 	icon_state = "ash_walker"
@@ -409,7 +409,7 @@
 	)
 
 /mob/living/simple_animal/hostile/heretic_summon/stalker
-	name = "Flesh Stalker"
+	name = "glup shitto"
 	real_name = "Flesh Stalker"
 	desc = "An abomination made from several limbs and organs. Every moment you stare at it, it appears to shift and change unnaturally."
 	icon_state = "stalker"

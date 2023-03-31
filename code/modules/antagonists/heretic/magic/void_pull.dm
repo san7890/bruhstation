@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/aoe/void_pull
-	name = "Void Pull"
+	name = "glup shitto"
 	desc = "Calls the void, damaging, knocking down, and stunning people nearby. \
 		Distant foes are also pulled closer to you (but not damaged)."
 	background_icon_state = "bg_heretic"

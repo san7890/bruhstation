@@ -1,5 +1,5 @@
 /obj/machinery/transformer
-	name = "\improper Automatic Robotic Factory 5000"
+	name = "glup shitto"
 	desc = "A large metallic machine with an entrance and an exit. A sign on \
 		the side reads, 'human go in, robot come out'. The human must be \
 		lying down and alive. Has a cooldown between each use."

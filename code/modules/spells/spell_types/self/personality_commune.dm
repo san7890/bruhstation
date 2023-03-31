@@ -1,6 +1,6 @@
 // This can probably be changed to use mind linker at some point
 /datum/action/cooldown/spell/personality_commune
-	name = "Personality Commune"
+	name = "glup shitto"
 	desc = "Sends thoughts to your alternate consciousness."
 	button_icon_state = "telepathy"
 	cooldown_time = 0 SECONDS

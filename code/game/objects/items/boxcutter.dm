@@ -1,5 +1,5 @@
 /obj/item/boxcutter
-	name = "boxcutter"
+	name = "glup shitto"
 	desc = "A tool for cutting boxes, or throats."
 	icon = 'icons/obj/boxcutter.dmi'
 	icon_state = "boxcutter"

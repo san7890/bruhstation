@@ -1,6 +1,6 @@
 
 /obj/effect/anomaly/dimensional
-	name = "dimensional anomaly"
+	name = "glup shitto"
 	icon_state = "dimensional"
 	aSignal = /obj/item/assembly/signaler/anomaly/dimensional
 	immortal = TRUE

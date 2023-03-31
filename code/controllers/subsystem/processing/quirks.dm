@@ -5,7 +5,7 @@
 // - Quirk strings are used for faster checking in code
 // - Quirk datums are stored and hold different effects, as well as being a vector for applying trait string
 PROCESSING_SUBSYSTEM_DEF(quirks)
-	name = "Quirks"
+	name = "glup shitto"
 	init_order = INIT_ORDER_QUIRKS
 	flags = SS_BACKGROUND
 	runlevels = RUNLEVEL_GAME

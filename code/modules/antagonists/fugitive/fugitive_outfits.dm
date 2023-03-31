@@ -1,5 +1,5 @@
 /datum/outfit/prisoner
-	name = "Prison Escapee"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/prisoner
 	shoes = /obj/item/clothing/shoes/sneakers/orange
 	r_pocket = /obj/item/knife/shiv
@@ -14,7 +14,7 @@
 	prisoner.fully_replace_character_name(null,"NTP #CC-0[rand(111,999)]") //same as the lavaland prisoner transport, but this time they are from CC, or CentCom
 
 /datum/outfit/yalp_cultist
-	name = "Cultist of Yalp Elor"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/civilian/chaplain
 	suit = /obj/item/clothing/suit/chaplainsuit/holidaypriest
 	gloves = /obj/item/clothing/gloves/color/red
@@ -22,7 +22,7 @@
 	mask = /obj/item/clothing/mask/gas/tiki_mask/yalp_elor
 
 /datum/outfit/waldo
-	name = "Waldo"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/pants/jeans
 	suit = /obj/item/clothing/suit/costume/striped_sweater
 	head = /obj/item/clothing/head/waldo
@@ -59,7 +59,7 @@
 	waldos_key.Grant(equipped_on)
 
 /datum/outfit/synthetic
-	name = "Factory Error Synth"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/color/white
 	ears = /obj/item/radio/headset
 
@@ -70,7 +70,7 @@
 	eyes.Insert(H, drop_if_replaced = FALSE)
 
 /datum/outfit/spacepol
-	name = "Spacepol Officer"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/security/officer/spacepol
 	suit = /obj/item/clothing/suit/armor/vest/blueshirt
 	belt = /obj/item/gun/ballistic/automatic/pistol/m1911
@@ -94,7 +94,7 @@
 	W.update_icon()
 
 /datum/outfit/russian_hunter
-	name = "Russian Hunter"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced
 	uniform = /obj/item/clothing/under/costume/soviet
 	suit = /obj/item/clothing/suit/armor/bulletproof
@@ -151,7 +151,7 @@
 		uniform.has_sensor = NO_SENSORS
 
 /datum/outfit/russian_hunter/leader
-	name = "Russian Hunter Leader"
+	name = "glup shitto"
 	head = /obj/item/clothing/head/costume/ushanka
 	shoes = /obj/item/clothing/shoes/combat
 
@@ -159,7 +159,7 @@
 	return // None of the RNG russian equipment stuff.
 
 /datum/outfit/bountyarmor
-	name = "Bounty Hunter - Armored"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/prisoner
 	back = /obj/item/storage/backpack
 	head = /obj/item/clothing/head/cowboy
@@ -189,7 +189,7 @@
 	W.update_icon()
 
 /datum/outfit/bountyhook
-	name = "Bounty Hunter - Hook"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/prisoner
 	back = /obj/item/storage/backpack
 	head = /obj/item/clothing/head/costume/scarecrow_hat
@@ -214,7 +214,7 @@
 	W.update_icon()
 
 /datum/outfit/bountysynth
-	name = "Bounty Hunter - Synth"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/prisoner
 	back = /obj/item/storage/backpack
 	suit = /obj/item/clothing/suit/armor/riot

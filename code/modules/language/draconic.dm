@@ -1,5 +1,5 @@
 /datum/language/draconic
-	name = "Draconic"
+	name = "glup shitto"
 	desc = "The common language of lizard-people, composed of sibilant hisses and rattles."
 	key = "o"
 	flags = TONGUELESS_SPEECH

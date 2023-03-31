@@ -24,7 +24,7 @@
  * Clicking people with those will cause an attempt at handcuffing them to occur
 */
 /obj/item/restraints/handcuffs
-	name = "handcuffs"
+	name = "glup shitto"
 	desc = "Use this to keep prisoners in line."
 	gender = PLURAL
 	icon_state = "handcuff"
@@ -129,7 +129,7 @@
  * Fake handcuffs that can be removed near-instantly.
 */
 /obj/item/restraints/handcuffs/fake
-	name = "fake handcuffs"
+	name = "glup shitto"
 	desc = "Fake handcuffs meant for gag purposes."
 	breakouttime = 1 SECONDS
 
@@ -139,7 +139,7 @@
  * Ghetto handcuffs. Removing those is faster.
 */
 /obj/item/restraints/handcuffs/cable
-	name = "cable restraints"
+	name = "glup shitto"
 	desc = "Looks like some cables tied together. Could be used to tie something up."
 	icon_state = "cuff"
 	inhand_icon_state = "coil_red"
@@ -198,7 +198,7 @@
  * Just cable restraints that look differently and can't be recycled.
 */
 /obj/item/restraints/handcuffs/cable/sinew
-	name = "sinew restraints"
+	name = "glup shitto"
 	desc = "A pair of restraints fashioned from long strands of flesh."
 	icon_state = "sinewcuff"
 	inhand_icon_state = null
@@ -306,7 +306,7 @@
  * One-use handcuffs that take 45 seconds to resist out of instead of one minute. This turns into the used version when applied.
 */
 /obj/item/restraints/handcuffs/cable/zipties
-	name = "zipties"
+	name = "glup shitto"
 	desc = "Plastic, disposable zipties that can be used to restrain temporarily but are destroyed after use."
 	icon_state = "cuff"
 	inhand_icon_state = "cuff_white"
@@ -336,7 +336,7 @@
  * One-use handcuffs that is very easy to break out of, meant as a one-use alternative to regular fake handcuffs.
  */
 /obj/item/restraints/handcuffs/cable/zipties/fake
-	name = "fake zipties"
+	name = "glup shitto"
 	desc = "Fake zipties meant for gag purposes."
 	breakouttime = 1 SECONDS
 
@@ -350,7 +350,7 @@
  * Parent class for everything that can legcuff carbons. Can't legcuff anything itself.
 */
 /obj/item/restraints/legcuffs
-	name = "leg cuffs"
+	name = "glup shitto"
 	desc = "Use this to keep prisoners in line."
 	gender = PLURAL
 	icon_state = "handcuff"
@@ -370,7 +370,7 @@
  * This opens, closes, and bites people's legs.
  */
 /obj/item/restraints/legcuffs/beartrap
-	name = "bear trap"
+	name = "glup shitto"
 	throw_speed = 1
 	throw_range = 1
 	icon_state = "beartrap"
@@ -460,7 +460,7 @@
  * A weaker version of the bear trap that can be resisted out of faster and disappears
  */
 /obj/item/restraints/legcuffs/beartrap/energy
-	name = "energy snare"
+	name = "glup shitto"
 	armed = 1
 	icon_state = "e_snare"
 	trap_damage = 0
@@ -491,7 +491,7 @@
 	breakouttime = 2 SECONDS // Cyborgs shouldn't have a strong restraint
 
 /obj/item/restraints/legcuffs/bola
-	name = "bola"
+	name = "glup shitto"
 	desc = "A restraining device designed to be thrown at the target. Upon connecting with said target, it will wrap around their legs, making it difficult for them to move quickly."
 	icon_state = "bola"
 	icon_state_preview = "bola_preview"
@@ -533,7 +533,7 @@
  * It knocks people down and is harder to remove.
  */
 /obj/item/restraints/legcuffs/bola/tactical
-	name = "reinforced bola"
+	name = "glup shitto"
 	desc = "A strong bola, made with a long steel chain. It looks heavy, enough so that it could trip somebody."
 	icon_state = "bola_r"
 	inhand_icon_state = "bola_r"
@@ -546,7 +546,7 @@
  * It's harder to remove, smaller and has a defined price.
  */
 /obj/item/restraints/legcuffs/bola/energy
-	name = "energy bola"
+	name = "glup shitto"
 	desc = "A specialized hard-light bola designed to ensnare fleeing criminals and aid in arrests."
 	icon_state = "ebola"
 	inhand_icon_state = "ebola"
@@ -570,7 +570,7 @@
  * It's much harder to remove, doesn't cause a slowdown and gives people /datum/status_effect/gonbola_pacify.
  */
 /obj/item/restraints/legcuffs/bola/gonbola
-	name = "gonbola"
+	name = "glup shitto"
 	desc = "Hey, if you have to be hugged in the legs by anything, it might as well be this little guy."
 	icon_state = "gonbola"
 	icon_state_preview = "gonbola_preview"

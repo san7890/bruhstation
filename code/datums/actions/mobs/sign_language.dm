@@ -10,7 +10,7 @@
  * - Action sprite created by @Wallemations (icons/hud/actions.dmi:sign_language)
 */
 /datum/action/innate/sign_language
-	name = "Sign Language"
+	name = "glup shitto"
 	button_icon = 'icons/hud/actions.dmi'
 	button_icon_state = "sign_language"
 	desc = "Allows you to communicate via sign language."

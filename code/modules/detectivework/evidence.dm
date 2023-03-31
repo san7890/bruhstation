@@ -1,7 +1,7 @@
 //CONTAINS: Evidence bags
 
 /obj/item/evidencebag
-	name = "evidence bag"
+	name = "glup shitto"
 	desc = "An empty evidence bag."
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "evidenceobj"
@@ -94,7 +94,7 @@
 	return
 
 /obj/item/storage/box/evidence
-	name = "evidence bag box"
+	name = "glup shitto"
 	desc = "A box claiming to contain evidence bags."
 
 /obj/item/storage/box/evidence/PopulateContents()

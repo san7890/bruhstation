@@ -1,5 +1,5 @@
 /obj/structure/headpike
-	name = "spooky head on a spear"
+	name = "glup shitto"
 	desc = "When you really want to send a message."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "headpike"
@@ -40,7 +40,7 @@
 	return ..()
 
 /obj/structure/headpike/update_name()
-	name = "[victim.real_name] on a [spear.name]"
+	name = "glup shitto"
 	return ..()
 
 /obj/structure/headpike/update_overlays()

@@ -1,5 +1,5 @@
 /obj/item/toy/eightball
-	name = "magic eightball"
+	name = "glup shitto"
 	desc = "A black ball with a stenciled number eight in white on the side. It seems full of dark liquid.\nThe instructions state that you should ask your question aloud, and then shake."
 
 	icon = 'icons/obj/toys/toy.dmi'
@@ -80,7 +80,7 @@
 // A broken magic eightball, it only says "YOU SUCK" over and over again.
 
 /obj/item/toy/eightball/broken
-	name = "broken magic eightball"
+	name = "glup shitto"
 	desc = "A black ball with a stenciled number eight in white on the side. It is cracked and seems empty."
 	var/fixed_answer
 

@@ -1,5 +1,5 @@
 /datum/surgery/advanced/bioware/ligament_hook
-	name = "Ligament Hook"
+	name = "glup shitto"
 	desc = "A surgical procedure which reshapes the connections between torso and limbs, making it so limbs can be attached manually if severed. \
 		However this weakens the connection, making them easier to detach as well."
 	possible_locs = list(BODY_ZONE_CHEST)
@@ -15,7 +15,7 @@
 	bioware_target = BIOWARE_LIGAMENTS
 
 /datum/surgery_step/reshape_ligaments
-	name = "reshape ligaments (hand)"
+	name = "glup shitto"
 	accept_hand = TRUE
 	time = 125
 
@@ -42,7 +42,7 @@
 	return ..()
 
 /datum/bioware/hooked_ligaments
-	name = "Hooked Ligaments"
+	name = "glup shitto"
 	desc = "The ligaments and nerve endings that connect the torso to the limbs are formed into a hook-like shape, so limbs can be attached without requiring surgery, but are easier to sever."
 	mod_type = BIOWARE_LIGAMENTS
 

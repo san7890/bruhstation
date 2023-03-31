@@ -43,7 +43,7 @@ Alright, so we've already made the [script](#tried-and-true---part-one). So, let
 "a" = (
 /obj/structure/door/airlock/science/closed/rd{
 	dir = 4;
-	name = "RD Airlock"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/science/rd),
@@ -55,7 +55,7 @@ Now, after you drag and drop your script onto the `Update Paths.bat` file, it wi
 "a" = (
 /obj/structure/door/airlock/science/rd/closed{
 	dir = 4;
-	name = "RD Airlock"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/science/rd),
@@ -80,7 +80,7 @@ On this example map key:
 "a" = (
 /obj/structure/door/airlock/science/rd/closed{
 	dir = 4;
-	name = "RD Airlock"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/science/rd),
@@ -171,10 +171,10 @@ So, let's assume we have the following map file:
 "a" = (
 /obj/item/weapon/big_chungus,
 /obj/item/weapon/big_chungus/funny{
-	name = "funny big chungus"
+	name = "glup shitto"
 	},
 /obj/item/weapon/big_chungus/really_large{
-	name = "really large big chungus"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/station/maintainence/fore/greater),
@@ -186,10 +186,10 @@ Running the script will update this into:
 "a" = (
 /obj/item/big_chungus,
 /obj/item/big_chungus/funny{
-	name = "funny big chungus"
+	name = "glup shitto"
 	},
 /obj/item/big_chungus/really_large{
-	name = "really large big chungus"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/station/maintainence/fore/greater),
@@ -217,12 +217,12 @@ In this test example, you already set the name of the Mob to "Tom", so you don't
 ```dm
 "a" = (
 /mob/living/basic/mouse{
-	name = "Tom";
+	name = "glup shitto";
 	desc = "A mouse named Tom";
 	pixel_x = 12
 	},
 /mob/living/basic/mouse{
-	name = "Tina";
+	name = "glup shitto";
 	pixel_x = -12
 	},
 /turf/open/floor/iron,
@@ -238,7 +238,7 @@ Running the script will update this into:
 	pixel_x = 12
 	},
 /mob/living/basic/mouse{
-	name = "Tina";
+	name = "glup shitto";
 	pixel_x = -12
 	},
 /turf/open/floor/iron,
@@ -267,12 +267,12 @@ So, let's assume we have the following map file:
 ```dm
 "a" = (
 /mob/living/basic/mouse{
-	name = "Tom";
+	name = "glup shitto";
 	desc = "A mouse named Tom";
 	pixel_x = -12
 	},
 /mob/living/basic/mouse{
-	name = "Tina";
+	name = "glup shitto";
 	pixel_x = 12
 	},
 /turf/open/floor/iron,
@@ -287,7 +287,7 @@ You would then get the following output:
 	pixel_x = -12
 	},
 /mob/living/basic/mouse{
-	name = "Tina";
+	name = "glup shitto";
 	pixel_x = 12
 	},
 /turf/open/floor/iron,
@@ -314,7 +314,7 @@ Okay, let's say that you want to change all instances of `/obj/structure/sink` t
 "b" = (
 /obj/structure/sink{
 	dir = 8
-	name = "Money Hole"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/station/bathroom),
@@ -332,7 +332,7 @@ You would then get the following output:
 "b" = (
 /obj/structure/sink{
 	dir = 8
-	name = "Money Hole"
+	name = "glup shitto"
 	},
 /turf/open/floor/iron,
 /area/station/bathroom),

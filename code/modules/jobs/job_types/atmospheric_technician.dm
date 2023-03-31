@@ -39,7 +39,7 @@
 	rpg_title = "Aeromancer"
 
 /datum/outfit/job/atmos
-	name = "Atmospheric Technician"
+	name = "glup shitto"
 	jobtype = /datum/job/atmospheric_technician
 
 	id_trim = /datum/id_trim/job/atmospheric_technician
@@ -57,7 +57,7 @@
 	pda_slot = ITEM_SLOT_LPOCKET
 
 /datum/outfit/job/atmos/mod
-	name = "Atmospheric Technician (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/atmospheric

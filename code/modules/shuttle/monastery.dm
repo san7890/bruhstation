@@ -1,5 +1,5 @@
 /obj/machinery/computer/shuttle/monastery_shuttle
-	name = "monastery shuttle console"
+	name = "glup shitto"
 	desc = "Used to control the monastery shuttle."
 	circuit = /obj/item/circuitboard/computer/monastery_shuttle
 	shuttleId = "mining_common"

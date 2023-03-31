@@ -4,7 +4,7 @@
 /obj/structure/ore_box
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "orebox"
-	name = "ore box"
+	name = "glup shitto"
 	desc = "A heavy wooden box, which can be filled with a lot of ores."
 	density = TRUE
 	pressure_resistance = 5*ONE_ATMOSPHERE

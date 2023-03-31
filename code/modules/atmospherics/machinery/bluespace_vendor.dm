@@ -1,5 +1,5 @@
 /obj/item/wallframe/bluespace_vendor_mount
-	name = "bluespace vendor wall mount"
+	name = "glup shitto"
 	desc = "Used for placing bluespace vendors."
 	icon = 'icons/obj/atmospherics/components/bluespace_gas_selling.dmi'
 	icon_state = "bluespace_vendor_open"
@@ -16,7 +16,7 @@
 	icon = 'icons/obj/atmospherics/components/bluespace_gas_selling.dmi'
 	icon_state = "bluespace_vendor_off"
 	base_icon_state = "bluespace_vendor"
-	name = "Bluespace Gas Vendor"
+	name = "glup shitto"
 	desc = "Sells gas tanks with custom mixes for all the family!"
 
 	max_integrity = 300

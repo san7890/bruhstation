@@ -1,5 +1,5 @@
 /datum/language/aphasia
-	name = "Gibbering"
+	name = "glup shitto"
 	desc = "It is theorized that any sufficiently brain-damaged person can speak this language."
 	flags = LANGUAGE_HIDE_ICON_IF_NOT_UNDERSTOOD
 	key = "i"

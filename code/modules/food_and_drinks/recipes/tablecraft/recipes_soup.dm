@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////SOUP////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/meatballsoup
-	name = "Meatball soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -16,7 +16,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/vegetablesoup
-	name = "Vegetable soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -29,7 +29,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/nettlesoup
-	name = "Nettle soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -41,7 +41,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/wingfangchu
-	name = "Wingfangchu"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/datum/reagent/consumable/soysauce = 5,
@@ -51,7 +51,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/wishsoup
-	name = "Wish soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 20,
 		/obj/item/reagent_containers/cup/bowl = 1
@@ -60,7 +60,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/hotchili
-	name = "Hot chili"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/meat/cutlet = 2,
@@ -71,7 +71,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/coldchili
-	name = "Cold chili"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/meat/cutlet = 2,
@@ -82,7 +82,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/clownchili
-	name = "Chili con carnival"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/meat/cutlet = 2,
@@ -94,7 +94,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/tomatosoup
-	name = "Tomato soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -104,7 +104,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/eyeballsoup
-	name = "Eyeball soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -116,7 +116,7 @@
 
 
 /datum/crafting_recipe/food/misosoup
-	name = "Miso soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -127,7 +127,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/bloodsoup
-	name = "Blood soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/blood = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -137,7 +137,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/slimesoup
-	name = "Slime soup"
+	name = "glup shitto"
 	reqs = list(
 			/datum/reagent/water = 10,
 			/datum/reagent/toxin/slimejelly = 5,
@@ -147,7 +147,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/clownstears
-	name = "Clowns tears"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/lube = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -158,7 +158,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/mysterysoup
-	name = "Mystery soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -171,7 +171,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/mushroomsoup
-	name = "Mushroom soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/datum/reagent/water = 5,
@@ -182,7 +182,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/beetsoup
-	name = "Beet soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -193,7 +193,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/stew
-	name = "Stew"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -208,7 +208,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/spacylibertyduff
-	name = "Spacy liberty duff"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/ethanol/vodka = 5,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -218,7 +218,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/amanitajelly
-	name = "Amanita jelly"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/ethanol/vodka = 5,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -228,7 +228,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/sweetpotatosoup
-	name = "Sweet potato soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/datum/reagent/consumable/sugar = 5,
@@ -239,7 +239,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/redbeetsoup
-	name = "Red beet soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -250,7 +250,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/onionsoup
-	name = "French onion soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -261,7 +261,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/bisque
-	name = "Bisque"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -272,7 +272,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/bungocurry
-	name = "Bungo Curry"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 5,
 		/datum/reagent/consumable/cream = 5,
@@ -284,7 +284,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/electron
-	name = "Electron Soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/datum/reagent/consumable/salt = 5,
@@ -295,7 +295,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/peasoup
-	name = "Pea soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/food/grown/peas = 2,
@@ -307,7 +307,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/indian_curry
-	name = "Indian Chicken Curry"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/meat/slab/chicken = 1,
@@ -322,7 +322,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/oatmeal
-	name = "Oatmeal"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -332,7 +332,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/zurek
-	name = "Zurek"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/datum/reagent/consumable/flour = 5,
@@ -346,7 +346,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/cullen_skink
-	name = "Cullen Skink"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/obj/item/food/fishmeat = 1,
@@ -359,7 +359,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/chicken_noodle_soup
-	name = "Chicken Noodle Soup"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/meat/slab/chicken = 1,
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
@@ -371,7 +371,7 @@
 	category = CAT_SOUP
 
 /datum/crafting_recipe/food/corn_chowder
-	name = "Corn Chowder"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/corn = 1,
 		/obj/item/food/grown/potato = 1,

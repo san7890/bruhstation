@@ -1,6 +1,6 @@
 // The rune carver, a heretic knife that can draw rune traps.
 /obj/item/melee/rune_carver
-	name = "carving knife"
+	name = "glup shitto"
 	desc = "A small knife made of cold steel, pure and perfect. Its sharpness can carve into titanium itself - \
 		but only few can evoke the dangers that lurk beneath reality."
 	icon = 'icons/obj/eldritch.dmi'
@@ -124,7 +124,7 @@
 	current_runes += WEAKREF(new_rune)
 
 /datum/action/item_action/rune_shatter
-	name = "Rune Break"
+	name = "glup shitto"
 	desc = "Destroys all runes carved by this blade."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -166,7 +166,7 @@
 
 // The actual rune traps the knife draws.
 /obj/structure/trap/eldritch
-	name = "elder carving"
+	name = "glup shitto"
 	desc = "Collection of unknown symbols, they remind you of days long gone..."
 	icon = 'icons/obj/hand_of_god_structures.dmi'
 	/// A tip displayed to heretics who examine the rune carver. Explains what the rune does.
@@ -198,7 +198,7 @@
 	return ..()
 
 /obj/structure/trap/eldritch/alert
-	name = "alert carving"
+	name = "glup shitto"
 	icon_state = "alert_rune"
 	alpha = 10
 	time_between_triggers = 5 SECONDS
@@ -212,7 +212,7 @@
 		real_owner.playsound_local(get_turf(real_owner), 'sound/magic/curse.ogg', 50, TRUE)
 
 /obj/structure/trap/eldritch/tentacle
-	name = "grasping carving"
+	name = "glup shitto"
 	icon_state = "tentacle_rune"
 	time_between_triggers = 45 SECONDS
 	charges = 1
@@ -228,7 +228,7 @@
 	playsound(src, 'sound/magic/demon_attack1.ogg', 75, TRUE)
 
 /obj/structure/trap/eldritch/mad
-	name = "mad carving"
+	name = "glup shitto"
 	icon_state = "madness_rune"
 	time_between_triggers = 20 SECONDS
 	charges = 2

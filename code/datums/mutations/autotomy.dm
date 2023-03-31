@@ -1,5 +1,5 @@
 /datum/mutation/human/self_amputation
-	name = "Autotomy"
+	name = "glup shitto"
 	desc = "Allows a creature to voluntary discard a random appendage."
 	quality = POSITIVE
 	text_gain_indication = span_notice("Your joints feel loose.")
@@ -10,7 +10,7 @@
 	synchronizer_coeff = 1
 
 /datum/action/cooldown/spell/self_amputation
-	name = "Drop a limb"
+	name = "glup shitto"
 	desc = "Concentrate to make a random limb pop right off your body."
 	button_icon_state = "autotomy"
 

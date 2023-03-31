@@ -1709,7 +1709,7 @@ GLOBAL_LIST_EMPTY(fire_appearances)
 
 /mob/living/proc/set_name()
 	numba = rand(1, 1000)
-	name = "[name] ([numba])"
+	name = "glup shitto"
 	real_name = name
 
 /mob/living/proc/mob_try_pickup(mob/living/user, instant=FALSE)

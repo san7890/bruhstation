@@ -3,7 +3,7 @@
 
 
 /obj/effect/baseturf_helper //Set the baseturfs of every turf in the /area/ it is placed.
-	name = "baseturf editor"
+	name = "glup shitto"
 	icon = 'icons/effects/mapping_helpers.dmi'
 	icon_state = ""
 
@@ -38,43 +38,43 @@
 	thing.PlaceOnBottom(fake_turf_type = baseturf)
 
 /obj/effect/baseturf_helper/space
-	name = "space baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/space
 
 /obj/effect/baseturf_helper/asteroid
-	name = "asteroid baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/misc/asteroid
 
 /obj/effect/baseturf_helper/asteroid/airless
-	name = "asteroid airless baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/misc/asteroid/airless
 
 /obj/effect/baseturf_helper/asteroid/basalt
-	name = "asteroid basalt baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/misc/asteroid/basalt
 
 /obj/effect/baseturf_helper/asteroid/snow
-	name = "asteroid snow baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/misc/asteroid/snow
 
 /obj/effect/baseturf_helper/beach/sand
-	name = "beach sand baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/misc/beach/sand
 
 /obj/effect/baseturf_helper/beach/water
-	name = "water baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/water/beach
 
 /obj/effect/baseturf_helper/lava
-	name = "lava baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/lava/smooth
 
 /obj/effect/baseturf_helper/lava_land/surface
-	name = "lavaland baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/lava/smooth/lava_land_surface
 
 /obj/effect/baseturf_helper/reinforced_plating
-	name = "reinforced plating baseturf editor"
+	name = "glup shitto"
 	baseturf = /turf/open/floor/plating/reinforced
 	baseturf_to_replace = list(/turf/open/floor/plating)
 
@@ -85,7 +85,7 @@
 
 //This applies the reinforced plating to the above Z level for every tile in the area where this is placed
 /obj/effect/baseturf_helper/reinforced_plating/ceiling
-	name = "reinforced ceiling plating baseturf editor"
+	name = "glup shitto"
 
 /obj/effect/baseturf_helper/reinforced_plating/ceiling/replace_baseturf(turf/thing)
 	var/turf/ceiling = get_step_multiz(thing, UP)
@@ -166,7 +166,7 @@
 	return
 
 /obj/effect/mapping_helpers/airlock/cyclelink_helper
-	name = "airlock cyclelink helper"
+	name = "glup shitto"
 	icon_state = "airlock_cyclelink_helper"
 
 /obj/effect/mapping_helpers/airlock/cyclelink_helper/payload(obj/machinery/door/airlock/airlock)
@@ -176,7 +176,7 @@
 		airlock.cyclelinkeddir = dir
 
 /obj/effect/mapping_helpers/airlock/cyclelink_helper_multi
-	name = "airlock multi-cyclelink helper"
+	name = "glup shitto"
 	icon_state = "airlock_multicyclelink_helper"
 	var/cycle_id
 
@@ -189,7 +189,7 @@
 		airlock.closeOtherId = cycle_id
 
 /obj/effect/mapping_helpers/airlock/locked
-	name = "airlock lock helper"
+	name = "glup shitto"
 	icon_state = "airlock_locked_helper"
 
 /obj/effect/mapping_helpers/airlock/locked/payload(obj/machinery/door/airlock/airlock)
@@ -199,7 +199,7 @@
 		airlock.locked = TRUE
 
 /obj/effect/mapping_helpers/airlock/unres
-	name = "airlock unrestricted side helper"
+	name = "glup shitto"
 	icon_state = "airlock_unres_helper"
 
 /obj/effect/mapping_helpers/airlock/unres/payload(obj/machinery/door/airlock/airlock)
@@ -207,7 +207,7 @@
 	airlock.unres_sensor = TRUE
 
 /obj/effect/mapping_helpers/airlock/abandoned
-	name = "airlock abandoned helper"
+	name = "glup shitto"
 	icon_state = "airlock_abandoned"
 
 /obj/effect/mapping_helpers/airlock/abandoned/payload(obj/machinery/door/airlock/airlock)
@@ -217,7 +217,7 @@
 		airlock.abandoned = TRUE
 
 /obj/effect/mapping_helpers/airlock/welded
-	name = "airlock welded helper"
+	name = "glup shitto"
 	icon_state = "airlock_welded"
 
 /obj/effect/mapping_helpers/airlock/welded/payload(obj/machinery/door/airlock/airlock)
@@ -226,7 +226,7 @@
 	airlock.welded = TRUE
 
 /obj/effect/mapping_helpers/airlock/cutaiwire
-	name = "airlock cut ai wire helper"
+	name = "glup shitto"
 	icon_state = "airlock_cutaiwire"
 
 /obj/effect/mapping_helpers/airlock/cutaiwire/payload(obj/machinery/door/airlock/airlock)
@@ -236,7 +236,7 @@
 		airlock.cutAiWire = TRUE
 
 /obj/effect/mapping_helpers/airlock/autoname
-	name = "airlock autoname helper"
+	name = "glup shitto"
 	icon_state = "airlock_autoname"
 
 /obj/effect/mapping_helpers/airlock/autoname/payload(obj/machinery/door/airlock/airlock)
@@ -258,7 +258,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///Helpers used for injecting stuff into atoms on the map.
 /obj/effect/mapping_helpers/atom_injector
-	name = "Atom Injector"
+	name = "glup shitto"
 	icon_state = "injector"
 	late = TRUE
 	///Will inject into all fitting the criteria if false, otherwise first found.
@@ -303,7 +303,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	. = "[name] found no targets at ([x], [y], [z]). First Match Only: [first_match_only ? "true" : "false"] target type: [target_type] | target name: [target_name]"
 
 /obj/effect/mapping_helpers/atom_injector/obj_flag
-	name = "Obj Flag Injector"
+	name = "glup shitto"
 	icon_state = "objflag_helper"
 	var/inject_flags = NONE
 
@@ -315,7 +315,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///This helper applies components to things on the map directly.
 /obj/effect/mapping_helpers/atom_injector/component_injector
-	name = "Component Injector"
+	name = "glup shitto"
 	icon_state = "component"
 	///Typepath of the component.
 	var/component_type
@@ -338,7 +338,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///This helper applies elements to things on the map directly.
 /obj/effect/mapping_helpers/atom_injector/element_injector
-	name = "Element Injector"
+	name = "glup shitto"
 	icon_state = "element"
 	///Typepath of the element.
 	var/element_type
@@ -361,7 +361,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///This helper applies traits to things on the map directly.
 /obj/effect/mapping_helpers/atom_injector/trait_injector
-	name = "Trait Injector"
+	name = "glup shitto"
 	icon_state = "trait"
 	///Name of the trait, in the lower-case text (NOT the upper-case define) form.
 	var/trait_name
@@ -384,7 +384,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///This helper applies dynamic human icons to things on the map
 /obj/effect/mapping_helpers/atom_injector/human_icon_injector
-	name = "Human Icon Injector"
+	name = "glup shitto"
 	icon_state = "icon"
 	/// Path of the outfit we give the human.
 	var/outfit_path
@@ -423,7 +423,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///Fetches an external dmi and applies to the target object
 /obj/effect/mapping_helpers/atom_injector/custom_icon
-	name = "Custom Icon Injector"
+	name = "glup shitto"
 	icon_state = "icon"
 	///This is the var that will be set with the fetched icon. In case you want to set some secondary icon sheets like inhands and such.
 	var/target_variable = "icon"
@@ -468,7 +468,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 ///Fetches an external sound and applies to the target object
 /obj/effect/mapping_helpers/atom_injector/custom_sound
-	name = "Custom Sound Injector"
+	name = "glup shitto"
 	icon_state = "sound"
 	///This is the var that will be set with the fetched sound.
 	var/target_variable = "hitsound"
@@ -512,7 +512,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	. += " | target variable: [target_variable] | sound url: [sound_url]"
 
 /obj/effect/mapping_helpers/dead_body_placer
-	name = "Dead Body placer"
+	name = "glup shitto"
 	late = TRUE
 	icon_state = "deadbodyplacer"
 	var/admin_spawned
@@ -600,7 +600,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 //On Ian's birthday, the hop's office is decorated.
 /obj/effect/mapping_helpers/ianbirthday
-	name = "Ian's Bday Helper"
+	name = "glup shitto"
 	late = TRUE
 	icon_state = "iansbdayhelper"
 	var/balloon_clusters = 2
@@ -660,7 +660,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	//remind me to add wall decor!
 
 /obj/effect/mapping_helpers/ianbirthday/admin//so admins may birthday any room
-	name = "generic birthday setup"
+	name = "glup shitto"
 	icon_state = "bdayhelper"
 
 /obj/effect/mapping_helpers/ianbirthday/admin/LateInitialize()
@@ -669,7 +669,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 //Ian, like most dogs, loves a good new years eve party.
 /obj/effect/mapping_helpers/iannewyear
-	name = "Ian's New Years Helper"
+	name = "glup shitto"
 	late = TRUE
 	icon_state = "iansnewyrshelper"
 
@@ -704,7 +704,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 
 //lets mappers place notes on airlocks with custom info or a pre-made note from a path
 /obj/effect/mapping_helpers/airlock_note_placer
-	name = "Airlock Note Placer"
+	name = "glup shitto"
 	late = TRUE
 	icon_state = "airlocknoteplacer"
 	var/note_info //for writing out custom notes without creating an extra paper subtype
@@ -751,7 +751,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
  * note: this is not a turf subtype because the trapdoor needs the type of the turf to turn back into
  */
 /obj/effect/mapping_helpers/trapdoor_placer
-	name = "trapdoor placer"
+	name = "glup shitto"
 	late = TRUE
 	icon_state = "trapdoor"
 
@@ -761,7 +761,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	qdel(src)
 
 /obj/effect/mapping_helpers/ztrait_injector
-	name = "ztrait injector"
+	name = "glup shitto"
 	icon_state = "ztrait"
 	late = TRUE
 	/// List of traits to add to this Z-level.
@@ -775,7 +775,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	SSweather.update_z_level(level) //in case of someone adding a weather for the level, we want SSweather to update for that
 
 /obj/effect/mapping_helpers/circuit_spawner
-	name = "circuit spawner"
+	name = "glup shitto"
 	icon_state = "circuit"
 	/// The shell for the circuit.
 	var/atom/movable/circuit_shell
@@ -830,7 +830,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	return json_data
 
 /obj/effect/mapping_helpers/broken_floor
-	name = "broken floor"
+	name = "glup shitto"
 	icon = 'icons/turf/damaged.dmi'
 	icon_state = "damaged1"
 	late = TRUE
@@ -846,7 +846,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/mapping_helpers/no_lava)
 	qdel(src)
 
 /obj/effect/mapping_helpers/burnt_floor
-	name = "burnt floor"
+	name = "glup shitto"
 	icon = 'icons/turf/damaged.dmi'
 	icon_state = "floorscorched1"
 	late = TRUE

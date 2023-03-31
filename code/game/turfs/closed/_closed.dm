@@ -17,7 +17,7 @@
 	return FALSE
 
 /turf/closed/indestructible
-	name = "wall"
+	name = "glup shitto"
 	desc = "Effectively impervious to conventional methods of destruction."
 	icon = 'icons/turf/walls.dmi'
 	explosive_resistance = 50
@@ -39,12 +39,12 @@
 	return
 
 /turf/closed/indestructible/oldshuttle
-	name = "strange shuttle wall"
+	name = "glup shitto"
 	icon = 'icons/turf/shuttleold.dmi'
 	icon_state = "block"
 
 /turf/closed/indestructible/weeb
-	name = "paper wall"
+	name = "glup shitto"
 	desc = "Reinforced paper walling. Someone really doesn't want you to leave."
 	icon = 'icons/obj/smooth_structures/paperframes.dmi'
 	icon_state = "paperframes-0"
@@ -63,7 +63,7 @@
 	. += indestructible_paper
 
 /turf/closed/indestructible/sandstone
-	name = "sandstone wall"
+	name = "glup shitto"
 	desc = "A wall with sandstone plating. Rough."
 	icon = 'icons/turf/walls/sandstone_wall.dmi'
 	icon_state = "sandstone_wall-0"
@@ -75,7 +75,7 @@
 	icon_state = "corner"
 
 /turf/closed/indestructible/splashscreen
-	name = "Space Station 13"
+	name = "glup shitto"
 	desc = null
 	icon = 'icons/blanks/blank_title.png'
 	icon_state = ""
@@ -119,7 +119,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
 /turf/closed/indestructible/reinforced
-	name = "reinforced wall"
+	name = "glup shitto"
 	desc = "A huge chunk of reinforced metal used to separate rooms. Effectively impervious to conventional methods of destruction."
 	icon = 'icons/turf/walls/reinforced_wall.dmi'
 	icon_state = "reinforced_wall-0"
@@ -152,7 +152,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	smoothing_flags = SMOOTH_BITMASK
 
 /turf/closed/indestructible/riveted/plastinum
-	name = "plastinum wall"
+	name = "glup shitto"
 	desc = "A luxurious wall made out of a plasma-platinum alloy. Effectively impervious to conventional methods of destruction."
 	icon = 'icons/turf/walls/plastinum_wall.dmi'
 	icon_state = "plastinum_wall-0"
@@ -175,7 +175,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 
 
 /turf/closed/indestructible/alien
-	name = "alien wall"
+	name = "glup shitto"
 	desc = "A wall with alien alloy plating."
 	icon = 'icons/turf/walls/abductor_wall.dmi'
 	icon_state = "abductor_wall-0"
@@ -186,7 +186,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 
 
 /turf/closed/indestructible/cult
-	name = "runed metal wall"
+	name = "glup shitto"
 	desc = "A cold metal wall engraved with indecipherable symbols. Studying them causes your head to pound. Effectively impervious to conventional methods of destruction."
 	icon = 'icons/turf/walls/cult_wall.dmi'
 	icon_state = "cult_wall-0"
@@ -204,7 +204,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 
 
 /turf/closed/indestructible/fakeglass
-	name = "window"
+	name = "glup shitto"
 	icon = 'icons/obj/smooth_structures/reinforced_window.dmi'
 	icon_state = "fake_window"
 	base_icon_state = "reinforced_window"
@@ -219,7 +219,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	underlays += mutable_appearance('icons/turf/floors.dmi', "plating", layer - 0.02) //add the plating underlay, below the grille
 
 /turf/closed/indestructible/opsglass
-	name = "window"
+	name = "glup shitto"
 	icon = 'icons/obj/smooth_structures/plastitanium_window.dmi'
 	icon_state = "plastitanium_window-0"
 	base_icon_state = "plastitanium_window"
@@ -235,7 +235,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	underlays += mutable_appearance('icons/turf/floors.dmi', "plating", layer - 0.02)
 
 /turf/closed/indestructible/fakedoor
-	name = "airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/centcom/centcom.dmi'
 	icon_state = "fake_door"
 
@@ -250,13 +250,13 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	icon = 'icons/obj/doors/airlocks/station/engineering.dmi'
 
 /turf/closed/indestructible/rock
-	name = "dense rock"
+	name = "glup shitto"
 	desc = "An extremely densely-packed rock, most mining tools or explosives would never get through this."
 	icon = 'icons/turf/mining.dmi'
 	icon_state = "rock"
 
 /turf/closed/indestructible/rock/snow
-	name = "mountainside"
+	name = "glup shitto"
 	desc = "An extremely densely-packed rock, sheeted over with centuries worth of ice and snow."
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "snowrock"
@@ -264,7 +264,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	bullet_bounce_sound = null
 
 /turf/closed/indestructible/rock/snow/ice
-	name = "iced rock"
+	name = "glup shitto"
 	desc = "Extremely densely-packed sheets of ice and rock, forged over the years of the harsh cold."
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "icerock"
@@ -279,13 +279,13 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	pixel_y = -4
 
 /turf/closed/indestructible/paper
-	name = "thick paper wall"
+	name = "glup shitto"
 	desc = "A wall layered with impenetrable sheets of paper."
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "paperwall"
 
 /turf/closed/indestructible/necropolis
-	name = "necropolis wall"
+	name = "glup shitto"
 	desc = "A seemingly impenetrable wall."
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "necro"
@@ -298,7 +298,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	return TRUE
 
 /turf/closed/indestructible/iron
-	name = "impervious iron wall"
+	name = "glup shitto"
 	desc = "A wall with tough iron plating."
 	icon = 'icons/turf/walls/iron_wall.dmi'
 	icon_state = "iron_wall-0"
@@ -309,7 +309,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	opacity = FALSE
 
 /turf/closed/indestructible/riveted/boss
-	name = "necropolis wall"
+	name = "glup shitto"
 	desc = "A thick, seemingly indestructible stone wall."
 	icon = 'icons/turf/walls/boss_wall.dmi'
 	icon_state = "boss_wall-0"
@@ -329,7 +329,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	return TRUE
 
 /turf/closed/indestructible/riveted/hierophant
-	name = "wall"
+	name = "glup shitto"
 	desc = "A wall made out of a strange metal. The squares on it pulse in a predictable pattern."
 	icon = 'icons/turf/walls/hierophant_wall.dmi'
 	icon_state = "wall"
@@ -338,7 +338,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	canSmoothWith = SMOOTH_GROUP_HIERO_WALL
 
 /turf/closed/indestructible/resin
-	name = "resin wall"
+	name = "glup shitto"
 	icon = 'icons/obj/smooth_structures/alien/resin_wall.dmi'
 	icon_state = "resin_wall-0"
 	base_icon_state = "resin_wall"
@@ -347,7 +347,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	canSmoothWith = SMOOTH_GROUP_ALIEN_WALLS
 
 /turf/closed/indestructible/resin/membrane
-	name = "resin membrane"
+	name = "glup shitto"
 	icon = 'icons/obj/smooth_structures/alien/resin_membrane.dmi'
 	icon_state = "resin_membrane-0"
 	base_icon_state = "resin_membrane"
@@ -360,7 +360,7 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	underlays += mutable_appearance('icons/turf/floors.dmi', "engine") // add the reinforced floor underneath
 
 /turf/closed/indestructible/grille
-	name = "grille"
+	name = "glup shitto"
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "grille"
 	base_icon_state = "grille"

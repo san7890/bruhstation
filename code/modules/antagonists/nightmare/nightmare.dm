@@ -1,5 +1,5 @@
 /datum/antagonist/nightmare
-	name = "\improper Nightmare"
+	name = "glup shitto"
 	antagpanel_category = ANTAG_GROUP_ABOMINATIONS
 	job_rank = ROLE_NIGHTMARE
 	show_in_antagpanel = FALSE
@@ -18,7 +18,7 @@
 	. = ..()
 
 /datum/outfit/nightmare
-	name = "Nightmare (Preview only)"
+	name = "glup shitto"
 
 /datum/outfit/nightmare/post_equip(mob/living/carbon/human/human, visualsOnly)
 	human.set_species(/datum/species/shadow/nightmare)

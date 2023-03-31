@@ -1,5 +1,5 @@
 /datum/traitor_objective/ultimate/supermatter_cascade
-	name = "Destroy the station by causing a crystallizing resonance cascade"
+	name = "glup shitto"
 	description = "Destroy the station by causing a supermatter cascade. Go to %AREA% to retrieve the destabilizing crystal \
 		and use it on the supermatter."
 

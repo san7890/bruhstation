@@ -1,6 +1,6 @@
 // Representative icons for each research design
 /datum/asset/spritesheet/research_designs
-	name = "design"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/research_designs/create_spritesheets()
 	for (var/datum/design/path as anything in subtypesof(/datum/design))

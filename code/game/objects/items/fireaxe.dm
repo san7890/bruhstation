@@ -7,7 +7,7 @@
 	base_icon_state = "fireaxe"
 	lefthand_file = 'icons/mob/inhands/weapons/axes_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/axes_righthand.dmi'
-	name = "fire axe"
+	name = "glup shitto"
 	desc = "Truly, the weapon of a madman. Who would think to fight fire with an axe?"
 	force = 5
 	throwforce = 15
@@ -67,7 +67,7 @@
 /obj/item/fireaxe/boneaxe  // Blatant imitation of the fireaxe, but made out of bone.
 	icon_state = "bone_axe0"
 	base_icon_state = "bone_axe"
-	name = "bone axe"
+	name = "glup shitto"
 	desc = "A large, vicious axe crafted out of several sharpened bone plates and crudely tied together. Made of monsters, by killing monsters, for killing monsters."
 	force_unwielded = 5
 	force_wielded = 23
@@ -78,7 +78,7 @@
 /obj/item/fireaxe/metal_h2_axe
 	icon_state = "metalh2_axe0"
 	base_icon_state = "metalh2_axe"
-	name = "metallic hydrogen axe"
+	name = "glup shitto"
 	desc = "A lightweight crowbar with an extreme sharp fire axe head attached. It trades it's hefty as a weapon by making it easier to carry around when holstered to suits without having to sacrifice your backpack."
 	force_unwielded = 5
 	force_wielded = 15

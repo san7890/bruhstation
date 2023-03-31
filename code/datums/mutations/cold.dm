@@ -1,5 +1,5 @@
 /datum/mutation/human/geladikinesis
-	name = "Geladikinesis"
+	name = "glup shitto"
 	desc = "Allows the user to concentrate moisture and sub-zero forces into snow."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>Your hand feels cold.</span>"
@@ -9,7 +9,7 @@
 	power_path = /datum/action/cooldown/spell/conjure_item/snow
 
 /datum/action/cooldown/spell/conjure_item/snow
-	name = "Create Snow"
+	name = "glup shitto"
 	desc = "Concentrates cryokinetic forces to create snow, useful for snow-like construction."
 	button_icon_state = "snow"
 
@@ -20,7 +20,7 @@
 	delete_old = FALSE
 
 /datum/mutation/human/cryokinesis
-	name = "Cryokinesis"
+	name = "glup shitto"
 	desc = "Draws negative energy from the sub-zero void to freeze surrounding temperatures at subject's will."
 	quality = POSITIVE //upsides and downsides
 	text_gain_indication = "<span class='notice'>Your hand feels cold.</span>"
@@ -31,7 +31,7 @@
 	power_path = /datum/action/cooldown/spell/pointed/projectile/cryo
 
 /datum/action/cooldown/spell/pointed/projectile/cryo
-	name = "Cryobeam"
+	name = "glup shitto"
 	desc = "This power fires a frozen bolt at a target."
 	button_icon_state = "icebeam"
 	base_icon_state = "icebeam"

@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/embedpocalypse
-	name = "Make Everything Embeddable"
+	name = "glup shitto"
 	weight = 2
 	typepath = /datum/round_event/wizard/embedpocalypse
 	max_occurrences = 1
@@ -22,7 +22,7 @@
 	GLOB.global_funny_embedding = new /datum/global_funny_embedding/pointy
 
 /datum/round_event_control/wizard/embedpocalypse/sticky
-	name = "Make Everything Sticky"
+	name = "glup shitto"
 	weight = 6
 	typepath = /datum/round_event/wizard/embedpocalypse/sticky
 	max_occurrences = 1

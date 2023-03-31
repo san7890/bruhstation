@@ -1,5 +1,5 @@
 /datum/action/innate/pai
-	name = "PAI Action"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	var/mob/living/silicon/pai/pai_owner
 
@@ -9,7 +9,7 @@
 	pai_owner = owner
 
 /datum/action/innate/pai/software
-	name = "Software Interface"
+	name = "glup shitto"
 	button_icon_state = "pai"
 	background_icon_state = "bg_tech"
 	overlay_icon_state = "bg_tech_border"
@@ -19,7 +19,7 @@
 	pai_owner.ui_act()
 
 /datum/action/innate/pai/shell
-	name = "Toggle Holoform"
+	name = "glup shitto"
 	button_icon_state = "pai_holoform"
 	background_icon_state = "bg_tech"
 	overlay_icon_state = "bg_tech_border"
@@ -32,7 +32,7 @@
 		pai_owner.fold_out()
 
 /datum/action/innate/pai/chassis
-	name = "Holochassis Appearance Composite"
+	name = "glup shitto"
 	button_icon_state = "pai_chassis"
 	background_icon_state = "bg_tech"
 	overlay_icon_state = "bg_tech_border"
@@ -42,7 +42,7 @@
 	pai_owner.choose_chassis()
 
 /datum/action/innate/pai/rest
-	name = "Rest"
+	name = "glup shitto"
 	button_icon_state = "pai_rest"
 	background_icon_state = "bg_tech"
 	overlay_icon_state = "bg_tech_border"
@@ -52,7 +52,7 @@
 	pai_owner.toggle_resting()
 
 /datum/action/innate/pai/light
-	name = "Toggle Integrated Lights"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
 	button_icon_state = "emp"
 	background_icon_state = "bg_tech"

@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown/projectile_attack
-	name = "Projectile Attack"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Fires a set of projectiles at a selected target."
@@ -53,7 +53,7 @@
 	return our_projectile
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/rapid_fire
-	name = "Rapid Fire"
+	name = "glup shitto"
 	button_icon = 'icons/obj/weapons/guns/energy.dmi'
 	button_icon_state = "kineticgun"
 	desc = "Fires projectiles repeatedly at a given target."
@@ -75,7 +75,7 @@
 	default_projectile_spread = 5
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/rapid_fire/shrapnel
-	name = "Shrapnel Fire"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Fires projectiles that will split into shrapnel after a period of time."
@@ -105,12 +105,12 @@
 	qdel(to_explode)
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/rapid_fire/shrapnel/strong
-	name = "Strong Shrapnel Fire"
+	name = "glup shitto"
 	shot_count = 16
 	shot_delay = 0.5 SECONDS
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/spiral_shots
-	name = "Spiral Shots"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Fires projectiles in a spiral pattern."
@@ -151,7 +151,7 @@
 	return ..()
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/random_aoe
-	name = "All Directions"
+	name = "glup shitto"
 	button_icon = 'icons/effects/effects.dmi'
 	button_icon_state = "at_shield2"
 	desc = "Fires projectiles in all directions."
@@ -173,7 +173,7 @@
 	return ..()
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/shotgun_blast
-	name = "Shotgun Fire"
+	name = "glup shitto"
 	button_icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	button_icon_state = "shotgun"
 	desc = "Fires projectiles in a shotgun pattern."
@@ -199,7 +199,7 @@
 	return ..()
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/shotgun_blast/pattern
-	name = "Alternating Shotgun Fire"
+	name = "glup shitto"
 	desc = "Fires projectiles in an alternating shotgun pattern."
 	projectile_type = /obj/projectile/colossus/ice_blast
 	projectile_sound = null
@@ -214,14 +214,14 @@
 
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/shotgun_blast/pattern/circular
-	name = "Circular Shotgun Fire"
+	name = "glup shitto"
 	shot_angles = list(list(0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330), list(-30, -15, 0, 15, 30))
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/shotgun_blast/pattern/circular/complete
 	shot_angles = list(list(-180, -140, -100, -60, -20, 20, 60, 100, 140), list(-160, -120, -80, -40, 0, 40, 80, 120, 160))
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/dir_shots
-	name = "Directional Shots"
+	name = "glup shitto"
 	button_icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	button_icon_state = "pistol"
 	desc = "Fires projectiles in specific directions."
@@ -246,7 +246,7 @@
 		shoot_projectile(firer, target, dir2angle(dir), firer)
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/dir_shots/alternating
-	name = "Alternating Shots"
+	name = "glup shitto"
 	desc = "Fires projectiles in alternating directions."
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/dir_shots/alternating/attack_sequence(mob/living/firer, atom/target)
@@ -266,7 +266,7 @@
 	return ..()
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/kinetic_accelerator
-	name = "Fire Kinetic Accelerator"
+	name = "glup shitto"
 	button_icon = 'icons/obj/weapons/guns/energy.dmi'
 	button_icon_state = "kineticgun"
 	desc = "Fires a kinetic accelerator projectile at the target."
@@ -282,7 +282,7 @@
 	new /obj/effect/temp_visual/dir_setting/firing_effect(owner.loc, owner.dir)
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/colossus_final
-	name = "Titan's Finale"
+	name = "glup shitto"
 	desc = "A single-use ability that shoots a large amount of projectiles around you."
 	cooldown_time = 2.5 SECONDS
 

@@ -1,7 +1,7 @@
 //improvised explosives//
 
 /obj/item/grenade/iedcasing
-	name = "improvised firebomb"
+	name = "glup shitto"
 	desc = "A weak, improvised incendiary device."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/weapons/grenade.dmi'

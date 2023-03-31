@@ -1,6 +1,6 @@
 // Apple
 /obj/item/seeds/apple
-	name = "pack of apple seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into apple trees."
 	icon_state = "seed-apple"
 	species = "apple"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/apple
 	seed = /obj/item/seeds/apple
-	name = "apple"
+	name = "glup shitto"
 	desc = "It's a little piece of Eden."
 	icon_state = "apple"
 	foodtypes = FRUIT
@@ -28,7 +28,7 @@
 
 // Gold Apple
 /obj/item/seeds/apple/gold
-	name = "pack of golden apple seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into golden apple trees. Good thing there are no firebirds in space."
 	icon_state = "seed-goldapple"
 	species = "goldapple"
@@ -43,7 +43,7 @@
 
 /obj/item/food/grown/apple/gold
 	seed = /obj/item/seeds/apple/gold
-	name = "golden apple"
+	name = "glup shitto"
 	desc = "Emblazoned upon the apple is the word 'Kallisti'."
 	icon_state = "goldapple"
 	distill_reagent = null

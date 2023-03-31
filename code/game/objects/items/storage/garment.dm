@@ -1,5 +1,5 @@
 /obj/item/storage/bag/garment
-	name = "garment bag"
+	name = "glup shitto"
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "garment_bag"
 	desc = "A bag for storing extra clothes and shoes."
@@ -7,31 +7,31 @@
 	resistance_flags = FLAMMABLE
 
 /obj/item/storage/bag/garment/captain
-	name = "captain's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the captain."
 
 /obj/item/storage/bag/garment/hos
-	name = "head of security's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the head of security."
 
 /obj/item/storage/bag/garment/hop
-	name = "head of personnel's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the head of personnel."
 
 /obj/item/storage/bag/garment/research_director
-	name = "research director's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the research director."
 
 /obj/item/storage/bag/garment/chief_medical
-	name = "chief medical officer's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the chief medical officer."
 
 /obj/item/storage/bag/garment/engineering_chief
-	name = "chief engineer's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the chief engineer."
 
 /obj/item/storage/bag/garment/quartermaster
-	name = "quartermasters's garment bag"
+	name = "glup shitto"
 	desc = "A bag for storing extra clothes and shoes. This one belongs to the quartermaster."
 
 /obj/item/storage/bag/garment/Initialize(mapload)

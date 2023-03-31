@@ -128,7 +128,7 @@
 
 /// Energy axe - extremely strong.
 /obj/item/melee/energy/axe
-	name = "energy axe"
+	name = "glup shitto"
 	desc = "An energized battle axe."
 	icon_state = "axe"
 	inhand_icon_state = "axe"
@@ -166,7 +166,7 @@
 
 /// Energy swords.
 /obj/item/melee/energy/sword
-	name = "energy sword"
+	name = "glup shitto"
 	desc = "May the force be within you."
 	icon_state = "e_sword"
 	inhand_icon_state = "e_sword"
@@ -187,7 +187,7 @@
 	return FALSE
 
 /obj/item/melee/energy/sword/cyborg
-	name = "cyborg energy sword"
+	name = "glup shitto"
 	sword_color_icon = "red"
 	/// The cell cost of hitting something.
 	var/hitcost = 50
@@ -209,7 +209,7 @@
 	attack_self(user)
 
 /obj/item/melee/energy/sword/cyborg/saw //Used by medical Syndicate cyborgs
-	name = "energy saw"
+	name = "glup shitto"
 	desc = "For heavy duty cutting. It has a carbon-fiber blade in addition to a toggleable hard-light edge to dramatically increase sharpness."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "esaw"
@@ -289,7 +289,7 @@
 		user.update_held_items()
 
 /obj/item/melee/energy/sword/pirate
-	name = "energy cutlass"
+	name = "glup shitto"
 	desc = "Arrrr matey."
 	icon_state = "e_cutlass"
 	inhand_icon_state = "e_cutlass"
@@ -299,7 +299,7 @@
 
 /// Energy blades, which are effectively perma-extended energy swords
 /obj/item/melee/energy/blade
-	name = "energy blade"
+	name = "glup shitto"
 	desc = "A concentrated beam of energy in the shape of a blade. Very stylish... and lethal."
 	icon_state = "blade"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
@@ -334,7 +334,7 @@
 	return FALSE
 
 /obj/item/melee/energy/blade/hardlight
-	name = "hardlight blade"
+	name = "glup shitto"
 	desc = "An extremely sharp blade made out of hard light. Packs quite a punch."
 	icon_state = "lightblade"
 	inhand_icon_state = "lightblade"

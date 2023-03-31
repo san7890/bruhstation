@@ -1,6 +1,6 @@
 // Banana
 /obj/item/seeds/banana
-	name = "pack of banana seeds"
+	name = "glup shitto"
 	desc = "They're seeds that grow into banana trees. When grown, keep away from clown."
 	icon_state = "seed-banana"
 	species = "banana"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/banana
 	seed = /obj/item/seeds/banana
-	name = "banana"
+	name = "glup shitto"
 	desc = "It's an excellent prop for a clown."
 	icon_state = "banana"
 	inhand_icon_state = "banana_peel"
@@ -67,7 +67,7 @@
 //Banana Peel
 /obj/item/grown/bananapeel
 	seed = /obj/item/seeds/banana
-	name = "banana peel"
+	name = "glup shitto"
 	desc = "A peel from a banana."
 	lefthand_file = 'icons/mob/inhands/items/food_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/food_righthand.dmi'
@@ -93,7 +93,7 @@
 
 // Mimana - invisible sprites are totally a feature!
 /obj/item/seeds/banana/mime
-	name = "pack of mimana seeds"
+	name = "glup shitto"
 	desc = "They're seeds that grow into mimana trees. When grown, keep away from mime."
 	icon_state = "seed-mimana"
 	species = "mimana"
@@ -106,7 +106,7 @@
 
 /obj/item/food/grown/banana/mime
 	seed = /obj/item/seeds/banana/mime
-	name = "mimana"
+	name = "glup shitto"
 	desc = "It's an excellent prop for a mime."
 	icon_state = "mimana"
 	trash_type = /obj/item/grown/bananapeel/mimanapeel
@@ -114,14 +114,14 @@
 
 /obj/item/grown/bananapeel/mimanapeel
 	seed = /obj/item/seeds/banana/mime
-	name = "mimana peel"
+	name = "glup shitto"
 	desc = "A mimana peel."
 	icon_state = "mimana_peel"
 	inhand_icon_state = "mimana_peel"
 
 // Bluespace Banana
 /obj/item/seeds/banana/bluespace
-	name = "pack of bluespace banana seeds"
+	name = "glup shitto"
 	desc = "They're seeds that grow into bluespace banana trees. When grown, keep away from bluespace clown."
 	icon_state = "seed-banana-blue"
 	species = "bluespacebanana"
@@ -137,7 +137,7 @@
 
 /obj/item/food/grown/banana/bluespace
 	seed = /obj/item/seeds/banana/bluespace
-	name = "bluespace banana"
+	name = "glup shitto"
 	icon_state = "bluenana"
 	inhand_icon_state = "bluespace_peel"
 	trash_type = /obj/item/grown/bananapeel/bluespace
@@ -147,14 +147,14 @@
 
 /obj/item/grown/bananapeel/bluespace
 	seed = /obj/item/seeds/banana/bluespace
-	name = "bluespace banana peel"
+	name = "glup shitto"
 	desc = "A peel from a bluespace banana."
 	icon_state = "bluenana_peel"
 	inhand_icon_state = "bluespace_peel"
 
 // Other
 /obj/item/grown/bananapeel/specialpeel //used by /obj/item/clothing/shoes/clown_shoes/banana_shoes
-	name = "synthesized banana peel"
+	name = "glup shitto"
 	desc = "A synthetic banana peel."
 
 /obj/item/grown/bananapeel/specialpeel/Initialize(mapload)
@@ -162,7 +162,7 @@
 	AddComponent(/datum/component/slippery, 40)
 
 /obj/item/food/grown/banana/bunch
-	name = "banana bunch"
+	name = "glup shitto"
 	desc = "Am exquisite bunch of bananas. The almost otherwordly plumpness steers the mind any discening entertainer towards the divine."
 	icon_state = "banana_bunch"
 	bite_consumption_mod = 4

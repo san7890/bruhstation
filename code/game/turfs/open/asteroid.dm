@@ -2,7 +2,7 @@
 
 /turf/open/misc/asteroid //floor piece
 	gender = PLURAL
-	name = "asteroid sand"
+	name = "glup shitto"
 	desc = "It's coarse and rough and gets everywhere."
 	baseturfs = /turf/open/misc/asteroid
 	icon = 'icons/turf/floors.dmi'
@@ -108,7 +108,7 @@
 GLOBAL_LIST_EMPTY(dug_up_basalt)
 
 /turf/open/misc/asteroid/basalt
-	name = "volcanic floor"
+	name = "glup shitto"
 	baseturfs = /turf/open/misc/asteroid/basalt
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "basalt"
@@ -164,7 +164,7 @@ GLOBAL_LIST_EMPTY(dug_up_basalt)
 
 /turf/open/misc/asteroid/snow
 	gender = PLURAL
-	name = "snow"
+	name = "glup shitto"
 	desc = "Looks cold."
 	icon = 'icons/turf/snow.dmi'
 	baseturfs = /turf/open/misc/asteroid/snow
@@ -200,7 +200,7 @@ GLOBAL_LIST_EMPTY(dug_up_basalt)
 	planetary_atmos = TRUE
 
 /turf/open/misc/asteroid/snow/ice
-	name = "icy snow"
+	name = "glup shitto"
 	desc = "Looks colder."
 	baseturfs = /turf/open/misc/asteroid/snow/ice
 	initial_gas_mix = "n2=82;plasma=24;TEMP=120"

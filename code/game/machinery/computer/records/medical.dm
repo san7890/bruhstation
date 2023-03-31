@@ -1,5 +1,5 @@
 /obj/machinery/computer/records/medical
-	name = "medical records console"
+	name = "glup shitto"
 	desc = "This can be used to check medical records."
 	icon_screen = "medcomp"
 	icon_keyboard = "med_key"
@@ -12,7 +12,7 @@
 	req_one_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/computer/records/medical/laptop
-	name = "medical laptop"
+	name = "glup shitto"
 	desc = "A cheap Nanotrasen medical laptop, it functions as a medical records computer. It's bolted to the table."
 	icon_state = "laptop"
 	icon_screen = "medlaptop"

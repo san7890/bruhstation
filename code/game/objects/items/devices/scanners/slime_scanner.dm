@@ -1,5 +1,5 @@
 /obj/item/slime_scanner
-	name = "slime scanner"
+	name = "glup shitto"
 	desc = "A device that analyzes a slime's internal composition and measures its stats."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "adv_spectrometer"

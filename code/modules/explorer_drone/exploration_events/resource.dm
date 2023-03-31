@@ -1,6 +1,6 @@
 /// Simple event type that checks if you have a tool and after a retrieval delay adds loot to drone.
 /datum/exploration_event/simple/resource
-	name = "Retrievable resource"
+	name = "glup shitto"
 	root_abstract_type = /datum/exploration_event/simple/resource
 	discovery_log = "Encountered recoverable resource"
 	action_text = "Extract"
@@ -71,7 +71,7 @@
 
 // All
 /datum/exploration_event/simple/resource/concealed_cache
-	name = "Concealed Cache"
+	name = "glup shitto"
 	band_values = list(EXOSCANNER_BAND_DENSITY=1)
 	required_tool = EXODRONE_TOOL_WELDER
 	discovery_log = "Discovered concealed and locked cache."
@@ -84,7 +84,7 @@
 
 // EXPLORATION_SITE_RUINS 2/2
 /datum/exploration_event/simple/resource/remnants
-	name = "dessicated corpse"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_RUINS)
 	required_tool = EXODRONE_TOOL_MULTITOOL
 	discovery_log = "You discovered a corpse of a humanoid."
@@ -96,7 +96,7 @@
 	loot_type = /datum/adventure_loot_generator/simple/cash
 
 /datum/exploration_event/simple/resource/gunfight
-	name = "gunfight leftovers"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_RUINS)
 	required_tool = EXODRONE_TOOL_DRILL
 	discovery_log = "You discovered a site of some past gunfight."
@@ -108,7 +108,7 @@
 
 // EXPLORATION_SITE_TECHNOLOGY 2/2
 /datum/exploration_event/simple/resource/maint_room
-	name = "locked maintenance room"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_TECHNOLOGY,EXPLORATION_SITE_STATION)
 	required_tool = EXODRONE_TOOL_MULTITOOL
 	discovery_log = "You discovered a locked maintenance room."
@@ -121,7 +121,7 @@
 	amount = 3
 
 /datum/exploration_event/simple/resource/storage
-	name = "storage room"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_TECHNOLOGY,EXPLORATION_SITE_STATION)
 	required_tool = EXODRONE_TOOL_TRANSLATOR
 	discovery_log = "You discovered a storage room full of crates."
@@ -134,7 +134,7 @@
 
 // EXPLORATION_SITE_ALIEN 2/2
 /datum/exploration_event/simple/resource/alien_tools
-	name = "alien sarcophagus"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_ALIEN)
 	band_values = list(EXOSCANNER_BAND_TECH=1,EXOSCANNER_BAND_RADIATION=1)
 	required_tool = EXODRONE_TOOL_TRANSLATOR
@@ -148,7 +148,7 @@
 	loot_type = /obj/item/scalpel/alien
 
 /datum/exploration_event/simple/resource/pod
-	name = "alien biopod"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_ALIEN)
 	band_values = list(EXOSCANNER_BAND_LIFE=1)
 	required_tool = EXODRONE_TOOL_LASER
@@ -163,7 +163,7 @@
 
 // EXPLORATION_SITE_SHIP 2/2
 /datum/exploration_event/simple/resource/fuel_storage
-	name = "fuel storage"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SHIP)
 	band_values = list(EXOSCANNER_BAND_PLASMA=1)
 	required_tool = EXODRONE_TOOL_MULTITOOL
@@ -176,7 +176,7 @@
 	loot_type = /obj/item/fuel_pellet/exotic
 
 /datum/exploration_event/simple/resource/navigation
-	name = "navigation systems"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SHIP)
 	required_tool = EXODRONE_TOOL_TRANSLATOR
 	discovery_log = "Discovered ship navigation systems."
@@ -189,7 +189,7 @@
 
 // EXPLORATION_SITE_HABITABLE 2/2
 /datum/exploration_event/simple/resource/unknown_microbiome
-	name = "unknown microbiome"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE)
 	required_tool = EXODRONE_TOOL_TRANSLATOR
 	discovery_log = "Discovered a isolated microbiome."
@@ -201,7 +201,7 @@
 	loot_type = /obj/item/petri_dish/random
 
 /datum/exploration_event/simple/resource/tcg_nerd
-	name = "creepy stranger"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE)
 	band_values = list(EXOSCANNER_BAND_LIFE=1)
 	required_tool = EXODRONE_TOOL_TRANSLATOR
@@ -216,7 +216,7 @@
 
 // EXPLORATION_SITE_SPACE 2/2
 /datum/exploration_event/simple/resource/comms_satellite
-	name = "derelict comms satellite"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SPACE)
 	required_tool = EXODRONE_TOOL_MULTITOOL
 	discovery_log = "You discovered a derelict communication satellite."
@@ -228,7 +228,7 @@
 	loot_type = /obj/item/encryptionkey/heads/captain
 
 /datum/exploration_event/simple/resource/welded_locker
-	name = "welded locker"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SPACE)
 	required_tool = EXODRONE_TOOL_WELDER
 	discovery_log = "You discovered a welded shut locker."
@@ -249,7 +249,7 @@
 
 // EXPLORATION_SITE_SURFACE 2/2
 /datum/exploration_event/simple/resource/plasma_deposit
-	name = "Raw Plasma Deposit"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SURFACE)
 	band_values = list(EXOSCANNER_BAND_PLASMA=3)
 	required_tool = EXODRONE_TOOL_DRILL
@@ -263,7 +263,7 @@
 	loot_type = /obj/item/stack/sheet/mineral/plasma/thirty
 
 /datum/exploration_event/simple/resource/mineral_deposit
-	name = "MATERIAL Deposit"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SURFACE)
 	band_values = list(EXOSCANNER_BAND_DENSITY=3)
 	required_tool = EXODRONE_TOOL_DRILL
@@ -282,7 +282,7 @@
 	. = ..()
 	chosen_material_type = pick(possible_materials)
 	var/datum/material/chosen_mat = GET_MATERIAL_REF(chosen_material_type)
-	name = "[chosen_mat.name] Deposit"
+	name = "glup shitto"
 	discovery_log = "Discovered a sizeable [chosen_mat.name] deposit"
 	success_log = "Extracted [chosen_mat.name]."
 	description = "You locate a rich surface deposit of [chosen_mat.name]."

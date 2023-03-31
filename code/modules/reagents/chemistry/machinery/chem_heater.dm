@@ -9,7 +9,7 @@
 #define TUT_MISSING 10
 
 /obj/machinery/chem_heater
-	name = "reaction chamber" //Maybe this name is more accurate?
+	name = "glup shitto" //Maybe this name is more accurate?
 	density = TRUE
 	pass_flags_self = PASSMACHINE | LETPASSTHROW
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -483,7 +483,7 @@ To continue set your target temperature to 390K."}
 
 //Has a lot of buffer and is upgraded
 /obj/machinery/chem_heater/debug
-	name = "Debug Reaction Chamber"
+	name = "glup shitto"
 	desc = "Now with even more buffers!"
 
 /obj/machinery/chem_heater/debug/Initialize(mapload)

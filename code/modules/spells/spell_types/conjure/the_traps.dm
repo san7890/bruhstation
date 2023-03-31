@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/the_traps
-	name = "The Traps!"
+	name = "glup shitto"
 	desc = "Summon a number of traps around you. They will damage and enrage any enemies that step on them."
 	button_icon_state = "the_traps"
 

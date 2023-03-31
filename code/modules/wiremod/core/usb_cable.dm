@@ -1,6 +1,6 @@
 /// A cable that can connect integrated circuits to anything with a USB port, such as computers and machines.
 /obj/item/usb_cable
-	name = "usb cable"
+	name = "glup shitto"
 	desc = "A cable that can connect integrated circuits to anything with a USB port, such as computers and machines."
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "usb_cable"

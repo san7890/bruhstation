@@ -1,6 +1,6 @@
 
 /obj/effect/anomaly/pyro
-	name = "pyroclastic anomaly"
+	name = "glup shitto"
 	icon_state = "pyroclastic"
 	var/ticks = 0
 	/// How many seconds between each gas release

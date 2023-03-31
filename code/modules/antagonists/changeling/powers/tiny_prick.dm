@@ -1,5 +1,5 @@
 /datum/action/changeling/sting//parent path, not meant for users afaik
-	name = "Tiny Prick"
+	name = "glup shitto"
 	desc = "Stabby stabby"
 
 /datum/action/changeling/sting/Trigger(trigger_flags)
@@ -64,7 +64,7 @@
 
 
 /datum/action/changeling/sting/transformation
-	name = "Transformation Sting"
+	name = "glup shitto"
 	desc = "We silently sting a human, injecting a retrovirus that forces them to transform. Costs 50 chemicals."
 	helptext = "The victim will transform much like a changeling would. Does not provide a warning to others. Mutations will not be transferred, and monkeys will become human."
 	button_icon_state = "sting_transform"
@@ -108,7 +108,7 @@
 
 
 /datum/action/changeling/sting/false_armblade
-	name = "False Armblade Sting"
+	name = "glup shitto"
 	desc = "We silently sting a human, injecting a retrovirus that mutates their arm to temporarily appear as an armblade. Costs 20 chemicals."
 	helptext = "The victim will form an armblade much like a changeling would, except the armblade is dull and useless."
 	button_icon_state = "sting_armblade"
@@ -160,7 +160,7 @@
 	target.update_held_items()
 
 /datum/action/changeling/sting/extract_dna
-	name = "Extract DNA Sting"
+	name = "glup shitto"
 	desc = "We stealthily sting a target and extract their DNA. Costs 25 chemicals."
 	helptext = "Will give you the DNA of your target, allowing you to transform into them."
 	button_icon_state = "sting_extract"
@@ -180,7 +180,7 @@
 	return TRUE
 
 /datum/action/changeling/sting/mute
-	name = "Mute Sting"
+	name = "glup shitto"
 	desc = "We silently sting a human, completely silencing them for a short time. Costs 20 chemicals."
 	helptext = "Does not provide a warning to the victim that they have been stung, until they try to speak and cannot."
 	button_icon_state = "sting_mute"
@@ -193,7 +193,7 @@
 	return TRUE
 
 /datum/action/changeling/sting/blind
-	name = "Blind Sting"
+	name = "glup shitto"
 	desc = "We temporarily blind our victim. Costs 25 chemicals."
 	helptext = "This sting completely blinds a target for a short time, and leaves them with blurred vision for a long time."
 	button_icon_state = "sting_blind"
@@ -214,7 +214,7 @@
 	return TRUE
 
 /datum/action/changeling/sting/lsd
-	name = "Hallucination Sting"
+	name = "glup shitto"
 	desc = "We cause mass terror to our victim."
 	helptext = "We evolve the ability to sting a target with a powerful hallucinogenic chemical. The target does not notice they have been stung, and the effect occurs after 30 to 60 seconds."
 	button_icon_state = "sting_lsd"
@@ -232,7 +232,7 @@
 	target.adjust_hallucinations(180 SECONDS)
 
 /datum/action/changeling/sting/cryo
-	name = "Cryogenic Sting"
+	name = "glup shitto"
 	desc = "We silently sting our victim with a cocktail of chemicals that freezes them from the inside. Costs 15 chemicals."
 	helptext = "Does not provide a warning to the victim, though they will likely realize they are suddenly freezing."
 	button_icon_state = "sting_cryo"

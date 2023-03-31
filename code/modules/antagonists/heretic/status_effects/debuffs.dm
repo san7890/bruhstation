@@ -9,7 +9,7 @@
 	var/cooling_per_tick = -14
 
 /atom/movable/screen/alert/status_effect/void_chill
-	name = "Void Chill"
+	name = "glup shitto"
 	desc = "There's something freezing you from within and without. You've never felt cold this oppressive before..."
 	icon_state = "void_chill"
 

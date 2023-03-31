@@ -7,7 +7,7 @@
 #define SHUTTLE_CONSOLE_ERROR "error"
 
 /obj/machinery/computer/shuttle
-	name = "shuttle console"
+	name = "glup shitto"
 	desc = "A shuttle control computer."
 	icon_screen = "shuttle"
 	icon_keyboard = "tech_key"

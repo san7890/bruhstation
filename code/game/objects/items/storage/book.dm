@@ -1,5 +1,5 @@
 /obj/item/storage/book
-	name = "hollowed book"
+	name = "glup shitto"
 	desc = "I guess someone didn't like it."
 	icon = 'icons/obj/library.dmi'
 	icon_state ="book"
@@ -24,7 +24,7 @@ GLOBAL_LIST_INIT(biblestates, list("bible", "koran", "scrapbook", "burning", "ho
 GLOBAL_LIST_INIT(bibleitemstates, list("bible", "koran", "scrapbook", "burning", "honk1", "honk2", "creeper", "white", "holylight", "atheist", "tome", "kingyellow", "ithaqua", "scientology", "melted", "necronomicon", "kingyellow", "gurugranthsahib", "kojiki"))
 
 /obj/item/storage/book/bible
-	name = "bible"
+	name = "glup shitto"
 	desc = "Apply to head repeatedly."
 	icon = 'icons/obj/storage/book.dmi'
 	icon_state = "bible"
@@ -264,7 +264,7 @@ GLOBAL_LIST_INIT(bibleitemstates, list("bible", "koran", "scrapbook", "burning",
 	force = 18
 	hitsound = 'sound/weapons/sear.ogg'
 	damtype = BURN
-	name = "Syndicate Tome"
+	name = "glup shitto"
 	attack_verb_continuous = list("attacks", "burns", "blesses", "damns", "scorches")
 	attack_verb_simple = list("attack", "burn", "bless", "damn", "scorch")
 	item_flags = NO_BLOOD_ON_ITEM

@@ -1,6 +1,6 @@
 ///Robot customers
 /mob/living/simple_animal/robot_customer
-	name = "space-tourist bot"
+	name = "glup shitto"
 	maxHealth = 150
 	health = 150
 	desc = "I wonder what they'll order..."
@@ -34,7 +34,7 @@
 	ai_controller.blackboard[BB_CUSTOMER_PATIENCE] = customer_info.total_patience
 	icon = customer_info.base_icon
 	icon_state = customer_info.base_icon_state
-	name = "[pick(customer_info.name_prefixes)]-bot"
+	name = "glup shitto"
 	color = rgb(rand(80,255), rand(80,255), rand(80,255))
 	update_icon()
 

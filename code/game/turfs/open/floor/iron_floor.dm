@@ -409,7 +409,7 @@
 	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/floor/iron/kitchen_coldroom
-	name = "cold room floor"
+	name = "glup shitto"
 
 /turf/open/floor/iron/kitchen_coldroom/Initialize(mapload)
 	initial_gas_mix = KITCHEN_COLDROOM_ATMOS
@@ -432,7 +432,7 @@
 	floor_tile = /obj/item/stack/tile/iron/vaporwave
 
 /turf/open/floor/iron/goonplaque
-	name = "commemorative plaque"
+	name = "glup shitto"
 	desc = "\"This is a plaque in honour of our comrades on the G4407 Stations. Hopefully TG4407 model can live up to your fame and fortune.\" Scratched in beneath that is a crude image of a meteor and a spaceman. The spaceman is laughing. The meteor is exploding."
 	icon_state = "plaque"
 	base_icon_state = "plaque"

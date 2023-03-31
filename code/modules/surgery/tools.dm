@@ -1,5 +1,5 @@
 /obj/item/retractor
-	name = "retractor"
+	name = "glup shitto"
 	desc = "Retracts stuff."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "retractor"
@@ -19,7 +19,7 @@
 
 
 /obj/item/hemostat
-	name = "hemostat"
+	name = "glup shitto"
 	desc = "You think you have seen this before."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "hemostat"
@@ -41,7 +41,7 @@
 
 
 /obj/item/cautery
-	name = "cautery"
+	name = "glup shitto"
 	desc = "This stops bleeding."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "cautery"
@@ -65,7 +65,7 @@
 	toolspeed = 0.5
 
 /obj/item/cautery/advanced
-	name = "searing tool"
+	name = "glup shitto"
 	desc = "It projects a high power laser used for medical applications."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "e_cautery"
@@ -108,7 +108,7 @@
 	. += span_notice("It's set to [tool_behaviour == TOOL_CAUTERY ? "mending" : "drilling"] mode.")
 
 /obj/item/surgicaldrill
-	name = "surgical drill"
+	name = "glup shitto"
 	desc = "You can drill using this item. You dig?"
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "drill"
@@ -148,7 +148,7 @@
 	toolspeed = 0.5
 
 /obj/item/scalpel
-	name = "scalpel"
+	name = "glup shitto"
 	desc = "Cut, cut, and once more cut."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "scalpel"
@@ -191,7 +191,7 @@
 	return BRUTELOSS
 
 /obj/item/circular_saw
-	name = "circular saw"
+	name = "glup shitto"
 	desc = "For heavy duty cutting."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "saw"
@@ -233,7 +233,7 @@
 
 
 /obj/item/surgical_drapes
-	name = "surgical drapes"
+	name = "glup shitto"
 	desc = "Nanotrasen brand surgical drapes provide optimal safety and infection control."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "surgical_drapes"
@@ -249,7 +249,7 @@
 	AddComponent(/datum/component/surgery_initiator)
 
 /obj/item/surgical_processor //allows medical cyborgs to scan and initiate advanced surgeries
-	name = "surgical processor"
+	name = "glup shitto"
 	desc = "A device for scanning and initiating surgeries from a disk or operating computer."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "spectrometer"
@@ -313,7 +313,7 @@
 		return COMPONENT_FORCE_SURGERY
 
 /obj/item/scalpel/advanced
-	name = "laser scalpel"
+	name = "glup shitto"
 	desc = "An advanced scalpel which uses laser technology to cut."
 	icon_state = "e_scalpel"
 	inhand_icon_state = "e_scalpel"
@@ -365,7 +365,7 @@
 	. += span_notice("It's set to [tool_behaviour == TOOL_SCALPEL ? "scalpel" : "saw"] mode.")
 
 /obj/item/retractor/advanced
-	name = "mechanical pinches"
+	name = "glup shitto"
 	desc = "An agglomerate of rods and gears."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	custom_materials = list(/datum/material/iron = 12000, /datum/material/glass = 4000, /datum/material/silver = 4000, /datum/material/titanium = 5000)
@@ -404,7 +404,7 @@
 	. += span_notice("It resembles a [tool_behaviour == TOOL_RETRACTOR ? "retractor" : "hemostat"].")
 
 /obj/item/shears
-	name = "amputation shears"
+	name = "glup shitto"
 	desc = "A type of heavy duty surgical shears used for achieving a clean separation between limb and patient. Keeping the patient still is imperative to be able to secure and align the shears."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "shears"
@@ -484,7 +484,7 @@
 	return BRUTELOSS
 
 /obj/item/bonesetter
-	name = "bonesetter"
+	name = "glup shitto"
 	desc = "For setting things right."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "bonesetter"
@@ -500,7 +500,7 @@
 	toolspeed = 1
 
 /obj/item/blood_filter
-	name = "blood filter"
+	name = "glup shitto"
 	desc = "For filtering the blood."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "bloodfilter"

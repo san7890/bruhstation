@@ -129,7 +129,7 @@
 		robot_customer.ai_controller.blackboard[BB_CUSTOMER_LEAVING] = TRUE //LEAVEEEEEE
 
 /obj/machinery/restaurant_portal
-	name = "restaurant portal"
+	name = "glup shitto"
 	desc = "A robot-only gate into the wonders of Space Station cuisine!"
 	icon = 'icons/obj/machines/restaurant_portal.dmi'
 	icon_state = "portal"
@@ -218,7 +218,7 @@
 
 
 /obj/item/holosign_creator/robot_seat
-	name = "seating indicator placer"
+	name = "glup shitto"
 	icon_state = "signmaker_service"
 	creation_time = 1 SECONDS
 	holosign_type = /obj/structure/holosign/robot_seat

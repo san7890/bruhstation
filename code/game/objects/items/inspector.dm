@@ -4,7 +4,7 @@
  * Creates reports for area inspection bounties.
  */
 /obj/item/inspector
-	name = "\improper N-spect scanner"
+	name = "glup shitto"
 	desc = "Central Command-issued inspection device. Performs inspections according to Nanotrasen protocols when activated, then prints an encrypted report regarding the maintenance of the station. Definitely not giving you cancer."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "inspector"
@@ -134,7 +134,7 @@
 			playsound(src, pick(list('sound/items/robofafafoggy.ogg', 'sound/items/robofafafoggy2.ogg')), 50, FALSE)
 
 /obj/item/paper/report
-	name = "encrypted station inspection"
+	name = "glup shitto"
 	desc = "Contains no information about the station's current status."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "slip"
@@ -248,7 +248,7 @@
  * instead of INSPECTOR_POWER_USAGE_NORMAL cell units.
  */
 /obj/item/inspector/clown/bananium
-	name = "\improper Bananium HONK-spect scanner"
+	name = "glup shitto"
 	desc = "Honkmother-blessed inspection device. Performs inspections according to Clown protocols when activated, then \
 			prints a clowncrypted report regarding the maintenance of the station. Hard to replace."
 	icon = 'icons/obj/tools.dmi'
@@ -332,7 +332,7 @@
  * Not valid for the bounty.
  */
 /obj/item/paper/fake_report
-	name = "encrypted station inspection"
+	name = "glup shitto"
 	desc = "Contains no information about the station's current status."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "slip"

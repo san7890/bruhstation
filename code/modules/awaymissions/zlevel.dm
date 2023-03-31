@@ -19,7 +19,7 @@ GLOBAL_LIST_INIT(potentialConfigRandomZlevels, generateConfigMapList(directory =
 		createRandomZlevel(config_gateway)
 
 /obj/effect/landmark/awaystart
-	name = "away mission spawn"
+	name = "glup shitto"
 	desc = "Randomly picked away mission spawn points."
 	var/id
 	var/delay = TRUE // If the generated destination should be delayed by configured gateway delay

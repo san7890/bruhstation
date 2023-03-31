@@ -10,7 +10,7 @@
  * It's basically an immovable rod launcher.
  */
 /obj/item/gun/blastcannon
-	name = "blast cannon"
+	name = "glup shitto"
 	desc = "A surprisingly portable device used to concentrate a bomb's blast energy to a narrow wave. Small enough to stow in a bag."
 	icon = 'icons/obj/weapons/guns/wide_guns.dmi'
 	icon_state = "blastcannon_empty"
@@ -289,7 +289,7 @@
 
 /// The projectile used by the blastcannon
 /obj/projectile/blastwave
-	name = "blast wave"
+	name = "glup shitto"
 	icon_state = "blastwave"
 	damage = 0
 	armor_flag = BOMB // Doesn't actually have any functional purpose. But it makes sense.

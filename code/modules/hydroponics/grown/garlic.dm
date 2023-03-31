@@ -1,5 +1,5 @@
 /obj/item/seeds/garlic
-	name = "pack of garlic seeds"
+	name = "glup shitto"
 	desc = "A packet of extremely pungent seeds."
 	icon_state = "seed-garlic"
 	species = "garlic"
@@ -13,7 +13,7 @@
 
 /obj/item/food/grown/garlic
 	seed = /obj/item/seeds/garlic
-	name = "garlic"
+	name = "glup shitto"
 	desc = "Delicious, but with a potentially overwhelming odor."
 	icon_state = "garlic"
 	tastes = list("garlic" = 1)

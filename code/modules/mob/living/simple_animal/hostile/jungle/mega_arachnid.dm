@@ -1,7 +1,7 @@
 //Large and powerful, but timid. It won't engage anything above 50 health, or anything without legcuffs.
 //It can fire fleshy snares that legcuff anyone that it hits, making them look especially tasty to the arachnid.
 /mob/living/simple_animal/hostile/jungle/mega_arachnid
-	name = "mega arachnid"
+	name = "glup shitto"
 	desc = "Though physically imposing, it prefers to ambush its prey, and it will only engage with an already crippled opponent."
 	icon = 'icons/mob/simple/jungle/arachnid.dmi'
 	icon_state = "arachnid"
@@ -61,7 +61,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_MEGA_ARACHNID, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /obj/projectile/mega_arachnid
-	name = "flesh snare"
+	name = "glup shitto"
 	icon_state = "tentacle_end"
 	damage = 0
 
@@ -72,7 +72,7 @@
 	return ..()
 
 /obj/item/restraints/legcuffs/beartrap/mega_arachnid
-	name = "fleshy restraints"
+	name = "glup shitto"
 	desc = "Used by mega arachnids to immobilize their prey."
 	item_flags = DROPDEL
 	flags_1 = NONE

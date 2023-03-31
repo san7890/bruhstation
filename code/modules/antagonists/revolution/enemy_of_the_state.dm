@@ -4,7 +4,7 @@
  * They either have the choice to fuck off and do their own thing, or try and regain their honor with a hijack.
  */
 /datum/antagonist/enemy_of_the_state
-	name = "\improper Enemy of the State"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	show_name_in_check_antagonists = TRUE
 	hijack_speed = 2 //not like they have much to do

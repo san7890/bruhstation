@@ -1,5 +1,5 @@
 /obj/item/mmi
-	name = "\improper Man-Machine Interface"
+	name = "glup shitto"
 	desc = "The Warrior's bland acronym, MMI, obscures the true horror of this monstrosity, that nevertheless has become standard-issue on Nanotrasen stations."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	icon_state = "mmi_off"
@@ -162,7 +162,7 @@
 		brain.name = "[L.real_name]'s brain"
 	brain.organ_flags |= ORGAN_FROZEN
 
-	name = "[initial(name)]: [brainmob.real_name]"
+	name = "glup shitto"
 	update_appearance()
 	if(istype(brain, /obj/item/organ/internal/brain/alien))
 		braintype = "Xenoborg" //HISS....Beep.
@@ -285,7 +285,7 @@
 	return TRUE
 
 /obj/item/mmi/syndie
-	name = "\improper Syndicate Man-Machine Interface"
+	name = "glup shitto"
 	desc = "Syndicate's own brand of MMI. It enforces laws designed to help Syndicate agents achieve their goals upon cyborgs and AIs created with it."
 	overrides_aicore_laws = TRUE
 

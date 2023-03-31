@@ -3,7 +3,7 @@
 
 ///Pad for the Civilian Bounty Control.
 /obj/machinery/piratepad/civilian
-	name = "civilian bounty pad"
+	name = "glup shitto"
 	desc = "A machine designed to send civilian bounty targets to centcom."
 	layer = TABLE_LAYER
 	resistance_flags = FIRE_PROOF
@@ -11,7 +11,7 @@
 
 ///Computer for assigning new civilian bounties, and sending bounties for collection.
 /obj/machinery/computer/piratepad_control/civilian
-	name = "civilian bounty control terminal"
+	name = "glup shitto"
 	desc = "A console for assigning civilian bounties to inserted ID cards, and for controlling the bounty pad for export."
 	status_report = "Ready for delivery."
 	icon_screen = "civ_bounty"
@@ -234,7 +234,7 @@
 
 ///Upon completion of a civilian bounty, one of these is created. It is sold to cargo to give the cargo budget bounty money, and the person who completed it cash.
 /obj/item/bounty_cube
-	name = "bounty cube"
+	name = "glup shitto"
 	desc = "A bundle of compressed hardlight data, containing a completed bounty. Sell this on the cargo shuttle to claim it!"
 	icon = 'icons/obj/economy.dmi'
 	icon_state = "bounty_cube"
@@ -330,7 +330,7 @@
 	bounty_holder = holder_id.registered_name
 	bounty_holder_job = holder_id.assignment
 	bounty_holder_account = holder_id.registered_account
-	name = "\improper [bounty_value] cr [name]"
+	name = "glup shitto"
 	desc += " The sales tag indicates it was <i>[bounty_holder] ([bounty_holder_job])</i>'s reward for completing the <i>[bounty_name]</i> bounty."
 	AddComponent(/datum/component/pricetag, holder_id.registered_account, holder_cut, FALSE)
 	AddComponent(/datum/component/gps, "[src]")
@@ -340,7 +340,7 @@
 
 //for when you need a REAL bounty cube to test with and don't want to do a bounty each time your code changes
 /obj/item/bounty_cube/debug_cube
-	name = "debug bounty cube"
+	name = "glup shitto"
 	desc = "Use in-hand to set it up with a random bounty. Requires an ID it can detect with a bank account attached. \
 	This will alert Supply over the radio with your name and location, and cargo techs will be dispatched with kill on sight clearance."
 	var/set_up = FALSE
@@ -362,7 +362,7 @@
 
 ///Beacon to launch a new bounty setup when activated.
 /obj/item/civ_bounty_beacon
-	name = "civilian bounty beacon"
+	name = "glup shitto"
 	desc = "N.T. approved civilian bounty beacon, toss it down and you will have a bounty pad and computer delivered to you."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "floor_beacon"

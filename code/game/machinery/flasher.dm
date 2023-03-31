@@ -1,7 +1,7 @@
 // It is a gizmo that flashes a small area
 
 /obj/machinery/flasher
-	name = "mounted flash"
+	name = "glup shitto"
 	desc = "A wall-mounted flashbulb device."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "mflash1"
@@ -157,7 +157,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/flasher, 26)
 	qdel(src)
 
 /obj/machinery/flasher/portable //Portable version of the flasher. Only flashes when anchored
-	name = "portable flasher"
+	name = "glup shitto"
 	desc = "A portable flashing device. Wrench to activate and deactivate. Cannot detect slow movements."
 	icon_state = "pflash1-p"
 	base_icon_state = "pflash"
@@ -206,7 +206,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/flasher, 26)
 		return ..()
 
 /obj/item/wallframe/flasher
-	name = "mounted flash frame"
+	name = "glup shitto"
 	desc = "Used for building wall-mounted flashers."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "mflash_frame"

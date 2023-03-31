@@ -8,7 +8,7 @@
 */
 
 /datum/symptom/hallucigen
-	name = "Hallucigen"
+	name = "glup shitto"
 	desc = "The virus stimulates the brain, causing occasional hallucinations."
 	illness = "Paranoyance"
 	stealth = 1

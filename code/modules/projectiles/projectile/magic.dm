@@ -1,5 +1,5 @@
 /obj/projectile/magic
-	name = "bolt"
+	name = "glup shitto"
 	icon_state = "energy"
 	damage = 0 // MOST magic projectiles pass the "not a hostile projectile" test, despite many having negative effects
 	damage_type = OXY
@@ -28,7 +28,7 @@
 			return PROJECTILE_DELETE_WITHOUT_HITTING
 
 /obj/projectile/magic/death
-	name = "bolt of death"
+	name = "glup shitto"
 	icon_state = "pulse1_bl"
 
 /obj/projectile/magic/death/on_hit(atom/target)
@@ -54,7 +54,7 @@
 		plant_tray.plantdies()
 
 /obj/projectile/magic/resurrection
-	name = "bolt of resurrection"
+	name = "glup shitto"
 	icon_state = "ion"
 
 /obj/projectile/magic/resurrection/on_hit(atom/target)
@@ -80,7 +80,7 @@
 		plant_tray.set_plant_health(plant_tray.myseed.endurance, forced = TRUE)
 
 /obj/projectile/magic/teleport
-	name = "bolt of teleportation"
+	name = "glup shitto"
 	icon_state = "bluespace"
 	var/inner_tele_radius = 0
 	var/outer_tele_radius = 6
@@ -101,7 +101,7 @@
 				smoke.start()
 
 /obj/projectile/magic/safety
-	name = "bolt of safety"
+	name = "glup shitto"
 	icon_state = "bluespace"
 
 /obj/projectile/magic/safety/on_hit(atom/target)
@@ -119,7 +119,7 @@
 			smoke.start()
 
 /obj/projectile/magic/door
-	name = "bolt of door creation"
+	name = "glup shitto"
 	icon_state = "energy"
 	var/list/door_types = list(/obj/structure/mineral_door/wood, /obj/structure/mineral_door/iron, /obj/structure/mineral_door/silver, /obj/structure/mineral_door/gold, /obj/structure/mineral_door/uranium, /obj/structure/mineral_door/sandstone, /obj/structure/mineral_door/transparent/plasma, /obj/structure/mineral_door/transparent/diamond)
 
@@ -145,7 +145,7 @@
 	D.open()
 
 /obj/projectile/magic/change
-	name = "bolt of change"
+	name = "glup shitto"
 	icon_state = "ice_1"
 	damage_type = BURN
 	/// If set, this projectile will only do a certain wabbajack effect
@@ -167,7 +167,7 @@
 		plant_tray.polymorph()
 
 /obj/projectile/magic/animate
-	name = "bolt of animation"
+	name = "glup shitto"
 	icon_state = "red_1"
 	damage_type = BURN
 
@@ -210,21 +210,21 @@
 			C.ChangeOwner(owner)
 
 /obj/projectile/magic/spellblade
-	name = "blade energy"
+	name = "glup shitto"
 	icon_state = "lavastaff"
 	damage = 15
 	damage_type = BURN
 	dismemberment = 50
 
 /obj/projectile/magic/arcane_barrage
-	name = "arcane bolt"
+	name = "glup shitto"
 	icon_state = "arcane_barrage"
 	damage = 20
 	damage_type = BURN
 	hitsound = 'sound/weapons/barragespellhit.ogg'
 
 /obj/projectile/magic/locker
-	name = "locker bolt"
+	name = "glup shitto"
 	icon_state = "locker"
 	var/weld = TRUE
 	var/created = FALSE //prevents creation of more then one locker if it has multiple hits
@@ -310,7 +310,7 @@
 	qdel(src)
 
 /obj/projectile/magic/flying
-	name = "bolt of flying"
+	name = "glup shitto"
 	icon_state = "flight"
 
 /obj/projectile/magic/flying/on_hit(mob/living/target)
@@ -320,7 +320,7 @@
 		target.throw_at(throw_target, 200, 4)
 
 /obj/projectile/magic/bounty
-	name = "bolt of bounty"
+	name = "glup shitto"
 	icon_state = "bounty"
 
 /obj/projectile/magic/bounty/on_hit(mob/living/target)
@@ -329,7 +329,7 @@
 		target.apply_status_effect(/datum/status_effect/bounty, firer)
 
 /obj/projectile/magic/antimagic
-	name = "bolt of antimagic"
+	name = "glup shitto"
 	icon_state = "antimagic"
 
 /obj/projectile/magic/antimagic/on_hit(mob/living/target)
@@ -338,7 +338,7 @@
 		target.apply_status_effect(/datum/status_effect/song/antimagic)
 
 /obj/projectile/magic/fetch
-	name = "bolt of fetching"
+	name = "glup shitto"
 	icon_state = "fetch"
 
 /obj/projectile/magic/fetch/on_hit(mob/living/target)
@@ -348,7 +348,7 @@
 		target.throw_at(throw_target, 200, 4)
 
 /obj/projectile/magic/babel
-	name = "bolt of babel"
+	name = "glup shitto"
 	icon_state = "babel"
 
 /obj/projectile/magic/babel/on_hit(mob/living/carbon/target)
@@ -358,7 +358,7 @@
 			target.add_mood_event("curse_of_babel", /datum/mood_event/tower_of_babel)
 
 /obj/projectile/magic/necropotence
-	name = "bolt of necropotence"
+	name = "glup shitto"
 	icon_state = "necropotence"
 
 /obj/projectile/magic/necropotence/on_hit(mob/living/target)
@@ -375,7 +375,7 @@
 	qdel(tap)
 
 /obj/projectile/magic/wipe
-	name = "bolt of possession"
+	name = "glup shitto"
 	icon_state = "wipe"
 
 /obj/projectile/magic/wipe/on_hit(mob/living/carbon/target)
@@ -474,7 +474,7 @@
 	QDEL_IN(trail, trail_lifespan)
 
 /obj/projectile/magic/aoe/lightning
-	name = "lightning bolt"
+	name = "glup shitto"
 	icon_state = "tesla_projectile" //Better sprites are REALLY needed and appreciated!~
 	damage = 15
 	damage_type = BURN
@@ -508,7 +508,7 @@
 	zap_flags = ZAP_MOB_DAMAGE | ZAP_OBJ_DAMAGE | ZAP_LOW_POWER_GEN
 
 /obj/projectile/magic/fireball
-	name = "bolt of fireball"
+	name = "glup shitto"
 	icon_state = "fireball"
 	damage = 10
 	damage_type = BRUTE
@@ -544,7 +544,7 @@
 	)
 
 /obj/projectile/magic/aoe/magic_missile
-	name = "magic missile"
+	name = "glup shitto"
 	icon_state = "magicm"
 	range = 100
 	speed = 1
@@ -563,7 +563,7 @@
 	range = 10
 
 /obj/projectile/magic/aoe/juggernaut
-	name = "Gauntlet Echo"
+	name = "glup shitto"
 	icon_state = "cultfist"
 	alpha = 180
 	damage = 30
@@ -594,17 +594,17 @@
 //still magic related, but a different path
 
 /obj/projectile/temp/chill
-	name = "bolt of chills"
+	name = "glup shitto"
 	icon_state = "ice_2"
 	damage_type = BURN
 	armour_penetration = 100
 	temperature = -200 // Cools you down greatly per hit
 
 /obj/projectile/magic/nothing
-	name = "bolt of nothing"
+	name = "glup shitto"
 
 /obj/projectile/magic/spellcard
-	name = "enchanted card"
+	name = "glup shitto"
 	desc = "A piece of paper enchanted to give it extreme durability and stiffness, along with a very hot burn to anyone unfortunate enough to get hit by a charged one."
 	icon_state = "spellcard"
 	damage_type = BURN

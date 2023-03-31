@@ -8,7 +8,7 @@
 #define DEFAULT_RESPAWN 150 //15 seconds
 
 /obj/item/ctf
-	name = "banner"
+	name = "glup shitto"
 	icon = 'icons/obj/banner.dmi'
 	icon_state = "banner"
 	inhand_icon_state = "banner"
@@ -100,7 +100,7 @@
 
 
 /obj/item/ctf/red
-	name = "red flag"
+	name = "glup shitto"
 	icon_state = "banner-red"
 	inhand_icon_state = "banner-red"
 	desc = "A red banner used to play capture the flag."
@@ -109,7 +109,7 @@
 
 
 /obj/item/ctf/blue
-	name = "blue flag"
+	name = "glup shitto"
 	icon_state = "banner-blue"
 	inhand_icon_state = "banner-blue"
 	desc = "A blue banner used to play capture the flag."
@@ -117,7 +117,7 @@
 	reset_path = /obj/effect/ctf/flag_reset/blue
 
 /obj/item/ctf/green
-	name = "green flag"
+	name = "glup shitto"
 	icon_state = "banner-green"
 	inhand_icon_state = "banner-green"
 	desc = "A green banner used to play capture the flag."
@@ -126,7 +126,7 @@
 
 
 /obj/item/ctf/yellow
-	name = "yellow flag"
+	name = "glup shitto"
 	icon_state = "banner-yellow"
 	inhand_icon_state = "banner-yellow"
 	desc = "A yellow banner used to play capture the flag."
@@ -134,7 +134,7 @@
 	reset_path = /obj/effect/ctf/flag_reset/yellow
 
 /obj/effect/ctf/flag_reset
-	name = "banner landmark"
+	name = "glup shitto"
 	icon = 'icons/obj/banner.dmi'
 	icon_state = "banner"
 	desc = "This is where a banner with Nanotrasen's logo on it would go."
@@ -148,25 +148,25 @@
 	return ..()
 
 /obj/effect/ctf/flag_reset/red
-	name = "red flag landmark"
+	name = "glup shitto"
 	icon_state = "banner-red"
 	desc = "This is where a red banner used to play capture the flag \
 		would go."
 
 /obj/effect/ctf/flag_reset/blue
-	name = "blue flag landmark"
+	name = "glup shitto"
 	icon_state = "banner-blue"
 	desc = "This is where a blue banner used to play capture the flag \
 		would go."
 
 /obj/effect/ctf/flag_reset/green
-	name = "green flag landmark"
+	name = "glup shitto"
 	icon_state = "banner"
 	desc = "This is where a green banner used to play capture the flag \
 		would go."
 
 /obj/effect/ctf/flag_reset/yellow
-	name = "yellow flag landmark"
+	name = "glup shitto"
 	icon_state = "banner"
 	desc = "This is where a yellow banner used to play capture the flag \
 		would go."
@@ -233,7 +233,7 @@
 #undef CTF_LOADING_LOADED
 
 /obj/machinery/capture_the_flag
-	name = "CTF Controller"
+	name = "glup shitto"
 	desc = "Used for running friendly games of capture the flag."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "syndbeacon"
@@ -300,7 +300,7 @@
 			living_participant.adjustFireLoss(-2.5 * delta_time)
 
 /obj/machinery/capture_the_flag/red
-	name = "Red CTF Controller"
+	name = "glup shitto"
 	icon_state = "syndbeacon"
 	team = RED_TEAM
 	team_span = "redteamradio"
@@ -308,7 +308,7 @@
 	instagib_gear = list("Instagib" = /datum/outfit/ctf/red/instagib)
 
 /obj/machinery/capture_the_flag/blue
-	name = "Blue CTF Controller"
+	name = "glup shitto"
 	icon_state = "bluebeacon"
 	team = BLUE_TEAM
 	team_span = "blueteamradio"
@@ -316,7 +316,7 @@
 	instagib_gear = list("Instagib" = /datum/outfit/ctf/blue/instagib)
 
 /obj/machinery/capture_the_flag/green
-	name = "Green CTF Controller"
+	name = "glup shitto"
 	icon_state = "greenbeacon"
 	team = GREEN_TEAM
 	team_span = "greenteamradio"
@@ -324,7 +324,7 @@
 	instagib_gear = list("Instagib" = /datum/outfit/ctf/green/instagib)
 
 /obj/machinery/capture_the_flag/yellow
-	name = "Yellow CTF Controller"
+	name = "glup shitto"
 	icon_state = "yellowbeacon"
 	team = YELLOW_TEAM
 	team_span = "yellowteamradio"
@@ -536,7 +536,7 @@
 		CTF.respawn_cooldown = DEFAULT_RESPAWN
 
 /obj/structure/trap/ctf
-	name = "Spawn protection"
+	name = "glup shitto"
 	desc = "Stay outta the enemy spawn!"
 	icon_state = "trap"
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
@@ -573,7 +573,7 @@
 	icon_state = "trap-shock"
 
 /obj/structure/barricade/security/ctf
-	name = "barrier"
+	name = "glup shitto"
 	desc = "A barrier. Provides cover in fire fights."
 	deploy_time = 0
 	deploy_message = 0
@@ -593,7 +593,7 @@
 	resistance_flags = INDESTRUCTIBLE
 
 /obj/effect/ctf/dead_barricade
-	name = "dead barrier"
+	name = "glup shitto"
 	desc = "It provided cover in fire fights. And now it's gone."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "barrier0"
@@ -621,7 +621,7 @@
 //Control Point
 
 /obj/machinery/control_point
-	name = "control point"
+	name = "glup shitto"
 	desc = "You should capture this."
 	icon = 'icons/obj/machines/dominator.dmi'
 	icon_state = "dominator"

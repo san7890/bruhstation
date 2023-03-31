@@ -1,5 +1,5 @@
 /datum/traitor_objective_category/eyesnatching
-	name = "Eyesnatching"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/target_player/eyesnatching = 1,
 		/datum/traitor_objective/target_player/eyesnatching/heads = 1,
@@ -7,7 +7,7 @@
 	weight = OBJECTIVE_WEIGHT_UNLIKELY
 
 /datum/traitor_objective/target_player/eyesnatching
-	name = "Steal the eyes of %TARGET% the %JOB TITLE%"
+	name = "glup shitto"
 	description = "%TARGET% messed with the wrong people. Steal their eyes to teach them a lesson. You will be provided an experimental eyesnatcher device to aid you in your mission."
 
 	progression_minimum = 10 MINUTES
@@ -136,7 +136,7 @@
 			eyesnatcher.balloon_alert(user, "the snatcher materializes in your hand")
 
 /obj/item/eyesnatcher
-	name = "portable eyeball extractor"
+	name = "glup shitto"
 	desc = "An overly complicated device that can pierce target's skull and extract their eyeballs if enough brute force is applied."
 	icon = 'icons/obj/medical/surgery_tools.dmi'
 	icon_state = "eyesnatcher"

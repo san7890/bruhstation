@@ -1,5 +1,5 @@
 /obj/item/implant/storage
-	name = "storage implant"
+	name = "glup shitto"
 	desc = "Stores up to two big items in a bluespace pocket."
 	icon_state = "storage"
 	implant_color = "r"
@@ -40,5 +40,5 @@
 	return ..()
 
 /obj/item/implanter/storage
-	name = "implanter (storage)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/storage

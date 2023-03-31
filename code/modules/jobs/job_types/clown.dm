@@ -46,7 +46,7 @@
 
 
 /datum/outfit/job/clown
-	name = "Clown"
+	name = "glup shitto"
 	jobtype = /datum/job/clown
 
 	id = /obj/item/card/id/advanced/rainbow
@@ -73,7 +73,7 @@
 	implants = list(/obj/item/implant/sad_trombone)
 
 /datum/outfit/job/clown/mod
-	name = "Clown (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/cosmohonk

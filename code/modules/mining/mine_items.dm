@@ -2,7 +2,7 @@
 
 //this item is intended to give the effect of entering the mine, so that light gradually fades. we also use the base effect for certain lighting effects while mapping.
 /obj/effect/light_emitter
-	name = "light emitter"
+	name = "glup shitto"
 	icon_state = "lighting_marker"
 	anchored = TRUE
 	invisibility = INVISIBILITY_ABSTRACT
@@ -22,7 +22,7 @@
 /**********************Miner Lockers**************************/
 
 /obj/structure/closet/wardrobe/miner
-	name = "mining wardrobe"
+	name = "glup shitto"
 	icon_door = "mixed"
 
 /obj/structure/closet/wardrobe/miner/PopulateContents()
@@ -43,7 +43,7 @@
 	new /obj/item/clothing/suit/hooded/wintercoat/miner(src)
 
 /obj/structure/closet/secure_closet/miner
-	name = "miner's equipment locker"
+	name = "glup shitto"
 	icon_state = "mining"
 	req_access = list(ACCESS_MINING)
 
@@ -70,7 +70,7 @@
 /**********************Shuttle Computer**************************/
 
 /obj/machinery/computer/shuttle/mining
-	name = "mining shuttle console"
+	name = "glup shitto"
 	desc = "Used to call and send the mining shuttle."
 	circuit = /obj/item/circuitboard/computer/mining_shuttle
 	shuttleId = "mining"
@@ -90,14 +90,14 @@
 	return ..()
 
 /obj/machinery/computer/shuttle/mining/common
-	name = "lavaland shuttle console"
+	name = "glup shitto"
 	desc = "Used to call and send the lavaland shuttle."
 	circuit = /obj/item/circuitboard/computer/mining_shuttle/common
 	shuttleId = "mining_common"
 	possible_destinations = "commonmining_home;lavaland_common_away;landing_zone_dock;mining_public"
 
 /obj/docking_port/stationary/mining_home
-	name = "SS13: Mining Dock"
+	name = "glup shitto"
 	shuttle_id = "mining_home"
 	roundstart_template = /datum/map_template/shuttle/mining/delta
 	width = 7
@@ -109,7 +109,7 @@
 	height = 10
 
 /obj/docking_port/stationary/mining_home/common
-	name = "SS13: Common Mining Dock"
+	name = "glup shitto"
 	shuttle_id = "commonmining_home"
 	roundstart_template = /datum/map_template/shuttle/mining_common/meta
 
@@ -120,5 +120,5 @@
 
 /obj/structure/closet/crate/miningcar
 	desc = "A mining car. This one doesn't work on rails, but has to be dragged."
-	name = "Mining car (not for rails)"
+	name = "glup shitto"
 	icon_state = "miningcar"

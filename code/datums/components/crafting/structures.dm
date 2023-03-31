@@ -1,5 +1,5 @@
 /datum/crafting_recipe/paperframes
-	name = "Paper Frames"
+	name = "glup shitto"
 	time = 1 SECONDS
 	reqs = list(
 		/obj/item/stack/sheet/mineral/wood = 5,
@@ -10,7 +10,7 @@
 	category = CAT_STRUCTURE
 
 /datum/crafting_recipe/rib
-	name = "Colossal Rib"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/obj/item/stack/sheet/bone = 10,
@@ -20,7 +20,7 @@
 	category = CAT_STRUCTURE
 
 /datum/crafting_recipe/skull
-	name = "Skull Carving"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/obj/item/stack/sheet/bone = 6,
@@ -30,7 +30,7 @@
 	category = CAT_STRUCTURE
 
 /datum/crafting_recipe/halfskull
-	name = "Cracked Skull Carving"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/obj/item/stack/sheet/bone = 3,
@@ -40,7 +40,7 @@
 	category = CAT_STRUCTURE
 
 /datum/crafting_recipe/firecabinet
-	name = "Fire Axe Cabinet"
+	name = "glup shitto"
 	result = /obj/item/wallframe/fireaxecabinet
 	time = 8 SECONDS
 	reqs = list(
@@ -51,7 +51,7 @@
 	category = CAT_STRUCTURE
 
 /datum/crafting_recipe/mechcabinet
-	name = "Mech Removal Cabinet"
+	name = "glup shitto"
 	result = /obj/item/wallframe/fireaxecabinet/mechremoval
 	time = 8 SECONDS
 	reqs = list(

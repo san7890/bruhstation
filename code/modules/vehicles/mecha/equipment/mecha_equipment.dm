@@ -3,7 +3,7 @@
  * All mech equippables are currently childs of this
  */
 /obj/item/mecha_parts/mecha_equipment
-	name = "mecha equipment"
+	name = "glup shitto"
 	icon = 'icons/mecha/mecha_equipment.dmi'
 	icon_state = "mecha_equip"
 	force = 5

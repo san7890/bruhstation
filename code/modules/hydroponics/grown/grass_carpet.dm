@@ -1,6 +1,6 @@
 // Grass
 /obj/item/seeds/grass
-	name = "pack of grass seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into grass. Yummy!"
 	icon_state = "seed-grass"
 	species = "grass"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/grass
 	seed = /obj/item/seeds/grass
-	name = "grass"
+	name = "glup shitto"
 	desc = "Green and lush."
 	icon_state = "grassclump"
 	bite_consumption_mod = 0.5 // Grazing on grass
@@ -42,7 +42,7 @@
 
 //Fairygrass
 /obj/item/seeds/grass/fairy
-	name = "pack of fairygrass seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into a more mystical grass."
 	icon_state = "seed-fairygrass"
 	species = "fairygrass"
@@ -57,7 +57,7 @@
 
 /obj/item/food/grown/grass/fairy
 	seed = /obj/item/seeds/grass/fairy
-	name = "fairygrass"
+	name = "glup shitto"
 	desc = "Blue, glowing, and smells fainly of mushrooms."
 	icon_state = "fairygrassclump"
 	bite_consumption_mod = 1
@@ -65,7 +65,7 @@
 
 // Carpet
 /obj/item/seeds/grass/carpet
-	name = "pack of carpet seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into stylish carpet samples."
 	icon_state = "seed-carpet"
 	species = "carpet"
@@ -76,7 +76,7 @@
 
 /obj/item/food/grown/grass/carpet
 	seed = /obj/item/seeds/grass/carpet
-	name = "carpet"
+	name = "glup shitto"
 	desc = "The textile industry's dark secret."
 	icon_state = "carpetclump"
 	stacktype = /obj/item/stack/tile/carpet

@@ -1,6 +1,6 @@
 //goat
 /mob/living/simple_animal/hostile/retaliate/goat
-	name = "goat"
+	name = "glup shitto"
 	desc = "Not known for their pleasant disposition."
 	icon_state = "goat"
 	icon_living = "goat"
@@ -121,7 +121,7 @@
 
 
 /mob/living/simple_animal/chick
-	name = "\improper chick"
+	name = "glup shitto"
 	desc = "Adorable! They make such a racket though."
 	icon_state = "chick"
 	icon_living = "chick"
@@ -183,7 +183,7 @@
 GLOBAL_VAR_INIT(chicken_count, 0)
 
 /mob/living/simple_animal/chicken
-	name = "\improper chicken"
+	name = "glup shitto"
 	desc = "Hopefully the eggs are good this season."
 	gender = FEMALE
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
@@ -252,7 +252,7 @@ GLOBAL_VAR_INIT(chicken_count, 0)
 		)
 
 /mob/living/simple_animal/deer
-	name = "doe"
+	name = "glup shitto"
 	desc = "A gentle, peaceful forest animal. How did this get into space?"
 	icon_state = "deer-doe"
 	icon_living = "deer-doe"

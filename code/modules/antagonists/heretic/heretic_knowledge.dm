@@ -548,7 +548,7 @@
  * A subtype of knowledge that generates random ritual components.
  */
 /datum/heretic_knowledge/knowledge_ritual
-	name = "Ritual of Knowledge"
+	name = "glup shitto"
 	desc = "A randomly generated transmutation ritual that rewards knowledge points and can only be completed once."
 	gain_text = "Everything can be a key to unlocking the secrets behind the Gates. I must be wary and wise."
 	abstract_parent_type = /datum/heretic_knowledge/knowledge_ritual

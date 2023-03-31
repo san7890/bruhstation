@@ -1,5 +1,5 @@
 /obj/structure/closet/infinite
-	name = "infinite closet"
+	name = "glup shitto"
 	desc = "It's closets, all the way down."
 	var/replicating_type
 	var/stop_replicating_at = 4

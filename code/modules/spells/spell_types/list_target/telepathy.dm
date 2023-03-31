@@ -1,6 +1,6 @@
 
 /datum/action/cooldown/spell/list_target/telepathy
-	name = "Telepathy"
+	name = "glup shitto"
 	desc = "Telepathically transmits a message to the target."
 	button_icon = 'icons/mob/actions/actions_revenant.dmi'
 	button_icon_state = "r_transmit"

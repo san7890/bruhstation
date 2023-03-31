@@ -3,7 +3,7 @@
 ///////////////////////////////////
 
 /datum/design/milk
-	name = "Milk"
+	name = "glup shitto"
 	id = "milk"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.4)
@@ -11,7 +11,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/soymilk
-	name = "Soy Milk"
+	name = "glup shitto"
 	id = "soymilk"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.4)
@@ -19,7 +19,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/ethanol
-	name = "Ethanol"
+	name = "glup shitto"
 	id = "ethanol"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -27,7 +27,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/cream
-	name = "Cream"
+	name = "glup shitto"
 	id = "cream"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -35,7 +35,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/black_pepper
-	name = "Black Pepper"
+	name = "glup shitto"
 	id = "black_pepper"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -43,7 +43,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/enzyme
-	name = "Universal Enzyme"
+	name = "glup shitto"
 	id = "enzyme"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -51,7 +51,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/flour
-	name = "Flour"
+	name = "glup shitto"
 	id = "flour_sack"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -59,7 +59,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/sugar
-	name = "Sugar"
+	name = "glup shitto"
 	id = "sugar"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -67,7 +67,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/monkey_cube
-	name = "Monkey Cube"
+	name = "glup shitto"
 	id = "mcube"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 50)
@@ -75,7 +75,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/seaweed_sheet
-	name = "Seaweed Sheet"
+	name = "glup shitto"
 	id = "seaweedsheet"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 3)
@@ -83,7 +83,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_FOOD)
 
 /datum/design/ez_nut   //easy nut :)
-	name = "E-Z Nutrient"
+	name = "glup shitto"
 	id = "ez_nut"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.1)
@@ -91,7 +91,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/l4z_nut
-	name = "Left 4 Zed"
+	name = "glup shitto"
 	id = "l4z_nut"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.1)
@@ -99,7 +99,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/rh_nut
-	name = "Robust Harvest"
+	name = "glup shitto"
 	id = "rh_nut"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.2)
@@ -107,7 +107,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/end_gro
-	name = "Enduro Grow"
+	name = "glup shitto"
 	id = "end_gro"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.3)
@@ -115,7 +115,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/liq_earth
-	name = "Liquid Earthquake"
+	name = "glup shitto"
 	id = "liq_earth"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.3)
@@ -123,7 +123,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/weed_killer
-	name = "Weed Killer"
+	name = "glup shitto"
 	id = "weed_killer"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.2)
@@ -131,7 +131,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/pest_spray
-	name = "Pest Killer"
+	name = "glup shitto"
 	id = "pest_spray"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.4)
@@ -139,7 +139,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/org_pest_spray
-	name = "Organic Pest Killer"
+	name = "glup shitto"
 	id = "org_pest_spray"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 0.6)
@@ -147,7 +147,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_CHEMICALS)
 
 /datum/design/leather
-	name = "Sheet of Leather"
+	name = "glup shitto"
 	id = "leather"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 30)
@@ -155,7 +155,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
 
 /datum/design/cloth
-	name = "Sheet of Cloth"
+	name = "glup shitto"
 	id = "cloth"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 10)
@@ -163,7 +163,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
 
 /datum/design/cardboard
-	name = "Sheet of Cardboard"
+	name = "glup shitto"
 	id = "cardboard"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 5)
@@ -171,7 +171,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
 
 /datum/design/paper
-	name = "Sheet of Paper"
+	name = "glup shitto"
 	id = "paper"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 2)
@@ -179,7 +179,7 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
 
 /datum/design/rolling_paper
-	name = "Sheet of Rolling Paper"
+	name = "glup shitto"
 	id = "rollingpaper"
 	build_type = BIOGENERATOR
 	materials = list(/datum/material/biomass = 1)

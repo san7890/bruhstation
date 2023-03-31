@@ -1,6 +1,6 @@
 
 /obj/item/gun/ballistic/bow
-	name = "longbow"
+	name = "glup shitto"
 	desc = "While pretty finely crafted, surely you can find something better to use in the current year."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "bow"
@@ -60,14 +60,14 @@
 	return //so clicking sounds please
 
 /obj/item/ammo_box/magazine/internal/bow
-	name = "bowstring"
+	name = "glup shitto"
 	ammo_type = /obj/item/ammo_casing/caseless/arrow
 	max_ammo = 1
 	start_empty = TRUE
 	caliber = CALIBER_ARROW
 
 /obj/item/ammo_casing/caseless/arrow
-	name = "arrow"
+	name = "glup shitto"
 	desc = "Stabby Stabman!"
 	icon_state = "arrow"
 	inhand_icon_state = "arrow"
@@ -87,7 +87,7 @@
 		qdel(src)
 
 /obj/projectile/bullet/reusable/arrow
-	name = "arrow"
+	name = "glup shitto"
 	desc = "Ow! Get it out of me!"
 	ammo_type = /obj/item/ammo_casing/caseless/arrow
 	damage = 50
@@ -97,7 +97,7 @@
 
 
 /obj/item/storage/bag/quiver
-	name = "quiver"
+	name = "glup shitto"
 	desc = "Holds arrows for your bow. Good, because while pocketing arrows is possible, it surely can't be pleasant."
 	icon_state = "quiver"
 	inhand_icon_state = null

@@ -1,5 +1,5 @@
 /obj/machinery/computer/apc_control
-	name = "power flow control console"
+	name = "glup shitto"
 	desc = "Used to remotely control the flow of power to different parts of the station."
 	icon_screen = "solar"
 	icon_keyboard = "power_key"

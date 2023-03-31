@@ -1220,7 +1220,7 @@ GLOBAL_DATUM_INIT(sdql2_vv_statobj, /obj/effect/statclick/sdql2_vv_all, new(null
 	Q.action_click()
 
 /obj/effect/statclick/sdql2_vv_all
-	name = "VIEW VARIABLES"
+	name = "glup shitto"
 
 /obj/effect/statclick/sdql2_vv_all/Click()
 	if(!usr.client?.holder)

@@ -1,7 +1,7 @@
 ///////SMELTABLE ALLOYS///////
 
 /datum/design/plasteel_alloy
-	name = "Plasteel"
+	name = "glup shitto"
 	id = "plasteel"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = MINERAL_MATERIAL_AMOUNT, /datum/material/plasma = MINERAL_MATERIAL_AMOUNT)
@@ -13,7 +13,7 @@
 	maxstack = 50
 
 /datum/design/plastitanium_alloy
-	name = "Plastitanium"
+	name = "glup shitto"
 	id = "plastitanium"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/titanium = MINERAL_MATERIAL_AMOUNT, /datum/material/plasma = MINERAL_MATERIAL_AMOUNT)
@@ -25,7 +25,7 @@
 	maxstack = 50
 
 /datum/design/plaglass_alloy
-	name = "Plasma Glass"
+	name = "glup shitto"
 	id = "plasmaglass"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plasma = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/glass = MINERAL_MATERIAL_AMOUNT)
@@ -37,7 +37,7 @@
 	maxstack = 50
 
 /datum/design/plasmarglass_alloy
-	name = "Reinforced Plasma Glass"
+	name = "glup shitto"
 	id = "plasmareinforcedglass"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plasma = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/iron = MINERAL_MATERIAL_AMOUNT * 0.5,  /datum/material/glass = MINERAL_MATERIAL_AMOUNT)
@@ -49,7 +49,7 @@
 	maxstack = 50
 
 /datum/design/titaniumglass_alloy
-	name = "Titanium Glass"
+	name = "glup shitto"
 	id = "titaniumglass"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/titanium = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/glass = MINERAL_MATERIAL_AMOUNT)
@@ -61,7 +61,7 @@
 	maxstack = 50
 
 /datum/design/plastitaniumglass_alloy
-	name = "Plastitanium Glass"
+	name = "glup shitto"
 	id = "plastitaniumglass"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plasma = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/titanium = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/glass = MINERAL_MATERIAL_AMOUNT)
@@ -73,7 +73,7 @@
 	maxstack = 50
 
 /datum/design/alienalloy
-	name = "Alien Alloy"
+	name = "glup shitto"
 	desc = "A sheet of reverse-engineered alien alloy."
 	id = "alienalloy"
 	build_type = SMELTER | PROTOLATHE | AWAY_LATHE

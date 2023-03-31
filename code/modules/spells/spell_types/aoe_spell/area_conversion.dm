@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/aoe/area_conversion
-	name = "Area Conversion"
+	name = "glup shitto"
 	desc = "This spell instantly converts a small area around you."
 	background_icon_state = "bg_cult"
 	overlay_icon_state = "bg_cult_border"

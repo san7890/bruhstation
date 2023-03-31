@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(movement)
-	name = "Movement Loops"
+	name = "glup shitto"
 	flags = SS_NO_INIT|SS_BACKGROUND|SS_TICKER
 	wait = 1 //Fire each tick
 	/*

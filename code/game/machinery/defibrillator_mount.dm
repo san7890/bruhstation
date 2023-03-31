@@ -2,7 +2,7 @@
 //You can activate the mount with an empty hand to grab the paddles
 //Not being adjacent will cause the paddles to snap back
 /obj/machinery/defibrillator_mount
-	name = "defibrillator mount"
+	name = "glup shitto"
 	desc = "Holds defibrillators. You can grab the paddles if one is mounted."
 	icon = 'icons/obj/machines/defib_mount.dmi'
 	icon_state = "defibrillator_mount"
@@ -177,7 +177,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/defibrillator_mount, 28)
 	update_appearance()
 
 /obj/machinery/defibrillator_mount/charging
-	name = "PENLITE defibrillator mount"
+	name = "glup shitto"
 	desc = "Holds defibrillators. You can grab the paddles if one is mounted. This PENLITE variant also allows for slow, passive recharging of the defibrillator."
 	icon_state = "penlite_mount"
 	use_power = IDLE_POWER_USE
@@ -208,7 +208,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/defibrillator_mount, 28)
 
 //wallframe, for attaching the mounts easily
 /obj/item/wallframe/defib_mount
-	name = "unhooked defibrillator mount"
+	name = "glup shitto"
 	desc = "A frame for a defibrillator mount. Once placed, it can be removed with a wrench."
 	icon = 'icons/obj/machines/defib_mount.dmi'
 	icon_state = "defibrillator_mount"
@@ -218,7 +218,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/defibrillator_mount, 28)
 	pixel_shift = 28
 
 /obj/item/wallframe/defib_mount/charging
-	name = "unhooked PENLITE defibrillator mount"
+	name = "glup shitto"
 	desc = "A frame for a PENLITE defibrillator mount. Unlike the normal mount, it can passively recharge the unit inside."
 	icon_state = "penlite_mount"
 	custom_materials = list(/datum/material/iron = 300, /datum/material/glass = 100, /datum/material/silver = 50)

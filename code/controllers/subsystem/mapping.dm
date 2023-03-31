@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(mapping)
-	name = "Mapping"
+	name = "glup shitto"
 	init_order = INIT_ORDER_MAPPING
 	runlevels = ALL
 

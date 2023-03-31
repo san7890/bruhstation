@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/cursed_items //fashion disasters
-	name = "Cursed Items"
+	name = "glup shitto"
 	weight = 3
 	typepath = /datum/round_event/wizard/cursed_items
 	max_occurrences = 3

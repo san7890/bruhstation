@@ -1,151 +1,151 @@
 //Snow Valley Areas//--
 
 /area/awaymission/snowdin
-	name = "Snowdin"
+	name = "glup shitto"
 	icon_state = "awaycontent1"
 	requires_power = FALSE
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 
 /area/awaymission/snowdin/outside
-	name = "Snowdin Tundra Plains"
+	name = "glup shitto"
 	icon_state = "awaycontent25"
 
 /area/awaymission/snowdin/post
-	name = "Snowdin Outpost"
+	name = "glup shitto"
 	icon_state = "awaycontent2"
 	requires_power = TRUE
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 
 /area/awaymission/snowdin/post/medbay
-	name = "Snowdin Outpost - Medbay"
+	name = "glup shitto"
 	icon_state = "awaycontent3"
 
 /area/awaymission/snowdin/post/secpost
-	name = "Snowdin Outpost - Security Checkpoint"
+	name = "glup shitto"
 	icon_state = "awaycontent4"
 
 /area/awaymission/snowdin/post/hydro
-	name = "Snowdin Outpost - Hydroponics"
+	name = "glup shitto"
 	icon_state = "awaycontent5"
 
 /area/awaymission/snowdin/post/messhall
-	name = "Snowdin Outpost - Mess Hall"
+	name = "glup shitto"
 	icon_state = "awaycontent6"
 
 /area/awaymission/snowdin/post/gateway
-	name = "Snowdin Outpost - Gateway"
+	name = "glup shitto"
 	icon_state = "awaycontent7"
 
 /area/awaymission/snowdin/post/dorm
-	name = "Snowdin Outpost - Dorms"
+	name = "glup shitto"
 	icon_state = "awaycontent8"
 
 /area/awaymission/snowdin/post/kitchen
-	name = "Snowdin Outpost - Kitchen"
+	name = "glup shitto"
 	icon_state = "awaycontent9"
 
 /area/awaymission/snowdin/post/engineering
-	name = "Snowdin Outpost - Engineering"
+	name = "glup shitto"
 	icon_state = "awaycontent10"
 
 /area/awaymission/snowdin/post/custodials
-	name = "Snowdin Outpost - Custodials"
+	name = "glup shitto"
 	icon_state = "awaycontent11"
 
 /area/awaymission/snowdin/post/research
-	name = "Snowdin Outpost - Research Area"
+	name = "glup shitto"
 	icon_state = "awaycontent12"
 
 /area/awaymission/snowdin/post/garage
-	name = "Snowdin Outpost - Garage"
+	name = "glup shitto"
 	icon_state = "awaycontent13"
 
 /area/awaymission/snowdin/post/minipost
-	name = "Snowdin Outpost - Recon Post"
+	name = "glup shitto"
 	icon_state = "awaycontent19"
 
 /area/awaymission/snowdin/post/mining_main
-	name = "Snowdin Outpost - Mining Post"
+	name = "glup shitto"
 	icon_state = "awaycontent21"
 
 /area/awaymission/snowdin/post/mining_main/mechbay
-	name = "Snowdin Outpost - Mining Post Mechbay"
+	name = "glup shitto"
 	icon_state = "awaycontent25"
 
 /area/awaymission/snowdin/post/mining_main/robotics
-	name = "Snowdin Outpost - Mining Post Robotics"
+	name = "glup shitto"
 	icon_state = "awaycontent26"
 
 /area/awaymission/snowdin/post/cavern1
-	name = "Snowdin Outpost - Cavern Outpost 1"
+	name = "glup shitto"
 	icon_state = "awaycontent27"
 
 /area/awaymission/snowdin/post/cavern2
-	name = "Snowdin Outpost - Cavern Outpost 2"
+	name = "glup shitto"
 	icon_state = "awaycontent28"
 
 /area/awaymission/snowdin/post/mining_dock
-	name = "Snowdin Outpost - Underground Mine Post"
+	name = "glup shitto"
 	icon_state = "awaycontent22"
 
 /area/awaymission/snowdin/post/broken_shuttle
-	name = "Snowdin Outpost - Broken Transit Shuttle"
+	name = "glup shitto"
 	icon_state = "awaycontent20"
 	requires_power = FALSE
 
 /area/awaymission/snowdin/igloo
-	name = "Snowdin Igloos"
+	name = "glup shitto"
 	icon_state = "awaycontent14"
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 
 /area/awaymission/snowdin/cave
-	name = "Snowdin Caves"
+	name = "glup shitto"
 	icon_state = "awaycontent15"
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 
 /area/awaymission/snowdin/cave/cavern
-	name = "Snowdin Depths"
+	name = "glup shitto"
 	icon_state = "awaycontent23"
 
 /area/awaymission/snowdin/cave/mountain
-	name = "Snowdin Mountains"
+	name = "glup shitto"
 	icon_state = "awaycontent24"
 
 
 /area/awaymission/snowdin/base
-	name = "Snowdin Main Base"
+	name = "glup shitto"
 	icon_state = "awaycontent16"
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 	requires_power = TRUE
 
 /area/awaymission/snowdin/dungeon1
-	name = "Snowdin Depths"
+	name = "glup shitto"
 	icon_state = "awaycontent17"
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 
 /area/awaymission/snowdin/sekret
-	name = "Snowdin Operations"
+	name = "glup shitto"
 	icon_state = "awaycontent18"
 	static_lighting = TRUE
 	base_lighting_alpha = 0
 	requires_power = TRUE
 
 /area/shuttle/snowdin/elevator1
-	name = "Excavation Elevator"
+	name = "glup shitto"
 
 /area/shuttle/snowdin/elevator2
-	name = "Mining Elevator"
+	name = "glup shitto"
 
 //shuttle console for elevators//
 
 /obj/machinery/computer/shuttle/snowdin/mining
-	name = "shuttle console"
+	name = "glup shitto"
 	desc = "A shuttle control computer."
 	icon_screen = "shuttle"
 	icon_keyboard = "tech_key"
@@ -161,90 +161,90 @@
 /////////// papers
 
 /obj/item/paper/crumpled/ruins/snowdin/foreshadowing
-	name = "scribbled note"
+	name = "glup shitto"
 	default_raw_text = {"Something's gone VERY wrong here. Jouslen has been mumbling about some weird shit in his cabin during the night and he seems always tired when we're working. I tried to confront him about it and he blew up on me,
 		telling me to mind my own business. I reported him to the officer, said he'd look into it. We only got another 2 months here before we're pulled for another assignment, so this shit can't go any quicker..."}
 
 /obj/item/paper/crumpled/ruins/snowdin/misc1
-	name = "Mission Prologue"
+	name = "glup shitto"
 	default_raw_text = {"Holy shit, what a rush! Those Nanotrasen bastards didn't even know what hit 'em! All five of us dropped in right on the captain, didn't even have time to yell! We were in and out with that disk in mere minutes!
 	Crew didn't even know what was happening till the delta alert went down and by then we were already gone. We got a case to drink on the way home to celebrate, fuckin' job well done!"}
 
 /obj/item/paper/crumpled/ruins/snowdin/dontdeadopeninside
-	name = "scribbled note"
+	name = "glup shitto"
 	default_raw_text = {"If you're reading this: GET OUT! The mining go on here has unearthed something that was once-trapped by the layers of ice on this hell-hole. The overseer and Jouslen have gone missing. The officer is
 		keeping the rest of us on lockdown and I swear to god I keep hearing strange noises outside the walls at night. The gateway link has gone dead and without a supply of resources from Central, we're left
 		for dead here. We haven't heard anything back from the mining squad either, so I can only assume whatever the fuck they unearthed got them first before coming for us. I don't want to die here..."}
 
 /obj/item/paper/fluff/awaymissions/snowdin/saw_usage
-	name = "SAW Usage"
+	name = "glup shitto"
 	default_raw_text = "YOU SEEN IVAN, WHEN YOU HOLD SAAW LIKE PEESTOL, YOU STRONGER THAN RECOIL FOR FEAR OF HITTING FACE!"
 
 /obj/item/paper/fluff/awaymissions/snowdin/research_feed
-	name = "Research Feed"
+	name = "glup shitto"
 	default_raw_text = {"<i>A page full of graphs and other detailed information on the seismic activity of the surrounding area.</i>"}
 
 //profile of each of the old crewmembers for the outpost
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/overseer
-	name = "Personnel Record AOP#01"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>Caleb Reed<br><b>Age:</b>38<br><b>Gender:</b>Male<br><b>On-Site Profession:</b>Outpost Overseer<br><br><center><b>Information</b></center><br><center>Caleb Reed lead several expeditions
 		among uncharted planets in search of plasma for Nanotrasen, scouring from hot savanas to freezing arctics. Track record is fairly clean with only incidient including the loss of two researchers during the
 		expedition of <b>_______</b>, where mis-used of explosive ordinance for tunneling causes a cave-in."}
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/sec1
-	name = "Personnel Record AOP#02"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>James Reed<br><b>Age:</b>43<br><b>Gender:</b>Male<br><b>On-Site Profession:</b>Outpost Security<br><br><center><b>Information</b></center><br><center>James Reed has been a part
 		of Nanotrasen's security force for over 20 years, first joining in 22XX. A clean record and unwavering loyalty to the corperation through numerous deployments to various sites makes him a valuable asset to Natotrasen
 		when it comes to keeping the peace while prioritizing Nanotrasen privacy matters. "}
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/hydro1
-	name = "Personnel Record AOP#03"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>Katherine Esterdeen<br><b>Age:</b>27<br><b>Gender:</b>Female<br><b>On-Site Profession:</b>Outpost Botanist<br><br><center><b>Information</b></center><br><center>Katherine Esterdeen is a recent
 		graduate with a major in Botany and a PH.D in Ecology. Having a clean record and eager to work, Esterdeen seems to be the right fit for maintaining plants in the middle of nowhere."}
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/engi1
-	name = "Personnel Record AOP#04"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>Rachel Migro<br><b>Age:</b>35<br><b>Gender:</b>Female<br><b>On-Site Profession:</b>Outpost Engineer<br><br><center><b>Information</b></center><br><center>Recently certified to be a full-time Journeyman, Rachel has
 		been assigned various construction projects in the past 5 years. Competent and has no past infractions, should be of little concern."}
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/research1
-	name = "Personnel Record AOP#05"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>Jacob Ullman<br><b>Age:</b>27<br><b>Gender:</b>Male<br><b>On-Site Profession:</b>Outpost Researcher<br><br><center><b>Information</b></center><br><center>"}
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/research2
-	name = "Personnel Record AOP#06"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>Elizabeth Queef<br><b>Age:</b>28<br><b>Gender:</b>Female<br><b>On-Site Profession:</b>Outpost Researcher<br><br><center><b>Information</b></center><br><center>"}
 
 /obj/item/paper/fluff/awaymissions/snowdin/profile/research3
-	name = "Personnel Record AOP#07"
+	name = "glup shitto"
 	default_raw_text = {"<b><center>Personnel Log</b></center><br><br><b>Name:</b>Jouslen McGee<br><b>Age:</b>38<br><b>Gender:</b>Male<br><b>On-Site Profession:</b>Outpost Researcher<br><br><center><b>Information</b></center><br><center>"}
 
 /obj/item/paper/fluff/awaymissions/snowdin/secnotice
-	name = "Security Notice"
+	name = "glup shitto"
 	default_raw_text = {"YOu have been assigned to this Arctic Post with intention of protecting Nanotrasen assets and ensuring vital information is kept secure while the stationed crew obeys protocol. The picked
 		staff for this post have been pre-screened with no prior incidients on record, but incase of an issue you have been given a single holding cell and instructions to contact Central to terminate the
 		offending crewmember."}
 
 /obj/item/paper/fluff/awaymissions/snowdin/mining
-	name = "Assignment Notice"
+	name = "glup shitto"
 	default_raw_text = {"This cold-ass planet is the new-age equivalent of striking gold. Huge deposits of plasma and literal streams of plasma run through the caverns under all this ice and we're here to mine it all.\
 		Nanotrasen pays by the pound, so get minin' boys!"}
 
 /obj/item/paper/crumpled/ruins/snowdin/lootstructures
-	name = "scribbled note"
+	name = "glup shitto"
 	default_raw_text = {"There's some ruins scattered along the cavern, their walls seem to be made of some sort of super-condensed mixture of ice and snow. We've already barricaded up the ones we've found so far,
 		since we keep hearing some strange noises from inside. Besides, what sort of fool would wrecklessly run into ancient ruins full of monsters for some old gear, anyway?"}
 
 /obj/item/paper/crumpled/ruins/snowdin/shovel
-	name = "shoveling duties"
+	name = "glup shitto"
 	default_raw_text = {"Snow piles up bad here all-year round, even worse during the winter months. Keeping a constant rotation of shoveling that shit out of the way of the airlocks and keeping the paths decently clear
 	is a good step towards not getting stuck walking through knee-deep snow."}
 
 //holo disk recording//--
 
 /obj/item/disk/holodisk/snowdin/weregettingpaidright
-	name = "Conversation #AOP#23"
+	name = "glup shitto"
 	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Jacob Ullman
@@ -276,7 +276,7 @@
 	DELAY 30;"}
 
 /obj/item/disk/holodisk/snowdin/welcometodie
-	name = "Conversation #AOP#1"
+	name = "glup shitto"
 	preset_image_type = /datum/preset_holoimage/corgi
 	preset_record_text = {"
 	NAME Friendly AI Unit
@@ -291,7 +291,7 @@
 	DELAY 20;"}
 
 /obj/item/disk/holodisk/snowdin/overrun
-	name = "Conversation #AOP#55"
+	name = "glup shitto"
 	preset_image_type = /datum/preset_holoimage/nanotrasenprivatesecurity
 	preset_record_text = {"
 	NAME James Reed
@@ -322,7 +322,7 @@
 	DELAY 20;"}
 
 /obj/item/disk/holodisk/snowdin/ripjacob
-	name = "Conversation #AOP#62"
+	name = "glup shitto"
 	preset_image_type = /datum/preset_holoimage/researcher
 	preset_record_text = {"
 	NAME Jacob Ullman
@@ -367,13 +367,13 @@
 //special items//--
 
 /obj/structure/barricade/wooden/snowed
-	name = "crude plank barricade"
+	name = "glup shitto"
 	desc = "This space is blocked off by a wooden barricade. It seems to be covered in a layer of snow."
 	icon_state = "woodenbarricade-snow"
 	max_integrity = 125
 
 /obj/item/clothing/under/syndicate/coldres
-	name = "insulated tactical turtleneck"
+	name = "glup shitto"
 	desc = "A nondescript and slightly suspicious-looking turtleneck with digital camouflage cargo pants. The interior has been padded with special insulation for both warmth and protection."
 	armor_type = /datum/armor/syndicate_coldres
 	cold_protection = CHEST|GROIN|ARMS|LEGS
@@ -387,17 +387,17 @@
 	acid = 25
 
 /obj/item/clothing/shoes/combat/coldres
-	name = "insulated combat boots"
+	name = "glup shitto"
 	desc = "High speed, low drag combat boots, now with an added layer of insulation."
 	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 
 /obj/item/gun/magic/wand/fireball/inert
-	name = "weakened wand of fireball"
+	name = "glup shitto"
 	desc = "This wand shoots scorching balls of fire that explode into destructive flames. The years of the cold have weakened the magic inside the wand."
 	max_charges = 4
 
 /obj/item/gun/magic/wand/resurrection/inert
-	name = "weakened wand of healing"
+	name = "glup shitto"
 	desc = "This wand uses healing magics to heal and revive. The years of the cold have weakened the magic inside the wand."
 	max_charges = 5
 

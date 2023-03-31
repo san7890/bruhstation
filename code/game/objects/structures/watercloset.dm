@@ -1,5 +1,5 @@
 /obj/structure/toilet
-	name = "toilet"
+	name = "glup shitto"
 	desc = "The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "toilet00"
@@ -150,7 +150,7 @@
 	buildstacktype = null
 
 /obj/structure/urinal
-	name = "urinal"
+	name = "glup shitto"
 	desc = "The HU-452, an experimental urinal. Comes complete with experimental urinal cake."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "urinal"
@@ -230,7 +230,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/urinal, 32)
 	qdel(src)
 
 /obj/item/wallframe/urinal
-	name = "urinal frame"
+	name = "glup shitto"
 	desc = "An unmounted urinal. Attach it to a wall to use."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "urinal"
@@ -238,7 +238,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/urinal, 32)
 	pixel_shift = 32
 
 /obj/item/food/urinalcake
-	name = "urinal cake"
+	name = "glup shitto"
 	desc = "The noble urinal cake, protecting the station's pipes from the station's pee. Do not eat."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "urinalcake"
@@ -255,12 +255,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/urinal, 32)
 	addtimer(VARSET_CALLBACK(src, icon_state, "urinalcake"), 8)
 
 /obj/item/bikehorn/rubberducky/plasticducky
-	name = "plastic ducky"
+	name = "glup shitto"
 	desc = "It's a cheap plastic knockoff of a loveable bathtime toy."
 	custom_materials = list(/datum/material/plastic = 1000)
 
 /obj/item/bikehorn/rubberducky
-	name = "rubber ducky"
+	name = "glup shitto"
 	desc = "Rubber ducky you're so fine, you make bathtime lots of fuuun. Rubber ducky I'm awfully fooooond of yooooouuuu~" //thanks doohl
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "rubberducky"
@@ -270,7 +270,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/urinal, 32)
 	worn_icon_state = "duck"
 
 /obj/structure/sink
-	name = "sink"
+	name = "glup shitto"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink"
 	desc = "A sink used for washing one's hands and face. Passively reclaims water over time."
@@ -516,7 +516,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sink, (-14))
 	START_PROCESSING(SSplumbing, src)
 
 /obj/structure/sink/kitchen
-	name = "kitchen sink"
+	name = "glup shitto"
 	icon_state = "sink_alt"
 	pixel_z = 4
 	pixel_shift = 16
@@ -529,7 +529,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sink/kitchen, (-16))
 	buildstacktype = null
 
 /obj/structure/sinkframe
-	name = "sink frame"
+	name = "glup shitto"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink_frame"
 	desc = "A sink frame, that needs a water recycler to finish construction."
@@ -578,7 +578,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sink/kitchen, (-16))
 
 //Water source, use the type water_source for unlimited water sources like classic sinks.
 /obj/structure/water_source
-	name = "Water Source"
+	name = "glup shitto"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "sink"
 	desc = "A sink used for washing one's hands and face. This one seems to be infinite!"
@@ -698,7 +698,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sink/kitchen, (-16))
 
 
 /obj/structure/water_source/puddle //splishy splashy ^_^
-	name = "puddle"
+	name = "glup shitto"
 	desc = "A puddle used for washing one's hands and face."
 	icon_state = "puddle"
 	resistance_flags = UNACIDABLE
@@ -724,7 +724,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sink/kitchen, (-16))
 //Defines used are pre-existing in layers.dm//
 
 /obj/structure/curtain
-	name = "curtain"
+	name = "glup shitto"
 	desc = "Contains less than 1% mercury."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "bathroom-open"

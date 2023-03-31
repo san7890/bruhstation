@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/invincible //Boolet Proof
-	name = "Invincibility"
+	name = "glup shitto"
 	weight = 3
 	typepath = /datum/round_event/wizard/invincible
 	max_occurrences = 5

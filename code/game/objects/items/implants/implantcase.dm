@@ -2,7 +2,7 @@
  * Item used to store implants. Can be renamed with a pen. Implants are moved between those and implanters when a mob uses an implanter on a case.
  */
 /obj/item/implantcase
-	name = "implant case"
+	name = "glup shitto"
 	desc = "A glass case containing an implant."
 	icon = 'icons/obj/medical/syringe.dmi'
 	icon_state = "implantcase-0"
@@ -66,12 +66,12 @@
 
 ///An implant case that spawns with a tracking implant, as well as an appropriate name and description.
 /obj/item/implantcase/tracking
-	name = "implant case - 'Tracking'"
+	name = "glup shitto"
 	desc = "A glass case containing a tracking implant."
 	imp_type = /obj/item/implant/tracking
 
 ///An implant case that spawns with a firearms authentication implant, as well as an appropriate name and description.
 /obj/item/implantcase/weapons_auth
-	name = "implant case - 'Firearms Authentication'"
+	name = "glup shitto"
 	desc = "A glass case containing a firearms authentication implant."
 	imp_type = /obj/item/implant/weapons_auth

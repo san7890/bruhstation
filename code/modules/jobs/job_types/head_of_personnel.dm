@@ -48,7 +48,7 @@
 
 
 /datum/outfit/job/hop
-	name = "Head of Personnel"
+	name = "glup shitto"
 	jobtype = /datum/job/head_of_personnel
 
 	id = /obj/item/card/id/advanced/silver
@@ -83,7 +83,7 @@
 		break
 
 /obj/item/paper/fluff/ids_for_dummies
-	name = "Memo: New IDs and You"
+	name = "glup shitto"
 	desc = "It looks like this was left by the last Head of Personnel to man this station. It explains some information about new IDs."
 	default_raw_text = {"
 <h1>Dummy's Guide To New IDs</h1>

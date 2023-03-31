@@ -32,7 +32,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 
 /// The default.
 /datum/air_alarm_mode/filtering
-	name = "Filtering"
+	name = "glup shitto"
 	desc = "Scrubs out contaminants"
 	danger = FALSE
 
@@ -50,7 +50,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_widenet(FALSE)
 
 /datum/air_alarm_mode/contaminated
-	name = "Contaminated"
+	name = "glup shitto"
 	desc = "Scrubs out ALL contaminants quickly"
 	danger = FALSE
 
@@ -70,7 +70,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_widenet(TRUE)
 
 /datum/air_alarm_mode/draught
-	name = "Draught"
+	name = "glup shitto"
 	desc = "Siphons out air while replacing"
 	danger = FALSE
 
@@ -87,7 +87,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_scrubbing(ATMOS_DIRECTION_SIPHONING)
 
 /datum/air_alarm_mode/refill
-	name = "Refill"
+	name = "glup shitto"
 	desc = "Triple vent output"
 	danger = TRUE
 
@@ -106,7 +106,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_scrubbing(ATMOS_DIRECTION_SCRUBBING)
 
 /datum/air_alarm_mode/cycle
-	name = "Cycle"
+	name = "glup shitto"
 	desc = "Siphons air before replacing"
 	danger = TRUE
 
@@ -140,7 +140,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_widenet(FALSE)
 
 /datum/air_alarm_mode/siphon
-	name = "Siphon"
+	name = "glup shitto"
 	desc = "Siphons air out of the room"
 	danger = TRUE
 
@@ -155,7 +155,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_scrubbing(ATMOS_DIRECTION_SIPHONING)
 
 /datum/air_alarm_mode/panic_siphon
-	name = "Panic Siphon"
+	name = "glup shitto"
 	desc = "Siphons air out of the room quickly"
 	danger = TRUE
 
@@ -170,7 +170,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.set_scrubbing(ATMOS_DIRECTION_SIPHONING)
 
 /datum/air_alarm_mode/off
-	name = "Off"
+	name = "glup shitto"
 	desc = "Shuts off vents and scrubbers"
 	danger = FALSE
 
@@ -184,7 +184,7 @@ GLOBAL_LIST_INIT(air_alarm_modes, init_air_alarm_modes())
 		scrubber.update_appearance(UPDATE_ICON)
 
 /datum/air_alarm_mode/flood
-	name = "Flood"
+	name = "glup shitto"
 	desc = "Shuts off scrubbers and opens vents"
 	danger = TRUE
 	emag = TRUE

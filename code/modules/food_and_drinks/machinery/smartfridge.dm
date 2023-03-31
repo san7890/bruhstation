@@ -2,7 +2,7 @@
 //  SmartFridge.  Much todo
 // -------------------------
 /obj/machinery/smartfridge
-	name = "smartfridge"
+	name = "glup shitto"
 	desc = "Keeps cold things cold and hot things cold."
 	icon = 'icons/obj/vending.dmi'
 	icon_state = "smartfridge"
@@ -263,7 +263,7 @@
 //  Drying Rack 'smartfridge'
 // ----------------------------
 /obj/machinery/smartfridge/drying_rack
-	name = "drying rack"
+	name = "glup shitto"
 	desc = "A wooden contraption, used to dry plant products, food and hide."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "drying_rack"
@@ -365,7 +365,7 @@
 //  Bar drink smartfridge
 // ----------------------------
 /obj/machinery/smartfridge/drinks
-	name = "drink showcase"
+	name = "glup shitto"
 	desc = "A refrigerated storage unit for tasty tasty alcohol."
 	base_build_path = /obj/machinery/smartfridge/drinks
 
@@ -391,7 +391,7 @@
 // Xenobiology Slime-Extract Smartfridge
 // -------------------------------------
 /obj/machinery/smartfridge/extract
-	name = "smart slime extract storage"
+	name = "glup shitto"
 	desc = "A refrigerated storage unit for slime extracts."
 	base_build_path = /obj/machinery/smartfridge/extract
 
@@ -409,7 +409,7 @@
 // Cytology Petri Dish Smartfridge
 // -------------------------------------
 /obj/machinery/smartfridge/petri
-	name = "smart petri dish storage"
+	name = "glup shitto"
 	desc = "A refrigerated storage unit for petri dishes."
 	base_build_path = /obj/machinery/smartfridge/petri
 
@@ -425,7 +425,7 @@
 // Organ Surgery Smartfridge
 // -------------------------
 /obj/machinery/smartfridge/organ
-	name = "smart organ storage"
+	name = "glup shitto"
 	desc = "A refrigerated storage unit for organ storage."
 	max_n_of_items = 20 //vastly lower to prevent processing too long
 	base_build_path = /obj/machinery/smartfridge/organ
@@ -472,7 +472,7 @@
 // Chemistry Medical Smartfridge
 // -----------------------------
 /obj/machinery/smartfridge/chemistry
-	name = "smart chemical storage"
+	name = "glup shitto"
 	desc = "A refrigerated storage unit for medicine storage."
 	base_build_path = /obj/machinery/smartfridge/chemistry
 
@@ -514,7 +514,7 @@
 // Virology Medical Smartfridge
 // ----------------------------
 /obj/machinery/smartfridge/chemistry/virology
-	name = "smart virus storage"
+	name = "glup shitto"
 	desc = "A refrigerated storage unit for volatile sample storage."
 	base_build_path = /obj/machinery/smartfridge/chemistry/virology
 
@@ -533,7 +533,7 @@
 // Disk """fridge"""
 // ----------------------------
 /obj/machinery/smartfridge/disks
-	name = "disk compartmentalizer"
+	name = "glup shitto"
 	desc = "A machine capable of storing a variety of disks. Denoted by most as the DSU (disk storage unit)."
 	icon_state = "disktoaster"
 	pass_flags = PASSTABLE

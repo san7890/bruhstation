@@ -1,5 +1,5 @@
 /obj/item/rwd
-	name = "rapid wiring device"
+	name = "glup shitto"
 	desc = "A device used to rapidly lay cable & pick up stray cable pieces laying around."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rcl-0"
@@ -254,7 +254,7 @@
 	current_amount = 210
 
 /obj/item/rwd/admin
-	name = "admin RWD"
+	name = "glup shitto"
 	max_amount = INFINITY
 	current_amount = INFINITY
 

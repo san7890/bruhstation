@@ -70,17 +70,17 @@
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/reaction/chocolatebar
-	name = "Chocolate bar"
+	name = "glup shitto"
 	reaction = /datum/chemical_reaction/food/chocolate_bar3
 	result = /obj/item/food/chocolatebar
 	category = CAT_PASTRY
 
 /datum/crafting_recipe/food/reaction/chocolatebar/chocomilk
-	name = "Chocolate bar (choco milk)"
+	name = "glup shitto"
 	reaction = /datum/chemical_reaction/food/chocolate_bar2
 
 /datum/crafting_recipe/food/reaction/chocolatebar/vegan
-	name = "Chocolate bar (vegan)"
+	name = "glup shitto"
 	reaction = /datum/chemical_reaction/food/chocolate_bar
 
 /datum/crafting_recipe/food/reaction/soysauce
@@ -113,13 +113,13 @@
 	category = CAT_BREAD
 
 /datum/crafting_recipe/food/reaction/cakebatter
-	name = "Cake batter"
+	name = "glup shitto"
 	reaction = /datum/chemical_reaction/food/cakebatter
 	result = /obj/item/food/cakebatter
 	category = CAT_BREAD
 
 /datum/crafting_recipe/food/reaction/cakebatter/vegan
-	name = "Cake batter (vegan)"
+	name = "glup shitto"
 	reaction = /datum/chemical_reaction/food/cakebatter/vegan
 
 /datum/crafting_recipe/food/reaction/pancakebatter

@@ -200,7 +200,7 @@
 
 /// Status effect for being fully drunk (not tipsy).
 /atom/movable/screen/alert/status_effect/drunk
-	name = "Drunk"
+	name = "glup shitto"
 	desc = "All that alcohol you've been drinking is impairing your speech, \
 		motor skills, and mental cognition. Make sure to act like it."
 	icon_state = "drunk"

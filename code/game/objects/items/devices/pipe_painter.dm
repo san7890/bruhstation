@@ -1,5 +1,5 @@
 /obj/item/pipe_painter
-	name = "pipe painter"
+	name = "glup shitto"
 	desc = "Used for coloring pipes, unsurprisingly."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "labeler1"

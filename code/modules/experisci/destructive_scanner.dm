@@ -4,7 +4,7 @@
  * Placed machine that handles destructive experiments (but can also do the normal ones)
  */
 /obj/machinery/destructive_scanner
-	name = "Experimental Destructive Scanner"
+	name = "glup shitto"
 	desc = "A much larger version of the hand-held scanner, a charred label warns about its destructive capabilities."
 	icon = 'icons/obj/machines/experisci.dmi'
 	icon_state = "tube_open"

@@ -1,5 +1,5 @@
 /obj/structure/chair
-	name = "chair"
+	name = "glup shitto"
 	desc = "You sit in this. Either by will or force."
 	icon = 'icons/obj/chairs.dmi'
 	icon_state = "chair"
@@ -137,7 +137,7 @@
 
 /obj/structure/chair/wood
 	icon_state = "wooden_chair"
-	name = "wooden chair"
+	name = "glup shitto"
 	desc = "Old is never too old to not be in fashion."
 	resistance_flags = FLAMMABLE
 	max_integrity = 70
@@ -153,7 +153,7 @@
 	item_chair = /obj/item/chair/wood/wings
 
 /obj/structure/chair/comfy
-	name = "comfy chair"
+	name = "glup shitto"
 	desc = "It looks comfy."
 	icon_state = "comfychair"
 	color = rgb(255, 255, 255)
@@ -219,7 +219,7 @@
 	color = rgb(193, 248, 104)
 
 /obj/structure/chair/comfy/shuttle
-	name = "shuttle seat"
+	name = "glup shitto"
 	desc = "A comfortable, secure seat. It has a more sturdy looking buckling system, for smoother flights."
 	icon_state = "shuttle_chair"
 	buildstacktype = /obj/item/stack/sheet/mineral/titanium
@@ -230,10 +230,10 @@
 	. = ..()
 
 /obj/structure/chair/comfy/shuttle/tactical
-	name = "tactical chair"
+	name = "glup shitto"
 
 /obj/structure/chair/comfy/carp
-	name = "carpskin chair"
+	name = "glup shitto"
 	desc = "A luxurious chair, the many purple scales reflect the light in a most pleasing manner."
 	icon_state = "carp_chair"
 	buildstacktype = /obj/item/stack/sheet/animalhide/carp
@@ -256,7 +256,7 @@
 	. = ..()
 
 /obj/structure/chair/office/tactical
-	name = "tactical swivel chair"
+	name = "glup shitto"
 
 /obj/structure/chair/office/light
 	icon_state = "officechair_white"
@@ -264,7 +264,7 @@
 //Stool
 
 /obj/structure/chair/stool
-	name = "stool"
+	name = "glup shitto"
 	desc = "Apply butt."
 	icon_state = "stool"
 	can_buckle = FALSE
@@ -294,7 +294,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool, 0)
 	return ..()
 
 /obj/structure/chair/stool/bar
-	name = "bar stool"
+	name = "glup shitto"
 	desc = "It has some unsavory stains on it..."
 	icon_state = "bar"
 	item_chair = /obj/item/chair/stool/bar
@@ -302,7 +302,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool, 0)
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 
 /obj/structure/chair/stool/bamboo
-	name = "bamboo stool"
+	name = "glup shitto"
 	desc = "A makeshift bamboo stool with a rustic look."
 	icon_state = "bamboo_stool"
 	resistance_flags = FLAMMABLE
@@ -312,7 +312,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	item_chair = /obj/item/chair/stool/bamboo
 
 /obj/item/chair
-	name = "chair"
+	name = "glup shitto"
 	desc = "Bar brawl essential."
 	icon = 'icons/obj/chairs.dmi'
 	icon_state = "chair_toppled"
@@ -402,20 +402,20 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	origin_type = /obj/structure/chair/greyscale
 
 /obj/item/chair/stool
-	name = "stool"
+	name = "glup shitto"
 	icon_state = "stool_toppled"
 	inhand_icon_state = "stool"
 	origin_type = /obj/structure/chair/stool
 	break_chance = 0 //It's too sturdy.
 
 /obj/item/chair/stool/bar
-	name = "bar stool"
+	name = "glup shitto"
 	icon_state = "bar_toppled"
 	inhand_icon_state = "stool_bar"
 	origin_type = /obj/structure/chair/stool/bar
 
 /obj/item/chair/stool/bamboo
-	name = "bamboo stool"
+	name = "glup shitto"
 	icon_state = "bamboo_stool"
 	inhand_icon_state = "stool_bamboo"
 	hitsound = 'sound/weapons/genhit1.ogg'
@@ -426,7 +426,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	return //sturdy enough to ignore a god
 
 /obj/item/chair/wood
-	name = "wooden chair"
+	name = "glup shitto"
 	icon_state = "wooden_chair_toppled"
 	inhand_icon_state = "woodenchair"
 	resistance_flags = FLAMMABLE
@@ -444,13 +444,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	origin_type = /obj/structure/chair/wood/wings
 
 /obj/structure/chair/old
-	name = "strange chair"
+	name = "glup shitto"
 	desc = "You sit in this. Either by will or force. Looks REALLY uncomfortable."
 	icon_state = "chairold"
 	item_chair = null
 
 /obj/structure/chair/bronze
-	name = "brass chair"
+	name = "glup shitto"
 	desc = "A spinny chair made of bronze. It has little cogs for wheels!"
 	anchored = FALSE
 	icon_state = "brass_chair"
@@ -489,7 +489,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 		STOP_PROCESSING(SSfastprocess, src)
 
 /obj/structure/chair/mime
-	name = "invisible chair"
+	name = "glup shitto"
 	desc = "The mime needs to sit down and shut up."
 	anchored = FALSE
 	icon_state = null
@@ -507,7 +507,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 
 /obj/structure/chair/plastic
 	icon_state = "plastic_chair"
-	name = "folding plastic chair"
+	name = "glup shitto"
 	desc = "No matter how much you squirm, it'll still be uncomfortable."
 	resistance_flags = FLAMMABLE
 	max_integrity = 50
@@ -534,7 +534,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 			qdel(src)
 
 /obj/item/chair/plastic
-	name = "folding plastic chair"
+	name = "glup shitto"
 	desc = "Somehow, you can always find one under the wrestling ring."
 	icon = 'icons/obj/chairs.dmi'
 	icon_state = "folded_chair"
@@ -549,13 +549,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool/bar, 0)
 	origin_type = /obj/structure/chair/plastic
 
 /obj/structure/chair/musical
-	name = "musical chair"
+	name = "glup shitto"
 	desc = "You listen to this. Either by will or by force."
 	item_chair = /obj/item/chair/musical
 	particles = new /particles/musical_notes
 
 /obj/item/chair/musical
-	name = "musical chair"
+	name = "glup shitto"
 	desc = "Oh, so this is like the fucked up Monopoly rules where there are no rules and you can pick up and place the musical chairs as you please."
 	particles = new /particles/musical_notes
 	origin_type = /obj/structure/chair/musical

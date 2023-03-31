@@ -1,6 +1,6 @@
 /datum/species/golem
 	// Animated beings of stone. They have increased defenses, and do not need to breathe. They're also slow as fuuuck.
-	name = "Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM
 	species_traits = list(
 		NOTRANSSTING,
@@ -83,7 +83,7 @@
 	return to_add
 
 /datum/species/golem/adamantine
-	name = "Adamantine Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_ADAMANTINE
 	meat = /obj/item/food/meat/slab/human/mutant/golem/adamantine
 	mutant_organs = list(/obj/item/organ/internal/adamantine_resonator, /obj/item/organ/internal/vocal_cords/adamantine)
@@ -103,7 +103,7 @@
 
 //The suicide bombers of golemkind
 /datum/species/golem/plasma
-	name = "Plasma Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_PLASMA
 	fixed_mut_color = "#aa33dd"
 	meat = /obj/item/stack/ore/plasma
@@ -158,7 +158,7 @@
 	..()
 
 /datum/action/innate/ignite
-	name = "Ignite"
+	name = "glup shitto"
 	desc = "Set yourself aflame, bringing yourself closer to exploding!"
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "sacredflame"
@@ -174,7 +174,7 @@
 
 //Harder to hurt
 /datum/species/golem/diamond
-	name = "Diamond Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_DIAMOND
 	fixed_mut_color = "#00ffff"
 	armor = 70 //up from 55
@@ -186,7 +186,7 @@
 
 //Faster but softer and less armoured
 /datum/species/golem/gold
-	name = "Gold Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_GOLD
 	fixed_mut_color = "#cccc00"
 	speedmod = 1
@@ -199,7 +199,7 @@
 
 //Heavier, thus higher chance of stunning when punching
 /datum/species/golem/silver
-	name = "Silver Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_SILVER
 	fixed_mut_color = "#dddddd"
 	meat = /obj/item/stack/ore/silver
@@ -218,7 +218,7 @@
 
 //Harder to stun, deals more damage, massively slowpokes, but gravproof and obstructive. Basically, The Wall.
 /datum/species/golem/plasteel
-	name = "Plasteel Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_PLASTEEL
 	fixed_mut_color = "#bbbbbb"
 	stunmod = 0.4
@@ -250,7 +250,7 @@
 
 //Immune to ash storms
 /datum/species/golem/titanium
-	name = "Titanium Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_TITANIUM
 	fixed_mut_color = "#ffffff"
 	meat = /obj/item/stack/ore/titanium
@@ -270,7 +270,7 @@
 
 //Immune to ash storms and lava
 /datum/species/golem/plastitanium
-	name = "Plastitanium Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_PLASTITANIUM
 	fixed_mut_color = "#888888"
 	meat = /obj/item/stack/ore/titanium
@@ -290,7 +290,7 @@
 
 //Fast and regenerates... but can only speak like an abductor
 /datum/species/golem/alloy
-	name = "Alien Alloy Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_ALIEN
 	fixed_mut_color = "#333333"
 	meat = /obj/item/stack/sheet/mineral/abductor
@@ -311,7 +311,7 @@
 
 //Since this will usually be created from a collaboration between podpeople and free golems, wood golems are a mix between the two races
 /datum/species/golem/wood
-	name = "Wood Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_WOOD
 	fixed_mut_color = "#9E704B"
 	meat = /obj/item/stack/sheet/mineral/wood
@@ -365,7 +365,7 @@
 
 //Radioactive puncher, hits for burn but only as hard as human, slightly more durable against brute but less against everything else
 /datum/species/golem/uranium
-	name = "Uranium Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_URANIUM
 	fixed_mut_color = "#77ff00"
 	meat = /obj/item/stack/ore/uranium
@@ -411,7 +411,7 @@
 
 //Immune to physical bullets and resistant to brute, but very vulnerable to burn damage. Dusts on death.
 /datum/species/golem/sand
-	name = "Sand Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_SAND
 	fixed_mut_color = "#ffdc8f"
 	meat = /obj/item/stack/ore/glass //this is sand
@@ -442,7 +442,7 @@
 
 //Reflects lasers and resistant to burn damage, but very vulnerable to brute damage. Shatters on death.
 /datum/species/golem/glass
-	name = "Glass Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_GLASS
 	fixed_mut_color = "#5a96b4aa" //transparent body
 	meat = /obj/item/shard
@@ -479,7 +479,7 @@
 
 //Teleports when hit or when it wants to
 /datum/species/golem/bluespace
-	name = "Bluespace Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_BLUESPACE
 	fixed_mut_color = "#3333ff"
 	meat = /obj/item/stack/ore/bluespace_crystal
@@ -537,7 +537,7 @@
 	..()
 
 /datum/action/cooldown/unstable_teleport
-	name = "Unstable Teleport"
+	name = "glup shitto"
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "jaunt"
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
@@ -561,7 +561,7 @@
 
 //honk
 /datum/species/golem/bananium
-	name = "Bananium Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_BANANIUM
 	fixed_mut_color = "#ffff00"
 	inherent_traits = list(
@@ -668,7 +668,7 @@
 	speech_args[SPEECH_SPANS] |= SPAN_CLOWN
 
 /datum/species/golem/runic
-	name = "Runic Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_CULT
 	sexes = FALSE
 	info_text = "As a <span class='danger'>Runic Golem</span>, you possess eldritch powers granted by the Elder Goddess Nar'Sie."
@@ -751,7 +751,7 @@
 		H.reagents.remove_reagent(chem.type, REAGENTS_METABOLISM * delta_time)
 
 /datum/species/golem/cloth
-	name = "Cloth Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_CLOTH
 	sexes = FALSE
 	info_text = "As a <span class='danger'>Cloth Golem</span>, you are able to reform yourself after death, provided your remains aren't burned or destroyed. You are, of course, very flammable. \
@@ -865,7 +865,7 @@
 	return to_add
 
 /obj/structure/cloth_pile
-	name = "pile of bandages"
+	name = "glup shitto"
 	desc = "It emits a strange aura, as if there was still life within it..."
 	max_integrity = 50
 	armor_type = /datum/armor/structure_cloth_pile
@@ -933,7 +933,7 @@
 		fire_act()
 
 /datum/species/golem/plastic
-	name = "Plastic Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_PLASTIC
 	inherent_traits = list(
 		TRAIT_ADVANCEDTOOLUSER,
@@ -958,7 +958,7 @@
 	examine_limb_id = SPECIES_GOLEM
 
 /datum/species/golem/bronze
-	name = "Bronze Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_BRONZE
 	prefix = "Bronze"
 	special_names = list("Bell")
@@ -1028,7 +1028,7 @@
 
 
 /datum/species/golem/cardboard //Faster but weaker, can also make new shells on its own
-	name = "Cardboard Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_CARDBOARD
 	prefix = "Cardboard"
 	special_names = list("Box")
@@ -1097,7 +1097,7 @@
 	last_creation = world.time
 
 /datum/species/golem/leather
-	name = "Leather Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_LEATHER
 	special_names = list("Face", "Man", "Belt") //Ah dude 4 strength 4 stam leather belt AHHH
 	inherent_traits = list(
@@ -1121,7 +1121,7 @@
 	examine_limb_id = SPECIES_GOLEM
 
 /datum/species/golem/durathread
-	name = "Durathread Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_DURATHREAD
 	prefix = "Durathread"
 	special_names = list("Boll","Weave")
@@ -1157,7 +1157,7 @@
 	target.apply_status_effect(/datum/status_effect/strandling)
 
 /datum/species/golem/bone
-	name = "Bone Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_BONE
 	prefix = "Bone"
 	special_names = list("Head", "Broth", "Fracture", "Rattler", "Appetit")
@@ -1242,7 +1242,7 @@
 		return TRUE
 
 /datum/action/innate/bonechill
-	name = "Bone Chill"
+	name = "glup shitto"
 	desc = "Rattle your bones and strike fear into your enemies!"
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
@@ -1277,7 +1277,7 @@
 		L.add_mood_event("spooked", /datum/mood_event/spooked)
 
 /datum/species/golem/snow
-	name = "Snow Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_SNOW
 	fixed_mut_color = null //custom sprites
 	armor = 45 //down from 55
@@ -1342,7 +1342,7 @@
 	return ..()
 
 /datum/species/golem/mhydrogen //Effectively most other metal-based golem types rolled into one - immune to all weather, lava, flashes, and magic, while being just as hardened as diamond golems.
-	name = "Metallic Hydrogen Golem"
+	name = "glup shitto"
 	id = SPECIES_GOLEM_HYDROGEN
 	fixed_mut_color = "#535469"
 	armor = 70 //equal to a diamond golem

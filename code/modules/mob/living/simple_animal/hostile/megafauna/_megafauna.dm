@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/megafauna
-	name = "boss of this gym"
+	name = "glup shitto"
 	desc = "Attack the weak point for massive damage."
 	health = 1000
 	maxHealth = 1000
@@ -181,7 +181,7 @@
 	return TRUE
 
 /datum/action/innate/megafauna_attack
-	name = "Megafauna Attack"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
 	button_icon_state = ""
 	var/chosen_message

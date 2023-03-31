@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/morph
-	name = "morph"
+	name = "glup shitto"
 	real_name = "morph"
 	desc = "A revolting, pulsating pile of flesh."
 	speak_emote = list("gurgles")

@@ -1,5 +1,5 @@
 /obj/structure/closet/crate/large
-	name = "large crate"
+	name = "glup shitto"
 	desc = "A hefty wooden crate. You'll need a crowbar to get it open."
 	icon_state = "largecrate"
 	density = TRUE

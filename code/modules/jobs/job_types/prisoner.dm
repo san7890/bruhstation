@@ -47,7 +47,7 @@
 	to_chat(crewmember, span_warning("You are imprisoned for \"[crime_name]\"."))
 
 /datum/outfit/job/prisoner
-	name = "Prisoner"
+	name = "glup shitto"
 	jobtype = /datum/job/prisoner
 
 	id = /obj/item/card/id/advanced/prisoner

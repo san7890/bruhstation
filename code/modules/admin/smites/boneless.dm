@@ -1,6 +1,6 @@
 /// Gives the target critically bad wounds
 /datum/smite/boneless
-	name = ":B:oneless"
+	name = "glup shitto"
 
 /datum/smite/boneless/effect(client/user, mob/living/target)
 	. = ..()

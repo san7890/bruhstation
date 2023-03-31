@@ -1,5 +1,5 @@
 /datum/disease/parrot_possession
-	name = "Parrot Possession"
+	name = "glup shitto"
 	max_stages = 1
 	spread_text = "Paranormal"
 	spread_flags = DISEASE_SPREAD_SPECIAL

@@ -1,6 +1,6 @@
 /obj/machinery/door/poddoor/shutters
 	gender = PLURAL
-	name = "shutters"
+	name = "glup shitto"
 	desc = "Heavy duty mechanical shutters with an atmospheric seal that keeps them airtight once closed."
 	icon = 'icons/obj/doors/shutters.dmi'
 	layer = SHUTTER_LAYER
@@ -16,7 +16,7 @@
 	opacity = FALSE
 
 /obj/machinery/door/poddoor/shutters/indestructible
-	name = "hardened shutters"
+	name = "glup shitto"
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/machinery/door/poddoor/shutters/indestructible/preopen
@@ -25,7 +25,7 @@
 	opacity = FALSE
 
 /obj/machinery/door/poddoor/shutters/radiation
-	name = "radiation shutters"
+	name = "glup shitto"
 	desc = "Lead-lined shutters with a radiation hazard symbol. Whilst this won't stop you getting irradiated, especially by a supermatter crystal, it will stop radiation travelling as far."
 	icon = 'icons/obj/doors/shutters_radiation.dmi'
 	icon_state = "closed"
@@ -55,7 +55,7 @@
 	rad_insulation = RAD_EXTREME_INSULATION
 
 /obj/machinery/door/poddoor/shutters/window
-	name = "windowed shutters"
+	name = "glup shitto"
 	desc = "A shutter with a thick see-through polycarbonate window."
 	icon = 'icons/obj/doors/shutters_window.dmi'
 	icon_state = "closed"

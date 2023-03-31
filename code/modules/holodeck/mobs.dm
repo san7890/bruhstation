@@ -3,7 +3,7 @@
 */
 
 /mob/living/simple_animal/holodeck_monkey
-	name = "monkey"
+	name = "glup shitto"
 	desc = "A holographic creature fond of bananas."
 	icon = 'icons/mob/species/human/human.dmi'
 	icon_state = "monkey"

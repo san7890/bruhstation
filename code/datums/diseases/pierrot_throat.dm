@@ -1,5 +1,5 @@
 /datum/disease/pierrot_throat
-	name = "Pierrot's Throat"
+	name = "glup shitto"
 	max_stages = 4
 	spread_text = "Airborne"
 	cure_text = "Banana products, especially banana bread."

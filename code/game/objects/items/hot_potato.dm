@@ -1,6 +1,6 @@
 //CREATOR'S NOTE: DO NOT FUCKING GIVE THIS TO BOTANY!
 /obj/item/hot_potato
-	name = "hot potato"
+	name = "glup shitto"
 	desc = "A label on the side of this potato reads \"Product of Donk Co. Service Wing. Activate far away from populated areas. Device will only attach to sapient creatures.\" <span class='boldnotice'>You can attack anyone with it to force it on them instead of yourself!</span>"
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	icon_state = "potato"
@@ -140,7 +140,7 @@
 	update_appearance()
 	if(sticky)
 		ADD_TRAIT(src, TRAIT_NODROP, HOT_POTATO_TRAIT)
-	name = "primed [name]"
+	name = "glup shitto"
 	activation_time = timer + world.time
 	detonation_timerid = addtimer(CALLBACK(src, PROC_REF(detonate)), delay, TIMER_STOPPABLE)
 	START_PROCESSING(SSfastprocess, src)

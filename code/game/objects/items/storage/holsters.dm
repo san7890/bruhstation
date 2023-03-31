@@ -1,6 +1,6 @@
 
 /obj/item/storage/belt/holster
-	name = "shoulder holster"
+	name = "glup shitto"
 	desc = "A rather plain but still cool looking holster that can hold a handgun."
 	icon_state = "holster"
 	inhand_icon_state = "holster"
@@ -32,7 +32,7 @@
 		))
 
 /obj/item/storage/belt/holster/energy
-	name = "energy shoulder holsters"
+	name = "glup shitto"
 	desc = "A rather plain pair of shoulder holsters with a bit of insulated padding inside. Designed to hold energy weaponry."
 
 /obj/item/storage/belt/holster/energy/Initialize(mapload)
@@ -49,7 +49,7 @@
 		))
 
 /obj/item/storage/belt/holster/energy/thermal
-	name = "thermal shoulder holsters"
+	name = "glup shitto"
 	desc = "A rather plain pair of shoulder holsters with a bit of insulated padding inside. Meant to hold a twinned pair of thermal pistols, but can fit several kinds of energy handguns as well."
 
 /obj/item/storage/belt/holster/energy/thermal/PopulateContents()
@@ -67,7 +67,7 @@
 	),src)
 
 /obj/item/storage/belt/holster/detective
-	name = "detective's holster"
+	name = "glup shitto"
 	desc = "A holster able to carry handguns and some ammo. WARNING: Badasses only."
 	w_class = WEIGHT_CLASS_BULKY
 
@@ -100,7 +100,7 @@
 	), src)
 
 /obj/item/storage/belt/holster/detective/full/ert
-	name = "marine's holster"
+	name = "glup shitto"
 	desc = "Wearing this makes you feel badass, but you suspect it's just a repainted detective's holster from the NT surplus."
 	icon_state = "syndicate_holster"
 	inhand_icon_state = "syndicate_holster"
@@ -113,7 +113,7 @@
 	),src)
 
 /obj/item/storage/belt/holster/chameleon
-	name = "syndicate holster"
+	name = "glup shitto"
 	desc = "A hip holster that uses chameleon technology to disguise itself, due to the added chameleon tech, it cannot be mounted onto armor."
 	icon_state = "syndicate_holster"
 	inhand_icon_state = "syndicate_holster"
@@ -167,7 +167,7 @@
 		))
 
 /obj/item/storage/belt/holster/nukie
-	name = "operative holster"
+	name = "glup shitto"
 	desc = "A deep shoulder holster capable of holding almost any form of firearm and its ammo."
 	icon_state = "syndicate_holster"
 	inhand_icon_state = "syndicate_holster"

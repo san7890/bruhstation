@@ -215,7 +215,7 @@
 	return ..() // Kill our owner and revert, like normal
 
 /atom/movable/screen/alert/status_effect/shapeshifted
-	name = "Shapeshifted"
+	name = "glup shitto"
 	desc = "Your form is not your own... you're shapeshifted into another creature! \
 		A wizard could turn you back - or maybe you're stuck like this for good?"
 	icon_state = "shapeshifted"

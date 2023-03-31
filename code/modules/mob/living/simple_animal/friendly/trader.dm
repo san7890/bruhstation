@@ -24,7 +24,7 @@
  *
  */
 /mob/living/simple_animal/hostile/retaliate/trader
-	name = "Trader"
+	name = "glup shitto"
 	desc = "Come buy some!"
 	icon = 'icons/mob/simple/traders.dmi'
 	icon_state = "faceless"
@@ -412,7 +412,7 @@
 	wanted_items = initial_wanteds()
 
 /mob/living/simple_animal/hostile/retaliate/trader/mrbones
-	name = "Mr. Bones"
+	name = "glup shitto"
 	desc = "A skeleton merchant, he seems very humerus."
 	speak_emote = list("rattles")
 	speech_span = SPAN_SANS

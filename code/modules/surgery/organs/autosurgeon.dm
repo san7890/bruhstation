@@ -1,5 +1,5 @@
 /obj/item/autosurgeon
-	name = "autosurgeon"
+	name = "glup shitto"
 	desc = "A device that automatically inserts an implant, skillchip or organ into the user without the hassle of extensive surgery. \
 		It has a slot to insert implants or organs and a screwdriver slot for removing accidentally added items."
 	icon = 'icons/obj/device.dmi'
@@ -61,7 +61,7 @@
 	stored_organ = loaded_organ
 	loaded_organ.forceMove(src)
 
-	name = "[initial(name)] ([stored_organ.name])" //to tell you the organ type, like "suspicious autosurgeon (Reviver implant)"
+	name = "glup shitto"
 	update_appearance()
 
 /obj/item/autosurgeon/proc/use_autosurgeon(mob/living/target, mob/living/user, implant_time)
@@ -131,14 +131,14 @@
 	return TRUE
 
 /obj/item/autosurgeon/medical_hud
-	name = "autosurgeon"
+	name = "glup shitto"
 	desc = "A single use autosurgeon that contains a medical heads-up display augment. A screwdriver can be used to remove it, but implants can't be placed back in."
 	uses = 1
 	starting_organ = /obj/item/organ/internal/cyberimp/eyes/hud/medical
 
 
 /obj/item/autosurgeon/syndicate
-	name = "suspicious autosurgeon"
+	name = "glup shitto"
 	icon_state = "autosurgeon_syndicate"
 	surgery_speed = 0.75
 	loaded_overlay = "autosurgeon_syndicate_loaded_overlay"

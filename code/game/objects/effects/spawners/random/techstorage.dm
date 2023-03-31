@@ -1,12 +1,12 @@
 // Tech storage circuit board spawners
 /obj/effect/spawner/random/techstorage
-	name = "generic circuit board spawner"
+	name = "glup shitto"
 	icon_state = "circuit"
 	spawn_loot_split = TRUE
 	spawn_all_loot = TRUE
 
 /obj/effect/spawner/random/techstorage/data_disk
-	name = "data disk spawner"
+	name = "glup shitto"
 	icon_state = "disk"
 	spawn_all_loot = FALSE
 	loot = list(
@@ -15,7 +15,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/arcade_boards
-	name = "arcade board spawner"
+	name = "glup shitto"
 	spawn_all_loot = FALSE
 	spawn_loot_count = 1
 	loot = list(
@@ -25,7 +25,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/service_all
-	name = "service circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/arcade/battle,
 		/obj/item/circuitboard/computer/arcade/orion_trail,
@@ -46,7 +46,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/rnd_all
-	name = "RnD circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/aifixer,
 		/obj/item/circuitboard/machine/rdserver,
@@ -60,7 +60,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/security_all
-	name = "security circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/secure_data,
 		/obj/item/circuitboard/computer/security,
@@ -68,7 +68,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/engineering_all
-	name = "engineering circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/atmos_alert,
 		/obj/item/circuitboard/computer/stationalert,
@@ -76,7 +76,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/tcomms_all
-	name = "tcomms circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/message_monitor,
 		/obj/item/circuitboard/machine/telecomms/broadcaster,
@@ -90,7 +90,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/medical_all
-	name = "medical circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/machine/chem_dispenser,
 		/obj/item/circuitboard/computer/med_data,
@@ -100,7 +100,7 @@
 	)
 
 /obj/effect/spawner/random/techstorage/ai_all
-	name = "secure AI circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/aiupload,
 		/obj/item/circuitboard/computer/borgupload,
@@ -108,14 +108,14 @@
 	)
 
 /obj/effect/spawner/random/techstorage/command_all
-	name = "secure command circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/crew,
 		/obj/item/circuitboard/computer/communications,
 	)
 
 /obj/effect/spawner/random/techstorage/rnd_secure_all
-	name = "secure RnD circuit board spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/circuitboard/computer/mecha_control,
 		/obj/item/circuitboard/computer/apc_control,

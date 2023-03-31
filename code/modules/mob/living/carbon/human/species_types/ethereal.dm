@@ -1,5 +1,5 @@
 /datum/species/ethereal
-	name = "\improper Ethereal"
+	name = "glup shitto"
 	id = SPECIES_ETHEREAL
 	meat = /obj/item/food/meat/slab/human/mutant/ethereal
 	mutantlungs = /obj/item/organ/internal/lungs/ethereal

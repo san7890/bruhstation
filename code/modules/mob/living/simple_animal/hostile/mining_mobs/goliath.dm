@@ -1,6 +1,6 @@
 //A slow but strong beast that tries to stun using its tentacles
 /mob/living/simple_animal/hostile/asteroid/goliath
-	name = "goliath"
+	name = "glup shitto"
 	desc = "A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "Goliath"
@@ -89,7 +89,7 @@
 
 //Lavaland Goliath
 /mob/living/simple_animal/hostile/asteroid/goliath/beast
-	name = "goliath"
+	name = "glup shitto"
 	desc = "A hulking, armor-plated beast with long tendrils arching from its back."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "goliath"
@@ -137,7 +137,7 @@
 		return INITIALIZE_HINT_QDEL
 
 /mob/living/simple_animal/hostile/asteroid/goliath/beast/ancient
-	name = "ancient goliath"
+	name = "glup shitto"
 	desc = "Goliaths are biologically immortal, and rare specimens have survived for centuries. This one is clearly ancient, and its tentacles constantly churn the earth around it."
 	icon_state = "Goliath"
 	icon_living = "Goliath"
@@ -180,7 +180,7 @@
 
 //tentacles
 /obj/effect/temp_visual/goliath_tentacle
-	name = "goliath tentacle"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "Goliath_tentacle_spawn"
 	layer = BELOW_MOB_LAYER
@@ -235,7 +235,7 @@
 	timerid = QDEL_IN(src, 7)
 
 /obj/item/saddle
-	name = "saddle"
+	name = "glup shitto"
 	desc = "This saddle will solve all your problems with being killed by lava beasts!"
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "goliath_saddle"

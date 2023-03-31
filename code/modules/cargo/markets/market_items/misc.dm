@@ -2,7 +2,7 @@
 	category = "Miscellaneous"
 
 /datum/market_item/misc/Clear_PDA
-	name = "Clear PDA"
+	name = "glup shitto"
 	desc = "Show off your style with this limited edition clear PDA!."
 	item = /obj/item/modular_computer/pda/clear
 
@@ -12,7 +12,7 @@
 	availability_prob = 50
 
 /datum/market_item/misc/jade_Lantern
-	name = "Jade Lantern"
+	name = "glup shitto"
 	desc = "Found in a box labeled 'Danger: Radioactive'. Probably safe."
 	item = /obj/item/flashlight/lantern/jade
 
@@ -22,7 +22,7 @@
 	availability_prob = 45
 
 /datum/market_item/misc/cap_gun
-	name = "Cap Gun"
+	name = "glup shitto"
 	desc = "Prank your friends with this harmless gun! Harmlessness guranteed."
 	item = /obj/item/toy/gun
 
@@ -32,7 +32,7 @@
 	availability_prob = 80
 
 /datum/market_item/misc/shoulder_holster
-	name = "Shoulder holster"
+	name = "glup shitto"
 	desc = "Yeehaw, hardboiled friends! This holster is the first step in your dream of becoming a detective and being allowed to shoot real guns!"
 	item = /obj/item/storage/belt/holster
 
@@ -42,7 +42,7 @@
 	availability_prob = 60
 
 /datum/market_item/misc/holywater
-	name = "Flask of holy water"
+	name = "glup shitto"
 	desc = "Father Lootius' own brand of ready-made holy water."
 	item = /obj/item/reagent_containers/cup/glass/bottle/holywater
 
@@ -57,7 +57,7 @@
 	return ..()
 
 /datum/market_item/misc/strange_seed
-	name = "Strange Seeds"
+	name = "glup shitto"
 	desc = "An Exotic Variety of seed that can contain anything from glow to acid."
 	item = /obj/item/seeds/random
 
@@ -68,7 +68,7 @@
 	availability_prob = 50
 
 /datum/market_item/misc/smugglers_satchel
-	name = "Smuggler's Satchel"
+	name = "glup shitto"
 	desc = "This easily hidden satchel can become a versatile tool to anybody with the desire to keep certain items out of sight and out of mind."
 	item = /obj/item/storage/backpack/satchel/flat/empty
 
@@ -78,7 +78,7 @@
 	availability_prob = 30
 
 /datum/market_item/misc/roulette
-	name = "Roulette Beacon"
+	name = "glup shitto"
 	desc = "Start your own underground casino, wherever you go. One use only. No refunds."
 	item = /obj/item/roulette_wheel_beacon
 	price_min = CARGO_CRATE_VALUE * 1
@@ -88,7 +88,7 @@
 
 
 /datum/market_item/misc/v8_engine
-	name = "Genuine V8 Engine (Perserved)"
+	name = "glup shitto"
 	desc = "Hey greasemonkeys, you ready to start those engines? Want to start racing through the halls and making some tighter turns on the interstellar beltway? Then you need this classic engine."
 	item = /obj/item/v8_engine
 	price_min = CARGO_CRATE_VALUE * 4

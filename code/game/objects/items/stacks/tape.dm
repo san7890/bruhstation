@@ -1,5 +1,5 @@
 /obj/item/stack/sticky_tape
-	name = "sticky tape"
+	name = "glup shitto"
 	singular_name = "sticky tape"
 	desc = "Used for sticking to things for sticking said things to people."
 	icon = 'icons/obj/tapes.dmi'
@@ -81,7 +81,7 @@
 	return .
 
 /obj/item/stack/sticky_tape/super
-	name = "super sticky tape"
+	name = "glup shitto"
 	singular_name = "super sticky tape"
 	desc = "Quite possibly the most mischevious substance in the galaxy. Use with extreme lack of caution."
 	prefix = "super sticky"
@@ -92,7 +92,7 @@
 	tape_gag = /obj/item/clothing/mask/muzzle/tape/super
 
 /obj/item/stack/sticky_tape/pointy
-	name = "pointy tape"
+	name = "glup shitto"
 	singular_name = "pointy tape"
 	desc = "Used for sticking to things for sticking said things inside people."
 	icon_state = "tape_spikes"
@@ -104,7 +104,7 @@
 	tape_gag = /obj/item/clothing/mask/muzzle/tape/pointy
 
 /obj/item/stack/sticky_tape/pointy/super
-	name = "super pointy tape"
+	name = "glup shitto"
 	singular_name = "super pointy tape"
 	desc = "You didn't know tape could look so sinister. Welcome to Space Station 13."
 	prefix = "super pointy"
@@ -114,7 +114,7 @@
 	tape_gag = /obj/item/clothing/mask/muzzle/tape/pointy/super
 
 /obj/item/stack/sticky_tape/surgical
-	name = "surgical tape"
+	name = "glup shitto"
 	singular_name = "surgical tape"
 	desc = "Made for patching broken bones back together alongside bone gel, not for playing pranks."
 	prefix = "surgical"

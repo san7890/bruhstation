@@ -6,7 +6,7 @@
 	access_view = ACCESS_HYDROPONICS
 
 /datum/supply_pack/organic/hydroponics/beekeeping_suits
-	name = "Beekeeper Suit Crate"
+	name = "glup shitto"
 	desc = "Bee business booming? Better be benevolent and boost botany by \
 		bestowing bi-Beekeeper-suits! Contains two beekeeper suits and matching headwear."
 	cost = CARGO_CRATE_VALUE * 2
@@ -19,7 +19,7 @@
 	crate_type = /obj/structure/closet/crate/hydroponics
 
 /datum/supply_pack/organic/hydroponics/beekeeping_fullkit
-	name = "Beekeeping Starter Crate"
+	name = "glup shitto"
 	desc = "BEES BEES BEES. Contains three honey frames, a beekeeper suit and helmet, \
 		flyswatter, bee house, and, of course, a pure-bred Nanotrasen-Standardized Queen Bee!"
 	cost = CARGO_CRATE_VALUE * 3
@@ -34,7 +34,7 @@
 	crate_type = /obj/structure/closet/crate/hydroponics
 
 /datum/supply_pack/organic/randomized/chef
-	name = "Excellent Meat Crate"
+	name = "glup shitto"
 	desc = "The best cuts in the whole galaxy. Contains a random assortment of exotic meats."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/food/meat/slab/human/mutant/slime,
@@ -56,7 +56,7 @@
 		new item(C)
 
 /datum/supply_pack/organic/exoticseeds
-	name = "Exotic Seeds Crate"
+	name = "glup shitto"
 	desc = "Any entrepreneuring botanist's dream. Contains twelve different seeds, \
 		including one replica-pod seed and two mystery seeds!"
 	cost = CARGO_CRATE_VALUE * 3
@@ -77,7 +77,7 @@
 	crate_type = /obj/structure/closet/crate/hydroponics
 
 /datum/supply_pack/organic/food
-	name = "Food Crate"
+	name = "glup shitto"
 	desc = "Get things cooking with this crate full of useful ingredients! \
 		Contains a dozen eggs, three bananas, and some flour, rice, milk, \
 		soymilk, salt, pepper, enzyme, sugar, and monkeymeat."
@@ -97,7 +97,7 @@
 	crate_name = "food crate"
 
 /datum/supply_pack/organic/randomized/chef/fruits
-	name = "Fruit Crate"
+	name = "glup shitto"
 	desc = "Rich of vitamins. Contains a lime, orange, watermelon, apple, \
 		berries and a lime."
 	cost = CARGO_CRATE_VALUE * 3
@@ -111,7 +111,7 @@
 	crate_name = "food crate"
 
 /datum/supply_pack/organic/cream_piee
-	name = "High-yield Clown-grade Cream Pie Crate"
+	name = "glup shitto"
 	desc = "Designed by Aussec's Advanced Warfare Research Division, \
 		these high-yield, Clown-grade cream pies are powered by a synergy \
 		of performance and efficiency. Guaranteed to provide maximum results."
@@ -124,7 +124,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/organic/hydroponics
-	name = "Hydroponics Crate"
+	name = "glup shitto"
 	desc = "Supplies for growing a great garden! Contains two bottles of ammonia, \
 		two Plant-B-Gone spray bottles, a hatchet, cultivator, plant analyzer, \
 		as well as a pair of leather gloves and a botanist's apron."
@@ -141,7 +141,7 @@
 	crate_type = /obj/structure/closet/crate/hydroponics
 
 /datum/supply_pack/organic/hydroponics/hydrotank
-	name = "Hydroponics Backpack Crate"
+	name = "glup shitto"
 	desc = "Bring on the flood with this high-capacity backpack crate. \
 		Contains 500 units of life-giving H2O."
 	cost = CARGO_CRATE_VALUE * 2
@@ -151,7 +151,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/organic/pizza
-	name = "Pizza Crate"
+	name = "glup shitto"
 	desc = "Why visit the kitchen when you can have five random pizzas in a fraction of the time? \
 			Best prices this side of the galaxy! All deliveries are guaranteed to be 99% anomaly-free."
 	cost = CARGO_CRATE_VALUE * 10 // Best prices this side of the galaxy.
@@ -240,7 +240,7 @@
 	of species, the individual will find the object edible and it will taste great according to their personal definitions, which vary significantly based on person and species.")
 
 /datum/supply_pack/organic/potted_plants
-	name = "Potted Plants Crate"
+	name = "glup shitto"
 	desc = "Spruce up the station with these lovely plants! Contains a random \
 		assortment of five potted plants from Nanotrasen's potted plant research division. \
 		Warranty void if thrown."
@@ -250,7 +250,7 @@
 	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/organic/seeds
-	name = "Seeds Crate"
+	name = "glup shitto"
 	desc = "Big things have small beginnings. Contains fifteen different seeds."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/seeds/chili,
@@ -274,7 +274,7 @@
 	crate_type = /obj/structure/closet/crate/hydroponics
 
 /datum/supply_pack/organic/randomized/chef/vegetables
-	name = "Vegetables Crate"
+	name = "glup shitto"
 	desc = "Grown in vats. Contains a chili, corn, tomato, potato, carrot, \
 		chanterelle, onion, pumpkin, and cucumber."
 	cost = CARGO_CRATE_VALUE * 1.8
@@ -291,7 +291,7 @@
 	crate_name = "food crate"
 
 /datum/supply_pack/organic/grill
-	name = "Grilling Starter Kit"
+	name = "glup shitto"
 	desc = "Hey dad I'm Hungry. Hi Hungry I'm THE NEW GRILLING STARTER KIT \
 		ONLY 5000 BUX GET NOW! Contains a grill and fuel."
 	cost = CARGO_CRATE_VALUE * 8
@@ -303,7 +303,7 @@
 	crate_name = "grilling starter kit crate"
 
 /datum/supply_pack/organic/grillfuel
-	name = "Grilling Fuel Kit"
+	name = "glup shitto"
 	desc = "Contains propane and propane accessories. \
 		(Note: doesn't contain any actual propane.)"
 	cost = CARGO_CRATE_VALUE * 4
@@ -314,7 +314,7 @@
 	crate_name = "grilling fuel kit crate"
 
 /datum/supply_pack/organic/tiziran_supply
-	name = "Tiziran Supply Box"
+	name = "glup shitto"
 	desc = "A packaged box of supplies from the heart of the Lizard Empire. \
 		Contains a selection of Tiziran ingredients and basic foods."
 	cost = CARGO_CRATE_VALUE * 3
@@ -326,7 +326,7 @@
 	crate_type = /obj/structure/closet/crate/cardboard/tiziran
 
 /datum/supply_pack/organic/mothic_supply
-	name = "Mothic Supply Box"
+	name = "glup shitto"
 	desc = "A packaged box of surplus supplies from the Mothic Fleet. \
 		Contains a selection of Mothic ingredients and basic foods."
 	cost = CARGO_CRATE_VALUE * 3
@@ -338,7 +338,7 @@
 	crate_type = /obj/structure/closet/crate/cardboard/mothic
 
 /datum/supply_pack/organic/syrup
-	name = "Coffee Syrups Box"
+	name = "glup shitto"
 	desc = "A packaged box of various syrups, perfect for making your delicious coffee even more diabetic."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(
@@ -351,7 +351,7 @@
 
 /datum/supply_pack/organic/syrup_contraband
 	contraband = TRUE
-	name = "Contraband Syrups Box"
+	name = "glup shitto"
 	desc = "A packaged box containing illegal coffee syrups. Possession of these carries a penalty established in the galactic penal code."
 	cost = CARGO_CRATE_VALUE * 6
 	contains = list(

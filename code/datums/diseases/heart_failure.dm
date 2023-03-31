@@ -1,6 +1,6 @@
 /datum/disease/heart_failure
 	form = "Condition"
-	name = "Myocardial Infarction"
+	name = "glup shitto"
 	max_stages = 5
 	stage_prob = 1
 	cure_text = "Heart replacement surgery to cure. Defibrillation (or as a last resort, uncontrolled electric shocking) may also be effective after the onset of cardiac arrest. Penthrite can also mitigate cardiac arrest."

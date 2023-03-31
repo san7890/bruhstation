@@ -1,5 +1,5 @@
 /obj/machinery/meter
-	name = "gas flow meter"
+	name = "glup shitto"
 	desc = "It measures something."
 	icon = 'icons/obj/atmospherics/pipes/meter.dmi'
 	icon_state = "meter"

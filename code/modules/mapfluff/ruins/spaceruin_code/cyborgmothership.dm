@@ -1,5 +1,5 @@
 /obj/docking_port/stationary/cyborg_mothership
-	name = "Cyborg Mothership"
+	name = "glup shitto"
 	shuttle_id = "cyborg_mothership"
 	roundstart_template = /datum/map_template/shuttle/ruin/cyborg_mothership
 	dir = SOUTH
@@ -8,7 +8,7 @@
 	dwidth = 11
 
 /obj/docking_port/mobile/cyborg_mothership
-	name = "Cyborg Mothership"
+	name = "glup shitto"
 	shuttle_id = "cyborg_mothership"
 	dir = SOUTH
 	dwidth = 11
@@ -19,17 +19,17 @@
 	movement_force = list("KNOCKDOWN" = 0,"THROW" = 0)
 
 /obj/item/circuitboard/computer/cyborg_mothership
-	name = "#101011"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/computer/shuttle/cyborg_mothership
 
 /obj/item/circuitboard/computer/cyborg_mothership/bridge
-	name = "#101011 Bridge"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/computer/shuttle/cyborg_mothership/bridge
 
 /obj/machinery/computer/shuttle/cyborg_mothership
-	name = "#101011 Console"
+	name = "glup shitto"
 	desc = "Used to control the Cyborg Mothership."
 	circuit = /obj/item/circuitboard/computer/cyborg_mothership
 	shuttleId = "cyborg_mothership"
@@ -37,7 +37,7 @@
 
 /// Console used on the cyborg_mothership bridge. Comes with GPS pre-baked.
 /obj/machinery/computer/shuttle/cyborg_mothership/bridge
-	name = "#101011 Bridge Console"
+	name = "glup shitto"
 	desc = "Used to control the Cyborg Mothership. Emits a faint GPS signal."
 	circuit = /obj/item/circuitboard/computer/cyborg_mothership/bridge
 
@@ -46,7 +46,7 @@
 	AddComponent(/datum/component/gps, SPACE_SIGNAL_GPSTAG)
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/cyborg_mothership
-	name = "#101011 Navigation Computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the Cyborg Mothership."
 	shuttleId = "cyborg_mothership"
 	lock_override = NONE
@@ -65,7 +65,7 @@
 	return ..()
 
 /obj/item/disk/holodisk/ruin/cyborg_mothership
-	name = "Blackbox Print-out #101011"
+	name = "glup shitto"
 	desc = "A rusty holodisk containing the last moments of #101011."
 	preset_image_type = /datum/preset_holoimage/ai
 	preset_record_text = {"

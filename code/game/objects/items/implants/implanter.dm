@@ -2,7 +2,7 @@
  * Players can use this item to put obj/item/implant's in living mobs. Can be renamed with a pen.
  */
 /obj/item/implanter
-	name = "implanter"
+	name = "glup shitto"
 	desc = "A sterile automatic implant injector."
 	icon = 'icons/obj/medical/syringe.dmi'
 	icon_state = "implanter0"

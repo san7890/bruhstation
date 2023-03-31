@@ -1,5 +1,5 @@
 /obj/item/mutant_hand/zombie
-	name = "zombie claw"
+	name = "glup shitto"
 	desc = "A zombie's claw is its primary tool, capable of infecting \
 		humans, butchering all other living things to \
 		sustain the zombie, smashing open airlock doors and opening \

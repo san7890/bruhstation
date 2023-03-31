@@ -14,7 +14,7 @@
 // ===== ENGINEERING CONSOLE =====
 /obj/machinery/modular_computer/console/preset/engineering
 	console_department = "Engineering"
-	name = "engineering console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with engineering programs."
 	starting_programs = list(
 		/datum/computer_file/program/power_monitor,
@@ -25,7 +25,7 @@
 // ===== RESEARCH CONSOLE =====
 /obj/machinery/modular_computer/console/preset/research
 	console_department = "Research"
-	name = "research director's console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with research programs."
 	starting_programs = list(
 		/datum/computer_file/program/ntnetmonitor,
@@ -38,7 +38,7 @@
 // ===== COMMAND CONSOLE =====
 /obj/machinery/modular_computer/console/preset/command
 	console_department = "Command"
-	name = "command console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with command programs."
 	starting_programs = list(
 		/datum/computer_file/program/chatclient,
@@ -48,7 +48,7 @@
 // ===== IDENTIFICATION CONSOLE =====
 /obj/machinery/modular_computer/console/preset/id
 	console_department = "Identification"
-	name = "identification console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with identification modification programs."
 	starting_programs = list(
 		/datum/computer_file/program/chatclient,
@@ -68,7 +68,7 @@
 // ===== CIVILIAN CONSOLE =====
 /obj/machinery/modular_computer/console/preset/civilian
 	console_department = "Civilian"
-	name = "civilian console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with generic programs."
 	starting_programs = list(
 		/datum/computer_file/program/chatclient,
@@ -78,7 +78,7 @@
 // curator
 /obj/machinery/modular_computer/console/preset/curator
 	console_department = "Civilian"
-	name = "curator console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with art programs."
 	starting_programs = list(
 		/datum/computer_file/program/portrait_printer,
@@ -86,7 +86,7 @@
 
 // ===== CARGO CHAT CONSOLES =====
 /obj/machinery/modular_computer/console/preset/cargochat
-	name = "cargo chatroom console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with a chatroom for your cargo requests."
 	starting_programs = list(
 		/datum/computer_file/program/chatclient,
@@ -118,7 +118,7 @@
 //ONE PER MAP PLEASE, IT MAKES A CARGOBUS FOR EACH ONE OF THESE
 /obj/machinery/modular_computer/console/preset/cargochat/cargo
 	console_department = "Cargo"
-	name = "department chatroom console"
+	name = "glup shitto"
 	desc = "A stationary computer. This one comes preloaded with a chatroom for incoming cargo requests. You may moderate it from this computer."
 
 /obj/machinery/modular_computer/console/preset/cargochat/cargo/LateInitialize()

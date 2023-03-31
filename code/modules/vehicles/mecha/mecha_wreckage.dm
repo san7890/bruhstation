@@ -4,7 +4,7 @@
 
 
 /obj/structure/mecha_wreckage
-	name = "exosuit wreckage"
+	name = "glup shitto"
 	desc = "Remains of some unfortunate mecha. Completely irreparable, but perhaps something can be salvaged."
 	icon = 'icons/mecha/mecha.dmi'
 	density = TRUE
@@ -110,7 +110,7 @@
 	AI = null
 
 /obj/structure/mecha_wreckage/gygax
-	name = "\improper Gygax wreckage"
+	name = "glup shitto"
 	icon_state = "gygax-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/gold, /obj/item/stack/sheet/mineral/silver, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 	parts = list(
@@ -123,35 +123,35 @@
 				)
 
 /obj/structure/mecha_wreckage/gygax/dark
-	name = "\improper Dark Gygax wreckage"
+	name = "glup shitto"
 	icon_state = "darkgygax-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/plastitanium, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 
 /obj/structure/mecha_wreckage/marauder
-	name = "\improper Marauder wreckage"
+	name = "glup shitto"
 	icon_state = "marauder-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/titanium, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 
 /obj/structure/mecha_wreckage/mauler
-	name = "\improper Mauler wreckage"
+	name = "glup shitto"
 	icon_state = "mauler-broken"
 	desc = "The syndicate won't be very happy about this..."
 	welder_salvage = list(/obj/item/stack/sheet/mineral/plastitanium, /obj/item/stack/sheet/mineral/diamond, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 
 /obj/structure/mecha_wreckage/seraph
-	name = "\improper Seraph wreckage"
+	name = "glup shitto"
 	icon_state = "seraph-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/titanium, /obj/item/stack/sheet/mineral/diamond, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 
 /obj/structure/mecha_wreckage/reticence
-	name = "\improper Reticence wreckage"
+	name = "glup shitto"
 	icon_state = "reticence-broken"
 	color = "#87878715"
 	desc = "..."
 	welder_salvage = list(/obj/item/shard) //get it, it's a glass cannon
 
 /obj/structure/mecha_wreckage/ripley
-	name = "\improper Ripley wreckage"
+	name = "glup shitto"
 	icon_state = "ripley-broken"
 	welder_salvage = list(/obj/item/stack/sheet/iron, /obj/item/stack/rods)
 	parts = list(
@@ -162,11 +162,11 @@
 				/obj/item/mecha_parts/part/ripley_right_leg)
 
 /obj/structure/mecha_wreckage/ripley/mk2
-	name = "\improper Ripley MK-II wreckage"
+	name = "glup shitto"
 	icon_state = "ripleymkii-broken"
 
 /obj/structure/mecha_wreckage/clarke
-	name = "\improper Clarke wreckage"
+	name = "glup shitto"
 	icon_state = "clarke-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/gold, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 	parts = list(
@@ -177,13 +177,13 @@
 				/obj/item/stack/conveyor)
 
 /obj/structure/mecha_wreckage/ripley/deathripley
-	name = "\improper Death-Ripley wreckage"
+	name = "glup shitto"
 	icon_state = "deathripley-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/plastitanium, /obj/item/stack/sheet/mineral/diamond, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 	parts = null
 
 /obj/structure/mecha_wreckage/honker
-	name = "\improper H.O.N.K wreckage"
+	name = "glup shitto"
 	icon_state = "honker-broken"
 	desc = "All is right in the universe."
 	welder_salvage = list(/obj/item/stack/sheet/mineral/bananium, /obj/item/grown/bananapeel, /obj/item/stack/sheet/iron)
@@ -196,7 +196,7 @@
 				/obj/item/mecha_parts/part/honker_right_leg)
 
 /obj/structure/mecha_wreckage/durand
-	name = "\improper Durand wreckage"
+	name = "glup shitto"
 	icon_state = "durand-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/silver, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
 	parts = list(
@@ -208,7 +208,7 @@
 			/obj/item/mecha_parts/part/durand_right_leg)
 
 /obj/structure/mecha_wreckage/phazon
-	name = "\improper Phazon wreckage"
+	name = "glup shitto"
 	icon_state = "phazon-broken"
 	parts = list(
 		/obj/item/mecha_parts/part/phazon_torso,
@@ -219,7 +219,7 @@
 		/obj/item/mecha_parts/part/phazon_right_leg)
 
 /obj/structure/mecha_wreckage/savannah_ivanov
-	name = "\improper Savannah-Ivanov wreckage"
+	name = "glup shitto"
 	icon = 'icons/mecha/coop_mech.dmi'
 	icon_state = "savannah_ivanov-broken"
 	welder_salvage = list(/obj/item/stack/sheet/mineral/silver, /obj/item/stack/sheet/iron, /obj/item/stack/rods)
@@ -232,7 +232,7 @@
 		/obj/item/mecha_parts/part/savannah_ivanov_right_leg)
 
 /obj/structure/mecha_wreckage/odysseus
-	name = "\improper Odysseus wreckage"
+	name = "glup shitto"
 	icon_state = "odysseus-broken"
 	parts = list(
 			/obj/item/mecha_parts/part/odysseus_torso,

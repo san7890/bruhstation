@@ -6,7 +6,7 @@
 
 //Chef
 /obj/item/clothing/head/utility/chefhat
-	name = "chef's hat"
+	name = "glup shitto"
 	inhand_icon_state = "chefhat"
 	icon_state = "chef"
 	desc = "The commander in chef's head wear."
@@ -45,7 +45,7 @@
 
 //Captain
 /obj/item/clothing/head/hats/caphat
-	name = "captain's hat"
+	name = "glup shitto"
 	desc = "It's good being the king."
 	icon_state = "captain"
 	inhand_icon_state = "that"
@@ -66,13 +66,13 @@
 	wound = 5
 
 /obj/item/clothing/head/hats/caphat/parade
-	name = "captain's parade cap"
+	name = "glup shitto"
 	desc = "Worn only by Captains with an abundance of class."
 	icon_state = "capcap"
 	dog_fashion = null
 
 /obj/item/clothing/head/caphat/beret
-	name = "captain's beret"
+	name = "glup shitto"
 	desc = "For the Captains known for their sense of fashion."
 	icon_state = "beret_badge"
 	greyscale_config = /datum/greyscale_config/beret_badge
@@ -81,7 +81,7 @@
 
 //Head of Personnel
 /obj/item/clothing/head/hats/hopcap
-	name = "head of personnel's cap"
+	name = "glup shitto"
 	icon_state = "hopcap"
 	desc = "The symbol of true bureaucratic micromanagement."
 	armor_type = /datum/armor/hats_hopcap
@@ -98,20 +98,20 @@
 	acid = 50
 
 /obj/item/clothing/head/chaplain/nun_hood
-	name = "nun hood"
+	name = "glup shitto"
 	desc = "Maximum piety in this star system."
 	icon_state = "nun_hood"
 	flags_inv = HIDEHAIR
 	flags_cover = HEADCOVERSEYES
 
 /obj/item/clothing/head/chaplain/bishopmitre
-	name = "bishop mitre"
+	name = "glup shitto"
 	desc = "An opulent hat that functions as a radio to God. Or as a lightning rod, depending on who you ask."
 	icon_state = "bishopmitre"
 
 //Detective
 /obj/item/clothing/head/fedora/det_hat
-	name = "detective's fedora"
+	name = "glup shitto"
 	desc = "There's only one man who can sniff out the dirty stench of crime, and he's likely wearing this hat."
 	armor_type = /datum/armor/fedora_det_hat
 	icon_state = "detective"
@@ -158,7 +158,7 @@
 
 //Mime
 /obj/item/clothing/head/beret
-	name = "beret"
+	name = "glup shitto"
 	desc = "A beret, a mime's favorite headwear."
 	icon_state = "beret"
 	dog_fashion = /datum/dog_fashion/head/beret
@@ -169,13 +169,13 @@
 
 //Security
 /obj/item/clothing/head/hats/hos
-	name = "generic head of security hat"
+	name = "glup shitto"
 	desc = "Please contact the Nanotrasen Costuming Department if found."
 	armor_type = /datum/armor/hats_hos
 	strip_delay = 8 SECONDS
 
 /obj/item/clothing/head/hats/hos/cap
-	name = "head of security cap"
+	name = "glup shitto"
 	desc = "The robust standard-issue cap of the Head of Security. For showing the officers who's in charge."
 	icon_state = "hoscap"
 
@@ -191,11 +191,11 @@
 	wound = 10
 
 /obj/item/clothing/head/hats/hos/cap/syndicate
-	name = "syndicate cap"
+	name = "glup shitto"
 	desc = "A black cap fit for a high ranking syndicate officer."
 
 /obj/item/clothing/head/hats/hos/shako
-	name = "sturdy shako"
+	name = "glup shitto"
 	desc = "Wearing this makes you want to shout \"Down and give me twenty!\" at someone."
 	icon_state = "hosshako"
 	worn_icon = 'icons/mob/large-worn-icons/64x64/head.dmi'
@@ -203,7 +203,7 @@
 	worn_y_dimension = 64
 
 /obj/item/clothing/head/hats/hos/beret
-	name = "head of security's beret"
+	name = "glup shitto"
 	desc = "A robust beret for the Head of Security, for looking stylish while not sacrificing protection."
 	icon_state = "beret_badge"
 	greyscale_config = /datum/greyscale_config/beret_badge
@@ -211,16 +211,16 @@
 	greyscale_colors = "#39393f#f0cc8f"
 
 /obj/item/clothing/head/hats/hos/beret/navyhos
-	name = "head of security's formal beret"
+	name = "glup shitto"
 	desc = "A special beret with the Head of Security's insignia emblazoned on it. A symbol of excellence, a badge of courage, a mark of distinction."
 	greyscale_colors = "#638799#f0cc8f"
 
 /obj/item/clothing/head/hats/hos/beret/syndicate
-	name = "syndicate beret"
+	name = "glup shitto"
 	desc = "A black beret with thick armor padding inside. Stylish and robust."
 
 /obj/item/clothing/head/hats/warden
-	name = "warden's police hat"
+	name = "glup shitto"
 	desc = "It's a special armored hat issued to the Warden of a security force. Protects the head from impacts."
 	icon_state = "policehelm"
 	armor_type = /datum/armor/hats_warden
@@ -238,11 +238,11 @@
 	wound = 6
 
 /obj/item/clothing/head/hats/warden/police
-	name = "police officer's hat"
+	name = "glup shitto"
 	desc = "A police officer's hat. This hat emphasizes that you are THE LAW."
 
 /obj/item/clothing/head/hats/warden/red
-	name = "warden's hat"
+	name = "glup shitto"
 	desc = "A warden's red hat. Looking at it gives you the feeling of wanting to keep people in cells for as long as possible."
 	icon_state = "wardenhat"
 	armor_type = /datum/armor/warden_red
@@ -260,7 +260,7 @@
 	wound = 6
 
 /obj/item/clothing/head/hats/warden/drill
-	name = "warden's campaign hat"
+	name = "glup shitto"
 	desc = "A special armored campaign hat with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
 	icon_state = "wardendrill"
 	inhand_icon_state = null
@@ -329,7 +329,7 @@
 		speech_args[SPEECH_MESSAGE] = message
 
 /obj/item/clothing/head/beret/sec
-	name = "security beret"
+	name = "glup shitto"
 	desc = "A robust beret with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
 	icon_state = "beret_badge"
 	greyscale_config = /datum/greyscale_config/beret_badge
@@ -351,7 +351,7 @@
 	wound = 4
 
 /obj/item/clothing/head/beret/sec/navywarden
-	name = "warden's beret"
+	name = "glup shitto"
 	desc = "A special beret with the Warden's insignia emblazoned on it. For wardens with class."
 	greyscale_colors = "#638799#ebebeb"
 	strip_delay = 60
@@ -362,7 +362,7 @@
 
 //Science
 /obj/item/clothing/head/beret/science
-	name = "science beret"
+	name = "glup shitto"
 	desc = "A science-themed beret for our hardworking scientists."
 	greyscale_colors = "#8D008F"
 	flags_1 = NONE
@@ -376,63 +376,63 @@
 
 //Medical
 /obj/item/clothing/head/beret/medical
-	name = "medical beret"
+	name = "glup shitto"
 	desc = "A medical-flavored beret for the doctor in you!"
 	greyscale_colors = "#FFFFFF"
 	flags_1 = NONE
 
 /obj/item/clothing/head/beret/medical/paramedic
-	name = "paramedic beret"
+	name = "glup shitto"
 	desc = "For finding corpses in style!"
 	greyscale_colors = "#16313D"
 
 /obj/item/clothing/head/beret/medical/cmo
-	name = "chief medical officer beret"
+	name = "glup shitto"
 	desc = "A beret in a distinct surgical turquoise!"
 	greyscale_colors = "#5EB8B8"
 
 /obj/item/clothing/head/utility/surgerycap
-	name = "blue surgery cap"
+	name = "glup shitto"
 	icon_state = "surgicalcap"
 	desc = "A blue medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
 
 /obj/item/clothing/head/utility/surgerycap/purple
-	name = "burgundy surgery cap"
+	name = "glup shitto"
 	icon_state = "surgicalcapwine"
 	desc = "A burgundy medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
 
 /obj/item/clothing/head/utility/surgerycap/green
-	name = "green surgery cap"
+	name = "glup shitto"
 	icon_state = "surgicalcapgreen"
 	desc = "A green medical surgery cap to prevent the surgeon's hair from entering the insides of the patient!"
 
 /obj/item/clothing/head/utility/surgerycap/cmo
-	name = "turquoise surgery cap"
+	name = "glup shitto"
 	icon_state = "surgicalcapcmo"
 	desc = "The CMO's medical surgery cap to prevent their hair from entering the insides of the patient!"
 
 //Engineering
 /obj/item/clothing/head/beret/engi
-	name = "engineering beret"
+	name = "glup shitto"
 	desc = "Might not protect you from radiation, but definitely will protect you from looking unfashionable!"
 	greyscale_colors = "#FFBC30"
 	flags_1 = NONE
 
 //Cargo
 /obj/item/clothing/head/beret/cargo
-	name = "cargo beret"
+	name = "glup shitto"
 	desc = "No need to compensate when you can wear this beret!"
 	greyscale_colors = "#c99840"
 	flags_1 = NONE
 
 //Curator
 /obj/item/clothing/head/fedora/curator
-	name = "treasure hunter's fedora"
+	name = "glup shitto"
 	desc = "You got red text today kid, but it doesn't mean you have to like it."
 	icon_state = "curator"
 
 /obj/item/clothing/head/beret/durathread
-	name = "durathread beret"
+	name = "glup shitto"
 	desc = "A beret made from durathread, its resilient fibers provide some protection to the wearer."
 	icon_state = "beret_badge"
 	icon_preview = 'icons/obj/previews.dmi'
@@ -462,7 +462,7 @@
 
 //CentCom
 /obj/item/clothing/head/beret/centcom_formal
-	name = "\improper CentCom Formal Beret"
+	name = "glup shitto"
 	desc = "Sometimes, a compromise between fashion and defense needs to be made. Thanks to Nanotrasen's most recent nano-fabric durability enhancements, this time, it's not the case."
 	icon_state = "beret_badge"
 	greyscale_config = /datum/greyscale_config/beret_badge

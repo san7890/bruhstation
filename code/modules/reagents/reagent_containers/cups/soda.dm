@@ -7,7 +7,7 @@
 #define SODA_FIZZINESS_SHAKE 5
 
 /obj/item/reagent_containers/cup/soda_cans
-	name = "soda can"
+	name = "glup shitto"
 	icon = 'icons/obj/drinks/soda.dmi'
 	icon_state_preview = "cola"
 	reagent_flags = NONE
@@ -164,14 +164,14 @@
 #undef SODA_FIZZINESS_SHAKE
 
 /obj/item/reagent_containers/cup/soda_cans/cola
-	name = "Space Cola"
+	name = "glup shitto"
 	desc = "Cola. in space."
 	icon_state = "cola"
 	list_reagents = list(/datum/reagent/consumable/space_cola = 30)
 	drink_type = SUGAR
 
 /obj/item/reagent_containers/cup/soda_cans/tonic
-	name = "T-Borg's tonic water"
+	name = "glup shitto"
 	desc = "Quinine tastes funny, but at least it'll keep that Space Malaria away."
 	icon_state = "tonic"
 	volume = 50
@@ -179,14 +179,14 @@
 	drink_type = ALCOHOL
 
 /obj/item/reagent_containers/cup/soda_cans/sodawater
-	name = "soda water"
+	name = "glup shitto"
 	desc = "A can of soda water. Why not make a scotch and soda?"
 	icon_state = "sodawater"
 	volume = 50
 	list_reagents = list(/datum/reagent/consumable/sodawater = 50)
 
 /obj/item/reagent_containers/cup/soda_cans/lemon_lime
-	name = "orange soda"
+	name = "glup shitto"
 	desc = "You wanted ORANGE. It gave you Lemon Lime."
 	icon_state = "lemon-lime"
 	list_reagents = list(/datum/reagent/consumable/lemon_lime = 30)
@@ -194,72 +194,72 @@
 
 /obj/item/reagent_containers/cup/soda_cans/lemon_lime/Initialize(mapload)
 	. = ..()
-	name = "lemon-lime soda"
+	name = "glup shitto"
 
 /obj/item/reagent_containers/cup/soda_cans/sol_dry
-	name = "Sol Dry"
+	name = "glup shitto"
 	desc = "Maybe this will help your tummy feel better. Maybe not."
 	icon_state = "sol_dry"
 	list_reagents = list(/datum/reagent/consumable/sol_dry = 30)
 	drink_type = SUGAR
 
 /obj/item/reagent_containers/cup/soda_cans/space_up
-	name = "Space-Up!"
+	name = "glup shitto"
 	desc = "Tastes like a hull breach in your mouth."
 	icon_state = "space-up"
 	list_reagents = list(/datum/reagent/consumable/space_up = 30)
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/starkist
-	name = "Star-kist"
+	name = "glup shitto"
 	desc = "The taste of a star in liquid form. And, a bit of tuna...?"
 	icon_state = "starkist"
 	list_reagents = list(/datum/reagent/consumable/space_cola = 15, /datum/reagent/consumable/orangejuice = 15)
 	drink_type = SUGAR | FRUIT | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/space_mountain_wind
-	name = "Space Mountain Wind"
+	name = "glup shitto"
 	desc = "Blows right through you like a space wind."
 	icon_state = "space_mountain_wind"
 	list_reagents = list(/datum/reagent/consumable/spacemountainwind = 30)
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/thirteenloko
-	name = "Thirteen Loko"
+	name = "glup shitto"
 	desc = "The CMO has advised crew members that consumption of Thirteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly."
 	icon_state = "thirteen_loko"
 	list_reagents = list(/datum/reagent/consumable/ethanol/thirteenloko = 30)
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/dr_gibb
-	name = "Dr. Gibb"
+	name = "glup shitto"
 	desc = "A delicious mixture of 42 different flavors."
 	icon_state = "dr_gibb"
 	list_reagents = list(/datum/reagent/consumable/dr_gibb = 30)
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/pwr_game
-	name = "Pwr Game"
+	name = "glup shitto"
 	desc = "The only drink with the PWR that true gamers crave. When a gamer talks about gamerfuel, this is what they're literally referring to."
 	icon_state = "purple_can"
 	list_reagents = list(/datum/reagent/consumable/pwr_game = 30)
 
 /obj/item/reagent_containers/cup/soda_cans/shamblers
-	name = "Shambler's juice"
+	name = "glup shitto"
 	desc = "~Shake me up some of that Shambler's Juice!~"
 	icon_state = "shamblers"
 	list_reagents = list(/datum/reagent/consumable/shamblers = 30)
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/grey_bull
-	name = "Grey Bull"
+	name = "glup shitto"
 	desc = "Grey Bull, it gives you gloves!"
 	icon_state = "energy_drink"
 	list_reagents = list(/datum/reagent/consumable/grey_bull = 20)
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/monkey_energy
-	name = "Monkey Energy"
+	name = "glup shitto"
 	desc = "Unleash the ape!"
 	icon_state = "monkey_energy"
 	inhand_icon_state = "monkey_energy"
@@ -268,7 +268,7 @@
 	drink_type = SUGAR | JUNKFOOD
 
 /obj/item/reagent_containers/cup/soda_cans/air
-	name = "canned air"
+	name = "glup shitto"
 	desc = "There is no air shortage. Do not drink."
 	icon_state = "air"
 	list_reagents = list(/datum/reagent/nitrogen = 24, /datum/reagent/oxygen = 6)

@@ -110,7 +110,7 @@
 	category = CAT_PIZZA
 
 /datum/crafting_recipe/food/raw_meat_calzone
-	name = "Meat calzone"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/flatdough = 1,
 		/obj/item/food/cheese/wedge = 2,
@@ -121,7 +121,7 @@
 	category = CAT_PIZZA
 
 /datum/crafting_recipe/food/raw_vegetarian_calzone
-	name = "Vegetarian calzone"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/flatdough = 1,
 		/obj/item/food/grown/tomato = 1,

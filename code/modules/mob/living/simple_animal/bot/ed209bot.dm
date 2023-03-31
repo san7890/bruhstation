@@ -1,5 +1,5 @@
 /mob/living/simple_animal/bot/secbot/ed209
-	name = "\improper ED-209 Security Robot"
+	name = "glup shitto"
 	desc = "A security robot. He looks less than thrilled."
 	icon_state = "ed209"
 	density = TRUE

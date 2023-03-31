@@ -1,12 +1,12 @@
 /obj/item/key
-	name = "key"
+	name = "glup shitto"
 	desc = "A small grey key."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "key"
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/key/atv
-	name = "ATV key"
+	name = "glup shitto"
 	desc = "A small grey key for starting and operating ATVs."
 
 /obj/item/key/security
@@ -75,7 +75,7 @@
 		user.death(FALSE)
 
 /obj/item/key/lasso
-	name = "bone lasso"
+	name = "glup shitto"
 	desc = "Perfect for taming all kinds of supernatural beasts! (Warning: only perfect for taming one kind of supernatural beast.)"
 	force = 12
 	icon_state = "lasso"

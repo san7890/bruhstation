@@ -1,6 +1,6 @@
 // Plum
 /obj/item/seeds/plum
-	name = "pack of plum seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into plum trees."
 	icon_state = "seed-plum"
 	species = "plum"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/plum
 	seed = /obj/item/seeds/plum
-	name = "plum"
+	name = "glup shitto"
 	desc = "A poet's favorite fruit. Noice."
 	icon_state = "plum"
 	foodtypes = FRUIT
@@ -28,7 +28,7 @@
 
 // Plumb
 /obj/item/seeds/plum/plumb
-	name = "pack of plumb seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into plumb trees."
 	icon_state = "seed-plumb"
 	species = "plumb"
@@ -41,7 +41,7 @@
 
 /obj/item/food/grown/plum/plumb
 	seed = /obj/item/seeds/plum/plumb
-	name = "plumb"
+	name = "glup shitto"
 	desc = "It feels very heavy."
 	icon_state = "plumb"
 	distill_reagent = null

@@ -7,7 +7,7 @@
 */
 
 /obj/machinery/telecomms/processor
-	name = "processor unit"
+	name = "glup shitto"
 	icon_state = "processor"
 	desc = "This machine is used to process large quantities of information."
 	telecomms_type = /obj/machinery/telecomms/processor
@@ -54,4 +54,4 @@
 	autolinkers = list("processor4")
 
 /obj/machinery/telecomms/processor/preset_one/birdstation
-	name = "Processor"
+	name = "glup shitto"

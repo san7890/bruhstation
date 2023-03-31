@@ -16,7 +16,7 @@
 	holder.remove_reagent(type, metabolization_rate * delta_time / affected_mob.metabolism_efficiency) //medicine reagents stay longer if you have a better metabolism
 
 /datum/reagent/medicine/leporazine
-	name = "Leporazine"
+	name = "glup shitto"
 	description = "Leporazine will effectively regulate a patient's body temperature, ensuring it never leaves safe levels."
 	ph = 8.4
 	color = "#DB90C6"
@@ -37,7 +37,7 @@
 	..()
 
 /datum/reagent/medicine/adminordrazine //An OP chemical for admins
-	name = "Adminordrazine"
+	name = "glup shitto"
 	description = "It's magic. We don't have to explain it."
 	color = "#E0BB00" //golden for the gods
 	taste_description = "badmins"
@@ -74,13 +74,13 @@
 	return ..()
 
 /datum/reagent/medicine/adminordrazine/quantum_heal
-	name = "Quantum Medicine"
+	name = "glup shitto"
 	description = "Rare and experimental particles, that apparently swap the user's body with one from an alternate dimension where it's completely healthy."
 	taste_description = "science"
 	full_heal_flags = ~(HEAL_ADMIN|HEAL_BRUTE|HEAL_BURN|HEAL_TOX|HEAL_RESTRAINTS|HEAL_ALL_REAGENTS|HEAL_REFRESH_ORGANS)
 
 /datum/reagent/medicine/synaptizine
-	name = "Synaptizine"
+	name = "glup shitto"
 	description = "Increases resistance to stuns as well as reducing drowsiness and hallucinations."
 	color = "#FF00FF"
 	ph = 4
@@ -102,7 +102,7 @@
 	..()
 
 /datum/reagent/medicine/synaphydramine
-	name = "Diphen-Synaptizine"
+	name = "glup shitto"
 	description = "Reduces drowsiness, hallucinations, and Histamine from body."
 	color = "#EC536D" // rgb: 236, 83, 109
 	ph = 5.2
@@ -121,7 +121,7 @@
 	..()
 
 /datum/reagent/medicine/cryoxadone
-	name = "Cryoxadone"
+	name = "glup shitto"
 	description = "A chemical mixture with almost magical healing powers. Its main limitation is that the patient's body temperature must be under 270K for it to metabolise correctly."
 	color = "#0000C8"
 	taste_description = "blue"
@@ -157,7 +157,7 @@
 	mytray.adjust_toxic(-round(chems.get_reagent_amount(type) * 3))
 
 /datum/reagent/medicine/clonexadone
-	name = "Clonexadone"
+	name = "glup shitto"
 	description = "A chemical that derives from Cryoxadone. It specializes in healing clone damage, but nothing else. Requires very cold temperatures to properly metabolize, and metabolizes quicker than cryoxadone."
 	color = "#3D3DC6"
 	taste_description = "muscle"
@@ -173,7 +173,7 @@
 	..()
 
 /datum/reagent/medicine/pyroxadone
-	name = "Pyroxadone"
+	name = "glup shitto"
 	description = "A mixture of cryoxadone and slime jelly, that apparently inverses the requirement for its activation."
 	color = "#f7832a"
 	taste_description = "spicy jelly"
@@ -206,7 +206,7 @@
 	..()
 
 /datum/reagent/medicine/rezadone
-	name = "Rezadone"
+	name = "glup shitto"
 	description = "A powder derived from fish toxin, Rezadone can effectively treat genetic damage as well as restoring minor wounds and restoring corpses husked by burns. Overdose will cause intense nausea and minor toxin damage."
 	reagent_state = SOLID
 	color = "#669900" // rgb: 102, 153, 0
@@ -240,7 +240,7 @@
 		patient.visible_message(span_nicegreen("[patient]'s body rapidly absorbs moisture from the environment, taking on a more healthy appearance."))
 
 /datum/reagent/medicine/spaceacillin
-	name = "Spaceacillin"
+	name = "glup shitto"
 	description = "Spaceacillin will provide limited resistance against disease and parasites. Also reduces infection in serious burns."
 	color = "#E1F2E6"
 	metabolization_rate = 0.1 * REAGENTS_METABOLISM
@@ -250,7 +250,7 @@
 //Goon Chems. Ported mainly from Goonstation. Easily mixable (or not so easily) and provide a variety of effects.
 
 /datum/reagent/medicine/oxandrolone
-	name = "Oxandrolone"
+	name = "glup shitto"
 	description = "Stimulates the healing of severe burns. Extremely rapidly heals severe burns and slowly heals minor ones. Overdose will worsen existing burns."
 	reagent_state = LIQUID
 	color = "#1E8BFF"
@@ -274,7 +274,7 @@
 	..()
 
 /datum/reagent/medicine/salglu_solution
-	name = "Saline-Glucose Solution"
+	name = "glup shitto"
 	description = "Has a 33% chance per metabolism cycle to heal brute and burn damage. Can be used as a temporary blood substitute, as well as slowly speeding blood regeneration."
 	reagent_state = LIQUID
 	color = "#DCDCDC"
@@ -318,7 +318,7 @@
 	..()
 
 /datum/reagent/medicine/mine_salve
-	name = "Miner's Salve"
+	name = "glup shitto"
 	description = "A powerful painkiller. Restores bruising and burns in addition to making the patient believe they are fully healed. Also great for treating severe burn wounds in a pinch."
 	reagent_state = LIQUID
 	color = "#6D6374"
@@ -359,7 +359,7 @@
 	metabolizer.remove_status_effect(/datum/status_effect/grouped/screwy_hud/fake_healthy, type)
 
 /datum/reagent/medicine/omnizine
-	name = "Omnizine"
+	name = "glup shitto"
 	description = "Slowly heals all damage types. Overdose will cause damage in all types instead."
 	reagent_state = LIQUID
 	color = "#DCDCDC"
@@ -386,14 +386,14 @@
 	. = TRUE
 
 /datum/reagent/medicine/omnizine/protozine
-	name = "Protozine"
+	name = "glup shitto"
 	description = "A less environmentally friendly and somewhat weaker variant of omnizine."
 	color = "#d8c7b7"
 	healing = 0.2
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/calomel
-	name = "Calomel"
+	name = "glup shitto"
 	description = "Quickly purges the body of all chemicals except itself. The more health a person has, \
 		the more toxin damage it will deal. It can heal toxin damage when people have low enough health."
 	reagent_state = LIQUID
@@ -422,7 +422,7 @@
 	return TRUE
 
 /datum/reagent/medicine/ammoniated_mercury
-	name = "Ammoniated Mercury"
+	name = "glup shitto"
 	description = "Quickly purges the body of toxic chemicals. Heals toxin damage when in a good condition someone has \
 		no brute and fire damage. When hurt with brute or fire damage, it can deal a great amount of toxin damage. \
 		When there are no toxins present, it starts slowly purging itself."
@@ -453,7 +453,7 @@
 	return TRUE
 
 /datum/reagent/medicine/potass_iodide
-	name = "Potassium Iodide"
+	name = "glup shitto"
 	description = "Heals low toxin damage while the patient is irradiated, and will halt the damaging effects of radiation."
 	reagent_state = LIQUID
 	color = "#BAA15D"
@@ -476,7 +476,7 @@
 	..()
 
 /datum/reagent/medicine/pen_acid
-	name = "Pentetic Acid"
+	name = "glup shitto"
 	description = "Reduces massive amounts of toxin damage while purging other chemicals from the body."
 	reagent_state = LIQUID
 	color = "#E6FFF0"
@@ -501,7 +501,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/sal_acid
-	name = "Salicylic Acid"
+	name = "glup shitto"
 	description = "Stimulates the healing of severe bruises. Extremely rapidly heals severe bruising and slowly heals minor ones. Overdose will worsen existing bruising."
 	reagent_state = LIQUID
 	color = "#D2D2D2"
@@ -525,7 +525,7 @@
 	..()
 
 /datum/reagent/medicine/salbutamol
-	name = "Salbutamol"
+	name = "glup shitto"
 	description = "Rapidly restores oxygen deprivation as well as preventing more of it to an extent."
 	reagent_state = LIQUID
 	color = "#00FFFF"
@@ -544,7 +544,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/ephedrine
-	name = "Ephedrine"
+	name = "glup shitto"
 	description = "Increases resistance to batons and movement speed, giving you hand cramps. Overdose deals toxin damage and inhibits breathing."
 	reagent_state = LIQUID
 	color = "#D2FFFA"
@@ -596,7 +596,7 @@
 	return TRUE
 
 /datum/reagent/medicine/diphenhydramine
-	name = "Diphenhydramine"
+	name = "glup shitto"
 	description = "Rapidly purges the body of Histamine and reduces jitteriness. Slight chance of causing drowsiness."
 	reagent_state = LIQUID
 	color = "#64FFE6"
@@ -612,7 +612,7 @@
 	..()
 
 /datum/reagent/medicine/morphine
-	name = "Morphine"
+	name = "glup shitto"
 	description = "A painkiller that allows the patient to move at full speed even when injured. Causes drowsiness and eventually unconsciousness in high doses. Overdose will cause a variety of effects, ranging from minor to lethal."
 	reagent_state = LIQUID
 	color = "#A9FBFB"
@@ -652,7 +652,7 @@
 
 
 /datum/reagent/medicine/oculine
-	name = "Oculine"
+	name = "glup shitto"
 	description = "Quickly restores eye damage, cures nearsightedness, and has a chance to restore vision to the blind."
 	reagent_state = LIQUID
 	color = "#404040" //oculine is dark grey, inacusiate is light grey
@@ -727,7 +727,7 @@
 	..()
 
 /datum/reagent/medicine/inacusiate
-	name = "Inacusiate"
+	name = "glup shitto"
 	description = "Rapidly repairs damage to the patient's ears to cure deafness, assuming the source of said deafness isn't from genetic mutations, chronic deafness, or a total defecit of ears." //by "chronic" deafness, we mean people with the "deaf" quirk
 	color = "#606060" // ditto
 	ph = 2
@@ -763,7 +763,7 @@
 	UnregisterSignal(affected_mob, COMSIG_MOVABLE_HEAR)
 
 /datum/reagent/medicine/atropine
-	name = "Atropine"
+	name = "glup shitto"
 	description = "If a patient is in critical condition, rapidly heals all damage types as well as regulating oxygen in the body. Excellent for stabilizing wounded patients, and said to neutralize blood-activated internal explosives found amongst clandestine black op agents."
 	reagent_state = LIQUID
 	color = "#1D3535" //slightly more blue, like epinephrine
@@ -804,7 +804,7 @@
 	..()
 
 /datum/reagent/medicine/epinephrine
-	name = "Epinephrine"
+	name = "glup shitto"
 	description = "Very minor boost to stun resistance. Slowly heals damage if a patient is in critical condition, as well as regulating oxygen loss. Overdose causes weakness and toxin damage."
 	reagent_state = LIQUID
 	color = "#D2FFFA"
@@ -859,7 +859,7 @@
 	..()
 
 /datum/reagent/medicine/strange_reagent
-	name = "Strange Reagent"
+	name = "glup shitto"
 	description = "A miracle drug capable of bringing the dead back to life. Works topically unless anotamically complex, in which case works orally. Cannot revive targets under -%MAXHEALTHRATIO% health."
 	reagent_state = LIQUID
 	color = "#A0E85E"
@@ -878,7 +878,7 @@
 	var/max_revive_damage_ratio = 2
 
 /datum/reagent/medicine/strange_reagent/instant
-	name = "Stranger Reagent"
+	name = "glup shitto"
 	instant = TRUE
 
 /datum/reagent/medicine/strange_reagent/New()
@@ -966,7 +966,7 @@
 	return ..()
 
 /datum/reagent/medicine/mannitol
-	name = "Mannitol"
+	name = "glup shitto"
 	description = "Efficiently restores brain damage."
 	taste_description = "pleasant sweetness"
 	color = "#A0A0A0" //mannitol is light grey, neurine is lighter grey
@@ -1008,7 +1008,7 @@
 	return ..()
 
 /datum/reagent/medicine/neurine
-	name = "Neurine"
+	name = "glup shitto"
 	description = "Reacts with neural tissue, helping reform damaged connections. Can cure minor traumas."
 	color = "#C0C0C0" //ditto
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED | REAGENT_DEAD_PROCESS
@@ -1048,7 +1048,7 @@
 	..()
 
 /datum/reagent/medicine/mutadone
-	name = "Mutadone"
+	name = "glup shitto"
 	description = "Removes jitteriness and restores genetic defects."
 	color = "#5096C8"
 	taste_description = "acid"
@@ -1063,7 +1063,7 @@
 		..()
 
 /datum/reagent/medicine/antihol
-	name = "Antihol"
+	name = "glup shitto"
 	description = "Purges alcoholic substance from the patient's body and eliminates its side effects."
 	color = "#00B4C8"
 	taste_description = "raw egg"
@@ -1091,7 +1091,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/stimulants
-	name = "Stimulants"
+	name = "glup shitto"
 	description = "Increases resistance to batons and movement speed in addition to restoring minor damage and weakness. Overdose causes weakness and toxin damage."
 	color = "#78008C"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -1130,7 +1130,7 @@
 	..()
 
 /datum/reagent/medicine/insulin
-	name = "Insulin"
+	name = "glup shitto"
 	description = "Increases sugar depletion rates."
 	reagent_state = LIQUID
 	color = "#FFFFF0"
@@ -1147,7 +1147,7 @@
 //Trek Chems, used primarily by medibots. Only heals a specific damage type, but is very efficient.
 
 /datum/reagent/medicine/inaprovaline //is this used anywhere?
-	name = "Inaprovaline"
+	name = "glup shitto"
 	description = "Stabilizes the breathing of patients. Good for those in critical condition."
 	reagent_state = LIQUID
 	color = "#A4D8D8"
@@ -1160,7 +1160,7 @@
 	..()
 
 /datum/reagent/medicine/regen_jelly
-	name = "Regenerative Jelly"
+	name = "glup shitto"
 	description = "Gradually regenerates all types of damage, without harming slime anatomy."
 	reagent_state = LIQUID
 	color = "#CC23FF"
@@ -1188,7 +1188,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/syndicate_nanites //Used exclusively by Syndicate medical cyborgs
-	name = "Restorative Nanites"
+	name = "glup shitto"
 	description = "Miniature medical robots that swiftly restore bodily damage."
 	reagent_state = SOLID
 	color = "#555555"
@@ -1214,7 +1214,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/earthsblood //Created by ambrosia gaia plants
-	name = "Earthsblood"
+	name = "glup shitto"
 	description = "Ichor from an extremely powerful plant. Great for restoring wounds, but it's a little heavy on the brain. For some strange reason, it also induces temporary pacifism in those who imbibe it and semi-permanent pacifism in those who overdose on it."
 	color = "#FFAF00"
 	metabolization_rate = REAGENTS_METABOLISM //Math is based on specific metab rate so we want this to be static AKA if define or medicine metab rate changes, we want this to stay until we can rework calculations.
@@ -1281,7 +1281,7 @@
 	return pick(earthsblood_lines)
 
 /datum/reagent/medicine/haloperidol
-	name = "Haloperidol"
+	name = "glup shitto"
 	description = "Increases depletion rates for most stimulating/hallucinogenic drugs. Reduces druggy effects and jitteriness. Severe stamina regeneration penalty, causes drowsiness. Small chance of brain damage."
 	reagent_state = LIQUID
 	color = "#27870a"
@@ -1309,7 +1309,7 @@
 
 //used for changeling's adrenaline power
 /datum/reagent/medicine/changelingadrenaline
-	name = "Changeling Adrenaline"
+	name = "glup shitto"
 	description = "Reduces the duration of unconciousness, knockdown and stuns. Restores stamina, but deals toxin damage when overdosed."
 	color = "#C1151D"
 	overdose_threshold = 30
@@ -1341,7 +1341,7 @@
 	return TRUE
 
 /datum/reagent/medicine/changelinghaste
-	name = "Changeling Haste"
+	name = "glup shitto"
 	description = "Drastically increases movement speed, but deals toxin damage."
 	color = "#AE151D"
 	metabolization_rate = 2.5 * REAGENTS_METABOLISM
@@ -1361,7 +1361,7 @@
 	return TRUE
 
 /datum/reagent/medicine/higadrite
-	name = "Higadrite"
+	name = "glup shitto"
 	description = "A medication utilized to treat ailing livers."
 	color = "#FF3542"
 	self_consuming = TRUE
@@ -1376,7 +1376,7 @@
 	REMOVE_TRAIT(affected_mob, TRAIT_STABLELIVER, type)
 
 /datum/reagent/medicine/cordiolis_hepatico
-	name = "Cordiolis Hepatico"
+	name = "glup shitto"
 	description = "A strange, pitch-black reagent that seems to absorb all light. Effects unknown."
 	color = "#000000"
 	self_consuming = TRUE
@@ -1391,7 +1391,7 @@
 	affected_mob.remove_traits(list(TRAIT_STABLELIVER, TRAIT_STABLEHEART), type)
 
 /datum/reagent/medicine/muscle_stimulant
-	name = "Muscle Stimulant"
+	name = "glup shitto"
 	description = "A potent chemical that allows someone under its influence to be at full physical ability even when under massive amounts of pain."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
@@ -1404,7 +1404,7 @@
 	affected_mob.remove_movespeed_mod_immunities(type, /datum/movespeed_modifier/damage_slowdown)
 
 /datum/reagent/medicine/modafinil
-	name = "Modafinil"
+	name = "glup shitto"
 	description = "Long-lasting sleep suppressant that very slightly reduces stun and knockdown times. Overdosing has horrendous side effects and deals lethal oxygen damage, will knock you unconscious if not dealt with."
 	reagent_state = LIQUID
 	color = "#BEF7D8" // palish blue white
@@ -1471,7 +1471,7 @@
 	return TRUE
 
 /datum/reagent/medicine/psicodine
-	name = "Psicodine"
+	name = "glup shitto"
 	description = "Suppresses anxiety and other various forms of mental distress. Overdose causes hallucinations and minor toxin damage."
 	reagent_state = LIQUID
 	color = "#07E79E"
@@ -1505,7 +1505,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/metafactor
-	name = "Mitogen Metabolism Factor"
+	name = "glup shitto"
 	description = "This enzyme catalyzes the conversion of nutricious food into healing peptides."
 	metabolization_rate = 0.0625  * REAGENTS_METABOLISM //slow metabolism rate so the patient can self heal with food even after the troph has metabolized away for amazing reagent efficency.
 	reagent_state = SOLID
@@ -1524,7 +1524,7 @@
 	..()
 
 /datum/reagent/medicine/silibinin
-	name = "Silibinin"
+	name = "glup shitto"
 	description = "A thistle derrived hepatoprotective flavolignan mixture that help reverse damage to the liver."
 	reagent_state = SOLID
 	color = "#FFFFD0"
@@ -1537,7 +1537,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/polypyr  //This is intended to be an ingredient in advanced chems.
-	name = "Polypyrylium Oligomers"
+	name = "glup shitto"
 	description = "A purple mixture of short polyelectrolyte chains not easily synthesized in the laboratory. It is valued as an intermediate in the synthesis of the cutting edge pharmaceuticals."
 	reagent_state = SOLID
 	color = "#9423FF"
@@ -1566,7 +1566,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/granibitaluri
-	name = "Granibitaluri" //achieve "GRANular" amounts of C2
+	name = "glup shitto" amounts of C2
 	description = "A mild painkiller useful as an additive alongside more potent medicines. Speeds up the healing of small wounds and burns, but is ineffective at treating severe injuries. Extremely large doses are toxic, and may eventually cause liver failure."
 	color = "#E0E0E0"
 	reagent_state = LIQUID
@@ -1589,7 +1589,7 @@
 
 // helps bleeding wounds clot faster
 /datum/reagent/medicine/coagulant
-	name = "Sanguirite"
+	name = "glup shitto"
 	description = "A proprietary coagulant used to help bleeding wounds clot faster."
 	reagent_state = LIQUID
 	color = "#bb2424"
@@ -1667,7 +1667,7 @@
 
 // i googled "natural coagulant" and a couple of results came up for banana peels, so after precisely 30 more seconds of research, i now dub grinding banana peels good for your blood
 /datum/reagent/medicine/coagulant/banana_peel
-	name = "Pulped Banana Peel"
+	name = "glup shitto"
 	description = "Ancient Clown Lore says that pulped banana peels are good for your blood, but are you really going to take medical advice from a clown about bananas?"
 	color = "#50531a" // rgb: 175, 175, 0
 	taste_description = "horribly stringy, bitter pulp"
@@ -1678,12 +1678,12 @@
 
 /datum/glass_style/drinking_glass/banana_peel
 	required_drink_type = /datum/reagent/medicine/coagulant/banana_peel
-	name = "glass of banana peel pulp"
+	name = "glup shitto"
 	desc = "Ancient Clown Lore says that pulped banana peels are good for your blood, \
 		but are you really going to take medical advice from a clown about bananas?"
 
 /datum/reagent/medicine/coagulant/seraka_extract
-	name = "Seraka Extract"
+	name = "glup shitto"
 	description = "A deeply coloured oil present in small amounts in Seraka Mushrooms. Acts as an effective blood clotting agent, but has a low overdose threshold."
 	color = "#00767C"
 	taste_description = "intensely savoury bitterness"
@@ -1694,5 +1694,5 @@
 
 /datum/glass_style/drinking_glass/seraka_extract
 	required_drink_type = /datum/reagent/medicine/coagulant/seraka_extract
-	name = "glass of seraka extract"
+	name = "glup shitto"
 	desc = "Deeply savoury, bitter, and makes your blood clot up in your veins. A great drink, all things considered."

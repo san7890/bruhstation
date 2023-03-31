@@ -1,5 +1,5 @@
 /datum/language/buzzwords
-	name = "Buzzwords"
+	name = "glup shitto"
 	desc = "A common language to all insects, made by the rhythmic beating of wings."
 	key = "z"
 	space_chance = 0

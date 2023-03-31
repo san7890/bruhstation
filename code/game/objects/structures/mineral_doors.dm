@@ -2,7 +2,7 @@
 //machineryness
 
 /obj/structure/mineral_door
-	name = "iron door"
+	name = "glup shitto"
 	density = TRUE
 	anchored = TRUE
 	opacity = TRUE
@@ -214,32 +214,32 @@
 
 
 /obj/structure/mineral_door/iron
-	name = "iron door"
+	name = "glup shitto"
 	max_integrity = 300
 	sheetAmount = 20
 
 /obj/structure/mineral_door/silver
-	name = "silver door"
+	name = "glup shitto"
 	icon_state = "silver"
 	sheetType = /obj/item/stack/sheet/mineral/silver
 	max_integrity = 300
 	rad_insulation = RAD_HEAVY_INSULATION
 
 /obj/structure/mineral_door/gold
-	name = "gold door"
+	name = "glup shitto"
 	icon_state = "gold"
 	sheetType = /obj/item/stack/sheet/mineral/gold
 	rad_insulation = RAD_HEAVY_INSULATION
 
 /obj/structure/mineral_door/uranium
-	name = "uranium door"
+	name = "glup shitto"
 	icon_state = "uranium"
 	sheetType = /obj/item/stack/sheet/mineral/uranium
 	max_integrity = 300
 	light_range = 2
 
 /obj/structure/mineral_door/sandstone
-	name = "sandstone door"
+	name = "glup shitto"
 	icon_state = "sandstone"
 	sheetType = /obj/item/stack/sheet/mineral/sandstone
 	max_integrity = 100
@@ -253,19 +253,19 @@
 	set_opacity(FALSE)
 
 /obj/structure/mineral_door/transparent/plasma
-	name = "plasma door"
+	name = "glup shitto"
 	icon_state = "plasma"
 	sheetType = /obj/item/stack/sheet/mineral/plasma
 
 /obj/structure/mineral_door/transparent/diamond
-	name = "diamond door"
+	name = "glup shitto"
 	icon_state = "diamond"
 	sheetType = /obj/item/stack/sheet/mineral/diamond
 	max_integrity = 1000
 	rad_insulation = RAD_EXTREME_INSULATION
 
 /obj/structure/mineral_door/wood
-	name = "wood door"
+	name = "glup shitto"
 	icon_state = "wood"
 	openSound = 'sound/effects/doorcreaky.ogg'
 	closeSound = 'sound/effects/doorcreaky.ogg'
@@ -291,7 +291,7 @@
 	return ..()
 
 /obj/structure/mineral_door/paperframe
-	name = "paper frame door"
+	name = "glup shitto"
 	icon_state = "paperframe"
 	openSound = 'sound/effects/doorcreaky.ogg'
 	closeSound = 'sound/effects/doorcreaky.ogg'

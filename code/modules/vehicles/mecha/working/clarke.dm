@@ -1,7 +1,7 @@
 ///Lavaproof, fireproof, fast mech with low armor and higher energy consumption, cannot strafe and has an internal ore box.
 /obj/vehicle/sealed/mecha/working/clarke
 	desc = "Combining man and machine for a better, stronger engineer. Can even resist lava!"
-	name = "\improper Clarke"
+	name = "glup shitto"
 	icon_state = "clarke"
 	base_icon_state = "clarke"
 	max_temperature = 65000
@@ -54,7 +54,7 @@
 
 ///Special equipment for the Clarke mech, handles moving ore without giving the mech a hydraulic clamp and cargo compartment.
 /obj/item/mecha_parts/mecha_equipment/orebox_manager
-	name = "ore storage module"
+	name = "glup shitto"
 	desc = "An automated ore box management device."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "bin"
@@ -81,7 +81,7 @@
 #define SEARCH_COOLDOWN (1 MINUTES)
 
 /datum/action/vehicle/sealed/mecha/mech_search_ruins
-	name = "Search for Ruins"
+	name = "glup shitto"
 	button_icon_state = "mech_search_ruins"
 	COOLDOWN_DECLARE(search_cooldown)
 
@@ -130,7 +130,7 @@
 	qdel(src)
 
 /atom/movable/screen/alert/status_effect/agent_pinpointer/ruin
-	name = "Ruin Target"
+	name = "glup shitto"
 	desc = "Searching for valuables..."
 
 #undef SEARCH_COOLDOWN

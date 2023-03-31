@@ -1,7 +1,7 @@
 // Closets for specific jobs
 
 /obj/structure/closet/gmcloset
-	name = "formal closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for formal clothing."
 	icon_door = "black"
 
@@ -25,7 +25,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/structure/closet/chefcloset
-	name = "chef's closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for foodservice garments and mouse traps."
 	icon_door = "black"
 
@@ -46,7 +46,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/structure/closet/jcloset
-	name = "custodial closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for janitorial clothes and gear."
 	icon_door = "mixed"
 
@@ -70,7 +70,7 @@
 
 
 /obj/structure/closet/lawcloset
-	name = "legal closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for courtroom apparel and items."
 	icon_door = "blue"
 
@@ -94,7 +94,7 @@
 	new /obj/item/clothing/accessory/lawyers_badge(src)
 
 /obj/structure/closet/wardrobe/chaplain_black
-	name = "chapel wardrobe"
+	name = "glup shitto"
 	desc = "It's a storage unit for Nanotrasen-approved religious attire."
 	icon_door = "black"
 
@@ -113,7 +113,7 @@
 	return
 
 /obj/structure/closet/wardrobe/red
-	name = "security wardrobe"
+	name = "glup shitto"
 	icon_door = "red"
 
 /obj/structure/closet/wardrobe/red/PopulateContents()
@@ -132,7 +132,7 @@
 	return
 
 /obj/structure/closet/wardrobe/cargotech
-	name = "cargo wardrobe"
+	name = "glup shitto"
 	icon_door = "orange"
 
 /obj/structure/closet/wardrobe/cargotech/PopulateContents()
@@ -146,7 +146,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/structure/closet/wardrobe/atmospherics_yellow
-	name = "atmospherics wardrobe"
+	name = "glup shitto"
 	icon_door = "atmos_wardrobe"
 
 /obj/structure/closet/wardrobe/atmospherics_yellow/PopulateContents()
@@ -162,7 +162,7 @@
 	return
 
 /obj/structure/closet/wardrobe/engineering_yellow
-	name = "engineering wardrobe"
+	name = "glup shitto"
 	icon_door = "yellow"
 
 /obj/structure/closet/wardrobe/engineering_yellow/PopulateContents()
@@ -180,7 +180,7 @@
 	return
 
 /obj/structure/closet/wardrobe/white/medical
-	name = "medical doctor's wardrobe"
+	name = "glup shitto"
 
 /obj/structure/closet/wardrobe/white/medical/PopulateContents()
 	var/static/items_inside = list(
@@ -201,7 +201,7 @@
 	return
 
 /obj/structure/closet/wardrobe/robotics_black
-	name = "robotics wardrobe"
+	name = "glup shitto"
 	icon_door = "black"
 
 /obj/structure/closet/wardrobe/robotics_black/PopulateContents()
@@ -221,7 +221,7 @@
 
 
 /obj/structure/closet/wardrobe/chemistry_white
-	name = "chemistry wardrobe"
+	name = "glup shitto"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/chemistry_white/PopulateContents()
@@ -238,7 +238,7 @@
 
 
 /obj/structure/closet/wardrobe/genetics_white
-	name = "genetics wardrobe"
+	name = "glup shitto"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/genetics_white/PopulateContents()
@@ -254,7 +254,7 @@
 
 
 /obj/structure/closet/wardrobe/virology_white
-	name = "virology wardrobe"
+	name = "glup shitto"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/virology_white/PopulateContents()
@@ -270,7 +270,7 @@
 	return
 
 /obj/structure/closet/wardrobe/science_white
-	name = "science wardrobe"
+	name = "glup shitto"
 	icon_door = "white"
 
 /obj/structure/closet/wardrobe/science_white/PopulateContents()
@@ -289,7 +289,7 @@
 	return
 
 /obj/structure/closet/wardrobe/botanist
-	name = "botanist wardrobe"
+	name = "glup shitto"
 	icon_door = "green"
 
 /obj/structure/closet/wardrobe/botanist/PopulateContents()
@@ -305,7 +305,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/structure/closet/wardrobe/curator
-	name = "treasure hunting wardrobe"
+	name = "glup shitto"
 	icon_door = "black"
 
 /obj/structure/closet/wardrobe/curator/PopulateContents()

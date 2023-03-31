@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/construct/wraith
-	name = "Wraith"
+	name = "glup shitto"
 	real_name = "Wraith"
 	desc = "A wicked, clawed shell constructed to assassinate enemies and sow chaos behind enemy lines."
 	icon_state = "wraith"

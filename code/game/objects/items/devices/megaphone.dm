@@ -1,5 +1,5 @@
 /obj/item/megaphone
-	name = "megaphone"
+	name = "glup shitto"
 	desc = "A device used to project your voice. Loudly."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "megaphone"
@@ -46,22 +46,22 @@
 	voicespan = list(SPAN_REALLYBIG, "userdanger")
 
 /obj/item/megaphone/sec
-	name = "security megaphone"
+	name = "glup shitto"
 	icon_state = "megaphone-sec"
 	inhand_icon_state = "megaphone-sec"
 
 /obj/item/megaphone/command
-	name = "command megaphone"
+	name = "glup shitto"
 	icon_state = "megaphone-command"
 	inhand_icon_state = "megaphone-command"
 
 /obj/item/megaphone/cargo
-	name = "supply megaphone"
+	name = "glup shitto"
 	icon_state = "megaphone-cargo"
 	inhand_icon_state = "megaphone-cargo"
 
 /obj/item/megaphone/clown
-	name = "clown's megaphone"
+	name = "glup shitto"
 	desc = "Something that should not exist."
 	icon_state = "megaphone-clown"
 	inhand_icon_state = "megaphone-clown"

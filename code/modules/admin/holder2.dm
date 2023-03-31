@@ -63,7 +63,7 @@ GLOBAL_PROTECT(href_token)
 		QDEL_IN(src, 0)
 		CRASH("Admin datum created with invalid ranks: [ranks] ([json_encode(ranks)])")
 	target = ckey
-	name = "[ckey]'s admin datum ([join_admin_ranks(ranks)])"
+	name = "glup shitto"
 	src.ranks = ranks
 	admin_signature = "Nanotrasen Officer #[rand(0,9)][rand(0,9)][rand(0,9)]"
 	href_token = GenerateToken()

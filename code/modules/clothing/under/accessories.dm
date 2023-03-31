@@ -1,5 +1,5 @@
 /obj/item/clothing/accessory //Ties moved to neck slot items, but as there are still things like medals and armbands, this accessory system is being kept as-is
-	name = "Accessory"
+	name = "glup shitto"
 	desc = "Something has gone wrong!"
 	icon = 'icons/obj/clothing/accessories.dmi'
 	worn_icon = 'icons/mob/clothing/accessories.dmi'
@@ -83,7 +83,7 @@
 	. += span_notice("\The [src] can be worn above or below your suit. Right-click to toggle.")
 
 /obj/item/clothing/accessory/waistcoat
-	name = "waistcoat"
+	name = "glup shitto"
 	desc = "For some classy, murderous fun."
 	icon_state = "waistcoat"
 	inhand_icon_state = "wcoat"
@@ -97,7 +97,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/accessory/vest_sheriff
-	name = "sheriff vest"
+	name = "glup shitto"
 	desc = "Now you just have to pick your favourite deputy."
 	icon_state = "vest_sheriff"
 	lefthand_file = 'icons/mob/inhands/clothing/suits_lefthand.dmi'
@@ -107,7 +107,7 @@
 	attachment_slot = null
 
 /obj/item/clothing/accessory/maidcorset
-	name = "maid corset"
+	name = "glup shitto"
 	desc = "The final touch that holds it all together."
 	icon_state = "maidcorset"
 	inhand_icon_state = "maidapron"
@@ -117,7 +117,7 @@
 	attachment_slot = null
 
 /obj/item/clothing/accessory/maidapron
-	name = "maid apron"
+	name = "glup shitto"
 	desc = "The best part of a maid costume."
 	icon_state = "maidapron"
 	inhand_icon_state = "maidapron"
@@ -131,7 +131,7 @@
 //////////
 
 /obj/item/clothing/accessory/medal
-	name = "bronze medal"
+	name = "glup shitto"
 	desc = "A bronze medal."
 	icon_state = "bronze"
 	custom_materials = list(/datum/material/iron=1000)
@@ -181,74 +181,74 @@
 		..()
 
 /obj/item/clothing/accessory/medal/conduct
-	name = "distinguished conduct medal"
+	name = "glup shitto"
 	desc = "A bronze medal awarded for distinguished conduct. Whilst a great honor, this is the most basic award given by Nanotrasen. It is often awarded by a captain to a member of his crew."
 
 /obj/item/clothing/accessory/medal/bronze_heart
-	name = "bronze heart medal"
+	name = "glup shitto"
 	desc = "A bronze heart-shaped medal awarded for sacrifice. It is often awarded posthumously or for severe injury in the line of duty."
 	icon_state = "bronze_heart"
 
 /obj/item/clothing/accessory/medal/ribbon
-	name = "ribbon"
+	name = "glup shitto"
 	desc = "A ribbon"
 	icon_state = "cargo"
 
 /obj/item/clothing/accessory/medal/ribbon/cargo
-	name = "\"cargo tech of the shift\" award"
+	name = "glup shitto"
 	desc = "An award bestowed only upon those cargotechs who have exhibited devotion to their duty in keeping with the highest traditions of Cargonia."
 
 /obj/item/clothing/accessory/medal/silver
-	name = "silver medal"
+	name = "glup shitto"
 	desc = "A silver medal."
 	icon_state = "silver"
 	medaltype = "medal-silver"
 	custom_materials = list(/datum/material/silver=1000)
 
 /obj/item/clothing/accessory/medal/silver/valor
-	name = "medal of valor"
+	name = "glup shitto"
 	desc = "A silver medal awarded for acts of exceptional valor."
 
 /obj/item/clothing/accessory/medal/silver/security
-	name = "robust security award"
+	name = "glup shitto"
 	desc = "An award for distinguished combat and sacrifice in defence of Nanotrasen's commercial interests. Often awarded to security staff."
 
 /obj/item/clothing/accessory/medal/silver/excellence
-	name = "\proper the head of personnel award for outstanding achievement in the field of excellence"
+	name = "glup shitto"
 	desc = "Nanotrasen's dictionary defines excellence as \"the quality or condition of being excellent\". This is awarded to those rare crewmembers who fit that definition."
 
 /obj/item/clothing/accessory/medal/silver/bureaucracy
-	name = "\improper Excellence in Bureaucracy Medal"
+	name = "glup shitto"
 	desc = "Awarded for exemplary managerial services rendered while under contract with Nanotrasen."
 
 /obj/item/clothing/accessory/medal/gold
-	name = "gold medal"
+	name = "glup shitto"
 	desc = "A prestigious golden medal."
 	icon_state = "gold"
 	medaltype = "medal-gold"
 	custom_materials = list(/datum/material/gold=1000)
 
 /obj/item/clothing/accessory/medal/med_medal
-	name = "exemplary performance medal"
+	name = "glup shitto"
 	desc = "A medal awarded to those who have shown distinguished conduct, performance, and initiative within the medical department."
 	icon_state = "med_medal"
 
 /obj/item/clothing/accessory/medal/med_medal2
-	name = "excellence in medicine medal"
+	name = "glup shitto"
 	desc = "A medal awarded to those who have shown legendary performance, competence, and initiative beyond all expectations within the medical department."
 	icon_state = "med_medal2"
 
 /obj/item/clothing/accessory/medal/gold/captain
-	name = "medal of captaincy"
+	name = "glup shitto"
 	desc = "A golden medal awarded exclusively to those promoted to the rank of captain. It signifies the codified responsibilities of a captain to Nanotrasen, and their undisputable authority over their crew."
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/accessory/medal/gold/heroism
-	name = "medal of exceptional heroism"
+	name = "glup shitto"
 	desc = "An extremely rare golden medal awarded only by CentCom. To receive such a medal is the highest honor and as such, very few exist. This medal is almost never awarded to anybody but commanders."
 
 /obj/item/clothing/accessory/medal/plasma
-	name = "plasma medal"
+	name = "glup shitto"
 	desc = "An eccentric medal made of plasma."
 	icon_state = "plasma"
 	medaltype = "medal-plasma"
@@ -271,7 +271,7 @@
 	qdel(src)
 
 /obj/item/clothing/accessory/medal/plasma/nobel_science
-	name = "nobel sciences award"
+	name = "glup shitto"
 	desc = "A plasma medal which represents significant contributions to the field of science or engineering."
 
 
@@ -281,42 +281,42 @@
 ////////////
 
 /obj/item/clothing/accessory/armband
-	name = "red armband"
+	name = "glup shitto"
 	desc = "A fancy red armband!"
 	icon_state = "redband"
 	attachment_slot = null
 
 /obj/item/clothing/accessory/armband/deputy
-	name = "security deputy armband"
+	name = "glup shitto"
 	desc = "An armband, worn by personnel authorized to act as a deputy of station security."
 
 /obj/item/clothing/accessory/armband/cargo
-	name = "cargo bay guard armband"
+	name = "glup shitto"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is brown."
 	icon_state = "cargoband"
 
 /obj/item/clothing/accessory/armband/engine
-	name = "engineering guard armband"
+	name = "glup shitto"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is orange with a reflective strip!"
 	icon_state = "engieband"
 
 /obj/item/clothing/accessory/armband/science
-	name = "science guard armband"
+	name = "glup shitto"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is purple."
 	icon_state = "rndband"
 
 /obj/item/clothing/accessory/armband/hydro
-	name = "hydroponics guard armband"
+	name = "glup shitto"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is green and blue."
 	icon_state = "hydroband"
 
 /obj/item/clothing/accessory/armband/med
-	name = "medical guard armband"
+	name = "glup shitto"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is white."
 	icon_state = "medband"
 
 /obj/item/clothing/accessory/armband/medblue
-	name = "medical guard armband"
+	name = "glup shitto"
 	desc = "An armband, worn by the station's security forces to display which department they're assigned to. This one is white and blue."
 	icon_state = "medblueband"
 
@@ -325,7 +325,7 @@
 //////////////
 
 /obj/item/clothing/accessory/lawyers_badge
-	name = "attorney's badge"
+	name = "glup shitto"
 	desc = "Fills you with the conviction of JUSTICE. Lawyers tend to want to show it to everyone they meet."
 	icon_state = "lawyerbadge"
 
@@ -353,7 +353,7 @@
 //HA HA! NERD!//
 ////////////////
 /obj/item/clothing/accessory/pocketprotector
-	name = "pocket protector"
+	name = "glup shitto"
 	desc = "Can protect your clothing from ink stains, but you'll look like a nerd if you're using one."
 	icon_state = "pocketprotector"
 
@@ -385,7 +385,7 @@
 ////////////////
 
 /obj/item/clothing/accessory/clown_enjoyer_pin
-	name = "\improper Clown Pin"
+	name = "glup shitto"
 	desc = "A pin to show off your appreciation for clowns and clowning!"
 	icon_state = "clown_enjoyer_pin"
 
@@ -400,7 +400,7 @@
 		L.clear_mood_event("clown_enjoyer_pin")
 
 /obj/item/clothing/accessory/mime_fan_pin
-	name = "\improper Mime Pin"
+	name = "glup shitto"
 	desc = "A pin to show off your appreciation for mimes and miming!"
 	icon_state = "mime_fan_pin"
 
@@ -419,7 +419,7 @@
 ////////////////
 
 /obj/item/clothing/accessory/talisman
-	name = "bone talisman"
+	name = "glup shitto"
 	desc = "A hunter's talisman, some say the old gods smile on those who wear it."
 	icon_state = "talisman"
 	armor_type = /datum/armor/accessory_talisman
@@ -435,7 +435,7 @@
 	acid = 25
 
 /obj/item/clothing/accessory/skullcodpiece
-	name = "skull codpiece"
+	name = "glup shitto"
 	desc = "A skull shaped ornament, intended to protect the important things in life."
 	icon_state = "skull"
 	armor_type = /datum/armor/accessory_skullcodpiece
@@ -451,7 +451,7 @@
 	acid = 25
 
 /obj/item/clothing/accessory/skilt
-	name = "Sinew Skirt"
+	name = "glup shitto"
 	desc = "For the last time. IT'S A KILT not a skirt."
 	icon_state = "skilt"
 	minimize_when_attached = FALSE
@@ -468,7 +468,7 @@
 	acid = 25
 
 /obj/item/clothing/accessory/allergy_dogtag
-	name = "Allergy dogtag"
+	name = "glup shitto"
 	desc = "Dogtag with a list of your allergies"
 	icon_state = "allergy"
 	minimize_when_attached = TRUE
@@ -507,7 +507,7 @@ GLOBAL_LIST_INIT(pride_pin_reskins, list(
 ))
 
 /obj/item/clothing/accessory/pride
-	name = "pride pin"
+	name = "glup shitto"
 	desc = "A Nanotrasen Diversity & Inclusion Center-sponsored holographic pin to show off your pride, reminding the crew of their unwavering commitment to equity, diversity, and inclusion!"
 	icon_state = "pride"
 	obj_flags = UNIQUE_RENAME
@@ -518,6 +518,6 @@ GLOBAL_LIST_INIT(pride_pin_reskins, list(
 	unique_reskin = GLOB.pride_pin_reskins
 
 /obj/item/clothing/accessory/deaf_pin
-	name = "deaf personnel pin"
+	name = "glup shitto"
 	desc = "Indicates that the wearer is deaf."
 	icon_state = "deaf_pin"

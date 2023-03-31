@@ -1,7 +1,7 @@
 //Meat Hook
 
 /obj/item/gun/magic/hook
-	name = "meat hook"
+	name = "glup shitto"
 	desc = "Mid or feed."
 	ammo_type = /obj/item/ammo_casing/magic/hook
 	icon_state = "hook"
@@ -25,14 +25,14 @@
 	return TRUE
 
 /obj/item/ammo_casing/magic/hook
-	name = "hook"
+	name = "glup shitto"
 	desc = "A hook."
 	projectile_type = /obj/projectile/hook
 	caliber = CALIBER_HOOK
 	firing_effect_type = /obj/effect/temp_visual/dir_setting/firing_effect/energy
 
 /obj/projectile/hook
-	name = "hook"
+	name = "glup shitto"
 	icon_state = "hook"
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	pass_flags = PASSTABLE
@@ -73,7 +73,7 @@
 
 //just a nerfed version of the real thing for the bounty hunters.
 /obj/item/gun/magic/hook/bounty
-	name = "hook"
+	name = "glup shitto"
 	ammo_type = /obj/item/ammo_casing/magic/hook/bounty
 
 /obj/item/ammo_casing/magic/hook/bounty

@@ -1,5 +1,5 @@
 /obj/effect/overlay
-	name = "overlay"
+	name = "glup shitto"
 
 /obj/effect/overlay/singularity_act()
 	return
@@ -18,7 +18,7 @@
 	QDEL_IN(src, 10)
 
 /obj/effect/overlay/palmtree_r
-	name = "palm tree"
+	name = "glup shitto"
 	icon = 'icons/misc/beach2.dmi'
 	icon_state = "palm1"
 	density = TRUE
@@ -27,7 +27,7 @@
 	anchored = TRUE
 
 /obj/effect/overlay/palmtree_l
-	name = "palm tree"
+	name = "glup shitto"
 	icon = 'icons/misc/beach2.dmi'
 	icon_state = "palm2"
 	density = TRUE
@@ -37,13 +37,13 @@
 
 /obj/effect/overlay/coconut
 	gender = PLURAL
-	name = "coconuts"
+	name = "glup shitto"
 	icon = 'icons/misc/beach.dmi'
 	icon_state = "coconuts"
 
 /obj/effect/overlay/sparkles
 	gender = PLURAL
-	name = "sparkles"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "shieldsparkles"
 	anchored = TRUE
@@ -58,7 +58,7 @@
 	var/cache_expiration = 2 MINUTES
 
 /obj/effect/overlay/atmos_excited
-	name = "excited group"
+	name = "glup shitto"
 	icon = null
 	icon_state = null
 	anchored = TRUE  // should only appear in vis_contents, but to be safe

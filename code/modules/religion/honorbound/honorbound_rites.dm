@@ -1,6 +1,6 @@
 ///Makes the person holy, but they now also have to follow the honorbound code (CBT). Actually earns favor, convincing others to uphold the code (tm) is not easy
 /datum/religion_rites/deaconize
-	name = "Join Crusade"
+	name = "glup shitto"
 	desc = "Converts someone to your sect. They must be willing, so the first invocation will instead prompt them to join. \
 	They will become honorbound like you, and you will gain a massive favor boost!"
 	ritual_length = 30 SECONDS
@@ -73,7 +73,7 @@
 
 ///Mostly useless funny rite for forgiving someone, making them innocent once again.
 /datum/religion_rites/forgive
-	name = "Forgive"
+	name = "glup shitto"
 	desc = "Forgives someone, making them no longer considered guilty. A kind gesture, all things considered!"
 	invoke_msg = "You are absolved of sin."
 	var/mob/living/who
@@ -106,7 +106,7 @@
 	return TRUE
 
 /datum/religion_rites/summon_rules
-	name = "Summon Honorbound Rules"
+	name = "glup shitto"
 	desc = "Enscribes a paper with the honorbound rules and regulations."
 	invoke_msg = "Bring forth the holy writ!"
 	///paper to turn into holy writ
@@ -146,7 +146,7 @@
 //info set in here because we need GLOB.deity
 /obj/item/paper/holy_writ/Initialize(mapload)
 	add_filter("holy_outline", 9, list("type" = "outline", "color" = "#fdff6c"))
-	name = "[GLOB.deity]'s honorbound rules"
+	name = "glup shitto"
 	default_raw_text = {"[GLOB.deity]'s honorbound rules:
 	<br>
 	1.) Thou shalt not attack the unready!<br>

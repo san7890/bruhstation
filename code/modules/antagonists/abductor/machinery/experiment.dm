@@ -1,5 +1,5 @@
 /obj/machinery/abductor/experiment
-	name = "experimentation machine"
+	name = "glup shitto"
 	desc = "A large man-sized tube sporting a complex array of surgical machinery."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "experiment-open"

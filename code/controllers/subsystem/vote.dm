@@ -2,7 +2,7 @@
 #define vote_font(text) ("<font color='purple'>" + text + "</font>")
 
 SUBSYSTEM_DEF(vote)
-	name = "Vote"
+	name = "glup shitto"
 	wait = 1 SECONDS
 	flags = SS_KEEP_TIMING
 	init_order = INIT_ORDER_VOTE
@@ -342,7 +342,7 @@ SUBSYSTEM_DEF(vote)
 
 /// Datum action given to mobs that allows players to vote on the current vote.
 /datum/action/vote
-	name = "Vote!"
+	name = "glup shitto"
 	button_icon_state = "vote"
 	show_to_observers = FALSE
 

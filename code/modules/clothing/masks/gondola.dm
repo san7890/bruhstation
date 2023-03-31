@@ -1,5 +1,5 @@
 /obj/item/clothing/mask/gondola
-	name = "gondola mask"
+	name = "glup shitto"
 	desc = "Genuine gondola fur."
 	icon_state = "gondola"
 	inhand_icon_state = null

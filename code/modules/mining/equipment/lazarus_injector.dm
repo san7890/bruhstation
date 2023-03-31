@@ -7,7 +7,7 @@
  * If a hostile mob is revived with a malfunctioning injector, it will be hostile to everyone except whoever revived it and gets robust searching enabled.
  */
 /obj/item/lazarus_injector
-	name = "lazarus injector"
+	name = "glup shitto"
 	desc = "An injector with a cocktail of nanomachines and chemicals, this device can seemingly raise animals from the dead, making them become friendly to the user. Unfortunately, the process is useless on higher forms of life and incredibly costly, so these were hidden in storage until an executive thought they'd be great motivation for some of their employees."
 	icon = 'icons/obj/medical/syringe.dmi'
 	icon_state = "lazarus_hypo"

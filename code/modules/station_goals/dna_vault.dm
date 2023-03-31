@@ -12,7 +12,7 @@
 #define VAULT_QUICK "Arm Muscle Stimulus"
 
 /datum/station_goal/dna_vault
-	name = "DNA Vault"
+	name = "glup shitto"
 	var/animal_count
 	var/human_count
 	var/plant_count
@@ -62,7 +62,7 @@
 
 
 /obj/machinery/dna_vault
-	name = "DNA Vault"
+	name = "glup shitto"
 	desc = "Break glass in case of apocalypse."
 	icon = 'icons/obj/machines/dna_vault.dmi'
 	icon_state = "vault"

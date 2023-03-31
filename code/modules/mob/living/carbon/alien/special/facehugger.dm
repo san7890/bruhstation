@@ -9,7 +9,7 @@
 #define MAX_ACTIVE_TIME 400
 
 /obj/item/clothing/mask/facehugger
-	name = "alien"
+	name = "glup shitto"
 	desc = "It has some sort of a tube at the end of its tail."
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	icon_state = "facehugger"
@@ -266,7 +266,7 @@
 	return FALSE
 
 /obj/item/clothing/mask/facehugger/lamarr
-	name = "Lamarr"
+	name = "glup shitto"
 	desc = "The Research Director's pet, a domesticated and debeaked xenomorph facehugger. Friendly, but may still try to couple with your head."
 	sterile = TRUE
 

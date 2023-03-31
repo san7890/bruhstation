@@ -1,5 +1,5 @@
 /obj/item/chromosome
-	name = "blank chromosome"
+	name = "glup shitto"
 	icon = 'icons/obj/chromosomes.dmi'
 	icon_state = ""
 	desc = "A tube holding chromosomic data."
@@ -56,26 +56,26 @@
 
 
 /obj/item/chromosome/stabilizer
-	name = "stabilizer chromosome"
+	name = "glup shitto"
 	desc = "A chromosome that reduces mutation instability by 20%."
 	icon_state = "stabilizer"
 	stabilizer_coeff = 0.8
 	weight = 1
 
 /obj/item/chromosome/synchronizer
-	name = "synchronizer chromosome"
+	name = "glup shitto"
 	desc = "A chromosome that reduces mutation knockback and downsides by 50%."
 	icon_state = "synchronizer"
 	synchronizer_coeff = 0.5
 
 /obj/item/chromosome/power
-	name = "power chromosome"
+	name = "glup shitto"
 	desc = "A chromosome that increases mutation power by 50%."
 	icon_state = "power"
 	power_coeff = 1.5
 
 /obj/item/chromosome/energy
-	name = "energetic chromosome"
+	name = "glup shitto"
 	desc = "A chromosome that reduces action based mutation cooldowns by by 50%."
 	icon_state = "energy"
 	energy_coeff = 0.5

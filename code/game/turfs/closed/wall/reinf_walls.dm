@@ -1,5 +1,5 @@
 /turf/closed/wall/r_wall
-	name = "reinforced wall"
+	name = "glup shitto"
 	desc = "A huge chunk of reinforced metal used to separate rooms."
 	icon = 'icons/turf/walls/reinforced_wall.dmi'
 	icon_state = "reinforced_wall-0"
@@ -228,7 +228,7 @@
 	return ..()
 
 /turf/closed/wall/r_wall/syndicate
-	name = "hull"
+	name = "glup shitto"
 	desc = "The armored hull of an ominous looking ship."
 	icon = 'icons/turf/walls/plastitanium_wall.dmi'
 	icon_state = "plastitanium_wall-0"

@@ -63,7 +63,7 @@
 
 ///Engine Breakdown - spend one engine part or wait 3 days (harmless emag effect)
 /datum/orion_event/engine_part
-	name = "Engine Breakdown"
+	name = "glup shitto"
 	text = "Oh no! The engine has broken down! \
 	You can repair it with an engine part, or you \
 	can make repairs for 3 days."
@@ -90,7 +90,7 @@
 
 ///Malfunction - spend one engine part or wait 3 days (emag effect randomizes some stats)
 /datum/orion_event/electronic_part
-	name = "Malfunction"
+	name = "glup shitto"
 	text = "The ship's systems are malfunctioning! \
 	You can replace the broken electronics with spares, \
 	or you can spend 3 days troubleshooting the AI."
@@ -135,7 +135,7 @@
 
 ///Collision - spend one engine part or wait 3 days (has a nasty emag effect)
 /datum/orion_event/hull_part
-	name = "Collision"
+	name = "glup shitto"
 	text = "Something hit us! Looks like there's some hull damage. \
 	You can repair the damage with hull plates, or you can spend \
 	the next 3 days welding scrap together."
@@ -178,7 +178,7 @@
 #define BUTTON_LEAVE_THE_DERELICT "Leave the Derelict"
 
 /datum/orion_event/old_ship
-	name = "Derelict Ship"
+	name = "glup shitto"
 	text = "Your crew spots an old ship floating through space. \
 	It might have some supplies, but then again it looks rather unsafe."
 	weight = 2
@@ -198,7 +198,7 @@
 #define BUTTON_CONTINUE_TRAVELS "Continue travels."
 
 /datum/orion_event/exploring_derelict
-	name = "Derelict Exploration"
+	name = "glup shitto"
 	weight = 2
 	//set by on_select
 	event_responses = list()
@@ -238,7 +238,7 @@
 #define BUTTON_CONTINUE "Continue"
 
 /datum/orion_event/raiders
-	name = "Raiders"
+	name = "glup shitto"
 	weight = 3
 	event_responses = list(BUTTON_CONTINUE)
 
@@ -267,7 +267,7 @@
 		playsound(game, 'sound/weapons/genhit2.ogg', 100, TRUE)
 
 /datum/orion_event/illness
-	name = "Space Illness"
+	name = "glup shitto"
 	//needs to specify who died, set by select
 	weight = 3
 	event_responses = list(BUTTON_CONTINUE)
@@ -298,7 +298,7 @@
 #define BUTTON_SLOW_DOWN "Slow Down"
 
 /datum/orion_event/flux
-	name = "Flux"
+	name = "glup shitto"
 	text = "This region of space is highly turbulent. If we go \
 	slowly we may avoid more damage, but if we keep our speed we won't waste supplies."
 	weight = 1
@@ -324,7 +324,7 @@
 	playsound(game, 'sound/weapons/genhit.ogg', 100, TRUE)
 
 /datum/orion_event/changeling_infiltration
-	name = "Changeling Infiltration"
+	name = "glup shitto"
 	weight = 3
 	event_responses = list(BUTTON_CONTINUE)
 
@@ -346,7 +346,7 @@
 		game.lings_suspected = TRUE
 
 /datum/orion_event/changeling_attack
-	name = "Changeling Attack"
+	name = "glup shitto"
 	event_responses = list(BUTTON_CONTINUE)
 
 /datum/orion_event/changeling_attack/on_select(obj/machinery/computer/arcade/orion_trail/game, gamer_skill, gamer_skill_level, gamer_skill_rands)
@@ -398,7 +398,7 @@
 
 ///Black Hole - final  (emag can spawn singulo, see death event)
 /datum/orion_event/black_hole
-	name = "Looming Black Hole"
+	name = "glup shitto"
 	text = "Sensors indicate that a black hole's gravitational field is \
 	affecting the region of space we were headed through. We could stay \
 	of course, but risk of being overcome by its gravity, or we could \
@@ -421,7 +421,7 @@
 
 ///You died to a black hole, have some fluff text
 /datum/orion_event/black_hole_death
-	name = "Event Horizon"
+	name = "glup shitto"
 	text = "As you jet the shuttle forward, you realize you underestimated the \
 	pull of the black hole. Try as you may, you cannot escape its stellar force. \
 	It isn't long before you pass the event horizon, and you close your eyes, readying \
@@ -445,7 +445,7 @@
 
 ///You found a space port!
 /datum/orion_event/space_port
-	name = "Space Port"
+	name = "glup shitto"
 	var/normal_arrival = "You have spotted a small pocket of civilization \
 	along the Orion Trail. A friendly hailing from the nearby space port \
 	assures that you can dock to rest and prepare for the travels ahead."
@@ -483,7 +483,7 @@
 
 ///You found the midway mark!
 /datum/orion_event/space_port/tau_ceti
-	name = "Tau Ceti Beta"
+	name = "glup shitto"
 	normal_arrival = "You have reached the halfway point in your journey, the largest space port \
 	along the trail: Tau Ceti Beta. It bustles with activity and life. It gives you hope \
 	of finding your future at Orion."
@@ -492,7 +492,7 @@
 
 ///You raided a space port!
 /datum/orion_event/space_port_raid
-	name = "Space Port Raid"
+	name = "glup shitto"
 
 	event_responses = list(BUTTON_CONTINUE)
 

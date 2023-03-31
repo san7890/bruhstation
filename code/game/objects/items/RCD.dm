@@ -10,7 +10,7 @@ RLD
 */
 
 /obj/item/construction
-	name = "not for ingame use"
+	name = "glup shitto"
 	desc = "A device used to rapidly build and deconstruct. Reload with iron, plasteel, glass or compressed matter cartridges."
 	opacity = FALSE
 	density = FALSE
@@ -292,7 +292,7 @@ RLD
 #define TITLE_ICON "ICON=TITLE"
 
 /obj/item/construction/rcd
-	name = "rapid-construction-device (RCD)"
+	name = "glup shitto"
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rcd"
 	worn_icon_state = "RCD"
@@ -489,7 +489,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 		animate(hologram, alpha = 0, time = fade_time, easing = CIRCULAR_EASING | EASE_IN)
 
 /obj/effect/rcd_hologram
-	name = "hologram"
+	name = "glup shitto"
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 
 /obj/effect/rcd_hologram/Initialize(mapload)
@@ -896,7 +896,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	return .
 
 /obj/item/construction/rcd/borg/syndicate
-	name = "syndicate RCD"
+	name = "glup shitto"
 	desc = "A reverse-engineered RCD with black market upgrades that allow this device to deconstruct reinforced walls. Property of Donk Co."
 	icon_state = "ircd"
 	inhand_icon_state = "ircd"
@@ -910,7 +910,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	upgrade = RCD_UPGRADE_FRAMES | RCD_UPGRADE_SIMPLE_CIRCUITS | RCD_UPGRADE_FURNISHING
 
 /obj/item/construction/rcd/combat
-	name = "industrial RCD"
+	name = "glup shitto"
 	icon_state = "ircd"
 	inhand_icon_state = "ircd"
 	max_matter = 500
@@ -937,7 +937,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 #undef TITLE_ICON
 
 /obj/item/rcd_ammo
-	name = "RCD matter cartridge"
+	name = "glup shitto"
 	desc = "Highly compressed matter for the RCD."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rcdammo"
@@ -952,7 +952,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	ammoamt = 160
 
 /obj/item/construction/rcd/combat/admin
-	name = "admin RCD"
+	name = "glup shitto"
 	max_matter = INFINITY
 	matter = INFINITY
 	upgrade = RCD_UPGRADE_FRAMES | RCD_UPGRADE_SIMPLE_CIRCUITS | RCD_UPGRADE_FURNISHING
@@ -960,7 +960,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 
 // Ranged RCD
 /obj/item/construction/rcd/arcd
-	name = "advanced rapid-construction-device (ARCD)"
+	name = "glup shitto"
 	desc = "A prototype RCD with ranged capability and infinite capacity."
 	max_matter = INFINITY
 	matter = INFINITY
@@ -973,7 +973,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 
 // RAPID LIGHTING DEVICE
 /obj/item/construction/rld
-	name = "Rapid Lighting Device (RLD)"
+	name = "glup shitto"
 	desc = "A device used to rapidly provide lighting sources to an area. Reload with iron, plasteel, glass or compressed matter cartridges."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rld-5"
@@ -1163,7 +1163,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 			return FALSE
 
 /obj/item/construction/rld/mini
-	name = "mini-rapid-light-device (MRLD)"
+	name = "glup shitto"
 	desc = "A device used to rapidly provide lighting sources to an area. Reload with iron, plasteel, glass or compressed matter cartridges."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rld-5"
@@ -1175,7 +1175,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 
 ///The plumbing RCD. All the blueprints are located in _globalvars > lists > construction.dm
 /obj/item/construction/plumbing
-	name = "Plumbing Constructor"
+	name = "glup shitto"
 	desc = "An expertly modified RCD outfitted to construct plumbing machinery."
 	icon_state = "plumberer2"
 	inhand_icon_state = "plumberer"
@@ -1455,7 +1455,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	to_chat(source, span_notice("You set the layer to [current_layer]."))
 
 /obj/item/construction/plumbing/research
-	name = "research plumbing constructor"
+	name = "glup shitto"
 	desc = "A type of plumbing constructor designed to rapidly deploy the machines needed to conduct cytological research."
 	icon_state = "plumberer_sci"
 	inhand_icon_state = "plumberer_sci"
@@ -1484,7 +1484,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	)
 
 /obj/item/construction/plumbing/service
-	name = "service plumbing constructor"
+	name = "glup shitto"
 	desc = "A type of plumbing constructor designed to rapidly deploy the machines needed to make a brewery."
 	icon_state = "plumberer_service"
 	has_ammobar = TRUE
@@ -1518,7 +1518,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 
 
 /obj/item/rcd_upgrade
-	name = "RCD advanced design disk"
+	name = "glup shitto"
 	desc = "It seems to be empty."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "datadisk3"
@@ -1541,7 +1541,7 @@ GLOBAL_VAR_INIT(icon_holographic_window, init_holographic_window())
 	upgrade = RCD_UPGRADE_FURNISHING
 
 /datum/action/item_action/rcd_scan
-	name = "Destruction Scan"
+	name = "glup shitto"
 	desc = "Scans the surrounding area for destruction. Scanned structures will rebuild significantly faster."
 
 #undef GLOW_MODE

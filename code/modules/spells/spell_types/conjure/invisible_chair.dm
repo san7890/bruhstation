@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/invisible_chair
-	name = "Invisible Chair"
+	name = "glup shitto"
 	desc = "The mime's performance transmutates a chair into physical reality."
 	background_icon_state = "bg_mime"
 	overlay_icon_state = "bg_mime_border"

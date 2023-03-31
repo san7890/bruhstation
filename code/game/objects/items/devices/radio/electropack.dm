@@ -1,5 +1,5 @@
 /obj/item/electropack
-	name = "electropack"
+	name = "glup shitto"
 	desc = "Dance my monkeys! DANCE!!!"
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "electropack0"

@@ -1,5 +1,5 @@
 /obj/machinery/computer/order_console/mining/golem
-	name = "golem ship equipment vendor"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/order_console/mining/golem
 	forced_express = TRUE
 	express_cost_multiplier = 1

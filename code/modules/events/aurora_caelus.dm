@@ -1,5 +1,5 @@
 /datum/round_event_control/aurora_caelus
-	name = "Aurora Caelus"
+	name = "glup shitto"
 	typepath = /datum/round_event/aurora_caelus
 	max_occurrences = 1
 	weight = 1

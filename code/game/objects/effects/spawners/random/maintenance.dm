@@ -1,5 +1,5 @@
 /obj/effect/spawner/random/maintenance
-	name = "maintenance loot spawner"
+	name = "glup shitto"
 	desc = "Come on Lady Luck, spawn me a pair of sunglasses."
 	icon_state = "loot"
 	// see code/_globalvars/lists/maintenance_loot.dm for loot table
@@ -38,29 +38,29 @@
 			closet.take_contents()
 
 /obj/effect/spawner/random/maintenance/two
-	name = "2 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 2
 
 /obj/effect/spawner/random/maintenance/three
-	name = "3 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 3
 
 /obj/effect/spawner/random/maintenance/four
-	name = "4 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 4
 
 /obj/effect/spawner/random/maintenance/five
-	name = "5 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 5
 
 /obj/effect/spawner/random/maintenance/six
-	name = "6 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 6
 
 /obj/effect/spawner/random/maintenance/seven
-	name = "7 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 7
 
 /obj/effect/spawner/random/maintenance/eight
-	name = "8 x maintenance loot spawner"
+	name = "glup shitto"
 	spawn_loot_count = 8

@@ -2,23 +2,23 @@
 
 /obj/item/paper/fluff/ruins/thederelict/equipment
 	default_raw_text = "If the equipment breaks there should be enough spare parts in our engineering storage near the north east solar array."
-	name = "Equipment Inventory"
+	name = "glup shitto"
 
 /obj/item/paper/fluff/ruins/thederelict/syndie_mission
-	name = "Mission Objectives"
+	name = "glup shitto"
 	default_raw_text = "The Syndicate have cunningly disguised a Syndicate Uplink as your PDA. Simply enter the code \"678 Bravo\" into the ringtone select to unlock its hidden features. <br><br><b>Objective #1</b>. Kill the God damn AI in a fire blast that it rocks the station. <b>Success!</b>  <br><b>Objective #2</b>. Escape alive. <b>Failed.</b>"
 
 /obj/item/paper/fluff/ruins/thederelict/nukie_objectives
-	name = "Objectives of a Nuclear Operative"
+	name = "glup shitto"
 	default_raw_text = "<b>Objective #1</b>: Destroy the station with a nuclear device."
 
 /obj/item/paper/crumpled/bloody/ruins/thederelict/unfinished
-	name = "unfinished paper scrap"
+	name = "glup shitto"
 	desc = "Looks like someone started shakily writing a will in space common, but were interrupted by something bloody..."
 	default_raw_text = "I, Victor Belyakov, do hereby leave my _- "
 
 /obj/item/paper/fluff/ruins/thederelict/vaultraider
-	name = "Vault Raider Objectives"
+	name = "glup shitto"
 	default_raw_text = "<b>Objectives #1</b>: Find out what is hidden in Kosmicheskaya Stantsiya 13s Vault"
 
 ///The Derelict Terminals
@@ -41,7 +41,7 @@
 
 /// Vault controller for use on the derelict/KS13.
 /obj/machinery/computer/vaultcontroller
-	name = "vault controller"
+	name = "glup shitto"
 	desc = "It seems to be powering and controlling the vault locks."
 	icon_screen = "power"
 	icon_keyboard = "power_key"
@@ -170,7 +170,7 @@
 	..()
 
 /obj/structure/fluff/oldturret
-	name = "broken turret"
+	name = "glup shitto"
 	desc = "An obsolete model of turret, long non-functional."
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "turretCover"
@@ -182,7 +182,7 @@
 /// https://www.youtube.com/watch?v=7M-JPH5SOmI (old video)
 /// https://www.youtube.com/watch?v=FHH1vfY6HTA (new video)
 /obj/item/tape/captains_log
-	name = "captain's log"
+	name = "glup shitto"
 	desc = "A dusty old tape."
 	icon_state = "tape_blue"
 	used_capacity = 10 MINUTES // so the tape is full and can't be recorded over

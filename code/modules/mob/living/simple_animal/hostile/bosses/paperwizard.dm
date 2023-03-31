@@ -1,6 +1,6 @@
 //Paper Wizard Boss
 /mob/living/simple_animal/hostile/boss/paper_wizard
-	name = "Mjor the Creative"
+	name = "glup shitto"
 	desc = "A wizard with a taste for the arts."
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
 	boss_abilities = list(/datum/action/boss/wizard_summon_minions, /datum/action/boss/wizard_mimic)
@@ -35,7 +35,7 @@
 //Summon Ability
 //Lets the wizard summon his art to fight for him
 /datum/action/boss/wizard_summon_minions
-	name = "Summon Minions"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "art_summon"
 	usage_probability = 40
@@ -86,7 +86,7 @@
 //Hitting a decoy hurts nearby people excluding the wizard himself
 //Hitting the wizard himself destroys all decoys
 /datum/action/boss/wizard_mimic
-	name = "Craft Mimicry"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "mimic_summon"
 	usage_probability = 30
@@ -172,7 +172,7 @@
 
 //fancy effects
 /obj/effect/temp_visual/paper_scatter
-	name = "scattering paper"
+	name = "glup shitto"
 	desc = "Pieces of paper scattering to the wind."
 	layer = ABOVE_NORMAL_TURF_LAYER
 	plane = GAME_PLANE
@@ -183,7 +183,7 @@
 	randomdir = FALSE
 
 /obj/effect/temp_visual/paperwiz_dying
-	name = "craft portal"
+	name = "glup shitto"
 	desc = "A wormhole sucking the wizard into the void. Neat."
 	layer = ABOVE_NORMAL_TURF_LAYER
 	plane = GAME_PLANE

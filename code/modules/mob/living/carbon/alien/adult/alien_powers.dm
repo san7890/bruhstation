@@ -7,7 +7,7 @@ Doesn't work on other aliens/AI.*/
 
 
 /datum/action/cooldown/alien
-	name = "Alien Power"
+	name = "glup shitto"
 	panel = "Alien"
 	background_icon_state = "bg_alien"
 	overlay_icon_state = "bg_alien_border"
@@ -106,7 +106,7 @@ Doesn't work on other aliens/AI.*/
 	return TRUE
 
 /datum/action/cooldown/alien/make_structure/plant_weeds
-	name = "Plant Weeds"
+	name = "glup shitto"
 	desc = "Plants some alien weeds."
 	button_icon_state = "alien_plant"
 	plasma_cost = 50
@@ -117,7 +117,7 @@ Doesn't work on other aliens/AI.*/
 	return ..()
 
 /datum/action/cooldown/alien/whisper
-	name = "Whisper"
+	name = "glup shitto"
 	desc = "Whisper to someone."
 	button_icon_state = "alien_whisper"
 	plasma_cost = 10
@@ -155,7 +155,7 @@ Doesn't work on other aliens/AI.*/
 	return TRUE
 
 /datum/action/cooldown/alien/transfer
-	name = "Transfer Plasma"
+	name = "glup shitto"
 	desc = "Transfer Plasma to another alien."
 	plasma_cost = 0
 	button_icon_state = "alien_transfer"
@@ -196,7 +196,7 @@ Doesn't work on other aliens/AI.*/
 	unset_after_click = FALSE
 
 /datum/action/cooldown/alien/acid/corrosion
-	name = "Corrosive Acid"
+	name = "glup shitto"
 	desc = "Drench an object in acid, destroying it over time."
 	button_icon_state = "alien_acid"
 	plasma_cost = 200
@@ -239,7 +239,7 @@ Doesn't work on other aliens/AI.*/
 	return TRUE
 
 /datum/action/cooldown/alien/acid/neurotoxin
-	name = "Spit Neurotoxin"
+	name = "glup shitto"
 	desc = "Spits neurotoxin at someone, paralyzing them for a short time."
 	button_icon_state = "alien_neurotoxin_0"
 	plasma_cost = 50
@@ -300,7 +300,7 @@ Doesn't work on other aliens/AI.*/
 	return TRUE
 
 /datum/action/cooldown/alien/make_structure/resin
-	name = "Secrete Resin"
+	name = "glup shitto"
 	desc = "Secrete tough malleable resin."
 	button_icon_state = "alien_resin"
 	plasma_cost = 55
@@ -339,7 +339,7 @@ Doesn't work on other aliens/AI.*/
 	return TRUE
 
 /datum/action/cooldown/alien/sneak
-	name = "Sneak"
+	name = "glup shitto"
 	desc = "Blend into the shadows to stalk your prey."
 	button_icon_state = "alien_sneak"
 	/// The alpha we go to when sneaking.
@@ -368,7 +368,7 @@ Doesn't work on other aliens/AI.*/
 	return TRUE
 
 /datum/action/cooldown/alien/regurgitate
-	name = "Regurgitate"
+	name = "glup shitto"
 	desc = "Empties the contents of your stomach."
 	button_icon_state = "alien_barf"
 	var/angle_delta = 45

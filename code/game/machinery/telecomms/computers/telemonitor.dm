@@ -6,7 +6,7 @@
 
 
 /obj/machinery/computer/telecomms/monitor
-	name = "telecommunications monitoring console"
+	name = "glup shitto"
 	icon_screen = "comm_monitor"
 	desc = "Monitors the details of the telecommunications network it's synced with."
 

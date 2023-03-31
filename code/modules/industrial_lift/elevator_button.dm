@@ -1,5 +1,5 @@
 /obj/item/assembly/control/elevator
-	name = "elevator controller"
+	name = "glup shitto"
 	desc = "A small device used to call elevators to the current floor."
 	/// A weakref to the lift_master datum we control
 	var/datum/weakref/lift_weakref
@@ -149,7 +149,7 @@
 	return null
 
 /obj/machinery/button/elevator
-	name = "elevator button"
+	name = "glup shitto"
 	desc = "Go back. Go back. Go back. Can you operate the elevator."
 	icon_state = "hallctrl"
 	skin = "hallctrl"

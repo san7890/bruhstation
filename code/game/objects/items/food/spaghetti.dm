@@ -18,7 +18,7 @@
 	return ..()
 
 /obj/item/food/spaghetti/raw
-	name = "spaghetti"
+	name = "glup shitto"
 	desc = "Now that's a nic'e pasta!"
 	icon_state = "spaghetti"
 	tastes = list("pasta" = 1)
@@ -30,7 +30,7 @@
 	AddElement(/datum/element/microwavable, /obj/item/food/spaghetti/boiledspaghetti)
 
 /obj/item/food/spaghetti/boiledspaghetti
-	name = "boiled spaghetti"
+	name = "glup shitto"
 	desc = "A plain dish of noodles, this needs more ingredients."
 	icon_state = "spaghettiboiled"
 	food_reagents = list(
@@ -43,7 +43,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, null, CUSTOM_INGREDIENT_ICON_SCATTER, max_ingredients = 6)
 
 /obj/item/food/spaghetti/pastatomato
-	name = "spaghetti"
+	name = "glup shitto"
 	desc = "Spaghetti and crushed tomatoes. Just like your abusive father used to make!"
 	icon_state = "pastatomato"
 	bite_consumption = 4
@@ -56,7 +56,7 @@
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/spaghetti/pastatomato/soulful
-	name = "soul food"
+	name = "glup shitto"
 	desc = "Just how mom used to make it."
 	food_reagents = list(
 		// same as normal pasghetti
@@ -71,7 +71,7 @@
 	tastes = list("nostalgia" = 1, "happiness" = 1)
 
 /obj/item/food/spaghetti/copypasta
-	name = "copypasta"
+	name = "glup shitto"
 	desc = "You probably shouldn't try this, you always hear people talking about how bad it is..."
 	icon_state = "copypasta"
 	bite_consumption = 4
@@ -84,7 +84,7 @@
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/spaghetti/meatballspaghetti
-	name = "spaghetti and meatballs"
+	name = "glup shitto"
 	desc = "Now that's a nic'e meatball!"
 	icon_state = "meatballspaghetti"
 	food_reagents = list(
@@ -96,7 +96,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/spaghetti/spesslaw
-	name = "spesslaw"
+	name = "glup shitto"
 	desc = "A lawyers favourite."
 	icon_state = "spesslaw"
 	food_reagents = list(
@@ -108,7 +108,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/spaghetti/chowmein
-	name = "chow mein"
+	name = "glup shitto"
 	desc = "A nice mix of noodles and fried vegetables."
 	icon_state = "chowmein"
 	food_reagents = list(
@@ -120,7 +120,7 @@
 	foodtypes = GRAIN | MEAT | VEGETABLES
 
 /obj/item/food/spaghetti/beefnoodle
-	name = "beef noodle"
+	name = "glup shitto"
 	desc = "Nutritious, beefy and noodly."
 	icon_state = "beefnoodle"
 	trash_type = /obj/item/reagent_containers/cup/bowl
@@ -134,7 +134,7 @@
 	foodtypes = GRAIN | MEAT | VEGETABLES
 
 /obj/item/food/spaghetti/butternoodles
-	name = "butter noodles"
+	name = "glup shitto"
 	desc = "Noodles covered in savory butter. Simple and slippery, but delicious."
 	icon_state = "butternoodles"
 	food_reagents = list(
@@ -145,7 +145,7 @@
 	foodtypes = GRAIN | DAIRY
 
 /obj/item/food/spaghetti/mac_n_cheese
-	name = "mac n' cheese"
+	name = "glup shitto"
 	desc = "Made the proper way with only the finest cheese and breadcrumbs. And yet, it can't scratch the same itch as Ready-Donk."
 	icon_state = "mac_n_cheese"
 	food_reagents = list(

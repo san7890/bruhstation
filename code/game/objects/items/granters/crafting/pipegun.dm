@@ -1,5 +1,5 @@
 /obj/item/book/granter/crafting_recipe/pipegun_prime
-	name = "diary of a dead assistant"
+	name = "glup shitto"
 	desc = "A battered journal. Looks like he had a pretty rough life."
 	crafting_recipe_types = list(
 		/datum/crafting_recipe/pipegun_prime

@@ -1,5 +1,5 @@
 /obj/item/virgin_mary
-	name = "\proper a picture of the virgin mary"
+	name = "glup shitto"
 	desc = "A small, cheap icon depicting the virgin mother."
 	icon = 'icons/obj/blackmarket.dmi'
 	icon_state = "madonna"

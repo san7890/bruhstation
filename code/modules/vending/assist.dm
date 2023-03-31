@@ -1,5 +1,5 @@
 /obj/machinery/vending/assist
-	name = "\improper Part-Mart"
+	name = "glup shitto"
 	desc = "All the finest of miscellaneous electronics one could ever need! Not responsible for any injuries caused by reckless misuse of parts."
 	icon_state = "parts"
 	icon_deny = "parts-deny"

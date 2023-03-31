@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/skeleton
-	name = "reanimated skeleton"
+	name = "glup shitto"
 	desc = "A real bonefied skeleton, doesn't seem like it wants to socialize."
 	gender = NEUTER
 	icon = 'icons/mob/simple/simple_human.dmi'
@@ -46,7 +46,7 @@
 	apply_dynamic_human_appearance(src, outfit, species, r_hand = held_item)
 
 /mob/living/simple_animal/hostile/skeleton/eskimo
-	name = "undead eskimo"
+	name = "glup shitto"
 	desc = "The reanimated remains of some poor traveler."
 	maxHealth = 55
 	health = 55
@@ -64,12 +64,12 @@
 	held_item = /obj/item/spear
 
 /datum/outfit/eskimo
-	name = "Eskimo"
+	name = "glup shitto"
 	suit = /obj/item/clothing/suit/hooded/wintercoat
 	shoes = /obj/item/clothing/shoes/winterboots
 
 /mob/living/simple_animal/hostile/skeleton/templar
-	name = "undead templar"
+	name = "glup shitto"
 	desc = "The reanimated remains of a holy templar knight."
 	maxHealth = 150
 	health = 150
@@ -91,13 +91,13 @@
 	outfit = /datum/outfit/templar
 
 /datum/outfit/templar
-	name = "Templar"
+	name = "glup shitto"
 	head = /obj/item/clothing/head/helmet/chaplain
 	suit = /obj/item/clothing/suit/chaplainsuit/armor/templar
 	r_hand = /obj/item/claymore/weak
 
 /mob/living/simple_animal/hostile/skeleton/ice
-	name = "ice skeleton"
+	name = "glup shitto"
 	desc = "A reanimated skeleton protected by a thick sheet of natural ice armor. Looks slow, though."
 	speed = 5
 	maxHealth = 75
@@ -107,7 +107,7 @@
 	loot = list(/obj/effect/decal/remains/human{color = rgb(114,228,250)})
 
 /mob/living/simple_animal/hostile/skeleton/plasmaminer
-	name = "shambling miner"
+	name = "glup shitto"
 	desc = "A plasma-soaked miner, their exposed limbs turned into a grossly incandescent bone seemingly made of plasma."
 	icon_state = "plasma_miner"
 	icon_living = "plasma_miner"
@@ -142,7 +142,7 @@
 	held_item = /obj/item/pickaxe/drill/jackhammer
 
 /datum/outfit/plasma_miner
-	name = "Plasma Miner"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/cargo/miner/lavaland
 	suit = /obj/item/clothing/suit/hooded/explorer
 	mask = /obj/item/clothing/mask/gas/explorer

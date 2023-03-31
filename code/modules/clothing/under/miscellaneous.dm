@@ -3,7 +3,7 @@
 	worn_icon = 'icons/mob/clothing/under/misc.dmi'
 
 /obj/item/clothing/under/misc/pj
-	name = "\improper PJs"
+	name = "glup shitto"
 	desc = "A comfy set of sleepwear, for taking naps or being lazy instead of working."
 	can_adjust = FALSE
 	inhand_icon_state = "w_suit"
@@ -15,34 +15,34 @@
 	icon_state = "blue_pyjamas"
 
 /obj/item/clothing/under/misc/patriotsuit
-	name = "Patriotic Suit"
+	name = "glup shitto"
 	desc = "Motorcycle not included."
 	icon_state = "ek"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/misc/mailman
-	name = "mailman's jumpsuit"
+	name = "glup shitto"
 	desc = "<i>'Special delivery!'</i>"
 	icon_state = "mailman"
 	inhand_icon_state = "b_suit"
 	clothing_traits = list(TRAIT_HATED_BY_DOGS)
 
 /obj/item/clothing/under/misc/psyche
-	name = "psychedelic jumpsuit"
+	name = "glup shitto"
 	desc = "Groovy!"
 	icon_state = "psyche"
 	inhand_icon_state = "p_suit"
 
 /obj/item/clothing/under/misc/vice_officer
-	name = "vice officer's jumpsuit"
+	name = "glup shitto"
 	desc = "It's the standard issue pretty-boy outfit, as seen on Holo-Vision."
 	icon_state = "vice"
 	inhand_icon_state = "gy_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/misc/adminsuit
-	name = "administrative cybernetic jumpsuit"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/under/syndicate.dmi'
 	icon_state = "syndicate"
 	inhand_icon_state = "bl_suit"
@@ -68,7 +68,7 @@
 	acid = 100
 
 /obj/item/clothing/under/misc/burial
-	name = "burial garments"
+	name = "glup shitto"
 	desc = "Traditional burial garments from the early 22nd century."
 	icon_state = "burial"
 	inhand_icon_state = null
@@ -76,7 +76,7 @@
 	has_sensor = NO_SENSORS
 
 /obj/item/clothing/under/misc/overalls
-	name = "laborer's overalls"
+	name = "glup shitto"
 	desc = "A set of durable overalls for getting the job done."
 	icon_state = "overalls"
 	inhand_icon_state = "lb_suit"
@@ -84,14 +84,14 @@
 	custom_price = PAYCHECK_CREW
 
 /obj/item/clothing/under/misc/assistantformal
-	name = "assistant's formal uniform"
+	name = "glup shitto"
 	desc = "An assistant's formal-wear. Why an assistant needs formal-wear is still unknown."
 	icon_state = "assistant_formal"
 	inhand_icon_state = "gy_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/misc/durathread
-	name = "durathread jumpsuit"
+	name = "glup shitto"
 	desc = "A jumpsuit made from durathread, its resilient fibres provide some protection to the wearer."
 	icon_state = "durathread"
 	inhand_icon_state = null
@@ -107,7 +107,7 @@
 	bio = 10
 
 /obj/item/clothing/under/misc/bouncer
-	name = "bouncer uniform"
+	name = "glup shitto"
 	desc = "A uniform made from a little bit more resistant fibers, makes you seem like a cool guy."
 	icon_state = "bouncer"
 	inhand_icon_state = null
@@ -121,7 +121,7 @@
 	acid = 30
 
 /obj/item/clothing/under/misc/coordinator
-	name = "coordinator jumpsuit"
+	name = "glup shitto"
 	desc = "A jumpsuit made by party people, from party people, for party people."
 	icon = 'icons/obj/clothing/under/captain.dmi'
 	worn_icon = 'icons/mob/clothing/under/captain.dmi'
@@ -130,7 +130,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/misc/syndicate_souvenir
-	name = "syndicate souvenir tee"
+	name = "glup shitto"
 	desc = "I got kidnapped by a Syndicate operative and all I got was this lousy t-shirt!"
 	icon = 'icons/obj/clothing/under/syndicate_souvenir.dmi'
 	worn_icon = 'icons/mob/clothing/under/syndicate_souvenir.dmi'

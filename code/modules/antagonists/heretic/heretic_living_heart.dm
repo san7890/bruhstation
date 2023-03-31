@@ -66,7 +66,7 @@
  * Allows a heretic to track sacrifice targets.
  */
 /datum/action/cooldown/track_target
-	name = "Living Heartbeat"
+	name = "glup shitto"
 	desc = "LMB: Chose one of your sacrifice targets to track. RMB: Repeats last target you chose to track."
 	check_flags = AB_CHECK_CONSCIOUS
 	background_icon_state = "bg_heretic"

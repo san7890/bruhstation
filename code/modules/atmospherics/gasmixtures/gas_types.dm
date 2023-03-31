@@ -70,7 +70,7 @@
 /datum/gas/oxygen
 	id = "o2"
 	specific_heat = 20
-	name = "Oxygen"
+	name = "glup shitto"
 	rarity = 900
 	purchaseable = TRUE
 	base_value = 0.2
@@ -79,7 +79,7 @@
 /datum/gas/nitrogen
 	id = "n2"
 	specific_heat = 20
-	name = "Nitrogen"
+	name = "glup shitto"
 	rarity = 1000
 	purchaseable = TRUE
 	base_value = 0.1
@@ -88,7 +88,7 @@
 /datum/gas/carbon_dioxide //what the fuck is this?
 	id = "co2"
 	specific_heat = 30
-	name = "Carbon Dioxide"
+	name = "glup shitto"
 	dangerous = TRUE
 	rarity = 700
 	purchaseable = TRUE
@@ -98,7 +98,7 @@
 /datum/gas/plasma
 	id = "plasma"
 	specific_heat = 200
-	name = "Plasma"
+	name = "glup shitto"
 	gas_overlay = "plasma"
 	moles_visible = MOLES_GAS_VISIBLE
 	dangerous = TRUE
@@ -109,7 +109,7 @@
 /datum/gas/water_vapor
 	id = "water_vapor"
 	specific_heat = 40
-	name = "Water Vapor"
+	name = "glup shitto"
 	gas_overlay = "water_vapor"
 	moles_visible = MOLES_GAS_VISIBLE
 	fusion_power = 8
@@ -121,7 +121,7 @@
 /datum/gas/hypernoblium
 	id = "nob"
 	specific_heat = 2000
-	name = "Hyper-noblium"
+	name = "glup shitto"
 	gas_overlay = "freon"
 	moles_visible = MOLES_GAS_VISIBLE
 	fusion_power = 10
@@ -132,7 +132,7 @@
 /datum/gas/nitrous_oxide
 	id = "n2o"
 	specific_heat = 40
-	name = "Nitrous Oxide"
+	name = "glup shitto"
 	gas_overlay = "nitrous_oxide"
 	moles_visible = MOLES_GAS_VISIBLE * 2
 	fusion_power = 10
@@ -145,7 +145,7 @@
 /datum/gas/nitrium
 	id = "nitrium"
 	specific_heat = 10
-	name = "Nitrium"
+	name = "glup shitto"
 	fusion_power = 7
 	gas_overlay = "nitrium"
 	moles_visible = MOLES_GAS_VISIBLE
@@ -157,7 +157,7 @@
 /datum/gas/tritium
 	id = "tritium"
 	specific_heat = 10
-	name = "Tritium"
+	name = "glup shitto"
 	gas_overlay = "tritium"
 	moles_visible = MOLES_GAS_VISIBLE
 	dangerous = TRUE
@@ -169,7 +169,7 @@
 /datum/gas/bz
 	id = "bz"
 	specific_heat = 20
-	name = "BZ"
+	name = "glup shitto"
 	dangerous = TRUE
 	fusion_power = 8
 	rarity = 400
@@ -180,7 +180,7 @@
 /datum/gas/pluoxium
 	id = "pluox"
 	specific_heat = 80
-	name = "Pluoxium"
+	name = "glup shitto"
 	fusion_power = -10
 	rarity = 200
 	base_value = 2.5
@@ -189,7 +189,7 @@
 /datum/gas/miasma
 	id = "miasma"
 	specific_heat = 20
-	name = "Miasma"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "miasma"
 	moles_visible = MOLES_GAS_VISIBLE * 60
@@ -200,7 +200,7 @@
 /datum/gas/freon
 	id = "freon"
 	specific_heat = 600
-	name = "Freon"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "freon"
 	moles_visible = MOLES_GAS_VISIBLE *30
@@ -212,7 +212,7 @@
 /datum/gas/hydrogen
 	id = "hydrogen"
 	specific_heat = 15
-	name = "Hydrogen"
+	name = "glup shitto"
 	dangerous = TRUE
 	fusion_power = 2
 	rarity = 600
@@ -222,7 +222,7 @@
 /datum/gas/healium
 	id = "healium"
 	specific_heat = 10
-	name = "Healium"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "healium"
 	moles_visible = MOLES_GAS_VISIBLE
@@ -233,7 +233,7 @@
 /datum/gas/proto_nitrate
 	id = "proto_nitrate"
 	specific_heat = 30
-	name = "Proto Nitrate"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "proto_nitrate"
 	moles_visible = MOLES_GAS_VISIBLE
@@ -244,7 +244,7 @@
 /datum/gas/zauker
 	id = "zauker"
 	specific_heat = 350
-	name = "Zauker"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "zauker"
 	moles_visible = MOLES_GAS_VISIBLE
@@ -255,7 +255,7 @@
 /datum/gas/halon
 	id = "halon"
 	specific_heat = 175
-	name = "Halon"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "halon"
 	moles_visible = MOLES_GAS_VISIBLE
@@ -266,7 +266,7 @@
 /datum/gas/helium
 	id = "helium"
 	specific_heat = 15
-	name = "Helium"
+	name = "glup shitto"
 	fusion_power = 7
 	rarity = 50
 	base_value = 3.5
@@ -275,7 +275,7 @@
 /datum/gas/antinoblium
 	id = "antinoblium"
 	specific_heat = 1
-	name = "Antinoblium"
+	name = "glup shitto"
 	dangerous = TRUE
 	gas_overlay = "antinoblium"
 	moles_visible = MOLES_GAS_VISIBLE

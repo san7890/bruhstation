@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/sombrero
-	name = "sombrero"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/sombrero.dmi'
 	icon_state = "sombrero"
 	inhand_icon_state = "sombrero"
@@ -14,7 +14,7 @@
 	greyscale_config_inhand_right = /datum/greyscale_config/sombrero/righthand
 
 /obj/item/clothing/head/costume/sombrero/green
-	name = "green sombrero"
+	name = "glup shitto"
 	desc = "As elegant as a dancing cactus."
 	flags_inv = HIDEHAIR|HIDEFACE|HIDEEARS
 	dog_fashion = null
@@ -22,7 +22,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/head/costume/sombrero/shamebrero
-	name = "shamebrero"
+	name = "glup shitto"
 	icon_state = "shamebrero"
 	desc = "Once it's on, it never comes off."
 	dog_fashion = null

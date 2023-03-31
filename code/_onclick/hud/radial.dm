@@ -57,7 +57,7 @@ GLOBAL_LIST_EMPTY(radial_menus)
 			parent.element_chosen(choice, usr, params)
 
 /atom/movable/screen/radial/center
-	name = "Close Menu"
+	name = "glup shitto"
 	icon_state = "radial_center"
 
 /atom/movable/screen/radial/center/MouseEntered(location, control, params)

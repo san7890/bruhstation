@@ -1,5 +1,5 @@
 /datum/uplink_category/role_restricted
-	name = "Role-Restricted"
+	name = "glup shitto"
 	weight = 1
 
 /datum/uplink_item/role_restricted
@@ -7,7 +7,7 @@
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 
 /datum/uplink_item/role_restricted/haunted_magic_eightball
-	name = "Haunted Magic Eightball"
+	name = "glup shitto"
 	desc = "Most magic eightballs are toys with dice inside. Although identical in appearance to the harmless toys, this occult device reaches into the spirit world to find its answers. \
 			Be warned, that spirits are often capricious or just little assholes. To use, simply speak your question aloud, then begin shaking."
 	item = /obj/item/toy/eightball/haunted
@@ -17,7 +17,7 @@
 	surplus = 5
 
 /datum/uplink_item/role_restricted/bureaucratic_error_remote
-	name = "Organic Resources Disturbance Inducer"
+	name = "glup shitto"
 	desc = "A device that raises hell in organic resources indirectly. Single use."
 	cost = 2
 	limited_stock = 1
@@ -26,7 +26,7 @@
 	surplus = 5
 
 /datum/uplink_item/role_restricted/clumsinessinjector //clown ops can buy this too, but it's in the pointless badassery section for them
-	name = "Clumsiness Injector"
+	name = "glup shitto"
 	desc = "Inject yourself with this to become as clumsy as a clown... or inject someone ELSE with it to make THEM as clumsy as a clown. Useful for clowns who wish to reconnect with their former clownish nature or for clowns who wish to torment and play with their prey before killing them."
 	item = /obj/item/dnainjector/clumsymut
 	cost = 1
@@ -35,7 +35,7 @@
 	surplus = 25
 
 /datum/uplink_item/role_restricted/ancient_jumpsuit
-	name = "Ancient Jumpsuit"
+	name = "glup shitto"
 	desc = "A tattered old jumpsuit that will provide absolutely no benefit to you."
 	item = /obj/item/clothing/under/color/grey/ancient
 	cost = 20
@@ -43,7 +43,7 @@
 	surplus = 0
 
 /datum/uplink_item/role_restricted/oldtoolboxclean
-	name = "Ancient Toolbox"
+	name = "glup shitto"
 	desc = "An iconic toolbox design notorious with Assistants everywhere, this design was especially made to become more robust the more telecrystals it has inside it! Tools and insulated gloves included."
 	item = /obj/item/storage/toolbox/mechanical/old/clean
 	cost = 2
@@ -51,7 +51,7 @@
 	surplus = 0
 
 /datum/uplink_item/role_restricted/clownpin
-	name = "Ultra Hilarious Firing Pin"
+	name = "glup shitto"
 	desc = "A firing pin that, when inserted into a gun, makes that gun only usable by clowns and clumsy people and makes that gun honk whenever anyone tries to fire it."
 	cost = 4
 	item = /obj/item/firing_pin/clown/ultra
@@ -60,7 +60,7 @@
 	surplus = 25
 
 /datum/uplink_item/role_restricted/clownsuperpin
-	name = "Super Ultra Hilarious Firing Pin"
+	name = "glup shitto"
 	desc = "Like the ultra hilarious firing pin, except the gun you insert this pin into explodes when someone who isn't clumsy or a clown tries to fire it."
 	cost = 7
 	item = /obj/item/firing_pin/clown/ultra/selfdestruct
@@ -69,7 +69,7 @@
 	surplus = 25
 
 /datum/uplink_item/role_restricted/syndimmi
-	name = "Syndicate Brand MMI"
+	name = "glup shitto"
 	desc = "An MMI modified to give cyborgs laws to serve the Syndicate without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
 	item = /obj/item/mmi/syndie
 	cost = 2
@@ -77,7 +77,7 @@
 	surplus = 0
 
 /datum/uplink_item/role_restricted/explosive_hot_potato
-	name = "Exploding Hot Potato"
+	name = "glup shitto"
 	desc = "A potato rigged with explosives. On activation, a special mechanism is activated that prevents it from being dropped. \
 			The only way to get rid of it if you are holding it is to attack someone else with it, causing it to latch to that person instead."
 	item = /obj/item/hot_potato/syndicate
@@ -85,7 +85,7 @@
 	restricted_roles = list(JOB_COOK, JOB_BOTANIST, JOB_CLOWN, JOB_MIME)
 
 /datum/uplink_item/role_restricted/combat_baking
-	name = "Combat Bakery Kit"
+	name = "glup shitto"
 	desc = "A kit of clandestine baked weapons. Contains a baguette which a skilled mime could use as a sword, \
 		a pair of throwing croissants, and the recipe to make more on demand. Once the job is done, eat the evidence."
 	progression_minimum = 15 MINUTES
@@ -94,7 +94,7 @@
 	restricted_roles = list(JOB_COOK, JOB_MIME)
 
 /datum/uplink_item/role_restricted/ez_clean_bundle
-	name = "EZ Clean Grenade Bundle"
+	name = "glup shitto"
 	desc = "A box with three cleaner grenades using the trademark Waffle Co. formula. Serves as a cleaner and causes acid damage to anyone standing nearby. \
 			The acid only affects carbon-based creatures."
 	item = /obj/item/storage/box/syndie_kit/ez_clean
@@ -103,7 +103,7 @@
 	restricted_roles = list(JOB_JANITOR)
 
 /datum/uplink_item/role_restricted/reverse_bear_trap
-	name = "Reverse Bear Trap"
+	name = "glup shitto"
 	desc = "An ingenious execution device worn on (or forced onto) the head. Arming it starts a 1-minute kitchen timer mounted on the bear trap. When it goes off, the trap's jaws will \
 	violently open, instantly killing anyone wearing it by tearing their jaws in half. To arm, attack someone with it while they're not wearing headgear, and you will force it onto their \
 	head after three seconds uninterrupted."
@@ -112,28 +112,28 @@
 	restricted_roles = list(JOB_CLOWN)
 
 /datum/uplink_item/role_restricted/modified_syringe_gun
-	name = "Modified Syringe Gun"
+	name = "glup shitto"
 	desc = "A syringe gun that fires DNA injectors instead of normal syringes."
 	item = /obj/item/gun/syringe/dna
 	cost = 14
 	restricted_roles = list(JOB_GENETICIST, JOB_RESEARCH_DIRECTOR)
 
 /datum/uplink_item/role_restricted/meathook
-	name = "Butcher's Meat Hook"
+	name = "glup shitto"
 	desc = "A brutal cleaver on a long chain, it allows you to pull people to your location."
 	item = /obj/item/gun/magic/hook
 	cost = 11
 	restricted_roles = list(JOB_COOK)
 
 /datum/uplink_item/role_restricted/turretbox
-	name = "Disposable Sentry Gun"
+	name = "glup shitto"
 	desc = "A disposable sentry gun deployment system cleverly disguised as a toolbox, apply wrench for functionality."
 	item = /obj/item/storage/toolbox/emergency/turret
 	cost = 11
 	restricted_roles = list(JOB_STATION_ENGINEER)
 
 /datum/uplink_item/role_restricted/magillitis_serum
-	name = "Magillitis Serum Autoinjector"
+	name = "glup shitto"
 	desc = "A single-use autoinjector which contains an experimental serum that causes rapid muscular growth in Hominidae. \
 			Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas."
 	progression_minimum = 10 MINUTES
@@ -142,7 +142,7 @@
 	restricted_roles = list(JOB_GENETICIST, JOB_RESEARCH_DIRECTOR)
 
 /datum/uplink_item/role_restricted/gorillacubes
-	name = "Box of Gorilla Cubes"
+	name = "glup shitto"
 	desc = "A box with three Waffle Co. brand gorilla cubes. Eat big to get big. \
 			Caution: Product may rehydrate when exposed to water."
 	progression_minimum = 15 MINUTES
@@ -151,7 +151,7 @@
 	restricted_roles = list(JOB_GENETICIST, JOB_RESEARCH_DIRECTOR)
 
 /datum/uplink_item/role_restricted/brainwash_disk
-	name = "Brainwashing Surgery Program"
+	name = "glup shitto"
 	desc = "A disk containing the procedure to perform a brainwashing surgery, allowing you to implant an objective onto a target. \
 	Insert into an Operating Console to enable the procedure."
 	item = /obj/item/disk/surgery/brainwashing
@@ -160,7 +160,7 @@
 	surplus = 50
 
 /datum/uplink_item/role_restricted/springlock_module
-	name = "Heavily Modified Springlock MODsuit Module"
+	name = "glup shitto"
 	desc = "A module that spans the entire size of the MOD unit, sitting under the outer shell. \
 		This mechanical exoskeleton pushes out of the way when the user enters and it helps in booting \
 		up, but was taken out of modern suits because of the springlock's tendency to \"snap\" back \
@@ -173,7 +173,7 @@
 	surplus = 15
 
 /datum/uplink_item/role_restricted/reverse_revolver
-	name = "Reverse Revolver"
+	name = "glup shitto"
 	desc = "A revolver that always fires at its user. \"Accidentally\" drop your weapon, then watch as the greedy corporate pigs blow their own brains all over the wall. \
 	The revolver itself is actually real. Only clumsy people, and clowns, can fire it normally. Comes in a box of hugs. Honk."
 	progression_minimum = 30 MINUTES
@@ -182,7 +182,7 @@
 	restricted_roles = list(JOB_CLOWN)
 
 /datum/uplink_item/role_restricted/pressure_mod
-	name = "Kinetic Accelerator Pressure Mod"
+	name = "glup shitto"
 	desc = "A modification kit which allows Kinetic Accelerators to do greatly increased damage while indoors. \
 			Occupies 35% mod capacity."
 	progression_minimum = 30 MINUTES
@@ -193,7 +193,7 @@
 	surplus = 20
 
 /datum/uplink_item/role_restricted/mimery
-	name = "Guide to Advanced Mimery Series"
+	name = "glup shitto"
 	desc = "The classical two part series on how to further hone your mime skills. Upon studying the series, the user should be able to make 3x1 invisible walls, and shoot bullets out of their fingers. \
 			Obviously only works for Mimes."
 	progression_minimum = 20 MINUTES
@@ -203,7 +203,7 @@
 	surplus = 0
 
 /datum/uplink_item/role_restricted/laser_arm
-	name = "Laser Arm Implant"
+	name = "glup shitto"
 	desc = "An implant that grants you a recharging laser gun inside your arm. Weak to EMPs. Comes with a syndicate autosurgeon for immediate self-application."
 	progression_minimum = 20 MINUTES
 	cost = 10
@@ -212,7 +212,7 @@
 	surplus = 20
 
 /datum/uplink_item/role_restricted/chemical_gun
-	name = "Reagent Dartgun"
+	name = "glup shitto"
 	desc = "A heavily modified syringe gun which is capable of synthesizing its own chemical darts using input reagents. Can hold 90u of reagents."
 	progression_minimum = 20 MINUTES
 	item = /obj/item/gun/chem
@@ -220,7 +220,7 @@
 	restricted_roles = list(JOB_CHEMIST, JOB_CHIEF_MEDICAL_OFFICER, JOB_BOTANIST)
 
 /datum/uplink_item/role_restricted/pie_cannon
-	name = "Banana Cream Pie Cannon"
+	name = "glup shitto"
 	desc = "A special pie cannon for a special clown, this gadget can hold up to 20 pies and automatically fabricates one every two seconds!"
 	progression_minimum = 10 MINUTES
 	cost = 10
@@ -228,7 +228,7 @@
 	restricted_roles = list(JOB_CLOWN)
 
 /datum/uplink_item/role_restricted/clown_bomb
-	name = "Clown Bomb"
+	name = "glup shitto"
 	desc = "The Clown bomb is a hilarious device capable of massive pranks. It has an adjustable timer, \
 		with a minimum of %MIN_BOMB_TIMER seconds, and can be bolted to the floor with a wrench to prevent \
 		movement. The bomb is bulky and cannot be moved; upon ordering this item, a smaller beacon will be \
@@ -245,7 +245,7 @@
 	desc = replacetext(desc, "%MIN_BOMB_TIMER", SYNDIEBOMB_MIN_TIMER_SECONDS)
 
 /datum/uplink_item/role_restricted/clowncar
-	name = "Clown Car"
+	name = "glup shitto"
 	desc = "The Clown Car is the ultimate transportation method for any worthy clown! \
 			Simply insert your bikehorn and get in, and get ready to have the funniest ride of your life! \
 			You can ram any spacemen you come across and stuff them into your car, kidnapping them and locking them inside until \
@@ -261,7 +261,7 @@
 	surplus = 10
 
 /datum/uplink_item/role_restricted/his_grace
-	name = "His Grace"
+	name = "glup shitto"
 	desc = "An incredibly dangerous weapon recovered from a station overcome by the grey tide. Once activated, He will thirst for blood and must be used to kill to sate that thirst. \
 	His Grace grants gradual regeneration and complete stun immunity to His wielder, but be wary: if He gets too hungry, He will become impossible to drop and eventually kill you if not fed. \
 	However, if left alone for long enough, He will fall back to slumber. \
@@ -277,7 +277,7 @@
 	restricted_roles = list(JOB_CHAPLAIN)
 
 /datum/uplink_item/role_restricted/concealed_weapon_bay
-	name = "Concealed Weapon Bay"
+	name = "glup shitto"
 	desc = "A modification for non-combat exosuits that allows them to equip one piece of equipment designed for combat units. \
 			Attach to an exosuit with an existing equipment to disguise the bay as that equipment. The sacrificed equipment will be lost.\
 			Alternatively, you can attach the bay to an empty equipment slot, but the bay will not be concealed. Once the bay is \
@@ -289,7 +289,7 @@
 	surplus = 15
 
 /datum/uplink_item/role_restricted/spider_injector
-	name = "Australicus Slime Mutator"
+	name = "glup shitto"
 	desc = "Crikey mate, it's been a wild travel from the Australicus sector but we've managed to get \
 			some special spider extract from the giant spiders down there. Use this injector on a gold slime core \
 			to create a few of the same type of spiders we found on the planets over there. They're a bit tame until you \
@@ -301,7 +301,7 @@
 	surplus = 10
 
 /datum/uplink_item/role_restricted/blastcannon
-	name = "Blast Cannon"
+	name = "glup shitto"
 	desc = "A highly specialized weapon, the Blast Cannon is actually relatively simple. It contains an attachment for a tank transfer valve mounted to an angled pipe specially constructed \
 			withstand extreme pressure and temperatures, and has a mechanical trigger for triggering the transfer valve. Essentially, it turns the explosive force of a bomb into a narrow-angle \
 			blast wave \"projectile\". Aspiring scientists may find this highly useful, as forcing the pressure shockwave into a narrow angle seems to be able to bypass whatever quirk of physics \

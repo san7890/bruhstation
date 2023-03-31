@@ -8,7 +8,7 @@
  * salem style. Keeping the fire on requires oxygen. You can dismantle the bonfire back into logs when it is unignited.
  */
 /obj/structure/bonfire
-	name = "bonfire"
+	name = "glup shitto"
 	desc = "For grilling, broiling, charring, smoking, heating, roasting, toasting, simmering, searing, melting, and occasionally burning things."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "bonfire"

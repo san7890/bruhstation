@@ -1,6 +1,6 @@
 // The mawed crucible, a heretic structure that can create potions from bodyparts and organs.
 /obj/structure/destructible/eldritch_crucible
-	name = "mawed crucible"
+	name = "glup shitto"
 	desc = "A deep basin made of cast iron, immortalized by steel-like teeth holding it in place. \
 		Staring at the vile extract within fills your mind with terrible ideas."
 	icon = 'icons/obj/eldritch.dmi'
@@ -210,7 +210,7 @@
 
 // Potions created by the mawed crucible.
 /obj/item/eldritch_potion
-	name = "brew of day and night"
+	name = "glup shitto"
 	desc = "You should never see this"
 	icon = 'icons/obj/eldritch.dmi'
 	w_class = WEIGHT_CLASS_SMALL
@@ -258,21 +258,21 @@
 	carbon_user.apply_status_effect(status_effect)
 
 /obj/item/eldritch_potion/crucible_soul
-	name = "brew of the crucible soul"
+	name = "glup shitto"
 	desc = "A glass bottle contianing a bright orange, translucent liquid."
 	icon_state = "crucible_soul"
 	status_effect = /datum/status_effect/crucible_soul
 	crucible_tip = "Allows you to walk through walls. After expiring, you are teleported to your original location. Lasts 15 seconds."
 
 /obj/item/eldritch_potion/duskndawn
-	name = "brew of dusk and dawn"
+	name = "glup shitto"
 	desc = "A glass bottle contianing a dull yellow liquid. It seems to fade in and out with regularity."
 	icon_state = "clarity"
 	status_effect = /datum/status_effect/duskndawn
 	crucible_tip = "Allows you to see through walls and objects. Lasts 60 seconds."
 
 /obj/item/eldritch_potion/wounded
-	name = "brew of the wounded soldier"
+	name = "glup shitto"
 	desc = "A glass bottle contianing a colorless, dark liquid."
 	icon_state = "marshal"
 	status_effect = /datum/status_effect/marshal

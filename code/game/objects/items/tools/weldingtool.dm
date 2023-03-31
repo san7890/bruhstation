@@ -1,7 +1,7 @@
 /// How many seconds between each fuel depletion tick ("use" proc)
 #define WELDER_FUEL_BURN_INTERVAL 26
 /obj/item/weldingtool
-	name = "welding tool"
+	name = "glup shitto"
 	desc = "A standard edition welder provided by Nanotrasen."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "welder"
@@ -334,7 +334,7 @@
 	starting_fuel = FALSE
 
 /obj/item/weldingtool/largetank
-	name = "industrial welding tool"
+	name = "glup shitto"
 	desc = "A slightly larger welder with a larger tank."
 	icon_state = "indwelder"
 	max_fuel = 40
@@ -347,7 +347,7 @@
 	starting_fuel = FALSE
 
 /obj/item/weldingtool/largetank/cyborg
-	name = "integrated welding tool"
+	name = "glup shitto"
 	desc = "An advanced welder designed to be used in robotic systems. Custom framework doubles the speed of welding."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "indwelder_cyborg"
@@ -360,7 +360,7 @@
 
 
 /obj/item/weldingtool/mini
-	name = "emergency welding tool"
+	name = "glup shitto"
 	desc = "A miniature welder used during emergencies."
 	icon_state = "miniwelder"
 	max_fuel = 10
@@ -375,7 +375,7 @@
 	starting_fuel = FALSE
 
 /obj/item/weldingtool/abductor
-	name = "alien welding tool"
+	name = "glup shitto"
 	desc = "An alien welding tool. Whatever fuel it uses, it never runs out."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "welder"
@@ -391,7 +391,7 @@
 	..()
 
 /obj/item/weldingtool/hugetank
-	name = "upgraded industrial welding tool"
+	name = "glup shitto"
 	desc = "An upgraded welder based of the industrial welder."
 	icon_state = "upindwelder"
 	inhand_icon_state = "upindwelder"
@@ -399,7 +399,7 @@
 	custom_materials = list(/datum/material/iron=70, /datum/material/glass=120)
 
 /obj/item/weldingtool/experimental
-	name = "experimental welding tool"
+	name = "glup shitto"
 	desc = "An experimental welder capable of self-fuel generation and less harmful to the eyes."
 	icon_state = "exwelder"
 	inhand_icon_state = "exwelder"

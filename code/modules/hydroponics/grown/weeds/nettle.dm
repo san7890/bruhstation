@@ -1,5 +1,5 @@
 /obj/item/seeds/nettle
-	name = "pack of nettle seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into nettles."
 	icon_state = "seed-nettle"
 	plant_icon_offset = 0
@@ -17,7 +17,7 @@
 	graft_gene = /datum/plant_gene/trait/plant_type/weed_hardy
 
 /obj/item/seeds/nettle/death
-	name = "pack of death-nettle seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into death-nettles."
 	icon_state = "seed-deathnettle"
 	species = "deathnettle"
@@ -34,7 +34,7 @@
 
 /obj/item/food/grown/nettle // "snack"
 	seed = /obj/item/seeds/nettle
-	name = "\improper nettle"
+	name = "glup shitto"
 	desc = "It's probably <B>not</B> wise to touch it with bare hands..."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "nettle"
@@ -58,7 +58,7 @@
 
 /obj/item/food/grown/nettle/death
 	seed = /obj/item/seeds/nettle/death
-	name = "\improper deathnettle"
+	name = "glup shitto"
 	desc = "The <span class='danger'>glowing</span> nettle incites <span class='boldannounce'>rage</span> in you just from looking at it!"
 	icon_state = "deathnettle"
 	inhand_icon_state = "deathnettle"

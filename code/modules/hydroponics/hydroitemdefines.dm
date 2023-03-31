@@ -1,6 +1,6 @@
 // Plant analyzer
 /obj/item/plant_analyzer
-	name = "plant analyzer"
+	name = "glup shitto"
 	desc = "A scanner used to evaluate a plant's various areas of growth, and genetic traits. Comes with a growth scanning mode and a chemical scanning mode."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "hydro"
@@ -384,7 +384,7 @@
 /obj/item/reagent_containers/spray/weedspray // -- Skie
 	desc = "It's a toxic mixture, in spray form, to kill small weeds."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
-	name = "weed spray"
+	name = "glup shitto"
 	icon_state = "weedspray"
 	inhand_icon_state = "spraycan"
 	worn_icon_state = "spraycan"
@@ -400,7 +400,7 @@
 /obj/item/reagent_containers/spray/pestspray // -- Skie
 	desc = "It's some pest eliminator spray! <I>Do not inhale!</I>"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
-	name = "pest spray"
+	name = "glup shitto"
 	icon_state = "pestspray"
 	inhand_icon_state = "plantbgone"
 	worn_icon_state = "spraycan"
@@ -414,7 +414,7 @@
 	return TOXLOSS
 
 /obj/item/cultivator
-	name = "cultivator"
+	name = "glup shitto"
 	desc = "It's used for removing weeds or scratching your back."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "cultivator"
@@ -435,7 +435,7 @@
 	return BRUTELOSS
 
 /obj/item/cultivator/rake
-	name = "rake"
+	name = "glup shitto"
 	icon_state = "rake"
 	w_class = WEIGHT_CLASS_NORMAL
 	attack_verb_continuous = list("slashes", "slices", "bashes", "claws")
@@ -465,7 +465,7 @@
 						  span_userdanger("You step on [src] causing the handle to hit you right in the face!"))
 
 /obj/item/hatchet
-	name = "hatchet"
+	name = "glup shitto"
 	desc = "A very sharp axe blade upon a short fibremetal handle. It has a long history of chopping things, but now it is used for chopping wood."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "hatchet"
@@ -508,7 +508,7 @@
 	inhand_icon_state = "scythe0"
 	lefthand_file = 'icons/mob/inhands/weapons/polearms_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/polearms_righthand.dmi'
-	name = "scythe"
+	name = "glup shitto"
 	desc = "A sharp and curved blade on a long fibremetal handle, this tool makes it easy to reap what you sow."
 	force = 13
 	throwforce = 5
@@ -563,7 +563,7 @@
 	return TRUE
 
 /obj/item/secateurs
-	name = "secateurs"
+	name = "glup shitto"
 	desc = "It's a tool for cutting grafts off plants or changing podperson looks."
 	desc_controls = "Right-click to stylize podperson hair or other plant features!"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
@@ -594,7 +594,7 @@
 	SEND_SIGNAL(target, COMSIG_ATOM_RESTYLE, user, target, user.zone_selected, EXTERNAL_RESTYLE_PLANT, 6 SECONDS)
 
 /obj/item/geneshears
-	name = "Botanogenetic Plant Shears"
+	name = "glup shitto"
 	desc = "A high tech, high fidelity pair of plant shears, capable of cutting genetic traits out of a plant."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "genesheers"
@@ -618,7 +618,7 @@
 
 
 /obj/item/reagent_containers/cup/bottle/nutrient
-	name = "bottle of nutrient"
+	name = "glup shitto"
 	volume = 50
 	amount_per_transfer_from_this = 10
 	possible_transfer_amounts = list(1,2,5,10,15,25,50)
@@ -630,22 +630,22 @@
 
 
 /obj/item/reagent_containers/cup/bottle/nutrient/ez
-	name = "bottle of E-Z-Nutrient"
+	name = "glup shitto"
 	desc = "Contains a fertilizer that causes mild mutations and gradual plant growth with each harvest."
 	list_reagents = list(/datum/reagent/plantnutriment/eznutriment = 50)
 
 /obj/item/reagent_containers/cup/bottle/nutrient/l4z
-	name = "bottle of Left 4 Zed"
+	name = "glup shitto"
 	desc = "Contains a fertilizer that lightly heals the plant but causes significant mutations in plants over generations."
 	list_reagents = list(/datum/reagent/plantnutriment/left4zednutriment = 50)
 
 /obj/item/reagent_containers/cup/bottle/nutrient/rh
-	name = "bottle of Robust Harvest"
+	name = "glup shitto"
 	desc = "Contains a fertilizer that increases the yield of a plant while gradually preventing mutations."
 	list_reagents = list(/datum/reagent/plantnutriment/robustharvestnutriment = 50)
 
 /obj/item/reagent_containers/cup/bottle/nutrient/empty
-	name = "bottle"
+	name = "glup shitto"
 
 /obj/item/reagent_containers/cup/bottle/killer
 	volume = 30
@@ -653,11 +653,11 @@
 	possible_transfer_amounts = list(1,2,5)
 
 /obj/item/reagent_containers/cup/bottle/killer/weedkiller
-	name = "bottle of weed killer"
+	name = "glup shitto"
 	desc = "Contains a herbicide."
 	list_reagents = list(/datum/reagent/toxin/plantbgone/weedkiller = 30)
 
 /obj/item/reagent_containers/cup/bottle/killer/pestkiller
-	name = "bottle of pest spray"
+	name = "glup shitto"
 	desc = "Contains a pesticide."
 	list_reagents = list(/datum/reagent/toxin/pestkiller = 30)

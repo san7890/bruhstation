@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/splattercasting
-	name = "Marrabbio's Splattercasting"
+	name = "glup shitto"
 	desc = "A spell invented by a banished wizard, who obsessed over aligning \
 		the primal essences of life and magic into one. Dramatically lowers the \
 		cooldown on all spells, but each one will cost blood, as well as it naturally \

@@ -1,5 +1,5 @@
 /datum/outfit/syndicate
-	name = "Syndicate Operative - Basic"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
@@ -20,7 +20,7 @@
 	id_trim = /datum/id_trim/chameleon/operative
 
 /datum/outfit/syndicate/leader
-	name = "Syndicate Leader - Basic"
+	name = "glup shitto"
 	command_radio = TRUE
 
 	id_trim = /datum/id_trim/chameleon/operative/nuke_leader
@@ -50,7 +50,7 @@
 	nukie.update_icons()
 
 /datum/outfit/syndicate/full
-	name = "Syndicate Operative - Full Kit"
+	name = "glup shitto"
 
 	glasses = /obj/item/clothing/glasses/night
 	mask = /obj/item/clothing/mask/gas/syndicate
@@ -65,7 +65,7 @@
 	)
 
 /datum/outfit/syndicate/reinforcement
-	name = "Syndicate Operative - Reinforcement"
+	name = "glup shitto"
 	tc = 0
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/plastikov = 1,
@@ -81,7 +81,7 @@
 		Support your allies, and remember: Down with Nanotrasen."))
 
 /datum/outfit/syndicate/reinforcement/gorlex
-	name = "Syndicate Operative - Gorlex Reinforcement"
+	name = "glup shitto"
 	suit = /obj/item/clothing/suit/armor/vest/alt
 	head = /obj/item/clothing/head/helmet/swat
 	neck = /obj/item/clothing/neck/large_scarf/syndie
@@ -89,7 +89,7 @@
 	faction = "the Gorlex Marauders"
 
 /datum/outfit/syndicate/reinforcement/cybersun
-	name = "Syndicate Operative - Cybersun Reinforcement"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/jacket/oversized
 	gloves = /obj/item/clothing/gloves/fingerless
@@ -98,7 +98,7 @@
 	faction = "Cybersun Industries"
 
 /datum/outfit/syndicate/reinforcement/donk
-	name = "Syndicate Operative - Donk Reinforcement"
+	name = "glup shitto"
 	suit = /obj/item/clothing/suit/hazardvest
 	head = /obj/item/clothing/head/utility/hardhat/orange
 	shoes = /obj/item/clothing/shoes/workboots
@@ -106,7 +106,7 @@
 	faction = "the Donk Corporation"
 
 /datum/outfit/syndicate/reinforcement/waffle
-	name = "Syndicate Operative - Waffle Reinforcement"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/syndicate/camo
 	suit = /obj/item/clothing/suit/armor/vest
 	head = /obj/item/clothing/head/helmet/blueshirt
@@ -114,7 +114,7 @@
 	faction = "the Waffle Corporation"
 
 /datum/outfit/syndicate/reinforcement/interdyne
-	name = "Syndicate Operative - Interdyne Reinforcement"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/syndicate/scrubs
 	suit = /obj/item/clothing/suit/toggle/labcoat/interdyne
 	head = /obj/item/clothing/head/beret/medical
@@ -125,7 +125,7 @@
 	faction = "Interdyne Pharmaceutics"
 
 /datum/outfit/syndicate/reinforcement/mi13
-	name = "Syndicate Operative - MI13 Reinforcement"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/syndicate/sniper
 	shoes = /obj/item/clothing/shoes/laceup
 	glasses = /obj/item/clothing/glasses/sunglasses/big

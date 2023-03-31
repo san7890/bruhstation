@@ -1,7 +1,7 @@
 
 /////RESTAURANT/////
 /datum/venue/restaurant
-	name = "restaurant"
+	name = "glup shitto"
 	req_access = ACCESS_KITCHEN
 	venue_type = VENUE_RESTAURANT
 	min_time_between_visitor = 80 SECONDS
@@ -53,11 +53,11 @@
 /obj/machinery/restaurant_portal/restaurant
 	linked_venue = /datum/venue/restaurant
 /obj/item/holosign_creator/robot_seat/restaurant
-	name = "restaurant seating indicator placer"
+	name = "glup shitto"
 	holosign_type = /obj/structure/holosign/robot_seat/restaurant
 
 /obj/structure/holosign/robot_seat/restaurant
-	name = "restaurant seating"
+	name = "glup shitto"
 	linked_venue = /datum/venue/restaurant
 
 
@@ -65,7 +65,7 @@
 
 /////BAR/////
 /datum/venue/bar
-	name = "bar"
+	name = "glup shitto"
 	req_access = ACCESS_BAR
 	venue_type = VENUE_BAR
 	min_time_between_visitor = 40 SECONDS
@@ -141,9 +141,9 @@
 	linked_venue = /datum/venue/bar
 
 /obj/item/holosign_creator/robot_seat/bar
-	name = "bar seating indicator placer"
+	name = "glup shitto"
 	holosign_type = /obj/structure/holosign/robot_seat/bar
 
 /obj/structure/holosign/robot_seat/bar
-	name = "bar seating"
+	name = "glup shitto"
 	linked_venue = /datum/venue/bar

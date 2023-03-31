@@ -5,7 +5,7 @@
 
 // Cult forge. Gives out combat weapons.
 /obj/structure/destructible/cult/item_dispenser/forge
-	name = "daemon forge"
+	name = "glup shitto"
 	desc = "A forge used in crafting the unholy weapons used by the armies of Nar'Sie."
 	cult_examine_tip = "Can be used to create Nar'Sien hardened armor, flagellant's robes, and eldritch longswords."
 	icon_state = "forge"
@@ -35,7 +35,7 @@
 	to_chat(user, span_cultitalic("You work [src] as dark knowledge guides your hands, creating [spawned_item]!"))
 
 /obj/structure/destructible/cult/item_dispenser/forge/engine
-	name = "magma engine"
+	name = "glup shitto"
 	desc = "An arcane engine used for powering a shuttle."
 	debris = list()
 

@@ -1,5 +1,5 @@
 /obj/machinery/computer/pod
-	name = "mass driver launch control"
+	name = "glup shitto"
 	desc = "A combined blastdoor and mass driver control unit."
 	processing_flags = START_PROCESSING_MANUALLY
 	/// Connected mass driver
@@ -132,13 +132,13 @@
 			return TRUE
 
 /obj/machinery/computer/pod/old
-	name = "\improper DoorMex control console"
+	name = "glup shitto"
 	icon_state = "oldcomp"
 	icon_screen = "library"
 	icon_keyboard = null
 
 /obj/machinery/computer/pod/old/mass_driver_controller
-	name = "\improper Mass Driver Controller"
+	name = "glup shitto"
 	icon = 'icons/obj/airlock_machines.dmi'
 	icon_state = "airlock_control_standby"
 	icon_screen = null
@@ -161,10 +161,10 @@
 	id = MASSDRIVER_SHACK
 
 /obj/machinery/computer/pod/old/syndicate
-	name = "\improper ProComp Executive IIc"
+	name = "glup shitto"
 	desc = "The Syndicate operate on a tight budget. Operates external airlocks."
 	req_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/computer/pod/old/swf
-	name = "\improper Magix System IV"
+	name = "glup shitto"
 	desc = "An arcane artifact that holds much magic. Running E-Knock 2.2: Sorcerer's Edition."

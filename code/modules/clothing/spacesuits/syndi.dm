@@ -1,6 +1,6 @@
 //Regular syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate
-	name = "red space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate"
 	inhand_icon_state = "space_syndicate"
 	desc = "Has a tag on it: Totally not property of an enemy corporation, honest!"
@@ -17,7 +17,7 @@
 	acid = 85
 
 /obj/item/clothing/suit/space/syndicate
-	name = "red space suit"
+	name = "glup shitto"
 	icon_state = "syndicate"
 	inhand_icon_state = "space_suit_syndicate"
 	desc = "Has a tag on it: Totally not property of an enemy corporation, honest!"
@@ -28,132 +28,132 @@
 
 //Green syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/green
-	name = "green space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-green"
 	inhand_icon_state = "space_helmet_syndicate"
 
 /obj/item/clothing/suit/space/syndicate/green
-	name = "green space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-green"
 	inhand_icon_state = "syndicate-green"
 
 
 //Dark green syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/green/dark
-	name = "dark green space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-green-dark"
 	inhand_icon_state = "syndicate-helm-green-dark"
 
 /obj/item/clothing/suit/space/syndicate/green/dark
-	name = "dark green space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-green-dark"
 	inhand_icon_state = "syndicate-green-dark"
 
 
 //Orange syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/orange
-	name = "orange space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-orange"
 	inhand_icon_state = "syndicate-helm-orange"
 
 /obj/item/clothing/suit/space/syndicate/orange
-	name = "orange space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-orange"
 	inhand_icon_state = "syndicate-orange"
 
 //Blue syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/blue
-	name = "blue space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-blue"
 	inhand_icon_state = "syndicate-helm-blue"
 
 /obj/item/clothing/suit/space/syndicate/blue
-	name = "blue space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-blue"
 	inhand_icon_state = "syndicate-blue"
 
 
 //Black syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black"
 	inhand_icon_state = "syndicate-helm-black"
 
 /obj/item/clothing/suit/space/syndicate/black
-	name = "black space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black"
 	inhand_icon_state = "syndicate-black"
 
 
 //Black-green syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black/green
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black-green"
 	inhand_icon_state = "syndicate-helm-black-green"
 
 /obj/item/clothing/suit/space/syndicate/black/green
-	name = "black and green space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black-green"
 	inhand_icon_state = "syndicate-black-green"
 
 
 //Black-blue syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black/blue
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black-blue"
 	inhand_icon_state = "syndicate-helm-black-blue"
 
 /obj/item/clothing/suit/space/syndicate/black/blue
-	name = "black and blue space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black-blue"
 	inhand_icon_state = "syndicate-black-blue"
 
 
 //Black medical syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black/med
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black-med"
 	inhand_icon_state = "syndicate-helm-black"
 
 /obj/item/clothing/suit/space/syndicate/black/med
-	name = "green space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black-med"
 	inhand_icon_state = "syndicate-black"
 
 
 //Black-orange syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black/orange
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black-orange"
 	inhand_icon_state = "syndicate-helm-black"
 
 /obj/item/clothing/suit/space/syndicate/black/orange
-	name = "black and orange space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black-orange"
 	inhand_icon_state = "syndicate-black"
 
 
 //Black-red syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black/red
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black-red"
 	inhand_icon_state = "syndicate-helm-black-red"
 
 /obj/item/clothing/suit/space/syndicate/black/red
-	name = "black and red space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black-red"
 	inhand_icon_state = "syndicate-black-red"
 
 //Black-red syndicate contract varient
 /obj/item/clothing/head/helmet/space/syndicate/contract
-	name = "contractor helmet"
+	name = "glup shitto"
 	desc = "A specialised black and gold helmet that's more compact than its standard Syndicate counterpart. Can be ultra-compressed into even the tightest of spaces."
 	w_class = WEIGHT_CLASS_SMALL
 	icon_state = "syndicate-contract-helm"
 	inhand_icon_state = "contractor_helmet"
 
 /obj/item/clothing/suit/space/syndicate/contract
-	name = "contractor space suit"
+	name = "glup shitto"
 	desc = "A specialised black and gold space suit that's quicker, and more compact than its standard Syndicate counterpart. Can be ultra-compressed into even the tightest of spaces."
 	slowdown = 1
 	w_class = WEIGHT_CLASS_SMALL
@@ -162,11 +162,11 @@
 
 //Black with yellow/red engineering syndicate space suit
 /obj/item/clothing/head/helmet/space/syndicate/black/engie
-	name = "black space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-black-engie"
 	inhand_icon_state = "syndicate-helm-black"
 
 /obj/item/clothing/suit/space/syndicate/black/engie
-	name = "black engineering space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-black-engie"
 	inhand_icon_state = "syndicate-black"

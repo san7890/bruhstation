@@ -222,7 +222,7 @@
 
 /// Non-purchasable flavor spells to populate the spell book with, for style.
 /datum/spellbook_entry/challenge
-	name = "Take the Challenge"
+	name = "glup shitto"
 	category = "Challenges"
 	refundable = FALSE
 	buy_word = "Accept"

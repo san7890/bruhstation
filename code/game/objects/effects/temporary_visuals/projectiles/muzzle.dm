@@ -1,5 +1,5 @@
 /obj/effect/projectile/muzzle
-	name = "muzzle flash"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/projectiles_muzzle.dmi'
 
 /obj/effect/projectile/muzzle/laser
@@ -30,7 +30,7 @@
 	icon_state = "wormhole_g"
 
 /obj/effect/projectile/muzzle/laser/emitter
-	name = "emitter flash"
+	name = "glup shitto"
 	icon_state = "muzzle_emitter"
 
 /obj/effect/projectile/muzzle/solar

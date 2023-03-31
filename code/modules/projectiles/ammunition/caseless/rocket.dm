@@ -1,18 +1,18 @@
 /obj/item/ammo_casing/caseless/rocket
-	name = "\improper PM-9HE"
+	name = "glup shitto"
 	desc = "An 84mm High Explosive rocket. Fire at people and pray."
 	caliber = CALIBER_84MM
 	icon_state = "srm-8"
 	projectile_type = /obj/projectile/bullet/rocket
 
 /obj/item/ammo_casing/caseless/rocket/heap
-	name = "\improper PM-9HEAP"
+	name = "glup shitto"
 	desc = "An 84mm High Explosive All Purpose rocket. For when you just need something to not exist anymore."
 	icon_state = "84mm-heap"
 	projectile_type = /obj/projectile/bullet/rocket/heap
 
 /obj/item/ammo_casing/caseless/rocket/weak
-	name = "\improper PM-9HE Low-Yield"
+	name = "glup shitto"
 	desc = "An 84mm High Explosive rocket. This one isn't quite as devastating."
 	projectile_type = /obj/projectile/bullet/rocket/weak
 

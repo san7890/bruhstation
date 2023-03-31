@@ -1,5 +1,5 @@
 /datum/mutation/human/temperature_adaptation
-	name = "Temperature Adaptation"
+	name = "glup shitto"
 	desc = "A strange mutation that renders the host immune to damage from extreme temperatures. Does not protect from vacuums."
 	quality = POSITIVE
 	difficulty = 16
@@ -26,7 +26,7 @@
 	owner.remove_traits(list(TRAIT_RESISTCOLD, TRAIT_RESISTHEAT), GENETIC_MUTATION)
 
 /datum/mutation/human/pressure_adaptation
-	name = "Pressure Adaptation"
+	name = "glup shitto"
 	desc = "A strange mutation that renders the host immune to damage from both low and high pressure environments. Does not protect from temperature, including the cold of space."
 	quality = POSITIVE
 	difficulty = 16

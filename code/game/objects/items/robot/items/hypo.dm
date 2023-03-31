@@ -76,7 +76,7 @@
 
 ///Borg Hypospray
 /obj/item/reagent_containers/borghypo
-	name = "cyborg hypospray"
+	name = "glup shitto"
 	desc = "An advanced chemical synthesizer and injection system, designed for heavy-duty medical equipment."
 	icon = 'icons/obj/medical/syringe.dmi'
 	inhand_icon_state = "hypo"
@@ -265,7 +265,7 @@
 
 /// Peacekeeper hypospray
 /obj/item/reagent_containers/borghypo/peace
-	name = "Peace Hypospray"
+	name = "glup shitto"
 	default_reagent_types = BASE_PEACE_REAGENTS
 
 /obj/item/reagent_containers/borghypo/peace/hacked
@@ -276,7 +276,7 @@
 
 /// Clownborg hypospray
 /obj/item/reagent_containers/borghypo/clown
-	name = "laughter injector"
+	name = "glup shitto"
 	desc = "Keeps the crew happy and productive!"
 	default_reagent_types = BASE_CLOWN_REAGENTS
 
@@ -288,7 +288,7 @@
 
 /// Syndicate medborg hypospray
 /obj/item/reagent_containers/borghypo/syndicate
-	name = "syndicate cyborg hypospray"
+	name = "glup shitto"
 	desc = "An experimental piece of Syndicate technology used to produce powerful restorative nanites used to very quickly restore injuries of all types. \
 		Also metabolizes potassium iodide for radiation poisoning, inacusiate for ear damage and morphine for offense."
 	icon_state = "borghypo_s"
@@ -300,7 +300,7 @@
 
 /// Borg Shaker for the serviceborgs
 /obj/item/reagent_containers/borghypo/borgshaker
-	name = "cyborg shaker"
+	name = "glup shitto"
 	desc = "An advanced drink synthesizer and mixer."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "shaker"
@@ -372,7 +372,7 @@
 	return .
 
 /obj/item/reagent_containers/borghypo/borgshaker/hacked
-	name = "cyborg shaker"
+	name = "glup shitto"
 	desc = "Will mix drinks that knock them dead."
 	icon_state = "threemileislandglass"
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'

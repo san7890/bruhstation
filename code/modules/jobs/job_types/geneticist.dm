@@ -33,7 +33,7 @@
 
 
 /datum/outfit/job/geneticist
-	name = "Geneticist"
+	name = "glup shitto"
 	jobtype = /datum/job/geneticist
 
 	id_trim = /datum/id_trim/job/geneticist

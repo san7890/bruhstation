@@ -1,7 +1,7 @@
 //Suits for the pink and grey skeletons! //EVA version no longer used in favor of the Jumpsuit version
 
 /obj/item/clothing/suit/space/eva/plasmaman
-	name = "EVA plasma envirosuit"
+	name = "glup shitto"
 	desc = "A special plasma containment suit designed to be space-worthy, as well as worn over other clothing. Like its smaller counterpart, it can automatically extinguish the wearer in a crisis, and holds twice as many charges."
 	allowed = list(/obj/item/gun, /obj/item/ammo_casing, /obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/energy/sword, /obj/item/restraints/handcuffs, /obj/item/tank)
 	armor_type = /datum/armor/eva_plasmaman
@@ -40,7 +40,7 @@
 
 //I just want the light feature of helmets
 /obj/item/clothing/head/helmet/space/plasmaman
-	name = "plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet that allows plasma-based lifeforms to exist safely in an oxygenated environment. It is space-worthy, and may be worn in tandem with other EVA gear."
 	icon = 'icons/obj/clothing/head/plasmaman_hats.dmi'
 	worn_icon = 'icons/mob/clothing/head/plasmaman_head.dmi'
@@ -185,94 +185,94 @@
 	update_appearance()
 
 /obj/item/clothing/head/helmet/space/plasmaman/security
-	name = "security plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman containment helmet designed for security officers, protecting them from burning alive, alongside other undesirables."
 	icon_state = "security_envirohelm"
 	inhand_icon_state = null
 	armor_type = /datum/armor/plasmaman_security
 
 /obj/item/clothing/head/helmet/space/plasmaman/security/warden
-	name = "warden's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman containment helmet designed for the warden. A pair of white stripes being added to differeciate them from other members of security."
 	icon_state = "warden_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/security/head_of_security
-	name = "head of security's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Head of Security. A pair of gold stripes are added to differentiate them from other members of security."
 	icon_state = "hos_envirohelm"
 	inhand_icon_state = null
 	armor_type = /datum/armor/security_head_of_security
 
 /obj/item/clothing/head/helmet/space/plasmaman/prisoner
-	name = "prisoner's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman containment helmet for prisoners."
 	icon_state = "prisoner_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/medical
-	name = "medical doctor's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "An envirohelmet designed for plasmaman medical doctors, having two stripes down its length to denote as much."
 	icon_state = "doctor_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/paramedic
-	name = "paramedic plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "An envirohelmet designed for plasmaman paramedics, with darker blue stripes compared to the medical model."
 	icon_state = "paramedic_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/viro
-	name = "virology plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "The helmet worn by the safest people on the station, those who are completely immune to the monstrosities they create."
 	icon_state = "virologist_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/chemist
-	name = "chemistry plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman envirosuit designed for chemists, two orange stripes going down its face."
 	icon_state = "chemist_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/chief_medical_officer
-	name = "chief medical officer's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Chief Medical Officer. A gold stripe applied to differentiate them from other medical staff."
 	icon_state = "cmo_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/science
-	name = "science plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman envirohelmet designed for scientists."
 	icon_state = "scientist_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/robotics
-	name = "robotics plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman envirohelmet designed for roboticists."
 	icon_state = "roboticist_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/genetics
-	name = "geneticist's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman envirohelmet designed for geneticists."
 	icon_state = "geneticist_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/research_director
-	name = "research director's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Research Director. A light brown design is applied to differentiate them from other scientists."
 	icon_state = "rd_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/engineering
-	name = "engineering plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A space-worthy helmet specially designed for engineer plasmamen, the usual purple stripes being replaced by engineering's orange."
 	icon_state = "engineer_envirohelm"
 	inhand_icon_state = null
 	armor_type = /datum/armor/plasmaman_engineering
 
 /obj/item/clothing/head/helmet/space/plasmaman/atmospherics
-	name = "atmospherics plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A space-worthy helmet specially designed for atmos technician plasmamen, the usual purple stripes being replaced by atmos' blue. Has improved thermal shielding."
 	icon_state = "atmos_envirohelm"
 	inhand_icon_state = null
@@ -280,7 +280,7 @@
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT // Same protection as the Atmospherics Hardhat
 
 /obj/item/clothing/head/helmet/space/plasmaman/chief_engineer
-	name = "chief engineer's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Chief Engineer, the usual purple stripes being replaced by the chief's green. Has improved thermal shielding."
 	icon_state = "ce_envirohelm"
 	inhand_icon_state = null
@@ -289,32 +289,32 @@
 
 
 /obj/item/clothing/head/helmet/space/plasmaman/cargo
-	name = "cargo plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A plasmaman envirohelmet designed for cargo techs and quartermasters."
 	icon_state = "cargo_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/mining
-	name = "mining plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A khaki helmet given to plasmamen miners operating on lavaland."
 	icon_state = "explorer_envirohelm"
 	inhand_icon_state = null
 	visor_icon = "explorer_envisor"
 
 /obj/item/clothing/head/helmet/space/plasmaman/chaplain
-	name = "chaplain's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "An envirohelmet specially designed for only the most pious of plasmamen."
 	icon_state = "chap_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/white
-	name = "white plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A generic white envirohelm."
 	icon_state = "white_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/curator
-	name = "curator's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A slight modification on a traditional voidsuit helmet, this helmet was Nanotrasen's first solution to the *logistical problems* that come with employing plasmamen. Despite their limitations, these helmets still see use by historians and old-school plasmamen alike."
 	icon_state = "prototype_envirohelm"
 	inhand_icon_state = "void_helmet"
@@ -323,26 +323,26 @@
 	visor_icon = "prototype_envisor"
 
 /obj/item/clothing/head/helmet/space/plasmaman/botany
-	name = "botany plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A green and blue envirohelmet designating its wearer as a botanist. While not specifically designed for it, it would protect against minor plant-related injuries."
 	icon_state = "botany_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/janitor
-	name = "janitor's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A grey helmet bearing a pair of purple stripes, designating the wearer as a janitor."
 	icon_state = "janitor_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/mime
-	name = "mime envirosuit helmet"
+	name = "glup shitto"
 	desc = "The make-up is painted on, it's a miracle it doesn't chip. It's not very colourful."
 	icon_state = "mime_envirohelm"
 	inhand_icon_state = null
 	visor_icon = "mime_envisor"
 
 /obj/item/clothing/head/helmet/space/plasmaman/clown
-	name = "clown envirosuit helmet"
+	name = "glup shitto"
 	desc = "The make-up is painted on, it's a miracle it doesn't chip. <i>'HONK!'</i>"
 	icon_state = "clown_envirohelm"
 	inhand_icon_state = null
@@ -350,32 +350,32 @@
 	smile_state = "clown_smile"
 
 /obj/item/clothing/head/helmet/space/plasmaman/head_of_personnel
-	name = "head of personnel's envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Head of Personnel. Embarrassingly enough, it looks way too much like the captain's design save for the red stripes."
 	icon_state = "hop_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/captain
-	name = "captain's plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Captain. Embarrassingly enough, it looks way too much like the Head of Personnel's design save for the gold stripes. I mean, come on. Gold stripes can fix anything."
 	icon_state = "captain_envirohelm"
 	inhand_icon_state = null
 	armor_type = /datum/armor/plasmaman_captain
 
 /obj/item/clothing/head/helmet/space/plasmaman/centcom_commander
-	name = "CentCom commander plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for the Higher Central Command Staff. Not many of these exist, as CentCom does not usually employ plasmamen to higher staff positions due to their complications."
 	icon_state = "commander_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/centcom_official
-	name = "CentCom official plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for CentCom Staff. They sure do love their green."
 	icon_state = "official_envirohelm"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/helmet/space/plasmaman/centcom_intern
-	name = "CentCom intern plasma envirosuit helmet"
+	name = "glup shitto"
 	desc = "A special containment helmet designed for CentCom Staff. You know, so any coffee spills don't kill the poor sod."
 	icon_state = "intern_envirohelm"
 	inhand_icon_state = null

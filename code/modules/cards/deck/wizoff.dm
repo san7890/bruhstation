@@ -1,6 +1,6 @@
 //It's Wiz-Off, the wizard themed card game! It's modular too, in case you might want to make it Syndie, Sec and Clown themed or something stupid like that.
 /obj/item/toy/cards/deck/wizoff
-	name = "\improper Wiz-Off deck"
+	name = "glup shitto"
 	desc = "A Wiz-Off deck. Fight an arcane battle for the fate of the universe: Draw 5! Play 5! Best of 5! A rules card is attached."
 	cardgame_desc = "Wiz-Off game"
 	icon_state = "deck_wizoff_full"

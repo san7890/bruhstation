@@ -98,6 +98,6 @@
 		qdel(src)
 
 /atom/movable/screen/alert/status_effect/ghoul
-	name = "Flesh Servant"
+	name = "glup shitto"
 	desc = "You are a Ghoul!"
 	icon_state = ALERT_MIND_CONTROL

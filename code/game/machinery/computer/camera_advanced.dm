@@ -1,5 +1,5 @@
 /obj/machinery/computer/camera_advanced
-	name = "advanced camera console"
+	name = "glup shitto"
 	desc = "Used to access the various cameras on the station."
 	icon_screen = "cameras"
 	icon_keyboard = "security_key"
@@ -184,7 +184,7 @@
 		plane_static.unhide_plane(user)
 
 /mob/camera/ai_eye/remote
-	name = "Inactive Camera Eye"
+	name = "glup shitto"
 	ai_detector_visible = FALSE
 	var/sprint = 10
 	var/cooldown = 0
@@ -251,7 +251,7 @@
 		sprint = initial
 
 /datum/action/innate/camera_off
-	name = "End Camera View"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "camera_off"
 
@@ -263,7 +263,7 @@
 	console.remove_eye_control(owner)
 
 /datum/action/innate/camera_jump
-	name = "Jump To Camera"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "camera_jump"
 
@@ -308,7 +308,7 @@
 		playsound(origin, 'sound/machines/terminal_prompt_deny.ogg', 25, FALSE)
 
 /datum/action/innate/camera_multiz_up
-	name = "Move up a floor"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "move_up"
 
@@ -322,7 +322,7 @@
 		to_chat(owner, span_notice("You couldn't move upwards!"))
 
 /datum/action/innate/camera_multiz_down
-	name = "Move down a floor"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "move_down"
 

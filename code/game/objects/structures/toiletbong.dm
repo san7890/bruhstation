@@ -1,5 +1,5 @@
 /obj/structure/toiletbong
-	name = "toilet bong"
+	name = "glup shitto"
 	desc = "A repurposed toilet with re-arranged piping and an attached flamethrower. Why would anyone build this?"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "toiletbong"

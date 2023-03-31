@@ -1,5 +1,5 @@
 /obj/item/clothing/under/color
-	name = "jumpsuit"
+	name = "glup shitto"
 	desc = "A standard issue colored jumpsuit. Variety is the spice of life!"
 	dying_key = DYE_REGISTRY_UNDER
 	greyscale_colors = "#3f3f3f"
@@ -67,11 +67,11 @@
 	return INITIALIZE_HINT_QDEL
 
 /obj/item/clothing/under/color/black
-	name = "black jumpsuit"
+	name = "glup shitto"
 	resistance_flags = NONE
 
 /obj/item/clothing/under/color/jumpskirt/black
-	name = "black jumpskirt"
+	name = "glup shitto"
 
 /obj/item/clothing/under/color/black/ghost
 	item_flags = DROPDEL
@@ -81,17 +81,17 @@
 	ADD_TRAIT(src, TRAIT_NODROP, CULT_TRAIT)
 
 /obj/item/clothing/under/color/grey
-	name = "grey jumpsuit"
+	name = "glup shitto"
 	desc = "A tasteful grey jumpsuit that reminds you of the good old days."
 	greyscale_colors = "#b3b3b3"
 
 /obj/item/clothing/under/color/jumpskirt/grey
-	name = "grey jumpskirt"
+	name = "glup shitto"
 	desc = "A tasteful grey jumpskirt that reminds you of the good old days."
 	greyscale_colors = "#b3b3b3"
 
 /obj/item/clothing/under/color/grey/ancient
-	name = "ancient jumpsuit"
+	name = "glup shitto"
 	desc = "A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade."
 	icon_state = "grey_ancient"
 	inhand_icon_state = "gy_suit"
@@ -102,121 +102,121 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/color/blue
-	name = "blue jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#52aecc"
 
 /obj/item/clothing/under/color/jumpskirt/blue
-	name = "blue jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#52aecc"
 
 /obj/item/clothing/under/color/green
-	name = "green jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#9ed63a"
 
 /obj/item/clothing/under/color/jumpskirt/green
-	name = "green jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#9ed63a"
 
 /obj/item/clothing/under/color/orange
-	name = "orange jumpsuit"
+	name = "glup shitto"
 	desc = "Don't wear this near paranoid security officers."
 	greyscale_colors = "#ff8c19"
 
 /obj/item/clothing/under/color/jumpskirt/orange
-	name = "orange jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#ff8c19"
 
 /obj/item/clothing/under/color/pink
-	name = "pink jumpsuit"
+	name = "glup shitto"
 	desc = "Just looking at this makes you feel <i>fabulous</i>."
 	greyscale_colors = "#ffa69b"
 
 /obj/item/clothing/under/color/jumpskirt/pink
-	name = "pink jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#ffa69b"
 
 /obj/item/clothing/under/color/red
-	name = "red jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#eb0c07"
 
 /obj/item/clothing/under/color/jumpskirt/red
-	name = "red jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#eb0c07"
 
 /obj/item/clothing/under/color/white
-	name = "white jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#ffffff"
 
 /obj/item/clothing/under/color/jumpskirt/white
-	name = "white jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#ffffff"
 
 /obj/item/clothing/under/color/yellow
-	name = "yellow jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#ffe14d"
 
 /obj/item/clothing/under/color/jumpskirt/yellow
-	name = "yellow jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#ffe14d"
 
 /obj/item/clothing/under/color/darkblue
-	name = "dark blue jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#3285ba"
 
 /obj/item/clothing/under/color/jumpskirt/darkblue
-	name = "dark blue jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#3285ba"
 
 /obj/item/clothing/under/color/teal
-	name = "teal jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#77f3b7"
 
 /obj/item/clothing/under/color/jumpskirt/teal
-	name = "teal jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#77f3b7"
 
 /obj/item/clothing/under/color/lightpurple
-	name = "light purple jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#9f70cc"
 
 /obj/item/clothing/under/color/jumpskirt/lightpurple
-	name = "light purple jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#9f70cc"
 
 /obj/item/clothing/under/color/darkgreen
-	name = "dark green jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#6fbc22"
 
 /obj/item/clothing/under/color/jumpskirt/darkgreen
-	name = "dark green jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#6fbc22"
 
 /obj/item/clothing/under/color/lightbrown
-	name = "light brown jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#c59431"
 
 /obj/item/clothing/under/color/jumpskirt/lightbrown
-	name = "light brown jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#c59431"
 
 /obj/item/clothing/under/color/brown
-	name = "brown jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#a17229"
 
 /obj/item/clothing/under/color/jumpskirt/brown
-	name = "brown jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#a17229"
 
 /obj/item/clothing/under/color/maroon
-	name = "maroon jumpsuit"
+	name = "glup shitto"
 	greyscale_colors = "#cc295f"
 
 /obj/item/clothing/under/color/jumpskirt/maroon
-	name = "maroon jumpskirt"
+	name = "glup shitto"
 	greyscale_colors = "#cc295f"
 
 /obj/item/clothing/under/color/rainbow
-	name = "rainbow jumpsuit"
+	name = "glup shitto"
 	desc = "A multi-colored jumpsuit!"
 	icon_state = "rainbow"
 	inhand_icon_state = "rainbow"
@@ -228,7 +228,7 @@
 	flags_1 = NONE
 
 /obj/item/clothing/under/color/jumpskirt/rainbow
-	name = "rainbow jumpskirt"
+	name = "glup shitto"
 	desc = "A multi-colored jumpskirt!"
 	icon_state = "rainbow_skirt"
 	inhand_icon_state = "rainbow"

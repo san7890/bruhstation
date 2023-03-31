@@ -1,6 +1,6 @@
 ///It's gross, gets the name of it's owner, and is all kinds of fucked up
 /datum/material/meat
-	name = "meat"
+	name = "glup shitto"
 	desc = "Meat"
 	id = /datum/material/meat // So the bespoke versions are categorized under this
 	color = rgb(214, 67, 67)
@@ -46,7 +46,7 @@
 	if(!istype(source))
 		return FALSE
 
-	name = "[source?.name ? "[source.name]'s" : "mystery"] [initial(name)]"
+	name = "glup shitto"
 
 	if(source.real_name)
 		subjectname = source.real_name
@@ -66,5 +66,5 @@
 	if(!istype(source))
 		return FALSE
 
-	name = "[source?.name || "mystery"] [initial(name)]"
+	name = "glup shitto"
 	return ..()

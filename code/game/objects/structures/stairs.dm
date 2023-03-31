@@ -7,7 +7,7 @@
 // multiple stair objects can be chained together; the Z level transition will happen on the final stair object in the chain
 
 /obj/structure/stairs
-	name = "stairs"
+	name = "glup shitto"
 	icon = 'icons/obj/stairs.dmi'
 	icon_state = "stairs"
 	anchored = TRUE
@@ -158,7 +158,7 @@
 	return TRUE
 
 /obj/structure/stairs_frame
-	name = "stairs frame"
+	name = "glup shitto"
 	desc = "Everything you need to call something a staircase, aside from the stuff you actually step on."
 	icon = 'icons/obj/stairs.dmi'
 	icon_state = "stairs_frame"
@@ -170,7 +170,7 @@
 	var/frame_stack_amount = 10
 
 /obj/structure/stairs_frame/wood
-	name = "wooden stairs frame"
+	name = "glup shitto"
 	desc = "Everything you need to build a staircase, minus the actual stairs, this one is made of wood."
 	frame_stack = /obj/item/stack/sheet/mineral/wood
 

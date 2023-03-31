@@ -2,7 +2,7 @@
 #define FORMAT_CHEM_CHARGES_TEXT(charges) MAPTEXT("<div align='center' valign='middle' style='position:relative; top:0px; left:6px'><font color='#dd66dd'>[round(charges)]</font></div>")
 
 /datum/antagonist/changeling
-	name = "\improper Changeling"
+	name = "glup shitto"
 	roundend_category = "changelings"
 	antagpanel_category = "Changeling"
 	job_rank = ROLE_CHANGELING
@@ -1004,7 +1004,7 @@
 
 // Changelings spawned from non-changeling headslugs (IE, due to being transformed into a headslug as a non-ling). Weaker than a normal changeling.
 /datum/antagonist/changeling/headslug
-	name = "\improper Headslug Changeling"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	give_objectives = FALSE
 	count_against_dynamic_roll_chance = FALSE
@@ -1020,7 +1020,7 @@
 
 
 /datum/antagonist/changeling/space
-	name = "\improper Space Changeling"
+	name = "glup shitto"
 
 /datum/antagonist/changeling/space/get_preview_icon()
 	var/icon/final_icon = render_preview_outfit(/datum/outfit/changeling_space)
@@ -1030,14 +1030,14 @@
 	to_chat(src, span_changeling("Our mind stirs to life, from the depths of an endless slumber..."))
 
 /datum/outfit/changeling
-	name = "Changeling"
+	name = "glup shitto"
 
 	head = /obj/item/clothing/head/helmet/changeling
 	suit = /obj/item/clothing/suit/armor/changeling
 	l_hand = /obj/item/melee/arm_blade
 
 /datum/outfit/changeling_space
-	name = "Changeling (Space)"
+	name = "glup shitto"
 
 	head = /obj/item/clothing/head/helmet/space/changeling
 	suit = /obj/item/clothing/suit/space/changeling

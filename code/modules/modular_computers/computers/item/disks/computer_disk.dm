@@ -1,5 +1,5 @@
 /obj/item/computer_disk
-	name = "data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to store data."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "datadisk6"
@@ -50,12 +50,12 @@
 	return TRUE
 
 /obj/item/computer_disk/advanced
-	name = "advanced data disk"
+	name = "glup shitto"
 	icon_state = "datadisk5"
 	max_capacity = 64
 
 /obj/item/computer_disk/super
-	name = "super data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to store large amounts of data."
 	icon_state = "datadisk3"
 	max_capacity = 256

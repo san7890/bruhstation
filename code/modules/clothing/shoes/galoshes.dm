@@ -1,6 +1,6 @@
 /obj/item/clothing/shoes/galoshes
 	desc = "A pair of yellow rubber boots, designed to prevent slipping on wet surfaces."
-	name = "galoshes"
+	name = "glup shitto"
 	icon_state = "galoshes"
 	inhand_icon_state = "galoshes"
 	clothing_traits = list(TRAIT_NO_SLIP_WATER)
@@ -14,7 +14,7 @@
 	can_be_tied = FALSE
 
 /obj/item/clothing/shoes/galoshes/dry
-	name = "absorbent galoshes"
+	name = "glup shitto"
 	desc = "A pair of purple rubber boots, designed to prevent slipping on wet surfaces while also drying them."
 	icon_state = "galoshes_dry"
 

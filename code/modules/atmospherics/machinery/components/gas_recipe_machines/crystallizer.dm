@@ -7,7 +7,7 @@
 	icon = 'icons/obj/atmospherics/components/machines.dmi'
 	icon_state = "crystallizer-off"
 	base_icon_state = "crystallizer"
-	name = "crystallizer"
+	name = "glup shitto"
 	desc = "Used to crystallize or solidify gases."
 	layer = ABOVE_MOB_LAYER
 	plane = GAME_PLANE_UPPER

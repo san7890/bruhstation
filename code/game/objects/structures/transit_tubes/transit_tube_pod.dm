@@ -210,7 +210,7 @@
 //special pod made by the dispenser, it fizzles away when reaching a station.
 
 /obj/structure/transit_tube_pod/dispensed
-	name = "temporary transit tube pod"
+	name = "glup shitto"
 	desc = "Hits the skrrrt (tube station), then hits the dirt (nonexistence). You know how it is."
 	icon_state = "temppod"
 	occupied_icon_state = "temppod_occupied"

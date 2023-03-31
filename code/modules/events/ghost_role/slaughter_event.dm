@@ -1,5 +1,5 @@
 /datum/round_event_control/slaughter
-	name = "Spawn Slaughter Demon"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/slaughter
 	weight = 1 //Very rare
 	max_occurrences = 1

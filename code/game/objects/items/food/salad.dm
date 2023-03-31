@@ -12,7 +12,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/salad/aesirsalad
-	name = "\improper Aesir salad"
+	name = "glup shitto"
 	desc = "Probably too incredible for mortal men to fully enjoy."
 	icon_state = "aesirsalad"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 12)
@@ -20,7 +20,7 @@
 	foodtypes = VEGETABLES | FRUIT
 
 /obj/item/food/salad/herbsalad
-	name = "herb salad"
+	name = "glup shitto"
 	desc = "A tasty salad with apples on top."
 	icon_state = "herbsalad"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 6)
@@ -28,7 +28,7 @@
 	foodtypes = VEGETABLES | FRUIT
 
 /obj/item/food/salad/validsalad
-	name = "valid salad"
+	name = "glup shitto"
 	desc = "It's just an herb salad with meatballs and fried potato slices. Nothing suspicious about it."
 	icon_state = "validsalad"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/protein = 5, /datum/reagent/consumable/doctor_delight = 8, /datum/reagent/consumable/nutriment/vitamin = 6)
@@ -36,7 +36,7 @@
 	foodtypes = VEGETABLES | MEAT | FRIED | FRUIT
 
 /obj/item/food/salad/fruit
-	name = "fruit salad"
+	name = "glup shitto"
 	desc = "Your standard fruit salad."
 	icon_state = "fruitsalad"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 9, /datum/reagent/consumable/nutriment/vitamin = 5)
@@ -44,7 +44,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/salad/jungle
-	name = "jungle salad"
+	name = "glup shitto"
 	desc = "Exotic fruits in a bowl."
 	icon_state = "junglesalad"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 11, /datum/reagent/consumable/banana = 5, /datum/reagent/consumable/nutriment/vitamin = 7)
@@ -52,7 +52,7 @@
 	foodtypes = FRUIT
 
 /obj/item/food/salad/citrusdelight
-	name = "citrus delight"
+	name = "glup shitto"
 	desc = "Citrus overload!"
 	icon_state = "citrusdelight"
 	food_reagents = list(
@@ -63,7 +63,7 @@
 	foodtypes = FRUIT | ORANGES
 
 /obj/item/food/uncooked_rice
-	name = "uncooked rice"
+	name = "glup shitto"
 	desc = "A clump of raw rice."
 	icon_state = "uncooked_rice"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4)
@@ -77,7 +77,7 @@
 	AddElement(/datum/element/microwavable, /obj/item/food/boiledrice)
 
 /obj/item/food/boiledrice
-	name = "boiled rice"
+	name = "glup shitto"
 	desc = "A steaming cup of boiled rice. A bit bland by itself, but the basis for something delicious..."
 	icon_state = "cooked_rice"
 	food_reagents = list(
@@ -88,7 +88,7 @@
 	foodtypes = GRAIN | BREAKFAST
 
 /obj/item/food/salad/ricepudding
-	name = "rice pudding"
+	name = "glup shitto"
 	desc = "Everybody loves rice pudding!"
 	icon_state = "ricepudding"
 	food_reagents = list(
@@ -101,7 +101,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/salad/ricepork
-	name = "rice and pork"
+	name = "glup shitto"
 	desc = "Well, it looks like pork..."
 	icon_state = "riceporkbowl"
 	food_reagents = list(
@@ -113,7 +113,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/salad/risotto
-	name = "risotto"
+	name = "glup shitto"
 	desc = "Proof the Italians mastered every carb."
 	icon_state = "risotto"
 	food_reagents = list(
@@ -125,7 +125,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/salad/eggbowl
-	name = "egg bowl"
+	name = "glup shitto"
 	desc = "A bowl of rice with a fried egg."
 	icon_state = "eggbowl"
 	food_reagents = list(
@@ -137,7 +137,7 @@
 	foodtypes = GRAIN | MEAT //EGG = MEAT -NinjaNomNom 2017
 
 /obj/item/food/salad/edensalad
-	name = "\improper Salad of Eden"
+	name = "glup shitto"
 	desc = "A salad brimming with untapped potential."
 	icon_state = "edensalad"
 	food_reagents = list(
@@ -148,7 +148,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/salad/gumbo
-	name = "black eyed gumbo"
+	name = "glup shitto"
 	desc = "A spicy and savory meat and rice dish."
 	icon_state = "gumbo"
 	food_reagents = list(
@@ -160,7 +160,7 @@
 	foodtypes = GRAIN | MEAT | VEGETABLES
 
 /obj/item/reagent_containers/cup/bowl
-	name = "bowl"
+	name = "glup shitto"
 	desc = "A simple bowl, used for soups and salads."
 	icon = 'icons/obj/food/soupsalad.dmi'
 	icon_state = "bowl"
@@ -175,14 +175,14 @@
 
 // empty salad for custom salads
 /obj/item/food/salad/empty
-	name = "salad"
+	name = "glup shitto"
 	foodtypes = NONE
 	tastes = list()
 	icon_state = "bowl"
 	desc = "A delicious customized salad."
 
 /obj/item/food/salad/kale_salad
-	name = "kale salad"
+	name = "glup shitto"
 	desc = "A healthy kale salad drizzled in oil, perfect for warm summer months."
 	icon_state = "kale_salad"
 	food_reagents = list(
@@ -193,7 +193,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/salad/greek_salad
-	name = "Greek salad"
+	name = "glup shitto"
 	desc = "A popular salad made of tomatoes, onions, feta cheese, and olives all drizzled in olive oil. Though it feels like it's missing something..."
 	icon_state = "greek_salad"
 	food_reagents = list(
@@ -204,7 +204,7 @@
 	foodtypes = VEGETABLES | DAIRY
 
 /obj/item/food/salad/caesar_salad
-	name = "Caesar salad"
+	name = "glup shitto"
 	desc = "A simple yet flavorful salad of onions, lettuce, croutons, and shreds of cheese dressed in oil. Comes with a slice of pita bread!"
 	icon_state = "caesar_salad"
 	food_reagents = list(
@@ -215,7 +215,7 @@
 	foodtypes = VEGETABLES | DAIRY | GRAIN
 
 /obj/item/food/salad/spring_salad
-	name = "spring salad"
+	name = "glup shitto"
 	desc = "A simple salad of carrots, lettuce and peas drizzled in oil with a pinch of salt."
 	icon_state = "spring_salad"
 	food_reagents = list(
@@ -226,7 +226,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/salad/potato_salad
-	name = "potato salad"
+	name = "glup shitto"
 	desc = "A dish of boiled potatoes mixed with boiled eggs, onions, and mayonnaise. A staple of every self-respecting barbeque."
 	icon_state = "potato_salad"
 	food_reagents = list(
@@ -238,7 +238,7 @@
 	foodtypes = VEGETABLES | BREAKFAST
 
 /obj/item/food/salad/spinach_fruit_salad
-	name = "spinach fruit salad"
+	name = "glup shitto"
 	desc = "A vibrant fruit salad made of spinach, berries, and pineapple chunks all drizzled in oil. Yummy!"
 	icon_state = "spinach_fruit_salad"
 	food_reagents = list(
@@ -249,7 +249,7 @@
 	foodtypes = VEGETABLES | FRUIT
 
 /obj/item/food/salad/antipasto_salad
-	name = "antipasto salad"
+	name = "glup shitto"
 	desc = "A traditional Italian salad made of salami, mozzarella cheese, olives, and tomatoes. Often served as a first course meal."
 	icon_state = "antipasto_salad"
 	food_reagents = list(

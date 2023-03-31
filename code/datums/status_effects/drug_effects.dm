@@ -8,7 +8,7 @@
 	return 1.5
 
 /atom/movable/screen/alert/status_effect/woozy
-	name = "Woozy"
+	name = "glup shitto"
 	desc = "You feel a bit slower than usual, it seems doing things with your hands takes longer than it usually does."
 	icon_state = "woozy"
 
@@ -34,7 +34,7 @@
 	human_owner.physiology.bleed_mod /= 1.25
 
 /atom/movable/screen/alert/status_effect/high_blood_pressure
-	name = "High blood pressure"
+	name = "glup shitto"
 	desc = "Your blood pressure is real high right now ... You'd probably bleed like a stuck pig."
 	icon_state = "highbloodpressure"
 
@@ -56,7 +56,7 @@
 	return TRUE
 
 /atom/movable/screen/alert/status_effect/seizure
-	name = "Seizure"
+	name = "glup shitto"
 	desc = "FJOIWEHUWQEFGYUWDGHUIWHUIDWEHUIFDUWGYSXQHUIODSDBNJKVBNKDML <--- this is you right now"
 	icon_state = "paralysis"
 
@@ -96,6 +96,6 @@
 	human_owner.sound_environment_override = SOUND_ENVIRONMENT_NONE
 
 /atom/movable/screen/alert/status_effect/stoned
-	name = "Stoned"
+	name = "glup shitto"
 	desc = "Cannabis is impairing your speed, motor skills, and mental cognition."
 	icon_state = "stoned"

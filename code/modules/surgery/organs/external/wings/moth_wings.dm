@@ -1,6 +1,6 @@
 ///Moth wings! They can flutter in low-grav and burn off in heat
 /obj/item/organ/external/wings/moth
-	name = "moth wings"
+	name = "glup shitto"
 	desc = "Spread your wings and FLOOOOAAAAAT!"
 
 	preference = "feature_moth_wings"

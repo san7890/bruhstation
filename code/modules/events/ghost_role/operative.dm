@@ -1,5 +1,5 @@
 /datum/round_event_control/operative
-	name = "Lone Operative"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/operative
 	weight = 0 //its weight is relative to how much stationary and neglected the nuke disk is. See nuclearbomb.dm. Shouldn't be dynamic hijackable.
 	max_occurrences = 1

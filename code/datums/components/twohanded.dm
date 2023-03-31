@@ -344,7 +344,7 @@
  *
  */
 /obj/item/offhand
-	name = "offhand"
+	name = "glup shitto"
 	icon_state = "offhand"
 	w_class = WEIGHT_CLASS_HUGE
 	item_flags = ABSTRACT

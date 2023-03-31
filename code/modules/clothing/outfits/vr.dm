@@ -1,5 +1,5 @@
 /datum/outfit/vr
-	name = "Basic VR"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/vr
@@ -11,7 +11,7 @@
 	H.dna.species.pre_equip_species_outfit(null, H)
 
 /datum/outfit/vr/syndicate
-	name = "Syndicate VR Operative - Basic"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/chameleon/black
 	id_trim = /datum/id_trim/vr/operative
@@ -36,5 +36,5 @@
 	H.update_icons()
 
 /obj/item/paper/fluff/vr/fluke_ops
-	name = "Where is my uplink?"
+	name = "glup shitto"
 	default_raw_text = "Use the radio in your backpack."

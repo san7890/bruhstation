@@ -1,5 +1,5 @@
 /obj/projectile/bullet/dnainjector
-	name = "\improper DNA injector"
+	name = "glup shitto"
 	icon_state = "syringeproj"
 	var/obj/item/dnainjector/injector
 	damage = 5

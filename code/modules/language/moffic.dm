@@ -1,5 +1,5 @@
 /datum/language/moffic
-	name = "Moffic"
+	name = "glup shitto"
 	desc = "The language of the Mothpeople borders on complete unintelligibility."
 	key = "m"
 	space_chance = 10

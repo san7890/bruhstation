@@ -1,6 +1,6 @@
 ///A pinata that has a chance to drop candy items when struck with a melee weapon that deals at least 10 damage
 /obj/structure/pinata
-	name = "corgi pinata"
+	name = "glup shitto"
 	desc = "A papier-mâché representation of a corgi that contains all sorts of sugary treats."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "pinata_placed"
@@ -47,7 +47,7 @@
 
 ///An item that when used inhand spawns an immovable pinata
 /obj/item/pinata
-	name = "pinata assembly kit"
+	name = "glup shitto"
 	desc = "A papier-mâché corgi that contains various candy, must be set up before you can smash it."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "pinata"
@@ -66,13 +66,13 @@
 	qdel(src)
 
 /obj/structure/pinata/syndie
-	name = "syndicate corgi pinata"
+	name = "glup shitto"
 	desc = "A papier-mâché representation of a corgi that contains all sorts of bombastic treats."
 	icon_state = "pinata_syndie_placed"
 	base_icon_state = "pinata_syndie_placed"
 	destruction_loot = 2
 	debris = /obj/effect/decal/cleanable/wrapping/pinata/syndie
-	candy_options = list( 
+	candy_options = list(
 		/obj/item/food/bubblegum,
 		/obj/item/food/candy,
 		/obj/item/food/chocolatebar,
@@ -86,7 +86,7 @@
 	) //Candy items at the top, explosives at the bottom to be easier to read instead of fully alphabetized.
 
 /obj/item/pinata/syndie
-	name = "weapons grade pinata assembly kit"
+	name = "glup shitto"
 	desc = "A papier-mâché corgi that contains various candy and explosives, must be set up before you can smash it."
 	icon_state = "pinata_syndie"
 	pinata_type = /obj/structure/pinata/syndie

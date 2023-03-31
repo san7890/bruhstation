@@ -48,7 +48,7 @@
 	splatter_type = "xsplatter"
 
 /obj/effect/temp_visual/dir_setting/speedbike_trail
-	name = "speedbike trails"
+	name = "glup shitto"
 	icon_state = "ion_fade"
 	layer = BELOW_MOB_LAYER
 	plane = GAME_PLANE
@@ -83,7 +83,7 @@
 	duration = 3
 
 /obj/effect/temp_visual/dir_setting/ninja
-	name = "ninja shadow"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/mob.dmi'
 	icon_state = "uncloak"
 	duration = 9
@@ -95,14 +95,14 @@
 	icon_state = "shadow"
 
 /obj/effect/temp_visual/dir_setting/ninja/phase
-	name = "ninja energy"
+	name = "glup shitto"
 	icon_state = "phasein"
 
 /obj/effect/temp_visual/dir_setting/ninja/phase/out
 	icon_state = "phaseout"
 
 /obj/effect/temp_visual/dir_setting/wraith
-	name = "shadow"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/cult.dmi'
 	icon_state = "phase_shift2_cult"
 	duration = 0.6 SECONDS
@@ -157,7 +157,7 @@
 
 
 /obj/effect/temp_visual/bsa_splash
-	name = "\improper Bluespace energy wave"
+	name = "glup shitto"
 	desc = "A massive, rippling wave of bluepace energy, all rapidly exhausting itself the moment it leaves the concentrated beam of light."
 	icon = 'icons/effects/beam_splash.dmi'
 	icon_state = "beam_splash_e"
@@ -175,7 +175,7 @@
 			icon_state = "beam_splash_e"
 
 /obj/effect/temp_visual/wizard
-	name = "water"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/mob.dmi'
 	icon_state = "reappear"
 	duration = 5
@@ -248,36 +248,36 @@
 	duration = 10
 
 /obj/effect/temp_visual/revenant
-	name = "spooky lights"
+	name = "glup shitto"
 	icon_state = "purplesparkles"
 
 /obj/effect/temp_visual/revenant/cracks
-	name = "glowing cracks"
+	name = "glup shitto"
 	icon_state = "purplecrack"
 	duration = 6
 
 /obj/effect/temp_visual/gravpush
-	name = "gravity wave"
+	name = "glup shitto"
 	icon_state = "shieldsparkles"
 	duration = 5
 
 /obj/effect/temp_visual/telekinesis
-	name = "telekinetic force"
+	name = "glup shitto"
 	icon_state = "empdisable"
 	duration = 5
 
 /obj/effect/temp_visual/emp
-	name = "emp sparks"
+	name = "glup shitto"
 	icon_state = "empdisable"
 
 /obj/effect/temp_visual/emp/pulse
-	name = "emp pulse"
+	name = "glup shitto"
 	icon_state = "emppulse"
 	duration = 8
 	randomdir = 0
 
 /obj/effect/temp_visual/bluespace_fissure
-	name = "bluespace fissure"
+	name = "glup shitto"
 	icon_state = "bluestream_fade"
 	duration = 9
 
@@ -306,7 +306,7 @@
 	duration = 20
 
 /obj/effect/temp_visual/heal //color is white by default, set to whatever is needed
-	name = "healing glow"
+	name = "glup shitto"
 	icon_state = "heal"
 	duration = 15
 
@@ -318,7 +318,7 @@
 	pixel_y = rand(-9, 0)
 
 /obj/effect/temp_visual/kinetic_blast
-	name = "kinetic explosion"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	icon_state = "kinetic_blast"
 	layer = ABOVE_ALL_MOB_LAYER
@@ -326,7 +326,7 @@
 	duration = 4
 
 /obj/effect/temp_visual/explosion
-	name = "explosion"
+	name = "glup shitto"
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "explosion"
 	pixel_x = -32
@@ -338,14 +338,14 @@
 	duration = 4
 
 /obj/effect/temp_visual/blob
-	name = "blob"
+	name = "glup shitto"
 	icon_state = "blob_attack"
 	alpha = 140
 	randomdir = 0
 	duration = 6
 
 /obj/effect/temp_visual/desynchronizer
-	name = "desynchronizer field"
+	name = "glup shitto"
 	icon_state = "chronofield"
 	duration = 3
 
@@ -398,7 +398,7 @@
 	icon_state = "impact_neurotoxin"
 
 /obj/effect/temp_visual/heart
-	name = "heart"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/animal.dmi'
 	icon_state = "heart"
 	duration = 25
@@ -410,7 +410,7 @@
 	animate(src, pixel_y = pixel_y + 32, alpha = 0, time = 25)
 
 /obj/effect/temp_visual/annoyed
-	name = "annoyed"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "annoyed"
 	duration = 25
@@ -422,7 +422,7 @@
 	animate(src, pixel_y = pixel_y + 16, alpha = 0, time = duration)
 
 /obj/effect/temp_visual/bleed
-	name = "bleed"
+	name = "glup shitto"
 	icon = 'icons/effects/bleed.dmi'
 	icon_state = "bleed0"
 	duration = 10

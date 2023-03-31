@@ -2,7 +2,7 @@
 
 ///Wizard tower item
 /obj/item/disk/design_disk/knight_gear
-	name = "Magic Disk of Smithing"
+	name = "glup shitto"
 
 /obj/item/disk/design_disk/knight_gear/Initialize(mapload)
 	. = ..()
@@ -12,7 +12,7 @@
 //Free Golems
 
 /obj/item/disk/design_disk/golem_shell
-	name = "Golem Creation Disk"
+	name = "glup shitto"
 	desc = "A gift from the Liberator."
 	icon_state = "datadisk1"
 
@@ -21,7 +21,7 @@
 	blueprints += new /datum/design/golem_shell
 
 /datum/design/golem_shell
-	name = "Golem Shell Construction"
+	name = "glup shitto"
 	desc = "Allows for the construction of a Golem Shell."
 	id = "golem"
 	build_type = AUTOLATHE
@@ -30,7 +30,7 @@
 	category = list(RND_CATEGORY_IMPORTED)
 
 /obj/item/golem_shell
-	name = "incomplete free golem shell"
+	name = "glup shitto"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "construct"
 	desc = "The incomplete body of a golem. Add ten sheets of any mineral to finish."
@@ -87,5 +87,5 @@
 
 ///made with xenobiology, the golem obeys its creator
 /obj/item/golem_shell/servant
-	name = "incomplete servant golem shell"
+	name = "glup shitto"
 	shell_type = /obj/effect/mob_spawn/ghost_role/human/golem/servant

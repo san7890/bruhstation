@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/swap
-	name = "Swap"
+	name = "glup shitto"
 	desc = "This spell allows you to swap locations with any living being. \
 		RMB: Mark a secondary swap target. This secondary swap target will be discarded once you swap, \
 		or else you can click yourself with the RMB to discard your secondary target."

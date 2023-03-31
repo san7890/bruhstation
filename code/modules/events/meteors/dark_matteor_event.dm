@@ -1,5 +1,5 @@
 /datum/round_event_control/dark_matteor
-	name = "Dark Matt-eor"
+	name = "glup shitto"
 	typepath = /datum/round_event/dark_matteor
 	weight = 0
 	max_occurrences = 0

@@ -7,7 +7,7 @@
 
 //AGENT VEST
 /obj/item/clothing/suit/armor/abductor/vest
-	name = "agent vest"
+	name = "glup shitto"
 	desc = "A vest outfitted with advanced stealth technology. It has two modes - combat and stealth."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "vest_stealth"
@@ -175,7 +175,7 @@
 		. = TRUE
 
 /obj/item/abductor/gizmo
-	name = "science tool"
+	name = "glup shitto"
 	desc = "A dual-mode tool for retrieving specimens and scanning appearances. Scanning can be done through cameras."
 	icon_state = "gizmo_scan"
 	inhand_icon_state = "silencer"
@@ -263,7 +263,7 @@
 
 
 /obj/item/abductor/silencer
-	name = "abductor silencer"
+	name = "glup shitto"
 	desc = "A compact device used to shut down communications equipment."
 	icon_state = "silencer"
 	inhand_icon_state = "gizmo"
@@ -305,7 +305,7 @@
 			radio.set_broadcasting(FALSE) //goddamned headset hacks
 
 /obj/item/abductor/mind_device
-	name = "mental interface device"
+	name = "glup shitto"
 	desc = "A dual-mode tool for directly communicating with sentient brains. It can be used to send a direct message to a target, \
 			or to send a command to a test subject with a charged gland."
 	icon_state = "mind_device_message"
@@ -389,7 +389,7 @@
 
 
 /obj/item/firing_pin/abductor
-	name = "alien firing pin"
+	name = "glup shitto"
 	icon_state = "firing_pin_ayy"
 	desc = "This firing pin is slimy and warm; you can swear you feel it constantly trying to mentally probe you."
 	fail_message = "<span class='abductor'>Firing error, please contact Command.</span>"
@@ -398,7 +398,7 @@
 	. = isabductor(user)
 
 /obj/item/gun/energy/alien
-	name = "alien pistol"
+	name = "glup shitto"
 	desc = "A complicated gun that fires bursts of high-intensity radiation."
 	ammo_type = list(/obj/item/ammo_casing/energy/declone)
 	pin = /obj/item/firing_pin/abductor
@@ -407,7 +407,7 @@
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL
 
 /obj/item/gun/energy/shrink_ray
-	name = "shrink ray blaster"
+	name = "glup shitto"
 	desc = "This is a piece of frightening alien tech that enhances the magnetic pull of atoms in a localized space to temporarily make an object shrink. \
 			That or it's just space magic. Either way, it shrinks stuff."
 	ammo_type = list(/obj/item/ammo_casing/energy/shrink)
@@ -420,7 +420,7 @@
 	trigger_guard = TRIGGER_GUARD_ALLOW_ALL// variable-size trigger, get it? (abductors need this to be set so the gun is usable for them)
 
 /obj/item/paper/guides/antag/abductor
-	name = "Dissection Guide"
+	name = "glup shitto"
 	icon_state = "alienpaper_words"
 	show_written_words = FALSE
 	default_raw_text = {"<b>Dissection for Dummies</b><br>
@@ -452,7 +452,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 #define BATON_MODES 4
 
 /obj/item/melee/baton/abductor
-	name = "advanced baton"
+	name = "glup shitto"
 	desc = "A quad-mode baton used for incapacitation and restraining of specimens."
 
 	icon = 'icons/obj/abductor.dmi'
@@ -625,7 +625,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 	to_chat(user, "[helptext]")
 
 /obj/item/restraints/handcuffs/energy
-	name = "hard-light energy field"
+	name = "glup shitto"
 	desc = "A hard-light field restraining the hands."
 	icon_state = "cuff" // Needs sprite
 	lefthand_file = 'icons/mob/inhands/equipment/security_lefthand.dmi'
@@ -659,7 +659,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 				. += span_warning("The baton is in probing mode.")
 
 /obj/item/radio/headset/abductor
-	name = "alien headset"
+	name = "glup shitto"
 	desc = "An advanced alien headset designed to monitor communications of human space stations. Why does it have a microphone? No one knows."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "abductor_headset"
@@ -675,7 +675,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/item/abductor_machine_beacon
-	name = "machine beacon"
+	name = "glup shitto"
 	desc = "A beacon designed to instantly tele-construct abductor machinery."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "beacon"
@@ -706,48 +706,48 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 		playsound(src, 'sound/machines/buzz-two.ogg', 50)
 
 /obj/item/abductor_machine_beacon/chem_dispenser
-	name = "beacon - Reagent Synthesizer"
+	name = "glup shitto"
 	spawned_machine = /obj/machinery/chem_dispenser/abductor
 
 /obj/item/scalpel/alien
-	name = "alien scalpel"
+	name = "glup shitto"
 	desc = "It's a gleaming sharp knife made out of silvery-green metal."
 	icon = 'icons/obj/abductor.dmi'
 	toolspeed = 0.25
 
 /obj/item/hemostat/alien
-	name = "alien hemostat"
+	name = "glup shitto"
 	desc = "You've never seen this before."
 	icon = 'icons/obj/abductor.dmi'
 	toolspeed = 0.25
 
 /obj/item/retractor/alien
-	name = "alien retractor"
+	name = "glup shitto"
 	desc = "You're not sure if you want the veil pulled back."
 	icon = 'icons/obj/abductor.dmi'
 	toolspeed = 0.25
 
 /obj/item/circular_saw/alien
-	name = "alien saw"
+	name = "glup shitto"
 	desc = "Do the aliens also lose this, and need to find an alien hatchet?"
 	icon = 'icons/obj/abductor.dmi'
 	toolspeed = 0.25
 
 /obj/item/surgicaldrill/alien
-	name = "alien drill"
+	name = "glup shitto"
 	desc = "Maybe alien surgeons have finally found a use for the drill."
 	icon = 'icons/obj/abductor.dmi'
 	toolspeed = 0.25
 
 /obj/item/cautery/alien
-	name = "alien cautery"
+	name = "glup shitto"
 	desc = "Why would bloodless aliens have a tool to stop bleeding? \
 		Unless..."
 	icon = 'icons/obj/abductor.dmi'
 	toolspeed = 0.25
 
 /obj/item/clothing/head/helmet/abductor
-	name = "agent headgear"
+	name = "glup shitto"
 	desc = "Abduct with style - spiky style. Prevents digital tracking."
 	icon_state = "alienhelmet"
 	inhand_icon_state = null
@@ -772,14 +772,14 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 // Operating Table / Beds / Lockers
 
 /obj/structure/bed/abductor
-	name = "resting contraption"
+	name = "glup shitto"
 	desc = "This looks similar to contraptions from Earth. Could aliens be stealing our technology?"
 	icon = 'icons/obj/abductor.dmi'
 	buildstacktype = /obj/item/stack/sheet/mineral/abductor
 	icon_state = "bed"
 
 /obj/structure/table_frame/abductor
-	name = "alien table frame"
+	name = "glup shitto"
 	desc = "A sturdy table frame made from alien alloy."
 	icon_state = "alien_frame"
 	framestack = /obj/item/stack/sheet/mineral/abductor
@@ -818,7 +818,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 			qdel(src)
 
 /obj/structure/table/abductor
-	name = "alien table"
+	name = "glup shitto"
 	desc = "Advanced flat surface technology at work!"
 	icon = 'icons/obj/smooth_structures/alien_table.dmi'
 	icon_state = "alien_table-0"
@@ -833,7 +833,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 	custom_materials = list(/datum/material/silver = 2000)
 
 /obj/structure/table/optable/abductor
-	name = "alien operating table"
+	name = "glup shitto"
 	desc = "Used for alien medical procedures. The surface is covered in tiny spines."
 	frame = /obj/structure/table_frame/abductor
 	buildstack = /obj/item/stack/sheet/mineral/silver
@@ -874,7 +874,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 	. = ..()
 
 /obj/structure/closet/abductor
-	name = "alien locker"
+	name = "glup shitto"
 	desc = "Contains secrets of the universe."
 	icon_state = "abductor"
 	icon_door = "abductor"
@@ -883,7 +883,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 	material_drop = /obj/item/stack/sheet/mineral/abductor
 
 /obj/structure/door_assembly/door_assembly_abductor
-	name = "alien airlock assembly"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/abductor/abductor_airlock.dmi'
 	base_name = "alien airlock"
 	overlays_file = 'icons/obj/doors/airlocks/abductor/overlays.dmi'
@@ -893,7 +893,7 @@ Congratulations! You are now trained for invasive xenobiology research!"}
 
 /obj/item/clothing/under/abductor
 	desc = "The most advanced form of jumpsuit known to reality, looks uncomfortable."
-	name = "alien jumpsuit"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/under/syndicate.dmi'
 	icon_state = "abductor"
 	inhand_icon_state = "bl_suit"

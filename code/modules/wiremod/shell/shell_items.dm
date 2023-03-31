@@ -4,7 +4,7 @@
  * Printed out by protolathes. Screwdriver to complete the shell.
  */
 /obj/item/shell
-	name = "assembly"
+	name = "glup shitto"
 	desc = "A shell assembly that can be completed by screwdrivering it."
 	icon = 'icons/obj/wiremod.dmi'
 	var/shell_to_spawn
@@ -26,45 +26,45 @@
 	return TRUE
 
 /obj/item/shell/bot
-	name = "bot assembly"
+	name = "glup shitto"
 	icon_state = "setup_medium_box-open"
 	shell_to_spawn = /obj/structure/bot
 
 /obj/item/shell/money_bot
-	name = "money bot assembly"
+	name = "glup shitto"
 	icon_state = "setup_large-open"
 	shell_to_spawn = /obj/structure/money_bot
 
 /obj/item/shell/drone
-	name = "drone assembly"
+	name = "glup shitto"
 	icon_state = "setup_medium_med-open"
 	shell_to_spawn = /mob/living/circuit_drone
 
 /obj/item/shell/server
-	name = "server assembly"
+	name = "glup shitto"
 	icon_state = "setup_stationary-open"
 	shell_to_spawn = /obj/structure/server
 	screw_delay = 10 SECONDS
 
 /obj/item/shell/airlock
-	name = "circuit airlock assembly"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/station/public.dmi'
 	icon_state = "construction"
 	shell_to_spawn = /obj/machinery/door/airlock/shell
 	screw_delay = 10 SECONDS
 
 /obj/item/shell/dispenser
-	name = "circuit dispenser assembly"
+	name = "glup shitto"
 	icon_state = "setup_drone_arms-open"
 	shell_to_spawn = /obj/structure/dispenser_bot
 
 /obj/item/shell/bci
-	name = "brain-computer interface assembly"
+	name = "glup shitto"
 	icon_state = "bci-open"
 	shell_to_spawn = /obj/item/organ/internal/cyberimp/bci
 
 /obj/item/shell/scanner_gate
-	name = "scanner gate assembly"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/scangate.dmi'
 	icon_state = "scangate_black_open"
 	shell_to_spawn = /obj/structure/scanner_gate_shell

@@ -1,5 +1,5 @@
 /obj/item/stack/sheet/hot_ice
-	name = "hot ice"
+	name = "glup shitto"
 	icon_state = "hot-ice"
 	inhand_icon_state = null
 	singular_name = "hot ice piece"

@@ -1,5 +1,5 @@
 /datum/round_event_control/radiation_leak
-	name = "Radiation Leak"
+	name = "glup shitto"
 	description = "A radiation leak happens somewhere on the station, emanating radiation around a machine in the area. \
 		Engineering can stop the leak by using certain tools on it."
 	typepath = /datum/round_event/radiation_leak

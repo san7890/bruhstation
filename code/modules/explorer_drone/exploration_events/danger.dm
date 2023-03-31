@@ -32,7 +32,7 @@
 
 /// Danger events
 /datum/exploration_event/simple/danger/carp
-	name = "space carp attack"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SPACE)
 	blacklisted_site_traits = list(EXPLORATION_SITE_CIVILIZED)
 	deep_scan_description = "You detect damage patterns to the site hinting at a presence of space carp."
@@ -48,7 +48,7 @@
 	required_site_traits = list(EXPLORATION_SITE_SURFACE)
 
 /datum/exploration_event/simple/danger/assistant
-	name = "assistant attack"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_STATION)
 	deep_scan_description = "Detected mask usage coefficent suggests a sizeable crowd of undersirables on the site."
 	description = "You encounter a shaggy creature dressed in gray! It's a deranged assistant!"
@@ -59,7 +59,7 @@
 	avoid_log = "Defeated an assistant."
 
 /datum/exploration_event/simple/danger/collapse
-	name = "collapse"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_RUINS)
 	required_tool = EXODRONE_TOOL_DRILL
 	deep_scan_description = "The architecture of the site is unstable, caution advised."
@@ -71,7 +71,7 @@
 	avoid_log = "Dug out of collapsed passage."
 
 /datum/exploration_event/simple/danger/loose_wires
-	name = "loose wires"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_TECHNOLOGY)
 	required_tool = EXODRONE_TOOL_MULTITOOL
 	deep_scan_description = "Damaged wiring detected on site."
@@ -83,7 +83,7 @@
 	avoid_log = "Escaped loose wire."
 
 /datum/exploration_event/simple/danger/cosmic_rays
-	name = "cosmic ray burst"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SURFACE)
 	required_tool = EXODRONE_TOOL_MULTITOOL
 	deep_scan_description = "Site is exposed to space radiation. Using self-diagnostic multiool attachment advised."
@@ -95,7 +95,7 @@
 	avoid_log = "Prevented cosmic ray damage with multitool"
 
 /datum/exploration_event/simple/danger/alien_sentry
-	name = "alien security measure"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_ALIEN)
 	required_tool = EXODRONE_TOOL_TRANSLATOR
 	deep_scan_description = "Automated security measures of unknown origin detected on site."
@@ -107,7 +107,7 @@
 	avoid_log = "Avoided alien security"
 
 /datum/exploration_event/simple/danger/beast
-	name = "alien encounter"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_HABITABLE)
 	blacklisted_site_traits = list(EXPLORATION_SITE_CIVILIZED)
 	required_tool = EXODRONE_TOOL_LASER
@@ -126,7 +126,7 @@
 	avoid_log = replacetext(avoid_log,"BEAST",beast_name)
 
 /datum/exploration_event/simple/danger/rad
-	name = "irradiated section"
+	name = "glup shitto"
 	required_site_traits = list(EXPLORATION_SITE_SHIP)
 	required_tool = EXODRONE_TOOL_MULTITOOL
 	deep_scan_description = "Sections of the vessel are irradiated."

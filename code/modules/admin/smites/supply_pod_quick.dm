@@ -3,7 +3,7 @@
 
 /// Quickly throws a supply pod at the target, optionally with an item
 /datum/smite/supply_pod_quick
-	name = "Supply Pod (Quick)"
+	name = "glup shitto"
 
 	/// What is sent down with the pod
 	var/target_path

@@ -1,7 +1,7 @@
 //lavaland_surface_syndicate_base1.dmm and it's modules
 
 /obj/machinery/vending/syndichem
-	name = "\improper SyndiChem"
+	name = "glup shitto"
 	desc = "A vending machine full of grenades and grenade accessories. Sponsored by Donk Co."
 	req_access = list(ACCESS_SYNDICATE)
 	products = list(/obj/item/stack/cable_coil = 5,
@@ -25,7 +25,7 @@
 	config_file = "strings/modular_maps/syndicatebase.toml"
 
 /obj/structure/closet/crate/secure/freezer/commsagent
-	name = "Assorted Tongues And Tongue Accessories"
+	name = "glup shitto"
 	desc = "Unearthing this was probably a mistake."
 
 /obj/structure/closet/crate/secure/freezer/commsagent/PopulateContents()
@@ -42,7 +42,7 @@
 	new	/obj/item/clothing/gloves/radio(src)
 
 /obj/machinery/power/supermatter_crystal/shard/syndicate
-	name = "syndicate supermatter shard"
+	name = "glup shitto"
 	desc = "Your benefactors conveinently neglected to mention it's already assembled."
 	anchored = TRUE
 	radio_key = /obj/item/encryptionkey/syndicate

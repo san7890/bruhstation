@@ -1,5 +1,5 @@
 /obj/item/storage/toolbox
-	name = "toolbox"
+	name = "glup shitto"
 	desc = "Danger. Very robust."
 	icon = 'icons/obj/storage/toolbox.dmi'
 	icon_state = "toolbox_default"
@@ -46,7 +46,7 @@
 	return BRUTELOSS
 
 /obj/item/storage/toolbox/emergency
-	name = "emergency toolbox"
+	name = "glup shitto"
 	icon_state = "red"
 	inhand_icon_state = "toolbox_red"
 	material_flags = NONE
@@ -65,13 +65,13 @@
 	new /obj/item/radio/off(src)
 
 /obj/item/storage/toolbox/emergency/old
-	name = "rusty red toolbox"
+	name = "glup shitto"
 	icon_state = "toolbox_red_old"
 	has_latches = FALSE
 	material_flags = NONE
 
 /obj/item/storage/toolbox/mechanical
-	name = "mechanical toolbox"
+	name = "glup shitto"
 	icon_state = "blue"
 	inhand_icon_state = "toolbox_blue"
 	material_flags = NONE
@@ -87,13 +87,13 @@
 	new /obj/item/wirecutters(src)
 
 /obj/item/storage/toolbox/mechanical/old
-	name = "rusty blue toolbox"
+	name = "glup shitto"
 	icon_state = "toolbox_blue_old"
 	has_latches = FALSE
 	has_soul = TRUE
 
 /obj/item/storage/toolbox/mechanical/old/heirloom
-	name = "toolbox" //this will be named "X family toolbox"
+	name = "glup shitto"
 	desc = "It's seen better days."
 	force = 5
 	w_class = WEIGHT_CLASS_NORMAL
@@ -106,7 +106,7 @@
 	return
 
 /obj/item/storage/toolbox/mechanical/old/clean // the assistant traitor toolbox, damage scales with TC inside
-	name = "toolbox"
+	name = "glup shitto"
 	desc = "An old, blue toolbox, it looks robust."
 	icon_state = "oldtoolboxclean"
 	inhand_icon_state = "toolbox_blue"
@@ -139,7 +139,7 @@
 	new /obj/item/clothing/gloves/color/yellow(src)
 
 /obj/item/storage/toolbox/electrical
-	name = "electrical toolbox"
+	name = "glup shitto"
 	icon_state = "yellow"
 	inhand_icon_state = "toolbox_yellow"
 	material_flags = NONE
@@ -161,7 +161,7 @@
 		new_cable_three.set_cable_color(pickedcolor)
 
 /obj/item/storage/toolbox/syndicate
-	name = "suspicious looking toolbox"
+	name = "glup shitto"
 	icon_state = "syndicate"
 	inhand_icon_state = "toolbox_syndi"
 	force = 15
@@ -182,7 +182,7 @@
 	new /obj/item/clothing/gloves/combat(src)
 
 /obj/item/storage/toolbox/drone
-	name = "mechanical toolbox"
+	name = "glup shitto"
 	icon_state = "blue"
 	inhand_icon_state = "toolbox_blue"
 	material_flags = NONE
@@ -198,7 +198,7 @@
 	new /obj/item/multitool(src)
 
 /obj/item/storage/toolbox/artistic
-	name = "artistic toolbox"
+	name = "glup shitto"
 	desc = "A toolbox painted bright green. Why anyone would store art supplies in a toolbox is beyond you, but it has plenty of extra space."
 	icon_state = "green"
 	inhand_icon_state = "artistic_toolbox"
@@ -224,7 +224,7 @@
 	new /obj/item/stack/pipe_cleaner_coil/brown(src)
 
 /obj/item/storage/toolbox/ammo
-	name = "ammo box"
+	name = "glup shitto"
 	desc = "It contains a few clips."
 	icon_state = "ammobox"
 	inhand_icon_state = "ammobox"
@@ -244,7 +244,7 @@
 	new /obj/item/ammo_box/a762(src)
 
 /obj/item/storage/toolbox/maint_kit
-	name = "gun maintenance kit"
+	name = "glup shitto"
 	desc = "It contains some gun maintenance supplies"
 	icon_state = "maint_kit"
 	inhand_icon_state = "ammobox"
@@ -297,5 +297,5 @@
 
 
 /obj/item/storage/toolbox/haunted
-	name = "old toolbox"
+	name = "glup shitto"
 	custom_materials = list(/datum/material/hauntium = 500)

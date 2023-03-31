@@ -1,5 +1,5 @@
 /mob/living/carbon/alien/adult/hunter
-	name = "alien hunter"
+	name = "glup shitto"
 	caste = "h"
 	maxHealth = 125
 	health = 125

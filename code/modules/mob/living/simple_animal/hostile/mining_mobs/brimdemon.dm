@@ -1,7 +1,7 @@
 #define BRIMBEAM_RANGE 10
 
 /mob/living/simple_animal/hostile/asteroid/brimdemon
-	name = "brimdemon"
+	name = "glup shitto"
 	desc = "A misshapen demon with big, red eyes and a hinged mouth. Not much is known about the creatures \
 		due to their response to any unexpected stimulus being \"brimbeam\", a deadly blood-laser barrage."
 	icon = 'icons/mob/simple/lavaland/brimdemon.dmi'
@@ -160,7 +160,7 @@
 		beamparts -= beam
 
 /obj/effect/brimbeam
-	name = "brimbeam"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/lavaland/brimdemon.dmi'
 	icon_state = "brimbeam_mid"
 	layer = ABOVE_MOB_LAYER
@@ -187,7 +187,7 @@
 	to_chat(hit_mob, span_danger("You're damaged by [src]!"))
 
 /obj/item/crusher_trophy/brimdemon_fang
-	name = "brimdemon's fang"
+	name = "glup shitto"
 	icon_state = "brimdemon_fang"
 	desc = "A fang from a brimdemon's corpse."
 	denied_type = /obj/item/crusher_trophy/brimdemon_fang
@@ -201,7 +201,7 @@
 	playsound(target, 'sound/lavaland/brimdemon_crush.ogg', 100)
 
 /obj/effect/decal/cleanable/brimdust
-	name = "brimdust"
+	name = "glup shitto"
 	desc = "Dust from a brimdemon. It is considered valuable for its' botanical abilities."
 	icon_state = "brimdust"
 	icon = 'icons/obj/mining.dmi'
@@ -213,7 +213,7 @@
 	reagents.add_reagent(/datum/reagent/brimdust, 15)
 
 /obj/item/ore_sensor
-	name = "ore sensor"
+	name = "glup shitto"
 	desc = "Using demonic frequencies, this ear-mounted tool detects ores in the nearby terrain."
 	icon_state = "oresensor"
 	icon = 'icons/obj/mining.dmi'

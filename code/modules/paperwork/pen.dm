@@ -12,7 +12,7 @@
  */
 /obj/item/pen
 	desc = "It's a normal black ink pen."
-	name = "pen"
+	name = "glup shitto"
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "pen"
 	inhand_icon_state = "pen"
@@ -54,7 +54,7 @@
 
 /obj/item/pen/fourcolor
 	desc = "It's a fancy four-color ink pen, set to black."
-	name = "four-color pen"
+	name = "glup shitto"
 	icon_state = "pen_4color"
 	colour = "#000000"
 
@@ -79,14 +79,14 @@
 	desc = "It's a fancy four-color ink pen, set to [chosen_color]."
 
 /obj/item/pen/fountain
-	name = "fountain pen"
+	name = "glup shitto"
 	desc = "It's a common fountain pen, with a faux wood body. Rumored to work in zero gravity situations."
 	icon_state = "pen-fountain"
 	font = FOUNTAIN_PEN_FONT
 	requires_gravity = FALSE // fancy spess pens
 
 /obj/item/pen/charcoal
-	name = "charcoal stylus"
+	name = "glup shitto"
 	desc = "It's just a wooden stick with some compressed ash on the end. At least it can write."
 	icon_state = "pen-charcoal"
 	colour = "#696969"
@@ -96,14 +96,14 @@
 	requires_gravity = FALSE // this is technically a pencil
 
 /datum/crafting_recipe/charcoal_stylus
-	name = "Charcoal Stylus"
+	name = "glup shitto"
 	result = /obj/item/pen/charcoal
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 1, /datum/reagent/ash = 30)
 	time = 3 SECONDS
 	category = CAT_TOOLS
 
 /obj/item/pen/fountain/captain
-	name = "captain's fountain pen"
+	name = "glup shitto"
 	desc = "It's an expensive Oak fountain pen. The nib is quite sharp."
 	icon_state = "pen-fountain-o"
 	force = 5
@@ -331,7 +331,7 @@
 	LAZYADD(extra_data[DETSCAN_CATEGORY_ILLEGAL], "Hard-light generator detected.")
 
 /obj/item/pen/survival
-	name = "survival pen"
+	name = "glup shitto"
 	desc = "The latest in portable survival technology, this pen was designed as a miniature diamond pickaxe. Watchers find them very desirable for their diamond exterior."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "digging_pen"
@@ -348,7 +348,7 @@
 	colour = "#0000FF"
 
 /obj/item/pen/destroyer
-	name = "Fine Tipped Pen"
+	name = "glup shitto"
 	desc = "A pen with an infinitly sharpened tip. Capable of striking the weakest point of a strucutre or robot and annihilating it instantly. Good at putting holes in people too."
 	force = 5
 	wound_bonus = 100

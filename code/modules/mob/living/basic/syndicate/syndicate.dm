@@ -1,7 +1,7 @@
 ///////////////Base Mob////////////
 
 /mob/living/basic/syndicate
-	name = "Syndicate Operative"
+	name = "glup shitto"
 	desc = "Death to Nanotrasen."
 	icon = 'icons/mob/simple/simple_human.dmi'
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -38,7 +38,7 @@
 	AddElement(/datum/element/footstep, footstep_type = FOOTSTEP_MOB_SHOE)
 
 /mob/living/basic/syndicate/space
-	name = "Syndicate Commando"
+	name = "glup shitto"
 	maxHealth = 170
 	health = 170
 	loot = list(/obj/effect/gibspawner/human)
@@ -52,7 +52,7 @@
 	set_light(4)
 
 /mob/living/basic/syndicate/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "glup shitto"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -75,7 +75,7 @@
 	return ..()
 
 /mob/living/basic/syndicate/melee/space
-	name = "Syndicate Commando"
+	name = "glup shitto"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -88,7 +88,7 @@
 	set_light(4)
 
 /mob/living/basic/syndicate/melee/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "glup shitto"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -108,7 +108,7 @@
 	l_hand = /obj/item/shield/energy
 
 /mob/living/basic/syndicate/melee/sword/space
-	name = "Syndicate Commando"
+	name = "glup shitto"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -121,7 +121,7 @@
 	ADD_TRAIT(src, TRAIT_SPACEWALK, INNATE_TRAIT)
 
 /mob/living/basic/syndicate/melee/sword/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "glup shitto"
 	maxHealth = 250
 	health = 250
 	projectile_deflect_chance = 50
@@ -145,7 +145,7 @@
 	loot = list(/obj/effect/mob_spawn/corpse/human/syndicatesoldier)
 
 /mob/living/basic/syndicate/ranged/space
-	name = "Syndicate Commando"
+	name = "glup shitto"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -158,7 +158,7 @@
 	set_light(4)
 
 /mob/living/basic/syndicate/ranged/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "glup shitto"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -170,12 +170,12 @@
 	r_hand = /obj/item/gun/ballistic/automatic/c20r
 
 /mob/living/basic/syndicate/ranged/smg/pilot //caravan ambush ruin
-	name = "Syndicate Salvage Pilot"
+	name = "glup shitto"
 	loot = list(/obj/effect/mob_spawn/corpse/human/syndicatepilot)
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatepilot
 
 /mob/living/basic/syndicate/ranged/smg/space
-	name = "Syndicate Commando"
+	name = "glup shitto"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -188,7 +188,7 @@
 	set_light(4)
 
 /mob/living/basic/syndicate/ranged/smg/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "glup shitto"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -199,7 +199,7 @@
 	r_hand = /obj/item/gun/ballistic/shotgun/bulldog
 
 /mob/living/basic/syndicate/ranged/shotgun/space
-	name = "Syndicate Commando"
+	name = "glup shitto"
 	maxHealth = 170
 	health = 170
 	unsuitable_atmos_damage = 0
@@ -213,7 +213,7 @@
 	set_light(4)
 
 /mob/living/basic/syndicate/ranged/shotgun/space/stormtrooper
-	name = "Syndicate Stormtrooper"
+	name = "glup shitto"
 	maxHealth = 250
 	health = 250
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/syndicatestormtrooper
@@ -221,7 +221,7 @@
 ///////////////Misc////////////
 
 /mob/living/basic/viscerator
-	name = "viscerator"
+	name = "glup shitto"
 	desc = "A small, twin-bladed machine capable of inflicting very deadly lacerations."
 	icon_state = "viscerator_attack"
 	icon_living = "viscerator_attack"

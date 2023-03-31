@@ -1,22 +1,22 @@
 /obj/projectile/bullet/shotgun_slug
-	name = "12g shotgun slug"
+	name = "glup shitto"
 	icon_state = "pellet"
 	damage = 50
 	sharpness = SHARP_POINTY
 	wound_bonus = 0
 
 /obj/projectile/bullet/shotgun_slug/executioner
-	name = "executioner slug" // admin only, can dismember limbs
+	name = "glup shitto" // admin only, can dismember limbs
 	sharpness = SHARP_EDGED
 	wound_bonus = 80
 
 /obj/projectile/bullet/shotgun_slug/pulverizer
-	name = "pulverizer slug" // admin only, can crush bones
+	name = "glup shitto" // admin only, can crush bones
 	sharpness = NONE
 	wound_bonus = 80
 
 /obj/projectile/bullet/shotgun_beanbag
-	name = "beanbag slug"
+	name = "glup shitto"
 	icon_state = "pellet"
 	damage = 10
 	stamina = 55
@@ -25,21 +25,21 @@
 	embedding = null
 
 /obj/projectile/bullet/incendiary/shotgun
-	name = "incendiary slug"
+	name = "glup shitto"
 	icon_state = "pellet"
 	damage = 20
 
 /obj/projectile/bullet/incendiary/shotgun/no_trail
-	name = "precision incendiary slug"
+	name = "glup shitto"
 	damage = 35
 	leaves_fire_trail = FALSE
 
 /obj/projectile/bullet/incendiary/shotgun/dragonsbreath
-	name = "dragonsbreath pellet"
+	name = "glup shitto"
 	damage = 5
 
 /obj/projectile/bullet/shotgun_stunslug
-	name = "stunslug"
+	name = "glup shitto"
 	damage = 5
 	paralyze = 100
 	stutter = 10 SECONDS
@@ -75,14 +75,14 @@
 		qdel(src)
 
 /obj/projectile/bullet/pellet/shotgun_buckshot
-	name = "buckshot pellet"
+	name = "glup shitto"
 	damage = 7.5
 	wound_bonus = 5
 	bare_wound_bonus = 5
 	wound_falloff_tile = -2.5 // low damage + additional dropoff will already curb wounding potential anything past point blank
 
 /obj/projectile/bullet/pellet/shotgun_rubbershot
-	name = "rubbershot pellet"
+	name = "glup shitto"
 	damage = 3
 	stamina = 11
 	sharpness = NONE
@@ -104,7 +104,7 @@
 	. = ..()
 
 /obj/projectile/bullet/pellet/shotgun_incapacitate
-	name = "incapacitating pellet"
+	name = "glup shitto"
 	damage = 1
 	stamina = 6
 	embedding = null

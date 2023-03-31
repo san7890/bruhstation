@@ -1,5 +1,5 @@
 /obj/projectile/bullet/reusable/foam_dart
-	name = "foam dart"
+	name = "glup shitto"
 	desc = "I hope you're wearing eye protection."
 	damage = 0 // It's a damn toy.
 	damage_type = OXY
@@ -34,7 +34,7 @@
 	return ..()
 
 /obj/projectile/bullet/reusable/foam_dart/riot
-	name = "riot foam dart"
+	name = "glup shitto"
 	icon_state = "foamdart_riot_proj"
 	base_icon_state = "foamdart_riot_proj"
 	ammo_type = /obj/item/ammo_casing/caseless/foam_dart/riot

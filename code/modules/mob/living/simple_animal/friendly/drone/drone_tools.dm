@@ -1,5 +1,5 @@
 /obj/item/storage/drone_tools
-	name = "built-in tools"
+	name = "glup shitto"
 	desc = "Access your built-in tools."
 	icon = 'icons/hud/screen_drone.dmi'
 	icon_state = "tool_storage"
@@ -45,7 +45,7 @@
 
 
 /obj/item/crowbar/drone
-	name = "built-in crowbar"
+	name = "glup shitto"
 	desc = "A crowbar built into your chassis."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "crowbar_cyborg"
@@ -53,7 +53,7 @@
 	item_flags = NO_MAT_REDEMPTION
 
 /obj/item/screwdriver/drone
-	name = "built-in screwdriver"
+	name = "glup shitto"
 	desc = "A screwdriver built into your chassis."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "screwdriver_cyborg"
@@ -72,7 +72,7 @@
 	. += head
 
 /obj/item/wrench/drone
-	name = "built-in wrench"
+	name = "glup shitto"
 	desc = "A wrench built into your chassis."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "wrench_cyborg"
@@ -80,14 +80,14 @@
 	item_flags = NO_MAT_REDEMPTION
 
 /obj/item/weldingtool/drone
-	name = "built-in welding tool"
+	name = "glup shitto"
 	desc = "A welding tool built into your chassis."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "indwelder_cyborg"
 	item_flags = NO_MAT_REDEMPTION
 
 /obj/item/wirecutters/drone
-	name = "built-in wirecutters"
+	name = "glup shitto"
 	desc = "Wirecutters built into your chassis."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "wirecutters_cyborg"
@@ -96,7 +96,7 @@
 	random_color = FALSE
 
 /obj/item/multitool/drone
-	name = "built-in multitool"
+	name = "glup shitto"
 	desc = "A multitool built into your chassis."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "multitool_cyborg"

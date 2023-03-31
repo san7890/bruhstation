@@ -1,6 +1,6 @@
 // Soybeans
 /obj/item/seeds/soya
-	name = "pack of soybean seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into soybean plants."
 	icon_state = "seed-soybean"
 	species = "soybean"
@@ -19,7 +19,7 @@
 
 /obj/item/food/grown/soybeans
 	seed = /obj/item/seeds/soya
-	name = "soybeans"
+	name = "glup shitto"
 	desc = "It's pretty bland, but oh the possibilities..."
 	gender = PLURAL
 	icon_state = "soybeans"
@@ -30,7 +30,7 @@
 
 // Koibean
 /obj/item/seeds/soya/koi
-	name = "pack of koibean seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into koibean plants."
 	icon_state = "seed-koibean"
 	species = "koibean"
@@ -43,7 +43,7 @@
 
 /obj/item/food/grown/koibeans
 	seed = /obj/item/seeds/soya/koi
-	name = "koibean"
+	name = "glup shitto"
 	desc = "Something about these seems fishy."
 	icon_state = "koibeans"
 	foodtypes = VEGETABLES
@@ -52,7 +52,7 @@
 
 // Green Beans
 /obj/item/seeds/greenbean
-	name = "pack of green bean seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into green bean plants."
 	icon_state = "seed-greenbean"
 	species = "greenbean"
@@ -72,7 +72,7 @@
 
 /obj/item/food/grown/greenbeans
 	seed = /obj/item/seeds/greenbean
-	name = "green beans"
+	name = "glup shitto"
 	desc = "Simple and healthy, what more do you need?"
 	gender = PLURAL
 	icon_state = "greenbean"
@@ -81,7 +81,7 @@
 
 // Jumping Bean
 /obj/item/seeds/greenbean/jump
-	name = "pack of jumping bean seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into jumping bean plants."
 	icon_state = "seed-jumpingbean"
 	species = "jumpingbean"
@@ -100,7 +100,7 @@
 
 /obj/item/food/grown/jumpingbeans
 	seed = /obj/item/seeds/greenbean/jump
-	name = "jumping bean"
+	name = "glup shitto"
 	desc = "Umm, what's causing it to move like that?"
 	icon_state = "jumpingbean"
 	foodtypes = FRUIT | BUGS

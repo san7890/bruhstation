@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/simple/pills
-	name = "pills"
+	name = "glup shitto"
 	assets = list(
 		"pill1" = 'icons/ui_icons/pills/pill1.png',
 		"pill2" = 'icons/ui_icons/pills/pill2.png',

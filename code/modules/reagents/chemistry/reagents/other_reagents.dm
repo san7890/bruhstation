@@ -1,6 +1,6 @@
 /datum/reagent/blood
 	data = list("viruses"=null,"blood_DNA"=null,"blood_type"=null,"resistances"=null,"trace_chem"=null,"mind"=null,"ckey"=null,"gender"=null,"real_name"=null,"cloneable"=null,"factions"=null,"quirks"=null)
-	name = "Blood"
+	name = "glup shitto"
 	color = "#C80000" // rgb: 200, 0, 0
 	metabolization_rate = 12.5 * REAGENTS_METABOLISM //fast rate so it disappears fast.
 	taste_description = "iron"
@@ -15,7 +15,7 @@
 
 /datum/glass_style/drinking_glass/blood
 	required_drink_type = /datum/reagent/blood
-	name = "glass of tomato juice"
+	name = "glup shitto"
 	desc = "Are you sure this is tomato juice?"
 	icon_state = "glass_red"
 
@@ -111,7 +111,7 @@
 		bloodsplatter.add_blood_DNA(list(data["blood_DNA"] = data["blood_type"]))
 
 /datum/reagent/consumable/liquidgibs
-	name = "Liquid Gibs"
+	name = "glup shitto"
 	color = "#CC4633"
 	description = "You don't even want to think about what's in here."
 	taste_description = "gross iron"
@@ -125,14 +125,14 @@
 	icon_state = "shotglassred"
 
 /datum/reagent/bone_dust
-	name = "Bone Dust"
+	name = "glup shitto"
 	color = "#dbcdcb"
 	description = "Ground up bones, gross!"
 	taste_description = "the most disgusting grain in existence"
 
 /datum/reagent/vaccine
 	//data must contain virus type
-	name = "Vaccine"
+	name = "glup shitto"
 	color = "#C81040" // rgb: 200, 16, 64
 	taste_description = "slime"
 	penetrates_skin = NONE
@@ -153,7 +153,7 @@
 		src.data |= data.Copy()
 
 /datum/reagent/vaccine/fungal_tb
-	name = "Vaccine (Fungal Tuberculosis)"
+	name = "glup shitto"
 
 /datum/reagent/vaccine/fungal_tb/New(data)
 	. = ..()
@@ -166,7 +166,7 @@
 	src.data = cached_data
 
 /datum/reagent/water
-	name = "Water"
+	name = "glup shitto"
 	description = "An ubiquitous chemical substance that is composed of hydrogen and oxygen."
 	color = "#AAAAAA77" // rgb: 170, 170, 170, 77 (alpha)
 	taste_description = "water"
@@ -180,7 +180,7 @@
 
 /datum/glass_style/drinking_glass/water
 	required_drink_type = /datum/reagent/water
-	name = "glass of water"
+	name = "glup shitto"
 	desc = "The father of all refreshments."
 	icon_state = "glass_clear"
 
@@ -276,7 +276,7 @@
 	chems.remove_reagent(/datum/reagent/water, chems.get_reagent_amount(type))
 
 /datum/reagent/water/holywater
-	name = "Holy Water"
+	name = "glup shitto"
 	description = "Water blessed by some deity."
 	color = "#E0E8EF" // rgb: 224, 232, 239
 	self_consuming = TRUE //divine intervention won't be limited by the lack of a liver
@@ -286,7 +286,7 @@
 
 /datum/glass_style/drinking_glass/holywater
 	required_drink_type = /datum/reagent/water/holywater
-	name = "glass of holy water"
+	name = "glup shitto"
 	desc = "A glass of holy water."
 	icon_state = "glass_clear"
 
@@ -360,14 +360,14 @@
 	exposed_turf.Bless()
 
 /datum/reagent/water/hollowwater
-	name = "Hollow Water"
+	name = "glup shitto"
 	description = "An ubiquitous chemical substance that is composed of hydrogen and oxygen, but it looks kinda hollow."
 	color = "#88878777"
 	taste_description = "emptyiness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/hydrogen_peroxide
-	name = "Hydrogen Peroxide"
+	name = "glup shitto"
 	description = "An ubiquitous chemical substance that is composed of hydrogen and oxygen and oxygen." //intended intended
 	color = "#AAAAAA77" // rgb: 170, 170, 170, 77 (alpha)
 	taste_description = "burning water"
@@ -381,7 +381,7 @@
 
 /datum/glass_style/drinking_glass/hydrogen_peroxide
 	required_drink_type = /datum/reagent/hydrogen_peroxide
-	name = "glass of oxygenated water"
+	name = "glup shitto"
 	desc = "The father of all refreshments. Surely it tastes great, right?"
 	icon_state = "glass_clear"
 
@@ -405,7 +405,7 @@
 		exposed_mob.adjustFireLoss(2, 0) // burns
 
 /datum/reagent/fuel/unholywater //if you somehow managed to extract this from someone, dont splash it on yourself and have a smoke
-	name = "Unholy Water"
+	name = "glup shitto"
 	description = "Something that shouldn't exist on this plane of existence."
 	taste_description = "suffering"
 	metabolization_rate = 2.5 * REAGENTS_METABOLISM  //0.5u/second
@@ -433,7 +433,7 @@
 	..()
 
 /datum/reagent/hellwater //if someone has this in their system they've really pissed off an eldrich god
-	name = "Hell Water"
+	name = "glup shitto"
 	description = "YOUR FLESH! IT BURNS!"
 	taste_description = "burning"
 	ph = 0.1
@@ -448,14 +448,14 @@
 	holder.remove_reagent(type, 0.5*delta_time)
 
 /datum/reagent/medicine/omnizine/godblood
-	name = "Godblood"
+	name = "glup shitto"
 	description = "Slowly heals all damage types. Has a rather high overdose threshold. Glows with mysterious power."
 	overdose_threshold = 150
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 ///Used for clownery
 /datum/reagent/lube
-	name = "Space Lube"
+	name = "glup shitto"
 	description = "Lubricant is a substance introduced between two moving surfaces to reduce the friction and wear between them. giggity."
 	color = "#009CA8" // rgb: 0, 156, 168
 	taste_description = "cherry" // by popular demand
@@ -471,13 +471,13 @@
 
 ///Stronger kind of lube. Applies TURF_WET_SUPERLUBE.
 /datum/reagent/lube/superlube
-	name = "Super Duper Lube"
+	name = "glup shitto"
 	description = "This \[REDACTED\] has been outlawed after the incident on \[DATA EXPUNGED\]."
 	lube_kind = TURF_WET_SUPERLUBE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/spraytan
-	name = "Spray Tan"
+	name = "glup shitto"
 	description = "A substance applied to the skin to darken the skin."
 	color = "#FFC080" // rgb: 255, 196, 128  Bright orange
 	metabolization_rate = 10 * REAGENTS_METABOLISM // very fast, so it can be applied rapidly.  But this changes on an overdose
@@ -582,7 +582,7 @@
 #define MUT_MSG_ABOUT2TURN 3
 
 /datum/reagent/mutationtoxin
-	name = "Stable Mutation Toxin"
+	name = "glup shitto"
 	description = "A humanizing toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM //metabolizes to prevent micro-dosage
@@ -626,21 +626,21 @@
 	..()
 
 /datum/reagent/mutationtoxin/classic //The one from plasma on green slimes
-	name = "Mutation Toxin"
+	name = "glup shitto"
 	description = "A corruptive toxin."
 	color = "#13BC5E" // rgb: 19, 188, 94
 	race = /datum/species/jelly/slime
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/mutationtoxin/felinid
-	name = "Felinid Mutation Toxin"
+	name = "glup shitto"
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/human/felinid
 	taste_description = "something nyat good"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/lizard
-	name = "Lizard Mutation Toxin"
+	name = "glup shitto"
 	description = "A lizarding toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/lizard
@@ -648,7 +648,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/mutationtoxin/fly
-	name = "Fly Mutation Toxin"
+	name = "glup shitto"
 	description = "An insectifying toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/fly
@@ -656,7 +656,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/moth
-	name = "Moth Mutation Toxin"
+	name = "glup shitto"
 	description = "A glowing toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/moth
@@ -664,7 +664,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/pod
-	name = "Podperson Mutation Toxin"
+	name = "glup shitto"
 	description = "A vegetalizing toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/pod
@@ -672,7 +672,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/jelly
-	name = "Imperfect Mutation Toxin"
+	name = "glup shitto"
 	description = "A jellyfying toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/jelly
@@ -695,7 +695,7 @@
 	return ..()
 
 /datum/reagent/mutationtoxin/golem
-	name = "Golem Mutation Toxin"
+	name = "glup shitto"
 	description = "A crystal toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/golem
@@ -713,7 +713,7 @@
 	..()
 
 /datum/reagent/mutationtoxin/abductor
-	name = "Abductor Mutation Toxin"
+	name = "glup shitto"
 	description = "An alien toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/abductor
@@ -721,7 +721,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/android
-	name = "Android Mutation Toxin"
+	name = "glup shitto"
 	description = "A robotic toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/android
@@ -730,7 +730,7 @@
 
 //BLACKLISTED RACES
 /datum/reagent/mutationtoxin/skeleton
-	name = "Skeleton Mutation Toxin"
+	name = "glup shitto"
 	description = "A scary toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/skeleton
@@ -738,7 +738,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/zombie
-	name = "Zombie Mutation Toxin"
+	name = "glup shitto"
 	description = "An undead toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/zombie //Not the infectious kind. The days of xenobio zombie outbreaks are long past.
@@ -746,7 +746,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/ash
-	name = "Ash Mutation Toxin"
+	name = "glup shitto"
 	description = "An ashen toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/lizard/ashwalker
@@ -755,7 +755,7 @@
 
 //DANGEROUS RACES
 /datum/reagent/mutationtoxin/shadow
-	name = "Shadow Mutation Toxin"
+	name = "glup shitto"
 	description = "A dark toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/shadow
@@ -763,7 +763,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/mutationtoxin/plasma
-	name = "Plasma Mutation Toxin"
+	name = "glup shitto"
 	description = "A plasma-based toxin."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	race = /datum/species/plasmaman
@@ -775,7 +775,7 @@
 #undef MUT_MSG_ABOUT2TURN
 
 /datum/reagent/mulligan
-	name = "Mulligan Toxin"
+	name = "glup shitto"
 	description = "This toxin will rapidly change the DNA of humanoid beings. Commonly used by Syndicate spies and assassins in need of an emergency ID change."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	metabolization_rate = INFINITY
@@ -791,7 +791,7 @@
 	randomize_human(affected_mob)
 
 /datum/reagent/aslimetoxin
-	name = "Advanced Mutation Toxin"
+	name = "glup shitto"
 	description = "An advanced corruptive toxin produced by slimes."
 	color = "#13BC5E" // rgb: 19, 188, 94
 	taste_description = "slime"
@@ -804,7 +804,7 @@
 		exposed_mob.ForceContractDisease(new /datum/disease/transformation/slime(), FALSE, TRUE)
 
 /datum/reagent/gluttonytoxin
-	name = "Gluttony's Blessing"
+	name = "glup shitto"
 	description = "An advanced corruptive toxin produced by something terrible."
 	color = "#5EFF3B" //RGB: 94, 255, 59
 	taste_description = "decay"
@@ -816,7 +816,7 @@
 		exposed_mob.ForceContractDisease(new /datum/disease/transformation/morph(), FALSE, TRUE)
 
 /datum/reagent/serotrotium
-	name = "Serotrotium"
+	name = "glup shitto"
 	description = "A chemical compound that promotes concentrated production of the serotonin neurotransmitter in humans."
 	color = "#202040" // rgb: 20, 20, 40
 	metabolization_rate = 0.25 * REAGENTS_METABOLISM
@@ -831,7 +831,7 @@
 	..()
 
 /datum/reagent/oxygen
-	name = "Oxygen"
+	name = "glup shitto"
 	description = "A colorless, odorless gas. Grows on trees but is still pretty valuable."
 	reagent_state = GAS
 	color = "#808080" // rgb: 128, 128, 128
@@ -848,7 +848,7 @@
 	return
 
 /datum/reagent/copper
-	name = "Copper"
+	name = "glup shitto"
 	description = "A highly ductile metal. Things made out of copper aren't very durable, but it makes a decent material for electrical wiring."
 	reagent_state = SOLID
 	color = "#6E3B08" // rgb: 110, 59, 8
@@ -867,7 +867,7 @@
 	metal.use(reac_volume)
 
 /datum/reagent/nitrogen
-	name = "Nitrogen"
+	name = "glup shitto"
 	description = "A colorless, odorless, tasteless gas. A simple asphyxiant that can silently displace vital oxygen."
 	reagent_state = GAS
 	color = "#808080" // rgb: 128, 128, 128
@@ -881,7 +881,7 @@
 	return ..()
 
 /datum/reagent/hydrogen
-	name = "Hydrogen"
+	name = "glup shitto"
 	description = "A colorless, odorless, nonmetallic, tasteless, highly combustible diatomic gas."
 	reagent_state = GAS
 	color = "#808080" // rgb: 128, 128, 128
@@ -890,7 +890,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/potassium
-	name = "Potassium"
+	name = "glup shitto"
 	description = "A soft, low-melting solid that can easily be cut with a knife. Reacts violently with water."
 	reagent_state = SOLID
 	color = "#A0A0A0" // rgb: 160, 160, 160
@@ -898,7 +898,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/mercury
-	name = "Mercury"
+	name = "glup shitto"
 	description = "A curious metal that's a liquid at room temperature. Neurodegenerative and very bad for the mind."
 	color = "#484848" // rgb: 72, 72, 72A
 	taste_mult = 0 // apparently tasteless.
@@ -913,7 +913,7 @@
 	..()
 
 /datum/reagent/sulfur
-	name = "Sulfur"
+	name = "glup shitto"
 	description = "A sickly yellow solid mostly known for its nasty smell. It's actually much more helpful than it looks in biochemisty."
 	reagent_state = SOLID
 	color = "#BF8C00" // rgb: 191, 140, 0
@@ -922,7 +922,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carbon
-	name = "Carbon"
+	name = "glup shitto"
 	description = "A crumbly black solid that, while unexciting on a physical level, forms the base of all known life. Kind of a big deal."
 	reagent_state = SOLID
 	color = "#1C1300" // rgb: 30, 20, 0
@@ -940,7 +940,7 @@
 		dirt_decal = new(exposed_turf)
 
 /datum/reagent/chlorine
-	name = "Chlorine"
+	name = "glup shitto"
 	description = "A pale yellow gas that's well known as an oxidizer. While it forms many harmless molecules in its elemental form it is far from harmless."
 	reagent_state = GAS
 	color = "#FFFB89" //pale yellow? let's make it light gray
@@ -967,7 +967,7 @@
 	..()
 
 /datum/reagent/fluorine
-	name = "Fluorine"
+	name = "glup shitto"
 	description = "A comically-reactive chemical element. The universe does not want this stuff to exist in this form in the slightest."
 	reagent_state = GAS
 	color = "#808080" // rgb: 128, 128, 128
@@ -991,7 +991,7 @@
 	..()
 
 /datum/reagent/sodium
-	name = "Sodium"
+	name = "glup shitto"
 	description = "A soft silver metal that can easily be cut with a knife. It's not salt just yet, so refrain from putting it on your chips."
 	reagent_state = SOLID
 	color = "#808080" // rgb: 128, 128, 128
@@ -1000,7 +1000,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/phosphorus
-	name = "Phosphorus"
+	name = "glup shitto"
 	description = "A ruddy red powder that burns readily. Though it comes in many colors, the general theme is always the same."
 	reagent_state = SOLID
 	color = "#832828" // rgb: 131, 40, 40
@@ -1018,7 +1018,7 @@
 	mytray.adjust_weedlevel(-rand(1,2))
 
 /datum/reagent/lithium
-	name = "Lithium"
+	name = "glup shitto"
 	description = "A silver metal, its claim to fame is its remarkably low density. Using it is a bit too effective in calming oneself down."
 	reagent_state = SOLID
 	color = "#808080" // rgb: 128, 128, 128
@@ -1034,7 +1034,7 @@
 	..()
 
 /datum/reagent/glycerol
-	name = "Glycerol"
+	name = "glup shitto"
 	description = "Glycerol is a simple polyol compound. Glycerol is sweet-tasting and of low toxicity."
 	color = "#D3B913"
 	taste_description = "sweetness"
@@ -1042,7 +1042,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/space_cleaner/sterilizine
-	name = "Sterilizine"
+	name = "glup shitto"
 	description = "Sterilizes wounds in preparation for surgery."
 	color = "#D0EFEE" // space cleaner but lighter
 	taste_description = "bitterness"
@@ -1058,7 +1058,7 @@
 		surgery.speed_modifier = max(0.2, surgery.speed_modifier)
 
 /datum/reagent/iron
-	name = "Iron"
+	name = "glup shitto"
 	description = "Pure iron is a metal."
 	reagent_state = SOLID
 	taste_description = "iron"
@@ -1073,7 +1073,7 @@
 	..()
 
 /datum/reagent/gold
-	name = "Gold"
+	name = "glup shitto"
 	description = "Gold is a dense, soft, shiny metal and the most malleable and ductile metal known."
 	reagent_state = SOLID
 	color = "#F7C430" // rgb: 247, 196, 48
@@ -1082,7 +1082,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/silver
-	name = "Silver"
+	name = "glup shitto"
 	description = "A soft, white, lustrous transition metal, it has the highest electrical conductivity of any element and the highest thermal conductivity of any metal."
 	reagent_state = SOLID
 	color = "#D0D0D0" // rgb: 208, 208, 208
@@ -1129,7 +1129,7 @@
 	mytray.adjust_toxic(round(chems.get_reagent_amount(type) * 2))
 
 /datum/reagent/uranium/radium
-	name = "Radium"
+	name = "glup shitto"
 	description = "Radium is an alkaline earth metal. It is extremely radioactive."
 	reagent_state = SOLID
 	color = "#00CC00" // ditto
@@ -1149,7 +1149,7 @@
 	mytray.adjust_toxic(round(chems.get_reagent_amount(type)))
 
 /datum/reagent/bluespace
-	name = "Bluespace Dust"
+	name = "glup shitto"
 	description = "A dust composed of microscopic bluespace crystals, with minor space-warping properties."
 	reagent_state = SOLID
 	color = "#0000CC"
@@ -1175,7 +1175,7 @@
 	do_teleport(src, get_turf(src), 5, asoundin = 'sound/effects/phasein.ogg', channel = TELEPORT_CHANNEL_BLUESPACE)
 
 /datum/reagent/aluminium
-	name = "Aluminium"
+	name = "glup shitto"
 	description = "A silvery white and ductile member of the boron group of chemical elements."
 	reagent_state = SOLID
 	color = "#A8A8A8" // rgb: 168, 168, 168
@@ -1183,7 +1183,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/silicon
-	name = "Silicon"
+	name = "glup shitto"
 	description = "A tetravalent metalloid, silicon is less reactive than its chemical analog carbon."
 	reagent_state = SOLID
 	color = "#A8A8A8" // rgb: 168, 168, 168
@@ -1193,7 +1193,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/fuel
-	name = "Welding Fuel"
+	name = "glup shitto"
 	description = "Required for welders. Flammable."
 	color = "#660000" // rgb: 102, 0, 0
 	taste_description = "gross metal"
@@ -1206,7 +1206,7 @@
 
 /datum/glass_style/drinking_glass/fuel
 	required_drink_type = /datum/reagent/fuel
-	name = "glass of welder fuel"
+	name = "glup shitto"
 	desc = "Unless you're an industrial tool, this is probably not safe for consumption."
 	icon_state = "dr_gibb_glass"
 
@@ -1232,7 +1232,7 @@
 	new /obj/effect/decal/cleanable/fuel_pool(exposed_turf, round(reac_volume / 5))
 
 /datum/reagent/space_cleaner
-	name = "Space Cleaner"
+	name = "glup shitto"
 	description = "A compound used to clean things. Now with 50% more sodium hypochlorite!"
 	color = "#A5F0EE" // rgb: 165, 240, 238
 	taste_description = "sourness"
@@ -1267,7 +1267,7 @@
 		exposed_mob.wash(clean_types)
 
 /datum/reagent/space_cleaner/ez_clean
-	name = "EZ Clean"
+	name = "glup shitto"
 	description = "A powerful, acidic cleaner sold by Waffle Co. Affects organic matter while leaving other objects unaffected."
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	taste_description = "acid"
@@ -1288,7 +1288,7 @@
 		exposed_mob.adjustFireLoss(1.5)
 
 /datum/reagent/cryptobiolin
-	name = "Cryptobiolin"
+	name = "glup shitto"
 	description = "Cryptobiolin causes confusion and dizziness."
 	color = "#ADB5DB" //i hate default violets and 'crypto' keeps making me think of cryo so it's light blue now
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
@@ -1311,7 +1311,7 @@
 	..()
 
 /datum/reagent/impedrezene
-	name = "Impedrezene"
+	name = "glup shitto"
 	description = "Impedrezene is a narcotic that impedes one's ability by slowing down the higher brain cell functions."
 	color = "#E07DDD" // pink = happy = dumb
 	taste_description = "numbness"
@@ -1330,7 +1330,7 @@
 	..()
 
 /datum/reagent/cyborg_mutation_nanomachines
-	name = "Nanomachines"
+	name = "glup shitto"
 	description = "Microscopic construction robots. Nanomachines son!"
 	color = "#535E66" // rgb: 83, 94, 102
 	taste_description = "sludge"
@@ -1342,7 +1342,7 @@
 		exposed_mob.ForceContractDisease(new /datum/disease/transformation/robot(), FALSE, TRUE)
 
 /datum/reagent/xenomicrobes
-	name = "Xenomicrobes"
+	name = "glup shitto"
 	description = "Microbes with an entirely alien cellular structure."
 	color = "#535E66" // rgb: 83, 94, 102
 	taste_description = "sludge"
@@ -1354,7 +1354,7 @@
 		exposed_mob.ForceContractDisease(new /datum/disease/transformation/xeno(), FALSE, TRUE)
 
 /datum/reagent/fungalspores
-	name = "Tubercle Bacillus Cosmosis Microbes"
+	name = "glup shitto"
 	description = "Active fungal spores."
 	color = "#92D17D" // rgb: 146, 209, 125
 	taste_description = "slime"
@@ -1367,7 +1367,7 @@
 		exposed_mob.ForceContractDisease(new /datum/disease/tuberculosis(), FALSE, TRUE)
 
 /datum/reagent/snail
-	name = "Agent-S"
+	name = "glup shitto"
 	description = "Virological agent that infects the subject with Gastrolosis."
 	color = "#003300" // rgb(0, 51, 0)
 	taste_description = "goo"
@@ -1380,7 +1380,7 @@
 		exposed_mob.ForceContractDisease(new /datum/disease/gastrolosis(), FALSE, TRUE)
 
 /datum/reagent/fluorosurfactant//foam precursor
-	name = "Fluorosurfactant"
+	name = "glup shitto"
 	description = "A perfluoronated sulfonic acid that forms a foam when mixed with water."
 	color = "#9E6B38" // rgb: 158, 107, 56
 	taste_description = "metal"
@@ -1388,7 +1388,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/foaming_agent// Metal foaming agent. This is lithium hydride. Add other recipes (e.g. LiH + H2O -> LiOH + H2) eventually.
-	name = "Foaming Agent"
+	name = "glup shitto"
 	description = "An agent that yields metallic foam when mixed with light metal and a strong acid."
 	reagent_state = SOLID
 	color = "#664B63" // rgb: 102, 75, 99
@@ -1397,7 +1397,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/smart_foaming_agent //Smart foaming agent. Functions similarly to metal foam, but conforms to walls.
-	name = "Smart Foaming Agent"
+	name = "glup shitto"
 	description = "An agent that yields metallic foam which conforms to area boundaries when mixed with light metal and a strong acid."
 	reagent_state = SOLID
 	color = "#664B63" // rgb: 102, 75, 99
@@ -1406,7 +1406,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/ammonia
-	name = "Ammonia"
+	name = "glup shitto"
 	description = "A caustic substance commonly used in fertilizer or household cleaners."
 	reagent_state = GAS
 	color = "#404030" // rgb: 64, 64, 48
@@ -1424,7 +1424,7 @@
 		myseed.adjust_instability(1)
 
 /datum/reagent/diethylamine
-	name = "Diethylamine"
+	name = "glup shitto"
 	description = "A secondary amine, mildly corrosive."
 	color = "#604030" // rgb: 96, 64, 48
 	taste_description = "iron"
@@ -1443,7 +1443,7 @@
 		myseed.adjust_instability(-round(chems.get_reagent_amount(type)))
 
 /datum/reagent/carbondioxide
-	name = "Carbon Dioxide"
+	name = "glup shitto"
 	reagent_state = GAS
 	description = "A gas commonly produced by burning carbon fuels. You're constantly producing this in your lungs."
 	color = "#B0B0B0" // rgb : 192, 192, 192
@@ -1458,7 +1458,7 @@
 	return ..()
 
 /datum/reagent/nitrous_oxide
-	name = "Nitrous Oxide"
+	name = "glup shitto"
 	description = "A potent oxidizer used as fuel in rockets and as an anaesthetic during surgery."
 	reagent_state = LIQUID
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
@@ -1494,7 +1494,7 @@
 //For colouring in /proc/mix_color_from_reagents
 
 /datum/reagent/colorful_reagent/powder
-	name = "Mundane Powder" //the name's a bit similar to the name of colorful reagent, but hey, they're practically the same chem anyway
+	name = "glup shitto" //the name's a bit similar to the name of colorful reagent, but hey, they're practically the same chem anyway
 	var/colorname = "none"
 	description = "A powder that is used for coloring things."
 	reagent_state = SOLID
@@ -1511,7 +1511,7 @@
 	return ..()
 
 /datum/reagent/colorful_reagent/powder/red
-	name = "Red Powder"
+	name = "glup shitto"
 	colorname = "red"
 	color = "#DA0000" // red
 	random_color_list = list("#FC7474")
@@ -1519,14 +1519,14 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/orange
-	name = "Orange Powder"
+	name = "glup shitto"
 	colorname = "orange"
 	color = "#FF9300" // orange
 	random_color_list = list("#FF9300")
 	ph = 2
 
 /datum/reagent/colorful_reagent/powder/yellow
-	name = "Yellow Powder"
+	name = "glup shitto"
 	colorname = "yellow"
 	color = "#FFF200" // yellow
 	random_color_list = list("#FFF200")
@@ -1534,14 +1534,14 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/green
-	name = "Green Powder"
+	name = "glup shitto"
 	colorname = "green"
 	color = "#A8E61D" // green
 	random_color_list = list("#A8E61D")
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/blue
-	name = "Blue Powder"
+	name = "glup shitto"
 	colorname = "blue"
 	color = "#00B7EF" // blue
 	random_color_list = list("#71CAE5")
@@ -1549,7 +1549,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/purple
-	name = "Purple Powder"
+	name = "glup shitto"
 	colorname = "purple"
 	color = "#DA00FF" // purple
 	random_color_list = list("#BD8FC4")
@@ -1557,21 +1557,21 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/invisible
-	name = "Invisible Powder"
+	name = "glup shitto"
 	colorname = "invisible"
 	color = "#FFFFFF00" // white + no alpha
 	random_color_list = list("#FFFFFF") //because using the powder color turns things invisible
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/black
-	name = "Black Powder"
+	name = "glup shitto"
 	colorname = "black"
 	color = "#1C1C1C" // not quite black
 	random_color_list = list("#8D8D8D") //more grey than black, not enough to hide your true colors
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/white
-	name = "White Powder"
+	name = "glup shitto"
 	colorname = "white"
 	color = "#FFFFFF" // white
 	random_color_list = list("#FFFFFF") //doesn't actually change appearance at all
@@ -1580,51 +1580,51 @@
 /* used by crayons, can't color living things but still used for stuff like food recipes */
 
 /datum/reagent/colorful_reagent/powder/red/crayon
-	name = "Red Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/orange/crayon
-	name = "Orange Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/yellow/crayon
-	name = "Yellow Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/green/crayon
-	name = "Green Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/blue/crayon
-	name = "Blue Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/purple/crayon
-	name = "Purple Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 //datum/reagent/colorful_reagent/powder/invisible/crayon
 
 /datum/reagent/colorful_reagent/powder/black/crayon
-	name = "Black Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent/powder/white/crayon
-	name = "White Crayon Powder"
+	name = "glup shitto"
 	can_colour_mobs = FALSE
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 //////////////////////////////////Hydroponics stuff///////////////////////////////
 
 /datum/reagent/plantnutriment
-	name = "Generic Nutriment"
+	name = "glup shitto"
 	description = "Some kind of nutriment. You can't really tell what it is. You should probably report it, along with how you obtained it."
 	color = "#000000" // RBG: 0, 0, 0
 	var/tox_prob = 0
@@ -1638,7 +1638,7 @@
 	..()
 
 /datum/reagent/plantnutriment/eznutriment
-	name = "E-Z Nutrient"
+	name = "glup shitto"
 	description = "Contains electrolytes. It's what plants crave."
 	color = "#376400" // RBG: 50, 100, 0
 	tox_prob = 5
@@ -1653,7 +1653,7 @@
 		myseed.adjust_yield(round(chems.get_reagent_amount(type) * 0.1))
 
 /datum/reagent/plantnutriment/left4zednutriment
-	name = "Left 4 Zed"
+	name = "glup shitto"
 	description = "Unstable nutriment that makes plants mutate more often than usual."
 	color = "#1A1E4D" // RBG: 26, 30, 77
 	tox_prob = 13
@@ -1667,7 +1667,7 @@
 	myseed?.adjust_instability(round(chems.get_reagent_amount(type) * 0.2))
 
 /datum/reagent/plantnutriment/robustharvestnutriment
-	name = "Robust Harvest"
+	name = "glup shitto"
 	description = "Very potent nutriment that slows plants from mutating."
 	color = "#9D9D00" // RBG: 157, 157, 0
 	tox_prob = 8
@@ -1683,7 +1683,7 @@
 		myseed.adjust_yield(round(chems.get_reagent_amount(type) * 0.2))
 
 /datum/reagent/plantnutriment/endurogrow
-	name = "Enduro Grow"
+	name = "glup shitto"
 	description = "A specialized nutriment, which decreases product quantity and potency, but strengthens the plants endurance."
 	color = "#a06fa7" // RBG: 160, 111, 167
 	tox_prob = 8
@@ -1699,7 +1699,7 @@
 		myseed.adjust_endurance(round(chems.get_reagent_amount(type) * 0.35))
 
 /datum/reagent/plantnutriment/liquidearthquake
-	name = "Liquid Earthquake"
+	name = "glup shitto"
 	description = "A specialized nutriment, which increases the plant's production speed, as well as it's susceptibility to weeds."
 	color = "#912e00" // RBG: 145, 46, 0
 	tox_prob = 13
@@ -1719,7 +1719,7 @@
 
 
 /datum/reagent/fuel/oil
-	name = "Oil"
+	name = "glup shitto"
 	description = "Burns in a small smoky fire, can be used to get Ash."
 	reagent_state = LIQUID
 	color = "#2D2D2D"
@@ -1731,7 +1731,7 @@
 	default_container = /obj/effect/decal/cleanable/oil
 
 /datum/reagent/stable_plasma
-	name = "Stable Plasma"
+	name = "glup shitto"
 	description = "Non-flammable plasma locked into a liquid form that cannot ignite or become gaseous/solid."
 	reagent_state = LIQUID
 	color = "#2D2D2D"
@@ -1745,7 +1745,7 @@
 	..()
 
 /datum/reagent/iodine
-	name = "Iodine"
+	name = "glup shitto"
 	description = "Commonly added to table salt as a nutrient. On its own it tastes far less pleasing."
 	reagent_state = LIQUID
 	color = "#BC8A00"
@@ -1754,7 +1754,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet
-	name = "Carpet"
+	name = "glup shitto"
 	description = "For those that need a more creative way to roll out a red carpet."
 	reagent_state = LIQUID
 	color = "#771100"
@@ -1768,7 +1768,7 @@
 	..()
 
 /datum/reagent/carpet/black
-	name = "Black Carpet"
+	name = "glup shitto"
 	description = "The carpet also comes in... BLAPCK" //yes, the typo is intentional
 	color = "#1E1E1E"
 	taste_description = "licorice"
@@ -1776,7 +1776,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/blue
-	name = "Blue Carpet"
+	name = "glup shitto"
 	description = "For those that really need to chill out for a while."
 	color = "#0000DC"
 	taste_description = "frozen carpet"
@@ -1784,7 +1784,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/cyan
-	name = "Cyan Carpet"
+	name = "glup shitto"
 	description = "For those that need a throwback to the years of using poison as a construction material. Smells like asbestos."
 	color = "#00B4FF"
 	taste_description = "asbestos"
@@ -1792,7 +1792,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/green
-	name = "Green Carpet"
+	name = "glup shitto"
 	description = "For those that need the perfect flourish for green eggs and ham."
 	color = "#A8E61D"
 	taste_description = "Green" //the caps is intentional
@@ -1800,7 +1800,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/orange
-	name = "Orange Carpet"
+	name = "glup shitto"
 	description = "For those that prefer a healthy carpet to go along with their healthy diet."
 	color = "#E78108"
 	taste_description = "orange juice"
@@ -1808,7 +1808,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/purple
-	name = "Purple Carpet"
+	name = "glup shitto"
 	description = "For those that need to waste copious amounts of healing jelly in order to look fancy."
 	color = "#91D865"
 	taste_description = "jelly"
@@ -1816,7 +1816,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/red
-	name = "Red Carpet"
+	name = "glup shitto"
 	description = "For those that need an even redder carpet."
 	color = "#731008"
 	taste_description = "blood and gibs"
@@ -1824,7 +1824,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/royal
-	name = "Royal Carpet?"
+	name = "glup shitto"
 	description = "For those that break the game and need to make an issue report."
 
 /datum/reagent/carpet/royal/on_mob_life(mob/living/carbon/affected_mob, delta_time, times_fired)
@@ -1844,7 +1844,7 @@
 				to_chat(affected_mob, "You feel like an impostor...")
 
 /datum/reagent/carpet/royal/black
-	name = "Royal Black Carpet"
+	name = "glup shitto"
 	description = "For those that feel the need to show off their timewasting skills."
 	color = "#000000"
 	taste_description = "royalty"
@@ -1852,7 +1852,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/royal/blue
-	name = "Royal Blue Carpet"
+	name = "glup shitto"
 	description = "For those that feel the need to show off their timewasting skills.. in BLUE."
 	color = "#5A64C8"
 	taste_description = "blueyalty" //also intentional
@@ -1860,7 +1860,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/carpet/neon
-	name = "Neon Carpet"
+	name = "glup shitto"
 	description = "For those who like the 1980s, vegas, and debugging."
 	color = COLOR_ALMOST_BLACK
 	taste_description = "neon"
@@ -1869,7 +1869,7 @@
 	carpet_type = /turf/open/floor/carpet/neon
 
 /datum/reagent/carpet/neon/simple_white
-	name = "Simple White Neon Carpet"
+	name = "glup shitto"
 	description = "For those who like fluorescent lighting."
 	color = LIGHT_COLOR_HALOGEN
 	taste_description = "sodium vapor"
@@ -1877,7 +1877,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/white
 
 /datum/reagent/carpet/neon/simple_red
-	name = "Simple Red Neon Carpet"
+	name = "glup shitto"
 	description = "For those who like a bit of uncertainty."
 	color = COLOR_RED
 	taste_description = "neon hallucinations"
@@ -1885,7 +1885,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/red
 
 /datum/reagent/carpet/neon/simple_orange
-	name = "Simple Orange Neon Carpet"
+	name = "glup shitto"
 	description = "For those who like some sharp edges."
 	color = COLOR_ORANGE
 	taste_description = "neon spines"
@@ -1893,7 +1893,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/orange
 
 /datum/reagent/carpet/neon/simple_yellow
-	name = "Simple Yellow Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need a little stability in their lives."
 	color = COLOR_YELLOW
 	taste_description = "stabilized neon"
@@ -1901,7 +1901,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/yellow
 
 /datum/reagent/carpet/neon/simple_lime
-	name = "Simple Lime Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need a little bitterness."
 	color = COLOR_LIME
 	taste_description = "neon citrus"
@@ -1909,7 +1909,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/lime
 
 /datum/reagent/carpet/neon/simple_green
-	name = "Simple Green Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need a little bit of change in their lives."
 	color = COLOR_GREEN
 	taste_description = "radium"
@@ -1917,7 +1917,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/green
 
 /datum/reagent/carpet/neon/simple_teal
-	name = "Simple Teal Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need a smoke."
 	color = COLOR_TEAL
 	taste_description = "neon tobacco"
@@ -1925,7 +1925,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/teal
 
 /datum/reagent/carpet/neon/simple_cyan
-	name = "Simple Cyan Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need to take a breath."
 	color = COLOR_DARK_CYAN
 	taste_description = "neon air"
@@ -1933,7 +1933,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/cyan
 
 /datum/reagent/carpet/neon/simple_blue
-	name = "Simple Blue Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need to feel joy again."
 	color = COLOR_NAVY
 	taste_description = "neon blue"
@@ -1941,7 +1941,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/blue
 
 /datum/reagent/carpet/neon/simple_purple
-	name = "Simple Purple Neon Carpet"
+	name = "glup shitto"
 	description = "For those that need a little bit of exploration."
 	color = COLOR_PURPLE
 	taste_description = "neon hell"
@@ -1949,7 +1949,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/purple
 
 /datum/reagent/carpet/neon/simple_violet
-	name = "Simple Violet Neon Carpet"
+	name = "glup shitto"
 	description = "For those who want to temp fate."
 	color = COLOR_VIOLET
 	taste_description = "neon hell"
@@ -1957,7 +1957,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/violet
 
 /datum/reagent/carpet/neon/simple_pink
-	name = "Simple Pink Neon Carpet"
+	name = "glup shitto"
 	description = "For those just want to stop thinking so much."
 	color = COLOR_PINK
 	taste_description = "neon pink"
@@ -1965,7 +1965,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/pink
 
 /datum/reagent/carpet/neon/simple_black
-	name = "Simple Black Neon Carpet"
+	name = "glup shitto"
 	description = "For those who need to catch their breath."
 	color = COLOR_BLACK
 	taste_description = "neon ash"
@@ -1973,7 +1973,7 @@
 	carpet_type = /turf/open/floor/carpet/neon/simple/black
 
 /datum/reagent/bromine
-	name = "Bromine"
+	name = "glup shitto"
 	description = "A brownish liquid that's highly reactive. Useful for stopping free radicals, but not intended for human consumption."
 	reagent_state = LIQUID
 	color = "#D35415"
@@ -1982,7 +1982,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/pentaerythritol
-	name = "Pentaerythritol"
+	name = "glup shitto"
 	description = "Slow down, it ain't no spelling bee!"
 	reagent_state = SOLID
 	color = "#E66FFF"
@@ -1990,7 +1990,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/acetaldehyde
-	name = "Acetaldehyde"
+	name = "glup shitto"
 	description = "Similar to plastic. Tastes like dead people."
 	reagent_state = SOLID
 	color = "#EEEEEF"
@@ -1998,7 +1998,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/acetone_oxide
-	name = "Acetone Oxide"
+	name = "glup shitto"
 	description = "Enslaved oxygen"
 	reagent_state = LIQUID
 	color = "#C8A5DC"
@@ -2015,7 +2015,7 @@
 
 
 /datum/reagent/phenol
-	name = "Phenol"
+	name = "glup shitto"
 	description = "An aromatic ring of carbon with a hydroxyl group. A useful precursor to some medicines, but has no healing properties on its own."
 	reagent_state = LIQUID
 	color = "#E7EA91"
@@ -2024,7 +2024,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/ash
-	name = "Ash"
+	name = "glup shitto"
 	description = "Supposedly phoenixes rise from these, but you've never seen it."
 	reagent_state = LIQUID
 	color = "#515151"
@@ -2042,7 +2042,7 @@
 	mytray.adjust_weedlevel(-1)
 
 /datum/reagent/acetone
-	name = "Acetone"
+	name = "glup shitto"
 	description = "A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life."
 	reagent_state = LIQUID
 	color = "#AF14B7"
@@ -2050,7 +2050,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/colorful_reagent
-	name = "Colorful Reagent"
+	name = "glup shitto"
 	description = "Thoroughly sample the rainbow."
 	reagent_state = LIQUID
 	var/list/random_color_list = list("#00aedb","#a200ff","#f47835","#d41243","#d11141","#00b159","#00aedb","#f37735","#ffc425","#008744","#0057e7","#d62d20","#ffa700")
@@ -2086,7 +2086,7 @@
 		exposed_atom.add_atom_colour(pick(random_color_list), WASHABLE_COLOUR_PRIORITY)
 
 /datum/reagent/hair_dye
-	name = "Quantum Hair Dye"
+	name = "glup shitto"
 	description = "Has a high chance of making you look like a mad scientist."
 	reagent_state = LIQUID
 	var/list/potential_colors = list("#00aadd","#aa00ff","#ff7733","#dd1144","#dd1144","#00bb55","#00aadd","#ff7733","#ffcc22","#008844","#0055ee","#dd2222","#ffaa00") // fucking hair code
@@ -2113,7 +2113,7 @@
 	exposed_human.update_body_parts()
 
 /datum/reagent/barbers_aid
-	name = "Barber's Aid"
+	name = "glup shitto"
 	description = "A solution to hair loss across the world."
 	reagent_state = LIQUID
 	color = "#A86B45" //hair is brown
@@ -2135,7 +2135,7 @@
 	exposed_human.update_body_parts()
 
 /datum/reagent/concentrated_barbers_aid
-	name = "Concentrated Barber's Aid"
+	name = "glup shitto"
 	description = "A concentrated solution to hair loss across the world."
 	reagent_state = LIQUID
 	color = "#7A4E33" //hair is dark browmn
@@ -2177,7 +2177,7 @@
 		human_mob.update_body_parts()
 
 /datum/reagent/baldium
-	name = "Baldium"
+	name = "glup shitto"
 	description = "A major cause of hair loss across the world."
 	reagent_state = LIQUID
 	color = "#ecb2cf"
@@ -2197,7 +2197,7 @@
 	exposed_human.update_body_parts()
 
 /datum/reagent/saltpetre
-	name = "Saltpetre"
+	name = "glup shitto"
 	description = "Volatile. Controversial. Third Thing."
 	reagent_state = LIQUID
 	color = "#60A584" // rgb: 96, 165, 132
@@ -2217,7 +2217,7 @@
 		myseed.adjust_potency(round(salt))
 
 /datum/reagent/lye
-	name = "Lye"
+	name = "glup shitto"
 	description = "Also known as sodium hydroxide. As a profession making this is somewhat underwhelming."
 	reagent_state = LIQUID
 	color = "#FFFFD6" // very very light yellow
@@ -2226,7 +2226,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/drying_agent
-	name = "Drying Agent"
+	name = "glup shitto"
 	description = "A desiccant. Can be used to dry things."
 	reagent_state = LIQUID
 	color = "#A70FFF"
@@ -2252,51 +2252,51 @@
 // Virology virus food chems.
 
 /datum/reagent/toxin/mutagen/mutagenvirusfood
-	name = "Mutagenic Agar"
+	name = "glup shitto"
 	color = "#A3C00F" // rgb: 163,192,15
 	taste_description = "sourness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/toxin/mutagen/mutagenvirusfood/sugar
-	name = "Sucrose Agar"
+	name = "glup shitto"
 	color = "#41B0C0" // rgb: 65,176,192
 	taste_description = "sweetness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/medicine/synaptizine/synaptizinevirusfood
-	name = "Virus Rations"
+	name = "glup shitto"
 	color = "#D18AA5" // rgb: 209,138,165
 	taste_description = "bitterness"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/toxin/plasma/plasmavirusfood
-	name = "Virus Plasma"
+	name = "glup shitto"
 	color = "#A270A8" // rgb: 166,157,169
 	taste_description = "bitterness"
 	taste_mult = 1.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/toxin/plasma/plasmavirusfood/weak
-	name = "Weakened Virus Plasma"
+	name = "glup shitto"
 	color = "#A28CA5" // rgb: 206,195,198
 	taste_description = "bitterness"
 	taste_mult = 1.5
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/uranium/uraniumvirusfood
-	name = "Decaying Uranium Gel"
+	name = "glup shitto"
 	color = "#67ADBA" // rgb: 103,173,186
 	taste_description = "the inside of a reactor"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/uranium/uraniumvirusfood/unstable
-	name = "Unstable Uranium Gel"
+	name = "glup shitto"
 	color = "#2FF2CB" // rgb: 47,242,203
 	taste_description = "the inside of a reactor"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/uranium/uraniumvirusfood/stable
-	name = "Stable Uranium Gel"
+	name = "glup shitto"
 	color = "#04506C" // rgb: 4,80,108
 	taste_description = "the inside of a reactor"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
@@ -2304,7 +2304,7 @@
 // Bee chemicals
 
 /datum/reagent/royal_bee_jelly
-	name = "Royal Bee Jelly"
+	name = "glup shitto"
 	description = "Royal Bee Jelly, if injected into a Queen Space Bee said bee will split into two bees."
 	color = "#00ff80"
 	taste_description = "strange honey"
@@ -2319,7 +2319,7 @@
 //Misc reagents
 
 /datum/reagent/romerol
-	name = "Romerol"
+	name = "glup shitto"
 	// the REAL zombie powder
 	description = "Romerol is a highly experimental bioterror agent \
 		which causes dormant nodules to be etched into the grey matter of \
@@ -2339,7 +2339,7 @@
 		ZI.Insert(exposed_mob)
 
 /datum/reagent/magillitis
-	name = "Magillitis"
+	name = "glup shitto"
 	description = "An experimental serum which causes rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas."
 	reagent_state = LIQUID
 	color = "#00f041"
@@ -2351,7 +2351,7 @@
 		affected_mob.gorillize()
 
 /datum/reagent/growthserum
-	name = "Growth Serum"
+	name = "glup shitto"
 	description = "A commercial chemical designed to help older men in the bedroom."//not really it just makes you a giant
 	color = "#ff0000"//strong red. rgb 255, 0, 0
 	var/current_size = RESIZE_DEFAULT_SIZE
@@ -2384,7 +2384,7 @@
 	..()
 
 /datum/reagent/plastic_polymers
-	name = "Plastic Polymers"
+	name = "glup shitto"
 	description = "the petroleum based components of plastic."
 	color = "#f7eded"
 	taste_description = "plastic"
@@ -2392,7 +2392,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/glitter
-	name = "Generic Glitter"
+	name = "glup shitto"
 	description = "if you can see this description, contact a coder."
 	color = "#FFFFFF" //pure white
 	taste_description = "plastic"
@@ -2407,34 +2407,34 @@
 	new glitter_type(exposed_turf)
 
 /datum/reagent/glitter/pink
-	name = "Pink Glitter"
+	name = "glup shitto"
 	description = "pink sparkles that get everywhere"
 	color = "#ff8080" //A light pink color
 	glitter_type = /obj/effect/decal/cleanable/glitter/pink
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/glitter/white
-	name = "White Glitter"
+	name = "glup shitto"
 	description = "white sparkles that get everywhere"
 	glitter_type = /obj/effect/decal/cleanable/glitter/white
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/glitter/blue
-	name = "Blue Glitter"
+	name = "glup shitto"
 	description = "blue sparkles that get everywhere"
 	color = "#4040FF" //A blueish color
 	glitter_type = /obj/effect/decal/cleanable/glitter/blue
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/glitter/confetti
-	name = "Confetti"
+	name = "glup shitto"
 	description = "Tiny plastic flakes that are impossible to sweep up."
 	color = "#7dd87b"
 	glitter_type = /obj/effect/decal/cleanable/confetti
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/pax
-	name = "Pax"
+	name = "glup shitto"
 	description = "A colorless liquid that suppresses violence in its subjects."
 	color = "#AAAAAA55"
 	taste_description = "water"
@@ -2451,7 +2451,7 @@
 	..()
 
 /datum/reagent/bz_metabolites
-	name = "BZ Metabolites"
+	name = "glup shitto"
 	description = "A harmless metabolite of BZ gas."
 	color = "#FAFF00"
 	taste_description = "acrid cinnamon"
@@ -2474,13 +2474,13 @@
 	return ..()
 
 /datum/reagent/pax/peaceborg
-	name = "Synthpax"
+	name = "glup shitto"
 	description = "A colorless liquid that suppresses violence in its subjects. Cheaper to synthesize than normal Pax, but wears off faster."
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED|REAGENT_NO_RANDOM_RECIPE
 
 /datum/reagent/peaceborg/confuse
-	name = "Dizzying Solution"
+	name = "glup shitto"
 	description = "Makes the target off balance and dizzy"
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	taste_description = "dizziness"
@@ -2495,7 +2495,7 @@
 	..()
 
 /datum/reagent/peaceborg/tire
-	name = "Tiring Solution"
+	name = "glup shitto"
 	description = "An extremely weak stamina-toxin that tires out the target. Completely harmless."
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	taste_description = "tiredness"
@@ -2510,7 +2510,7 @@
 	..()
 
 /datum/reagent/gondola_mutation_toxin
-	name = "Tranquility"
+	name = "glup shitto"
 	description = "A highly mutative liquid of unknown origin."
 	color = "#9A6750" //RGB: 154, 103, 80
 	taste_description = "inner peace"
@@ -2523,14 +2523,14 @@
 
 
 /datum/reagent/spider_extract
-	name = "Spider Extract"
+	name = "glup shitto"
 	description = "A highly specialized extract coming from the Australicus sector, used to create broodmother spiders."
 	color = "#ED2939"
 	taste_description = "upside down"
 
 /// Improvised reagent that induces vomiting. Created by dipping a dead mouse in welder fluid.
 /datum/reagent/yuck
-	name = "Organic Slurry"
+	name = "glup shitto"
 	description = "A mixture of various colors of fluid. Induces vomiting."
 	color = "#545000"
 	taste_description = "insides"
@@ -2541,7 +2541,7 @@
 
 /datum/glass_style/drinking_glass/yuck
 	required_drink_type = /datum/reagent/yuck
-	name = "glass of ...yuck!"
+	name = "glup shitto"
 	desc = "It smells like a carcass, and doesn't look much better."
 
 /datum/reagent/yuck/on_mob_add(mob/living/affected_mob)
@@ -2586,35 +2586,35 @@
 
 //monkey powder heehoo
 /datum/reagent/monkey_powder
-	name = "Monkey Powder"
+	name = "glup shitto"
 	description = "Just add water!"
 	color = "#9C5A19"
 	taste_description = "bananas"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/plasma_oxide
-	name = "Hyper-Plasmium Oxide"
+	name = "glup shitto"
 	description = "Compound created deep in the cores of demon-class planets. Commonly found through deep geysers."
 	color = "#470750" // rgb: 255, 255, 255
 	taste_description = "hell"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/exotic_stabilizer
-	name = "Exotic Stabilizer"
+	name = "glup shitto"
 	description = "Advanced compound created by mixing stabilizing agent and hyper-plasmium oxide."
 	color = "#180000" // rgb: 255, 255, 255
 	taste_description = "blood"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/wittel
-	name = "Wittel"
+	name = "glup shitto"
 	description = "An extremely rare metallic-white substance only found on demon-class planets."
 	color = "#FFFFFF" // rgb: 255, 255, 255
 	taste_mult = 0 // oderless and tasteless
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/metalgen
-	name = "Metalgen"
+	name = "glup shitto"
 	data = list("material"=null)
 	description = "A purple metal morphic liquid, said to impose it's metallic properties on whatever it touches."
 	color = "#b000aa"
@@ -2653,7 +2653,7 @@
 	ADD_TRAIT(A, TRAIT_MAT_TRANSMUTED, type)
 
 /datum/reagent/gravitum
-	name = "Gravitum"
+	name = "glup shitto"
 	description = "A rare kind of null fluid, capable of temporalily removing all weight of whatever it touches." //i dont even
 	color = "#050096" // rgb: 5, 0, 150
 	taste_mult = 0 // oderless and tasteless
@@ -2675,7 +2675,7 @@
 	affected_mob.RemoveElement(/datum/element/forced_gravity, 0)
 
 /datum/reagent/cellulose
-	name = "Cellulose Fibers"
+	name = "glup shitto"
 	description = "A crystaline polydextrose polymer, plants swear by this stuff."
 	reagent_state = SOLID
 	color = "#E6E6DA"
@@ -2684,7 +2684,7 @@
 
 // "Second wind" reagent generated when someone suffers a wound. Epinephrine, adrenaline, and stimulants are all already taken so here we are
 /datum/reagent/determination
-	name = "Determination"
+	name = "glup shitto"
 	description = "For when you need to push on a little more. Do NOT allow near plants."
 	reagent_state = LIQUID
 	color = "#D2FFFA"
@@ -2724,7 +2724,7 @@
 // who knows.
 // maybe nar'sie is considered to be too "mainstream" of a god to worship in the heretic community.
 /datum/reagent/eldritch
-	name = "Eldritch Essence"
+	name = "glup shitto"
 	description = "A strange liquid that defies the laws of physics. \
 		It re-energizes and heals those who can see beyond this fragile reality, \
 		but is incredibly harmful to the closed-minded. It metabolizes very quickly."
@@ -2754,7 +2754,7 @@
 	return TRUE
 
 /datum/reagent/universal_indicator
-	name = "Universal Indicator"
+	name = "glup shitto"
 	description = "A solution that can be used to create pH paper booklets, or sprayed on things to colour them by their pH."
 	taste_description = "a strong chemical taste"
 	color = "#1f8016"
@@ -2770,7 +2770,7 @@
 
 // [Original ants concept by Keelin on Goon]
 /datum/reagent/ants
-	name = "Ants"
+	name = "glup shitto"
 	description = "A genetic crossbreed between ants and termites, their bites land at a 3 on the Schmidt Pain Scale."
 	reagent_state = SOLID
 	color = "#993333"
@@ -2793,7 +2793,7 @@
 
 /datum/glass_style/drinking_glass/ants
 	required_drink_type = /datum/reagent/ants
-	name = "glass of ants"
+	name = "glup shitto"
 	desc = "Bottoms up...?"
 
 /datum/reagent/ants/on_mob_life(mob/living/carbon/victim, delta_time)
@@ -2851,7 +2851,7 @@
 
 //This is intended to a be a scarce reagent to gate certain drugs and toxins with. Do not put in a synthesizer. Renewable sources of this reagent should be inefficient.
 /datum/reagent/lead
-	name = "Lead"
+	name = "glup shitto"
 	description = "A dull metalltic element with a low melting point."
 	taste_description = "metal"
 	reagent_state = SOLID
@@ -2864,7 +2864,7 @@
 
 //The main feedstock for kronkaine production, also a shitty stamina healer.
 /datum/reagent/kronkus_extract
-	name = "Kronkus Extract"
+	name = "glup shitto"
 	description = "A frothy extract made from fermented kronkus vine pulp.\nHighly bitter due to the presence of a variety of kronkamines."
 	taste_description = "bitterness"
 	color = "#228f63"
@@ -2877,7 +2877,7 @@
 	kronkus_enjoyer.adjustStaminaLoss(-2, FALSE)
 
 /datum/reagent/brimdust
-	name = "Brimdust"
+	name = "glup shitto"
 	description = "A brimdemon's dust. Consumption is not recommended, although plants like it."
 	reagent_state = SOLID
 	color = "#522546"
@@ -2900,7 +2900,7 @@
 // I made this food....with love.
 // Reagent added to food by chef's with a chef's kiss. Makes people happy.
 /datum/reagent/love
-	name = "Love"
+	name = "glup shitto"
 	description = "This food's been made... with love."
 	color = "#ff7edd"
 	taste_description = "love"

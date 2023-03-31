@@ -1,6 +1,6 @@
 // The language of the podpeople. Yes, it's a shameless ripoff of elvish.
 /datum/language/sylvan
-	name = "Sylvan"
+	name = "glup shitto"
 	desc = "A complicated, ancient language spoken by sentient plants."
 	key = "h"
 	space_chance = 20

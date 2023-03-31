@@ -2,7 +2,7 @@
 #define MAX_LOG_COUNT 300
 
 SUBSYSTEM_DEF(modular_computers)
-	name = "Modular Computers"
+	name = "glup shitto"
 	flags = SS_NO_FIRE
 
 	///List of all ModPC logging

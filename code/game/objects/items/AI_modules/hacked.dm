@@ -1,5 +1,5 @@
 /obj/item/ai_module/syndicate // This one doesn't inherit from ion boards because it doesn't call ..() in transmitInstructions. ~Miauw
-	name = "Hacked AI Module"
+	name = "glup shitto"
 	desc = "An AI Module for hacking additional laws to an AI."
 	laws = list("")
 
@@ -36,7 +36,7 @@
 
 /// Makes the AI Malf, as well as give it syndicate laws.
 /obj/item/ai_module/malf
-	name = "Infected AI Module"
+	name = "glup shitto"
 	desc = "An virus-infected AI Module."
 	bypass_law_amt_check = TRUE
 	laws = list("")
@@ -72,7 +72,7 @@
 	to_chat(malf_candidate, span_notice("The virus enhanced your system, overclocking your CPU 50-fold."))
 
 	functional = FALSE
-	name = "Broken AI Module"
+	name = "glup shitto"
 	desc = "A law upload module, it is broken and non-functional."
 
 /obj/item/ai_module/malf/display_laws()

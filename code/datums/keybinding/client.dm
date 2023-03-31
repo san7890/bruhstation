@@ -5,7 +5,7 @@
 
 /datum/keybinding/client/admin_help
 	hotkey_keys = list("F1")
-	name = "admin_help"
+	name = "glup shitto"
 	full_name = "Admin Help"
 	description = "Ask an admin for help."
 	keybind_signal = COMSIG_KB_CLIENT_GETHELP_DOWN
@@ -20,7 +20,7 @@
 
 /datum/keybinding/client/screenshot
 	hotkey_keys = list("F2")
-	name = "screenshot"
+	name = "glup shitto"
 	full_name = "Screenshot"
 	description = "Take a screenshot."
 	keybind_signal = COMSIG_KB_CLIENT_SCREENSHOT_DOWN
@@ -34,7 +34,7 @@
 
 /datum/keybinding/client/minimal_hud
 	hotkey_keys = list("F12")
-	name = "minimal_hud"
+	name = "glup shitto"
 	full_name = "Minimal HUD"
 	description = "Hide most HUD features"
 	keybind_signal = COMSIG_KB_CLIENT_MINIMALHUD_DOWN

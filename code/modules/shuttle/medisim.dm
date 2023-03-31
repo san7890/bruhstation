@@ -1,11 +1,11 @@
 ///These are for the medisim shuttle
 
 /obj/machinery/computer/reality_simulation
-	name = "reality simulation computer"
+	name = "glup shitto"
 	desc = "A computer calculating the medieval times. Uh, wow. Is this bad boy quantum?"
 
 /obj/item/paper/crumpled/retired_designs
-	name = "crumpled notes on cuirass design"
+	name = "glup shitto"
 	default_raw_text = {"Yeah, you may as well just melt this crap back down into metal.<br>
 	<br>
 	<br>

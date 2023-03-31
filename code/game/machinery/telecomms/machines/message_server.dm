@@ -9,7 +9,7 @@
 /obj/machinery/blackbox_recorder
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "blackbox"
-	name = "Blackbox Recorder"
+	name = "glup shitto"
 	density = TRUE
 	armor_type = /datum/armor/machinery_blackbox_recorder
 	var/obj/item/stored
@@ -63,7 +63,7 @@
 	return ..()
 
 /obj/item/blackbox
-	name = "\proper the blackbox"
+	name = "glup shitto"
 	desc = "A strange relic, capable of recording data on extradimensional vertices. It lives inside the blackbox recorder for safe keeping."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "blackcube"
@@ -78,7 +78,7 @@
 // The message server itself.
 /obj/machinery/telecomms/message_server
 	icon_state = "message_server"
-	name = "Messaging Server"
+	name = "glup shitto"
 	desc = "A machine that processes and routes PDA and request console messages."
 	telecomms_type = /obj/machinery/telecomms/message_server
 	density = TRUE

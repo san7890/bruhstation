@@ -8,7 +8,7 @@
  */
 
 /datum/symptom/choking
-	name = "Choking"
+	name = "glup shitto"
 	desc = "The virus causes inflammation of the host's air conduits, leading to intermittent choking."
 	illness = "Pneumatic Tubes"
 	stealth = -3
@@ -83,7 +83,7 @@ Bonus
 
 /datum/symptom/asphyxiation
 
-	name = "Acute respiratory distress syndrome"
+	name = "glup shitto"
 	desc = "The virus causes shrinking of the host's lungs, causing severe asphyxiation. May also lead to heart attacks."
 	illness = "Iron Lungs"
 	stealth = -2

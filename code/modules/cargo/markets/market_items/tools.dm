@@ -2,7 +2,7 @@
 	category = "Tools"
 
 /datum/market_item/tool/caravan_wrench
-	name = "Experimental Wrench"
+	name = "glup shitto"
 	desc = "The extra fast and handy wrench you always wanted!"
 	item = /obj/item/wrench/caravan
 	stock = 1
@@ -12,7 +12,7 @@
 	availability_prob = 20
 
 /datum/market_item/tool/caravan_wirecutters
-	name = "Experimental Wirecutters"
+	name = "glup shitto"
 	desc = "The extra fast and handy wirecutters you always wanted!"
 	item = /obj/item/wirecutters/caravan
 	stock = 1
@@ -22,7 +22,7 @@
 	availability_prob = 20
 
 /datum/market_item/tool/caravan_screwdriver
-	name = "Experimental Screwdriver"
+	name = "glup shitto"
 	desc = "The extra fast and handy screwdriver you always wanted!"
 	item = /obj/item/screwdriver/caravan
 	stock = 1
@@ -32,7 +32,7 @@
 	availability_prob = 20
 
 /datum/market_item/tool/caravan_crowbar
-	name = "Experimental Crowbar"
+	name = "glup shitto"
 	desc = "The extra fast and handy crowbar you always wanted!"
 	item = /obj/item/crowbar/red/caravan
 	stock = 1
@@ -42,7 +42,7 @@
 	availability_prob = 20
 
 /datum/market_item/tool/binoculars
-	name = "Binoculars"
+	name = "glup shitto"
 	desc = "Increase your sight by 150% with this handy Tool!"
 	item = /obj/item/binoculars
 	stock = 1
@@ -52,7 +52,7 @@
 	availability_prob = 30
 
 /datum/market_item/tool/riot_shield
-	name = "Riot Shield"
+	name = "glup shitto"
 	desc = "Protect yourself from an unexpected Riot at your local Police department!"
 	item = /obj/item/shield/riot
 
@@ -62,7 +62,7 @@
 	availability_prob = 50
 
 /datum/market_item/tool/thermite_bottle
-	name = "Thermite Bottle"
+	name = "glup shitto"
 	desc = "30u of Thermite to assist in creating a quick access point or get away!"
 	item = /obj/item/reagent_containers/cup/bottle/thermite
 
@@ -72,7 +72,7 @@
 	availability_prob = 30
 
 /datum/market_item/tool/science_goggles
-	name = "Science Goggles"
+	name = "glup shitto"
 	desc = "These glasses scan the contents of containers and projects their contents to the user in an easy to read format."
 	item = /obj/item/clothing/glasses/science
 
@@ -85,7 +85,7 @@
  * # Fake N-spect scanner black market entry
  */
 /datum/market_item/tool/fake_scanner
-	name = "Clowny N-spect scanner"
+	name = "glup shitto"
 	desc = "This UPGRADED N-spect scanner can play FIVE HIGH-QUALITY SOUNDS (fork required for sound adjustment not included) and print reports \
 	LIGHTNING FAST (screwdriver necessary to activate maximum speed not included). We make no claims as to the usefulness of the reports printed by this. \
 	Any and all implied warranties are void if the device is touched, moved, kicked, thrown or modified with bananium sheets. Batteries included. \

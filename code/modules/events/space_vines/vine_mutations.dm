@@ -52,7 +52,7 @@
 	return
 
 /datum/spacevine_mutation/light
-	name = "Light"
+	name = "glup shitto"
 	hue = "#B2EA70"
 	quality = POSITIVE
 	severity = SEVERITY_TRIVIAL
@@ -62,7 +62,7 @@
 		holder.set_light(LIGHT_MUTATION_BRIGHTNESS, 0.3)
 
 /datum/spacevine_mutation/toxicity
-	name = "Toxic"
+	name = "glup shitto"
 	hue = "#9B3675"
 	severity = SEVERITY_AVERAGE
 	quality = NEGATIVE
@@ -79,7 +79,7 @@
 		eater.adjustToxLoss(20)
 
 /datum/spacevine_mutation/explosive  // JC IT'S A BOMB
-	name = "Explosive"
+	name = "glup shitto"
 	hue = "#D83A56"
 	quality = NEGATIVE
 	severity = SEVERITY_MAJOR
@@ -96,7 +96,7 @@
 	explosion(holder, light_impact_range = EXPLOSION_MUTATION_IMPACT_RADIUS, adminlog = FALSE)
 
 /datum/spacevine_mutation/fire_proof
-	name = "Fire proof"
+	name = "glup shitto"
 	hue = "#FF616D"
 	quality = MINOR_NEGATIVE
 	severity = SEVERITY_ABOVE_AVERAGE
@@ -111,7 +111,7 @@
 	return expected_damage
 
 /datum/spacevine_mutation/cold_proof
-	name = "Cold proof"
+	name = "glup shitto"
 	hue = "#0BD5D9"
 	quality = MINOR_NEGATIVE
 	severity = SEVERITY_AVERAGE
@@ -121,7 +121,7 @@
 	holder.trait_flags |= SPACEVINE_COLD_RESISTANT
 
 /datum/spacevine_mutation/temp_stabilisation
-	name = "Temperature stabilisation"
+	name = "glup shitto"
 	hue = "#B09856"
 	quality = POSITIVE
 	severity = SEVERITY_MINOR
@@ -144,7 +144,7 @@
 	holder.air_update_turf(FALSE, FALSE)
 
 /datum/spacevine_mutation/vine_eating
-	name = "Vine eating"
+	name = "glup shitto"
 	hue = "#F4A442"
 	quality = MINOR_NEGATIVE
 	severity = SEVERITY_MINOR
@@ -155,7 +155,7 @@
 		qdel(prey)
 
 /datum/spacevine_mutation/aggressive_spread  //very OP, but im out of other ideas currently
-	name = "Aggressive spreading"
+	name = "glup shitto"
 	hue = "#316b2f"
 	severity = SEVERITY_MAJOR
 	quality = NEGATIVE
@@ -209,7 +209,7 @@
 		log_combat(vine, living_mob, "aggressively spread into") //You aren't being attacked by the vines. You just happen to stand in their way.
 
 /datum/spacevine_mutation/transparency
-	name = "transparent"
+	name = "glup shitto"
 	hue = ""
 	quality = POSITIVE
 	severity = SEVERITY_TRIVIAL
@@ -219,7 +219,7 @@
 	holder.alpha = 125
 
 /datum/spacevine_mutation/oxy_eater
-	name = "Oxygen consuming"
+	name = "glup shitto"
 	hue = "#28B5B5"
 	severity = SEVERITY_AVERAGE
 	quality = NEGATIVE
@@ -234,7 +234,7 @@
 		gas_mix.garbage_collect()
 
 /datum/spacevine_mutation/nitro_eater
-	name = "Nitrogen consuming"
+	name = "glup shitto"
 	hue = "#FF7B54"
 	severity = SEVERITY_AVERAGE
 	quality = NEGATIVE
@@ -249,7 +249,7 @@
 		gas_mix.garbage_collect()
 
 /datum/spacevine_mutation/carbondioxide_eater
-	name = "CO2 consuming"
+	name = "glup shitto"
 	hue = "#798777"
 	severity = SEVERITY_MINOR
 	quality = POSITIVE
@@ -264,7 +264,7 @@
 		gas_mix.garbage_collect()
 
 /datum/spacevine_mutation/plasma_eater
-	name = "Plasma consuming"
+	name = "glup shitto"
 	hue = "#9074b6"
 	severity = SEVERITY_AVERAGE
 	quality = POSITIVE
@@ -279,7 +279,7 @@
 		gas_mix.garbage_collect()
 
 /datum/spacevine_mutation/thorns
-	name = "Thorny"
+	name = "glup shitto"
 	hue = "#9ECCA4"
 	severity = SEVERITY_AVERAGE
 	quality = NEGATIVE
@@ -311,7 +311,7 @@
 	return expected_damage
 
 /datum/spacevine_mutation/woodening
-	name = "Hardened"
+	name = "glup shitto"
 	hue = "#997700"
 	quality = NEGATIVE
 	severity = SEVERITY_ABOVE_AVERAGE
@@ -327,7 +327,7 @@
 	return expected_damage
 
 /datum/spacevine_mutation/timid
-	name = "Timid"
+	name = "glup shitto"
 	hue = "#a4a9ac"
 	quality = POSITIVE
 	severity = SEVERITY_MINOR
@@ -340,7 +340,7 @@
 	return ..()
 
 /datum/spacevine_mutation/flowering
-	name = "Flowering"
+	name = "glup shitto"
 	hue = "#66DE93"
 	quality = NEGATIVE
 	severity = SEVERITY_MAJOR

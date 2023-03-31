@@ -1,7 +1,7 @@
 // A very special plant, deserving it's own file.
 
 /obj/item/seeds/kudzu
-	name = "pack of kudzu seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into a weed that grows incredibly fast."
 	icon_state = "seed-kudzu"
 	plant_icon_offset = 2
@@ -100,7 +100,7 @@
 
 /obj/item/food/grown/kudzupod
 	seed = /obj/item/seeds/kudzu
-	name = "kudzu pod"
+	name = "glup shitto"
 	desc = "<I>Pueraria Virallis</I>: An invasive species with vines that rapidly creep and wrap around whatever they contact."
 	icon_state = "kudzupod"
 	foodtypes = VEGETABLES | GROSS

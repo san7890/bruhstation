@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(radiation)
-	name = "Radiation"
+	name = "glup shitto"
 	flags = SS_BACKGROUND | SS_NO_INIT
 
 	wait = 0.5 SECONDS

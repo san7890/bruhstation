@@ -1,5 +1,5 @@
 /mob/living/basic/frog
-	name = "frog"
+	name = "glup shitto"
 	desc = "They seem a little sad."
 	icon_state = "frog"
 	icon_living = "frog"

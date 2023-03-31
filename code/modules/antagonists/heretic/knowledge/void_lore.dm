@@ -27,7 +27,7 @@
  * Waltz at the End of Time
  */
 /datum/heretic_knowledge/limited_amount/starting/base_void
-	name = "Glimmer of Winter"
+	name = "glup shitto"
 	desc = "Opens up the Path of Void to you. \
 		Allows you to transmute a knife in sub-zero temperatures into a Void Blade. \
 		You can only create two at a time."
@@ -51,7 +51,7 @@
 	return ..()
 
 /datum/heretic_knowledge/void_grasp
-	name = "Grasp of Void"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp will temporarily mute and chill the victim."
 	gain_text = "I saw the cold watcher who observes me. The chill mounts within me. \
 		They are quiet. This isn't the end of the mystery."
@@ -76,7 +76,7 @@
 	carbon_target.apply_status_effect(/datum/status_effect/void_chill)
 
 /datum/heretic_knowledge/cold_snap
-	name = "Aristocrat's Way"
+	name = "glup shitto"
 	desc = "Grants you immunity to cold temperatures, and removes your need to breathe. \
 		You can still take damage due to a lack of pressure."
 	gain_text = "I found a thread of cold breath. It lead me to a strange shrine, all made of crystals. \
@@ -97,7 +97,7 @@
 	user.remove_traits(list(TRAIT_RESISTCOLD, TRAIT_NOBREATH), type)
 
 /datum/heretic_knowledge/mark/void_mark
-	name = "Mark of Void"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp now applies the Mark of Void. The mark is triggered from an attack with your Void Blade. \
 		When triggered, further silences the victim and swiftly lowers the temperature of their body and the air around them."
 	gain_text = "A gust of wind? A shimmer in the air? The presence is overwhelming, \
@@ -111,7 +111,7 @@
 	route = PATH_VOID
 
 /datum/heretic_knowledge/spell/void_cone
-	name = "Void Blast"
+	name = "glup shitto"
 	desc = "Grants you Void Blast, a spell that shoots out a freezing blast in a cone in front of you, \
 		freezing the ground and any victims within."
 	gain_text = "Every door I open racks my body. I am afraid of what is behind them. Someone is expecting me, \
@@ -122,7 +122,7 @@
 	route = PATH_VOID
 
 /datum/heretic_knowledge/spell/void_phase
-	name = "Void Phase"
+	name = "glup shitto"
 	desc = "Grants you Void Phase, a long range targeted teleport spell. \
 		Additionally causes damage to heathens around your original and target destination."
 	gain_text = "The entity calls themself the Aristocrat. They effortlessly walk through air like \
@@ -138,7 +138,7 @@
 	route = PATH_VOID
 
 /datum/heretic_knowledge/blade_upgrade/void
-	name = "Seeking Blade"
+	name = "glup shitto"
 	desc = "You can now attack distant marked targets with your Void Blade, teleporting directly next to them."
 	gain_text = "Fleeting memories, fleeting feet. I mark my way with frozen blood upon the snow. Covered and forgotten."
 	next_knowledge = list(/datum/heretic_knowledge/spell/void_pull)
@@ -157,7 +157,7 @@
 	blade.melee_attack_chain(user, target)
 
 /datum/heretic_knowledge/spell/void_pull
-	name = "Void Pull"
+	name = "glup shitto"
 	desc = "Grants you Void Pull, a spell that pulls all nearby heathens towards you, stunning them briefly."
 	gain_text = "All is fleeting, but what else stays? I'm close to ending what was started. \
 		The Aristocrat reveals themselves to me again. They tell me I am late. Their pull is immense, I cannot turn back."
@@ -171,7 +171,7 @@
 	route = PATH_VOID
 
 /datum/heretic_knowledge/ultimate/void_final
-	name = "Waltz at the End of Time"
+	name = "glup shitto"
 	desc = "The ascension ritual of the Path of Void. \
 		Bring 3 corpses to a transmutation rune in sub-zero temperatures to complete the ritual. \
 		When completed, causes a violent storm of void snow \

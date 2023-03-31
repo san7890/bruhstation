@@ -7,7 +7,7 @@
  * Bonus: Displays an annoying message! Should be used for buffing your disease.
 */
 /datum/symptom/itching
-	name = "Itching"
+	name = "glup shitto"
 	desc = "The virus irritates the skin, causing itching."
 	illness = "Discrete Itching"
 	stealth = 0

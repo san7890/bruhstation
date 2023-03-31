@@ -1,6 +1,6 @@
 /// Basic machine used to paint PDAs and re-trim ID cards.
 /obj/machinery/pdapainter
-	name = "\improper Tablet & ID Painter"
+	name = "glup shitto"
 	desc = "A painting machine that can be used to paint PDAs and trim IDs. To use, simply insert the item and choose the desired preset."
 	icon = 'icons/obj/pda.dmi'
 	icon_state = "pdapainter"
@@ -360,25 +360,25 @@
 
 /// Security departmental variant. Limited to PDAs defined in the SSid_access.sub_department_managers_tgui data structure.
 /obj/machinery/pdapainter/security
-	name = "\improper Security PDA & ID Painter"
+	name = "glup shitto"
 	target_dept = REGION_SECURITY
 
 /// Medical departmental variant. Limited to PDAs defined in the SSid_access.sub_department_managers_tgui data structure.
 /obj/machinery/pdapainter/medbay
-	name = "\improper Medbay PDA & ID Painter"
+	name = "glup shitto"
 	target_dept = REGION_MEDBAY
 
 /// Science departmental variant. Limited to PDAs defined in the SSid_access.sub_department_managers_tgui data structure.
 /obj/machinery/pdapainter/research
-	name = "\improper Research PDA & ID Painter"
+	name = "glup shitto"
 	target_dept = REGION_RESEARCH
 
 /// Engineering departmental variant. Limited to PDAs defined in the SSid_access.sub_department_managers_tgui data structure.
 /obj/machinery/pdapainter/engineering
-	name = "\improper Engineering PDA & ID Painter"
+	name = "glup shitto"
 	target_dept = REGION_ENGINEERING
 
 /// Supply departmental variant. Limited to PDAs defined in the SSid_access.sub_department_managers_tgui data structure.
 /obj/machinery/pdapainter/supply
-	name = "\improper Supply PDA & ID Painter"
+	name = "glup shitto"
 	target_dept = REGION_SUPPLY

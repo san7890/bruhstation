@@ -1,5 +1,5 @@
 /obj/item/implant/mindshield
-	name = "mindshield implant"
+	name = "glup shitto"
 	desc = "Protects against brainwashing."
 	actions_types = null
 
@@ -50,10 +50,10 @@
 	return TRUE
 
 /obj/item/implanter/mindshield
-	name = "implanter (mindshield)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/mindshield
 
 /obj/item/implantcase/mindshield
-	name = "implant case - 'Mindshield'"
+	name = "glup shitto"
 	desc = "A glass case containing a mindshield implant."
 	imp_type = /obj/item/implant/mindshield

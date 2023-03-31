@@ -3,7 +3,7 @@
 	crate_type = /obj/structure/closet/crate/critter
 
 /datum/supply_pack/critter/parrot
-	name = "Bird Crate"
+	name = "glup shitto"
 	desc = "Contains five expert telecommunication birds."
 	cost = CARGO_CRATE_VALUE * 8
 	access_view = ACCESS_CE
@@ -16,7 +16,7 @@
 		new /mob/living/simple_animal/parrot(.)
 
 /datum/supply_pack/critter/butterfly
-	name = "Butterflies Crate"
+	name = "glup shitto"
 	desc = "Not a very dangerous insect, but they do give off a better image than, say, flies or cockroaches."//is that a motherfucking worm reference
 	contraband = TRUE
 	cost = CARGO_CRATE_VALUE * 5
@@ -30,7 +30,7 @@
 		new /mob/living/simple_animal/butterfly(.)
 
 /datum/supply_pack/critter/cat
-	name = "Cat Crate"
+	name = "glup shitto"
 	desc = "The cat goes meow! Comes with a collar and a nice cat toy! Cheeseburger not included."//i can't believe im making this reference
 	cost = CARGO_CRATE_VALUE * 10 //Cats are worth as much as corgis.
 	access_view = ACCESS_MEDICAL
@@ -48,7 +48,7 @@
 		new /mob/living/simple_animal/pet/cat/_proc(.)
 
 /datum/supply_pack/critter/chick
-	name = "Chicken Crate"
+	name = "glup shitto"
 	desc = "The chicken goes bwaak!"
 	cost = CARGO_CRATE_VALUE * 4
 	access_view = ACCESS_KITCHEN
@@ -56,7 +56,7 @@
 	crate_name = "chicken crate"
 
 /datum/supply_pack/critter/corgi
-	name = "Corgi Crate"
+	name = "glup shitto"
 	desc = "Considered the optimal dog breed by thousands of research scientists, this Corgi is but \
 		one dog from the millions of Ian's noble bloodline. Comes with a cute collar!"
 	cost = CARGO_CRATE_VALUE * 10
@@ -75,7 +75,7 @@
 			new /mob/living/basic/pet/dog/corgi/lisa(.)
 
 /datum/supply_pack/critter/cow
-	name = "Cow Crate"
+	name = "glup shitto"
 	desc = "The cow goes moo! Contains one cow."
 	cost = CARGO_CRATE_VALUE * 6
 	access_view = ACCESS_HYDROPONICS
@@ -83,7 +83,7 @@
 	crate_name = "cow crate"
 
 /datum/supply_pack/critter/sheep
-	name = "Sheep Crate"
+	name = "glup shitto"
 	desc = "The sheep goes BAAAA! Contains one sheep."
 	cost = CARGO_CRATE_VALUE * 6
 	access_view = ACCESS_HYDROPONICS
@@ -91,7 +91,7 @@
 	crate_name = "sheep crate"
 
 /datum/supply_pack/critter/pig
-	name = "Pig Crate"
+	name = "glup shitto"
 	desc = "The pig goes oink! Contains one pig."
 	cost = CARGO_CRATE_VALUE * 6
 	access_view = ACCESS_KITCHEN
@@ -99,7 +99,7 @@
 	crate_name = "pig crate"
 
 /datum/supply_pack/critter/crab
-	name = "Crab Rocket"
+	name = "glup shitto"
 	desc = "CRAAAAAAB ROCKET. CRAB ROCKET. CRAB ROCKET. CRAB CRAB CRAB CRAB CRAB CRAB CRAB \
 		CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB \
 		CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB CRAB \
@@ -119,7 +119,7 @@
 		new /mob/living/simple_animal/crab(.)
 
 /datum/supply_pack/critter/corgis/exotic
-	name = "Exotic Corgi Crate"
+	name = "glup shitto"
 	desc = "Corgi fit for a king, this corgi comes in a unique color to signify their superiority. \
 		Comes with a cute collar!"
 	cost = CARGO_CRATE_VALUE * 11
@@ -129,7 +129,7 @@
 	crate_name = "exotic corgi crate"
 
 /datum/supply_pack/critter/fox
-	name = "Fox Crate"
+	name = "glup shitto"
 	desc = "The fox goes...? Contains one fox. Comes with a collar!"//what does the fox say
 	cost = CARGO_CRATE_VALUE * 10
 	access_view = ACCESS_CAPTAIN
@@ -139,7 +139,7 @@
 	crate_name = "fox crate"
 
 /datum/supply_pack/critter/goat
-	name = "Goat Crate"
+	name = "glup shitto"
 	desc = "The goat goes baa! Contains one goat. Warranty void if used as a replacement for Pete."
 	cost = CARGO_CRATE_VALUE * 5
 	access_view = ACCESS_KITCHEN
@@ -147,14 +147,14 @@
 	crate_name = "goat crate"
 
 /datum/supply_pack/critter/rabbit
-	name = "Rabbit Crate"
+	name = "glup shitto"
 	desc = "What noise do rabbits even make? Contains one rabbit."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/mob/living/basic/rabbit)
 	crate_name = "rabbit crate"
 
 /datum/supply_pack/critter/mothroach
-	name = "Mothroach Crate"
+	name = "glup shitto"
 	desc = "Put the mothroach on your head and find out what true cuteness looks like. \
 		Contains one mothroach."
 	cost = CARGO_CRATE_VALUE * 4
@@ -162,7 +162,7 @@
 	crate_name = "mothroach crate"
 
 /datum/supply_pack/critter/monkey
-	name = "Monkey Cube Crate"
+	name = "glup shitto"
 	desc = "Stop monkeying around! Contains seven monkey cubes. Just add water!"
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list (/obj/item/storage/box/monkeycubes)
@@ -170,7 +170,7 @@
 	crate_name = "monkey cube crate"
 
 /datum/supply_pack/critter/pug
-	name = "Pug Crate"
+	name = "glup shitto"
 	desc = "Like a normal dog, but... squished. Contains one pug. Comes with a nice collar!"
 	cost = CARGO_CRATE_VALUE * 10
 	contains = list(/mob/living/basic/pet/dog/pug,
@@ -179,7 +179,7 @@
 	crate_name = "pug crate"
 
 /datum/supply_pack/critter/bullterrier
-	name = "Bull Terrier Crate"
+	name = "glup shitto"
 	desc = "Like a normal dog, but with a head the shape of an egg. Contains one bull terrier. \
 		Comes with a nice collar!"
 	cost = CARGO_CRATE_VALUE * 10
@@ -189,7 +189,7 @@
 	crate_name = "bull terrier crate"
 
 /datum/supply_pack/critter/snake
-	name = "Snake Crate"
+	name = "glup shitto"
 	desc = "Tired of these MOTHER FUCKING snakes on this MOTHER FUCKING space station? \
 		Then this isn't the crate for you. Contains three venomous snakes."
 	cost = CARGO_CRATE_VALUE * 6
@@ -198,7 +198,7 @@
 	crate_name = "snake crate"
 
 /datum/supply_pack/critter/amphibians
-	name = "Amphibian Friends Crate"
+	name = "glup shitto"
 	desc = "Two disgustingly cute slimey friends. Cytologists love them! \
 		Contains one frog and one axolotl. Warning: Frog may have hallucinogenic properties."
 	cost = CARGO_CRATE_VALUE * 4
@@ -209,7 +209,7 @@
 	crate_name = "amphibian crate"
 
 /datum/supply_pack/critter/lizard
-	name = "Lizard Crate"
+	name = "glup shitto"
 	desc = "Hisss! Containssss a friendly lizard. Not to be confusssed with a lizardperssson."
 	cost = CARGO_CRATE_VALUE * 4
 	access_view = ACCESS_JANITOR
@@ -217,7 +217,7 @@
 	crate_name = "lizard crate"
 
 /datum/supply_pack/critter/garden_gnome
-	name = "Garden Gnome Crate"
+	name = "glup shitto"
 	desc = "Collect them all for your garden. Comes with three!"
 	hidden = TRUE
 	cost = CARGO_CRATE_VALUE * 20

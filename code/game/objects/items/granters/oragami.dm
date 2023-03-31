@@ -1,6 +1,6 @@
 /obj/item/book/granter/action/origami
 	granted_action = /datum/action/innate/origami
-	name = "The Art of Origami"
+	name = "glup shitto"
 	desc = "A meticulously in-depth manual explaining the art of paper folding."
 	icon_state = "origamibook"
 	action_name = "origami"
@@ -15,7 +15,7 @@
 	)
 
 /datum/action/innate/origami
-	name = "Origami Folding"
+	name = "glup shitto"
 	desc = "Toggles your ability to fold and catch robust paper airplanes."
 	button_icon_state = "origami_off"
 	check_flags = NONE

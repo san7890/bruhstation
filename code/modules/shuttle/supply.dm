@@ -41,7 +41,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 #define CRATE_TAX 700
 
 /obj/docking_port/mobile/supply
-	name = "supply shuttle"
+	name = "glup shitto"
 	shuttle_id = "cargo"
 	callTime = 600
 

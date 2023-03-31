@@ -1,6 +1,6 @@
 /// The wizard's teleport SPELL
 /datum/action/cooldown/spell/teleport/area_teleport/wizard
-	name = "Teleport"
+	name = "glup shitto"
 	desc = "This spell teleports you to an area of your selection."
 	button_icon_state = "teleport"
 	sound = 'sound/magic/teleport_diss.ogg'
@@ -19,7 +19,7 @@
 
 // Santa's teleport, themed as such
 /datum/action/cooldown/spell/teleport/area_teleport/wizard/santa
-	name = "Santa Teleport"
+	name = "glup shitto"
 
 	invocation = "HO HO HO!"
 	spell_requirements = NONE
@@ -29,7 +29,7 @@
 
 /// Used by the wizard's teleport scroll
 /datum/action/cooldown/spell/teleport/area_teleport/wizard/scroll
-	name = "Teleport (scroll)"
+	name = "glup shitto"
 	cooldown_time = 0 SECONDS
 
 	invocation = null

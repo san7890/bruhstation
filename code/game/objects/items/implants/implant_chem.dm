@@ -1,5 +1,5 @@
 /obj/item/implant/chem
-	name = "chem implant"
+	name = "glup shitto"
 	desc = "Injects things."
 	icon_state = "reagents"
 	actions_types = null
@@ -61,7 +61,7 @@
 
 
 /obj/item/implantcase/chem
-	name = "implant case - 'Remote Chemical'"
+	name = "glup shitto"
 	desc = "A glass case containing a remote chemical implant."
 	imp_type = /obj/item/implant/chem
 

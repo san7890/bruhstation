@@ -1,5 +1,5 @@
 /obj/item/paper/carbon
-	name = "sheet of carbon"
+	name = "glup shitto"
 	icon_state = "paper_stack"
 	inhand_icon_state = "paper"
 	show_written_words = FALSE

@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/justice
-	name = "justice hat"
+	name = "glup shitto"
 	desc = "Fight for what's righteous!"
 	icon_state = "justicered"
 	inhand_icon_state = null

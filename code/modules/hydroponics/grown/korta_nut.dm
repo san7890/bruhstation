@@ -1,6 +1,6 @@
 //Korta Nut
 /obj/item/seeds/korta_nut
-	name = "pack of korta nut seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into korta nut bushes, native to Tizira."
 	icon_state = "seed-korta"
 	species = "kortanut"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/korta_nut
 	seed = /obj/item/seeds/korta_nut
-	name = "korta nut"
+	name = "glup shitto"
 	desc = "A little nut of great importance. Has a peppery shell which can be ground into flour and a soft, pulpy interior that produces a milky fluid when juiced. Or you can eat them whole, as a quick snack."
 	icon_state = "korta_nut"
 	foodtypes = NUTS
@@ -29,7 +29,7 @@
 
 //Sweet Korta Nut
 /obj/item/seeds/korta_nut/sweet
-	name = "pack of sweet korta nut seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into sweet korta nuts, a mutation of the original species that produces a thick syrup that Tizirans use for desserts."
 	icon_state = "seed-sweetkorta"
 	species = "kortanut"
@@ -43,7 +43,7 @@
 
 /obj/item/food/grown/korta_nut/sweet
 	seed = /obj/item/seeds/korta_nut/sweet
-	name = "sweet korta nut"
+	name = "glup shitto"
 	desc = "A sweet treat lizards love to eat."
 	icon_state = "korta_nut"
 	grind_results = list(/datum/reagent/consumable/korta_flour = 0)

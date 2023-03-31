@@ -1,5 +1,5 @@
 /obj/effect/spawner/xeno_egg_delivery
-	name = "xeno egg delivery"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	icon_state = "egg_growing"
 	var/announcement_time = 120 SECONDS
@@ -18,7 +18,7 @@
 	SSticker.OnRoundstart(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(_addtimer), CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(print_command_report), message), announcement_time))
 
 /obj/structure/alien/egg/delivery
-	name = "xenobiological specimen egg"
+	name = "glup shitto"
 	desc = "A large mottled egg, sent as a part of a Xenobiological Research Initiative by the higher-ups. Handle with care!"
 	max_integrity = 300
 

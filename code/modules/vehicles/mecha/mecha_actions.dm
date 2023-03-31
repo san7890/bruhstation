@@ -20,7 +20,7 @@
 	chassis = passed_chassis
 
 /datum/action/vehicle/sealed/mecha/mech_eject
-	name = "Eject From Mech"
+	name = "glup shitto"
 	button_icon_state = "mech_eject"
 
 /datum/action/vehicle/sealed/mecha/mech_eject/Trigger(trigger_flags)
@@ -31,7 +31,7 @@
 	chassis.container_resist_act(owner)
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_internals
-	name = "Toggle Internal Airtank Usage"
+	name = "glup shitto"
 	button_icon_state = "mech_internals_off"
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_internals/Trigger(trigger_flags)
@@ -51,7 +51,7 @@
 	build_all_button_icons()
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_lights
-	name = "Toggle Lights"
+	name = "glup shitto"
 	button_icon_state = "mech_lights_off"
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_lights/Trigger(trigger_flags)
@@ -73,7 +73,7 @@
 	build_all_button_icons()
 
 /datum/action/vehicle/sealed/mecha/mech_view_stats
-	name = "View Stats"
+	name = "glup shitto"
 	button_icon_state = "mech_view_stats"
 
 /datum/action/vehicle/sealed/mecha/mech_view_stats/Trigger(trigger_flags)
@@ -83,7 +83,7 @@
 	chassis.ui_interact(owner)
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_safeties
-	name = "Toggle Equipment Safeties"
+	name = "glup shitto"
 	button_icon_state = "mech_safeties_off"
 
 /datum/action/vehicle/sealed/mecha/mech_toggle_safeties/set_chassis(passed_chassis)
@@ -105,7 +105,7 @@
 	build_all_button_icons()
 
 /datum/action/vehicle/sealed/mecha/strafe
-	name = "Toggle Strafing. Disabled when Alt is held."
+	name = "glup shitto"
 	button_icon_state = "strafe"
 
 /datum/action/vehicle/sealed/mecha/strafe/Trigger(trigger_flags)
@@ -139,7 +139,7 @@
 
 ///swap seats, for two person mecha
 /datum/action/vehicle/sealed/mecha/swap_seat
-	name = "Switch Seats"
+	name = "glup shitto"
 	button_icon_state = "mech_seat_swap"
 
 /datum/action/vehicle/sealed/mecha/swap_seat/Trigger(trigger_flags)

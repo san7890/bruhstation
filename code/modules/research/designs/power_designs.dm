@@ -3,7 +3,7 @@
 ////////////////////////////////////////
 
 /datum/design/basic_cell
-	name = "Basic Power Cell"
+	name = "glup shitto"
 	desc = "A basic power cell that holds 1 MJ of energy."
 	id = "basic_cell"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE |MECHFAB
@@ -16,7 +16,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/high_cell
-	name = "High-Capacity Power Cell"
+	name = "glup shitto"
 	desc = "A power cell that holds 10 MJ of energy."
 	id = "high_cell"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE | MECHFAB
@@ -29,7 +29,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/super_cell
-	name = "Super-Capacity Power Cell"
+	name = "glup shitto"
 	desc = "A power cell that holds 20 MJ of energy."
 	id = "super_cell"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -42,7 +42,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/hyper_cell
-	name = "Hyper-Capacity Power Cell"
+	name = "glup shitto"
 	desc = "A power cell that holds 30 MJ of energy."
 	id = "hyper_cell"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -55,7 +55,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/bluespace_cell
-	name = "Bluespace Power Cell"
+	name = "glup shitto"
 	desc = "A power cell that holds 40 MJ of energy."
 	id = "bluespace_cell"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -68,7 +68,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/inducer
-	name = "Inducer"
+	name = "glup shitto"
 	desc = "The NT-75 Electromagnetic Power Inducer can wirelessly induce electric charge in an object, allowing you to recharge power cells without having to remove them."
 	id = "inducer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -80,7 +80,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/board/pacman
-	name = "PACMAN Board"
+	name = "glup shitto"
 	desc = "The circuit board for a PACMAN-type portable generator."
 	id = "pacman"
 	build_path = /obj/item/circuitboard/machine/pacman
@@ -90,7 +90,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/turbine_part_compressor
-	name = "Turbine Compressor"
+	name = "glup shitto"
 	desc = "The basic tier of a compressor blade."
 	id = "turbine_part_compressor"
 	build_type = PROTOLATHE
@@ -103,7 +103,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/turbine_part_rotor
-	name = "Turbine Rotor"
+	name = "glup shitto"
 	desc = "The basic tier of a rotor shaft."
 	id = "turbine_part_rotor"
 	build_type = PROTOLATHE
@@ -116,7 +116,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/turbine_part_stator
-	name = "Turbine Stator"
+	name = "glup shitto"
 	desc = "The basic tier of a stator."
 	id = "turbine_part_stator"
 	build_type = PROTOLATHE

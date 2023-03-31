@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/rtd
-	name = "rtd"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/rtd/create_spritesheets()
 	//some tiles may share the same icon but have diffrent properties to animate that icon

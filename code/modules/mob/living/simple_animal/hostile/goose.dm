@@ -1,6 +1,6 @@
 #define GOOSE_SATIATED 50
 /mob/living/simple_animal/hostile/retaliate/goose
-	name = "goose"
+	name = "glup shitto"
 	desc = "It's loose"
 	icon_state = "goose" // sprites by cogwerks from goonstation, used with permission
 	icon_living = "goose"
@@ -78,7 +78,7 @@
 		return TRUE
 
 /mob/living/simple_animal/hostile/retaliate/goose/vomit
-	name = "Birdboat"
+	name = "glup shitto"
 	real_name = "Birdboat"
 	desc = "It's a sick-looking goose, probably ate too much maintenance trash. Best not to move it around too much."
 	gender = MALE
@@ -245,7 +245,7 @@
 	stop_automated_movement = TRUE
 
 /datum/action/cooldown/vomit
-	name = "Vomit"
+	name = "glup shitto"
 	check_flags = AB_CHECK_CONSCIOUS | AB_CHECK_INCAPACITATED
 	button_icon_state = "vomit"
 	button_icon = 'icons/mob/simple/animal.dmi'

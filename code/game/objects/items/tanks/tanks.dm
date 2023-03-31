@@ -8,7 +8,7 @@
  * Can rupture explosively if overpressurized
  */
 /obj/item/tank
-	name = "tank"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/tank.dmi'
 	icon_state = "generic"
 	inhand_icon_state = "generic_tank"

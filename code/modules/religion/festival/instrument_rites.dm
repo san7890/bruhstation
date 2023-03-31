@@ -1,6 +1,6 @@
 ///prototype for rites that tune a song.
 /datum/religion_rites/song_tuner
-	name = "Tune Song"
+	name = "glup shitto"
 	desc = "this is a prototype."
 	ritual_length = 10 SECONDS
 	favor_cost = 10
@@ -43,7 +43,7 @@
 	return
 
 /datum/religion_rites/song_tuner/evangelism
-	name = "Evangelical Hymn"
+	name = "glup shitto"
 	desc = "Spreads the word of your god, gaining favor for each non-holy listener. At the end of the song, you'll bless all listeners, improving mood."
 	particles_path = /particles/musical_notes/holy
 	song_invocation_message = "You've prepared a holy song!"
@@ -61,7 +61,7 @@
 	listener.add_mood_event("blessing", /datum/mood_event/blessing)
 
 /datum/religion_rites/song_tuner/nullwave
-	name = "Nullwave Vibrato"
+	name = "glup shitto"
 	desc = "Sing a dull song, protecting those who listen from magic."
 	particles_path = /particles/musical_notes/nullwave
 	song_invocation_message = "You've prepared an antimagic song!"
@@ -73,7 +73,7 @@
 	listener.apply_status_effect(/datum/status_effect/song/antimagic)
 
 /datum/religion_rites/song_tuner/pain
-	name = "Murderous Chord"
+	name = "glup shitto"
 	desc = "Sing a sharp song, cutting those around you. Works less effectively on fellow priests. At the end of the song, you'll open the wounds of all listeners."
 	particles_path = /particles/musical_notes/harm
 	song_invocation_message = "You've prepared a painful song!"
@@ -93,7 +93,7 @@
 	sliced_limb.force_wound_upwards(/datum/wound/slash/moderate/many_cuts)
 
 /datum/religion_rites/song_tuner/lullaby
-	name = "Spiritual Lullaby"
+	name = "glup shitto"
 	desc = "Sing a lullaby, tiring those around you, making them slower. At the end of the song, you'll put people who are tired enough to sleep."
 	particles_path = /particles/musical_notes/sleepy
 	song_invocation_message = "You've prepared a sleepy song!"

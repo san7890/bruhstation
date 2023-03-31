@@ -1,6 +1,6 @@
 /// moonicorn subtype, very hostile unless there's some food to be eatin'
 /mob/living/basic/cow/moonicorn
-	name = "moonicorn"
+	name = "glup shitto"
 	desc = "Magical cow of legend. Its horn will pacify anything it touches, rendering victims mostly helpless. \
 		Victims, yes, because despite the enimatic and wonderous appearance, the moonicorn is incredibly aggressive."
 	icon_state = "moonicorn"

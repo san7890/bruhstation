@@ -209,7 +209,7 @@
  * # Wrapped up crates and lockers - too big to carry.
  */
 /obj/item/delivery/big
-	name = "large parcel"
+	name = "glup shitto"
 	desc = "A large delivery parcel."
 	icon_state = "deliverycloset"
 	density = TRUE
@@ -228,7 +228,7 @@
  * # Wrapped up items small enough to carry.
  */
 /obj/item/delivery/small
-	name = "parcel"
+	name = "glup shitto"
 	desc = "A brown paper delivery parcel."
 	icon_state = "deliverypackage3"
 
@@ -256,7 +256,7 @@
 	return COMPONENT_CANCEL_ATTACK_CHAIN
 
 /obj/item/dest_tagger
-	name = "destination tagger"
+	name = "glup shitto"
 	desc = "Used to set the destination of properly wrapped packages."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "cargo tagger"
@@ -271,7 +271,7 @@
 	slot_flags = ITEM_SLOT_BELT
 
 /obj/item/dest_tagger/borg
-	name = "cyborg destination tagger"
+	name = "glup shitto"
 	desc = "Used to fool the disposal mail network into thinking that you're a harmless parcel. Does actually work as a regular destination tagger as well."
 
 /obj/item/dest_tagger/suicide_act(mob/living/user)
@@ -323,7 +323,7 @@
 	return TRUE
 
 /obj/item/sales_tagger
-	name = "sales tagger"
+	name = "glup shitto"
 	desc = "A scanner that lets you tag wrapped items for sale, splitting the profit between you and cargo."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "sales tagger"

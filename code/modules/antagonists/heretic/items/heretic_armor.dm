@@ -1,6 +1,6 @@
 // Eldritch armor. Looks cool, hood lets you cast heretic spells.
 /obj/item/clothing/head/hooded/cult_hoodie/eldritch
-	name = "ominous hood"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	icon_state = "eldritch"
@@ -14,7 +14,7 @@
 	AddElement(/datum/element/heretic_focus)
 
 /obj/item/clothing/suit/hooded/cultrobes/eldritch
-	name = "ominous armor"
+	name = "glup shitto"
 	desc = "A ragged, dusty set of robes. Strange eyes line the inside."
 	icon_state = "eldritch_armor"
 	inhand_icon_state = null
@@ -47,7 +47,7 @@
 
 // Void cloak. Turns invisible with the hood up, lets you hide stuff.
 /obj/item/clothing/head/hooded/cult_hoodie/void
-	name = "void hood"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	desc = "Black like tar, doesn't reflect any light. Runic symbols line the outside, \
@@ -70,7 +70,7 @@
 	ADD_TRAIT(src, TRAIT_NO_STRIP, REF(src))
 
 /obj/item/clothing/suit/hooded/cultrobes/void
-	name = "void cloak"
+	name = "glup shitto"
 	desc = "Black like tar, doesn't reflect any light. Runic symbols line the outside, \
 		with each flash you loose comprehension of what you are seeing."
 	icon_state = "void_cloak"

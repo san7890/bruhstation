@@ -4,7 +4,7 @@ Regenerative extracts:
 	Has a unique additional effect.
 */
 /obj/item/slimecross/regenerative
-	name = "regenerative extract"
+	name = "glup shitto"
 	desc = "It's filled with a milky substance, and pulses like a heartbeat."
 	effect = "regenerative"
 	icon_state = "regenerative"

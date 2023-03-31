@@ -2,7 +2,7 @@
 // This is the pipe that you drag around, not the attached ones.
 
 /obj/structure/disposalconstruct
-	name = "disposal pipe segment"
+	name = "glup shitto"
 	desc = "A huge pipe segment used for constructing disposal systems."
 	icon = 'icons/obj/atmospherics/pipes/disposal.dmi'
 	icon_state = "conpipe"

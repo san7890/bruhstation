@@ -4,7 +4,7 @@
 
 //Elite mining mobs
 /mob/living/simple_animal/hostile/asteroid/elite
-	name = "elite"
+	name = "glup shitto"
 	desc = "An elite monster, found in one of the strange tumors on lavaland."
 	icon = 'icons/mob/simple/lavaland/lavaland_elites.dmi'
 	faction = list(FACTION_BOSS)
@@ -68,7 +68,7 @@
 While using this makes the system rely on OnFire, it still gives options for timers not tied to OnFire, and it makes using attacks consistent accross the board for player-controlled elites.*/
 
 /datum/action/innate/elite_attack
-	name = "Elite Attack"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_elites.dmi'
 	button_icon_state = ""
 	background_icon_state = "bg_default"
@@ -121,7 +121,7 @@ While using this makes the system rely on OnFire, it still gives options for tim
 //The Pulsing Tumor, the actual "spawn-point" of elites, handles the spawning, arena, and procs for dealing with basic scenarios.
 
 /obj/structure/elite_tumor
-	name = "pulsing tumor"
+	name = "glup shitto"
 	desc = "An odd, pulsing tumor sticking out of the ground.  You feel compelled to reach out and touch it..."
 	armor_type = /datum/armor/structure_elite_tumor
 	resistance_flags = INDESTRUCTIBLE
@@ -351,7 +351,7 @@ While using this makes the system rely on OnFire, it still gives options for tim
 		to_chat(mychild, "<span class='big bold'>Note that you are a lavaland monster, and thus not allied to the station. You should not cooperate or act friendly with any station crew unless under extreme circumstances!</span>")
 
 /obj/item/tumor_shard
-	name = "tumor shard"
+	name = "glup shitto"
 	desc = "A strange, sharp, crystal shard from an odd tumor on Lavaland.  Stabbing the corpse of a lavaland elite with this will revive them, assuming their soul still lingers.  Revived lavaland elites only have half their max health, but are completely loyal to their reviver."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "crevice_shard"
@@ -385,7 +385,7 @@ While using this makes the system rely on OnFire, it still gives options for tim
 		to_chat(user, span_info("[src] only works on the corpse of a sentient lavaland elite."))
 
 /obj/effect/temp_visual/elite_tumor_wall
-	name = "magic wall"
+	name = "glup shitto"
 	icon = 'icons/turf/walls/hierophant_wall_temp.dmi'
 	icon_state = "hierophant_wall_temp-0"
 	base_icon_state = "hierophant_wall_temp"

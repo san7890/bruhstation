@@ -1,5 +1,5 @@
 /obj/item/implant/krav_maga
-	name = "krav maga implant"
+	name = "glup shitto"
 	desc = "Teaches you the arts of Krav Maga in 5 short instructional videos beamed directly into your eyeballs."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state ="scroll2"
@@ -26,10 +26,10 @@
 		style.teach(H,1)
 
 /obj/item/implanter/krav_maga
-	name = "implanter (krav maga)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/krav_maga
 
 /obj/item/implantcase/krav_maga
-	name = "implant case - 'Krav Maga'"
+	name = "glup shitto"
 	desc = "A glass case containing an implant that can teach the user the arts of Krav Maga."
 	imp_type = /obj/item/implant/krav_maga

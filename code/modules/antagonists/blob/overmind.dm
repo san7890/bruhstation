@@ -6,7 +6,7 @@ GLOBAL_LIST_EMPTY(blob_nodes)
 
 
 /mob/camera/blob
-	name = "Blob Overmind"
+	name = "glup shitto"
 	real_name = "Blob Overmind"
 	desc = "The overmind. It controls the blob."
 	icon = 'icons/mob/silicon/cameramob.dmi'

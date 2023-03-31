@@ -4,7 +4,7 @@
 
 /// Holymelon's anti-magic trait. Charges based on potency.
 /datum/plant_gene/trait/anti_magic
-	name = "Anti-Magic Vacuoles"
+	name = "glup shitto"
 	description = "You can hide behind it from a fireball!"
 	icon = "hand-sparkles"
 	/// The amount of anti-magic blocking uses we have.
@@ -37,7 +37,7 @@
 
 /// Traits that turn a plant into a weapon, giving them force and effects on attack.
 /datum/plant_gene/trait/attack
-	name = "On Attack Trait"
+	name = "glup shitto"
 	description = "It is a very dangerous weapon."
 	icon = "hand-fist"
 	/// The multiplier we apply to the potency to calculate force. Set to 0 to not affect the force.
@@ -120,7 +120,7 @@
 
 /// Novaflower's attack effects (sets people on fire) + degradation on attack
 /datum/plant_gene/trait/attack/novaflower_attack
-	name = "Heated Petals"
+	name = "glup shitto"
 	description = "Hitting with it may cause things to combust."
 	force_multiplier = 0.2
 	degrades_after_hit = TRUE
@@ -141,7 +141,7 @@
 
 /// Sunflower's attack effect (shows cute text)
 /datum/plant_gene/trait/attack/sunflower_attack
-	name = "Bright Petals"
+	name = "glup shitto"
 	description = "Makes others feel the power on hit."
 
 /datum/plant_gene/trait/attack/sunflower_attack/after_attack_effect(obj/item/our_plant, atom/target, mob/user, proximity_flag, click_parameters)
@@ -156,18 +156,18 @@
 
 /// Normal nettle's force + degradation on attack
 /datum/plant_gene/trait/attack/nettle_attack
-	name = "Sharpened Leaves"
+	name = "glup shitto"
 	force_multiplier = 0.2
 	degrades_after_hit = TRUE
 
 /// Deathnettle force + degradation on attack
 /datum/plant_gene/trait/attack/nettle_attack/death
-	name = "Aggressive Sharpened Leaves"
+	name = "glup shitto"
 	force_multiplier = 0.4
 
 /// Traits for plants with backfire effects. These are negative effects that occur when a plant is handled without gloves/unsafely.
 /datum/plant_gene/trait/backfire
-	name = "Backfire Trait"
+	name = "glup shitto"
 	icon = "mitten"
 	description = "Be careful when holding it without protection."
 	/// Whether our actions are cancelled when the backfire triggers.
@@ -200,7 +200,7 @@
 
 /// Rose's prick on backfire
 /datum/plant_gene/trait/backfire/rose_thorns
-	name = "Rose Thorns"
+	name = "glup shitto"
 	description = "The stem has a lot of thorns."
 	traits_to_check = list(TRAIT_PIERCEIMMUNE)
 
@@ -217,7 +217,7 @@
 
 /// Novaflower's hand burn on backfire
 /datum/plant_gene/trait/backfire/novaflower_heat
-	name = "Burning Stem"
+	name = "glup shitto"
 	description = "The stem may burn your hand."
 	cancel_action_on_backfire = TRUE
 
@@ -229,7 +229,7 @@
 
 /// Normal Nettle hannd burn on backfire
 /datum/plant_gene/trait/backfire/nettle_burn
-	name = "Stinging Stem"
+	name = "glup shitto"
 	description = "The stem may sting your hand."
 
 /datum/plant_gene/trait/backfire/nettle_burn/backfire_effect(obj/item/our_plant, mob/living/carbon/user)
@@ -240,7 +240,7 @@
 
 /// Deathnettle hand burn + stun on backfire
 /datum/plant_gene/trait/backfire/nettle_burn/death
-	name = "Aggressive Stinging Stem"
+	name = "glup shitto"
 	cancel_action_on_backfire = TRUE
 
 /datum/plant_gene/trait/backfire/nettle_burn/death/backfire_effect(obj/item/our_plant, mob/living/carbon/user)
@@ -253,7 +253,7 @@
 
 /// Ghost-Chili heating up on backfire
 /datum/plant_gene/trait/backfire/chili_heat
-	name = "Active Capsicum Glands"
+	name = "glup shitto"
 	description = "You may survive a cold winter with this in hand."
 	genes_to_check = list(/datum/plant_gene/trait/chem_heating)
 	/// The mob currently holding the chili.
@@ -309,7 +309,7 @@
 
 /// Bluespace Tomato squashing on the user on backfire
 /datum/plant_gene/trait/backfire/bluespace
-	name = "Bluespace Volatility"
+	name = "glup shitto"
 	description = "You may be spaced out if you hold this unprotected."
 	cancel_action_on_backfire = TRUE
 	genes_to_check = list(/datum/plant_gene/trait/squash)
@@ -326,7 +326,7 @@
 
 /// Traits for plants that can be activated to turn into a mob.
 /datum/plant_gene/trait/mob_transformation
-	name = "Dormant Ferocity"
+	name = "glup shitto"
 	description = "It comes to life when shaken in hand."
 	icon = "heart-pulse"
 	trait_ids = ATTACK_SELF_ID
@@ -460,7 +460,7 @@
 
 /// Traiit for plants eaten in 1 bite.
 /datum/plant_gene/trait/one_bite
-	name = "Large Bites"
+	name = "glup shitto"
 	description = "You can't hold off from eating this in one bite!"
 	icon = "drumstick-bite"
 
@@ -475,7 +475,7 @@
 
 /// Traits for plants with a different base max_volume.
 /datum/plant_gene/trait/modified_volume
-	name = "Deep Vesicles"
+	name = "glup shitto"
 	description = "It has more reagents than usual."
 	icon = "vials"
 	/// The new number we set the plant's max_volume to.
@@ -492,17 +492,17 @@
 
 /// Omegaweed's funny 420 max volume gene
 /datum/plant_gene/trait/modified_volume/omega_weed
-	name = "Dank Vesicles"
+	name = "glup shitto"
 	new_capcity = 420
 
 /// Cherry Bomb's increased max volume gene
 /datum/plant_gene/trait/modified_volume/cherry_bomb
-	name = "Powder-Filled Bulbs"
+	name = "glup shitto"
 	new_capcity = 125
 
 /// Plants that explode when used (based on their reagent contents)
 /datum/plant_gene/trait/bomb_plant
-	name = "Explosive Contents"
+	name = "glup shitto"
 	description = "Don't shake it, the contents may explode."
 	icon = "bomb"
 	trait_ids = ATTACK_SELF_ID
@@ -581,7 +581,7 @@
 
 /// A subtype of bomb plants that have their boom sized based on potency instead of reagent contents.
 /datum/plant_gene/trait/bomb_plant/potency_based
-	name = "Explosive Nature"
+	name = "glup shitto"
 
 /datum/plant_gene/trait/bomb_plant/potency_based/trigger_detonation(obj/item/our_plant, mob/living/user)
 	user.visible_message(
@@ -610,7 +610,7 @@
 /// Corpseflower's miasma production.
 /// Can be generalized in the future to spawn any gas, but I don't think that's necessarily a good idea.
 /datum/plant_gene/trait/gas_production
-	name = "Miasma Gas Production"
+	name = "glup shitto"
 	description = "This plant stinks when grown."
 	icon = "wind"
 	/// The location of our tray, if we have one.

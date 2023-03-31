@@ -1,6 +1,6 @@
 //Baseline portable generator. Has all the default handling. Not intended to be used on it's own (since it generates unlimited power).
 /obj/machinery/power/port_gen
-	name = "portable generator"
+	name = "glup shitto"
 	desc = "A portable generator for emergency backup power."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "portgen0_0"
@@ -79,7 +79,7 @@
 // P.A.C.M.A.N //
 /////////////////
 /obj/machinery/power/port_gen/pacman
-	name = "\improper P.A.C.M.A.N.-type portable generator"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/machine/pacman
 	power_gen = 5000
 	var/sheets = 0

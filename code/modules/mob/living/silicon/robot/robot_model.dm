@@ -7,7 +7,7 @@
  *
  **/
 /obj/item/robot_model
-	name = "Default"
+	name = "glup shitto"
 	icon = 'icons/obj/module.dmi'
 	icon_state = "std_mod"
 	w_class = WEIGHT_CLASS_GIGANTIC
@@ -276,7 +276,7 @@
 	return TRUE
 
 /obj/item/robot_model/clown
-	name = "Clown"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/toy/crayon/rainbow,
@@ -313,7 +313,7 @@
 		soap.uses += ROUND_UP(initial(soap.uses) / 100) * coeff
 
 /obj/item/robot_model/engineering
-	name = "Engineering"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/borg/sight/meson,
@@ -348,7 +348,7 @@
 	hat_offset = -4
 
 /obj/item/robot_model/janitor
-	name = "Janitor"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/screwdriver/cyborg,
@@ -389,7 +389,7 @@
 	return ..()
 
 /datum/action/toggle_buffer
-	name = "Activate Auto-Wash"
+	name = "glup shitto"
 	desc = "Trade speed and water for a clean floor."
 	button_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "activate_wash"
@@ -578,12 +578,12 @@
 	return ..()
 
 /obj/item/reagent_containers/spray/cyborg_drying
-	name = "drying agent spray"
+	name = "glup shitto"
 	color = "#A000A0"
 	list_reagents = list(/datum/reagent/drying_agent = 250)
 
 /obj/item/reagent_containers/spray/cyborg_lube
-	name = "lube spray"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/lube = 250)
 
 /obj/item/robot_model/janitor/respawn_consumable(mob/living/silicon/robot/cyborg, coeff = 1)
@@ -608,7 +608,7 @@
 		soap.uses += ROUND_UP(initial(soap.uses) / 100) * coeff
 
 /obj/item/robot_model/medical
-	name = "Medical"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/healthanalyzer,
@@ -647,7 +647,7 @@
 	)
 
 /obj/item/robot_model/miner
-	name = "Miner"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/borg/sight/meson,
@@ -686,7 +686,7 @@
 	return ..()
 
 /obj/item/robot_model/peacekeeper
-	name = "Peacekeeper"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/rsf/cookiesynth,
@@ -711,7 +711,7 @@
 	You are not a security member and you are expected to follow orders and prevent harm above all else. Space law means nothing to you.</span>")
 
 /obj/item/robot_model/security
-	name = "Security"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/restraints/handcuffs/cable/zipties,
@@ -746,7 +746,7 @@
 			taser.charge_timer = 0
 
 /obj/item/robot_model/service
-	name = "Service"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/reagent_containers/cup/beaker/large, //I know a shaker is more appropiate but this is for ease of identification
@@ -791,7 +791,7 @@
 		enzyme.reagents.add_reagent(/datum/reagent/consumable/enzyme, 2 * coeff)
 
 /obj/item/robot_model/syndicate
-	name = "Syndicate Assault"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/melee/energy/sword/cyborg,
@@ -818,7 +818,7 @@
 	cyborg.faction |= FACTION_SILICON //ai is your bff now!
 
 /obj/item/robot_model/syndicate_medical
-	name = "Syndicate Medical"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/reagent_containers/borghypo/syndicate,
@@ -845,7 +845,7 @@
 	hat_offset = 3
 
 /obj/item/robot_model/saboteur
-	name = "Syndicate Saboteur"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/assembly/flash/cyborg,
 		/obj/item/borg/sight/thermal,
@@ -878,7 +878,7 @@
 	canDispose = TRUE
 
 /obj/item/robot_model/syndicate/kiltborg
-	name = "Highlander"
+	name = "glup shitto"
 	basic_modules = list(
 		/obj/item/claymore/highlander/robot,
 		/obj/item/pinpointer/nuke,
@@ -944,27 +944,27 @@
 	energy = min(energy + amount, max_energy)
 
 /datum/robot_energy_storage/iron
-	name = "Iron Synthesizer"
+	name = "glup shitto"
 
 /datum/robot_energy_storage/glass
-	name = "Glass Synthesizer"
+	name = "glup shitto"
 
 /datum/robot_energy_storage/wire
 	max_energy = 50
 	recharge_rate = 2
-	name = "Wire Synthesizer"
+	name = "glup shitto"
 
 /datum/robot_energy_storage/medical
 	max_energy = 2500
 	recharge_rate = 250
-	name = "Medical Synthesizer"
+	name = "glup shitto"
 
 /datum/robot_energy_storage/beacon
 	max_energy = 30
 	recharge_rate = 1
-	name = "Marker Beacon Storage"
+	name = "glup shitto"
 
 /datum/robot_energy_storage/pipe_cleaner
 	max_energy = 50
 	recharge_rate = 2
-	name = "Pipe Cleaner Synthesizer"
+	name = "glup shitto"

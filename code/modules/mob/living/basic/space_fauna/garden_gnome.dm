@@ -1,5 +1,5 @@
 /mob/living/basic/garden_gnome
-	name = "Garden Gnome"
+	name = "glup shitto"
 	desc = "You have been gnomed."
 	icon = 'icons/mob/simple/garden_gnome.dmi'
 	icon_state = "gnome"

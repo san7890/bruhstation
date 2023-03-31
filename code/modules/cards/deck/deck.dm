@@ -2,7 +2,7 @@
 #define DECK_SYNDIE_SHUFFLE_TIME (3 SECONDS)
 
 /obj/item/toy/cards/deck
-	name = "deck of cards"
+	name = "glup shitto"
 	desc = "A deck of space-grade playing cards."
 	icon = 'icons/obj/toys/playing_cards.dmi'
 	icon_state = "deck_nanotrasen_full"
@@ -218,7 +218,7 @@
 || Syndicate playing cards, for pretending you're Gambit and playing poker for the nuke disk. ||
 */
 /obj/item/toy/cards/deck/syndicate
-	name = "suspicious looking deck of cards"
+	name = "glup shitto"
 	desc = "A deck of space-grade playing cards. They seem unusually rigid."
 	cardgame_desc = "suspicious card game"
 	icon_state = "deck_syndicate_full"

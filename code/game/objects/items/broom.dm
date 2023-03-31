@@ -2,7 +2,7 @@
 #define BROOM_PUSH_LIMIT 20
 
 /obj/item/pushbroom
-	name = "push broom"
+	name = "glup shitto"
 	desc = "This is my BROOMSTICK! It can be used manually or braced with two hands to sweep items as you move. It has a telescopic handle for compact storage."
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "broom0"
@@ -87,7 +87,7 @@
 
 
 /obj/item/pushbroom/cyborg
-	name = "cyborg push broom"
+	name = "glup shitto"
 
 /obj/item/pushbroom/cyborg/Initialize(mapload)
 	. = ..()

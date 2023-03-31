@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(disease)
-	name = "Disease"
+	name = "glup shitto"
 	flags = SS_NO_FIRE
 
 	var/list/active_diseases = list() //List of Active disease in all mobs; purely for quick referencing.

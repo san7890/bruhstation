@@ -1,5 +1,5 @@
 /obj/item/organ/internal/body_egg
-	name = "body egg"
+	name = "glup shitto"
 	desc = "All slimy and yuck."
 	icon_state = "innards"
 	visual = TRUE

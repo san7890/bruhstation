@@ -10,7 +10,7 @@
  *
  */
 /obj/item/energy_katana
-	name = "energy katana"
+	name = "glup shitto"
 	desc = "A katana infused with strong energy."
 	desc_controls = "Right-click to dash."
 	icon_state = "energy_katana"

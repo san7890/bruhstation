@@ -1,6 +1,6 @@
 //Cyborg
 /datum/design/borg_suit
-	name = "Cyborg Endoskeleton"
+	name = "glup shitto"
 	id = "borg_suit"
 	build_type = MECHFAB
 	build_path = /obj/item/robot_suit
@@ -11,7 +11,7 @@
 	)
 
 /datum/design/borg_chest
-	name = "Cyborg Torso"
+	name = "glup shitto"
 	id = "borg_chest"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/chest/robot
@@ -22,7 +22,7 @@
 	)
 
 /datum/design/borg_head
-	name = "Cyborg Head"
+	name = "glup shitto"
 	id = "borg_head"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/head/robot
@@ -33,7 +33,7 @@
 	)
 
 /datum/design/borg_l_arm
-	name = "Cyborg Left Arm"
+	name = "glup shitto"
 	id = "borg_l_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/arm/left/robot
@@ -44,7 +44,7 @@
 	)
 
 /datum/design/borg_r_arm
-	name = "Cyborg Right Arm"
+	name = "glup shitto"
 	id = "borg_r_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/arm/right/robot
@@ -55,7 +55,7 @@
 	)
 
 /datum/design/borg_l_leg
-	name = "Cyborg Left Leg"
+	name = "glup shitto"
 	id = "borg_l_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/leg/left/robot
@@ -66,7 +66,7 @@
 	)
 
 /datum/design/borg_r_leg
-	name = "Cyborg Right Leg"
+	name = "glup shitto"
 	id = "borg_r_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/bodypart/leg/right/robot
@@ -78,7 +78,7 @@
 
 //Ripley
 /datum/design/ripley_chassis
-	name = "Exosuit Chassis (APLU \"Ripley\")"
+	name = "glup shitto"
 	id = "ripley_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/ripley
@@ -89,7 +89,7 @@
 	)
 
 /datum/design/ripley_torso
-	name = "Exosuit Torso (APLU \"Ripley\")"
+	name = "glup shitto"
 	id = "ripley_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/ripley_torso
@@ -100,7 +100,7 @@
 	)
 
 /datum/design/ripley_left_arm
-	name = "Exosuit Left Arm (APLU \"Ripley\")"
+	name = "glup shitto"
 	id = "ripley_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/ripley_left_arm
@@ -111,7 +111,7 @@
 	)
 
 /datum/design/ripley_right_arm
-	name = "Exosuit Right Arm (APLU \"Ripley\")"
+	name = "glup shitto"
 	id = "ripley_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/ripley_right_arm
@@ -122,7 +122,7 @@
 	)
 
 /datum/design/ripley_left_leg
-	name = "Exosuit Left Leg (APLU \"Ripley\")"
+	name = "glup shitto"
 	id = "ripley_left_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/ripley_left_leg
@@ -133,7 +133,7 @@
 	)
 
 /datum/design/ripley_right_leg
-	name = "Exosuit Right Leg (APLU \"Ripley\")"
+	name = "glup shitto"
 	id = "ripley_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/ripley_right_leg
@@ -145,7 +145,7 @@
 
 //Odysseus
 /datum/design/odysseus_chassis
-	name = "Exosuit Chassis (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/odysseus
@@ -156,7 +156,7 @@
 	)
 
 /datum/design/odysseus_torso
-	name = "Exosuit Torso (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/odysseus_torso
@@ -167,7 +167,7 @@
 	)
 
 /datum/design/odysseus_head
-	name = "Exosuit Head (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/odysseus_head
@@ -178,7 +178,7 @@
 	)
 
 /datum/design/odysseus_left_arm
-	name = "Exosuit Left Arm (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/odysseus_left_arm
@@ -189,7 +189,7 @@
 	)
 
 /datum/design/odysseus_right_arm
-	name = "Exosuit Right Arm (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/odysseus_right_arm
@@ -200,7 +200,7 @@
 	)
 
 /datum/design/odysseus_left_leg
-	name = "Exosuit Left Leg (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_left_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/odysseus_left_leg
@@ -211,7 +211,7 @@
 	)
 
 /datum/design/odysseus_right_leg
-	name = "Exosuit Right Leg (\"Odysseus\")"
+	name = "glup shitto"
 	id = "odysseus_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/odysseus_right_leg
@@ -223,7 +223,7 @@
 
 //Gygax
 /datum/design/gygax_chassis
-	name = "Exosuit Chassis (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/gygax
@@ -234,7 +234,7 @@
 	)
 
 /datum/design/gygax_torso
-	name = "Exosuit Torso (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_torso
@@ -245,7 +245,7 @@
 	)
 
 /datum/design/gygax_head
-	name = "Exosuit Head (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_head
@@ -256,7 +256,7 @@
 	)
 
 /datum/design/gygax_left_arm
-	name = "Exosuit Left Arm (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_left_arm
@@ -267,7 +267,7 @@
 	)
 
 /datum/design/gygax_right_arm
-	name = "Exosuit Right Arm (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_right_arm
@@ -278,7 +278,7 @@
 	)
 
 /datum/design/gygax_left_leg
-	name = "Exosuit Left Leg (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_left_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_left_leg
@@ -289,7 +289,7 @@
 	)
 
 /datum/design/gygax_right_leg
-	name = "Exosuit Right Leg (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_right_leg
@@ -300,7 +300,7 @@
 	)
 
 /datum/design/gygax_armor
-	name = "Exosuit Armor (\"Gygax\")"
+	name = "glup shitto"
 	id = "gygax_armor"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/gygax_armor
@@ -312,7 +312,7 @@
 
 //Durand
 /datum/design/durand_chassis
-	name = "Exosuit Chassis (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/durand
@@ -323,7 +323,7 @@
 	)
 
 /datum/design/durand_torso
-	name = "Exosuit Torso (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_torso
@@ -334,7 +334,7 @@
 	)
 
 /datum/design/durand_head
-	name = "Exosuit Head (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_head
@@ -345,7 +345,7 @@
 	)
 
 /datum/design/durand_left_arm
-	name = "Exosuit Left Arm (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_left_arm
@@ -356,7 +356,7 @@
 	)
 
 /datum/design/durand_right_arm
-	name = "Exosuit Right Arm (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_right_arm
@@ -367,7 +367,7 @@
 	)
 
 /datum/design/durand_left_leg
-	name = "Exosuit Left Leg (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_left_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_left_leg
@@ -378,7 +378,7 @@
 	)
 
 /datum/design/durand_right_leg
-	name = "Exosuit Right Leg (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_right_leg
@@ -389,7 +389,7 @@
 	)
 
 /datum/design/durand_armor
-	name = "Exosuit Armor (\"Durand\")"
+	name = "glup shitto"
 	id = "durand_armor"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/durand_armor
@@ -401,7 +401,7 @@
 
 //H.O.N.K
 /datum/design/honk_chassis
-	name = "Exosuit Chassis (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/honker
@@ -412,7 +412,7 @@
 	)
 
 /datum/design/honk_torso
-	name = "Exosuit Torso (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/honker_torso
@@ -423,7 +423,7 @@
 	)
 
 /datum/design/honk_head
-	name = "Exosuit Head (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/honker_head
@@ -434,7 +434,7 @@
 	)
 
 /datum/design/honk_left_arm
-	name = "Exosuit Left Arm (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/honker_left_arm
@@ -445,7 +445,7 @@
 	)
 
 /datum/design/honk_right_arm
-	name = "Exosuit Right Arm (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/honker_right_arm
@@ -456,7 +456,7 @@
 	)
 
 /datum/design/honk_left_leg
-	name = "Exosuit Left Leg (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_left_leg"
 	build_type = MECHFAB
 	build_path =/obj/item/mecha_parts/part/honker_left_leg
@@ -467,7 +467,7 @@
 	)
 
 /datum/design/honk_right_leg
-	name = "Exosuit Right Leg (\"H.O.N.K\")"
+	name = "glup shitto"
 	id = "honk_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/honker_right_leg
@@ -479,7 +479,7 @@
 
 //Phazon
 /datum/design/phazon_chassis
-	name = "Exosuit Chassis (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/phazon
@@ -490,7 +490,7 @@
 	)
 
 /datum/design/phazon_torso
-	name = "Exosuit Torso (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_torso
@@ -501,7 +501,7 @@
 	)
 
 /datum/design/phazon_head
-	name = "Exosuit Head (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_head
@@ -512,7 +512,7 @@
 	)
 
 /datum/design/phazon_left_arm
-	name = "Exosuit Left Arm (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_left_arm
@@ -523,7 +523,7 @@
 	)
 
 /datum/design/phazon_right_arm
-	name = "Exosuit Right Arm (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_right_arm
@@ -534,7 +534,7 @@
 	)
 
 /datum/design/phazon_left_leg
-	name = "Exosuit Left Leg (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_left_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_left_leg
@@ -545,7 +545,7 @@
 	)
 
 /datum/design/phazon_right_leg
-	name = "Exosuit Right Leg (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_right_leg
@@ -556,7 +556,7 @@
 	)
 
 /datum/design/phazon_armor
-	name = "Exosuit Armor (\"Phazon\")"
+	name = "glup shitto"
 	id = "phazon_armor"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/phazon_armor
@@ -568,7 +568,7 @@
 
 //Savannah-Ivanov
 /datum/design/savannah_ivanov_chassis
-	name = "Exosuit Chassis (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/savannah_ivanov
@@ -579,7 +579,7 @@
 	)
 
 /datum/design/savannah_ivanov_torso
-	name = "Exosuit Torso (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_torso
@@ -590,7 +590,7 @@
 	)
 
 /datum/design/savannah_ivanov_head
-	name = "Exosuit Head (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_head
@@ -601,7 +601,7 @@
 	)
 
 /datum/design/savannah_ivanov_left_arm
-	name = "Exosuit Left Arm (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_left_arm
@@ -612,7 +612,7 @@
 	)
 
 /datum/design/savannah_ivanov_right_arm
-	name = "Exosuit Right Arm (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_right_arm
@@ -623,7 +623,7 @@
 	)
 
 /datum/design/savannah_ivanov_chassis
-	name = "Exosuit Chassis (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/savannah_ivanov
@@ -634,7 +634,7 @@
 	)
 
 /datum/design/savannah_ivanov_torso
-	name = "Exosuit Torso (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_torso
@@ -645,7 +645,7 @@
 	)
 
 /datum/design/savannah_ivanov_head
-	name = "Exosuit Head (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_head
@@ -656,7 +656,7 @@
 	)
 
 /datum/design/savannah_ivanov_left_arm
-	name = "Exosuit Left Arm (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_left_arm
@@ -667,7 +667,7 @@
 	)
 
 /datum/design/savannah_ivanov_right_arm
-	name = "Exosuit Right Arm (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_right_arm
@@ -678,7 +678,7 @@
 	)
 
 /datum/design/savannah_ivanov_left_leg
-	name = "Exosuit Left Leg (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_left_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_left_leg
@@ -689,7 +689,7 @@
 	)
 
 /datum/design/savannah_ivanov_right_leg
-	name = "Exosuit Right Leg (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_right_leg"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_right_leg
@@ -700,7 +700,7 @@
 	)
 
 /datum/design/savannah_ivanov_armor
-	name = "Exosuit Armor (\"Savannah-Ivanov\")"
+	name = "glup shitto"
 	id = "savannah_ivanov_armor"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/savannah_ivanov_armor
@@ -712,7 +712,7 @@
 
 //Clarke
 /datum/design/clarke_chassis
-	name = "Exosuit Chassis (\"Clarke\")"
+	name = "glup shitto"
 	id = "clarke_chassis"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/chassis/clarke
@@ -723,7 +723,7 @@
 	)
 
 /datum/design/clarke_torso
-	name = "Exosuit Torso (\"Clarke\")"
+	name = "glup shitto"
 	id = "clarke_torso"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/clarke_torso
@@ -734,7 +734,7 @@
 	)
 
 /datum/design/clarke_head
-	name = "Exosuit Head (\"Clarke\")"
+	name = "glup shitto"
 	id = "clarke_head"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/clarke_head
@@ -745,7 +745,7 @@
 	)
 
 /datum/design/clarke_left_arm
-	name = "Exosuit Left Arm (\"Clarke\")"
+	name = "glup shitto"
 	id = "clarke_left_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/clarke_left_arm
@@ -756,7 +756,7 @@
 	)
 
 /datum/design/clarke_right_arm
-	name = "Exosuit Right Arm (\"Clarke\")"
+	name = "glup shitto"
 	id = "clarke_right_arm"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/part/clarke_right_arm
@@ -768,7 +768,7 @@
 
 //Exosuit Equipment
 /datum/design/ripleyupgrade
-	name = "Ripley MK-I to MK-II Conversion Kit"
+	name = "glup shitto"
 	id = "ripleyupgrade"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/ripleyupgrade
@@ -784,7 +784,7 @@
 	)
 
 /datum/design/mech_hydraulic_clamp
-	name = "Hydraulic Clamp"
+	name = "glup shitto"
 	id = "mech_hydraulic_clamp"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/hydraulic_clamp
@@ -800,7 +800,7 @@
 	)
 
 /datum/design/mech_drill
-	name = "Mining Drill"
+	name = "glup shitto"
 	id = "mech_drill"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/drill
@@ -827,7 +827,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_mining_scanner
-	name = "Mining Scanner"
+	name = "glup shitto"
 	id = "mech_mscanner"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/mining_scanner
@@ -845,7 +845,7 @@
 	)
 
 /datum/design/mech_extinguisher
-	name = "Extinguisher"
+	name = "glup shitto"
 	id = "mech_extinguisher"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/extinguisher
@@ -863,7 +863,7 @@
 	)
 
 /datum/design/mech_generator
-	name = "Plasma Generator"
+	name = "glup shitto"
 	id = "mech_generator"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/generator
@@ -890,7 +890,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_mousetrap_mortar
-	name = "Mousetrap Mortar"
+	name = "glup shitto"
 	id = "mech_mousetrap_mortar"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/mousetrap_mortar
@@ -907,7 +907,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_banana_mortar
-	name = "Banana Mortar"
+	name = "glup shitto"
 	id = "mech_banana_mortar"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/banana_mortar
@@ -924,7 +924,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_honker
-	name = "HoNkER BlAsT 5000"
+	name = "glup shitto"
 	id = "mech_honker"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/honker
@@ -941,7 +941,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_punching_glove
-	name = "Oingo Boingo Punch-face"
+	name = "glup shitto"
 	id = "mech_punching_face"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/ballistic/launcher/punching_glove
@@ -962,7 +962,7 @@
 /////////////////////////////////////////
 
 /datum/design/borg_upgrade_rename
-	name = "Rename Board"
+	name = "glup shitto"
 	id = "borg_upgrade_rename"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/rename
@@ -973,7 +973,7 @@
 	)
 
 /datum/design/borg_upgrade_restart
-	name = "Emergency Reboot Board"
+	name = "glup shitto"
 	id = "borg_upgrade_restart"
 	build_type = MECHFAB
 	build_path = /obj/item/borg_restart_board
@@ -984,7 +984,7 @@
 	)
 
 /datum/design/borg_upgrade_thrusters
-	name = "Ion Thrusters"
+	name = "glup shitto"
 	id = "borg_upgrade_thrusters"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/thrusters
@@ -995,7 +995,7 @@
 	)
 
 /datum/design/borg_upgrade_disablercooler
-	name = "Rapid Disabler Cooling Module"
+	name = "glup shitto"
 	id = "borg_upgrade_disablercooler"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/disablercooler
@@ -1006,7 +1006,7 @@
 	)
 
 /datum/design/borg_upgrade_diamonddrill
-	name = "Diamond Drill"
+	name = "glup shitto"
 	id = "borg_upgrade_diamonddrill"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/ddrill
@@ -1017,7 +1017,7 @@
 	)
 
 /datum/design/borg_upgrade_holding
-	name = "Ore Satchel of Holding"
+	name = "glup shitto"
 	id = "borg_upgrade_holding"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/soh
@@ -1028,7 +1028,7 @@
 	)
 
 /datum/design/borg_upgrade_lavaproof
-	name = "Lavaproof Tracks"
+	name = "glup shitto"
 	id = "borg_upgrade_lavaproof"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/lavaproof
@@ -1039,7 +1039,7 @@
 	)
 
 /datum/design/borg_syndicate_module
-	name = "Illegal Modules"
+	name = "glup shitto"
 	id = "borg_syndicate_module"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/syndicate
@@ -1050,7 +1050,7 @@
 	)
 
 /datum/design/borg_transform_clown
-	name = "Clown Module"
+	name = "glup shitto"
 	id = "borg_transform_clown"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/transform/clown
@@ -1061,7 +1061,7 @@
 	)
 
 /datum/design/borg_upgrade_selfrepair
-	name = "Self-Repair Module"
+	name = "glup shitto"
 	id = "borg_upgrade_selfrepair"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/selfrepair
@@ -1072,7 +1072,7 @@
 	)
 
 /datum/design/borg_upgrade_expandedsynthesiser
-	name = "Expanded Hypospray Synthesiser"
+	name = "glup shitto"
 	id = "borg_upgrade_expandedsynthesiser"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/hypospray/expanded
@@ -1083,7 +1083,7 @@
 	)
 
 /datum/design/borg_upgrade_piercinghypospray
-	name = "Piercing Hypospray"
+	name = "glup shitto"
 	id = "borg_upgrade_piercinghypospray"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/piercing_hypospray
@@ -1094,7 +1094,7 @@
 	)
 
 /datum/design/borg_upgrade_defibrillator
-	name = "Defibrillator"
+	name = "glup shitto"
 	id = "borg_upgrade_defibrillator"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/defib
@@ -1105,7 +1105,7 @@
 	)
 
 /datum/design/borg_upgrade_surgicalprocessor
-	name = "Surgical Processor"
+	name = "glup shitto"
 	id = "borg_upgrade_surgicalprocessor"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/processor
@@ -1116,7 +1116,7 @@
 	)
 
 /datum/design/borg_upgrade_trashofholding
-	name = "Trash Bag of Holding"
+	name = "glup shitto"
 	id = "borg_upgrade_trashofholding"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/tboh
@@ -1127,7 +1127,7 @@
 	)
 
 /datum/design/borg_upgrade_advancedmop
-	name = "Advanced Mop"
+	name = "glup shitto"
 	id = "borg_upgrade_advancedmop"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/amop
@@ -1138,7 +1138,7 @@
 	)
 
 /datum/design/borg_upgrade_prt
-	name = "Plating Repair Tool"
+	name = "glup shitto"
 	id = "borg_upgrade_prt"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/prt
@@ -1149,7 +1149,7 @@
 	)
 
 /datum/design/borg_upgrade_expand
-	name = "Expand Module"
+	name = "glup shitto"
 	id = "borg_upgrade_expand"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/expand
@@ -1160,7 +1160,7 @@
 	)
 
 /datum/design/boris_ai_controller
-	name = "B.O.R.I.S. AI-Cyborg Remote Control"
+	name = "glup shitto"
 	id = "borg_ai_control"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/ai
@@ -1172,7 +1172,7 @@
 	search_metadata = "boris"
 
 /datum/design/borg_upgrade_rped
-	name = "Rapid Part Exchange Device"
+	name = "glup shitto"
 	id = "borg_upgrade_rped"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/rped
@@ -1183,7 +1183,7 @@
 	)
 
 /datum/design/borg_upgrade_circuit_app
-	name = "Circuit Manipulator"
+	name = "glup shitto"
 	id = "borg_upgrade_circuitapp"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/circuit_app
@@ -1194,7 +1194,7 @@
 	)
 
 /datum/design/borg_upgrade_beaker_app
-	name = "Secondary Beaker Storage"
+	name = "glup shitto"
 	id = "borg_upgrade_beakerapp"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/beaker_app
@@ -1205,7 +1205,7 @@
 	)
 
 /datum/design/borg_upgrade_pinpointer
-	name = "Crew Pinpointer"
+	name = "glup shitto"
 	id = "borg_upgrade_pinpointer"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/pinpointer
@@ -1216,7 +1216,7 @@
 	)
 
 /datum/design/borg_upgrade_broomer
-	name = "Experimental Push Broom"
+	name = "glup shitto"
 	id = "borg_upgrade_broomer"
 	build_type = MECHFAB
 	build_path = /obj/item/borg/upgrade/broomer
@@ -1227,7 +1227,7 @@
 	)
 
 /datum/design/mmi
-	name = "Man-Machine Interface"
+	name = "glup shitto"
 	desc = "The Warrior's bland acronym, MMI, obscures the true horror of this monstrosity."
 	id = "mmi"
 	build_type = MECHFAB
@@ -1248,7 +1248,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/posibrain
-	name = "Positronic Brain"
+	name = "glup shitto"
 	desc = "The latest in Artificial Intelligences."
 	id = "mmi_posi"
 	build_type = MECHFAB
@@ -1262,7 +1262,7 @@
 
 //Misc
 /datum/design/mecha_tracking
-	name = "Exosuit Tracking Beacon"
+	name = "glup shitto"
 	id = "mecha_tracking"
 	build_type = MECHFAB
 	build_path =/obj/item/mecha_parts/mecha_tracking
@@ -1289,7 +1289,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mecha_tracking_ai_control
-	name = "AI Control Beacon"
+	name = "glup shitto"
 	id = "mecha_tracking_ai_control"
 	build_type = MECHFAB
 	build_path = /obj/item/mecha_parts/mecha_tracking/ai_control
@@ -1316,7 +1316,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mecha_camera
-	name = "Exosuit External Camera Kit"
+	name = "glup shitto"
 	desc = "A durable CCTV camera designed for exosuit operations."
 	id = "mecha_camera"
 	build_type = MECHFAB
@@ -1344,7 +1344,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/synthetic_flash
-	name = "Flash"
+	name = "glup shitto"
 	desc = "When a problem arises, SCIENCE is the solution."
 	id = "sflash"
 	build_type = MECHFAB
@@ -1362,7 +1362,7 @@
 //MODsuit construction
 
 /datum/design/mod_shell
-	name = "MOD Shell"
+	name = "glup shitto"
 	desc = "A 'Nakamura Engineering' designed shell for a Modular Suit."
 	id = "mod_shell"
 	build_type = MECHFAB
@@ -1374,7 +1374,7 @@
 	)
 
 /datum/design/mod_helmet
-	name = "MOD Helmet"
+	name = "glup shitto"
 	desc = "A 'Nakamura Engineering' designed helmet for a Modular Suit."
 	id = "mod_helmet"
 	build_type = MECHFAB
@@ -1386,7 +1386,7 @@
 	)
 
 /datum/design/mod_chestplate
-	name = "MOD Chestplate"
+	name = "glup shitto"
 	desc = "A 'Nakamura Engineering' designed chestplate for a Modular Suit."
 	id = "mod_chestplate"
 	build_type = MECHFAB
@@ -1398,7 +1398,7 @@
 	)
 
 /datum/design/mod_gauntlets
-	name = "MOD Gauntlets"
+	name = "glup shitto"
 	desc = "'Nakamura Engineering' designed gauntlets for a Modular Suit."
 	id = "mod_gauntlets"
 	build_type = MECHFAB
@@ -1410,7 +1410,7 @@
 	)
 
 /datum/design/mod_boots
-	name = "MOD Boots"
+	name = "glup shitto"
 	desc = "'Nakamura Engineering' designed boots for a Modular Suit."
 	id = "mod_boots"
 	build_type = MECHFAB
@@ -1422,7 +1422,7 @@
 	)
 
 /datum/design/mod_plating
-	name = "MOD External Plating"
+	name = "glup shitto"
 	desc = "External plating for a MODsuit."
 	id = "mod_plating_standard"
 	build_type = MECHFAB
@@ -1442,7 +1442,7 @@
 	desc = "External plating for a MODsuit. [theme.desc]"
 
 /datum/design/mod_plating/engineering
-	name = "MOD Engineering Plating"
+	name = "glup shitto"
 	id = "mod_plating_engineering"
 	build_path = /obj/item/mod/construction/plating/engineering
 	materials = list(/datum/material/iron = 6000, /datum/material/gold = 2000, /datum/material/glass = 1000, /datum/material/plasma = 1000)
@@ -1450,7 +1450,7 @@
 	research_icon_state = "engineering-plating"
 
 /datum/design/mod_plating/atmospheric
-	name = "MOD Atmospheric Plating"
+	name = "glup shitto"
 	id = "mod_plating_atmospheric"
 	build_path = /obj/item/mod/construction/plating/atmospheric
 	materials = list(/datum/material/iron = 6000, /datum/material/titanium = 2000, /datum/material/glass = 1000, /datum/material/plasma = 1000)
@@ -1458,7 +1458,7 @@
 	research_icon_state = "atmospheric-plating"
 
 /datum/design/mod_plating/medical
-	name = "MOD Medical Plating"
+	name = "glup shitto"
 	id = "mod_plating_medical"
 	build_path = /obj/item/mod/construction/plating/medical
 	materials = list(/datum/material/iron = 6000, /datum/material/silver = 2000, /datum/material/glass = 1000, /datum/material/plasma = 1000)
@@ -1466,7 +1466,7 @@
 	research_icon_state = "medical-plating"
 
 /datum/design/mod_plating/security
-	name = "MOD Security Plating"
+	name = "glup shitto"
 	id = "mod_plating_security"
 	build_path = /obj/item/mod/construction/plating/security
 	materials = list(/datum/material/iron = 6000, /datum/material/uranium = 2000, /datum/material/glass = 1000, /datum/material/plasma = 1000)
@@ -1474,7 +1474,7 @@
 	research_icon_state = "security-plating"
 
 /datum/design/mod_plating/cosmohonk
-	name = "MOD Cosmohonk Plating"
+	name = "glup shitto"
 	id = "mod_plating_cosmohonk"
 	build_path = /obj/item/mod/construction/plating/cosmohonk
 	materials = list(/datum/material/iron = 6000, /datum/material/bananium = 2000, /datum/material/glass = 1000, /datum/material/plasma = 1000)
@@ -1482,7 +1482,7 @@
 	research_icon_state = "cosmohonk-plating"
 
 /datum/design/mod_paint_kit
-	name = "MOD Paint Kit"
+	name = "glup shitto"
 	desc = "A paint kit for Modular Suits."
 	id = "mod_paint_kit"
 	build_type = MECHFAB
@@ -1496,7 +1496,7 @@
 //MODsuit modules
 
 /datum/design/module
-	name = "MOD Module"
+	name = "glup shitto"
 	build_type = MECHFAB
 	construction_time = 1 SECONDS
 	materials = list(/datum/material/iron = 1000, /datum/material/glass = 1000)
@@ -1511,19 +1511,19 @@
 	desc = "[initial(module.desc)] It uses [initial(module.complexity)] complexity."
 
 /datum/design/module/mod_storage
-	name = "Storage Module"
+	name = "glup shitto"
 	id = "mod_storage"
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 500)
 	build_path = /obj/item/mod/module/storage
 
 /datum/design/module/mod_storage_expanded
-	name = "Expanded Storage Module"
+	name = "glup shitto"
 	id = "mod_storage_expanded"
 	materials = list(/datum/material/iron = 5000, /datum/material/uranium = 2000)
 	build_path = /obj/item/mod/module/storage/large_capacity
 
 /datum/design/module/mod_visor_medhud
-	name = "Medical Visor Module"
+	name = "glup shitto"
 	id = "mod_visor_medhud"
 	materials = list(/datum/material/silver = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/visor/medhud
@@ -1532,7 +1532,7 @@
 	)
 
 /datum/design/module/mod_visor_diaghud
-	name = "Diagnostic Visor Module"
+	name = "glup shitto"
 	id = "mod_visor_diaghud"
 	materials = list(/datum/material/gold = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/visor/diaghud
@@ -1540,7 +1540,7 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_SCIENCE
 	)
 /datum/design/module/mod_visor_sechud
-	name = "Security Visor Module"
+	name = "glup shitto"
 	id = "mod_visor_sechud"
 	materials = list(/datum/material/titanium = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/visor/sechud
@@ -1548,7 +1548,7 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_SECURITY
 	)
 /datum/design/module/mod_visor_meson
-	name = "Meson Visor Module"
+	name = "glup shitto"
 	id = "mod_visor_meson"
 	materials = list(/datum/material/uranium = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/visor/meson
@@ -1556,7 +1556,7 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_SUPPLY
 	)
 /datum/design/module/mod_visor_welding
-	name = "Welding Protection Module"
+	name = "glup shitto"
 	id = "mod_welding"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/welding
@@ -1564,7 +1564,7 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_ENGINEERING
 	)
 /datum/design/module/mod_t_ray
-	name = "T-Ray Scanner Module"
+	name = "glup shitto"
 	id = "mod_t_ray"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/t_ray
@@ -1572,7 +1572,7 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_ENGINEERING
 	)
 /datum/design/module/mod_health_analyzer
-	name = "Health Analyzer Module"
+	name = "glup shitto"
 	id = "mod_health_analyzer"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/health_analyzer
@@ -1581,7 +1581,7 @@
 	)
 
 /datum/design/module/mod_stealth
-	name = "Cloak Module"
+	name = "glup shitto"
 	id = "mod_stealth"
 	materials = list(/datum/material/iron = 1000, /datum/material/bluespace = 500)
 	build_path = /obj/item/mod/module/stealth
@@ -1589,13 +1589,13 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_SECURITY
 	)
 /datum/design/module/mod_jetpack
-	name = "Ion Jetpack Module"
+	name = "glup shitto"
 	id = "mod_jetpack"
 	materials = list(/datum/material/iron = 1500, /datum/material/plasma = 1000)
 	build_path = /obj/item/mod/module/jetpack
 
 /datum/design/module/mod_magboot
-	name = "Magnetic Stabilizator Module"
+	name = "glup shitto"
 	id = "mod_magboot"
 	materials = list(/datum/material/iron = 1000, /datum/material/gold = 500)
 	build_path = /obj/item/mod/module/magboot
@@ -1604,7 +1604,7 @@
 	)
 
 /datum/design/module/mod_mag_harness
-	name = "Magnetic Harness Module"
+	name = "glup shitto"
 	id = "mod_mag_harness"
 	materials = list(/datum/material/iron = 1500, /datum/material/silver = 500)
 	build_path = /obj/item/mod/module/magnetic_harness
@@ -1613,7 +1613,7 @@
 	)
 
 /datum/design/module/mod_tether
-	name = "Emergency Tether Module"
+	name = "glup shitto"
 	id = "mod_tether"
 	materials = list(/datum/material/iron = 1000, /datum/material/silver = 500)
 	build_path = /obj/item/mod/module/tether
@@ -1622,13 +1622,13 @@
 	)
 
 /datum/design/module/mod_mouthhole
-	name = "Eating Apparatus Module"
+	name = "glup shitto"
 	id = "mod_mouthhole"
 	materials = list(/datum/material/iron = 1500)
 	build_path = /obj/item/mod/module/mouthhole
 
 /datum/design/module/mod_rad_protection
-	name = "Radiation Protection Module"
+	name = "glup shitto"
 	id = "mod_rad_protection"
 	materials = list(/datum/material/iron = 1000, /datum/material/uranium = 1000)
 	build_path = /obj/item/mod/module/rad_protection
@@ -1636,19 +1636,19 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_ENGINEERING
 	)
 /datum/design/module/mod_emp_shield
-	name = "EMP Shield Module"
+	name = "glup shitto"
 	id = "mod_emp_shield"
 	materials = list(/datum/material/iron = 1000, /datum/material/plasma = 1000)
 	build_path = /obj/item/mod/module/emp_shield
 
 /datum/design/module/mod_flashlight
-	name = "Flashlight Module"
+	name = "glup shitto"
 	id = "mod_flashlight"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/flashlight
 
 /datum/design/module/mod_reagent_scanner
-	name = "Reagent Scanner Module"
+	name = "glup shitto"
 	id = "mod_reagent_scanner"
 	materials = list(/datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/reagent_scanner
@@ -1657,7 +1657,7 @@
 	)
 
 /datum/design/module/mod_gps
-	name = "Internal GPS Module"
+	name = "glup shitto"
 	id = "mod_gps"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
 	build_path = /obj/item/mod/module/gps
@@ -1666,7 +1666,7 @@
 	)
 
 /datum/design/module/mod_constructor
-	name = "Constructor Module"
+	name = "glup shitto"
 	id = "mod_constructor"
 	materials = list(/datum/material/iron = 1000, /datum/material/titanium = 500)
 	build_path = /obj/item/mod/module/constructor
@@ -1674,7 +1674,7 @@
 		RND_CATEGORY_MODSUIT_MODULES + RND_SUBCATEGORY_MODSUIT_MODULES_ENGINEERING
 	)
 /datum/design/module/mod_quick_carry
-	name = "Quick Carry Module"
+	name = "glup shitto"
 	id = "mod_quick_carry"
 	materials = list(/datum/material/iron = 1000, /datum/material/titanium = 500)
 	build_path = /obj/item/mod/module/quick_carry
@@ -1683,19 +1683,19 @@
 	)
 
 /datum/design/module/mod_longfall
-	name = "Longfall Module"
+	name = "glup shitto"
 	id = "mod_longfall"
 	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/mod/module/longfall
 
 /datum/design/module/mod_thermal_regulator
-	name = "Thermal Regulator Module"
+	name = "glup shitto"
 	id = "mod_thermal_regulator"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/thermal_regulator
 
 /datum/design/module/mod_injector
-	name = "Injector Module"
+	name = "glup shitto"
 	id = "mod_injector"
 	materials = list(/datum/material/iron = 1000, /datum/material/diamond = 500)
 	build_path = /obj/item/mod/module/injector
@@ -1704,7 +1704,7 @@
 	)
 
 /datum/design/module/mod_bikehorn
-	name = "Bike Horn Module"
+	name = "glup shitto"
 	id = "mod_bikehorn"
 	materials = list(/datum/material/plastic = 500, /datum/material/iron = 500)
 	build_path = /obj/item/mod/module/bikehorn
@@ -1713,7 +1713,7 @@
 	)
 
 /datum/design/module/mod_microwave_beam
-	name = "Microwave Beam Module"
+	name = "glup shitto"
 	id = "mod_microwave_beam"
 	materials = list(/datum/material/iron = 1000, /datum/material/uranium = 500)
 	build_path = /obj/item/mod/module/microwave_beam
@@ -1722,7 +1722,7 @@
 	)
 
 /datum/design/module/mod_waddle
-	name = "Waddle Module"
+	name = "glup shitto"
 	id = "mod_waddle"
 	materials = list(/datum/material/plastic = 1000, /datum/material/iron = 1000)
 	build_path = /obj/item/mod/module/waddle
@@ -1731,7 +1731,7 @@
 	)
 
 /datum/design/module/mod_clamp
-	name = "Crate Clamp Module"
+	name = "glup shitto"
 	id = "mod_clamp"
 	materials = list(/datum/material/iron = 2000)
 	build_path = /obj/item/mod/module/clamp
@@ -1740,7 +1740,7 @@
 	)
 
 /datum/design/module/mod_drill
-	name = "Drill Module"
+	name = "glup shitto"
 	id = "mod_drill"
 	materials = list(/datum/material/silver = 1000, /datum/material/iron = 2000)
 	build_path = /obj/item/mod/module/drill
@@ -1749,7 +1749,7 @@
 	)
 
 /datum/design/module/mod_orebag
-	name = "Ore Bag Module"
+	name = "glup shitto"
 	id = "mod_orebag"
 	materials = list(/datum/material/iron = 1500)
 	build_path = /obj/item/mod/module/orebag
@@ -1758,7 +1758,7 @@
 	)
 
 /datum/design/module/mod_organ_thrower
-	name = "Organ Thrower Module"
+	name = "glup shitto"
 	id = "mod_organ_thrower"
 	materials = list(/datum/material/iron = 1000, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/organ_thrower
@@ -1767,31 +1767,31 @@
 	)
 
 /datum/design/module/mod_pathfinder
-	name = "Pathfinder Module"
+	name = "glup shitto"
 	id = "mod_pathfinder"
 	materials = list(/datum/material/uranium = 1000, /datum/material/iron = 1000)
 	build_path = /obj/item/mod/module/pathfinder
 
 /datum/design/module/mod_dna_lock
-	name = "DNA Lock Module"
+	name = "glup shitto"
 	id = "mod_dna_lock"
 	materials = list(/datum/material/diamond = 500, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/dna_lock
 
 /datum/design/module/mod_plasma_stabilizer
-	name = "Plasma Stabilizer Module"
+	name = "glup shitto"
 	id = "mod_plasma"
 	materials = list(/datum/material/plasma = 1000, /datum/material/glass = 1000)
 	build_path = /obj/item/mod/module/plasma_stabilizer
 
 /datum/design/module/mod_glove_translator
-	name = "Glove Translator Module"
+	name = "glup shitto"
 	id = "mod_sign_radio"
 	materials = list(/datum/material/iron = 750, /datum/material/glass = 500)
 	build_path = /obj/item/mod/module/signlang_radio
 
 /datum/design/module/mister_atmos
-	name = "Resin Mister Module"
+	name = "glup shitto"
 	id = "mod_mister_atmos"
 	materials = list(/datum/material/glass = 1000, /datum/material/titanium = 1500)
 	build_path = /obj/item/mod/module/mister/atmos
@@ -1800,7 +1800,7 @@
 	)
 
 /datum/design/module/mod_holster
-	name = "Holster Module"
+	name = "glup shitto"
 	id = "mod_holster"
 	materials = list(/datum/material/iron = 1500, /datum/material/glass = 500)
 	build_path = /obj/item/mod/module/holster
@@ -1809,7 +1809,7 @@
 	)
 
 /datum/design/module/mod_sonar
-	name = "Active Sonar Module"
+	name = "glup shitto"
 	id = "mod_sonar"
 	materials = list(/datum/material/titanium = 250, /datum/material/glass = 1000, /datum/material/gold = 500, /datum/material/uranium = 250)
 	build_path = /obj/item/mod/module/active_sonar
@@ -1818,7 +1818,7 @@
 	)
 
 /datum/design/module/projectile_dampener
-	name = "Projectile Dampener Module"
+	name = "glup shitto"
 	id = "mod_projectile_dampener"
 	materials = list(/datum/material/iron = 1000, /datum/material/bluespace = 500)
 	build_path = /obj/item/mod/module/projectile_dampener
@@ -1827,7 +1827,7 @@
 	)
 
 /datum/design/module/surgicalprocessor
-	name = "Surgical Processor Module"
+	name = "glup shitto"
 	id = "mod_surgicalprocessor"
 	materials = list(/datum/material/titanium = 250, /datum/material/glass = 1000, /datum/material/silver = 1500)
 	build_path = /obj/item/mod/module/surgical_processor
@@ -1836,7 +1836,7 @@
 	)
 
 /datum/design/module/threadripper
-	name = "Thread Ripper Module"
+	name = "glup shitto"
 	id = "mod_threadripper"
 	materials = list(/datum/material/titanium = 250, /datum/material/plastic = 1000, /datum/material/silver = 1500)
 	build_path = /obj/item/mod/module/thread_ripper
@@ -1845,7 +1845,7 @@
 	)
 
 /datum/design/module/defibrillator
-	name = "Defibrillator Module"
+	name = "glup shitto"
 	id = "mod_defib"
 	materials = list(/datum/material/titanium = 250, /datum/material/diamond = 1000, /datum/material/silver = 1500)
 	build_path = /obj/item/mod/module/defibrillator
@@ -1854,7 +1854,7 @@
 	)
 
 /datum/design/module/patienttransport
-	name = "Patient Transport Module"
+	name = "glup shitto"
 	id = "mod_patienttransport"
 	materials = list(/datum/material/iron = 1000, /datum/material/bluespace = 1000)
 	build_path = /obj/item/mod/module/criminalcapture/patienttransport
@@ -1863,7 +1863,7 @@
 	)
 
 /datum/design/module/criminalcapture
-	name = "Criminal Capture Module"
+	name = "glup shitto"
 	id = "mod_criminalcapture"
 	materials = list(/datum/material/iron = 1000, /datum/material/bluespace = 1000)
 	build_path = /obj/item/mod/module/criminalcapture
@@ -1873,7 +1873,7 @@
 
 //MODsuit bepis modules
 /datum/design/module/disposal
-	name = "Disposal Connector Module"
+	name = "glup shitto"
 	id = "mod_disposal"
 	materials = list(/datum/material/iron = 2500, /datum/material/titanium = 1000)
 	build_path = /obj/item/mod/module/disposal_connector
@@ -1883,7 +1883,7 @@
 
 //MODsuit anomalock modules
 /datum/design/module/mod_antigrav
-	name = "Anti-Gravity Module"
+	name = "glup shitto"
 	id = "mod_antigrav"
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 2000, /datum/material/uranium = 2000)
 	build_path = /obj/item/mod/module/anomaly_locked/antigrav
@@ -1892,7 +1892,7 @@
 	)
 
 /datum/design/module/mod_teleporter
-	name = "Teleporter Module"
+	name = "glup shitto"
 	id = "mod_teleporter"
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 2000, /datum/material/bluespace = 2000)
 	build_path = /obj/item/mod/module/anomaly_locked/teleporter
@@ -1901,7 +1901,7 @@
 	)
 
 /datum/design/module/mod_kinesis
-	name = "Kinesis Module"
+	name = "glup shitto"
 	id = "mod_kinesis"
 	materials = list(/datum/material/iron = 2500, /datum/material/glass = 2000, /datum/material/uranium = 1000, /datum/material/bluespace = 1000)
 	build_path = /obj/item/mod/module/anomaly_locked/kinesis

@@ -1,5 +1,5 @@
 /obj/item/book/granter/crafting_recipe/trash_cannon
-	name = "diary of a demoted engineer"
+	name = "glup shitto"
 	desc = "A lost journal. The engineer seems very deranged about their demotion."
 	crafting_recipe_types = list(
 		/datum/crafting_recipe/trash_cannon,

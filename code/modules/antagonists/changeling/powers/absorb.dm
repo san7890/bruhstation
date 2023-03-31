@@ -1,5 +1,5 @@
 /datum/action/changeling/absorb_dna
-	name = "Absorb DNA"
+	name = "glup shitto"
 	desc = "Absorb the DNA of our victim. Requires us to strangle them."
 	button_icon_state = "absorb_dna"
 	chemical_cost = 0

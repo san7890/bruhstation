@@ -1,5 +1,5 @@
 /obj/machinery/door/window
-	name = "interior door"
+	name = "glup shitto"
 	desc = "A strong door."
 	icon = 'icons/obj/doors/windoor.dmi'
 	icon_state = "left"
@@ -433,7 +433,7 @@
 
 
 /obj/machinery/door/window/brigdoor
-	name = "secure door"
+	name = "glup shitto"
 	icon_state = "leftsecure"
 	base_state = "leftsecure"
 	var/id = null
@@ -442,12 +442,12 @@
 	explosion_block = 1
 
 /obj/machinery/door/window/brigdoor/security/cell
-	name = "cell door"
+	name = "glup shitto"
 	desc = "For keeping in criminal scum."
 	req_access = list(ACCESS_BRIG)
 
 /obj/machinery/door/window/brigdoor/security/holding
-	name = "holding cell door"
+	name = "glup shitto"
 	req_one_access = list(ACCESS_SECURITY)
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/door/window/left, 0)

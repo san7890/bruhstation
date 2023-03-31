@@ -1,5 +1,5 @@
 /obj/projectile/energy/electrode
-	name = "electrode"
+	name = "glup shitto"
 	icon_state = "spark"
 	color = "#FFFF00"
 	paralyze = 10 SECONDS

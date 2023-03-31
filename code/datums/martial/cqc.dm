@@ -5,7 +5,7 @@
 #define CONSECUTIVE_COMBO "DDH"
 
 /datum/martial_art/cqc
-	name = "CQC"
+	name = "glup shitto"
 	id = MARTIALART_CQC
 	help_verb = /mob/living/proc/CQC_help
 	block_chance = 75
@@ -248,7 +248,7 @@
 
 ///Subtype of CQC. Only used for the chef.
 /datum/martial_art/cqc/under_siege
-	name = "Close Quarters Cooking"
+	name = "glup shitto"
 	///List of all areas that CQC will work in, defaults to Kitchen.
 	var/list/kitchen_areas = list(/area/station/service/kitchen)
 

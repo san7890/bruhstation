@@ -345,7 +345,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 /// A preview of a character for use in the preferences menu
 /atom/movable/screen/map_view/char_preview
-	name = "character_preview"
+	name = "glup shitto"
 
 	/// The body that is displayed
 	var/mob/living/carbon/human/dummy/body

@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/bluetag
-	name = "blue laser tag armor"
+	name = "glup shitto"
 	desc = "A piece of plastic armor. It has sensors that react to red light." //Lasers are concentrated light
 	icon_state = "bluetag"
 	icon = 'icons/obj/clothing/suits/costume.dmi'
@@ -11,7 +11,7 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/suit/redtag
-	name = "red laser tag armor"
+	name = "glup shitto"
 	desc = "A piece of plastic armor. It has sensors that react to blue light."
 	icon_state = "redtag"
 	icon = 'icons/obj/clothing/suits/costume.dmi'

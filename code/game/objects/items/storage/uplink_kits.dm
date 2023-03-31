@@ -273,19 +273,19 @@
 	new /obj/item/stack/telecrystal(src) //The failsafe/self destruct isn't an item we can physically include in the kit, but 1 TC is technically enough to buy the equivalent.
 
 /obj/item/storage/box/syndicate/contract_kit
-	name = "Contract Kit"
+	name = "glup shitto"
 	desc = "Supplied to Syndicate contractors."
 	icon_state = "syndiebox"
 	illustration = "writing_syndie"
 
 /obj/item/storage/box/syndicate/contractor_loadout
-	name = "Standard Loadout"
+	name = "glup shitto"
 	desc = "Supplied to Syndicate contractors, providing their specialised space suit and chameleon uniform."
 	icon_state = "syndiebox"
 	illustration = "writing_syndie"
 
 /obj/item/paper/contractor_guide
-	name = "Contractor Guide"
+	name = "glup shitto"
 
 /obj/item/paper/contractor_guide/Initialize(mapload)
 	default_raw_text = {"<p>Welcome agent, congratulations on your new position as contractor. On top of your already assigned objectives,
@@ -330,13 +330,13 @@
 	return ..()
 
 /obj/item/storage/box/syndie_kit
-	name = "box"
+	name = "glup shitto"
 	desc = "A sleek, sturdy box."
 	icon_state = "syndiebox"
 	illustration = "writing_syndie"
 
 /obj/item/storage/box/syndie_kit/origami_bundle
-	name = "origami kit"
+	name = "glup shitto"
 	desc = "A box full of a number of rather masterfully engineered paper planes and a manual on \"The Art of Origami\"."
 
 /obj/item/storage/box/syndie_kit/origami_bundle/PopulateContents()
@@ -345,63 +345,63 @@
 		new /obj/item/paper(src)
 
 /obj/item/storage/box/syndie_kit/imp_freedom
-	name = "freedom implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_freedom/PopulateContents()
 	new /obj/item/implanter/freedom(src)
 
 /obj/item/storage/box/syndie_kit/imp_microbomb
-	name = "microbomb implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_microbomb/PopulateContents()
 	new /obj/item/implanter/explosive(src)
 
 /obj/item/storage/box/syndie_kit/imp_macrobomb
-	name = "macrobomb implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_macrobomb/PopulateContents()
 	new /obj/item/implanter/explosive_macro(src)
 
 /obj/item/storage/box/syndie_kit/imp_uplink
-	name = "uplink implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_uplink/PopulateContents()
 	new /obj/item/implanter/uplink(src)
 
 /obj/item/storage/box/syndie_kit/bioterror
-	name = "bioterror syringe box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/bioterror/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/syringe/bioterror(src)
 
 /obj/item/storage/box/syndie_kit/clownpins
-	name = "ultra hilarious firing pin box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/clownpins/PopulateContents()
 	for(var/i in 1 to 7)
 		new /obj/item/firing_pin/clown/ultra(src)
 
 /obj/item/storage/box/syndie_kit/imp_storage
-	name = "storage implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_storage/PopulateContents()
 	new /obj/item/implanter/storage(src)
 
 /obj/item/storage/box/syndie_kit/imp_stealth
-	name = "stealth implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_stealth/PopulateContents()
 	new /obj/item/implanter/stealth(src)
 
 /obj/item/storage/box/syndie_kit/imp_radio
-	name = "syndicate radio implant box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/imp_radio/PopulateContents()
 	new /obj/item/implanter/radio/syndicate(src)
 
 /obj/item/storage/box/syndie_kit/space
-	name = "boxed space suit and helmet"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/space/Initialize(mapload)
 	. = ..()
@@ -418,7 +418,7 @@
 		new /obj/item/clothing/suit/space/syndicate(src)
 
 /obj/item/storage/box/syndie_kit/emp
-	name = "EMP kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/emp/PopulateContents()
 	for(var/i in 1 to 5)
@@ -426,7 +426,7 @@
 	new /obj/item/implanter/emp(src)
 
 /obj/item/storage/box/syndie_kit/chemical
-	name = "chemical kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/chemical/Initialize(mapload)
 	. = ..()
@@ -449,7 +449,7 @@
 	new /obj/item/reagent_containers/syringe(src)
 
 /obj/item/storage/box/syndie_kit/nuke
-	name = "nuke core extraction kit"
+	name = "glup shitto"
 	desc = "A box containing the equipment and instructions for extracting the plutonium cores of most Nanotrasen nuclear explosives."
 
 /obj/item/storage/box/syndie_kit/nuke/PopulateContents()
@@ -458,7 +458,7 @@
 	new /obj/item/paper/guides/antag/nuke_instructions(src)
 
 /obj/item/storage/box/syndie_kit/supermatter
-	name = "supermatter sliver extraction kit"
+	name = "glup shitto"
 	desc = "A box containing the equipment and instructions for extracting a sliver of supermatter."
 
 /obj/item/storage/box/syndie_kit/supermatter/PopulateContents()
@@ -468,7 +468,7 @@
 	new /obj/item/paper/guides/antag/supermatter_sliver(src)
 
 /obj/item/storage/box/syndie_kit/tuberculosisgrenade
-	name = "virus grenade kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/tuberculosisgrenade/PopulateContents()
 	new /obj/item/grenade/chem_grenade/tuberculosis(src)
@@ -478,7 +478,7 @@
 	new /obj/item/reagent_containers/cup/bottle/tuberculosiscure(src)
 
 /obj/item/storage/box/syndie_kit/chameleon
-	name = "chameleon kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/chameleon/PopulateContents()
 	new /obj/item/clothing/under/chameleon(src)
@@ -560,7 +560,7 @@
 	// No chameleon laser, they can't randomise for //REASONS//
 
 /obj/item/storage/box/syndie_kit/bee_grenades
-	name = "buzzkill grenade box"
+	name = "glup shitto"
 	desc = "A sleek, sturdy box with a buzzing noise coming from the inside. Uh oh."
 
 /obj/item/storage/box/syndie_kit/bee_grenades/PopulateContents()
@@ -576,7 +576,7 @@
 /// Surplus Ammo Box
 
 /obj/item/storage/box/syndie_kit/surplus
-	name = "surplus .50 BMG magazine box"
+	name = "glup shitto"
 	desc = "A shoddy box full of surplus .50 BMG magazines. Not as strong, but good enough to keep lead in the air."
 
 /obj/item/storage/box/syndie_kit/surplus/PopulateContents()
@@ -595,7 +595,7 @@
 	new /obj/item/storage/box/syndie_kit/signaler(src)
 
 /obj/item/storage/box/syndie_kit/signaler
-	name = "signaler box"
+	name = "glup shitto"
 	desc = "Contains everything an agent would need to remotely detonate their bombs."
 
 /obj/item/storage/box/syndie_kit/signaler/PopulateContents()
@@ -603,7 +603,7 @@
 		new /obj/item/assembly/signaler(src)
 
 /obj/item/storage/box/syndie_kit/imp_deathrattle
-	name = "deathrattle implant box"
+	name = "glup shitto"
 	desc = "Contains eight linked deathrattle implants."
 
 /obj/item/storage/box/syndie_kit/imp_deathrattle/PopulateContents()
@@ -621,7 +621,7 @@
 	desc += " The implants are registered to the \"[group.name]\" group."
 
 /obj/item/storage/box/syndie_kit/stickers
-	name = "sticker kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/stickers/Initialize(mapload)
 	. = ..()
@@ -634,7 +634,7 @@
 		new type(src)
 
 /obj/item/storage/box/syndie_kit/pinata
-	name = "weapons grade pinata kit"
+	name = "glup shitto"
 	desc = "Contains a weapons grade pinata and 2 belts for carrying its contents."
 
 /obj/item/storage/box/syndie_kit/pinata/PopulateContents()

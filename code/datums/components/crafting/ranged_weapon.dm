@@ -1,5 +1,5 @@
 /datum/crafting_recipe/bola
-	name = "Bola"
+	name = "glup shitto"
 	result = /obj/item/restraints/legcuffs/bola
 	reqs = list(
 		/obj/item/restraints/handcuffs/cable = 1,
@@ -9,7 +9,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/gonbola
-	name = "Gonbola"
+	name = "glup shitto"
 	result = /obj/item/restraints/legcuffs/bola/gonbola
 	reqs = list(
 		/obj/item/restraints/handcuffs/cable = 1,
@@ -20,7 +20,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/reciever
-	name = "Modular Rifle Reciever"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER, TOOL_SAW)
 	result = /obj/item/weaponcrafting/receiver
 	reqs = list(
@@ -33,7 +33,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/riflestock
-	name = "Wooden Rifle Stock"
+	name = "glup shitto"
 	tool_paths = list(/obj/item/hatchet)
 	result = /obj/item/weaponcrafting/stock
 	reqs = list(
@@ -44,7 +44,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/advancedegun
-	name = "Advanced Energy Gun"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/e_gun/nuclear
 	reqs = list(
@@ -60,7 +60,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/e_gun)
 
 /datum/crafting_recipe/tempgun
-	name = "Temperature Gun"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/temperature
 	reqs = list(
@@ -76,7 +76,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/e_gun)
 
 /datum/crafting_recipe/beam_rifle
-	name = "Particle Acceleration Rifle"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/beam_rifle
 	reqs = list(
@@ -94,7 +94,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/e_gun)
 
 /datum/crafting_recipe/ebow
-	name = "Energy Crossbow"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/recharge/ebow/large
 	reqs = list(
@@ -107,7 +107,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/xraylaser
-	name = "X-ray Laser Gun"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/xray
 	reqs = list(
@@ -123,7 +123,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/laser)
 
 /datum/crafting_recipe/hellgun
-	name = "Hellfire Laser Gun"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/laser/hellgun
 	reqs = list(
@@ -139,7 +139,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/laser)
 
 /datum/crafting_recipe/ioncarbine
-	name = "Ion Carbine"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/ionrifle/carbine
 	reqs = list(
@@ -155,7 +155,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/laser)
 
 /datum/crafting_recipe/decloner
-	name = "Biological Demolecularisor"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/decloner
 	reqs = list(
@@ -173,7 +173,7 @@
 	blacklist += subtypesof(/obj/item/gun/energy/laser)
 
 /datum/crafting_recipe/teslacannon
-	name = "Tesla Cannon"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
 	result = /obj/item/gun/energy/tesla_cannon
 	reqs = list(
@@ -185,7 +185,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/improvised_pneumatic_cannon //Pretty easy to obtain but
-	name = "Pneumatic Cannon"
+	name = "glup shitto"
 	result = /obj/item/pneumatic_cannon/ghetto
 	tool_behaviors = list(TOOL_WELDER, TOOL_WRENCH)
 	reqs = list(
@@ -197,7 +197,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/flamethrower
-	name = "Flamethrower"
+	name = "glup shitto"
 	result = /obj/item/flamethrower
 	reqs = list(
 		/obj/item/weldingtool = 1,
@@ -213,7 +213,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/pipegun
-	name = "Pipegun"
+	name = "glup shitto"
 	result = /obj/item/gun/ballistic/rifle/boltaction/pipegun
 	reqs = list(/obj/item/weaponcrafting/receiver = 1,
 		/obj/item/pipe = 1,
@@ -225,7 +225,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/pipegun_prime
-	name = "Regal Pipegun"
+	name = "glup shitto"
 	always_available = FALSE
 	result = /obj/item/gun/ballistic/rifle/boltaction/pipegun/prime
 	reqs = list(
@@ -241,7 +241,7 @@
 	category = CAT_WEAPON_RANGED
 
 /datum/crafting_recipe/trash_cannon
-	name = "Trash Cannon"
+	name = "glup shitto"
 	always_available = FALSE
 	tool_behaviors = list(TOOL_WELDER, TOOL_SCREWDRIVER)
 	result = /obj/structure/cannon/trash

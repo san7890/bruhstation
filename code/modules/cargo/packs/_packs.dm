@@ -85,13 +85,13 @@
  * This is for adding custom orders to the Cargo console (like order consoles)
  */
 /datum/supply_pack/custom
-	name = "mining order"
+	name = "glup shitto"
 	hidden = TRUE
 	crate_name = "shaft mining delivery crate"
 	access = list(ACCESS_MINING)
 
 /datum/supply_pack/custom/New(purchaser, cost, list/contains)
 	. = ..()
-	name = "[purchaser]'s Mining Order"
+	name = "glup shitto"
 	src.cost = cost
 	src.contains = contains

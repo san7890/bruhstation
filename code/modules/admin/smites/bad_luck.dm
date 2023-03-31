@@ -1,6 +1,6 @@
 /// Gives the target bad luck, optionally permanently
 /datum/smite/bad_luck
-	name = "Bad Luck"
+	name = "glup shitto"
 
 	/// Should the target know they've received bad luck?
 	var/silent

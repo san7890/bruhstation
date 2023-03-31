@@ -2,7 +2,7 @@
  * Parent class for all implants
  */
 /obj/item/implant
-	name = "implant"
+	name = "glup shitto"
 	icon = 'icons/obj/implants.dmi'
 	icon_state = "generic" //Shows up as the action button icon
 	item_flags = ABSTRACT | DROPDEL

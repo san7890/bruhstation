@@ -1,14 +1,14 @@
 // Station areas and shuttles
 
 /area/station
-	name = "Station Areas"
+	name = "glup shitto"
 	icon = 'icons/area/areas_station.dmi'
 	icon_state = "station"
 
 //Maintenance
 
 /area/station/maintenance
-	name = "Generic Maintenance"
+	name = "glup shitto"
 	ambience_index = AMBIENCE_MAINT
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED | PERSISTENT_ENGRAVINGS
 	airlock_wires = /datum/wires/airlock/maint
@@ -20,242 +20,242 @@
 //Maintenance - Departmental
 
 /area/station/maintenance/department/chapel
-	name = "Chapel Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_chapel"
 
 /area/station/maintenance/department/chapel/monastery
-	name = "Monastery Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_monastery"
 
 /area/station/maintenance/department/crew_quarters/bar
-	name = "Bar Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_bar"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/maintenance/department/crew_quarters/dorms
-	name = "Dormitory Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_dorms"
 
 /area/station/maintenance/department/eva
-	name = "EVA Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_eva"
 
 /area/station/maintenance/department/eva/abandoned
-	name = "Abandoned EVA Storage"
+	name = "glup shitto"
 
 /area/station/maintenance/department/electrical
-	name = "Electrical Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_electrical"
 
 /area/station/maintenance/department/engine/atmos
-	name = "Atmospherics Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_atmos"
 
 /area/station/maintenance/department/security
-	name = "Security Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_sec"
 
 /area/station/maintenance/department/security/upper
-	name = "Upper Security Maintenance"
+	name = "glup shitto"
 
 /area/station/maintenance/department/security/brig
-	name = "Brig Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_brig"
 
 /area/station/maintenance/department/medical
-	name = "Medbay Maintenance"
+	name = "glup shitto"
 	icon_state = "medbay_maint"
 
 /area/station/maintenance/department/medical/central
-	name = "Central Medbay Maintenance"
+	name = "glup shitto"
 	icon_state = "medbay_maint_central"
 
 /area/station/maintenance/department/medical/morgue
-	name = "Morgue Maintenance"
+	name = "glup shitto"
 	icon_state = "morgue_maint"
 
 /area/station/maintenance/department/science
-	name = "Science Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_sci"
 
 /area/station/maintenance/department/science/central
-	name = "Central Science Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_sci_central"
 
 /area/station/maintenance/department/cargo
-	name = "Cargo Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_cargo"
 
 /area/station/maintenance/department/bridge
-	name = "Bridge Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_bridge"
 
 /area/station/maintenance/department/engine
-	name = "Engineering Maintenance"
+	name = "glup shitto"
 	icon_state = "maint_engi"
 
 /area/station/maintenance/department/science/xenobiology
-	name = "Xenobiology Maintenance"
+	name = "glup shitto"
 	icon_state = "xenomaint"
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA | XENOBIOLOGY_COMPATIBLE | CULT_PERMITTED
 
 //Maintenance - Generic Tunnels
 
 /area/station/maintenance/aft
-	name = "Aft Maintenance"
+	name = "glup shitto"
 	icon_state = "aftmaint"
 
 /area/station/maintenance/aft/upper
-	name = "Upper Aft Maintenance"
+	name = "glup shitto"
 	icon_state = "upperaftmaint"
 
 /area/station/maintenance/aft/greater //use greater variants of area definitions for when the station has two different sections of maintenance on the same z-level. Can stand alone without "lesser". This one means that this goes more fore/north than the "lesser" maintenance area.
-	name = "Greater Aft Maintenance"
+	name = "glup shitto"
 	icon_state = "greateraftmaint"
 
 /area/station/maintenance/aft/lesser //use lesser variants of area definitions for when the station has two different sections of maintenance on the same z-level in conjunction with "greater" (just because it follows better). This one means that this goes more aft/south than the "greater" maintenance area.
-	name = "Lesser Aft Maintenance"
+	name = "glup shitto"
 	icon_state = "lesseraftmaint"
 
 /area/station/maintenance/central
-	name = "Central Maintenance"
+	name = "glup shitto"
 	icon_state = "centralmaint"
 
 /area/station/maintenance/central/greater
-	name = "Greater Central Maintenance"
+	name = "glup shitto"
 	icon_state = "greatercentralmaint"
 
 /area/station/maintenance/central/lesser
-	name = "Lesser Central Maintenance"
+	name = "glup shitto"
 	icon_state = "lessercentralmaint"
 
 /area/station/maintenance/fore
-	name = "Fore Maintenance"
+	name = "glup shitto"
 	icon_state = "foremaint"
 
 /area/station/maintenance/fore/upper
-	name = "Upper Fore Maintenance"
+	name = "glup shitto"
 	icon_state = "upperforemaint"
 
 /area/station/maintenance/fore/greater
-	name = "Greater Fore Maintenance"
+	name = "glup shitto"
 	icon_state = "greaterforemaint"
 
 /area/station/maintenance/fore/lesser
-	name = "Lesser Fore Maintenance"
+	name = "glup shitto"
 	icon_state = "lesserforemaint"
 
 /area/station/maintenance/starboard
-	name = "Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "starboardmaint"
 
 /area/station/maintenance/starboard/upper
-	name = "Upper Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "upperstarboardmaint"
 
 /area/station/maintenance/starboard/central
-	name = "Central Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "centralstarboardmaint"
 
 /area/station/maintenance/starboard/greater
-	name = "Greater Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "greaterstarboardmaint"
 
 /area/station/maintenance/starboard/lesser
-	name = "Lesser Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "lesserstarboardmaint"
 
 /area/station/maintenance/starboard/aft
-	name = "Aft Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "asmaint"
 
 /area/station/maintenance/starboard/fore
-	name = "Fore Starboard Maintenance"
+	name = "glup shitto"
 	icon_state = "fsmaint"
 
 /area/station/maintenance/port
-	name = "Port Maintenance"
+	name = "glup shitto"
 	icon_state = "portmaint"
 
 /area/station/maintenance/port/central
-	name = "Central Port Maintenance"
+	name = "glup shitto"
 	icon_state = "centralportmaint"
 
 /area/station/maintenance/port/greater
-	name = "Greater Port Maintenance"
+	name = "glup shitto"
 	icon_state = "greaterportmaint"
 
 /area/station/maintenance/port/lesser
-	name = "Lesser Port Maintenance"
+	name = "glup shitto"
 	icon_state = "lesserportmaint"
 
 /area/station/maintenance/port/aft
-	name = "Aft Port Maintenance"
+	name = "glup shitto"
 	icon_state = "apmaint"
 
 /area/station/maintenance/port/fore
-	name = "Fore Port Maintenance"
+	name = "glup shitto"
 	icon_state = "fpmaint"
 
 /area/station/maintenance/tram
-	name = "Primary Tram Maintenance"
+	name = "glup shitto"
 
 /area/station/maintenance/tram/left
-	name = "\improper Port Tram Underpass"
+	name = "glup shitto"
 	icon_state = "mainttramL"
 
 /area/station/maintenance/tram/mid
-	name = "\improper Central Tram Underpass"
+	name = "glup shitto"
 	icon_state = "mainttramM"
 
 /area/station/maintenance/tram/right
-	name = "\improper Starboard Tram Underpass"
+	name = "glup shitto"
 	icon_state = "mainttramR"
 
 //Maintenance - Discrete Areas
 /area/station/maintenance/disposal
-	name = "Waste Disposal"
+	name = "glup shitto"
 	icon_state = "disposal"
 
 /area/station/maintenance/disposal/incinerator
-	name = "\improper Incinerator"
+	name = "glup shitto"
 	icon_state = "incinerator"
 
 /area/station/maintenance/space_hut
-	name = "\improper Space Hut"
+	name = "glup shitto"
 	icon_state = "spacehut"
 
 /area/station/maintenance/space_hut/cabin
-	name = "Abandoned Cabin"
+	name = "glup shitto"
 
 /area/station/maintenance/space_hut/plasmaman
-	name = "\improper Abandoned Plasmaman Friendly Startup"
+	name = "glup shitto"
 
 /area/station/maintenance/space_hut/observatory
-	name = "\improper Space Observatory"
+	name = "glup shitto"
 
 //Radation storm shelter
 /area/station/maintenance/radshelter
-	name = "\improper Radstorm Shelter"
+	name = "glup shitto"
 	icon_state = "radstorm_shelter"
 
 /area/station/maintenance/radshelter/medical
-	name = "\improper Medical Radstorm Shelter"
+	name = "glup shitto"
 
 /area/station/maintenance/radshelter/sec
-	name = "\improper Security Radstorm Shelter"
+	name = "glup shitto"
 
 /area/station/maintenance/radshelter/service
-	name = "\improper Service Radstorm Shelter"
+	name = "glup shitto"
 
 /area/station/maintenance/radshelter/civil
-	name = "\improper Civilian Radstorm Shelter"
+	name = "glup shitto"
 
 /area/station/maintenance/radshelter/sci
-	name = "\improper Science Radstorm Shelter"
+	name = "glup shitto"
 
 /area/station/maintenance/radshelter/cargo
-	name = "\improper Cargo Radstorm Shelter"
+	name = "glup shitto"
 
 
 //Hallway
@@ -265,112 +265,112 @@
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/hallway/primary
-	name = "\improper Primary Hallway"
+	name = "glup shitto"
 	icon_state = "primaryhall"
 
 /area/station/hallway/primary/aft
-	name = "\improper Aft Primary Hallway"
+	name = "glup shitto"
 	icon_state = "afthall"
 
 /area/station/hallway/primary/fore
-	name = "\improper Fore Primary Hallway"
+	name = "glup shitto"
 	icon_state = "forehall"
 
 /area/station/hallway/primary/starboard
-	name = "\improper Starboard Primary Hallway"
+	name = "glup shitto"
 	icon_state = "starboardhall"
 
 /area/station/hallway/primary/port
-	name = "\improper Port Primary Hallway"
+	name = "glup shitto"
 	icon_state = "porthall"
 
 /area/station/hallway/primary/central
-	name = "\improper Central Primary Hallway"
+	name = "glup shitto"
 	icon_state = "centralhall"
 
 /area/station/hallway/primary/central/fore
-	name = "\improper Fore Central Primary Hallway"
+	name = "glup shitto"
 	icon_state = "hallCF"
 
 /area/station/hallway/primary/central/aft
-	name = "\improper Aft Central Primary Hallway"
+	name = "glup shitto"
 	icon_state = "hallCA"
 
 /area/station/hallway/primary/upper
-	name = "\improper Upper Central Primary Hallway"
+	name = "glup shitto"
 	icon_state = "centralhall"
 
 /area/station/hallway/primary/tram
-	name = "\improper Primary Tram"
+	name = "glup shitto"
 
 /area/station/hallway/primary/tram/left
-	name = "\improper Port Tram Dock"
+	name = "glup shitto"
 	icon_state = "halltramL"
 
 /area/station/hallway/primary/tram/center
-	name = "\improper Central Tram Dock"
+	name = "glup shitto"
 	icon_state = "halltramM"
 
 /area/station/hallway/primary/tram/right
-	name = "\improper Starboard Tram Dock"
+	name = "glup shitto"
 	icon_state = "halltramR"
 
 /area/station/hallway/secondary // This shouldn't be used, but it gives an icon for the enviornment tree in the map editor
 	icon_state = "secondaryhall"
 
 /area/station/hallway/secondary/command
-	name = "\improper Command Hallway"
+	name = "glup shitto"
 	icon_state = "bridge_hallway"
 
 /area/station/hallway/secondary/construction
-	name = "\improper Construction Area"
+	name = "glup shitto"
 	icon_state = "construction"
 
 /area/station/hallway/secondary/construction/engineering
-	name = "\improper Engineering Hallway"
+	name = "glup shitto"
 
 /area/station/hallway/secondary/exit
-	name = "\improper Escape Shuttle Hallway"
+	name = "glup shitto"
 	icon_state = "escape"
 
 /area/station/hallway/secondary/exit/departure_lounge
-	name = "\improper Departure Lounge"
+	name = "glup shitto"
 	icon_state = "escape_lounge"
 
 /area/station/hallway/secondary/entry
-	name = "\improper Arrival Shuttle Hallway"
+	name = "glup shitto"
 	icon_state = "entry"
 	area_flags = UNIQUE_AREA | EVENT_PROTECTED
 
 /area/station/hallway/secondary/service
-	name = "\improper Service Hallway"
+	name = "glup shitto"
 	icon_state = "hall_service"
 
 //Command
 
 /area/station/command
-	name = "Command"
+	name = "glup shitto"
 	icon_state = "command"
 	ambientsounds = list('sound/ambience/signal.ogg')
 	airlock_wires = /datum/wires/airlock/command
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/command/bridge
-	name = "\improper Bridge"
+	name = "glup shitto"
 	icon_state = "bridge"
 
 /area/station/command/meeting_room
-	name = "\improper Heads of Staff Meeting Room"
+	name = "glup shitto"
 	icon_state = "meeting"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/station/command/meeting_room/council
-	name = "\improper Council Chamber"
+	name = "glup shitto"
 	icon_state = "meeting"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/station/command/corporate_showroom
-	name = "\improper Corporate Showroom"
+	name = "glup shitto"
 	icon_state = "showroom"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
@@ -378,101 +378,101 @@
 	icon_state = "heads_quarters"
 
 /area/station/command/heads_quarters/captain
-	name = "\improper Captain's Office"
+	name = "glup shitto"
 	icon_state = "captain"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/command/heads_quarters/captain/private
-	name = "\improper Captain's Quarters"
+	name = "glup shitto"
 	icon_state = "captain_private"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/command/heads_quarters/ce
-	name = "\improper Chief Engineer's Office"
+	name = "glup shitto"
 	icon_state = "ce_office"
 
 /area/station/command/heads_quarters/cmo
-	name = "\improper Chief Medical Officer's Office"
+	name = "glup shitto"
 	icon_state = "cmo_office"
 
 /area/station/command/heads_quarters/hop
-	name = "\improper Head of Personnel's Office"
+	name = "glup shitto"
 	icon_state = "hop_office"
 
 /area/station/command/heads_quarters/hos
-	name = "\improper Head of Security's Office"
+	name = "glup shitto"
 	icon_state = "hos_office"
 
 /area/station/command/heads_quarters/rd
-	name = "\improper Research Director's Office"
+	name = "glup shitto"
 	icon_state = "rd_office"
 
 /area/station/command/heads_quarters/qm
-	name = "\improper Quartermaster's Office"
+	name = "glup shitto"
 	icon_state = "qm_office"
 
 //Command - Teleporters
 
 /area/station/command/teleporter
-	name = "\improper Teleporter Room"
+	name = "glup shitto"
 	icon_state = "teleporter"
 	ambience_index = AMBIENCE_ENGI
 
 /area/station/command/gateway
-	name = "\improper Gateway"
+	name = "glup shitto"
 	icon_state = "gateway"
 	ambience_index = AMBIENCE_ENGI
 
 //Commons
 
 /area/station/commons
-	name = "\improper Crew Facilities"
+	name = "glup shitto"
 	icon_state = "commons"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 /area/station/commons/dorms
-	name = "\improper Dormitories"
+	name = "glup shitto"
 	icon_state = "dorms"
 
 /area/station/commons/dorms/barracks
-	name = "\improper Sleep Barracks"
+	name = "glup shitto"
 
 /area/station/commons/dorms/barracks/male
-	name = "\improper Male Sleep Barracks"
+	name = "glup shitto"
 	icon_state = "dorms_male"
 
 /area/station/commons/dorms/barracks/female
-	name = "\improper Female Sleep Barracks"
+	name = "glup shitto"
 	icon_state = "dorms_female"
 
 /area/station/commons/dorms/laundry
-	name = "\improper Laundry Room"
+	name = "glup shitto"
 	icon_state = "laundry_room"
 
 /area/station/commons/toilet
-	name = "\improper Dormitory Toilets"
+	name = "glup shitto"
 	icon_state = "toilet"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/commons/toilet/auxiliary
-	name = "\improper Auxiliary Restrooms"
+	name = "glup shitto"
 	icon_state = "toilet"
 
 /area/station/commons/toilet/locker
-	name = "\improper Locker Toilets"
+	name = "glup shitto"
 	icon_state = "toilet"
 
 /area/station/commons/toilet/restrooms
-	name = "\improper Restrooms"
+	name = "glup shitto"
 	icon_state = "toilet"
 
 /area/station/commons/locker
-	name = "\improper Locker Room"
+	name = "glup shitto"
 	icon_state = "locker"
 
 /area/station/commons/lounge
-	name = "\improper Bar Lounge"
+	name = "glup shitto"
 	icon_state = "lounge"
 	mood_bonus = 5
 	mood_message = "I love being in the bar!"
@@ -480,69 +480,69 @@
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/commons/fitness
-	name = "\improper Fitness Room"
+	name = "glup shitto"
 	icon_state = "fitness"
 
 /area/station/commons/fitness/locker_room
-	name = "\improper Unisex Locker Room"
+	name = "glup shitto"
 	icon_state = "locker"
 
 /area/station/commons/fitness/locker_room/male
-	name = "\improper Male Locker Room"
+	name = "glup shitto"
 	icon_state = "locker_male"
 
 /area/station/commons/fitness/locker_room/female
-	name = "\improper Female Locker Room"
+	name = "glup shitto"
 	icon_state = "locker_female"
 
 /area/station/commons/fitness/recreation
-	name = "\improper Recreation Area"
+	name = "glup shitto"
 	icon_state = "rec"
 
 /area/station/commons/fitness/recreation/entertainment
-	name = "\improper Entertainment Center"
+	name = "glup shitto"
 	icon_state = "entertainment"
 
 // Commons - Vacant Rooms
 /area/station/commons/vacant_room
-	name = "\improper Vacant Room"
+	name = "glup shitto"
 	icon_state = "vacant_room"
 	ambience_index = AMBIENCE_MAINT
 
 /area/station/commons/vacant_room/office
-	name = "\improper Vacant Office"
+	name = "glup shitto"
 	icon_state = "vacant_office"
 
 /area/station/commons/vacant_room/commissary
-	name = "\improper Vacant Commissary"
+	name = "glup shitto"
 	icon_state = "vacant_commissary"
 
 //Commons - Storage
 /area/station/commons/storage
-	name = "\improper Commons Storage"
+	name = "glup shitto"
 
 /area/station/commons/storage/tools
-	name = "\improper Auxiliary Tool Storage"
+	name = "glup shitto"
 	icon_state = "tool_storage"
 
 /area/station/commons/storage/primary
-	name = "\improper Primary Tool Storage"
+	name = "glup shitto"
 	icon_state = "primary_storage"
 
 /area/station/commons/storage/art
-	name = "\improper Art Supply Storage"
+	name = "glup shitto"
 	icon_state = "art_storage"
 
 /area/station/commons/storage/emergency/starboard
-	name = "\improper Starboard Emergency Storage"
+	name = "glup shitto"
 	icon_state = "emergency_storage"
 
 /area/station/commons/storage/emergency/port
-	name = "\improper Port Emergency Storage"
+	name = "glup shitto"
 	icon_state = "emergency_storage"
 
 /area/station/commons/storage/mining
-	name = "\improper Public Mining Storage"
+	name = "glup shitto"
 	icon_state = "mining_storage"
 
 //Service
@@ -551,32 +551,32 @@
 	airlock_wires = /datum/wires/airlock/service
 
 /area/station/service/cafeteria
-	name = "\improper Cafeteria"
+	name = "glup shitto"
 	icon_state = "cafeteria"
 
 /area/station/service/barber
-	name = "\improper Barber"
+	name = "glup shitto"
 	icon_state = "barber"
 
 /area/station/service/kitchen
-	name = "\improper Kitchen"
+	name = "glup shitto"
 	icon_state = "kitchen"
 
 /area/station/service/kitchen/coldroom
-	name = "\improper Kitchen Cold Room"
+	name = "glup shitto"
 	icon_state = "kitchen_cold"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/service/kitchen/diner
-	name = "\improper Diner"
+	name = "glup shitto"
 	icon_state = "diner"
 
 /area/station/service/kitchen/abandoned
-	name = "\improper Abandoned Kitchen"
+	name = "glup shitto"
 	icon_state = "abandoned_kitchen"
 
 /area/station/service/bar
-	name = "\improper Bar"
+	name = "glup shitto"
 	icon_state = "bar"
 	mood_bonus = 5
 	mood_message = "I love being in the bar!"
@@ -589,37 +589,37 @@
 	GLOB.bar_areas += src
 
 /area/station/service/bar/atrium
-	name = "\improper Atrium"
+	name = "glup shitto"
 	icon_state = "bar"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/service/bar/backroom
-	name = "\improper Bar Backroom"
+	name = "glup shitto"
 	icon_state = "bar_backroom"
 
 /area/station/service/electronic_marketing_den
-	name = "\improper Electronic Marketing Den"
+	name = "glup shitto"
 	icon_state = "abandoned_marketing_den"
 
 /area/station/service/abandoned_gambling_den
-	name = "\improper Abandoned Gambling Den"
+	name = "glup shitto"
 	icon_state = "abandoned_gambling_den"
 
 /area/station/service/abandoned_gambling_den/gaming
-	name = "\improper Abandoned Gaming Den"
+	name = "glup shitto"
 	icon_state = "abandoned_gaming_den"
 
 /area/station/service/theater
-	name = "\improper Theater"
+	name = "glup shitto"
 	icon_state = "theatre"
 	sound_environment = SOUND_AREA_WOODFLOOR
 
 /area/station/service/theater/abandoned
-	name = "\improper Abandoned Theater"
+	name = "glup shitto"
 	icon_state = "abandoned_theatre"
 
 /area/station/service/library
-	name = "\improper Library"
+	name = "glup shitto"
 	icon_state = "library"
 	mood_bonus = 5
 	mood_message = "I love being in the library!"
@@ -628,32 +628,32 @@
 	sound_environment = SOUND_AREA_LARGE_SOFTFLOOR
 
 /area/station/service/library/lounge
-	name = "\improper Library Lounge"
+	name = "glup shitto"
 	icon_state = "library_lounge"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/service/library/artgallery
-	name = "\improper  Art Gallery"
+	name = "glup shitto"
 	icon_state = "library_gallery"
 
 /area/station/service/library/private
-	name = "\improper Library Private Study"
+	name = "glup shitto"
 	icon_state = "library_gallery_private"
 
 /area/station/service/library/upper
-	name = "\improper Library Upper Floor"
+	name = "glup shitto"
 	icon_state = "library"
 
 /area/station/service/library/printer
-	name = "\improper Library Printer Room"
+	name = "glup shitto"
 	icon_state = "library"
 
 /area/station/service/library/abandoned
-	name = "\improper Abandoned Library"
+	name = "glup shitto"
 	icon_state = "abandoned_library"
 
 /area/station/service/chapel
-	name = "\improper Chapel"
+	name = "glup shitto"
 	icon_state = "chapel"
 	mood_bonus = 5
 	mood_message = "Being in the chapel brings me peace."
@@ -663,64 +663,64 @@
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/service/chapel/monastery
-	name = "\improper Monastery"
+	name = "glup shitto"
 
 /area/station/service/chapel/office
-	name = "\improper Chapel Office"
+	name = "glup shitto"
 	icon_state = "chapeloffice"
 
 /area/station/service/chapel/asteroid
-	name = "\improper Chapel Asteroid"
+	name = "glup shitto"
 	icon_state = "explored"
 	sound_environment = SOUND_AREA_ASTEROID
 
 /area/station/service/chapel/asteroid/monastery
-	name = "\improper Monastery Asteroid"
+	name = "glup shitto"
 
 /area/station/service/chapel/dock
-	name = "\improper Chapel Dock"
+	name = "glup shitto"
 	icon_state = "construction"
 
 /area/station/service/chapel/storage
-	name = "\improper Chapel Storage"
+	name = "glup shitto"
 	icon_state = "chapelstorage"
 
 /area/station/service/chapel/funeral
-	name = "\improper Chapel Funeral Room"
+	name = "glup shitto"
 	icon_state = "chapelfuneral"
 
 /area/station/service/lawoffice
-	name = "\improper Law Office"
+	name = "glup shitto"
 	icon_state = "law"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/service/janitor
-	name = "\improper Custodial Closet"
+	name = "glup shitto"
 	icon_state = "janitor"
 	area_flags = CULT_PERMITTED | BLOBS_ALLOWED | UNIQUE_AREA
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/service/hydroponics
-	name = "Hydroponics"
+	name = "glup shitto"
 	icon_state = "hydro"
 	airlock_wires = /datum/wires/airlock/service
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/service/hydroponics/upper
-	name = "Upper Hydroponics"
+	name = "glup shitto"
 	icon_state = "hydro"
 
 /area/station/service/hydroponics/garden
-	name = "Garden"
+	name = "glup shitto"
 	icon_state = "garden"
 
 /area/station/service/hydroponics/garden/abandoned
-	name = "\improper Abandoned Garden"
+	name = "glup shitto"
 	icon_state = "abandoned_garden"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/service/hydroponics/garden/monastery
-	name = "\improper Monastery Garden"
+	name = "glup shitto"
 	icon_state = "hydro"
 
 //Engineering
@@ -732,119 +732,119 @@
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/engineering/engine_smes
-	name = "\improper Engineering SMES"
+	name = "glup shitto"
 	icon_state = "engine_smes"
 
 /area/station/engineering/main
-	name = "Engineering"
+	name = "glup shitto"
 	icon_state = "engine"
 
 /area/station/engineering/hallway
-	name = "Engineering Hallway"
+	name = "glup shitto"
 	icon_state = "engine_hallway"
 
 /area/station/engineering/atmos
-	name = "Atmospherics"
+	name = "glup shitto"
 	icon_state = "atmos"
 
 /area/station/engineering/atmos/upper
-	name = "Upper Atmospherics"
+	name = "glup shitto"
 
 /area/station/engineering/atmos/project
-	name = "\improper Atmospherics Project Room"
+	name = "glup shitto"
 	icon_state = "atmos_projectroom"
 
 /area/station/engineering/atmos/pumproom
-	name = "\improper Atmospherics Pumping Room"
+	name = "glup shitto"
 	icon_state = "atmos_pump_room"
 
 /area/station/engineering/atmos/mix
-	name = "\improper Atmospherics Mixing Room"
+	name = "glup shitto"
 	icon_state = "atmos_mix"
 
 /area/station/engineering/atmos/storage
-	name = "\improper Atmospherics Storage Room"
+	name = "glup shitto"
 	icon_state = "atmos_storage"
 
 /area/station/engineering/atmos/storage/gas
-	name = "\improper Atmospherics Gas Storage"
+	name = "glup shitto"
 	icon_state = "atmos_storage_gas"
 
 /area/station/engineering/atmos/office
-	name = "\improper Atmospherics Office"
+	name = "glup shitto"
 	icon_state = "atmos_office"
 
 /area/station/engineering/atmos/hfr_room
-	name = "\improper Atmospherics HFR Room"
+	name = "glup shitto"
 	icon_state = "atmos_HFR"
 
 /area/station/engineering/atmospherics_engine
-	name = "\improper Atmospherics Engine"
+	name = "glup shitto"
 	icon_state = "atmos_engine"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 /area/station/engineering/lobby
-	name = "\improper Engineering Lobby"
+	name = "glup shitto"
 	icon_state = "engi_lobby"
 
 /area/station/engineering/supermatter
-	name = "\improper Supermatter Engine"
+	name = "glup shitto"
 	icon_state = "engine_sm"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/supermatter/room
-	name = "\improper Supermatter Engine Room"
+	name = "glup shitto"
 	icon_state = "engine_sm_room"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/engineering/break_room
-	name = "\improper Engineering Foyer"
+	name = "glup shitto"
 	icon_state = "engine_break"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/gravity_generator
-	name = "\improper Gravity Generator Room"
+	name = "glup shitto"
 	icon_state = "grav_gen"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/storage
-	name = "Engineering Storage"
+	name = "glup shitto"
 	icon_state = "engine_storage"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/engineering/storage_shared
-	name = "Shared Engineering Storage"
+	name = "glup shitto"
 	icon_state = "engine_storage_shared"
 
 /area/station/engineering/transit_tube
-	name = "\improper Transit Tube"
+	name = "glup shitto"
 	icon_state = "transit_tube"
 
 /area/station/engineering/storage/tech
-	name = "Technical Storage"
+	name = "glup shitto"
 	icon_state = "tech_storage"
 
 /area/station/engineering/storage/tcomms
-	name = "Telecomms Storage"
+	name = "glup shitto"
 	icon_state = "tcom_storage"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 //Engineering - Construction
 
 /area/station/construction
-	name = "\improper Construction Area"
+	name = "glup shitto"
 	icon_state = "construction"
 	ambience_index = AMBIENCE_ENGI
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/construction/mining/aux_base
-	name = "Auxiliary Base Construction"
+	name = "glup shitto"
 	icon_state = "aux_base_construction"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/station/construction/storage_wing
-	name = "\improper Storage Wing"
+	name = "glup shitto"
 	icon_state = "storage_wing"
 
 //Solars
@@ -859,85 +859,85 @@
 	sound_environment = SOUND_AREA_SPACE
 
 /area/station/solars/fore
-	name = "\improper Fore Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsF"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/solars/aft
-	name = "\improper Aft Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsAF"
 
 /area/station/solars/aux/port
-	name = "\improper Port Bow Auxiliary Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsA"
 
 /area/station/solars/aux/starboard
-	name = "\improper Starboard Bow Auxiliary Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsA"
 
 /area/station/solars/starboard
-	name = "\improper Starboard Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsS"
 
 /area/station/solars/starboard/aft
-	name = "\improper Starboard Quarter Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsAS"
 
 /area/station/solars/starboard/fore
-	name = "\improper Starboard Bow Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsFS"
 
 /area/station/solars/port
-	name = "\improper Port Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsP"
 
 /area/station/solars/port/aft
-	name = "\improper Port Quarter Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsAP"
 
 /area/station/solars/port/fore
-	name = "\improper Port Bow Solar Array"
+	name = "glup shitto"
 	icon_state = "panelsFP"
 
 /area/station/solars/aisat
-	name = "\improper AI Satellite Solars"
+	name = "glup shitto"
 	icon_state = "panelsAI"
 
 
 //Solar Maint
 
 /area/station/maintenance/solars
-	name = "Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "yellow"
 
 /area/station/maintenance/solars/port
-	name = "Port Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "SolarcontrolP"
 
 /area/station/maintenance/solars/port/aft
-	name = "Port Quarter Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "SolarcontrolAP"
 
 /area/station/maintenance/solars/port/fore
-	name = "Port Bow Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "SolarcontrolFP"
 
 /area/station/maintenance/solars/starboard
-	name = "Starboard Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "SolarcontrolS"
 
 /area/station/maintenance/solars/starboard/aft
-	name = "Starboard Quarter Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "SolarcontrolAS"
 
 /area/station/maintenance/solars/starboard/fore
-	name = "Starboard Bow Solar Maintenance"
+	name = "glup shitto"
 	icon_state = "SolarcontrolFS"
 
 //MedBay
 
 /area/station/medical
-	name = "Medical"
+	name = "glup shitto"
 	icon_state = "medbay"
 	ambience_index = AMBIENCE_MEDICAL
 	airlock_wires = /datum/wires/airlock/medbay
@@ -946,106 +946,106 @@
 	max_ambience_cooldown = 180 SECONDS
 
 /area/station/medical/abandoned
-	name = "\improper Abandoned Medbay"
+	name = "glup shitto"
 	icon_state = "abandoned_medbay"
 	ambientsounds = list('sound/ambience/signal.ogg')
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/medical/medbay/central
-	name = "Medbay Central"
+	name = "glup shitto"
 	icon_state = "med_central"
 
 /area/station/medical/medbay/lobby
-	name = "\improper Medbay Lobby"
+	name = "glup shitto"
 	icon_state = "med_lobby"
 
 //Medbay is a large area, these additional areas help level out APC load.
 
 /area/station/medical/medbay/aft
-	name = "Medbay Aft"
+	name = "glup shitto"
 	icon_state = "med_aft"
 
 /area/station/medical/storage
-	name = "Medbay Storage"
+	name = "glup shitto"
 	icon_state = "med_storage"
 
 /area/station/medical/paramedic
-	name = "Paramedic Dispatch"
+	name = "glup shitto"
 	icon_state = "paramedic"
 
 /area/station/medical/office
-	name = "\improper Medical Office"
+	name = "glup shitto"
 	icon_state = "med_office"
 
 /area/station/medical/break_room
-	name = "\improper Medical Break Room"
+	name = "glup shitto"
 	icon_state = "med_break"
 
 /area/station/medical/coldroom
-	name = "\improper Medical Cold Room"
+	name = "glup shitto"
 	icon_state = "kitchen_cold"
 
 /area/station/medical/patients_rooms
-	name = "\improper Patients' Rooms"
+	name = "glup shitto"
 	icon_state = "patients"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/medical/patients_rooms/room_a
-	name = "Patient Room A"
+	name = "glup shitto"
 	icon_state = "patients"
 
 /area/station/medical/patients_rooms/room_b
-	name = "Patient Room B"
+	name = "glup shitto"
 	icon_state = "patients"
 
 /area/station/medical/virology
-	name = "Virology"
+	name = "glup shitto"
 	icon_state = "virology"
 	ambience_index = AMBIENCE_VIROLOGY
 
 /area/station/medical/morgue
-	name = "\improper Morgue"
+	name = "glup shitto"
 	icon_state = "morgue"
 	ambience_index = AMBIENCE_SPOOKY
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/medical/chemistry
-	name = "Chemistry"
+	name = "glup shitto"
 	icon_state = "chem"
 
 /area/station/medical/pharmacy
-	name = "\improper Pharmacy"
+	name = "glup shitto"
 	icon_state = "pharmacy"
 
 /area/station/medical/surgery
-	name = "\improper Operating Room"
+	name = "glup shitto"
 	icon_state = "surgery"
 
 /area/station/medical/surgery/fore
-	name = "\improper Fore Operating Room"
+	name = "glup shitto"
 	icon_state = "foresurgery"
 
 /area/station/medical/surgery/aft
-	name = "\improper Aft Operating Room"
+	name = "glup shitto"
 	icon_state = "aftsurgery"
 
 /area/station/medical/surgery/theatre
-	name = "\improper Grand Surgery Theatre"
+	name = "glup shitto"
 	icon_state = "surgerytheatre"
 /area/station/medical/cryo
-	name = "Cryogenics"
+	name = "glup shitto"
 	icon_state = "cryo"
 
 /area/station/medical/exam_room
-	name = "\improper Exam Room"
+	name = "glup shitto"
 	icon_state = "exam_room"
 
 /area/station/medical/treatment_center
-	name = "\improper Medbay Treatment Center"
+	name = "glup shitto"
 	icon_state = "exam_room"
 
 /area/station/medical/psychology
-	name = "\improper Psychology Office"
+	name = "glup shitto"
 	icon_state = "psychology"
 	mood_bonus = 3
 	mood_message = "I feel at ease here."
@@ -1055,368 +1055,368 @@
 ///When adding a new area to the security areas, make sure to add it to /datum/bounty/item/security/paperwork as well!
 
 /area/station/security
-	name = "Security"
+	name = "glup shitto"
 	icon_state = "security"
 	ambience_index = AMBIENCE_DANGER
 	airlock_wires = /datum/wires/airlock/security
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/security/office
-	name = "\improper Security Office"
+	name = "glup shitto"
 	icon_state = "security"
 
 /area/station/security/lockers
-	name = "\improper Security Locker Room"
+	name = "glup shitto"
 	icon_state = "securitylockerroom"
 
 /area/station/security/brig
-	name = "\improper Brig"
+	name = "glup shitto"
 	icon_state = "brig"
 
 /area/station/security/holding_cell
-	name = "\improper Holding Cell"
+	name = "glup shitto"
 	icon_state = "holding_cell"
 
 /area/station/security/medical
-	name = "\improper Security Medical"
+	name = "glup shitto"
 	icon_state = "security_medical"
 
 /area/station/security/brig/upper
-	name = "\improper Brig Overlook"
+	name = "glup shitto"
 	icon_state = "upperbrig"
 
 /area/station/security/brig/entrance
-	name = "\improper Brig Entrance"
+	name = "glup shitto"
 	icon_state = "brigentry"
 
 /area/station/security/courtroom
-	name = "\improper Courtroom"
+	name = "glup shitto"
 	icon_state = "courtroom"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/security/courtroom/holding
-	name = "\improper Courtroom Prisoner Holding Room"
+	name = "glup shitto"
 
 /area/station/security/prison
-	name = "\improper Prison Wing"
+	name = "glup shitto"
 	icon_state = "sec_prison"
 	area_flags = VALID_TERRITORY | BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED | PERSISTENT_ENGRAVINGS
 
 //Rad proof
 /area/station/security/prison/toilet
-	name = "\improper Prison Toilet"
+	name = "glup shitto"
 	icon_state = "sec_prison_safe"
 
 // Rad proof
 /area/station/security/prison/safe
-	name = "\improper Prison Wing Cells"
+	name = "glup shitto"
 	icon_state = "sec_prison_safe"
 
 /area/station/security/prison/upper
-	name = "\improper Upper Prison Wing"
+	name = "glup shitto"
 	icon_state = "prison_upper"
 
 /area/station/security/prison/visit
-	name = "\improper Prison Visitation Area"
+	name = "glup shitto"
 	icon_state = "prison_visit"
 
 /area/station/security/prison/rec
-	name = "\improper Prison Rec Room"
+	name = "glup shitto"
 	icon_state = "prison_rec"
 
 /area/station/security/prison/mess
-	name = "\improper Prison Mess Hall"
+	name = "glup shitto"
 	icon_state = "prison_mess"
 
 /area/station/security/prison/work
-	name = "\improper Prison Work Room"
+	name = "glup shitto"
 	icon_state = "prison_work"
 
 /area/station/security/prison/shower
-	name = "\improper Prison Shower"
+	name = "glup shitto"
 	icon_state = "prison_shower"
 
 /area/station/security/prison/workout
-	name = "\improper Prison Gym"
+	name = "glup shitto"
 	icon_state = "prison_workout"
 
 /area/station/security/prison/garden
-	name = "\improper Prison Garden"
+	name = "glup shitto"
 	icon_state = "prison_garden"
 
 /area/station/security/processing
-	name = "\improper Labor Shuttle Dock"
+	name = "glup shitto"
 	icon_state = "sec_labor_processing"
 
 /area/station/security/processing/cremation
-	name = "\improper Security Crematorium"
+	name = "glup shitto"
 	icon_state = "sec_cremation"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/security/interrogation
-	name = "\improper Interrogation Room"
+	name = "glup shitto"
 	icon_state = "interrogation"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/security/warden
-	name = "Brig Control"
+	name = "glup shitto"
 	icon_state = "warden"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/security/evidence
-	name = "Evidence Storage"
+	name = "glup shitto"
 	icon_state = "evidence"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/security/detectives_office
-	name = "\improper Detective's Office"
+	name = "glup shitto"
 	icon_state = "detective"
 	ambientsounds = list('sound/ambience/ambidet1.ogg','sound/ambience/ambidet2.ogg')
 
 /area/station/security/detectives_office/private_investigators_office
-	name = "\improper Private Investigator's Office"
+	name = "glup shitto"
 	icon_state = "investigate_office"
 	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
 
 /area/station/security/range
-	name = "\improper Firing Range"
+	name = "glup shitto"
 	icon_state = "firingrange"
 
 /area/station/security/execution
 	icon_state = "execution_room"
 
 /area/station/security/execution/transfer
-	name = "\improper Transfer Centre"
+	name = "glup shitto"
 	icon_state = "sec_processing"
 
 /area/station/security/execution/education
-	name = "\improper Prisoner Education Chamber"
+	name = "glup shitto"
 
 /area/station/security/checkpoint
-	name = "\improper Security Checkpoint"
+	name = "glup shitto"
 	icon_state = "checkpoint"
 
 /area/station/security/checkpoint/escape
-	name = "\improper Departures Security Checkpoint"
+	name = "glup shitto"
 	icon_state = "checkpoint_esc"
 
 /area/station/security/checkpoint/arrivals
-	name = "\improper Arrivals Security Checkpoint"
+	name = "glup shitto"
 	icon_state = "checkpoint_arr"
 
 /area/station/security/checkpoint/supply
-	name = "Security Post - Cargo Bay"
+	name = "glup shitto"
 	icon_state = "checkpoint_supp"
 
 /area/station/security/checkpoint/engineering
-	name = "Security Post - Engineering"
+	name = "glup shitto"
 	icon_state = "checkpoint_engi"
 
 /area/station/security/checkpoint/medical
-	name = "Security Post - Medbay"
+	name = "glup shitto"
 	icon_state = "checkpoint_med"
 
 /area/station/security/checkpoint/medical/medsci
-	name = "Security Post - Medsci"
+	name = "glup shitto"
 
 /area/station/security/checkpoint/science
-	name = "Security Post - Science"
+	name = "glup shitto"
 	icon_state = "checkpoint_sci"
 
 /area/station/security/checkpoint/science/research
-	name = "Security Post - Research Division"
+	name = "glup shitto"
 	icon_state = "checkpoint_res"
 
 /area/station/security/checkpoint/customs
-	name = "Customs"
+	name = "glup shitto"
 	icon_state = "customs_point"
 
 /area/station/security/checkpoint/customs/auxiliary
-	name = "Auxiliary Customs"
+	name = "glup shitto"
 	icon_state = "customs_point_aux"
 
 /area/station/security/checkpoint/customs/fore
-	name = "Fore Customs"
+	name = "glup shitto"
 	icon_state = "customs_point_fore"
 
 /area/station/security/checkpoint/customs/aft
-	name = "Aft Customs"
+	name = "glup shitto"
 	icon_state = "customs_point_aft"
 
 //Cargo
 
 /area/station/cargo
-	name = "Quartermasters"
+	name = "glup shitto"
 	icon_state = "quart"
 	airlock_wires = /datum/wires/airlock/service
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/cargo/sorting
-	name = "\improper Delivery Office"
+	name = "glup shitto"
 	icon_state = "cargo_delivery"
 
 /area/station/cargo/warehouse
-	name = "\improper Warehouse"
+	name = "glup shitto"
 	icon_state = "cargo_warehouse"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/cargo/drone_bay
-	name = "\improper Drone Bay"
+	name = "glup shitto"
 	icon_state = "cargo_drone"
 
 /area/station/cargo/warehouse/upper
-	name = "\improper Upper Warehouse"
+	name = "glup shitto"
 
 /area/station/cargo/office
-	name = "\improper Cargo Office"
+	name = "glup shitto"
 	icon_state = "cargo_office"
 
 /area/station/cargo/storage
-	name = "\improper Cargo Bay"
+	name = "glup shitto"
 	icon_state = "cargo_bay"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/cargo/lobby
-	name = "\improper Cargo Lobby"
+	name = "glup shitto"
 	icon_state = "cargo_lobby"
 
 /area/station/cargo/miningdock
-	name = "\improper Mining Dock"
+	name = "glup shitto"
 	icon_state = "mining_dock"
 
 /area/station/cargo/miningdock/cafeteria
-	name = "\improper Mining Cafeteria"
+	name = "glup shitto"
 	icon_state = "mining_cafe"
 
 /area/station/cargo/miningdock/oresilo
-	name = "\improper Mining Ore Silo Storage"
+	name = "glup shitto"
 	icon_state = "mining_silo"
 
 /area/station/cargo/miningoffice
-	name = "\improper Mining Office"
+	name = "glup shitto"
 	icon_state = "mining"
 
 //Science
 
 /area/station/science
-	name = "\improper Science Division"
+	name = "glup shitto"
 	icon_state = "science"
 	airlock_wires = /datum/wires/airlock/science
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/science/lobby
-	name = "\improper Science Lobby"
+	name = "glup shitto"
 	icon_state = "science_lobby"
 
 /area/station/science/lower
-	name = "\improper Lower Science Division"
+	name = "glup shitto"
 	icon_state = "lower_science"
 
 /area/station/science/breakroom
-	name = "\improper Science Break Room"
+	name = "glup shitto"
 	icon_state = "science_breakroom"
 
 /area/station/science/lab
-	name = "Research and Development"
+	name = "glup shitto"
 	icon_state = "research"
 
 /area/station/science/xenobiology
-	name = "\improper Xenobiology Lab"
+	name = "glup shitto"
 	icon_state = "xenobio"
 
 /area/station/science/xenobiology/hallway
-	name = "\improper Xenobiology Hallway"
+	name = "glup shitto"
 	icon_state = "xenobio_hall"
 
 /area/station/science/cytology
-	name = "\improper Cytology Lab"
+	name = "glup shitto"
 	icon_state = "cytology"
 
 // Use this for the main lab. If test equipment, storage, etc is also present use this one too.
 /area/station/science/ordnance
-	name = "\improper Ordnance Lab"
+	name = "glup shitto"
 	icon_state = "ord_main"
 
 /area/station/science/ordnance/office
-	name = "\improper Ordnance Office"
+	name = "glup shitto"
 	icon_state = "ord_office"
 
 /area/station/science/ordnance/storage
-	name = "\improper Ordnance Storage"
+	name = "glup shitto"
 	icon_state = "ord_storage"
 
 /area/station/science/ordnance/burnchamber
-	name = "\improper Ordnance Burn Chamber"
+	name = "glup shitto"
 	icon_state = "ord_burn"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 /area/station/science/ordnance/freezerchamber
-	name = "\improper Ordnance Freezer Chamber"
+	name = "glup shitto"
 	icon_state = "ord_freeze"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 // Room for equipments and such
 /area/station/science/ordnance/testlab
-	name = "\improper Ordnance Testing Lab"
+	name = "glup shitto"
 	icon_state = "ord_test"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 /area/station/science/ordnance/bomb
-	name = "\improper Ordnance Bomb Site"
+	name = "glup shitto"
 	icon_state = "ord_boom"
 	area_flags = BLOBS_ALLOWED | UNIQUE_AREA | CULT_PERMITTED
 
 /area/station/science/genetics
-	name = "\improper Genetics Lab"
+	name = "glup shitto"
 	icon_state = "geneticssci"
 
 /area/station/science/server
-	name = "\improper Research Division Server Room"
+	name = "glup shitto"
 	icon_state = "server"
 
 /area/station/science/circuits
-	name = "\improper Circuit Lab"
+	name = "glup shitto"
 	icon_state = "cir_lab"
 
 /area/station/science/explab
-	name = "\improper Experimentation Lab"
+	name = "glup shitto"
 	icon_state = "exp_lab"
 
 // Useless room
 /area/station/science/auxlab
-	name = "\improper Auxiliary Lab"
+	name = "glup shitto"
 	icon_state = "aux_lab"
 
 /area/station/science/auxlab/firing_range
-	name = "\improper Research Firing Range"
+	name = "glup shitto"
 
 /area/station/science/robotics
-	name = "Robotics"
+	name = "glup shitto"
 	icon_state = "robotics"
 
 /area/station/science/robotics/mechbay
-	name = "\improper Mech Bay"
+	name = "glup shitto"
 	icon_state = "mechbay"
 
 /area/station/science/robotics/lab
-	name = "\improper Robotics Lab"
+	name = "glup shitto"
 	icon_state = "ass_line"
 
 /area/station/science/research
-	name = "\improper Research Division"
+	name = "glup shitto"
 	icon_state = "science"
 
 /area/station/science/research/abandoned
-	name = "\improper Abandoned Research Lab"
+	name = "glup shitto"
 	icon_state = "abandoned_sci"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/escapepodbay
-	name = "\improper Pod Bay"
+	name = "glup shitto"
 	icon_state = "podbay"
 
 /area/station/asteroid
-	name = "\improper Station Asteroid"
+	name = "glup shitto"
 	icon_state = "station_asteroid"
 	always_unpowered = TRUE
 	power_environ = FALSE
@@ -1434,46 +1434,46 @@
 	airlock_wires = /datum/wires/airlock/engineering
 
 /area/station/tcommsat/computer
-	name = "\improper Telecomms Control Room"
+	name = "glup shitto"
 	icon_state = "tcomsatcomp"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
 /area/station/tcommsat/server
-	name = "\improper Telecomms Server Room"
+	name = "glup shitto"
 	icon_state = "tcomsatcham"
 
 /area/station/tcommsat/server/upper
-	name = "\improper Upper Telecomms Server Room"
+	name = "glup shitto"
 
 //Telecommunications - On Station
 
 /area/station/comms
-	name = "\improper Communications Relay"
+	name = "glup shitto"
 	icon_state = "tcomsatcham"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/server
-	name = "\improper Messaging Server Room"
+	name = "glup shitto"
 	icon_state = "server"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 //External Hull Access
 /area/station/maintenance/external
-	name = "\improper External Hull Access"
+	name = "glup shitto"
 	icon_state = "amaint"
 
 /area/station/maintenance/external/aft
-	name = "\improper Aft External Hull Access"
+	name = "glup shitto"
 
 /area/station/maintenance/external/port
-	name = "\improper Port External Hull Access"
+	name = "glup shitto"
 
 /area/station/maintenance/external/port/bow
-	name = "\improper Port Bow External Hull Access"
+	name = "glup shitto"
 
 //Tramstation - External
 /area/misc/asteroid
-	name = "\improper Asteroid"
+	name = "glup shitto"
 	icon = 'icons/area/areas_station.dmi'
 	icon_state = "asteroid"
 	has_gravity = STANDARD_GRAVITY

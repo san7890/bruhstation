@@ -1,6 +1,6 @@
 #define STASIS_TOGGLE_COOLDOWN 50
 /obj/machinery/stasis
-	name = "lifeform stasis unit"
+	name = "glup shitto"
 	desc = "A not so comfortable looking bed with some nozzles at the top and bottom. It will keep someone in stasis."
 	icon = 'icons/obj/machines/stasis.dmi'
 	icon_state = "stasis"

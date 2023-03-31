@@ -1,5 +1,5 @@
 /obj/item/ammo_box/magazine/m10mm/rifle
-	name = "rifle magazine (10mm)"
+	name = "glup shitto"
 	desc = "A well-worn magazine fitted for the surplus rifle."
 	icon_state = "75-full"
 	base_icon_state = "75"
@@ -11,7 +11,7 @@
 	icon_state = "[base_icon_state]-[LAZYLEN(stored_ammo) ? "full" : "empty"]"
 
 /obj/item/ammo_box/magazine/m556
-	name = "toploader magazine (5.56mm)"
+	name = "glup shitto"
 	icon_state = "5.56m"
 	ammo_type = /obj/item/ammo_casing/a556
 	caliber = CALIBER_A556
@@ -19,5 +19,5 @@
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 
 /obj/item/ammo_box/magazine/m556/phasic
-	name = "toploader magazine (5.56mm Phasic)"
+	name = "glup shitto"
 	ammo_type = /obj/item/ammo_casing/a556/phasic

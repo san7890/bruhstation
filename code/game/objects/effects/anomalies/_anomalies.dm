@@ -1,6 +1,6 @@
 //Anomalies, used for anomaly events. Anomalies cause adverse effects on their surroundings and can be mitigated by signalling their respective frequency.
 /obj/effect/anomaly
-	name = "anomaly"
+	name = "glup shitto"
 	desc = "A mysterious anomaly, seen commonly only in the region of space that the station orbits..."
 	icon = 'icons/effects/anomalies.dmi'
 	icon_state = "vortex"

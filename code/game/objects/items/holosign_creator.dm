@@ -1,5 +1,5 @@
 /obj/item/holosign_creator
-	name = "holographic sign projector"
+	name = "glup shitto"
 	desc = "A handy-dandy holographic projector that displays a janitorial sign."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "signmaker"
@@ -83,14 +83,14 @@
 
 
 /obj/item/holosign_creator/janibarrier
-	name = "custodial holobarrier projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates hard light wet floor barriers."
 	holosign_type = /obj/structure/holosign/barrier/wetsign
 	creation_time = 20
 	max_signs = 12
 
 /obj/item/holosign_creator/security
-	name = "security holobarrier projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates holographic security barriers."
 	icon_state = "signmaker_sec"
 	holosign_type = /obj/structure/holosign/barrier
@@ -98,7 +98,7 @@
 	max_signs = 6
 
 /obj/item/holosign_creator/engineering
-	name = "engineering holobarrier projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates holographic engineering barriers."
 	icon_state = "signmaker_engi"
 	holosign_type = /obj/structure/holosign/barrier/engineering
@@ -106,7 +106,7 @@
 	max_signs = 6
 
 /obj/item/holosign_creator/atmos
-	name = "ATMOS holofan projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates holographic barriers that prevent changes in atmosphere conditions."
 	icon_state = "signmaker_atmos"
 	holosign_type = /obj/structure/holosign/barrier/atmos
@@ -114,7 +114,7 @@
 	max_signs = 6
 
 /obj/item/holosign_creator/medical
-	name = "\improper PENLITE barrier projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates PENLITE holobarriers. Useful during quarantines since they halt those with malicious diseases."
 	icon_state = "signmaker_med"
 	holosign_type = /obj/structure/holosign/barrier/medical
@@ -122,7 +122,7 @@
 	max_signs = 3
 
 /obj/item/holosign_creator/cyborg
-	name = "Energy Barrier Projector"
+	name = "glup shitto"
 	desc = "A holographic projector that creates fragile energy fields."
 	creation_time = 15
 	max_signs = 9

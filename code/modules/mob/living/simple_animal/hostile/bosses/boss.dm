@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/boss
-	name = "\improper A Perfectly Generic Boss Placeholder"
+	name = "glup shitto"
 	desc = ""
 	robust_searching = 1
 	stat_attack = HARD_CRIT

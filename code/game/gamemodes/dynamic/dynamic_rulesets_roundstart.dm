@@ -6,7 +6,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/traitor
-	name = "Traitors"
+	name = "glup shitto"
 	antag_flag = ROLE_TRAITOR
 	antag_datum = /datum/antagonist/traitor
 	minimum_required_age = 0
@@ -50,7 +50,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/malf_ai
-	name = "Malfunctioning AI"
+	name = "glup shitto"
 	antag_flag = ROLE_MALF
 	antag_datum = /datum/antagonist/malf_ai
 	minimum_required_age = 14
@@ -96,7 +96,7 @@
 //////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/traitorbro
-	name = "Blood Brothers"
+	name = "glup shitto"
 	antag_flag = ROLE_BROTHER
 	antag_datum = /datum/antagonist/brother
 	protected_roles = list(
@@ -155,7 +155,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/changeling
-	name = "Changelings"
+	name = "glup shitto"
 	antag_flag = ROLE_CHANGELING
 	antag_datum = /datum/antagonist/changeling
 	protected_roles = list(
@@ -204,7 +204,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/heretics
-	name = "Heretics"
+	name = "glup shitto"
 	antag_flag = ROLE_HERETIC
 	antag_datum = /datum/antagonist/heretic
 	protected_roles = list(
@@ -260,7 +260,7 @@
 
 // Dynamic is a wonderful thing that adds wizards to every round and then adds even more wizards during the round.
 /datum/dynamic_ruleset/roundstart/wizard
-	name = "Wizard"
+	name = "glup shitto"
 	antag_flag = ROLE_WIZARD
 	antag_datum = /datum/antagonist/wizard
 	flags = HIGH_IMPACT_RULESET
@@ -322,7 +322,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/bloodcult
-	name = "Blood Cult"
+	name = "glup shitto"
 	antag_flag = ROLE_CULTIST
 	antag_datum = /datum/antagonist/cult
 	minimum_required_age = 14
@@ -402,7 +402,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/nuclear
-	name = "Nuclear Emergency"
+	name = "glup shitto"
 	antag_flag = ROLE_OPERATIVE
 	antag_datum = /datum/antagonist/nukeop
 	var/datum/antagonist/antag_leader_datum = /datum/antagonist/nukeop/leader
@@ -492,7 +492,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/revs
-	name = "Revolution"
+	name = "glup shitto"
 	persistent = TRUE
 	antag_flag = ROLE_REV_HEAD
 	antag_flag_override = ROLE_REV_HEAD
@@ -591,7 +591,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/extended
-	name = "Extended"
+	name = "glup shitto"
 	antag_flag = null
 	antag_datum = null
 	restricted_roles = list()
@@ -617,7 +617,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/nuclear/clown_ops
-	name = "Clown Operatives"
+	name = "glup shitto"
 	antag_datum = /datum/antagonist/nukeop/clownop
 	antag_flag = ROLE_CLOWN_OPERATIVE
 	antag_flag_override = ROLE_OPERATIVE
@@ -645,7 +645,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/roundstart/meteor
-	name = "Meteor"
+	name = "glup shitto"
 	persistent = TRUE
 	required_candidates = 0
 	weight = 3
@@ -675,7 +675,7 @@
 
 /// Ruleset for Nations
 /datum/dynamic_ruleset/roundstart/nations
-	name = "Nations"
+	name = "glup shitto"
 	required_candidates = 0
 	weight = 0 //admin only (and for good reason)
 	cost = 0

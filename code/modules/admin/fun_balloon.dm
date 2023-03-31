@@ -1,5 +1,5 @@
 /obj/effect/fun_balloon
-	name = "fun balloon"
+	name = "glup shitto"
 	desc = "This is going to be a laugh riot."
 	icon = 'icons/obj/toys/balloons.dmi'
 	icon_state = "syndballoon"
@@ -34,7 +34,7 @@
 
 // ----------- Sentience Balloon
 /obj/effect/fun_balloon/sentience
-	name = "sentience fun balloon"
+	name = "glup shitto"
 	desc = "When this pops, things are gonna get more aware around here."
 	var/group_name = "a bunch of giant spiders"
 	var/effect_range = 3
@@ -100,7 +100,7 @@
 
 // ----------- Emergency Shuttle Balloon
 /obj/effect/fun_balloon/sentience/emergency_shuttle
-	name = "shuttle sentience fun balloon"
+	name = "glup shitto"
 	var/trigger_time = 60
 
 /obj/effect/fun_balloon/sentience/emergency_shuttle/check()
@@ -110,7 +110,7 @@
 
 // ----------- Scatter Balloon
 /obj/effect/fun_balloon/scatter
-	name = "scatter fun balloon"
+	name = "glup shitto"
 	desc = "When this pops, you're not going to be around here anymore."
 	var/effect_range = 5
 
@@ -124,7 +124,7 @@
 // ----------- Station Crash
 // Can't think of anywhere better to put it right now
 /obj/effect/station_crash
-	name = "station crash"
+	name = "glup shitto"
 	desc = "With no survivors!"
 	icon = 'icons/obj/toys/balloons.dmi'
 	icon_state = "syndballoon"
@@ -147,7 +147,7 @@
 			break
 
 /obj/effect/station_crash/devastating
-	name = "devastating station crash"
+	name = "glup shitto"
 	desc = "Absolute Destruction. Will crash the shuttle far into the station."
 	min_crash_strength = 15
 	max_crash_strength = 25

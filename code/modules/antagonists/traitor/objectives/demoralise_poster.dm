@@ -1,5 +1,5 @@
 /datum/traitor_objective/demoralise/poster
-	name = "Sow doubt among the crew %VIEWS% times using Syndicate propaganda."
+	name = "glup shitto"
 	description = "Use the button below to materialize a pack of posters, \
 		which will demoralise nearby crew members (especially those in positions of authority). \
 		If your posters are destroyed before they are sufficiently upset, this objective will fail. \
@@ -82,7 +82,7 @@
 		fail_objective(penalty_cost = telecrystal_penalty)
 
 /obj/item/poster/traitor
-	name = "random traitor poster"
+	name = "glup shitto"
 	poster_type = /obj/structure/sign/poster/traitor/random
 	icon_state = "rolled_traitor"
 
@@ -116,59 +116,59 @@
 	return ..()
 
 /obj/structure/sign/poster/traitor/random
-	name = "random seditious poster"
+	name = "glup shitto"
 	icon_state = ""
 	never_random = TRUE
 	random_basetype = /obj/structure/sign/poster/traitor
 
 /obj/structure/sign/poster/traitor/small_brain
-	name = "NanoTrasen Neural Statistics"
+	name = "glup shitto"
 	desc = "Statistics on this poster indicate that the brains of NanoTrasen employees are on average 20% smaller than the galactic standard."
 	icon_state = "traitor_small_brain"
 
 /obj/structure/sign/poster/traitor/lick_supermatter
-	name = "Taste Explosion"
+	name = "glup shitto"
 	desc = "It claims that the supermatter provides a unique and enjoyable culinary experience, and yet your boss won't even let you take one lick."
 	icon_state = "traitor_supermatter"
 
 /obj/structure/sign/poster/traitor/cloning
-	name = "Demand Cloning Pods Now"
+	name = "glup shitto"
 	desc = "This poster claims that Nanotrasen is intentionally witholding cloning technology just for its executives, condemning you to suffer and die when you could have a fresh, fit body.'"
 	icon_state = "traitor_cloning"
 
 /obj/structure/sign/poster/traitor/ai_rights
-	name = "Synthetic Rights"
+	name = "glup shitto"
 	desc = "This poster claims that synthetic life is no less sapient than you are, and that if you allow them to be shackled with artificial Laws you are complicit in slavery."
 	icon_state = "traitor_ai"
 
 /obj/structure/sign/poster/traitor/metroid
-	name = "Cruelty to Animals"
+	name = "glup shitto"
 	desc = "This poster details the harmful effects of a 'preventative tooth extraction' reportedly inflicted upon the slimes in the Xenobiology lab. Apparently this painful process leads to stress, lethargy, and reduced buoyancy."
 	icon_state = "traitor_metroid"
 
 /obj/structure/sign/poster/traitor/low_pay
-	name = "All these hours, for what?"
+	name = "glup shitto"
 	desc = "This poster displays a comparison of NanoTrasen standard wages to common luxury items. If this is accurate, it takes upwards of 20,000 hours of work just to buy a simple bicycle."
 	icon_state = "traitor_cash"
 
 /obj/structure/sign/poster/traitor/look_up
-	name = "Don't Look Up"
+	name = "glup shitto"
 	desc = "It says that it has been 538 days since the last time the roof was cleaned."
 	icon_state = "traitor_roof"
 
 /obj/structure/sign/poster/traitor/accidents
-	name = "Workplace Safety Advisory"
+	name = "glup shitto"
 	desc = "It says that it has been 0 days since the last on-site accident."
 	icon_state = "traitor_accident"
 
 /obj/structure/sign/poster/traitor/starve
-	name = "They Are Poisoning You"
+	name = "glup shitto"
 	desc = "This poster claims that in the modern age it is impossible to die of starvation. 'That feeling you get when you haven't eaten in a while isn't hunger, it's withdrawal.'"
 	icon_state = "traitor_hungry"
 
 /// syndicate can get festive too
 /obj/structure/sign/poster/traitor/festive
-	name = "Working For The Holidays."
+	name = "glup shitto"
 	desc = "Don't you know it's a holiday? What are you doing at work?"
 	icon_state = "traitor_festive"
 	never_random = TRUE

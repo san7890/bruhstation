@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/space/hunter
-	name = "bounty hunting suit"
+	name = "glup shitto"
 	desc = "A custom version of the MK.II SWAT suit, modified to look rugged and tough. Works as a space suit, if you can find a helmet."
 	icon_state = "hunter"
 	inhand_icon_state = "swat_suit"

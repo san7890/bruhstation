@@ -13,7 +13,7 @@
 
 ///goliath eyes, simple night vision
 /obj/item/organ/internal/eyes/night_vision/goliath
-	name = "goliath eyes"
+	name = "glup shitto"
 	desc = "goliath DNA infused into what was once some normal eyes."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
@@ -36,7 +36,7 @@
 
 ///goliath lungs! You can breathe lavaland air mix but can't breath pure O2 from a tank anymore.
 /obj/item/organ/internal/lungs/lavaland/goliath
-	name = "mutated goliath-lungs"
+	name = "glup shitto"
 	desc = "goliath DNA infused into what was once some normal lungs."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
@@ -51,7 +51,7 @@
 
 ///goliath brain. you can't use gloves but one of your arms becomes a tendril hammer that can be used to mine!
 /obj/item/organ/internal/brain/goliath
-	name = "mutated goliath-brain"
+	name = "glup shitto"
 	desc = "goliath DNA infused into what was once a normal brain."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
@@ -93,7 +93,7 @@
 		QDEL_NULL(hammer)
 
 /obj/item/goliath_infuser_hammer
-	name = "tendril hammer"
+	name = "glup shitto"
 	desc = "A mass of plates held by tendrils has replaced an arm."
 	icon = 'icons/obj/weapons/goliath_hammer.dmi'
 	icon_state = "goliath_hammer"
@@ -160,7 +160,7 @@
 
 /// goliath heart gives you the ability to survive ash storms.
 /obj/item/organ/internal/heart/goliath
-	name = "mutated goliath-heart"
+	name = "glup shitto"
 	desc = "goliath DNA infused into what was once a normal heart."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'

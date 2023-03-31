@@ -1,5 +1,5 @@
 /turf/closed/wall/mineral
-	name = "mineral wall"
+	name = "glup shitto"
 	desc = "This shouldn't exist"
 	icon_state = ""
 	smoothing_flags = SMOOTH_BITMASK
@@ -8,7 +8,7 @@
 	material_flags = MATERIAL_EFFECTS
 
 /turf/closed/wall/mineral/gold
-	name = "gold wall"
+	name = "glup shitto"
 	desc = "A wall with gold plating. Swag!"
 	icon = 'icons/turf/walls/gold_wall.dmi'
 	icon_state = "gold_wall-0"
@@ -21,7 +21,7 @@
 	custom_materials = list(/datum/material/gold = 4000)
 
 /turf/closed/wall/mineral/silver
-	name = "silver wall"
+	name = "glup shitto"
 	desc = "A wall with silver plating. Shiny!"
 	icon = 'icons/turf/walls/silver_wall.dmi'
 	icon_state = "silver_wall-0"
@@ -34,7 +34,7 @@
 	custom_materials = list(/datum/material/silver = 4000)
 
 /turf/closed/wall/mineral/diamond
-	name = "diamond wall"
+	name = "glup shitto"
 	desc = "A wall with diamond plating. You monster."
 	icon = 'icons/turf/walls/diamond_wall.dmi'
 	icon_state = "diamond_wall-0"
@@ -52,7 +52,7 @@
 	return ..()
 
 /turf/closed/wall/mineral/bananium
-	name = "bananium wall"
+	name = "glup shitto"
 	desc = "A wall with bananium plating. Honk!"
 	icon = 'icons/turf/walls/bananium_wall.dmi'
 	icon_state = "bananium_wall-0"
@@ -65,7 +65,7 @@
 	custom_materials = list(/datum/material/bananium = 4000)
 
 /turf/closed/wall/mineral/sandstone
-	name = "sandstone wall"
+	name = "glup shitto"
 	desc = "A wall with sandstone plating. Rough."
 	icon = 'icons/turf/walls/sandstone_wall.dmi'
 	icon_state = "sandstone_wall-0"
@@ -80,7 +80,7 @@
 
 /turf/closed/wall/mineral/uranium
 	article = "a"
-	name = "uranium wall"
+	name = "glup shitto"
 	desc = "A wall with uranium plating. This is probably a bad idea."
 	icon = 'icons/turf/walls/uranium_wall.dmi'
 	icon_state = "uranium_wall-0"
@@ -136,7 +136,7 @@
 	return ..()
 
 /turf/closed/wall/mineral/plasma
-	name = "plasma wall"
+	name = "glup shitto"
 	desc = "A wall with plasma plating. This is definitely a bad idea."
 	icon = 'icons/turf/walls/plasma_wall.dmi'
 	icon_state = "plasma_wall-0"
@@ -150,7 +150,7 @@
 	custom_materials = list(/datum/material/plasma = 4000)
 
 /turf/closed/wall/mineral/wood
-	name = "wooden wall"
+	name = "glup shitto"
 	desc = "A wall with wooden plating. Stiff."
 	icon = 'icons/turf/walls/wood_wall.dmi'
 	icon_state = "wood_wall-0"
@@ -183,7 +183,7 @@
 	hardness = 67 //a bit weaker than iron (60)
 
 /turf/closed/wall/mineral/bamboo
-	name = "bamboo wall"
+	name = "glup shitto"
 	desc = "A wall with a bamboo finish."
 	icon = 'icons/turf/walls/bamboo_wall.dmi'
 	icon_state = "wall-0"
@@ -194,7 +194,7 @@
 	hardness = 80 //it's not a mineral...
 
 /turf/closed/wall/mineral/iron
-	name = "rough iron wall"
+	name = "glup shitto"
 	desc = "A wall with rough iron plating."
 	icon = 'icons/turf/walls/iron_wall.dmi'
 	icon_state = "iron_wall-0"
@@ -208,7 +208,7 @@
 	custom_materials = list(/datum/material/iron = 5000)
 
 /turf/closed/wall/mineral/snow
-	name = "packed snow wall"
+	name = "glup shitto"
 	desc = "A wall made of densely packed snow blocks."
 	icon = 'icons/turf/walls/snow_wall.dmi'
 	icon_state = "snow_wall-0"
@@ -228,7 +228,7 @@
 	return ..() //No recoil damage, snow is weak
 
 /turf/closed/wall/mineral/abductor
-	name = "alien wall"
+	name = "glup shitto"
 	desc = "A wall with alien alloy plating."
 	icon = 'icons/turf/walls/abductor_wall.dmi'
 	icon_state = "abductor_wall-0"
@@ -245,7 +245,7 @@
 /////////////////////Titanium walls/////////////////////
 
 /turf/closed/wall/mineral/titanium //has to use this path due to how building walls works
-	name = "wall"
+	name = "glup shitto"
 	desc = "A light-weight titanium wall used in shuttles."
 	icon = 'icons/turf/walls/shuttle_wall.dmi'
 	icon_state = "shuttle_wall-0"
@@ -288,7 +288,7 @@
 	T.transform = transform
 
 /turf/closed/wall/mineral/titanium/survival
-	name = "pod wall"
+	name = "glup shitto"
 	desc = "An easily-compressable wall used for temporary shelter."
 	icon = 'icons/turf/walls/survival_pod_walls.dmi'
 	icon_state = "survival_pod_walls-0"
@@ -309,7 +309,7 @@
 /////////////////////Plastitanium walls/////////////////////
 
 /turf/closed/wall/mineral/plastitanium
-	name = "wall"
+	name = "glup shitto"
 	desc = "A durable wall made of an alloy of plasma and titanium."
 	icon = 'icons/turf/walls/plastitanium_wall.dmi'
 	icon_state = "plastitanium_wall-0"

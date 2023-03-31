@@ -1,5 +1,5 @@
 /obj/item/inducer
-	name = "inducer"
+	name = "glup shitto"
 	desc = "A tool for inductively charging internal power cells."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "inducer-engi"

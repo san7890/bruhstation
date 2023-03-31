@@ -1,5 +1,5 @@
 /mob/living/simple_animal/bot/vibebot
-	name = "\improper Vibebot"
+	name = "glup shitto"
 	desc = "A little robot. It's just vibing, doing its thing."
 	icon = 'icons/mob/silicon/aibots.dmi'
 	icon_state = "vibebot1"
@@ -60,7 +60,7 @@
  * Given to vibebots so sentient ones can change/reset thier colors at will.
  */
 /datum/action/innate/vibe
-	name = "Vibe"
+	name = "glup shitto"
 	desc = "LMB: Change vibe color. RMB: Reset vibe color."
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "funk"

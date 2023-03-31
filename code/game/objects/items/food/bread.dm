@@ -1,7 +1,7 @@
 
 /// Abstract parent object for bread items. Should not be made obtainable in game.
 /obj/item/food/bread
-	name = "bread?"
+	name = "glup shitto"
 	desc = "You shouldn't see this, call the coders."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	max_volume = 80
@@ -25,7 +25,7 @@
 
 // Abstract parent object for sliced bread items. Should not be made obtainable in game.
 /obj/item/food/breadslice
-	name = "breadslice?"
+	name = "glup shitto"
 	desc = "You shouldn't see this, call the coders."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	foodtypes = GRAIN
@@ -38,7 +38,7 @@
 	AddElement(/datum/element/dunkable, 10)
 
 /obj/item/food/bread/plain
-	name = "bread"
+	name = "glup shitto"
 	desc = "Some plain old earthen bread."
 	icon_state = "bread"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 10)
@@ -58,7 +58,7 @@
 	desc = "If you hold it up to your ear, you can hear the screams of the damned."
 
 /obj/item/food/breadslice/plain
-	name = "bread slice"
+	name = "glup shitto"
 	desc = "A slice of home."
 	icon_state = "breadslice"
 	foodtypes = GRAIN
@@ -74,7 +74,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/griddle_toast, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)
 
 /obj/item/food/breadslice/moldy
-	name = "moldy 'bread' slice"
+	name = "glup shitto"
 	desc = "Entire stations have been ripped apart arguing whether this is still good to eat."
 	icon_state = "moldybreadslice"
 	food_reagents = list(
@@ -86,7 +86,7 @@
 	preserved_food = TRUE
 
 /obj/item/food/breadslice/moldy/bacteria
-	name = "bacteria-rich moldy 'bread' slice"
+	name = "glup shitto"
 	desc = "Something (possibly necroyeast) has caused this bread to rise in a macabre state of unlife. \
 		It lurchs about when unattended. You might want to locate a priest if you see this. Or maybe a flamethrower."
 
@@ -95,7 +95,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_MOLD, CELL_VIRUS_TABLE_GENERIC, rand(2, 4), 25)
 
 /obj/item/food/bread/meat
-	name = "meatbread loaf"
+	name = "glup shitto"
 	desc = "The culinary base of every self-respecting eloquen/tg/entleman."
 	icon_state = "meatbread"
 	food_reagents = list(
@@ -109,7 +109,7 @@
 	slice_type = /obj/item/food/breadslice/meat
 
 /obj/item/food/breadslice/meat
-	name = "meatbread slice"
+	name = "glup shitto"
 	desc = "A slice of delicious meatbread."
 	icon_state = "meatbreadslice"
 	food_reagents = list(
@@ -121,7 +121,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/bread/sausage
-	name = "sausagebread loaf"
+	name = "glup shitto"
 	desc = "Dont think too much about it."
 	icon_state = "sausagebread"
 	food_reagents = list(
@@ -134,7 +134,7 @@
 	slice_type = /obj/item/food/breadslice/sausage
 
 /obj/item/food/breadslice/sausage
-	name = "sausagebread slice"
+	name = "glup shitto"
 	desc = "A slice of delicious sausagebread."
 	icon_state = "sausagebreadslice"
 	food_reagents = list(
@@ -146,7 +146,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/bread/xenomeat
-	name = "xenomeatbread loaf"
+	name = "glup shitto"
 	desc = "The culinary base of every self-respecting eloquen/tg/entleman. Extra Heretical."
 	icon_state = "xenomeatbread"
 	food_reagents = list(
@@ -159,7 +159,7 @@
 	slice_type = /obj/item/food/breadslice/xenomeat
 
 /obj/item/food/breadslice/xenomeat
-	name = "xenomeatbread slice"
+	name = "glup shitto"
 	desc = "A slice of delicious meatbread. Extra Heretical."
 	icon_state = "xenobreadslice"
 	food_reagents = list(
@@ -171,7 +171,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/bread/spidermeat
-	name = "spider meat loaf"
+	name = "glup shitto"
 	desc = "Reassuringly green meatloaf made from spider meat."
 	icon_state = "spidermeatbread"
 	food_reagents = list(
@@ -185,7 +185,7 @@
 	slice_type = /obj/item/food/breadslice/spidermeat
 
 /obj/item/food/breadslice/spidermeat
-	name = "spider meat bread slice"
+	name = "glup shitto"
 	desc = "A slice of meatloaf made from an animal that most likely still wants you dead."
 	icon_state = "spidermeatslice"
 	food_reagents = list(
@@ -198,7 +198,7 @@
 	foodtypes = GRAIN | MEAT | TOXIC
 
 /obj/item/food/bread/banana
-	name = "banana-nut bread"
+	name = "glup shitto"
 	desc = "A heavenly and filling treat."
 	icon_state = "bananabread"
 	food_reagents = list(
@@ -210,7 +210,7 @@
 	slice_type = /obj/item/food/breadslice/banana
 
 /obj/item/food/breadslice/banana
-	name = "banana-nut bread slice"
+	name = "glup shitto"
 	desc = "A slice of delicious banana bread."
 	icon_state = "bananabreadslice"
 	food_reagents = list(
@@ -221,7 +221,7 @@
 	foodtypes = GRAIN | FRUIT
 
 /obj/item/food/bread/tofu
-	name = "Tofubread"
+	name = "glup shitto"
 	desc = "Like meatbread but for vegetarians. Not guaranteed to give superpowers."
 	icon_state = "tofubread"
 	food_reagents = list(
@@ -235,7 +235,7 @@
 	slice_type = /obj/item/food/breadslice/tofu
 
 /obj/item/food/breadslice/tofu
-	name = "tofubread slice"
+	name = "glup shitto"
 	desc = "A slice of delicious tofubread."
 	icon_state = "tofubreadslice"
 	food_reagents = list(
@@ -247,7 +247,7 @@
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/bread/creamcheese
-	name = "cream cheese bread"
+	name = "glup shitto"
 	desc = "Yum yum yum!"
 	icon_state = "creamcheesebread"
 	food_reagents = list(
@@ -260,7 +260,7 @@
 	slice_type = /obj/item/food/breadslice/creamcheese
 
 /obj/item/food/breadslice/creamcheese
-	name = "cream cheese bread slice"
+	name = "glup shitto"
 	desc = "A slice of yum!"
 	icon_state = "creamcheesebreadslice"
 	food_reagents = list(
@@ -272,7 +272,7 @@
 	foodtypes = GRAIN | DAIRY
 
 /obj/item/food/bread/mimana
-	name = "mimana bread"
+	name = "glup shitto"
 	desc = "Best eaten in silence."
 	icon_state = "mimanabread"
 	food_reagents = list(
@@ -286,7 +286,7 @@
 	slice_type = /obj/item/food/breadslice/mimana
 
 /obj/item/food/breadslice/mimana
-	name = "mimana bread slice"
+	name = "glup shitto"
 	desc = "A slice of silence!"
 	icon_state = "mimanabreadslice"
 	food_reagents = list(
@@ -299,14 +299,14 @@
 	foodtypes = GRAIN | FRUIT
 
 /obj/item/food/bread/empty
-	name = "bread"
+	name = "glup shitto"
 	icon_state = "tofubread"
 	desc = "It's bread, customized to your wildest dreams."
 	slice_type = /obj/item/food/breadslice/empty
 
 // What you get from cutting a custom bread. Different from custom sliced bread.
 /obj/item/food/breadslice/empty
-	name = "bread slice"
+	name = "glup shitto"
 	icon_state = "tofubreadslice"
 	foodtypes = GRAIN
 	desc = "It's a slice of bread, customized to your wildest dreams."
@@ -316,7 +316,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, null, CUSTOM_INGREDIENT_ICON_FILL, max_ingredients = 8)
 
 /obj/item/food/baguette
-	name = "baguette"
+	name = "glup shitto"
 	desc = "Bon appetit!"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "baguette"
@@ -420,7 +420,7 @@
 	block_chance = initial(block_chance)
 
 /obj/item/food/garlicbread
-	name = "garlic bread"
+	name = "glup shitto"
 	desc = "Alas, it is limited."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "garlicbread"
@@ -436,7 +436,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/butterbiscuit
-	name = "butter biscuit"
+	name = "glup shitto"
 	desc = "Well butter my biscuit!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "butterbiscuit"
@@ -450,7 +450,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/butterdog
-	name = "butterdog"
+	name = "glup shitto"
 	desc = "Made from exotic butters."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "butterdog"
@@ -468,7 +468,7 @@
 	AddComponent(/datum/component/slippery, 8 SECONDS)
 
 /obj/item/food/raw_frenchtoast
-	name = "raw french toast"
+	name = "glup shitto"
 	desc = "A slice of bread soaked in a beaten egg mixture. Put it on a griddle to start cooking!"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "raw_frenchtoast"
@@ -484,7 +484,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/frenchtoast, rand(20 SECONDS, 30 SECONDS), TRUE)
 
 /obj/item/food/frenchtoast
-	name = "french toast"
+	name = "glup shitto"
 	desc = "A slice of bread soaked in an egg mixture and grilled until golden-brown. Drizzle with syrup!"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "frenchtoast"
@@ -498,7 +498,7 @@
 	burns_on_grill = TRUE
 
 /obj/item/food/raw_breadstick
-	name = "raw breadstick"
+	name = "glup shitto"
 	desc = "An uncooked strip of dough in the shape of a breadstick."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "raw_breadstick"
@@ -514,7 +514,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/breadstick, rand(15 SECONDS, 20 SECONDS), TRUE, TRUE)
 
 /obj/item/food/breadstick
-	name = "breadstick"
+	name = "glup shitto"
 	desc = "A delicious, buttery breadstick. Highly addictive, but oh-so worth it."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "breadstick"
@@ -528,7 +528,7 @@
 	burns_in_oven = TRUE
 
 /obj/item/food/raw_croissant
-	name = "raw croissant"
+	name = "glup shitto"
 	desc = "Folded dough ready to bake into a croissant."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "raw_croissant"
@@ -541,7 +541,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/croissant, rand(15 SECONDS, 20 SECONDS), TRUE, TRUE)
 
 /obj/item/food/croissant
-	name = "croissant"
+	name = "glup shitto"
 	desc = "A delicious, buttery croissant. The perfect start to the day."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "croissant"

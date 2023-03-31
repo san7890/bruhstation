@@ -1,5 +1,5 @@
 /obj/item/ammo_casing/energy
-	name = "energy weapon lens"
+	name = "glup shitto"
 	desc = "The part of the gun that makes the laser go pew."
 	caliber = ENERGY
 	projectile_type = /obj/projectile/energy

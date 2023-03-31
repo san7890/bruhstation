@@ -1,5 +1,5 @@
 /obj/item/shrapnel // frag grenades
-	name = "shrapnel shard"
+	name = "glup shitto"
 	custom_materials = list(/datum/material/iron=50)
 	weak_against_armour = TRUE
 	icon = 'icons/obj/shards.dmi'
@@ -9,19 +9,19 @@
 	sharpness = SHARP_EDGED
 
 /obj/item/shrapnel/stingball // stingbang grenades
-	name = "stingball"
+	name = "glup shitto"
 	icon_state = "tiny"
 	sharpness = NONE
 
 /obj/item/shrapnel/bullet // bullets
-	name = "bullet"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/ammo.dmi'
 	icon_state = "s-casing"
 	embedding = null // embedding vars are taken from the projectile itself
 
 
 /obj/projectile/bullet/shrapnel
-	name = "flying shrapnel shard"
+	name = "glup shitto"
 	damage = 14
 	range = 20
 	weak_against_armour = TRUE
@@ -36,7 +36,7 @@
 	embedding = list(embed_chance=70, ignore_throwspeed_threshold=TRUE, fall_chance=1)
 
 /obj/projectile/bullet/shrapnel/mega
-	name = "flying shrapnel hunk"
+	name = "glup shitto"
 	range = 45
 	dismemberment = 15
 	ricochets_max = 6
@@ -45,7 +45,7 @@
 	ricochet_decay_chance = 0.9
 
 /obj/projectile/bullet/pellet/stingball
-	name = "stingball pellet"
+	name = "glup shitto"
 	damage = 3
 	stamina = 8
 	ricochets_max = 4
@@ -63,12 +63,12 @@
 	hit_prone_targets = TRUE // ducking will save you from the first wave, but not the rebounds
 
 /obj/projectile/bullet/pellet/stingball/mega
-	name = "megastingball pellet"
+	name = "glup shitto"
 	ricochets_max = 6
 	ricochet_chance = 110
 
 /obj/projectile/bullet/pellet/capmine
-	name = "\improper AP shrapnel shard"
+	name = "glup shitto"
 	range = 7
 	damage = 8
 	stamina = 8
@@ -83,7 +83,7 @@
 	embed_falloff_tile = 0
 
 /obj/item/shrapnel/capmine
-	name = "\improper AP shrapnel shard"
+	name = "glup shitto"
 	custom_materials = list(/datum/material/iron=50)
 	weak_against_armour = TRUE
 

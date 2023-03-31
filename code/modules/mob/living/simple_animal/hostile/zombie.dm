@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/zombie
-	name = "Shambling Corpse"
+	name = "glup shitto"
 	desc = "When there is no more room in hell, the dead will walk in outer space."
 	icon = 'icons/mob/simple/simple_human.dmi'
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -37,14 +37,14 @@
 		try_to_zombie_infect(target)
 
 /datum/outfit/corpse_doctor
-	name = "Corpse Doctor"
+	name = "glup shitto"
 	suit = /obj/item/clothing/suit/toggle/labcoat
 	uniform = /obj/item/clothing/under/rank/medical/doctor
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	back = /obj/item/storage/backpack/medic
 
 /datum/outfit/corpse_assistant
-	name = "Corpse Assistant"
+	name = "glup shitto"
 	mask = /obj/item/clothing/mask/gas
 	uniform = /obj/item/clothing/under/color/grey
 	shoes = /obj/item/clothing/shoes/sneakers/black

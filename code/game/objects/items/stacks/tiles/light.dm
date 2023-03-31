@@ -1,5 +1,5 @@
 /obj/item/stack/tile/light
-	name = "light tile"
+	name = "glup shitto"
 	singular_name = "light floor tile"
 	desc = "A floor tile, made out of glass. It produces light."
 	icon_state = "tile_e"

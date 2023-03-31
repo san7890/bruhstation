@@ -1,6 +1,6 @@
 ///Oozes are slime-esque creatures, they are highly gluttonous creatures primarily intended for player controll.
 /mob/living/simple_animal/hostile/ooze
-	name = "Ooze"
+	name = "glup shitto"
 	icon = 'icons/mob/vatgrowing.dmi'
 	icon_state = "gelatinous"
 	icon_living = "gelatinous"
@@ -94,7 +94,7 @@
 
 ///Its good stats and high mobility makes this a good assasin type creature. It's vulnerabilites against cold, shotguns and
 /mob/living/simple_animal/hostile/ooze/gelatinous
-	name = "Gelatinous Cube"
+	name = "glup shitto"
 	desc = "A cubic ooze native to Sholus VII.\nSince the advent of space travel this species has established itself in the waste treatment facilities of several space colonies.\nIt is often considered to be the third most infamous invasive species due to its highly aggressive and predatory nature."
 	speed = 1
 	damage_coeff = list(BRUTE = 1, BURN = 0.6, TOX = 0.5, CLONE = 1.5, STAMINA = 0, OXY = 1)
@@ -133,7 +133,7 @@
 
 ///This ability lets the gelatinious ooze speed up for a little bit
 /datum/action/cooldown/metabolicboost
-	name = "Metabolic boost"
+	name = "glup shitto"
 	desc = "Gain a temporary speed boost. Costs 10 nutrition and slowly raises your temperature"
 	background_icon_state = "bg_hive"
 	overlay_icon_state = "bg_hive_border"
@@ -189,7 +189,7 @@
 
 ///This action lets you consume the mob you're currently pulling. I'M GONNA CONSUUUUUME (this is considered one of the funny memes in the 2019-2020 era)
 /datum/action/consume
-	name = "Consume"
+	name = "glup shitto"
 	desc = "Consume a mob that you are dragging to gain nutrition from them"
 	background_icon_state = "bg_hive"
 	overlay_icon_state = "bg_hive_border"
@@ -270,7 +270,7 @@
 
 ///Child of the ooze mob which is orientated at being a healer type creature.
 /mob/living/simple_animal/hostile/ooze/grapes
-	name = "Sholean grapes"
+	name = "glup shitto"
 	desc = "A botryoidal ooze from Sholus VII.\nXenobiologists consider it to be one of the calmer and more agreeable species on the planet, but so far little is known about its behaviour in the wild.\nIt undulates in a comforting manner."
 	icon_state = "grapes"
 	icon_living = "grapes"
@@ -297,7 +297,7 @@
 
 ///Ability that allows the owner to fire healing globules at mobs, targetting specific limbs.
 /datum/action/cooldown/globules
-	name = "Fire Mending globule"
+	name = "glup shitto"
 	desc = "Fires a mending globule at someone, healing a specific limb of theirs."
 	background_icon_state = "bg_hive"
 	overlay_icon_state = "bg_hive_border"
@@ -369,7 +369,7 @@
 
 ///This projectile embeds into mobs and heals them over time.
 /obj/projectile/globule
-	name = "mending globule"
+	name = "glup shitto"
 	icon_state = "glob_projectile"
 	shrapnel_type = /obj/item/mending_globule
 	embedding = list("embed_chance" = 100, ignore_throwspeed_threshold = TRUE, "pain_mult" = 0, "jostle_pain_mult" = 0, "fall_chance" = 0.5)
@@ -377,7 +377,7 @@
 
 ///This item is what is embedded into the mob, and actually handles healing of mending globules
 /obj/item/mending_globule
-	name = "mending globule"
+	name = "glup shitto"
 	desc = "It somehow heals those who touch it."
 	icon = 'icons/obj/xenobiology/vatgrowing.dmi'
 	icon_state = "globule"
@@ -412,7 +412,7 @@
 
 ///This action lets you put a mob inside of a cacoon that will inject it with some chemicals.
 /datum/action/cooldown/gel_cocoon
-	name = "Gel Cocoon"
+	name = "glup shitto"
 	desc = "Puts a mob inside of a cocoon, allowing it to slowly heal."
 	background_icon_state = "bg_hive"
 	overlay_icon_state = "bg_hive_border"
@@ -454,7 +454,7 @@
 	owner.visible_message(span_nicegreen("[owner] has put [target] into a gel cocoon!"), span_notice("You put [target] into a gel cocoon."))
 
 /obj/structure/gel_cocoon
-	name = "gel cocoon"
+	name = "glup shitto"
 	desc = "It looks gross, but helpful."
 	icon = 'icons/obj/xenobiology/vatgrowing.dmi'
 	icon_state = "gel_cocoon"

@@ -14,7 +14,7 @@ path/corner/color_name {\
 }
 
 /obj/structure/chair/sofa
-	name = "old ratty sofa"
+	name = "glup shitto"
 	icon_state = "error"
 	icon = 'icons/obj/sofa.dmi'
 	buildstackamount = 1
@@ -78,7 +78,7 @@ COLORED_SOFA(/obj/structure/chair/sofa, maroon, SOFA_MAROON)
 
 // Original icon ported from Eris(?) and updated to work here.
 /obj/structure/chair/sofa/corp
-	name = "sofa"
+	name = "glup shitto"
 	desc = "Soft and cushy."
 	icon_state = "corp_sofamiddle"
 
@@ -96,7 +96,7 @@ COLORED_SOFA(/obj/structure/chair/sofa, maroon, SOFA_MAROON)
 
 // Ported from Skyrat
 /obj/structure/chair/sofa/bench
-	name = "bench"
+	name = "glup shitto"
 	desc = "Perfectly designed to be comfortable to sit on, and hellish to sleep on."
 	icon_state = "bench_middle"
 	greyscale_config = /datum/greyscale_config/bench_middle
@@ -121,7 +121,7 @@ COLORED_SOFA(/obj/structure/chair/sofa, maroon, SOFA_MAROON)
 
 // Bamboo benches
 /obj/structure/chair/sofa/bamboo
-	name = "bamboo bench"
+	name = "glup shitto"
 	desc = "A makeshift bench with a rustic aesthetic."
 	icon_state = "bamboo_sofamiddle"
 	resistance_flags = FLAMMABLE

@@ -1,5 +1,5 @@
 /obj/item/clothing/head/utility/welding
-	name = "welding helmet"
+	name = "glup shitto"
 	desc = "A head-mounted face cover designed to protect the wearer completely from space-arc eye."
 	icon_state = "welding"
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH

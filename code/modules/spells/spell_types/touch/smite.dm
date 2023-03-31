@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/touch/smite
-	name = "Smite"
+	name = "glup shitto"
 	desc = "This spell charges your hand with an unholy energy \
 		that can be used to cause a touched victim to violently explode."
 	button_icon_state = "gib"
@@ -52,7 +52,7 @@
 	return TRUE
 
 /obj/item/melee/touch_attack/smite
-	name = "\improper smiting touch"
+	name = "glup shitto"
 	desc = "This hand of mine glows with an awesome power!"
 	icon_state = "disintegrate"
 	inhand_icon_state = "disintegrate"

@@ -1,5 +1,5 @@
 /mob/living/carbon/alien/adult/royal/praetorian
-	name = "alien praetorian"
+	name = "glup shitto"
 	caste = "p"
 	maxHealth = 250
 	health = 250
@@ -24,7 +24,7 @@
 	return ..()
 
 /datum/action/cooldown/alien/evolve_to_queen
-	name = "Evolve"
+	name = "glup shitto"
 	desc = "Produce an internal egg sac capable of spawning children. Only one queen can exist at a time."
 	button_icon_state = "alien_evolve_praetorian"
 	plasma_cost = 500

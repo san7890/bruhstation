@@ -1,6 +1,6 @@
 
 /datum/mutation/human/breathless
-	name = "Breathless"
+	name = "glup shitto"
 	desc = "A mutation within the skin that allows for filtering and absorption of oxygen from the skin."
 	text_gain_indication = span_notice("Your lungs feel great.")
 	text_lose_indication = span_warning("Your lungs feel normal again.")
@@ -16,7 +16,7 @@
 	REMOVE_TRAIT(owner, TRAIT_NOBREATH, GENETIC_MUTATION)
 
 /datum/mutation/human/quick
-	name = "Quick"
+	name = "glup shitto"
 	desc = "A mution within the leg muscles that allows it to operate at 20% more than the usual capacity."
 	text_gain_indication = span_notice("Your legs feel faster and stronger.")
 	text_lose_indication = span_warning("Your legs feel weaker and slower.")
@@ -32,7 +32,7 @@
 	owner.remove_movespeed_modifier(/datum/movespeed_modifier/dna_vault_speedup)
 
 /datum/mutation/human/tough
-	name = "Tough"
+	name = "glup shitto"
 	desc = "A mutation within the epidermis that makes it more resistant to tear."
 	text_gain_indication = span_notice("Your skin feels tougher.")
 	text_lose_indication = span_warning("Your skin feels weaker.")
@@ -50,7 +50,7 @@
 	REMOVE_TRAIT(owner, TRAIT_PIERCEIMMUNE, GENETIC_MUTATION)
 
 /datum/mutation/human/dextrous
-	name = "Dextrous"
+	name = "glup shitto"
 	desc = "A mutation within the nerve system that allows for more responsive and quicker action."
 	text_gain_indication = span_notice("Your limbs feel more dextrous and responsive.")
 	text_lose_indication = span_warning("Your limbs feel less dextrous and responsive.")
@@ -66,7 +66,7 @@
 	owner.next_move_modifier /= 0.5
 
 /datum/mutation/human/fire_immunity
-	name = "Fire Immunity"
+	name = "glup shitto"
 	desc = "A mutation within the body that allows it to become nonflammable and withstand higher temperature."
 	text_gain_indication = span_notice("Your body feels like it can withstand fire.")
 	text_lose_indication = span_warning("Your body feels vulnerable to fire again.")
@@ -84,7 +84,7 @@
 	owner.remove_traits(list(TRAIT_RESISTHEAT, TRAIT_NOFIRE), GENETIC_MUTATION)
 
 /datum/mutation/human/quick_recovery
-	name = "Quick Recovery"
+	name = "glup shitto"
 	desc = "A mutation within the nervouse system that allows it to recover from being knocked down."
 	text_gain_indication = span_notice("You feel like you can recover from a fall easier.")
 	text_lose_indication = span_warning("You feel like recovering from a fall is a challenge again.")
@@ -100,7 +100,7 @@
 	owner.physiology.stun_mod /= 0.5
 
 /datum/mutation/human/plasmocile
-	name = "Plasmocile"
+	name = "glup shitto"
 	desc = "A mutation in the lungs that provides it immunity to plasma's toxic nature."
 	text_gain_indication = span_notice("Your lungs feel resistant to airborne contaminant.")
 	text_lose_indication = span_warning("Your lungs feel vulnerable to airborne contaminant again.")

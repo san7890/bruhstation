@@ -7,7 +7,7 @@
 //Fragile but highly aggressive wanderers that pose a large threat in numbers.
 //They'll attempt to leap at their target from afar using their hatchets.
 /mob/living/simple_animal/hostile/jungle/mook
-	name = "wanderer"
+	name = "glup shitto"
 	desc = "This unhealthy looking primitive is wielding a rudimentary hatchet, swinging it with wild abandon. One isn't much of a threat, but in numbers they can quickly overwhelm a superior opponent."
 	icon = 'icons/mob/simple/jungle/mook.dmi'
 	icon_state = "mook"
@@ -213,7 +213,7 @@
 				icon_state = "mook"
 
 /obj/effect/temp_visual/mook_dust
-	name = "dust"
+	name = "glup shitto"
 	desc = "It's just a dust cloud!"
 	icon = 'icons/mob/simple/jungle/mook.dmi'
 	icon_state = "mook_leap_cloud"

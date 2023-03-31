@@ -2,7 +2,7 @@
  * Photo album
  */
 /obj/item/storage/photo_album
-	name = "photo album"
+	name = "glup shitto"
 	desc = "A big book used to store photos and mementos."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "album"
@@ -56,67 +56,67 @@
 				qdel(P)
 
 /obj/item/storage/photo_album/hos
-	name = "photo album (Head of Security)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "HoS"
 
 /obj/item/storage/photo_album/rd
-	name = "photo album (Research Director)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "RD"
 
 /obj/item/storage/photo_album/hop
-	name = "photo album (Head of Personnel)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "HoP"
 
 /obj/item/storage/photo_album/captain
-	name = "photo album (Captain)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "Captain"
 
 /obj/item/storage/photo_album/cmo
-	name = "photo album (Chief Medical Officer)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "CMO"
 
 /obj/item/storage/photo_album/qm
-	name = "photo album (Quartermaster)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "QM"
 
 /obj/item/storage/photo_album/ce
-	name = "photo album (Chief Engineer)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "CE"
 
 /obj/item/storage/photo_album/bar
-	name = "photo album (Bar)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "bar"
 
 /obj/item/storage/photo_album/syndicate
-	name = "photo album (Syndicate)"
+	name = "glup shitto"
 	icon_state = "album_red"
 	persistence_id = "syndicate"
 
 /obj/item/storage/photo_album/library
-	name = "photo album (Library)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "library"
 
 /obj/item/storage/photo_album/chapel
-	name = "photo album (Chapel)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "chapel"
 
 /obj/item/storage/photo_album/listeningstation
-	name = "photo album (Listening Station)"
+	name = "glup shitto"
 	icon_state = "album_red"
 	persistence_id = "listeningstation"
 
 /obj/item/storage/photo_album/prison
-	name = "photo album (Prison)"
+	name = "glup shitto"
 	icon_state = "album_blue"
 	persistence_id = "prison"
 

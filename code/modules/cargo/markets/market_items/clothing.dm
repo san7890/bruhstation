@@ -2,7 +2,7 @@
 	category = "Clothing"
 
 /datum/market_item/clothing/ninja_mask
-	name = "Space Ninja Mask"
+	name = "glup shitto"
 	desc = "Apart from being acid, lava, fireproof and being hard to take off someone it does nothing special on it's own."
 	item = /obj/item/clothing/mask/gas/ninja
 
@@ -12,7 +12,7 @@
 	availability_prob = 40
 
 /datum/market_item/clothing/durathread_vest
-	name = "Durathread Vest"
+	name = "glup shitto"
 	desc = "Don't let them tell you this stuff is \"Like asbestos\" or \"Pulled from the market for safety concerns\". It could be the difference between a robusting and a retaliation."
 	item = /obj/item/clothing/suit/armor/vest/durathread
 
@@ -22,7 +22,7 @@
 	availability_prob = 50
 
 /datum/market_item/clothing/durathread_helmet
-	name = "Durathread Helmet"
+	name = "glup shitto"
 	desc = "Customers ask why it's called a helmet when it's just made from armoured fabric and I always say the same thing: No refunds."
 	item = /obj/item/clothing/head/helmet/durathread
 
@@ -32,7 +32,7 @@
 	availability_prob = 50
 
 /datum/market_item/clothing/full_spacesuit_set
-	name = "\improper Nanotrasen Branded Spacesuit Box"
+	name = "glup shitto"
 	desc = "A few boxes of \"Old Style\" space suits fell off the back of a space truck."
 	item = /obj/item/storage/box
 
@@ -50,7 +50,7 @@
 	return B
 
 /datum/market_item/clothing/chameleon_hat
-	name = "Chameleon Hat"
+	name = "glup shitto"
 	desc = "Pick any hat you want with this Handy device. Not Quality Tested."
 	item = /obj/item/clothing/head/chameleon/broken
 
@@ -60,7 +60,7 @@
 	availability_prob = 70
 
 /datum/market_item/clothing/rocket_boots
-	name = "Rocket Boots"
+	name = "glup shitto"
 	desc = "We found a pair of jump boots and overclocked the hell out of them. No liability for grevious harm to or with a body."
 	item = /obj/item/clothing/shoes/bhop/rocket
 

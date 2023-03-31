@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/wizard
-	name = "Space Wizard"
+	name = "glup shitto"
 	desc = "EI NATH?"
 	icon = 'icons/mob/simple/simple_human.dmi'
 	icon_state = "wizard"

@@ -13,7 +13,7 @@
 
 // The monitor itself.
 /obj/machinery/computer/message_monitor
-	name = "message monitor console"
+	name = "glup shitto"
 	desc = "Used to monitor the crew's PDA messages, as well as request console messages."
 	icon_screen = "comm_logs"
 	circuit = /obj/item/circuitboard/computer/message_monitor
@@ -467,7 +467,7 @@
 #undef LINKED_SERVER_NONRESPONSIVE
 
 /obj/item/paper/monitorkey
-	name = "monitor decryption key"
+	name = "glup shitto"
 
 /obj/item/paper/monitorkey/Initialize(mapload, obj/machinery/telecomms/message_server/server)
 	..()

@@ -1,6 +1,6 @@
 //does aoe brute damage when hitting targets, is immune to explosions
 /datum/blobstrain/reagent/explosive_lattice
-	name = "Explosive Lattice"
+	name = "glup shitto"
 	description = "will attack with small explosions, dealing a medium mix of brute and burn damage to everyone nearby. Spores explode on death."
 	effectdesc = "will also resist explosions, but takes increased damage from fire and other energy sources."
 	analyzerdescdamage = "Does a medium mix of brute and burn damage in a small explosion around its targets.  Spores explode on death."
@@ -27,7 +27,7 @@
 		actor.take_overall_damage(10, 10)
 
 /datum/reagent/blob/explosive_lattice
-	name = "Explosive Lattice"
+	name = "glup shitto"
 	taste_description = "the bomb"
 	color = "#8B2500"
 
@@ -51,7 +51,7 @@
 			brute_loss = brute_loss*(2 - round(bomb_armor*0.01, 0.05))
 
 		burn_loss = brute_loss
-			
+
 		exposed_mob.take_overall_damage(brute_loss, burn_loss)
 
 		for(var/mob/living/nearby_mob in orange(epicenter_turf, 1))
@@ -69,6 +69,6 @@
 				burn_loss = brute_loss
 
 			nearby_mob.take_overall_damage(brute_loss, burn_loss)
-		
+
 	else
 		exposed_mob.apply_damage(0.6*reac_volume, BRUTE, wound_bonus=CANT_WOUND)

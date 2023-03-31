@@ -1,5 +1,5 @@
 /obj/item/implant/tracking
-	name = "tracking implant"
+	name = "glup shitto"
 	desc = "Track with this."
 	actions_types = null
 
@@ -9,7 +9,7 @@
 	var/allow_teleport = TRUE
 
 /obj/item/implant/tracking/c38
-	name = "TRAC implant"
+	name = "glup shitto"
 	desc = "A smaller tracking implant that supplies power for only a few minutes."
 	var/lifespan = 3000 //how many deciseconds does the implant last?
 	///The id of the timer that's qdeleting us

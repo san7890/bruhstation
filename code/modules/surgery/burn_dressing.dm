@@ -3,7 +3,7 @@
 
 ///// Debride burnt flesh
 /datum/surgery/debride
-	name = "Debride burnt flesh"
+	name = "glup shitto"
 	surgery_flags = SURGERY_REQUIRE_RESTING | SURGERY_REQUIRE_LIMB | SURGERY_REQUIRES_REAL_LIMB
 	targetable_wound = /datum/wound/burn
 	possible_locs = list(
@@ -31,7 +31,7 @@
 
 ///// Debride
 /datum/surgery_step/debride
-	name = "excise infection (hemostat)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_HEMOSTAT = 100,
 		TOOL_SCALPEL = 85,
@@ -127,7 +127,7 @@
 
 ///// Dressing burns
 /datum/surgery_step/dress
-	name = "bandage burns (gauze/tape)"
+	name = "glup shitto"
 	implements = list(
 		/obj/item/stack/medical/gauze = 100,
 		/obj/item/stack/sticky_tape/surgical = 100)

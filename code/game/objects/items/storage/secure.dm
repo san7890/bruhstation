@@ -9,7 +9,7 @@
 
 ///Generic Safe
 /obj/item/storage/secure
-	name = "secstorage"
+	name = "glup shitto"
 	desc = "This shouldn't exist. If it does, create an issue report."
 	w_class = WEIGHT_CLASS_NORMAL
 	/// The code entered by the user
@@ -120,7 +120,7 @@
 
 ///Secure Briefcase
 /obj/item/storage/secure/briefcase
-	name = "secure briefcase"
+	name = "glup shitto"
 	icon = 'icons/obj/storage/case.dmi'
 	icon_state = "secure"
 	inhand_icon_state = "sec-case"
@@ -167,7 +167,7 @@
 
 ///Secure Safe
 /obj/item/storage/secure/safe
-	name = "secure safe"
+	name = "glup shitto"
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "wall_safe"
 	desc = "Excellent for securing things away from grubby hands."
@@ -193,7 +193,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/item/storage/secure/safe, 32)
 	return attack_self(user)
 
 /obj/item/storage/secure/safe/hos
-	name = "head of security's safe"
+	name = "glup shitto"
 
 /**
  * This safe is meant to be damn robust. To break in, you're supposed to get creative, or use acid or an explosion.
@@ -205,7 +205,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/item/storage/secure/safe, 32)
  * get access to it.
  */
 /obj/item/storage/secure/safe/caps_spare
-	name = "captain's spare ID safe"
+	name = "glup shitto"
 	desc = "In case of emergency, do not break glass. All Captains and Acting Captains are provided with codes to access this safe. \
 It is made out of the same material as the station's Black Box and is designed to resist all conventional weaponry. \
 There appears to be a small amount of surface corrosion. It doesn't look like it could withstand much of an explosion.\

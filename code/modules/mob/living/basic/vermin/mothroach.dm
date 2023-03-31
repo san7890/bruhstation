@@ -1,5 +1,5 @@
 /mob/living/basic/mothroach
-	name = "mothroach"
+	name = "glup shitto"
 	desc = "This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches."
 	icon_state = "mothroach"
 	icon_living = "mothroach"

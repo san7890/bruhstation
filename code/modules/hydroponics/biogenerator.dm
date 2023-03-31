@@ -5,7 +5,7 @@
 
 
 /obj/machinery/biogenerator
-	name = "biogenerator"
+	name = "glup shitto"
 	desc = "Converts plants into biomass, which can be used to construct useful items."
 	icon = 'icons/obj/machines/biogenerator.dmi'
 	icon_state = "biogenerator"

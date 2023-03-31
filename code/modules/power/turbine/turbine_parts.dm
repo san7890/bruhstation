@@ -1,5 +1,5 @@
 /obj/item/turbine_parts
-	name = "turbine parts"
+	name = "glup shitto"
 	desc = "you really should call an admin"
 	icon = 'icons/obj/turbine/turbine.dmi'
 	icon_state = "inlet_compressor"
@@ -94,21 +94,21 @@
 	return ..()
 
 /obj/item/turbine_parts/compressor
-	name = "compressor part"
+	name = "glup shitto"
 	desc = "Install in a turbine engine compressor to increase its performance"
 	icon_state = "compressor_part"
 	part_efficiency = 0.25
 	part_efficiency_increase_amount = 0.2
 
 /obj/item/turbine_parts/rotor
-	name = "rotor part"
+	name = "glup shitto"
 	desc = "Install in a turbine engine rotor to increase its performance"
 	icon_state = "rotor_part"
 	part_efficiency = 0.25
 	part_efficiency_increase_amount = 0.2
 
 /obj/item/turbine_parts/stator
-	name = "stator part"
+	name = "glup shitto"
 	desc = "Install in a turbine engine turbine to increase its performance"
 	icon_state = "stator_part"
 	part_efficiency = 0.85

@@ -1,7 +1,7 @@
 GLOBAL_LIST_EMPTY(parasites) //all currently existing/living guardians
 
 /mob/living/simple_animal/hostile/guardian
-	name = "Guardian Spirit"
+	name = "glup shitto"
 	real_name = "Guardian Spirit"
 	desc = "A mysterious being that stands by its charge, ever vigilant."
 	speak_emote = list("hisses")

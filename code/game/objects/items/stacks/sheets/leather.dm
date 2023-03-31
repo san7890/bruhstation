@@ -1,5 +1,5 @@
 /obj/item/stack/sheet/animalhide
-	name = "hide"
+	name = "glup shitto"
 	desc = "Something went wrong."
 	icon_state = "sheet-hide"
 	inhand_icon_state = null
@@ -7,7 +7,7 @@
 	merge_type = /obj/item/stack/sheet/animalhide
 
 /obj/item/stack/sheet/animalhide/human
-	name = "human skin"
+	name = "glup shitto"
 	desc = "The by-product of human farming."
 	singular_name = "human skin piece"
 	novariants = FALSE
@@ -23,14 +23,14 @@ GLOBAL_LIST_INIT(human_recipes, list( \
 	. += GLOB.human_recipes
 
 /obj/item/stack/sheet/animalhide/generic
-	name = "skin"
+	name = "glup shitto"
 	desc = "A piece of skin."
 	singular_name = "skin piece"
 	novariants = FALSE
 	merge_type = /obj/item/stack/sheet/animalhide/generic
 
 /obj/item/stack/sheet/animalhide/corgi
-	name = "corgi hide"
+	name = "glup shitto"
 	desc = "The by-product of corgi farming."
 	singular_name = "corgi hide piece"
 	icon_state = "sheet-corgi"
@@ -43,7 +43,7 @@ GLOBAL_LIST_INIT(gondola_recipes, list ( \
 	))
 
 /obj/item/stack/sheet/animalhide/mothroach
-	name = "mothroach hide"
+	name = "glup shitto"
 	desc = "A thin layer of mothroach hide."
 	singular_name = "mothroach hide piece"
 	icon_state = "sheet-mothroach"
@@ -51,7 +51,7 @@ GLOBAL_LIST_INIT(gondola_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/animalhide/mothroach
 
 /obj/item/stack/sheet/animalhide/gondola
-	name = "gondola hide"
+	name = "glup shitto"
 	desc = "The extremely valuable product of gondola hunting."
 	singular_name = "gondola hide piece"
 	icon_state = "sheet-gondola"
@@ -71,7 +71,7 @@ GLOBAL_LIST_INIT(corgi_recipes, list ( \
 	. += GLOB.corgi_recipes
 
 /obj/item/stack/sheet/animalhide/cat
-	name = "cat hide"
+	name = "glup shitto"
 	desc = "The by-product of cat farming."
 	singular_name = "cat hide piece"
 	icon_state = "sheet-cat"
@@ -79,7 +79,7 @@ GLOBAL_LIST_INIT(corgi_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/animalhide/cat
 
 /obj/item/stack/sheet/animalhide/monkey
-	name = "monkey hide"
+	name = "glup shitto"
 	desc = "The by-product of monkey farming."
 	singular_name = "monkey hide piece"
 	icon_state = "sheet-monkey"
@@ -96,7 +96,7 @@ GLOBAL_LIST_INIT(monkey_recipes, list ( \
 	. += GLOB.monkey_recipes
 
 /obj/item/stack/sheet/animalhide/lizard
-	name = "lizard skin"
+	name = "glup shitto"
 	desc = "Sssssss..."
 	singular_name = "lizard skin piece"
 	icon_state = "sheet-lizard"
@@ -104,7 +104,7 @@ GLOBAL_LIST_INIT(monkey_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/animalhide/lizard
 
 /obj/item/stack/sheet/animalhide/xeno
-	name = "alien hide"
+	name = "glup shitto"
 	desc = "The skin of a terrible creature."
 	singular_name = "alien hide piece"
 	icon_state = "sheet-xeno"
@@ -122,7 +122,7 @@ GLOBAL_LIST_INIT(xeno_recipes, list ( \
 
 //don't see anywhere else to put these, maybe together they could be used to make the xenos suit?
 /obj/item/stack/sheet/xenochitin
-	name = "alien chitin"
+	name = "glup shitto"
 	desc = "A piece of the hide of a terrible creature."
 	singular_name = "alien hide piece"
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
@@ -131,19 +131,19 @@ GLOBAL_LIST_INIT(xeno_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/xenochitin
 
 /obj/item/xenos_claw
-	name = "alien claw"
+	name = "glup shitto"
 	desc = "The claw of a terrible creature."
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	icon_state = "claw"
 
 /obj/item/weed_extract
-	name = "weed extract"
+	name = "glup shitto"
 	desc = "A piece of slimy, purplish weed."
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	icon_state = "weed_extract"
 
 /obj/item/stack/sheet/hairlesshide
-	name = "hairless hide"
+	name = "glup shitto"
 	desc = "This hide was stripped of its hair, but still needs washing and tanning."
 	singular_name = "hairless hide piece"
 	icon_state = "sheet-hairlesshide"
@@ -151,7 +151,7 @@ GLOBAL_LIST_INIT(xeno_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/hairlesshide
 
 /obj/item/stack/sheet/wethide
-	name = "wet hide"
+	name = "glup shitto"
 	desc = "This hide has been cleaned but still needs to be dried."
 	singular_name = "wet hide piece"
 	icon_state = "sheet-wetleather"
@@ -178,7 +178,7 @@ GLOBAL_LIST_INIT(xeno_recipes, list ( \
  * Leather SHeet
  */
 /obj/item/stack/sheet/leather
-	name = "leather"
+	name = "glup shitto"
 	desc = "The by-product of mob grinding."
 	singular_name = "leather piece"
 	icon_state = "sheet-leather"
@@ -222,7 +222,7 @@ GLOBAL_LIST_INIT(leather_recipes, list ( \
  * Sinew
  */
 /obj/item/stack/sheet/sinew
-	name = "watcher sinew"
+	name = "glup shitto"
 	icon = 'icons/obj/mining.dmi'
 	desc = "Long stringy filaments which presumably came from a watcher's wings."
 	singular_name = "watcher sinew"
@@ -231,7 +231,7 @@ GLOBAL_LIST_INIT(leather_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/sinew
 
 /obj/item/stack/sheet/sinew/wolf
-	name = "wolf sinew"
+	name = "glup shitto"
 	desc = "Long stringy filaments which came from the insides of a wolf."
 	singular_name = "wolf sinew"
 	merge_type = /obj/item/stack/sheet/sinew/wolf
@@ -247,7 +247,7 @@ GLOBAL_LIST_INIT(sinew_recipes, list ( \
 
 /*Plates*/
 /obj/item/stack/sheet/animalhide/goliath_hide
-	name = "goliath hide plates"
+	name = "glup shitto"
 	desc = "Pieces of a goliath's rocky hide, these might be able to make your suit a bit more durable to attack from the local fauna."
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "goliath_hide"
@@ -260,14 +260,14 @@ GLOBAL_LIST_INIT(sinew_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/animalhide/goliath_hide
 
 /obj/item/stack/sheet/animalhide/goliath_hide/polar_bear_hide
-	name = "polar bear hides"
+	name = "glup shitto"
 	desc = "Pieces of a polar bear's fur, these might be able to make your suit a bit more durable to attack from the local fauna."
 	icon_state = "polar_bear_hide"
 	singular_name = "polar bear hide"
 	merge_type = /obj/item/stack/sheet/animalhide/goliath_hide/polar_bear_hide
 
 /obj/item/stack/sheet/animalhide/ashdrake
-	name = "ash drake hide"
+	name = "glup shitto"
 	desc = "The strong, scaled hide of an ash drake."
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "dragon_hide"
@@ -314,7 +314,7 @@ GLOBAL_LIST_INIT(sinew_recipes, list ( \
 		use(1)
 
 /obj/item/stack/sheet/animalhide/carp
-	name = "carp scales"
+	name = "glup shitto"
 	desc = "The scaly skin of a space carp. It looks quite beatiful when detached from the foul creature who once wore it."
 	singular_name = "carp scale"
 	icon_state = "sheet-carp"

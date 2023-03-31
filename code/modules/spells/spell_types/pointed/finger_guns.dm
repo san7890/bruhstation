@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/projectile/finger_guns
-	name = "Finger Guns"
+	name = "glup shitto"
 	desc = "Shoot up to three mimed bullets from your fingers that damage and mute their targets. \
 		Can't be used if you have something in your hands."
 	background_icon_state = "bg_mime"

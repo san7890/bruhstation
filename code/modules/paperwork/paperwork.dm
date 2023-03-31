@@ -11,7 +11,7 @@
  */
 
 /obj/item/paperwork
-	name = "paperwork documents"
+	name = "glup shitto"
 	desc = "A disorganized mess of documents, research results, and investigation findings."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "docs_part"
@@ -207,7 +207,7 @@
 //Photocopied paperwork. These are created when paperwork, whether stamped or otherwise, is printed. If it is stamped, it can be sold to cargo at the risk of the paperwork not being accepted (which takes a small fee from cargo).
 //If it is unstamped it will lose you money like normal, unless it has been marked with a VOID stamp
 /obj/item/paperwork/photocopy
-	name = "photocopied paperwork documents"
+	name = "glup shitto"
 	desc = "An even more disorganized mess of photocopied documents and paperwork. Did these even copy in the right order?"
 	stamp_icon = "paper_stamp-pc"
 	/// Has the photocopy been marked with a "void" stamp. Used to prevent documents from draining money if they somehow make their way to cargo.
@@ -244,7 +244,7 @@
 //It doesn't have any of the flavor text that the event ones spawn with.
 
 /obj/item/paperwork/ancient
-	name = "ancient paperwork"
+	name = "glup shitto"
 	desc = "A dusty, ugly mess of paper scraps. You can't recognize a single name, date, or topic mentioned within. How old are these?"
 
 /obj/item/paperwork/ancient/Initialize(mapload)

@@ -1,5 +1,5 @@
 /datum/round_event_control/anomaly
-	name = "Anomaly: Energetic Flux"
+	name = "glup shitto"
 	typepath = /datum/round_event/anomaly
 
 	min_players = 1
@@ -52,4 +52,4 @@
 
 /datum/event_admin_setup/set_location/anomaly/apply_to_event(datum/round_event/anomaly/event)
 	event.spawn_location = chosen_turf
-	
+

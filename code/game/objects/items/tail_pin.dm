@@ -1,6 +1,6 @@
 /obj/item/tail_pin
 	icon_state = "tailpin"
-	name = "tail pin"
+	name = "glup shitto"
 	desc = "Offically branded 'pin the tail on the corgi' style party implement. Not intended to be used on people."
 	force = 0
 	w_class = WEIGHT_CLASS_SMALL
@@ -16,12 +16,12 @@
 	layer = CORGI_ASS_PIN_LAYER
 
 /obj/item/poster/tail_board
-	name = "party game poster"
+	name = "glup shitto"
 	poster_type = /obj/structure/sign/poster/party_game
 	icon_state = "rolled_poster"
 
 /obj/structure/sign/poster/party_game
-	name = "pin the tail on the corgi"
+	name = "glup shitto"
 	desc = "The rules are simple, pin the tail on the corgi, while blindfolded. Are you a bad enough dude to hit the target?"
 	icon_state = "pinningposter"
 	poster_item_name = "party game poster"

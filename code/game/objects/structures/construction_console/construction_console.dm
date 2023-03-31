@@ -8,7 +8,7 @@
  *
  */
 /obj/machinery/computer/camera_advanced/base_construction
-	name = "generic base construction console"
+	name = "glup shitto"
 	desc = "An industrial computer integrated with a camera-assisted rapid construction drone."
 	networks = list("ss13")
 	circuit = /obj/item/circuitboard/computer/base_construction
@@ -96,7 +96,7 @@
  *
  */
 /mob/camera/ai_eye/remote/base_construction
-	name = "construction holo-drone"
+	name = "glup shitto"
 	//Allows any curious crew to watch the base after it leaves. (This is safe as the base cannot be modified once it leaves)
 	move_on_shuttle = TRUE
 	icon = 'icons/obj/mining.dmi'
@@ -124,7 +124,7 @@
 
 ///[Base console's][/obj/machinery/computer/camera_advanced/base_construction] internal RCD. Has a large material capacity and a fast buildspeed.
 /obj/item/construction/rcd/internal
-	name = "internal RCD"
+	name = "glup shitto"
 	max_matter = 600
 	no_ammo_message = "<span class='warning'>Internal matter exhausted. Please add additional materials.</span>"
 	delay_mod = 0.5

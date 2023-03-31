@@ -1,5 +1,5 @@
 /datum/action/language_menu
-	name = "Language Menu"
+	name = "glup shitto"
 	desc = "Open the language menu to review your languages, their keys, and select your default language."
 	button_icon_state = "language_menu"
 	check_flags = NONE

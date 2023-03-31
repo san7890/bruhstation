@@ -1,5 +1,5 @@
 /obj/structure/lattice
-	name = "lattice"
+	name = "glup shitto"
 	desc = "A lightweight support lattice. These hold our station together."
 	icon = 'icons/obj/smooth_structures/lattice.dmi'
 	icon_state = "lattice-255"
@@ -83,7 +83,7 @@
 		deconstruct()
 
 /obj/structure/lattice/catwalk
-	name = "catwalk"
+	name = "glup shitto"
 	desc = "A catwalk for easier EVA maneuvering and cable placement."
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	icon_state = "catwalk-0"
@@ -123,7 +123,7 @@
 		return TRUE
 
 /obj/structure/lattice/catwalk/mining
-	name = "reinforced catwalk"
+	name = "glup shitto"
 	desc = "A heavily reinforced catwalk used to build bridges in hostile environments. It doesn't look like anything could make this budge."
 	resistance_flags = INDESTRUCTIBLE
 
@@ -131,7 +131,7 @@
 	return
 
 /obj/structure/lattice/lava
-	name = "heatproof support lattice"
+	name = "glup shitto"
 	desc = "A specialized support beam for building across lava. Watch your step."
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	icon_state = "catwalk-0"

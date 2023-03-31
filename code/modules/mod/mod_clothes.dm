@@ -1,5 +1,5 @@
 /obj/item/clothing/head/mod
-	name = "MOD helmet"
+	name = "glup shitto"
 	desc = "A helmet for a MODsuit."
 	icon = 'icons/obj/clothing/modsuit/mod_clothing.dmi'
 	icon_state = "standard-helmet"
@@ -12,7 +12,7 @@
 	obj_flags = IMMUTABLE_SLOW
 
 /obj/item/clothing/suit/mod
-	name = "MOD chestplate"
+	name = "glup shitto"
 	desc = "A chestplate for a MODsuit."
 	icon = 'icons/obj/clothing/modsuit/mod_clothing.dmi'
 	icon_state = "standard-chestplate"
@@ -31,7 +31,7 @@
 	obj_flags = IMMUTABLE_SLOW
 
 /obj/item/clothing/gloves/mod
-	name = "MOD gauntlets"
+	name = "glup shitto"
 	desc = "A pair of gauntlets for a MODsuit."
 	icon = 'icons/obj/clothing/modsuit/mod_clothing.dmi'
 	icon_state = "standard-gauntlets"
@@ -44,7 +44,7 @@
 	obj_flags = IMMUTABLE_SLOW
 
 /obj/item/clothing/shoes/mod
-	name = "MOD boots"
+	name = "glup shitto"
 	desc = "A pair of boots for a MODsuit."
 	icon = 'icons/obj/clothing/modsuit/mod_clothing.dmi'
 	icon_state = "standard-boots"

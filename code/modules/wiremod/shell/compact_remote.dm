@@ -4,7 +4,7 @@
  * A handheld device with one big button.
  */
 /obj/item/compact_remote
-	name = "compact remote"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_small_simple"
 	inhand_icon_state = "electronic"

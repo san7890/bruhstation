@@ -1,5 +1,5 @@
 /obj/structure/closet/cabinet
-	name = "cabinet"
+	name = "glup shitto"
 	desc = "Old will forever be in fashion."
 	icon_state = "cabinet"
 	resistance_flags = FLAMMABLE
@@ -11,18 +11,18 @@
 	door_anim_time = 0 // no animation
 
 /obj/structure/closet/acloset
-	name = "strange closet"
+	name = "glup shitto"
 	desc = "It looks alien!"
 	icon_state = "alien"
 	material_drop = /obj/item/stack/sheet/mineral/abductor
 
 /obj/structure/closet/gimmick
-	name = "administrative supply closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for things that have no right being here."
 	icon_state = "syndicate"
 
 /obj/structure/closet/gimmick/russian
-	name = "\improper Russian surplus closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for Russian standard-issue surplus."
 
 /obj/structure/closet/gimmick/russian/PopulateContents()
@@ -33,7 +33,7 @@
 		new /obj/item/clothing/under/costume/soviet(src)
 
 /obj/structure/closet/gimmick/tacticool
-	name = "tacticool gear closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for Tacticool gear."
 
 /obj/structure/closet/gimmick/tacticool/PopulateContents()
@@ -55,12 +55,12 @@
 
 
 /obj/structure/closet/thunderdome
-	name = "\improper Thunderdome closet"
+	name = "glup shitto"
 	desc = "Everything you need!"
 	anchored = TRUE
 
 /obj/structure/closet/thunderdome/tdred
-	name = "red-team Thunderdome closet"
+	name = "glup shitto"
 	icon_door = "red"
 
 /obj/structure/closet/thunderdome/tdred/PopulateContents()
@@ -79,7 +79,7 @@
 		new /obj/item/clothing/head/helmet/thunderdome(src)
 
 /obj/structure/closet/thunderdome/tdgreen
-	name = "green-team Thunderdome closet"
+	name = "glup shitto"
 	icon_door = "green"
 
 /obj/structure/closet/thunderdome/tdgreen/PopulateContents()
@@ -112,7 +112,7 @@
 	new /obj/item/multitool(src)
 
 /obj/structure/closet/mini_fridge
-	name = "grimy mini-fridge"
+	name = "glup shitto"
 	desc = "A small contraption designed to imbue a few drinks with a pleasant chill. This antiquated unit however seems to serve no purpose other than keeping the roaches company."
 	icon_state = "mini_fridge"
 	icon_welded = "welded_small"

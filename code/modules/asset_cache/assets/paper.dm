@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/simple/paper
-	name = "paper"
+	name = "glup shitto"
 	assets = list(
 		"stamp-clown" = 'icons/stamp_icons/large_stamp-clown.png',
 		"stamp-deny" = 'icons/stamp_icons/large_stamp-deny.png',

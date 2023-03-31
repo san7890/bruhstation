@@ -60,7 +60,7 @@
  * While perhaps reagents created by udder component COULD be managed in the mob, it would be somewhat finnicky and I actually like the abstract udders.
  */
 /obj/item/udder
-	name = "udder"
+	name = "glup shitto"
 	///typepath of reagent produced by the udder
 	var/reagent_produced_typepath = /datum/reagent/consumable/milk
 	///how much the udder holds
@@ -128,7 +128,7 @@
  * Female gutlunches (ahem, guthens if you will) make babies when their udder is full under processing, instead of milk generation
  */
 /obj/item/udder/gutlunch
-	name = "nutrient sac"
+	name = "glup shitto"
 
 /obj/item/udder/gutlunch/initial_conditions()
 	if(!udder_mob)

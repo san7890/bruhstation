@@ -1,7 +1,7 @@
 // This file contains all boxes used by the Medical department, or otherwise associated with the task of mob interactions.
 
 /obj/item/storage/box/syringes
-	name = "box of syringes"
+	name = "glup shitto"
 	desc = "A box full of syringes."
 	illustration = "syringe"
 
@@ -10,7 +10,7 @@
 		new /obj/item/reagent_containers/syringe(src)
 
 /obj/item/storage/box/syringes/variety
-	name = "syringe variety box"
+	name = "glup shitto"
 
 /obj/item/storage/box/syringes/variety/PopulateContents()
 	new /obj/item/reagent_containers/syringe(src)
@@ -19,7 +19,7 @@
 	new /obj/item/reagent_containers/syringe/bluespace(src)
 
 /obj/item/storage/box/medipens
-	name = "box of medipens"
+	name = "glup shitto"
 	desc = "A box full of epinephrine MediPens."
 	illustration = "epipen"
 
@@ -28,7 +28,7 @@
 		new /obj/item/reagent_containers/hypospray/medipen(src)
 
 /obj/item/storage/box/medipens/utility
-	name = "stimpack value kit"
+	name = "glup shitto"
 	desc = "A box with several stimpack medipens for the economical miner."
 	illustration = "epipen"
 
@@ -38,7 +38,7 @@
 		new /obj/item/reagent_containers/hypospray/medipen/stimpack(src)
 
 /obj/item/storage/box/beakers
-	name = "box of beakers"
+	name = "glup shitto"
 	illustration = "beaker"
 
 /obj/item/storage/box/beakers/PopulateContents()
@@ -46,7 +46,7 @@
 		new /obj/item/reagent_containers/cup/beaker( src )
 
 /obj/item/storage/box/beakers/bluespace
-	name = "box of bluespace beakers"
+	name = "glup shitto"
 	illustration = "beaker"
 
 /obj/item/storage/box/beakers/bluespace/PopulateContents()
@@ -54,7 +54,7 @@
 		new /obj/item/reagent_containers/cup/beaker/bluespace(src)
 
 /obj/item/storage/box/beakers/variety
-	name = "beaker variety box"
+	name = "glup shitto"
 
 /obj/item/storage/box/beakers/variety/PopulateContents()
 	new /obj/item/reagent_containers/cup/beaker(src)
@@ -65,7 +65,7 @@
 	new /obj/item/reagent_containers/cup/beaker/plastic(src)
 
 /obj/item/storage/box/medigels
-	name = "box of medical gels"
+	name = "glup shitto"
 	desc = "A box full of medical gel applicators, with unscrewable caps and precision spray heads."
 	illustration = "medgel"
 
@@ -74,7 +74,7 @@
 		new /obj/item/reagent_containers/medigel( src )
 
 /obj/item/storage/box/injectors
-	name = "box of DNA injectors"
+	name = "glup shitto"
 	desc = "This box contains injectors, it seems."
 	illustration = "dna"
 
@@ -86,7 +86,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/bodybags
-	name = "body bags"
+	name = "glup shitto"
 	desc = "The label indicates that it contains body bags."
 	illustration = "bodybags"
 
@@ -96,7 +96,7 @@
 		new /obj/item/bodybag(src)
 
 /obj/item/storage/box/pillbottles
-	name = "box of pill bottles"
+	name = "glup shitto"
 	desc = "It has pictures of pill bottles on its front."
 	illustration = "pillbox"
 
@@ -113,7 +113,7 @@
 	generate_items_inside(items_inside, src)
 
 /obj/item/storage/box/evilmeds
-	name = "box of premium medicine"
+	name = "glup shitto"
 	desc = "Contains a large number of beakers filled with premium medical supplies. Straight from Interdyne Pharmaceutics!"
 	icon_state = "syndiebox"
 	illustration = "beaker"

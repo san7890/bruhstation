@@ -1,6 +1,6 @@
 // Herbs
 /obj/item/seeds/herbs
-	name = "pack of herb seeds"
+	name = "glup shitto"
 	desc = "These seeds grow to produce an assortment of herbs and seasonings."
 	icon_state = "seed-herbs"
 	species = "herbs"
@@ -17,7 +17,7 @@
 
 /obj/item/food/grown/herbs
 	seed = /obj/item/seeds/herbs
-	name = "bundle of herbs"
+	name = "glup shitto"
 	desc = "A bundle of various herbs. Somehow, you're always able to pick what you need out."
 	icon_state = "herbs"
 	foodtypes = VEGETABLES

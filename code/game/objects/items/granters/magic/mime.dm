@@ -1,5 +1,5 @@
 /obj/item/book/granter/action/spell/mime
-	name = "Guide to Mimery Vol 0"
+	name = "glup shitto"
 	desc = "The missing entry into the legendary saga. Unfortunately it doesn't teach you anything."
 	icon_state ="bookmime"
 	remarks = list("...")
@@ -18,11 +18,11 @@
 /obj/item/book/granter/action/spell/mime/mimery_blockade
 	granted_action = /datum/action/cooldown/spell/forcewall/mime
 	action_name = "Invisible Blockade"
-	name = "Guide to Advanced Mimery Vol 1"
+	name = "glup shitto"
 	desc = "The pages don't make any sound when turned."
 
 /obj/item/book/granter/action/spell/mime/mimery_guns
 	granted_action = /datum/action/cooldown/spell/pointed/projectile/finger_guns
 	action_name = "Finger Guns"
-	name = "Guide to Advanced Mimery Vol 2"
+	name = "glup shitto"
 	desc = "There aren't any words written..."

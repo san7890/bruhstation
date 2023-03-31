@@ -1,5 +1,5 @@
 /obj/item/gun/syringe
-	name = "medical syringe gun"
+	name = "glup shitto"
 	desc = "A spring loaded gun designed to fit syringes, used to incapacitate unruly patients from a distance."
 	icon = 'icons/obj/weapons/guns/syringegun.dmi'
 	icon_state = "medicalsyringegun"
@@ -95,7 +95,7 @@
 	. += "[initial(icon_state)]_[syringe_count ? clamp(syringe_count, 1, initial(max_syringes)) : "empty"]"
 
 /obj/item/gun/syringe/rapidsyringe
-	name = "compact rapid syringe gun"
+	name = "glup shitto"
 	desc = "A modification of the syringe gun design to be more compact and use a rotating cylinder to store up to six syringes."
 	icon_state = "rapidsyringegun"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
@@ -112,7 +112,7 @@
 	force = 4
 
 /obj/item/gun/syringe/syndicate
-	name = "dart pistol"
+	name = "glup shitto"
 	desc = "A small spring-loaded sidearm that functions identically to a syringe gun."
 	icon_state = "dartsyringegun"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
@@ -131,7 +131,7 @@
 	syringes = list(new /obj/item/reagent_containers/syringe())
 
 /obj/item/gun/syringe/dna
-	name = "modified compact syringe gun"
+	name = "glup shitto"
 	desc = "A syringe gun that has been modified to be compact and fit DNA injectors instead of normal syringes."
 	icon_state = "dnasyringegun"
 	lefthand_file = 'icons/mob/inhands/weapons/guns_lefthand.dmi'
@@ -170,7 +170,7 @@
 	return FALSE
 
 /obj/item/gun/syringe/blowgun
-	name = "blowgun"
+	name = "glup shitto"
 	desc = "Fire syringes at a short distance."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "blowgun"

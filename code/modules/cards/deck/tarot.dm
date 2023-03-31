@@ -2,7 +2,7 @@
 
 //These cards certainly won't tell the future, but you can play some nice games with them.
 /obj/item/toy/cards/deck/tarot
-	name = "tarot game deck"
+	name = "glup shitto"
 	desc = "A full 78 card game deck of tarot cards. Complete with 4 suites of 14 cards, and a full suite of trump cards."
 	cardgame_desc = "tarot card reading"
 	icon_state = "deck_tarot_full"
@@ -31,7 +31,7 @@
 		card.transform = M
 
 /obj/item/toy/cards/deck/tarot/haunted
-	name = "haunted tarot game deck"
+	name = "glup shitto"
 	desc = "A spooky looking tarot deck. You can sense a supernatural presence linked to the cards..."
 	/// ghost notification cooldown
 	COOLDOWN_DECLARE(ghost_alert_cooldown)

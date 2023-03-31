@@ -27,7 +27,7 @@
 // MOTION
 /obj/machinery/camera/motion
 	start_active = TRUE
-	name = "motion-sensitive security camera"
+	name = "glup shitto"
 
 /obj/machinery/camera/motion/Initialize(mapload)
 	. = ..()

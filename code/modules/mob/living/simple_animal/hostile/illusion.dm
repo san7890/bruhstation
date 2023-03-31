@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/illusion
-	name = "illusion"
+	name = "glup shitto"
 	desc = "It's a fake!"
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "static"

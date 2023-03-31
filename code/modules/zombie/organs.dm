@@ -1,5 +1,5 @@
 /obj/item/organ/internal/zombie_infection
-	name = "festering ooze"
+	name = "glup shitto"
 	desc = "A black web of pus and viscera."
 	zone = BODY_ZONE_HEAD
 	slot = ORGAN_SLOT_ZOMBIE

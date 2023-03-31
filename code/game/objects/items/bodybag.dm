@@ -1,6 +1,6 @@
 
 /obj/item/bodybag
-	name = "body bag"
+	name = "glup shitto"
 	desc = "A folded bag designed for the storage and transportation of cadavers."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "bodybag_folded"
@@ -46,7 +46,7 @@
 // Bluespace bodybag
 
 /obj/item/bodybag/bluespace
-	name = "bluespace body bag"
+	name = "glup shitto"
 	desc = "A folded bluespace body bag designed for the storage and transportation of cadavers."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "bluebodybag_folded"
@@ -98,7 +98,7 @@
 	qdel(src)
 
 /obj/item/bodybag/environmental
-	name = "environmental protection bag"
+	name = "glup shitto"
 	desc = "A folded, reinforced bag designed to protect against exoplanetary environmental storms."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "envirobag_folded"
@@ -107,25 +107,25 @@
 	resistance_flags = ACID_PROOF | FIRE_PROOF | FREEZE_PROOF
 
 /obj/item/bodybag/environmental/nanotrasen
-	name = "elite environmental protection bag"
+	name = "glup shitto"
 	desc = "A folded, heavily reinforced, and insulated bag, capable of fully isolating its contents from external factors."
 	icon_state = "ntenvirobag_folded"
 	unfoldedbag_path = /obj/structure/closet/body_bag/environmental/nanotrasen
 	resistance_flags = ACID_PROOF | FIRE_PROOF | FREEZE_PROOF | LAVA_PROOF
 
 /obj/item/bodybag/environmental/prisoner
-	name = "prisoner transport bag"
+	name = "glup shitto"
 	desc = "Intended for transport of prisoners through hazardous environments, this folded environmental protection bag comes with straps to keep an occupant secure."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "prisonerenvirobag_folded"
 	unfoldedbag_path = /obj/structure/closet/body_bag/environmental/prisoner
 
 /obj/item/bodybag/environmental/prisoner/pressurized
-	name = "pressurized prisoner transport bag"
+	name = "glup shitto"
 	unfoldedbag_path = /obj/structure/closet/body_bag/environmental/prisoner/pressurized
 
 /obj/item/bodybag/environmental/prisoner/syndicate
-	name = "syndicate prisoner transport bag"
+	name = "glup shitto"
 	desc = "An alteration of Nanotrasen's environmental protection bag which has been used in several high-profile kidnappings. Designed to keep a victim unconscious, alive, and secured until they are transported to a required location."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "syndieenvirobag_folded"

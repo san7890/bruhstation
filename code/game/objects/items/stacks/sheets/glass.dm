@@ -16,7 +16,7 @@ GLOBAL_LIST_INIT(glass_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/glass
-	name = "glass"
+	name = "glup shitto"
 	desc = "HOLY SHEET! That is a lot of glass."
 	singular_name = "glass sheet"
 	icon_state = "sheet-glass"
@@ -86,7 +86,7 @@ GLOBAL_LIST_INIT(pglass_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/plasmaglass
-	name = "plasma glass"
+	name = "glup shitto"
 	desc = "A glass sheet made out of a plasma-silicate alloy. It looks extremely tough and heavily fire resistant."
 	singular_name = "plasma glass sheet"
 	icon_state = "sheet-pglass"
@@ -145,7 +145,7 @@ GLOBAL_LIST_INIT(reinforced_glass_recipes, list ( \
 
 
 /obj/item/stack/sheet/rglass
-	name = "reinforced glass"
+	name = "glup shitto"
 	desc = "Glass which seems to have rods or something stuck in them."
 	singular_name = "reinforced glass sheet"
 	icon_state = "sheet-rglass"
@@ -202,7 +202,7 @@ GLOBAL_LIST_INIT(prglass_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/plasmarglass
-	name = "reinforced plasma glass"
+	name = "glup shitto"
 	desc = "A glass sheet made out of a plasma-silicate alloy and a rod matrix. It looks hopelessly tough and nearly fire-proof!"
 	singular_name = "reinforced plasma glass sheet"
 	icon_state = "sheet-prglass"
@@ -232,7 +232,7 @@ GLOBAL_LIST_INIT(titaniumglass_recipes, list(
 	))
 
 /obj/item/stack/sheet/titaniumglass
-	name = "titanium glass"
+	name = "glup shitto"
 	desc = "A glass sheet made out of a titanium-silicate alloy."
 	singular_name = "titanium glass sheet"
 	icon_state = "sheet-titaniumglass"
@@ -260,7 +260,7 @@ GLOBAL_LIST_INIT(plastitaniumglass_recipes, list(
 	))
 
 /obj/item/stack/sheet/plastitaniumglass
-	name = "plastitanium glass"
+	name = "glup shitto"
 	desc = "A glass sheet made out of a plasma-titanium-silicate alloy."
 	singular_name = "plastitanium glass sheet"
 	icon_state = "sheet-plastitaniumglass"
@@ -282,7 +282,7 @@ GLOBAL_LIST_INIT(plastitaniumglass_recipes, list(
 	. += GLOB.plastitaniumglass_recipes
 
 /obj/item/shard
-	name = "shard"
+	name = "glup shitto"
 	desc = "A nasty looking shard of glass."
 	icon = 'icons/obj/shards.dmi'
 	icon_state = "large"
@@ -401,7 +401,7 @@ GLOBAL_LIST_INIT(plastitaniumglass_recipes, list(
 			playsound(src, 'sound/effects/glass_step.ogg', HAS_TRAIT(L, TRAIT_LIGHT_STEP) ? 30 : 50, TRUE)
 
 /obj/item/shard/plasma
-	name = "purple shard"
+	name = "glup shitto"
 	desc = "A nasty looking shard of plasma glass."
 	force = 6
 	throwforce = 11
@@ -414,7 +414,7 @@ GLOBAL_LIST_INIT(plastitaniumglass_recipes, list(
 	craft_time = 7 SECONDS
 
 /obj/item/shard/titanium
-	name = "bright shard"
+	name = "glup shitto"
 	desc = "A nasty looking shard of titanium infused glass."
 	throwforce = 12
 	icon_state = "titaniumlarge"
@@ -426,7 +426,7 @@ GLOBAL_LIST_INIT(plastitaniumglass_recipes, list(
 	craft_time = 7 SECONDS
 
 /obj/item/shard/plastitanium
-	name = "dark shard"
+	name = "glup shitto"
 	desc = "A nasty looking shard of titanium infused plasma glass."
 	force = 7
 	throwforce = 12

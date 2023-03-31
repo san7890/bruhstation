@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/asteroid/polarbear
-	name = "polar bear"
+	name = "glup shitto"
 	desc = "An aggressive animal that defends it's territory with incredible power. These beasts don't run from their enemies."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "polarbear"
@@ -67,12 +67,12 @@
 	pull_force = initial(pull_force)
 
 /mob/living/simple_animal/hostile/asteroid/polarbear/lesser
-	name = "magic polar bear"
+	name = "glup shitto"
 	desc = "It seems sentient somehow."
 	faction = list(FACTION_NEUTRAL)
 
 /obj/item/crusher_trophy/bear_paw
-	name = "polar bear paw"
+	name = "glup shitto"
 	desc = "It's a polar bear paw."
 	icon_state = "bear_paw"
 	denied_type = /obj/item/crusher_trophy/bear_paw

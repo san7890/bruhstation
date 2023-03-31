@@ -1,5 +1,5 @@
 /datum/experiment/scanning/random/material
-	name = "Material Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning atoms with materials"
 	exp_tag = "Material Scan"
 	total_requirement = 8

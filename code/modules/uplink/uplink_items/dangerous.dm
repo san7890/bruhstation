@@ -1,13 +1,13 @@
 //All bundles and telecrystals
 /datum/uplink_category/dangerous
-	name = "Conspicuous Weapons"
+	name = "glup shitto"
 	weight = 9
 
 /datum/uplink_item/dangerous
 	category = /datum/uplink_category/dangerous
 
 /datum/uplink_item/dangerous/foampistol
-	name = "Toy Pistol with Riot Darts"
+	name = "glup shitto"
 	desc = "An innocent-looking toy pistol designed to fire foam darts. Comes loaded with riot-grade \
 			darts effective at incapacitating a target."
 	item = /obj/item/gun/ballistic/automatic/pistol/toy/riot
@@ -16,7 +16,7 @@
 	purchasable_from = ~UPLINK_NUKE_OPS
 
 /datum/uplink_item/dangerous/pistol
-	name = "Makarov Pistol"
+	name = "glup shitto"
 	desc = "A small, easily concealable handgun that uses 9mm auto rounds in 8-round magazines and is compatible \
 			with suppressors."
 	progression_minimum = 10 MINUTES
@@ -25,7 +25,7 @@
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 
 /datum/uplink_item/dangerous/throwingweapons
-	name = "Box of Throwing Weapons"
+	name = "glup shitto"
 	desc = "A box of shurikens and reinforced bolas from ancient Earth martial arts. They are highly effective \
 			throwing weapons. The bolas can knock a target down and the shurikens will embed into limbs."
 	progression_minimum = 10 MINUTES
@@ -34,7 +34,7 @@
 	illegal_tech = FALSE
 
 /datum/uplink_item/dangerous/sword
-	name = "Energy Sword"
+	name = "glup shitto"
 	desc = "The energy sword is an edged weapon with a blade of pure energy. The sword is small enough to be \
 			pocketed when inactive. Activating it produces a loud, distinctive noise."
 	progression_minimum = 20 MINUTES
@@ -43,7 +43,7 @@
 	purchasable_from = ~UPLINK_CLOWN_OPS
 
 /datum/uplink_item/dangerous/powerfist
-	name = "Power Fist"
+	name = "glup shitto"
 	desc = "The power-fist is a metal gauntlet with a built-in piston-ram powered by an external gas supply.\
 			Upon hitting a target, the piston-ram will extend forward to make contact for some serious damage. \
 			Using a wrench on the piston valve will allow you to tweak the amount of gas used per punch to \
@@ -54,14 +54,14 @@
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 
 /datum/uplink_item/dangerous/rapid
-	name = "Gloves of the North Star"
+	name = "glup shitto"
 	desc = "These gloves let the user punch people very fast. Does not improve weapon attack speed or the meaty fists of a hulk."
 	progression_minimum = 20 MINUTES
 	item = /obj/item/clothing/gloves/rapid
 	cost = 8
 
 /datum/uplink_item/dangerous/doublesword
-	name = "Double-Bladed Energy Sword"
+	name = "glup shitto"
 	desc = "The double-bladed energy sword does slightly more damage than a standard energy sword and will deflect \
 			all energy projectiles, but requires two hands to wield."
 	progression_minimum = 30 MINUTES
@@ -80,7 +80,7 @@
 			return 0.2
 
 /datum/uplink_item/dangerous/guardian
-	name = "Holoparasites"
+	name = "glup shitto"
 	desc = "Though capable of near sorcerous feats via use of hardlight holograms and nanomachines, they require an \
 			organic host as a home base and source of fuel. Holoparasites come in various types and share damage with their host."
 	progression_minimum = 30 MINUTES
@@ -91,7 +91,7 @@
 	restricted = TRUE
 
 /datum/uplink_item/dangerous/revolver
-	name = "Syndicate Revolver"
+	name = "glup shitto"
 	desc = "Waffle Co.'s modernized Syndicate revolver. Fires 7 brutal rounds of .357 Magnum."
 	item = /obj/item/gun/ballistic/revolver/syndicate
 	progression_minimum = 30 MINUTES

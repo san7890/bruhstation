@@ -1,5 +1,5 @@
 /obj/item/storage/portable_chem_mixer
-	name = "Portable Chemical Mixer"
+	name = "glup shitto"
 	desc = "A portable device that dispenses and mixes chemicals. All necessary reagents need to be supplied with beakers. A label indicates that the 'CTRL'-button on the device may be used to open it for refills. This device can be worn as a belt. The letters 'S&T' are imprinted on the side."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "portablechemicalmixer_open"

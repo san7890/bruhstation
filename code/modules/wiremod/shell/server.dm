@@ -5,7 +5,7 @@
  * world.
  */
 /obj/structure/server
-	name = "server"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_stationary"
 

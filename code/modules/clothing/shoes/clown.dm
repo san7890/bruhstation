@@ -1,6 +1,6 @@
 /obj/item/clothing/shoes/clown_shoes
 	desc = "The prankster's standard-issue clowning shoes. Damn, they're huge! Ctrl-click to toggle waddle dampeners."
-	name = "clown shoes"
+	name = "glup shitto"
 	icon_state = "clown"
 	inhand_icon_state = "clown_shoes"
 	slowdown = SHOES_SLOWDOWN+1
@@ -45,18 +45,18 @@
 		enabled_waddle = FALSE
 
 /obj/item/clothing/shoes/clown_shoes/jester
-	name = "jester shoes"
+	name = "glup shitto"
 	desc = "A court jester's shoes, updated with modern squeaking technology."
 	icon_state = "jester_shoes"
 
 /obj/item/clothing/shoes/clown_shoes/meown_shoes
-	name = "meown shoes"
+	name = "glup shitto"
 	desc = "The adorable sound they make when you walk will mean making friends is more likely."
 	icon_state = "meown_shoes"
 	squeak_sound = list('sound/effects/meowstep1.ogg'=1) //mew mew mew mew
 
 /obj/item/clothing/shoes/clown_shoes/ducky_shoes
-	name = "ducky shoes"
+	name = "glup shitto"
 	desc = "I got boots, that go *quack quack quack quack quack."
 	icon_state = "ducky_shoes"
 	inhand_icon_state = "ducky_shoes"

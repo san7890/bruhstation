@@ -13,7 +13,7 @@
 	icon = 'icons/mob/silicon/robot_items.dmi'
 
 /obj/item/borg/stun
-	name = "electrically-charged arm"
+	name = "glup shitto"
 	icon_state = "elecarm"
 	/// Cost to use the stun arm
 	var/charge_cost = 1000
@@ -41,7 +41,7 @@
 	log_combat(user, attacked_mob, "stunned", src, "(Combat mode: [user.combat_mode ? "On" : "Off"])")
 
 /obj/item/borg/cyborghug
-	name = "hugging module"
+	name = "glup shitto"
 	icon_state = "hugmodule"
 	desc = "For when a someone really needs a hug."
 	/// Hug mode
@@ -164,7 +164,7 @@
 	boop = TRUE
 
 /obj/item/borg/charger
-	name = "power connector"
+	name = "glup shitto"
 	icon_state = "charger_draw"
 	item_flags = NOBLUDGEON
 	/// Charging mode
@@ -291,7 +291,7 @@
 		to_chat(user, span_notice("You stop charging [target]."))
 
 /obj/item/harmalarm
-	name = "\improper Sonic Harm Prevention Tool"
+	name = "glup shitto"
 	desc = "Releases a harmless blast that confuses most organics. For when the harm is JUST TOO MUCH."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "megaphone"

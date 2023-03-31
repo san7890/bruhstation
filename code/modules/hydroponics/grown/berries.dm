@@ -1,6 +1,6 @@
 // Berries
 /obj/item/seeds/berry
-	name = "pack of berry seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into berry bushes."
 	icon_state = "seed-berry"
 	species = "berry"
@@ -20,7 +20,7 @@
 
 /obj/item/food/grown/berries
 	seed = /obj/item/seeds/berry
-	name = "bunch of berries"
+	name = "glup shitto"
 	desc = "Nutritious!"
 	icon_state = "berrypile"
 	gender = PLURAL
@@ -31,7 +31,7 @@
 
 // Poison Berries
 /obj/item/seeds/berry/poison
-	name = "pack of poison-berry seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into poison-berry bushes."
 	icon_state = "seed-poisonberry"
 	species = "poisonberry"
@@ -43,7 +43,7 @@
 
 /obj/item/food/grown/berries/poison
 	seed = /obj/item/seeds/berry/poison
-	name = "bunch of poison-berries"
+	name = "glup shitto"
 	desc = "Taste so good, you might die!"
 	icon_state = "poisonberrypile"
 	bite_consumption_mod = 3
@@ -55,7 +55,7 @@
 
 // Death Berries
 /obj/item/seeds/berry/death
-	name = "pack of death-berry seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into death berries."
 	icon_state = "seed-deathberry"
 	species = "deathberry"
@@ -69,7 +69,7 @@
 
 /obj/item/food/grown/berries/death
 	seed = /obj/item/seeds/berry/death
-	name = "bunch of death-berries"
+	name = "glup shitto"
 	desc = "Taste so good, you will die!"
 	icon_state = "deathberrypile"
 	bite_consumption_mod = 3
@@ -81,7 +81,7 @@
 
 // Glow Berries
 /obj/item/seeds/berry/glow
-	name = "pack of glow-berry seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into glow-berry bushes."
 	icon_state = "seed-glowberry"
 	species = "glowberry"
@@ -97,7 +97,7 @@
 
 /obj/item/food/grown/berries/glow
 	seed = /obj/item/seeds/berry/glow
-	name = "bunch of glow-berries"
+	name = "glup shitto"
 	desc = "Nutritious!"
 	bite_consumption_mod = 3
 	icon_state = "glowberrypile"
@@ -108,7 +108,7 @@
 
 // Grapes
 /obj/item/seeds/grape
-	name = "pack of grape seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into grape vines."
 	icon_state = "seed-grapes"
 	species = "grape"
@@ -129,7 +129,7 @@
 
 /obj/item/food/grown/grapes
 	seed = /obj/item/seeds/grape
-	name = "bunch of grapes"
+	name = "glup shitto"
 	desc = "Nutritious!"
 	icon_state = "grapes"
 	bite_consumption_mod = 2
@@ -143,7 +143,7 @@
 
 // Green Grapes
 /obj/item/seeds/grape/green
-	name = "pack of green grape seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into green-grape vines."
 	icon_state = "seed-greengrapes"
 	species = "greengrape"
@@ -154,7 +154,7 @@
 
 /obj/item/food/grown/grapes/green
 	seed = /obj/item/seeds/grape/green
-	name = "bunch of green grapes"
+	name = "glup shitto"
 	icon_state = "greengrapes"
 	bite_consumption_mod = 3
 	tastes = list("green grape" = 1)
@@ -162,7 +162,7 @@
 
 // Toechtauese Berries
 /obj/item/seeds/toechtauese
-	name = "pack of töchtaüse berry seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into töchtaüse bushes."
 	icon_state = "seed-toechtauese"
 	species = "toechtauese"
@@ -181,7 +181,7 @@
 
 /obj/item/food/grown/toechtauese
 	seed = /obj/item/seeds/toechtauese
-	name = "töchtaüse berries"
+	name = "glup shitto"
 	desc = "A branch with töchtaüse berries on it. They're a favourite on the Mothic Fleet, but not in this form."
 	icon_state = "toechtauese_branch"
 	foodtypes = FRUIT

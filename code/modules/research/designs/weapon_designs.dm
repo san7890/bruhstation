@@ -12,7 +12,7 @@
 	autolathe_exportable = FALSE //Redundant, there's already an autolathe version.
 
 /datum/design/c38_trac
-	name = "Speed Loader (.38 TRAC)"
+	name = "glup shitto"
 	desc = "Designed to quickly reload revolvers. TRAC bullets embed a tracking implant within the target's body. The implant's signal is incompatible with teleporters."
 	id = "c38_trac"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -24,7 +24,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c38_hotshot
-	name = "Speed Loader (.38 Hot Shot)"
+	name = "glup shitto"
 	desc = "Designed to quickly reload revolvers. Hot Shot bullets contain an incendiary payload."
 	id = "c38_hotshot"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -36,7 +36,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c38_iceblox
-	name = "Speed Loader (.38 Iceblox)"
+	name = "glup shitto"
 	desc = "Designed to quickly reload revolvers. Iceblox bullets contain a cryogenic payload."
 	id = "c38_iceblox"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -48,7 +48,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c38_rubber
-	name = "Speed Loader (.38 Rubber)"
+	name = "glup shitto"
 	desc = "Designed to quickly reload revolvers. Rubber bullets are bouncy and less-than-lethal."
 	id = "c38_rubber"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -96,7 +96,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/pin_testing
-	name = "Test-Range Firing Pin"
+	name = "glup shitto"
 	desc = "This safety firing pin allows firearms to be operated within proximity to a firing range."
 	id = "pin_testing"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -108,7 +108,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/pin_mindshield
-	name = "Mindshield Firing Pin"
+	name = "glup shitto"
 	desc = "This is a security firing pin which only authorizes users who are mindshield-implanted."
 	id = "pin_loyalty"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -120,7 +120,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/pin_explorer
-	name = "Outback Firing Pin"
+	name = "glup shitto"
 	desc = "This firing pin only shoots while ya ain't on station, fair dinkum!"
 	id = "pin_explorer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -132,7 +132,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/stunrevolver
-	name = "Tesla Cannon Part Kit"
+	name = "glup shitto"
 	desc = "The kit for a high-tech cannon that fires internal, reusable bolt cartridges in a revolving cylinder. The cartridges can be recharged using conventional rechargers."
 	id = "stunrevolver"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -145,7 +145,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/nuclear_gun
-	name = "Advanced Energy Gun Part Kit"
+	name = "glup shitto"
 	desc = "The kit for an energy gun with an experimental miniaturized reactor."
 	id = "nuclear_gun"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -158,7 +158,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/tele_shield
-	name = "Telescopic Riot Shield"
+	name = "glup shitto"
 	desc = "An advanced riot shield made of lightweight materials that collapses for easy storage."
 	id = "tele_shield"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -171,7 +171,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/beamrifle
-	name = "Beam Marksman Rifle Part Kit"
+	name = "glup shitto"
 	desc = "The gunkit for a powerful long ranged anti-material rifle that fires charged particle beams to obliterate targets."
 	id = "beamrifle"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -184,7 +184,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/decloner
-	name = "Decloner Part Kit"
+	name = "glup shitto"
 	desc = "Your opponent will bubble into a messy pile of goop."
 	id = "decloner"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -197,7 +197,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/rapidsyringe
-	name = "Rapid Syringe Gun"
+	name = "glup shitto"
 	desc = "A gun that fires many syringes."
 	id = "rapidsyringe"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -209,7 +209,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL //uwu
 
 /datum/design/temp_gun
-	name = "Temperature Gun Part Kit"
+	name = "glup shitto"
 	desc = "A gun that shoots temperature bullet energythings to change temperature."//Change it if you want
 	id = "temp_gun"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -222,7 +222,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/flora_gun
-	name = "Floral Somatoray"
+	name = "glup shitto"
 	desc = "A tool that discharges controlled radiation which induces mutation in plant cells. Harmless to other organic life."
 	id = "flora_gun"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -234,7 +234,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/large_grenade
-	name = "Large Grenade Casing"
+	name = "glup shitto"
 	desc = "A grenade that affects a larger area and use larger containers."
 	id = "large_grenade"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -246,7 +246,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/pyro_grenade
-	name = "Pyro Grenade Casing"
+	name = "glup shitto"
 	desc = "An advanced grenade that is able to self ignite its mixture."
 	id = "pyro_grenade"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -258,7 +258,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cryo_grenade
-	name = "Cryo Grenade Casing"
+	name = "glup shitto"
 	desc = "An advanced grenade that rapidly cools its contents upon detonation."
 	id = "cryo_grenade"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -270,7 +270,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/adv_grenade
-	name = "Advanced Release Grenade Casing"
+	name = "glup shitto"
 	desc = "An advanced grenade that can be detonated several times, best used with a repeating igniter."
 	id = "adv_grenade"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -282,7 +282,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/xray
-	name = "X-ray Laser Gun Part Kit"
+	name = "glup shitto"
 	desc = "Not quite as menacing as it sounds"
 	id = "xray_laser"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -295,7 +295,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/ioncarbine
-	name = "Ion Carbine Part Kit"
+	name = "glup shitto"
 	desc = "How to Dismantle a Cyborg: The Gun."
 	id = "ioncarbine"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -308,7 +308,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/wormhole_projector
-	name = "Bluespace Wormhole Projector"
+	name = "glup shitto"
 	desc = "A projector that emits high density quantum-coupled bluespace beams. Requires a bluespace anomaly core to function."
 	id = "wormholeprojector"
 	build_type = PROTOLATHE
@@ -320,7 +320,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/stunshell
-	name = "Stun Shell"
+	name = "glup shitto"
 	desc = "A stunning shell for a shotgun."
 	id = "stunshell"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -332,7 +332,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/techshell
-	name = "Unloaded Technological Shotshell"
+	name = "glup shitto"
 	desc = "A high-tech shotgun shell which can be loaded with materials to produce unique effects."
 	id = "techshotshell"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -344,7 +344,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/suppressor
-	name = "Suppressor"
+	name = "glup shitto"
 	desc = "A reverse-engineered suppressor that fits on most small arms with threaded barrels."
 	id = "suppressor"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -356,7 +356,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/gravitygun
-	name = "One-point Gravitational Manipulator"
+	name = "glup shitto"
 	desc = "A multi-mode device that blasts one-point bluespace-gravitational bolts that locally distort gravity. Requires a gravitational anomaly core to function."
 	id = "gravitygun"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -368,7 +368,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/largecrossbow
-	name = "Energy Crossbow Part Kit"
+	name = "glup shitto"
 	desc = "A kit to reverse-engineer a proto-kinetic accelerator into an energy crossbow, favored by syndicate infiltration teams and carp hunters."
 	id = "largecrossbow"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -381,7 +381,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/cleric_mace
-	name = "Cleric Mace"
+	name = "glup shitto"
 	desc = "A mace fit for a cleric. Useful for bypassing plate armor, but too bulky for much else."
 	id = "cleric_mace"
 	build_type = AUTOLATHE
@@ -390,7 +390,7 @@
 	category = list(RND_CATEGORY_IMPORTED)
 
 /datum/design/stun_boomerang
-	name = "OZtek Boomerang"
+	name = "glup shitto"
 	desc = "Uses reverse flow gravitodynamics to flip its personal gravity back to the thrower mid-flight. Also functions similar to a stun baton."
 	id = "stun_boomerang"
 	build_type = PROTOLATHE | AWAY_LATHE

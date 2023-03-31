@@ -1,7 +1,7 @@
 //banana flavored chaos and horror ahead
 
 /obj/item/clothing/shoes/clown_shoes/banana_shoes
-	name = "mk-honk prototype shoes"
+	name = "glup shitto"
 	desc = "Lost prototype of advanced clown tech. Powered by bananium, these shoes leave a trail of chaos in their wake."
 	icon_state = "clown_prototype_off"
 	actions_types = list(/datum/action/item_action/toggle)

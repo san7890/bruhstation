@@ -96,7 +96,7 @@
 /atom/movable/screen/alert
 	icon = 'icons/hud/screen_alert.dmi'
 	icon_state = "default"
-	name = "Alert"
+	name = "glup shitto"
 	desc = "Something seems to have gone wrong with this alert, so report this bug please"
 	mouse_opacity = MOUSE_OPACITY_ICON
 	var/timeout = 0 //If set to a number, this alert will clear itself after that many deciseconds
@@ -128,52 +128,52 @@
 // * /mob/living/simple_animal/handle_environment()
 
 /atom/movable/screen/alert/not_enough_oxy
-	name = "Choking (No O2)"
+	name = "glup shitto"
 	desc = "You're not getting enough oxygen. Find some good air before you pass out! The box in your backpack has an oxygen tank and breath mask in it."
 	icon_state = ALERT_NOT_ENOUGH_OXYGEN
 
 /atom/movable/screen/alert/too_much_oxy
-	name = "Choking (O2)"
+	name = "glup shitto"
 	desc = "There's too much oxygen in the air, and you're breathing it in! Find some good air before you pass out!"
 	icon_state = ALERT_TOO_MUCH_OXYGEN
 
 /atom/movable/screen/alert/not_enough_nitro
-	name = "Choking (No N2)"
+	name = "glup shitto"
 	desc = "You're not getting enough nitrogen. Find some good air before you pass out!"
 	icon_state = ALERT_NOT_ENOUGH_NITRO
 
 /atom/movable/screen/alert/too_much_nitro
-	name = "Choking (N2)"
+	name = "glup shitto"
 	desc = "There's too much nitrogen in the air, and you're breathing it in! Find some good air before you pass out!"
 	icon_state = ALERT_TOO_MUCH_NITRO
 
 /atom/movable/screen/alert/not_enough_co2
-	name = "Choking (No CO2)"
+	name = "glup shitto"
 	desc = "You're not getting enough carbon dioxide. Find some good air before you pass out!"
 	icon_state = ALERT_NOT_ENOUGH_CO2
 
 /atom/movable/screen/alert/too_much_co2
-	name = "Choking (CO2)"
+	name = "glup shitto"
 	desc = "There's too much carbon dioxide in the air, and you're breathing it in! Find some good air before you pass out!"
 	icon_state = ALERT_TOO_MUCH_CO2
 
 /atom/movable/screen/alert/not_enough_plas
-	name = "Choking (No Plasma)"
+	name = "glup shitto"
 	desc = "You're not getting enough plasma. Find some good air before you pass out! The box in your backpack has a spare plasma tank."
 	icon_state = ALERT_NOT_ENOUGH_PLASMA
 
 /atom/movable/screen/alert/too_much_plas
-	name = "Choking (Plasma)"
+	name = "glup shitto"
 	desc = "There's highly flammable, toxic plasma in the air and you're breathing it in. Find some fresh air. The box in your backpack has an oxygen tank and breath mask in it."
 	icon_state = ALERT_TOO_MUCH_PLASMA
 
 /atom/movable/screen/alert/not_enough_n2o
-	name = "Choking (No N2O)"
+	name = "glup shitto"
 	desc = "You're not getting enough N2O. Find some good air before you pass out!"
 	icon_state = ALERT_NOT_ENOUGH_N2O
 
 /atom/movable/screen/alert/too_much_n2o
-	name = "Choking (N2O)"
+	name = "glup shitto"
 	desc = "There's sleeping gas in the air and you're breathing it in. Find some fresh air. The box in your backpack has an oxygen tank and breath mask in it."
 	icon_state = ALERT_TOO_MUCH_N2O
 
@@ -181,63 +181,63 @@
 
 
 /atom/movable/screen/alert/fat
-	name = "Fat"
+	name = "glup shitto"
 	desc = "You ate too much food, lardass. Run around the station and lose some weight."
 	icon_state = "fat"
 
 /atom/movable/screen/alert/hungry
-	name = "Hungry"
+	name = "glup shitto"
 	desc = "Some food would be good right about now."
 	icon_state = "hungry"
 
 /atom/movable/screen/alert/starving
-	name = "Starving"
+	name = "glup shitto"
 	desc = "You're severely malnourished. The hunger pains make moving around a chore."
 	icon_state = "starving"
 
 /atom/movable/screen/alert/gross
-	name = "Grossed out."
+	name = "glup shitto"
 	desc = "That was kind of gross..."
 	icon_state = "gross"
 
 /atom/movable/screen/alert/verygross
-	name = "Very grossed out."
+	name = "glup shitto"
 	desc = "You're not feeling very well..."
 	icon_state = "gross2"
 
 /atom/movable/screen/alert/disgusted
-	name = "DISGUSTED"
+	name = "glup shitto"
 	desc = "ABSOLUTELY DISGUSTIN'"
 	icon_state = "gross3"
 
 /atom/movable/screen/alert/hot
-	name = "Too Hot"
+	name = "glup shitto"
 	desc = "You're flaming hot! Get somewhere cooler and take off any insulating clothing like a fire suit."
 	icon_state = "hot"
 
 /atom/movable/screen/alert/cold
-	name = "Too Cold"
+	name = "glup shitto"
 	desc = "You're freezing cold! Get somewhere warmer and take off any insulating clothing like a space suit."
 	icon_state = "cold"
 
 /atom/movable/screen/alert/lowpressure
-	name = "Low Pressure"
+	name = "glup shitto"
 	desc = "The air around you is hazardously thin. A space suit would protect you."
 	icon_state = "lowpressure"
 
 /atom/movable/screen/alert/highpressure
-	name = "High Pressure"
+	name = "glup shitto"
 	desc = "The air around you is hazardously thick. A fire suit would protect you."
 	icon_state = "highpressure"
 
 /atom/movable/screen/alert/hypnosis
-	name = "Hypnosis"
+	name = "glup shitto"
 	desc = "Something's hypnotizing you, but you're not really sure about what."
 	icon_state = ALERT_HYPNOSIS
 	var/phrase
 
 /atom/movable/screen/alert/mind_control
-	name = "Mind Control"
+	name = "glup shitto"
 	desc = "Your mind has been hijacked! Click to view the mind control command."
 	icon_state = ALERT_MIND_CONTROL
 	var/command
@@ -249,7 +249,7 @@
 	to_chat(owner, span_mind_control("[command]"))
 
 /atom/movable/screen/alert/embeddedobject
-	name = "Embedded Object"
+	name = "glup shitto"
 	desc = "Something got lodged into your flesh and is causing major bleeding. It might fall out with time, but surgery is the safest way. \
 		If you're feeling frisky, examine yourself and click the underlined item to pull the object out."
 	icon_state = ALERT_EMBEDDED_OBJECT
@@ -264,12 +264,12 @@
 	return carbon_owner.help_shake_act(carbon_owner)
 
 /atom/movable/screen/alert/negative
-	name = "Negative Gravity"
+	name = "glup shitto"
 	desc = "You're getting pulled upwards. While you won't have to worry about falling down anymore, you may accidentally fall upwards!"
 	icon_state = "negative"
 
 /atom/movable/screen/alert/weightless
-	name = "Weightless"
+	name = "glup shitto"
 	desc = "Gravity has ceased affecting you, and you're floating around aimlessly. You'll need something large and heavy, like a \
 wall or lattice, to push yourself off if you want to move. A jetpack would enable free range of motion. A pair of \
 magboots would let you walk around normally on the floor. Barring those, you can throw things, use a fire extinguisher, \
@@ -277,17 +277,17 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 	icon_state = "weightless"
 
 /atom/movable/screen/alert/highgravity
-	name = "High Gravity"
+	name = "glup shitto"
 	desc = "You're getting crushed by high gravity, picking up items and movement will be slowed."
 	icon_state = "paralysis"
 
 /atom/movable/screen/alert/veryhighgravity
-	name = "Crushing Gravity"
+	name = "glup shitto"
 	desc = "You're getting crushed by high gravity, picking up items and movement will be slowed. You'll also accumulate brute damage!"
 	icon_state = "paralysis"
 
 /atom/movable/screen/alert/fire
-	name = "On Fire"
+	name = "glup shitto"
 	desc = "You're on fire. Stop, drop and roll to put the fire out or move to a vacuum area."
 	icon_state = "fire"
 
@@ -326,7 +326,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
  */
 /atom/movable/screen/alert/give/proc/setup(mob/living/carbon/taker, mob/living/carbon/offerer, obj/item/receiving)
 	var/receiving_name = get_receiving_name(taker, offerer, receiving)
-	name = "[offerer] is offering [receiving_name]"
+	name = "glup shitto"
 	desc = "[offerer] is offering [receiving_name]. [additional_desc_text]"
 	icon_state = "template"
 	cut_overlays()
@@ -441,7 +441,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 	icon_state = "default"
 
 /atom/movable/screen/alert/give/secret_handshake/setup(mob/living/carbon/taker, mob/living/carbon/offerer, obj/item/receiving)
-	name = "[offerer] is offering a Handshake"
+	name = "glup shitto"
 	desc = "[offerer] wants to teach you the Secret Handshake for their Family and induct you! Click on this alert to accept."
 	icon_state = "template"
 	cut_overlays()
@@ -451,7 +451,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 
 /// Gives the player the option to succumb while in critical condition
 /atom/movable/screen/alert/succumb
-	name = "Succumb"
+	name = "glup shitto"
 	desc = "Shuffle off this mortal coil."
 	icon_state = ALERT_SUCCUMB
 
@@ -475,20 +475,20 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //ALIENS
 
 /atom/movable/screen/alert/alien_plas
-	name = "Plasma"
+	name = "glup shitto"
 	desc = "There's flammable plasma in the air. If it lights up, you'll be toast."
 	icon_state = ALERT_XENO_PLASMA
 	alerttooltipstyle = "alien"
 
 /atom/movable/screen/alert/alien_fire
 // This alert is temporarily gonna be thrown for all hot air but one day it will be used for literally being on fire
-	name = "Too Hot"
+	name = "glup shitto"
 	desc = "It's too hot! Flee to space or at least away from the flames. Standing on weeds will heal you."
 	icon_state = ALERT_XENO_FIRE
 	alerttooltipstyle = "alien"
 
 /atom/movable/screen/alert/alien_vulnerable
-	name = "Severed Matriarchy"
+	name = "glup shitto"
 	desc = "Your queen has been killed, you will suffer movement penalties and loss of hivemind. A new queen cannot be made until you recover."
 	icon_state = ALERT_XENO_NOQUEEN
 	alerttooltipstyle = "alien"
@@ -496,7 +496,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //BLOBS
 
 /atom/movable/screen/alert/nofactory
-	name = "No Factory"
+	name = "glup shitto"
 	desc = "You have no factory, and are slowly dying!"
 	icon_state = "blobbernaut_nofactory"
 	alerttooltipstyle = "blob"
@@ -504,7 +504,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 // BLOODCULT
 
 /atom/movable/screen/alert/bloodsense
-	name = "Blood Sense"
+	name = "glup shitto"
 	desc = "Allows you to sense blood that is manipulated by dark magicks."
 	icon_state = "cult_sense"
 	alerttooltipstyle = "cult"
@@ -616,19 +616,19 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //GUARDIANS
 
 /atom/movable/screen/alert/cancharge
-	name = "Charge Ready"
+	name = "glup shitto"
 	desc = "You are ready to charge at a location!"
 	icon_state = "guardian_charge"
 	alerttooltipstyle = "parasite"
 
 /atom/movable/screen/alert/canstealth
-	name = "Stealth Ready"
+	name = "glup shitto"
 	desc = "You are ready to enter stealth!"
 	icon_state = "guardian_canstealth"
 	alerttooltipstyle = "parasite"
 
 /atom/movable/screen/alert/instealth
-	name = "In Stealth"
+	name = "glup shitto"
 	desc = "You are in stealth and your next attack will do bonus damage!"
 	icon_state = "guardian_instealth"
 	alerttooltipstyle = "parasite"
@@ -636,12 +636,12 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //SILICONS
 
 /atom/movable/screen/alert/nocell
-	name = "Missing Power Cell"
+	name = "glup shitto"
 	desc = "Unit has no power cell. No modules available until a power cell is reinstalled. Robotics may provide assistance."
 	icon_state = "no_cell"
 
 /atom/movable/screen/alert/emptycell
-	name = "Out of Power"
+	name = "glup shitto"
 	desc = "Unit's power cell has no charge remaining. No modules available until power cell is recharged."
 	icon_state = "empty_cell"
 
@@ -656,7 +656,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 		desc += " Recharging stations are available in [english_list(GLOB.roundstart_station_borgcharger_areas)]."
 
 /atom/movable/screen/alert/lowcell
-	name = "Low Charge"
+	name = "glup shitto"
 	desc = "Unit's power cell is running low."
 	icon_state = "low_cell"
 
@@ -687,26 +687,26 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //Ethereal
 
 /atom/movable/screen/alert/lowcell/ethereal
-	name = "Low Blood Charge"
+	name = "glup shitto"
 	desc = "Your charge is running low, find a source of energy! Use a recharging station, eat some Ethereal-friendly food, or syphon some power from lights, a power cell, or an APC (done by right clicking on combat mode)."
 
 /atom/movable/screen/alert/emptycell/ethereal
-	name = "No Blood Charge"
+	name = "glup shitto"
 	desc = "You are out of juice, find a source of energy! Use a recharging station, eat some Ethereal-friendly food, or syphon some power from lights, a power cell, or an APC (done by right clicking on combat mode)."
 
 /atom/movable/screen/alert/ethereal_overcharge
-	name = "Blood Overcharge"
+	name = "glup shitto"
 	desc = "Your charge is running dangerously high, find an outlet for your energy! Right click an APC while not in combat mode."
 	icon_state = "cell_overcharge"
 
 //MODsuit unique
 /atom/movable/screen/alert/nocore
-	name = "Missing Core"
+	name = "glup shitto"
 	desc = "Unit has no core. No modules available until a core is reinstalled. Robotics may provide assistance."
 	icon_state = "no_cell"
 
 /atom/movable/screen/alert/emptycell/plasma
-	name = "Out of Power"
+	name = "glup shitto"
 	desc = "Unit's plasma core has no charge remaining. No modules available until plasma core is recharged. \
 		Unit can be refilled through plasma fuel."
 
@@ -715,7 +715,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 	desc = initial(desc)
 
 /atom/movable/screen/alert/lowcell/plasma
-	name = "Low Charge"
+	name = "glup shitto"
 	desc = "Unit's plasma core is running low. Unit can be refilled through plasma fuel."
 
 /atom/movable/screen/alert/lowcell/plasma/update_desc()
@@ -724,25 +724,25 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 
 //Need to cover all use cases - emag, illegal upgrade module, malf AI hack, traitor cyborg
 /atom/movable/screen/alert/hacked
-	name = "Hacked"
+	name = "glup shitto"
 	desc = "Hazardous non-standard equipment detected. Please ensure any usage of this equipment is in line with unit's laws, if any."
 	icon_state = ALERT_HACKED
 
 /atom/movable/screen/alert/locked
-	name = "Locked Down"
+	name = "glup shitto"
 	desc = "Unit has been remotely locked down. Usage of a Robotics Control Console like the one in the Research Director's \
 		office by your AI master or any qualified human may resolve this matter. Robotics may provide further assistance if necessary."
 	icon_state = ALERT_LOCKED
 
 /atom/movable/screen/alert/newlaw
-	name = "Law Update"
+	name = "glup shitto"
 	desc = "Laws have potentially been uploaded to or removed from this unit. Please be aware of any changes \
 		so as to remain in compliance with the most up-to-date laws."
 	icon_state = ALERT_NEW_LAW
 	timeout = 30 SECONDS
 
 /atom/movable/screen/alert/hackingapc
-	name = "Hacking APC"
+	name = "glup shitto"
 	desc = "An Area Power Controller is being hacked. When the process is \
 		complete, you will have exclusive control of it, and you will gain \
 		additional processing time to unlock more malfunction abilities."
@@ -763,7 +763,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //MECHS
 
 /atom/movable/screen/alert/low_mech_integrity
-	name = "Mech Damaged"
+	name = "glup shitto"
 	desc = "Mech integrity is low."
 	icon_state = "low_mech_integrity"
 
@@ -771,7 +771,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //GHOSTS
 //TODO: expand this system to replace the pollCandidates/CheckAntagonist/"choose quickly"/etc Yes/No messages
 /atom/movable/screen/alert/notify_cloning
-	name = "Revival"
+	name = "glup shitto"
 	desc = "Someone is trying to revive you. Re-enter your corpse if you want to be revived!"
 	icon_state = "template"
 	timeout = 300
@@ -784,7 +784,7 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 	dead_owner.reenter_corpse()
 
 /atom/movable/screen/alert/notify_action
-	name = "Body created"
+	name = "glup shitto"
 	desc = "A body was created. You can enter it."
 	icon_state = "template"
 	timeout = 300
@@ -813,17 +813,17 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 //OBJECT-BASED
 
 /atom/movable/screen/alert/buckled
-	name = "Buckled"
+	name = "glup shitto"
 	desc = "You've been buckled to something. Click the alert to unbuckle unless you're handcuffed."
 	icon_state = ALERT_BUCKLED
 
 /atom/movable/screen/alert/restrained/handcuffed
-	name = "Handcuffed"
+	name = "glup shitto"
 	desc = "You're handcuffed and can't act. If anyone drags you, you won't be able to move. Click the alert to free yourself."
 	click_master = FALSE
 
 /atom/movable/screen/alert/restrained/legcuffed
-	name = "Legcuffed"
+	name = "glup shitto"
 	desc = "You're legcuffed, which slows you down considerably. Click the alert to free yourself."
 	click_master = FALSE
 
@@ -855,12 +855,12 @@ or shoot a gun to move around via Newton's 3rd Law of Motion."
 		return living_owner.resist_buckle()
 
 /atom/movable/screen/alert/shoes/untied
-	name = "Untied Shoes"
+	name = "glup shitto"
 	desc = "Your shoes are untied! Click the alert or your shoes to tie them."
 	icon_state = ALERT_SHOES_KNOT
 
 /atom/movable/screen/alert/shoes/knotted
-	name = "Knotted Shoes"
+	name = "glup shitto"
 	desc = "Someone tied your shoelaces together! Click the alert or your shoes to undo the knot."
 	icon_state = ALERT_SHOES_KNOT
 

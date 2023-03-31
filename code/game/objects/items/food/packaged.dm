@@ -2,7 +2,7 @@
 
 // Cans
 /obj/item/food/canned
-	name = "Canned Air"
+	name = "glup shitto"
 	desc = "If you ever wondered where air came from..."
 	food_reagents = list(
 		/datum/reagent/oxygen = 6,
@@ -36,7 +36,7 @@
 	return ..()
 
 /obj/item/food/canned/beans
-	name = "tin of beans"
+	name = "glup shitto"
 	desc = "Musical fruit in a slightly less musical container."
 	icon_state = "beans"
 	trash_type = /obj/item/trash/can/food/beans
@@ -49,7 +49,7 @@
 	foodtypes = VEGETABLES
 
 /obj/item/food/canned/peaches
-	name = "canned peaches"
+	name = "glup shitto"
 	desc = "Just a nice can of ripe peaches swimming in their own juices."
 	icon_state = "peachcan"
 	trash_type = /obj/item/trash/can/food/peaches
@@ -62,7 +62,7 @@
 	foodtypes = FRUIT | SUGAR
 
 /obj/item/food/canned/peaches/maint
-	name = "Maintenance Peaches"
+	name = "glup shitto"
 	desc = "I have a mouth and I must eat."
 	icon_state = "peachcanmaint"
 	trash_type = /obj/item/trash/can/food/peaches/maint
@@ -70,7 +70,7 @@
 	venue_value = FOOD_PRICE_EXOTIC
 
 /obj/item/food/canned/tomatoes
-	name = "canned San Marzano tomatoes"
+	name = "glup shitto"
 	desc = "A can of premium San Marzano tomatoes, from the hills of Southern Italy."
 	icon_state = "tomatoescan"
 	trash_type = /obj/item/trash/can/food/tomatoes
@@ -82,7 +82,7 @@
 	foodtypes = VEGETABLES //fuck you, real life!
 
 /obj/item/food/canned/pine_nuts
-	name = "canned pine nuts"
+	name = "glup shitto"
 	desc = "A small can of pine nuts. Can be eaten on their own, if you're into that."
 	icon_state = "pinenutscan"
 	trash_type = /obj/item/trash/can/food/pine_nuts
@@ -92,7 +92,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/canned/envirochow
-	name = "dog eat dog envirochow"
+	name = "glup shitto"
 	desc = "The first pet food product that is made fully sustainable by employing ancient British animal husbandry techniques."
 	icon_state = "envirochow"
 	trash_type = /obj/item/trash/can/food/envirochow
@@ -148,7 +148,7 @@
 
 // DONK DINNER: THE INNOVATIVE WAY TO GET YOUR DAILY RECOMMENDED ALLOWANCE OF SALT... AND THEN SOME!
 /obj/item/food/ready_donk
-	name = "\improper Ready-Donk: Bachelor Chow"
+	name = "glup shitto"
 	desc = "A quick Donk-dinner: now with flavour!"
 	icon_state = "ready_donk"
 	trash_type = /obj/item/trash/ready_donk
@@ -176,7 +176,7 @@
 	return .
 
 /obj/item/food/ready_donk/warm
-	name = "warm Ready-Donk: Bachelor Chow"
+	name = "glup shitto"
 	desc = "A quick Donk-dinner, now with flavour! And it's even hot!"
 	icon_state = "ready_donk_warm"
 	food_reagents = list(
@@ -189,7 +189,7 @@
 	warm_type = /obj/item/food/badrecipe
 
 /obj/item/food/ready_donk/mac_n_cheese
-	name = "\improper Ready-Donk: Donk-a-Roni"
+	name = "glup shitto"
 	desc = "Neon-orange mac n' cheese in seconds!"
 	tastes = list("cheesy pasta" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | JUNKFOOD
@@ -197,14 +197,14 @@
 	warm_type = /obj/item/food/ready_donk/warm/mac_n_cheese
 
 /obj/item/food/ready_donk/warm/mac_n_cheese
-	name = "warm Ready-Donk: Donk-a-Roni"
+	name = "glup shitto"
 	desc = "Neon-orange mac n' cheese, ready to eat!"
 	icon_state = "ready_donk_warm_mac"
 	tastes = list("cheesy pasta" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | JUNKFOOD
 
 /obj/item/food/ready_donk/donkhiladas
-	name = "\improper Ready-Donk: Donkhiladas"
+	name = "glup shitto"
 	desc = "Donk Co's signature Donkhiladas with Donk sauce, for an 'authentic' taste of Mexico."
 	tastes = list("enchiladas" = 2, "laziness" = 1)
 	foodtypes = GRAIN | DAIRY | MEAT | VEGETABLES | JUNKFOOD
@@ -212,7 +212,7 @@
 	warm_type = /obj/item/food/ready_donk/warm/donkhiladas
 
 /obj/item/food/ready_donk/warm/donkhiladas
-	name = "warm Ready-Donk: Donkhiladas"
+	name = "glup shitto"
 	desc = "Donk Co's signature Donkhiladas with Donk sauce, served as hot as the Mexican sun."
 	icon_state = "ready_donk_warm_mex"
 	tastes = list("enchiladas" = 2, "laziness" = 1)
@@ -221,7 +221,7 @@
 
 // Rations
 /obj/item/food/rationpack
-	name = "ration pack"
+	name = "glup shitto"
 	desc = "A square bar that sadly <i>looks</i> like chocolate, packaged in a nondescript grey wrapper. Has saved soldiers' lives before - usually by stopping bullets."
 	icon_state = "rationpack"
 	bite_consumption = 3

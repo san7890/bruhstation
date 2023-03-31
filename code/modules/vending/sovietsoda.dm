@@ -1,5 +1,5 @@
 /obj/machinery/vending/sovietsoda
-	name = "\improper BODA"
+	name = "glup shitto"
 	desc = "Old sweet water vending machine."
 	icon_state = "sovietsoda"
 	panel_type = "panel8"

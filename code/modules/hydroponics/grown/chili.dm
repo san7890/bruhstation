@@ -1,6 +1,6 @@
 // Chili
 /obj/item/seeds/chili
-	name = "pack of chili seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into chili plants. HOT! HOT! HOT!"
 	icon_state = "seed-chili"
 	species = "chili"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/chili
 	seed = /obj/item/seeds/chili
-	name = "chili"
+	name = "glup shitto"
 	desc = "It's spicy! Wait... IT'S BURNING ME!!"
 	icon_state = "chilipepper"
 	bite_consumption_mod = 2
@@ -30,7 +30,7 @@
 
 // Ice Chili
 /obj/item/seeds/chili/ice
-	name = "pack of chilly pepper seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into chilly pepper plants."
 	icon_state = "seed-icepepper"
 	species = "chiliice"
@@ -47,7 +47,7 @@
 
 /obj/item/food/grown/icepepper
 	seed = /obj/item/seeds/chili/ice
-	name = "chilly pepper"
+	name = "glup shitto"
 	desc = "It's a mutant strain of chili."
 	icon_state = "icepepper"
 	bite_consumption_mod = 5
@@ -56,7 +56,7 @@
 
 // Ghost Chili
 /obj/item/seeds/chili/ghost
-	name = "pack of ghost chili seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into a chili said to be the hottest in the galaxy."
 	icon_state = "seed-chilighost"
 	species = "chilighost"
@@ -74,7 +74,7 @@
 
 /obj/item/food/grown/ghost_chili
 	seed = /obj/item/seeds/chili/ghost
-	name = "ghost chili"
+	name = "glup shitto"
 	desc = "It seems to be vibrating gently."
 	icon_state = "ghostchilipepper"
 	bite_consumption_mod = 5
@@ -83,7 +83,7 @@
 
 // Bell Pepper
 /obj/item/seeds/chili/bell_pepper
-	name = "pack of bell pepper seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into bell pepper plants. MILD! MILD! MILD!"
 	icon_state = "seed-bell-pepper"
 	species = "bellpepper"
@@ -100,7 +100,7 @@
 
 /obj/item/food/grown/bell_pepper
 	seed = /obj/item/seeds/chili/bell_pepper
-	name = "bell pepper"
+	name = "glup shitto"
 	desc = "A big mild pepper that's good for many things."
 	icon_state = "bell_pepper"
 	foodtypes = FRUIT

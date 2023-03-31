@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(job)
-	name = "Jobs"
+	name = "glup shitto"
 	init_order = INIT_ORDER_JOBS
 	flags = SS_NO_FIRE
 
@@ -983,7 +983,7 @@ SUBSYSTEM_DEF(job)
 	)
 
 /obj/item/paper/fluff/spare_id_safe_code
-	name = "Nanotrasen-Approved Spare ID Safe Code"
+	name = "glup shitto"
 	desc = "Proof that you have been approved for Captaincy, with all its glory and all its horror."
 
 /obj/item/paper/fluff/spare_id_safe_code/Initialize(mapload)
@@ -992,7 +992,7 @@ SUBSYSTEM_DEF(job)
 	return ..()
 
 /obj/item/paper/fluff/emergency_spare_id_safe_code
-	name = "Emergency Spare ID Safe Code Requisition"
+	name = "glup shitto"
 	desc = "Proof that nobody has been approved for Captaincy. A skeleton key for a skeleton shift."
 
 /obj/item/paper/fluff/emergency_spare_id_safe_code/Initialize(mapload)

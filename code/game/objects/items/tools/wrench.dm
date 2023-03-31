@@ -1,5 +1,5 @@
 /obj/item/wrench
-	name = "wrench"
+	name = "glup shitto"
 	desc = "A wrench with common uses. Can be found in your hand."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "wrench"
@@ -38,7 +38,7 @@
 	return BRUTELOSS
 
 /obj/item/wrench/abductor
-	name = "alien wrench"
+	name = "glup shitto"
 	desc = "A polarized wrench. It causes anything placed between the jaws to turn."
 	icon = 'icons/obj/abductor.dmi'
 	belt_icon_state = "wrench_alien"
@@ -48,7 +48,7 @@
 
 
 /obj/item/wrench/medical
-	name = "medical wrench"
+	name = "glup shitto"
 	desc = "A medical wrench with common(medical?) uses. Can be found in your hand."
 	icon_state = "wrench_medical"
 	inhand_icon_state = "wrench_medical"
@@ -84,14 +84,14 @@
 	return OXYLOSS
 
 /obj/item/wrench/cyborg
-	name = "hydraulic wrench"
+	name = "glup shitto"
 	desc = "An advanced robotic wrench, powered by internal hydraulics. Twice as fast as the handheld version."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "wrench_cyborg"
 	toolspeed = 0.5
 
 /obj/item/wrench/combat
-	name = "combat wrench"
+	name = "glup shitto"
 	desc = "It's like a normal wrench but edgier. Can be found on the battlefield."
 	icon_state = "wrench_combat"
 	inhand_icon_state = "wrench_combat"
@@ -128,7 +128,7 @@
 	return COMPONENT_NO_DEFAULT_MESSAGE
 
 /obj/item/wrench/bolter
-	name = "bolter wrench"
+	name = "glup shitto"
 	desc = "A wrench designed to grab into airlock's bolting system and raise it regardless of the airlock's power status."
 	icon_state = "bolter_wrench"
 	inhand_icon_state = "bolter_wrench"

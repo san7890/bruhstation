@@ -1,6 +1,6 @@
 
 /obj/structure/window/reinforced/fulltile/indestructible
-	name = "robust window"
+	name = "glup shitto"
 	flags_1 = PREVENT_CLICK_UNDER_1 | NODECONSTRUCT_1
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
@@ -19,7 +19,7 @@
 	spawn_list = list(/obj/structure/grille/indestructible, /obj/structure/window/reinforced/fulltile/indestructible)
 
 /obj/structure/barricade/security/murderdome
-	name = "respawnable barrier"
+	name = "glup shitto"
 	desc = "A barrier. Provides cover in firefights."
 	deploy_time = 0
 	deploy_message = 0
@@ -28,7 +28,7 @@
 	new /obj/effect/murderdome/dead_barricade(get_turf(src))
 
 /obj/effect/murderdome/dead_barricade
-	name = "dead barrier"
+	name = "glup shitto"
 	desc = "It provided cover in fire fights. And now it's gone."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "barrier0"

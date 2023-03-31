@@ -10,7 +10,7 @@
  *Spraying this on lockers allows you to create eigenlinked lockers - see the eigenstate subsystem for using this to create your own links
 */
 /datum/reagent/eigenstate
-	name = "Eigenstasium"
+	name = "glup shitto"
 	description = "A strange mixture formed from a controlled reaction of bluespace with plasma, that causes localised eigenstate fluxuations within the patient"
 	taste_description = "wiggly cosmic dust."
 	color = "#5020F4"

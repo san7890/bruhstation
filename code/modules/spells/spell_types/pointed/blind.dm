@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/blind
-	name = "Blind"
+	name = "glup shitto"
 	desc = "This spell temporarily blinds a single target."
 	button_icon_state = "blind"
 	ranged_mousepointer = 'icons/effects/mouse_pointers/blind_target.dmi'

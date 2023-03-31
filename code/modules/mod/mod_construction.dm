@@ -4,7 +4,7 @@
 	inhand_icon_state = "rack_parts"
 
 /obj/item/mod/construction/helmet
-	name = "MOD helmet"
+	name = "glup shitto"
 	icon_state = "helmet"
 
 /obj/item/mod/construction/helmet/examine(mob/user)
@@ -12,7 +12,7 @@
 	. += span_notice("You could insert it into a <b>MOD shell</b>...")
 
 /obj/item/mod/construction/chestplate
-	name = "MOD chestplate"
+	name = "glup shitto"
 	icon_state = "chestplate"
 
 /obj/item/mod/construction/chestplate/examine(mob/user)
@@ -20,7 +20,7 @@
 	. += span_notice("You could insert it into a <b>MOD shell</b>...")
 
 /obj/item/mod/construction/gauntlets
-	name = "MOD gauntlets"
+	name = "glup shitto"
 	icon_state = "gauntlets"
 
 /obj/item/mod/construction/gauntlets/examine(mob/user)
@@ -28,7 +28,7 @@
 	. += span_notice("You could insert these into a <b>MOD shell</b>...")
 
 /obj/item/mod/construction/boots
-	name = "MOD boots"
+	name = "glup shitto"
 	icon_state = "boots"
 
 /obj/item/mod/construction/boots/examine(mob/user)
@@ -36,7 +36,7 @@
 	. += span_notice("You could insert these into a <b>MOD shell</b>...")
 
 /obj/item/mod/construction/broken_core
-	name = "broken MOD core"
+	name = "glup shitto"
 	icon_state = "mod-core"
 	desc = "An internal power source for a Modular Outerwear Device. You don't seem to be able to source any power from this one, though."
 
@@ -52,7 +52,7 @@
 	qdel(src)
 
 /obj/item/mod/construction/plating
-	name = "MOD external plating"
+	name = "glup shitto"
 	desc = "External plating used to finish a MOD control unit."
 	icon_state = "standard-plating"
 	var/datum/mod_theme/theme = /datum/mod_theme
@@ -60,7 +60,7 @@
 /obj/item/mod/construction/plating/Initialize(mapload)
 	. = ..()
 	var/datum/mod_theme/used_theme = GLOB.mod_themes[theme]
-	name = "MOD [used_theme.name] external plating"
+	name = "glup shitto"
 	desc = "[desc] [used_theme.desc]"
 	icon_state = "[used_theme.default_skin]-plating"
 
@@ -90,7 +90,7 @@
 #define SCREWED_ASSEMBLY_STEP "screwed_assembly"
 
 /obj/item/mod/construction/shell
-	name = "MOD shell"
+	name = "glup shitto"
 	icon_state = "mod-construction_start"
 	desc = "A MOD shell."
 	var/obj/item/core

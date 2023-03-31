@@ -1,6 +1,6 @@
 /obj/item/book/granter/martial/carp
 	martial = /datum/martial_art/the_sleeping_carp
-	name = "mysterious scroll"
+	name = "glup shitto"
 	martial_name = "sleeping carp"
 	desc = "A scroll filled with strange markings. It seems to be drawings of some sort of martial art."
 	greet = "<span class='sciradio'>You have learned the ancient martial art of the Sleeping Carp! Your hand-to-hand combat has become much more effective, and you are now able to deflect any projectiles \

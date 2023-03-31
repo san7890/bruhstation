@@ -1,15 +1,15 @@
 /obj/effect/turf_decal/sand
-	name = "sandy floor"
+	name = "glup shitto"
 	icon_state = "sandyfloor"
 
 /obj/effect/turf_decal/sand/volcanic
-	name = "ashy floor"
+	name = "glup shitto"
 	icon_state = "ashyfloor"
 
 /obj/effect/turf_decal/sand/plating
-	name = "sandy plating"
+	name = "glup shitto"
 	icon_state = "sandyplating"
 
 /obj/effect/turf_decal/sand/plating/volcanic
-	name = "ashy plating"
+	name = "glup shitto"
 	icon_state = "ashyplating"

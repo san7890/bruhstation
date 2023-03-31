@@ -40,7 +40,7 @@
 	rpg_title = "Gardener"
 
 /datum/outfit/job/botanist
-	name = "Botanist"
+	name = "glup shitto"
 	jobtype = /datum/job/botanist
 
 	id_trim = /datum/id_trim/job/botanist

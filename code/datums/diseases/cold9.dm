@@ -1,5 +1,5 @@
 /datum/disease/cold9
-	name = "The Cold"
+	name = "glup shitto"
 	max_stages = 3
 	spread_text = "On contact"
 	spread_flags = DISEASE_SPREAD_BLOOD | DISEASE_SPREAD_CONTACT_SKIN | DISEASE_SPREAD_CONTACT_FLUIDS

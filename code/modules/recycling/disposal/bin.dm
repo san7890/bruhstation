@@ -313,7 +313,7 @@
 // Can hold items and human size things, no other draggables
 
 /obj/machinery/disposal/bin
-	name = "disposal unit"
+	name = "glup shitto"
 	desc = "A pneumatic waste disposal unit."
 	icon_state = "disposal"
 
@@ -491,7 +491,7 @@
 //Delivery Chute
 
 /obj/machinery/disposal/delivery_chute
-	name = "delivery chute"
+	name = "glup shitto"
 	desc = "A chute for big and small packages alike!"
 	density = TRUE
 	icon_state = "intake"

@@ -1,5 +1,5 @@
 /obj/effect/spawner/random/aimodule
-	name = "AI module spawner"
+	name = "glup shitto"
 	desc = "State laws human."
 	icon_state = "circuit"
 	spawn_loot_double = FALSE
@@ -8,7 +8,7 @@
 
 /// AI uploads have the ai_module/reset , ai_module/supplied/freeform , ai_module/reset/purge , and ai_module/core/full/asimov directly mapped in
 /obj/effect/spawner/random/aimodule/harmless
-	name = "harmless AI module spawner"
+	name = "glup shitto"
 	loot = list( // These shouldn't allow the AI to start butchering people
 		/obj/item/ai_module/core/full/asimovpp,
 		/obj/item/ai_module/core/full/hippocratic,
@@ -26,7 +26,7 @@
 	)
 
 /obj/effect/spawner/random/aimodule/neutral
-	name = "neutral AI module spawner"
+	name = "glup shitto"
 	loot = list( // These shouldn't allow the AI to start butchering people without reason
 		/obj/item/ai_module/core/full/reporter,
 		/obj/item/ai_module/core/full/hulkamania,
@@ -41,7 +41,7 @@
 	)
 
 /obj/effect/spawner/random/aimodule/harmful
-	name = "harmful AI module spawner"
+	name = "glup shitto"
 	loot = list( // These will get the shuttle called
 		/obj/item/ai_module/core/full/antimov,
 		/obj/item/ai_module/core/full/balance,

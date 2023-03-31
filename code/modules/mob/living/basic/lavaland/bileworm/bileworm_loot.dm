@@ -2,7 +2,7 @@
 //skin
 
 /obj/item/stack/sheet/animalhide/bileworm
-	name = "bileworm skin"
+	name = "glup shitto"
 	desc = "The slushy, squishy and slightly shiny skin of a postmortem bileworm."
 	singular_name = "bileworm skin piece"
 	icon = 'icons/mob/simple/lavaland/bileworm.dmi'
@@ -13,7 +13,7 @@
 //trophy
 
 /obj/item/crusher_trophy/bileworm_spewlet
-	name = "bileworm spewlet"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/lavaland/bileworm.dmi'
 	icon_state = "bileworm_spewlet"
 	desc = "A baby bileworm. Suitable as a trophy for a kinetic crusher."

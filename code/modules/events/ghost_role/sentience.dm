@@ -22,7 +22,7 @@ GLOBAL_LIST_INIT(high_priority_sentience, typecacheof(list(
 )))
 
 /datum/round_event_control/sentience
-	name = "Random Human-level Intelligence"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/sentience
 	weight = 10
 	category = EVENT_CATEGORY_FRIENDLY
@@ -121,7 +121,7 @@ GLOBAL_LIST_INIT(high_priority_sentience, typecacheof(list(
 		low += checked_mob
 
 /datum/round_event_control/sentience/all
-	name = "Station-wide Human-level Intelligence"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/sentience/all
 	weight = 0
 	category = EVENT_CATEGORY_FRIENDLY

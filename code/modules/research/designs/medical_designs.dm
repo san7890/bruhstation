@@ -3,7 +3,7 @@
 /////////////////////////////////////////
 
 /datum/design/healthanalyzer
-	name = "Health Analyzer"
+	name = "glup shitto"
 	id = "healthanalyzer"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 50)
@@ -14,7 +14,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/bluespacebeaker
-	name = "Bluespace Beaker"
+	name = "glup shitto"
 	desc = "A bluespace beaker, powered by experimental bluespace technology and Element Cuban combined with the Compound Pete. Can hold up to 300 units."
 	id = "bluespacebeaker"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -26,7 +26,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/noreactbeaker
-	name = "Cryostasis Beaker"
+	name = "glup shitto"
 	desc = "A cryostasis beaker that allows for chemical storage without reactions. Can hold up to 50 units."
 	id = "splitbeaker"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -38,7 +38,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/xlarge_beaker
-	name = "X-large Beaker"
+	name = "glup shitto"
 	id = "xlarge_beaker"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 2500, /datum/material/plastic = 3000)
@@ -49,7 +49,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/meta_beaker
-	name = "Metamaterial Beaker"
+	name = "glup shitto"
 	id = "meta_beaker"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 2500, /datum/material/plastic = 3000, /datum/material/gold = 1000, /datum/material/titanium = 1000)
@@ -60,7 +60,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/ph_meter
-	name = "Chemical Analyzer"
+	name = "glup shitto"
 	id = "ph_meter"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 2500, /datum/material/gold = 1000, /datum/material/titanium = 1000)
@@ -71,7 +71,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/bluespacesyringe
-	name = "Bluespace Syringe"
+	name = "glup shitto"
 	desc = "An advanced syringe that can hold 60 units of chemicals"
 	id = "bluespacesyringe"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -83,7 +83,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/dna_disk
-	name = "Genetic Data Disk"
+	name = "glup shitto"
 	desc = "Produce additional disks for storing genetic data."
 	id = "dna_disk"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -95,7 +95,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/piercesyringe
-	name = "Piercing Syringe"
+	name = "glup shitto"
 	desc = "A diamond-tipped syringe that pierces armor when launched at high velocity. It can hold up to 10 units."
 	id = "piercesyringe"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -107,7 +107,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/bluespacebodybag
-	name = "Bluespace Body Bag"
+	name = "glup shitto"
 	desc = "A bluespace body bag, powered by experimental bluespace technology. It can hold loads of bodies and the largest of creatures."
 	id = "bluespacebodybag"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -119,7 +119,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/plasmarefiller
-	name = "Plasmaman Jumpsuit Refill"
+	name = "glup shitto"
 	desc = "A refill pack for the auto-extinguisher on Plasma-man suits."
 	id = "plasmarefiller" //Why did this have no plasmatech
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -131,7 +131,7 @@
 	departmental_flags = ALL
 
 /datum/design/crewpinpointer
-	name = "Crew Pinpointer"
+	name = "glup shitto"
 	desc = "Allows tracking of someone's location if their suit sensors are turned to tracking beacon."
 	id = "crewpinpointer"
 	build_type = PROTOLATHE
@@ -143,7 +143,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/defibrillator
-	name = "Defibrillator"
+	name = "glup shitto"
 	desc = "A portable defibrillator, used for resuscitating recently deceased crew."
 	id = "defibrillator"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -155,7 +155,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/defibrillator_mount
-	name = "Defibrillator Wall Mount"
+	name = "glup shitto"
 	desc = "A mounted frame for holding defibrillators, providing easy security."
 	id = "defibmountdefault"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -167,7 +167,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/defibrillator_mount_charging
-	name = "PENLITE Defibrillator Wall Mount"
+	name = "glup shitto"
 	desc = "An all-in-one mounted frame for holding defibrillators, complete with ID-locked clamps and recharging cables. The PENLITE version also allows for slow recharging of the defib's battery."
 	id = "defibmount"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -179,7 +179,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/defibrillator_compact
-	name = "Compact Defibrillator"
+	name = "glup shitto"
 	desc = "A compact defibrillator that can be worn on a belt."
 	id = "defibrillator_compact"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -191,7 +191,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/genescanner
-	name = "Genetic Sequence Analyzer"
+	name = "glup shitto"
 	desc = "A handy hand-held analyzers for quickly determining mutations and collecting the full sequence."
 	id = "genescanner"
 	build_path = /obj/item/sequence_scanner
@@ -203,7 +203,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/healthanalyzer_advanced
-	name = "Advanced Health Analyzer"
+	name = "glup shitto"
 	desc = "A hand-held body scanner able to distinguish vital signs of the subject with high accuracy."
 	id = "healthanalyzer_advanced"
 	build_path = /obj/item/healthanalyzer/advanced
@@ -215,7 +215,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/medigel
-	name = "Medical Gel"
+	name = "glup shitto"
 	desc = "A medical gel applicator bottle, designed for precision application, with an unscrewable cap."
 	id = "medigel"
 	build_path = /obj/item/reagent_containers/medigel
@@ -227,7 +227,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/surgical_drapes
-	name = "Surgical Drapes"
+	name = "glup shitto"
 	id = "surgical_drapes"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/plastic = 2000)
@@ -238,7 +238,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/laserscalpel
-	name = "Laser Scalpel"
+	name = "glup shitto"
 	desc = "A laser scalpel used for precise cutting."
 	id = "laserscalpel"
 	build_path = /obj/item/scalpel/advanced
@@ -250,7 +250,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/mechanicalpinches
-	name = "Mechanical Pinches"
+	name = "glup shitto"
 	desc = "These pinches can be either used as retractor or hemostat."
 	id = "mechanicalpinches"
 	build_path = /obj/item/retractor/advanced
@@ -262,7 +262,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/searingtool
-	name = "Searing Tool"
+	name = "glup shitto"
 	desc = "Used to mend tissue together. Or drill tissue away."
 	id = "searingtool"
 	build_path = /obj/item/cautery/advanced
@@ -274,7 +274,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/medical_spray_bottle
-	name = "Medical Spray Bottle"
+	name = "glup shitto"
 	desc = "A traditional spray bottle used to generate a fine mist. Not to be confused with a medspray."
 	id = "med_spray_bottle"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -286,7 +286,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/chem_pack
-	name = "Intravenous Medicine Bag"
+	name = "glup shitto"
 	desc = "A plastic pressure bag for IV administration of drugs."
 	id = "chem_pack"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -299,7 +299,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/blood_pack
-	name = "Blood Pack"
+	name = "glup shitto"
 	desc = "Is used to contain blood used for transfusion. Must be attached to an IV drip."
 	id = "blood_pack"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -312,7 +312,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/portable_chem_mixer
-	name = "Portable Chemical Mixer"
+	name = "glup shitto"
 	desc = "A portable device that dispenses and mixes chemicals. Reagents have to be supplied with beakers."
 	id = "portable_chem_mixer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -329,7 +329,7 @@
 /////////////////////////////////////////
 
 /datum/design/cyberimp_welding
-	name = "Welding Shield Eyes"
+	name = "glup shitto"
 	desc = "These reactive micro-shields will protect you from welders and flashes without obscuring your vision."
 	id = "ci-welding"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -342,7 +342,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_gloweyes
-	name = "Luminescent Eyes"
+	name = "glup shitto"
 	desc = "A pair of cybernetic eyes that can emit multicolored light"
 	id = "ci-gloweyes"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -355,7 +355,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_breather
-	name = "Breathing Tube Implant"
+	name = "glup shitto"
 	desc = "This simple implant adds an internals connector to your back, allowing you to use internals without a mask and protecting you from being choked."
 	id = "ci-breather"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -368,7 +368,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_surgical
-	name = "Surgical Arm Implant"
+	name = "glup shitto"
 	desc = "A set of surgical tools hidden behind a concealed panel on the user's arm."
 	id = "ci-surgery"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -381,7 +381,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_toolset
-	name = "Toolset Arm Implant"
+	name = "glup shitto"
 	desc = "A stripped-down version of engineering cyborg toolset, designed to be installed on subject's arm."
 	id = "ci-toolset"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -394,7 +394,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_medical_hud
-	name = "Medical HUD Implant"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will display a medical HUD over everything you see. Wiggle eyes to control."
 	id = "ci-medhud"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -407,7 +407,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_security_hud
-	name = "Security HUD Implant"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will display a security HUD over everything you see. Wiggle eyes to control."
 	id = "ci-sechud"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -420,7 +420,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_diagnostic_hud
-	name = "Diagnostic HUD Implant"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will display a diagnostic HUD over everything you see. Wiggle eyes to control."
 	id = "ci-diaghud"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -433,7 +433,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_xray
-	name = "X-ray Eyes"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will give you X-ray vision. Blinking is futile."
 	id = "ci-xray"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -446,7 +446,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_thermals
-	name = "Thermal Eyes"
+	name = "glup shitto"
 	desc = "These cybernetic eyes will give you Thermal vision. Vertical slit pupil included."
 	id = "ci-thermals"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -459,7 +459,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_antidrop
-	name = "Anti-Drop Implant"
+	name = "glup shitto"
 	desc = "This cybernetic brain implant will allow you to force your hand muscles to contract, preventing item dropping. Twitch ear to toggle."
 	id = "ci-antidrop"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -472,7 +472,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_antistun
-	name = "CNS Rebooter Implant"
+	name = "glup shitto"
 	desc = "This implant will automatically give you back control over your central nervous system, reducing downtime when stunned."
 	id = "ci-antistun"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -485,7 +485,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_nutriment
-	name = "Nutriment Pump Implant"
+	name = "glup shitto"
 	desc = "This implant with synthesize and pump into your bloodstream a small amount of nutriment when you are starving."
 	id = "ci-nutriment"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -498,7 +498,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_nutriment_plus
-	name = "Nutriment Pump Implant PLUS"
+	name = "glup shitto"
 	desc = "This implant with synthesize and pump into your bloodstream a small amount of nutriment when you are hungry."
 	id = "ci-nutrimentplus"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -511,7 +511,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_reviver
-	name = "Reviver Implant"
+	name = "glup shitto"
 	desc = "This implant will attempt to revive you if you lose consciousness. For the faint of heart!"
 	id = "ci-reviver"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -524,7 +524,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cyberimp_thrusters
-	name = "Thrusters Set Implant"
+	name = "glup shitto"
 	desc = "This implant will allow you to use gas from environment or your internals for propulsion in zero-gravity areas."
 	id = "ci-thrusters"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -541,7 +541,7 @@
 /////////////////////////////////////////
 
 /datum/design/implanter
-	name = "Implanter"
+	name = "glup shitto"
 	desc = "A sterile automatic implant injector."
 	id = "implanter"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -553,7 +553,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/implantcase
-	name = "Implant Case"
+	name = "glup shitto"
 	desc = "A glass case for containing an implant."
 	id = "implantcase"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -565,7 +565,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/implant_sadtrombone
-	name = "Sad Trombone Implant Case"
+	name = "glup shitto"
 	desc = "Makes death amusing."
 	id = "implant_trombone"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -577,7 +577,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/implant_chem
-	name = "Chemical Implant Case"
+	name = "glup shitto"
 	desc = "A glass case containing an implant."
 	id = "implant_chem"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -589,7 +589,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY | DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/implant_tracking
-	name = "Tracking Implant Case"
+	name = "glup shitto"
 	desc = "A glass case containing an implant."
 	id = "implant_tracking"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -603,7 +603,7 @@
 //Cybernetic organs
 
 /datum/design/cybernetic_liver
-	name = "Basic Cybernetic Liver"
+	name = "glup shitto"
 	desc = "A basic cybernetic liver."
 	id = "cybernetic_liver"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -616,7 +616,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_liver/tier2
-	name = "Cybernetic Liver"
+	name = "glup shitto"
 	desc = "A cybernetic liver."
 	id = "cybernetic_liver_tier2"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -627,7 +627,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_liver/tier3
-	name = "Upgraded Cybernetic Liver"
+	name = "glup shitto"
 	desc = "An upgraded cybernetic liver."
 	id = "cybernetic_liver_tier3"
 	construction_time = 50
@@ -639,7 +639,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_heart
-	name = "Basic Cybernetic Heart"
+	name = "glup shitto"
 	desc = "A basic cybernetic heart."
 	id = "cybernetic_heart"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -652,7 +652,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_heart/tier2
-	name = "Cybernetic Heart"
+	name = "glup shitto"
 	desc = "A cybernetic heart."
 	id = "cybernetic_heart_tier2"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -663,7 +663,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_heart/tier3
-	name = "Upgraded Cybernetic Heart"
+	name = "glup shitto"
 	desc = "An upgraded cybernetic heart."
 	id = "cybernetic_heart_tier3"
 	construction_time = 50
@@ -675,7 +675,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_lungs
-	name = "Basic Cybernetic Lungs"
+	name = "glup shitto"
 	desc = "A basic pair of cybernetic lungs."
 	id = "cybernetic_lungs"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -688,7 +688,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_lungs/tier2
-	name = "Cybernetic Lungs"
+	name = "glup shitto"
 	desc = "A pair of cybernetic lungs."
 	id = "cybernetic_lungs_tier2"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -699,7 +699,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_lungs/tier3
-	name = "Upgraded Cybernetic Lungs"
+	name = "glup shitto"
 	desc = "A pair of upgraded cybernetic lungs."
 	id = "cybernetic_lungs_tier3"
 	construction_time = 50
@@ -711,7 +711,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_stomach
-	name = "Basic Cybernetic Stomach"
+	name = "glup shitto"
 	desc = "A basic cybernetic stomach."
 	id = "cybernetic_stomach"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -724,7 +724,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_stomach/tier2
-	name = "Cybernetic Stomach"
+	name = "glup shitto"
 	desc = "A cybernetic stomach."
 	id = "cybernetic_stomach_tier2"
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -735,7 +735,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_stomach/tier3
-	name = "Upgraded Cybernetic Stomach"
+	name = "glup shitto"
 	desc = "An upgraded cybernetic stomach."
 	id = "cybernetic_stomach_tier3"
 	construction_time = 50
@@ -747,7 +747,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_ears
-	name = "Basic Cybernetic Ears"
+	name = "glup shitto"
 	desc = "A Basic pair of cybernetic ears."
 	id = "cybernetic_ears"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -760,7 +760,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_ears_u
-	name = "Cybernetic Ears"
+	name = "glup shitto"
 	desc = "A pair of cybernetic ears."
 	id = "cybernetic_ears_u"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -773,7 +773,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_eyes
-	name = "Basic Cybernetic Eyes"
+	name = "glup shitto"
 	desc = "A basic pair of cybernetic eyes."
 	id = "cybernetic_eyes"
 	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
@@ -786,7 +786,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL
 
 /datum/design/cybernetic_eyes/improved
-	name = "Cybernetic Eyes"
+	name = "glup shitto"
 	desc = "A pair of cybernetic eyes."
 	id = "cybernetic_eyes_improved"
 	build_path = /obj/item/organ/internal/eyes/robotic
@@ -800,7 +800,7 @@
 /////////////////////
 
 /datum/design/surgery
-	name = "Surgery Design"
+	name = "glup shitto"
 	desc = "what"
 	id = "surgery_parent"
 	research_icon = 'icons/obj/medical/surgery_ui.dmi'
@@ -808,107 +808,107 @@
 	var/surgery
 
 /datum/design/surgery/lobotomy
-	name = "Lobotomy"
+	name = "glup shitto"
 	desc = "An invasive surgical procedure which guarantees removal of almost all brain traumas, but might cause another permanent trauma in return."
 	id = "surgery_lobotomy"
 	surgery = /datum/surgery/advanced/lobotomy
 	research_icon_state = "surgery_head"
 
 /datum/design/surgery/pacify
-	name = "Pacification"
+	name = "glup shitto"
 	desc = "A surgical procedure which permanently inhibits the aggression center of the brain, making the patient unwilling to cause direct harm."
 	id = "surgery_pacify"
 	surgery = /datum/surgery/advanced/pacify
 	research_icon_state = "surgery_head"
 
 /datum/design/surgery/viral_bonding
-	name = "Viral Bonding"
+	name = "glup shitto"
 	desc = "A surgical procedure that forces a symbiotic relationship between a virus and its host. The patient must be dosed with spaceacillin, virus food, and formaldehyde."
 	id = "surgery_viral_bond"
 	surgery = /datum/surgery/advanced/viral_bonding
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/healing //PLEASE ACCOUNT FOR UNIQUE HEALING BRANCHES IN THE hptech HREF (currently 2 for Brute/Burn; Combo is bonus)
-	name = "Tend Wounds"
+	name = "glup shitto"
 	desc = "An upgraded version of the original surgery."
 	id = "surgery_healing_base" //holder because CI cries otherwise. Not used in techweb unlocks.
 	surgery = /datum/surgery/healing
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/healing/brute_upgrade
-	name = "Tend Wounds (Brute) Upgrade"
+	name = "glup shitto"
 	surgery = /datum/surgery/healing/brute/upgraded
 	id = "surgery_heal_brute_upgrade"
 
 /datum/design/surgery/healing/brute_upgrade_2
-	name = "Tend Wounds (Brute) Upgrade"
+	name = "glup shitto"
 	surgery = /datum/surgery/healing/brute/upgraded/femto
 	id = "surgery_heal_brute_upgrade_femto"
 
 /datum/design/surgery/healing/burn_upgrade
-	name = "Tend Wounds (Burn) Upgrade"
+	name = "glup shitto"
 	surgery = /datum/surgery/healing/burn/upgraded
 	id = "surgery_heal_burn_upgrade"
 
 /datum/design/surgery/healing/burn_upgrade_2
-	name = "Tend Wounds (Burn) Upgrade"
+	name = "glup shitto"
 	surgery = /datum/surgery/healing/burn/upgraded/femto
 	id = "surgery_heal_burn_upgrade_femto"
 
 /datum/design/surgery/healing/combo
-	name = "Tend Wounds (Physical)"
+	name = "glup shitto"
 	desc = "A surgical procedure that repairs both bruises and burns. Repair efficiency is not as high as the individual surgeries but it is faster."
 	surgery = /datum/surgery/healing/combo
 	id = "surgery_heal_combo"
 
 /datum/design/surgery/healing/combo_upgrade
-	name = "Tend Wounds (Physical) Upgrade"
+	name = "glup shitto"
 	surgery = /datum/surgery/healing/combo/upgraded
 	id = "surgery_heal_combo_upgrade"
 
 /datum/design/surgery/healing/combo_upgrade_2
-	name = "Tend Wounds (Physical) Upgrade"
+	name = "glup shitto"
 	desc = "A surgical procedure that repairs both bruises and burns faster than their individual counterparts. It is more effective than both the individual surgeries."
 	surgery = /datum/surgery/healing/combo/upgraded/femto
 	id = "surgery_heal_combo_upgrade_femto"
 
 /datum/design/surgery/brainwashing
-	name = "Brainwashing"
+	name = "glup shitto"
 	desc = "A surgical procedure which directly implants a directive into the patient's brain, making it their absolute priority. It can be cleared using a mindshield implant."
 	id = "surgery_brainwashing"
 	surgery = /datum/surgery/advanced/brainwashing
 	research_icon_state = "surgery_head"
 
 /datum/design/surgery/nerve_splicing
-	name = "Nerve Splicing"
+	name = "glup shitto"
 	desc = "A surgical procedure which splices the patient's nerves, making them more resistant to stuns."
 	id = "surgery_nerve_splice"
 	surgery = /datum/surgery/advanced/bioware/nerve_splicing
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/nerve_grounding
-	name = "Nerve Grounding"
+	name = "glup shitto"
 	desc = "A surgical procedure which makes the patient's nerves act as grounding rods, protecting them from electrical shocks."
 	id = "surgery_nerve_ground"
 	surgery = /datum/surgery/advanced/bioware/nerve_grounding
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/vein_threading
-	name = "Vein Threading"
+	name = "glup shitto"
 	desc = "A surgical procedure which severely reduces the amount of blood lost in case of injury."
 	id = "surgery_vein_thread"
 	surgery = /datum/surgery/advanced/bioware/vein_threading
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/muscled_veins
-	name = "Vein Muscle Membrane"
+	name = "glup shitto"
 	desc = "A surgical procedure which adds a muscled membrane to blood vessels, allowing them to pump blood without a heart."
 	id = "surgery_muscled_veins"
 	surgery = /datum/surgery/advanced/bioware/muscled_veins
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/ligament_hook
-	name = "Ligament Hook"
+	name = "glup shitto"
 	desc = "A surgical procedure which reshapes the connections between torso and limbs, making it so limbs can be attached manually if severed. \
 	However this weakens the connection, making them easier to detach as well."
 	id = "surgery_ligament_hook"
@@ -916,7 +916,7 @@
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/ligament_reinforcement
-	name = "Ligament Reinforcement"
+	name = "glup shitto"
 	desc = "A surgical procedure which adds a protective tissue and bone cage around the connections between the torso and limbs, preventing dismemberment. \
 	However, the nerve connections as a result are more easily interrupted, making it easier to disable limbs with damage."
 	id = "surgery_ligament_reinforcement"
@@ -924,28 +924,28 @@
 	research_icon_state = "surgery_chest"
 
 /datum/design/surgery/cortex_imprint
-	name = "Cortex Imprint"
+	name = "glup shitto"
 	desc = "A surgical procedure which modifies the cerebral cortex into a redundant neural pattern, making the brain able to bypass damage caused by minor brain traumas."
 	id = "surgery_cortex_imprint"
 	surgery = /datum/surgery/advanced/bioware/cortex_imprint
 	research_icon_state = "surgery_head"
 
 /datum/design/surgery/cortex_folding
-	name = "Cortex Folding"
+	name = "glup shitto"
 	desc = "A surgical procedure which modifies the cerebral cortex into a complex fold, giving space to non-standard neural patterns."
 	id = "surgery_cortex_folding"
 	surgery = /datum/surgery/advanced/bioware/cortex_folding
 	research_icon_state = "surgery_head"
 
 /datum/design/surgery/necrotic_revival
-	name = "Necrotic Revival"
+	name = "glup shitto"
 	desc = "An experimental surgical procedure that stimulates the growth of a Romerol tumor inside the patient's brain. Requires zombie powder or rezadone."
 	id = "surgery_zombie"
 	surgery = /datum/surgery/advanced/necrotic_revival
 	research_icon_state = "surgery_head"
 
 /datum/design/surgery/wing_reconstruction
-	name = "Wing Reconstruction"
+	name = "glup shitto"
 	desc = "An experimental surgical procedure that reconstructs the damaged wings of moth people. Requires Synthflesh."
 	id = "surgery_wing_reconstruction"
 	surgery = /datum/surgery/advanced/wing_reconstruction

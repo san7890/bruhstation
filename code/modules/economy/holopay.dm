@@ -1,5 +1,5 @@
 /obj/structure/holopay
-	name = "holographic pay stand"
+	name = "glup shitto"
 	desc = "an unregistered pay stand"
 	icon = 'icons/obj/economy.dmi'
 	icon_state = "card_scanner"

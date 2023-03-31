@@ -7,7 +7,7 @@
 
 //Admin sound emitters with highly customizable functions!
 /obj/effect/sound_emitter
-	name = "sound emitter"
+	name = "glup shitto"
 	desc = "Emits sounds, presumably."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "shield2"

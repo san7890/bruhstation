@@ -1,7 +1,7 @@
 /* This file contains standalone items for debug purposes. */
 
 /obj/item/debug/human_spawner
-	name = "human spawner"
+	name = "glup shitto"
 	desc = "Spawn a human by aiming at a turf and clicking. Use in hand to change type."
 	icon = 'icons/obj/weapons/guns/magic.dmi'
 	icon_state = "nothingwand"
@@ -25,7 +25,7 @@
 	selected_species = GLOB.species_list[choice]
 
 /obj/item/debug/omnitool
-	name = "omnitool"
+	name = "glup shitto"
 	desc = "The original hypertool, born before them all. Use it in hand to unleash its true power."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "hypertool"

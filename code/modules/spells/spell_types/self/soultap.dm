@@ -8,7 +8,7 @@
  * but soul tap requires clothes for mindswap and lichdom takes your soul.
  */
 /datum/action/cooldown/spell/tap
-	name = "Soul Tap"
+	name = "glup shitto"
 	desc = "Fuel your spells using your own soul!"
 	button_icon_state = "soultap"
 

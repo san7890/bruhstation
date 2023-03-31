@@ -1,7 +1,7 @@
 //works similar to the experiment machine (experiment.dm) except it just holds more and more prisoners
 
 /obj/machinery/fugitive_capture
-	name = "bluespace capture machine"
+	name = "glup shitto"
 	desc = "Much, MUCH bigger on the inside to transport prisoners safely."
 	icon = 'icons/obj/machines/research.dmi'
 	icon_state = "bluespace-prison"
@@ -34,12 +34,12 @@
 	use_power(active_power_usage)
 
 /obj/machinery/computer/shuttle/hunter
-	name = "shuttle console"
+	name = "glup shitto"
 	shuttleId = "huntership"
 	possible_destinations = "huntership_home;huntership_custom;whiteship_home;syndicate_nw"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/hunter
-	name = "shuttle navigation computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location to travel to."
 	shuttleId = "huntership"
 	lock_override = CAMERA_LOCK_STATION
@@ -49,7 +49,7 @@
 	view_range = 4.5
 
 /obj/structure/closet/crate/eva
-	name = "EVA crate"
+	name = "glup shitto"
 
 /obj/structure/closet/crate/eva/PopulateContents()
 	..()

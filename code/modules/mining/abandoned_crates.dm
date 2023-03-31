@@ -1,7 +1,7 @@
 //Originally coded by ISaidNo, later modified by Kelenius. Ported from Baystation12.
 
 /obj/structure/closet/crate/secure/loot
-	name = "abandoned crate"
+	name = "glup shitto"
 	desc = "What could be inside?"
 	icon_state = "securecrate"
 	integrity_failure = 0 //no breaking open the crate

@@ -1,6 +1,6 @@
 ///Burdened grants some mutations upon injuring yourself sufficiently
 /datum/brain_trauma/special/burdened
-	name = "Flagellating Compulsions"
+	name = "glup shitto"
 	desc = "Patient feels compelled to injure themselves in various incapacitating and horrific ways. There seems to be an odd genetic... trigger, following these compulsions may lead to?"
 	scan_desc = "damaged frontal lobe"
 	gain_text = span_notice("You feel burdened!")

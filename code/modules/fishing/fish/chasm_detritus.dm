@@ -7,7 +7,7 @@
 
 /// An object which should replace itself on initialisation with something which fell into a chasm.
 /obj/item/chasm_detritus
-	name = "chasm detritus"
+	name = "glup shitto"
 	desc = "Abstract concept of an object which once fell into a deep hole."
 	icon_state = "skub"
 	/// The chance (out of 100) to fish out something from `default_contents`

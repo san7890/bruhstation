@@ -6,7 +6,7 @@
 #define MAX_CRIME_NAME_LEN 24
 
 /obj/machinery/computer/records/security
-	name = "security records console"
+	name = "glup shitto"
 	desc = "Used to view and edit personnel's security records."
 	icon_screen = "security"
 	icon_keyboard = "security_key"
@@ -21,7 +21,7 @@
 	req_one_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/computer/records/security/laptop
-	name = "security laptop"
+	name = "glup shitto"
 	desc = "A cheap Nanotrasen security laptop, it functions as a security records console. It's bolted to the table."
 	icon_state = "laptop"
 	icon_screen = "seclaptop"

@@ -1,5 +1,5 @@
 /obj/item/clothing/gloves/bracer
-	name = "bone bracers"
+	name = "glup shitto"
 	desc = "For when you're expecting to get slapped on the wrist. Offers modest protection to your arms."
 	icon_state = "bracers"
 	inhand_icon_state = null

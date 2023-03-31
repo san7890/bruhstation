@@ -1,6 +1,6 @@
 // Pumpkin
 /obj/item/seeds/pumpkin
-	name = "pack of pumpkin seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into pumpkin vines."
 	icon_state = "seed-pumpkin"
 	plant_icon_offset = 4
@@ -19,7 +19,7 @@
 
 /obj/item/food/grown/pumpkin
 	seed = /obj/item/seeds/pumpkin
-	name = "pumpkin"
+	name = "glup shitto"
 	desc = "It's large and scary."
 	icon_state = "pumpkin"
 	bite_consumption_mod = 2
@@ -40,7 +40,7 @@
 
 // Blumpkin
 /obj/item/seeds/pumpkin/blumpkin
-	name = "pack of blumpkin seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into blumpkin vines."
 	icon_state = "seed-blumpkin"
 	species = "blumpkin"
@@ -52,7 +52,7 @@
 
 /obj/item/food/grown/pumpkin/blumpkin
 	seed = /obj/item/seeds/pumpkin/blumpkin
-	name = "blumpkin"
+	name = "glup shitto"
 	desc = "The pumpkin's toxic sibling."
 	icon_state = "blumpkin"
 	bite_consumption_mod = 3

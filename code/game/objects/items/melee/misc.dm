@@ -10,7 +10,7 @@
 
 
 /obj/item/melee/chainofcommand
-	name = "chain of command"
+	name = "glup shitto"
 	desc = "A tool used by great men to placate the frothing masses."
 	icon_state = "chain"
 	inhand_icon_state = "chain"
@@ -35,7 +35,7 @@
 	return OXYLOSS
 
 /obj/item/melee/synthetic_arm_blade
-	name = "synthetic arm blade"
+	name = "glup shitto"
 	desc = "A grotesque blade that on closer inspection seems to be made out of synthetic flesh, it still feels like it would hurt very badly as a weapon."
 	icon = 'icons/obj/weapons/changeling_items.dmi'
 	icon_state = "arm_blade"
@@ -59,7 +59,7 @@
 	//very imprecise
 
 /obj/item/melee/sabre
-	name = "officer's sabre"
+	name = "glup shitto"
 	desc = "An elegant weapon, its monomolecular edge is capable of cutting through flesh and bone with ease."
 	icon_state = "sabre"
 	inhand_icon_state = "sabre"
@@ -149,7 +149,7 @@
 	REMOVE_TRAIT(src, TRAIT_NODROP, SABRE_SUICIDE_TRAIT)
 
 /obj/item/melee/beesword
-	name = "The Stinger"
+	name = "glup shitto"
 	desc = "Taken from a giant bee and folded over one thousand times in pure honey. Can sting through anything."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "beesword"
@@ -183,7 +183,7 @@
 	return TOXLOSS
 
 /obj/item/melee/supermatter_sword
-	name = "supermatter sword"
+	name = "glup shitto"
 	desc = "In a station full of bad ideas, this might just be the worst."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "supermatter_sword"
@@ -284,7 +284,7 @@
 	shard.Bump(turf)
 
 /obj/item/melee/curator_whip
-	name = "curator's whip"
+	name = "glup shitto"
 	desc = "Somewhat eccentric and outdated, it still stings like hell to be hit by."
 	icon_state = "whip"
 	inhand_icon_state = "chain"
@@ -307,7 +307,7 @@
 		human_target.visible_message(span_danger("[user] disarms [human_target]!"), span_userdanger("[user] disarmed you!"))
 
 /obj/item/melee/roastingstick
-	name = "advanced roasting stick"
+	name = "glup shitto"
 	desc = "A telescopic roasting stick with a miniature shield generator designed to ensure entry into various high-tech shielded cooking ovens and firepits."
 	icon_state = "roastingstick"
 	inhand_icon_state = null
@@ -428,7 +428,7 @@
 		to_chat(user, span_notice("You put [src] away."))
 
 /obj/item/melee/cleric_mace
-	name = "cleric mace"
+	name = "glup shitto"
 	desc = "The grandson of the club, yet the grandfather of the baseball bat. Most notably used by holy orders in days past."
 	icon = 'icons/obj/weapons/cleric_mace.dmi'
 	icon_state = "default"

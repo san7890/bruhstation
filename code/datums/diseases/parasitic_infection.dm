@@ -1,6 +1,6 @@
 /datum/disease/parasite
 	form = "Parasite"
-	name = "Parasitic Infection"
+	name = "glup shitto"
 	max_stages = 4
 	cure_text = "Surgical removal of the liver."
 	agent = "Consuming Live Parasites"

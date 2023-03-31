@@ -1,7 +1,7 @@
 // Sidepaths for knowledge between Rust and Ash.
 
 /datum/heretic_knowledge/essence
-	name = "Priest's Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a tank of water and a glass shard into a Flask of Eldritch Essence. \
 		Eldritch water can be consumed for potent healing, or given to heathens for deadly poisoning."
 	gain_text = "This is an old recipe. The Owl whispered it to me. \
@@ -19,7 +19,7 @@
 	route = PATH_SIDE
 
 /datum/heretic_knowledge/curse/corrosion
-	name = "Curse of Corrosion"
+	name = "glup shitto"
 	desc = "Allows you to transmute wirecutters, a pool of vomit, and a heart to cast a curse of sickness on a crew member. \
 		While cursed, the victim will repeatedly vomit while their organs will take constant damage. You can additionally supply an item \
 		that a victim has touched or is covered in the victim's blood to empower the curse."
@@ -53,7 +53,7 @@
 	return ..()
 
 /datum/heretic_knowledge/summon/rusty
-	name = "Rusted Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a pool of vomit, a book, and a head into a Rust Walker. \
 		Rust Walkers excel at spreading rust and are moderately strong in combat."
 	gain_text = "I combined my principle of hunger with my desire for corruption. The Marshal knew my name, and the Rusted Hills echoed out."

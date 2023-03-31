@@ -1,5 +1,5 @@
 /datum/crafting_recipe/gold_horn
-	name = "Golden Bike Horn"
+	name = "glup shitto"
 	result = /obj/item/bikehorn/golden
 	time = 2 SECONDS
 	reqs = list(
@@ -9,7 +9,7 @@
 	category = CAT_TOOLS
 
 /datum/crafting_recipe/bonfire
-	name = "Bonfire"
+	name = "glup shitto"
 	time = 6 SECONDS
 	reqs = list(/obj/item/grown/log = 5)
 	parts = list(/obj/item/grown/log = 5)
@@ -18,7 +18,7 @@
 	category = CAT_TOOLS
 
 /datum/crafting_recipe/boneshovel
-	name = "Serrated Bone Shovel"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/obj/item/stack/sheet/bone = 4,
@@ -29,7 +29,7 @@
 	category = CAT_TOOLS
 
 /datum/crafting_recipe/lasso
-	name = "Bone Lasso"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/stack/sheet/bone = 1,
 		/obj/item/stack/sheet/sinew = 5,
@@ -38,7 +38,7 @@
 	category = CAT_TOOLS
 
 /datum/crafting_recipe/ipickaxe
-	name = "Improvised Pickaxe"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/crowbar = 1,
 		/obj/item/knife = 1,

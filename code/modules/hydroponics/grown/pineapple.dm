@@ -1,6 +1,6 @@
 // Pineapple!
 /obj/item/seeds/pineapple
-	name = "pack of pineapple seeds"
+	name = "glup shitto"
 	desc = "Oooooooooooooh!"
 	icon_state = "seed-pineapple"
 	species = "pineapple"
@@ -17,7 +17,7 @@
 
 /obj/item/food/grown/pineapple
 	seed = /obj/item/seeds/pineapple
-	name = "pineapples"
+	name = "glup shitto"
 	desc = "Blorble."
 	icon_state = "pineapple"
 	bite_consumption_mod = 2

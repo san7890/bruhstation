@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/moods
-	name = "moods"
+	name = "glup shitto"
 	var/iconinserted = 1
 
 /datum/asset/spritesheet/moods/create_spritesheets()

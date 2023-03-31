@@ -34,7 +34,7 @@ Possible to do for anyone motivated enough:
 #define HOLOGRAM_POWER_USAGE 2
 
 /obj/machinery/holopad
-	name = "holopad"
+	name = "glup shitto"
 	desc = "It's a floor-mounted device for projecting holographic images."
 	icon_state = "holopad0"
 	base_icon_state = "holopad"
@@ -101,7 +101,7 @@ Possible to do for anyone motivated enough:
 	update_appearance()
 
 /obj/machinery/holopad/secure
-	name = "secure holopad"
+	name = "glup shitto"
 	desc = "It's a floor-mounted device for projecting holographic images. This one will refuse to auto-connect incoming calls."
 	secure = TRUE
 
@@ -847,7 +847,7 @@ For the other part of the code, check silicon say.dm. Particularly robot talk.*/
 	return ..()
 
 /obj/effect/overlay/holoray
-	name = "holoray"
+	name = "glup shitto"
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "holoray"
 	layer = FLY_LAYER

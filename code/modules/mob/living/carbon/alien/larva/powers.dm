@@ -1,5 +1,5 @@
 /datum/action/cooldown/alien/hide
-	name = "Hide"
+	name = "glup shitto"
 	desc = "Allows you to hide beneath tables and certain objects."
 	button_icon_state = "alien_hide"
 	plasma_cost = 0
@@ -24,7 +24,7 @@
 	return TRUE
 
 /datum/action/cooldown/alien/larva_evolve
-	name = "Evolve"
+	name = "glup shitto"
 	desc = "Evolve into a higher alien caste."
 	button_icon_state = "alien_evolve_larva"
 	plasma_cost = 0

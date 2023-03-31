@@ -10,7 +10,7 @@
 
 // DAT FUKKEN DISK.
 /obj/item/disk/nuclear
-	name = "nuclear authentication disk"
+	name = "glup shitto"
 	desc = "Better keep this safe."
 	icon_state = "nucleardisk"
 	max_integrity = 250
@@ -118,5 +118,5 @@
 	fake = TRUE
 
 /obj/item/disk/nuclear/fake/obvious
-	name = "cheap plastic imitation of the nuclear authentication disk"
+	name = "glup shitto"
 	desc = "How anyone could mistake this for the real thing is beyond you."

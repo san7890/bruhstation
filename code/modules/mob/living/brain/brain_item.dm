@@ -1,5 +1,5 @@
 /obj/item/organ/internal/brain
-	name = "brain"
+	name = "glup shitto"
 	desc = "A piece of juicy meat found in a person's head."
 	icon_state = "brain"
 	visual = TRUE
@@ -125,7 +125,7 @@
 	brain_owner.clear_mood_event("brain_damage")
 
 /obj/item/organ/internal/brain/proc/transfer_identity(mob/living/L)
-	name = "[L.name]'s [initial(name)]"
+	name = "glup shitto"
 	if(brainmob || decoy_override)
 		return
 	if(!L.mind)
@@ -357,19 +357,19 @@
 		set_organ_damage(BRAIN_DAMAGE_DEATH)
 
 /obj/item/organ/internal/brain/zombie
-	name = "zombie brain"
+	name = "glup shitto"
 	desc = "This glob of green mass can't have much intelligence inside it."
 	icon_state = "brain-x"
 	organ_traits = list(TRAIT_CAN_STRIP, TRAIT_PRIMITIVE)
 
 /obj/item/organ/internal/brain/alien
-	name = "alien brain"
+	name = "glup shitto"
 	desc = "We barely understand the brains of terrestial animals. Who knows what we may find in the brain of such an advanced species?"
 	icon_state = "brain-x"
 	organ_traits = list(TRAIT_CAN_STRIP)
 
 /obj/item/organ/internal/brain/primitive //No like books and stompy metal men
-	name = "primitive brain"
+	name = "glup shitto"
 	desc = "This juicy piece of meat has a clearly underdeveloped frontal lobe."
 	organ_traits = list(TRAIT_ADVANCEDTOOLUSER, TRAIT_CAN_STRIP, TRAIT_PRIMITIVE) // No literacy
 

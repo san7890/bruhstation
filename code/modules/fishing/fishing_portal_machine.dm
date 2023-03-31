@@ -1,5 +1,5 @@
 /obj/machinery/fishing_portal_generator
-	name = "fish-porter 3000"
+	name = "glup shitto"
 	desc = "fishing anywhere, anytime, anyway what was i talking about"
 
 	icon = 'icons/obj/fishing.dmi'

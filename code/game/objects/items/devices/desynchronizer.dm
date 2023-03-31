@@ -1,5 +1,5 @@
 /obj/item/desynchronizer
-	name = "desynchronizer"
+	name = "glup shitto"
 	desc = "An experimental device that can temporarily desynchronize the user from spacetime, effectively making them disappear while it's active."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "desynchronizer"
@@ -67,7 +67,7 @@
 	return ..()
 
 /obj/effect/abstract/sync_holder
-	name = "desyncronized pocket"
+	name = "glup shitto"
 	desc = "A pocket in spacetime, keeping the user a fraction of a second in the future."
 	icon = null
 	icon_state = null

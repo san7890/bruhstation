@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////SPAGHETTI////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/tomatopasta
-	name = "Tomato pasta"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/grown/tomato = 2
@@ -13,7 +13,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/copypasta
-	name = "Copypasta"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/pastatomato = 2
 	)
@@ -21,7 +21,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/spaghettimeatball
-	name = "Spaghetti meatball"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/meatball = 2
@@ -30,7 +30,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/spesslaw
-	name = "Spesslaw"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/meatball = 4
@@ -39,7 +39,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/beefnoodle
-	name = "Beef noodle"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
@@ -50,7 +50,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/chowmein
-	name = "Chowmein"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/meat/cutlet = 1,
@@ -61,7 +61,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/butternoodles
-	name = "Butter Noodles"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/butter = 1
@@ -70,7 +70,7 @@
 	category = CAT_SPAGHETTI
 
 /datum/crafting_recipe/food/mac_n_cheese
-	name = "Mac n' cheese"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/boiledspaghetti = 1,
 		/obj/item/food/bechamel_sauce = 1,

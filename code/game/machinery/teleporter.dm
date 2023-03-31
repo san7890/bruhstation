@@ -1,10 +1,10 @@
 /obj/machinery/teleport
-	name = "teleport"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/teleporter.dmi'
 	density = TRUE
 
 /obj/machinery/teleport/hub
-	name = "teleporter hub"
+	name = "glup shitto"
 	desc = "It's the hub of a teleporting machine."
 	icon_state = "tele0"
 	base_icon_state = "tele"
@@ -104,7 +104,7 @@
 	RefreshParts()
 
 /obj/machinery/teleport/station
-	name = "teleporter station"
+	name = "glup shitto"
 	desc = "The power control station for a bluespace teleporter. Used for toggling power, and can activate a test-fire to prevent malfunctions."
 	icon_state = "controller"
 	base_icon_state = "controller"

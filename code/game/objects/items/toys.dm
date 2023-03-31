@@ -36,7 +36,7 @@
  * Balloons
  */
 /obj/item/toy/waterballoon
-	name = "water balloon"
+	name = "glup shitto"
 	desc = "A translucent balloon. There's nothing in it."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "waterballoon-e"
@@ -113,7 +113,7 @@
 #define BALLOON_COLORS list("red", "blue", "green", "yellow")
 
 /obj/item/toy/balloon
-	name = "balloon"
+	name = "glup shitto"
 	desc = "No birthday is complete without it."
 	icon = 'icons/obj/toys/balloons.dmi'
 	icon_state = "balloon"
@@ -160,14 +160,14 @@
 		inhand_icon_state = icon_state
 
 /obj/item/toy/balloon/corgi
-	name = "corgi balloon"
+	name = "glup shitto"
 	desc = "A balloon with a corgi face on it. For the all year good boys."
 	icon_state = "corgi"
 	inhand_icon_state = "corgi"
 	random_color = FALSE
 
 /obj/item/toy/balloon/syndicate
-	name = "syndicate balloon"
+	name = "glup shitto"
 	desc = "There is a tag on the back that reads \"FUK NT!11!\"."
 	icon_state = "syndballoon"
 	inhand_icon_state = "syndballoon"
@@ -190,7 +190,7 @@
 	. = ..()
 
 /obj/item/toy/balloon/arrest
-	name = "arreyst balloon"
+	name = "glup shitto"
 	desc = "A half inflated balloon about a boyband named Arreyst that was popular about ten years ago, famous for making fun of red jumpsuits as unfashionable."
 	icon_state = "arrestballoon"
 	inhand_icon_state = "arrestballoon"
@@ -204,7 +204,7 @@
 #define CAPTAINSAID_MODE_OFF 1
 
 /obj/item/toy/captainsaid
-	name = "\improper Captain's Aid"
+	name = "glup shitto"
 	desc = "Every captain's greatest ally when exploring the vast emptiness of space, now with a color display!"
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "captainsaid_off"
@@ -239,14 +239,14 @@
 #undef CAPTAINSAID_MODE_OFF
 
 /obj/item/toy/captainsaid/collector
-	name = "\improper Collector's Edition Captain's Aid"
+	name = "glup shitto"
 	desc = "A copy of the first run of Captain's Aid ever released. Functionally the same as the later batches, just more expensive. For the truly aristocratic."
 
 /*
  * Fake singularity
  */
 /obj/item/toy/spinningtoy
-	name = "gravitational singularity"
+	name = "glup shitto"
 	desc = "\"Singulo\" brand spinning toy."
 	icon = 'icons/obj/engine/singularity.dmi'
 	icon_state = "singularity_s1"
@@ -299,7 +299,7 @@
  * Fake dark matter singularity!
  */
 /obj/item/toy/spinningtoy/dark_matter
-	name = "dark matter singularity"
+	name = "glup shitto"
 	desc = "<i>\"Surviving the encounter with the \
 		horrible thing, I realized immediately what I \
 		had to do: sell marketable toys of it. \
@@ -311,7 +311,7 @@
  * Toy gun: Why isn't this an /obj/item/gun?
  */
 /obj/item/toy/gun
-	name = "cap gun"
+	name = "glup shitto"
 	desc = "Looks almost like the real thing! Ages 8 and up. Please recycle in an autolathe when you're out of caps."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "revolver"
@@ -372,7 +372,7 @@
 		span_hear("You hear a gunshot!"))
 
 /obj/item/toy/ammo/gun
-	name = "capgun ammo"
+	name = "glup shitto"
 	desc = "Make sure to recyle the box in an autolathe when it gets empty."
 	icon = 'icons/obj/weapons/guns/ammo.dmi'
 	icon_state = "357OLD-7"
@@ -392,7 +392,7 @@
  * Toy swords
  */
 /obj/item/toy/sword
-	name = "toy sword"
+	name = "glup shitto"
 	desc = "A cheap, plastic replica of an energy sword. Realistic sounds! Ages 8 and up."
 	icon_state = "e_sword"
 	inhand_icon_state = "e_sword"
@@ -506,7 +506,7 @@
  * Foam armblade
  */
 /obj/item/toy/foamblade
-	name = "foam armblade"
+	name = "glup shitto"
 	desc = "It says \"Sternside Changs #1 fan\" on it."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "foamblade"
@@ -519,7 +519,7 @@
 	resistance_flags = FLAMMABLE
 
 /obj/item/toy/windup_toolbox
-	name = "windup toolbox"
+	name = "glup shitto"
 	desc = "A replica toolbox that rumbles when you turn the key."
 	icon = 'icons/obj/storage/toolbox.dmi'
 	icon_state = "green"
@@ -583,7 +583,7 @@
  * Subtype of Double-Bladed Energy Swords
  */
 /obj/item/dualsaber/toy
-	name = "double-bladed toy sword"
+	name = "glup shitto"
 	desc = "A cheap, plastic replica of TWO energy swords.  Double the fun!"
 	force = 0
 	throwforce = 0
@@ -604,7 +604,7 @@
 	user.adjustStaminaLoss(25)
 
 /obj/item/toy/katana
-	name = "replica katana"
+	name = "glup shitto"
 	desc = "Woefully underpowered in D20."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "katana"
@@ -625,7 +625,7 @@
  * Snap pops
  */
 /obj/item/toy/snappop
-	name = "snap pop"
+	name = "glup shitto"
 	desc = "Wow!"
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "snappop"
@@ -665,7 +665,7 @@
 			pop_burst(2, 0)
 
 /obj/item/toy/snappop/phoenix
-	name = "phoenix snap pop"
+	name = "glup shitto"
 	desc = "Wow! And wow! And wow!"
 	ash_type = /obj/effect/decal/cleanable/ash/snappop_phoenix
 
@@ -681,7 +681,7 @@
 	qdel(src)
 
 /obj/item/toy/talking
-	name = "talking action figure"
+	name = "glup shitto"
 	desc = "A generic action figure modeled after nothing in particular."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "owlprize"
@@ -733,7 +733,7 @@
  * AI core prizes
  */
 /obj/item/toy/talking/ai
-	name = "toy AI"
+	name = "glup shitto"
 	desc = "A little toy model AI core with real law announcing action!"
 	icon_state = "AI"
 	w_class = WEIGHT_CLASS_SMALL
@@ -742,7 +742,7 @@
 	return list(generate_ion_law())
 
 /obj/item/toy/talking/codex_gigas
-	name = "Toy Codex Gigas"
+	name = "glup shitto"
 	desc = "A tool to help you write fictional devils!"
 	icon = 'icons/obj/library.dmi'
 	icon_state = "demonomicon"
@@ -759,7 +759,7 @@
 		span_notice("You hear a soft click."))
 
 /obj/item/toy/talking/owl
-	name = "owl action figure"
+	name = "glup shitto"
 	desc = "An action figure modeled after 'The Owl', defender of justice."
 	icon_state = "owlprize"
 	messages = list("You won't get away this time, Griffin!", "Stop right there, criminal!", "Hoot! Hoot!", "I am the night!")
@@ -768,7 +768,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/toy/talking/griffin
-	name = "griffin action figure"
+	name = "glup shitto"
 	desc = "An action figure modeled after 'The Griffin', criminal mastermind."
 	icon_state = "griffinprize"
 	messages = list("You can't stop me, Owl!", "My plan is flawless! The vault is mine!", "Caaaawwww!", "You will never catch me!")
@@ -780,7 +780,7 @@
  * Fake nuke
  */
 /obj/item/toy/nuke
-	name = "\improper Nuclear Fission Explosive toy"
+	name = "glup shitto"
 	desc = "A plastic model of a Nuclear Fission Explosive."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "nuketoyidle"
@@ -822,7 +822,7 @@
  * Fake meteor
  */
 /obj/item/toy/minimeteor
-	name = "\improper Mini-Meteor"
+	name = "glup shitto"
 	desc = "Relive the excitement of a meteor shower! SweetMeat-eor Co. is not responsible for any injuries, headaches or hearing loss caused by Mini-Meteor."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "minimeteor"
@@ -852,7 +852,7 @@
  * Toy big red button
  */
 /obj/item/toy/redbutton
-	name = "big red button"
+	name = "glup shitto"
 	desc = "A big, plastic red button. Reads 'From HonkCo Pranks!' on the back."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	icon_state = "bigred"
@@ -877,7 +877,7 @@
  * Snowballs
  */
 /obj/item/toy/snowball
-	name = "snowball"
+	name = "glup shitto"
 	desc = "A compact ball of snow. Good for throwing at people."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "snowball"
@@ -899,7 +899,7 @@
  * Beach ball
  */
 /obj/item/toy/beach_ball
-	name = "beach ball"
+	name = "glup shitto"
 	icon = 'icons/misc/beach.dmi'
 	icon_state = "ball"
 	inhand_icon_state = "beachball"
@@ -907,11 +907,11 @@
 	item_flags = NO_PIXEL_RANDOM_DROP
 
 /obj/item/toy/beach_ball/branded
-	name = "\improper Nanotrasen-brand beach ball"
+	name = "glup shitto"
 	desc = "The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen"
 
 /obj/item/toy/beach_ball/baseball
-	name = "baseball"
+	name = "glup shitto"
 	desc = "Enter the world of concussions and become who you were destined to be."
 	icon = 'icons/obj/toys/balls.dmi'
 	icon_state = "baseball"
@@ -923,7 +923,7 @@
  * Clockwork Watch
  */
 /obj/item/toy/clockwork_watch
-	name = "steampunk watch"
+	name = "glup shitto"
 	desc = "A stylish steampunk watch made out of thousands of tiny cogwheels."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "dread_ipad"
@@ -948,7 +948,7 @@
  * Toy Dagger
  */
 /obj/item/toy/toy_dagger
-	name = "toy dagger"
+	name = "glup shitto"
 	desc = "A cheap plastic replica of a dagger. Produced by THE ARM Toys, Inc."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "render"
@@ -963,7 +963,7 @@
 /obj/item/toy/toy_xeno
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "toy_xeno"
-	name = "xenomorph action figure"
+	name = "glup shitto"
 	desc = "MEGA presents the new Xenos Isolated action figure! Comes complete with realistic sounds! Pull back string to use."
 	w_class = WEIGHT_CLASS_SMALL
 	item_flags = XENOMORPH_HOLDABLE
@@ -986,7 +986,7 @@
 
 // TOY MOUSEYS :3 :3 :3
 /obj/item/toy/cattoy
-	name = "toy mouse"
+	name = "glup shitto"
 	desc = "A colorful toy mouse!"
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "toy_mouse"
@@ -999,7 +999,7 @@
  * Action Figures
  */
 /obj/item/toy/figure
-	name = "\improper Non-Specific Action Figure action figure"
+	name = "glup shitto"
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "nuketoy"
 	var/cooldown = 0
@@ -1018,210 +1018,210 @@
 		playsound(user, toysound, 20, TRUE)
 
 /obj/item/toy/figure/cmo
-	name = "\improper Chief Medical Officer action figure"
+	name = "glup shitto"
 	icon_state = "cmo"
 	toysay = "Suit sensors!"
 
 /obj/item/toy/figure/assistant
-	name = "\improper Assistant action figure"
+	name = "glup shitto"
 	icon_state = "assistant"
 	inhand_icon_state = "assistant"
 	toysay = "Greytide world wide!"
 
 /obj/item/toy/figure/atmos
-	name = "\improper Atmospheric Technician action figure"
+	name = "glup shitto"
 	icon_state = "atmos"
 	toysay = "Glory to Atmosia!"
 
 /obj/item/toy/figure/bartender
-	name = "\improper Bartender action figure"
+	name = "glup shitto"
 	icon_state = "bartender"
 	toysay = "Where is Pun Pun?"
 
 /obj/item/toy/figure/borg
-	name = "\improper Cyborg action figure"
+	name = "glup shitto"
 	icon_state = "borg"
 	toysay = "I. LIVE. AGAIN."
 	toysound = 'sound/voice/liveagain.ogg'
 
 /obj/item/toy/figure/botanist
-	name = "\improper Botanist action figure"
+	name = "glup shitto"
 	icon_state = "botanist"
 	toysay = "Blaze it!"
 
 /obj/item/toy/figure/captain
-	name = "\improper Captain action figure"
+	name = "glup shitto"
 	icon_state = "captain"
 	toysay = "Any heads of staff?"
 
 /obj/item/toy/figure/cargotech
-	name = "\improper Cargo Technician action figure"
+	name = "glup shitto"
 	icon_state = "cargotech"
 	toysay = "For Cargonia!"
 
 /obj/item/toy/figure/ce
-	name = "\improper Chief Engineer action figure"
+	name = "glup shitto"
 	icon_state = "ce"
 	toysay = "Wire the solars!"
 
 /obj/item/toy/figure/chaplain
-	name = "\improper Chaplain action figure"
+	name = "glup shitto"
 	icon_state = "chaplain"
 	toysay = "Praise Space Jesus!"
 
 /obj/item/toy/figure/chef
-	name = "\improper Cook action figure"
+	name = "glup shitto"
 	icon_state = "chef"
 	toysay = "I'll make you into a burger!"
 
 /obj/item/toy/figure/chemist
-	name = "\improper Chemist action figure"
+	name = "glup shitto"
 	icon_state = "chemist"
 	toysay = "Get your pills!"
 
 /obj/item/toy/figure/clown
-	name = "\improper Clown action figure"
+	name = "glup shitto"
 	icon_state = "clown"
 	toysay = "Honk!"
 	toysound = 'sound/items/bikehorn.ogg'
 
 /obj/item/toy/figure/ian
-	name = "\improper Ian action figure"
+	name = "glup shitto"
 	icon_state = "ian"
 	toysay = "Arf!"
 
 /obj/item/toy/figure/detective
-	name = "\improper Detective action figure"
+	name = "glup shitto"
 	icon_state = "detective"
 	toysay = "This airlock has grey jumpsuit and insulated glove fibers on it."
 
 /obj/item/toy/figure/dsquad
-	name = "\improper Deathsquad Officer action figure"
+	name = "glup shitto"
 	icon_state = "dsquad"
 	toysay = "Kill 'em all!"
 
 /obj/item/toy/figure/engineer
-	name = "\improper Station Engineer action figure"
+	name = "glup shitto"
 	icon_state = "engineer"
 	toysay = "Oh god, the singularity is loose!"
 
 /obj/item/toy/figure/geneticist
-	name = "\improper Geneticist action figure"
+	name = "glup shitto"
 	icon_state = "geneticist"
 	toysay = "Smash!"
 
 /obj/item/toy/figure/hop
-	name = "\improper Head of Personnel action figure"
+	name = "glup shitto"
 	icon_state = "hop"
 	toysay = "Giving out all access!"
 
 /obj/item/toy/figure/hos
-	name = "\improper Head of Security action figure"
+	name = "glup shitto"
 	icon_state = "hos"
 	toysay = "Go ahead, make my day."
 
 /obj/item/toy/figure/qm
-	name = "\improper Quartermaster action figure"
+	name = "glup shitto"
 	icon_state = "qm"
 	toysay = "Please sign this form in triplicate and we will see about geting you a welding mask within 3 business days."
 
 /obj/item/toy/figure/janitor
-	name = "\improper Janitor action figure"
+	name = "glup shitto"
 	icon_state = "janitor"
 	toysay = "Look at the signs, you idiot."
 
 /obj/item/toy/figure/lawyer
-	name = "\improper Lawyer action figure"
+	name = "glup shitto"
 	icon_state = "lawyer"
 	toysay = "My client is a dirty traitor!"
 
 /obj/item/toy/figure/curator
-	name = "\improper Curator action figure"
+	name = "glup shitto"
 	icon_state = "curator"
 	toysay = "One day while..."
 
 /obj/item/toy/figure/md
-	name = "\improper Medical Doctor action figure"
+	name = "glup shitto"
 	icon_state = "md"
 	toysay = "The patient is already dead!"
 
 /obj/item/toy/figure/paramedic
-	name = "\improper Paramedic action figure"
+	name = "glup shitto"
 	icon_state = "paramedic"
 	toysay = "And the best part? I'm not even a real doctor!"
 
 /obj/item/toy/figure/psychologist
-	name = "\improper Psychologist action figure"
+	name = "glup shitto"
 	icon_state = "psychologist"
 	toysay = "Alright, just take these happy pills!"
 
 /obj/item/toy/figure/prisoner
-	name = "\improper Prisoner action figure"
+	name = "glup shitto"
 	icon_state = "prisoner"
 	toysay = "I did not hit her! I did not!"
 
 /obj/item/toy/figure/mime
-	name = "\improper Mime action figure"
+	name = "glup shitto"
 	icon_state = "mime"
 	toysay = "..."
 	toysound = null
 
 /obj/item/toy/figure/miner
-	name = "\improper Shaft Miner action figure"
+	name = "glup shitto"
 	icon_state = "miner"
 	toysay = "COLOSSUS RIGHT OUTSIDE THE BASE!"
 
 /obj/item/toy/figure/ninja
-	name = "\improper Space Ninja action figure"
+	name = "glup shitto"
 	icon_state = "ninja"
 	toysay = "I am the shadow warrior!"
 
 /obj/item/toy/figure/wizard
-	name = "\improper Wizard action figure"
+	name = "glup shitto"
 	icon_state = "wizard"
 	toysay = "EI NATH!"
 	toysound = 'sound/magic/disintegrate.ogg'
 
 /obj/item/toy/figure/rd
-	name = "\improper Research Director action figure"
+	name = "glup shitto"
 	icon_state = "rd"
 	toysay = "Blowing all of the borgs!"
 
 /obj/item/toy/figure/roboticist
-	name = "\improper Roboticist action figure"
+	name = "glup shitto"
 	icon_state = "roboticist"
 	toysay = "Big stompy mechs!"
 	toysound = 'sound/mecha/mechstep.ogg'
 
 /obj/item/toy/figure/scientist
-	name = "\improper Scientist action figure"
+	name = "glup shitto"
 	icon_state = "scientist"
 	toysay = "I call ordnance."
 	toysound = 'sound/effects/explosionfar.ogg'
 
 /obj/item/toy/figure/syndie
-	name = "\improper Nuclear Operative action figure"
+	name = "glup shitto"
 	icon_state = "syndie"
 	toysay = "Get that fucking disk!"
 
 /obj/item/toy/figure/secofficer
-	name = "\improper Security Officer action figure"
+	name = "glup shitto"
 	icon_state = "secofficer"
 	toysay = "I am the law!"
 	toysound = 'sound/runtime/complionator/dredd.ogg'
 
 /obj/item/toy/figure/virologist
-	name = "\improper Virologist action figure"
+	name = "glup shitto"
 	icon_state = "virologist"
 	toysay = "The cure is potassium!"
 
 /obj/item/toy/figure/warden
-	name = "\improper Warden action figure"
+	name = "glup shitto"
 	icon_state = "warden"
 	toysay = "Seventeen minutes for coughing at an officer!"
 
 /obj/item/toy/dummy
-	name = "ventriloquist dummy"
+	name = "glup shitto"
 	desc = "It's a dummy, dummy."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "puppet"
@@ -1235,7 +1235,7 @@
 		return
 	doll_name = new_name
 	to_chat(user, span_notice("You name the dummy as \"[doll_name]\"."))
-	name = "[initial(name)] - [doll_name]"
+	name = "glup shitto"
 
 /obj/item/toy/dummy/talk_into(atom/movable/A, message, channel, list/spans, datum/language/language, list/message_mods)
 	var/mob/M = A
@@ -1249,7 +1249,7 @@
 	return doll_name
 
 /obj/item/toy/seashell
-	name = "seashell"
+	name = "glup shitto"
 	desc = "May you always have a shell in your pocket and sand in your shoes. Whatever that's supposed to mean."
 	icon = 'icons/misc/beach.dmi'
 	icon_state = "shell1"
@@ -1264,7 +1264,7 @@
 	setDir(pick(GLOB.cardinals))
 
 /obj/item/toy/brokenradio
-	name = "broken radio"
+	name = "glup shitto"
 	desc = "An old radio that produces nothing but static when turned on."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "broken_radio"
@@ -1281,7 +1281,7 @@
 		return
 
 /obj/item/toy/braintoy
-	name = "squeaky brain"
+	name = "glup shitto"
 	desc = "A Mr. Monstrous brand toy made to imitate a human brain in smell and texture."
 	icon = 'icons/obj/medical/organs/organs.dmi'
 	icon_state = "brain-old"
@@ -1296,7 +1296,7 @@
  * Eldritch Toys
  */
 /obj/item/toy/eldritch_book
-	name = "Codex Cicatrix"
+	name = "glup shitto"
 	desc = "A toy book that closely resembles the Codex Cicatrix. Covered in fake polyester human flesh and has a huge goggly eye attached to the cover. The runes are gibberish and cannot be used to summon demons... Hopefully?"
 	icon = 'icons/obj/eldritch.dmi'
 	icon_state = "book"
@@ -1318,14 +1318,14 @@
  * Fake tear
  */
 /obj/item/toy/reality_pierce
-	name = "Pierced reality"
+	name = "glup shitto"
 	desc = "Hah. You thought it was the real deal!"
 	icon = 'icons/effects/eldritch.dmi'
 	icon_state = "pierced_illusion"
 	item_flags = NO_PIXEL_RANDOM_DROP
 
 /obj/item/storage/box/heretic_box
-	name = "box of pierced realities"
+	name = "glup shitto"
 	desc = "A box containing toys resembling pierced realities."
 
 /obj/item/storage/box/heretic_box/PopulateContents()
@@ -1333,7 +1333,7 @@
 		new /obj/item/toy/reality_pierce(src)
 
 /obj/item/toy/foamfinger
-	name = "foam finger"
+	name = "glup shitto"
 	desc = "root for the home team! wait, does this station even have a sports team?"
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "foamfinger"
@@ -1388,7 +1388,7 @@ GLOBAL_LIST_EMPTY(intento_players)
 #define TIME_TO_RESET_ICON (0.5 SECONDS)
 
 /obj/item/toy/intento
-	name = "\improper Intento"
+	name = "glup shitto"
 	desc = "Fundamentally useless for all intentsive purposes."
 	icon = 'icons/obj/toys/intents.dmi'
 	icon_state = "blank"

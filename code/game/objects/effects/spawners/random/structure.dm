@@ -1,9 +1,9 @@
 /obj/effect/spawner/random/structure
-	name = "structure spawner"
+	name = "glup shitto"
 	desc = "Now you see me, now you don't..."
 
 /obj/effect/spawner/random/structure/crate
-	name = "crate spawner"
+	name = "glup shitto"
 	icon_state = "crate_secure"
 	loot = list(
 		/obj/effect/spawner/random/structure/crate_loot = 744,
@@ -18,13 +18,13 @@
 	)
 
 /obj/effect/spawner/random/structure/crate_abandoned
-	name = "locked crate spawner"
+	name = "glup shitto"
 	icon_state = "crate_secure"
 	spawn_loot_chance = 20
 	loot = list(/obj/structure/closet/crate/secure/loot)
 
 /obj/effect/spawner/random/structure/girder
-	name = "girder spawner"
+	name = "glup shitto"
 	icon_state = "girder"
 	spawn_loot_chance = 90
 	loot = list( // 80% chance normal girder, 10% chance of displaced, 10% chance of nothing
@@ -33,7 +33,7 @@
 	)
 
 /obj/effect/spawner/random/structure/grille
-	name = "grille spawner"
+	name = "glup shitto"
 	icon_state = "grille"
 	spawn_loot_chance = 90
 	loot = list( // 80% chance normal grille, 10% chance of broken, 10% chance of nothing
@@ -42,7 +42,7 @@
 	)
 
 /obj/effect/spawner/random/structure/furniture_parts
-	name = "furniture parts spawner"
+	name = "glup shitto"
 	icon_state = "table_parts"
 	loot = list(
 		/obj/structure/table_frame,
@@ -51,7 +51,7 @@
 	)
 
 /obj/effect/spawner/random/structure/table_or_rack
-	name = "table or rack spawner"
+	name = "glup shitto"
 	icon_state = "rack_parts"
 	loot = list(
 		/obj/effect/spawner/random/structure/table,
@@ -59,7 +59,7 @@
 	)
 
 /obj/effect/spawner/random/structure/table
-	name = "table spawner"
+	name = "glup shitto"
 	icon_state = "table"
 	loot = list(
 		/obj/structure/table = 40,
@@ -70,13 +70,13 @@
 	)
 
 /obj/effect/spawner/random/structure/table_fancy
-	name = "table spawner"
+	name = "glup shitto"
 	icon_state = "table_fancy"
 	loot_type_path = /obj/structure/table/wood/fancy
 	loot = list()
 
 /obj/effect/spawner/random/structure/tank_holder
-	name = "tank holder spawner"
+	name = "glup shitto"
 	icon_state = "tank_holder"
 	loot = list(
 		/obj/structure/tank_holder/oxygen = 40,
@@ -87,7 +87,7 @@
 
 
 /obj/effect/spawner/random/structure/crate_empty
-	name = "empty crate spawner"
+	name = "glup shitto"
 	icon_state = "crate"
 	loot = RANDOM_CRATE_LOOT
 
@@ -100,7 +100,7 @@
 	return peek_a_boo
 
 /obj/effect/spawner/random/structure/crate_loot
-	name = "lootcrate spawner"
+	name = "glup shitto"
 	icon_state = "crate"
 	loot = list(
 		/obj/structure/closet/crate/maint = 15,
@@ -109,7 +109,7 @@
 	)
 
 /obj/effect/spawner/random/structure/closet_private
-	name = "private closet spawner"
+	name = "glup shitto"
 	icon_state = "cabinet"
 	loot = list(
 		/obj/structure/closet/secure_closet/personal,
@@ -117,7 +117,7 @@
 	)
 
 /obj/effect/spawner/random/structure/closet_empty
-	name = "empty closet spawner"
+	name = "glup shitto"
 	icon_state = "locker"
 	loot = list(
 		/obj/structure/closet = 850,
@@ -134,7 +134,7 @@
 	return peek_a_boo
 
 /obj/effect/spawner/random/structure/closet_maintenance
-	name = "maintenance closet spawner"
+	name = "glup shitto"
 	icon_state = "locker"
 	loot = list( // use these for maintenance areas
 		/obj/effect/spawner/random/structure/closet_empty = 10,
@@ -148,7 +148,7 @@
 	)
 
 /obj/effect/spawner/random/structure/chair_flipped
-	name = "flipped chair spawner"
+	name = "glup shitto"
 	icon_state = "chair"
 	loot = list(
 		/obj/item/chair/wood,
@@ -158,13 +158,13 @@
 	)
 
 /obj/effect/spawner/random/structure/chair_comfy
-	name = "comfy chair spawner"
+	name = "glup shitto"
 	icon_state = "chair"
 	loot_type_path = /obj/structure/chair/comfy
 	loot = list()
 
 /obj/effect/spawner/random/structure/chair_maintenance
-	name = "maintenance chair spawner"
+	name = "glup shitto"
 	icon_state = "chair"
 	loot = list(
 		/obj/structure/chair = 200,
@@ -180,7 +180,7 @@
 	)
 
 /obj/effect/spawner/random/structure/barricade
-	name = "barricade spawner"
+	name = "glup shitto"
 	icon_state = "barricade"
 	spawn_loot_chance = 80
 	loot = list(
@@ -189,7 +189,7 @@
 	)
 
 /obj/effect/spawner/random/structure/billboard
-	name = "billboard spawner"
+	name = "glup shitto"
 	icon = 'icons/obj/billboard.dmi'
 	icon_state = "billboard_random"
 	loot = list(
@@ -201,21 +201,21 @@
 	)
 
 /obj/effect/spawner/random/structure/billboard/nanotrasen //useful for station maps- NT isn't the sort to advertise for competitors
-	name = "\improper Nanotrasen billboard spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/structure/billboard/nanotrasen = 35,
 		/obj/structure/billboard/nanotrasen/defaced = 15,
 	)
 
 /obj/effect/spawner/random/structure/billboard/lizardsgas //for the space ruin, The Lizard's Gas. I don't see much use for the sprites below anywhere else since they're unifunctional.
-	name = "\improper The Lizards Gas billboard spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/structure/billboard/lizards_gas = 75,
 		/obj/structure/billboard/lizards_gas/defaced = 25,
 	)
 
 /obj/effect/spawner/random/structure/billboard/roadsigns //also pretty much only unifunctionally useful for gas stations
-	name = "\improper Gas Station billboard spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/structure/billboard/roadsign/two,
 		/obj/structure/billboard/roadsign/twothousand,
@@ -224,14 +224,14 @@
 	)
 
 /obj/effect/spawner/random/structure/steam_vent
-	name = "steam vent spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/structure/steam_vent,
 		/obj/structure/steam_vent/fast,
 	)
 
 /obj/effect/spawner/random/structure/musician/piano/random_piano
-	name = "random piano spawner"
+	name = "glup shitto"
 	icon_state = "piano"
 	loot = list(
 		/obj/structure/musician/piano,

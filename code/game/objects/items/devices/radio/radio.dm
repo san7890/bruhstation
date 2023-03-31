@@ -2,7 +2,7 @@
 
 /obj/item/radio
 	icon = 'icons/obj/radio.dmi'
-	name = "station bounced radio"
+	name = "glup shitto"
 	icon_state = "walkietalkie"
 	inhand_icon_state = "radio"
 	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'
@@ -524,7 +524,7 @@
 //Giving borgs their own radio to have some more room to work with -Sieve
 
 /obj/item/radio/borg
-	name = "cyborg radio"
+	name = "glup shitto"
 	subspace_transmission = TRUE
 	subspace_switchable = TRUE
 	dog_fashion = null

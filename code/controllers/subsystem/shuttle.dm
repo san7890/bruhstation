@@ -7,7 +7,7 @@
 
 
 SUBSYSTEM_DEF(shuttle)
-	name = "Shuttle"
+	name = "glup shitto"
 	wait = 1 SECONDS
 	init_order = INIT_ORDER_SHUTTLE
 	flags = SS_KEEP_TIMING

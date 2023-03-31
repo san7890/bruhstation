@@ -3,7 +3,7 @@
 	worn_icon = 'icons/mob/clothing/head/utility.dmi'
 
 /obj/item/clothing/head/utility/hardhat
-	name = "hard hat"
+	name = "glup shitto"
 	desc = "A piece of headgear used in dangerous working conditions to protect the head. Comes with a built-in flashlight."
 	icon_state = "hardhat0_yellow"
 	inhand_icon_state = null
@@ -72,7 +72,7 @@
 	inhand_icon_state = null
 	hat_type = "red"
 	dog_fashion = null
-	name = "firefighter helmet"
+	name = "glup shitto"
 	clothing_flags = STOPSPRESSUREDAMAGE | PLASMAMAN_HELMET_EXEMPT
 	heat_protection = HEAD
 	max_heat_protection_temperature = FIRE_HELM_MAX_TEMP_PROTECT
@@ -80,7 +80,7 @@
 	min_cold_protection_temperature = FIRE_HELM_MIN_TEMP_PROTECT
 
 /obj/item/clothing/head/utility/hardhat/red/upgraded
-	name = "workplace-ready firefighter helmet"
+	name = "glup shitto"
 	desc = "By applying state of the art lighting technology to a fire helmet, and using photo-chemical hardening methods, this hardhat will protect you from robust workplace hazards."
 	icon_state = "hardhat0_purple"
 	inhand_icon_state = null
@@ -107,7 +107,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/utility/hardhat/welding
-	name = "welding hard hat"
+	name = "glup shitto"
 	desc = "A piece of headgear used in dangerous working conditions to protect the head. Comes with a built-in flashlight AND welding shield! The bulb seems a little smaller though."
 	light_range = 3 //Needs a little bit of tradeoff
 	dog_fashion = null
@@ -182,7 +182,7 @@
 	inhand_icon_state = null
 	hat_type = "atmos"
 	dog_fashion = null
-	name = "atmospheric firefighter helmet"
+	name = "glup shitto"
 	desc = "A firefighter's helmet, able to keep the user cool in any situation. Comes with a light and a welding visor."
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | BLOCK_GAS_SMOKE_EFFECT | PLASMAMAN_HELMET_EXEMPT | HEADINTERNALS
 	heat_protection = HEAD
@@ -201,7 +201,7 @@
 		. += emissive_appearance(icon_file, "[icon_state]-emissive", src, alpha = src.alpha)
 
 /obj/item/clothing/head/utility/hardhat/pumpkinhead
-	name = "carved pumpkin"
+	name = "glup shitto"
 	desc = "A jack o' lantern! Believed to ward off evil spirits."
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
@@ -242,7 +242,7 @@
 	dog_fashion = /datum/dog_fashion/head/pumpkin/unlit
 
 /obj/item/clothing/head/utility/hardhat/pumpkinhead/blumpkin
-	name = "carved blumpkin"
+	name = "glup shitto"
 	desc = "A very blue jack o' lantern! Believed to ward off vengeful chemists."
 	icon_state = "hardhat0_blumpkin"
 	inhand_icon_state = null
@@ -259,7 +259,7 @@
 	dog_fashion = /datum/dog_fashion/head/blumpkin/unlit
 
 /obj/item/clothing/head/utility/hardhat/reindeer
-	name = "novelty reindeer hat"
+	name = "glup shitto"
 	desc = "Some fake antlers and a very fake red nose."
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'

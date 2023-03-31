@@ -1,5 +1,5 @@
 /datum/action/innate/camera_off/base_construction
-	name = "Log out"
+	name = "glup shitto"
 
 ///Generic construction action for base [construction consoles][/obj/machinery/computer/camera_advanced/base_construction].
 /datum/action/innate/construction
@@ -40,7 +40,7 @@
 	return TRUE
 
 /datum/action/innate/construction/build
-	name = "Build"
+	name = "glup shitto"
 	button_icon_state = "build"
 
 /datum/action/innate/construction/build/Activate()
@@ -60,7 +60,7 @@
 	playsound(target_turf, 'sound/items/deconstruct.ogg', 60, TRUE)
 
 /datum/action/innate/construction/configure_mode
-	name = "Configure RCD"
+	name = "glup shitto"
 	button_icon = 'icons/obj/tools.dmi'
 	button_icon_state = "rcd"
 
@@ -73,7 +73,7 @@
 
 ///Generic action used with base construction consoles to build anything that can't be built with an RCD
 /datum/action/innate/construction/place_structure
-	name = "Place Generic Structure"
+	name = "glup shitto"
 	var/obj/structure_path
 	var/structure_name
 	var/place_sound
@@ -106,7 +106,7 @@
 	return
 
 /datum/action/innate/construction/place_structure/fan
-	name = "Place Tiny Fan"
+	name = "glup shitto"
 	button_icon_state = "build_fan"
 	structure_name = "fans"
 	structure_path = /obj/structure/fans/tiny
@@ -116,7 +116,7 @@
 	to_chat(owner, span_notice("Tiny fan placed. [remaining] fans remaining."))
 
 /datum/action/innate/construction/place_structure/turret
-	name = "Install Plasma Anti-Wildlife Turret"
+	name = "glup shitto"
 	button_icon_state = "build_turret"
 	structure_name = "turrets"
 	structure_path = /obj/machinery/porta_turret/aux_base

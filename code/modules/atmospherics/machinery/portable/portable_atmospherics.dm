@@ -1,7 +1,7 @@
 #define PORTABLE_ATMOS_IGNORE_ATMOS_LIMIT 0
 
 /obj/machinery/portable_atmospherics
-	name = "portable_atmospherics"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/atmos.dmi'
 	use_power = NO_POWER_USE
 	max_integrity = 250

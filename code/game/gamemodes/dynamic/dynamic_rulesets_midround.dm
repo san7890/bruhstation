@@ -201,7 +201,7 @@
 
 /// Midround Traitor Ruleset (From Living)
 /datum/dynamic_ruleset/midround/from_living/autotraitor
-	name = "Syndicate Sleeper Agent"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/traitor
 	antag_flag = ROLE_SLEEPER_AGENT
@@ -249,7 +249,7 @@
 
 /// Midround Malf AI Ruleset (From Living)
 /datum/dynamic_ruleset/midround/malf
-	name = "Malfunctioning AI"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/malf_ai
 	antag_flag = ROLE_MALF_MIDROUND
@@ -305,7 +305,7 @@
 
 /// Midround Wizard Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/wizard
-	name = "Wizard"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/wizard
 	antag_flag = ROLE_WIZARD_MIDROUND
@@ -333,7 +333,7 @@
 
 /// Midround Nuclear Operatives Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/nuclear
-	name = "Nuclear Assault"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_flag = ROLE_OPERATIVE_MIDROUND
 	antag_flag_override = ROLE_OPERATIVE
@@ -390,7 +390,7 @@
 
 /// Midround Blob Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/blob
-	name = "Blob"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/blob
 	antag_flag = ROLE_BLOB
@@ -408,7 +408,7 @@
 
 /// Midround Blob Infection Ruleset (From Living)
 /datum/dynamic_ruleset/midround/from_living/blob_infection
-	name = "Blob Infection"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/blob/infection
 	antag_flag = ROLE_BLOB_INFECTION
@@ -456,7 +456,7 @@
 
 /// Midround Xenomorph Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/xenomorph
-	name = "Alien Infestation"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/xeno
 	antag_flag = ROLE_ALIEN
@@ -498,7 +498,7 @@
 
 /// Midround Nightmare Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/nightmare
-	name = "Nightmare"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/nightmare
 	antag_flag = ROLE_NIGHTMARE
@@ -539,7 +539,7 @@
 
 /// Midround Space Dragon Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/space_dragon
-	name = "Space Dragon"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/space_dragon
 	antag_flag = ROLE_SPACE_DRAGON
@@ -577,7 +577,7 @@
 	return S
 
 /datum/dynamic_ruleset/midround/from_ghosts/abductors
-	name = "Abductors"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/abductor
 	antag_flag = ROLE_ABDUCTOR
@@ -610,7 +610,7 @@
 
 /// Midround Space Ninja Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/space_ninja
-	name = "Space Ninja"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/ninja
 	antag_flag = ROLE_NINJA
@@ -646,7 +646,7 @@
 
 /// Midround Spiders Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/spiders
-	name = "Spiders"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_flag = ROLE_SPIDER
 	required_type = /mob/dead/observer
@@ -664,7 +664,7 @@
 
 /// Midround Revenant Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/revenant
-	name = "Revenant"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/revenant
 	antag_flag = ROLE_REVENANT
@@ -710,7 +710,7 @@
 
 /// Midround Sentient Disease Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/sentient_disease
-	name = "Sentient Disease"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_datum = /datum/antagonist/disease
 	antag_flag = ROLE_SENTIENT_DISEASE
@@ -730,7 +730,7 @@
 
 /// Midround Space Pirates Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/pirates
-	name = "Space Pirates"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_flag = "Space Pirates"
 	required_type = /mob/dead/observer
@@ -752,7 +752,7 @@
 
 /// Dangerous Space Pirates ruleset
 /datum/dynamic_ruleset/midround/dangerous_pirates
-	name = "Dangerous Space Pirates"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_HEAVY
 	antag_flag = "Space Pirates"
 	required_type = /mob/dead/observer
@@ -774,7 +774,7 @@
 
 /// Midround Obsessed Ruleset (From Living)
 /datum/dynamic_ruleset/midround/from_living/obsessed
-	name = "Obsessed"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/obsessed
 	antag_flag = ROLE_OBSESSED
@@ -811,7 +811,7 @@
 
 /// Midround Space Changeling Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/changeling_midround
-	name = "Space Changeling"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/changeling/space
 	antag_flag = ROLE_CHANGELING_MIDROUND
@@ -832,7 +832,7 @@
 
 /// Midround Paradox Clone Ruleset (From Ghosts)
 /datum/dynamic_ruleset/midround/from_ghosts/paradox_clone
-	name = "Paradox Clone"
+	name = "glup shitto"
 	midround_ruleset_style = MIDROUND_RULESET_STYLE_LIGHT
 	antag_datum = /datum/antagonist/paradox_clone
 	antag_flag = ROLE_PARADOX_CLONE

@@ -1,6 +1,6 @@
 
 /obj/structure/transit_tube
-	name = "transit tube"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/pipes/transit_tube.dmi'
 	icon_state = "straight"
 	desc = "A transit tube for moving things around."

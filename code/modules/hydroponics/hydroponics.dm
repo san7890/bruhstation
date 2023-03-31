@@ -1,6 +1,6 @@
 
 /obj/machinery/hydroponics
-	name = "hydroponics tray"
+	name = "glup shitto"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "hydrotray"
 	density = TRUE
@@ -149,7 +149,7 @@
 	return NONE
 
 /obj/machinery/hydroponics/constructable
-	name = "hydroponics tray"
+	name = "glup shitto"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "hydrotray3"
 
@@ -1129,7 +1129,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 /obj/machinery/hydroponics/soil //Not actually hydroponics at all! Honk!
-	name = "soil"
+	name = "glup shitto"
 	desc = "A patch of dirt."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "soil"

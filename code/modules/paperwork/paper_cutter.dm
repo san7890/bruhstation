@@ -1,5 +1,5 @@
 /obj/item/papercutter
-	name = "paper cutter"
+	name = "glup shitto"
 	desc = "Standard office equipment. Precisely cuts paper using a large blade."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "papercutter"
@@ -110,7 +110,7 @@
 	add_fingerprint(M)
 
 /obj/item/paperslip
-	name = "paper slip"
+	name = "glup shitto"
 	desc = "A little slip of paper left over after a larger piece was cut. Whoa."
 	icon_state = "paperslip"
 	icon = 'icons/obj/bureaucracy.dmi'
@@ -131,7 +131,7 @@
 
 
 /obj/item/hatchet/cutterblade
-	name = "paper cutter"
+	name = "glup shitto"
 	desc = "The blade of a paper cutter. Most likely removed for polishing or sharpening."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "cutterblade"

@@ -1,5 +1,5 @@
 /obj/machinery/computer/shuttle/labor
-	name = "labor shuttle console"
+	name = "glup shitto"
 	desc = "Used to call and send the labor camp shuttle."
 	circuit = /obj/item/circuitboard/computer/labor_shuttle
 	shuttleId = "laborcamp"
@@ -7,7 +7,7 @@
 	req_access = list(ACCESS_BRIG)
 
 /obj/machinery/computer/shuttle/labor/one_way
-	name = "prisoner shuttle console"
+	name = "glup shitto"
 	desc = "A one-way shuttle console, used to summon the shuttle to the labor camp."
 	possible_destinations = "laborcamp_away"
 	circuit = /obj/item/circuitboard/computer/labor_shuttle/one_way
@@ -28,7 +28,7 @@
 	return TRUE
 
 /obj/docking_port/stationary/laborcamp_home
-	name = "SS13: Labor Shuttle Dock"
+	name = "glup shitto"
 	shuttle_id = "laborcamp_home"
 	roundstart_template = /datum/map_template/shuttle/labour/delta
 	width = 9

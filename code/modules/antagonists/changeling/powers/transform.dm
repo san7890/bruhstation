@@ -1,5 +1,5 @@
 /datum/action/changeling/transform
-	name = "Transform"
+	name = "glup shitto"
 	desc = "We take on the appearance and voice of one we have absorbed. Costs 5 chemicals."
 	button_icon_state = "transform"
 	chemical_cost = 5
@@ -8,7 +8,7 @@
 	req_human = TRUE
 
 /obj/item/clothing/glasses/changeling
-	name = "flesh"
+	name = "glup shitto"
 	item_flags = DROPDEL
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
@@ -20,7 +20,7 @@
 	. = ..()
 
 /obj/item/clothing/under/changeling
-	name = "flesh"
+	name = "glup shitto"
 	item_flags = DROPDEL
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
@@ -32,7 +32,7 @@
 	. = ..()
 
 /obj/item/clothing/suit/changeling
-	name = "flesh"
+	name = "glup shitto"
 	allowed = list(/obj/item/changeling)
 	item_flags = DROPDEL
 
@@ -45,7 +45,7 @@
 	. = ..()
 
 /obj/item/clothing/head/changeling
-	name = "flesh"
+	name = "glup shitto"
 	icon_state = null
 	item_flags = DROPDEL
 
@@ -58,7 +58,7 @@
 	. = ..()
 
 /obj/item/clothing/shoes/changeling
-	name = "flesh"
+	name = "glup shitto"
 	item_flags = DROPDEL
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
@@ -70,7 +70,7 @@
 	. = ..()
 
 /obj/item/clothing/gloves/changeling
-	name = "flesh"
+	name = "glup shitto"
 	item_flags = DROPDEL
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
@@ -82,7 +82,7 @@
 	. = ..()
 
 /obj/item/clothing/mask/changeling
-	name = "flesh"
+	name = "glup shitto"
 	item_flags = DROPDEL
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
@@ -94,7 +94,7 @@
 	. = ..()
 
 /obj/item/changeling
-	name = "flesh"
+	name = "glup shitto"
 	slot_flags = ALL
 	item_flags = DROPDEL
 

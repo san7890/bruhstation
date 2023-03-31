@@ -149,7 +149,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	return pick(GLOB.ai_names)
 
 /datum/anonymous_theme/employees
-	name = "Employees"
+	name = "glup shitto"
 
 /datum/anonymous_theme/employees/announce_to_all_players()
 	priority_announce("As punishment for this station's poor productivity when compared to neighbor stations, names and identities will be restricted until further notice.", "Finance Report", SSstation.announcer.get_rand_alert_sound())
@@ -170,7 +170,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	return "Employee [is_ai ? "Core" : JOB_ASSISTANT] [verbs] [phonetic]"
 
 /datum/anonymous_theme/wizards
-	name = "Wizard Academy"
+	name = "glup shitto"
 	extras_prompt = "Give everyone random robes too?"
 
 /datum/anonymous_theme/wizards/player_extras(mob/living/player)
@@ -196,7 +196,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	return "Crystallized Knowledge [is_ai ? "Nexus" : "Sliver"] +[rand(1,99)]" //Could two people roll the same number? Yeah, probably. Do I CARE? Nawww
 
 /obj/item/storage/box/wizard_kit
-	name = "Generic Wizard Cosplay Kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/wizard_kit/PopulateContents()
 	new /obj/item/clothing/head/wizard(src)
@@ -204,7 +204,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	new /obj/item/clothing/shoes/sandal(src)
 
 /obj/item/storage/box/wizard_kit/red
-	name = "Evocation Wizard Cosplay Kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/wizard_kit/red/PopulateContents()
 	new /obj/item/clothing/head/wizard/red(src)
@@ -212,7 +212,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	new /obj/item/clothing/shoes/sandal(src)
 
 /obj/item/storage/box/wizard_kit/yellow
-	name = "Translocation Wizard Cosplay Kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/wizard_kit/yellow/PopulateContents()
 	new /obj/item/clothing/head/wizard/yellow(src)
@@ -220,7 +220,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	new /obj/item/clothing/shoes/sandal(src)
 
 /obj/item/storage/box/wizard_kit/magusred
-	name = "Conjuration Wizard Cosplay Kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/wizard_kit/yellow/PopulateContents()
 	new /obj/item/clothing/head/wizard/magus(src)
@@ -228,7 +228,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	new /obj/item/clothing/shoes/sandal(src)
 
 /obj/item/storage/box/wizard_kit/magusblue
-	name = "Transmutation Wizard Cosplay Kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/wizard_kit/yellow/PopulateContents()
 	new /obj/item/clothing/head/wizard/magus(src)
@@ -236,7 +236,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	new /obj/item/clothing/shoes/sandal(src)
 
 /obj/item/storage/box/wizard_kit/black
-	name = "Necromancy Wizard Cosplay Kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/wizard_kit/black/PopulateContents()
 	new /obj/item/clothing/head/wizard/black(src)
@@ -244,7 +244,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 	new /obj/item/clothing/shoes/sandal(src)
 
 /datum/anonymous_theme/spider_clan
-	name = "Spider Clan"
+	name = "glup shitto"
 
 /datum/anonymous_theme/spider_clan/anonymous_name(mob/target)
 	return "[pick(GLOB.ninja_titles)] [pick(GLOB.ninja_names)]"
@@ -262,7 +262,7 @@ GLOBAL_DATUM(current_anonymous_theme, /datum/anonymous_theme)
 		return "\"[martial_prefix] [martial_style]\" [posibrain_name]"
 
 /datum/anonymous_theme/station
-	name = "Stations?"
+	name = "glup shitto"
 	extras_prompt = "Also set station name to be a random human name?"
 
 /datum/anonymous_theme/station/theme_extras()

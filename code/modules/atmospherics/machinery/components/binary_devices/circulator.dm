@@ -2,7 +2,7 @@
 //node1, air1, network1 correspond to output
 
 /obj/machinery/atmospherics/components/binary/circulator
-	name = "circulator/heat exchanger"
+	name = "glup shitto"
 	desc = "A gas circulator pump and heat exchanger."
 	icon_state = "circ-off-0"
 

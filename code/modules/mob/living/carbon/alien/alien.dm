@@ -1,5 +1,5 @@
 /mob/living/carbon/alien
-	name = "alien"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	gender = FEMALE //All xenos are girls!!
 	dna = null

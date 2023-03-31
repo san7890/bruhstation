@@ -1,5 +1,5 @@
 /obj/structure/plasticflaps
-	name = "airtight plastic flaps"
+	name = "glup shitto"
 	desc = "Heavy duty, airtight, plastic flaps. Definitely can't get past those. No way."
 	gender = PLURAL
 	icon = 'icons/obj/stationobjs.dmi'

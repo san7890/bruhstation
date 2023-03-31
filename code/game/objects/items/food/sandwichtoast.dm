@@ -1,5 +1,5 @@
 /obj/item/food/sandwich
-	name = "sandwich"
+	name = "glup shitto"
 	desc = "A grand creation of meat, cheese, bread, and several leaves of lettuce! Arthur Dent would be proud."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "sandwich"
@@ -14,7 +14,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/grilled_cheese_sandwich
-	name = "grilled cheese sandwich"
+	name = "glup shitto"
 	desc = "A warm, melty sandwich that goes perfectly with tomato soup."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "toastedsandwich"
@@ -31,7 +31,7 @@
 	burns_on_grill = TRUE
 
 /obj/item/food/cheese_sandwich
-	name = "cheese sandwich"
+	name = "glup shitto"
 	desc = "A light snack for a warm day. ...but what if you grilled it?"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "sandwich"
@@ -50,7 +50,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/grilled_cheese_sandwich, rand(30 SECONDS, 60 SECONDS), TRUE)
 
 /obj/item/food/jellysandwich
-	name = "jelly sandwich"
+	name = "glup shitto"
 	desc = "You wish you had some peanut butter to go with this..."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "jellysandwich"
@@ -69,7 +69,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/notasandwich
-	name = "not-a-sandwich"
+	name = "glup shitto"
 	desc = "Something seems to be wrong with this, you can't quite figure what. Maybe it's his moustache."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "notasandwich"
@@ -83,7 +83,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/griddle_toast
-	name = "griddle toast"
+	name = "glup shitto"
 	desc = "Thick cut bread, griddled to perfection."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "griddle_toast"
@@ -95,7 +95,7 @@
 	slot_flags = ITEM_SLOT_MASK
 
 /obj/item/food/butteredtoast
-	name = "buttered toast"
+	name = "glup shitto"
 	desc = "Butter lightly spread over a piece of toast."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "butteredtoast"
@@ -110,7 +110,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/jelliedtoast
-	name = "jellied toast"
+	name = "glup shitto"
 	desc = "A slice of toast covered with delicious jam."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "jellytoast"
@@ -129,7 +129,7 @@
 	foodtypes = GRAIN | TOXIC | SUGAR | BREAKFAST
 
 /obj/item/food/twobread
-	name = "two bread"
+	name = "glup shitto"
 	desc = "This seems awfully bitter."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "twobread"
@@ -143,7 +143,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/hotdog
-	name = "hotdog"
+	name = "glup shitto"
 	desc = "Fresh footlong ready to go down on."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "hotdog"
@@ -164,7 +164,7 @@
 	eat_time = 0
 
 /obj/item/food/danish_hotdog
-	name = "danish hotdog"
+	name = "glup shitto"
 	desc = "Appetizing bun, with a sausage in the middle, covered with sauce, fried onion and pickles rings"
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "danish_hotdog"
@@ -181,7 +181,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/blt
-	name = "\improper BLT"
+	name = "glup shitto"
 	desc = "A classic bacon, lettuce, and tomato sandwich."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "blt"
@@ -197,7 +197,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/peanut_butter_jelly_sandwich
-	name = "peanut butter and jelly sandwich"
+	name = "glup shitto"
 	desc = "A classic PB&J sandwich, just like your mom used to make."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "peanut_butter_jelly_sandwich"
@@ -212,7 +212,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/peanut_butter_banana_sandwich
-	name = "peanut butter and banana sandwich"
+	name = "glup shitto"
 	desc = "A grilled peanut butter sandwich with banana slices mixed in, a good high protein treat."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "peanut_butter_banana_sandwich"
@@ -228,7 +228,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/philly_cheesesteak
-	name = "Philly cheesesteak"
+	name = "glup shitto"
 	desc = "A popular sandwich made of sliced meat, onions, melted cheese in a long hoagie roll. Mouthwatering doesn't even begin to describe it."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "philly_cheesesteak"

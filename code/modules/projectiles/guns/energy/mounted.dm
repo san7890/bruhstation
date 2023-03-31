@@ -1,5 +1,5 @@
 /obj/item/gun/energy/e_gun/advtaser/mounted
-	name = "mounted taser"
+	name = "glup shitto"
 	desc = "An arm mounted dual-mode weapon that fires electrodes and disabler shots."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "taser"
@@ -13,7 +13,7 @@
 	return
 
 /obj/item/gun/energy/laser/mounted
-	name = "mounted laser"
+	name = "glup shitto"
 	desc = "An arm mounted cannon that fires lethal lasers."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "laser_cyborg"

@@ -1,6 +1,6 @@
 /obj/item/clothing/shoes/sandal
 	desc = "A pair of rather plain wooden sandals."
-	name = "sandals"
+	name = "glup shitto"
 	icon_state = "wizard"
 	inhand_icon_state = "wizshoe"
 	custom_materials = list(/datum/material/wood = MINERAL_MATERIAL_AMOUNT * 0.5)
@@ -14,6 +14,6 @@
 	bio = 10
 
 /obj/item/clothing/shoes/sandal/magic
-	name = "magical sandals"
+	name = "glup shitto"
 	desc = "A pair of sandals imbued with magic."
 	resistance_flags = FIRE_PROOF | ACID_PROOF

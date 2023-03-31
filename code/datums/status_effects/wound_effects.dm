@@ -1,7 +1,7 @@
 
 // The shattered remnants of your broken limbs fill you with determination!
 /atom/movable/screen/alert/status_effect/determined
-	name = "Determined"
+	name = "glup shitto"
 	desc = "The serious wounds you've sustained have put your body into fight-or-flight mode! Now's the time to look for an exit!"
 	icon_state = "wounded"
 
@@ -61,7 +61,7 @@
 	UnregisterSignal(owner, list(COMSIG_MOVABLE_MOVED, COMSIG_CARBON_GAIN_WOUND, COMSIG_CARBON_LOSE_WOUND, COMSIG_CARBON_ATTACH_LIMB, COMSIG_CARBON_REMOVE_LIMB))
 
 /atom/movable/screen/alert/status_effect/limp
-	name = "Limping"
+	name = "glup shitto"
 	desc = "One or more of your legs has been wounded, slowing down steps with that leg! Get it fixed, or at least in a sling of gauze!"
 
 /datum/status_effect/limp/proc/check_step(mob/whocares, OldLoc, Dir, forced)
@@ -123,7 +123,7 @@
 
 // wound alert
 /atom/movable/screen/alert/status_effect/wound
-	name = "Wounded"
+	name = "glup shitto"
 	desc = "Your body has sustained serious damage, click here to inspect yourself."
 
 /atom/movable/screen/alert/status_effect/wound/Click()

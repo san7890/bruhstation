@@ -8,7 +8,7 @@
  */
 
 /datum/symptom/fire
-	name = "Spontaneous Combustion"
+	name = "glup shitto"
 	desc = "The virus turns fat into an extremely flammable compound, and raises the body's temperature, making the host burst into flames spontaneously."
 	illness = "Spontaneous Combustion"
 	stealth = -1
@@ -87,7 +87,7 @@ Bonus
 
 /datum/symptom/alkali
 
-	name = "Alkali perspiration"
+	name = "glup shitto"
 	desc = "The virus attaches to sudoriparous glands, synthesizing a chemical that bursts into flames when reacting with water, leading to self-immolation."
 	illness = "Crispy Skin"
 	stealth = 2

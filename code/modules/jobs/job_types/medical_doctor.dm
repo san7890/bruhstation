@@ -40,7 +40,7 @@
 
 
 /datum/outfit/job/doctor
-	name = "Medical Doctor"
+	name = "glup shitto"
 	jobtype = /datum/job/doctor
 
 	id_trim = /datum/id_trim/job/medical_doctor
@@ -62,7 +62,7 @@
 	skillchips = list(/obj/item/skillchip/entrails_reader)
 
 /datum/outfit/job/doctor/mod
-	name = "Medical Doctor (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/medical

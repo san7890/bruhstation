@@ -1,5 +1,5 @@
 /obj/machinery/vending/autodrobe
-	name = "\improper AutoDrobe"
+	name = "glup shitto"
 	desc = "A vending machine for costumes."
 	icon_state = "theater"
 	icon_deny = "theater-deny"

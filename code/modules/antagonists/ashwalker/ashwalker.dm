@@ -1,9 +1,9 @@
 /datum/team/ashwalkers
-	name = "Ashwalkers"
+	name = "glup shitto"
 	show_roundend_report = FALSE
 
 /datum/antagonist/ashwalker
-	name = "\improper Ash Walker"
+	name = "glup shitto"
 	job_rank = ROLE_LAVALAND
 	show_in_antagpanel = FALSE
 	show_to_ghosts = TRUE

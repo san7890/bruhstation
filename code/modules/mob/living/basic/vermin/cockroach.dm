@@ -1,5 +1,5 @@
 /mob/living/basic/cockroach
-	name = "cockroach"
+	name = "glup shitto"
 	desc = "This station is just crawling with bugs."
 	icon_state = "cockroach"
 	icon_dead = "cockroach" //Make this work
@@ -69,13 +69,13 @@
 	damage_type = BRUTE
 
 /obj/item/ammo_casing/glockroach
-	name = "0.9mm bullet casing"
+	name = "glup shitto"
 	desc = "A... 0.9mm bullet casing? What?"
 	projectile_type = /obj/projectile/glockroachbullet
 
 
 /mob/living/basic/cockroach/glockroach
-	name = "glockroach"
+	name = "glup shitto"
 	desc = "HOLY SHIT, THAT COCKROACH HAS A GUN!"
 	icon_state = "glockroach"
 	melee_damage_lower = 2.5
@@ -106,7 +106,7 @@
 	action_cooldown = 1 SECONDS
 
 /mob/living/basic/cockroach/hauberoach
-	name = "hauberoach"
+	name = "glup shitto"
 	desc = "Is that cockroach wearing a tiny yet immaculate replica 19th century Prussian spiked helmet? ...Is that a bad thing?"
 	icon_state = "hauberoach"
 	attack_verb_continuous = "rams its spike into"
@@ -167,7 +167,7 @@
 	action_cooldown = 0.8 SECONDS
 
 /mob/living/basic/cockroach/glockroach/mobroach
-	name = "mobroach"
+	name = "glup shitto"
 	desc = "WE'RE FUCKED, THAT GLOCKROACH HAS A TOMMYGUN!"
 	icon_state = "mobroach"
 	ai_controller = /datum/ai_controller/basic_controller/cockroach/mobroach

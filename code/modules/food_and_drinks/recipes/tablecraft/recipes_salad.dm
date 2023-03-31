@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////SALADS////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/herbsalad
-	name = "Herb salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/ambrosia/vulgaris = 3,
@@ -14,7 +14,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/aesirsalad
-	name = "Aesir salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/ambrosia/deus = 3,
@@ -24,7 +24,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/validsalad
-	name = "Valid salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/ambrosia/vulgaris = 3,
@@ -35,7 +35,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/monkeysdelight
-	name = "Monkeys delight"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/flour = 5,
 		/datum/reagent/consumable/salt = 1,
@@ -61,7 +61,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/fruitsalad
-	name = "Fruit salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/apple = 1,
@@ -74,7 +74,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/junglesalad
-	name = "Jungle salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/apple = 2,
@@ -86,7 +86,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/citrusdelight
-	name = "Citrus delight"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/citrus/lime = 1,
@@ -98,7 +98,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/edensalad
-	name = "Salad of Eden"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/ambrosia/vulgaris = 1,
@@ -110,7 +110,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/kale_salad
-	name = "Kale salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/carrot = 1,
@@ -122,7 +122,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/greek_salad
-	name = "Greek salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/olive = 1,
@@ -136,7 +136,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/caesar_salad
-	name = "Caesar salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/cabbage = 2,
@@ -149,7 +149,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/spring_salad
-	name = "Spring salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/cabbage = 2,
@@ -161,7 +161,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/potato_salad
-	name = "Potato salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/potato = 2,
@@ -173,7 +173,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/spinach_fruit_salad
-	name = "Spinach fruit salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/herbs = 3,
@@ -185,7 +185,7 @@
 	category = CAT_SALAD
 
 /datum/crafting_recipe/food/antipasto_salad
-	name = "Antipasto salad"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/cabbage = 2,

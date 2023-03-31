@@ -146,7 +146,7 @@
 	qdel(src)
 
 /obj/item/gun/energy/dueling
-	name = "dueling pistol"
+	name = "glup shitto"
 	desc = "High-tech dueling pistol. Launches chaff and projectile according to preset settings."
 	icon_state = "dueling_pistol"
 	inhand_icon_state = "gun"
@@ -310,7 +310,7 @@
 //Projectile
 
 /obj/projectile/energy/duel
-	name = "dueling beam"
+	name = "glup shitto"
 	icon_state = "declone"
 	reflectable = FALSE
 	homing = TRUE
@@ -352,7 +352,7 @@
 
 //Storage case.
 /obj/item/storage/lockbox/dueling
-	name = "dueling pistol case"
+	name = "glup shitto"
 	desc = "Let's solve this like gentlespacemen."
 	icon_state = "medalbox+l"
 	inhand_icon_state = "syringe_kit"

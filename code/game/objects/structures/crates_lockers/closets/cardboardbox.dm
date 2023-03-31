@@ -1,5 +1,5 @@
 /obj/structure/closet/cardboard
-	name = "large cardboard box"
+	name = "glup shitto"
 	desc = "Just a box..."
 	icon_state = "cardboard"
 	mob_storage_capacity = 1
@@ -86,7 +86,7 @@
 	LAZYREMOVE(update_on_z, alert_image)
 
 /obj/structure/closet/cardboard/metal
-	name = "large metal box"
+	name = "glup shitto"
 	desc = "THE COWARDS! THE FOOLS!"
 	icon_state = "metalbox"
 	max_integrity = 500

@@ -2,7 +2,7 @@
  * An armblade that instantly snuffs out lights
  */
 /obj/item/light_eater
-	name = "light eater" //as opposed to heavy eater
+	name = "glup shitto" //as opposed to heavy eater
 	icon = 'icons/obj/weapons/changeling_items.dmi'
 	icon_state = "arm_blade"
 	inhand_icon_state = "arm_blade"

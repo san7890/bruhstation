@@ -9,7 +9,7 @@ Bonus
 	Deals brute damage over time.
 */
 /datum/symptom/flesh_eating
-	name = "Necrotizing Fasciitis"
+	name = "glup shitto"
 	desc = "The virus aggressively attacks bone cells, causing excessive wobbliness and falling down a lot."
 	illness = "Jellyitis"
 	stealth = -3
@@ -81,7 +81,7 @@ Bonus
 
 /datum/symptom/flesh_death
 
-	name = "Autophagocytosis Necrosis"
+	name = "glup shitto"
 	desc = "The virus rapidly consumes infected cells, leading to heavy and widespread damage."
 	illness = "Premature Mummification"
 	stealth = -2

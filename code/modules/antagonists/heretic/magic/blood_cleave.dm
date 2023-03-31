@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/cleave
-	name = "Cleave"
+	name = "glup shitto"
 	desc = "Causes severe bleeding on a target and several targets around them."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -54,7 +54,7 @@
 	return TRUE
 
 /datum/action/cooldown/spell/pointed/cleave/long
-	name = "Lesser Cleave"
+	name = "glup shitto"
 	cooldown_time = 60 SECONDS
 	wound_type = /datum/wound/slash/severe
 

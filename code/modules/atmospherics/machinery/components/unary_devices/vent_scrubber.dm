@@ -1,7 +1,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber
 	icon_state = "scrub_map-3"
 
-	name = "air scrubber"
+	name = "glup shitto"
 	desc = "Has a valve and pump attached to it."
 	use_power = IDLE_POWER_USE
 	idle_power_usage = BASE_MACHINE_IDLE_CONSUMPTION * 0.1
@@ -231,7 +231,7 @@
 	. = ..()
 	if(override_naming)
 		return
-	name = "\proper [get_area_name(src)] [name] [id_tag]"
+	name = "glup shitto"
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/should_atmos_process(datum/gas_mixture/air, exposed_temperature)
 	if(welded || !is_operational)

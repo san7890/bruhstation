@@ -1,11 +1,11 @@
 /obj/machinery/rnd/production/protolathe/department
-	name = "department protolathe"
+	name = "glup shitto"
 	desc = "A special protolathe with a built in interface meant for departmental usage, with built in ExoSync receivers allowing it to print designs researched that match its ROM-encoded department type."
 	icon_state = "protolathe"
 	circuit = /obj/item/circuitboard/machine/protolathe/department
 
 /obj/machinery/rnd/production/protolathe/department/engineering
-	name = "department protolathe (Engineering)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_ENGINEERING
 	department_tag = "Engineering"
 	circuit = /obj/item/circuitboard/machine/protolathe/department/engineering
@@ -17,7 +17,7 @@
 	charges_tax = FALSE
 
 /obj/machinery/rnd/production/protolathe/department/service
-	name = "department protolathe (Service)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_SERVICE
 	department_tag = "Service"
 	circuit = /obj/item/circuitboard/machine/protolathe/department/service
@@ -25,7 +25,7 @@
 	payment_department = ACCOUNT_SRV
 
 /obj/machinery/rnd/production/protolathe/department/medical
-	name = "department protolathe (Medical)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_MEDICAL
 	department_tag = "Medical"
 	circuit = /obj/item/circuitboard/machine/protolathe/department/medical
@@ -33,7 +33,7 @@
 	payment_department = ACCOUNT_MED
 
 /obj/machinery/rnd/production/protolathe/department/cargo
-	name = "department protolathe (Cargo)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_CARGO
 	department_tag = "Cargo"
 	circuit = /obj/item/circuitboard/machine/protolathe/department/cargo
@@ -41,7 +41,7 @@
 	payment_department = ACCOUNT_CAR
 
 /obj/machinery/rnd/production/protolathe/department/science
-	name = "department protolathe (Science)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_SCIENCE
 	department_tag = "Science"
 	circuit = /obj/item/circuitboard/machine/protolathe/department/science
@@ -49,7 +49,7 @@
 	payment_department = ACCOUNT_SCI
 
 /obj/machinery/rnd/production/protolathe/department/security
-	name = "department protolathe (Security)"
+	name = "glup shitto"
 	allowed_department_flags = DEPARTMENT_BITFLAG_SECURITY
 	department_tag = "Security"
 	circuit = /obj/item/circuitboard/machine/protolathe/department/security

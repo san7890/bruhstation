@@ -1,5 +1,5 @@
 /datum/crafting_recipe/bluespace_vendor_mount
-	name = "Bluespace Vendor Wall Mount"
+	name = "glup shitto"
 	result = /obj/item/wallframe/bluespace_vendor_mount
 	time = 6 SECONDS
 	reqs = list(
@@ -10,7 +10,7 @@
 	category = CAT_ATMOSPHERIC
 
 /datum/crafting_recipe/pipe
-	name = "Smart pipe fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH)
 	result = /obj/item/pipe/quaternary/pipe
 	reqs = list(/obj/item/stack/sheet/iron = 1)
@@ -26,7 +26,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/layer_adapter
-	name = "Layer manifold fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/binary/layer_adapter
 	reqs = list(
@@ -47,7 +47,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/color_adapter
-	name = "Color adapter fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/binary/color_adapter
 	reqs = list(
@@ -68,7 +68,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/he_pipe
-	name = "H/E pipe fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/quaternary/he_pipe
 	reqs = list(
@@ -89,7 +89,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/he_junction
-	name = "H/E junction fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/he_junction
 	reqs = list(
@@ -110,7 +110,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/pressure_pump
-	name = "Pressure pump fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/binary/pressure_pump
 	reqs = list(
@@ -132,7 +132,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/manual_valve
-	name = "Manual valve fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/binary/manual_valve
 	reqs = list(
@@ -153,7 +153,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/vent
-	name = "Vent pump fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/vent
 	reqs = list(
@@ -175,7 +175,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/scrubber
-	name = "Scrubber fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/scrubber
 	reqs = list(
@@ -197,7 +197,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/filter
-	name = "Filter fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/trinary/flippable/filter
 	reqs = list(
@@ -219,7 +219,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/mixer
-	name = "Mixer fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/trinary/flippable/mixer
 	reqs = list(
@@ -241,7 +241,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/connector
-	name = "Portable connector fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/connector
 	reqs = list(
@@ -262,7 +262,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/passive_vent
-	name = "Passive vent fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/passive_vent
 	reqs = list(
@@ -283,7 +283,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/injector
-	name = "Outlet injector fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/injector
 	reqs = list(
@@ -305,7 +305,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/he_exchanger
-	name = "Heat exchanger fitting"
+	name = "glup shitto"
 	tool_behaviors = list(TOOL_WRENCH, TOOL_WELDER)
 	result = /obj/item/pipe/directional/he_exchanger
 	reqs = list(
@@ -326,7 +326,7 @@
 	crafted_pipe.update()
 
 /datum/crafting_recipe/steam_vent
-	name = "Steam Vent"
+	name = "glup shitto"
 	result = /obj/structure/steam_vent
 	time = 0.8 SECONDS
 	reqs = list(

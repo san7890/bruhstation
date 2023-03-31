@@ -1,5 +1,5 @@
 /obj/structure/blob/shield
-	name = "strong blob"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/blob.dmi'
 	icon_state = "blob_shield"
 	desc = "A solid wall of slightly twitching tendrils."
@@ -30,7 +30,7 @@
 
 /obj/structure/blob/shield/update_name(updates)
 	. = ..()
-	name = "[(atom_integrity < (max_integrity * 0.5)) ? "weakened " : null][initial(name)]"
+	name = "glup shitto"
 
 /obj/structure/blob/shield/update_desc(updates)
 	. = ..()
@@ -47,7 +47,7 @@
 	return ..()
 
 /obj/structure/blob/shield/reflective
-	name = "reflective blob"
+	name = "glup shitto"
 	desc = "A solid wall of slightly twitching tendrils with a reflective glow."
 	damaged_desc = "A wall of twitching tendrils with a reflective glow."
 	icon_state = "blob_glow"

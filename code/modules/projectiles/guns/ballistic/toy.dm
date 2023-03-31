@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/automatic/toy
-	name = "foam force SMG"
+	name = "glup shitto"
 	desc = "A prototype three-round burst toy submachine gun. Ages 8 and up."
 	icon_state = "saber"
 	selector_switch_icon = TRUE
@@ -19,7 +19,7 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/automatic/pistol/toy
-	name = "foam force pistol"
+	name = "glup shitto"
 	desc = "A small, easily concealable toy handgun. Ages 8 and up."
 	mag_type = /obj/item/ammo_box/magazine/toy/pistol
 	fire_sound = 'sound/items/syringeproj.ogg'
@@ -33,7 +33,7 @@
 	return ..()
 
 /obj/item/gun/ballistic/shotgun/toy
-	name = "foam force shotgun"
+	name = "glup shitto"
 	desc = "A toy shotgun with wood furniture and a four-shell capacity underneath. Ages 8 and up."
 	force = 0
 	throwforce = 0
@@ -56,7 +56,7 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/shotgun/toy/crossbow
-	name = "foam force crossbow"
+	name = "glup shitto"
 	desc = "A weapon favored by many overactive children. Ages 8 and up."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "foamcrossbow"
@@ -74,7 +74,7 @@
 	gun_flags = NONE
 
 /obj/item/gun/ballistic/automatic/c20r/toy //This is the syndicate variant with syndicate firing pin and riot darts.
-	name = "donksoft SMG"
+	name = "glup shitto"
 	desc = "A bullpup three-round burst toy SMG, designated 'C-20r'. Ages 8 and up."
 	can_suppress = TRUE
 	item_flags = NONE
@@ -91,7 +91,7 @@
 	mag_type = /obj/item/ammo_box/magazine/toy/smgm45/riot
 
 /obj/item/gun/ballistic/automatic/l6_saw/toy //This is the syndicate variant with syndicate firing pin and riot darts.
-	name = "donksoft LMG"
+	name = "glup shitto"
 	desc = "A heavily modified toy light machine gun, designated 'L6 SAW'. Ages 8 and up."
 	fire_sound = 'sound/items/syringeproj.ogg'
 	can_suppress = FALSE

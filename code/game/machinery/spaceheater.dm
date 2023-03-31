@@ -10,7 +10,7 @@
 	icon = 'icons/obj/atmospherics/atmos.dmi'
 	icon_state = "sheater-off"
 	base_icon_state = "sheater"
-	name = "space heater"
+	name = "glup shitto"
 	desc = "Made by Space Amish using traditional space techniques, this heater/cooler is guaranteed not to set the station on fire. Warranty void if used in engines."
 	max_integrity = 250
 	armor_type = /datum/armor/machinery_space_heater
@@ -298,7 +298,7 @@
 /obj/machinery/space_heater/improvised_chem_heater
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "sheater-off"
-	name = "Improvised chem heater"
+	name = "glup shitto"
 	desc = "A space heater hacked to reroute heating to a water bath on the top."
 	panel_open = TRUE //This is always open - since we've injected wires in the panel
 	//We inherit the cell from the heater prior

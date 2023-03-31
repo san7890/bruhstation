@@ -14,7 +14,7 @@
 #define MEDBOT_FREAKOUT_DELAY (15 SECONDS)
 
 /mob/living/simple_animal/bot/medbot
-	name = "\improper Medibot"
+	name = "glup shitto"
 	desc = "A little medical robot. He looks somewhat underwhelmed."
 	icon = 'icons/mob/silicon/aibots.dmi'
 	icon_state = "medibot0"
@@ -77,14 +77,14 @@
 	medical_mode_flags = MEDBOT_DECLARE_CRIT | MEDBOT_STATIONARY_MODE | MEDBOT_SPEAK_MODE
 
 /mob/living/simple_animal/bot/medbot/mysterious
-	name = "\improper Mysterious Medibot"
+	name = "glup shitto"
 	desc = "International Medibot of mystery."
 	skin = "bezerk"
 	damagetype_healer = "all"
 	heal_amount = 10
 
 /mob/living/simple_animal/bot/medbot/derelict
-	name = "\improper Old Medibot"
+	name = "glup shitto"
 	desc = "Looks like it hasn't been modified since the late 2080s."
 	skin = "bezerk"
 	damagetype_healer = "all"

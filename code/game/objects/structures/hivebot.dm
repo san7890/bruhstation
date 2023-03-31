@@ -1,5 +1,5 @@
 /obj/structure/hivebot_beacon
-	name = "beacon"
+	name = "glup shitto"
 	desc = "Some odd beacon thing."
 	icon = 'icons/mob/simple/hivebot.dmi'
 	icon_state = "def_radar-off"

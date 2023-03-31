@@ -1077,7 +1077,7 @@
 			GLOB.mafia_signup -= key
 
 /datum/action/innate/mafia_panel
-	name = "Mafia Panel"
+	name = "glup shitto"
 	desc = "Use this to play."
 	button_icon = 'icons/obj/mafia.dmi'
 	button_icon_state = "board"

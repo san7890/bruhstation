@@ -6,7 +6,7 @@
 	icon = 'icons/obj/atmospherics/components/hypertorus.dmi'
 	icon_state = "core_off"
 
-	name = "thermomachine"
+	name = "glup shitto"
 	desc = "Heats or cools gas in connected pipes."
 	anchored = TRUE
 	density = TRUE
@@ -94,7 +94,7 @@
 	return
 
 /obj/machinery/atmospherics/components/unary/hypertorus/fuel_input
-	name = "HFR fuel input port"
+	name = "glup shitto"
 	desc = "Input port for the Hypertorus Fusion Reactor, designed to take in fuels with the optimal fuel mix being a 50/50 split."
 	icon_state = "fuel_input_off"
 	icon_state_open = "fuel_input_open"
@@ -103,7 +103,7 @@
 	circuit = /obj/item/circuitboard/machine/HFR_fuel_input
 
 /obj/machinery/atmospherics/components/unary/hypertorus/waste_output
-	name = "HFR waste output port"
+	name = "glup shitto"
 	desc = "Waste port for the Hypertorus Fusion Reactor, designed to output the hot waste gases coming from the core of the machine."
 	icon_state = "waste_output_off"
 	icon_state_open = "waste_output_open"
@@ -112,7 +112,7 @@
 	circuit = /obj/item/circuitboard/machine/HFR_waste_output
 
 /obj/machinery/atmospherics/components/unary/hypertorus/moderator_input
-	name = "HFR moderator input port"
+	name = "glup shitto"
 	desc = "Moderator port for the Hypertorus Fusion Reactor, designed to move gases inside the machine to cool and control the flow of the reaction."
 	icon_state = "moderator_input_off"
 	icon_state_open = "moderator_input_open"
@@ -124,7 +124,7 @@
 * Interface and corners
 */
 /obj/machinery/hypertorus
-	name = "hypertorus_core"
+	name = "glup shitto"
 	desc = "hypertorus_core"
 	icon = 'icons/obj/atmospherics/components/hypertorus.dmi'
 	icon_state = "core_off"
@@ -165,7 +165,7 @@
 	return ..()
 
 /obj/machinery/hypertorus/interface
-	name = "HFR interface"
+	name = "glup shitto"
 	desc = "Interface for the HFR to control the flow of the reaction."
 	icon_state = "interface_off"
 	circuit = /obj/item/circuitboard/machine/HFR_interface
@@ -400,7 +400,7 @@
 				. = TRUE
 
 /obj/machinery/hypertorus/corner
-	name = "HFR corner"
+	name = "glup shitto"
 	desc = "Structural piece of the machine."
 	icon_state = "corner_off"
 	circuit = /obj/item/circuitboard/machine/HFR_corner
@@ -409,7 +409,7 @@
 	icon_state_active = "corner_active"
 
 /obj/item/paper/guides/jobs/atmos/hypertorus
-	name = "paper- 'Quick guide to safe handling of the HFR'"
+	name = "glup shitto"
 	default_raw_text = "<B>How to safely(TM) operate the Hypertorus</B><BR>\
 	-Build the machine as it�s shown in the main guide.<BR>\
 	-Make a 50/50 gasmix of tritium and hydrogen totalling around 2000 moles.<BR>\
@@ -434,7 +434,7 @@
 	use more advanced guides to understando how the various gases will act as moderators."
 
 /obj/item/hfr_box
-	name = "HFR box"
+	name = "glup shitto"
 	desc = "If you see this, call the police."
 	icon = 'icons/obj/atmospherics/components/hypertorus.dmi'
 	icon_state = "error"
@@ -444,39 +444,39 @@
 	var/part_path
 
 /obj/item/hfr_box/corner
-	name = "HFR box corner"
+	name = "glup shitto"
 	desc = "Place this as the corner of your 3x3 multiblock fusion reactor"
 	icon_state = "box_corner"
 	box_type = "corner"
 	part_path = /obj/machinery/hypertorus/corner
 
 /obj/item/hfr_box/body
-	name = "HFR box body"
+	name = "glup shitto"
 	desc = "Place this on the sides of the core box of your 3x3 multiblock fusion reactor"
 	box_type = "body"
 	icon_state = "box_body"
 
 /obj/item/hfr_box/body/fuel_input
-	name = "HFR box fuel input"
+	name = "glup shitto"
 	icon_state = "box_fuel"
 	part_path = /obj/machinery/atmospherics/components/unary/hypertorus/fuel_input
 
 /obj/item/hfr_box/body/moderator_input
-	name = "HFR box moderator input"
+	name = "glup shitto"
 	icon_state = "box_moderator"
 	part_path = /obj/machinery/atmospherics/components/unary/hypertorus/moderator_input
 
 /obj/item/hfr_box/body/waste_output
-	name = "HFR box waste output"
+	name = "glup shitto"
 	icon_state = "box_waste"
 	part_path = /obj/machinery/atmospherics/components/unary/hypertorus/waste_output
 
 /obj/item/hfr_box/body/interface
-	name = "HFR box interface"
+	name = "glup shitto"
 	part_path = /obj/machinery/hypertorus/interface
 
 /obj/item/hfr_box/core
-	name = "HFR box core"
+	name = "glup shitto"
 	desc = "Activate this with a multitool to deploy the full machine after setting up the other boxes"
 	icon_state = "box_core"
 	box_type = "core"

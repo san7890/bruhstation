@@ -1,5 +1,5 @@
 /obj/effect/anomaly/ectoplasm
-	name = "ectoplasm anomaly"
+	name = "glup shitto"
 	desc = "It looks like the souls of the damned are trying to break into the realm of the living again. How upsetting."
 	icon_state = "ectoplasm"
 	aSignal = /obj/item/assembly/signaler/anomaly/ectoplasm
@@ -127,7 +127,7 @@
 // Can be destroyed early to the same effect.
 
 /obj/structure/ghost_portal
-	name = "Spooky Portal"
+	name = "glup shitto"
 	desc = "A portal between our dimension and who-knows-where? It's emitting an absolutely ungodly wailing sound."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "anom"

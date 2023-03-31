@@ -1,5 +1,5 @@
 /obj/item/tome
-	name = "arcane tome"
+	name = "glup shitto"
 	desc = "An old, dusty tome with frayed edges and a sinister-looking cover."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state ="tome"
@@ -8,7 +8,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/melee/cultblade/dagger
-	name = "ritual dagger"
+	name = "glup shitto"
 	desc = "A strange dagger said to be used by sinister groups for \"preparing\" a corpse before sacrificing it to their dark gods."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "render"
@@ -54,7 +54,7 @@ Striking a noncultist, however, will tear their flesh."}
 		return FALSE
 
 /obj/item/melee/cultblade
-	name = "eldritch longsword"
+	name = "glup shitto"
 	desc = "A sword humming with unholy energy. It glows with a dim red light."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "cultblade"
@@ -107,7 +107,7 @@ Striking a noncultist, however, will tear their flesh."}
 	..()
 
 /obj/item/melee/cultblade/ghost
-	name = "eldritch sword"
+	name = "glup shitto"
 	force = 19 //can't break normal airlocks
 	item_flags = NEEDS_PERMIT | DROPDEL
 	flags_1 = NONE
@@ -123,7 +123,7 @@ Striking a noncultist, however, will tear their flesh."}
 		to_chat(user, span_cultlarge("\"I wouldn't advise that.\""))
 
 /datum/action/innate/dash/cult
-	name = "Rend the Veil"
+	name = "glup shitto"
 	desc = "Use the sword to shear open the flimsy fabric of this reality and teleport to your target."
 	button_icon = 'icons/mob/actions/actions_cult.dmi'
 	button_icon_state = "phaseshift"
@@ -140,7 +140,7 @@ Striking a noncultist, however, will tear their flesh."}
 		return FALSE
 
 /obj/item/restraints/legcuffs/bola/cult
-	name = "\improper Nar'Sien bola"
+	name = "glup shitto"
 	desc = "A strong bola, bound with dark magic that allows it to pass harmlessly through Nar'Sien cultists. Throw it to trip and slow your victim."
 	icon_state = "bola_cult"
 	inhand_icon_state = "bola_cult"
@@ -172,7 +172,7 @@ Striking a noncultist, however, will tear their flesh."}
 
 
 /obj/item/clothing/head/hooded/cult_hoodie
-	name = "ancient cultist hood"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	icon_state = "culthood"
@@ -197,7 +197,7 @@ Striking a noncultist, however, will tear their flesh."}
 	acid = 10
 
 /obj/item/clothing/suit/hooded/cultrobes
-	name = "ancient cultist robes"
+	name = "glup shitto"
 	desc = "A ragged, dusty set of robes. Strange letters line the inside."
 	icon_state = "cultrobes"
 	icon = 'icons/obj/clothing/suits/armor.dmi'
@@ -225,13 +225,13 @@ Striking a noncultist, however, will tear their flesh."}
 	acid = 10
 
 /obj/item/clothing/head/hooded/cult_hoodie/alt
-	name = "cultist hood"
+	name = "glup shitto"
 	desc = "An armored hood worn by the followers of Nar'Sie."
 	icon_state = "cult_hoodalt"
 	inhand_icon_state = null
 
 /obj/item/clothing/suit/hooded/cultrobes/alt
-	name = "cultist robes"
+	name = "glup shitto"
 	desc = "An armored set of robes worn by the followers of Nar'Sie."
 	icon_state = "cultrobesalt"
 	inhand_icon_state = null
@@ -245,7 +245,7 @@ Striking a noncultist, however, will tear their flesh."}
 	ADD_TRAIT(src, TRAIT_NODROP, CULT_TRAIT)
 
 /obj/item/clothing/head/wizard/magus
-	name = "magus helm"
+	name = "glup shitto"
 	icon_state = "magus"
 	inhand_icon_state = null
 	desc = "A helm worn by the followers of Nar'Sie."
@@ -264,7 +264,7 @@ Striking a noncultist, however, will tear their flesh."}
 	acid = 10
 
 /obj/item/clothing/suit/magusred
-	name = "magus robes"
+	name = "glup shitto"
 	desc = "A set of armored robes worn by the followers of Nar'Sie."
 	icon_state = "magusred"
 	icon = 'icons/obj/clothing/suits/wizard.dmi'
@@ -286,7 +286,7 @@ Striking a noncultist, however, will tear their flesh."}
 	acid = 10
 
 /obj/item/clothing/suit/hooded/cultrobes/hardened
-	name = "\improper Nar'Sien hardened armor"
+	name = "glup shitto"
 	desc = "A heavily-armored exosuit worn by warriors of the Nar'Sien cult. It can withstand hard vacuum."
 	icon_state = "cult_armor"
 	inhand_icon_state = null
@@ -311,7 +311,7 @@ Striking a noncultist, however, will tear their flesh."}
 	acid = 100
 
 /obj/item/clothing/head/hooded/cult_hoodie/hardened
-	name = "\improper Nar'Sien hardened helmet"
+	name = "glup shitto"
 	desc = "A heavily-armored helmet worn by warriors of the Nar'Sien cult. It can withstand hard vacuum."
 	icon_state = "cult_helmet"
 	inhand_icon_state = null
@@ -335,7 +335,7 @@ Striking a noncultist, however, will tear their flesh."}
 	acid = 100
 
 /obj/item/sharpener/cult
-	name = "eldritch whetstone"
+	name = "glup shitto"
 	desc = "A block, empowered by dark magic. Sharp weapons will be enhanced when used on the stone."
 	icon_state = "cult_sharpener"
 	uses = 1
@@ -348,7 +348,7 @@ Striking a noncultist, however, will tear their flesh."}
 	return ..()
 
 /obj/item/clothing/suit/hooded/cultrobes/cult_shield
-	name = "empowered cultist armor"
+	name = "glup shitto"
 	desc = "Empowered armor which creates a powerful shield around the user."
 	icon_state = "cult_armor"
 	inhand_icon_state = null
@@ -377,7 +377,7 @@ Striking a noncultist, however, will tear their flesh."}
 		wearer.visible_message(span_danger("The runed shield around [wearer] suddenly disappears!"))
 
 /obj/item/clothing/head/hooded/cult_hoodie/cult_shield
-	name = "empowered cultist helmet"
+	name = "glup shitto"
 	desc = "Empowered helmet which creates a powerful shield around the user."
 	icon_state = "cult_hoodalt"
 	armor_type = /datum/armor/cult_hoodie_cult_shield
@@ -402,7 +402,7 @@ Striking a noncultist, however, will tear their flesh."}
 		user.Paralyze(100)
 
 /obj/item/clothing/suit/hooded/cultrobes/berserker
-	name = "flagellant's robes"
+	name = "glup shitto"
 	desc = "Blood-soaked robes infused with dark magic; allows the user to move at inhuman speeds, but at the cost of increased damage. Provides an even greater speed boost if its hood is worn."
 	allowed = list(/obj/item/tome, /obj/item/melee/cultblade)
 	armor_type = /datum/armor/cultrobes_berserker
@@ -417,7 +417,7 @@ Striking a noncultist, however, will tear their flesh."}
 	bomb = -45
 
 /obj/item/clothing/head/hooded/cult_hoodie/berserkerhood
-	name = "flagellant's hood"
+	name = "glup shitto"
 	desc = "A blood-soaked hood infused with dark magic."
 	armor_type = /datum/armor/cult_hoodie_berserkerhood
 	slowdown = -0.3
@@ -440,7 +440,7 @@ Striking a noncultist, however, will tear their flesh."}
 
 /obj/item/clothing/glasses/hud/health/night/cultblind
 	desc = "May Nar'Sie guide you through the darkness and shield you from the light."
-	name = "zealot's blindfold"
+	name = "glup shitto"
 	icon_state = "blindfold"
 	inhand_icon_state = "blindfold"
 	flash_protect = FLASH_PROTECTION_WELDER
@@ -455,7 +455,7 @@ Striking a noncultist, however, will tear their flesh."}
 		user.adjust_temp_blindness(60 SECONDS)
 
 /obj/item/reagent_containers/cup/beaker/unholywater
-	name = "flask of unholy water"
+	name = "glup shitto"
 	desc = "Toxic to nonbelievers; reinvigorating to the faithful - this flask may be sipped or thrown."
 	icon = 'icons/obj/drinks/bottles.dmi'
 	icon_state = "holyflask"
@@ -471,7 +471,7 @@ Striking a noncultist, however, will tear their flesh."}
 #define SHUTTLE_CURSE_OMFG_TIMESPAN (10 SECONDS)
 
 /obj/item/shuttle_curse
-	name = "cursed orb"
+	name = "glup shitto"
 	desc = "You peer within this smokey orb and glimpse terrible fates befalling the emergency escape shuttle. "
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "shuttlecurse"
@@ -546,7 +546,7 @@ Striking a noncultist, however, will tear their flesh."}
 #undef MAX_SHUTTLE_CURSES
 
 /obj/item/cult_shift
-	name = "veil shifter"
+	name = "glup shitto"
 	desc = "This relic instantly teleports you, and anything you're pulling, forward by a moderate distance."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state ="shifter"
@@ -599,7 +599,7 @@ Striking a noncultist, however, will tear their flesh."}
 		to_chat(C, span_warning("The veil cannot be torn here!"))
 
 /obj/item/flashlight/flare/culttorch
-	name = "void torch"
+	name = "glup shitto"
 	desc = "Used by veteran cultists to instantly transport items to their needful brethren."
 	w_class = WEIGHT_CLASS_SMALL
 	light_range = 1
@@ -658,7 +658,7 @@ Striking a noncultist, however, will tear their flesh."}
 		qdel(src)
 
 /obj/item/melee/cultblade/halberd
-	name = "bloody halberd"
+	name = "glup shitto"
 	desc = "A halberd with a volatile axehead made from crystallized blood. It seems linked to its creator. And, admittedly, more of a poleaxe than a halberd."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "occultpoleaxe0"
@@ -745,7 +745,7 @@ Striking a noncultist, however, will tear their flesh."}
 		return FALSE
 
 /datum/action/innate/cult/halberd
-	name = "Bloody Bond"
+	name = "glup shitto"
 	desc = "Call the bloody halberd back to your hand!"
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
@@ -776,7 +776,7 @@ Striking a noncultist, however, will tear their flesh."}
 
 
 /obj/item/gun/ballistic/rifle/enchanted/arcane_barrage/blood
-	name = "blood bolt barrage"
+	name = "glup shitto"
 	desc = "Blood for blood."
 	color = "#ff0000"
 	guns_left = 24
@@ -807,7 +807,7 @@ Striking a noncultist, however, will tear their flesh."}
 	firing_effect_type = /obj/effect/temp_visual/cult/sparks
 
 /obj/projectile/magic/arcane_barrage/blood
-	name = "blood bolt"
+	name = "glup shitto"
 	icon_state = "mini_leaper"
 	nondirectional_sprite = TRUE
 	damage_type = BRUTE
@@ -833,7 +833,7 @@ Striking a noncultist, however, will tear their flesh."}
 		..()
 
 /obj/item/blood_beam
-	name = "\improper magical aura"
+	name = "glup shitto"
 	desc = "Sinister looking aura that distorts the flow of reality around it."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	lefthand_file = 'icons/mob/inhands/items/touchspell_lefthand.dmi'
@@ -945,10 +945,10 @@ Striking a noncultist, however, will tear their flesh."}
 
 
 /obj/effect/ebeam/blood
-	name = "blood beam"
+	name = "glup shitto"
 
 /obj/item/shield/mirror
-	name = "mirror shield"
+	name = "glup shitto"
 	desc = "An infamous shield used by Nar'Sien sects to confuse and disorient their enemies. Its edges are weighted for use as a throwing weapon - capable of disabling multiple foes with preternatural accuracy."
 	icon_state = "mirror_shield" // eshield1 for expanded
 	inhand_icon_state = "mirror_shield"

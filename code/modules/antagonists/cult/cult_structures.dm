@@ -174,7 +174,7 @@
 
 // Spooky looking door used in gateways. Or something.
 /obj/effect/gateway
-	name = "gateway"
+	name = "glup shitto"
 	desc = "You're pretty sure that abyss is staring back."
 	icon = 'icons/obj/cult/structures.dmi'
 	icon_state = "hole"

@@ -3,7 +3,7 @@
  */
 
 /datum/action/changeling
-	name = "Prototype Sting - Debug button, ahelp this"
+	name = "glup shitto"
 	background_icon_state = "bg_changeling"
 	overlay_icon_state = "bg_changeling_border"
 	button_icon = 'icons/mob/actions/actions_changeling.dmi'

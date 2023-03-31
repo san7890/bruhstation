@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/aoe/knock
-	name = "Knock"
+	name = "glup shitto"
 	desc = "This spell opens nearby doors and closets."
 	button_icon_state = "knock"
 

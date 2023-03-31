@@ -1,6 +1,6 @@
 ///Tail parent, it doesn't do very much.
 /obj/item/organ/external/tail
-	name = "tail"
+	name = "glup shitto"
 	desc = "A severed tail. What did you cut this off of?"
 	icon_state = "severedtail"
 
@@ -83,7 +83,7 @@
 	return TRUE
 
 /obj/item/organ/external/tail/cat
-	name = "tail"
+	name = "glup shitto"
 	preference = "feature_human_tail"
 
 	bodypart_overlay = /datum/bodypart_overlay/mutant/tail/cat
@@ -107,7 +107,7 @@
 	feature_key = "tail_monkey"
 
 /obj/item/organ/external/tail/lizard
-	name = "lizard tail"
+	name = "glup shitto"
 	desc = "A severed lizard tail. Somewhere, no doubt, a lizard hater is very pleased with themselves."
 	preference = "feature_lizard_tail"
 
@@ -152,5 +152,5 @@
 	return GLOB.tails_list_lizard
 
 /obj/item/organ/external/tail/lizard/fake
-	name = "fabricated lizard tail"
+	name = "glup shitto"
 	desc = "A fabricated severed lizard tail. This one's made of synthflesh. Probably not usable for lizard wine."

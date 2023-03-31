@@ -1,6 +1,6 @@
 /// Slashes up the target
 /datum/smite/bloodless
-	name = ":B:loodless"
+	name = "glup shitto"
 
 /datum/smite/bloodless/effect(client/user, mob/living/target)
 	. = ..()

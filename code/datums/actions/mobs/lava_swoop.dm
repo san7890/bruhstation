@@ -2,7 +2,7 @@
 #define SWOOP_DIRECTION_CHANGE_RANGE 5 //the range our x has to be within to not change the direction we slam from
 
 /datum/action/cooldown/mob_cooldown/lava_swoop
-	name = "Lava Swoop"
+	name = "glup shitto"
 	button_icon = 'icons/effects/effects.dmi'
 	button_icon_state = "lavastaff_warn"
 	desc = "Allows you to chase a target while raining lava down."
@@ -189,7 +189,7 @@
 	return TRUE // attack finished completely
 
 /obj/effect/temp_visual/dragon_swoop
-	name = "certain death"
+	name = "glup shitto"
 	desc = "Don't just stand there, move!"
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "landing"

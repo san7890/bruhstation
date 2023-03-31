@@ -12,7 +12,7 @@
 			return ckey(id)
 
 /obj/machinery/chem_dispenser
-	name = "chem dispenser"
+	name = "glup shitto"
 	desc = "Creates and dispenses chemicals."
 	density = TRUE
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -468,7 +468,7 @@
 	return ..() // This hotkey is BLACKLISTED since it's used by /datum/component/simple_rotation
 
 /obj/machinery/chem_dispenser/drinks
-	name = "soda dispenser"
+	name = "glup shitto"
 	desc = "Contains a large reservoir of soft drinks."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "soda_dispenser"
@@ -553,7 +553,7 @@
 	dispensable_reagents |= emagged_reagents //adds emagged reagents
 
 /obj/machinery/chem_dispenser/drinks/beer
-	name = "booze dispenser"
+	name = "glup shitto"
 	desc = "Contains a large reservoir of the good stuff."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "booze_dispenser"
@@ -604,7 +604,7 @@
 	dispensable_reagents |= emagged_reagents //adds emagged reagents
 
 /obj/machinery/chem_dispenser/mutagen
-	name = "mutagen dispenser"
+	name = "glup shitto"
 	desc = "Creates and dispenses mutagen."
 	dispensable_reagents = list(/datum/reagent/toxin/mutagen)
 	upgrade_reagents = null
@@ -612,7 +612,7 @@
 
 
 /obj/machinery/chem_dispenser/mutagensaltpeter
-	name = "botanical chemical dispenser"
+	name = "glup shitto"
 	desc = "Creates and dispenses chemicals useful for botany."
 	flags_1 = NODECONSTRUCT_1
 
@@ -645,7 +645,7 @@
 	dispensable_reagents |= emagged_reagents //adds emagged reagents
 
 /obj/machinery/chem_dispenser/abductor
-	name = "reagent synthesizer"
+	name = "glup shitto"
 	desc = "Synthesizes a variety of reagents using proto-matter."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "chem_dispenser"

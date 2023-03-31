@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/russian
-	name = "Russian"
+	name = "glup shitto"
 	desc = "For the Motherland!"
 	icon = 'icons/mob/simple/simple_human.dmi'
 	icon_state = "russianmelee"
@@ -68,7 +68,7 @@
 	held_item = /obj/item/gun/ballistic/shotgun/lethal
 
 /mob/living/simple_animal/hostile/russian/ranged/officer
-	name = "Russian Officer"
+	name = "glup shitto"
 	icon_state = "russianofficer"
 	icon_living = "russianofficer"
 	maxHealth = 65

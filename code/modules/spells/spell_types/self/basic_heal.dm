@@ -1,6 +1,6 @@
 // This spell exists mainly for debugging purposes, and also to show how casting works
 /datum/action/cooldown/spell/basic_heal
-	name = "Lesser Heal"
+	name = "glup shitto"
 	desc = "Heals a small amount of brute and burn damage to the caster."
 
 	sound = 'sound/magic/staff_healing.ogg'

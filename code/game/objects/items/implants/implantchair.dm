@@ -1,5 +1,5 @@
 /obj/machinery/implantchair
-	name = "mindshield implanter"
+	name = "glup shitto"
 	desc = "Used to implant occupants with mindshield implants."
 	icon = 'icons/obj/machines/implantchair.dmi'
 	icon_state = "implantchair"
@@ -160,7 +160,7 @@
 			implant(user,null)
 
 /obj/machinery/implantchair/genepurge
-	name = "Genetic purifier"
+	name = "glup shitto"
 	desc = "Used to purge a human genome of foreign influences."
 	special = TRUE
 	special_name = "Purge genome"
@@ -177,7 +177,7 @@
 
 
 /obj/machinery/implantchair/brainwash
-	name = "Neural Imprinter"
+	name = "glup shitto"
 	desc = "Used to <s>indoctrinate</s> rehabilitate hardened recidivists."
 	special_name = "Imprint"
 	injection_cooldown = 3000

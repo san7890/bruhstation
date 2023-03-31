@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/cone/staggered/cone_of_cold
-	name = "Cone of Cold"
+	name = "glup shitto"
 	desc = "Shoots out a freezing cone in front of you."
 
 	school = SCHOOL_EVOCATION

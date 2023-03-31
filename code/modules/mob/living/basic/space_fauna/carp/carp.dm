@@ -11,7 +11,7 @@
  * Owned as a pet both by the HoS (sometimes) and also the Nuclear Operatives.
  */
 /mob/living/basic/carp
-	name = "space carp"
+	name = "glup shitto"
 	desc = "A ferocious, fang-bearing creature that resembles a fish."
 	icon = 'icons/mob/simple/carp.dmi'
 	icon_state = "base"
@@ -174,7 +174,7 @@
  * Has a lot more health than a normal carp because she's meant to be a mildly more threatening pet to have to assassinate than an aging corgi.
  */
 /mob/living/basic/carp/pet/lia
-	name = "Lia"
+	name = "glup shitto"
 	real_name = "Lia"
 	desc = "A failed experiment of Nanotrasen to create weaponised carp technology. This less than intimidating carp now serves as the Head of Security's pet."
 	faction = list(FACTION_NEUTRAL)
@@ -195,7 +195,7 @@
  * Is very talented and also capable of holding the nuclear disk.
  */
 /mob/living/basic/carp/pet/cayenne
-	name = "Cayenne"
+	name = "glup shitto"
 	real_name = "Cayenne"
 	desc = "A failed Syndicate experiment in weaponized space carp technology, it now serves as a lovable mascot."
 	faction = list(ROLE_SYNDICATE)

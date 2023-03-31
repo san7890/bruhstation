@@ -2,7 +2,7 @@
  * Base class for all grenades.
  */
 /obj/item/grenade
-	name = "grenade"
+	name = "glup shitto"
 	desc = "It has an adjustable timer."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/weapons/grenade.dmi'

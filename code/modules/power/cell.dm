@@ -8,7 +8,7 @@
  * Batteries.
  */
 /obj/item/stock_parts/cell
-	name = "power cell"
+	name = "glup shitto"
 	desc = "A rechargeable electrochemical power cell."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "cell"
@@ -277,7 +277,7 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/crap
-	name = "\improper Nanotrasen brand rechargeable AA battery"
+	name = "glup shitto"
 	desc = "You can't top the plasma top." //TOTALLY TRADEMARK INFRINGEMENT
 	maxcharge = 500
 	custom_materials = list(/datum/material/glass=40)
@@ -286,19 +286,19 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/upgraded
-	name = "upgraded power cell"
+	name = "glup shitto"
 	desc = "A power cell with a slightly higher capacity than normal!"
 	maxcharge = 2500
 	custom_materials = list(/datum/material/glass=50)
 	chargerate = 1000
 
 /obj/item/stock_parts/cell/upgraded/plus
-	name = "upgraded power cell+"
+	name = "glup shitto"
 	desc = "A power cell with an even higher capacity than the base model!"
 	maxcharge = 5000
 
 /obj/item/stock_parts/cell/secborg
-	name = "security borg rechargeable D battery"
+	name = "glup shitto"
 	maxcharge = 600 //600 max charge / 100 charge per shot = six shots
 	custom_materials = list(/datum/material/glass=40)
 
@@ -306,35 +306,35 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/mini_egun
-	name = "miniature energy gun power cell"
+	name = "glup shitto"
 	maxcharge = 600
 
 /obj/item/stock_parts/cell/hos_gun
-	name = "X-01 multiphase energy gun power cell"
+	name = "glup shitto"
 	maxcharge = 1200
 
 /obj/item/stock_parts/cell/pulse //200 pulse shots
-	name = "pulse rifle power cell"
+	name = "glup shitto"
 	maxcharge = 40000
 	chargerate = 1500
 
 /obj/item/stock_parts/cell/pulse/carbine //25 pulse shots
-	name = "pulse carbine power cell"
+	name = "glup shitto"
 	maxcharge = 5000
 
 /obj/item/stock_parts/cell/pulse/pistol //10 pulse shots
-	name = "pulse pistol power cell"
+	name = "glup shitto"
 	maxcharge = 2000
 
 /obj/item/stock_parts/cell/ninja
-	name = "black power cell"
+	name = "glup shitto"
 	icon_state = "bscell"
 	maxcharge = 10000
 	custom_materials = list(/datum/material/glass=60)
 	chargerate = 2000
 
 /obj/item/stock_parts/cell/high
-	name = "high-capacity power cell"
+	name = "glup shitto"
 	icon_state = "hcell"
 	maxcharge = 10000
 	custom_materials = list(/datum/material/glass=60)
@@ -344,7 +344,7 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/super
-	name = "super-capacity power cell"
+	name = "glup shitto"
 	icon_state = "scell"
 	maxcharge = 20000
 	custom_materials = list(/datum/material/glass=300)
@@ -354,7 +354,7 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/hyper
-	name = "hyper-capacity power cell"
+	name = "glup shitto"
 	icon_state = "hpcell"
 	maxcharge = 30000
 	custom_materials = list(/datum/material/glass=400)
@@ -364,7 +364,7 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/bluespace
-	name = "bluespace power cell"
+	name = "glup shitto"
 	desc = "A rechargeable transdimensional power cell."
 	icon_state = "bscell"
 	maxcharge = 40000
@@ -375,7 +375,7 @@
 	empty = TRUE
 
 /obj/item/stock_parts/cell/infinite
-	name = "infinite-capacity power cell"
+	name = "glup shitto"
 	icon_state = "icell"
 	maxcharge = INFINITY //little disappointing if you examine it and it's not huge
 	custom_materials = list(/datum/material/glass=1000)
@@ -386,7 +386,7 @@
 	return TRUE
 
 /obj/item/stock_parts/cell/infinite/abductor
-	name = "void core"
+	name = "glup shitto"
 	desc = "An alien power cell that produces energy seemingly out of nowhere."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "cell"
@@ -398,7 +398,7 @@
 	return ..()
 
 /obj/item/stock_parts/cell/potato
-	name = "potato battery"
+	name = "glup shitto"
 	desc = "A rechargeable starch based power cell."
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	icon_state = "potato"
@@ -411,7 +411,7 @@
 	custom_premium_price = PAYCHECK_CREW
 
 /obj/item/stock_parts/cell/emproof
-	name = "\improper EMP-proof cell"
+	name = "glup shitto"
 	desc = "An EMP-proof cell."
 	maxcharge = 500
 
@@ -426,7 +426,7 @@
 	return
 
 /obj/item/stock_parts/cell/emproof/slime
-	name = "EMP-proof slime core"
+	name = "glup shitto"
 	desc = "A yellow slime core infused with plasma. Its organic nature makes it immune to EMPs."
 	icon = 'icons/mob/simple/slimes.dmi'
 	icon_state = "yellow slime extract"
@@ -436,7 +436,7 @@
 	connector_type = "slimecore"
 
 /obj/item/stock_parts/cell/beam_rifle
-	name = "beam rifle capacitor"
+	name = "glup shitto"
 	desc = "A high powered capacitor that can provide huge amounts of energy in an instant."
 	maxcharge = 50000
 	chargerate = 5000 //Extremely energy intensive
@@ -451,7 +451,7 @@
 	charge = clamp((charge-(10000/severity)),0,maxcharge)
 
 /obj/item/stock_parts/cell/emergency_light
-	name = "miniature power cell"
+	name = "glup shitto"
 	desc = "A tiny power cell with a very low power capacity. Used in light fixtures to power them in the event of an outage."
 	maxcharge = 120 //Emergency lights use 0.2 W per tick, meaning ~10 minutes of emergency power from a cell
 	custom_materials = list(/datum/material/glass = 20)
@@ -464,7 +464,7 @@
 		charge = 0 //For naturally depowered areas, we start with no power
 
 /obj/item/stock_parts/cell/crystal_cell
-	name = "crystal power cell"
+	name = "glup shitto"
 	desc = "A very high power cell made from crystallized plasma"
 	icon_state = "crystal_cell"
 	maxcharge = 50000

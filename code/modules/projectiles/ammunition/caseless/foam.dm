@@ -1,5 +1,5 @@
 /obj/item/ammo_casing/caseless/foam_dart
-	name = "foam dart"
+	name = "glup shitto"
 	desc = "It's Donk or Don't! Ages 8 and up."
 	projectile_type = /obj/projectile/bullet/reusable/foam_dart
 	caliber = CALIBER_FOAM
@@ -56,7 +56,7 @@
 		FD.pen = null
 
 /obj/item/ammo_casing/caseless/foam_dart/riot
-	name = "riot foam dart"
+	name = "glup shitto"
 	desc = "Whose smart idea was it to use toys as crowd control? Ages 18 and up."
 	projectile_type = /obj/projectile/bullet/reusable/foam_dart/riot
 	icon_state = "foamdart_riot"

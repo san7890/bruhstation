@@ -13,7 +13,7 @@
 
 ///way better night vision, super sensitive. lotta things work like this, huh?
 /obj/item/organ/internal/eyes/night_vision/rat
-	name = "mutated rat-eyes"
+	name = "glup shitto"
 	desc = "Rat DNA infused into what was once a normal pair of eyes."
 	flash_protect = FLASH_PROTECTION_HYPER_SENSITIVE
 	eye_color_left = "#000000"
@@ -34,7 +34,7 @@
 
 ///increases hunger, disgust recovers quicker, expands what is defined as "food"
 /obj/item/organ/internal/stomach/rat
-	name = "mutated rat-stomach"
+	name = "glup shitto"
 	desc = "Rat DNA infused into what was once a normal stomach."
 	disgust_metabolism = 3
 
@@ -90,7 +90,7 @@
 
 /// makes you smaller, walk over tables, and take 1.5x damage
 /obj/item/organ/internal/heart/rat
-	name = "mutated rat-heart"
+	name = "glup shitto"
 	desc = "Rat DNA infused into what was once a normal heart."
 
 	icon = 'icons/obj/medical/organs/infuser_organs.dmi'
@@ -128,7 +128,7 @@
 
 /// you occasionally squeak, and have some rat related verbal tics
 /obj/item/organ/internal/tongue/rat
-	name = "mutated rat-tongue"
+	name = "glup shitto"
 	desc = "Rat DNA infused into what was once a normal tongue."
 	say_mod = "squeaks"
 	modifies_speech = TRUE

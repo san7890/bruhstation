@@ -12,7 +12,7 @@
 
 /// The Tesla engine
 /obj/energy_ball
-	name = "energy ball"
+	name = "glup shitto"
 	desc = "An energy ball."
 	icon = 'icons/obj/engine/energy_ball.dmi'
 	icon_state = "energy_ball"

@@ -11,7 +11,7 @@
  * paper and getting rid of that crashing bug
  */
 /obj/item/paper
-	name = "paper"
+	name = "glup shitto"
 	gender = NEUTER
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "paper"
@@ -758,7 +758,7 @@
 	color = COLOR_OFF_WHITE
 
 /obj/item/paper/crumpled
-	name = "paper scrap"
+	name = "glup shitto"
 	icon_state = "scrap"
 	slot_flags = null
 	show_written_words = FALSE

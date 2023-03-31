@@ -42,7 +42,7 @@
 	club.update_appearance(UPDATE_ICON_STATE)
 
 /obj/item/hierophant_club
-	name = "hierophant club"
+	name = "glup shitto"
 	desc = "The strange technology of this large club allows various nigh-magical teleportation feats. It used to beat you, but now you can set the beat."
 	icon_state = "hierophant_club_ready_beacon"
 	inhand_icon_state = "hierophant_club_ready_beacon"
@@ -235,7 +235,7 @@
 //Bubblegum: Mayhem in a Bottle, H.E.C.K. Suit, Soulscythe
 
 /obj/item/mayhem
-	name = "mayhem in a bottle"
+	name = "glup shitto"
 	desc = "A magically infused bottle of blood, the scent of which will drive anyone nearby into a murderous frenzy."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "vial"
@@ -250,7 +250,7 @@
 	qdel(src)
 
 /obj/item/clothing/suit/hooded/hostile_environment
-	name = "H.E.C.K. suit"
+	name = "glup shitto"
 	desc = "Hostile Environment Cross-Kinetic Suit: A suit designed to withstand the wide variety of hazards from Lavaland. It wasn't enough for its last owner."
 	icon_state = "hostile_env"
 	hoodtype = /obj/item/clothing/head/hooded/hostile_environment
@@ -293,7 +293,7 @@
 			to_chat(wearer, span_warning("[pick("You hear faint whispers.","You smell ash.","You feel hot.","You hear a roar in the distance.")]"))
 
 /obj/item/clothing/head/hooded/hostile_environment
-	name = "H.E.C.K. helmet"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	desc = "Hostile Environiment Cross-Kinetic Helmet: A helmet designed to withstand the wide variety of hazards from Lavaland. It wasn't enough for its last owner."
@@ -349,7 +349,7 @@
 #define MAX_BLOOD_LEVEL 100
 
 /obj/item/soulscythe
-	name = "soulscythe"
+	name = "glup shitto"
 	desc = "An old relic of hell created by devils to establish themselves as the leadership of hell over the demons. It grows stronger while it possesses a powerful soul."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "soulscythe"
@@ -578,7 +578,7 @@
 	SpinAnimation(15)
 
 /mob/living/simple_animal/soulscythe
-	name = "mysterious spirit"
+	name = "glup shitto"
 	maxHealth = 200
 	health = 200
 	gender = NEUTER
@@ -598,7 +598,7 @@
 		blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * delta_time))
 
 /obj/projectile/soulscythe
-	name = "soulslash"
+	name = "glup shitto"
 	icon_state = "soulslash"
 	armor_flag = MELEE //jokair
 	damage = 15
@@ -616,7 +616,7 @@
 //Ash Drake: Spectral Blade, Lava Staff, Dragon's Blood
 
 /obj/item/melee/ghost_sword
-	name = "\improper spectral blade"
+	name = "glup shitto"
 	desc = "A rusted and dulled blade. It doesn't look like it'd do much damage. It glows weakly."
 	icon_state = "spectral"
 	inhand_icon_state = "spectral"
@@ -706,7 +706,7 @@
 	return ..()
 
 /obj/item/dragons_blood
-	name = "bottle of dragons blood"
+	name = "glup shitto"
 	desc = "You're not actually going to drink this, are you?"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "vial"
@@ -752,7 +752,7 @@
 	qdel(src)
 
 /obj/item/lava_staff
-	name = "staff of lava"
+	name = "glup shitto"
 	desc = "The ability to fill the emergency shuttle with lava. What more could you want out of life?"
 	icon_state = "lavastaff"
 	inhand_icon_state = "lavastaff"
@@ -825,7 +825,7 @@
 
 
 /obj/item/melee/cleaving_saw
-	name = "cleaving saw"
+	name = "glup shitto"
 	desc = "This saw, effective at drawing the blood of beasts, transforms into a long cleaver that makes use of centrifugal force."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	lefthand_file = 'icons/mob/inhands/64x64_lefthand.dmi'
@@ -948,7 +948,7 @@
 //Legion: Staff of Storms
 
 /obj/item/storm_staff
-	name = "staff of storms"
+	name = "glup shitto"
 	desc = "An ancient staff retrieved from the remains of Legion. The wind stirs as you move it."
 	icon_state = "staffofstorms"
 	inhand_icon_state = "staffofstorms"

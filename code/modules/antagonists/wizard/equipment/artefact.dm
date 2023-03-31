@@ -4,7 +4,7 @@
 ///////////////////////////Veil Render//////////////////////
 
 /obj/item/veilrender
-	name = "veil render"
+	name = "glup shitto"
 	desc = "A wicked curved blade of alien origin, recovered from the ruins of a vast city."
 	icon = 'icons/obj/eldritch.dmi'
 	icon_state = "bone_blade"
@@ -34,7 +34,7 @@
 		to_chat(user, span_danger("The unearthly energies that powered the blade are now dormant."))
 
 /obj/effect/rend
-	name = "tear in the fabric of reality"
+	name = "glup shitto"
 	desc = "You should run now."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "rift"
@@ -76,7 +76,7 @@
 	return
 
 /obj/item/veilrender/vealrender
-	name = "veal render"
+	name = "glup shitto"
 	desc = "A wicked curved blade of alien origin, recovered from the ruins of a vast farm."
 	spawn_type = /mob/living/basic/cow
 	spawn_amt = 20
@@ -84,7 +84,7 @@
 	rend_desc = "Reverberates with the sound of ten thousand moos."
 
 /obj/item/veilrender/honkrender
-	name = "honk render"
+	name = "glup shitto"
 	desc = "A wicked curved blade of alien origin, recovered from the ruins of a vast circus."
 	spawn_type = /mob/living/simple_animal/hostile/retaliate/clown
 	spawn_amt = 10
@@ -95,7 +95,7 @@
 	worn_icon_state = "render"
 
 /obj/item/veilrender/honkrender/honkhulkrender
-	name = "superior honk render"
+	name = "glup shitto"
 	desc = "A wicked curved blade of alien origin, recovered from the ruins of a vast circus. This one gleams with a special light."
 	spawn_type = /mob/living/simple_animal/hostile/retaliate/clown/clownhulk
 	spawn_amt = 5
@@ -107,7 +107,7 @@
 
 /// Tear in reality, spawned by the veil render
 /obj/tear_in_reality
-	name = "tear in the fabric of reality"
+	name = "glup shitto"
 	desc = "This isn't right."
 	icon = 'icons/effects/224x224.dmi'
 	icon_state = "reality"
@@ -161,7 +161,7 @@
 /////////////////////////////////////////Scrying///////////////////
 
 /obj/item/scrying
-	name = "scrying orb"
+	name = "glup shitto"
 	desc = "An incandescent orb of otherworldly energy, merely holding it gives you vision and hearing beyond mortal means, and staring into it lets you see the entire universe."
 	icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	icon_state ="bluespace"
@@ -208,7 +208,7 @@
 /////////////////////////////////////////Necromantic Stone///////////////////
 
 /obj/item/necromantic_stone
-	name = "necromantic stone"
+	name = "glup shitto"
 	desc = "A shard capable of resurrecting humans as skeleton thralls."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "necrostone"
@@ -297,7 +297,7 @@
 
 //Funny gimmick, skeletons always seem to wear roman/ancient armour
 /datum/outfit/roman
-	name = "Roman"
+	name = "glup shitto"
 	head = /obj/item/clothing/head/helmet/roman
 	uniform = /obj/item/clothing/under/costume/roman
 	shoes = /obj/item/clothing/shoes/roman
@@ -318,7 +318,7 @@
 
 ///Warp whistle, spawns a tornado that teleports you
 /obj/item/warp_whistle
-	name = "warp whistle"
+	name = "glup shitto"
 	desc = "Calls a cloud to come pick you up and drop you at a random location on the station."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "whistle"
@@ -339,7 +339,7 @@
 
 ///Teleporting tornado, spawned by warp whistle, teleports the user if they manage to pick them up.
 /obj/effect/temp_visual/teleporting_tornado
-	name = "tornado"
+	name = "glup shitto"
 	desc = "This thing sucks!"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "tornado"

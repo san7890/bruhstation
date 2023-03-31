@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(trading_card_game)
-	name = "Trading Card Game"
+	name = "glup shitto"
 	flags = SS_NO_FIRE
 	init_order = INIT_ORDER_TCG
 	/// Base directory for all related string files

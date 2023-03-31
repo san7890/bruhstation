@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/bhop
-	name = "jump boots"
+	name = "glup shitto"
 	desc = "A specialized pair of combat boots with a built-in propulsion system for rapid foward movement."
 	icon_state = "jetboots"
 	inhand_icon_state = null
@@ -39,7 +39,7 @@
 		to_chat(user, span_warning("Something prevents you from dashing forward!"))
 
 /obj/item/clothing/shoes/bhop/rocket
-	name = "rocket boots"
+	name = "glup shitto"
 	desc = "Very special boots with built-in rocket thrusters! SHAZBOT!"
 	icon_state = "rocketboots"
 	inhand_icon_state = null

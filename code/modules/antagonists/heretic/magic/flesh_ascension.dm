@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/shapeshift/shed_human_form
-	name = "Shed form"
+	name = "glup shitto"
 	desc = "Shed your fragile form, become one with the arms, become one with the emperor. \
 		Causes heavy amounts of brain damage and sanity loss to nearby mortals."
 	background_icon_state = "bg_heretic"
@@ -45,7 +45,7 @@
 	return new shapeshift_type(loc, TRUE, segment_length)
 
 /datum/action/cooldown/spell/worm_contract
-	name = "Force Contract"
+	name = "glup shitto"
 	desc = "Forces your body to contract onto a single tile."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"

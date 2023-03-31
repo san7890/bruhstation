@@ -3,7 +3,7 @@
 // TODO: Split everything into easy to manage procs.
 
 /obj/item/detective_scanner
-	name = "forensic scanner"
+	name = "glup shitto"
 	desc = "Used to remotely scan objects and biomass for DNA and fingerprints. Can print a report of the findings."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "forensicnew"
@@ -24,7 +24,7 @@
 	actions_types = list(/datum/action/item_action/display_detective_scan_results)
 
 /datum/action/item_action/display_detective_scan_results
-	name = "Display Forensic Scanner Results"
+	name = "glup shitto"
 
 /datum/action/item_action/display_detective_scan_results/Trigger(trigger_flags)
 	var/obj/item/detective_scanner/scanner = target

@@ -3,7 +3,7 @@
 
 
 /obj/item/mecha_parts/mecha_equipment/hydraulic_clamp
-	name = "hydraulic clamp"
+	name = "glup shitto"
 	desc = "Equipment for engineering exosuits. Lifts objects and loads them into cargo."
 	icon_state = "mecha_clamp"
 	equip_cooldown = 15
@@ -133,7 +133,7 @@
 
 //This is pretty much just for the death-ripley
 /obj/item/mecha_parts/mecha_equipment/hydraulic_clamp/kill
-	name = "\improper KILL CLAMP"
+	name = "glup shitto"
 	desc = "They won't know what clamped them! This time for real!"
 	killer_clamp = TRUE
 
@@ -144,7 +144,7 @@
 	killer_clamp = FALSE
 
 /obj/item/mecha_parts/mecha_equipment/extinguisher
-	name = "exosuit extinguisher"
+	name = "glup shitto"
 	desc = "Equipment for engineering exosuits. A rapid-firing high capacity fire extinguisher."
 	icon_state = "mecha_exting"
 	equip_cooldown = 5
@@ -221,7 +221,7 @@
 #define MODE_AIRLOCK 2
 
 /obj/item/mecha_parts/mecha_equipment/rcd
-	name = "mounted RCD"
+	name = "glup shitto"
 	desc = "An exosuit-mounted Rapid Construction Device."
 	icon_state = "mecha_rcd"
 	equip_cooldown = 10
@@ -333,7 +333,7 @@
 
 //Dunno where else to put this so shrug
 /obj/item/mecha_parts/mecha_equipment/ripleyupgrade
-	name = "Ripley MK-II Conversion Kit"
+	name = "glup shitto"
 	desc = "A pressurized canopy attachment kit for an Autonomous Power Loader Unit \"Ripley\" MK-I mecha, to convert it to the slower, but space-worthy MK-II design. This kit cannot be removed, once applied."
 	icon_state = "ripleyupgrade"
 	mech_flags = EXOSUIT_MODULE_RIPLEY

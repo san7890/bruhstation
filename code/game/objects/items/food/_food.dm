@@ -1,6 +1,6 @@
 ///Abstract class to allow us to easily create all the generic "normal" food without too much copy pasta of adding more components
 /obj/item/food
-	name = "food"
+	name = "glup shitto"
 	desc = "you eat this"
 	resistance_flags = FLAMMABLE
 	w_class = WEIGHT_CLASS_SMALL

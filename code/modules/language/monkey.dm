@@ -1,5 +1,5 @@
 /datum/language/monkey
-	name = "Chimpanzee"
+	name = "glup shitto"
 	desc = "Ook ook ook."
 	key = "1"
 	space_chance = 100

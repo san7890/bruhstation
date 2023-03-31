@@ -6,7 +6,7 @@ Slimecrossing Items
 
 //Rewind camera - I'm already Burning Sepia
 /obj/item/camera/rewind
-	name = "sepia-tinted camera"
+	name = "glup shitto"
 	desc = "They say a picture is like a moment stopped in time."
 	pictures_left = 1
 	pictures_max = 1
@@ -72,7 +72,7 @@ Slimecrossing Items
 
 //Timefreeze camera - Old Burning Sepia result. Kept in case admins want to spawn it
 /obj/item/camera/timefreeze
-	name = "sepia-tinted camera"
+	name = "glup shitto"
 	desc = "They say a picture is like a moment stopped in time."
 	pictures_left = 1
 	pictures_max = 1
@@ -87,7 +87,7 @@ Slimecrossing Items
 
 //Hypercharged slime cell - Charged Yellow
 /obj/item/stock_parts/cell/high/slime_hypercharged
-	name = "hypercharged slime core"
+	name = "glup shitto"
 	desc = "A charged yellow slime extract, infused with plasma. It almost hurts to touch."
 	icon = 'icons/mob/simple/slimes.dmi'
 	icon_state = "yellow slime extract"
@@ -100,7 +100,7 @@ Slimecrossing Items
 
 //Barrier cube - Chilling Grey
 /obj/item/barriercube
-	name = "barrier cube"
+	name = "glup shitto"
 	desc = "A compressed cube of slime. When squeezed, it grows to massive size!"
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "barriercube"
@@ -117,7 +117,7 @@ Slimecrossing Items
 
 //Slime barricade - Chilling Grey
 /obj/structure/barricade/slime
-	name = "gelatinous barrier"
+	name = "glup shitto"
 	desc = "A huge chunk of grey slime. Bullets might get stuck in it."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "slimebarrier"
@@ -126,7 +126,7 @@ Slimecrossing Items
 
 //Melting Gel Wall - Chilling Metal
 /obj/effect/forcefield/slimewall
-	name = "solidified gel"
+	name = "glup shitto"
 	desc = "A mass of solidified slime gel - completely impenetrable, but it's melting away!"
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "slimebarrier_thick"
@@ -136,13 +136,13 @@ Slimecrossing Items
 
 //Rainbow barrier - Chilling Rainbow
 /obj/effect/forcefield/slimewall/rainbow
-	name = "rainbow barrier"
+	name = "glup shitto"
 	desc = "Despite others' urgings, you probably shouldn't taste this."
 	icon_state = "rainbowbarrier"
 
 //Ice stasis block - Chilling Dark Blue
 /obj/structure/ice_stasis
-	name = "ice block"
+	name = "glup shitto"
 	desc = "A massive block of ice. You can see something vaguely humanoid inside."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "frozen"
@@ -170,7 +170,7 @@ Slimecrossing Items
 
 //Gold capture device - Chilling Gold
 /obj/item/capturedevice
-	name = "gold capture device"
+	name = "glup shitto"
 	desc = "Bluespace technology packed into a roughly egg-shaped device, used to store nonhuman creatures. Can't catch them all, though - it only fits one."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'

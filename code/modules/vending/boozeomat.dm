@@ -1,5 +1,5 @@
 /obj/machinery/vending/boozeomat
-	name = "\improper Booze-O-Mat"
+	name = "glup shitto"
 	desc = "A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one."
 	icon_state = "boozeomat"
 	icon_deny = "boozeomat-deny"

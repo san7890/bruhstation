@@ -2,7 +2,7 @@
 #define RANDOM_DEPARTMENT "Random Department"
 
 /datum/round_event_control/wizard/deprevolt //stationwide!
-	name = "Departmental Uprising"
+	name = "glup shitto"
 	weight = 0 //An order that requires order in a round of chaos was maybe not the best idea. Requiescat in pace departmental uprising August 2014 - March 2015 //hello motherfucker i fixed your shit in 2021
 	typepath = /datum/round_event/wizard/deprevolt
 	max_occurrences = 1
@@ -33,7 +33,7 @@
 
 /datum/event_admin_setup/listed_options/departmental_revolt/get_list()
 	return subtypesof(/datum/job_department)
-	
+
 /datum/event_admin_setup/listed_options/departmental_revolt/apply_to_event(datum/round_event/wizard/deprevolt/event)
 	event.picked_department = chosen
 

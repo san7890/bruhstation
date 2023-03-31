@@ -9,7 +9,7 @@
  */
 /obj/item/card/emag
 	desc = "It's a card with a magnetic strip attached to some circuitry."
-	name = "cryptographic sequencer"
+	name = "glup shitto"
 	icon_state = "emag"
 	inhand_icon_state = "card-id"
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
@@ -26,19 +26,19 @@
 	add_fingerprint(user)
 
 /obj/item/card/emag/bluespace
-	name = "bluespace cryptographic sequencer"
+	name = "glup shitto"
 	desc = "It's a blue card with a magnetic strip attached to some circuitry. It appears to have some sort of transmitter attached to it."
 	color = rgb(40, 130, 255)
 	prox_check = FALSE
 
 /obj/item/card/emag/halloween
-	name = "hack-o'-lantern"
+	name = "glup shitto"
 	desc = "It's a pumpkin with a cryptographic sequencer sticking out."
 	icon_state = "hack_o_lantern"
 
 /obj/item/card/emagfake
 	desc = "It's a card with a magnetic strip attached to some circuitry. Closer inspection shows that this card is a poorly made replica, with a \"Donk Co.\" logo stamped on the back."
-	name = "cryptographic sequencer"
+	name = "glup shitto"
 	icon_state = "emag"
 	inhand_icon_state = "card-id"
 	slot_flags = ITEM_SLOT_ID
@@ -88,7 +88,7 @@
  */
 /obj/item/card/emag/doorjack
 	desc = "Commonly known as a \"doorjack\", this device is a specialized cryptographic sequencer specifically designed to override station airlock access codes. Uses self-refilling charges to hack airlocks."
-	name = "airlock authentication override card"
+	name = "glup shitto"
 	icon_state = "doorjack"
 	worn_icon_state = "doorjack"
 	var/type_whitelist //List of types
@@ -135,7 +135,7 @@
  * Battlecruiser Access
  */
 /obj/item/card/emag/battlecruiser
-	name = "battlecruiser coordinates upload card"
+	name = "glup shitto"
 	desc = "An ominous card that contains the location of the station, and when applied to a communications console, \
 	the ability to long-distance contact the Syndicate fleet."
 	icon_state = "battlecruisercaller"

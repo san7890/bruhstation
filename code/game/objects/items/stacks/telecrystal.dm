@@ -1,5 +1,5 @@
 /obj/item/stack/telecrystal
-	name = "telecrystal"
+	name = "glup shitto"
 	desc = "It seems to be pulsing with suspiciously enticing energies."
 	singular_name = "telecrystal"
 	icon = 'icons/obj/telescience.dmi'

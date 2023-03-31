@@ -4,7 +4,7 @@
 //Admin-spawn or random event
 
 /mob/living/simple_animal/revenant
-	name = "revenant"
+	name = "glup shitto"
 	desc = "A malevolent spirit."
 	icon = 'icons/mob/simple/mob.dmi'
 	icon_state = "revenant_idle"
@@ -401,7 +401,7 @@
 
 //reforming
 /obj/item/ectoplasm/revenant
-	name = "glimmering residue"
+	name = "glup shitto"
 	desc = "A pile of fine blue dust. Small tendrils of violet mist swirl around it."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "revenantEctoplasm"

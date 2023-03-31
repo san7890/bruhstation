@@ -1,5 +1,5 @@
 /obj/structure/life_candle
-	name = "life candle"
+	name = "glup shitto"
 	desc = "You are dead. Insert quarter to continue."
 	icon = 'icons/obj/candle.dmi'
 	icon_state = "candle1"

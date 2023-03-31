@@ -7,7 +7,7 @@
  * Bonus: Gives the carrier TRAIT_NOBREATH, preventing suffocation and CPR
 */
 /datum/symptom/oxygen
-	name = "Self-Respiration"
+	name = "glup shitto"
 	desc = "The virus rapidly synthesizes oxygen, effectively removing the need for breathing."
 	stealth = 1
 	resistance = -3

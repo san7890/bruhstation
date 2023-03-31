@@ -10,7 +10,7 @@
  */
 
 /obj/structure/table_frame
-	name = "table frame"
+	name = "glup shitto"
 	desc = "Four metal legs with four framing rods for a table. You could easily pass through this."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "table_frame"
@@ -88,7 +88,7 @@
  */
 
 /obj/structure/table_frame/wood
-	name = "wooden table frame"
+	name = "glup shitto"
 	desc = "Four wooden legs with four framing wooden rods for a wooden table. You could easily pass through this."
 	icon_state = "wood_frame"
 	framestack = /obj/item/stack/sheet/mineral/wood

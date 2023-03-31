@@ -5,7 +5,7 @@
 	inhand_icon_state = "crusher0"
 	lefthand_file = 'icons/mob/inhands/weapons/hammers_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/hammers_righthand.dmi'
-	name = "proto-kinetic crusher"
+	name = "glup shitto"
 	desc = "An early design of the proto-kinetic accelerator, it is little more than a combination of various mining tools cobbled together, forming a high-tech club. \
 	While it is an effective mining tool, it did little to aid any but the most skilled and/or suicidal miners against local fauna."
 	force = 0 //You can't hit stuff unless wielded
@@ -170,12 +170,12 @@
 		. += "[icon_state]_lit"
 
 /obj/item/kinetic_crusher/compact //for admins
-	name = "compact kinetic crusher"
+	name = "glup shitto"
 	w_class = WEIGHT_CLASS_NORMAL
 
 //destablizing force
 /obj/projectile/destabilizer
-	name = "destabilizing force"
+	name = "glup shitto"
 	icon_state = "pulse1"
 	damage = 0 //We're just here to mark people. This is still a melee weapon.
 	damage_type = BRUTE
@@ -206,7 +206,7 @@
 
 //trophies
 /obj/item/crusher_trophy
-	name = "tail spike"
+	name = "glup shitto"
 	desc = "A strange spike with no usage."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "tail_spike"
@@ -249,7 +249,7 @@
 
 //goliath
 /obj/item/crusher_trophy/goliath_tentacle
-	name = "goliath tentacle"
+	name = "glup shitto"
 	desc = "A sliced-off goliath tentacle. Suitable as a trophy for a kinetic crusher."
 	icon_state = "goliath_tentacle"
 	denied_type = /obj/item/crusher_trophy/goliath_tentacle
@@ -269,7 +269,7 @@
 
 //watcher
 /obj/item/crusher_trophy/watcher_wing
-	name = "watcher wing"
+	name = "glup shitto"
 	desc = "A wing ripped from a watcher. Suitable as a trophy for a kinetic crusher."
 	icon_state = "watcher_wing"
 	denied_type = /obj/item/crusher_trophy/watcher_wing
@@ -289,7 +289,7 @@
 
 //magmawing watcher
 /obj/item/crusher_trophy/blaster_tubes/magma_wing
-	name = "magmawing watcher wing"
+	name = "glup shitto"
 	desc = "A still-searing wing from a magmawing watcher. Suitable as a trophy for a kinetic crusher."
 	icon_state = "magma_wing"
 	gender = NEUTER
@@ -307,14 +307,14 @@
 
 //icewing watcher
 /obj/item/crusher_trophy/watcher_wing/ice_wing
-	name = "icewing watcher wing"
+	name = "glup shitto"
 	desc = "A carefully preserved frozen wing from an icewing watcher. Suitable as a trophy for a kinetic crusher."
 	icon_state = "ice_wing"
 	bonus_value = 8
 
 //legion
 /obj/item/crusher_trophy/legion_skull
-	name = "legion skull"
+	name = "glup shitto"
 	desc = "A dead and lifeless legion skull. Suitable as a trophy for a kinetic crusher."
 	icon_state = "legion_skull"
 	denied_type = /obj/item/crusher_trophy/legion_skull
@@ -335,7 +335,7 @@
 
 //blood-drunk hunter
 /obj/item/crusher_trophy/miner_eye
-	name = "eye of a blood-drunk hunter"
+	name = "glup shitto"
 	desc = "Its pupil is collapsed and turned to mush. Suitable as a trophy for a kinetic crusher."
 	icon_state = "hunter_eye"
 	denied_type = /obj/item/crusher_trophy/miner_eye
@@ -370,7 +370,7 @@
 
 //bubblegum
 /obj/item/crusher_trophy/demon_claws
-	name = "demon claws"
+	name = "glup shitto"
 	desc = "A set of blood-drenched claws from a massive demon's hand. Suitable as a trophy for a kinetic crusher."
 	icon_state = "demon_claws"
 	gender = PLURAL
@@ -403,7 +403,7 @@
 
 //colossus
 /obj/item/crusher_trophy/blaster_tubes
-	name = "blaster tubes"
+	name = "glup shitto"
 	desc = "The blaster tubes from a colossus's arm. Suitable as a trophy for a kinetic crusher."
 	icon_state = "blaster_tubes"
 	gender = PLURAL
@@ -431,7 +431,7 @@
 
 //hierophant
 /obj/item/crusher_trophy/vortex_talisman
-	name = "vortex talisman"
+	name = "glup shitto"
 	desc = "A glowing trinket that was originally the Hierophant's beacon. Suitable as a trophy for a kinetic crusher."
 	icon_state = "vortex_talisman"
 	denied_type = /obj/item/crusher_trophy/vortex_talisman

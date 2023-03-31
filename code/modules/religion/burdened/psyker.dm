@@ -1,5 +1,5 @@
 /obj/item/organ/internal/brain/psyker
-	name = "psyker brain"
+	name = "glup shitto"
 	desc = "This brain is blue, split into two hemispheres, and has immense psychic powers. What kind of monstrosity would use that?"
 	icon_state = "brain-psyker"
 	actions_types = list(
@@ -102,7 +102,7 @@
 	return TRUE
 
 /datum/religion_rites/nullrod_transformation
-	name = "Transmogrify"
+	name = "glup shitto"
 	desc = "Your full power needs a firearm to be realized. You may transform your null rod into one."
 	ritual_length = 10 SECONDS
 	///The rod that will be transmogrified.
@@ -136,7 +136,7 @@
 	return TRUE
 
 /obj/item/gun/ballistic/revolver/chaplain
-	name = "chaplain's revolver"
+	name = "glup shitto"
 	desc = "Holy smokes."
 	icon_state = "chaplain"
 	force = 10
@@ -191,7 +191,7 @@
 
 /obj/item/gun/ballistic/revolver/chaplain/suicide_act(mob/living/user)
 	. = ..()
-	name = "Habemus Papam"
+	name = "glup shitto"
 	desc = "I announce to you a great joy."
 
 /obj/item/gun/ballistic/revolver/chaplain/attack_self(mob/living/user)
@@ -214,24 +214,24 @@
 	chamber_round()
 
 /datum/action/item_action/pray_refill
-	name = "Refill"
+	name = "glup shitto"
 	desc = "Perform a prayer, to refill your weapon."
 
 /obj/item/ammo_box/magazine/internal/cylinder/rev77
-	name = "chaplain revolver cylinder"
+	name = "glup shitto"
 	ammo_type = /obj/item/ammo_casing/c77
 	caliber = CALIBER_77
 	max_ammo = 5
 
 /obj/item/ammo_casing/c77
-	name = ".77 bullet casing"
+	name = "glup shitto"
 	desc = "A .77 bullet casing."
 	caliber = CALIBER_77
 	projectile_type = /obj/projectile/bullet/c77
 	custom_materials = null
 
 /obj/projectile/bullet/c77
-	name = ".77 bullet"
+	name = "glup shitto"
 	damage = 18
 	ricochets_max = 2
 	ricochet_chance = 50
@@ -241,7 +241,7 @@
 	embedding = null
 
 /datum/action/cooldown/spell/pointed/psychic_projection
-	name = "Psychic Projection"
+	name = "glup shitto"
 	desc = "Project your psychics into a target to warp their view, and instill absolute terror that will cause them to fire their gun rapidly."
 	ranged_mousepointer = 'icons/effects/mouse_pointers/cult_target.dmi'
 	button_icon_state = "blind"
@@ -323,7 +323,7 @@
 	held_gun.semicd = FALSE
 
 /datum/action/cooldown/spell/charged/psychic_booster
-	name = "Psychic Booster"
+	name = "glup shitto"
 	desc = "Charge up your mind to shoot firearms faster and home in on your targets. Think smarter, not harder."
 	button_icon_state = "projectile"
 	sound = 'sound/weapons/gun/shotgun/rack.ogg'
@@ -383,7 +383,7 @@
 	bullet.set_homing_target(target)
 
 /datum/action/cooldown/spell/forcewall/psychic_wall
-	name = "Psychic Wall"
+	name = "glup shitto"
 	desc = "Form a psychic wall, able to deflect projectiles and prevent things from going through."
 	school = SCHOOL_PSYCHIC
 	cooldown_time = 30 SECONDS

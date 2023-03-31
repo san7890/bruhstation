@@ -1,6 +1,6 @@
 /obj/item/analyzer
 	desc = "A hand-held environmental scanner which reports current gas levels."
-	name = "gas analyzer"
+	name = "glup shitto"
 	custom_price = PAYCHECK_LOWER * 0.9
 	icon = 'icons/obj/device.dmi'
 	icon_state = "analyzer"
@@ -202,7 +202,7 @@
 
 /obj/item/analyzer/ranged
 	desc = "A hand-held long-range environmental scanner which reports current gas levels."
-	name = "long-range gas analyzer"
+	name = "glup shitto"
 	icon_state = "analyzerranged"
 	worn_icon_state = "analyzer"
 	w_class = WEIGHT_CLASS_NORMAL

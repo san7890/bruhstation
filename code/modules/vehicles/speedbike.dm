@@ -1,5 +1,5 @@
 /obj/vehicle/ridden/speedbike
-	name = "Speedbike"
+	name = "glup shitto"
 	icon = 'icons/obj/bike.dmi'
 	icon_state = "speedbike_blue"
 	layer = LYING_MOB_LAYER
@@ -22,7 +22,7 @@
 //BM SPEEDWAGON
 
 /obj/vehicle/ridden/speedwagon
-	name = "BM Speedwagon"
+	name = "glup shitto"
 	desc = "Push it to the limit, walk along the razor's edge."
 	icon = 'icons/obj/car.dmi'
 	icon_state = "speedwagon"

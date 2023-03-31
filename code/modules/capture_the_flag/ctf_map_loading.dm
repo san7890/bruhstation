@@ -1,7 +1,7 @@
 GLOBAL_DATUM(ctf_spawner, /obj/effect/landmark/ctf)
 
 /obj/effect/landmark/ctf
-	name = "CTF Map Spawner"
+	name = "glup shitto"
 	var/list/map_bounds
 
 /obj/effect/landmark/ctf/Initialize(mapload)
@@ -66,31 +66,31 @@ GLOBAL_DATUM(ctf_spawner, /obj/effect/landmark/ctf)
 	var/description = ""
 
 /datum/map_template/ctf/classic
-	name = "Classic"
+	name = "glup shitto"
 	description = "The original CTF map."
 	mappath = "_maps/map_files/CTF/classic.dmm"
 
 /datum/map_template/ctf/four_side
-	name = "Four Side"
+	name = "glup shitto"
 	description = "A CTF map created to demonstrate 4 team CTF, features a single centred flag rather than one per team."
 	mappath = "_maps/map_files/CTF/fourSide.dmm"
 
 /datum/map_template/ctf/downtown
-	name = "Downtown"
+	name = "glup shitto"
 	description = "A CTF map that takes place in a terrestrial city."
 	mappath = "_maps/map_files/CTF/downtown.dmm"
 
 /datum/map_template/ctf/limbo
-	name = "Limbo"
+	name = "glup shitto"
 	description = "A KOTH map that takes place in a wizard den with looping hallways"
 	mappath = "_maps/map_files/CTF/limbo.dmm"
 
 /datum/map_template/ctf/cruiser
-	name = "Crusier"
+	name = "glup shitto"
 	description = "A CTF map that takes place across multiple space ships, one carrying a powerful device that can accelerate those who obtain it"
 	mappath = "_maps/map_files/CTF/cruiser.dmm"
 
 /datum/map_template/ctf/turbine
-	name = "Turbine"
+	name = "glup shitto"
 	description = "A CTF map that takes place in a familiar facility. Don't try to hold out mid- Theres no sentries in this version."
 	mappath = "_maps/map_files/CTF/turbine.dmm"

@@ -2,7 +2,7 @@
 
 If you create T5+ please take a pass at mech_fabricator.dm. The parts being good enough allows it to go into minus values and create materials out of thin air when printing stuff.*/
 /obj/item/storage/part_replacer
-	name = "rapid part exchange device"
+	name = "glup shitto"
 	desc = "Special mechanical module made to store, sort, and apply standard machine parts."
 	icon_state = "RPED"
 	inhand_icon_state = "RPED"
@@ -84,7 +84,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 		playsound(src, pshoom_or_beepboopblorpzingshadashwoosh, 40, TRUE)
 
 /obj/item/storage/part_replacer/bluespace
-	name = "bluespace rapid part exchange device"
+	name = "glup shitto"
 	desc = "A version of the RPED that allows for replacement of parts and scanning from a distance, along with higher capacity for parts."
 	icon_state = "BS_RPED"
 	inhand_icon_state = "BS_RPED"
@@ -212,7 +212,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 		new /obj/item/stock_parts/matter_bin(src)
 
 /obj/item/storage/part_replacer/cyborg
-	name = "rapid part exchange device"
+	name = "glup shitto"
 	desc = "Special mechanical module made to store, sort, and apply standard machine parts."
 	icon_state = "borgrped"
 	inhand_icon_state = "RPED"
@@ -238,7 +238,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	return second_item.get_part_rating() - first_item.get_part_rating()
 
 /obj/item/stock_parts
-	name = "stock part"
+	name = "glup shitto"
 	desc = "What?"
 	icon = 'icons/obj/stock_parts.dmi'
 	w_class = WEIGHT_CLASS_SMALL
@@ -258,32 +258,32 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 //Rating 1
 
 /obj/item/stock_parts/capacitor
-	name = "capacitor"
+	name = "glup shitto"
 	desc = "A basic capacitor used in the construction of a variety of devices."
 	icon_state = "capacitor"
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=50)
 
 /obj/item/stock_parts/scanning_module
-	name = "scanning module"
+	name = "glup shitto"
 	desc = "A compact, high resolution scanning module used in the construction of certain devices."
 	icon_state = "scan_module"
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=20)
 
 /obj/item/stock_parts/manipulator
-	name = "micro-manipulator"
+	name = "glup shitto"
 	desc = "A tiny little manipulator used in the construction of certain devices."
 	icon_state = "micro_mani"
 	custom_materials = list(/datum/material/iron=30)
 	base_name = "manipulator"
 
 /obj/item/stock_parts/micro_laser
-	name = "micro-laser"
+	name = "glup shitto"
 	desc = "A tiny laser used in certain devices."
 	icon_state = "micro_laser"
 	custom_materials = list(/datum/material/iron=10, /datum/material/glass=20)
 
 /obj/item/stock_parts/matter_bin
-	name = "matter bin"
+	name = "glup shitto"
 	desc = "A container designed to hold compressed matter awaiting reconstruction."
 	icon_state = "matter_bin"
 	custom_materials = list(/datum/material/iron=80)
@@ -291,7 +291,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 //Rating 2
 
 /obj/item/stock_parts/capacitor/adv
-	name = "advanced capacitor"
+	name = "glup shitto"
 	desc = "An advanced capacitor used in the construction of a variety of devices."
 	icon_state = "adv_capacitor"
 	rating = 2
@@ -299,7 +299,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=50)
 
 /obj/item/stock_parts/scanning_module/adv
-	name = "advanced scanning module"
+	name = "glup shitto"
 	desc = "A compact, high resolution scanning module used in the construction of certain devices."
 	icon_state = "adv_scan_module"
 	rating = 2
@@ -307,7 +307,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=20)
 
 /obj/item/stock_parts/manipulator/nano
-	name = "nano-manipulator"
+	name = "glup shitto"
 	desc = "A tiny little manipulator used in the construction of certain devices."
 	icon_state = "nano_mani"
 	rating = 2
@@ -315,7 +315,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=30)
 
 /obj/item/stock_parts/micro_laser/high
-	name = "high-power micro-laser"
+	name = "glup shitto"
 	desc = "A tiny laser used in certain devices."
 	icon_state = "high_micro_laser"
 	rating = 2
@@ -323,7 +323,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=10, /datum/material/glass=20)
 
 /obj/item/stock_parts/matter_bin/adv
-	name = "advanced matter bin"
+	name = "glup shitto"
 	desc = "A container designed to hold compressed matter awaiting reconstruction."
 	icon_state = "advanced_matter_bin"
 	rating = 2
@@ -333,7 +333,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 //Rating 3
 
 /obj/item/stock_parts/capacitor/super
-	name = "super capacitor"
+	name = "glup shitto"
 	desc = "A super-high capacity capacitor used in the construction of a variety of devices."
 	icon_state = "super_capacitor"
 	rating = 3
@@ -341,7 +341,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=50)
 
 /obj/item/stock_parts/scanning_module/phasic
-	name = "phasic scanning module"
+	name = "glup shitto"
 	desc = "A compact, high resolution phasic scanning module used in the construction of certain devices."
 	icon_state = "super_scan_module"
 	rating = 3
@@ -349,7 +349,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=20)
 
 /obj/item/stock_parts/manipulator/pico
-	name = "pico-manipulator"
+	name = "glup shitto"
 	desc = "A tiny little manipulator used in the construction of certain devices."
 	icon_state = "pico_mani"
 	rating = 3
@@ -357,7 +357,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=30)
 
 /obj/item/stock_parts/micro_laser/ultra
-	name = "ultra-high-power micro-laser"
+	name = "glup shitto"
 	icon_state = "ultra_high_micro_laser"
 	desc = "A tiny laser used in certain devices."
 	rating = 3
@@ -365,7 +365,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=10, /datum/material/glass=20)
 
 /obj/item/stock_parts/matter_bin/super
-	name = "super matter bin"
+	name = "glup shitto"
 	desc = "A container designed to hold compressed matter awaiting reconstruction."
 	icon_state = "super_matter_bin"
 	rating = 3
@@ -375,7 +375,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 //Rating 4
 
 /obj/item/stock_parts/capacitor/quadratic
-	name = "quadratic capacitor"
+	name = "glup shitto"
 	desc = "A capacity capacitor used in the construction of a variety of devices."
 	icon_state = "quadratic_capacitor"
 	rating = 4
@@ -383,7 +383,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=50)
 
 /obj/item/stock_parts/scanning_module/triphasic
-	name = "triphasic scanning module"
+	name = "glup shitto"
 	desc = "A compact, ultra resolution triphasic scanning module used in the construction of certain devices."
 	icon_state = "triphasic_scan_module"
 	rating = 4
@@ -391,7 +391,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=20)
 
 /obj/item/stock_parts/manipulator/femto
-	name = "femto-manipulator"
+	name = "glup shitto"
 	desc = "A tiny little manipulator used in the construction of certain devices."
 	icon_state = "femto_mani"
 	rating = 4
@@ -399,7 +399,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=30)
 
 /obj/item/stock_parts/micro_laser/quadultra
-	name = "quad-ultra micro-laser"
+	name = "glup shitto"
 	icon_state = "quadultra_micro_laser"
 	desc = "A tiny laser used in certain devices."
 	rating = 4
@@ -407,7 +407,7 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 	custom_materials = list(/datum/material/iron=10, /datum/material/glass=20)
 
 /obj/item/stock_parts/matter_bin/bluespace
-	name = "bluespace matter bin"
+	name = "glup shitto"
 	desc = "A container designed to hold compressed matter awaiting reconstruction."
 	icon_state = "bluespace_matter_bin"
 	rating = 4
@@ -417,43 +417,43 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 // Subspace stock parts
 
 /obj/item/stock_parts/subspace/ansible
-	name = "subspace ansible"
+	name = "glup shitto"
 	icon_state = "subspace_ansible"
 	desc = "A compact module capable of sensing extradimensional activity."
 	custom_materials = list(/datum/material/iron=30, /datum/material/glass=10)
 
 /obj/item/stock_parts/subspace/filter
-	name = "hyperwave filter"
+	name = "glup shitto"
 	icon_state = "hyperwave_filter"
 	desc = "A tiny device capable of filtering and converting super-intense radiowaves."
 	custom_materials = list(/datum/material/iron=30, /datum/material/glass=10)
 
 /obj/item/stock_parts/subspace/amplifier
-	name = "subspace amplifier"
+	name = "glup shitto"
 	icon_state = "subspace_amplifier"
 	desc = "A compact micro-machine capable of amplifying weak subspace transmissions."
 	custom_materials = list(/datum/material/iron=30, /datum/material/glass=10)
 
 /obj/item/stock_parts/subspace/treatment
-	name = "subspace treatment disk"
+	name = "glup shitto"
 	icon_state = "treatment_disk"
 	desc = "A compact micro-machine capable of stretching out hyper-compressed radio waves."
 	custom_materials = list(/datum/material/iron=30, /datum/material/glass=10)
 
 /obj/item/stock_parts/subspace/analyzer
-	name = "subspace wavelength analyzer"
+	name = "glup shitto"
 	icon_state = "wavelength_analyzer"
 	desc = "A sophisticated analyzer capable of analyzing cryptic subspace wavelengths."
 	custom_materials = list(/datum/material/iron=30, /datum/material/glass=10)
 
 /obj/item/stock_parts/subspace/crystal
-	name = "ansible crystal"
+	name = "glup shitto"
 	icon_state = "ansible_crystal"
 	desc = "A crystal made from pure glass used to transmit laser databursts to subspace."
 	custom_materials = list(/datum/material/glass=50)
 
 /obj/item/stock_parts/subspace/transmitter
-	name = "subspace transmitter"
+	name = "glup shitto"
 	icon_state = "subspace_transmitter"
 	desc = "A large piece of equipment used to open a window into the subspace dimension."
 	custom_materials = list(/datum/material/iron=50)
@@ -461,19 +461,19 @@ If you create T5+ please take a pass at mech_fabricator.dm. The parts being good
 // Misc. Parts
 
 /obj/item/stock_parts/card_reader
-	name = "card reader"
+	name = "glup shitto"
 	icon_state = "card_reader"
 	desc = "A small magnetic card reader, used for devices that take and transmit holocredits."
 	custom_materials = list(/datum/material/iron=50, /datum/material/glass=10)
 
 /obj/item/stock_parts/water_recycler
-	name = "water recycler"
+	name = "glup shitto"
 	icon_state = "water_recycler"
 	desc = "A chemical reclaimation component, which serves to re-accumulate and filter water over time."
 	custom_materials = list(/datum/material/plastic=200, /datum/material/iron=50)
 
 /obj/item/research//Makes testing much less of a pain -Sieve
-	name = "research"
+	name = "glup shitto"
 	icon = 'icons/obj/stock_parts.dmi'
 	icon_state = "capacitor"
 	desc = "A debug item for research."

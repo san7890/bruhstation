@@ -7,7 +7,7 @@
  * Bonus: Causes intermittent loss of hearing.
 */
 /datum/symptom/deafness
-	name = "Deafness"
+	name = "glup shitto"
 	desc = "The virus causes inflammation of the eardrums, causing intermittent deafness."
 	illness = "Aural Perforation"
 	stealth = -1

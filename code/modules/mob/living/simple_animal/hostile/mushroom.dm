@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/mushroom
-	name = "walking mushroom"
+	name = "glup shitto"
 	desc = "It's a massive mushroom... with legs?"
 	icon_state = "mushroom_color"
 	icon_living = "mushroom_color"

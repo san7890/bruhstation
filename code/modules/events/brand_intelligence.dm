@@ -1,5 +1,5 @@
 /datum/round_event_control/brand_intelligence
-	name = "Brand Intelligence"
+	name = "glup shitto"
 	typepath = /datum/round_event/brand_intelligence
 	weight = 5
 	category = EVENT_CATEGORY_AI

@@ -1,5 +1,5 @@
 /obj/item/storage/lockbox
-	name = "lockbox"
+	name = "glup shitto"
 	desc = "A locked box."
 	icon = 'icons/obj/storage/case.dmi'
 	icon_state = "lockbox+l"
@@ -74,7 +74,7 @@
 	update_appearance()
 
 /obj/item/storage/lockbox/loyalty
-	name = "lockbox of mindshield implants"
+	name = "glup shitto"
 	req_access = list(ACCESS_SECURITY)
 
 /obj/item/storage/lockbox/loyalty/PopulateContents()
@@ -83,7 +83,7 @@
 	new /obj/item/implanter/mindshield(src)
 
 /obj/item/storage/lockbox/clusterbang
-	name = "lockbox of clusterbangs"
+	name = "glup shitto"
 	desc = "You have a bad feeling about opening this."
 	req_access = list(ACCESS_SECURITY)
 
@@ -91,7 +91,7 @@
 	new /obj/item/grenade/clusterbuster(src)
 
 /obj/item/storage/lockbox/medal
-	name = "medal box"
+	name = "glup shitto"
 	desc = "A locked box used to store medals of honor."
 	icon_state = "medalbox+l"
 	inhand_icon_state = "syringe_kit"
@@ -163,7 +163,7 @@
 		. += medalicon
 
 /obj/item/storage/lockbox/medal/hop
-	name = "Head of Personnel medal box"
+	name = "glup shitto"
 	desc = "A locked box used to store medals to be given to those exhibiting excellence in management."
 	req_access = list(ACCESS_HOP)
 
@@ -173,12 +173,12 @@
 	new /obj/item/clothing/accessory/medal/gold/ordom(src)
 
 /obj/item/storage/lockbox/medal/sec
-	name = "security medal box"
+	name = "glup shitto"
 	desc = "A locked box used to store medals to be given to members of the security department."
 	req_access = list(ACCESS_HOS)
 
 /obj/item/storage/lockbox/medal/med
-	name = "medical medal box"
+	name = "glup shitto"
 	desc = "A locked box used to store medals to be given to members of the medical department."
 	req_access = list(ACCESS_CMO)
 
@@ -191,7 +191,7 @@
 		new /obj/item/clothing/accessory/medal/silver/security(src)
 
 /obj/item/storage/lockbox/medal/cargo
-	name = "cargo award box"
+	name = "glup shitto"
 	desc = "A locked box used to store awards to be given to members of the cargo department."
 	req_access = list(ACCESS_QM)
 
@@ -199,7 +199,7 @@
 		new /obj/item/clothing/accessory/medal/ribbon/cargo(src)
 
 /obj/item/storage/lockbox/medal/service
-	name = "service award box"
+	name = "glup shitto"
 	desc = "A locked box used to store awards to be given to members of the service department."
 	req_access = list(ACCESS_HOP)
 
@@ -207,7 +207,7 @@
 		new /obj/item/clothing/accessory/medal/silver/excellence(src)
 
 /obj/item/storage/lockbox/medal/sci
-	name = "science medal box"
+	name = "glup shitto"
 	desc = "A locked box used to store medals to be given to members of the science department."
 	req_access = list(ACCESS_RD)
 
@@ -216,7 +216,7 @@
 		new /obj/item/clothing/accessory/medal/plasma/nobel_science(src)
 
 /obj/item/storage/lockbox/order
-	name = "order lockbox"
+	name = "glup shitto"
 	desc = "A box used to secure small cargo orders from being looted by those who didn't order it. Yeah, cargo tech, that means you."
 	icon_state = "secure"
 	icon_broken = "secure+b"

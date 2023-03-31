@@ -1,5 +1,5 @@
 /datum/species/dullahan
-	name = "Dullahan"
+	name = "glup shitto"
 	id = SPECIES_DULLAHAN
 	species_traits = list(
 		EYECOLOR,
@@ -184,14 +184,14 @@
 	zone = "abstract"
 
 /obj/item/organ/internal/eyes/dullahan
-	name = "head vision"
+	name = "glup shitto"
 	desc = "An abstraction."
 	actions_types = list(/datum/action/item_action/organ_action/dullahan)
 	zone = "abstract"
 	tint = INFINITY // to switch the vision perspective to the head on species_gain() without issue.
 
 /datum/action/item_action/organ_action/dullahan
-	name = "Toggle Perspective"
+	name = "glup shitto"
 	desc = "Switch between seeing normally from your head, or blindly from your body."
 
 /datum/action/item_action/organ_action/dullahan/Trigger(trigger_flags)
@@ -207,7 +207,7 @@
 
 
 /obj/item/dullahan_relay
-	name = "dullahan relay"
+	name = "glup shitto"
 	/// The mob (a dullahan) that owns this relay.
 	var/mob/living/owner
 

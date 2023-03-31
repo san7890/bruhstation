@@ -10,7 +10,7 @@ GLOBAL_LIST_INIT(guardian_radial_images, setup_guardian_radial())
 		.[guardian_path] = option
 
 /obj/item/guardiancreator
-	name = "enchanted deck of tarot cards"
+	name = "glup shitto"
 	desc = "An enchanted deck of tarot cards, rumored to be a source of unimaginable power."
 	icon = 'icons/obj/toys/playing_cards.dmi'
 	icon_state = "deck_tarot_full"
@@ -150,7 +150,7 @@ GLOBAL_LIST_INIT(guardian_radial_images, setup_guardian_radial())
 		guardian.mind.add_antag_datum(/datum/antagonist/wizard_minion, antag_datum.wiz_team)
 
 /obj/item/guardiancreator/tech
-	name = "holoparasite injector"
+	name = "glup shitto"
 	desc = "It contains an alien nanoswarm of unknown origin. Though capable of near sorcerous feats via use of hardlight holograms and nanomachines, it requires an organic host as a home base and source of fuel."
 	icon = 'icons/obj/medical/syringe.dmi'
 	icon_state = "combat_hypo"
@@ -173,7 +173,7 @@ GLOBAL_LIST_INIT(guardian_radial_images, setup_guardian_radial())
 	allowling = FALSE
 
 /obj/item/guardiancreator/carp
-	name = "holocarp fishsticks"
+	name = "glup shitto"
 	desc = "Using the power of Carp'sie, you can catch a carp from byond the veil of Carpthulu, and bind it to your fleshy flesh form."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "fishfingers"
@@ -190,7 +190,7 @@ GLOBAL_LIST_INIT(guardian_radial_images, setup_guardian_radial())
 	random = FALSE
 
 /obj/item/guardiancreator/miner
-	name = "dusty shard"
+	name = "glup shitto"
 	desc = "Seems to be a very old rock, may have originated from a strange meteor."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "dustyshard"

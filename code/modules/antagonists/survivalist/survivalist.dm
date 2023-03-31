@@ -1,5 +1,5 @@
 /datum/antagonist/survivalist
-	name = "\improper Survivalist"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	show_name_in_check_antagonists = TRUE
 	suicide_cry = "FOR MYSELF!!"
@@ -30,7 +30,7 @@
 	..()
 
 /datum/antagonist/survivalist/magic
-	name = "Amateur Magician"
+	name = "glup shitto"
 	greet_message = "Grow your newfound talent! Grab as many magical artefacts as possible, by any means necessary. Kill anyone who gets in your way."
 
 /datum/antagonist/survivalist/magic/greet()

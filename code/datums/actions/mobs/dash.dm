@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown/dash
-	name = "Dash"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Allows you to dash towards a position."

@@ -1,10 +1,10 @@
 /obj/effect/spawner/random/trash
-	name = "trash spawner"
+	name = "glup shitto"
 	desc = "Ewwwwwww gross."
 	icon_state = "trash"
 
 /obj/effect/spawner/random/trash/garbage
-	name = "garbage spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/effect/spawner/random/trash/food_packaging = 20,
 		/obj/item/trash/can = 15,
@@ -29,7 +29,7 @@
 	)
 
 /obj/effect/spawner/random/trash/cigbutt
-	name = "cigarette butt spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/cigbutt = 25,
 		/obj/item/cigbutt/roach = 25,
@@ -40,7 +40,7 @@
 	)
 
 /obj/effect/spawner/random/trash/food_packaging
-	name = "empty food packaging spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/trash/raisins = 2,
 		/obj/item/trash/cheesie = 2,
@@ -68,7 +68,7 @@
 	)
 
 /obj/effect/spawner/random/trash/botanical_waste
-	name = "botanical waste spawner"
+	name = "glup shitto"
 	icon_state = "peel"
 	loot = list(
 		/obj/item/grown/bananapeel = 6,
@@ -77,7 +77,7 @@
 	)
 
 /obj/effect/spawner/random/trash/grille_or_waste
-	name = "grille or waste spawner"
+	name = "glup shitto"
 	icon_state = "grille"
 	loot = list(
 		/obj/structure/grille = 5,
@@ -88,7 +88,7 @@
 	)
 
 /obj/effect/spawner/random/trash/hobo_squat
-	name = "hobo squat spawner"
+	name = "glup shitto"
 	icon_state = "dirty_mattress"
 	spawn_all_loot = TRUE
 	loot = list(
@@ -98,7 +98,7 @@
 	)
 
 /obj/effect/spawner/random/trash/moisture_trap
-	name = "moisture trap spawner"
+	name = "glup shitto"
 	icon_state = "moisture_trap"
 	spawn_all_loot = TRUE
 	loot = list(
@@ -107,7 +107,7 @@
 	)
 
 /obj/effect/spawner/random/trash/mess
-	name = "gross decal spawner"
+	name = "glup shitto"
 	icon_state = "vomit"
 	loot = list(
 		/obj/effect/decal/cleanable/dirt = 6,
@@ -123,7 +123,7 @@
 	)
 
 /obj/effect/spawner/random/trash/grime
-	name = "trash and grime spawner"
+	name = "glup shitto"
 	spawn_loot_count = 5
 	spawn_scatter_radius = 2
 	loot = list( // This spawner will scatter garbage around a dirty site.
@@ -135,7 +135,7 @@
 	)
 
 /obj/effect/spawner/random/trash/moisture
-	name = "water hazard spawner"
+	name = "glup shitto"
 	icon_state = "caution"
 	spawn_loot_count = 2
 	spawn_scatter_radius = 1
@@ -151,7 +151,7 @@
 	)
 
 /obj/effect/spawner/random/trash/graffiti
-	name = "random graffiti spawner"
+	name = "glup shitto"
 	icon_state = "rune"
 	loot = list(/obj/effect/decal/cleanable/crayon)
 	var/graffiti_icons = list(
@@ -186,7 +186,7 @@
 	return graffiti_decal
 
 /obj/effect/spawner/random/trash/mopbucket
-	name = "mop bucket spawner"
+	name = "glup shitto"
 	icon_state = "mopbucket"
 	spawn_loot_count = 2
 	spawn_loot_double = FALSE
@@ -199,7 +199,7 @@
 	)
 
 /obj/effect/spawner/random/trash/caution_sign
-	name = "caution sign spawner"
+	name = "glup shitto"
 	icon_state = "caution"
 	loot = list(
 		/obj/item/clothing/suit/caution = 40,
@@ -210,7 +210,7 @@
 
 
 /obj/effect/spawner/random/trash/bucket
-	name = "bucket spawner"
+	name = "glup shitto"
 	icon_state = "caution"
 	loot = list(
 		/obj/item/reagent_containers/cup/bucket,
@@ -218,7 +218,7 @@
 	)
 
 /obj/effect/spawner/random/trash/soap
-	name = "soap spawner"
+	name = "glup shitto"
 	icon_state = "soap"
 	loot = list(
 		/obj/item/soap = 25,
@@ -231,7 +231,7 @@
 	)
 
 /obj/effect/spawner/random/trash/box
-	name = "box spawner"
+	name = "glup shitto"
 	icon_state = "box"
 	loot = list(
 		/obj/structure/closet/cardboard = 9,
@@ -239,7 +239,7 @@
 	)
 
 /obj/effect/spawner/random/trash/bin
-	name = "trashbin spawner"
+	name = "glup shitto"
 	icon_state = "trash_bin"
 	loot = list(
 		/obj/structure/closet/crate/bin = 10,
@@ -251,7 +251,7 @@
 
 
 /obj/effect/spawner/random/trash/janitor_supplies
-	name = "janitor supplies spawner"
+	name = "glup shitto"
 	icon_state = "box_small"
 	loot = list(
 		/obj/item/storage/box/mousetraps,
@@ -261,7 +261,7 @@
 	)
 
 /obj/effect/spawner/random/trash/bacteria
-	name = "moldy food spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/food/breadslice/moldy/bacteria,
 		/obj/item/food/pizzaslice/moldy/bacteria,

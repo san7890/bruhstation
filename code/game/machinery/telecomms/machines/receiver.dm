@@ -7,7 +7,7 @@
 */
 
 /obj/machinery/telecomms/receiver
-	name = "subspace receiver"
+	name = "glup shitto"
 	icon_state = "broadcast receiver"
 	desc = "This machine has a dish-like shape and green lights. It is designed to detect and process subspace radio activity."
 	telecomms_type = /obj/machinery/telecomms/receiver
@@ -66,5 +66,5 @@
 		freq_listening |= i
 
 /obj/machinery/telecomms/receiver/preset_left/birdstation
-	name = "Receiver"
+	name = "glup shitto"
 	freq_listening = list()

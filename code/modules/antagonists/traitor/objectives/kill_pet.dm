@@ -1,5 +1,5 @@
 /datum/traitor_objective_category/kill_pet
-	name = "Kill Pet"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/kill_pet/high_risk = 1,
 		list(
@@ -9,7 +9,7 @@
 	)
 
 /datum/traitor_objective/kill_pet
-	name = "Kill the %DEPARTMENT HEAD%'s beloved %PET%"
+	name = "glup shitto"
 	description = "The %DEPARTMENT HEAD% has particularly annoyed us by sending us spam emails and we want their %PET% dead to show them what happens when they cross us. "
 
 	progression_minimum = 0 MINUTES

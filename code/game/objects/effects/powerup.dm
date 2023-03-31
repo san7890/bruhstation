@@ -1,5 +1,5 @@
 /obj/effect/powerup
-	name = "power-up"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	density = FALSE
 	anchored = TRUE
@@ -53,7 +53,7 @@
 	return TRUE
 
 /obj/effect/powerup/health
-	name = "health pickup"
+	name = "glup shitto"
 	desc = "Blessing from the havens."
 	icon = 'icons/obj/storage/backpack.dmi'
 	icon_state = "backpack-medical"
@@ -77,13 +77,13 @@
 		target.heal_ordered_damage(heal_amount, list(BRUTE, BURN))
 
 /obj/effect/powerup/health/full
-	name = "mega health pickup"
+	name = "glup shitto"
 	desc = "Now this is what I'm talking about."
 	icon_state = "duffel-medical"
 	full_heal = TRUE
 
 /obj/effect/powerup/ammo
-	name = "ammo pickup"
+	name = "glup shitto"
 	desc = "You like revenge, right? Everybody likes revenge! Well, let's go get some!"
 	icon = 'icons/obj/storage/toolbox.dmi'
 	icon_state = "ammobox"
@@ -107,7 +107,7 @@
 	lifetime = 30 SECONDS
 
 /obj/effect/powerup/speed
-	name = "Lightning Orb"
+	name = "glup shitto"
 	desc = "You feel faster just looking at it."
 	icon_state = "speed"
 	pickup_sound = 'sound/magic/lightningshock.ogg'
@@ -119,7 +119,7 @@
 	target.apply_status_effect(/datum/status_effect/lightningorb)
 
 /obj/effect/powerup/mayhem
-	name = "Orb of Mayhem"
+	name = "glup shitto"
 	desc = "You feel angry just looking at it."
 	icon_state = "impact_laser"
 

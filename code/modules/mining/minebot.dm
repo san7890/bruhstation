@@ -3,7 +3,7 @@
 #define MINEDRONE_ATTACK 2
 
 /mob/living/simple_animal/hostile/mining_drone
-	name = "\improper Nanotrasen minebot"
+	name = "glup shitto"
 	desc = "The instructions printed on the side read: This is a small robot used to support miners, can be set to search and collect loose ore, or to help fend off wildlife."
 	gender = NEUTER
 	icon = 'icons/mob/silicon/aibots.dmi'
@@ -201,7 +201,7 @@
 	. = ..()
 
 /datum/action/innate/minedrone/toggle_meson_vision
-	name = "Toggle Meson Vision"
+	name = "glup shitto"
 	button_icon_state = "meson"
 
 /datum/action/innate/minedrone/toggle_meson_vision/Activate()
@@ -238,7 +238,7 @@
 	overlay_icon_state = "bg_default_border"
 
 /datum/action/innate/minedrone/toggle_light
-	name = "Toggle Light"
+	name = "glup shitto"
 	button_icon_state = "mech_lights_off"
 
 
@@ -249,7 +249,7 @@
 
 
 /datum/action/innate/minedrone/toggle_mode
-	name = "Toggle Mode"
+	name = "glup shitto"
 	button_icon_state = "mech_cycle_equip_off"
 
 /datum/action/innate/minedrone/toggle_mode/Activate()
@@ -257,7 +257,7 @@
 	user.toggle_mode()
 
 /datum/action/innate/minedrone/dump_ore
-	name = "Dump Ore"
+	name = "glup shitto"
 	button_icon_state = "mech_eject"
 
 /datum/action/innate/minedrone/dump_ore/Activate()
@@ -270,7 +270,7 @@
 //Melee
 
 /obj/item/mine_bot_upgrade
-	name = "minebot melee upgrade"
+	name = "glup shitto"
 	desc = "A minebot upgrade."
 	icon_state = "door_electronics"
 	icon = 'icons/obj/module.dmi'
@@ -293,7 +293,7 @@
 //Health
 
 /obj/item/mine_bot_upgrade/health
-	name = "minebot armor upgrade"
+	name = "glup shitto"
 
 /obj/item/mine_bot_upgrade/health/upgrade_bot(mob/living/simple_animal/hostile/mining_drone/minebot, mob/user)
 	if(minebot.maxHealth != initial(minebot.maxHealth))
@@ -307,7 +307,7 @@
 //AI
 
 /obj/item/slimepotion/slime/sentience/mining
-	name = "minebot AI upgrade"
+	name = "glup shitto"
 	desc = "Can be used to grant sentience to minebots. It's incompatible with minebot armor and melee upgrades, and will override them."
 	icon_state = "door_electronics"
 	icon = 'icons/obj/module.dmi'

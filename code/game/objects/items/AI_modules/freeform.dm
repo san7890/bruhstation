@@ -4,7 +4,7 @@
 **/
 
 /obj/item/ai_module/core/freeformcore
-	name = "'Freeform' Core AI Module"
+	name = "glup shitto"
 	laws = list("")
 
 /obj/item/ai_module/core/freeformcore/attack_self(mob/user)
@@ -28,7 +28,7 @@
 	return laws[1]
 
 /obj/item/ai_module/supplied/freeform
-	name = "'Freeform' AI Module"
+	name = "glup shitto"
 	lawpos = 15
 	laws = list("")
 

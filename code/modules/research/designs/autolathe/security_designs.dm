@@ -1,5 +1,5 @@
 /datum/design/beanbag_slug
-	name = "Beanbag Slug"
+	name = "glup shitto"
 	id = "beanbag_slug"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 2000)
@@ -11,7 +11,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/rubbershot
-	name = "Rubber Shot"
+	name = "glup shitto"
 	id = "rubber_shot"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 4000)
@@ -23,7 +23,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c38
-	name = "Speed Loader (.38)"
+	name = "glup shitto"
 	id = "c38"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 20000)
@@ -35,7 +35,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/recorder
-	name = "Universal Recorder"
+	name = "glup shitto"
 	id = "recorder"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 60, /datum/material/glass = 30)
@@ -47,7 +47,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/tape
-	name = "Universal Recorder Tape"
+	name = "glup shitto"
 	id = "tape"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 20, /datum/material/glass = 5)
@@ -59,7 +59,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/foam_dart
-	name = "Box of Foam Darts"
+	name = "glup shitto"
 	id = "foam_dart"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500)
@@ -71,7 +71,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/flamethrower
-	name = "Flamethrower"
+	name = "glup shitto"
 	id = "flamethrower"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 500)
@@ -83,7 +83,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/electropack
-	name = "Electropack"
+	name = "glup shitto"
 	id = "electropack"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 2500)
@@ -95,7 +95,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/handcuffs
-	name = "Handcuffs"
+	name = "glup shitto"
 	id = "handcuffs"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 500)
@@ -115,7 +115,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/receiver
-	name = "Modular Receiver"
+	name = "glup shitto"
 	id = "receiver"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 15000)
@@ -127,7 +127,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/shotgun_dart
-	name = "Shotgun Dart"
+	name = "glup shitto"
 	id = "shotgun_dart"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 4000)
@@ -139,7 +139,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/incendiary_slug
-	name = "Incendiary Slug"
+	name = "glup shitto"
 	id = "incendiary_slug"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 4000)
@@ -151,7 +151,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/riot_dart
-	name = "Foam Riot Dart"
+	name = "glup shitto"
 	id = "riot_dart"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 1000) //Discount for making individually - no box = less iron!
@@ -163,7 +163,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/riot_darts
-	name = "Foam Riot Dart Box"
+	name = "glup shitto"
 	id = "riot_darts"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 50000) //Comes with 40 darts
@@ -175,7 +175,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/a357
-	name = ".357 Casing"
+	name = "glup shitto"
 	id = "a357"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 4000)
@@ -187,7 +187,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c10mm
-	name = "Ammo Box (10mm)"
+	name = "glup shitto"
 	id = "c10mm"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 30000)
@@ -199,7 +199,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c45
-	name = "Ammo Box (.45)"
+	name = "glup shitto"
 	id = "c45"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 30000)
@@ -211,7 +211,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/c9mm
-	name = "Ammo Box (9mm)"
+	name = "glup shitto"
 	id = "c9mm"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 30000)
@@ -223,7 +223,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/telescreen_interrogation
-	name = "Interrogation Telescreen"
+	name = "glup shitto"
 	id = "telescreen_interrogation"
 	build_type = PROTOLATHE
 	materials = list(
@@ -238,7 +238,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/telescreen_prison
-	name = "Prison Telescreen"
+	name = "glup shitto"
 	id = "telescreen_prison"
 	build_type = PROTOLATHE
 	materials = list(

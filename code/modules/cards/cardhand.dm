@@ -1,5 +1,5 @@
 /obj/item/toy/cards/cardhand
-	name = "hand of cards"
+	name = "glup shitto"
 	desc = "A number of cards not in a deck, customarily held in ones hand."
 	icon = 'icons/obj/toys/playing_cards.dmi'
 	icon_state = "nothing"

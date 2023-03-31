@@ -2,11 +2,11 @@
 #define MAX_CUSTOM_VOTE_OPTIONS 10
 
 /datum/vote/custom_vote/single
-	name = "Custom Standard"
+	name = "glup shitto"
 	message = "Click here to start a custom vote (one selection per voter)"
 
 /datum/vote/custom_vote/multi
-	name = "Custom Multi"
+	name = "glup shitto"
 	message = "Click here to start a custom multi vote (multiple selections per voter)"
 	count_method = VOTE_COUNT_METHOD_MULTI
 

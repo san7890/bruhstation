@@ -1,6 +1,6 @@
 /// Strikes the target with a lightning bolt
 /datum/smite/curse_of_babel
-	name = "Curse of Babel"
+	name = "glup shitto"
 	/// How long should the effect last
 	var/duration
 

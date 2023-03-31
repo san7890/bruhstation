@@ -11,7 +11,7 @@
 	// Metadata; you should define these.
 
 	/// Name of the subsystem - you must change this
-	name = "fire coderbus"
+	name = "glup shitto"
 
 	/// Order of initialization. Higher numbers are initialized first, lower numbers later. Use or create defines such as [INIT_ORDER_DEFAULT] so we can see the order in one file.
 	var/init_order = INIT_ORDER_DEFAULT
@@ -65,7 +65,7 @@
 
 	/// Tracks the current execution state of the subsystem. Used to handle subsystems that sleep in fire so the mc doesn't run them again while they are sleeping
 	var/state = SS_IDLE
-	
+
 	/// Tracks how many times a subsystem has ever slept in fire().
 	var/slept_count = 0
 

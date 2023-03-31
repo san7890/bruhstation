@@ -20,7 +20,7 @@
 	new_fly.set_species(/datum/species/fly)
 
 /obj/item/organ/internal/eyes/fly
-	name = "fly eyes"
+	name = "glup shitto"
 	desc = "These eyes seem to stare back no matter the direction you look at it from."
 	eye_icon_state = "flyeyes"
 	icon_state = "eyeballs-fly"
@@ -32,7 +32,7 @@
 	AddElement(/datum/element/organ_set_bonus, /datum/status_effect/organ_set_bonus/fly)
 
 /obj/item/organ/internal/tongue/fly
-	name = "proboscis"
+	name = "glup shitto"
 	desc = "A freakish looking meat tube that apparently can take in liquids."
 	icon = 'icons/obj/medical/organs/fly_organs.dmi'
 	say_mod = "buzzes"

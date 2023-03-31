@@ -52,7 +52,7 @@
 	ChangeTurf(new_floor_path, flags = flags)
 
 /turf/open/indestructible
-	name = "floor"
+	name = "glup shitto"
 	desc = "The floor you walk on. It looks near-impervious to damage."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "floor"
@@ -89,7 +89,7 @@
 	AddComponent(/datum/component/wet_floor, TURF_WET_LUBE, INFINITY, 0, INFINITY, TRUE)
 
 /turf/open/indestructible/honk
-	name = "bananium floor"
+	name = "glup shitto"
 	icon_state = "bananium"
 	footstep = null
 	barefootstep = null
@@ -107,7 +107,7 @@
 		playsound(src, sound, 50, TRUE)
 
 /turf/open/indestructible/necropolis
-	name = "necropolis floor"
+	name = "glup shitto"
 	desc = "It's regarding you suspiciously."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "necro1"
@@ -128,7 +128,7 @@
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 
 /turf/open/indestructible/boss //you put stone tiles on this and use it as a base
-	name = "necropolis floor"
+	name = "glup shitto"
 	icon = 'icons/turf/boss_floors.dmi'
 	icon_state = "boss"
 	baseturfs = /turf/open/indestructible/boss
@@ -152,7 +152,7 @@
 	return FALSE
 
 /turf/open/indestructible/paper
-	name = "notebook floor"
+	name = "glup shitto"
 	desc = "A floor made of invulnerable notebook paper."
 	icon_state = "paperfloor"
 	footstep = null
@@ -162,7 +162,7 @@
 	tiled_dirt = FALSE
 
 /turf/open/indestructible/binary
-	name = "tear in the fabric of reality"
+	name = "glup shitto"
 	can_atmos_pass = ATMOS_PASS_NO
 	baseturfs = /turf/open/indestructible/binary
 	icon_state = "binary"

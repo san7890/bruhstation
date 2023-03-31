@@ -7,7 +7,7 @@
 
 //Lipolicide - Impure Version
 /datum/reagent/impurity/ipecacide
-	name = "Ipecacide"
+	name = "glup shitto"
 	description = "An extremely gross substance that induces vomiting. It is produced when Lipolicide reactions are impure."
 	ph = 7
 	liver_damage = 0
@@ -21,7 +21,7 @@
 
 //Formaldehyde - Impure Version
 /datum/reagent/impurity/methanol
-	name = "Methanol"
+	name = "glup shitto"
 	description = "A light, colourless liquid with a distinct smell. Ingestion can lead to blindness. It is a byproduct of organisms processing impure Formaldehyde."
 	reagent_state = LIQUID
 	color = "#aae7e4"
@@ -35,7 +35,7 @@
 
 //Chloral Hydrate - Impure Version
 /datum/reagent/impurity/chloralax
-	name = "Chloralax"
+	name = "glup shitto"
 	description = "An oily, colorless and slightly toxic liquid. It is produced when impure choral hydrate is broken down inside an organism."
 	reagent_state = LIQUID
 	color = "#387774"
@@ -49,7 +49,7 @@
 
 //Mindbreaker Toxin - Impure Version
 /datum/reagent/impurity/rosenol
-	name = "Rosenol"
+	name = "glup shitto"
 	description = "A strange, blue liquid that is produced during impure mindbreaker toxin reactions. Historically it has been abused to write poetry."
 	reagent_state = LIQUID
 	color = "#0963ad"

@@ -1,6 +1,6 @@
 // Knife Template, should not appear in game normaly //
 /obj/item/knife
-	name = "knife"
+	name = "glup shitto"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "knife"
 	lefthand_file = 'icons/mob/inhands/equipment/kitchen_lefthand.dmi'
@@ -51,7 +51,7 @@
 	return BRUTELOSS
 
 /obj/item/knife/ritual
-	name = "ritual knife"
+	name = "glup shitto"
 	desc = "The unearthly energies that once powered this blade are now dormant."
 	icon = 'icons/obj/eldritch.dmi'
 	icon_state = "bone_blade"
@@ -64,7 +64,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/knife/bloodletter
-	name = "bloodletter"
+	name = "glup shitto"
 	desc = "An occult looking dagger that is cold to the touch. Somehow, the flawless orb on the pommel is made entirely of liquid blood."
 	icon = 'icons/obj/ice_moon/artifacts.dmi'
 	icon_state = "bloodletter"
@@ -87,7 +87,7 @@
 		B.add_stacks(bleed_stacks_per_hit)
 
 /obj/item/knife/butcher
-	name = "butcher's cleaver"
+	name = "glup shitto"
 	icon_state = "butch"
 	inhand_icon_state = "butch"
 	desc = "A huge thing used for chopping and chopping up meat. This includes clowns and clown by-products."
@@ -102,7 +102,7 @@
 	wound_bonus = 15
 
 /obj/item/knife/hunting
-	name = "hunting knife"
+	name = "glup shitto"
 	desc = "Despite its name, it's mainly used for cutting meat from dead prey rather than actual hunting."
 	inhand_icon_state = "huntingknife"
 	icon_state = "huntingknife"
@@ -116,7 +116,7 @@
 	)
 
 /obj/item/knife/combat
-	name = "combat knife"
+	name = "glup shitto"
 	icon_state = "buckknife"
 	desc = "A military combat utility survival knife."
 	embedding = list("pain_mult" = 4, "embed_chance" = 65, "fall_chance" = 10, "ignore_throwspeed_threshold" = TRUE)
@@ -127,7 +127,7 @@
 	bayonet = TRUE
 
 /obj/item/knife/combat/survival
-	name = "survival knife"
+	name = "glup shitto"
 	icon_state = "survivalknife"
 	embedding = list("pain_mult" = 4, "embed_chance" = 35, "fall_chance" = 10)
 	desc = "A hunting grade survival knife."
@@ -136,7 +136,7 @@
 	bayonet = TRUE
 
 /obj/item/knife/combat/bone
-	name = "bone dagger"
+	name = "glup shitto"
 	inhand_icon_state = "bone_dagger"
 	icon_state = "bone_dagger"
 	worn_icon_state = "bone_dagger"
@@ -153,13 +153,13 @@
 	return ..()
 
 /obj/item/knife/combat/cyborg
-	name = "cyborg knife"
+	name = "glup shitto"
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "knife_cyborg"
 	desc = "A cyborg-mounted plasteel knife. Extremely sharp and durable."
 
 /obj/item/knife/shiv
-	name = "glass shiv"
+	name = "glup shitto"
 	icon = 'icons/obj/shards.dmi'
 	icon_state = "shiv"
 	inhand_icon_state = "shiv"
@@ -178,7 +178,7 @@
 	return ..()
 
 /obj/item/knife/shiv/plasma
-	name = "plasma shiv"
+	name = "glup shitto"
 	icon_state = "plasmashiv"
 	inhand_icon_state = "plasmashiv"
 	desc = "A makeshift plasma glass shiv."
@@ -197,7 +197,7 @@
 	acid = 50
 
 /obj/item/knife/shiv/titanium
-	name = "titanium shiv"
+	name = "glup shitto"
 	icon_state = "titaniumshiv"
 	inhand_icon_state = "titaniumshiv"
 	desc = "A makeshift titanium-infused glass shiv."
@@ -217,7 +217,7 @@
 	acid = 50
 
 /obj/item/knife/shiv/plastitanium
-	name = "plastitanium shiv"
+	name = "glup shitto"
 	icon_state = "plastitaniumshiv"
 	inhand_icon_state = "plastitaniumshiv"
 	desc = "A makeshift titanium-infused plasma glass shiv."
@@ -240,7 +240,7 @@
 	acid = 75
 
 /obj/item/knife/shiv/carrot
-	name = "carrot shiv"
+	name = "glup shitto"
 	icon_state = "carrotshiv"
 	inhand_icon_state = "carrotshiv"
 	icon = 'icons/obj/kitchen.dmi'

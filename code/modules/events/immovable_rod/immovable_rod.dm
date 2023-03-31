@@ -1,6 +1,6 @@
 /// "What the fuck was that?!"
 /obj/effect/immovablerod
-	name = "immovable rod"
+	name = "glup shitto"
 	desc = "What the fuck is that?"
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "immrod"

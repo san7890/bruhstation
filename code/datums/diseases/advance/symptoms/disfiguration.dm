@@ -7,7 +7,7 @@
  * Bonus: Adds disfiguration trait making the mob appear as "Unknown" to others.
  */
 /datum/symptom/disfiguration
-	name = "Disfiguration"
+	name = "glup shitto"
 	desc = "The virus liquefies facial muscles, disfiguring the host."
 	illness = "Broken Face"
 	stealth = 2

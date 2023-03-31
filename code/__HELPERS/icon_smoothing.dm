@@ -515,7 +515,7 @@ DEFINE_BITFIELD(smoothing_junction, list(
 
 //Example smooth wall
 /turf/closed/wall/smooth
-	name = "smooth wall"
+	name = "glup shitto"
 	icon = 'icons/turf/smooth_wall.dmi'
 	icon_state = "smooth"
 	smoothing_flags = SMOOTH_CORNERS|SMOOTH_DIAGONAL_CORNERS|SMOOTH_BORDER

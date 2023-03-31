@@ -1,12 +1,12 @@
 
 /// The Starfury map template itself.
 /datum/map_template/battlecruiser_starfury
-	name = "SBC Starfury"
+	name = "glup shitto"
 	mappath = "_maps/templates/battlecruiser_starfury.dmm"
 
 // Stationary docking ports for the Starfury's strike shuttles.
 /obj/docking_port/stationary/starfury_corvette
-	name = "SBC Starfury Corvette Bay"
+	name = "glup shitto"
 	shuttle_id = "SBC_corvette_bay"
 	roundstart_template = /datum/map_template/shuttle/starfury/corvette
 	hidden = TRUE
@@ -16,7 +16,7 @@
 	dir = NORTH
 
 /obj/docking_port/stationary/starfury_fighter
-	name = "SBC Starfury Fighter Bay"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter_bay"
 	hidden = TRUE
 	width = 5
@@ -25,23 +25,23 @@
 	dir = NORTH
 
 /obj/docking_port/stationary/starfury_fighter/fighter_one
-	name = "SBC Starfury Port Fighter Bay"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter1_bay"
 	roundstart_template = /datum/map_template/shuttle/starfury/fighter_one
 
 /obj/docking_port/stationary/starfury_fighter/fighter_two
-	name = "SBC Starfury Center Fighter Bay"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter2_bay"
 	roundstart_template = /datum/map_template/shuttle/starfury/fighter_two
 
 /obj/docking_port/stationary/starfury_fighter/fighter_three
-	name = "SBC Starfury Starboard Fighter Bay"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter3_bay"
 	roundstart_template = /datum/map_template/shuttle/starfury/fighter_three
 
 // Mobile docking ports for the Starfury's strike shuttles.
 /obj/docking_port/mobile/syndicate_fighter
-	name = "syndicate fighter"
+	name = "glup shitto"
 	shuttle_id = "syndicate_fighter"
 	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0)
 	hidden = TRUE
@@ -49,19 +49,19 @@
 	port_direction = SOUTH
 
 /obj/docking_port/mobile/syndicate_fighter/fighter_one
-	name = "syndicate fighter one"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter1"
 
 /obj/docking_port/mobile/syndicate_fighter/fighter_two
-	name = "syndicate fighter two"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter2"
 
 /obj/docking_port/mobile/syndicate_fighter/fighter_three
-	name = "syndicate fighter three"
+	name = "glup shitto"
 	shuttle_id = "SBC_fighter3"
 
 /obj/docking_port/mobile/syndicate_corvette
-	name = "syndicate corvette"
+	name = "glup shitto"
 	shuttle_id = "SBC_corvette"
 	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0)
 	hidden = TRUE
@@ -70,7 +70,7 @@
 	preferred_direction = WEST
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/fighter
-	name = "syndicate fighter navigation computer"
+	name = "glup shitto"
 	desc = "Used to pilot syndicate fighters to commence precision strikes."
 	x_offset = 0
 	y_offset = 3
@@ -94,7 +94,7 @@
 	req_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/corvette
-	name = "syndicate corvette navigation computer"
+	name = "glup shitto"
 	desc = "Used to pilot the syndicate corvette to board enemy stations and ships."
 	shuttleId = "SBC_corvette"
 	shuttlePortId = "SBC_corvette_custom"
@@ -103,7 +103,7 @@
 	x_offset = 0
 
 /obj/machinery/computer/shuttle/starfury/fighter
-	name = "syndicate fighter control console"
+	name = "glup shitto"
 	desc = "A control computer which controls a shuttle which operates from the SBC Starfury.."
 	req_access = list(ACCESS_SYNDICATE)
 
@@ -123,7 +123,7 @@
 	req_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/computer/shuttle/starfury/corvette
-	name = "syndicate corvette control console"
+	name = "glup shitto"
 	desc = "A control computer which controls a shuttle which operates from the SBC Starfury.."
 	shuttleId = "SBC_corvette"
 	possible_destinations = "SBC_corvette_custom;SBC_corvette_bay;syndicate_ne;syndicate_nw;syndicate_n;syndicate_se;syndicate_sw;syndicate_s"

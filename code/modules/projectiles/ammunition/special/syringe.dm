@@ -1,5 +1,5 @@
 /obj/item/ammo_casing/syringegun
-	name = "syringe gun spring"
+	name = "glup shitto"
 	desc = "A high-power spring that throws syringes."
 	slot_flags = null
 	projectile_type = /obj/projectile/bullet/dart/syringe
@@ -33,7 +33,7 @@
 	return ..()
 
 /obj/item/ammo_casing/chemgun
-	name = "dart synthesiser"
+	name = "glup shitto"
 	desc = "A high-power spring, linked to an energy-based piercing dart synthesiser."
 	projectile_type = /obj/projectile/bullet/dart/piercing
 	firing_effect_type = null
@@ -51,7 +51,7 @@
 	return ..()
 
 /obj/item/ammo_casing/dnainjector
-	name = "rigged syringe gun spring"
+	name = "glup shitto"
 	desc = "A high-power spring that throws DNA injectors."
 	projectile_type = /obj/projectile/bullet/dnainjector
 	firing_effect_type = null

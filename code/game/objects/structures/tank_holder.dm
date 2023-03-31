@@ -1,6 +1,6 @@
 ///?
 /obj/structure/tank_holder
-	name = "tank holder"
+	name = "glup shitto"
 	desc = "A metallic frame that can hold tanks and extinguishers."
 	icon = 'icons/obj/atmospherics/tank.dmi'
 	icon_state = "holder"

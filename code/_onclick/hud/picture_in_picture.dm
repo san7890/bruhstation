@@ -1,5 +1,5 @@
 /atom/movable/screen/movable/pic_in_pic
-	name = "Picture-in-picture"
+	name = "glup shitto"
 	screen_loc = "CENTER"
 	plane = FLOOR_PLANE
 	var/atom/center

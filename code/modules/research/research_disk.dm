@@ -1,6 +1,6 @@
 
 /obj/item/disk/tech_disk
-	name = "technology disk"
+	name = "glup shitto"
 	desc = "A disk for storing technology data for further research."
 	icon_state = "datadisk0"
 	custom_materials = list(/datum/material/iron=300, /datum/material/glass=100)
@@ -14,7 +14,7 @@
 	pixel_y = base_pixel_y + rand(-5, 5)
 
 /obj/item/disk/tech_disk/debug
-	name = "\improper CentCom technology disk"
+	name = "glup shitto"
 	desc = "A debug item for research"
 	custom_materials = null
 

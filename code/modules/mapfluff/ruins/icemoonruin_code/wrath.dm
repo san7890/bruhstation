@@ -1,5 +1,5 @@
 /obj/item/clothing/gloves/butchering
-	name = "butchering gloves"
+	name = "glup shitto"
 	desc = "These gloves allow the user to rip apart bodies with precision and ease."
 	icon_state = "black"
 	greyscale_colors = "#2f2e31"

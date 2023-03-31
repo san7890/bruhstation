@@ -1,5 +1,5 @@
 /obj/item/skillchip/job/engineer
-	name = "Engineering C1-RCU-1T skillchip"
+	name = "glup shitto"
 	desc = "Endorsed by Poly."
 	auto_traits = list(TRAIT_KNOW_ENGI_WIRES)
 	skill_name = "Engineering Circuitry"

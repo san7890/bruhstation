@@ -13,7 +13,7 @@
 /*Suffix: -bital*/
 
 /datum/reagent/medicine/c2/helbital //kinda a C2 only if you're not in hardcrit.
-	name = "Helbital"
+	name = "glup shitto"
 	description = "Named after the norse goddess Hel, this medicine heals the patient's bruises the closer they are to death. Patients will find the medicine 'aids' their healing if not near death by causing asphyxiation."
 	color = "#9400D3"
 	taste_description = "cold and lifeless"
@@ -90,7 +90,7 @@
 	..()
 
 /datum/reagent/medicine/c2/libital //messes with your liber
-	name = "Libital"
+	name = "glup shitto"
 	description = "A bruise reliever. Does minor liver damage."
 	color = "#ECEC8D" // rgb: 236 236 141
 	ph = 8.2
@@ -105,7 +105,7 @@
 	return TRUE
 
 /datum/reagent/medicine/c2/probital
-	name = "Probital"
+	name = "glup shitto"
 	description = "Originally developed as a prototype-gym supliment for those looking for quick workout turnover, this oral medication quickly repairs broken muscle tissue but causes lactic acid buildup, tiring the patient. Overdosing can cause extreme drowsiness. An Influx of nutrients promotes the muscle repair even further."
 	reagent_state = SOLID
 	color = "#FFFF6B"
@@ -152,7 +152,7 @@
 /******BURN******/
 /*Suffix: -uri*/
 /datum/reagent/medicine/c2/lenturi
-	name = "Lenturi"
+	name = "glup shitto"
 	description = "Used to treat burns. Makes you move slower while it is in your system. Applies stomach damage when it leaves your system."
 	reagent_state = LIQUID
 	color = "#6171FF"
@@ -168,7 +168,7 @@
 	return TRUE
 
 /datum/reagent/medicine/c2/aiuri
-	name = "Aiuri"
+	name = "glup shitto"
 	description = "Used to treat burns. Does minor eye damage."
 	reagent_state = LIQUID
 	color = "#8C93FF"
@@ -184,7 +184,7 @@
 	return TRUE
 
 /datum/reagent/medicine/c2/hercuri
-	name = "Hercuri"
+	name = "glup shitto"
 	description = "Not to be confused with element Mercury, this medicine excels in reverting effects of dangerous high-temperature environments. Prolonged exposure can cause hypothermia."
 	reagent_state = LIQUID
 	color = "#F7FFA5"
@@ -232,7 +232,7 @@
 #define CONVERMOL_RATIO 5 //# Oxygen damage to result in 1 tox
 
 /datum/reagent/medicine/c2/convermol
-	name = "Convermol"
+	name = "glup shitto"
 	description = "Restores oxygen deprivation while producing a lesser amount of toxic byproducts. Both scale with exposure to the drug and current amount of oxygen deprivation. Overdose causes toxic byproducts regardless of oxygen deprivation."
 	reagent_state = LIQUID
 	color = "#FF6464"
@@ -261,7 +261,7 @@
 #undef CONVERMOL_RATIO
 
 /datum/reagent/medicine/c2/tirimol
-	name = "Tirimol"
+	name = "glup shitto"
 	description = "An oxygen deprivation medication that causes fatigue. Prolonged exposure causes the patient to fall asleep once the medicine metabolizes."
 	color = "#FF6464"
 	ph = 5.6
@@ -292,7 +292,7 @@
 /*Suffix: -iver*/
 
 /datum/reagent/medicine/c2/seiver //a bit of a gray joke
-	name = "Seiver"
+	name = "glup shitto"
 	description = "A medicine that shifts functionality based on temperature. Hotter temperatures will heal more toxicity, while colder temperatures will heal larger amounts of toxicity but only while the patient is irradiated. Damages the heart." //CHEM HOLDER TEMPS, NOT AIR TEMPS
 	inverse_chem_val = 0.3
 	ph = 3.7
@@ -335,7 +335,7 @@
 	return TRUE
 
 /datum/reagent/medicine/c2/multiver //enhanced with MULTIple medicines
-	name = "Multiver"
+	name = "glup shitto"
 	description = "A chem-purger that becomes more effective the more unique medicines present. Slightly heals toxicity but causes lung damage (mitigatable by unique medicines)."
 	inverse_chem = /datum/reagent/inverse/healing/monover
 	inverse_chem_val = 0.35
@@ -373,7 +373,7 @@
 #define issyrinormusc(A) (istype(A,/datum/reagent/medicine/c2/syriniver) || istype(A,/datum/reagent/medicine/c2/musiver)) //musc is metab of syrin so let's make sure we're not purging either
 
 /datum/reagent/medicine/c2/syriniver //Inject >> SYRINge
-	name = "Syriniver"
+	name = "glup shitto"
 	description = "A potent antidote for intravenous use with a narrow therapeutic index, it is considered an active prodrug of musiver."
 	reagent_state = LIQUID
 	color = "#8CDF24" // heavy saturation to make the color blend better
@@ -416,7 +416,7 @@
 	. = TRUE
 
 /datum/reagent/medicine/c2/musiver //MUScles
-	name = "Musiver"
+	name = "glup shitto"
 	description = "The active metabolite of syriniver. Causes muscle weakness on overdose"
 	reagent_state = LIQUID
 	color = "#DFD54E"
@@ -456,7 +456,7 @@
 /******COMBOS******/
 /*Suffix: Combo of healing, prob gonna get wack REAL fast*/
 /datum/reagent/medicine/c2/synthflesh
-	name = "Synthflesh"
+	name = "glup shitto"
 	description = "Heals brute and burn damage at the cost of toxicity (66% of damage healed). 100u or more can restore corpses husked by burns. Touch application only."
 	reagent_state = LIQUID
 	color = "#FFEBEB"
@@ -498,7 +498,7 @@
 *Overdosing on penthrite also causes a heart failure.
 */
 /datum/reagent/medicine/c2/penthrite
-	name = "Penthrite"
+	name = "glup shitto"
 	description = "An expensive medicine that aids with pumping blood around the body even without a heart, and prevents the heart from slowing down. Mixing it with epinephrine or atropine will cause an explosion."
 	color = "#F5F5F5"
 	overdose_threshold = 50
@@ -515,7 +515,7 @@
 	)
 
 /atom/movable/screen/alert/penthrite
-	name = "Strong Heartbeat"
+	name = "glup shitto"
 	desc = "Your heart beats with great force!"
 	icon_state = "penthrite"
 

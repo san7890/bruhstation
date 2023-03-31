@@ -2,7 +2,7 @@
 as well as a location where a hidden item can somtimes be retrieved
 at the cost of risking a vicious bite.**/
 /obj/structure/moisture_trap
-	name = "moisture trap"
+	name = "glup shitto"
 	desc = "A device installed in order to control moisture in poorly ventilated areas.\nThe stagnant water inside basin seems to produce serious biofouling issues when improperly maintained.\nThis unit in particular seems to be teeming with life!\nWho thought mother Gaia could assert herself so vigoriously in this sterile and desolate place?"
 	icon_state = "moisture_trap"
 	anchored = TRUE
@@ -119,7 +119,7 @@ at the cost of risking a vicious bite.**/
 #define ALTAR_TIME (9.5 SECONDS)
 
 /obj/structure/destructible/cult/pants_altar
-	name = "strange structure"
+	name = "glup shitto"
 	desc = "What is this? Who put it on this station? And why does it emanate <span class='hypnophrase'>strange energy?</span>"
 	icon_state = "altar"
 	cult_examine_tip = "Even you don't understand the eldritch magic behind this."
@@ -232,7 +232,7 @@ at the cost of risking a vicious bite.**/
 	return TRUE
 
 /obj/item/clothing/under/pants/slacks/altar
-	name = "strange pants"
+	name = "glup shitto"
 	desc = "A pair of pants. They do not look or feel natural, and smell like fresh blood."
 	greyscale_colors = "#ffffff#ffffff#ffffff"
 	flags_1 = NONE //If IS_PLAYER_COLORABLE gets added color-changing support (i.e. spraycans), these won't end up getting it too. Plus, it already has its own recolor.
@@ -247,7 +247,7 @@ at the cost of risking a vicious bite.**/
  * Spawns in maint shafts, and blocks lines of sight perodically when active.
  */
 /obj/structure/steam_vent
-	name = "steam vent"
+	name = "glup shitto"
 	desc = "A device periodically filtering out moisture particles from the nearby walls and windows. It's only possible due to the moisture traps nearby."
 	icon_state = "steam_vent"
 	anchored = TRUE

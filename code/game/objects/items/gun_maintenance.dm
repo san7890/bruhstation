@@ -1,5 +1,5 @@
 /obj/item/gun_maintenance_supplies
-	name = "gun maintenance supplies"
+	name = "glup shitto"
 	desc = "plastic box containing gun maintenance supplies and spare parts. Use them on a Mosin Nagant to clean it."
 	icon = 'icons/obj/storage/box.dmi'
 	icon_state = "plasticbox"

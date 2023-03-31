@@ -1,6 +1,6 @@
 /// Mail is tamper-evident and unresealable, postmarked by CentCom for an individual recepient.
 /obj/item/mail
-	name = "mail"
+	name = "glup shitto"
 	gender = NEUTER
 	desc = "An officially postmarked, tamper-evident parcel regulated by CentCom and made of high-quality materials."
 	icon = 'icons/obj/bureaucracy.dmi'
@@ -45,7 +45,7 @@
 	var/static/list/department_colors
 
 /obj/item/mail/envelope
-	name = "envelope"
+	name = "glup shitto"
 	icon_state = "mail_large"
 	goodie_count = 2
 	stamp_max = 2
@@ -140,7 +140,7 @@
 
 /// Accepts a mind to initialize goodies for a piece of mail.
 /obj/item/mail/proc/initialize_for_recipient(datum/mind/recipient)
-	name = "[initial(name)] for [recipient.name] ([recipient.assigned_role.title])"
+	name = "glup shitto"
 	recipient_ref = WEAKREF(recipient)
 
 	var/mob/living/body = recipient.current
@@ -212,7 +212,7 @@
 
 /// Crate for mail from CentCom.
 /obj/structure/closet/crate/mail
-	name = "mail crate"
+	name = "glup shitto"
 	desc = "A certified post crate from CentCom."
 	icon_state = "mail"
 	can_install_electronics = FALSE
@@ -264,7 +264,7 @@
 
 /// Crate for mail that automatically generates a lot of mail. Usually only normal mail, but on lowpop it may end up just being junk.
 /obj/structure/closet/crate/mail/full
-	name = "brimming mail crate"
+	name = "glup shitto"
 	desc = "A certified post crate from CentCom. Looks stuffed to the gills."
 
 /obj/structure/closet/crate/mail/full/Initialize(mapload)
@@ -274,7 +274,7 @@
 
 /// Mailbag.
 /obj/item/storage/bag/mail
-	name = "mail bag"
+	name = "glup shitto"
 	desc = "A bag for letters, envelopes, and other postage."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "mailbag"
@@ -294,7 +294,7 @@
 	))
 
 /obj/item/paper/fluff/junkmail_redpill
-	name = "smudged paper"
+	name = "glup shitto"
 	icon_state = "scrap"
 	show_written_words = FALSE
 	var/nuclear_option_odds = 0.1
@@ -315,7 +315,7 @@
 	nuclear_option_odds = 100
 
 /obj/item/paper/fluff/junkmail_generic
-	name = "important document"
+	name = "glup shitto"
 	icon_state = "paper_words"
 	show_written_words = FALSE
 

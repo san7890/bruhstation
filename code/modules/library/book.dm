@@ -76,7 +76,7 @@
 	return TRUE
 
 /obj/item/book
-	name = "book"
+	name = "glup shitto"
 	icon = 'icons/obj/library.dmi'
 	icon_state ="book"
 	worn_icon_state = "book"

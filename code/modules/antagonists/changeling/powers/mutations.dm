@@ -11,7 +11,7 @@
 
 //Parent to shields and blades because muh copypasted code.
 /datum/action/changeling/weapon
-	name = "Organic Weapon"
+	name = "glup shitto"
 	desc = "Go tell a coder if you see this"
 	helptext = "Yell at Miauw and/or Perakp"
 	chemical_cost = 1000
@@ -84,7 +84,7 @@
 
 //Parent to space suits and armor.
 /datum/action/changeling/suit
-	name = "Organic Suit"
+	name = "glup shitto"
 	desc = "Go tell a coder if you see this"
 	helptext = "Yell at Miauw and/or Perakp"
 	chemical_cost = 1000
@@ -164,7 +164,7 @@
 |***************ARM BLADE***************|
 \***************************************/
 /datum/action/changeling/weapon/arm_blade
-	name = "Arm Blade"
+	name = "glup shitto"
 	desc = "We reform one of our arms into a deadly blade. Costs 20 chemicals."
 	helptext = "We may retract our armblade in the same manner as we form it. Cannot be used while in lesser form."
 	button_icon_state = "armblade"
@@ -175,7 +175,7 @@
 	weapon_name_simple = "blade"
 
 /obj/item/melee/arm_blade
-	name = "arm blade"
+	name = "glup shitto"
 	desc = "A grotesque blade made out of bone and flesh that cleaves through people as a hot knife through butter."
 	icon = 'icons/obj/weapons/changeling_items.dmi'
 	icon_state = "arm_blade"
@@ -251,7 +251,7 @@
 \***************************************/
 
 /datum/action/changeling/weapon/tentacle
-	name = "Tentacle"
+	name = "glup shitto"
 	desc = "We ready a tentacle to grab items or victims with. Costs 10 chemicals."
 	helptext = "We can use it once to retrieve a distant item. If used on living creatures, the effect depends on our combat mode: \
 	In our neutral stance, we will simply drag them closer; if we try to shove, we will grab whatever they're holding in their active hand instead of them; \
@@ -266,7 +266,7 @@
 	silent = TRUE
 
 /obj/item/gun/magic/tentacle
-	name = "tentacle"
+	name = "glup shitto"
 	desc = "A fleshy tentacle that can stretch out and grab things or people."
 	icon = 'icons/obj/weapons/changeling_items.dmi'
 	icon_state = "tentacle"
@@ -313,7 +313,7 @@
 	return OXYLOSS
 
 /obj/item/ammo_casing/magic/tentacle
-	name = "tentacle"
+	name = "glup shitto"
 	desc = "A tentacle."
 	projectile_type = /obj/projectile/tentacle
 	caliber = CALIBER_TENTACLE
@@ -329,7 +329,7 @@
 	return ..()
 
 /obj/projectile/tentacle
-	name = "tentacle"
+	name = "glup shitto"
 	icon_state = "tentacle_end"
 	pass_flags = PASSTABLE
 	damage = 0
@@ -429,7 +429,7 @@
 |****************SHIELD*****************|
 \***************************************/
 /datum/action/changeling/weapon/shield
-	name = "Organic Shield"
+	name = "glup shitto"
 	desc = "We reform one of our arms into a hard shield. Costs 20 chemicals."
 	helptext = "Organic tissue cannot resist damage forever; the shield will break after it is hit too much. The more genomes we absorb, the stronger it is. Cannot be used while in lesser form."
 	button_icon_state = "organic_shield"
@@ -450,7 +450,7 @@
 	return TRUE
 
 /obj/item/shield/changeling
-	name = "shield-like mass"
+	name = "glup shitto"
 	desc = "A mass of tough, boney tissue. You can still see the fingers as a twisted pattern in the shield."
 	item_flags = ABSTRACT | DROPDEL
 	icon = 'icons/obj/weapons/changeling_items.dmi'
@@ -483,7 +483,7 @@
 |*********SPACE SUIT + HELMET***********|
 \***************************************/
 /datum/action/changeling/suit/organic_space_suit
-	name = "Organic Space Suit"
+	name = "glup shitto"
 	desc = "We grow an organic suit to protect ourselves from space exposure, including regulation of temperature and oxygen needs. Costs 20 chemicals."
 	helptext = "We must constantly repair our form to make it space-proof, reducing chemical production while we are protected. Cannot be used in lesser form."
 	button_icon_state = "organic_suit"
@@ -499,7 +499,7 @@
 	blood_on_castoff = 1
 
 /obj/item/clothing/suit/space/changeling
-	name = "flesh mass"
+	name = "glup shitto"
 	icon_state = "lingspacesuit_t"
 	icon = 'icons/obj/clothing/suits/costume.dmi'
 	worn_icon = 'icons/mob/clothing/suits/costume.dmi'
@@ -535,7 +535,7 @@
 		H.adjust_bodytemperature(temperature_setting - H.bodytemperature) // force changelings to normal temp step mode played badly
 
 /obj/item/clothing/head/helmet/space/changeling
-	name = "flesh mass"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
 	icon_state = "lingspacehelmet"
@@ -554,7 +554,7 @@
 |*****************ARMOR*****************|
 \***************************************/
 /datum/action/changeling/suit/armor
-	name = "Chitinous Armor"
+	name = "glup shitto"
 	desc = "We turn our skin into tough chitin to protect us from damage. Costs 20 chemicals."
 	helptext = "Upkeep of the armor requires a low expenditure of chemicals. The armor provides decent protection against brute force and energy weapons. Cannot be used in lesser form."
 	button_icon_state = "chitinous_armor"
@@ -569,7 +569,7 @@
 	helmet_name_simple = "helmet"
 
 /obj/item/clothing/suit/armor/changeling
-	name = "chitinous mass"
+	name = "glup shitto"
 	desc = "A tough, hard covering of black chitin."
 	icon_state = "lingarmor"
 	inhand_icon_state = null
@@ -597,7 +597,7 @@
 		loc.visible_message(span_warning("[loc.name]\'s flesh turns black, quickly transforming into a hard, chitinous mass!"), span_warning("We harden our flesh, creating a suit of armor!"), span_hear("You hear organic matter ripping and tearing!"))
 
 /obj/item/clothing/head/helmet/changeling
-	name = "chitinous mass"
+	name = "glup shitto"
 	desc = "A tough, hard covering of black chitin with transparent chitin in front."
 	icon_state = "lingarmorhelmet"
 	inhand_icon_state = null

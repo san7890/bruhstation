@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/cup/watering_can
-	name = "watering can"
+	name = "glup shitto"
 	desc = "It's a watering can. It is scientifically proved that using a watering can to simulate rain increases plant happiness!"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "watering_can"
@@ -13,7 +13,7 @@
 	possible_transfer_amounts = list(20,100)
 
 /obj/item/reagent_containers/cup/watering_can/wood
-	name = "wood watering can"
+	name = "glup shitto"
 	desc = "An old metal-made watering can but shoddily painted to look like it was made of wood for some dubious reason..."
 	icon_state = "watering_can_wood"
 	inhand_icon_state = "watering_can_wood"
@@ -22,7 +22,7 @@
 
 /obj/item/reagent_containers/cup/watering_can/advanced
 	desc = "Everything a botanist would want in a watering can. This marvel of technology generates its own water!"
-	name = "advanced watering can"
+	name = "glup shitto"
 	icon_state = "adv_watering_can"
 	inhand_icon_state = "adv_watering_can"
 	custom_materials = list(/datum/material/iron = 2500, /datum/material/glass = 200)

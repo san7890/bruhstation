@@ -1,5 +1,5 @@
 /obj/effect/mob_spawn
-	name = "Mob Spawner"
+	name = "glup shitto"
 	density = TRUE
 	anchored = TRUE
 	//So it shows up in the map editor

@@ -6,7 +6,7 @@
 */
 
 /datum/round_event_control/changeling
-	name = "Changeling Meteor"
+	name = "glup shitto"
 	typepath = /datum/round_event/ghost_role/changeling
 	weight = 8
 	max_occurrences = 3

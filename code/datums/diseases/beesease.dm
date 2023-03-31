@@ -1,5 +1,5 @@
 /datum/disease/beesease
-	name = "Beesease"
+	name = "glup shitto"
 	form = "Infection"
 	max_stages = 4
 	spread_text = "On contact"

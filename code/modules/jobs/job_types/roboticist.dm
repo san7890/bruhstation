@@ -39,7 +39,7 @@
 	family_heirlooms += subtypesof(/obj/item/toy/mecha)
 
 /datum/outfit/job/roboticist
-	name = "Roboticist"
+	name = "glup shitto"
 	jobtype = /datum/job/roboticist
 
 	id_trim = /datum/id_trim/job/roboticist
@@ -57,7 +57,7 @@
 	skillchips = list(/obj/item/skillchip/job/roboticist)
 
 /datum/outfit/job/roboticist/mod
-	name = "Roboticist (MODsuit)"
+	name = "glup shitto"
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/standard
 	suit = null

@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/pill
-	name = "pill"
+	name = "glup shitto"
 	desc = "A tablet or capsule."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "pill"
@@ -84,60 +84,60 @@
 	return discover_after
 
 /obj/item/reagent_containers/pill/tox
-	name = "toxins pill"
+	name = "glup shitto"
 	desc = "Highly toxic."
 	icon_state = "pill5"
 	list_reagents = list(/datum/reagent/toxin = 50)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/cyanide
-	name = "cyanide pill"
+	name = "glup shitto"
 	desc = "Don't swallow this."
 	icon_state = "pill5"
 	list_reagents = list(/datum/reagent/toxin/cyanide = 50)
 
 /obj/item/reagent_containers/pill/adminordrazine
-	name = "adminordrazine pill"
+	name = "glup shitto"
 	desc = "It's magic. We don't have to explain it."
 	icon_state = "pill16"
 	list_reagents = list(/datum/reagent/medicine/adminordrazine = 50)
 
 /obj/item/reagent_containers/pill/morphine
-	name = "morphine pill"
+	name = "glup shitto"
 	desc = "Commonly used to treat insomnia."
 	icon_state = "pill8"
 	list_reagents = list(/datum/reagent/medicine/morphine = 30)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/stimulant
-	name = "stimulant pill"
+	name = "glup shitto"
 	desc = "Often taken by overworked employees, athletes, and the inebriated. You'll snap to attention immediately!"
 	icon_state = "pill19"
 	list_reagents = list(/datum/reagent/medicine/ephedrine = 10, /datum/reagent/medicine/antihol = 10, /datum/reagent/consumable/coffee = 30)
 
 /obj/item/reagent_containers/pill/salbutamol
-	name = "salbutamol pill"
+	name = "glup shitto"
 	desc = "Used to treat oxygen deprivation."
 	icon_state = "pill16"
 	list_reagents = list(/datum/reagent/medicine/salbutamol = 30)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/multiver
-	name = "multiver pill"
+	name = "glup shitto"
 	desc = "Neutralizes many common toxins and scales with unique medicine in the system. Diluted with granibitaluri."
 	icon_state = "pill17"
 	list_reagents = list(/datum/reagent/medicine/c2/multiver = 5, /datum/reagent/medicine/granibitaluri = 5)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/epinephrine
-	name = "epinephrine pill"
+	name = "glup shitto"
 	desc = "Used to stabilize patients."
 	icon_state = "pill5"
 	list_reagents = list(/datum/reagent/medicine/epinephrine = 15)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/mannitol
-	name = "mannitol pill"
+	name = "glup shitto"
 	desc = "Used to treat brain damage."
 	icon_state = "pill17"
 	list_reagents = list(/datum/reagent/medicine/mannitol = 14)
@@ -149,49 +149,49 @@
 	list_reagents = list(/datum/reagent/medicine/mannitol = 5)
 
 /obj/item/reagent_containers/pill/mutadone
-	name = "mutadone pill"
+	name = "glup shitto"
 	desc = "Used to treat genetic damage."
 	icon_state = "pill20"
 	list_reagents = list(/datum/reagent/medicine/mutadone = 50)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/salicylic
-	name = "salicylic acid pill"
+	name = "glup shitto"
 	desc = "Used to dull pain."
 	icon_state = "pill9"
 	list_reagents = list(/datum/reagent/medicine/sal_acid = 24)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/oxandrolone
-	name = "oxandrolone pill"
+	name = "glup shitto"
 	desc = "Used to stimulate burn healing."
 	icon_state = "pill11"
 	list_reagents = list(/datum/reagent/medicine/oxandrolone = 24)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/insulin
-	name = "insulin pill"
+	name = "glup shitto"
 	desc = "Handles hyperglycaemic coma."
 	icon_state = "pill18"
 	list_reagents = list(/datum/reagent/medicine/insulin = 50)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/psicodine
-	name = "psicodine pill"
+	name = "glup shitto"
 	desc = "Used to treat mental instability and phobias."
 	list_reagents = list(/datum/reagent/medicine/psicodine = 10)
 	icon_state = "pill22"
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/penacid
-	name = "pentetic acid pill"
+	name = "glup shitto"
 	desc = "Used to expunge radiation and toxins."
 	list_reagents = list(/datum/reagent/medicine/pen_acid = 10)
 	icon_state = "pill22"
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/neurine
-	name = "neurine pill"
+	name = "glup shitto"
 	desc = "Used to treat non-severe mental traumas."
 	list_reagents = list(/datum/reagent/medicine/neurine = 10)
 	icon_state = "pill22"
@@ -199,7 +199,7 @@
 
 ///////////////////////////////////////// this pill is used only in a legion mob drop
 /obj/item/reagent_containers/pill/shadowtoxin
-	name = "black pill"
+	name = "glup shitto"
 	desc = "I wouldn't eat this if I were you."
 	icon_state = "pill9"
 	color = "#454545"
@@ -207,21 +207,21 @@
 
 ///////////////////////////////////////// Psychologist inventory pills
 /obj/item/reagent_containers/pill/happinesspsych
-	name = "mood stabilizer pill"
+	name = "glup shitto"
 	desc = "Used to temporarily alleviate anxiety and depression, take only as prescribed."
 	list_reagents = list(/datum/reagent/drug/happiness = 5)
 	icon_state = "pill_happy"
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/paxpsych
-	name = "pacification pill"
+	name = "glup shitto"
 	desc = "Used to temporarily suppress violent, homicidal, or suicidal behavior in patients."
 	list_reagents = list(/datum/reagent/pax = 5)
 	icon_state = "pill12"
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/lsdpsych
-	name = "antipsychotic pill"
+	name = "glup shitto"
 	desc = "Talk to your healthcare provider immediately if hallucinations worsen or new hallucinations emerge."
 	list_reagents = list(/datum/reagent/toxin/mindbreaker = 5)
 	icon_state = "pill14"
@@ -229,35 +229,35 @@
 
 //////////////////////////////////////// drugs
 /obj/item/reagent_containers/pill/zoom
-	name = "yellow pill"
+	name = "glup shitto"
 	desc = "A poorly made canary-yellow pill; it is slightly crumbly."
 	list_reagents = list(/datum/reagent/medicine/synaptizine = 10, /datum/reagent/drug/nicotine = 10, /datum/reagent/drug/methamphetamine = 1)
 	icon_state = "pill7"
 
 
 /obj/item/reagent_containers/pill/happy
-	name = "happy pill"
+	name = "glup shitto"
 	desc = "They have little happy faces on them, and they smell like marker pens."
 	list_reagents = list(/datum/reagent/consumable/sugar = 10, /datum/reagent/drug/space_drugs = 10)
 	icon_state = "pill_happy"
 
 
 /obj/item/reagent_containers/pill/lsd
-	name = "sunshine pill"
+	name = "glup shitto"
 	desc = "Engraved on this split-coloured pill is a half-sun, half-moon."
 	list_reagents = list(/datum/reagent/drug/mushroomhallucinogen = 15, /datum/reagent/toxin/mindbreaker = 15)
 	icon_state = "pill14"
 
 
 /obj/item/reagent_containers/pill/aranesp
-	name = "smooth pill"
+	name = "glup shitto"
 	desc = "This blue pill feels slightly moist."
 	list_reagents = list(/datum/reagent/drug/aranesp = 10)
 	icon_state = "pill3"
 
 ///Black and white pills that spawn in maintenance and have random reagent contents
 /obj/item/reagent_containers/pill/maintenance
-	name = "maintenance pill"
+	name = "glup shitto"
 	desc = "A strange pill found in the depths of maintenance."
 	icon_state = "pill21"
 	var/static/list/names = list("maintenance pill", "floor pill", "mystery pill", "suspicious pill", "strange pill", "lucky pill", "ominous pill", "eerie pill")
@@ -277,21 +277,21 @@
 	M.client?.give_award(/datum/award/score/maintenance_pill, M)
 
 /obj/item/reagent_containers/pill/potassiodide
-	name = "potassium iodide pill"
+	name = "glup shitto"
 	desc = "Used to reduce low radiation damage very effectively."
 	icon_state = "pill11"
 	list_reagents = list(/datum/reagent/medicine/potass_iodide = 15)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/probital
-	name = "Probital pill"
+	name = "glup shitto"
 	desc = "Used to treat brute damage of minor and moderate severity.The carving in the pill says 'Eat before ingesting'. Causes fatigue and diluted with granibitaluri."
 	icon_state = "pill12"
 	list_reagents = list(/datum/reagent/medicine/c2/probital = 5, /datum/reagent/medicine/granibitaluri = 10)
 	rename_with_volume = TRUE
 
 /obj/item/reagent_containers/pill/iron
-	name = "iron pill"
+	name = "glup shitto"
 	desc = "Used to reduce bloodloss slowly."
 	icon_state = "pill8"
 	list_reagents = list(/datum/reagent/iron = 30)

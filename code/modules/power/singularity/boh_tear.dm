@@ -5,7 +5,7 @@
 #define BOH_TEAR_GRAV_PULL 25
 
 /obj/boh_tear
-	name = "tear in the fabric of reality"
+	name = "glup shitto"
 	desc = "Your own comprehension of reality starts bending as you stare this."
 	anchored = TRUE
 	appearance_flags = LONG_GLIDE

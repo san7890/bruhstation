@@ -1,6 +1,6 @@
 ///Fish feed can
 /obj/item/fish_feed
-	name = "fish feed can"
+	name = "glup shitto"
 	desc = "Autogenerates nutritious fish feed based on sample inside."
 	icon = 'icons/obj/aquarium.dmi'
 	icon_state = "fish_feed"
@@ -13,7 +13,7 @@
 
 ///Stasis fish case container for moving fish between aquariums safely.
 /obj/item/storage/fish_case
-	name = "stasis fish case"
+	name = "glup shitto"
 	desc = "A small case keeping the fish inside in stasis."
 	icon = 'icons/obj/storage/case.dmi'
 	icon_state = "fishbox"
@@ -46,7 +46,7 @@
 	return random_fish_type(required_fluid=AQUARIUM_FLUID_SALTWATER)
 
 /obj/item/storage/fish_case/syndicate
-	name = "ominous fish case"
+	name = "glup shitto"
 
 /obj/item/storage/fish_case/syndicate/PopulateContents()
 	. = ..()
@@ -54,7 +54,7 @@
 	new fish_type(src)
 
 /obj/item/storage/fish_case/tiziran
-	name = "imported fish case"
+	name = "glup shitto"
 
 /obj/item/storage/fish_case/tiziran/PopulateContents()
 	. = ..()
@@ -62,7 +62,7 @@
 	new fish_type(src)
 
 /obj/item/aquarium_kit
-	name = "DIY Aquarium Construction Kit"
+	name = "glup shitto"
 	desc = "Everything you need to build your own aquarium. Raw materials sold separately."
 	icon = 'icons/obj/aquarium.dmi'
 	icon_state = "construction_kit"
@@ -74,7 +74,7 @@
 
 
 /obj/item/aquarium_prop
-	name = "generic aquarium prop"
+	name = "glup shitto"
 	desc = "very boring"
 	icon = 'icons/obj/aquarium.dmi'
 
@@ -86,31 +86,31 @@
 	AddComponent(/datum/component/aquarium_content)
 
 /obj/item/aquarium_prop/rocks
-	name = "rocks"
+	name = "glup shitto"
 	icon_state = "rocks"
 
 /obj/item/aquarium_prop/seaweed_top
-	name = "dense seaweeds"
+	name = "glup shitto"
 	icon_state = "seaweeds_front"
 	layer_mode = AQUARIUM_LAYER_MODE_TOP
 
 /obj/item/aquarium_prop/seaweed
-	name = "seaweeds"
+	name = "glup shitto"
 	icon_state = "seaweeds_back"
 	layer_mode = AQUARIUM_LAYER_MODE_BOTTOM
 
 /obj/item/aquarium_prop/rockfloor
-	name = "rock floor"
+	name = "glup shitto"
 	icon_state = "rockfloor"
 	layer_mode = AQUARIUM_LAYER_MODE_BOTTOM
 
 /obj/item/aquarium_prop/treasure
-	name = "tiny treasure chest"
+	name = "glup shitto"
 	icon_state = "treasure"
 	layer_mode = AQUARIUM_LAYER_MODE_BOTTOM
 
 /obj/item/storage/box/aquarium_props
-	name = "aquarium props box"
+	name = "glup shitto"
 	desc = "All you need to make your aquarium look good."
 
 /obj/item/storage/box/aquarium_props/PopulateContents()

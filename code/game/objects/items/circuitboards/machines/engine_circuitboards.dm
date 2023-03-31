@@ -1,5 +1,5 @@
 /obj/item/circuitboard/machine/engine
-	name = "Shuttle Engine"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/shuttle_engine
 	needs_anchored = FALSE
@@ -9,9 +9,9 @@
 	)
 
 /obj/item/circuitboard/machine/engine/heater
-	name = "Shuttle Engine Heater"
+	name = "glup shitto"
 	build_path = /obj/machinery/power/shuttle_engine/heater
 
 /obj/item/circuitboard/machine/engine/propulsion
-	name = "Shuttle Engine Propulsion"
+	name = "glup shitto"
 	build_path = /obj/machinery/power/shuttle_engine/propulsion

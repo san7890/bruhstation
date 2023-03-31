@@ -1,6 +1,6 @@
 /// Gives the target fake scars
 /datum/smite/scarify
-	name = "Scarify"
+	name = "glup shitto"
 
 /datum/smite/scarify/effect(client/user, mob/living/target)
 	. = ..()

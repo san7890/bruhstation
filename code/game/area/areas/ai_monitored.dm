@@ -11,12 +11,12 @@
 	sound_environment = SOUND_AREA_STANDARD_STATION
 
 /area/station/ai_monitored/aisat/exterior
-	name = "\improper AI Satellite Exterior"
+	name = "glup shitto"
 	icon_state = "ai"
 	airlock_wires = /datum/wires/airlock/ai
 
 /area/station/ai_monitored/command/storage/satellite
-	name = "\improper AI Satellite Maint"
+	name = "glup shitto"
 	icon_state = "ai_storage"
 	ambience_index = AMBIENCE_DANGER
 	airlock_wires = /datum/wires/airlock/ai
@@ -34,80 +34,80 @@
 		ambientsounds += ai_will_not_hear_this
 
 /area/station/ai_monitored/turret_protected/ai_upload
-	name = "\improper AI Upload Chamber"
+	name = "glup shitto"
 	icon_state = "ai_upload"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/ai_monitored/turret_protected/ai_upload_foyer
-	name = "\improper AI Upload Access"
+	name = "glup shitto"
 	icon_state = "ai_upload_foyer"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
 /area/station/ai_monitored/turret_protected/ai
-	name = "\improper AI Chamber"
+	name = "glup shitto"
 	icon_state = "ai_chamber"
 	ai_will_not_hear_this = null
 
 /area/station/ai_monitored/turret_protected/aisat
-	name = "\improper AI Satellite"
+	name = "glup shitto"
 	icon_state = "ai"
 	sound_environment = SOUND_ENVIRONMENT_ROOM
 
 /area/station/ai_monitored/turret_protected/aisat/atmos
-	name = "\improper AI Satellite Atmos"
+	name = "glup shitto"
 	icon_state = "ai"
 
 /area/station/ai_monitored/turret_protected/aisat/foyer
-	name = "\improper AI Satellite Foyer"
+	name = "glup shitto"
 	icon_state = "ai_foyer"
 
 /area/station/ai_monitored/turret_protected/aisat/service
-	name = "\improper AI Satellite Service"
+	name = "glup shitto"
 	icon_state = "ai"
 
 /area/station/ai_monitored/turret_protected/aisat/hallway
-	name = "\improper AI Satellite Hallway"
+	name = "glup shitto"
 	icon_state = "ai"
 
 /area/station/ai_monitored/turret_protected/aisat/maint
-	name = "\improper AI Satellite Maintenance"
+	name = "glup shitto"
 	icon_state = "ai_maint"
 
 /area/station/ai_monitored/turret_protected/aisat_interior
-	name = "\improper AI Satellite Antechamber"
+	name = "glup shitto"
 	icon_state = "ai_interior"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 
 /area/station/ai_monitored/turret_protected/ai_sat_ext_as
-	name = "\improper AI Sat Ext"
+	name = "glup shitto"
 	icon_state = "ai_sat_east"
 
 /area/station/ai_monitored/turret_protected/ai_sat_ext_ap
-	name = "\improper AI Sat Ext"
+	name = "glup shitto"
 	icon_state = "ai_sat_west"
 
 // Station specific ai monitored rooms, move here for consistency
 
 //Command - AI Monitored
 /area/station/ai_monitored/command/storage/eva
-	name = "EVA Storage"
+	name = "glup shitto"
 	icon_state = "eva"
 	ambience_index = AMBIENCE_DANGER
 
 /area/station/ai_monitored/command/storage/eva/upper
-	name = "Upper EVA Storage"
+	name = "glup shitto"
 
 /area/station/ai_monitored/command/nuke_storage
-	name = "\improper Vault"
+	name = "glup shitto"
 	icon_state = "nuke_storage"
 	airlock_wires = /datum/wires/airlock/command
 
 //Security - AI Monitored
 /area/station/ai_monitored/security/armory
-	name = "\improper Armory"
+	name = "glup shitto"
 	icon_state = "armory"
 	ambience_index = AMBIENCE_DANGER
 	airlock_wires = /datum/wires/airlock/security
 
 /area/station/ai_monitored/security/armory/upper
-	name = "Upper Armory"
+	name = "glup shitto"

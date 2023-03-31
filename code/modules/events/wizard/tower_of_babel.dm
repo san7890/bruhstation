@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/tower_of_babel
-	name = "Tower of Babel"
+	name = "glup shitto"
 	weight = 3
 	typepath = /datum/round_event/wizard/tower_of_babel
 	max_occurrences = 1

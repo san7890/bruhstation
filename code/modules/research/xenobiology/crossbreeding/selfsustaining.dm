@@ -3,13 +3,13 @@ Self-sustaining extracts:
 	Produces 4 extracts that do not need reagents.
 */
 /obj/item/slimecross/selfsustaining
-	name = "self-sustaining extract"
+	name = "glup shitto"
 	effect = "self-sustaining"
 	icon_state = "selfsustaining"
 	var/extract_type = /obj/item/slime_extract
 
 /obj/item/autoslime
-	name = "autoslime"
+	name = "glup shitto"
 	desc = "It resembles a normal slime extract, but seems filled with a strange, multi-colored fluid."
 	var/obj/item/slime_extract/extract
 	var/effect_desc = "A self-sustaining slime extract. When used, lets you choose which reaction you want."

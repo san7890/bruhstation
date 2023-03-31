@@ -1,5 +1,5 @@
 /mob/living/basic/creature
-	name = "creature"
+	name = "glup shitto"
 	desc = "A sanity-destroying otherthing from the netherworld."
 	icon_state = "otherthing"
 	icon_living = "otherthing"
@@ -65,7 +65,7 @@
 
 /// Jaunt spell used by creature. Can only jaunt or unjaunt if nothing can see you.
 /datum/action/cooldown/spell/jaunt/creature_teleport
-	name = "Uncanny Movement"
+	name = "glup shitto"
 	desc = "Enter or leave an alternate plane where you can travel through walls. You can only enter or emerge if unobserved."
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
 	button_icon_state = "blink"

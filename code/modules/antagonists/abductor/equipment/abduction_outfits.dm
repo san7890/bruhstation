@@ -1,5 +1,5 @@
 /datum/outfit/abductor
-	name = "Abductor Basic"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/abductor
 	shoes = /obj/item/clothing/shoes/combat
 	back = /obj/item/storage/backpack
@@ -31,7 +31,7 @@
 
 
 /datum/outfit/abductor/agent
-	name = "Abductor Agent"
+	name = "glup shitto"
 	head = /obj/item/clothing/head/helmet/abductor
 	suit = /obj/item/clothing/suit/armor/abductor/vest
 	suit_store = /obj/item/melee/baton/abductor
@@ -43,7 +43,7 @@
 		)
 
 /datum/outfit/abductor/scientist
-	name = "Abductor Scientist"
+	name = "glup shitto"
 
 	backpack_contents = list(
 		/obj/item/abductor/gizmo = 1
@@ -56,7 +56,7 @@
 		beamplant.implant(H)
 
 /datum/outfit/abductor/scientist/onemanteam
-	name = "Abductor Scientist (w/ agent gear)"
+	name = "glup shitto"
 	head = /obj/item/clothing/head/helmet/abductor
 	suit = /obj/item/clothing/suit/armor/abductor/vest
 	suit_store = /obj/item/melee/baton/abductor

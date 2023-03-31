@@ -1,5 +1,5 @@
 /datum/action/cooldown/wrap
-	name = "Wrap"
+	name = "glup shitto"
 	desc = "Wrap something or someone in a cocoon. \
 		If it's a human or similar species, you'll also consume them. \
 		Consuming a wrapped victim can empower your egg-laying abilities. \

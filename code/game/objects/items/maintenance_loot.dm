@@ -4,7 +4,7 @@
 //Saw-tier bulky & blunt weapon. A decent bone breaker. Source of lead reagent.
 //Add lead material to this once implemented.
 /obj/item/lead_pipe
-	name = "lead pipe"
+	name = "glup shitto"
 	icon = 'icons/obj/maintenance_loot.dmi'
 	icon_state = "lead_pipe"
 	inhand_icon_state = "lead_pipe"
@@ -24,7 +24,7 @@
 //A good battery early in the shift. Source of lead & sulfuric acid reagents.
 //Add lead material to this once implemented.
 /obj/item/stock_parts/cell/lead
-	name = "lead-acid battery"
+	name = "glup shitto"
 	desc = "A type of primitive battery. It is quite large feels unexpectedly heavy."
 	icon = 'icons/obj/maintenance_loot.dmi'
 	icon_state = "lead_battery"

@@ -5,7 +5,7 @@
 	icon_state = "manifold-3"
 	base_icon_state = "manifold"
 
-	name = "pipe manifold"
+	name = "glup shitto"
 	desc = "A manifold composed of regular pipes."
 
 	dir = SOUTH

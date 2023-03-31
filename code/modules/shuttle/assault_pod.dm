@@ -1,5 +1,5 @@
 /obj/docking_port/mobile/assault_pod
-	name = "assault pod"
+	name = "glup shitto"
 	shuttle_id = "steel_rain"
 
 /obj/docking_port/mobile/assault_pod/request(obj/docking_port/stationary/S)
@@ -15,7 +15,7 @@
 
 
 /obj/item/assault_pod
-	name = "Assault Pod Targeting Device"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "gangtool-red"
 	inhand_icon_state = "radio"

@@ -3,7 +3,7 @@
 #define PINPOINTER_PING_TIME (4 SECONDS)
 
 /atom/movable/screen/alert/status_effect/agent_pinpointer
-	name = "Target Integrated Pinpointer"
+	name = "glup shitto"
 	desc = "Even stealthier than a normal implant, it points to any assassination target you have."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "pinon"

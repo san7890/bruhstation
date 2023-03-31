@@ -1,6 +1,6 @@
 // Wheat
 /obj/item/seeds/wheat
-	name = "pack of wheat seeds"
+	name = "glup shitto"
 	desc = "These may, or may not, grow into wheat."
 	icon_state = "seed-wheat"
 	species = "wheat"
@@ -16,7 +16,7 @@
 
 /obj/item/food/grown/wheat
 	seed = /obj/item/seeds/wheat
-	name = "wheat"
+	name = "glup shitto"
 	desc = "Sigh... wheat... a-grain?"
 	gender = PLURAL
 	icon_state = "wheat"
@@ -28,7 +28,7 @@
 
 // Oat
 /obj/item/seeds/wheat/oat
-	name = "pack of oat seeds"
+	name = "glup shitto"
 	desc = "These may, or may not, grow into oat."
 	icon_state = "seed-oat"
 	species = "oat"
@@ -38,7 +38,7 @@
 
 /obj/item/food/grown/oat
 	seed = /obj/item/seeds/wheat/oat
-	name = "oat"
+	name = "glup shitto"
 	desc = "Eat oats, do squats."
 	gender = PLURAL
 	icon_state = "oat"
@@ -50,7 +50,7 @@
 
 // Rice
 /obj/item/seeds/wheat/rice
-	name = "pack of rice seeds"
+	name = "glup shitto"
 	desc = "These may, or may not, grow into rice."
 	icon_state = "seed-rice"
 	species = "rice"
@@ -62,7 +62,7 @@
 
 /obj/item/food/grown/rice
 	seed = /obj/item/seeds/wheat/rice
-	name = "rice"
+	name = "glup shitto"
 	desc = "Rice to meet you."
 	gender = PLURAL
 	icon_state = "rice"
@@ -74,7 +74,7 @@
 
 //Meatwheat - grows into synthetic meat
 /obj/item/seeds/wheat/meat
-	name = "pack of meatwheat seeds"
+	name = "glup shitto"
 	desc = "If you ever wanted to drive a vegetarian to insanity, here's how."
 	icon_state = "seed-meatwheat"
 	species = "meatwheat"
@@ -83,7 +83,7 @@
 	mutatelist = null
 
 /obj/item/food/grown/meatwheat
-	name = "meatwheat"
+	name = "glup shitto"
 	desc = "Some blood-drenched wheat stalks. You can crush them into what passes for meat if you squint hard enough."
 	icon_state = "meatwheat"
 	gender = PLURAL

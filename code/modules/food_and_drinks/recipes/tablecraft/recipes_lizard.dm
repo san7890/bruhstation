@@ -1,5 +1,5 @@
 /datum/crafting_recipe/food/tiziran_sausage
-	name = "Raw Tiziran blood sausage"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/meat/rawcutlet = 1,
 		/obj/item/food/meat/rawbacon = 1,
@@ -10,7 +10,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/headcheese
-	name = "Raw headcheese"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/meat/slab = 1,
 		/datum/reagent/consumable/salt = 10,
@@ -20,7 +20,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/shredded_lungs
-	name = "Crispy shredded lung stirfry"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/carrot = 1,
 		/obj/item/food/grown/chili = 1,
@@ -36,7 +36,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/tsatsikh
-	name = "Tsatsikh"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/organ/internal/heart = 1,
 		/obj/item/organ/internal/liver = 1,
@@ -49,7 +49,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/liver_pate
-	name = "Liver pate"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/organ/internal/liver = 1,
 		/obj/item/food/meat/rawcutlet = 1,
@@ -59,7 +59,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/moonfish_caviar
-	name = "Moonfish caviar paste"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/moonfish_eggs = 1,
 		/datum/reagent/consumable/salt = 2
@@ -68,7 +68,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/lizard_escargot
-	name = "Desert snail cocleas"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/canned/desert_snails = 1,
 		/obj/item/food/grown/garlic = 1,
@@ -80,7 +80,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/fried_blood_sausage
-	name = "Fried blood sausage"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/raw_tiziran_sausage = 1,
 		/datum/reagent/consumable/korta_flour = 5,
@@ -90,7 +90,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/lizard_fries
-	name = "Loaded poms-franzisks"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/fries = 1,
 		/obj/item/food/meat/cutlet = 2,
@@ -100,7 +100,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/brain_pate
-	name = "Eyeball-and-brain pate"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/organ/internal/brain = 1,
 		/obj/item/organ/internal/eyes = 1,
@@ -111,7 +111,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/crispy_headcheese
-	name = "Crispy breaded headcheese"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/headcheese_slice = 1,
 		/obj/item/food/breadslice/root = 1
@@ -120,7 +120,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/picoss_skewers
-	name = "Picoss skewers"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/fishmeat/armorfish = 2,
 		/obj/item/food/grown/onion = 1,
@@ -132,7 +132,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/nectar_larvae
-	name = "Nectar larvae"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/canned/larvae = 1,
 		/obj/item/food/grown/tomato = 1,
@@ -143,7 +143,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/mushroomy_stirfry
-	name = "Mushroomy Stirfry"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/steeped_mushrooms = 1,
 		/obj/item/food/grown/mushroom/plumphelmet = 1,
@@ -154,7 +154,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/moonfish_demiglace
-	name = "Moonfish demiglace"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grilled_moonfish = 1,
 		/obj/item/food/grown/potato = 1,
@@ -166,7 +166,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/lizard_surf_n_turf
-	name = "Zagosk surf n turf smorgasbord"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grilled_moonfish = 1,
 		/obj/item/food/kebab/picoss_skewers = 2,
@@ -177,7 +177,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/rootdough
-	name = "Rootdough"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/potato = 2,
 		/obj/item/food/egg = 1,
@@ -188,7 +188,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/snail_nizaya
-	name = "Desert snail nizaya"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/canned/desert_snails = 1,
 		/obj/item/food/spaghetti/nizaya = 1,
@@ -199,7 +199,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/garlic_nizaya
-	name = "Garlic nizaya"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/nizaya = 1,
 		/obj/item/food/grown/garlic = 1,
@@ -210,7 +210,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/demit_nizaya
-	name = "Demit nizaya"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/nizaya = 1,
 		/obj/item/food/grown/carrot = 1,
@@ -223,7 +223,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/mushroom_nizaya
-	name = "Mushroom nizaya"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/spaghetti/nizaya = 1,
 		/obj/item/food/steeped_mushrooms = 1,
@@ -234,7 +234,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/rustic_flatbread
-	name = "Rustic flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/grown/garlic = 1,
@@ -245,7 +245,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/italic_flatbread
-	name = "Italic flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/grown/garlic = 1,
@@ -257,7 +257,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/imperial_flatbread
-	name = "Imperial flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/liver_pate = 1,
@@ -268,7 +268,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/rawmeat_flatbread
-	name = "Meatlovers flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/meat/slab = 1
@@ -277,7 +277,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/stinging_flatbread
-	name = "Stinging flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/canned/larvae = 1,
@@ -287,7 +287,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/zmorgast_flatbread
-	name = "Zmorgast flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/grown/cucumber = 2,
@@ -298,7 +298,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/fish_flatbread
-	name = "BBQ fish flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/fishmeat = 2,
@@ -308,7 +308,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/mushroom_flatbread
-	name = "Mushroom and tomato flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/obj/item/food/grown/tomato = 1,
@@ -319,7 +319,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/nutty_flatbread
-	name = "Nut paste flatbread"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/root_flatbread = 1,
 		/datum/reagent/consumable/korta_flour = 5,
@@ -329,7 +329,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/emperor_roll
-	name = "Emperor roll"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/rootroll = 1,
 		/obj/item/food/liver_pate = 1,
@@ -340,7 +340,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/honey_sweetroll
-	name = "Honey sweetroll"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/rootroll = 1,
 		/obj/item/food/grown/berries = 1,
@@ -351,7 +351,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/atrakor_dumplings
-	name = "Atrakor dumpling soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -364,7 +364,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/meatball_noodles
-	name = "Meatball noodle soup"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/water = 10,
 		/obj/item/reagent_containers/cup/bowl = 1,
@@ -378,7 +378,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/black_broth
-	name = "Tiziran black broth"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/tiziran_sausage = 1,
@@ -391,7 +391,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/jellyfish_stew
-	name = "Jellyfish stew"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/canned/jellyfish = 1,
@@ -403,7 +403,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/rootbread_soup
-	name = "Rootbread soup"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/breadslice/root = 2,
@@ -415,7 +415,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/black_eggs
-	name = "Black scrambled eggs"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/egg = 2,
 		/datum/reagent/blood = 5,
@@ -425,7 +425,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/patzikula
-	name = "Patzikula"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/tomato = 2,
 		/obj/item/food/grown/onion = 1,
@@ -436,7 +436,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/korta_brittle
-	name = "Korta brittle slab"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/korta_nut = 2,
 		/obj/item/food/butter = 1,
@@ -448,7 +448,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/korta_ice
-	name = "Korta ice"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/glass/sillycup = 1,
 		/datum/reagent/consumable/ice = 15,
@@ -459,7 +459,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/candied_mushrooms
-	name = "Candied mushrooms"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/stack/rods = 1,
 		/obj/item/food/steeped_mushrooms = 1,
@@ -470,7 +470,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/sauerkraut
-	name = "Sauerkraut"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/cabbage = 2,
 		/datum/reagent/consumable/salt = 10
@@ -479,7 +479,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/lizard_dumplings
-	name = "Tiziran dumplings"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/potato = 1,
 		/datum/reagent/consumable/korta_flour = 5
@@ -488,7 +488,7 @@
 	category = CAT_LIZARD
 
 /datum/crafting_recipe/food/steeped_mushrooms
-	name = "Steeped mushrooms"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/ash_flora/seraka = 1,
 		/datum/reagent/lye = 5

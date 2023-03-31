@@ -1,7 +1,7 @@
 // A mob which only moves when it isn't being watched by living beings.
 
 /mob/living/basic/statue
-	name = "statue" // matches the name of the statue with the flesh-to-stone spell
+	name = "glup shitto" // matches the name of the statue with the flesh-to-stone spell
 	desc = "An incredibly lifelike marble carving. Its eyes seem to follow you..." // same as an ordinary statue with the added "eye following you" description
 	icon = 'icons/obj/art/statue.dmi'
 	icon_state = "human_male"
@@ -95,7 +95,7 @@
 
 // Flicker lights
 /datum/action/cooldown/spell/aoe/flicker_lights
-	name = "Flicker Lights"
+	name = "glup shitto"
 	desc = "You will trigger a large amount of lights around you to flicker."
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "blackout"
@@ -118,7 +118,7 @@
 
 //Blind AOE
 /datum/action/cooldown/spell/aoe/blindness
-	name = "Blindness"
+	name = "glup shitto"
 	desc = "Your prey will be momentarily blind for you to advance on them."
 	button_icon_state = "blind"
 	cooldown_time = 1 MINUTES

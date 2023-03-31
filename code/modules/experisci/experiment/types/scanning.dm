@@ -7,7 +7,7 @@
  * procs should be extended where necessary.
  */
 /datum/experiment/scanning
-	name = "Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning atoms"
 	exp_tag = "Scan"
 	allowed_experimentors = list(/obj/item/experi_scanner, /obj/machinery/destructive_scanner)

@@ -5,7 +5,7 @@
  * For the critters that cannot be understood, there is a sound creator in the mecha. It also has headlights.
  */
 /obj/vehicle/sealed/car/vim
-	name = "\improper Vim"
+	name = "glup shitto"
 	desc = "An minature exosuit from Nanotrasen, developed to let the irreplacable station pets live a little longer."
 	icon_state = "vim"
 	max_integrity = 50

@@ -1,6 +1,6 @@
 /// Turns the user into a puzzgrid
 /datum/smite/puzzgrid
-	name = "Puzzgrid"
+	name = "glup shitto"
 
 	var/timer
 	var/gib_on_loss
@@ -52,7 +52,7 @@
 	src.timer = timer
 	src.gib_on_loss = gib_on_loss
 
-	name = "[victim]'s fiendish curse"
+	name = "glup shitto"
 
 	victim.add_traits(list(TRAIT_HANDS_BLOCKED, TRAIT_IMMOBILIZED), "[type]")
 

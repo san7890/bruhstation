@@ -6,7 +6,7 @@
 */
 
 /obj/machinery/telecomms/server
-	name = "telecommunication server"
+	name = "glup shitto"
 	icon_state = "comm_server"
 	desc = "A machine used to store data and network statistics."
 	telecomms_type = /obj/machinery/telecomms/server

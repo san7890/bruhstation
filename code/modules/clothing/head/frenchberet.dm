@@ -1,5 +1,5 @@
 /obj/item/clothing/head/frenchberet
-	name = "french beret"
+	name = "glup shitto"
 	desc = "A quality beret, infused with the aroma of chain-smoking, wine-swilling Parisians. You feel less inclined to engage in military conflict, for some reason."
 	icon_state = "beret"
 	greyscale_config = /datum/greyscale_config/beret

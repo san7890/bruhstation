@@ -1,5 +1,5 @@
 /obj/structure/fireaxecabinet
-	name = "fire axe cabinet"
+	name = "glup shitto"
 	desc = "There is a small label that reads \"For Emergency use only\" along with details for safe use of the axe. As if."
 	icon = 'icons/obj/wallmounts.dmi'
 	icon_state = "fireaxe"
@@ -197,7 +197,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/fireaxecabinet, 32)
 	populate_contents = FALSE
 
 /obj/item/wallframe/fireaxecabinet
-	name = "fire axe cabinet"
+	name = "glup shitto"
 	desc = "Home to a window's greatest nightmare. Apply to wall to use."
 	icon = 'icons/obj/wallmounts.dmi'
 	icon_state = "fireaxe"
@@ -205,7 +205,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/fireaxecabinet, 32)
 	pixel_shift = 32
 
 /obj/structure/fireaxecabinet/mechremoval
-	name = "mech removal tool cabinet"
+	name = "glup shitto"
 	desc = "There is a small label that reads \"For Emergency use only\" along with details for safe use of the tool. As if."
 	icon_state = "mechremoval"
 	item_path = /obj/item/crowbar/mechremoval
@@ -224,7 +224,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/fireaxecabinet/mechremoval, 32)
 	populate_contents = FALSE
 
 /obj/item/wallframe/fireaxecabinet/mechremoval
-	name = "mech removal tool cabinet"
+	name = "glup shitto"
 	desc = "Home to a very special crowbar. Apply to wall to use."
 	icon_state = "mechremoval"
 	result_path = /obj/structure/fireaxecabinet/mechremoval/empty

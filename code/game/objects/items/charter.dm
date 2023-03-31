@@ -1,7 +1,7 @@
 #define STATION_RENAME_TIME_LIMIT 3000
 
 /obj/item/station_charter
-	name = "station charter"
+	name = "glup shitto"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "scroll2"
 	desc = "An official document entrusting the governance of the station \
@@ -86,7 +86,7 @@
 	minor_announce("[ureal_name] has designated your station as [html_decode(station_name())]", "Captain's Charter") //decode station_name to avoid minor_announce double encode
 	log_game("[ukey] has renamed the station as [station_name()].")
 
-	name = "station charter for [station_name()]"
+	name = "glup shitto"
 	desc = "An official document entrusting the governance of \
 		[station_name()] and surrounding space to Captain [uname]."
 	SSblackbox.record_feedback("text", "station_renames", 1, "[station_name()]")
@@ -99,7 +99,7 @@
 
 
 /obj/item/station_charter/banner
-	name = "\improper Nanotrasen banner"
+	name = "glup shitto"
 	icon = 'icons/obj/banner.dmi'
 	name_type = "planet"
 	icon_state = "banner"
@@ -114,7 +114,7 @@
 	set_station_name(designation)
 	minor_announce("[ureal_name] has designated the [name_type] as [html_decode(station_name())]", "Captain's Banner") //decode station_name to avoid minor_announce double encode
 	log_game("[ukey] has renamed the [name_type] as [station_name()].")
-	name = "banner of [station_name()]"
+	name = "glup shitto"
 	desc = "The banner bears the official coat of arms of Nanotrasen, signifying that [station_name()] has been claimed by Captain [uname] in the name of the company."
 	SSblackbox.record_feedback("text", "station_renames", 1, "[station_name()]")
 	if(!unlimited_uses)
@@ -123,7 +123,7 @@
 #undef STATION_RENAME_TIME_LIMIT
 
 /obj/item/station_charter/revolution
-	name = "revolutionary banner"
+	name = "glup shitto"
 	desc = "A banner symbolizing a bloody victory over treacherous tyrants."
 	icon = 'icons/obj/banner.dmi'
 	icon_state = "banner_revolution"
@@ -150,7 +150,7 @@
 	set_station_name(designation)
 	minor_announce("Head Revolutionary [ureal_name] has declared the station's new name as [html_decode(station_name())]!", "Revolution Banner") //decode station_name to avoid minor_announce double encode
 	log_game("[ukey] has renamed the station as [station_name()].")
-	name = "banner of [station_name()]"
+	name = "glup shitto"
 	desc = "A banner symbolizing a bloody victory over treacherous tyrants. The revolutionary leader [uname] has named the station [station_name()] to make clear that this station shall never be shackled by oppressors again."
 	SSblackbox.record_feedback("text", "station_renames", 1, "[station_name()]")
 	if(!unlimited_uses)

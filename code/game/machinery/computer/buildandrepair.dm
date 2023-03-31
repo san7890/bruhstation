@@ -1,5 +1,5 @@
 /obj/structure/frame/computer
-	name = "computer frame"
+	name = "glup shitto"
 	desc = "A frame for constructing your own computer. Or console. Whichever name you prefer."
 	icon_state = "0"
 	state = 0

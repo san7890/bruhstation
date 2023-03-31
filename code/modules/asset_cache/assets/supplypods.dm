@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/supplypods
-	name = "supplypods"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/supplypods/create_spritesheets()
 	for (var/style in 1 to length(GLOB.podstyles))

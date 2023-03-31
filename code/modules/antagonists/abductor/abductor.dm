@@ -1,5 +1,5 @@
 /datum/antagonist/abductor
-	name = "\improper Abductor"
+	name = "glup shitto"
 	roundend_category = "abductors"
 	antagpanel_category = ANTAG_GROUP_ABDUCTORS
 	job_rank = ROLE_ABDUCTOR
@@ -37,7 +37,7 @@
 	return finish_preview_icon(final_icon)
 
 /datum/antagonist/abductor/agent
-	name = "\improper Abductor Agent"
+	name = "glup shitto"
 	sub_role = "Agent"
 	outfit = /datum/outfit/abductor/agent
 	landmark_type = /obj/effect/landmark/abductor/agent
@@ -45,7 +45,7 @@
 	show_in_antagpanel = TRUE
 
 /datum/antagonist/abductor/scientist
-	name = "\improper Abductor Scientist"
+	name = "glup shitto"
 	sub_role = "Scientist"
 	outfit = /datum/outfit/abductor/scientist
 	landmark_type = /obj/effect/landmark/abductor/scientist
@@ -54,7 +54,7 @@
 	role_job = /datum/job/abductor_scientist
 
 /datum/antagonist/abductor/scientist/onemanteam
-	name = "\improper Abductor Solo"
+	name = "glup shitto"
 	outfit = /datum/outfit/abductor/scientist/onemanteam
 	role_job = /datum/job/abductor_solo
 
@@ -154,7 +154,7 @@
 /datum/team/abductor_team/New()
 	..()
 	team_number = team_count++
-	name = "Mothership [pick(GLOB.greek_letters)]" //TODO Ensure unique and actual alieny names
+	name = "glup shitto" //TODO Ensure unique and actual alieny names
 	add_objective(new /datum/objective/experiment)
 
 /datum/team/abductor_team/roundend_report()

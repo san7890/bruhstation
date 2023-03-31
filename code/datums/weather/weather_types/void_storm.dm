@@ -1,5 +1,5 @@
 /datum/weather/void_storm
-	name = "void storm"
+	name = "glup shitto"
 	desc = "A rare and highly anomalous event often accompanied by unknown entities shredding spacetime continouum. We'd advise you to start running."
 
 	telegraph_duration = 2 SECONDS

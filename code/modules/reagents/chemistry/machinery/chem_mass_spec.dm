@@ -3,7 +3,7 @@
 #define BEAKER2 2
 
 /obj/machinery/chem_mass_spec
-	name = "High-performance liquid chromatography machine"
+	name = "glup shitto"
 	desc = {"This machine can separate reagents based on charge, meaning it can clean reagents of some of their impurities, unlike the Chem Master 3000.
 By selecting a range in the mass spectrograph certain reagents will be transferred from one beaker to another, which will clean it of any impurities up to a certain amount.
 This will not clean any inverted reagents. Inverted reagents will still be correctly detected and displayed on the scanner, however.

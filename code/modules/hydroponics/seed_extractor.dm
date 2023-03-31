@@ -42,7 +42,7 @@
 	return seeds
 
 /obj/machinery/seed_extractor
-	name = "seed extractor"
+	name = "glup shitto"
 	desc = "Extracts and bags seeds from produce."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "sextractor"

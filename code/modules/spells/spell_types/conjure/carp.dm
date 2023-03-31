@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/carp
-	name = "Summon Carp"
+	name = "glup shitto"
 	desc = "This spell conjures a simple carp."
 	sound = 'sound/magic/summon_karp.ogg'
 

@@ -1,5 +1,5 @@
 /obj/item/clothing/head/helmet/space/santahat
-	name = "Santa's hat"
+	name = "glup shitto"
 	desc = "Ho ho ho. Merrry X-mas!"
 	icon = 'icons/obj/clothing/head/wizard.dmi'
 	worn_icon = 'icons/mob/clothing/head/wizard.dmi'
@@ -16,7 +16,7 @@
 	flags_inv = NONE
 
 /obj/item/clothing/suit/space/santa
-	name = "Santa's suit"
+	name = "glup shitto"
 	desc = "Festive!"
 	icon_state = "santa"
 	icon = 'icons/obj/clothing/suits/wizard.dmi'

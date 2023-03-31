@@ -1,7 +1,7 @@
 
 // Gatfruit
 /obj/item/seeds/gatfruit
-	name = "pack of gatfruit seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into .357 revolvers."
 	icon_state = "seed-gatfruit"
 	species = "gatfruit"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/shell/gatfruit
 	seed = /obj/item/seeds/gatfruit
-	name = "gatfruit"
+	name = "glup shitto"
 	desc = "It smells like burning."
 	icon_state = "gatfruit"
 	trash_type = /obj/item/gun/ballistic/revolver

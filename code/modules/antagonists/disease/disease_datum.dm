@@ -1,5 +1,5 @@
 /datum/antagonist/disease
-	name = "Sentient Disease"
+	name = "glup shitto"
 	roundend_category = "diseases"
 	antagpanel_category = ANTAG_GROUP_BIOHAZARDS
 	show_to_ghosts = TRUE

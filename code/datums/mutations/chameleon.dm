@@ -1,6 +1,6 @@
 //Chameleon causes the owner to slowly become transparent when not moving.
 /datum/mutation/human/chameleon
-	name = "Chameleon"
+	name = "glup shitto"
 	desc = "A genome that causes the holder's skin to become transparent over time."
 	quality = POSITIVE
 	difficulty = 16

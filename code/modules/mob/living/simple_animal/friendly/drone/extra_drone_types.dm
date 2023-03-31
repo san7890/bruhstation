@@ -10,7 +10,7 @@
 
 //More types of drones
 /mob/living/simple_animal/drone/syndrone
-	name = "Syndrone"
+	name = "glup shitto"
 	desc = "A modified maintenance drone. This one brings with it the feeling of terror."
 	icon_state = "drone_synd"
 	icon_living = "drone_synd"
@@ -38,7 +38,7 @@
 	hidden_uplink.set_telecrystals(10)
 
 /mob/living/simple_animal/drone/syndrone/badass
-	name = "Badass Syndrone"
+	name = "glup shitto"
 	default_storage = /obj/item/uplink/nuclear
 
 /mob/living/simple_animal/drone/syndrone/badass/Initialize(mapload)
@@ -56,7 +56,7 @@
 	desc += " This drone appears to have a complex holoprojector built on its 'head'."
 
 /obj/effect/mob_spawn/ghost_role/drone/syndrone
-	name = "syndrone shell"
+	name = "glup shitto"
 	desc = "A shell of a syndrone, a modified maintenance drone designed to infiltrate and annihilate."
 	icon_state = "syndrone_item"
 	mob_name = "syndrone"
@@ -68,14 +68,14 @@
 	spawner_job_path = /datum/job/ghost_role
 
 /obj/effect/mob_spawn/ghost_role/drone/syndrone/badass
-	name = "badass syndrone shell"
+	name = "glup shitto"
 	mob_name = "badass syndrone"
 	mob_type = /mob/living/simple_animal/drone/syndrone/badass
 	prompt_name = "a badass syndrone"
 	flavour_text = "In a prior life, you maintained a Nanotrasen Research Station. Abducted from your home, you were given some BETTER upgrades... and now serve an enemy of your former masters."
 
 /obj/effect/mob_spawn/ghost_role/drone/snowflake
-	name = "snowflake drone shell"
+	name = "glup shitto"
 	desc = "A shell of a snowflake drone, a maintenance drone with a built in holographic projector to display hats and masks."
 	mob_name = "snowflake drone"
 	prompt_name = "a drone with a holohat projector"
@@ -104,12 +104,12 @@
 	mob_type = /mob/living/simple_animal/drone/classic
 
 /mob/living/simple_animal/drone/classic
-	name = "classic drone shell"
+	name = "glup shitto"
 	shy = FALSE
 	default_storage = /obj/item/storage/backpack/duffelbag/drone
 
 /obj/effect/mob_spawn/ghost_role/drone/derelict
-	name = "derelict drone shell"
+	name = "glup shitto"
 	desc = "A long-forgotten drone shell. It seems kind of... Space Russian."
 	icon = 'icons/mob/silicon/drone.dmi'
 	icon_state = "drone_maint_hat"
@@ -123,7 +123,7 @@
 	spawner_job_path = /datum/job/ghost_role
 
 /mob/living/simple_animal/drone/derelict
-	name = "derelict drone"
+	name = "glup shitto"
 	default_hatmask = /obj/item/clothing/head/costume/ushanka
 	laws = \
 	"1. You may not involve yourself in the matters of another sentient being outside the station that housed your activation, even if such matters conflict with Law Two or Law Three, unless the other being is another Drone.\n"+\

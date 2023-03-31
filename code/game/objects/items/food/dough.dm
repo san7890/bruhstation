@@ -1,7 +1,7 @@
 //Note for this file: All the raw pastries should not have microwave results, use baking instead. All cooked products can use baking, but should also support a microwave.
 
 /obj/item/food/dough
-	name = "dough"
+	name = "glup shitto"
 	desc = "A piece of dough."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "dough"
@@ -17,7 +17,7 @@
 	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/food/flatdough, 1, 3 SECONDS, table_required = TRUE, screentip_verb = "Flatten")
 
 /obj/item/food/flatdough
-	name = "flat dough"
+	name = "glup shitto"
 	desc = "A flattened dough."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "flat dough"
@@ -33,7 +33,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/doughslice, 3, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
 
 /obj/item/food/pizzabread
-	name = "pizza bread"
+	name = "glup shitto"
 	desc = "Add ingredients to make a pizza."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "pizzabread"
@@ -47,7 +47,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, /obj/item/food/pizza/margherita, CUSTOM_INGREDIENT_ICON_SCATTER, max_ingredients = 12)
 
 /obj/item/food/doughslice
-	name = "dough slice"
+	name = "glup shitto"
 	desc = "A slice of dough. Can be cooked into a bun."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "doughslice"
@@ -63,7 +63,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/bait/doughball, 5, 3 SECONDS, screentip_verb = "Slice")
 
 /obj/item/food/bun
-	name = "bun"
+	name = "glup shitto"
 	desc = "A base for any self-respecting burger."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "bun"
@@ -78,7 +78,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, /obj/item/food/burger/empty, CUSTOM_INGREDIENT_ICON_STACKPLUSTOP)
 
 /obj/item/food/cakebatter
-	name = "cake batter"
+	name = "glup shitto"
 	desc = "Bake it to get a cake."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "cakebatter"
@@ -93,7 +93,7 @@
 	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/food/piedough, 1, 3 SECONDS, table_required = TRUE, screentip_verb = "Flatten")
 
 /obj/item/food/piedough
-	name = "pie dough"
+	name = "glup shitto"
 	desc = "Cook it to get a pie."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "piedough"
@@ -108,7 +108,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/rawpastrybase, 6, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
 
 /obj/item/food/rawpastrybase
-	name = "raw pastry base"
+	name = "glup shitto"
 	desc = "Must be cooked before use."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "rawpastrybase"
@@ -121,7 +121,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pastrybase, rand(20 SECONDS, 25 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pastrybase
-	name = "pastry base"
+	name = "glup shitto"
 	desc = "A base for any self-respecting pastry."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "pastrybase"

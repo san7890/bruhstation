@@ -1,5 +1,5 @@
 /obj/machinery/griddle
-	name = "griddle"
+	name = "glup shitto"
 	desc = "Because using pans is for pansies."
 	icon = 'icons/obj/machines/kitchenmachines.dmi'
 	icon_state = "griddle1_off"
@@ -168,7 +168,7 @@
 	return ..()
 
 /obj/machinery/griddle/stand
-	name = "griddle stand"
+	name = "glup shitto"
 	desc = "A more commercialized version of your traditional griddle. What happened to the good old days where people griddled with passion?"
 	variant = "stand"
 

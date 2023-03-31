@@ -1,6 +1,6 @@
 
 /obj/item/infuser_book
-	name = "DNA infusion book"
+	name = "glup shitto"
 	desc = "An entire book on how to not turn yourself into a fly mutant."
 	icon = 'icons/obj/library.dmi'
 	icon_state ="book"

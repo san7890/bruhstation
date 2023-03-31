@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/construct/harvester
-	name = "Harvester"
+	name = "glup shitto"
 	real_name = "Harvester"
 	desc = "A long, thin construct built to herald Nar'Sie's rise. It'll be all over soon."
 	icon_state = "harvester"
@@ -78,7 +78,7 @@
 	seek.Activate()
 
 /datum/action/innate/seek_master
-	name = "Seek your Master"
+	name = "glup shitto"
 	desc = "You and your master share a soul-link that informs you of their location"
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
@@ -120,7 +120,7 @@
 
 
 /datum/action/innate/seek_prey
-	name = "Seek the Harvest"
+	name = "glup shitto"
 	desc = "None can hide from Nar'Sie, activate to track a survivor attempting to flee the red harvest!"
 	button_icon = 'icons/mob/actions/actions_cult.dmi'
 	background_icon_state = "bg_demon"

@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/kitty
-	name = "kitty ears"
+	name = "glup shitto"
 	desc = "A pair of kitty ears. Meow!"
 	icon_state = "kitty"
 	color = "#999999"
@@ -21,7 +21,7 @@
 	desc = "A pair of kitty ears. A tag on the inside says \"Hand made from real cats.\""
 
 /obj/item/clothing/head/costume/rabbitears
-	name = "rabbit ears"
+	name = "glup shitto"
 	desc = "Wearing these makes you look useless, and only good for your sex appeal."
 	icon_state = "bunny"
 

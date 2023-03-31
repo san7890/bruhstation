@@ -1,6 +1,6 @@
 /obj/item/mop
 	desc = "The world of janitalia wouldn't be complete without a mop."
-	name = "mop"
+	name = "glup shitto"
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "mop"
 	inhand_icon_state = "mop"
@@ -65,7 +65,7 @@
 
 /obj/item/mop/advanced
 	desc = "The most advanced tool in a custodian's arsenal, complete with a condenser for self-wetting! Just think of all the viscera you will clean up with this!"
-	name = "advanced mop"
+	name = "glup shitto"
 	max_reagent_volume = 10
 	icon_state = "advmop"
 	inhand_icon_state = "advmop"

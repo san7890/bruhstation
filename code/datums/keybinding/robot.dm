@@ -7,7 +7,7 @@
 
 /datum/keybinding/robot/moduleone
 	hotkey_keys = list("1")
-	name = "module_one"
+	name = "glup shitto"
 	full_name = "Toggle module 1"
 	description = "Equips or unequips the first module"
 	keybind_signal = COMSIG_KB_SILICON_TOGGLEMODULEONE_DOWN
@@ -22,7 +22,7 @@
 
 /datum/keybinding/robot/moduletwo
 	hotkey_keys = list("2")
-	name = "module_two"
+	name = "glup shitto"
 	full_name = "Toggle module 2"
 	description = "Equips or unequips the second module"
 	keybind_signal = COMSIG_KB_SILICON_TOGGLEMODULETWO_DOWN
@@ -37,7 +37,7 @@
 
 /datum/keybinding/robot/modulethree
 	hotkey_keys = list("3")
-	name = "module_three"
+	name = "glup shitto"
 	full_name = "Toggle module 3"
 	description = "Equips or unequips the third module"
 	keybind_signal = COMSIG_KB_SILICON_TOGGLEMODULETHREE_DOWN
@@ -52,7 +52,7 @@
 
 /datum/keybinding/robot/unequip_module
 	hotkey_keys = list("Q")
-	name = "unequip_module"
+	name = "glup shitto"
 	full_name = "Unequip module"
 	description = "Unequips the active module"
 	keybind_signal = COMSIG_KB_SILICON_UNEQUIPMODULE_DOWN
@@ -68,7 +68,7 @@
 /datum/keybinding/robot/undeploy
 	category = CATEGORY_AI
 	hotkey_keys = list("=")
-	name = "undeploy"
+	name = "glup shitto"
 	full_name = "Disconnect from shell"
 	description = "Returns you to your AI core"
 	keybind_signal = COMSIG_KB_SILION_UNDEPLOY_DOWN

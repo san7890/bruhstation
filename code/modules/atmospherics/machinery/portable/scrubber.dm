@@ -1,5 +1,5 @@
 /obj/machinery/portable_atmospherics/scrubber
-	name = "portable air scrubber"
+	name = "glup shitto"
 	icon_state = "scrubber"
 	density = TRUE
 	max_integrity = 250
@@ -175,7 +175,7 @@
 	return ..()
 
 /obj/machinery/portable_atmospherics/scrubber/huge
-	name = "huge air scrubber"
+	name = "glup shitto"
 	icon_state = "hugescrubber"
 	anchored = TRUE
 	active_power_usage = BASE_MACHINE_ACTIVE_CONSUMPTION * 0.5

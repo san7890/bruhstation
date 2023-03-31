@@ -5,7 +5,7 @@
 /datum/brain_trauma/mild
 
 /datum/brain_trauma/mild/hallucinations
-	name = "Hallucinations"
+	name = "glup shitto"
 	desc = "Patient suffers constant hallucinations."
 	scan_desc = "schizophrenia"
 	gain_text = span_warning("You feel your grip on reality slipping...")
@@ -24,7 +24,7 @@
 	return ..()
 
 /datum/brain_trauma/mild/stuttering
-	name = "Stuttering"
+	name = "glup shitto"
 	desc = "Patient can't speak properly."
 	scan_desc = "reduced mouth coordination"
 	gain_text = span_warning("Speaking clearly is getting harder.")
@@ -38,7 +38,7 @@
 	return ..()
 
 /datum/brain_trauma/mild/dumbness
-	name = "Dumbness"
+	name = "glup shitto"
 	desc = "Patient has reduced brain activity, making them less intelligent."
 	scan_desc = "reduced brain activity"
 	gain_text = span_warning("You feel dumber.")
@@ -63,7 +63,7 @@
 	return ..()
 
 /datum/brain_trauma/mild/speech_impediment
-	name = "Speech Impediment"
+	name = "glup shitto"
 	desc = "Patient is unable to form coherent sentences."
 	scan_desc = "communication disorder"
 	gain_text = span_danger("You can't seem to form any coherent thoughts!")
@@ -78,7 +78,7 @@
 	..()
 
 /datum/brain_trauma/mild/concussion
-	name = "Concussion"
+	name = "glup shitto"
 	desc = "Patient's brain is concussed."
 	scan_desc = "concussion"
 	gain_text = span_warning("Your head hurts!")
@@ -106,7 +106,7 @@
 	..()
 
 /datum/brain_trauma/mild/healthy
-	name = "Anosognosia"
+	name = "glup shitto"
 	desc = "Patient always feels healthy, regardless of their condition."
 	scan_desc = "self-awareness deficit"
 	gain_text = span_notice("You feel great!")
@@ -124,7 +124,7 @@
 	return ..()
 
 /datum/brain_trauma/mild/muscle_weakness
-	name = "Muscle Weakness"
+	name = "glup shitto"
 	desc = "Patient experiences occasional bouts of muscle weakness."
 	scan_desc = "weak motor nerve signal"
 	gain_text = span_warning("Your muscles feel oddly faint.")
@@ -151,7 +151,7 @@
 	..()
 
 /datum/brain_trauma/mild/muscle_spasms
-	name = "Muscle Spasms"
+	name = "glup shitto"
 	desc = "Patient has occasional muscle spasms, causing them to move unintentionally."
 	scan_desc = "nervous fits"
 	gain_text = span_warning("Your muscles feel oddly faint.")
@@ -166,7 +166,7 @@
 	..()
 
 /datum/brain_trauma/mild/nervous_cough
-	name = "Nervous Cough"
+	name = "glup shitto"
 	desc = "Patient feels a constant need to cough."
 	scan_desc = "nervous cough"
 	gain_text = span_warning("Your throat itches incessantly...")
@@ -184,7 +184,7 @@
 	..()
 
 /datum/brain_trauma/mild/expressive_aphasia
-	name = "Expressive Aphasia"
+	name = "glup shitto"
 	desc = "Patient is affected by partial loss of speech leading to a reduced vocabulary."
 	scan_desc = "inability to form complex sentences"
 	gain_text = span_warning("You lose your grasp on complex words.")
@@ -228,7 +228,7 @@
 	speech_args[SPEECH_MESSAGE] = trim(message)
 
 /datum/brain_trauma/mild/mind_echo
-	name = "Mind Echo"
+	name = "glup shitto"
 	desc = "Patient's language neurons do not terminate properly, causing previous speech patterns to occasionally resurface spontaneously."
 	scan_desc = "looping neural pattern"
 	gain_text = span_warning("You feel a faint echo of your thoughts...")

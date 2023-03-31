@@ -3,7 +3,7 @@
 // **********************
 
 /obj/item/grown // Grown weapons
-	name = "grown_weapon"
+	name = "glup shitto"
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	worn_icon = 'icons/mob/clothing/head/hydroponics.dmi'
 	resistance_flags = FLAMMABLE

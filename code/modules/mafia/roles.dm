@@ -144,7 +144,7 @@
 	to_chat(clueless, result.Join("</br>"))
 
 /datum/mafia_role/detective
-	name = "Detective"
+	name = "glup shitto"
 	desc = "You can investigate a single person each night to learn their team."
 	revealed_outfit = /datum/outfit/mafia/detective
 	role_type = TOWN_INVEST
@@ -204,7 +204,7 @@
 		add_note("N[game.turn] - [target.body.real_name] - [team_text]")
 
 /datum/mafia_role/psychologist
-	name = "Psychologist"
+	name = "glup shitto"
 	desc = "You can visit someone ONCE PER GAME to reveal their true role in the morning!"
 	revealed_outfit = /datum/outfit/mafia/psychologist
 	role_type = TOWN_INVEST
@@ -246,7 +246,7 @@
 	can_use = FALSE
 
 /datum/mafia_role/chaplain
-	name = "Chaplain"
+	name = "glup shitto"
 	desc = "You can communicate with spirits of the dead each night to discover dead crewmember roles."
 	revealed_outfit = /datum/outfit/mafia/chaplain
 	role_type = TOWN_INVEST
@@ -285,7 +285,7 @@
 		add_note("N[game.turn] - [target.body.real_name] - [target.name]")
 
 /datum/mafia_role/md
-	name = "Medical Doctor"
+	name = "glup shitto"
 	desc = "You can protect a single person each night from killing."
 	revealed_outfit = /datum/outfit/mafia/md
 	role_type = TOWN_PROTECT
@@ -347,7 +347,7 @@
 		current_protected = null
 
 /datum/mafia_role/officer
-	name = "Security Officer"
+	name = "glup shitto"
 	desc = "You can protect a single person each night. If they are attacked, you will retaliate, killing yourself and the attacker."
 	revealed_outfit = /datum/outfit/mafia/security
 	revealed_icon = "securityofficer"
@@ -413,7 +413,7 @@
 		current_defended = null
 
 /datum/mafia_role/lawyer
-	name = "Lawyer"
+	name = "glup shitto"
 	desc = "You can choose a person during the day to provide extensive legal advice to during the night, preventing night actions."
 	revealed_outfit = /datum/outfit/mafia/lawyer
 	role_type = TOWN_SUPPORT
@@ -472,7 +472,7 @@
 		current_target = null
 
 /datum/mafia_role/hop
-	name = "Head of Personnel"
+	name = "glup shitto"
 	desc = "You can reveal yourself once per game, tripling your vote power but becoming unable to be protected!"
 	role_type = TOWN_SUPPORT
 	role_flags = ROLE_UNIQUE
@@ -496,7 +496,7 @@
 	vote_power = 3
 
 /datum/mafia_role/hos
-	name = "Head of Security"
+	name = "glup shitto"
 	desc = "You can decide to execute during the night, visiting someone killing, and revealing them. If they are innocent, you will die at the start of the next night."
 	role_type = TOWN_KILLING
 	role_flags = ROLE_CAN_KILL | ROLE_UNIQUE
@@ -557,7 +557,7 @@
 #define WARDEN_WILL_LOCKDOWN 1 //will kill visitors tonight
 
 /datum/mafia_role/warden
-	name = "Warden"
+	name = "glup shitto"
 	desc = "You can lockdown during the night once, killing any visitors. WARNING: This kills fellow town members, too!"
 
 	role_type = TOWN_KILLING
@@ -621,7 +621,7 @@
 ///MAFIA ROLES/// they're the "anti-town" working to kill off townies to win
 
 /datum/mafia_role/mafia
-	name = "Changeling"
+	name = "glup shitto"
 	desc = "You're a member of the changeling hive. Use ':j' talk prefix to talk to your fellow lings."
 	team = MAFIA_TEAM_MAFIA
 	role_type = MAFIA_REGULAR
@@ -644,7 +644,7 @@
 
 //better detective for mafia
 /datum/mafia_role/mafia/thoughtfeeder
-	name = "Thoughtfeeder"
+	name = "glup shitto"
 	desc = "You're a changeling variant that feeds on the memories of others. Use ':j' talk prefix to talk to your fellow lings, and visit people at night to learn their role."
 	role_type = MAFIA_SPECIAL
 	hud_icon = "hudthoughtfeeder"
@@ -686,7 +686,7 @@
 ///SOLO ROLES/// they range from anomalous factors to deranged killers that try to win alone.
 
 /datum/mafia_role/traitor
-	name = "Traitor"
+	name = "glup shitto"
 	desc = "You're a solo traitor. You are immune to night kills, can kill every night and you win by outnumbering everyone else."
 	win_condition = "kill everyone."
 	team = MAFIA_TEAM_SOLO
@@ -747,7 +747,7 @@
 			to_chat(target.body, span_userdanger("You have been killed by a Traitor!"))
 
 /datum/mafia_role/nightmare
-	name = "Nightmare"
+	name = "glup shitto"
 	desc = "You're a solo monster that cannot be detected by detective roles. You can flicker lights of another room each night, becoming immune to attacks from those roles. You can instead decide to hunt, killing everyone in a flickering room. Kill everyone to win."
 	win_condition = "kill everyone."
 	revealed_outfit = /datum/outfit/mafia/nightmare
@@ -835,7 +835,7 @@
 #define FUGITIVE_WILL_PRESERVE 1 //will become night immune tonight
 
 /datum/mafia_role/fugitive
-	name = "Fugitive"
+	name = "glup shitto"
 	desc = "You're on the run. You can become immune to night kills exactly twice, and you win by surviving to the end of the game with anyone."
 	win_condition = "survive to the end of the game, with anyone"
 	revealed_outfit = /datum/outfit/mafia/fugitive
@@ -904,7 +904,7 @@
 #undef FUGITIVE_WILL_PRESERVE
 
 /datum/mafia_role/obsessed
-	name = "Obsessed"
+	name = "glup shitto"
 	desc = "You're completely lost in your own mind. You win by lynching your obsession before you get killed in this mess. Obsession assigned on the first night!"
 	win_condition = "lynch their obsession."
 	revealed_outfit = /datum/outfit/mafia/obsessed
@@ -953,7 +953,7 @@
 		to_chat(body, span_userdanger("You have failed your objective to lynch [obsession.body.real_name]!"))
 
 /datum/mafia_role/clown
-	name = "Clown"
+	name = "glup shitto"
 	desc = "If you are lynched you take down one of your voters (guilty or abstain) with you and win. HONK!"
 	win_condition = "get themselves lynched!"
 	revealed_outfit = /datum/outfit/mafia/clown

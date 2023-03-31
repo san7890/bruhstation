@@ -2,7 +2,7 @@
 //i couldn't find any map that uses these, so they're delegated to admin events for now.
 
 /obj/effect/mob_spawn/ghost_role/human/prisoner_transport
-	name = "prisoner containment sleeper"
+	name = "glup shitto"
 	desc = "A sleeper designed to put its occupant into a deep coma, unbreakable until the sleeper turns off. This one's glass is cracked and you can see a pale, sleeping face staring out."
 	prompt_name = "an escaped prisoner"
 	icon = 'icons/obj/machines/sleeper.dmi'
@@ -29,7 +29,7 @@
 	spawned_human.fully_replace_character_name(null, "NTP #LL-0[rand(111,999)]") //Nanotrasen Prisoner #Lavaland-(numbers)
 
 /datum/outfit/lavalandprisoner
-	name = "Lavaland Prisoner"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/prisoner
 	mask = /obj/item/clothing/mask/breath
 	shoes = /obj/item/clothing/shoes/sneakers/orange
@@ -40,7 +40,7 @@
 
 //Space Hotel Staff
 /obj/effect/mob_spawn/ghost_role/human/hotel_staff //not free antag u little shits
-	name = "staff sleeper"
+	name = "glup shitto"
 	desc = "A sleeper designed for long-term stasis between guest visits."
 	prompt_name = "a hotel staff member"
 	icon = 'icons/obj/machines/sleeper.dmi'
@@ -52,7 +52,7 @@
 	spawner_job_path = /datum/job/hotel_staff
 
 /datum/outfit/hotelstaff
-	name = "Hotel Staff"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/misc/assistantformal
 	back = /obj/item/storage/backpack
 	shoes = /obj/item/clothing/shoes/laceup
@@ -64,7 +64,7 @@
 	)
 
 /obj/effect/mob_spawn/ghost_role/human/hotel_staff/security
-	name = "hotel security sleeper"
+	name = "glup shitto"
 	prompt_name = "a hotel security member"
 	outfit = /datum/outfit/hotelstaff/security
 	you_are_text = "You are a peacekeeper."
@@ -73,7 +73,7 @@
 	important_text = "Do NOT leave the hotel, as that is grounds for contract termination."
 
 /datum/outfit/hotelstaff/security
-	name = "Hotel Security"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/security/officer/blueshirt
 	suit = /obj/item/clothing/suit/armor/vest/blueshirt
 	back = /obj/item/storage/backpack/security
@@ -86,7 +86,7 @@
 	return ..()
 
 /obj/effect/mob_spawn/ghost_role/human/syndicate
-	name = "Syndicate Operative"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
 	prompt_name = "a syndicate operative"
@@ -96,7 +96,7 @@
 	spawner_job_path = /datum/job/space_syndicate
 
 /datum/outfit/syndicate_empty
-	name = "Syndicate Operative Empty"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/chameleon
 	id_trim = /datum/id_trim/chameleon/operative
 	uniform = /obj/item/clothing/under/syndicate
@@ -112,7 +112,7 @@
 
 //For ghost bar.
 /obj/effect/mob_spawn/ghost_role/human/space_bar_patron
-	name = "bar cryogenics"
+	name = "glup shitto"
 	uses = INFINITY
 	prompt_name = "a space bar patron"
 	you_are_text = "You're a patron!"
@@ -128,7 +128,7 @@
 	qdel(user)
 
 /datum/outfit/cryobartender
-	name = "Cryogenic Bartender"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/rank/civilian/bartender
 	suit = /obj/item/clothing/suit/armor/vest
 	back = /obj/item/storage/backpack
@@ -137,7 +137,7 @@
 
 //Timeless prisons: Spawns in Wish Granter prisons in lavaland. Ghosts become age-old users of the Wish Granter and are advised to seek repentance for their past.
 /obj/effect/mob_spawn/ghost_role/human/exile
-	name = "timeless prison"
+	name = "glup shitto"
 	desc = "Although this stasis pod looks medicinal, it seems as though it's meant to preserve something for a very long time."
 	prompt_name = "a penitent exile"
 	icon = 'icons/obj/machines/sleeper.dmi'
@@ -169,7 +169,7 @@
 	to_chat(new_spawn, "<span class='infoplain'>[message]</span>")
 
 /obj/effect/mob_spawn/ghost_role/human/nanotrasensoldier
-	name = "sleeper"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	faction = list(FACTION_NANOTRASEN_PRIVATE)
@@ -179,7 +179,7 @@
 	outfit = /datum/outfit/nanotrasensoldier
 
 /obj/effect/mob_spawn/ghost_role/human/commander
-	name = "sleeper"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	prompt_name = "a nanotrasen commander"
@@ -190,7 +190,7 @@
 //space doctor, a rat with cancer, and bessie from an old removed lavaland ruin.
 
 /obj/effect/mob_spawn/ghost_role/human/doctor
-	name = "sleeper"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	prompt_name = "a space doctor"
@@ -208,7 +208,7 @@
 		qdel(unwanted_item)
 
 /obj/effect/mob_spawn/ghost_role/mouse
-	name = "sleeper"
+	name = "glup shitto"
 	mob_type = /mob/living/basic/mouse
 	prompt_name = "a mouse"
 	you_are_text = "You're a mouse!"
@@ -217,7 +217,7 @@
 	icon_state = "sleeper"
 
 /obj/effect/mob_spawn/ghost_role/cow
-	name = "sleeper"
+	name = "glup shitto"
 	mob_name = "Bessie"
 	mob_type = /mob/living/basic/cow
 	prompt_name = "a cow"
@@ -233,7 +233,7 @@
 // snow operatives on snowdin - unfortunately seemingly removed in a map remake womp womp
 
 /obj/effect/mob_spawn/ghost_role/human/snow_operative
-	name = "sleeper"
+	name = "glup shitto"
 	prompt_name = "a snow operative"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -245,7 +245,7 @@
 	caves can be a deadly place even for a trained operative such as yourself."
 
 /datum/outfit/snowsyndie
-	name = "Syndicate Snow Operative"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/chameleon
 	id_trim = /datum/id_trim/chameleon/operative
 	uniform = /obj/item/clothing/under/syndicate/coldres
@@ -258,7 +258,7 @@
 //Forgotten syndicate ship
 
 /obj/effect/mob_spawn/ghost_role/human/syndicatespace
-	name = "Syndicate Ship Crew Member"
+	name = "glup shitto"
 	show_flavor = FALSE
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
@@ -278,7 +278,7 @@
 		to_chat(new_spawn, span_bold("[policy]"))
 
 /obj/effect/mob_spawn/ghost_role/human/syndicatespace/captain
-	name = "Syndicate Ship Captain"
+	name = "glup shitto"
 	prompt_name = "a cybersun captain"
 	you_are_text = "You are the captain of an old ship, stuck in hostile space."
 	flavour_text = "Your ship docks after a long time somewhere in hostile space, reporting a malfunction. You are stuck here, with Nanotrasen station nearby. Command your crew and turn your ship into the most protected fortress."
@@ -291,7 +291,7 @@
 	return ..()
 
 /datum/outfit/syndicatespace
-	name = "Syndicate Ship Base"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/black/syndicate_command/crew_id
 	uniform = /obj/item/clothing/under/syndicate/combat
 	back = /obj/item/storage/backpack
@@ -306,14 +306,14 @@
 	syndie_scum.faction |= ROLE_SYNDICATE
 
 /datum/outfit/syndicatespace/syndicrew
-	name = "Syndicate Ship Crew Member"
+	name = "glup shitto"
 	glasses = /obj/item/clothing/glasses/night
 	mask = /obj/item/clothing/mask/gas/syndicate
 	l_pocket = /obj/item/gun/ballistic/automatic/pistol
 	r_pocket = /obj/item/knife/combat/survival
 
 /datum/outfit/syndicatespace/syndicaptain
-	name = "Syndicate Ship Captain"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/black/syndicate_command/captain_id
 	uniform = /obj/item/clothing/under/syndicate/combat
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate

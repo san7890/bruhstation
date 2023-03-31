@@ -1,5 +1,5 @@
 /obj/item/implantpad
-	name = "implant pad"
+	name = "glup shitto"
 	desc = "Used to modify implants."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "implantpad-0"

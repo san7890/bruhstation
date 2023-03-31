@@ -1,5 +1,5 @@
 /obj/machinery/jukebox
-	name = "jukebox"
+	name = "glup shitto"
 	desc = "A classic music player."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "jukebox"
@@ -16,7 +16,7 @@
 	COOLDOWN_DECLARE(jukebox_error_cd)
 
 /obj/machinery/jukebox/disco
-	name = "radiant dance machine mark IV"
+	name = "glup shitto"
 	desc = "The first three prototypes were discontinued after mass casualty incidents."
 	icon_state = "disco"
 	req_access = list(ACCESS_ENGINEERING)
@@ -25,7 +25,7 @@
 	var/list/sparkles = list()
 
 /obj/machinery/jukebox/disco/indestructible
-	name = "radiant dance machine mark V"
+	name = "glup shitto"
 	desc = "Now redesigned with data gathered from the extensive disco and plasma research."
 	req_access = null
 	anchored = TRUE

@@ -1,5 +1,5 @@
 /obj/structure/displaycase
-	name = "display case"
+	name = "glup shitto"
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "glassbox"
 	desc = "A display case for prized possessions."
@@ -226,7 +226,7 @@
 /obj/structure/displaycase_chassis
 	anchored = TRUE
 	density = FALSE
-	name = "display case chassis"
+	name = "glup shitto"
 	desc = "The wooden base of a display case."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "glassbox_chassis"
@@ -290,7 +290,7 @@
 	req_access = list(ACCESS_CENT_SPECOPS) //this was intentional, presumably to make it slightly harder for caps to grab their gun roundstart
 
 /obj/structure/displaycase/labcage
-	name = "lab cage"
+	name = "glup shitto"
 	desc = "A glass lab container for storing interesting creatures."
 	start_showpiece_type = /obj/item/clothing/mask/facehugger/lamarr
 	req_access = list(ACCESS_RD)
@@ -299,7 +299,7 @@
 	alert = FALSE
 
 /obj/structure/displaycase/trophy
-	name = "trophy display case"
+	name = "glup shitto"
 	desc = "Store your trophies of accomplishment in here, and they will stay forever."
 	integrity_failure = 0
 	req_access = list(ACCESS_LIBRARY)
@@ -423,11 +423,11 @@
 		ui.open()
 
 /obj/item/key/displaycase
-	name = "display case key"
+	name = "glup shitto"
 	desc = "The key to the curator's display cases."
 
 /obj/item/showpiece_dummy
-	name = "holographic replica"
+	name = "glup shitto"
 
 /obj/item/showpiece_dummy/Initialize(mapload, path)
 	. = ..()
@@ -438,7 +438,7 @@
 	icon_state = initial(item_path.icon_state)
 
 /obj/structure/displaycase/forsale
-	name = "vend-a-tray"
+	name = "glup shitto"
 	icon_state = "laserbox"
 	custom_glass_overlay = TRUE
 	desc = "A display case with an ID-card swiper. Use your ID to purchase the contents."

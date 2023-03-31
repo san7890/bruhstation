@@ -1,5 +1,5 @@
 /obj/machinery/harvester
-	name = "organ harvester"
+	name = "glup shitto"
 	desc = "An advanced machine used for harvesting organs and limbs from the deceased."
 	density = TRUE
 	icon = 'icons/obj/machines/harvester.dmi'

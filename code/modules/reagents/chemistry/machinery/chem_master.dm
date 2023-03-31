@@ -5,7 +5,7 @@
  * Contains logic for both ChemMaster and CondiMaster, switched by "condi".
  */
 /obj/machinery/chem_master
-	name = "ChemMaster 3000"
+	name = "glup shitto"
 	desc = "Used to separate chemicals and distribute them in a variety of forms."
 	density = TRUE
 	layer = BELOW_OBJ_LAYER
@@ -636,6 +636,6 @@
  * All logic related to this is in [/obj/machinery/chem_master] and condimaster specific UI enabled by "condi = TRUE"
  */
 /obj/machinery/chem_master/condimaster
-	name = "CondiMaster 3000"
+	name = "glup shitto"
 	desc = "Used to create condiments and other cooking supplies."
 	condi = TRUE

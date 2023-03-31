@@ -1,5 +1,5 @@
 /obj/item/toy/singlecard
-	name = "card"
+	name = "glup shitto"
 	desc = "A playing card used to play card games like poker."
 	icon = 'icons/obj/toys/playing_cards.dmi'
 	icon_state = "sc_Ace of Spades_nanotrasen"

@@ -1,5 +1,5 @@
 /datum/species/moth
-	name = "\improper Mothman"
+	name = "glup shitto"
 	plural_form = "Mothmen"
 	id = SPECIES_MOTH
 	species_traits = list(

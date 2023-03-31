@@ -192,7 +192,7 @@
 	return TRUE
 
 /obj/docking_port/stationary
-	name = "dock"
+	name = "glup shitto"
 
 	var/last_dock_time
 
@@ -281,7 +281,7 @@
 
 /// Subtype for escape pod ports so that we can give them trait behaviour
 /obj/docking_port/stationary/escape_pod
-	name = "escape pod loader"
+	name = "glup shitto"
 	height = 5
 	width = 3
 	dwidth = 1
@@ -302,7 +302,7 @@
 
 // should fit the syndicate infiltrator, and smaller ships like the battlecruiser corvettes and fighters
 /obj/docking_port/stationary/syndicate
-	name = "near the station"
+	name = "glup shitto"
 	dheight = 1
 	dwidth = 12
 	height = 17
@@ -310,15 +310,15 @@
 	shuttle_id = "syndicate_nearby"
 
 /obj/docking_port/stationary/syndicate/northwest
-	name = "northwest of station"
+	name = "glup shitto"
 	shuttle_id = "syndicate_nw"
 
 /obj/docking_port/stationary/syndicate/northeast
-	name = "northeast of station"
+	name = "glup shitto"
 	shuttle_id = "syndicate_ne"
 
 /obj/docking_port/stationary/transit
-	name = "In Transit"
+	name = "glup shitto"
 	override_can_dock_checks = TRUE
 	/// The turf reservation returned by the transit area request
 	var/datum/turf_reservation/reserved_area
@@ -358,7 +358,7 @@
 	roundstart_template = SSmapping.shuttle_templates[selectedid]
 
 /obj/docking_port/stationary/picked/whiteship
-	name = "Deep Space"
+	name = "glup shitto"
 	shuttle_id = "whiteship_away"
 	height = 45 //Width and height need to remain in sync with the size of whiteshipdock.dmm, otherwise we'll get overflow
 	width = 44
@@ -423,7 +423,7 @@
 		Max Combinded Height [width + dwidth]")
 
 /obj/docking_port/mobile
-	name = "shuttle"
+	name = "glup shitto"
 	icon_state = "pinonclose"
 
 	area_type = SHUTTLE_DEFAULT_SHUTTLE_AREA_TYPE

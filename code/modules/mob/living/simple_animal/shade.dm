@@ -1,5 +1,5 @@
 /mob/living/simple_animal/shade
-	name = "Shade"
+	name = "glup shitto"
 	real_name = "Shade"
 	desc = "A bound spirit."
 	gender = PLURAL

@@ -24,7 +24,7 @@
 
 /// Hallucinated projectiles.
 /obj/projectile/hallucination
-	name = "bullet"
+	name = "glup shitto"
 	icon = null
 	icon_state = null
 	hitsound = ""
@@ -185,7 +185,7 @@
 	parent.hallucinator.client?.images -= hit_effect
 
 /obj/projectile/hallucination/bullet
-	name = "bullet"
+	name = "glup shitto"
 	hal_icon_state = "bullet"
 	hal_fire_sound = "gunshot"
 	hal_hitsound = 'sound/weapons/pierce.ogg'
@@ -199,7 +199,7 @@
 	afflicted.adjustStaminaLoss(60)
 
 /obj/projectile/hallucination/laser
-	name = "laser"
+	name = "glup shitto"
 	damage_type = BURN
 	hal_icon_state = "laser"
 	hal_fire_sound = 'sound/weapons/laser.ogg'
@@ -220,7 +220,7 @@
 	afflicted.adjust_eye_blur(4 SECONDS)
 
 /obj/projectile/hallucination/taser
-	name = "electrode"
+	name = "glup shitto"
 	damage_type = BURN
 	hal_icon_state = "spark"
 	color = "#FFFF00"
@@ -246,7 +246,7 @@
 		addtimer(CALLBACK(afflicted, TYPE_PROC_REF(/mob/living/carbon, do_jitter_animation), 20), 0.5 SECONDS)
 
 /obj/projectile/hallucination/disabler
-	name = "disabler beam"
+	name = "glup shitto"
 	damage_type = STAMINA
 	hal_icon_state = "omnilaser"
 	hal_fire_sound = 'sound/weapons/taser2.ogg'
@@ -265,7 +265,7 @@
 	afflicted.adjustStaminaLoss(30)
 
 /obj/projectile/hallucination/ebow
-	name = "bolt"
+	name = "glup shitto"
 	damage_type = TOX
 	hal_icon_state = "cbbolt"
 	hal_fire_sound = 'sound/weapons/genhit.ogg'
@@ -281,7 +281,7 @@
 	afflicted.adjust_eye_blur(20 SECONDS)
 
 /obj/projectile/hallucination/change
-	name = "bolt of change"
+	name = "glup shitto"
 	damage_type = BURN
 	hal_icon_state = "ice_1"
 	hal_fire_sound = 'sound/magic/staff_change.ogg'
@@ -303,7 +303,7 @@
 	)
 
 /obj/projectile/hallucination/death
-	name = "bolt of death"
+	name = "glup shitto"
 	damage_type = BURN
 	hal_icon_state = "pulse1_bl"
 	hal_fire_sound = 'sound/magic/wandodeath.ogg'

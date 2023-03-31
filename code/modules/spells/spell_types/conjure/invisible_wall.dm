@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/invisible_wall
-	name = "Invisible Wall"
+	name = "glup shitto"
 	desc = "The mime's performance transmutates a wall into physical reality."
 	background_icon_state = "bg_mime"
 	overlay_icon_state = "bg_mime_border"

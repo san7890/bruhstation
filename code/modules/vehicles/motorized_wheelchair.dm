@@ -1,5 +1,5 @@
 /obj/vehicle/ridden/wheelchair/motorized
-	name = "motorized wheelchair"
+	name = "glup shitto"
 	desc = "A chair with big wheels. It seems to have a motor in it."
 	icon_state = "motorized_wheelchair"
 	overlay_icon = "motorized_wheelchair_overlay"

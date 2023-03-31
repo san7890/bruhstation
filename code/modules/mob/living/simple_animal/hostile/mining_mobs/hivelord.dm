@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/asteroid/hivelord
-	name = "hivelord"
+	name = "glup shitto"
 	desc = "A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "Hivelord"
@@ -59,7 +59,7 @@
 
 //A fragile but rapidly produced creature
 /mob/living/simple_animal/hostile/asteroid/hivelordbrood
-	name = "hivelord brood"
+	name = "glup shitto"
 	desc = "A fragment of the original Hivelord, rallying behind its original. One isn't much of a threat, but..."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "Hivelordbrood"
@@ -100,7 +100,7 @@
 
 //Legion
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion
-	name = "legion"
+	name = "glup shitto"
 	desc = "You can still see what was once a human under the shifting mass of corruption."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "legion"
@@ -135,7 +135,7 @@
 		return INITIALIZE_HINT_QDEL
 
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/dwarf
-	name = "dwarf legion"
+	name = "glup shitto"
 	desc = "You can still see what was once a rather small human under the shifting mass of corruption."
 	icon_state = "dwarf_legion"
 	icon_living = "dwarf_legion"
@@ -167,7 +167,7 @@
 
 //Legion skull
 /mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion
-	name = "legion"
+	name = "glup shitto"
 	desc = "One of many."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "legion_head"
@@ -246,7 +246,7 @@
 
 //Legion that spawns Legions
 /mob/living/simple_animal/hostile/big_legion
-	name = "legion"
+	name = "glup shitto"
 	desc = "One of many."
 	icon = 'icons/mob/simple/lavaland/64x64megafauna.dmi'
 	icon_state = "legion"
@@ -293,7 +293,7 @@
 
 // Snow Legion
 /mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow
-	name = "snow legion"
+	name = "glup shitto"
 	desc = "You can still see what was once a human under the shifting snowy mass, clearly decorated by a clown."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "snowlegion"
@@ -310,7 +310,7 @@
 
 // Snow Legion skull
 /mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/snow
-	name = "snow legion"
+	name = "glup shitto"
 	desc = "One of many."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "snowlegion_head"

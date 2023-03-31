@@ -1,5 +1,5 @@
 /datum/round_event_control/portal_storm_syndicate
-	name = "Portal Storm: Syndicate Shocktroops"
+	name = "glup shitto"
 	typepath = /datum/round_event/portal_storm/syndicate_shocktroop
 	weight = 2
 	min_players = 15
@@ -13,7 +13,7 @@
 						/mob/living/basic/syndicate/ranged/space = 2)
 
 /datum/round_event_control/portal_storm_narsie
-	name = "Portal Storm: Constructs"
+	name = "glup shitto"
 	typepath = /datum/round_event/portal_storm/portal_storm_narsie
 	weight = 0
 	max_occurrences = 0

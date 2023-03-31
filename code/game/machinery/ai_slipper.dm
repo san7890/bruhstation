@@ -1,5 +1,5 @@
 /obj/machinery/ai_slipper
-	name = "foam dispenser"
+	name = "glup shitto"
 	desc = "A remotely-activatable dispenser for crowd-controlling foam."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "ai-slipper0"

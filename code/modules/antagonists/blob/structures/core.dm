@@ -1,5 +1,5 @@
 /obj/structure/blob/special/core
-	name = "blob core"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/blob.dmi'
 	icon_state = "blank_blob"
 	desc = "A huge, pulsating yellow mass."

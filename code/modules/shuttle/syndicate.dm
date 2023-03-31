@@ -1,7 +1,7 @@
 #define SYNDICATE_CHALLENGE_TIMER (20 MINUTES)
 
 /obj/machinery/computer/shuttle/syndicate
-	name = "syndicate shuttle terminal"
+	name = "glup shitto"
 	desc = "The terminal used to control the syndicate transport shuttle."
 	circuit = /obj/item/circuitboard/computer/syndicate_shuttle
 	icon_screen = "syndishuttle"
@@ -25,12 +25,12 @@
 	return TRUE
 
 /obj/machinery/computer/shuttle/syndicate/recall
-	name = "syndicate shuttle recall terminal"
+	name = "glup shitto"
 	desc = "Use this if your friends left you behind."
 	possible_destinations = "syndicate_away"
 
 /obj/machinery/computer/shuttle/syndicate/drop_pod
-	name = "syndicate assault pod control"
+	name = "glup shitto"
 	desc = "Controls the drop pod's launch system."
 	icon = 'icons/obj/terminals.dmi'
 	icon_state = "dorm_available"
@@ -51,7 +51,7 @@
 	return TRUE
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate
-	name = "syndicate shuttle navigation computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the syndicate shuttle."
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"

@@ -1,5 +1,5 @@
 /datum/experiment/scanning/points
-	name = "Point Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning experiments tracked by points"
 	/// The current points gained on this experiment
 	var/points = 0

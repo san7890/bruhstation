@@ -1,5 +1,5 @@
 /obj/item/bombcore/miniature/pizza
-	name = "pizza bomb"
+	name = "glup shitto"
 	desc = "Special delivery!"
 	icon_state = "pizzabomb_inactive"
 	inhand_icon_state = "eshield"
@@ -7,7 +7,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/shields_righthand.dmi'
 
 /obj/item/pizzabox
-	name = "pizza box"
+	name = "glup shitto"
 	desc = "A box suited for pizzas."
 	icon = 'icons/obj/food/containers.dmi'
 	icon_state = "pizzabox"

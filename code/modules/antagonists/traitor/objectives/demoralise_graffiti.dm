@@ -1,5 +1,5 @@
 /datum/traitor_objective/demoralise/graffiti
-	name = "Sow doubt among the crew %VIEWS% times using Syndicate graffiti."
+	name = "glup shitto"
 	description = "Use the button below to materialize a seditious spray can, \
 		and use it to draw a 3x3 tag in a place where people will come across it. \
 		Special syndicate sealing agent ensures that it can't be removed for \
@@ -89,7 +89,7 @@
 
 // Extending the existing spraycan item was more trouble than it was worth, I don't want or need this to be able to draw arbitrary shapes.
 /obj/item/traitor_spraycan
-	name = "seditious spraycan"
+	name = "glup shitto"
 	desc = "This spraycan deploys a subversive pattern containing subliminal priming agents over a 3x3 area. Contains enough primer for just one final coating."
 	icon = 'icons/obj/art/crayons.dmi'
 	icon_state = "deathcan"
@@ -230,7 +230,7 @@
 	return OXYLOSS
 
 /obj/effect/decal/cleanable/traitor_rune
-	name = "syndicate graffiti"
+	name = "glup shitto"
 	desc = "It looks like it's going to be... the Syndicate logo?"
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "traitor_rune_outline"

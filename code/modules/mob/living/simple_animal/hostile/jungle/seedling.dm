@@ -6,7 +6,7 @@
 //A plant rooted in the ground that forfeits its melee attack in favor of ranged barrages.
 //It will fire flurries of solar energy, and occasionally charge up a powerful blast that makes it vulnerable to attack.
 /mob/living/simple_animal/hostile/jungle/seedling
-	name = "seedling"
+	name = "glup shitto"
 	desc = "This oversized, predatory flower conceals what can only be described as an organic energy cannon, and it will not die until its hidden vital organs are sliced out. \
 		The concentrated streams of energy it sometimes produces require its full attention, attacking it during this time will prevent it from finishing its attack."
 	icon = 'icons/mob/simple/jungle/seedling.dmi'
@@ -36,7 +36,7 @@
 	var/solar_beam_identifier = 0
 
 /obj/projectile/seedling
-	name = "solar energy"
+	name = "glup shitto"
 	icon_state = "seedling"
 	damage = 10
 	damage_type = BURN
@@ -55,7 +55,7 @@
 	return ..()
 
 /obj/effect/temp_visual/solarbeam_killsat
-	name = "beam of solar energy"
+	name = "glup shitto"
 	icon_state = "solar_beam"
 	icon = 'icons/effects/beam.dmi'
 	plane = LIGHTING_PLANE

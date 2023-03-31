@@ -1,6 +1,6 @@
 ///A bluespace input pipe for plumbing
 /obj/machinery/plumbing/sender
-	name = "chemical beacon"
+	name = "glup shitto"
 	desc = "A bluespace anchor for chemicals. Does not require power. Use a multitool linked to a Chemical Recipient on this machine to start teleporting reagents."
 	icon_state = "beacon"
 	density = FALSE
@@ -51,7 +51,7 @@
 
 ///A bluespace output pipe for plumbing. Supports multiple recipients. Must be constructed with a circuit board
 /obj/machinery/plumbing/receiver
-	name = "chemical recipient"
+	name = "glup shitto"
 	desc = "Receives chemicals from one or more chemical beacons. Use a multitool on this machine and then all subsequent chemical beacons. Reset by opening the \
 	panel and cutting the main wire."
 	icon_state = "recipient"

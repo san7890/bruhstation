@@ -1,7 +1,7 @@
 #define MEATSPIKE_IRONROD_REQUIREMENT 4
 
 /obj/structure/kitchenspike_frame
-	name = "meatspike frame"
+	name = "glup shitto"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "spikeframe"
 	desc = "The frame of a meat spike."
@@ -65,7 +65,7 @@
 	balloon_alert(user, "[MEATSPIKE_IRONROD_REQUIREMENT] rods needed!")
 
 /obj/structure/kitchenspike
-	name = "meat spike"
+	name = "glup shitto"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "spike"
 	desc = "A spike for collecting meat from animals."

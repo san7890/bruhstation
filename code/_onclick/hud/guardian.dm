@@ -120,7 +120,7 @@
 
 /atom/movable/screen/guardian/manifest
 	icon_state = "manifest"
-	name = "Manifest"
+	name = "glup shitto"
 	desc = "Spring forth into battle!"
 
 /atom/movable/screen/guardian/manifest/Click()
@@ -131,7 +131,7 @@
 
 /atom/movable/screen/guardian/recall
 	icon_state = "recall"
-	name = "Recall"
+	name = "glup shitto"
 	desc = "Return to your user."
 
 /atom/movable/screen/guardian/recall/Click()
@@ -141,7 +141,7 @@
 
 /atom/movable/screen/guardian/toggle_mode
 	icon_state = "toggle"
-	name = "Toggle Mode"
+	name = "glup shitto"
 	desc = "Switch between ability modes."
 
 /atom/movable/screen/guardian/toggle_mode/Click()
@@ -154,17 +154,17 @@
 
 /atom/movable/screen/guardian/toggle_mode/assassin
 	icon_state = "stealth"
-	name = "Toggle Stealth"
+	name = "glup shitto"
 	desc = "Enter or exit stealth."
 
 /atom/movable/screen/guardian/toggle_mode/gases
 	icon_state = "gases"
-	name = "Toggle Gas"
+	name = "glup shitto"
 	desc = "Switch between possible gases."
 
 /atom/movable/screen/guardian/communicate
 	icon_state = "communicate"
-	name = "Communicate"
+	name = "glup shitto"
 	desc = "Communicate telepathically with your user."
 
 /atom/movable/screen/guardian/communicate/Click()
@@ -175,7 +175,7 @@
 
 /atom/movable/screen/guardian/toggle_light
 	icon_state = "light"
-	name = "Toggle Light"
+	name = "glup shitto"
 	desc = "Glow like star dust."
 
 /atom/movable/screen/guardian/toggle_light/Click()

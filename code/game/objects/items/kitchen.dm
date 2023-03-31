@@ -18,7 +18,7 @@
 	ADD_TRAIT(src, TRAIT_APC_SHOCKING, INNATE_TRAIT)
 
 /obj/item/kitchen/fork
-	name = "fork"
+	name = "glup shitto"
 	desc = "Pointy."
 	icon_state = "fork"
 	force = 4
@@ -66,7 +66,7 @@
 		return ..()
 
 /obj/item/kitchen/fork/plastic
-	name = "plastic fork"
+	name = "glup shitto"
 	desc = "Really takes you back to highschool lunch."
 	icon_state = "plastic_fork"
 	force = 0
@@ -80,11 +80,11 @@
 	AddElement(/datum/element/easily_fragmented, PLASTIC_BREAK_PROBABILITY)
 
 /obj/item/knife/kitchen
-	name = "kitchen knife"
+	name = "glup shitto"
 	desc = "A general purpose Chef's Knife made by SpaceCook Incorporated. Guaranteed to stay sharp for years to come."
 
 /obj/item/knife/plastic
-	name = "plastic knife"
+	name = "glup shitto"
 	icon_state = "plastic_knife"
 	inhand_icon_state = "knife"
 	desc = "A very safe, barely sharp knife made of plastic. Good for cutting food and not much else."
@@ -103,7 +103,7 @@
 	AddElement(/datum/element/easily_fragmented, PLASTIC_BREAK_PROBABILITY)
 
 /obj/item/kitchen/rollingpin
-	name = "rolling pin"
+	name = "glup shitto"
 	desc = "Used to knock out the Bartender."
 	icon_state = "rolling_pin"
 	worn_icon_state = "rolling_pin"
@@ -120,7 +120,7 @@
 	tool_behaviour = TOOL_ROLLINGPIN
 
 /obj/item/kitchen/rollingpin/illegal
-	name = "metal rolling pin"
+	name = "glup shitto"
 	desc = "A heavy metallic rolling pin used to bash in those annoying ingredients."
 	icon_state = "metal_rolling_pin"
 	inhand_icon_state = "metal_rolling_pin"
@@ -136,7 +136,7 @@
 /* Trays  moved to /obj/item/storage/bag */
 
 /obj/item/kitchen/spoon
-	name = "spoon"
+	name = "glup shitto"
 	desc = "Just be careful your food doesn't melt the spoon first."
 	icon_state = "spoon"
 	w_class = WEIGHT_CLASS_TINY
@@ -153,7 +153,7 @@
 	toolspeed = 25 // Literally 25 times worse than the base pickaxe
 
 /obj/item/kitchen/spoon/plastic
-	name = "plastic spoon"
+	name = "glup shitto"
 	icon_state = "plastic_spoon"
 	force = 0
 	custom_materials = list(/datum/material/plastic=120)

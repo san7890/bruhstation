@@ -1,6 +1,6 @@
 /// Reload admins tgs chat command. Intentionally not validated.
 /datum/tgs_chat_command/reload_admins
-	name = "reload_admins"
+	name = "glup shitto"
 	help_text = "Forces the server to reload admins."
 	admin_only = TRUE
 
@@ -52,7 +52,7 @@
 	CRASH("[type] has no implementation for Validated_Run()")
 
 /datum/tgs_chat_command/validated/ahelp
-	name = "ahelp"
+	name = "glup shitto"
 	help_text = "<ckey|ticket #> <message|ticket <close|resolve|icissue|reject|reopen <ticket #>|list>>"
 	admin_only = TRUE
 	required_rights = R_ADMIN
@@ -73,7 +73,7 @@
 	return new /datum/tgs_message_content(TgsPm(target, all_params.Join(" "), sender.friendly_name))
 
 /datum/tgs_chat_command/validated/namecheck
-	name = "namecheck"
+	name = "glup shitto"
 	help_text = "Returns info on the specified target"
 	admin_only = TRUE
 	required_rights = R_ADMIN
@@ -87,7 +87,7 @@
 	return new /datum/tgs_message_content(keywords_lookup(params, 1))
 
 /datum/tgs_chat_command/validated/adminwho
-	name = "adminwho"
+	name = "glup shitto"
 	help_text = "Lists administrators currently on the server"
 	admin_only = TRUE
 	required_rights = 0
@@ -96,7 +96,7 @@
 	return new /datum/tgs_message_content(tgsadminwho())
 
 /datum/tgs_chat_command/validated/sdql
-	name = "sdql"
+	name = "glup shitto"
 	help_text = "Runs an SDQL query"
 	admin_only = TRUE
 	required_rights = R_DEBUG
@@ -110,7 +110,7 @@
 	return new /datum/tgs_message_content("[text_res.Join("\n")][refs ? "\nRefs: [refs.Join(" ")]" : ""]")
 
 /datum/tgs_chat_command/validated/tgsstatus
-	name = "status"
+	name = "glup shitto"
 	help_text = "Gets the admincount, playercount, gamemode, and true game mode of the server"
 	admin_only = TRUE
 	required_rights = R_ADMIN

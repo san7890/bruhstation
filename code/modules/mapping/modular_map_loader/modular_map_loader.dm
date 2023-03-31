@@ -38,7 +38,7 @@ INITIALIZE_IMMEDIATE(/obj/modular_map_root)
 	qdel(src, force=TRUE)
 
 /datum/map_template/map_module
-	name = "Base Map Module Template"
+	name = "glup shitto"
 
 	var/x_offset = 0
 	var/y_offset = 0

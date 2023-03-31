@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/cult_floor
-	name = "Summon Cult Floor"
+	name = "glup shitto"
 	desc = "This spell constructs a cult floor."
 	background_icon_state = "bg_cult"
 	overlay_icon_state = "bg_cult_border"
@@ -16,7 +16,7 @@
 	summon_type = list(/turf/open/floor/engine/cult)
 
 /datum/action/cooldown/spell/conjure/cult_wall
-	name = "Summon Cult Wall"
+	name = "glup shitto"
 	desc = "This spell constructs a cult wall."
 	background_icon_state = "bg_cult"
 	overlay_icon_state = "bg_cult_border"

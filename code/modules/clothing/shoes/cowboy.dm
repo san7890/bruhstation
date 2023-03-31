@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/cowboy
-	name = "cowboy boots"
+	name = "glup shitto"
 	desc = "A small sticker lets you know they've been inspected for snakes, It is unclear how long ago the inspection took place..."
 	icon_state = "cowboy_brown"
 	armor_type = /datum/armor/shoes_cowboy
@@ -66,16 +66,16 @@
 	user.forceMove(drop_location())
 
 /obj/item/clothing/shoes/cowboy/white
-	name = "white cowboy boots"
+	name = "glup shitto"
 	icon_state = "cowboy_white"
 
 /obj/item/clothing/shoes/cowboy/black
-	name = "black cowboy boots"
+	name = "glup shitto"
 	desc = "You get the feeling someone might have been hanged in these boots."
 	icon_state = "cowboy_black"
 
 /obj/item/clothing/shoes/cowboy/fancy
-	name = "bilton wrangler boots"
+	name = "glup shitto"
 	desc = "A pair of authentic haute couture boots from Japanifornia. You doubt they have ever been close to cattle."
 	icon_state = "cowboy_fancy"
 	armor_type = /datum/armor/cowboy_fancy
@@ -84,7 +84,7 @@
 	bio = 95
 
 /obj/item/clothing/shoes/cowboy/lizard
-	name = "lizard skin boots"
+	name = "glup shitto"
 	desc = "You can hear a faint hissing from inside the boots; you hope it is just a mournful ghost."
 	icon_state = "lizardboots_green"
 	armor_type = /datum/armor/cowboy_lizard
@@ -94,6 +94,6 @@
 	fire = 40
 
 /obj/item/clothing/shoes/cowboy/lizard/masterwork
-	name = "\improper Hugs-The-Feet lizard skin boots"
+	name = "glup shitto"
 	desc = "A pair of masterfully crafted lizard skin boots. Finally a good application for the station's most bothersome inhabitants."
 	icon_state = "lizardboots_blue"

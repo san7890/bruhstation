@@ -1,5 +1,5 @@
 /obj/structure/mirror
-	name = "mirror"
+	name = "glup shitto"
 	desc = "Mirror mirror on the wall, who's the most robust of them all?"
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "mirror"
@@ -123,7 +123,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/mirror, 28)
 			playsound(src, 'sound/effects/hit_on_shattered_glass.ogg', 70, TRUE)
 
 /obj/item/wallframe/mirror
-	name = "mirror"
+	name = "glup shitto"
 	desc = "An unmounted mirror. Attach it to a wall to use."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "mirror"
@@ -135,7 +135,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/mirror, 28)
 	pixel_shift = 28
 
 /obj/structure/mirror/magic
-	name = "magic mirror"
+	name = "glup shitto"
 	desc = "Turn and face the strange... face."
 	icon_state = "magic_mirror"
 
@@ -286,7 +286,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/mirror, 28)
 	race_flags = MIRROR_BADMIN
 
 /obj/structure/mirror/magic/pride
-	name = "pride's mirror"
+	name = "glup shitto"
 	desc = "Pride cometh before the..."
 	race_flags = MIRROR_PRIDE
 

@@ -21,7 +21,7 @@
  * - Can tear through any type of wall.  This takes 4 seconds for most walls, and 12 seconds for reinforced walls.
  */
 /mob/living/simple_animal/hostile/space_dragon
-	name = "Space Dragon"
+	name = "glup shitto"
 	desc = "A vile, leviathan-esque creature that flies in the most unnatural way. Looks slightly similar to a space carp."
 	gender = NEUTER
 	maxHealth = 320

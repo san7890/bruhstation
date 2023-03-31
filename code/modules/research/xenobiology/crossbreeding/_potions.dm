@@ -6,7 +6,7 @@ Slimecrossing Potions
 
 //Extract cloner - Charged Grey
 /obj/item/slimepotion/extract_cloner
-	name = "extract cloning potion"
+	name = "glup shitto"
 	desc = "A more powerful version of the extract enhancer potion, capable of cloning regular slime extracts."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potpurple"
@@ -35,7 +35,7 @@ Slimecrossing Potions
 
 //Peace potion - Charged Light Pink
 /obj/item/slimepotion/peacepotion
-	name = "pacification potion"
+	name = "glup shitto"
 	desc = "A light pink solution of chemicals, smelling like liquid peace. And mercury salts."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potlightpink"
@@ -69,7 +69,7 @@ Slimecrossing Potions
 
 //Love potion - Charged Pink
 /obj/item/slimepotion/lovepotion
-	name = "love potion"
+	name = "glup shitto"
 	desc = "A pink chemical mix thought to inspire feelings of love."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potpink"
@@ -101,7 +101,7 @@ Slimecrossing Potions
 
 //Pressure potion - Charged Dark Blue
 /obj/item/slimepotion/spaceproof
-	name = "slime pressurization potion"
+	name = "glup shitto"
 	desc = "A potent chemical sealant that will render any article of clothing airtight. Has two uses."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potblue"
@@ -138,14 +138,14 @@ Slimecrossing Potions
 
 //Enhancer potion - Charged Cerulean
 /obj/item/slimepotion/enhancer/max
-	name = "extract maximizer"
+	name = "glup shitto"
 	desc = "An extremely potent chemical mix that will maximize a slime extract's uses."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potpurple"
 
 //Lavaproofing potion - Charged Red
 /obj/item/slimepotion/lavaproof
-	name = "slime lavaproofing potion"
+	name = "glup shitto"
 	desc = "A strange, reddish goo said to repel lava as if it were water, without reducing flammability. Has two uses."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potred"
@@ -178,7 +178,7 @@ Slimecrossing Potions
 
 //Revival potion - Charged Grey
 /obj/item/slimepotion/slime_reviver
-	name = "slime revival potion"
+	name = "glup shitto"
 	desc = "Infused with plasma and compressed gel, this brings dead slimes back to life."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potsilver"
@@ -202,7 +202,7 @@ Slimecrossing Potions
 
 //Stabilizer potion - Charged Blue
 /obj/item/slimepotion/slime/chargedstabilizer
-	name = "slime omnistabilizer"
+	name = "glup shitto"
 	desc = "An extremely potent chemical mix that will stop a slime from mutating completely."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potcyan"

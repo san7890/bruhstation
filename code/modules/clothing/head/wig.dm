@@ -1,5 +1,5 @@
 /obj/item/clothing/head/wig
-	name = "wig"
+	name = "glup shitto"
 	desc = "A bunch of hair without a head attached."
 	icon = 'icons/mob/species/human/human_face.dmi'   // default icon for all hairs
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
@@ -92,7 +92,7 @@
 	. = ..()
 
 /obj/item/clothing/head/wig/natural
-	name = "natural wig"
+	name = "glup shitto"
 	desc = "A bunch of hair without a head attached. This one changes color to match the hair of the wearer. Nothing natural about that."
 	color = "#FFFFFF"
 	adjustablecolor = FALSE

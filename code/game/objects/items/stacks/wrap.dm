@@ -5,7 +5,7 @@
  */
 
 /obj/item/stack/wrapping_paper
-	name = "wrapping paper"
+	name = "glup shitto"
 	desc = "Wrap packages with this festive paper to make gifts."
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "wrap_paper"
@@ -64,7 +64,7 @@
  */
 
 /obj/item/stack/package_wrap
-	name = "package wrapper"
+	name = "glup shitto"
 	singular_name = "wrapping sheet"
 	desc = "You can use this to wrap items in."
 	icon = 'icons/obj/stack_objects.dmi'
@@ -192,7 +192,7 @@
 	merge_type = /obj/item/stack/package_wrap/small
 
 /obj/item/c_tube
-	name = "cardboard tube"
+	name = "glup shitto"
 	desc = "A tube... of cardboard."
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "c_tube"

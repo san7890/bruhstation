@@ -1,5 +1,5 @@
 /mob/living/simple_animal/bot/secbot
-	name = "\improper Securitron"
+	name = "glup shitto"
 	desc = "A little security robot. He looks less than thrilled."
 	icon = 'icons/mob/silicon/aibots.dmi'
 	icon_state = "secbot"
@@ -51,30 +51,30 @@
 	var/payment_department = ACCOUNT_SEC
 
 /mob/living/simple_animal/bot/secbot/beepsky
-	name = "Commander Beep O'sky"
+	name = "glup shitto"
 	desc = "It's Commander Beep O'sky! Officially the superior officer of all bots on station, Beepsky remains as humble and dedicated to the law as the day he was first fabricated."
 	bot_mode_flags = BOT_MODE_ON | BOT_MODE_AUTOPATROL | BOT_MODE_REMOTE_ENABLED
 	commissioned = TRUE
 
 /mob/living/simple_animal/bot/secbot/beepsky/officer
-	name = "Officer Beepsky"
+	name = "glup shitto"
 	desc = "It's Officer Beepsky! Powered by a potato and a shot of whiskey, and with a sturdier reinforced chassis, too."
 	health = 45
 
 /mob/living/simple_animal/bot/secbot/beepsky/ofitser
-	name = "Prison Ofitser"
+	name = "glup shitto"
 	desc = "Powered by the tears and sweat of laborers."
 	bot_mode_flags = ~(BOT_MODE_PAI_CONTROLLABLE|BOT_MODE_AUTOPATROL)
 
 /mob/living/simple_animal/bot/secbot/beepsky/armsky
-	name = "Sergeant-At-Armsky"
+	name = "glup shitto"
 	desc = "It's Sergeant-At-Armsky! He's a disgruntled assistant to the warden that would probably shoot you if he had hands."
 	health = 45
 	bot_mode_flags = ~(BOT_MODE_PAI_CONTROLLABLE|BOT_MODE_AUTOPATROL)
 	security_mode_flags = SECBOT_DECLARE_ARRESTS | SECBOT_CHECK_IDS | SECBOT_CHECK_RECORDS
 
 /mob/living/simple_animal/bot/secbot/beepsky/jr
-	name = "Officer Pipsqueak"
+	name = "glup shitto"
 	desc = "It's Commander Beep O'sky's smaller, just-as aggressive cousin, Pipsqueak."
 	commissioned = FALSE
 
@@ -84,14 +84,14 @@
 	update_transform()
 
 /mob/living/simple_animal/bot/secbot/pingsky
-	name = "Officer Pingsky"
+	name = "glup shitto"
 	desc = "It's Officer Pingsky! Delegated to satellite guard duty for harbouring anti-human sentiment."
 	radio_channel = RADIO_CHANNEL_AI_PRIVATE
 	bot_mode_flags = ~(BOT_MODE_PAI_CONTROLLABLE|BOT_MODE_AUTOPATROL)
 	security_mode_flags = SECBOT_DECLARE_ARRESTS | SECBOT_CHECK_IDS | SECBOT_CHECK_RECORDS
 
 /mob/living/simple_animal/bot/secbot/genesky
-	name = "Officer Genesky"
+	name = "glup shitto"
 	desc = "A beefy variant of the standard securitron model."
 	health = 50
 	faction = list(FACTION_NANOTRASEN_PRIVATE)

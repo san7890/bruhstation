@@ -1,5 +1,5 @@
 /obj/item/clothing/mask/surgical
-	name = "sterile mask"
+	name = "glup shitto"
 	desc = "A sterile mask designed to help prevent the spread of diseases."
 	icon_state = "sterile"
 	inhand_icon_state = "s_mask"

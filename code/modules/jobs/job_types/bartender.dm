@@ -44,7 +44,7 @@
 
 
 /datum/outfit/job/bartender
-	name = "Bartender"
+	name = "glup shitto"
 	jobtype = /datum/job/bartender
 
 	id_trim = /datum/id_trim/job/bartender

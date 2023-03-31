@@ -2,7 +2,7 @@
 
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "floor_beaconf"
-	name = "bluespace gigabeacon"
+	name = "glup shitto"
 	desc = "A device that draws power from bluespace and creates a permanent tracking beacon."
 	layer = LOW_OBJ_LAYER
 	use_power = NO_POWER_USE

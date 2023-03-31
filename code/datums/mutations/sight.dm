@@ -1,6 +1,6 @@
 //Nearsightedness restricts your vision by several tiles.
 /datum/mutation/human/nearsight
-	name = "Near Sightness"
+	name = "glup shitto"
 	desc = "The holder of this mutation has poor eyesight."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='danger'>You can't see very well.</span>"
@@ -17,7 +17,7 @@
 
 ///Blind makes you blind. Who knew?
 /datum/mutation/human/blind
-	name = "Blindness"
+	name = "glup shitto"
 	desc = "Renders the subject completely blind."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You can't seem to see anything.</span>"
@@ -34,7 +34,7 @@
 
 ///Thermal Vision lets you see mobs through walls
 /datum/mutation/human/thermal
-	name = "Thermal Vision"
+	name = "glup shitto"
 	desc = "The user of this genome can visually perceive the unique human thermal signature."
 	quality = POSITIVE
 	difficulty = 18
@@ -65,7 +65,7 @@
 	to_modify.thermal_duration = 10 SECONDS * GET_MUTATION_POWER(src)
 
 /datum/action/cooldown/spell/thermal_vision
-	name = "Activate Thermal Vision"
+	name = "glup shitto"
 	desc = "You can see thermal signatures, at the cost of your eyesight."
 	button_icon = 'icons/mob/actions/actions_changeling.dmi'
 	button_icon_state = "augmented_eyesight"
@@ -107,7 +107,7 @@
 
 ///X-ray Vision lets you see through walls.
 /datum/mutation/human/xray
-	name = "X Ray Vision"
+	name = "glup shitto"
 	desc = "A strange genome that allows the user to see between the spaces of walls." //actual x-ray would mean you'd constantly be blasting rads, wich might be fun for later //hmb
 	text_gain_indication = "<span class='notice'>The walls suddenly disappear!</span>"
 	instability = 35
@@ -128,7 +128,7 @@
 
 ///Laser Eyes lets you shoot lasers from your eyes!
 /datum/mutation/human/laser_eyes
-	name = "Laser Eyes"
+	name = "glup shitto"
 	desc = "Reflects concentrated light back from the eyes."
 	quality = POSITIVE
 	locked = TRUE
@@ -175,12 +175,12 @@
 
 ///Projectile type used by laser eyes
 /obj/projectile/beam/laser_eyes
-	name = "beam"
+	name = "glup shitto"
 	icon = 'icons/effects/genetics.dmi'
 	icon_state = "eyelasers"
 
 /datum/mutation/human/illiterate
-	name = "Illiterate"
+	name = "glup shitto"
 	desc = "Causes a severe case of Aphasia that prevents reading or writing."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You feel unable to read or write.</span>"

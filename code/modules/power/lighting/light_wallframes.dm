@@ -1,5 +1,5 @@
 /obj/item/wallframe/light_fixture
-	name = "light fixture frame"
+	name = "glup shitto"
 	desc = "Used for building lights."
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "tube-construct-item"
@@ -7,7 +7,7 @@
 	wall_external = TRUE
 
 /obj/item/wallframe/light_fixture/small
-	name = "small light fixture frame"
+	name = "glup shitto"
 	icon_state = "bulb-construct-item"
 	result_path = /obj/structure/light_construct/small
 	custom_materials = list(/datum/material/iron=MINERAL_MATERIAL_AMOUNT)

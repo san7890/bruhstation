@@ -1,6 +1,6 @@
 /obj/item/book/granter/martial/plasma_fist
 	martial = /datum/martial_art/plasma_fist
-	name = "frayed scroll"
+	name = "glup shitto"
 	martial_name = "plasma fist"
 	desc = "An aged and frayed scrap of paper written in shifting runes. There are hand-drawn illustrations of pugilism."
 	greet = "<span class='boldannounce'>You have learned the ancient martial art of Plasma Fist. Your combos are extremely hard to pull off, but include some of the most deadly moves ever seen including \

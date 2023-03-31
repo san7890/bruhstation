@@ -1,6 +1,6 @@
 ///hud action for starting and stopping flight
 /datum/action/innate/flight
-	name = "Toggle Flight"
+	name = "glup shitto"
 	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_IMMOBILE|AB_CHECK_INCAPACITATED
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "flight"
@@ -158,7 +158,7 @@
 
 ///angel wings, which relate to humans. comes with holiness.
 /obj/item/organ/external/wings/functional/angel
-	name = "angel wings"
+	name = "glup shitto"
 	desc = "Holier-than-thou attitude not included."
 	sprite_accessory_override = /datum/sprite_accessory/wings_open/angel
 
@@ -166,36 +166,36 @@
 
 ///dragon wings, which relate to lizards.
 /obj/item/organ/external/wings/functional/dragon
-	name = "dragon wings"
+	name = "glup shitto"
 	desc = "Hey, HEY- NOT lizard wings. Dragon wings. Mighty dragon wings."
 	sprite_accessory_override = /datum/sprite_accessory/wings/dragon
 
 ///robotic wings, which relate to androids.
 /obj/item/organ/external/wings/functional/robotic
-	name = "robotic wings"
+	name = "glup shitto"
 	desc = "Using microscopic hover-engines, or \"microwings,\" as they're known in the trade, these tiny devices are able to lift a few grams at a time. Gathering enough of them, and you can lift impressively large things."
 	sprite_accessory_override = /datum/sprite_accessory/wings/robotic
 
 ///skeletal wings, which relate to skeletal races.
 /obj/item/organ/external/wings/functional/skeleton
-	name = "skeletal wings"
+	name = "glup shitto"
 	desc = "Powered by pure edgy-teenager-notebook-scribblings. Just kidding. But seriously, how do these keep you flying?!"
 	sprite_accessory_override = /datum/sprite_accessory/wings/skeleton
 
 ///mothra wings, which relate to moths.
 /obj/item/organ/external/wings/functional/moth/mothra
-	name = "mothra wings"
+	name = "glup shitto"
 	desc = "Fly like the mighty mothra of legend once did."
 	sprite_accessory_override = /datum/sprite_accessory/wings/mothra
 
 ///megamoth wings, which relate to moths as an alternate choice. they're both pretty cool.
 /obj/item/organ/external/wings/functional/moth/megamoth
-	name = "megamoth wings"
+	name = "glup shitto"
 	desc = "Don't get murderous."
 	sprite_accessory_override = /datum/sprite_accessory/wings/megamoth
 
 ///fly wings, which relate to flies.
 /obj/item/organ/external/wings/functional/fly
-	name = "fly wings"
+	name = "glup shitto"
 	desc = "Fly as a fly."
 	sprite_accessory_override = /datum/sprite_accessory/wings/fly

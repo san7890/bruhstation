@@ -1,5 +1,5 @@
 /obj/machinery/computer/prisoner/management
-	name = "prisoner management console"
+	name = "glup shitto"
 	desc = "Used to manage tracking implants placed inside criminals."
 	icon_screen = "explosive"
 	icon_keyboard = "security_key"

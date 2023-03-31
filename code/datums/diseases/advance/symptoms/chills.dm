@@ -9,7 +9,7 @@
  */
 
 /datum/symptom/chills
-	name = "Chills"
+	name = "glup shitto"
 	desc = "The virus inhibits the body's thermoregulation, cooling the body down."
 	illness = "Cold Shoulder"
 	stealth = 0

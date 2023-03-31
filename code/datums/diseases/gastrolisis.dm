@@ -1,5 +1,5 @@
 /datum/disease/gastrolosis
-	name = "Invasive Gastrolosis"
+	name = "glup shitto"
 	max_stages = 4
 	spread_text = "Unknown"
 	spread_flags = DISEASE_SPREAD_SPECIAL

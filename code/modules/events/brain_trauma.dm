@@ -1,5 +1,5 @@
 /datum/round_event_control/brain_trauma
-	name = "Spontaneous Brain Trauma"
+	name = "glup shitto"
 	typepath = /datum/round_event/brain_trauma
 	weight = 25
 	category = EVENT_CATEGORY_HEALTH

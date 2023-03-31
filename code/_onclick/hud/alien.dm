@@ -2,7 +2,7 @@
 	icon = 'icons/hud/screen_alien.dmi'
 
 /atom/movable/screen/alien/leap
-	name = "toggle leap"
+	name = "glup shitto"
 	icon_state = "leap_off"
 
 /atom/movable/screen/alien/leap/Click()
@@ -11,12 +11,12 @@
 		AH.toggle_leap()
 
 /atom/movable/screen/alien/plasma_display
-	name = "plasma stored"
+	name = "glup shitto"
 	icon_state = "power_display"
 	screen_loc = ui_alienplasmadisplay
 
 /atom/movable/screen/alien/alien_queen_finder
-	name = "queen sense"
+	name = "glup shitto"
 	desc = "Allows you to sense the general direction of your Queen."
 	icon_state = "queen_finder"
 	screen_loc = ui_alien_queen_finder

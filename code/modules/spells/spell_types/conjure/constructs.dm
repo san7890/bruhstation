@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/construct
-	name = "Summon Construct Shell"
+	name = "glup shitto"
 	desc = "This spell conjures a construct which may be controlled by Shades."
 	button_icon = 'icons/mob/actions/actions_cult.dmi'
 	button_icon_state = "artificer"
@@ -15,7 +15,7 @@
 	summon_type = list(/obj/structure/constructshell)
 
 /datum/action/cooldown/spell/conjure/construct/lesser // Used by artificers.
-	name = "Create Construct Shell"
+	name = "glup shitto"
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
 

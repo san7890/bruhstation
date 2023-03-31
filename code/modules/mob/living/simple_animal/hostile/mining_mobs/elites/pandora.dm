@@ -17,7 +17,7 @@
  */
 
 /mob/living/simple_animal/hostile/asteroid/elite/pandora
-	name = "pandora"
+	name = "glup shitto"
 	desc = "A large magic box with similar power and design to the Hierophant.  Once it opens, it's not easy to close it."
 	icon_state = "pandora"
 	icon_living = "pandora"
@@ -49,25 +49,25 @@
 	var/cooldown_time = 20
 
 /datum/action/innate/elite_attack/singular_shot
-	name = "Singular Shot"
+	name = "glup shitto"
 	button_icon_state = "singular_shot"
 	chosen_message = "<span class='boldwarning'>You are now creating a single linear magic square.</span>"
 	chosen_attack_num = SINGULAR_SHOT
 
 /datum/action/innate/elite_attack/magic_box
-	name = "Magic Box"
+	name = "glup shitto"
 	button_icon_state = "magic_box"
 	chosen_message = "<span class='boldwarning'>You are now attacking with a box of magic squares.</span>"
 	chosen_attack_num = MAGIC_BOX
 
 /datum/action/innate/elite_attack/pandora_teleport
-	name = "Line Teleport"
+	name = "glup shitto"
 	button_icon_state = "pandora_teleport"
 	chosen_message = "<span class='boldwarning'>You will now teleport to your target.</span>"
 	chosen_attack_num = PANDORA_TELEPORT
 
 /datum/action/innate/elite_attack/aoe_squares
-	name = "AOE Blast"
+	name = "glup shitto"
 	button_icon_state = "aoe_squares"
 	chosen_message = "<span class='boldwarning'>Your attacks will spawn an AOE blast at your target location.</span>"
 	chosen_attack_num = AOE_SQUARES
@@ -178,7 +178,7 @@
 
 //Pandora's loot: Hope
 /obj/item/clothing/accessory/pandora_hope
-	name = "Hope"
+	name = "glup shitto"
 	desc = "Found at the bottom of Pandora. After all the evil was released, this was the only thing left inside."
 	icon = 'icons/obj/lavaland/elite_trophies.dmi'
 	icon_state = "hope"

@@ -1,7 +1,7 @@
 //Generic system for picking up mobs.
 //Currently works for head and hands.
 /obj/item/clothing/head/mob_holder
-	name = "bugged mob"
+	name = "glup shitto"
 	desc = "Yell at coderbrush."
 	icon = null
 	icon_state = ""
@@ -110,7 +110,7 @@
 	. = ..()
 	if(!isdrone(L))
 		qdel(src)
-	name = "drone (hiding)"
+	name = "glup shitto"
 	desc = "This drone is scared and has curled up into a ball!"
 
 /obj/item/clothing/head/mob_holder/drone/update_visuals(mob/living/L)

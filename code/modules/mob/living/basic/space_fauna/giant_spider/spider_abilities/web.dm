@@ -1,6 +1,6 @@
 /// Make a sticky web under yourself for area fortification
 /datum/action/cooldown/lay_web
-	name = "Spin Web"
+	name = "glup shitto"
 	desc = "Spin a web to slow down potential prey."
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
 	button_icon_state = "lay_web"

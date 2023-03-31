@@ -131,7 +131,7 @@
 	floor_tile = /obj/item/stack/tile/bamboo/tatami/black
 
 /turf/open/floor/grass
-	name = "grass patch"
+	name = "glup shitto"
 	desc = "You can't tell if this is real grass or just cheap plastic imitation."
 	icon_state = "grass0"
 	floor_tile = /obj/item/stack/tile/grass
@@ -156,7 +156,7 @@
 	icon_state = "grass[rand(0,3)]"
 
 /turf/open/floor/grass/fairy //like grass but fae-er
-	name = "fairygrass patch"
+	name = "glup shitto"
 	desc = "Something about this grass makes you want to frolic. Or get high."
 	icon_state = "fairygrass0"
 	floor_tile = /obj/item/stack/tile/fairygrass
@@ -169,7 +169,7 @@
 
 /turf/open/floor/fake_snow
 	gender = PLURAL
-	name = "snow"
+	name = "glup shitto"
 	icon = 'icons/turf/snow.dmi'
 	desc = "Looks cold."
 	icon_state = "snow"
@@ -200,7 +200,7 @@
 	return
 
 /turf/open/floor/fakebasalt
-	name = "aesthetic volcanic flooring"
+	name = "glup shitto"
 	desc = "Safely recreated turf for your hellplanet-scaping."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "basalt"
@@ -221,7 +221,7 @@
 		set_basalt_light(src)
 
 /turf/open/floor/carpet
-	name = "carpet"
+	name = "glup shitto"
 	desc = "Soft velvet carpeting. Feels good between your toes."
 	icon = 'icons/turf/floors/carpet.dmi'
 	icon_state = "carpet-255"
@@ -340,7 +340,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_ROYAL_BLUE
 
 /turf/open/floor/carpet/executive
-	name = "executive carpet"
+	name = "glup shitto"
 	icon = 'icons/turf/floors/carpet_executive.dmi'
 	icon_state = "executive_carpet-255"
 	base_icon_state = "executive_carpet"
@@ -349,7 +349,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_EXECUTIVE
 
 /turf/open/floor/carpet/stellar
-	name = "stellar carpet"
+	name = "glup shitto"
 	icon = 'icons/turf/floors/carpet_stellar.dmi'
 	icon_state = "stellar_carpet-255"
 	base_icon_state = "stellar_carpet"
@@ -358,7 +358,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_STELLAR
 
 /turf/open/floor/carpet/donk
-	name = "Donk Co. carpet"
+	name = "glup shitto"
 	icon = 'icons/turf/floors/carpet_donk.dmi'
 	icon_state = "donk_carpet-255"
 	base_icon_state = "donk_carpet"
@@ -419,7 +419,7 @@
 
 /// An emissive turf used to test emissive turfs.
 /turf/open/floor/emissive_test
-	name = "emissive test floor"
+	name = "glup shitto"
 	desc = "A glow-in-the-dark floor used to test emissive turfs."
 	floor_tile = /obj/item/stack/tile/emissive_test
 
@@ -437,7 +437,7 @@
 	floor_tile = /obj/item/stack/tile/emissive_test/white
 
 /turf/open/floor/carpet/neon
-	name = "neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery pad inset with a phsophorescent pattern."
 	icon = 'icons/turf/floors/carpet_black.dmi'
 	icon_state = "carpet_black-255"
@@ -461,7 +461,7 @@
 	AddElement(/datum/element/decal, neon_icon || icon, neon_icon_state || base_icon_state, dir, EMISSIVE_PLANE, null, emissive_alpha, EMISSIVE_COLOR, smoothing_junction)
 
 /turf/open/floor/carpet/neon/simple
-	name = "simple neon carpet"
+	name = "glup shitto"
 	icon = 'icons/turf/floors/carpet_neon_simple.dmi'
 	icon_state = "base-255"
 	base_icon_state = "base"
@@ -479,7 +479,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_NODOTS
 
 /turf/open/floor/carpet/neon/simple/white
-	name = "simple white neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of white phosphorescent dye."
 	neon_color = COLOR_WHITE
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/white
@@ -495,7 +495,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_WHITE_NODOTS
 
 /turf/open/floor/carpet/neon/simple/black
-	name = "simple black neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of black phosphorescent dye."
 	neon_icon_state = "glow" // This one also lights up the edges of the lines.
 	neon_color = COLOR_BLACK
@@ -513,7 +513,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_BLACK_NODOTS
 
 /turf/open/floor/carpet/neon/simple/red
-	name = "simple red neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of red phosphorescent dye."
 	neon_color = COLOR_RED
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/red
@@ -529,7 +529,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_RED_NODOTS
 
 /turf/open/floor/carpet/neon/simple/orange
-	name = "simple orange neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of orange phosphorescent dye."
 	neon_color = COLOR_ORANGE
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/orange
@@ -545,7 +545,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_ORANGE_NODOTS
 
 /turf/open/floor/carpet/neon/simple/yellow
-	name = "simple yellow neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of yellow phosphorescent dye."
 	neon_color = COLOR_YELLOW
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/yellow
@@ -561,7 +561,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_YELLOW_NODOTS
 
 /turf/open/floor/carpet/neon/simple/lime
-	name = "simple lime neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of lime phosphorescent dye."
 	neon_color = COLOR_LIME
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/lime
@@ -577,7 +577,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_LIME_NODOTS
 
 /turf/open/floor/carpet/neon/simple/green
-	name = "simple green neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of green phosphorescent dye."
 	neon_color = COLOR_GREEN
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/green
@@ -593,7 +593,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_GREEN_NODOTS
 
 /turf/open/floor/carpet/neon/simple/teal
-	name = "simple teal neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of teal phosphorescent dye."
 	neon_color = COLOR_TEAL
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/teal
@@ -609,7 +609,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_TEAL_NODOTS
 
 /turf/open/floor/carpet/neon/simple/cyan
-	name = "simple cyan neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of cyan phosphorescent dye."
 	neon_color = COLOR_CYAN
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/cyan
@@ -625,7 +625,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_CYAN_NODOTS
 
 /turf/open/floor/carpet/neon/simple/blue
-	name = "simple blue neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of blue phosphorescent dye."
 	neon_color = COLOR_BLUE
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/blue
@@ -641,7 +641,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_BLUE_NODOTS
 
 /turf/open/floor/carpet/neon/simple/purple
-	name = "simple purple neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of purple phosphorescent dye."
 	neon_color = COLOR_PURPLE
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/purple
@@ -657,7 +657,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_PURPLE_NODOTS
 
 /turf/open/floor/carpet/neon/simple/violet
-	name = "simple violet neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of violet phosphorescent dye."
 	neon_color = COLOR_VIOLET
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/violet
@@ -673,7 +673,7 @@
 	canSmoothWith = SMOOTH_GROUP_CARPET_SIMPLE_NEON_VIOLET_NODOTS
 
 /turf/open/floor/carpet/neon/simple/pink
-	name = "simple pink neon carpet"
+	name = "glup shitto"
 	desc = "A rubbery mat with a inset pattern of pink phosphorescent dye."
 	neon_color = COLOR_LIGHT_PINK
 	floor_tile = /obj/item/stack/tile/carpet/neon/simple/pink

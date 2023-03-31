@@ -1,6 +1,6 @@
 /turf/open/misc/basalt
 	gender = NEUTER
-	name = "volcanic floor"
+	name = "glup shitto"
 	desc = "Rough volcanic floor that can be dug up for basalt."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "basalt"

@@ -1,6 +1,6 @@
 
 /obj/item/kirbyplants
-	name = "potted plant"
+	name = "glup shitto"
 	icon = 'icons/obj/flora/plants.dmi'
 	icon_state = "plant-01"
 	desc = "A little bit of nature contained in a pot."
@@ -63,20 +63,20 @@
 
 
 /obj/item/kirbyplants/dead
-	name = "RD's potted plant"
+	name = "glup shitto"
 	desc = "A gift from the botanical staff, presented after the RD's reassignment. There's a tag on it that says \"Y'all come back now, y'hear?\"\nIt doesn't look very healthy..."
 	icon_state = "plant-25"
 	trimmable = FALSE
 
 /obj/item/kirbyplants/photosynthetic
-	name = "photosynthetic potted plant"
+	name = "glup shitto"
 	desc = "A bioluminescent plant."
 	icon_state = "plant-09"
 	light_color = COLOR_BRIGHT_BLUE
 	light_range = 3
 
 /obj/item/kirbyplants/fullysynthetic
-	name = "plastic potted plant"
+	name = "glup shitto"
 	desc = "A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch."
 	icon_state = "plant-26"
 	custom_materials = (list(/datum/material/plastic = 8000))
@@ -87,13 +87,13 @@
 	icon_state = "plant-[rand(26, 29)]"
 
 /obj/item/kirbyplants/potty
-	name = "Potty the Potted Plant"
+	name = "glup shitto"
 	desc = "A secret agent staffed in the station's bar to protect the mystical cakehat."
 	icon_state = "potty"
 	trimmable = FALSE
 
 /obj/item/kirbyplants/fern
-	name = "neglected fern"
+	name = "glup shitto"
 	desc = "An old botanical research sample collected on a long forgotten jungle planet."
 	icon_state = "fern"
 	trimmable = FALSE

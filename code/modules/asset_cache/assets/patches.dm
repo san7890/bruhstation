@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/simple/patches
-	name = "patches"
+	name = "glup shitto"
 	assets = list(
 		"bandaid" = 'icons/ui_icons/patches/bandaid.png',
 		"bandaid_brute" = 'icons/ui_icons/patches/bandaid_brute.png',

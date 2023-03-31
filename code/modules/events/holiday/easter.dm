@@ -1,5 +1,5 @@
 /datum/round_event_control/easter
-	name = "Easter Eggselence"
+	name = "glup shitto"
 	holidayID = EASTER
 	typepath = /datum/round_event/easter
 	weight = -1
@@ -13,7 +13,7 @@
 
 
 /datum/round_event_control/rabbitrelease
-	name = "Release the Rabbits!"
+	name = "glup shitto"
 	holidayID = EASTER
 	typepath = /datum/round_event/rabbitrelease
 	weight = 5
@@ -36,7 +36,7 @@
 
 //Easter Baskets
 /obj/item/storage/basket/easter
-	name = "Easter Basket"
+	name = "glup shitto"
 
 /obj/item/storage/basket/easter/Initialize(mapload)
 	. = ..()
@@ -57,7 +57,7 @@
 
 //Bunny Suit
 /obj/item/clothing/head/costume/bunnyhead
-	name = "Easter Bunny Head"
+	name = "glup shitto"
 	icon_state = "bunnyhead"
 	inhand_icon_state = null
 	desc = "Considerably more cute than 'Frank'."
@@ -66,7 +66,7 @@
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 
 /obj/item/clothing/suit/costume/bunnysuit
-	name = "Easter Bunny Suit"
+	name = "glup shitto"
 	desc = "Hop Hop Hop!"
 	icon_state = "bunnysuit"
 	icon = 'icons/obj/clothing/suits/costume.dmi'
@@ -79,14 +79,14 @@
 
 //Bunny bag!
 /obj/item/storage/backpack/satchel/bunnysatchel
-	name = "Easter Bunny Satchel"
+	name = "glup shitto"
 	desc = "Good for your eyes."
 	icon_state = "satchel_carrot"
 	inhand_icon_state = null
 
 //Egg prizes and egg spawns!
 /obj/item/surprise_egg
-	name = "wrapped egg"
+	name = "glup shitto"
 	desc = "A chocolate egg containing a little something special. Unwrap and enjoy!"
 	icon_state = "egg"
 	resistance_flags = FLAMMABLE
@@ -133,7 +133,7 @@
 
 //Easter Recipes + food
 /obj/item/food/hotcrossbun
-	name = "hot cross bun"
+	name = "glup shitto"
 	desc = "The cross represents the Assistants that died for your sins."
 	icon_state = "hotcrossbun"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/sugar = 1)
@@ -142,7 +142,7 @@
 	bite_consumption = 2
 
 /datum/crafting_recipe/food/hotcrossbun
-	name = "Hot Cross Bun"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 1,
 		/datum/reagent/consumable/sugar = 1
@@ -152,7 +152,7 @@
 	category = CAT_BREAD
 
 /datum/crafting_recipe/food/briochecake
-	name = "Brioche cake"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cake/plain = 1,
 		/datum/reagent/consumable/sugar = 2
@@ -161,7 +161,7 @@
 	category = CAT_MISCFOOD
 
 /obj/item/food/scotchegg
-	name = "scotch egg"
+	name = "glup shitto"
 	desc = "A boiled egg wrapped in a delicious, seasoned meatball."
 	icon = 'icons/obj/food/egg.dmi'
 	icon_state = "scotchegg"
@@ -169,7 +169,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
 
 /datum/crafting_recipe/food/scotchegg
-	name = "Scotch egg"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/salt = 1,
 		/datum/reagent/consumable/blackpepper = 1,
@@ -180,7 +180,7 @@
 	category = CAT_EGG
 
 /datum/crafting_recipe/food/mammi
-	name = "Mammi"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/bread/plain = 1,
 		/obj/item/food/chocolatebar = 1,
@@ -190,13 +190,13 @@
 	category = CAT_MISCFOOD
 
 /obj/item/food/chocolatebunny
-	name = "chocolate bunny"
+	name = "glup shitto"
 	desc = "Contains less than 10% real rabbit!"
 	icon_state = "chocolatebunny"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/sugar = 2, /datum/reagent/consumable/coco = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
 
 /datum/crafting_recipe/food/chocolatebunny
-	name = "Chocolate bunny"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/sugar = 2,
 		/obj/item/food/chocolatebar = 1

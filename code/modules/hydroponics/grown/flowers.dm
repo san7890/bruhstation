@@ -1,6 +1,6 @@
 // Poppy
 /obj/item/seeds/poppy
-	name = "pack of poppy seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into poppies."
 	icon_state = "seed-poppy"
 	species = "poppy"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/poppy
 	seed = /obj/item/seeds/poppy
-	name = "poppy"
+	name = "glup shitto"
 	desc = "Long-used as a symbol of rest, peace, and death."
 	icon_state = "map_flower"
 	slot_flags = ITEM_SLOT_HEAD
@@ -35,7 +35,7 @@
 
 // Lily
 /obj/item/seeds/poppy/lily
-	name = "pack of lily seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into lilies."
 	icon_state = "seed-lily"
 	species = "lily"
@@ -45,13 +45,13 @@
 
 /obj/item/food/grown/poppy/lily
 	seed = /obj/item/seeds/poppy/lily
-	name = "lily"
+	name = "glup shitto"
 	desc = "A beautiful orange flower."
 	greyscale_colors = "#fe881f"
 
 	//Spacemans's Trumpet
 /obj/item/seeds/poppy/lily/trumpet
-	name = "pack of spaceman's trumpet seeds"
+	name = "glup shitto"
 	desc = "A plant sculped by extensive genetic engineering. The spaceman's trumpet is said to bear no resemblance to its wild ancestors. Inside NT AgriSci circles it is better known as NTPW-0372."
 	icon_state = "seed-trumpet"
 	species = "spacemanstrumpet"
@@ -77,7 +77,7 @@
 
 /obj/item/food/grown/trumpet
 	seed = /obj/item/seeds/poppy/lily/trumpet
-	name = "spaceman's trumpet"
+	name = "glup shitto"
 	desc = "A vivid flower that smells faintly of freshly cut grass. Touching the flower seems to stain the skin some time after contact, yet most other surfaces seem to be unaffected by this phenomenon."
 	icon_state = "spacemanstrumpet"
 	bite_consumption_mod = 2
@@ -85,7 +85,7 @@
 
 // Geranium
 /obj/item/seeds/poppy/geranium
-	name = "pack of geranium seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into geranium."
 	icon_state = "seed-geranium"
 	species = "geranium"
@@ -95,13 +95,13 @@
 
 /obj/item/food/grown/poppy/geranium
 	seed = /obj/item/seeds/poppy/geranium
-	name = "geranium"
+	name = "glup shitto"
 	desc = "A beautiful blue flower."
 	greyscale_colors = "#1499bb"
 
 ///Fraxinella seeds.
 /obj/item/seeds/poppy/geranium/fraxinella
-	name = "pack of fraxinella seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into fraxinella."
 	icon_state = "seed-fraxinella"
 	species = "fraxinella"
@@ -115,7 +115,7 @@
 ///Fraxinella Flowers.
 /obj/item/food/grown/poppy/geranium/fraxinella
 	seed = /obj/item/seeds/poppy/geranium/fraxinella
-	name = "fraxinella"
+	name = "glup shitto"
 	desc = "A beautiful light pink flower."
 	icon_state = "fraxinella"
 	distill_reagent = /datum/reagent/ash
@@ -125,7 +125,7 @@
 
 // Harebell
 /obj/item/seeds/harebell
-	name = "pack of harebell seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into pretty little flowers."
 	icon_state = "seed-harebell"
 	plant_icon_offset = 1
@@ -147,7 +147,7 @@
 
 /obj/item/food/grown/harebell
 	seed = /obj/item/seeds/harebell
-	name = "harebell"
+	name = "glup shitto"
 	desc = "\"I'll sweeten thy sad grave: thou shalt not lack the flower that's like thy face, pale primrose, nor the azured hare-bell, like thy veins; no, nor the leaf of eglantine, whom not to slander, out-sweeten'd not thy breath.\""
 	icon_state = "harebell"
 	slot_flags = ITEM_SLOT_HEAD
@@ -157,7 +157,7 @@
 
 // Sunflower
 /obj/item/seeds/sunflower
-	name = "pack of sunflower seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into sunflowers."
 	icon_state = "seed-sunflower"
 	species = "sunflower"
@@ -177,7 +177,7 @@
 
 /obj/item/food/grown/sunflower // FLOWER POWER!
 	seed = /obj/item/seeds/sunflower
-	name = "sunflower"
+	name = "glup shitto"
 	desc = "It's beautiful! A certain person might beat you to death if you trample these."
 	icon_state = "sunflower"
 	inhand_icon_state = "sunflower"
@@ -198,7 +198,7 @@
 
 // Moonflower
 /obj/item/seeds/sunflower/moonflower
-	name = "pack of moonflower seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into moonflowers."
 	icon_state = "seed-moonflower"
 	lefthand_file = 'icons/mob/inhands/items/food_lefthand.dmi'
@@ -216,7 +216,7 @@
 
 /obj/item/food/grown/moonflower
 	seed = /obj/item/seeds/sunflower/moonflower
-	name = "moonflower"
+	name = "glup shitto"
 	desc = "Store in a location at least 50 yards away from werewolves."
 	icon_state = "moonflower"
 	inhand_icon_state = "moonflower"
@@ -226,7 +226,7 @@
 
 // Novaflower
 /obj/item/seeds/sunflower/novaflower
-	name = "pack of novaflower seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into novaflowers."
 	icon_state = "seed-novaflower"
 	species = "novaflower"
@@ -241,7 +241,7 @@
 
 /obj/item/grown/novaflower
 	seed = /obj/item/seeds/sunflower/novaflower
-	name = "\improper novaflower"
+	name = "glup shitto"
 	desc = "These beautiful flowers have a crisp smokey scent, like a summer bonfire."
 	icon_state = "novaflower"
 	inhand_icon_state = "novaflower"
@@ -261,7 +261,7 @@
 
 // Rose
 /obj/item/seeds/rose
-	name = "pack of rose seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into roses."
 	icon_state = "seed-rose"
 	species = "rose"
@@ -282,7 +282,7 @@
 
 /obj/item/food/grown/rose
 	seed = /obj/item/seeds/rose
-	name = "\improper rose"
+	name = "glup shitto"
 	desc = "The classic fleur d'amour - flower of love. Watch for its thorns!"
 	base_icon_state = "rose"
 	icon_state = "rose"
@@ -306,7 +306,7 @@
 
 // Carbon Rose
 /obj/item/seeds/carbon_rose
-	name = "pack of carbon rose seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into carbon roses."
 	icon_state = "seed-carbonrose"
 	species = "carbonrose"
@@ -327,7 +327,7 @@
 
 /obj/item/grown/carbon_rose
 	seed = /obj/item/seeds/carbon_rose
-	name = "carbon rose"
+	name = "glup shitto"
 	desc = "The all new fleur d'amour gris - the flower of love, modernized, with no harsh thorns."
 	icon_state = "carbonrose"
 	lefthand_file = 'icons/mob/inhands/weapons/plants_lefthand.dmi'

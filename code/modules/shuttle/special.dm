@@ -4,7 +4,7 @@
 // living carbons are put on its altar/tables
 
 /obj/machinery/power/emitter/energycannon
-	name = "Energy Cannon"
+	name = "glup shitto"
 	desc = "A heavy duty industrial laser."
 	icon = 'icons/obj/engine/singularity.dmi'
 	icon_state = "emitter_+a"
@@ -26,7 +26,7 @@
 	return
 
 /obj/machinery/power/emitter/energycannon/magical
-	name = "wabbajack statue"
+	name = "glup shitto"
 	desc = "Who am I? What is my purpose in life? What do I mean by who am I?"
 	projectile_type = /obj/projectile/magic/change
 	icon = 'icons/obj/machines/magic_emitter.dmi'
@@ -72,7 +72,7 @@
 	return
 
 /obj/structure/table/abductor/wabbajack
-	name = "wabbajack altar"
+	name = "glup shitto"
 	desc = "Whether you're sleeping or waking, it's going to be quite chaotic."
 	max_integrity = 1000
 	verb_say = "chants"
@@ -155,7 +155,7 @@
 // and a good time.
 
 /mob/living/simple_animal/drone/snowflake/bardrone
-	name = "Bardrone"
+	name = "glup shitto"
 	desc = "A barkeeping drone, a robot built to tend bars."
 	hacked = TRUE
 	shy = FALSE
@@ -175,7 +175,7 @@
 
 /mob/living/simple_animal/hostile/alien/maid/barmaid
 	gold_core_spawnable = NO_SPAWN
-	name = "Barmaid"
+	name = "glup shitto"
 	desc = "A barmaid, a maiden found in a bar."
 	pass_flags = PASSTABLE
 	unique_name = FALSE
@@ -249,7 +249,7 @@
 //Luxury Shuttle Blockers
 
 /obj/machinery/scanner_gate/luxury_shuttle
-	name = "luxury shuttle ticket field"
+	name = "glup shitto"
 	density = FALSE //allows shuttle airlocks to close, nothing but an approved passenger gets past CanPass
 	locked = TRUE
 	use_power = NO_POWER_USE
@@ -424,12 +424,12 @@
 		return ..()
 
 /mob/living/simple_animal/hostile/bear/fightpit
-	name = "fight pit bear"
+	name = "glup shitto"
 	desc = "This bear's trained through ancient Russian secrets to fear the walls of its glass prison."
 	environment_smash = ENVIRONMENT_SMASH_NONE
 
 /obj/effect/decal/hammerandsickle
-	name = "hammer and sickle"
+	name = "glup shitto"
 	desc = "Communism powerful force."
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "communist"

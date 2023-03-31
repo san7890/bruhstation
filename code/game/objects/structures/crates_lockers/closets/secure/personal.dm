@@ -1,6 +1,6 @@
 /obj/structure/closet/secure_closet/personal
 	desc = "It's a secure locker for personnel. The first card swiped gains control."
-	name = "personal closet"
+	name = "glup shitto"
 	req_access = list(ACCESS_ALL_PERSONAL_LOCKERS)
 	var/registered_name = null
 
@@ -15,7 +15,7 @@
 	new /obj/item/radio/headset( src )
 
 /obj/structure/closet/secure_closet/personal/patient
-	name = "patient's closet"
+	name = "glup shitto"
 
 /obj/structure/closet/secure_closet/personal/patient/PopulateContents()
 	new /obj/item/clothing/under/color/white( src )

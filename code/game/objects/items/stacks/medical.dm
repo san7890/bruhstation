@@ -1,5 +1,5 @@
 /obj/item/stack/medical
-	name = "medical pack"
+	name = "glup shitto"
 	singular_name = "medical pack"
 	icon = 'icons/obj/medical/stack_medical.dmi'
 	amount = 6
@@ -107,7 +107,7 @@
 	return
 
 /obj/item/stack/medical/bruise_pack
-	name = "bruise pack"
+	name = "glup shitto"
 	singular_name = "bruise pack"
 	desc = "A therapeutic gel pack and bandages designed to treat blunt-force trauma."
 	icon_state = "brutepack"
@@ -124,7 +124,7 @@
 	return BRUTELOSS
 
 /obj/item/stack/medical/gauze
-	name = "medical gauze"
+	name = "glup shitto"
 	desc = "A roll of elastic cloth, perfect for stabilizing all kinds of wounds, from cuts and burns, to broken bones. "
 	gender = PLURAL
 	singular_name = "medical gauze"
@@ -197,7 +197,7 @@
 	return OXYLOSS
 
 /obj/item/stack/medical/gauze/improvised
-	name = "improvised gauze"
+	name = "glup shitto"
 	singular_name = "improvised gauze"
 	desc = "A roll of cloth roughly cut from something that does a decent job of stabilizing wounds, but less efficiently so than real medical gauze."
 	self_delay = 6 SECONDS
@@ -217,7 +217,7 @@
 	 */
 
 /obj/item/stack/medical/suture
-	name = "suture"
+	name = "glup shitto"
 	desc = "Basic sterile sutures used to seal up cuts and lacerations and stop bleeding."
 	gender = PLURAL
 	singular_name = "suture"
@@ -233,7 +233,7 @@
 	merge_type = /obj/item/stack/medical/suture
 
 /obj/item/stack/medical/suture/emergency
-	name = "emergency suture"
+	name = "glup shitto"
 	desc = "A value pack of cheap sutures, not very good at repairing damage, but still decent at stopping bleeding."
 	heal_brute = 5
 	amount = 5
@@ -241,7 +241,7 @@
 	merge_type = /obj/item/stack/medical/suture/emergency
 
 /obj/item/stack/medical/suture/medicated
-	name = "medicated suture"
+	name = "glup shitto"
 	icon_state = "suture_purp"
 	desc = "A suture infused with drugs that speed up wound healing of the treated laceration."
 	heal_brute = 15
@@ -250,7 +250,7 @@
 	merge_type = /obj/item/stack/medical/suture/medicated
 
 /obj/item/stack/medical/ointment
-	name = "ointment"
+	name = "glup shitto"
 	desc = "Basic burn ointment, rated effective for second degree burns with proper bandaging, though it's still an effective stabilizer for worse burns. Not terribly good at outright healing burns though."
 	gender = PLURAL
 	singular_name = "ointment"
@@ -273,7 +273,7 @@
 	return TOXLOSS
 
 /obj/item/stack/medical/mesh
-	name = "regenerative mesh"
+	name = "glup shitto"
 	desc = "A bacteriostatic mesh used to dress burns."
 	gender = PLURAL
 	singular_name = "mesh piece"
@@ -330,7 +330,7 @@
 	return ..()
 
 /obj/item/stack/medical/mesh/advanced
-	name = "advanced regenerative mesh"
+	name = "glup shitto"
 	desc = "An advanced mesh made with aloe extracts and sterilizing chemicals, used to treat burns."
 
 	gender = PLURAL
@@ -347,7 +347,7 @@
 	icon_state = "aloe_mesh_closed"
 
 /obj/item/stack/medical/aloe
-	name = "aloe cream"
+	name = "glup shitto"
 	desc = "A healing paste for minor cuts and burns."
 
 	gender = PLURAL
@@ -368,7 +368,7 @@
 	amount = 2
 
 /obj/item/stack/medical/bone_gel
-	name = "bone gel"
+	name = "glup shitto"
 	singular_name = "bone gel"
 	desc = "A potent medical gel that, when applied to a damaged bone in a proper surgical setting, triggers an intense melding reaction to repair the wound. Can be directly applied alongside surgical sticky tape to a broken bone in dire circumstances, though this is very harmful to the patient and not recommended."
 
@@ -415,7 +415,7 @@
 	amount = 4
 
 /obj/item/stack/medical/poultice
-	name = "mourning poultices"
+	name = "glup shitto"
 	singular_name = "mourning poultice"
 	desc = "A type of primitive herbal poultice.\nWhile traditionally used to prepare corpses for the mourning feast, it can also treat scrapes and burns on the living, however, it is liable to cause shortness of breath when employed in this manner.\nIt is imbued with ancient wisdom."
 	icon_state = "poultice"

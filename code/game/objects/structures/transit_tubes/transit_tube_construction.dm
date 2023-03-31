@@ -2,7 +2,7 @@
 
 // normal transit tubes
 /obj/structure/c_transit_tube
-	name = "unattached transit tube"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/pipes/transit_tube.dmi'
 	icon_state = "straight"
 	desc = "An unattached segment of transit tube."
@@ -56,7 +56,7 @@
 
 // transit tube station
 /obj/structure/c_transit_tube/station
-	name = "unattached through station"
+	name = "glup shitto"
 	icon_state = "closed_station0"
 	build_type = /obj/structure/transit_tube/station
 	flipped_build_type = /obj/structure/transit_tube/station/flipped
@@ -71,7 +71,7 @@
 
 // reverser station, used for the terminus
 /obj/structure/c_transit_tube/station/reverse
-	name = "unattached terminus station"
+	name = "glup shitto"
 	icon_state = "closed_terminus0"
 	build_type = /obj/structure/transit_tube/station/reverse
 	flipped_build_type = /obj/structure/transit_tube/station/reverse/flipped
@@ -87,7 +87,7 @@
 
 /obj/structure/c_transit_tube/station/dispenser
 	icon_state = "open_dispenser0"
-	name = "unattached dispenser station"
+	name = "glup shitto"
 	build_type = /obj/structure/transit_tube/station/dispenser
 	flipped_build_type = /obj/structure/transit_tube/station/dispenser/flipped
 	base_icon_state = "open_dispenser"
@@ -101,7 +101,7 @@
 //and the ones that reverse
 
 /obj/structure/c_transit_tube/station/dispenser/reverse
-	name = "unattached terminus dispenser station"
+	name = "glup shitto"
 	icon_state = "open_terminusdispenser0"
 	build_type = /obj/structure/transit_tube/station/dispenser/reverse
 	flipped_build_type = /obj/structure/transit_tube/station/dispenser/reverse/flipped
@@ -159,7 +159,7 @@
 //transit tube pod
 //see station.dm for the logic
 /obj/structure/c_transit_tube_pod
-	name = "unattached transit tube pod"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/pipes/transit_tube.dmi'
 	icon_state = "pod"
 	desc = "Could probably be <b>dragged</b> into an open Transit Tube."

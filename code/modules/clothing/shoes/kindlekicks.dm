@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/kindle_kicks
-	name = "Kindle Kicks"
+	name = "glup shitto"
 	desc = "They'll sure kindle something in you, and it's not childhood nostalgia..."
 	icon_state = "kindleKicks"
 	inhand_icon_state = null

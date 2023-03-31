@@ -7,7 +7,7 @@
 	unique = TRUE   // FALSE - Normal book, TRUE - Should not be treated as normal book, unable to be copied, unable to be modified
 
 /obj/item/book/manual/hydroponics_pod_people
-	name = "The Human Harvest: From Seed to Market"
+	name = "glup shitto"
 	icon_state ="bookHydroponicsPodPeople"
 	starting_author = "Farmer John" // Whoever wrote the paper or book, can be changed by pen or PC. It is not automatically assigned.
 	starting_title = "The Human Harvest: From Seed to Market"
@@ -46,7 +46,7 @@
 				"}
 
 /obj/item/book/manual/ripley_build_and_repair
-	name = "APLU \"Ripley\" Construction and Operation Manual"
+	name = "glup shitto"
 	icon_state ="book"
 	starting_author = "Weyland-Yutani Corp"
 	starting_title = "APLU \"Ripley\" Construction and Operation Manual"
@@ -112,7 +112,7 @@
 			"}
 
 /obj/item/book/manual/chef_recipes
-	name = "Chef Recipes"
+	name = "glup shitto"
 	icon_state = "cooked_book"
 	starting_author = "Lord Frenrir Cageth"
 	starting_title = "Chef Recipes"
@@ -194,7 +194,7 @@
 			"}
 
 /obj/item/book/manual/nuclear
-	name = "Fission Mailed: Nuclear Sabotage 101"
+	name = "glup shitto"
 	icon_state ="bookNuclear"
 	starting_author = "Syndicate"
 	starting_title = "Fission Mailed: Nuclear Sabotage 101"
@@ -276,28 +276,28 @@
 		book_data.set_content(wikiinfo, trusted = TRUE)
 
 /obj/item/book/manual/wiki/chemistry
-	name = "Chemistry Textbook"
+	name = "glup shitto"
 	icon_state ="chemistrybook"
 	starting_author = "Nanotrasen"
 	starting_title = "Chemistry Textbook"
 	page_link = "Guide_to_chemistry"
 
 /obj/item/book/manual/wiki/engineering_construction
-	name = "Station Repairs and Construction"
+	name = "glup shitto"
 	icon_state ="bookEngineering"
 	starting_author = "Engineering Encyclopedia"
 	starting_title = "Station Repairs and Construction"
 	page_link = "Guide_to_construction"
 
 /obj/item/book/manual/wiki/engineering_guide
-	name = "Engineering Textbook"
+	name = "glup shitto"
 	icon_state ="bookEngineering2"
 	starting_author = "Engineering Encyclopedia"
 	starting_title = "Engineering Textbook"
 	page_link = "Guide_to_engineering"
 
 /obj/item/book/manual/wiki/security_space_law
-	name = "Space Law"
+	name = "glup shitto"
 	desc = "A set of Nanotrasen guidelines for keeping law and order on their space stations."
 	icon_state = "bookSpaceLaw"
 	starting_author = "Nanotrasen"
@@ -309,63 +309,63 @@
 	return OXYLOSS
 
 /obj/item/book/manual/wiki/infections
-	name = "Infections - Making your own pandemic!"
+	name = "glup shitto"
 	icon_state = "bookInfections"
 	starting_author = "Infections Encyclopedia"
 	starting_title = "Infections - Making your own pandemic!"
 	page_link = "Infections"
 
 /obj/item/book/manual/wiki/telescience
-	name = "Teleportation Science - Bluespace for dummies!"
+	name = "glup shitto"
 	icon_state = "book7"
 	starting_author = "University of Bluespace"
 	starting_title = "Teleportation Science - Bluespace for dummies!"
 	page_link = "Guide_to_telescience"
 
 /obj/item/book/manual/wiki/engineering_hacking
-	name = "Hacking"
+	name = "glup shitto"
 	icon_state ="bookHacking"
 	starting_author = "Engineering Encyclopedia"
 	starting_title = "Hacking"
 	page_link = "Hacking"
 
 /obj/item/book/manual/wiki/detective
-	name = "The Film Noir: Proper Procedures for Investigations"
+	name = "glup shitto"
 	icon_state ="bookDetective"
 	starting_author = "Nanotrasen"
 	starting_title = "The Film Noir: Proper Procedures for Investigations"
 	page_link = "Detective"
 
 /obj/item/book/manual/wiki/barman_recipes
-	name = "Barman Recipes: Mixing Drinks and Changing Lives"
+	name = "glup shitto"
 	icon_state = "barbook"
 	starting_author = "Sir John Rose"
 	starting_title = "Barman Recipes: Mixing Drinks and Changing Lives"
 	page_link = "Guide_to_drinks"
 
 /obj/item/book/manual/wiki/robotics_cyborgs
-	name = "Robotics for Dummies"
+	name = "glup shitto"
 	icon_state = "borgbook"
 	starting_author = "XISC"
 	starting_title = "Robotics for Dummies"
 	page_link = "Guide_to_robotics"
 
 /obj/item/book/manual/wiki/research_and_development
-	name = "Research and Development 101"
+	name = "glup shitto"
 	icon_state = "rdbook"
 	starting_author = "Dr. L. Ight"
 	starting_title = "Research and Development 101"
 	page_link = "Guide_to_Research_and_Development"
 
 /obj/item/book/manual/wiki/experimentor
-	name = "Mentoring your Experiments"
+	name = "glup shitto"
 	icon_state = "rdbook"
 	starting_author = "Dr. H.P. Kritz"
 	starting_title = "Mentoring your Experiments"
 	page_link = "Experimentor"
 
 /obj/item/book/manual/wiki/cooking_to_serve_man
-	name = "To Serve Man"
+	name = "glup shitto"
 	desc = "It's a cookbook!"
 	icon_state ="cooked_book"
 	starting_author = "the Kanamitan Empire"
@@ -373,42 +373,42 @@
 	page_link = "Guide_to_food"
 
 /obj/item/book/manual/wiki/tcomms
-	name = "Subspace Telecommunications And You"
+	name = "glup shitto"
 	icon_state = "book3"
 	starting_author = "Engineering Encyclopedia"
 	starting_title = "Subspace Telecommunications And You"
 	page_link = "Guide_to_Telecommunications"
 
 /obj/item/book/manual/wiki/atmospherics
-	name = "Lexica Atmosia"
+	name = "glup shitto"
 	icon_state = "book5"
 	starting_author = "the City-state of Atmosia"
 	starting_title = "Lexica Atmosia"
 	page_link = "Guide_to_Atmospherics"
 
 /obj/item/book/manual/wiki/medicine
-	name = "Medical Space Compendium, Volume 638"
+	name = "glup shitto"
 	icon_state = "book8"
 	starting_author = "Medical Journal"
 	starting_title = "Medical Space Compendium, Volume 638"
 	page_link = "Guide_to_medicine"
 
 /obj/item/book/manual/wiki/surgery
-	name = "Brain Surgery for Dummies"
+	name = "glup shitto"
 	icon_state = "book4"
 	starting_author = "Dr. F. Fran"
 	starting_title = "Brain Surgery for Dummies"
 	page_link = "Surgery"
 
 /obj/item/book/manual/wiki/grenades
-	name = "DIY Chemical Grenades"
+	name = "glup shitto"
 	icon_state = "book2"
 	starting_author = "W. Powell"
 	starting_title = "DIY Chemical Grenades"
 	page_link = "Grenade"
 
 /obj/item/book/manual/wiki/ordnance
-	name = "Ordnance for Dummies or: How I Learned to Stop Worrying and Love the Maxcap"
+	name = "glup shitto"
 	icon_state = "book6"
 	starting_author = "Cuban Pete"
 	starting_title = "Ordnance for Dummies or: How I Learned to Stop Worrying and Love the Maxcap"
@@ -437,21 +437,21 @@
 	return BRUTELOSS
 
 /obj/item/book/manual/wiki/plumbing
-	name = "Chemical Factories Without Narcotics"
+	name = "glup shitto"
 	icon_state ="plumbingbook"
 	starting_author = "Nanotrasen"
 	starting_title = "Chemical Factories Without Narcotics"
 	page_link = "Guide_to_plumbing"
 
 /obj/item/book/manual/wiki/cytology
-	name = "Unethically Grown Organics"
+	name = "glup shitto"
 	icon_state ="cytologybook"
 	starting_author = "Kryson"
 	starting_title = "Unethically Grown Organics"
 	page_link = "Guide_to_cytology"
 
 /obj/item/book/manual/wiki/tgc
-	name = "Tactical Game Cards - Player's Handbook"
+	name = "glup shitto"
 	icon_state = "tgcbook"
 	starting_author = "Nanotrasen Edu-tainment Division"
 	starting_title = "Tactical Game Cards - Player's Handbook"

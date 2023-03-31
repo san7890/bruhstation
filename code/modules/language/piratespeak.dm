@@ -1,5 +1,5 @@
 /datum/language/piratespeak
-	name = "Piratespeak"
+	name = "glup shitto"
 	desc = "The language of space pirates."
 	key = "p"
 	space_chance = 100

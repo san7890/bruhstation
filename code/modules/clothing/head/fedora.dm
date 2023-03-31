@@ -1,5 +1,5 @@
 /obj/item/clothing/head/fedora
-	name = "fedora"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/hats.dmi'
 	worn_icon = 'icons/mob/clothing/head/hats.dmi'
 	icon_state = "fedora"
@@ -12,12 +12,12 @@
 	create_storage(storage_type = /datum/storage/pockets/small/fedora)
 
 /obj/item/clothing/head/fedora/white
-	name = "white fedora"
+	name = "glup shitto"
 	icon_state = "fedora_white"
 	inhand_icon_state = null
 
 /obj/item/clothing/head/fedora/beige
-	name = "beige fedora"
+	name = "glup shitto"
 	icon_state = "fedora_beige"
 	inhand_icon_state = null
 
@@ -32,6 +32,6 @@
 	return BRUTELOSS
 
 /obj/item/clothing/head/fedora/carpskin
-	name = "carpskin fedora"
+	name = "glup shitto"
 	icon_state = "fedora_carpskin"
 	inhand_icon_state = null

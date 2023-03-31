@@ -4,7 +4,7 @@
 */
 
 /datum/wound/slash
-	name = "Slashing (Cut) Wound"
+	name = "glup shitto"
 	sound_effect = 'sound/weapons/slice.ogg'
 	processes = TRUE
 	wound_type = WOUND_SLASH
@@ -272,7 +272,7 @@
 		to_chat(user, span_green("You successfully lower the severity of [user == victim ? "your" : "[victim]'s"] cuts."))
 
 /datum/wound/slash/moderate
-	name = "Rough Abrasion"
+	name = "glup shitto"
 	desc = "Patient's skin has been badly scraped, generating moderate blood loss."
 	treat_text = "Application of clean bandages or first-aid grade sutures, followed by food and rest."
 	examine_desc = "has an open cut"
@@ -292,7 +292,7 @@
 		occur_text = "is cut open"
 
 /datum/wound/slash/severe
-	name = "Open Laceration"
+	name = "glup shitto"
 	desc = "Patient's skin is ripped clean open, allowing significant blood loss."
 	treat_text = "Speedy application of first-aid grade sutures and clean bandages, followed by vitals monitoring to ensure recovery."
 	examine_desc = "has a severe cut"
@@ -313,7 +313,7 @@
 		occur_text = "is ripped open"
 
 /datum/wound/slash/critical
-	name = "Weeping Avulsion"
+	name = "glup shitto"
 	desc = "Patient's skin is completely torn open, along with significant loss of tissue. Extreme blood loss will lead to quick death without intervention."
 	treat_text = "Immediate bandaging and either suturing or cauterization, followed by supervised resanguination."
 	examine_desc = "is carved down to the bone, spraying blood wildly"
@@ -333,14 +333,14 @@
 	wound_flags = (FLESH_WOUND | ACCEPTS_GAUZE | MANGLES_FLESH)
 
 /datum/wound/slash/moderate/many_cuts
-	name = "Numerous Small Slashes"
+	name = "glup shitto"
 	desc = "Patient's skin has numerous small slashes and cuts, generating moderate blood loss."
 	examine_desc = "has a ton of small cuts"
 	occur_text = "is cut numerous times, leaving many small slashes."
 
 // Subtype for cleave (heretic spell)
 /datum/wound/slash/critical/cleave
-	name = "Burning Avulsion"
+	name = "glup shitto"
 	examine_desc = "is ruptured, spraying blood wildly"
 	clot_rate = 0.01
 

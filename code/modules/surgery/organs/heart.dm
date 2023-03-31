@@ -1,5 +1,5 @@
 /obj/item/organ/internal/heart
-	name = "heart"
+	name = "glup shitto"
 	desc = "I feel bad for the heartless bastard who lost this."
 	icon_state = "heart-on"
 	base_icon_state = "heart"
@@ -99,7 +99,7 @@
 	return owner_species.mutantheart
 
 /obj/item/organ/internal/heart/cursed
-	name = "cursed heart"
+	name = "glup shitto"
 	desc = "A heart that, when inserted, will force you to pump it manually."
 	icon_state = "cursedheart-off"
 	base_icon_state = "cursedheart"
@@ -178,7 +178,7 @@
 	accursed.remove_client_colour(/datum/client_colour/cursed_heart_blood)
 
 /datum/action/item_action/organ_action/cursed_heart
-	name = "Pump your blood"
+	name = "glup shitto"
 	check_flags = NONE
 
 //You are now brea- pumping blood manually
@@ -197,7 +197,7 @@
 	colour = "red"
 
 /obj/item/organ/internal/heart/cybernetic
-	name = "basic cybernetic heart"
+	name = "glup shitto"
 	desc = "A basic electronic device designed to mimic the functions of an organic human heart."
 	icon_state = "heart-c-on"
 	base_icon_state = "heart-c"
@@ -210,7 +210,7 @@
 	var/emp_vulnerability = 80 //Chance of permanent effects if emp-ed.
 
 /obj/item/organ/internal/heart/cybernetic/tier2
-	name = "cybernetic heart"
+	name = "glup shitto"
 	desc = "An electronic device designed to mimic the functions of an organic human heart. Also holds an emergency dose of epinephrine, used automatically after facing severe trauma."
 	icon_state = "heart-c-u-on"
 	base_icon_state = "heart-c-u"
@@ -219,7 +219,7 @@
 	emp_vulnerability = 40
 
 /obj/item/organ/internal/heart/cybernetic/tier3
-	name = "upgraded cybernetic heart"
+	name = "glup shitto"
 	desc = "An electronic device designed to mimic the functions of an organic human heart. Also holds an emergency dose of epinephrine, used automatically after facing severe trauma. This upgraded model can regenerate its dose after use."
 	icon_state = "heart-c-u2-on"
 	base_icon_state = "heart-c-u2"
@@ -261,7 +261,7 @@
 	addtimer(VARSET_CALLBACK(src, dose_available, TRUE), 5 MINUTES)
 
 /obj/item/organ/internal/heart/freedom
-	name = "heart of freedom"
+	name = "glup shitto"
 	desc = "This heart pumps with the passion to give... something freedom."
 	organ_flags = ORGAN_SYNTHETIC  //the power of freedom prevents heart attacks
 	/// The cooldown until the next time this heart can give the host an adrenaline boost.
@@ -277,7 +277,7 @@
 			owner.reagents.add_reagent(/datum/reagent/medicine/ephedrine, 10)
 
 /obj/item/organ/internal/heart/ethereal
-	name = "crystal core"
+	name = "glup shitto"
 	icon_state = "ethereal_heart" //Welp. At least it's more unique in functionaliy.
 	visual = TRUE //This is used by the ethereal species for color
 	desc = "A crystal-like organ that functions similarly to a heart for Ethereals. It can revive its owner."
@@ -439,7 +439,7 @@
 	stop_crystalization_process(ethereal)
 
 /obj/structure/ethereal_crystal
-	name = "ethereal resurrection crystal"
+	name = "glup shitto"
 	desc = "It seems to contain the corpse of an ethereal mending its wounds."
 	icon = 'icons/obj/ethereal_crystal.dmi'
 	icon_state = "ethereal_crystal"

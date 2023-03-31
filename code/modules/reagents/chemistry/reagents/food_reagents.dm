@@ -8,7 +8,7 @@
 
 
 /datum/reagent/consumable
-	name = "Consumable"
+	name = "glup shitto"
 	taste_description = "generic food"
 	taste_mult = 4
 	inverse_chem_val = 0.1
@@ -49,7 +49,7 @@
 				exposed_mob.add_mob_memory(/datum/memory/good_food, food = the_real_food)
 
 /datum/reagent/consumable/nutriment
-	name = "Nutriment"
+	name = "glup shitto"
 	description = "All the vitamins, minerals, and carbohydrates the body needs in pure form."
 	reagent_state = SOLID
 	nutriment_factor = 15 * REAGENTS_METABOLISM
@@ -113,7 +113,7 @@
 	return data
 
 /datum/reagent/consumable/nutriment/vitamin
-	name = "Vitamin"
+	name = "glup shitto"
 	description = "All the best vitamins, minerals, and carbohydrates the body needs in pure form."
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
@@ -127,20 +127,20 @@
 
 /// The basic resource of vat growing.
 /datum/reagent/consumable/nutriment/protein
-	name = "Protein"
+	name = "glup shitto"
 	description = "A natural polyamide made up of amino acids. An essential constituent of mosts known forms of life."
 	brute_heal = 0.8 //Rewards the player for eating a balanced diet.
 	nutriment_factor = 9 * REAGENTS_METABOLISM //45% as calorie dense as corn oil.
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/nutriment/organ_tissue
-	name = "Organ Tissue"
+	name = "glup shitto"
 	description = "Natural tissues that make up the bulk of organs, providing many vitamins and minerals."
 	taste_description = "rich earthy pungent"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/nutriment/cloth_fibers
-	name = "Cloth Fibers"
+	name = "glup shitto"
 	description = "It's not actually a form of nutriment but it does keep Mothpeople going for a short while..."
 	nutriment_factor = 30 * REAGENTS_METABOLISM
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
@@ -160,7 +160,7 @@
 	return ..()
 
 /datum/reagent/consumable/cooking_oil
-	name = "Cooking Oil"
+	name = "glup shitto"
 	description = "A variety of cooking oil derived from fat or plants. Used in food preparation and frying."
 	color = "#EADD6B" //RGB: 234, 221, 107 (based off of canola oil)
 	taste_mult = 0.8
@@ -219,7 +219,7 @@
 	exposed_turf.add_atom_colour(color, TEMPORARY_COLOUR_PRIORITY)
 
 /datum/reagent/consumable/sugar
-	name = "Sugar"
+	name = "glup shitto"
 	description = "The organic compound commonly known as table sugar and sometimes called saccharose. This white, odorless, crystalline powder has a pleasing, sweet taste."
 	reagent_state = SOLID
 	color = "#FFFFFF" // rgb: 255, 255, 255
@@ -250,7 +250,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/virus_food
-	name = "Virus Food"
+	name = "glup shitto"
 	description = "A mixture of water and milk. Virus cells can use this mixture to reproduce."
 	nutriment_factor = 2 * REAGENTS_METABOLISM
 	color = "#899613" // rgb: 137, 150, 19
@@ -265,7 +265,7 @@
 	mytray.adjust_plant_health(-round(chems.get_reagent_amount(type) * 0.5))
 
 /datum/reagent/consumable/soysauce
-	name = "Soysauce"
+	name = "glup shitto"
 	description = "A salty sauce made from the soy plant."
 	nutriment_factor = 2 * REAGENTS_METABOLISM
 	color = "#792300" // rgb: 121, 35, 0
@@ -274,7 +274,7 @@
 	default_container = /obj/item/reagent_containers/condiment/soysauce
 
 /datum/reagent/consumable/ketchup
-	name = "Ketchup"
+	name = "glup shitto"
 	description = "Ketchup, catsup, whatever. It's tomato paste."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#731008" // rgb: 115, 16, 8
@@ -283,7 +283,7 @@
 	default_container = /obj/item/reagent_containers/condiment/ketchup
 
 /datum/reagent/consumable/capsaicin
-	name = "Capsaicin Oil"
+	name = "glup shitto"
 	description = "This is what makes chilis hot."
 	color = "#B31008" // rgb: 179, 16, 8
 	taste_description = "hot peppers"
@@ -315,7 +315,7 @@
 	..()
 
 /datum/reagent/consumable/frostoil
-	name = "Frost Oil"
+	name = "glup shitto"
 	description = "A special oil that noticeably chills the body. Extracted from chilly peppers and slimes."
 	color = "#8BA6E9" // rgb: 139, 166, 233
 	taste_description = "mint"
@@ -369,7 +369,7 @@
 		exposed_slime.adjustToxLoss(rand(15,30))
 
 /datum/reagent/consumable/condensedcapsaicin
-	name = "Condensed Capsaicin"
+	name = "glup shitto"
 	description = "A chemical agent used for self-defense and in police work."
 	color = "#B31008" // rgb: 179, 16, 8
 	taste_description = "scorching agony"
@@ -416,7 +416,7 @@
 	..()
 
 /datum/reagent/consumable/salt
-	name = "Table Salt"
+	name = "glup shitto"
 	description = "A salt made of sodium chloride. Commonly used to season food."
 	reagent_state = SOLID
 	color = "#FFFFFF" // rgb: 255,255,255
@@ -433,7 +433,7 @@
 	new/obj/effect/decal/cleanable/food/salt(exposed_turf)
 
 /datum/reagent/consumable/blackpepper
-	name = "Black Pepper"
+	name = "glup shitto"
 	description = "A powder ground from peppercorns. *AAAACHOOO*"
 	reagent_state = SOLID
 	// no color (ie, black)
@@ -442,7 +442,7 @@
 	default_container = /obj/item/reagent_containers/condiment/peppermill
 
 /datum/reagent/consumable/coco
-	name = "Coco Powder"
+	name = "glup shitto"
 	description = "A fatty, bitter paste made from coco beans."
 	reagent_state = SOLID
 	nutriment_factor = 5 * REAGENTS_METABOLISM
@@ -451,7 +451,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/garlic //NOTE: having garlic in your blood stops vampires from biting you.
-	name = "Garlic Juice"
+	name = "glup shitto"
 	description = "Crushed garlic. Chefs love it, but it can make you smell bad."
 	color = "#FEFEFE"
 	taste_description = "garlic"
@@ -481,7 +481,7 @@
 	..()
 
 /datum/reagent/consumable/tearjuice
-	name = "Tear Juice"
+	name = "glup shitto"
 	description = "A blinding substance extracted from certain onions."
 	color = "#c0c9a0"
 	taste_description = "bitterness"
@@ -501,7 +501,7 @@
 			victim.adjust_eye_blur(6 SECONDS)
 
 /datum/reagent/consumable/sprinkles
-	name = "Sprinkles"
+	name = "glup shitto"
 	description = "Multi-colored little bits of sugar, commonly found on donuts. Loved by cops."
 	color = "#FF00FF" // rgb: 255, 0, 255
 	taste_description = "childhood whimsy"
@@ -515,7 +515,7 @@
 	..()
 
 /datum/reagent/consumable/cornoil
-	name = "Corn Oil"
+	name = "glup shitto"
 	description = "An oil derived from various types of corn."
 	nutriment_factor = 20 * REAGENTS_METABOLISM
 	color = "#302000" // rgb: 48, 32, 0
@@ -536,7 +536,7 @@
 		qdel(hotspot)
 
 /datum/reagent/consumable/enzyme
-	name = "Universal Enzyme"
+	name = "glup shitto"
 	description = "A universal enzyme used in the preparation of certain chemicals and foods."
 	color = "#365E30" // rgb: 54, 94, 48
 	taste_description = "sweetness"
@@ -544,7 +544,7 @@
 	default_container = /obj/item/reagent_containers/condiment/enzyme
 
 /datum/reagent/consumable/dry_ramen
-	name = "Dry Ramen"
+	name = "glup shitto"
 	description = "Space age food, since August 25, 1958. Contains dried noodles, vegetables, and chemicals that boil in contact with water."
 	reagent_state = SOLID
 	color = "#302000" // rgb: 48, 32, 0
@@ -553,7 +553,7 @@
 	default_container = /obj/item/reagent_containers/cup/glass/dry_ramen
 
 /datum/reagent/consumable/hot_ramen
-	name = "Hot Ramen"
+	name = "glup shitto"
 	description = "The noodles are boiled, the flavors are artificial, just like being back in school."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#302000" // rgb: 48, 32, 0
@@ -562,7 +562,7 @@
 	default_container = /obj/item/reagent_containers/cup/glass/dry_ramen
 
 /datum/reagent/consumable/nutraslop
-	name = "Nutraslop"
+	name = "glup shitto"
 	description = "Mixture of leftover prison foods served on previous days."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#3E4A00" // rgb: 62, 74, 0
@@ -574,7 +574,7 @@
 	..()
 
 /datum/reagent/consumable/hell_ramen
-	name = "Hell Ramen"
+	name = "glup shitto"
 	description = "The noodles are boiled, the flavors are artificial, just like being back in school."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#302000" // rgb: 48, 32, 0
@@ -586,7 +586,7 @@
 	..()
 
 /datum/reagent/consumable/flour
-	name = "Flour"
+	name = "glup shitto"
 	description = "This is what you rub all over yourself to pretend to be a ghost."
 	reagent_state = SOLID
 	color = "#FFFFFF" // rgb: 0, 0, 0
@@ -605,7 +605,7 @@
 		reagentdecal.reagents.add_reagent(/datum/reagent/consumable/flour, reac_volume)
 
 /datum/reagent/consumable/cherryjelly
-	name = "Cherry Jelly"
+	name = "glup shitto"
 	description = "Totally the best. Only to be spread on foods with excellent lateral symmetry."
 	nutriment_factor = 10 * REAGENTS_METABOLISM
 	color = "#801E28" // rgb: 128, 30, 40
@@ -614,13 +614,13 @@
 	default_container = /obj/item/reagent_containers/condiment/cherryjelly
 
 /datum/reagent/consumable/bluecherryjelly
-	name = "Blue Cherry Jelly"
+	name = "glup shitto"
 	description = "Blue and tastier kind of cherry jelly."
 	color = "#00F0FF"
 	taste_description = "blue cherry"
 
 /datum/reagent/consumable/rice
-	name = "Rice"
+	name = "glup shitto"
 	description = "tiny nutritious grains"
 	reagent_state = SOLID
 	nutriment_factor = 3 * REAGENTS_METABOLISM
@@ -630,7 +630,7 @@
 	default_container = /obj/item/reagent_containers/condiment/rice
 
 /datum/reagent/consumable/vanilla
-	name = "Vanilla Powder"
+	name = "glup shitto"
 	description = "A fatty, bitter paste made from vanilla pods."
 	reagent_state = SOLID
 	nutriment_factor = 5 * REAGENTS_METABOLISM
@@ -639,7 +639,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/eggyolk
-	name = "Egg Yolk"
+	name = "glup shitto"
 	description = "It's full of protein."
 	nutriment_factor = 4 * REAGENTS_METABOLISM
 	color = "#FFB500"
@@ -647,7 +647,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/eggwhite
-	name = "Egg White"
+	name = "glup shitto"
 	description = "It's full of even more protein."
 	nutriment_factor = 1.5 * REAGENTS_METABOLISM
 	color = "#fffdf7"
@@ -655,13 +655,13 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/corn_starch
-	name = "Corn Starch"
+	name = "glup shitto"
 	description = "A slippery solution."
 	color = "#DBCE95"
 	taste_description = "slime"
 
 /datum/reagent/consumable/corn_syrup
-	name = "Corn Syrup"
+	name = "glup shitto"
 	description = "Decays into sugar."
 	color = "#DBCE95"
 	metabolization_rate = 3 * REAGENTS_METABOLISM
@@ -673,7 +673,7 @@
 	..()
 
 /datum/reagent/consumable/honey
-	name = "Honey"
+	name = "glup shitto"
 	description = "Sweet sweet honey that decays into sugar. Has antibacterial and natural healing properties."
 	color = "#d3a308"
 	nutriment_factor = 15 * REAGENTS_METABOLISM
@@ -712,7 +712,7 @@
 		surgery.speed_modifier = max(0.6, surgery.speed_modifier)
 
 /datum/reagent/consumable/mayonnaise
-	name = "Mayonnaise"
+	name = "glup shitto"
 	description = "A white and oily mixture of mixed egg yolks."
 	color = "#DFDFDF"
 	taste_description = "mayonnaise"
@@ -720,21 +720,21 @@
 	default_container = /obj/item/reagent_containers/condiment/mayonnaise
 
 /datum/reagent/consumable/mold // yeah, ok, togopal, I guess you could call that a condiment
-	name = "Mold"
+	name = "glup shitto"
 	description = "This condiment will make any food break the mold. Or your stomach."
 	color ="#708a88"
 	taste_description = "rancid fungus"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/eggrot
-	name = "Rotten Eggyolk"
+	name = "glup shitto"
 	description = "It smells absolutely dreadful."
 	color ="#708a88"
 	taste_description = "rotten eggs"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/nutriment/stabilized
-	name = "Stabilized Nutriment"
+	name = "glup shitto"
 	description = "A bioengineered protien-nutrient structure designed to decompose in high saturation. In layman's terms, it won't get you fat."
 	reagent_state = SOLID
 	nutriment_factor = 15 * REAGENTS_METABOLISM
@@ -750,7 +750,7 @@
 
 
 /datum/reagent/consumable/entpoly
-	name = "Entropic Polypnium"
+	name = "glup shitto"
 	description = "An ichor, derived from a certain mushroom, makes for a bad time."
 	color = "#1d043d"
 	taste_description = "bitter mushroom"
@@ -772,7 +772,7 @@
 
 
 /datum/reagent/consumable/tinlux
-	name = "Tinea Luxor"
+	name = "glup shitto"
 	description = "A stimulating ichor which causes luminescent fungi to grow on the skin. "
 	color = "#b5a213"
 	taste_description = "tingling mushroom"
@@ -806,7 +806,7 @@
 
 
 /datum/reagent/consumable/vitfro
-	name = "Vitrium Froth"
+	name = "glup shitto"
 	description = "A bubbly paste that heals wounds of the skin."
 	color = "#d3a308"
 	nutriment_factor = 3 * REAGENTS_METABOLISM
@@ -822,7 +822,7 @@
 	..()
 
 /datum/reagent/consumable/clownstears
-	name = "Clown's Tears"
+	name = "glup shitto"
 	description = "The sorrow and melancholy of a thousand bereaved clowns, forever denied their Honkmechs."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#eef442" // rgb: 238, 244, 66
@@ -832,7 +832,7 @@
 
 
 /datum/reagent/consumable/liquidelectricity
-	name = "Liquid Electricity"
+	name = "glup shitto"
 	description = "The blood of Ethereals, and the stuff that keeps them going. Great for them, horrid for anyone else."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#97ee63"
@@ -840,7 +840,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/liquidelectricity/enriched
-	name = "Enriched Liquid Electricity"
+	name = "glup shitto"
 
 /datum/reagent/consumable/liquidelectricity/enriched/expose_mob(mob/living/exposed_mob, methods=TOUCH, reac_volume) //can't be on life because of the way blood works.
 	. = ..()
@@ -861,7 +861,7 @@
 	return ..()
 
 /datum/reagent/consumable/astrotame
-	name = "Astrotame"
+	name = "glup shitto"
 	description = "A space age artifical sweetener."
 	nutriment_factor = 0
 	metabolization_rate = 2 * REAGENTS_METABOLISM
@@ -879,7 +879,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/secretsauce
-	name = "Secret Sauce"
+	name = "glup shitto"
 	description = "What could it be?"
 	nutriment_factor = 2 * REAGENTS_METABOLISM
 	color = "#792300"
@@ -889,7 +889,7 @@
 	ph = 6.1
 
 /datum/reagent/consumable/nutriment/peptides
-	name = "Peptides"
+	name = "glup shitto"
 	color = "#BBD4D9"
 	taste_description = "mint frosting"
 	description = "These restorative peptides not only speed up wound healing, but are nutritious as well!"
@@ -901,7 +901,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/caramel
-	name = "Caramel"
+	name = "glup shitto"
 	description = "Who would have guessed that heated sugar could be so delicious?"
 	nutriment_factor = 10 * REAGENTS_METABOLISM
 	color = "#D98736"
@@ -911,7 +911,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/char
-	name = "Char"
+	name = "glup shitto"
 	description = "Essence of the grill. Has strange properties when overdosed."
 	reagent_state = LIQUID
 	nutriment_factor = 5 * REAGENTS_METABOLISM
@@ -928,7 +928,7 @@
 	return
 
 /datum/reagent/consumable/bbqsauce
-	name = "BBQ Sauce"
+	name = "glup shitto"
 	description = "Sweet, smoky, savory, and gets everywhere. Perfect for grilling."
 	nutriment_factor = 5 * REAGENTS_METABOLISM
 	color = "#78280A" // rgb: 120 40, 10
@@ -938,7 +938,7 @@
 	default_container = /obj/item/reagent_containers/condiment/bbqsauce
 
 /datum/reagent/consumable/chocolatepudding
-	name = "Chocolate Pudding"
+	name = "glup shitto"
 	description = "A great dessert for chocolate lovers."
 	color = "#800000"
 	quality = DRINK_VERYGOOD
@@ -949,13 +949,13 @@
 
 /datum/glass_style/drinking_glass/chocolatepudding
 	required_drink_type = /datum/reagent/consumable/chocolatepudding
-	name = "chocolate pudding"
+	name = "glup shitto"
 	desc = "Tasty."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "chocolatepudding"
 
 /datum/reagent/consumable/vanillapudding
-	name = "Vanilla Pudding"
+	name = "glup shitto"
 	description = "A great dessert for vanilla lovers."
 	color = "#FAFAD2"
 	quality = DRINK_VERYGOOD
@@ -965,13 +965,13 @@
 
 /datum/glass_style/drinking_glass/vanillapudding
 	required_drink_type = /datum/reagent/consumable/vanillapudding
-	name = "vanilla pudding"
+	name = "glup shitto"
 	desc = "Tasty."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "vanillapudding"
 
 /datum/reagent/consumable/laughsyrup
-	name = "Laughin' Syrup"
+	name = "glup shitto"
 	description = "The product of juicing Laughin' Peas. Fizzy, and seems to change flavour based on what it's used with!"
 	color = "#803280"
 	nutriment_factor = 5 * REAGENTS_METABOLISM
@@ -980,7 +980,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/gravy
-	name = "Gravy"
+	name = "glup shitto"
 	description = "A mixture of flour, water, and the juices of cooked meat."
 	taste_description = "gravy"
 	color = "#623301"
@@ -988,28 +988,28 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/pancakebatter
-	name = "Pancake Batter"
+	name = "glup shitto"
 	description = "A very milky batter. 5 units of this on the griddle makes a mean pancake."
 	taste_description = "milky batter"
 	color = "#fccc98"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/korta_flour
-	name = "Korta Flour"
+	name = "glup shitto"
 	description = "A coarsely ground, peppery flour made from korta nut shells."
 	taste_description = "earthy heat"
 	color = "#EEC39A"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/korta_milk
-	name = "Korta Milk"
+	name = "glup shitto"
 	description = "A milky liquid made by crushing the centre of a korta nut."
 	taste_description = "sugary milk"
 	color = "#FFFFFF"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/korta_nectar
-	name = "Korta Nectar"
+	name = "glup shitto"
 	description = "A sweet, sugary syrup made from crushed sweet korta nuts."
 	color = "#d3a308"
 	nutriment_factor = 5 * REAGENTS_METABOLISM
@@ -1018,7 +1018,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/whipped_cream
-	name = "Whipped Cream"
+	name = "glup shitto"
 	description = "A white fluffy cream made from whipping cream at intense speed."
 	color = "#efeff0"
 	nutriment_factor = 4 * REAGENTS_METABOLISM
@@ -1026,7 +1026,7 @@
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/peanut_butter
-	name = "Peanut Butter"
+	name = "glup shitto"
 	description = "A rich, creamy spread produced by grinding peanuts."
 	taste_description = "peanuts"
 	reagent_state = SOLID
@@ -1042,7 +1042,7 @@
 	..()
 
 /datum/reagent/consumable/vinegar
-	name = "Vinegar"
+	name = "glup shitto"
 	description = "Useful for pickling, or putting on chips."
 	taste_description = "acid"
 	color = "#661F1E"
@@ -1051,7 +1051,7 @@
 
 //A better oil, representing choices like olive oil, argan oil, avocado oil, etc.
 /datum/reagent/consumable/quality_oil
-	name = "Quality Oil"
+	name = "glup shitto"
 	description = "A high quality oil, suitable for dishes where the oil is a key flavour."
 	taste_description = "olive oil"
 	color = "#DBCF5C"
@@ -1059,7 +1059,7 @@
 	default_container = /obj/item/reagent_containers/condiment/quality_oil
 
 /datum/reagent/consumable/cornmeal
-	name = "Cornmeal"
+	name = "glup shitto"
 	description = "Ground cornmeal, for making corn related things."
 	taste_description = "raw cornmeal"
 	color = "#ebca85"
@@ -1067,7 +1067,7 @@
 	default_container = /obj/item/reagent_containers/condiment/cornmeal
 
 /datum/reagent/consumable/yoghurt
-	name = "Yoghurt"
+	name = "glup shitto"
 	description = "Creamy natural yoghurt, with applications in both food and drinks."
 	taste_description = "yoghurt"
 	color = "#efeff0"
@@ -1076,21 +1076,21 @@
 	default_container = /obj/item/reagent_containers/condiment/yoghurt
 
 /datum/reagent/consumable/cornmeal_batter
-	name = "Cornmeal Batter"
+	name = "glup shitto"
 	description = "An eggy, milky, corny mixture that's not very good raw."
 	taste_description = "raw batter"
 	color = "#ebca85"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/olivepaste
-	name = "Olive Paste"
+	name = "glup shitto"
 	description = "A mushy pile of finely ground olives."
 	taste_description = "mushy olives"
 	color = "#adcf77"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/creamer
-	name = "Coffee Creamer"
+	name = "glup shitto"
 	description = "Powdered milk for cheap coffee. How delightful."
 	taste_description = "milk"
 	color = "#efeff0"
@@ -1099,7 +1099,7 @@
 	default_container = /obj/item/reagent_containers/condiment/creamer
 
 /datum/reagent/consumable/mintextract
-	name = "Mint Extract"
+	name = "glup shitto"
 	description = "Useful for dealing with undesirable customers."
 	color = "#CF3600" // rgb: 207, 54, 0
 	taste_description = "mint"

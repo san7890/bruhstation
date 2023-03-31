@@ -1,5 +1,5 @@
 /obj/item/gun/energy/recharge/kinetic_accelerator
-	name = "proto-kinetic accelerator"
+	name = "glup shitto"
 	desc = "A self recharging, ranged mining tool that does increased damage in low pressure."
 	icon_state = "kineticgun"
 	base_icon_state = "kineticgun"
@@ -155,7 +155,7 @@
 
 //Projectiles
 /obj/projectile/kinetic
-	name = "kinetic force"
+	name = "glup shitto"
 	icon_state = null
 	damage = 40
 	damage_type = BRUTE
@@ -221,7 +221,7 @@
 
 //Modkits
 /obj/item/borg/upgrade/modkit
-	name = "kinetic accelerator modification kit"
+	name = "glup shitto"
 	desc = "An upgrade for kinetic accelerators."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "modkit"
@@ -303,7 +303,7 @@
 
 //Range
 /obj/item/borg/upgrade/modkit/range
-	name = "range increase"
+	name = "glup shitto"
 	desc = "Increases the range of a kinetic accelerator when installed."
 	modifier = 1
 	cost = 25
@@ -314,7 +314,7 @@
 
 //Damage
 /obj/item/borg/upgrade/modkit/damage
-	name = "damage increase"
+	name = "glup shitto"
 	desc = "Increases the damage of kinetic accelerator when installed."
 	modifier = 10
 
@@ -324,7 +324,7 @@
 
 //Cooldown
 /obj/item/borg/upgrade/modkit/cooldown
-	name = "cooldown decrease"
+	name = "glup shitto"
 	desc = "Decreases the cooldown of a kinetic accelerator. Not rated for minebot use."
 	modifier = 3.2
 	minebot_upgrade = FALSE
@@ -339,7 +339,7 @@
 	..()
 
 /obj/item/borg/upgrade/modkit/cooldown/minebot
-	name = "minebot cooldown decrease"
+	name = "glup shitto"
 	desc = "Decreases the cooldown of a kinetic accelerator. Only rated for minebot use."
 	icon_state = "door_electronics"
 	icon = 'icons/obj/module.dmi'
@@ -393,31 +393,31 @@
 			to_chat(L, span_userdanger("You're struck by a [K.name]!"))
 
 /obj/item/borg/upgrade/modkit/aoe/turfs
-	name = "mining explosion"
+	name = "glup shitto"
 	desc = "Causes the kinetic accelerator to destroy rock in an AoE."
 	denied_type = /obj/item/borg/upgrade/modkit/aoe/turfs
 	turf_aoe = TRUE
 
 /obj/item/borg/upgrade/modkit/aoe/turfs/andmobs
-	name = "offensive mining explosion"
+	name = "glup shitto"
 	desc = "Causes the kinetic accelerator to destroy rock and damage mobs in an AoE."
 	maximum_of_type = 3
 	modifier = 0.25
 
 /obj/item/borg/upgrade/modkit/aoe/mobs
-	name = "offensive explosion"
+	name = "glup shitto"
 	desc = "Causes the kinetic accelerator to damage mobs in an AoE."
 	modifier = 0.2
 
 //Minebot passthrough
 /obj/item/borg/upgrade/modkit/minebot_passthrough
-	name = "minebot passthrough"
+	name = "glup shitto"
 	desc = "Causes kinetic accelerator shots to pass through minebots."
 	cost = 0
 
 //Tendril-unique modules
 /obj/item/borg/upgrade/modkit/cooldown/repeater
-	name = "rapid repeater"
+	name = "glup shitto"
 	desc = "Quarters the kinetic accelerator's cooldown on striking a living target, but greatly increases the base cooldown."
 	denied_type = /obj/item/borg/upgrade/modkit/cooldown/repeater
 	modifier = -14 //Makes the cooldown 3 seconds(with no cooldown mods) if you miss. Don't miss.
@@ -436,7 +436,7 @@
 		KA.attempt_reload(KA.recharge_time * 0.25) //If you hit, the cooldown drops to 0.75 seconds.
 
 /obj/item/borg/upgrade/modkit/lifesteal
-	name = "lifesteal crystal"
+	name = "glup shitto"
 	desc = "Causes kinetic accelerator shots to slightly heal the firer on striking a living target."
 	icon_state = "modkit_crystal"
 	modifier = 2.5 //Not a very effective method of healing.
@@ -452,7 +452,7 @@
 		L.heal_ordered_damage(modifier, damage_heal_order)
 
 /obj/item/borg/upgrade/modkit/resonator_blasts
-	name = "resonator blast"
+	name = "glup shitto"
 	desc = "Causes kinetic accelerator shots to leave and detonate resonator blasts."
 	denied_type = /obj/item/borg/upgrade/modkit/resonator_blasts
 	cost = 30
@@ -468,7 +468,7 @@
 		new /obj/effect/temp_visual/resonance(target_turf, K.firer, null, RESONATOR_MODE_MANUAL, 100) //manual detonate mode and will NOT spread
 
 /obj/item/borg/upgrade/modkit/bounty
-	name = "death syphon"
+	name = "glup shitto"
 	desc = "Killing or assisting in killing a creature permanently increases your damage against that type of creature."
 	denied_type = /obj/item/borg/upgrade/modkit/bounty
 	modifier = 1.25
@@ -508,7 +508,7 @@
 
 //Indoors
 /obj/item/borg/upgrade/modkit/indoors
-	name = "decrease pressure penalty"
+	name = "glup shitto"
 	desc = "A syndicate modification kit that increases the damage a kinetic accelerator does in high pressure environments."
 	modifier = 2
 	denied_type = /obj/item/borg/upgrade/modkit/indoors
@@ -521,7 +521,7 @@
 
 //Trigger Guard
 /obj/item/borg/upgrade/modkit/trigger_guard
-	name = "modified trigger guard"
+	name = "glup shitto"
 	desc = "Allows creatures normally incapable of firing guns to operate the weapon when installed."
 	cost = 20
 	denied_type = /obj/item/borg/upgrade/modkit/trigger_guard
@@ -539,7 +539,7 @@
 //Cosmetic
 
 /obj/item/borg/upgrade/modkit/chassis_mod
-	name = "super chassis"
+	name = "glup shitto"
 	desc = "Makes your KA yellow. All the fun of having a more powerful KA without actually having a more powerful KA."
 	cost = 0
 	denied_type = /obj/item/borg/upgrade/modkit/chassis_mod
@@ -566,13 +566,13 @@
 	..()
 
 /obj/item/borg/upgrade/modkit/chassis_mod/orange
-	name = "hyper chassis"
+	name = "glup shitto"
 	desc = "Makes your KA orange. All the fun of having explosive blasts without actually having explosive blasts."
 	chassis_icon = "kineticgun_h"
 	chassis_name = "hyper-kinetic accelerator"
 
 /obj/item/borg/upgrade/modkit/tracer
-	name = "white tracer bolts"
+	name = "glup shitto"
 	desc = "Causes kinetic accelerator bolts to have a white tracer trail and explosion."
 	cost = 0
 	denied_type = /obj/item/borg/upgrade/modkit/tracer
@@ -583,7 +583,7 @@
 	K.color = bolt_color
 
 /obj/item/borg/upgrade/modkit/tracer/adjustable
-	name = "adjustable tracer bolts"
+	name = "glup shitto"
 	desc = "Causes kinetic accelerator bolts to have an adjustable-colored tracer trail and explosion. Use in-hand to change color."
 
 /obj/item/borg/upgrade/modkit/tracer/adjustable/attack_self(mob/user)

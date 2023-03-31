@@ -1,5 +1,5 @@
 /obj/machinery/gibber
-	name = "gibber"
+	name = "glup shitto"
 	desc = "The name isn't descriptive enough?"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "grinder"

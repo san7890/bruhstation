@@ -1,6 +1,6 @@
 /****************Explorer's Suit and Mask****************/
 /obj/item/clothing/suit/hooded/explorer
-	name = "explorer suit"
+	name = "glup shitto"
 	desc = "An armoured suit for exploring harsh environments."
 	icon_state = "explorer"
 	icon = 'icons/obj/clothing/suits/utility.dmi'
@@ -35,7 +35,7 @@
 	acid = 50
 
 /obj/item/clothing/head/hooded/explorer
-	name = "explorer hood"
+	name = "glup shitto"
 	desc = "An armoured hood for exploring harsh environments."
 	icon = 'icons/obj/clothing/head/utility.dmi'
 	worn_icon = 'icons/mob/clothing/head/utility.dmi'
@@ -58,7 +58,7 @@
 	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/mask/gas/explorer
-	name = "explorer gas mask"
+	name = "glup shitto"
 	desc = "A military-grade gas mask that can be connected to an air supply."
 	icon_state = "gas_mining"
 	inhand_icon_state = "explorer_gasmask"
@@ -111,7 +111,7 @@
 	worn_icon = 'icons/mob/clothing/suits/armor.dmi'
 
 /obj/item/clothing/suit/hooded/cloak/goliath
-	name = "goliath cloak"
+	name = "glup shitto"
 	icon_state = "goliath_cloak"
 	desc = "A staunch, practical cape made out of numerous monster materials, it is coveted amongst exiles & hermits."
 	allowed = list(
@@ -137,7 +137,7 @@
 	acid = 60
 
 /obj/item/clothing/head/hooded/cloakhood/goliath
-	name = "goliath cloak hood"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	icon_state = "golhood"
@@ -157,7 +157,7 @@
 	acid = 60
 
 /obj/item/clothing/suit/hooded/cloak/drake
-	name = "drake armour"
+	name = "glup shitto"
 	icon_state = "dragon"
 	desc = "A suit of armour fashioned from the remains of an ash drake."
 	allowed = list(
@@ -191,7 +191,7 @@
 	acid = 100
 
 /obj/item/clothing/head/hooded/cloakhood/drake
-	name = "drake helm"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	icon_state = "dragon"
@@ -215,7 +215,7 @@
 	acid = 100
 
 /obj/item/clothing/suit/hooded/cloak/godslayer
-	name = "godslayer armour"
+	name = "glup shitto"
 	icon_state = "godslayer"
 	desc = "A suit of armour fashioned from the remnants of a knight's armor, and parts of a wendigo."
 	allowed = list(
@@ -257,7 +257,7 @@
 	acid = 100
 
 /obj/item/clothing/head/hooded/cloakhood/godslayer
-	name = "godslayer helm"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	icon_state = "godslayer"

@@ -8,7 +8,7 @@
 
 // The communications computer
 /obj/machinery/computer/communications
-	name = "communications console"
+	name = "glup shitto"
 	desc = "A console used for high-priority announcements and emergencies."
 	icon_screen = "comm"
 	icon_keyboard = "tech_key"

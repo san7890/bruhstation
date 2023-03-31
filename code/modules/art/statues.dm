@@ -3,7 +3,7 @@
 #define SCULPT_SOUND_INCREMENT 4
 
 /obj/structure/statue
-	name = "statue"
+	name = "glup shitto"
 	desc = "Placeholder. Yell at Firecage if you SOMEHOW see this."
 	icon = 'icons/obj/art/statue.dmi'
 	icon_state = ""
@@ -70,12 +70,12 @@
 	abstract_type = /obj/structure/statue/uranium
 
 /obj/structure/statue/uranium/nuke
-	name = "statue of a nuclear fission explosive"
+	name = "glup shitto"
 	desc = "This is a grand statue of a Nuclear Explosive. It has a sickening green colour."
 	icon_state = "nuke"
 
 /obj/structure/statue/uranium/eng
-	name = "Statue of an engineer"
+	name = "glup shitto"
 	desc = "This statue has a sickening green colour."
 	icon_state = "eng"
 
@@ -89,11 +89,11 @@
 	abstract_type = /obj/structure/statue/plasma
 
 /obj/structure/statue/plasma/scientist
-	name = "statue of a scientist"
+	name = "glup shitto"
 	icon_state = "sci"
 
 /obj/structure/statue/plasma/xeno
-	name = "statue of a xenomorph"
+	name = "glup shitto"
 	icon_state = "xeno"
 
 //////////////////////gold///////////////////////////////////////
@@ -106,27 +106,27 @@
 	abstract_type = /obj/structure/statue/gold
 
 /obj/structure/statue/gold/hos
-	name = "statue of the head of security"
+	name = "glup shitto"
 	icon_state = "hos"
 
 /obj/structure/statue/gold/hop
-	name = "statue of the head of personnel"
+	name = "glup shitto"
 	icon_state = "hop"
 
 /obj/structure/statue/gold/cmo
-	name = "statue of the chief medical officer"
+	name = "glup shitto"
 	icon_state = "cmo"
 
 /obj/structure/statue/gold/ce
-	name = "statue of the chief engineer"
+	name = "glup shitto"
 	icon_state = "ce"
 
 /obj/structure/statue/gold/rd
-	name = "statue of the research director"
+	name = "glup shitto"
 	icon_state = "rd"
 
 /obj/structure/statue/gold/qm
-	name = "statue of the quartermaster"
+	name = "glup shitto"
 	icon_state = "qm"
 
 //////////////////////////silver///////////////////////////////////////
@@ -139,23 +139,23 @@
 	abstract_type = /obj/structure/statue/silver
 
 /obj/structure/statue/silver/md
-	name = "statue of a medical officer"
+	name = "glup shitto"
 	icon_state = "md"
 
 /obj/structure/statue/silver/janitor
-	name = "statue of a janitor"
+	name = "glup shitto"
 	icon_state = "jani"
 
 /obj/structure/statue/silver/sec
-	name = "statue of a security officer"
+	name = "glup shitto"
 	icon_state = "sec"
 
 /obj/structure/statue/silver/secborg
-	name = "statue of a security cyborg"
+	name = "glup shitto"
 	icon_state = "secborg"
 
 /obj/structure/statue/silver/medborg
-	name = "statue of a medical cyborg"
+	name = "glup shitto"
 	icon_state = "medborg"
 
 /////////////////////////diamond/////////////////////////////////////////
@@ -168,15 +168,15 @@
 	abstract_type = /obj/structure/statue/diamond
 
 /obj/structure/statue/diamond/captain
-	name = "statue of THE captain."
+	name = "glup shitto"
 	icon_state = "cap"
 
 /obj/structure/statue/diamond/ai1
-	name = "statue of the AI hologram."
+	name = "glup shitto"
 	icon_state = "ai1"
 
 /obj/structure/statue/diamond/ai2
-	name = "statue of the AI core."
+	name = "glup shitto"
 	icon_state = "ai2"
 
 ////////////////////////bananium///////////////////////////////////////
@@ -189,7 +189,7 @@
 	abstract_type = /obj/structure/statue/bananium
 
 /obj/structure/statue/bananium/clown
-	name = "statue of a clown"
+	name = "glup shitto"
 	icon_state = "clown"
 
 /////////////////////sandstone/////////////////////////////////////////
@@ -201,13 +201,13 @@
 	abstract_type = /obj/structure/statue/sandstone
 
 /obj/structure/statue/sandstone/assistant
-	name = "statue of an assistant"
+	name = "glup shitto"
 	desc = "A cheap statue of sandstone for a greyshirt."
 	icon_state = "assist"
 
 
 /obj/structure/statue/sandstone/venus //call me when we add marble i guess
-	name = "statue of a pure maiden"
+	name = "glup shitto"
 	desc = "An ancient marble statue. The subject is depicted with a floor-length braid and is wielding a toolbox. By Jove, it's easily the most gorgeous depiction of a woman you've ever seen. The artist must truly be a master of his craft. Shame about the broken arm, though."
 	icon = 'icons/obj/art/statuelarge.dmi'
 	icon_state = "venus"
@@ -220,12 +220,12 @@
 	abstract_type = /obj/structure/statue/snow
 
 /obj/structure/statue/snow/snowman
-	name = "snowman"
+	name = "glup shitto"
 	desc = "Several lumps of snow put together to form a snowman."
 	icon_state = "snowman"
 
 /obj/structure/statue/snow/snowlegion
-	name = "snowlegion"
+	name = "glup shitto"
 	desc = "Looks like that weird kid with the tiger plushie has been round here again."
 	icon_state = "snowlegion"
 
@@ -236,7 +236,7 @@
 	abstract_type = /obj/structure/statue/bronze
 
 /obj/structure/statue/bronze/marx
-	name = "\improper Karl Marx bust"
+	name = "glup shitto"
 	desc = "A bust depicting a certain 19th century economist. You get the feeling a specter is haunting the station."
 	icon_state = "marx"
 	art_type = /datum/element/art/rev
@@ -244,7 +244,7 @@
 ///////////Elder Atmosian///////////////////////////////////////////
 
 /obj/structure/statue/elder_atmosian
-	name = "Elder Atmosian"
+	name = "glup shitto"
 	desc = "A statue of an Elder Atmosian, capable of bending the laws of thermodynamics to their will."
 	icon_state = "eng"
 	custom_materials = list(/datum/material/metalhydrogen = MINERAL_MATERIAL_AMOUNT*10)
@@ -257,11 +257,11 @@
 	desc = "A lifelike statue of a horrifying monster."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "goliath"
-	name = "goliath"
+	name = "glup shitto"
 
 ///////////Other Stuff//////////////////////////////////////////////
 /obj/item/chisel
-	name = "chisel"
+	name = "glup shitto"
 	desc = "Breaking and making art since 4000 BC. This one uses advanced technology to allow the creation of lifelike moving statues."
 	icon = 'icons/obj/art/statue.dmi'
 	icon_state = "chisel"
@@ -417,7 +417,7 @@ Moving interrupts
 		user.balloon_alert(user, "abstract statue selected")
 
 /obj/structure/carving_block
-	name = "block"
+	name = "glup shitto"
 	desc = "Ready for sculpting."
 	icon = 'icons/obj/art/statue.dmi'
 	icon_state = "block"
@@ -542,7 +542,7 @@ Moving interrupts
 		qdel(S)
 
 /obj/structure/statue/custom
-	name = "custom statue"
+	name = "glup shitto"
 	icon_state = "base"
 	obj_flags = CAN_BE_HIT | UNIQUE_RENAME
 	appearance_flags = TILE_BOUND | PIXEL_SCALE | KEEP_TOGETHER | LONG_GLIDE //Added keep together in case targets has weird layering

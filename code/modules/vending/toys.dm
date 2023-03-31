@@ -1,5 +1,5 @@
 /obj/machinery/vending/donksofttoyvendor
-	name = "\improper Donksoft Toy Vendor"
+	name = "glup shitto"
 	desc = "Ages 8 and up approved vendor that dispenses toys."
 	icon_state = "nt-donk"
 	panel_type = "panel18"

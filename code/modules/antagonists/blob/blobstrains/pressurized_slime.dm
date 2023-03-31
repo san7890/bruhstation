@@ -1,6 +1,6 @@
 //does low brute damage, oxygen damage, and stamina damage and wets tiles when damaged
 /datum/blobstrain/reagent/pressurized_slime
-	name = "Pressurized Slime"
+	name = "glup shitto"
 	description = "will do low brute and oxygen damage, high stamina damage, and makes tiles under targets very slippery."
 	effectdesc = "will also make tiles slippery near attacked blobs."
 	analyzerdescdamage = "Does low brute and oxygen damage, high stamina damage, and makes tiles under targets very slippery, extinguishing them. Is resistant to brute attacks."
@@ -35,7 +35,7 @@
 				L.extinguish_mob()
 
 /datum/reagent/blob/pressurized_slime
-	name = "Pressurized Slime"
+	name = "glup shitto"
 	taste_description = "a sponge"
 	color = "#AAAABB"
 

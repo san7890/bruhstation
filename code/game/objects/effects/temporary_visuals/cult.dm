@@ -6,11 +6,11 @@
 
 /obj/effect/temp_visual/cult/sparks
 	randomdir = TRUE
-	name = "blood sparks"
+	name = "glup shitto"
 	icon_state = "bloodsparkles"
 
 /obj/effect/temp_visual/cult/blood  // The traditional teleport
-	name = "blood jaunt"
+	name = "glup shitto"
 	duration = 12
 	icon_state = "bloodin"
 
@@ -19,7 +19,7 @@
 
 /obj/effect/temp_visual/dir_setting/cult/phase  // The veil shifter teleport
 	icon = 'icons/effects/cult/effects.dmi'
-	name = "phase glow"
+	name = "glup shitto"
 	duration = 7
 	icon_state = "cultin"
 
@@ -28,11 +28,11 @@
 	icon_state = "cultout"
 
 /obj/effect/temp_visual/cult/sac
-	name = "maw of Nar'Sie"
+	name = "glup shitto"
 	icon_state = "sacconsume"
 
 /obj/effect/temp_visual/cult/door
-	name = "unholy glow"
+	name = "glup shitto"
 	icon_state = "doorglow"
 	layer = CLOSED_FIREDOOR_LAYER //above closed doors
 	plane = GAME_PLANE
@@ -41,7 +41,7 @@
 	icon_state = "unruneddoorglow"
 
 /obj/effect/temp_visual/cult/turf
-	name = "unholy glow"
+	name = "glup shitto"
 	icon_state = "wallglow"
 	layer = ABOVE_NORMAL_TURF_LAYER
 	plane = GAME_PLANE

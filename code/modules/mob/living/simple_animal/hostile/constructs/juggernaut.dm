@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/construct/juggernaut
-	name = "Juggernaut"
+	name = "glup shitto"
 	real_name = "Juggernaut"
 	desc = "A massive, armored construct built to spearhead attacks and soak up enemy fire."
 	icon_state = "juggernaut"

@@ -1,11 +1,11 @@
 /datum/traitor_objective_category/hack_comm_console
-	name = "Hack Communication Console"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/hack_comm_console = 1,
 	)
 
 /datum/traitor_objective/hack_comm_console
-	name = "Hack a communication console to summon an unknown threat to the station"
+	name = "glup shitto"
 	description = "Right click on a communication console to begin the hacking process. Once started, the AI will know that you are hacking a communication console, so be ready to run or have yourself disguised to prevent being caught. This objective will invalidate itself if another traitor completes it first."
 
 	progression_minimum = 60 MINUTES

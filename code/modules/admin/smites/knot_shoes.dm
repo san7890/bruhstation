@@ -1,6 +1,6 @@
 /// Ties the target's shoes
 /datum/smite/knot_shoes
-	name = "Knot Shoes"
+	name = "glup shitto"
 
 /datum/smite/knot_shoes/effect(client/user, mob/living/target)
 	. = ..()

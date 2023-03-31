@@ -1,6 +1,6 @@
 ///Telekinesis lets you interact with objects from range, and gives you a light blue halo around your head.
 /datum/mutation/human/telekinesis
-	name = "Telekinesis"
+	name = "glup shitto"
 	desc = "A strange mutation that allows the holder to interact with objects through thought."
 	quality = POSITIVE
 	difficulty = 18

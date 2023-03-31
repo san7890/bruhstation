@@ -1,6 +1,6 @@
 
 /obj/item/reagent_containers/honeycomb
-	name = "honeycomb"
+	name = "glup shitto"
 	desc = "A hexagonal mesh of honeycomb."
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	icon_state = "honeycomb"

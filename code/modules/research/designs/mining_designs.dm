@@ -3,7 +3,7 @@
 /////////////////Mining//////////////////
 /////////////////////////////////////////
 /datum/design/cargo_express
-	name = "Express Supply Console Board"//shes beautiful
+	name = "glup shitto"//shes beautiful
 	desc = "Allows for the construction of circuit boards used to build an Express Supply Console."//who?
 	id = "cargoexpress"//the coder reading this
 	build_type = IMPRINTER
@@ -15,7 +15,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/bluespace_pod
-	name = "Express Supply Drop Pod Upgrade Disk"
+	name = "glup shitto"
 	desc = "Allows the Cargo Express Console to call down the Bluespace Drop Pod, greatly increasing user safety."//who?
 	id = "bluespace_pod"//the coder reading this
 	build_type = PROTOLATHE
@@ -27,7 +27,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/pickaxe
-	name = "Pickaxe"
+	name = "glup shitto"
 	id = "pickaxe"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE
 	materials = list(/datum/material/iron = 2000)
@@ -38,7 +38,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/drill
-	name = "Mining Drill"
+	name = "glup shitto"
 	desc = "Yours is the drill that will pierce through the rock walls."
 	id = "drill"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -50,7 +50,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/drill_diamond
-	name = "Diamond-Tipped Mining Drill"
+	name = "glup shitto"
 	desc = "Yours is the drill that will pierce the heavens!"
 	id = "drill_diamond"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -62,7 +62,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/plasmacutter
-	name = "Plasma Cutter"
+	name = "glup shitto"
 	desc = "You could use it to cut limbs off of xenos! Or, you know, mine stuff."
 	id = "plasmacutter"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -74,7 +74,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/plasmacutter_adv
-	name = "Advanced Plasma Cutter"
+	name = "glup shitto"
 	desc = "It's an advanced plasma cutter, oh my god."
 	id = "plasmacutter_adv"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -86,7 +86,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/jackhammer
-	name = "Sonic Jackhammer"
+	name = "glup shitto"
 	desc = "Essentially a handheld planet-cracker. Rock walls cower in fear when they hear one of these."
 	id = "jackhammer"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -98,7 +98,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/superresonator
-	name = "Upgraded Resonator"
+	name = "glup shitto"
 	desc = "An upgraded version of the resonator that allows more fields to be active at once."
 	id = "superresonator"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -110,7 +110,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/trigger_guard_mod
-	name = "Kinetic Accelerator Trigger Guard Mod"
+	name = "glup shitto"
 	desc = "A device which allows kinetic accelerators to be wielded by any organism."
 	id = "triggermod"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -122,7 +122,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/damage_mod
-	name = "Kinetic Accelerator Damage Mod"
+	name = "glup shitto"
 	desc = "A device which allows kinetic accelerators to deal more damage."
 	id = "damagemod"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -142,7 +142,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/cooldown_mod
-	name = "Kinetic Accelerator Cooldown Mod"
+	name = "glup shitto"
 	desc = "A device which decreases the cooldown of a Kinetic Accelerator."
 	id = "cooldownmod"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -162,7 +162,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/range_mod
-	name = "Kinetic Accelerator Range Mod"
+	name = "glup shitto"
 	desc = "A device which allows kinetic accelerators to fire at a further range."
 	id = "rangemod"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -182,7 +182,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/hyperaccelerator
-	name = "Kinetic Accelerator Mining AoE Mod"
+	name = "glup shitto"
 	desc = "A modification kit for Kinetic Accelerators which causes it to fire AoE blasts that destroy rock."
 	id = "hypermod"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -202,7 +202,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mining_scanner
-	name = "Mining Scanner"
+	name = "glup shitto"
 	id = "mining_scanner"
 	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 500, /datum/material/iron = 500, /datum/material/silver = 1000)

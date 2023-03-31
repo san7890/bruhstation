@@ -2,7 +2,7 @@
 
 // Ordinary survival box. Every crewmember gets one of these.
 /obj/item/storage/box/survival
-	name = "survival box"
+	name = "glup shitto"
 	desc = "A box with the bare essentials of ensuring the survival of you and others."
 	icon_state = "internals"
 	illustration = "emergencytank"
@@ -21,7 +21,7 @@
 		return
 	atom_storage.max_slots += 2
 	atom_storage.max_total_storage += 4
-	name = "large [name]"
+	name = "glup shitto"
 	transform = transform.Scale(1.25, 1)
 
 /obj/item/storage/box/survival/PopulateContents()
@@ -65,7 +65,7 @@
 
 // Engineer survival box
 /obj/item/storage/box/survival/engineer
-	name = "extended-capacity survival box"
+	name = "glup shitto"
 	desc = "A box with the bare essentials of ensuring the survival of you and others. This one is labelled to contain an extended-capacity tank."
 	illustration = "extendedtank"
 	internal_type = /obj/item/tank/internals/emergency_oxygen/engi
@@ -76,7 +76,7 @@
 
 // Syndie survival box
 /obj/item/storage/box/survival/syndie
-	name = "operation-ready survival box"
+	name = "glup shitto"
 	desc = "A box with the essentials of your operation. This one is labelled to contain an extended-capacity tank and a handy guide on survival."
 	icon_state = "syndiebox"
 	illustration = "extendedtank"
@@ -90,7 +90,7 @@
 	new /obj/item/paper/fluff/operative(src)
 
 /obj/item/tool_parcel
-	name = "operative toolkit care package"
+	name = "glup shitto"
 	desc = "A small parcel. It contains a few items every operative needs."
 	w_class =  WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/storage/wrapping.dmi'
@@ -110,7 +110,7 @@
 	qdel(src)
 
 /obj/item/storage/box/survival/centcom
-	name = "emergency response survival box"
+	name = "glup shitto"
 	desc = "A box with the bare essentials of ensuring the survival of your team. This one is labelled to contain a double tank."
 	illustration = "extendedtank"
 	internal_type = /obj/item/tank/internals/emergency_oxygen/double
@@ -140,7 +140,7 @@
 //Mime spell boxes
 
 /obj/item/storage/box/mime
-	name = "invisible box"
+	name = "glup shitto"
 	desc = "Unfortunately not large enough to trap the mime."
 	foldable_result = null
 	icon_state = "box"
@@ -158,7 +158,7 @@
 	return ..()
 
 /obj/item/storage/box/hug
-	name = "box of hugs"
+	name = "glup shitto"
 	desc = "A special box for sensitive people."
 	icon_state = "hugbox"
 	illustration = "heart"
@@ -180,7 +180,7 @@
 
 // clown box, we also use this for the honk bot assembly
 /obj/item/storage/box/clown
-	name = "clown box"
+	name = "glup shitto"
 	desc = "A colorful cardboard box for the clown"
 	illustration = "clown"
 
@@ -215,7 +215,7 @@
 
 //Clown survival box
 /obj/item/storage/box/survival/hug
-	name = "box of hugs"
+	name = "glup shitto"
 	desc = "A special box for sensitive people."
 	icon_state = "hugbox"
 	illustration = "heart"
@@ -239,7 +239,7 @@
 	user.visible_message(span_notice("[user] hugs [src]."),span_notice("You hug [src]."))
 
 /obj/item/storage/box/hug/plushes
-	name = "tactical cuddle kit"
+	name = "glup shitto"
 	desc = "A lovely little box filled with soft, cute plushies, perfect for calming down people who have just suffered a traumatic event. Legend has it there's a special part of hell \
 	for Medical Officers who just take the box for themselves."
 
@@ -258,7 +258,7 @@
 	new /obj/item/t_scanner/adv_mining_scanner(src)
 
 /obj/item/storage/box/miner_modkits
-	name = "miner modkit/trophy box"
+	name = "glup shitto"
 	desc = "Contains every modkit and trophy in the game."
 
 /obj/item/storage/box/miner_modkits/Initialize(mapload)
@@ -274,7 +274,7 @@
 			new modkit(src)
 
 /obj/item/storage/box/skillchips
-	name = "box of skillchips"
+	name = "glup shitto"
 	desc = "Contains one copy of every skillchip"
 
 /obj/item/storage/box/skillchips/PopulateContents()
@@ -284,7 +284,7 @@
 		new skillchip(src)
 
 /obj/item/storage/box/skillchips/science
-	name = "box of science job skillchips"
+	name = "glup shitto"
 	desc = "Contains spares of every science job skillchip."
 
 /obj/item/storage/box/skillchips/science/PopulateContents()
@@ -292,7 +292,7 @@
 	new/obj/item/skillchip/job/roboticist(src)
 
 /obj/item/storage/box/skillchips/engineering
-	name = "box of engineering job skillchips"
+	name = "glup shitto"
 	desc = "Contains spares of every engineering job skillchip."
 
 /obj/item/storage/box/skillchips/engineering/PopulateContents()

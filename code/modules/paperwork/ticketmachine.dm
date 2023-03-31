@@ -2,7 +2,7 @@
 //Simply set this up in the hopline and you can serve people based on ticket numbers
 
 /obj/machinery/ticket_machine
-	name = "ticket machine"
+	name = "glup shitto"
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "ticketmachine"
 	base_icon_state = "ticketmachine"
@@ -73,7 +73,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/ticket_machine, 32)
 	update_appearance()
 
 /obj/item/wallframe/ticket_machine
-	name = "ticket machine frame"
+	name = "glup shitto"
 	desc = "An unmounted ticket machine. Attach it to a wall to use."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "ticketmachine_off"
@@ -97,7 +97,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/ticket_machine, 32)
 		update_appearance() //Update our icon here rather than when they take a ticket to show the current ticket number being served
 
 /obj/machinery/button/ticket_machine
-	name = "increment ticket counter"
+	name = "glup shitto"
 	desc = "Use this button after you've served someone to tell the next person to come forward."
 	device_type = /obj/item/assembly/control/ticket_machine
 	req_access = list()
@@ -122,7 +122,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/ticket_machine, 32)
 		to_chat(user, span_warning("You've linked [src] to [M.buffer]."))
 
 /obj/item/assembly/control/ticket_machine
-	name = "ticket machine controller"
+	name = "glup shitto"
 	desc = "A remote controller for the HoP's ticket machine."
 	///Weakref to our ticket machine
 	var/datum/weakref/ticket_machine_ref
@@ -235,7 +235,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/ticket_machine, 32)
 	update_appearance()
 
 /obj/item/ticket_machine_ticket
-	name = "\improper ticket"
+	name = "glup shitto"
 	desc = "A ticket which shows your place in the Head of Personnel's line. Made from Nanotrasen patented NanoPaper®. Though solid, its form seems to shimmer slightly. Feels (and burns) just like the real thing."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "ticket"

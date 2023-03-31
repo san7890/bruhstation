@@ -1,7 +1,7 @@
 //The "pod_landingzone" temp visual is created by anything that "launches" a supplypod. This is what animates the pod and makes the pod forcemove to the station.
 //------------------------------------SUPPLY POD-------------------------------------//
 /obj/structure/closet/supplypod
-	name = "supply pod" //Names and descriptions are normally created with the setStyle() proc during initialization, but we have these default values here as a failsafe
+	name = "glup shitto" //Names and descriptions are normally created with the setStyle() proc during initialization, but we have these default values here as a failsafe
 	desc = "A Nanotrasen supply drop pod."
 	icon = 'icons/obj/supplypods.dmi'
 	icon_state = "pod" //This is a common base sprite shared by a number of pods
@@ -71,7 +71,7 @@
 	explosionSize = list(0,0,0,0)
 
 /obj/structure/closet/supplypod/extractionpod
-	name = "Syndicate Extraction Pod"
+	name = "glup shitto"
 	desc = "A specalised, blood-red styled pod for extracting high-value targets out of active mission areas. <b>Targets must be manually stuffed inside the pod for proper delivery.</b>"
 	specialised = TRUE
 	style = STYLE_SYNDICATE
@@ -532,7 +532,7 @@
 	alpha = max(0, 255-(amount*20))
 
 /obj/effect/supplypod_rubble //This is the object that forceMoves the supplypod to it's location
-	name = "debris"
+	name = "glup shitto"
 	desc = "A small crater of rubble. Closer inspection reveals the debris to be made primarily of space-grade metal fragments. You're pretty sure that this will disperse before too long."
 	icon = 'icons/obj/supplypods.dmi'
 	layer = PROJECTILE_HIT_THRESHHOLD_LAYER // We want this to go right below the layer of supplypods and supplypod_rubble's forground.
@@ -582,7 +582,7 @@
 	animate(src, transform = matrix()*0.01, time = pod.delays[POD_TRANSIT]+pod.delays[POD_FALLING])
 
 /obj/effect/pod_landingzone //This is the object that forceMoves the supplypod to it's location
-	name = "Landing Zone Indicator"
+	name = "glup shitto"
 	desc = "A holographic projection designating the landing zone of something. It's probably best to stand back."
 	icon = 'icons/obj/supplypods_32x32.dmi'
 	icon_state = "LZ"
@@ -690,7 +690,7 @@
 
 //------------------------------------UPGRADES-------------------------------------//
 /obj/item/disk/cargo/bluespace_pod //Disk that can be inserted into the Express Console to allow for Advanced Bluespace Pods
-	name = "Bluespace Drop Pod Upgrade"
+	name = "glup shitto"
 	desc = "This disk provides a firmware update to the Express Supply Console, granting the use of Nanotrasen's Bluespace Drop Pods to the supply department."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "cargodisk"

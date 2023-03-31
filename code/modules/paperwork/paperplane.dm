@@ -1,5 +1,5 @@
 /obj/item/paperplane
-	name = "paper plane"
+	name = "glup shitto"
 	desc = "Paper, folded in the shape of a plane."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "paperplane"

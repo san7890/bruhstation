@@ -1,6 +1,6 @@
 //Subtype of human
 /datum/species/human/felinid
-	name = "Felinid"
+	name = "glup shitto"
 	id = SPECIES_FELINE
 
 	mutant_bodyparts = list("ears" = "Cat", "wings" = "None")

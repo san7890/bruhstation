@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/greentext //Gotta have it!
-	name = "Greentext"
+	name = "glup shitto"
 	weight = 4
 	typepath = /datum/round_event/wizard/greentext
 	max_occurrences = 1
@@ -23,7 +23,7 @@
 
 
 /obj/item/greentext
-	name = "greentext"
+	name = "glup shitto"
 	desc = "No one knows what this massive tome does, but it feels <i><font color='green'>desirable</font></i> all the same..."
 	w_class = WEIGHT_CLASS_BULKY
 	icon = 'icons/obj/wizard.dmi'

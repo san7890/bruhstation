@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(pai)
-	name = "pAI"
+	name = "glup shitto"
 	flags = SS_NO_INIT|SS_NO_FIRE
 
 	/// List of pAI candidates, including those not submitted.

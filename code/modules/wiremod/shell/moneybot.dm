@@ -4,7 +4,7 @@
  * Immobile (but not dense) shell that can receive and dispense money.
  */
 /obj/structure/money_bot
-	name = "money bot"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_large"
 

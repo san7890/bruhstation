@@ -1,5 +1,5 @@
 /datum/traitor_objective_category/steal_item
-	name = "Steal Item"
+	name = "glup shitto"
 	objectives = list(
 		list(
 			/datum/traitor_objective/steal_item/low_risk = 1,
@@ -59,7 +59,7 @@ GLOBAL_DATUM_INIT(steal_item_handler, /datum/objective_item_handler, new())
 		objectives_by_path[typepath] -= source
 
 /datum/traitor_objective/steal_item
-	name = "Steal %ITEM% and place a schematics scanner on it."
+	name = "glup shitto"
 	description = "Use the button below to materialize the schematic scanner within your hand, where you'll then be able to place it on the item. Additionally, you can keep it near you and let it scan for %TIME% minutes, and you will be rewarded with %PROGRESSION% reputation and %TC% telecrystals."
 
 	progression_minimum = 20 MINUTES
@@ -246,7 +246,7 @@ GLOBAL_DATUM_INIT(steal_item_handler, /datum/objective_item_handler, new())
 		START_PROCESSING(SSprocessing, src)
 
 /obj/item/traitor_bug
-	name = "suspicious device"
+	name = "glup shitto"
 	desc = "It looks dangerous."
 	item_flags = EXAMINE_SKIP
 

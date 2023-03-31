@@ -1,5 +1,5 @@
 /obj/item/anomaly_neutralizer
-	name = "anomaly neutralizer"
+	name = "glup shitto"
 	desc = "A one-use device capable of instantly neutralizing anomalous or otherworldly entities."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "memorizer2"

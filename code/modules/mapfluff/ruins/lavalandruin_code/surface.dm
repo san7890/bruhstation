@@ -1,13 +1,13 @@
 //////lavaland surface papers
 
 /obj/item/paper/fluff/stations/lavaland/surface/henderson_report
-	name = "Important Notice - Mrs. Henderson"
+	name = "glup shitto"
 	default_raw_text = "Nothing of interest to report."
 
 //ratvar
 
 /obj/structure/dead_ratvar
-	name = "hulking wreck"
+	name = "glup shitto"
 	desc = "The remains of a monstrous war machine."
 	icon = 'icons/obj/lavaland/dead_ratvar.dmi'
 	icon_state = "dead_ratvar"

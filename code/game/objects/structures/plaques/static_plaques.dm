@@ -4,20 +4,20 @@
 	engraved = TRUE
 
 /obj/structure/plaque/static_plaque/atmos
-	name = "\improper FEA Atmospherics Division plaque"
+	name = "glup shitto"
 	desc = "This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands."
 
 /obj/structure/plaque/static_plaque/thunderdome
-	name = "Thunderdome Plaque"
+	name = "glup shitto"
 	desc = "This plaque commemorates those who have fallen in glorious combat.  For all the charred, dizzy, and beaten men who have died in its hands."
 
 /obj/structure/plaque/static_plaque/golden
-	name = "The Most Robust Men Award for Robustness"
+	name = "glup shitto"
 	desc = "To be Robust is not an action or a way of life, but a mental state. Only those with the force of Will strong enough to act during a crisis, saving friend from foe, are truly Robust. Stay Robust my friends."
 	icon_state = "goldenplaque"
 
 /obj/structure/plaque/static_plaque/golden/captain
-	name = "The Most Robust Captain Award for Robustness"
+	name = "glup shitto"
 
 // Commission plaques, to give a little backstory to the stations. Commission dates are date of merge (or best approximation, in the case of Meta) + 540 years to convert to SS13 dates.
 // Where PRs are available, I've linked them. Where they are unavailable, a git hash is provided instead for the direct commit that added/removed the map.
@@ -25,7 +25,7 @@
 
 // Runtimestation: added Nov 11, 2016 (946ec1fec869eb59d6a84e32c90613af734fcd0e)
 /obj/structure/plaque/static_plaque/golden/commission
-	name = "Commission Plaque"
+	name = "glup shitto"
 	desc = "Spinward Sector Station SS-13\n'Runtime' Class Outpost\nCommissioned 03/11/2556\n'Dedicated to the Pioneers'"
 	icon_state = "commission_nt"
 	layer = BELOW_OPEN_DOOR_LAYER
@@ -114,36 +114,36 @@
 //See: code>game>objects>structures>signs>_signs.dm
 
 /obj/structure/sign/plaques/kiddie
-	name = "\improper AI developers plaque"
+	name = "glup shitto"
 	desc = "Next to the extremely long list of names and job titles, there is a drawing of a little child. The child appears to be disabled. Beneath the image, someone has scratched the word \"PACKETS\"."
 	icon_state = "kiddieplaque"
 
 /obj/structure/sign/plaques/kiddie/devils_tooth
-	name = "\improper Devil's Tooth Plaque"
+	name = "glup shitto"
 	desc = "A plaque commemorating the fallen souls who had to die tunneling out this segment of the frozen ice planet that surrounds it. It's named \"Devil's Tooth\" because those who laid down their life here surely thought they were in hell."
 
 /obj/structure/sign/plaques/kiddie/badger
-	name = "\improper Remembrance Plaque"
+	name = "glup shitto"
 	desc = "A plaque commemorating the fallen, may they rest in peace, forever asleep amongst the stars. Someone has drawn a picture of a crying badger at the bottom."
 
 /obj/structure/sign/plaques/kiddie/library
-	name = "\improper Library Rules Sign"
+	name = "glup shitto"
 	desc = "A long list of rules to be followed when in the library, extolling the virtues of being quiet at all times and threatening those who would dare eat hot food inside."
 
 /obj/structure/sign/plaques/kiddie/perfect_man
-	name = "\improper 'Perfect Man' sign"
+	name = "glup shitto"
 	desc = "A guide to the exhibit, explaining how recent developments in mindshield implant and cloning technologies by Nanotrasen Corporation have led to the development and the effective immortality of the 'perfect man', the loyal Nanotrasen Employee."
 
 /obj/structure/sign/plaques/kiddie/perfect_drone
-	name = "\improper 'Perfect Drone' sign"
+	name = "glup shitto"
 	desc = "A guide to the drone shell dispenser, detailing the constructive and destructive applications of modern repair drones, as well as the development of the incorruptible cyborg servants of tomorrow, available today."
 
 /obj/structure/sign/plaques/kiddie/gameoflife
-	name = "\improper Conway's The Game Of Life plaque"
+	name = "glup shitto"
 	desc = "A plaque detailing the historical significance of The Game Of Life in the field of computer science, and that the mural underfoot is a representation of the game in action."
 
 /obj/structure/sign/plaques/tram
-	name = "\improper tram information plate"
+	name = "glup shitto"
 	desc = "A plate showing details from the manufacturer about this Nakamura Engineering SkyyTram Mk IV, serial number LT304TG2563.<br><br>We are not responsible for any injuries or fatalities caused by usage of the tram. \
 	Using the tram carries inherent risks, and we cannot guarantee the safety of all passengers. By using the tram, you assume, acknowledge, and accept all the risks and responsibilities. <br><br>\
 	Please be aware that riding the tram can cause a variety of injuries, including but not limited to: slips, trips, and falls; collisions with other passengers or objects; strains, sprains, and other musculoskeletal injuries; \

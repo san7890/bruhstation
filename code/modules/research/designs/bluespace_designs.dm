@@ -4,7 +4,7 @@
 /////////////////////////////////////////
 
 /datum/design/beacon
-	name = "Tracking Beacon"
+	name = "glup shitto"
 	desc = "A bluespace tracking beacon."
 	id = "beacon"
 	build_type = PROTOLATHE
@@ -16,7 +16,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/bag_holding
-	name = "Inert Bag of Holding"
+	name = "glup shitto"
 	desc = "A block of metal ready to be transformed into a bag of holding with a bluespace anomaly core."
 	id = "bag_holding"
 	build_type = PROTOLATHE
@@ -28,7 +28,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/bluespace_crystal
-	name = "Artificial Bluespace Crystal"
+	name = "glup shitto"
 	desc = "A small blue crystal with mystical properties."
 	id = "bluespace_crystal"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -40,7 +40,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/telesci_gps
-	name = "GPS Device"
+	name = "glup shitto"
 	desc = "Little thingie that can track its position at all times."
 	id = "telesci_gps"
 	build_type = PROTOLATHE
@@ -53,7 +53,7 @@
 	autolathe_exportable = FALSE
 
 /datum/design/desynchronizer
-	name = "Desynchronizer"
+	name = "glup shitto"
 	desc = "A device that can desynchronize the user from spacetime."
 	id = "desynchronizer"
 	build_type = PROTOLATHE
@@ -65,7 +65,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/miningsatchel_holding
-	name = "Mining Satchel of Holding"
+	name = "glup shitto"
 	desc = "A mining satchel that can hold an infinite amount of ores."
 	id = "minerbag_holding"
 	build_type = PROTOLATHE | AWAY_LATHE
@@ -77,7 +77,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/swapper
-	name = "Quantum Spin Inverter"
+	name = "glup shitto"
 	desc = "An experimental device that is able to swap the locations of two entities by switching their particles' spin values. Must be linked to another device to function."
 	id = "swapper"
 	build_type = PROTOLATHE

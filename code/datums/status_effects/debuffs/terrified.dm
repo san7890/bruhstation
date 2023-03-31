@@ -150,7 +150,7 @@
 
 /// The status effect popup for the terror status effect
 /atom/movable/screen/alert/status_effect/terrified
-	name = "Terrified!"
+	name = "glup shitto"
 	desc = "You feel a supernatural darkness settle in around you, overwhelming you with panic! Get into the light!"
 	icon_state = "terrified"
 

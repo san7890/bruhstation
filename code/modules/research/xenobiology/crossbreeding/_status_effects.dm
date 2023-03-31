@@ -1,5 +1,5 @@
 /atom/movable/screen/alert/status_effect/rainbow_protection
-	name = "Rainbow Protection"
+	name = "glup shitto"
 	desc = "You are defended from harm, but so are those you might seek to injure!"
 	icon_state = "slime_rainbowshield"
 
@@ -29,7 +29,7 @@
 		span_warning("You no longer feel protected..."))
 
 /atom/movable/screen/alert/status_effect/slimeskin
-	name = "Adamantine Slimeskin"
+	name = "glup shitto"
 	desc = "You are covered in a thick, non-neutonian gel."
 	icon_state = "slime_stoneskin"
 
@@ -162,7 +162,7 @@
 		qdel(clone)
 
 /atom/movable/screen/alert/status_effect/clone_decay
-	name = "Clone Decay"
+	name = "glup shitto"
 	desc = "You are simply a construct, and cannot maintain this form forever. You will be returned to your original body if you should fall."
 	icon_state = "slime_clonedecay"
 
@@ -180,7 +180,7 @@
 	owner.color = "#007BA7"
 
 /atom/movable/screen/alert/status_effect/bloodchill
-	name = "Bloodchilled"
+	name = "glup shitto"
 	desc = "You feel a shiver down your spine after getting hit with a glob of cold blood. You'll move slower and get frostbite for a while!"
 	icon_state = "bloodchill"
 
@@ -221,7 +221,7 @@
 /datum/status_effect/bonechill/on_remove()
 	owner.remove_movespeed_modifier(/datum/movespeed_modifier/status_effect/bonechill)
 /atom/movable/screen/alert/status_effect/bonechill
-	name = "Bonechilled"
+	name = "glup shitto"
 	desc = "You feel a shiver down your spine after hearing the haunting noise of bone rattling. You'll move slower and get frostbite for a while!"
 	icon_state = "bloodchill"
 
@@ -591,7 +591,7 @@
 	return ..()
 
 /obj/item/hothands
-	name = "burning fingertips"
+	name = "glup shitto"
 	desc = "You shouldn't see this."
 
 /obj/item/hothands/get_temperature()
@@ -672,7 +672,7 @@
 
 //Bluespace has an icon because it's kinda active.
 /atom/movable/screen/alert/status_effect/bluespaceslime
-	name = "Stabilized Bluespace Extract"
+	name = "glup shitto"
 	desc = "You shouldn't see this, since we set it to change automatically!"
 	icon_state = "slime_bluespace_on"
 

@@ -1,5 +1,5 @@
 PROCESSING_SUBSYSTEM_DEF(instruments)
-	name = "Instruments"
+	name = "glup shitto"
 	wait = 0.5
 	init_order = INIT_ORDER_INSTRUMENTS
 	flags = SS_KEEP_TIMING

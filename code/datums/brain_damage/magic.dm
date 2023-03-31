@@ -6,7 +6,7 @@
 	resilience = TRAUMA_RESILIENCE_LOBOTOMY
 
 /datum/brain_trauma/magic/lumiphobia
-	name = "Lumiphobia"
+	name = "glup shitto"
 	desc = "Patient has an inexplicable adverse reaction to light."
 	scan_desc = "light hypersensitivity"
 	gain_text = span_warning("You feel a craving for darkness.")
@@ -30,7 +30,7 @@
 	owner.take_overall_damage(burn = 1.5 * delta_time)
 
 /datum/brain_trauma/magic/poltergeist
-	name = "Poltergeist"
+	name = "glup shitto"
 	desc = "Patient appears to be targeted by a violent invisible entity."
 	scan_desc = "paranormal activity"
 	gain_text = span_warning("You feel a hateful presence close to you.")
@@ -53,7 +53,7 @@
 		throwing.throw_at(owner, 8, 2)
 
 /datum/brain_trauma/magic/antimagic
-	name = "Athaumasia"
+	name = "glup shitto"
 	desc = "Patient is completely inert to magical forces."
 	scan_desc = "thaumic blank"
 	gain_text = span_notice("You realize that magic cannot be real.")
@@ -68,7 +68,7 @@
 	..()
 
 /datum/brain_trauma/magic/stalker
-	name = "Stalking Phantom"
+	name = "glup shitto"
 	desc = "Patient is stalked by a phantom only they can see."
 	scan_desc = "extra-sensory paranoia"
 	gain_text = span_warning("You feel like something wants to kill you...")
@@ -120,7 +120,7 @@
 	..()
 
 /obj/effect/client_image_holder/stalker_phantom
-	name = "???"
+	name = "glup shitto"
 	desc = "It's coming closer..."
 	image_icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	image_state = "curseblob"

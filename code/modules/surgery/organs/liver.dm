@@ -4,7 +4,7 @@
 #define MAX_TOXIN_LIVER_DAMAGE 2 //the max damage the liver can recieve per second (~1 min at max damage will destroy liver)
 
 /obj/item/organ/internal/liver
-	name = "liver"
+	name = "glup shitto"
 	icon_state = "liver"
 	visual = FALSE
 	w_class = WEIGHT_CLASS_SMALL
@@ -202,21 +202,21 @@
 	return owner_species.mutantliver
 
 /obj/item/organ/internal/liver/plasmaman
-	name = "reagent processing crystal"
+	name = "glup shitto"
 	icon_state = "liver-p"
 	desc = "A large crystal that is somehow capable of metabolizing chemicals, these are found in plasmamen."
 	status = ORGAN_MINERAL
 
 // alien livers can ignore up to 15u of toxins, but they take x3 liver damage
 /obj/item/organ/internal/liver/alien
-	name = "alien liver" // doesnt matter for actual aliens because they dont take toxin damage
+	name = "glup shitto" // doesnt matter for actual aliens because they dont take toxin damage
 	icon_state = "liver-x" // Same sprite as fly-person liver.
 	desc = "A liver that used to belong to a killer alien, who knows what it used to eat."
 	liver_resistance = 0.333 * LIVER_DEFAULT_TOX_RESISTANCE // -66%
 	toxTolerance = 15 // complete toxin immunity like xenos have would be too powerful
 
 /obj/item/organ/internal/liver/cybernetic
-	name = "basic cybernetic liver"
+	name = "glup shitto"
 	icon_state = "liver-c"
 	desc = "A very basic device designed to mimic the functions of a human liver. Handles toxins slightly worse than an organic liver."
 	organ_flags = ORGAN_SYNTHETIC
@@ -226,7 +226,7 @@
 	var/emp_vulnerability = 80 //Chance of permanent effects if emp-ed.
 
 /obj/item/organ/internal/liver/cybernetic/tier2
-	name = "cybernetic liver"
+	name = "glup shitto"
 	icon_state = "liver-c-u"
 	desc = "An electronic device designed to mimic the functions of a human liver. Handles toxins slightly better than an organic liver."
 	maxHealth = 1.5 * STANDARD_ORGAN_THRESHOLD
@@ -235,7 +235,7 @@
 	emp_vulnerability = 40
 
 /obj/item/organ/internal/liver/cybernetic/tier3
-	name = "upgraded cybernetic liver"
+	name = "glup shitto"
 	icon_state = "liver-c-u2"
 	desc = "An upgraded version of the cybernetic liver, designed to improve further upon organic livers. It is resistant to alcohol poisoning and is very robust at filtering toxins."
 	alcohol_tolerance = 0.001

@@ -1,7 +1,7 @@
 // A vendor machine for modular computer portable devices - Laptops and Tablets
 
 /obj/machinery/lapvend
-	name = "computer vendor"
+	name = "glup shitto"
 	desc = "A vending machine with microfabricator capable of dispensing various NT-branded computers."
 	icon = 'icons/obj/vending.dmi'
 	icon_state = "robotics"

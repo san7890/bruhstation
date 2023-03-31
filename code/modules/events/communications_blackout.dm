@@ -1,5 +1,5 @@
 /datum/round_event_control/communications_blackout
-	name = "Communications Blackout"
+	name = "glup shitto"
 	typepath = /datum/round_event/communications_blackout
 	weight = 30
 	category = EVENT_CATEGORY_ENGINEERING

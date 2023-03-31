@@ -18,7 +18,7 @@
 
 /obj/item/sparring_contract/Initialize(mapload)
 	. = ..()
-	name = "[GLOB.deity]'s sparring contract"
+	name = "glup shitto"
 
 /obj/item/sparring_contract/Destroy()
 	QDEL_NULL(signed_by)

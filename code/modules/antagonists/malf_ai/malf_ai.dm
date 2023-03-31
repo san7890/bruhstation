@@ -2,7 +2,7 @@
 #define PROB_SPECIAL 30
 
 /datum/antagonist/malf_ai
-	name = "\improper Malfunctioning AI"
+	name = "glup shitto"
 	roundend_category = "traitors"
 	antagpanel_category = "Malf AI"
 	job_rank = ROLE_MALF
@@ -266,7 +266,7 @@
 
 //Subtype of Malf AI datum, used for one of the traitor final objectives
 /datum/antagonist/malf_ai/infected
-	name = "Infected AI"
+	name = "glup shitto"
 	employer = "Infected AI"
 	///The player, to who is this AI slaved
 	var/datum/mind/boss

@@ -6,7 +6,7 @@ Reproductive extracts:
 
 
 /obj/item/slimecross/reproductive
-	name = "reproductive extract"
+	name = "glup shitto"
 	desc = "It pulses with a strange hunger."
 	icon_state = "reproductive"
 	effect = "reproductive"

@@ -1,5 +1,5 @@
 /datum/skill/gaming
-	name = "Gaming"
+	name = "glup shitto"
 	title = "Gamer"
 	desc = "My proficiency as a gamer. This helps me beat bosses with ease, powergame in Orion Trail, and makes me wanna slam some gamer fuel."
 	modifiers = list(SKILL_PROBS_MODIFIER = list(0, 5, 10, 15, 15, 20, 25),

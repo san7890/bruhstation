@@ -1,6 +1,6 @@
 
 /obj/item/instrument/piano_synth
-	name = "synthesizer"
+	name = "glup shitto"
 	desc = "An advanced electronic synthesizer that can be used as various instruments."
 	icon_state = "synth"
 	inhand_icon_state = "synth"
@@ -14,7 +14,7 @@
 	AddComponent(/datum/component/shell, list(new circuit_type), shell_capacity)
 
 /obj/item/instrument/piano_synth/headphones
-	name = "headphones"
+	name = "glup shitto"
 	desc = "Unce unce unce unce. Boop!"
 	icon = 'icons/obj/clothing/accessories.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
@@ -53,7 +53,7 @@
 	update_appearance()
 
 /obj/item/instrument/piano_synth/headphones/spacepods
-	name = "\improper Nanotrasen space pods"
+	name = "glup shitto"
 	desc = "Flex your money, AND ignore what everyone else says, all at once!"
 	icon_state = "spacepods"
 	worn_icon = 'icons/mob/clothing/ears.dmi'

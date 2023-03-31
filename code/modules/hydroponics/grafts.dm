@@ -2,7 +2,7 @@
  *A new subsystem for hydroponics, as a way to share specific traits into plants, as a way to phase out the DNA manipulator.
  */
 /obj/item/graft
-	name = "plant graft"
+	name = "glup shitto"
 	desc = "A carefully cut graft off of a freshly grown plant. Can be grafted onto a plant in order to share unique plant traits onto a plant."
 	w_class = WEIGHT_CLASS_TINY
 	icon = 'icons/obj/hydroponics/equipment.dmi'

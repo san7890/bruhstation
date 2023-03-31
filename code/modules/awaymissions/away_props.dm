@@ -1,5 +1,5 @@
 /obj/effect/oneway
-	name = "one way effect"
+	name = "glup shitto"
 	desc = "Only lets things in from it's dir."
 	icon = 'icons/effects/mapping_helpers.dmi'
 	icon_state = "field_dir"
@@ -12,7 +12,7 @@
 
 
 /obj/effect/wind
-	name = "wind effect"
+	name = "glup shitto"
 	desc = "Creates pressure effect in it's direction. Use sparingly."
 	icon = 'icons/effects/mapping_helpers.dmi'
 	icon_state = "field_dir"
@@ -30,7 +30,7 @@
 
 //Keep these rare due to cost of doing these checks
 /obj/effect/path_blocker
-	name = "magic barrier"
+	name = "glup shitto"
 	desc = "You shall not pass."
 	icon = 'icons/effects/mapping_helpers.dmi'
 	icon_state = "blocker" //todo make this actually look fine when visible
@@ -53,7 +53,7 @@
 	return !reverse
 
 /obj/structure/pitgrate
-	name = "pit grate"
+	name = "glup shitto"
 	icon = 'icons/obj/smooth_structures/lattice.dmi'
 	icon_state = "lattice-255"
 	plane = FLOOR_PLANE
@@ -111,7 +111,7 @@
 	. = ..()
 
 /obj/structure/pitgrate/hidden
-	name = "floor"
+	name = "glup shitto"
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "floor"
 	hidden = TRUE

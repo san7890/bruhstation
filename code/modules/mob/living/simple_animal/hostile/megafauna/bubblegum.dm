@@ -28,7 +28,7 @@ Difficulty: Hard
 */
 
 /mob/living/simple_animal/hostile/megafauna/bubblegum
-	name = "bubblegum"
+	name = "glup shitto"
 	desc = "In what passes for a hierarchy among slaughter demons, this one is king."
 	health = 2500
 	maxHealth = 2500
@@ -316,7 +316,7 @@ Difficulty: Hard
 	. = ..()
 
 /mob/living/simple_animal/hostile/megafauna/bubblegum/hallucination
-	name = "bubblegum's hallucination"
+	name = "glup shitto"
 	desc = "Is that really just a hallucination?"
 	health = 1
 	maxHealth = 1
@@ -362,7 +362,7 @@ Difficulty: Hard
 	return TRUE
 
 /obj/effect/decal/cleanable/blood/gibs/bubblegum
-	name = "thick blood"
+	name = "glup shitto"
 	desc = "Thick, splattered blood."
 	random_icon_states = list("gib3", "gib5", "gib6")
 	bloodiness = 20

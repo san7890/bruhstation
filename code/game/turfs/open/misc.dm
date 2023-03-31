@@ -2,7 +2,7 @@
 /// I wish I could use components for turfs at scale
 /// Please do not bloat this. Love you <3
 /turf/open/misc
-	name = "coder/mapper fucked up"
+	name = "glup shitto"
 	desc = "report on github please"
 	icon_state = "BROKEN"
 

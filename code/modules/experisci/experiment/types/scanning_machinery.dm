@@ -2,7 +2,7 @@
 ///Pretend to upgrade security's techfab but in reality apply only one better matter bin!
 ///Note that a stock part in a machine can either be an object, or a datum.
 /datum/experiment/scanning/points/machinery_tiered_scan
-	name = "Upgraded Machinery Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning machinery with upgraded parts"
 	exp_tag = "Scan"
 	///What tier of parts is required for the experiment
@@ -30,7 +30,7 @@
 
 //This experiment type will turn up TRUE if there is a specific part in the scanned machine
 /datum/experiment/scanning/points/machinery_pinpoint_scan
-	name = "Machinery Pinpoint Stock Parts Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning machinery with specific parts"
 	exp_tag = "Scan"
 	///Which stock part are we looking for in the machine.

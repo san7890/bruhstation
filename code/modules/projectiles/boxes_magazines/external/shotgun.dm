@@ -1,5 +1,5 @@
 /obj/item/ammo_box/magazine/m12g
-	name = "shotgun magazine (12g buckshot slugs)"
+	name = "glup shitto"
 	desc = "A drum magazine."
 	icon_state = "m12gb"
 	base_icon_state = "m12gb"
@@ -12,26 +12,26 @@
 	icon_state = "[base_icon_state]-[CEILING(ammo_count(FALSE)/8, 1)*8]"
 
 /obj/item/ammo_box/magazine/m12g/stun
-	name = "shotgun magazine (12g taser slugs)"
+	name = "glup shitto"
 	base_icon_state = "m12gs"
 	ammo_type = /obj/item/ammo_casing/shotgun/stunslug
 
 /obj/item/ammo_box/magazine/m12g/slug
-	name = "shotgun magazine (12g slugs)"
+	name = "glup shitto"
 	base_icon_state = "m12gsl"
 	ammo_type = /obj/item/ammo_casing/shotgun
 
 /obj/item/ammo_box/magazine/m12g/dragon
-	name = "shotgun magazine (12g dragon's breath)"
+	name = "glup shitto"
 	base_icon_state = "m12gf"
 	ammo_type = /obj/item/ammo_casing/shotgun/dragonsbreath
 
 /obj/item/ammo_box/magazine/m12g/bioterror
-	name = "shotgun magazine (12g bioterror)"
+	name = "glup shitto"
 	base_icon_state = "m12gt"
 	ammo_type = /obj/item/ammo_casing/shotgun/dart/bioterror
 
 /obj/item/ammo_box/magazine/m12g/meteor
-	name = "shotgun magazine (12g meteor slugs)"
+	name = "glup shitto"
 	base_icon_state = "m12gbc"
 	ammo_type = /obj/item/ammo_casing/shotgun/meteorslug

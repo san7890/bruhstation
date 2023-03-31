@@ -1,5 +1,5 @@
 /obj/projectile/energy/net
-	name = "energy netting"
+	name = "glup shitto"
 	icon_state = "e_netting"
 	damage = 10
 	damage_type = STAMINA
@@ -22,7 +22,7 @@
 	..()
 
 /obj/effect/nettingportal
-	name = "DRAGnet teleportation field"
+	name = "glup shitto"
 	desc = "A field of bluespace energy, locking on to teleport a target."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "dragnetfield"
@@ -59,7 +59,7 @@
 	return
 
 /obj/projectile/energy/trap
-	name = "energy snare"
+	name = "glup shitto"
 	icon_state = "e_snare"
 	hitsound = 'sound/weapons/taserhit.ogg'
 	range = 4
@@ -77,7 +77,7 @@
 	..()
 
 /obj/projectile/energy/trap/cyborg
-	name = "Energy Bola"
+	name = "glup shitto"
 	icon_state = "e_snare"
 	hitsound = 'sound/weapons/taserhit.ogg'
 	range = 10

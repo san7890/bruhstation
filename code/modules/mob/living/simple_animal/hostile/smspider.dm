@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/smspider
-	name = "supermatter spider"
+	name = "glup shitto"
 	desc= "A sliver of supermatter placed upon a robotically enhanced pedestal."
 	icon = 'icons/mob/simple/smspider.dmi'
 	icon_state = "smspider"
@@ -56,7 +56,7 @@
 	AddComponent(/datum/component/swarming)
 
 /mob/living/simple_animal/hostile/smspider/overcharged
-	name = "overcharged supermatter spider"
+	name = "glup shitto"
 	desc = "A sliver of overcharged supermatter placed upon a robotically enhanced pedestal. This one seems especially dangerous."
 	icon_state = "smspideroc"
 	icon_living = "smspideroc"

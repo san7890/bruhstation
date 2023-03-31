@@ -4,7 +4,7 @@
 #define ZAP_TO_ENERGY(p) (joules_to_energy((p) * 400))
 
 /obj/machinery/power/energy_accumulator/tesla_coil
-	name = "tesla coil"
+	name = "glup shitto"
 	desc = "For the union!"
 	icon = 'icons/obj/engine/tesla_coil.dmi'
 	icon_state = "coil0"
@@ -115,7 +115,7 @@
 	zap_buckle_check(power)
 
 /obj/machinery/power/energy_accumulator/grounding_rod
-	name = "grounding rod"
+	name = "glup shitto"
 	desc = "Keeps an area from being fried by Edison's Bane."
 	icon = 'icons/obj/engine/tesla_coil.dmi'
 	icon_state = "grounding_rod0"

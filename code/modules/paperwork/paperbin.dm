@@ -1,7 +1,7 @@
 #define PAPERS_PER_OVERLAY 8
 #define PAPER_OVERLAY_PIXEL_SHIFT 2
 /obj/item/paper_bin
-	name = "paper bin"
+	name = "glup shitto"
 	desc = "Contains all the paper you'll never need."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "paper_bin0"
@@ -190,12 +190,12 @@
 		. += pen_overlay
 
 /obj/item/paper_bin/construction
-	name = "construction paper bin"
+	name = "glup shitto"
 	desc = "Contains all the paper you'll never need, IN COLOR!"
 	papertype = /obj/item/paper/construction
 
 /obj/item/paper_bin/bundlenatural
-	name = "natural paper bundle"
+	name = "glup shitto"
 	desc = "A bundle of paper created using traditional methods."
 	icon_state = "paper_stack"
 	papertype = /obj/item/paper/natural
@@ -243,7 +243,7 @@
 		..()
 
 /obj/item/paper_bin/carbon
-	name = "carbon paper bin"
+	name = "glup shitto"
 	desc = "Contains all the paper you'll ever need, in duplicate!"
 	icon_state = "paper_bin_carbon0"
 	papertype = /obj/item/paper/carbon

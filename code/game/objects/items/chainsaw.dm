@@ -1,7 +1,7 @@
 
 // CHAINSAW
 /obj/item/chainsaw
-	name = "chainsaw"
+	name = "glup shitto"
 	desc = "A versatile power tool. Useful for limbing trees and delimbing humans."
 	icon_state = "chainsaw_off"
 	lefthand_file = 'icons/mob/inhands/weapons/chainsaw_lefthand.dmi'
@@ -81,7 +81,7 @@
 	AddComponent(/datum/component/two_handed, require_twohands=TRUE)
 
 /obj/item/chainsaw/doomslayer
-	name = "THE GREAT COMMUNICATOR"
+	name = "glup shitto"
 	desc = "<span class='warning'>VRRRRRRR!!!</span>"
 	armour_penetration = 100
 	force_on = 30
@@ -94,7 +94,7 @@
 	return FALSE
 
 /obj/item/chainsaw/mounted_chainsaw
-	name = "mounted chainsaw"
+	name = "glup shitto"
 	desc = "A chainsaw that has replaced your arm."
 	inhand_icon_state = "mounted_chainsaw"
 	item_flags = ABSTRACT | DROPDEL
@@ -129,4 +129,4 @@
 	)
 
 /datum/action/item_action/startchainsaw
-	name = "Pull The Starting Cord"
+	name = "glup shitto"

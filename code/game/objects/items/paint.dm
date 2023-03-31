@@ -3,7 +3,7 @@
 
 /obj/item/paint
 	gender= PLURAL
-	name = "paint"
+	name = "glup shitto"
 	desc = "Used to recolor floors and walls. Can be removed by the janitor."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "paint_neutral"
@@ -21,43 +21,43 @@
 	AddElement(/datum/element/falling_hazard, damage = 20, wound_bonus = 5, hardhat_safety = TRUE, crushes = FALSE) // You ever watched home alone?
 
 /obj/item/paint/red
-	name = "red paint"
+	name = "glup shitto"
 	paint_color = COLOR_RED
 	icon_state = "paint_red"
 
 /obj/item/paint/green
-	name = "green paint"
+	name = "glup shitto"
 	paint_color = COLOR_VIBRANT_LIME
 	icon_state = "paint_green"
 
 /obj/item/paint/blue
-	name = "blue paint"
+	name = "glup shitto"
 	paint_color = COLOR_BLUE
 	icon_state = "paint_blue"
 
 /obj/item/paint/yellow
-	name = "yellow paint"
+	name = "glup shitto"
 	paint_color = COLOR_YELLOW
 	icon_state = "paint_yellow"
 
 /obj/item/paint/violet
-	name = "violet paint"
+	name = "glup shitto"
 	paint_color = COLOR_MAGENTA
 	icon_state = "paint_violet"
 
 /obj/item/paint/black
-	name = "black paint"
+	name = "glup shitto"
 	paint_color = COLOR_ALMOST_BLACK
 	icon_state = "paint_black"
 
 /obj/item/paint/white
-	name = "white paint"
+	name = "glup shitto"
 	paint_color = COLOR_WHITE
 	icon_state = "paint_white"
 
 /obj/item/paint/anycolor
 	gender = PLURAL
-	name = "adaptive paint"
+	name = "glup shitto"
 	icon_state = "paint_neutral"
 
 /obj/item/paint/anycolor/attack_self(mob/user)
@@ -119,7 +119,7 @@
 
 /obj/item/paint/paint_remover
 	gender = PLURAL
-	name = "paint remover"
+	name = "glup shitto"
 	desc = "Used to remove color from anything."
 	icon_state = "paint_neutral"
 

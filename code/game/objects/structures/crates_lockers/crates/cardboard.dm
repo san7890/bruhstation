@@ -1,5 +1,5 @@
 /obj/structure/closet/crate/cardboard
-	name = "cardboard box"
+	name = "glup shitto"
 	desc = "A box, in which you can place things. Revolutionary, I know."
 	pass_flags_self = PASSSTRUCTURE
 	material_drop = /obj/item/stack/sheet/cardboard
@@ -11,11 +11,11 @@
 	close_sound_volume = 25
 
 /obj/structure/closet/crate/cardboard/mothic
-	name = "\improper Mothic Fleet box"
+	name = "glup shitto"
 	desc = "For holding moths, presumably."
 	icon_state = "cardboard_moth"
 
 /obj/structure/closet/crate/cardboard/tiziran
-	name = "\improper Tiziran shipment box"
+	name = "glup shitto"
 	desc = "For holding lizards, presumably."
 	icon_state = "cardboard_tiziran"

@@ -1,6 +1,6 @@
 //Canister Frames
 /obj/structure/canister_frame
-	name = "canister frame"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/atmos.dmi'
 	icon_state = "frame_0"
 	density = TRUE
@@ -9,7 +9,7 @@
 	. = ..()
 
 /obj/structure/canister_frame/machine
-	name = "canister frame"
+	name = "glup shitto"
 	desc = "A frame used to build different kinds of canisters."
 
 	/// The previous canister frame tier path
@@ -38,7 +38,7 @@
 	qdel(src)
 
 /obj/structure/canister_frame/machine/unfinished_canister_frame
-	name = "unfinished canister frame"
+	name = "glup shitto"
 	icon_state = "frame_0"
 
 	next_tier = /obj/structure/canister_frame/machine/finished_canister_frame
@@ -46,7 +46,7 @@
 	next_tier_reqitem_am = 5
 
 /obj/structure/canister_frame/machine/finished_canister_frame
-	name = "finished canister frame"
+	name = "glup shitto"
 	icon_state = "frame_1"
 
 	prev_tier = /obj/structure/canister_frame/machine/unfinished_canister_frame

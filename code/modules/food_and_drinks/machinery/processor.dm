@@ -1,7 +1,7 @@
 #define PROCESSOR_SELECT_RECIPE(movable_input) LAZYACCESS(processor_inputs[type], movable_input.type)
 
 /obj/machinery/processor
-	name = "food processor"
+	name = "glup shitto"
 	desc = "An industrial grinder used to process meat and other foods. Keep hands clear of intake area while operating."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "processor1"
@@ -184,7 +184,7 @@
 	user.visible_message(span_notice("[user] crawls free of the processor!"))
 
 /obj/machinery/processor/slime
-	name = "slime processor"
+	name = "glup shitto"
 	desc = "An industrial grinder with a sticker saying appropriated for science department. Keep hands clear of intake area while operating."
 	circuit = /obj/item/circuitboard/machine/processor/slime
 

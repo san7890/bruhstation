@@ -11,7 +11,7 @@ Anyways, we just define the type of AI this mob has on the ai_controller var. It
 
 ```dm
 /mob/living/basic/butterfly
-	name = "butterfly"
+	name = "glup shitto"
 	desc = "A colorful butterfly, how'd it get up here?"
 	// a lot more variables defining for us what a butterfly is
 

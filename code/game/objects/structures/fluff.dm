@@ -4,7 +4,7 @@
  * Fluff structures serve no purpose and exist only for enriching the environment. By default, they can be deconstructed with a wrench.
  */
 /obj/structure/fluff
-	name = "fluff structure"
+	name = "glup shitto"
 	desc = "Fluffier than a sheep. This shouldn't exist."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "minibar"
@@ -29,7 +29,7 @@
  * Empty terrariums are created when a preserved terrarium in a lavaland seed vault is activated.
  */
 /obj/structure/fluff/empty_terrarium
-	name = "empty terrarium"
+	name = "glup shitto"
 	desc = "An ancient machine that seems to be used for storing plant matter. Its hatch is ajar."
 	icon = 'icons/obj/lavaland/spawners.dmi'
 	icon_state = "terrarium_open"
@@ -38,13 +38,13 @@
  * Empty sleepers are created by a good few ghost roles in lavaland.
  */
 /obj/structure/fluff/empty_sleeper
-	name = "empty sleeper"
+	name = "glup shitto"
 	desc = "An open sleeper. It looks as though it would be awaiting another patient, were it not broken."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper-open"
 
 /obj/structure/fluff/empty_sleeper/nanotrasen
-	name = "broken hypersleep chamber"
+	name = "glup shitto"
 	desc = "A Nanotrasen hypersleep chamber - this one appears broken. \
 		There are exposed bolts for easy disassembly using a wrench."
 	icon_state = "sleeper-o"
@@ -55,13 +55,13 @@
  * Empty cryostasis sleepers are created when a malfunctioning cryostasis sleeper in a lavaland shelter is activated.
  */
 /obj/structure/fluff/empty_cryostasis_sleeper
-	name = "empty cryostasis sleeper"
+	name = "glup shitto"
 	desc = "Although comfortable, this sleeper won't function as anything but a bed ever again."
 	icon = 'icons/obj/lavaland/spawners.dmi'
 	icon_state = "cryostasis_sleeper_open"
 
 /obj/structure/fluff/broken_flooring
-	name = "broken tiling"
+	name = "glup shitto"
 	desc = "A segment of broken flooring."
 	icon = 'icons/obj/brokentiling.dmi'
 	icon_state = "corner"
@@ -69,7 +69,7 @@
  * Ash drake status spawn on either side of the necropolis gate in lavaland.
  */
 /obj/structure/fluff/drake_statue
-	name = "drake statue"
+	name = "glup shitto"
 	desc = "A towering basalt sculpture of a proud and regal drake. Its eyes are six glowing gemstones."
 	icon = 'icons/effects/64x64.dmi'
 	icon_state = "drake_statue"
@@ -89,7 +89,7 @@
 
 
 /obj/structure/fluff/bus
-	name = "bus"
+	name = "glup shitto"
 	desc = "GO TO SCHOOL. READ A BOOK."
 	icon = 'icons/obj/bus.dmi'
 	icon_state = null
@@ -98,11 +98,11 @@
 	deconstructible = FALSE
 
 /obj/structure/fluff/bus/dense
-	name = "bus"
+	name = "glup shitto"
 	icon_state = "backwall"
 
 /obj/structure/fluff/bus/passable
-	name = "bus"
+	name = "glup shitto"
 	icon_state = "frontwalltop"
 	density = FALSE
 	layer = ABOVE_ALL_MOB_LAYER //except for the stairs tile, which should be set to OBJ_LAYER aka 3.
@@ -110,7 +110,7 @@
 
 
 /obj/structure/fluff/bus/passable/seat
-	name = "seat"
+	name = "glup shitto"
 	desc = "Buckle up! ...What do you mean, there's no seatbelts?!"
 	icon_state = "backseat"
 	pixel_y = 17
@@ -119,7 +119,7 @@
 
 
 /obj/structure/fluff/bus/passable/seat/driver
-	name = "driver's seat"
+	name = "glup shitto"
 	desc = "Space Jesus is my copilot."
 	icon_state = "driverseat"
 
@@ -128,7 +128,7 @@
 	. = ..()
 
 /obj/structure/fluff/paper
-	name = "dense lining of papers"
+	name = "glup shitto"
 	desc = "A lining of paper scattered across the bottom of a wall."
 	icon = 'icons/obj/fluff.dmi'
 	icon_state = "paper"
@@ -138,59 +138,59 @@
 	icon_state = "papercorner"
 
 /obj/structure/fluff/paper/stack
-	name = "dense stack of papers"
+	name = "glup shitto"
 	desc = "A stack of various papers, childish scribbles scattered across each page."
 	icon_state = "paperstack"
 
 
 /obj/structure/fluff/divine
-	name = "Miracle"
+	name = "glup shitto"
 	icon = 'icons/obj/hand_of_god_structures.dmi'
 	icon_state = "error"
 	anchored = TRUE
 	density = TRUE
 
 /obj/structure/fluff/divine/nexus
-	name = "nexus"
+	name = "glup shitto"
 	desc = "It anchors a deity to this world. It radiates an unusual aura. It looks well protected from explosive shock."
 	icon_state = "nexus"
 
 /obj/structure/fluff/divine/conduit
-	name = "conduit"
+	name = "glup shitto"
 	desc = "It allows a deity to extend their reach.  Their powers are just as potent near a conduit as a nexus."
 	icon_state = "conduit"
 
 /obj/structure/fluff/divine/convertaltar
-	name = "conversion altar"
+	name = "glup shitto"
 	desc = "An altar dedicated to a deity."
 	icon_state = "convertaltar"
 	density = FALSE
 	can_buckle = 1
 
 /obj/structure/fluff/divine/powerpylon
-	name = "power pylon"
+	name = "glup shitto"
 	desc = "A pylon which increases the deity's rate it can influence the world."
 	icon_state = "powerpylon"
 	can_buckle = 1
 
 /obj/structure/fluff/divine/defensepylon
-	name = "defense pylon"
+	name = "glup shitto"
 	desc = "A pylon which is blessed to withstand many blows, and fire strong bolts at nonbelievers. A god can toggle it."
 	icon_state = "defensepylon"
 
 /obj/structure/fluff/divine/shrine
-	name = "shrine"
+	name = "glup shitto"
 	desc = "A shrine dedicated to a deity."
 	icon_state = "shrine"
 
 /obj/structure/fluff/fokoff_sign
-	name = "crude sign"
+	name = "glup shitto"
 	desc = "A crudely-made sign with the words 'fok of' written in some sort of red paint."
 	icon = 'icons/obj/fluff.dmi'
 	icon_state = "fokof"
 
 /obj/structure/fluff/big_chain
-	name = "giant chain"
+	name = "glup shitto"
 	desc = "A towering link of chains leading up to the ceiling."
 	icon = 'icons/effects/32x96.dmi'
 	icon_state = "chain"
@@ -201,7 +201,7 @@
 	plane = ABOVE_GAME_PLANE
 
 /obj/structure/fluff/beach_towel
-	name = "beach towel"
+	name = "glup shitto"
 	desc = "A towel decorated in various beach-themed designs."
 	icon = 'icons/obj/railings.dmi'
 	icon_state = "railing"
@@ -210,7 +210,7 @@
 	deconstructible = FALSE
 
 /obj/structure/fluff/beach_umbrella
-	name = "beach umbrella"
+	name = "glup shitto"
 	desc = "A fancy umbrella designed to keep the sun off beach-goers."
 	icon = 'icons/obj/fluff.dmi'
 	icon_state = "brella"
@@ -234,13 +234,13 @@
 	icon_state = "syndi_brella"
 
 /obj/structure/fluff/clockwork
-	name = "Clockwork Fluff"
+	name = "glup shitto"
 	icon = 'icons/obj/fluff.dmi'
 	icon_state = "error"
 	deconstructible = FALSE
 
 /obj/structure/fluff/clockwork/alloy_shards
-	name = "replicant alloy shards"
+	name = "glup shitto"
 	desc = "Broken shards of some oddly malleable metal. They occasionally move and seem to glow."
 	icon_state = "alloy_shards"
 
@@ -257,22 +257,22 @@
 	icon_state = "shard_large1"
 
 /obj/structure/fluff/clockwork/blind_eye
-	name = "blind eye"
+	name = "glup shitto"
 	desc = "A heavy brass eye, its red iris fallen dark."
 	icon_state = "blind_eye"
 
 /obj/structure/fluff/clockwork/fallen_armor
-	name = "fallen armor"
+	name = "glup shitto"
 	desc = "Lifeless chunks of armor. They're designed in a strange way and won't fit on you."
 	icon_state = "fallen_armor"
 
 /obj/structure/fluff/clockwork/clockgolem_remains
-	name = "clockwork golem scrap"
+	name = "glup shitto"
 	desc = "A pile of scrap metal. It seems damaged beyond repair."
 	icon_state = "clockgolem_dead"
 
 /obj/structure/fluff/tram_rail
-	name = "tram rail"
+	name = "glup shitto"
 	desc = "Great for trams, not so great for skating."
 	icon = 'icons/obj/tram_rails.dmi'
 	icon_state = "rail"
@@ -287,5 +287,5 @@
 	icon_state = "railend"
 
 /obj/structure/fluff/tram_rail/anchor
-	name = "tram rail anchor"
+	name = "glup shitto"
 	icon_state = "anchor"

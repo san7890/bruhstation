@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/rpgloot //its time to minmax your shit
-	name = "RPG Loot"
+	name = "glup shitto"
 	weight = 3
 	typepath = /datum/round_event/wizard/rpgloot
 	max_occurrences = 1
@@ -12,7 +12,7 @@
 	GLOB.rpgloot_controller = new /datum/rpgloot_controller
 
 /obj/item/upgradescroll
-	name = "item fortification scroll"
+	name = "glup shitto"
 	desc = "Somehow, this piece of paper can be applied to items to make them \"better\". Apparently there's a risk of losing the item if it's already \"too good\". <i>This all feels so arbitrary...</i>"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "scroll"
@@ -40,7 +40,7 @@
 	return .
 
 /obj/item/upgradescroll/unlimited
-	name = "unlimited foolproof item fortification scroll"
+	name = "glup shitto"
 	desc = "Somehow, this piece of paper can be applied to items to make them \"better\". This scroll is made from the tongues of dead paper wizards, and can be used an unlimited number of times, with no drawbacks."
 	uses = INFINITY
 	can_backfire = FALSE

@@ -4,7 +4,7 @@
 /datum/brain_trauma/special
 
 /datum/brain_trauma/special/godwoken
-	name = "Godwoken Syndrome"
+	name = "glup shitto"
 	desc = "Patient occasionally and uncontrollably channels an eldritch god when speaking."
 	scan_desc = "god delusion"
 	gain_text = span_notice("You feel a higher power inside your mind...")
@@ -48,7 +48,7 @@
 	voice_of_god(message, owner, list("colossus","yell"), 2.5, include_owner, name)
 
 /datum/brain_trauma/special/bluespace_prophet
-	name = "Bluespace Prophecy"
+	name = "glup shitto"
 	desc = "Patient can sense the bob and weave of bluespace around them, showing them passageways no one else can see."
 	scan_desc = "bluespace attunement"
 	gain_text = span_notice("You feel the bluespace pulsing around you...")
@@ -94,7 +94,7 @@
 	second.linked_to = first
 
 /obj/effect/client_image_holder/bluespace_stream
-	name = "bluespace stream"
+	name = "glup shitto"
 	desc = "You see a hidden pathway through bluespace..."
 	image_icon = 'icons/effects/effects.dmi'
 	image_state = "bluestream"
@@ -149,7 +149,7 @@
 	return COMPONENT_CANCEL_ATTACK_CHAIN
 
 /datum/brain_trauma/special/quantum_alignment
-	name = "Quantum Alignment"
+	name = "glup shitto"
 	desc = "Patient is prone to frequent spontaneous quantum entanglement, against all odds, causing spatial anomalies."
 	scan_desc = "quantum alignment"
 	gain_text = span_notice("You feel faintly connected to everything around you...")
@@ -232,7 +232,7 @@
 	linked = FALSE
 
 /datum/brain_trauma/special/psychotic_brawling
-	name = "Violent Psychosis"
+	name = "glup shitto"
 	desc = "Patient fights in unpredictable ways, ranging from helping his target to hitting them with brutal strength."
 	scan_desc = "violent psychosis"
 	gain_text = span_warning("You feel unhinged...")
@@ -252,10 +252,10 @@
 	QDEL_NULL(psychotic_brawling)
 
 /datum/brain_trauma/special/psychotic_brawling/bath_salts
-	name = "Chemical Violent Psychosis"
+	name = "glup shitto"
 
 /datum/brain_trauma/special/tenacity
-	name = "Tenacity"
+	name = "glup shitto"
 	desc = "Patient is psychologically unaffected by pain and injuries, and can remain standing far longer than a normal person."
 	scan_desc = "traumatic neuropathy"
 	gain_text = span_warning("You suddenly stop feeling pain.")
@@ -270,7 +270,7 @@
 	..()
 
 /datum/brain_trauma/special/death_whispers
-	name = "Functional Cerebral Necrosis"
+	name = "glup shitto"
 	desc = "Patient's brain is stuck in a functional near-death state, causing occasional moments of lucid hallucinations, which are often interpreted as the voices of the dead."
 	scan_desc = "chronic functional necrosis"
 	gain_text = span_warning("You feel dead inside.")
@@ -297,7 +297,7 @@
 	active = FALSE
 
 /datum/brain_trauma/special/existential_crisis
-	name = "Existential Crisis"
+	name = "glup shitto"
 	desc = "Patient's hold on reality becomes faint, causing occasional bouts of non-existence."
 	scan_desc = "existential crisis"
 	gain_text = span_warning("You feel less real.")
@@ -341,11 +341,11 @@
 
 //base sync holder is in desynchronizer.dm
 /obj/effect/abstract/sync_holder/veil
-	name = "non-existence"
+	name = "glup shitto"
 	desc = "Existence is just a state of mind."
 
 /datum/brain_trauma/special/beepsky
-	name = "Criminal"
+	name = "glup shitto"
 	desc = "Patient seems to be a criminal."
 	scan_desc = "criminal mind"
 	gain_text = span_warning("Justice is coming for you.")
@@ -396,7 +396,7 @@
 		owner.playsound_local(beepsky, 'sound/voice/beepsky/criminal.ogg', 40)
 
 /obj/effect/client_image_holder/securitron
-	name = "Securitron"
+	name = "glup shitto"
 	desc = "The LAW is coming."
 	image_icon = 'icons/mob/silicon/aibots.dmi'
 	image_state = "secbot-c"

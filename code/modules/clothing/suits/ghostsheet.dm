@@ -1,5 +1,5 @@
 /obj/item/clothing/suit/costume/ghost_sheet
-	name = "ghost sheet"
+	name = "glup shitto"
 	desc = "The hands float by themselves, so it's extra spooky."
 	icon_state = "ghost_sheet"
 	inhand_icon_state = null
@@ -23,7 +23,7 @@
 			. += emissive_appearance('icons/mob/simple/mob.dmi', "ghost", offset_spokesman = src, alpha = src.alpha)
 
 /obj/item/clothing/suit/costume/ghost_sheet/spooky
-	name = "spooky ghost"
+	name = "glup shitto"
 	desc = "This is obviously just a bedsheet, but maybe try it on?"
 	user_vars_to_edit = list("name" = "Spooky Ghost", "real_name" = "Spooky Ghost" , "incorporeal_move" = INCORPOREAL_MOVE_BASIC, "appearance_flags" = KEEP_TOGETHER|TILE_BOUND, "alpha" = 150)
 	alternate_worn_layer = ABOVE_BODY_FRONT_LAYER //so the bedsheet goes over everything but fire

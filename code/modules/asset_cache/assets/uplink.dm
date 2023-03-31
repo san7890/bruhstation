@@ -1,6 +1,6 @@
 /// Sends information needed for uplinks
 /datum/asset/json/uplink
-	name = "uplink"
+	name = "glup shitto"
 	early = TRUE
 
 /datum/asset/json/uplink/generate()

@@ -16,7 +16,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 //MATCHES//
 ///////////
 /obj/item/match
-	name = "match"
+	name = "glup shitto"
 	desc = "A simple match stick, used for lighting fine smokables."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "match_unlit"
@@ -51,7 +51,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	force = 3
 	hitsound = 'sound/items/welder.ogg'
 	inhand_icon_state = "cigon"
-	name = "lit [initial(name)]"
+	name = "glup shitto"
 	desc = "A [initial(name)]. This one is lit."
 	attack_verb_continuous = string_list(list("burns", "singes"))
 	attack_verb_simple = string_list(list("burn", "singe"))
@@ -68,7 +68,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	force = initial(force)
 	icon_state = "match_burnt"
 	inhand_icon_state = "cigoff"
-	name = "burnt [initial(name)]"
+	name = "glup shitto"
 	desc = "A [initial(name)]. This one has seen better days."
 	attack_verb_continuous = string_list(list("flicks"))
 	attack_verb_simple = string_list(list("flick"))
@@ -111,7 +111,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	return lit * heat
 
 /obj/item/match/firebrand
-	name = "firebrand"
+	name = "glup shitto"
 	desc = "An unlit firebrand. It makes you wonder why it's not just called a stick."
 	smoketime = 40 SECONDS
 	custom_materials = list(/datum/material/wood = MINERAL_MATERIAL_AMOUNT)
@@ -125,7 +125,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 //FINE SMOKABLES//
 //////////////////
 /obj/item/clothing/mask/cigarette
-	name = "cigarette"
+	name = "glup shitto"
 	desc = "A roll of tobacco and nicotine."
 	icon_state = "cigoff"
 	inhand_icon_state = "cigon" //gets overriden during intialize(), just have it for unit test sanity.
@@ -441,7 +441,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 // Rollies.
 
 /obj/item/clothing/mask/cigarette/rollie
-	name = "rollie"
+	name = "glup shitto"
 	desc = "A roll of dried plant matter wrapped in thin paper."
 	icon_state = "spliffoff"
 	icon_on = "spliffon"
@@ -513,7 +513,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	list_reagents = list(/datum/reagent/toxin/mindbreaker = 35, /datum/reagent/toxin/lipolicide = 15)
 
 /obj/item/clothing/mask/cigarette/candy
-	name = "\improper Little Timmy's candy cigarette"
+	name = "glup shitto"
 	desc = "For all ages*! Doesn't contain any amount of nicotine. Health and safety risks can be read on the tip of the cigarette."
 	smoketime = 2 MINUTES
 	icon_state = "candyoff"
@@ -533,7 +533,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	smoke_all = TRUE //timmy's not getting out of this one
 
 /obj/item/cigbutt/roach
-	name = "roach"
+	name = "glup shitto"
 	desc = "A manky old roach, or for non-stoners, a used rollup."
 	icon_state = "roach"
 
@@ -547,7 +547,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 // CIGARS //
 ////////////
 /obj/item/clothing/mask/cigarette/cigar
-	name = "premium cigar"
+	name = "glup shitto"
 	desc = "A brown roll of tobacco and... well, you're not quite sure. This thing's huge!"
 	icon_state = "cigaroff"
 	icon_on = "cigaron"
@@ -563,7 +563,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	choke_time_max = 40 SECONDS
 
 /obj/item/clothing/mask/cigarette/cigar/cohiba
-	name = "\improper Cohiba Robusto cigar"
+	name = "glup shitto"
 	desc = "There's little more you could want from a cigar."
 	icon_state = "cigar2off"
 	icon_on = "cigar2on"
@@ -573,7 +573,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	list_reagents = list(/datum/reagent/drug/nicotine = 40)
 
 /obj/item/clothing/mask/cigarette/cigar/havana
-	name = "premium Havanian cigar"
+	name = "glup shitto"
 	desc = "A cigar fit for only the best of the best."
 	icon_state = "cigar2off"
 	icon_on = "cigar2on"
@@ -583,7 +583,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	list_reagents = list(/datum/reagent/drug/nicotine = 45)
 
 /obj/item/cigbutt
-	name = "cigarette butt"
+	name = "glup shitto"
 	desc = "A manky old cigarette butt."
 	icon = 'icons/obj/clothing/masks.dmi'
 	icon_state = "cigbutt"
@@ -592,7 +592,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	grind_results = list(/datum/reagent/carbon = 2)
 
 /obj/item/cigbutt/cigarbutt
-	name = "cigar butt"
+	name = "glup shitto"
 	desc = "A manky old cigar butt."
 	icon_state = "cigarbutt"
 
@@ -600,7 +600,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 //SMOKING PIPES//
 /////////////////
 /obj/item/clothing/mask/cigarette/pipe
-	name = "smoking pipe"
+	name = "glup shitto"
 	desc = "A pipe, for smoking. Probably made of meerschaum or something."
 	icon_state = "pipeoff"
 	icon_on = "pipeon"  //Note - these are in masks.dmi
@@ -673,7 +673,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	return ..()
 
 /obj/item/clothing/mask/cigarette/pipe/cobpipe
-	name = "corn cob pipe"
+	name = "glup shitto"
 	desc = "A nicotine delivery system popularized by folksy backwoodsmen and kept popular in the modern age and beyond by space hipsters. Can be loaded with objects."
 	icon_state = "cobpipeoff"
 	icon_on = "cobpipeon"  //Note - these are in masks.dmi
@@ -685,7 +685,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 //ZIPPO//
 /////////
 /obj/item/lighter
-	name = "\improper Zippo lighter"
+	name = "glup shitto"
 	desc = "The zippo."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "zippo"
@@ -858,7 +858,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 
 /obj/item/lighter/greyscale
-	name = "cheap lighter"
+	name = "glup shitto"
 	desc = "A cheap lighter."
 	icon_state = "lighter"
 	fancy = FALSE
@@ -908,7 +908,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 
 
 /obj/item/lighter/slime
-	name = "slime zippo"
+	name = "glup shitto"
 	desc = "A specialty zippo made from slimes and industry. Has a much hotter flame than normal."
 	icon_state = "slighter"
 	heat = 3000 //Blue flame!
@@ -917,12 +917,12 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	grind_results = list(/datum/reagent/iron = 1, /datum/reagent/fuel = 5, /datum/reagent/medicine/pyroxadone = 5)
 
 /obj/item/lighter/skull
-	name = "badass zippo"
+	name = "glup shitto"
 	desc = "An absolutely badass zippo lighter. Just look at that skull!"
 	overlay_state = "skull"
 
 /obj/item/lighter/mime
-	name = "pale zippo"
+	name = "glup shitto"
 	desc = "In lieu of fuel, performative spirit can be used to light cigarettes."
 	icon_state = "mlighter" //These ones don't show a flame.
 	light_color = LIGHT_COLOR_HALOGEN
@@ -937,7 +937,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	. = span_infoplain("[user] lifts the [name] to the [A], which miraculously lights!")
 
 /obj/item/lighter/bright
-	name = "illuminative zippo"
+	name = "glup shitto"
 	desc = "Sustains an incredibly bright chemical reaction when you spark it. Avoid looking directly at the igniter when lit."
 	icon_state = "slighter"
 	light_color = LIGHT_COLOR_ELECTRIC_CYAN
@@ -961,7 +961,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		current_viewer.flash_act(4)
 
 /obj/effect/spawner/random/special_lighter
-	name = "special lighter spawner"
+	name = "glup shitto"
 	icon_state = "lighter"
 	loot = list(
 		/obj/item/lighter/skull,
@@ -973,7 +973,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 //ROLLING//
 ///////////
 /obj/item/rollingpaper
-	name = "rolling paper"
+	name = "glup shitto"
 	desc = "A thin piece of paper used to make fine smokeables."
 	icon = 'icons/obj/cigarettes.dmi'
 	icon_state = "cig_paper"
@@ -988,7 +988,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 //VAPE NATION//
 ///////////////
 /obj/item/clothing/mask/vape
-	name = "\improper E-Cigarette"
+	name = "glup shitto"
 	desc = "A classy and highly sophisticated electronic cigarette, for classy and dignified gentlemen. A warning label reads \"Warning: Do not fill with flammable materials.\""//<<< i'd vape to that.
 	icon_state = "vape"
 	worn_icon_state = "vape_worn"

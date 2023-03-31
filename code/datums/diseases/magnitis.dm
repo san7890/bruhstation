@@ -1,5 +1,5 @@
 /datum/disease/magnitis
-	name = "Magnitis"
+	name = "glup shitto"
 	max_stages = 4
 	spread_text = "Airborne"
 	cure_text = "Iron"

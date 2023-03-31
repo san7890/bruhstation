@@ -3,7 +3,7 @@
 	worn_icon = 'icons/mob/clothing/under/costume.dmi'
 
 /obj/item/clothing/under/costume/roman
-	name = "\improper Roman armor"
+	name = "glup shitto"
 	desc = "Ancient Roman armor. Made of metallic and leather straps."
 	icon_state = "roman"
 	inhand_icon_state = "armor"
@@ -12,27 +12,27 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/under/costume/jabroni
-	name = "jabroni outfit"
+	name = "glup shitto"
 	desc = "The leather club is two sectors down."
 	icon_state = "darkholme"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/owl
-	name = "owl uniform"
+	name = "glup shitto"
 	desc = "A soft brown jumpsuit made of synthetic feathers and strong conviction."
 	icon_state = "owl"
 	inhand_icon_state = "owl"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/griffin
-	name = "griffon uniform"
+	name = "glup shitto"
 	desc = "A soft brown jumpsuit with a white feather collar made of synthetic feathers and a lust for mayhem."
 	icon_state = "griffin"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/schoolgirl
-	name = "blue schoolgirl uniform"
+	name = "glup shitto"
 	desc = "It's just like one of my Japanese animes!"
 	icon_state = "schoolgirl"
 	inhand_icon_state = null
@@ -41,43 +41,43 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/schoolgirl/red
-	name = "red schoolgirl uniform"
+	name = "glup shitto"
 	icon_state = "schoolgirlred"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/costume/schoolgirl/green
-	name = "green schoolgirl uniform"
+	name = "glup shitto"
 	icon_state = "schoolgirlgreen"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/costume/schoolgirl/orange
-	name = "orange schoolgirl uniform"
+	name = "glup shitto"
 	icon_state = "schoolgirlorange"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/costume/pirate
-	name = "pirate outfit"
+	name = "glup shitto"
 	desc = "Yarr."
 	icon_state = "pirate"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/soviet
-	name = "soviet uniform"
+	name = "glup shitto"
 	desc = "For the Motherland!"
 	icon_state = "soviet"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/redcoat
-	name = "redcoat uniform"
+	name = "glup shitto"
 	desc = "Looks old."
 	icon_state = "redcoat"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/kilt
-	name = "kilt"
+	name = "glup shitto"
 	desc = "Includes shoes and plaid."
 	icon_state = "kilt"
 	inhand_icon_state = "kilt"
@@ -93,7 +93,7 @@
 	ADD_TRAIT(src, TRAIT_NODROP, HIGHLANDER)
 
 /obj/item/clothing/under/costume/gladiator
-	name = "gladiator uniform"
+	name = "glup shitto"
 	desc = "Are you not entertained? Is that not why you are here?"
 	icon_state = "gladiator"
 	inhand_icon_state = null
@@ -108,7 +108,7 @@
 	has_sensor = NO_SENSORS
 
 /obj/item/clothing/under/costume/maid
-	name = "maid costume"
+	name = "glup shitto"
 	desc = "Maid in China."
 	icon_state = "maid"
 	inhand_icon_state = "maid"
@@ -123,20 +123,20 @@
 	attach_accessory(A)
 
 /obj/item/clothing/under/costume/geisha
-	name = "geisha suit"
+	name = "glup shitto"
 	desc = "Cute space ninja senpai not included."
 	icon_state = "geisha"
 	body_parts_covered = CHEST|GROIN|ARMS
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/villain
-	name = "villain suit"
+	name = "glup shitto"
 	desc = "A change of wardrobe is necessary if you ever want to catch a real superhero."
 	icon_state = "villain"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/sailor
-	name = "sailor suit"
+	name = "glup shitto"
 	desc = "Skipper's in the wardroom drinkin gin'."
 	icon_state = "sailor"
 	inhand_icon_state = "b_suit"
@@ -149,19 +149,19 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/singer/yellow
-	name = "yellow performer's outfit"
+	name = "glup shitto"
 	icon_state = "ysing"
 	inhand_icon_state = null
 	female_sprite_flags = NO_FEMALE_UNIFORM
 
 /obj/item/clothing/under/costume/singer/blue
-	name = "blue performer's outfit"
+	name = "glup shitto"
 	icon_state = "bsing"
 	inhand_icon_state = null
 	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/costume/mummy
-	name = "mummy wrapping"
+	name = "glup shitto"
 	desc = "Return the slab or suffer my stale references."
 	icon_state = "mummy"
 	inhand_icon_state = null
@@ -171,7 +171,7 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/under/costume/scarecrow
-	name = "scarecrow clothes"
+	name = "glup shitto"
 	desc = "Perfect camouflage for hiding in botany."
 	icon_state = "scarecrow"
 	inhand_icon_state = null
@@ -181,7 +181,7 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/under/costume/draculass
-	name = "draculass coat"
+	name = "glup shitto"
 	desc = "A dress inspired by the ancient \"Victorian\" era."
 	icon_state = "draculass"
 	inhand_icon_state = null
@@ -190,14 +190,14 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/drfreeze
-	name = "doctor freeze's jumpsuit"
+	name = "glup shitto"
 	desc = "A modified scientist jumpsuit to look extra cool."
 	icon_state = "drfreeze"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/lobster
-	name = "foam lobster suit"
+	name = "glup shitto"
 	desc = "Who beheaded the college mascot?"
 	icon_state = "lobster"
 	inhand_icon_state = null
@@ -205,14 +205,14 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/gondola
-	name = "gondola hide suit"
+	name = "glup shitto"
 	desc = "Now you're cooking."
 	icon_state = "gondola"
 	inhand_icon_state = "lb_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/skeleton
-	name = "skeleton jumpsuit"
+	name = "glup shitto"
 	desc = "A black jumpsuit with a white bone pattern printed on it. Spooky!"
 	icon_state = "skeleton"
 	inhand_icon_state = null
@@ -222,7 +222,7 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/under/costume/mech_suit
-	name = "mech pilot's suit"
+	name = "glup shitto"
 	desc = "A mech pilot's suit. Might make your butt look big."
 	icon_state = "red_mech_suit"
 	inhand_icon_state = null
@@ -240,7 +240,7 @@
 						)
 
 /obj/item/clothing/under/costume/russian_officer
-	name = "\improper Russian officer's uniform"
+	name = "glup shitto"
 	desc = "The latest in fashionable russian outfits."
 	icon = 'icons/obj/clothing/under/security.dmi'
 	icon_state = "hostanclothes"
@@ -269,7 +269,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/buttondown/slacks
-	name = "buttondown shirt with slacks"
+	name = "glup shitto"
 	desc = "A fancy buttondown shirt with slacks."
 	icon_state = "buttondown_slacks"
 	greyscale_config = /datum/greyscale_config/buttondown_slacks
@@ -278,7 +278,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/costume/buttondown/shorts
-	name = "buttondown shirt with shorts"
+	name = "glup shitto"
 	desc = "A fancy buttondown shirt with shorts."
 	icon_state = "buttondown_shorts"
 	greyscale_config = /datum/greyscale_config/buttondown_shorts
@@ -287,20 +287,20 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/costume/jackbros
-	name = "jack bros outfit"
+	name = "glup shitto"
 	desc = "For when it's time to hee some hos."
 	icon_state = "JackFrostUniform"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/deckers
-	name = "deckers outfit"
+	name = "glup shitto"
 	icon_state = "decker_jumpsuit"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/football_suit
-	name = "football uniform"
+	name = "glup shitto"
 	icon_state = "football_suit"
 	can_adjust = FALSE
 	greyscale_config = /datum/greyscale_config/football_suit
@@ -309,52 +309,52 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/costume/swagoutfit
-	name = "Swag outfit"
+	name = "glup shitto"
 	desc = "Why don't you go secure some bitches?"
 	icon_state = "SwagOutfit"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/referee
-	name = "referee uniform"
+	name = "glup shitto"
 	desc = "A standard black and white striped uniform to signal authority."
 	icon_state = "referee"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/joker
-	name = "comedian suit"
+	name = "glup shitto"
 	desc = "The worst part of having a mental illness is people expect you to behave as if you don't."
 	icon_state = "joker"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/yuri
-	name = "yuri initiate jumpsuit"
+	name = "glup shitto"
 	icon_state = "yuri_uniform"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/dutch
-	name = "dutch's suit"
+	name = "glup shitto"
 	desc = "You can feel a <b>god damn plan</b> coming on."
 	icon_state = "DutchUniform"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/osi
-	name = "O.S.I. jumpsuit"
+	name = "glup shitto"
 	icon_state = "osi_jumpsuit"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/tmc
-	name = "Lost MC clothing"
+	name = "glup shitto"
 	icon_state = "tmc_jumpsuit"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/costume/gi
-	name = "Martial Artist Gi"
+	name = "glup shitto"
 	desc = "Assistant, nukie, whatever. You can beat anyone; it's called hard work!"
 	icon_state = "martial_arts_gi"
 	inhand_icon_state = null

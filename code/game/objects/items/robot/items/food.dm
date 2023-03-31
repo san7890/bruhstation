@@ -4,7 +4,7 @@
 #define DISPENSE_ICECREAM_MODE 4
 
 /obj/item/borg/lollipop
-	name = "treat fabricator"
+	name = "glup shitto"
 	desc = "Reward humans with various treats. Toggle in-module to switch between dispensing and high velocity ejection modes."
 	icon_state = "lollipop"
 	/// The current amount of available candy
@@ -152,7 +152,7 @@
 	..()
 
 /obj/item/ammo_casing/caseless/gumball
-	name = "Gumball"
+	name = "glup shitto"
 	desc = "Why are you seeing this?!"
 	projectile_type = /obj/projectile/bullet/reusable/gumball
 	click_cooldown_override = 2
@@ -161,7 +161,7 @@
 	projectile_type = /obj/projectile/bullet/reusable/gumball/harmful
 
 /obj/projectile/bullet/reusable/gumball
-	name = "gumball"
+	name = "glup shitto"
 	desc = "Oh noes! A fast-moving gumball!"
 	icon_state = "gumball"
 	ammo_type = /obj/item/food/gumball
@@ -179,7 +179,7 @@
 		dropped = TRUE
 
 /obj/item/ammo_casing/caseless/lollipop //NEEDS RANDOMIZED COLOR LOGIC.
-	name = "Lollipop"
+	name = "glup shitto"
 	desc = "Why are you seeing this?!"
 	projectile_type = /obj/projectile/bullet/reusable/lollipop
 	click_cooldown_override = 2
@@ -188,7 +188,7 @@
 	projectile_type = /obj/projectile/bullet/reusable/lollipop/harmful
 
 /obj/projectile/bullet/reusable/lollipop
-	name = "lollipop"
+	name = "glup shitto"
 	desc = "Oh noes! A fast-moving lollipop!"
 	icon_state = "lollipop_1"
 	ammo_type = /obj/item/food/lollipop/cyborg

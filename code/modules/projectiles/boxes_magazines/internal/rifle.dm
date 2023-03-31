@@ -1,5 +1,5 @@
 /obj/item/ammo_box/magazine/internal/boltaction
-	name = "bolt action rifle internal magazine"
+	name = "glup shitto"
 	desc = "Oh god, this shouldn't be here"
 	ammo_type = /obj/item/ammo_casing/a762
 	caliber = CALIBER_A762
@@ -7,13 +7,13 @@
 	multiload = TRUE
 
 /obj/item/ammo_box/magazine/internal/boltaction/pipegun
-	name = "pipegun internal magazine"
+	name = "glup shitto"
 	caliber = CALIBER_SHOTGUN
 	ammo_type = /obj/item/ammo_casing/shotgun/improvised
 	max_ammo = 1
 
 /obj/item/ammo_box/magazine/internal/boltaction/pipegun/prime
-	name = "regal pipegun internal magazine"
+	name = "glup shitto"
 	max_ammo = 3
 
 /obj/item/ammo_box/magazine/internal/enchanted

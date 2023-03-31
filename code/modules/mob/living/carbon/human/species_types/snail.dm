@@ -1,5 +1,5 @@
 /datum/species/snail
-	name = "Snailperson"
+	name = "glup shitto"
 	id = SPECIES_SNAIL
 	species_traits = list(
 		MUTCOLORS,
@@ -64,7 +64,7 @@
 	return ..()
 
 /obj/item/storage/backpack/snail
-	name = "snail shell"
+	name = "glup shitto"
 	desc = "Worn by snails as armor and storage compartment."
 	icon_state = "snailshell"
 	inhand_icon_state = null

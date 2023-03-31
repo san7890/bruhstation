@@ -1,5 +1,5 @@
 /obj/item/etherealballdeployer
-	name = "Portable Ethereal Disco Ball"
+	name = "glup shitto"
 	desc = "Press the button for a deployment of slightly-unethical PARTY!"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "ethdisco"
@@ -11,7 +11,7 @@
 	qdel(src)
 
 /obj/structure/etherealball
-	name = "Ethereal Disco Ball"
+	name = "glup shitto"
 	desc = "The ethics of this discoball are questionable."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "ethdisco_head_0"

@@ -1,6 +1,6 @@
 // Potato
 /obj/item/seeds/potato
-	name = "pack of potato seeds"
+	name = "glup shitto"
 	desc = "Boil 'em! Mash 'em! Stick 'em in a stew!"
 	icon_state = "seed-potato"
 	species = "potato"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/potato
 	seed = /obj/item/seeds/potato
-	name = "potato"
+	name = "glup shitto"
 	desc = "Boil 'em! Mash 'em! Stick 'em in a stew!"
 	icon_state = "potato"
 	foodtypes = VEGETABLES
@@ -32,7 +32,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/baked_potato, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)
 
 /obj/item/food/grown/potato/wedges
-	name = "potato wedges"
+	name = "glup shitto"
 	desc = "Slices of neatly cut potato."
 	icon_state = "potato_wedges"
 	bite_consumption_mod = 100
@@ -50,7 +50,7 @@
 
 // Sweet Potato
 /obj/item/seeds/potato/sweet
-	name = "pack of sweet potato seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into sweet potato plants."
 	icon_state = "seed-sweetpotato"
 	species = "sweetpotato"
@@ -61,7 +61,7 @@
 
 /obj/item/food/grown/potato/sweet
 	seed = /obj/item/seeds/potato/sweet
-	name = "sweet potato"
+	name = "glup shitto"
 	desc = "It's sweet."
 	icon_state = "sweetpotato"
 	distill_reagent = /datum/reagent/consumable/ethanol/sbiten

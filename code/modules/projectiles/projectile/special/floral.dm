@@ -1,5 +1,5 @@
 /obj/projectile/energy/floramut
-	name = "alpha somatoray"
+	name = "glup shitto"
 	icon_state = "energy"
 	damage = 0
 	damage_type = TOX
@@ -28,7 +28,7 @@
 				L.show_message(span_userdanger("The radiation beam singes you!"))
 
 /obj/projectile/energy/florayield
-	name = "beta somatoray"
+	name = "glup shitto"
 	icon_state = "energy2"
 	damage = 0
 	damage_type = TOX
@@ -42,7 +42,7 @@
 			L.set_nutrition(min(L.nutrition + 30, NUTRITION_LEVEL_FULL))
 
 /obj/projectile/energy/florarevolution
-	name = "gamma somatoray"
+	name = "glup shitto"
 	icon_state = "energy3"
 	damage = 0
 	damage_type = TOX

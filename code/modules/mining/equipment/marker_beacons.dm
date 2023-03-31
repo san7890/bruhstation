@@ -15,7 +15,7 @@ GLOBAL_LIST_INIT(marker_beacon_colors, sort_list(list(
 "Fuchsia" = LIGHT_COLOR_PINK)))
 
 /obj/item/stack/marker_beacon
-	name = "marker beacon"
+	name = "glup shitto"
 	singular_name = "marker beacon"
 	desc = "Prism-brand path illumination devices. Used by miners to mark paths and warn of danger."
 	icon = 'icons/obj/marker.dmi'
@@ -71,7 +71,7 @@ GLOBAL_LIST_INIT(marker_beacon_colors, sort_list(list(
 	update_appearance()
 
 /obj/structure/marker_beacon
-	name = "marker beacon"
+	name = "glup shitto"
 	desc = "A Prism-brand path illumination device. It is anchored in place and glowing steadily."
 	icon = 'icons/obj/marker.dmi'
 	icon_state = "marker"

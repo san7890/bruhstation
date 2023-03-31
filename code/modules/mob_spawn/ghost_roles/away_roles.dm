@@ -4,7 +4,7 @@
 //undead that protect a zlevel
 
 /obj/effect/mob_spawn/ghost_role/human/skeleton
-	name = "skeletal remains"
+	name = "glup shitto"
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "remains"
 	mob_name = "skeleton"
@@ -20,7 +20,7 @@
 	new_spawn.AddComponent(/datum/component/stationstuck, PUNISHMENT_MURDER, "You experience a feeling like a stressed twine being pulled until it snaps. Then, merciful nothing.")
 
 /obj/effect/mob_spawn/ghost_role/human/zombie
-	name = "rotting corpse"
+	name = "glup shitto"
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "remains"
 	mob_name = "zombie"

@@ -50,7 +50,7 @@
 
 /// Reagent genes store a reagent ID and reagent ratio.
 /datum/plant_gene/reagent
-	name = "UNKNOWN"
+	name = "glup shitto"
 	mutability_flags = PLANT_GENE_REMOVABLE
 	/// The typepath of the actual reagent that this gene is tied to.
 	var/reagent_id = /datum/reagent/consumable/nutriment
@@ -189,7 +189,7 @@
 
 /// Allows the plant to be squashed when thrown or slipped on, leaving a colored mess and trash type item behind.
 /datum/plant_gene/trait/squash
-	name = "Liquid Contents"
+	name = "glup shitto"
 	icon = "droplet"
 	description = "It may burst open from the internal pressure on impact."
 	trait_ids = THROW_IMPACT_ID | REAGENT_TRANSFER_ID | ATTACK_SELF_ID
@@ -244,7 +244,7 @@
  * Applies other trait effects (teleporting, etc) to the target by signal.
  */
 /datum/plant_gene/trait/slip
-	name = "Slippery Skin"
+	name = "glup shitto"
 	description = "Watch your step around this."
 	icon = "person-falling"
 	rate = 1.6
@@ -278,7 +278,7 @@
  * Also affects plant batteries see capatative cell production datum
  */
 /datum/plant_gene/trait/cell_charge
-	name = "Electrical Activity"
+	name = "glup shitto"
 	description = "It can electrocute on interaction or recharge batteries when eaten."
 	icon = "bolt"
 	rate = 0.2
@@ -347,7 +347,7 @@
  * Adds (1.4 + potency * rate) light range and (potency * (rate + 0.01)) light_power to products.
  */
 /datum/plant_gene/trait/glow
-	name = "Bioluminescence"
+	name = "glup shitto"
 	icon = "lightbulb"
 	rate = 0.03
 	description = "It emits a soft glow."
@@ -376,7 +376,7 @@
  * Adds - (potency * (rate * 0.2)) light power to products.
  */
 /datum/plant_gene/trait/glow/shadow
-	name = "Shadow Emission"
+	name = "glup shitto"
 	icon = "lightbulb-o"
 	rate = 0.04
 	glow_color = "#AAD84B"
@@ -388,37 +388,37 @@
 
 /// White
 /datum/plant_gene/trait/glow/white
-	name = "White Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#FFFFFF"
 
 /// Red
 /datum/plant_gene/trait/glow/red
-	name = "Red Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#FF3333"
 
 /// Yellow (not the disgusting glowshroom yellow hopefully)
 /datum/plant_gene/trait/glow/yellow
-	name = "Yellow Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#FFFF66"
 
 /// Green (oh no, now i'm radioactive)
 /datum/plant_gene/trait/glow/green
-	name = "Green Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#99FF99"
 
 /// Blue (the best one)
 /datum/plant_gene/trait/glow/blue
-	name = "Blue Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#6699FF"
 
 /// Purple (did you know that notepad++ doesnt think bioluminescence is a word) (was the person who wrote this using notepad++ for dm?)
 /datum/plant_gene/trait/glow/purple
-	name = "Purple Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#D966FF"
 
 // Pink (gay tide station pride)
 /datum/plant_gene/trait/glow/pink
-	name = "Pink Bioluminescence"
+	name = "glup shitto"
 	glow_color = "#FFB3DA"
 
 /*
@@ -426,7 +426,7 @@
  * Teleport radius is roughly potency / 10.
  */
 /datum/plant_gene/trait/teleport
-	name = "Bluespace Activity"
+	name = "glup shitto"
 	description = "It causes people to teleport on interaction."
 	icon = "right-left"
 	rate = 0.1
@@ -491,7 +491,7 @@
  * However, the plant's maximum yield is also halved, only up to 5.
  */
 /datum/plant_gene/trait/maxchem
-	name = "Densified Chemicals"
+	name = "glup shitto"
 	description = "The reagent volume is doubled, halving the plant yield instead."
 	icon = "flask-vial"
 	rate = 2
@@ -513,7 +513,7 @@
 
 /// Allows a plant to be harvested multiple times.
 /datum/plant_gene/trait/repeated_harvest
-	name = "Perennial Growth"
+	name = "glup shitto"
 	description = "It may be harvested multiple times from the same plant."
 	icon = "cubes-stacked"
 	/// Don't allow replica pods to be multi harvested, please.
@@ -526,7 +526,7 @@
  * Plants with electrical activity has their capacities massively increased (up to 40 mj at 100 potency)
  */
 /datum/plant_gene/trait/battery
-	name = "Capacitive Cell Production"
+	name = "glup shitto"
 	description = "It can work like a power cell when wired properly."
 	icon = "car-battery"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -607,7 +607,7 @@
  * At 0 potency it can inject 1 unit of its chemicals, while at 100 potency it can inject 20 units.
  */
 /datum/plant_gene/trait/stinging
-	name = "Hypodermic Prickles"
+	name = "glup shitto"
 	description = "It stings, passing some reagents in the process."
 	icon = "syringe"
 	trait_ids = REAGENT_TRANSFER_ID
@@ -644,7 +644,7 @@
 
 /// Explodes into reagent-filled smoke when squashed.
 /datum/plant_gene/trait/smoke
-	name = "Gaseous Decomposition"
+	name = "glup shitto"
 	description = "It can be smashed to turn its Liquid Contents into smoke."
 	icon = "cloud"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -677,7 +677,7 @@
 
 /// Makes the plant and its seeds fireproof. From lavaland plants.
 /datum/plant_gene/trait/fire_resistance
-	name = "Fire Resistance"
+	name = "glup shitto"
 	description = "Makes the seeds, plant and produce fireproof."
 	icon = "fire"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -700,7 +700,7 @@
 
 /// Invasive spreading lets the plant jump to other trays, and the spreading plant won't replace plants of the same type.
 /datum/plant_gene/trait/invasive
-	name = "Invasive Spreading"
+	name = "glup shitto"
 	description = "It attempts to spread around if not contained."
 	icon = "virus"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -766,7 +766,7 @@
  * Incompatible with auto-juicing composition.
  */
 /datum/plant_gene/trait/brewing
-	name = "Auto-Distilling Composition"
+	name = "glup shitto"
 	description = "Its nutriments undergo fermentation."
 	icon = "wine-glass"
 	trait_ids = CONTENTS_CHANGE_ID
@@ -778,7 +778,7 @@
  * Incompatible with auto-distilling composition.
  */
 /datum/plant_gene/trait/juicing
-	name = "Auto-Juicing Composition"
+	name = "glup shitto"
 	description = "Its nutriments turn into juice."
 	icon = "glass-water"
 	trait_ids = CONTENTS_CHANGE_ID
@@ -790,7 +790,7 @@
  * Just like slippery skin, if we have a trash type this only functions on that. (Banana peels)
  */
 /datum/plant_gene/trait/plant_laughter
-	name = "Hallucinatory Feedback"
+	name = "glup shitto"
 	description = "Makes sounds when people slip on it."
 	icon = "face-laugh-squint"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -826,7 +826,7 @@
  * Has no functional purpose outside of causing japes, adds eyes over the plant's sprite, which are adjusted for size by potency.
  */
 /datum/plant_gene/trait/eyes
-	name = "Oculary Mimicry"
+	name = "glup shitto"
 	description = "It will watch after you."
 	icon = "eye"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -844,7 +844,7 @@
 
 /// Makes the plant embed on thrown impact.
 /datum/plant_gene/trait/sticky
-	name = "Prickly Adhesion"
+	name = "glup shitto"
 	description = "It sticks to people when thrown, also passing reagents if stingy."
 	icon = "bandage"
 	trait_ids = THROW_IMPACT_ID
@@ -868,7 +868,7 @@
  * This requires nutriment to fuel. 1u nutriment = 25 K.
  */
 /datum/plant_gene/trait/chem_heating
-	name = "Exothermic Activity"
+	name = "glup shitto"
 	description = "It consumes nutriments to heat up other reagents, halving the yield."
 	icon = "temperatyre-arrow-up"
 	trait_ids = TEMP_CHANGE_ID
@@ -880,7 +880,7 @@
  * This requires nutriment to fuel. 1u nutriment = -5 K.
  */
 /datum/plant_gene/trait/chem_cooling
-	name = "Endothermic Activity"
+	name = "glup shitto"
 	description = "It consumes nutriments to cool down other reagents, halving the yield."
 	icon = "temperature-arrow-down"
 	trait_ids = TEMP_CHANGE_ID
@@ -889,19 +889,19 @@
 
 /// Prevents species mutation, while still allowing wild mutation harvest and Floral Somatoray species mutation.  Trait acts as a tag for hydroponics.dm to recognise.
 /datum/plant_gene/trait/never_mutate
-	name = "Prosophobic Inclination"
+	name = "glup shitto"
 	description = "The plant does not mutate normally, but may give a mutated produce."
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
 
 /// Prevents stat mutation caused by instability.  Trait acts as a tag for hydroponics.dm to recognise.
 /datum/plant_gene/trait/stable_stats
-	name = "Symbiotic Resilience"
+	name = "glup shitto"
 	description = "High instability does not affect the plant stats."
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
 
 /// Traits for flowers, makes plants not decompose.
 /datum/plant_gene/trait/preserved
-	name = "Natural Insecticide"
+	name = "glup shitto"
 	description = "It does not attract ants or decompose."
 	icon = "bug-slash"
 	mutability_flags = PLANT_GENE_REMOVABLE | PLANT_GENE_MUTATABLE | PLANT_GENE_GRAFTABLE
@@ -916,25 +916,25 @@
 		grown_plant.preserved_food = TRUE
 
 /datum/plant_gene/trait/carnivory
-	name = "Obligate Carnivory"
+	name = "glup shitto"
 	description = "Pests have positive effect on the plant health."
 	icon = "spider"
 
 /// Plant type traits. Incompatible with one another.
 /datum/plant_gene/trait/plant_type
-	name = "you shouldn't see this"
+	name = "glup shitto"
 	trait_ids = PLANT_TYPE_ID
 	mutability_flags = PLANT_GENE_GRAFTABLE
 
 /// Weeds don't get annoyed by weeds in their tray.
 /datum/plant_gene/trait/plant_type/weed_hardy
-	name = "Weed Adaptation"
+	name = "glup shitto"
 	description = "It is a weed that needs no nutrients and doesn't suffer from other weeds."
 	icon = "seedling"
 
 /// Mushrooms need less light and have a minimum yield.
 /datum/plant_gene/trait/plant_type/fungal_metabolism
-	name = "Fungal Vitality"
+	name = "glup shitto"
 	description = "It is a mushroom that needs no water, less light and can't be overtaken by weeds."
 	icon = "droplet-slash"
 

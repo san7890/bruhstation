@@ -5,7 +5,7 @@
 // TODO: well, a lot really, but i'd kill to get overlays and a bonebreaking effect like Blitz: The League, similar to electric shock skeletons
 
 /datum/wound/blunt
-	name = "Blunt (Bone) Wound"
+	name = "glup shitto"
 	sound_effect = 'sound/effects/wounds/crack1.ogg'
 	wound_type = WOUND_BLUNT
 	wound_flags = (BONE_WOUND | ACCEPTS_GAUZE)
@@ -202,7 +202,7 @@
 
 /// Joint Dislocation (Moderate Blunt)
 /datum/wound/blunt/moderate
-	name = "Joint Dislocation"
+	name = "glup shitto"
 	desc = "Patient's bone has been unset from socket, causing pain and reduced motor function."
 	treat_text = "Recommended application of bonesetter to affected limb, though manual relocation by applying an aggressive grab to the patient and helpfully interacting with afflicted limb may suffice."
 	examine_desc = "is awkwardly janked out of place"
@@ -315,7 +315,7 @@
 */
 
 /datum/wound/blunt/severe
-	name = "Hairline Fracture"
+	name = "glup shitto"
 	desc = "Patient's bone has suffered a crack in the foundation, causing serious pain and reduced limb functionality."
 	treat_text = "Recommended light surgical application of bone gel, though a sling of medical gauze will prevent worsening situation."
 	examine_desc = "appears grotesquely swollen, jagged bumps hinting at chips in the bone"
@@ -338,7 +338,7 @@
 
 /// Compound Fracture (Critical Blunt)
 /datum/wound/blunt/critical
-	name = "Compound Fracture"
+	name = "glup shitto"
 	desc = "Patient's bones have suffered multiple gruesome fractures, causing significant pain and near uselessness of limb."
 	treat_text = "Immediate binding of affected limb, followed by surgical intervention ASAP."
 	examine_desc = "is thoroughly pulped and cracked, exposing shards of bone to open air"

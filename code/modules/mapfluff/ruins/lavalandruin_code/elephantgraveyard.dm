@@ -15,7 +15,7 @@
 	AddComponent(/datum/component/seethrough, SEE_THROUGH_MAP_DEFAULT)
 
 /obj/structure/statue/bone/rib
-	name = "colossal rib"
+	name = "glup shitto"
 	desc = "It's staggering to think that something this big could have lived, let alone died."
 	custom_materials = list(/datum/material/bone=MINERAL_MATERIAL_AMOUNT*4)
 	icon = 'icons/obj/art/statuelarge.dmi'
@@ -24,7 +24,7 @@
 	icon_state_preview = "rib"
 
 /obj/structure/statue/bone/skull
-	name = "colossal skull"
+	name = "glup shitto"
 	desc = "The gaping maw of a dead, titanic monster."
 	custom_materials = list(/datum/material/bone=MINERAL_MATERIAL_AMOUNT*12)
 	icon = 'icons/obj/art/statuelarge.dmi'
@@ -42,7 +42,7 @@
 
 //***Wasteland floor and rock turfs here.
 /turf/open/misc/asteroid/basalt/wasteland //Like a more fun version of living in Arizona.
-	name = "cracked earth"
+	name = "glup shitto"
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "wasteland"
 	base_icon_state = "wasteland"
@@ -61,7 +61,7 @@
 		icon_state = "[base_icon_state][rand(0,6)]"
 
 /turf/closed/mineral/strong/wasteland
-	name = "ancient dry rock"
+	name = "glup shitto"
 	color = "#B5651D"
 	turf_type = /turf/open/misc/asteroid/basalt/wasteland
 	baseturfs = /turf/open/misc/asteroid/basalt/wasteland
@@ -79,7 +79,7 @@
 
 //***Oil well puddles.
 /obj/structure/sink/oil_well //You're not going to enjoy bathing in this...
-	name = "oil well"
+	name = "glup shitto"
 	desc = "A bubbling pool of oil. This would probably be valuable, had bluespace technology not destroyed the need for fossil fuels 200 years ago."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "puddle-oil"
@@ -124,7 +124,7 @@
 //***Grave mounds.
 /// has no items inside unless you use the filled subtype
 /obj/structure/closet/crate/grave
-	name = "burial mound"
+	name = "glup shitto"
 	desc = "A marked patch of soil, showing signs of a burial long ago. You wouldn't disturb a grave... right?"
 	icon = 'icons/obj/storage/crates.dmi'
 	icon_state = "grave"
@@ -223,7 +223,7 @@
 	return
 
 /obj/structure/closet/crate/grave/filled/lead_researcher
-	name = "ominous burial mound"
+	name = "glup shitto"
 	desc = "Even in a place filled to the brim with graves, this one shows a level of preperation and planning that fills you with dread."
 	icon = 'icons/obj/storage/crates.dmi'
 	icon_state = "grave_lead"
@@ -240,27 +240,27 @@
 
 //***Fluff items for lore/intrigue
 /obj/item/paper/crumpled/muddy/fluff/elephant_graveyard
-	name = "posted warning"
+	name = "glup shitto"
 	desc = "It seems to be smudged with mud and... oil?"
 	default_raw_text = "<B>TO WHOM IT MAY CONCERN</B><BR><BR>This area is property of the Nanotrasen Mining Division.<BR><BR>Trespassing in this area is illegal, highly dangerous, and subject to several NDAs.<br><br>Please turn back now, under intergalactic law section 48-R."
 
 /obj/item/paper/crumpled/muddy/fluff/elephant_graveyard/rnd_notes
-	name = "Research Findings: Day 26"
+	name = "glup shitto"
 	desc = "Huh, this one page looks like it was torn out of a full book. How odd."
 	icon_state = "docs_part"
 	default_raw_text = "<b>Researcher name:</b> B--*--* J--*s.<BR><BR>Detailed findings:<i>Today the camp site's cond-tion has wor--ene*. The ashst--ms keep blocking us off from le-ving the sit* for m-re supplies, and it's lo-king like we're out of pl*sma to p-wer the ge-erat*r. Can't rea-*y study c-*bon *ating with no li--ts, ya know? Da-*y's been going -*f again and ag-*n a-*ut h*w the company's left us to *ie here, but I j-s* keep tell-ng him to stop che*-in* out these damn graves. We m-y b*  archaeologists, but -e sho*ld have t-e dec-**cy to know these grav-s are *-l NEW.</i><BR><BR><b>The rest of the page is just semantics about carbon dating methods.</b>"
 
 /obj/item/paper/crumpled/muddy/fluff/elephant_graveyard/mutiny
-	name = "hastily scribbled note"
+	name = "glup shitto"
 	desc = "Seems like someone was in a hurry."
 	default_raw_text = "Alright, we all know that stuck up son a bitch is just doing this to keep us satisifed. Who the hell does he think he is, taking extra rations? We're OUT OF FOOD, CARL. Tomorrow at noon, we're going to try and take the ship by force. He HAS to be lying about the engine cooling down. He HAS TO BE. I'm tellin ya, with this implant I lifted off that last supply ship, I got the smarts to get us offa this shithole. Keep your knife handy carl."
 
 /obj/item/paper/fluff/ruins/elephant_graveyard/hypothesis
-	name = "research document"
+	name = "glup shitto"
 	desc = "Standard Nanotrasen typeface for important research documents."
 	default_raw_text = "<b>Day 9: Tenative Conclusions</b><BR><BR>While the area appears to be of significant cultural importance to the lizard race, outside of some sparce contact with native wildlife, we're yet to find any exact reasoning for the nature of this phenomenon. It seems that organic life is communally drawn to this planet as though it functions as a final resting place for intelligent life. As per company guidelines, this site shall be given the following classification: 'LZ-0271 - Elephant Graveyard' <BR><BR><u>Compiled list of Artifact findings (Currently Sent Offsite)</u><BR>Cultist Blade Fragments: x8<BR>Brass Multiplicative Ore Sample: x105<BR>Syndicate Revolutionary Leader Implant (Broken) x1<BR>Extinct Cortical Borer Tissue Sample x1<BR>Space Carp Fossil x3"
 
 /obj/item/paper/fluff/ruins/elephant_graveyard/final_message
-	name = "important-looking note"
+	name = "glup shitto"
 	desc = "This note is well written, and seems to have been put here so you'd find it."
 	default_raw_text = "If you find this... you don't need to know who I am.<BR><BR>You need to leave this place. I dunno what shit they did to me out here, but I don't think I'm going to be making it out of here.<BR><BR>This place... it wears down your psyche. The other researchers out here laughed it off but... They were the first to go.<BR><BR>One by one they started turning on each other. The more they found out, the more they started fighting and arguing...<BR>As I speak now, I had to... I wound up having to put most of my men down. I know what I had to do, and I know there's no way left for me to live with myself.<BR> If anyone ever finds this, just don't touch the graves.<BR><BR>DO NOT. TOUCH. THE GRAVES. Don't be a dumbass, like we all were."

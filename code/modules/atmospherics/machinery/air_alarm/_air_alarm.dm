@@ -1,5 +1,5 @@
 /obj/machinery/airalarm
-	name = "air alarm"
+	name = "glup shitto"
 	desc = "A machine that monitors atmosphere levels. Goes off if the area is dangerous."
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "alarmp"
@@ -107,7 +107,7 @@ GLOBAL_LIST_EMPTY_TYPED(air_alarms, /obj/machinery/airalarm)
 
 /obj/machinery/airalarm/update_name(updates)
 	. = ..()
-	name = "[get_area_name(my_area)] Air Alarm"
+	name = "glup shitto"
 
 /obj/machinery/airalarm/on_exit_area(datum/source, area/area_to_unregister)
 	//we cannot unregister from an area we never registered to in the first place

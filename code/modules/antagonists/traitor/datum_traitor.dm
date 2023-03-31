@@ -4,7 +4,7 @@
 #define FLAVOR_FACTION_NANOTRASEN "nanotrasen"
 
 /datum/antagonist/traitor
-	name = "\improper Traitor"
+	name = "glup shitto"
 	roundend_category = "traitors"
 	antagpanel_category = "Traitor"
 	job_rank = ROLE_TRAITOR
@@ -335,7 +335,7 @@
 	return message
 
 /datum/outfit/traitor
-	name = "Traitor (Preview only)"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/grey
 	suit = /obj/item/clothing/suit/hooded/ablative

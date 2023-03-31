@@ -17,19 +17,19 @@
 	locked = FALSE
 
 /obj/machinery/airalarm/engine
-	name = "engine air alarm"
+	name = "glup shitto"
 	locked = FALSE
 	req_access = null
 	req_one_access = list(ACCESS_ATMOSPHERICS, ACCESS_ENGINEERING)
 
 /obj/machinery/airalarm/mixingchamber
-	name = "chamber air alarm"
+	name = "glup shitto"
 	locked = FALSE
 	req_access = null
 	req_one_access = list(ACCESS_ATMOSPHERICS, ACCESS_ORDNANCE)
 
 /obj/machinery/airalarm/all_access
-	name = "all-access air alarm"
+	name = "glup shitto"
 	desc = "This particular atmos control unit appears to have no access restrictions."
 	locked = FALSE
 	req_access = null

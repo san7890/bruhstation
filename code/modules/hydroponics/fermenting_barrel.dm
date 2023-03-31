@@ -1,5 +1,5 @@
 /obj/structure/fermenting_barrel
-	name = "wooden barrel"
+	name = "glup shitto"
 	desc = "A large wooden barrel. You can ferment fruits and such inside it, or just use it to hold reagents."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "barrel"
@@ -137,7 +137,7 @@
 
 /// Lil gunpowder barrel fer pirates since it's a nice reagent holder
 /obj/structure/fermenting_barrel/gunpowder
-	name = "gunpowder barrel"
+	name = "glup shitto"
 	desc = "A large wooden barrel for holding gunpowder. You'll need to take from this to load the cannons."
 	can_open = FALSE
 

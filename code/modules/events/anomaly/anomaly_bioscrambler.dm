@@ -1,5 +1,5 @@
 /datum/round_event_control/anomaly/anomaly_bioscrambler
-	name = "Anomaly: Bioscrambler"
+	name = "glup shitto"
 	typepath = /datum/round_event/anomaly/anomaly_bioscrambler
 
 	min_players = 10

@@ -2,7 +2,7 @@
 	group = "Emergency"
 
 /datum/supply_pack/emergency/vehicle
-	name = "Biker Gang Kit" //TUNNEL SNAKES OWN THIS TOWN
+	name = "glup shitto" //TUNNEL SNAKES OWN THIS TOWN
 	desc = "TUNNEL SNAKES OWN THIS TOWN. Contains an unbranded All Terrain Vehicle, and a \
 		complete gang outfit -- consists of black gloves, a menacing skull bandanna, and a SWEET leather overcoat!"
 	cost = CARGO_CRATE_VALUE * 4
@@ -18,7 +18,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/emergency/bio
-	name = "Biological Emergency Crate"
+	name = "glup shitto"
 	desc = "This crate holds 2 full bio suits which will protect you from viruses."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/clothing/head/bio_hood = 2,
@@ -30,7 +30,7 @@
 	crate_name = "bio suit crate"
 
 /datum/supply_pack/emergency/equipment
-	name = "Emergency Bot/Internals Crate"
+	name = "glup shitto"
 	desc = "Explosions got you down? These supplies are guaranteed to patch up holes, \
 		in stations and people alike! Comes with two floorbots, two medbots, five oxygen \
 		masks and five small oxygen tanks."
@@ -44,7 +44,7 @@
 	crate_type = /obj/structure/closet/crate/internals
 
 /datum/supply_pack/emergency/bomb
-	name = "Explosive Emergency Crate"
+	name = "glup shitto"
 	desc = "Science gone bonkers? Beeping behind the airlock? Buy now and be the hero the station des... \
 		I mean needs! (time not included). Contains one bomb suit and hood, gas mask, and bomb defusal tools."
 	cost = CARGO_CRATE_VALUE * 2
@@ -58,7 +58,7 @@
 	crate_name = "bomb suit crate"
 
 /datum/supply_pack/emergency/firefighting
-	name = "Firefighting Crate"
+	name = "glup shitto"
 	desc = "Only you can prevent station fires. Partner up with two firefighter suits, gas masks, \
 		flashlights, large oxygen tanks, extinguishers, and hardhats!"
 	cost = CARGO_CRATE_VALUE * 2
@@ -72,7 +72,7 @@
 	crate_name = "firefighting crate"
 
 /datum/supply_pack/emergency/atmostank
-	name = "Firefighting Tank Backpack"
+	name = "glup shitto"
 	desc = "Mow down fires with this high-capacity fire fighting tank backpack."
 	cost = CARGO_CRATE_VALUE * 1.8
 	access = ACCESS_ATMOSPHERICS
@@ -81,7 +81,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/emergency/internals
-	name = "Internals Crate"
+	name = "glup shitto"
 	desc = "Master your life energy and control your breathing with three breath masks, \
 		three emergency oxygen tanks and three large air tanks." // IS THAT A
 	cost = CARGO_CRATE_VALUE * 2
@@ -94,14 +94,14 @@
 	crate_type = /obj/structure/closet/crate/internals
 
 /datum/supply_pack/emergency/metalfoam
-	name = "Metal Foam Grenade Crate"
+	name = "glup shitto"
 	desc = "Seal up those pesky hull breaches with seven metal foam grenades."
 	cost = CARGO_CRATE_VALUE * 2.4
 	contains = list(/obj/item/storage/box/metalfoam)
 	crate_name = "metal foam grenade crate"
 
 /datum/supply_pack/emergency/plasma_spacesuit
-	name = "Plasmaman Space Envirosuits"
+	name = "glup shitto"
 	desc = "Contains two space-worthy envirosuits for Plasmamen. \
 		Order now and we'll throw in two free helmets!"
 	cost = CARGO_CRATE_VALUE * 3.5
@@ -113,7 +113,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/emergency/plasmaman
-	name = "Plasmaman Supply Kit"
+	name = "glup shitto"
 	desc = "Keep those Plasmamen alive with two sets of Plasmaman outfits. \
 		Each set contains a plasmaman jumpsuit, gloves, internals tank, and helmet."
 	cost = CARGO_CRATE_VALUE * 3
@@ -125,7 +125,7 @@
 	crate_name = "plasmaman supply kit"
 
 /datum/supply_pack/emergency/radiation
-	name = "Radiation Protection Crate"
+	name = "glup shitto"
 	desc = "Survive the Nuclear Apocalypse and Supermatter Engine alike with two sets of radiation suits. \
 		Each set contains a helmet, suit, and Geiger counter. We'll even throw in a bottle of vodka and some glasses too, \
 		considering the life-expectancy of people who order this."
@@ -142,7 +142,7 @@
 	crate_type = /obj/structure/closet/crate/radiation
 
 /datum/supply_pack/emergency/spacesuit
-	name = "Space Suit Crate"
+	name = "glup shitto"
 	desc = "Contains one aging suit from Space-Goodwill and a jetpack."
 	cost = CARGO_CRATE_VALUE * 3
 	access = ACCESS_EVA
@@ -155,7 +155,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/emergency/specialops
-	name = "Special Ops Supplies"
+	name = "glup shitto"
 	desc = "(*!&@#SAD ABOUT THAT NULL_ENTRY, HUH OPERATIVE? WELL, THIS LITTLE ORDER CAN STILL HELP YOU OUT IN A PINCH. \
 		CONTAINS A BOX OF FIVE EMP GRENADES, THREE SMOKEBOMBS, AN INCENDIARY GRENADE, AND A \"SLEEPY PEN\" FULL OF NICE TOXINS!#@*$"
 	hidden = TRUE
@@ -169,7 +169,7 @@
 	crate_type = /obj/structure/closet/crate/internals
 
 /datum/supply_pack/emergency/weedcontrol
-	name = "Weed Control Crate"
+	name = "glup shitto"
 	desc = "Keep those invasive species OUT. Contains a scythe, leather gloves, gasmask, and two anti-weed chemical grenades. \
 		Warranty void if used on ambrosia."
 	cost = CARGO_CRATE_VALUE * 2.5
@@ -183,7 +183,7 @@
 	crate_type = /obj/structure/closet/crate/secure/hydroponics
 
 /datum/supply_pack/emergency/mothic_rations
-	name = "Surplus Mothic Rations Triple-Pak"
+	name = "glup shitto"
 	desc = "Crew starving? Chef slacking off? Keep everyone fed on the barest minimum of what can be considered food \
 		with surplus ration packs, directly from the Mothic Fleet! Pack includes 3 packs of 3 bars each."
 	cost = CARGO_CRATE_VALUE * 3

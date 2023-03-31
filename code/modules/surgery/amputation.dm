@@ -1,6 +1,6 @@
 
 /datum/surgery/amputation
-	name = "Amputation"
+	name = "glup shitto"
 	requires_bodypart_type = NONE
 	possible_locs = list(
 		BODY_ZONE_R_ARM,
@@ -20,7 +20,7 @@
 
 
 /datum/surgery_step/sever_limb
-	name = "sever limb (circular saw)"
+	name = "glup shitto"
 	implements = list(
 		/obj/item/shears = 300,
 		TOOL_SCALPEL = 100,

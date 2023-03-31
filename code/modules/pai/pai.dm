@@ -23,7 +23,7 @@
 	mouse_opacity = MOUSE_OPACITY_ICON
 	move_force = 0
 	move_resist = 0
-	name = "pAI"
+	name = "glup shitto"
 	pass_flags = PASSTABLE | PASSMOB
 	pull_force = 0
 	radio = /obj/item/radio/headset/silicon/pai

@@ -2,7 +2,7 @@
  * Photo
  */
 /obj/item/photo
-	name = "photo"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "photo"
 	inhand_icon_state = "paper"

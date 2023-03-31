@@ -1,6 +1,6 @@
 
 /obj/structure/closet/body_bag
-	name = "body bag"
+	name = "glup shitto"
 	desc = "A plastic bag designed for the storage and transportation of cadavers."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "bodybag"
@@ -117,7 +117,7 @@
 	the_folder.put_in_hands(folding_bodybag)
 
 /obj/structure/closet/body_bag/bluespace
-	name = "bluespace body bag"
+	name = "glup shitto"
 	desc = "A bluespace body bag designed for the storage and transportation of cadavers."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "bluebodybag"
@@ -174,7 +174,7 @@
 /// Environmental bags. They protect against bad weather.
 
 /obj/structure/closet/body_bag/environmental
-	name = "environmental protection bag"
+	name = "glup shitto"
 	desc = "An insulated, reinforced bag designed to protect against exoplanetary storms and other environmental factors."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "envirobag"
@@ -225,7 +225,7 @@
 	air_contents.gases[/datum/gas/nitrogen][MOLES] = (ONE_ATMOSPHERE*50)/(R_IDEAL_GAS_EQUATION*T20C) * N2STANDARD
 
 /obj/structure/closet/body_bag/environmental/nanotrasen
-	name = "elite environmental protection bag"
+	name = "glup shitto"
 	desc = "A heavily reinforced and insulated bag, capable of fully isolating its contents from external factors."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "ntenvirobag"
@@ -237,7 +237,7 @@
 /// Securable enviro. bags
 
 /obj/structure/closet/body_bag/environmental/prisoner
-	name = "prisoner transport bag"
+	name = "glup shitto"
 	desc = "Intended for transport of prisoners through hazardous environments, this environmental protection bag comes with straps to keep an occupant secure."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "prisonerenvirobag"
@@ -345,7 +345,7 @@
 	update_appearance()
 
 /obj/structure/closet/body_bag/environmental/prisoner/syndicate
-	name = "syndicate prisoner transport bag"
+	name = "glup shitto"
 	desc = "An alteration of Nanotrasen's environmental protection bag which has been used in several high-profile kidnappings. Designed to keep a victim unconscious, alive, and secured during transport."
 	icon = 'icons/obj/bodybag.dmi'
 	icon_state = "syndieenvirobag"
@@ -366,7 +366,7 @@
 	air_contents.gases[/datum/gas/nitrous_oxide][MOLES] = (ONE_ATMOSPHERE*50)/(R_IDEAL_GAS_EQUATION*T20C) * N2STANDARD
 
 /obj/structure/closet/body_bag/environmental/hardlight
-	name = "hardlight bodybag"
+	name = "glup shitto"
 	desc = "A hardlight bag for storing bodies. Resistant to space."
 	icon_state = "holobag_med"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
@@ -378,7 +378,7 @@
 		playsound(src, 'sound/weapons/egloves.ogg', 80, TRUE)
 
 /obj/structure/closet/body_bag/environmental/prisoner/hardlight
-	name = "hardlight prisoner bodybag"
+	name = "glup shitto"
 	desc = "A hardlight bag for storing bodies. Resistant to space, can be sinched to prevent escape."
 	icon_state = "holobag_sec"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF

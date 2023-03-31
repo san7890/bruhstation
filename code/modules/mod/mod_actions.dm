@@ -40,7 +40,7 @@
 	return TRUE
 
 /datum/action/item_action/mod/deploy
-	name = "Deploy MODsuit"
+	name = "glup shitto"
 	desc = "LMB: Deploy/Undeploy part. RMB: Deploy/Undeploy full suit."
 	button_icon_state = "deploy"
 
@@ -58,7 +58,7 @@
 	ai_action = TRUE
 
 /datum/action/item_action/mod/activate
-	name = "Activate MODsuit"
+	name = "glup shitto"
 	desc = "LMB: Activate/Deactivate suit with prompt. RMB: Activate/Deactivate suit skipping prompt."
 	button_icon_state = "activate"
 	/// First time clicking this will set it to TRUE, second time will activate it.
@@ -88,7 +88,7 @@
 	ai_action = TRUE
 
 /datum/action/item_action/mod/module
-	name = "Toggle Module"
+	name = "glup shitto"
 	desc = "Toggle a MODsuit module."
 	button_icon_state = "module"
 
@@ -103,7 +103,7 @@
 	ai_action = TRUE
 
 /datum/action/item_action/mod/panel
-	name = "MODsuit Panel"
+	name = "glup shitto"
 	desc = "Open the MODsuit's panel."
 	button_icon_state = "panel"
 
@@ -136,7 +136,7 @@
 	if(linked_module.allow_flags & MODULE_ALLOW_INCAPACITATED)
 		// clears check hands and check conscious
 		check_flags = NONE
-	name = "Activate [capitalize(linked_module.name)]"
+	name = "glup shitto"
 	desc = "Quickly activate [linked_module]."
 	RegisterSignals(linked_module, list(COMSIG_MODULE_ACTIVATED, COMSIG_MODULE_DEACTIVATED, COMSIG_MODULE_USED), PROC_REF(module_interacted_with))
 

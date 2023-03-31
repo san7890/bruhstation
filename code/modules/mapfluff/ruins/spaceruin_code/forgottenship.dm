@@ -7,14 +7,14 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 /////////// forgottenship objects
 
 /obj/machinery/door/password/voice/sfc
-	name = "Voice-activated Vault door"
+	name = "glup shitto"
 	desc = "You'll need special syndicate passcode to open this one."
 /obj/machinery/door/password/voice/sfc/Initialize(mapload)
 	. = ..()
 	password = "[GLOB.fscpassword]"
 
 /obj/machinery/vending/medical/syndicate_access/cybersun
-	name = "\improper CyberMed ++"
+	name = "glup shitto"
 	desc = "An advanced vendor that dispenses medical drugs, both recreational and medicinal."
 	products = list(/obj/item/reagent_containers/syringe = 4,
 					/obj/item/healthanalyzer = 4,
@@ -52,7 +52,7 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 /////////// forgottenship lore
 
 /obj/item/paper/fluff/ruins/forgottenship/password
-	name = "Old pamphlet"
+	name = "glup shitto"
 
 /obj/item/paper/fluff/ruins/forgottenship/password/Initialize(mapload)
 	default_raw_text = "Welcome to most advanced cruiser owned by Cyber Sun Industries!<br>You might notice, that this cruiser is equipped with 12 prototype laser turrets making any hostile boarding attempts futile.<br>Other facilities built on the ship are: Simple atmospheric system, Camera system with built-in X-ray visors and Safety module, enabling emergency engines in case of... you know, emergency.<br>Emergency system will bring you to nearest syndicate pod containing everything needed for human life.<br><br><b>In case of emergency, you must remember the pod-door activation code - [GLOB.fscpassword]</b><br><br>Cyber Sun Industries (C) 2484."
@@ -61,17 +61,17 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	return ..()
 
 /obj/item/paper/fluff/ruins/forgottenship/powerissues
-	name = "Power issues"
+	name = "glup shitto"
 	default_raw_text = "Welcome to battle cruiser SCSBC-12!<br>Our most advanced systems allow you to fly in space and never worry about power issues!<br>However, emergencies occur, and in case of power loss, <b>you must</b> enable emergency generator using uranium as fuel and enable turrets in bridge afterwards.<br><br><b>REMEMBER! CYBERSUN INDUSTRIES ARE NOT RESPONSIBLE FOR YOUR DEATH OR SHIP LOSS WHEN TURRETS ARE DISABLED!</b><br><br>Cyber Sun Industries (C) 2484."
 
 /obj/item/paper/fluff/ruins/forgottenship/missionobj
-	name = "Mission objectives"
+	name = "glup shitto"
 	default_raw_text = "Greetings, operatives. You are assigned to SCSBC-12(Syndicate Cyber Sun Battle Cruiser 12) to protect our high-ranking officer while he is on his way to next outpost. While you are travelling, he is the captain of this ship and <b>you must</b> obey his orders.<br><br>Remember, disobeying high-ranking officer orders is a reason for termination."
 
 /////////// forgottenship items
 
 /obj/item/disk/surgery/forgottenship
-	name = "Advanced Surgery Disk"
+	name = "glup shitto"
 	desc = "A disk that contains advanced surgery procedures, must be loaded into an Operating Console."
 	surgeries = list(/datum/surgery/advanced/lobotomy, /datum/surgery/advanced/bioware/vein_threading, /datum/surgery/advanced/bioware/nerve_splicing)
 
@@ -85,7 +85,7 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	AddComponent(/datum/component/gps, "Old Encrypted Signal")
 
 /obj/item/storage/box/firingpins/syndicate
-	name = "box of syndicate firing pins"
+	name = "glup shitto"
 	desc = "A box full of special syndicate firing pins which allow only syndicate operatives to use weapons with those firing pins."
 
 /obj/item/storage/box/firingpins/syndicate/PopulateContents()
@@ -95,11 +95,11 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 /////////// AI Laws
 
 /obj/item/ai_module/core/full/cybersun
-	name = "'Cybersun' Core AI Module"
+	name = "glup shitto"
 	law_id = "cybersun"
 
 /datum/ai_laws/cybersun
-	name = "Cybersun"
+	name = "glup shitto"
 	id = "cybersun"
 	inherent = list("You may not injure Cybersun operatives or, through inaction, allow Cybersun operatives to come to harm.",\
 					"The Cybersun ship is a restricted area for anyone except Cybersun operatives.",\
@@ -110,17 +110,17 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 /////////// forgottenship areas
 
 /area/ruin/space/has_grav/syndicate_forgotten_ship
-	name = "Syndicate Forgotten Ship"
+	name = "glup shitto"
 	icon_state = "syndie-ship"
 	ambientsounds = list('sound/ambience/ambidanger.ogg', 'sound/ambience/ambidanger2.ogg', 'sound/ambience/ambigen9.ogg', 'sound/ambience/ambigen10.ogg')
 
 /area/ruin/space/has_grav/syndicate_forgotten_cargopod
-	name = "Syndicate Forgotten Cargo pod"
+	name = "glup shitto"
 	icon_state = "syndie-ship"
 	ambientsounds = list('sound/ambience/ambigen4.ogg', 'sound/ambience/signal.ogg')
 
 /area/ruin/space/has_grav/powered/syndicate_forgotten_vault
-	name = "Syndicate Forgotten Vault"
+	name = "glup shitto"
 	icon_state = "syndie-ship"
 	ambientsounds = list('sound/ambience/ambitech2.ogg', 'sound/ambience/ambitech3.ogg')
 	area_flags = NOTELEPORT | UNIQUE_AREA
@@ -128,7 +128,7 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 //Special NT NPCs
 
 /mob/living/simple_animal/hostile/nanotrasen/ranged/assault
-	name = "Nanotrasen Assault Officer"
+	name = "glup shitto"
 	desc = "Nanotrasen Assault Officer. Contact CentCom if you saw him on your station. Prepare to die, if you've been found near Syndicate property."
 	ranged = TRUE
 	rapid = 4
@@ -143,7 +143,7 @@ GLOBAL_VAR_INIT(fscpassword, generate_password())
 	held_item = /obj/item/gun/ballistic/automatic/ar
 
 /mob/living/simple_animal/hostile/nanotrasen/elite
-	name = "Nanotrasen Elite Assault Officer"
+	name = "glup shitto"
 	desc = "Pray for your life, syndicate. Run while you can."
 	maxHealth = 150
 	health = 150

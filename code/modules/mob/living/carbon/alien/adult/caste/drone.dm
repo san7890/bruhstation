@@ -1,5 +1,5 @@
 /mob/living/carbon/alien/adult/drone
-	name = "alien drone"
+	name = "glup shitto"
 	caste = "d"
 	maxHealth = 125
 	health = 125
@@ -17,7 +17,7 @@
 	return ..()
 
 /datum/action/cooldown/alien/evolve_to_praetorian
-	name = "Evolve to Praetorian"
+	name = "glup shitto"
 	desc = "Praetorian"
 	button_icon_state = "alien_evolve_drone"
 	plasma_cost = 500

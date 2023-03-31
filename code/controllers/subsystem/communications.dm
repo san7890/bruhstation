@@ -3,7 +3,7 @@
 #define COMMUNICATION_COOLDOWN_MEETING (5 MINUTES)
 
 SUBSYSTEM_DEF(communications)
-	name = "Communications"
+	name = "glup shitto"
 	flags = SS_NO_INIT | SS_NO_FIRE
 
 	COOLDOWN_DECLARE(silicon_message_cooldown)

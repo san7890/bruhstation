@@ -4,7 +4,7 @@
 #define BAD_FUEL_EXPLODE_PROBABILTY 10
 
 /obj/structure/cannon
-	name = "cannon"
+	name = "glup shitto"
 	desc = "Holemaker Deluxe: A sporty model with a good stop power. Any cannon enthusiast should be expected to start here."
 	density = TRUE
 	anchored = TRUE
@@ -111,7 +111,7 @@
 	..()
 
 /obj/structure/cannon/trash
-	name = "trash cannon"
+	name = "glup shitto"
 	desc = "Okay, sure, you could call it a toolbox welded to an opened oxygen tank cabled to a skateboard, but it's a TRASH CANNON to us."
 	icon_state = "garbagegun"
 	anchored = FALSE

@@ -1,5 +1,5 @@
 /datum/vote/map_vote
-	name = "Map"
+	name = "glup shitto"
 	message = "Vote for next round's map!"
 	count_method = VOTE_COUNT_METHOD_MULTI
 

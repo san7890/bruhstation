@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/asteroid/ice_whelp
-	name = "ice whelp"
+	name = "glup shitto"
 	desc = "The offspring of an ice drake, weak in comparison but still terrifying."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "ice_whelp"

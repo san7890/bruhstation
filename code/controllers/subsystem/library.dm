@@ -1,6 +1,6 @@
 /// Manages library data, loading bookselves, etc
 SUBSYSTEM_DEF(library)
-	name = "Library Loading"
+	name = "glup shitto"
 	flags = SS_NO_FIRE
 
 	/// List of bookselves to prefill with books

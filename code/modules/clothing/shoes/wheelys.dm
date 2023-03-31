@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/wheelys
-	name = "Wheely-Heels"
+	name = "glup shitto"
 	desc = "Uses patented retractable wheel technology. Never sacrifice speed for style - not that this provides much of either." //Thanks Fel
 	worn_icon_state = "wheelys"
 	greyscale_colors = "#545454#ffffff"
@@ -59,7 +59,7 @@
 	. = ..()
 
 /obj/item/clothing/shoes/wheelys/rollerskates
-	name = "roller skates"
+	name = "glup shitto"
 	desc = "An EightO brand pair of roller skates. The wheels are retractable, though're quite bulky to walk in."
 	icon_state = "rollerskates"
 	inhand_icon_state = null
@@ -72,7 +72,7 @@
 	custom_price = PAYCHECK_CREW * 5
 
 /obj/item/clothing/shoes/wheelys/skishoes
-	name = "ski shoes"
+	name = "glup shitto"
 	desc = "A pair of shoes equipped with foldable skis! Very handy to move in snowy environments unimpeded."
 	icon_state = "skishoes"
 	inhand_icon_state = null

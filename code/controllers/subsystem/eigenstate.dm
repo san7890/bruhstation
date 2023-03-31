@@ -1,6 +1,6 @@
 ///Subsystem used to teleport people to a linked web of itterative entries. If one entry is deleted, the 2 around it will forge a link instead.
 SUBSYSTEM_DEF(eigenstates)
-	name = "Eigenstates"
+	name = "glup shitto"
 	flags = SS_NO_INIT | SS_NO_FIRE
 	///The list of objects that something is linked to indexed by UID
 	var/list/eigen_targets = list()

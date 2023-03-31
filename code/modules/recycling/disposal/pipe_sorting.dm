@@ -1,7 +1,7 @@
 // A three-way junction that sorts objects based on check_sorting(H) proc
 // This is a base type, use subtypes on the map.
 /obj/structure/disposalpipe/sorting
-	name = "sorting disposal pipe"
+	name = "glup shitto"
 	desc = "An underfloor disposal pipe with a sorting mechanism."
 	icon_state = "pipe-j1s"
 	initialize_dirs = DISP_DIR_RIGHT | DISP_DIR_FLIP

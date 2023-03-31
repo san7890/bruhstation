@@ -66,7 +66,7 @@
 
 
 /obj/effect/landmark/river_waypoint
-	name = "river waypoint"
+	name = "glup shitto"
 	var/connected = FALSE
 	invisibility = INVISIBILITY_ABSTRACT
 

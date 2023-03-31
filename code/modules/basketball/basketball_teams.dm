@@ -1,6 +1,6 @@
 // GENERIC TEAM
 /datum/outfit/basketball
-	name = "Basketball Team Uniform"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	id = /obj/item/card/id/away
@@ -40,7 +40,7 @@
 	human_to_equip.dna.species.stunmod = 0
 
 /datum/outfit/basketball/referee
-	name = "Basketball Referee"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/costume/referee
 	shoes = /obj/item/clothing/shoes/laceup
 	mask = /obj/item/clothing/mask/whistle/minigame
@@ -48,14 +48,14 @@
 	head = /obj/item/clothing/head/soft/black
 
 /datum/outfit/basketball/nanotrasen
-	name = "Basketball NT Team"
+	name = "glup shitto"
 	undershirt = /datum/sprite_accessory/undershirt/bluejersey
 	uniform = /obj/item/clothing/under/shorts/blue
 	suit = /obj/item/clothing/suit/jacket/letterman_nanotrasen
 	shoes = /obj/item/clothing/shoes/sneakers/black
 
 /datum/outfit/basketball/greytide_worldwide
-	name = "Basketball Greytide Worldwide"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/color/grey/ancient
 	shoes = /obj/item/clothing/shoes/sneakers/brown
 	mask = /obj/item/clothing/mask/gas/prop
@@ -72,7 +72,7 @@
 	slowdown_active = 0
 
 /datum/outfit/basketball/space_surfers
-	name = "Basketball Space Surfers"
+	name = "glup shitto"
 	shoes = /obj/item/clothing/shoes/magboots/basketball
 	suit = /obj/item/clothing/suit/space/basketball
 	head = /obj/item/clothing/head/helmet/space
@@ -80,7 +80,7 @@
 	neck = /obj/item/bedsheet/cosmos
 
 /datum/outfit/basketball/lusty_xenomorphs
-	name = "Basketball Lusty Xenomorphs"
+	name = "glup shitto"
 	suit = /obj/item/clothing/suit/costume/xenos
 	head = /obj/item/clothing/head/costume/xenos
 	mask = /obj/item/clothing/mask/chameleon

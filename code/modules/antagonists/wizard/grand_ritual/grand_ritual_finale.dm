@@ -71,7 +71,7 @@
  * This doesn't preclude other people choosing to want to kill the wizard, just these people are rewarded for it.
  */
 /datum/antagonist/wizard_prank_vendetta
-	name = "\improper Wizard Prank Victim"
+	name = "glup shitto"
 	roundend_category = "wizard prank victims"
 	show_in_antagpanel = FALSE
 	antagpanel_category = "Other"
@@ -81,7 +81,7 @@
 
 /// Become the official Captain of the station
 /datum/grand_finale/usurp
-	name = "Usurpation"
+	name = "glup shitto"
 	desc = "The ultimate use of your gathered power! Rewrite time such that you have been Captain of this station the whole time."
 	icon = 'icons/obj/card.dmi'
 	icon_state = "card_gold"
@@ -176,7 +176,7 @@
 
 /// An outfit which replaces parts of a wizard's clothes with captain's clothes but keeps the robes
 /datum/outfit/job/wizard_captain
-	name = "Captain (Wizard Transformation)"
+	name = "glup shitto"
 	jobtype = /datum/job/captain
 	id = /obj/item/card/id/advanced/gold
 	id_trim = /datum/id_trim/job/captain
@@ -195,7 +195,7 @@
 
 /// Dress the crew as magical clowns
 /datum/grand_finale/clown
-	name = "Jubilation"
+	name = "glup shitto"
 	desc = "The ultimate use of your gathered power! Rewrite time so that everyone went to clown college! Now they'll prank each other for you!"
 	icon = 'icons/obj/clothing/masks.dmi'
 	icon_state = "clown"
@@ -272,7 +272,7 @@
 
 /// Give everyone magic items
 /datum/grand_finale/magic
-	name = "Evolution"
+	name = "glup shitto"
 	desc = "The ultimate use of your gathered power! Give the crew their own magic, they'll surely realise that right and wrong have no meaning when you hold ultimate power!"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "scroll"
@@ -283,7 +283,7 @@
 
 /// Open all of the doors
 /datum/grand_finale/all_access
-	name = "Connection"
+	name = "glup shitto"
 	desc = "The ultimate use of your gathered power! Unlock every single door that they have! Nobody will be able to keep you out now, or anyone else for that matter!"
 	icon = 'icons/mob/actions/actions_spells.dmi'
 	icon_state = "knock"
@@ -301,7 +301,7 @@
 
 /// Completely transform the station
 /datum/grand_finale/midas
-	name = "Transformation"
+	name = "glup shitto"
 	desc = "The ultimate use of your gathered power! Turn their precious station into something much MORE precious, materially speaking!"
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "sheet-gold_2"
@@ -348,7 +348,7 @@
 
 /// Kill yourself and probably a bunch of other people
 /datum/grand_finale/armageddon
-	name = "Annihilation"
+	name = "glup shitto"
 	desc = "This crew have offended you beyond the realm of pranks. Make the ultimate sacrifice to teach them a lesson your elders can really respect. \
 		YOU WILL NOT SURVIVE THIS."
 	icon = 'icons/hud/screen_alert.dmi'

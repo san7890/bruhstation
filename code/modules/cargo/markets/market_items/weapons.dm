@@ -2,7 +2,7 @@
 	category = "Weapons"
 
 /datum/market_item/weapon/bear_trap
-	name = "Bear Trap"
+	name = "glup shitto"
 	desc = "Get the janitor back at his own game with this affordable prank kit."
 	item = /obj/item/restraints/legcuffs/beartrap
 
@@ -12,7 +12,7 @@
 	availability_prob = 40
 
 /datum/market_item/weapon/shotgun_dart
-	name = "Shotgun Dart"
+	name = "glup shitto"
 	desc = "These handy darts can be filled up with any chemical and be shot with a shotgun! \
 	Prank your friends by shooting them with laughter! \
 	Not recommended for comercial use."
@@ -25,7 +25,7 @@
 	availability_prob = 40
 
 /datum/market_item/weapon/bone_spear
-	name = "Bone Spear"
+	name = "glup shitto"
 	desc = "Authentic tribal spear, made from real bones! A steal at any price, especially if you're a caveman."
 	item = /obj/item/spear/bonespear
 
@@ -35,7 +35,7 @@
 	availability_prob = 60
 
 /datum/market_item/weapon/chainsaw
-	name = "Chainsaw"
+	name = "glup shitto"
 	desc = "A lumberjack's best friend, perfect for cutting trees or limbs efficiently."
 	item = /obj/item/chainsaw
 
@@ -45,7 +45,7 @@
 	availability_prob = 35
 
 /datum/market_item/weapon/switchblade
-	name = "Switchblade"
+	name = "glup shitto"
 	desc = "Tunnel Snakes rule!"
 	item = /obj/item/switchblade
 
@@ -55,7 +55,7 @@
 	availability_prob = 45
 
 /datum/market_item/weapon/emp_grenade
-	name = "EMP Grenade"
+	name = "glup shitto"
 	desc = "Use this grenade for SHOCKING results!"
 	item = /obj/item/grenade/empgrenade
 

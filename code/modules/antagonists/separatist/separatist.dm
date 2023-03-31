@@ -1,5 +1,5 @@
 /datum/team/nation
-	name = "\improper Nation"
+	name = "glup shitto"
 	member_name = "separatist"
 	///a list of ranks that can join this nation.
 	var/list/potential_recruits
@@ -71,7 +71,7 @@
 		needs_objectives.owner.announce_objectives()
 
 /datum/antagonist/separatist
-	name = "\improper Separatists"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	show_name_in_check_antagonists = TRUE
 	suicide_cry = "FOR THE MOTHERLAND!!"

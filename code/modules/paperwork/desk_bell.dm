@@ -1,7 +1,7 @@
 // A receptionist's bell
 
 /obj/structure/desk_bell
-	name = "desk bell"
+	name = "glup shitto"
 	desc = "The cornerstone of any customer service job. You feel an unending urge to ring it."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "desk_bell"

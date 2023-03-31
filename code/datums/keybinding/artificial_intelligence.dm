@@ -7,7 +7,7 @@
 
 /datum/keybinding/artificial_intelligence/reconnect
 	hotkey_keys = list("-")
-	name = "reconnect"
+	name = "glup shitto"
 	full_name = "Reconnect to shell"
 	description = "Reconnects you to your most recently used AI shell"
 	keybind_signal = COMSIG_KB_SILICON_RECONNECT_DOWN

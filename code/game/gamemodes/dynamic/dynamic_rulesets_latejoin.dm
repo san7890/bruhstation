@@ -51,7 +51,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/latejoin/infiltrator
-	name = "Syndicate Infiltrator"
+	name = "glup shitto"
 	antag_datum = /datum/antagonist/traitor
 	antag_flag = ROLE_SYNDICATE_INFILTRATOR
 	antag_flag_override = ROLE_TRAITOR
@@ -80,7 +80,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/latejoin/provocateur
-	name = "Provocateur"
+	name = "glup shitto"
 	persistent = TRUE
 	antag_datum = /datum/antagonist/rev/head
 	antag_flag = ROLE_PROVOCATEUR
@@ -177,7 +177,7 @@
 //////////////////////////////////////////////
 
 /datum/dynamic_ruleset/latejoin/heretic_smuggler
-	name = "Heretic Smuggler"
+	name = "glup shitto"
 	antag_datum = /datum/antagonist/heretic
 	antag_flag = ROLE_HERETIC_SMUGGLER
 	antag_flag_override = ROLE_HERETIC

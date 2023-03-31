@@ -1,5 +1,5 @@
 /obj/item/clothing/mask/fakemoustache
-	name = "fake moustache"
+	name = "glup shitto"
 	desc = "Warning: moustache is fake."
 	icon_state = "fake-moustache"
 	w_class = WEIGHT_CLASS_TINY
@@ -7,7 +7,7 @@
 	species_exception = list(/datum/species/golem)
 
 /obj/item/clothing/mask/fakemoustache/italian
-	name = "italian moustache"
+	name = "glup shitto"
 	desc = "Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly."
 	modifies_speech = TRUE
 

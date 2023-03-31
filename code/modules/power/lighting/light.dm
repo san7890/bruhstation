@@ -1,6 +1,6 @@
 // the standard tube light fixture
 /obj/machinery/light
-	name = "light fixture"
+	name = "glup shitto"
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "tube"
 	desc = "A lighting fixture."
@@ -670,7 +670,7 @@
 		INVOKE_ASYNC(src, PROC_REF(flicker))
 
 /obj/machinery/light/floor
-	name = "floor light"
+	name = "glup shitto"
 	desc = "A lightbulb you can walk on without breaking it, amazing."
 	icon = 'icons/obj/lighting.dmi'
 	base_state = "floor" // base description and icon_state

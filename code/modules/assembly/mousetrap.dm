@@ -1,5 +1,5 @@
 /obj/item/assembly/mousetrap
-	name = "mousetrap"
+	name = "glup shitto"
 	desc = "A handy little spring-loaded trap for catching pesty rodents."
 	icon_state = "mousetrap"
 	inhand_icon_state = "mousetrap"

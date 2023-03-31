@@ -7,14 +7,14 @@
 
 //We don't want these to hide - they're helpful!
 /datum/reagent/impurity/healing
-	name = "Healing Impure Reagent"
+	name = "glup shitto"
 	description = "Not all impure reagents are bad! Sometimes you might want to specifically make these!"
 	chemical_flags = REAGENT_DONOTSPLIT
 	addiction_types = list(/datum/addiction/medicine = 3.5)
 	liver_damage = 0
 
 /datum/reagent/inverse/healing
-	name = "Healing Inverse Reagent"
+	name = "glup shitto"
 	description = "Not all impure reagents are bad! Sometimes you might want to specifically make these!"
 	chemical_flags = REAGENT_DONOTSPLIT
 	addiction_types = list(/datum/addiction/medicine = 3)
@@ -26,7 +26,7 @@
 
 //Catch all failed reaction for medicines - supposed to be non punishing
 /datum/reagent/impurity/healing/medicine_failure
-	name = "Insolvent Medicinal Precipitate"
+	name = "glup shitto"
 	description = "A viscous mess of various medicines. Will heal a damage type at random"
 	metabolization_rate = 1 * REM//This is fast
 	addiction_types = list(/datum/addiction/medicine = 7.5)
@@ -52,7 +52,7 @@
 // Helbital
 //Inverse:
 /datum/reagent/inverse/helgrasp
-	name = "Helgrasp"
+	name = "glup shitto"
 	description = "This rare and forbidden concoction is thought to bring you closer to the grasp of the Norse goddess Hel."
 	metabolization_rate = 1*REM //This is fast
 	tox_damage = 0.25
@@ -122,7 +122,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	return ..()
 
 /datum/reagent/inverse/helgrasp/heretic
-	name = "Grasp of the Mansus"
+	name = "glup shitto"
 	description = "The Hand of the Mansus is at your neck."
 	metabolization_rate = 1 * REM
 	tox_damage = 0
@@ -131,7 +131,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //Impure
 //Simply reduces your alcohol tolerance, kinda simular to prohol
 /datum/reagent/impurity/libitoil
-	name = "Libitoil"
+	name = "glup shitto"
 	description = "Temporarilly interferes a patient's ability to process alcohol."
 	chemical_flags = REAGENT_DONOTSPLIT
 	ph = 13.5
@@ -175,7 +175,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 
 //probital
 /datum/reagent/impurity/probital_failed//Basically crashed out failed metafactor
-	name = "Metabolic Inhibition Factor"
+	name = "glup shitto"
 	description = "This enzyme catalyzes crashes the conversion of nutricious food into healing peptides."
 	metabolization_rate = 0.0625  * REAGENTS_METABOLISM //slow metabolism rate so the patient can self heal with food even after the troph has metabolized away for amazing reagent efficency.
 	reagent_state = SOLID
@@ -190,7 +190,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	..()
 
 /datum/reagent/peptides_failed
-	name = "Prion Peptides"
+	name = "glup shitto"
 	taste_description = "spearmint frosting"
 	description = "These inhibitory peptides cause cellular damage and cost nutrition to the patient!"
 	ph = 2.1
@@ -203,7 +203,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //Lenturi
 //impure
 /datum/reagent/impurity/lentslurri //Okay maybe I should outsource names for these
-	name = "Lentslurri"//This is a really bad name please replace
+	name = "glup shitto"//This is a really bad name please replace
 	description = "A highly addicitive muscle relaxant that is made when Lenturi reactions go wrong."
 	addiction_types = list(/datum/addiction/medicine = 8)
 	liver_damage = 0
@@ -218,7 +218,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 
 //failed
 /datum/reagent/inverse/ichiyuri
-	name = "Ichiyuri"
+	name = "glup shitto"
 	description = "Prolonged exposure to this chemical can cause an overwhelming urge to itch oneself."
 	reagent_state = LIQUID
 	color = "#C8A5DC"
@@ -247,7 +247,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //Aiuri
 //impure
 /datum/reagent/impurity/aiuri
-	name = "Aivime"
+	name = "glup shitto"
 	description = "This reagent is known to interfere with the eyesight of a patient."
 	ph = 3.1
 	addiction_types = list(/datum/addiction/medicine = 1.5)
@@ -267,7 +267,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //Hercuri
 //inverse
 /datum/reagent/inverse/hercuri
-	name = "Herignis"
+	name = "glup shitto"
 	description = "This reagent causes a dramatic raise in the patient's body temperature. Overdosing makes the effect even stronger and causes severe liver damage."
 	ph = 0.8
 	tox_damage = 0
@@ -305,7 +305,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 		human.adjust_coretemperature(heating)
 
 /datum/reagent/inverse/healing/tirimol
-	name = "Super Melatonin"//It's melatonin, but super!
+	name = "glup shitto"//It's melatonin, but super!
 	description = "This will send the patient to sleep, adding a bonus to the efficacy of all reagents administered."
 	ph = 12.5 //sleeping is a basic need of all lifeformsa
 	self_consuming = TRUE //No pesky liver shenanigans
@@ -352,7 +352,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //convermol
 //inverse
 /datum/reagent/inverse/healing/convermol
-	name = "Coveroli"
+	name = "glup shitto"
 	description = "This reagent is known to coat the inside of a patient's lungs, providing greater protection against hot or cold air."
 	ph = 3.82
 	tox_damage = 0
@@ -426,7 +426,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //Inverse
 //Allows the scanner to detect organ health to the nearest 1% (similar use to irl) and upgrates the scan to advanced
 /datum/reagent/inverse/technetium
-	name = "Technetium 99"
+	name = "glup shitto"
 	description = "A radioactive tracer agent that can improve a scanner's ability to detect internal organ damage. Will poison the patient when present very slowly, purging or using a low dose is recommended after use."
 	metabolization_rate = 0.3 * REM
 	chemical_flags = REAGENT_DONOTSPLIT //Do show this on scanner
@@ -446,7 +446,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 
 //Kind of a healing effect, Presumably you're using syrinver to purge so this helps that
 /datum/reagent/inverse/healing/syriniver
-	name = "Syrinifergus"
+	name = "glup shitto"
 	description = "This reagent reduces the impurity of all non medicines within the patient, reducing their negative effects."
 	self_consuming = TRUE //No pesky liver shenanigans
 	chemical_flags = REAGENT_DONOTSPLIT | REAGENT_DEAD_PROCESS
@@ -483,7 +483,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 //Inverse
 //Reaction product when between 0.2 and 0.35 purity.
 /datum/reagent/inverse/healing/monover
-	name = "Monover"
+	name = "glup shitto"
 	description = "A toxin treating reagent, that only is effective if it's the only reagent present in the patient."
 	ph = 0.5
 	addiction_types = list(/datum/addiction/medicine = 3.5)
@@ -503,7 +503,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 ///If they're past fullcrit, their movement is slowed by half
 ///If they OD, their heart explodes (if they were brought back from the dead)
 /datum/reagent/inverse/penthrite
-	name = "Nooartrium"
+	name = "glup shitto"
 	description = "A reagent that is known to stimulate the heart in a dead patient, temporarily bringing back recently dead patients at great cost to their heart."
 	ph = 14
 	metabolization_rate = 0.05 * REM
@@ -593,7 +593,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 /*				Non c2 medicines 				*/
 
 /datum/reagent/impurity/mannitol
-	name = "Mannitoil"
+	name = "glup shitto"
 	description = "Gives the patient a temporary speech impediment."
 	color = "#CDCDFF"
 	addiction_types = list(/datum/addiction/medicine = 5)
@@ -635,7 +635,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	carbon.dna?.remove_mutation(speech_option)
 
 /datum/reagent/inverse/neurine
-	name = "Neruwhine"
+	name = "glup shitto"
 	description = "Induces a temporary brain trauma in the patient by redirecting neuron activity."
 	color = "#DCDCAA"
 	ph = 13.4
@@ -675,7 +675,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	affected_mob.cure_trauma_type(temp_trauma, resilience = TRAUMA_RESILIENCE_MAGIC)
 
 /datum/reagent/inverse/corazargh
-	name = "Corazargh" //It's what you yell! Though, if you've a better name feel free. Also an omage to an older chem
+	name = "glup shitto" //It's what you yell! Though, if you've a better name feel free. Also an omage to an older chem
 	description = "Interferes with the body's natural pacemaker, forcing the patient to manually beat their heart."
 	color = "#5F5F5F"
 	self_consuming = TRUE
@@ -747,7 +747,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	..()
 
 /datum/reagent/inverse/antihol
-	name = "Prohol"
+	name = "glup shitto"
 	description = "Promotes alcoholic substances within the patients body, making their effects more potent."
 	taste_description = "alcohol" //mostly for sneaky slips
 	chemical_flags = REAGENT_INVISIBLE
@@ -762,7 +762,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	..()
 
 /datum/reagent/inverse/oculine
-	name = "Oculater"
+	name = "glup shitto"
 	description = "Temporarily blinds the patient."
 	reagent_state = LIQUID
 	color = "#DDDDDD"
@@ -791,7 +791,7 @@ Basically, we fill the time between now and 2s from now with hands based off the
 	..()
 
 /datum/reagent/impurity/inacusiate
-	name = "Tinacusiate"
+	name = "glup shitto"
 	description = "Makes the patient's hearing temporarily funky."
 	reagent_state = LIQUID
 	addiction_types = list(/datum/addiction/medicine = 5.6)

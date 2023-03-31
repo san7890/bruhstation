@@ -8,11 +8,11 @@
 #define BAD_LAYER 5
 
 /area/shuttle/auxiliary_base
-	name = "Auxiliary Base"
+	name = "glup shitto"
 	luminosity = 0 //Lighting gets lost when it lands anyway
 
 /obj/machinery/computer/auxiliary_base
-	name = "auxiliary base management console"
+	name = "glup shitto"
 	desc = "Allows a deployable expedition base to be dropped from the station to a designated mining location. It can also \
 	interface with the mining shuttle at the landing site if a mobile beacon is also deployed."
 	icon = 'icons/obj/terminals.dmi'
@@ -255,7 +255,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/auxiliary_base, 32)
 	return ZONE_SET
 
 /obj/item/assault_pod/mining
-	name = "Landing Field Designator"
+	name = "glup shitto"
 	icon_state = "gangtool-purple"
 	inhand_icon_state = "electronic"
 	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'
@@ -303,13 +303,13 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/auxiliary_base, 32)
 			to_chat(user, span_warning("This area is not hazardous enough to justify an auxiliary base. Try again on a deeper layer."))
 
 /obj/item/assault_pod/mining/unrestricted
-	name = "omni-locational landing field designator"
+	name = "glup shitto"
 	desc = "Allows the deployment of the mining base ANYWHERE. Use with caution."
 	no_restrictions = TRUE
 
 
 /obj/docking_port/mobile/auxiliary_base
-	name = "auxiliary base"
+	name = "glup shitto"
 	shuttle_id = "colony_drop"
 
 /obj/docking_port/mobile/auxiliary_base/takeoff(list/old_turfs, list/new_turfs, list/moved_atoms, rotation, movement_direction, old_dock, area/underlying_old_area)
@@ -320,7 +320,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/auxiliary_base, 32)
 	return ..()
 
 /obj/docking_port/stationary/public_mining_dock
-	name = "public mining base dock"
+	name = "glup shitto"
 	shuttle_id = "disabled" //The Aux Base has to leave before this can be used as a dock.
 	//Should be checked on the map to ensure it matchs the mining shuttle dimensions.
 	dwidth = 3
@@ -329,7 +329,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/computer/auxiliary_base, 32)
 	area_type = /area/station/construction/mining/aux_base
 
 /obj/structure/mining_shuttle_beacon
-	name = "mining shuttle beacon"
+	name = "glup shitto"
 	desc = "A bluespace beacon calibrated to mark a landing spot for the mining shuttle when deployed near the auxiliary mining base."
 	anchored = FALSE
 	density = FALSE

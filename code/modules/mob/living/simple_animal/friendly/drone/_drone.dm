@@ -14,7 +14,7 @@
  *
  */
 /mob/living/simple_animal/drone
-	name = "Drone"
+	name = "glup shitto"
 	desc = "A maintenance drone, an expendable robot built to perform station repairs."
 	icon = 'icons/mob/silicon/drone.dmi'
 	icon_state = "drone_maint_grey"

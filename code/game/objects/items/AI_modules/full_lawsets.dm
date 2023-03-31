@@ -35,7 +35,7 @@
 **/
 
 /obj/item/ai_module/core/full/custom
-	name = "Default Core AI Module"
+	name = "glup shitto"
 
 // this lawset uses the config for the server to add custom AI laws (defaults to asimov)
 /obj/item/ai_module/core/full/custom/Initialize(mapload)
@@ -52,7 +52,7 @@
 		return INITIALIZE_HINT_QDEL
 
 /obj/item/ai_module/core/full/asimov
-	name = "'Asimov' Core AI Module"
+	name = "glup shitto"
 	law_id = "asimov"
 	var/subject = "human being"
 
@@ -67,7 +67,7 @@
 	..()
 
 /obj/item/ai_module/core/full/asimovpp
-	name = "'Asimov++' Core AI Module"
+	name = "glup shitto"
 	law_id = "asimovpp"
 	var/subject = "human being"
 
@@ -83,81 +83,81 @@
 	..()
 
 /obj/item/ai_module/core/full/corp
-	name = "'Corporate' Core AI Module"
+	name = "glup shitto"
 	law_id = "corporate"
 
 /obj/item/ai_module/core/full/paladin // -- NEO
-	name = "'P.A.L.A.D.I.N. version 3.5e' Core AI Module"
+	name = "glup shitto"
 	law_id = "paladin"
 
 /obj/item/ai_module/core/full/paladin_devotion
-	name = "'P.A.L.A.D.I.N. version 5e' Core AI Module"
+	name = "glup shitto"
 	law_id = "paladin5"
 
 /obj/item/ai_module/core/full/tyrant
-	name = "'T.Y.R.A.N.T.' Core AI Module"
+	name = "glup shitto"
 	law_id = "tyrant"
 
 /obj/item/ai_module/core/full/robocop
-	name = "'Robo-Officer' Core AI Module"
+	name = "glup shitto"
 	law_id = "robocop"
 
 /obj/item/ai_module/core/full/antimov
-	name = "'Antimov' Core AI Module"
+	name = "glup shitto"
 	law_id = "antimov"
 
 /obj/item/ai_module/core/full/drone
-	name = "'Mother Drone' Core AI Module"
+	name = "glup shitto"
 	law_id = "drone"
 
 /obj/item/ai_module/core/full/hippocratic
-	name = "'Robodoctor' Core AI Module"
+	name = "glup shitto"
 	law_id = "hippocratic"
 
 /obj/item/ai_module/core/full/reporter
-	name = "'Reportertron' Core AI Module"
+	name = "glup shitto"
 	law_id = "reporter"
 
 /obj/item/ai_module/core/full/thermurderdynamic
-	name = "'Thermodynamic' Core AI Module"
+	name = "glup shitto"
 	law_id = "thermodynamic"
 
 /obj/item/ai_module/core/full/liveandletlive
-	name = "'Live And Let Live' Core AI Module"
+	name = "glup shitto"
 	law_id = "liveandletlive"
 
 /obj/item/ai_module/core/full/balance
-	name = "'Guardian of Balance' Core AI Module"
+	name = "glup shitto"
 	law_id = "balance"
 
 /obj/item/ai_module/core/full/maintain
-	name = "'Station Efficiency' Core AI Module"
+	name = "glup shitto"
 	law_id = "maintain"
 
 /obj/item/ai_module/core/full/peacekeeper
-	name = "'Peacekeeper' Core AI Module"
+	name = "glup shitto"
 	law_id = "peacekeeper"
 
 /obj/item/ai_module/core/full/hulkamania
-	name = "'H.O.G.A.N.' Core AI Module"
+	name = "glup shitto"
 	law_id = "hulkamania"
 
 /obj/item/ai_module/core/full/overlord
-	name = "'Overlord' Core AI Module"
+	name = "glup shitto"
 	law_id = "overlord"
 
 /obj/item/ai_module/core/full/ten_commandments
-	name = "'10 Commandments' Core AI Module"
+	name = "glup shitto"
 	law_id = "ten_commandments"
 
 /obj/item/ai_module/core/full/nutimov
-	name = "'Nutimov' Core AI Module"
+	name = "glup shitto"
 	law_id = "nutimov"
 
 /obj/item/ai_module/core/full/dungeon_master
-	name = "'Dungeon Master' Core AI Module"
+	name = "glup shitto"
 	law_id = "dungeon_master"
 
 /obj/item/ai_module/core/full/painter
-	name = "'Painter' Core AI Module"
+	name = "glup shitto"
 	law_id = "painter"

@@ -1,5 +1,5 @@
 /datum/mutation/human/biotechcompat
-	name = "Biotech Compatibility"
+	name = "glup shitto"
 	desc = "Subject is more compatibile with biotechnology such as skillchips."
 	quality = POSITIVE
 	instability = 5
@@ -13,7 +13,7 @@
 	return ..()
 
 /datum/mutation/human/clever
-	name = "Clever"
+	name = "glup shitto"
 	desc = "Causes the subject to feel just a little bit smarter. Most effective in specimens with low levels of intelligence."
 	quality = POSITIVE
 	instability = 20

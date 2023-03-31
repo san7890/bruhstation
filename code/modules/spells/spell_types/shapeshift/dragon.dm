@@ -1,6 +1,6 @@
 
 /datum/action/cooldown/spell/shapeshift/dragon
-	name = "Dragon Form"
+	name = "glup shitto"
 	desc = "Take on the shape a lesser ash drake."
 	invocation = "RAAAAAAAAWR!"
 	invocation_type = INVOCATION_SHOUT

@@ -154,7 +154,7 @@ new /datum/disease_ability/symptom/powerful/youth
 //active abilities and their associated actions
 
 /datum/disease_ability/action/cough
-	name = "Voluntary Coughing"
+	name = "glup shitto"
 	actions = list(/datum/action/cooldown/disease_cough)
 	cost = 0
 	required_total_points = 0
@@ -164,7 +164,7 @@ new /datum/disease_ability/symptom/powerful/youth
 
 
 /datum/action/cooldown/disease_cough
-	name = "Cough"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "cough"
 	desc = "Force the host you are following to cough with extra force, spreading your infection to those within two meters of your host even if your transmissibility is low.<br>Cooldown: 10 seconds"
@@ -195,7 +195,7 @@ new /datum/disease_ability/symptom/powerful/youth
 	return TRUE
 
 /datum/disease_ability/action/sneeze
-	name = "Voluntary Sneezing"
+	name = "glup shitto"
 	actions = list(/datum/action/cooldown/disease_sneeze)
 	cost = 2
 	required_total_points = 3
@@ -203,7 +203,7 @@ new /datum/disease_ability/symptom/powerful/youth
 	long_desc = "Force the host you are following to sneeze with extra force, spreading your infection to any victims in a 4 meter cone in front of your host.<br>Cooldown: 20 seconds"
 
 /datum/action/cooldown/disease_sneeze
-	name = "Sneeze"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "sneeze"
 	desc = "Force the host you are following to sneeze with extra force, spreading your infection to any victims in a 4 meter cone in front of your host even if your transmissibility is low.<br>Cooldown: 20 seconds"
@@ -240,7 +240,7 @@ new /datum/disease_ability/symptom/powerful/youth
 	return TRUE
 
 /datum/disease_ability/action/infect
-	name = "Secrete Infection"
+	name = "glup shitto"
 	actions = list(/datum/action/cooldown/disease_infect)
 	cost = 2
 	required_total_points = 3
@@ -248,7 +248,7 @@ new /datum/disease_ability/symptom/powerful/youth
 	long_desc = "Cause the host you are following to excrete an infective substance from their pores, causing all objects touching their skin to transmit your infection to anyone who touches them for the next 30 seconds. This includes the floor, if they are not wearing shoes, and any items they are holding, if they are not wearing gloves.<br>Cooldown: 40 seconds"
 
 /datum/action/cooldown/disease_infect
-	name = "Secrete Infection"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "infect"
 	desc = "Cause the host you are following to excrete an infective substance from their pores, causing all objects touching their skin to transmit your infection to anyone who touches them for the next 30 seconds.<br>Cooldown: 40 seconds"
@@ -313,13 +313,13 @@ new /datum/disease_ability/symptom/powerful/youth
 /******MILD******/
 
 /datum/disease_ability/symptom/mild/cough
-	name = "Involuntary Coughing"
+	name = "glup shitto"
 	symptoms = list(/datum/symptom/cough)
 	short_desc = "Cause victims to cough intermittently."
 	long_desc = "Cause victims to cough intermittently, spreading your infection."
 
 /datum/disease_ability/symptom/mild/sneeze
-	name = "Involuntary Sneezing"
+	name = "glup shitto"
 	symptoms = list(/datum/symptom/sneeze)
 	short_desc = "Cause victims to sneeze intermittently."
 	long_desc = "Cause victims to sneeze intermittently, spreading your infection and also increasing transmissibility and resistance, at the cost of stealth."

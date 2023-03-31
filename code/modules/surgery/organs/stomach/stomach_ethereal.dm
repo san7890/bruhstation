@@ -1,5 +1,5 @@
 /obj/item/organ/internal/stomach/ethereal
-	name = "biological battery"
+	name = "glup shitto"
 	icon_state = "stomach-p" //Welp. At least it's more unique in functionaliy.
 	desc = "A crystal-like organ that stores the electric charge of ethereals."
 	organ_traits = list(TRAIT_NOHUNGER) // We have our own hunger mechanic.

@@ -1,6 +1,6 @@
 ///Wing base type. doesn't really do anything
 /obj/item/organ/external/wings
-	name = "wings"
+	name = "glup shitto"
 	desc = "Spread your wings and FLLLLLLLLYYYYY!"
 
 	zone = BODY_ZONE_CHEST

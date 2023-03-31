@@ -1,5 +1,5 @@
 /obj/machinery/dna_scannernew
-	name = "\improper DNA scanner"
+	name = "glup shitto"
 	desc = "It scans DNA structures."
 	icon = 'icons/obj/machines/cloning.dmi'
 	icon_state = "scanner"
@@ -160,7 +160,7 @@
 
 //Just for transferring between genetics machines.
 /obj/item/disk/data
-	name = "DNA data disk"
+	name = "glup shitto"
 	icon_state = "datadisk0" //Gosh I hope syndies don't mistake them for the nuke disk.
 	var/list/genetic_makeup_buffer = list()
 	var/list/mutations = list()
@@ -173,7 +173,7 @@
 	add_overlay("datadisk_gene")
 
 /obj/item/disk/data/debug
-	name = "\improper CentCom DNA disk"
+	name = "glup shitto"
 	desc = "A debug item for genetics"
 	custom_materials = null
 

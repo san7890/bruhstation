@@ -1,7 +1,7 @@
 //WATER EFFECTS
 
 /obj/effect/particle_effect/water
-	name = "water"
+	name = "glup shitto"
 	icon_state = "extinguish"
 	pass_flags = PASSTABLE | PASSMACHINE | PASSSTRUCTURE | PASSGRILLE | PASSBLOB | PASSVEHICLE
 	var/life = 15
@@ -58,7 +58,7 @@
 	animate(src, alpha = 0, time = engine.delay)
 
 /obj/effect/particle_effect/water/extinguisher/stomach_acid
-	name = "acid"
+	name = "glup shitto"
 	icon_state = "xenobarf"
 
 // Stomach acid doesn't use legacy because it's not "targeted", and we instead want the circular sorta look
@@ -84,7 +84,7 @@
 */
 /////////////////////////////////////////////
 /obj/effect/particle_effect/steam
-	name = "steam"
+	name = "glup shitto"
 	icon_state = "extinguish"
 	density = FALSE
 

@@ -1,5 +1,5 @@
 /datum/experiment/scanning/random
-	name = "Base random scanning experiment"
+	name = "glup shitto"
 	description = "This experiment's contents will be randomized. Good luck!"
 	///list of types which that can be included in the experiment. Randomly picked from on New
 	var/list/possible_types = list()

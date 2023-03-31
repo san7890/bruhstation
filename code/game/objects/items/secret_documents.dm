@@ -8,7 +8,7 @@
  * Save for the inhand, this does not actually have anything in common with /obj/item/paper.
 */
 /obj/item/documents
-	name = "secret documents"
+	name = "glup shitto"
 	desc = "\"Top Secret\" documents."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "docs_generic"
@@ -32,13 +32,13 @@
 
 ///Syndicate documents with a red seal
 /obj/item/documents/syndicate/red
-	name = "red secret documents"
+	name = "glup shitto"
 	desc = "\"Top Secret\" documents detailing sensitive Syndicate operational intelligence. These documents are verified with a red wax seal."
 	icon_state = "docs_red"
 
 ///Syndicate documents with a blue seal
 /obj/item/documents/syndicate/blue
-	name = "blue secret documents"
+	name = "glup shitto"
 	desc = "\"Top Secret\" documents detailing sensitive Syndicate operational intelligence. These documents are verified with a blue wax seal."
 	icon_state = "docs_blue"
 

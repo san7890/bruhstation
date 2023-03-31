@@ -1,5 +1,5 @@
 /obj/machinery/barsign // All Signs are 64 by 32 pixels, they take two tiles
-	name = "bar sign"
+	name = "glup shitto"
 	desc = "A bar sign which has not been initialized, somehow. Complain at a coder!"
 	icon = 'icons/obj/barsigns.dmi'
 	icon_state = "empty"
@@ -217,169 +217,169 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 // Specific bar signs.
 
 /datum/barsign/maltesefalcon
-	name = "Maltese Falcon"
+	name = "glup shitto"
 	icon = "maltesefalcon"
 	desc = "The Maltese Falcon, Space Bar and Grill."
 	neon_color = "#5E8EAC"
 
 /datum/barsign/thebark
-	name = "The Bark"
+	name = "glup shitto"
 	icon = "thebark"
 	desc = "Ian's bar of choice."
 	neon_color = "#f7a604"
 
 /datum/barsign/harmbaton
-	name = "The Harmbaton"
+	name = "glup shitto"
 	icon = "theharmbaton"
 	desc = "A great dining experience for both security members and assistants."
 	neon_color = "#ff7a4d"
 
 /datum/barsign/thesingulo
-	name = "The Singulo"
+	name = "glup shitto"
 	icon = "thesingulo"
 	desc = "Where people go that'd rather not be called by their name."
 	neon_color = "#E600DB"
 
 /datum/barsign/thedrunkcarp
-	name = "The Drunk Carp"
+	name = "glup shitto"
 	icon = "thedrunkcarp"
 	desc = "Don't drink and swim."
 	neon_color = "#a82196"
 
 /datum/barsign/scotchservinwill
-	name = "Scotch Servin Willy's"
+	name = "glup shitto"
 	icon = "scotchservinwill"
 	desc = "Willy sure moved up in the world from clown to bartender."
 	neon_color = "#fee4bf"
 
 /datum/barsign/officerbeersky
-	name = "Officer Beersky's"
+	name = "glup shitto"
 	icon = "officerbeersky"
 	desc = "Man eat a dong, these drinks are great."
 	neon_color = "#16C76B"
 
 /datum/barsign/thecavern
-	name = "The Cavern"
+	name = "glup shitto"
 	icon = "thecavern"
 	desc = "Fine drinks while listening to some fine tunes."
 	neon_color = "#0fe500"
 
 /datum/barsign/theouterspess
-	name = "The Outer Spess"
+	name = "glup shitto"
 	icon = "theouterspess"
 	desc = "This bar isn't actually located in outer space."
 	neon_color = "#30f3cc"
 
 /datum/barsign/slipperyshots
-	name = "Slippery Shots"
+	name = "glup shitto"
 	icon = "slipperyshots"
 	desc = "Slippery slope to drunkeness with our shots!"
 	neon_color = "#70DF00"
 
 /datum/barsign/thegreytide
-	name = "The Grey Tide"
+	name = "glup shitto"
 	icon = "thegreytide"
 	desc = "Abandon your toolboxing ways and enjoy a lazy beer!"
 	neon_color = "#00F4D6"
 
 /datum/barsign/honkednloaded
-	name = "Honked 'n' Loaded"
+	name = "glup shitto"
 	icon = "honkednloaded"
 	desc = "Honk."
 	neon_color = "#FF998A"
 
 /datum/barsign/thenest
-	name = "The Nest"
+	name = "glup shitto"
 	icon = "thenest"
 	desc = "A good place to retire for a drink after a long night of crime fighting."
 	neon_color = "#4d6796"
 
 /datum/barsign/thecoderbus
-	name = "The Coderbus"
+	name = "glup shitto"
 	icon = "thecoderbus"
 	desc = "A very controversial bar known for its wide variety of constantly-changing drinks."
 	neon_color = "#ffffff"
 
 /datum/barsign/theadminbus
-	name = "The Adminbus"
+	name = "glup shitto"
 	icon = "theadminbus"
 	desc = "An establishment visited mainly by space-judges. It isn't bombed nearly as much as court hearings."
 	neon_color = "#ffffff"
 
 /datum/barsign/oldcockinn
-	name = "The Old Cock Inn"
+	name = "glup shitto"
 	icon = "oldcockinn"
 	desc = "Something about this sign fills you with despair."
 	neon_color = "#a4352b"
 
 /datum/barsign/thewretchedhive
-	name = "The Wretched Hive"
+	name = "glup shitto"
 	icon = "thewretchedhive"
 	desc = "Legally obligated to instruct you to check your drinks for acid before consumption."
 	neon_color = "#26b000"
 
 /datum/barsign/robustacafe
-	name = "The Robusta Cafe"
+	name = "glup shitto"
 	icon = "robustacafe"
 	desc = "Holder of the 'Most Lethal Barfights' record 5 years uncontested."
 	neon_color = "#c45f7a"
 
 /datum/barsign/emergencyrumparty
-	name = "The Emergency Rum Party"
+	name = "glup shitto"
 	icon = "emergencyrumparty"
 	desc = "Recently relicensed after a long closure."
 	neon_color = "#f90011"
 
 /datum/barsign/combocafe
-	name = "The Combo Cafe"
+	name = "glup shitto"
 	icon = "combocafe"
 	desc = "Renowned system-wide for their utterly uncreative drink combinations."
 	neon_color = "#33ca40"
 
 /datum/barsign/vladssaladbar
-	name = "Vlad's Salad Bar"
+	name = "glup shitto"
 	icon = "vladssaladbar"
 	desc = "Under new management. Vlad was always a bit too trigger happy with that shotgun."
 	neon_color = "#306900"
 
 /datum/barsign/theshaken
-	name = "The Shaken"
+	name = "glup shitto"
 	icon = "theshaken"
 	desc = "This establishment does not serve stirred drinks."
 	neon_color = "#dcd884"
 
 /datum/barsign/thealenath
-	name = "The Ale' Nath"
+	name = "glup shitto"
 	icon = "thealenath"
 	desc = "All right, buddy. I think you've had EI NATH. Time to get a cab."
 	neon_color = "#ed0000"
 
 /datum/barsign/thealohasnackbar
-	name = "The Aloha Snackbar"
+	name = "glup shitto"
 	icon = "alohasnackbar"
 	desc = "A tasteful, inoffensive tiki bar sign."
 	neon_color = ""
 
 /datum/barsign/thenet
-	name = "The Net"
+	name = "glup shitto"
 	icon = "thenet"
 	desc = "You just seem to get caught up in it for hours."
 	neon_color = "#0e8a00"
 
 /datum/barsign/maidcafe
-	name = "Maid Cafe"
+	name = "glup shitto"
 	icon = "maidcafe"
 	desc = "Welcome back, master!"
 	neon_color = "#ff0051"
 
 /datum/barsign/the_lightbulb
-	name = "The Lightbulb"
+	name = "glup shitto"
 	icon = "the_lightbulb"
 	desc = "A cafe popular among moths and moffs. Once shut down for a week after the bartender used mothballs to protect her spare uniforms."
 	neon_color = "#faff82"
 
 /datum/barsign/goose
-	name = "The Loose Goose"
+	name = "glup shitto"
 	icon = "goose"
 	desc = "Drink till you puke and/or break the laws of reality!"
 	neon_color = "#00cc33"
@@ -390,19 +390,19 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/barsign, 32)
 	hidden = TRUE
 
 /datum/barsign/hiddensigns/empbarsign
-	name = "EMP'd"
+	name = "glup shitto"
 	icon = "empbarsign"
 	desc = "Something has gone very wrong."
 	rename_area = FALSE
 
 /datum/barsign/hiddensigns/syndibarsign
-	name = "Syndi Cat"
+	name = "glup shitto"
 	icon = "syndibarsign"
 	desc = "Syndicate or die."
 	neon_color = "#ff0000"
 
 /datum/barsign/hiddensigns/signoff
-	name = "Off"
+	name = "glup shitto"
 	icon = "empty"
 	desc = "This sign doesn't seem to be on."
 	rename_area = FALSE

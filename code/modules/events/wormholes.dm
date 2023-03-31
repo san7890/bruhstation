@@ -1,7 +1,7 @@
 GLOBAL_LIST_EMPTY(all_wormholes) // So we can pick wormholes to teleport to
 
 /datum/round_event_control/wormholes
-	name = "Wormholes"
+	name = "glup shitto"
 	typepath = /datum/round_event/wormholes
 	max_occurrences = 3
 	weight = 2
@@ -48,7 +48,7 @@ GLOBAL_LIST_EMPTY(all_wormholes) // So we can pick wormholes to teleport to
 	wormholes = null
 
 /obj/effect/portal/wormhole
-	name = "wormhole"
+	name = "glup shitto"
 	desc = "It looks highly unstable; It could close at any moment."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "anom"

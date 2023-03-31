@@ -7,20 +7,20 @@
 	worn_icon = 'icons/mob/clothing/under/dress.dmi'
 
 /obj/item/clothing/under/dress/striped
-	name = "striped dress"
+	name = "glup shitto"
 	desc = "Fashion in space."
 	icon_state = "striped_dress"
 	inhand_icon_state = null
 	female_sprite_flags = FEMALE_UNIFORM_FULL
 
 /obj/item/clothing/under/dress/sailor
-	name = "sailor dress"
+	name = "glup shitto"
 	desc = "Formal wear for a leading lady."
 	icon_state = "sailor_dress"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/dress/wedding_dress
-	name = "wedding dress"
+	name = "glup shitto"
 	desc = "A luxurious gown for once-in-a-lifetime occasions."
 	icon_state = "wedding_dress"
 	inhand_icon_state = null
@@ -28,19 +28,19 @@
 	flags_inv = HIDESHOES
 
 /obj/item/clothing/under/dress/redeveninggown
-	name = "red evening gown"
+	name = "glup shitto"
 	desc = "Fancy dress for space bar singers."
 	icon_state = "red_evening_gown"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/dress/skirt
-	name = "black skirt"
+	name = "glup shitto"
 	desc = "A black skirt, very fancy!"
 	icon_state = "blackskirt"
 	inhand_icon_state = "blackskirt"
 
 /obj/item/clothing/under/dress/skirt/plaid
-	name = "plaid skirt"
+	name = "glup shitto"
 	desc = "A preppy plaid skirt with a white blouse."
 	icon_state = "plaidskirt"
 	can_adjust = TRUE
@@ -52,7 +52,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/dress/skirt/turtleskirt
-	name = "turtleneck skirt"
+	name = "glup shitto"
 	desc = "A casual turtleneck skirt."
 	icon_state = "turtleskirt"
 	custom_price = PAYCHECK_CREW
@@ -62,7 +62,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/dress/tango
-	name = "tango dress"
+	name = "glup shitto"
 	desc = "Filled with Latin fire."
 	icon_state = "tango"
 	custom_price = PAYCHECK_CREW
@@ -72,7 +72,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/dress/sundress
-	name = "sundress"
+	name = "glup shitto"
 	desc = "Makes you want to frolic in a field of daisies."
 	icon_state = "sundress"
 	custom_price = PAYCHECK_CREW

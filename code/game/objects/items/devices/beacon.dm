@@ -1,5 +1,5 @@
 /obj/item/beacon
-	name = "\improper tracking beacon"
+	name = "glup shitto"
 	desc = "A beacon used by a teleporter."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "beacon"

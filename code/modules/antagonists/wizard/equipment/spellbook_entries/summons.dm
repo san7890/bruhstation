@@ -3,7 +3,7 @@
 #define MINIMUM_THREAT_FOR_RITUALS 100
 
 /datum/spellbook_entry/summon/ghosts
-	name = "Summon Ghosts"
+	name = "glup shitto"
 	desc = "Spook the crew out by making them see dead people. \
 		Be warned, ghosts are capricious and occasionally vindicative, \
 		and some will use their incredibly minor abilities to frustrate you."
@@ -15,7 +15,7 @@
 	return ..()
 
 /datum/spellbook_entry/summon/guns
-	name = "Summon Guns"
+	name = "glup shitto"
 	desc = "Nothing could possibly go wrong with arming a crew of lunatics just itching for an excuse to kill you. \
 		There is a good chance that they will shoot each other first."
 
@@ -33,7 +33,7 @@
 	return ..()
 
 /datum/spellbook_entry/summon/magic
-	name = "Summon Magic"
+	name = "glup shitto"
 	desc = "Share the wonders of magic with the crew and show them \
 		why they aren't to be trusted with it at the same time."
 
@@ -51,7 +51,7 @@
 	return ..()
 
 /datum/spellbook_entry/summon/events
-	name = "Summon Events"
+	name = "glup shitto"
 	desc = "Give Murphy's law a little push and replace all events with \
 		special wizard ones that will confound and confuse everyone. \
 		Multiple castings increase the rate of these events."
@@ -72,7 +72,7 @@
 	return ..()
 
 /datum/spellbook_entry/summon/curse_of_madness
-	name = "Curse of Madness"
+	name = "glup shitto"
 	desc = "Curses the station, warping the minds of everyone inside, causing lasting traumas. Warning: this spell can affect you if not cast from a safe distance."
 	cost = 4
 

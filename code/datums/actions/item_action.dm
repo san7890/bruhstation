@@ -1,6 +1,6 @@
 //Presets for item actions
 /datum/action/item_action
-	name = "Item Action"
+	name = "glup shitto"
 	check_flags = AB_CHECK_INCAPACITATED|AB_CHECK_HANDS_BLOCKED|AB_CHECK_CONSCIOUS
 	button_icon_state = null
 

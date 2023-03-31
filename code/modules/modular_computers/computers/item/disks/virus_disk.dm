@@ -3,7 +3,7 @@
  * Can't hold apps, instead does unique actions.
  */
 /obj/item/computer_disk/virus
-	name = "\improper generic virus disk"
+	name = "glup shitto"
 	icon_state = "virusdisk"
 	max_capacity = 0
 	///How many charges the virus has left
@@ -24,7 +24,7 @@
  * Can also be used on open panel airlocks to make them honk on opening.
  */
 /obj/item/computer_disk/virus/clown
-	name = "\improper H.O.N.K. disk"
+	name = "glup shitto"
 
 /obj/item/computer_disk/virus/clown/send_virus(obj/item/modular_computer/pda/source, obj/item/modular_computer/pda/target, mob/living/user)
 	. = ..()
@@ -41,7 +41,7 @@
  * Makes PDA's silent, removing their ringtone.
  */
 /obj/item/computer_disk/virus/mime
-	name = "\improper sound of silence disk"
+	name = "glup shitto"
 
 /obj/item/computer_disk/virus/mime/send_virus(obj/item/modular_computer/pda/source, obj/item/modular_computer/pda/target, mob/living/user)
 	. = ..()
@@ -61,7 +61,7 @@
  * Sends a false message, and blows the PDA up if the target responds to it (or opens their messenger before a timer)
  */
 /obj/item/computer_disk/virus/detomatix
-	name = "\improper D.E.T.O.M.A.T.I.X. disk"
+	name = "glup shitto"
 	charges = 6
 
 /obj/item/computer_disk/virus/detomatix/send_virus(obj/item/modular_computer/pda/source, obj/item/modular_computer/pda/target, mob/living/user)
@@ -99,7 +99,7 @@
  * Can be loaded with TC to show up on the false uplink.
  */
 /obj/item/computer_disk/virus/frame
-	name = "\improper F.R.A.M.E. disk"
+	name = "glup shitto"
 
 	///How many telecrystals the uplink should have
 	var/telecrystals = 0

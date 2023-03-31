@@ -9,7 +9,7 @@
 #define AIMING_BEAM_ANGLE_CHANGE_THRESHOLD 0.1
 
 /obj/item/gun/energy/beam_rifle
-	name = "particle acceleration rifle"
+	name = "glup shitto"
 	desc = "An energy-based anti material marksman rifle that uses highly charged particle beams moving at extreme velocities to decimate whatever is unfortunate enough to be targeted by one."
 	desc_controls = "Hold down left click while scoped to aim, when weapon is fully aimed (Tracer goes from red to green as it charges), release to fire. Moving while aiming or changing where you're pointing at while aiming will delay the aiming process depending on how much you changed."
 	icon = 'icons/obj/weapons/guns/energy.dmi'
@@ -326,7 +326,7 @@
 	aiming_time_left = clamp(aiming_time_left + amount, 0, aiming_time)
 
 /obj/item/ammo_casing/energy/beam_rifle
-	name = "particle acceleration lens"
+	name = "glup shitto"
 	desc = "Don't look into barrel!"
 	var/wall_pierce_amount = 0
 	var/wall_devastate = 0
@@ -413,7 +413,7 @@
 	fire_sound = 'sound/weapons/beam_sniper.ogg'
 
 /obj/projectile/beam/beam_rifle
-	name = "particle beam"
+	name = "glup shitto"
 	icon = null
 	hitsound = 'sound/effects/explosion3.ogg'
 	damage = 0 //Handled manually.
@@ -527,7 +527,7 @@
 
 /obj/projectile/beam/beam_rifle/hitscan/aiming_beam
 	tracer_type = /obj/effect/projectile/tracer/tracer/aiming
-	name = "aiming beam"
+	name = "glup shitto"
 	hitsound = null
 	hitsound_wall = null
 	damage = 0

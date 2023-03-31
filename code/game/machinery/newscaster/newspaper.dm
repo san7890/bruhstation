@@ -1,5 +1,5 @@
 /obj/item/newspaper
-	name = "newspaper"
+	name = "glup shitto"
 	desc = "An issue of The Griffon, the newspaper circulating aboard Nanotrasen Space Stations."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "newspaper"

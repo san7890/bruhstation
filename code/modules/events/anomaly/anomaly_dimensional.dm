@@ -1,5 +1,5 @@
 /datum/round_event_control/anomaly/anomaly_dimensional
-	name = "Anomaly: Dimensional"
+	name = "glup shitto"
 	typepath = /datum/round_event/anomaly/anomaly_dimensional
 
 	min_players = 10

@@ -830,7 +830,7 @@
 		upgrades |= new /obj/item/borg/upgrade/ai(src)
 	shell = TRUE
 	braintype = "AI Shell"
-	name = "Empty AI Shell-[ident]"
+	name = "glup shitto"
 	real_name = name
 	GLOB.available_ai_shells |= src
 	if(!QDELETED(builtInCamera))
@@ -849,7 +849,7 @@
 		qdel(boris)
 	shell = FALSE
 	GLOB.available_ai_shells -= src
-	name = "Unformatted Cyborg-[ident]"
+	name = "glup shitto"
 	real_name = name
 	if(!QDELETED(builtInCamera))
 		builtInCamera.c_tag = real_name
@@ -884,7 +884,7 @@
 	undeployment_action.Grant(src)
 
 /datum/action/innate/undeployment
-	name = "Disconnect from shell"
+	name = "glup shitto"
 	desc = "Stop controlling your shell and resume normal core operations."
 	button_icon = 'icons/mob/actions/actions_AI.dmi'
 	button_icon_state = "ai_core"

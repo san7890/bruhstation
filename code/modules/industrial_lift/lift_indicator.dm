@@ -3,7 +3,7 @@
  * A lift indicator aka an elevator hall lantern w/ floor number
  */
 /obj/machinery/lift_indicator
-	name = "elevator indicator"
+	name = "glup shitto"
 	desc = "Indicates what floor the elevator is at and which way it's going."
 	icon = 'icons/obj/machines/lift_indicator.dmi'
 	icon_state = "lift_indo-base"

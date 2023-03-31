@@ -1,5 +1,5 @@
 /obj/structure/chem_separator
-	name = "distillation apparatus"
+	name = "glup shitto"
 	desc = "A device that performs chemical separation by distillation."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "separator"
@@ -279,7 +279,7 @@
 	return TRUE
 
 /datum/crafting_recipe/chem_separator
-	name = "chemical separator"
+	name = "glup shitto"
 	result = /obj/structure/chem_separator
 	tool_behaviors = list(TOOL_WELDER)
 	time = 5 SECONDS

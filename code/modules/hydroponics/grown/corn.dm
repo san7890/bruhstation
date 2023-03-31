@@ -1,6 +1,6 @@
 // Corn
 /obj/item/seeds/corn
-	name = "pack of corn seeds"
+	name = "glup shitto"
 	desc = "I don't mean to sound corny..."
 	icon_state = "seed-corn"
 	species = "corn"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/corn
 	seed = /obj/item/seeds/corn
-	name = "ear of corn"
+	name = "glup shitto"
 	desc = "Needs some butter!"
 	icon_state = "corn"
 	trash_type = /obj/item/grown/corncob
@@ -36,7 +36,7 @@
 	AddElement(/datum/element/microwavable, /obj/item/food/popcorn)
 
 /obj/item/grown/corncob
-	name = "corn cob"
+	name = "glup shitto"
 	desc = "A reminder of meals gone by."
 	icon_state = "corncob"
 	inhand_icon_state = null
@@ -56,7 +56,7 @@
 
 // Snapcorn
 /obj/item/seeds/corn/snapcorn
-	name = "pack of snapcorn seeds"
+	name = "glup shitto"
 	desc = "Oh snap!"
 	icon_state = "seed-snapcorn"
 	species = "snapcorn"
@@ -67,7 +67,7 @@
 
 /obj/item/grown/snapcorn
 	seed = /obj/item/seeds/corn/snapcorn
-	name = "snap corn"
+	name = "glup shitto"
 	desc = "A cob with snap pops."
 	icon_state = "snapcorn"
 	inhand_icon_state = null

@@ -4,7 +4,7 @@
 ////////////////////////////////////////////////PIES////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/bananacreampie
-	name = "Banana cream pie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/obj/item/food/pie/plain = 1,
@@ -14,7 +14,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/meatpie
-	name = "Meat pie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/blackpepper = 1,
 		/datum/reagent/consumable/salt = 1,
@@ -25,7 +25,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/tofupie
-	name = "Tofu pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/tofu = 1
@@ -34,7 +34,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/xenopie
-	name = "Xeno pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/meat/cutlet/xeno = 1
@@ -43,7 +43,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/cherrypie
-	name = "Cherry pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/cherries = 1
@@ -52,7 +52,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/berryclafoutis
-	name = "Berry clafoutis"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/berries = 1
@@ -61,7 +61,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/bearypie
-	name = "Beary Pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/berries = 1,
@@ -71,7 +71,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/amanitapie
-	name = "Amanita pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/mushroom/amanita = 1
@@ -80,7 +80,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/plumppie
-	name = "Plump pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/mushroom/plumphelmet = 1
@@ -89,7 +89,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/applepie
-	name = "Apple pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/apple = 1
@@ -98,7 +98,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/pumpkinpie
-	name = "Pumpkin pie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/datum/reagent/consumable/sugar = 5,
@@ -109,7 +109,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/goldenappletart
-	name = "Golden apple tart"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/datum/reagent/consumable/sugar = 5,
@@ -120,7 +120,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/grapetart
-	name = "Grape tart"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/datum/reagent/consumable/sugar = 5,
@@ -131,7 +131,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/mimetart
-	name = "Mime tart"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
@@ -143,7 +143,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/berrytart
-	name = "Berry tart"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
@@ -155,7 +155,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/cocolavatart
-	name = "Chocolate Lava tart"
+	name = "glup shitto"
 	always_available = FALSE
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
@@ -168,7 +168,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/blumpkinpie
-	name = "Blumpkin pie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 5,
 		/datum/reagent/consumable/sugar = 5,
@@ -179,7 +179,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/dulcedebatata
-	name = "Dulce de batata"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/vanilla = 5,
 		/datum/reagent/water = 5,
@@ -189,7 +189,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/frostypie
-	name = "Frosty pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/pie/plain = 1,
 		/obj/item/food/grown/bluecherries = 1
@@ -198,7 +198,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/baklava
-	name = "Baklava pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/butter = 2,
 		/obj/item/food/tortilla = 4, //Layers
@@ -208,7 +208,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/frenchsilkpie
-	name = "French silk pie"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/sugar = 5,
 		/obj/item/food/pie/plain = 1,
@@ -218,7 +218,7 @@
 	category = CAT_PIE
 
 /datum/crafting_recipe/food/shepherds_pie
-	name = "Shepherds pie"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/mashed_potatoes = 1,
 		/obj/item/food/meat/cutlet = 3,

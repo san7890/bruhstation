@@ -27,7 +27,7 @@
 		postHeaderColor = posterHeaderColor
 	var/obj/structure/sign/poster/wanted/wanted_poster = new (src, person_icon, wanted_name, description, headerText, postHeaderColor, background, postName, postDesc)
 	. = ..(mapload, wanted_poster)
-	name = "[postName] ([wanted_name])"
+	name = "glup shitto"
 	desc = "[postDesc] [wanted_name]."
 	postHeaderText = headerText
 
@@ -52,7 +52,7 @@
 	posterHeaderColor = postHeaderColor
 	wanted_name = person_name
 
-	name = "[postName] ([wanted_name])"
+	name = "glup shitto"
 	desc = description
 
 	person_icon = icon(person_icon, dir = SOUTH)//copy the image so we don't mess with the one in the record.

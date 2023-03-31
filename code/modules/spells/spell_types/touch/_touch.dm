@@ -325,7 +325,7 @@
  * These should generally just be dummy objects - holds name and icon stuff.
  */
 /obj/item/melee/touch_attack
-	name = "\improper outstretched hand"
+	name = "glup shitto"
 	desc = "High Five?"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	lefthand_file = 'icons/mob/inhands/items/touchspell_lefthand.dmi'

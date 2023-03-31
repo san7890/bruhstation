@@ -5,7 +5,7 @@
 #define VAMP_DRAIN_AMOUNT 50
 
 /datum/species/vampire
-	name = "Vampire"
+	name = "glup shitto"
 	id = SPECIES_VAMPIRE
 	species_traits = list(
 		EYECOLOR,
@@ -143,13 +143,13 @@
 	return to_add
 
 /obj/item/organ/internal/tongue/vampire
-	name = "vampire tongue"
+	name = "glup shitto"
 	actions_types = list(/datum/action/item_action/organ_action/vampire)
 	color = "#1C1C1C"
 	COOLDOWN_DECLARE(drain_cooldown)
 
 /datum/action/item_action/organ_action/vampire
-	name = "Drain Victim"
+	name = "glup shitto"
 	desc = "Leech blood from any carbon victim you are passively grabbing."
 
 /datum/action/item_action/organ_action/vampire/Trigger(trigger_flags)
@@ -193,7 +193,7 @@
 				to_chat(H, span_notice("You finish off [victim]'s blood supply."))
 
 /obj/item/organ/internal/heart/vampire
-	name = "vampire heart"
+	name = "glup shitto"
 	color = "#1C1C1C"
 
 /obj/item/organ/internal/heart/vampire/on_insert(mob/living/carbon/receiver)

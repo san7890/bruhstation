@@ -4,7 +4,7 @@
  * Everything that is a subclass of this counts as cheese for regal rats.
  */
 /obj/item/food/cheese
-	name = "the concept of cheese"
+	name = "glup shitto"
 	desc = "This probably shouldn't exist."
 	tastes = list("cheese" = 1)
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 3)
@@ -22,7 +22,7 @@
 	king.cheese_heal(src, rat_heal, span_green("You eat [src], restoring some health."))
 
 /obj/item/food/cheese/wedge
-	name = "cheese wedge"
+	name = "glup shitto"
 	desc = "A wedge of delicious Cheddar. The cheese wheel it was cut from can't have gone far."
 	icon_state = "cheesewedge"
 	food_reagents = list(
@@ -34,7 +34,7 @@
 	rat_heal = 10
 
 /obj/item/food/cheese/wheel
-	name = "cheese wheel"
+	name = "glup shitto"
 	desc = "A big wheel of delcious Cheddar."
 	icon_state = "cheesewheel"
 	food_reagents = list(
@@ -56,7 +56,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/baked_cheese, rand(20 SECONDS, 25 SECONDS), TRUE, TRUE)
 
 /obj/item/food/cheese/royal
-	name = "royal cheese"
+	name = "glup shitto"
 	desc = "Ascend the throne. Consume the wheel. Feel the POWER."
 	icon_state = "royalcheese"
 	food_reagents = list(
@@ -72,7 +72,7 @@
 //Curd cheese, a general term which I will now proceed to stretch as thin as the toppings on a supermarket sandwich:
 //I'll use it as a substitute for ricotta, cottage cheese and quark, as well as any other non-aged, soft grainy cheese
 /obj/item/food/cheese/curd_cheese
-	name = "curd cheese"
+	name = "glup shitto"
 	desc = "Known by many names throughout human cuisine, curd cheese is useful for a wide variety of dishes."
 	icon_state = "curd_cheese"
 	food_reagents = list(
@@ -91,7 +91,7 @@
 	AddElement(/datum/element/microwavable, /obj/item/food/cheese/cheese_curds)
 
 /obj/item/food/cheese/cheese_curds
-	name = "cheese curds"
+	name = "glup shitto"
 	desc = "Not to be mistaken for curd cheese. Tasty deep fried."
 	icon_state = "cheese_curds"
 	foodtypes = DAIRY
@@ -103,7 +103,7 @@
 	AddElement(/datum/element/dryable,  /obj/item/food/cheese/firm_cheese)
 
 /obj/item/food/cheese/firm_cheese
-	name = "firm cheese"
+	name = "glup shitto"
 	desc = "Firm aged cheese, similar in texture to firm tofu. Due to its lack of moisture it's particularly useful for cooking with, as it doesn't melt easily."
 	icon_state = "firm_cheese"
 	tastes = list("aged cheese" = 1)
@@ -115,7 +115,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/cheese/firm_cheese_slice, 3, 3 SECONDS, screentip_verb = "Slice")
 
 /obj/item/food/cheese/firm_cheese_slice
-	name = "firm cheese slice"
+	name = "glup shitto"
 	desc = "A slice of firm cheese. Perfect for grilling or making into delicious pesto."
 	icon_state = "firm_cheese_slice"
 	tastes = list("aged cheese" = 1)
@@ -128,7 +128,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/grilled_cheese, rand(25 SECONDS, 35 SECONDS), TRUE, TRUE)
 
 /obj/item/food/cheese/mozzarella
-	name = "mozzarella cheese"
+	name = "glup shitto"
 	desc = "Delicious, creamy, and cheesy, all in one simple package."
 	icon_state = "mozzarella"
 	tastes = list("mozzarella" = 1)

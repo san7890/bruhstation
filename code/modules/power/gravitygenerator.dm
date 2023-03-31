@@ -20,7 +20,7 @@ GLOBAL_LIST_EMPTY(gravity_generators)
 //
 
 /obj/machinery/gravity_generator
-	name = "gravitational generator"
+	name = "glup shitto"
 	desc = "A device which produces a graviton field when set up."
 	icon = 'icons/obj/machines/gravity_generator.dmi'
 	density = TRUE
@@ -459,7 +459,7 @@ GLOBAL_LIST_EMPTY(gravity_generators)
 
 /// Gravity generator instruction guide
 /obj/item/paper/guides/jobs/engi/gravity_gen
-	name = "paper- 'Generate your own gravity!'"
+	name = "glup shitto"
 	default_raw_text = {"<h1>Gravity Generator Instructions For Dummies</h1>
 	<p>Surprisingly, gravity isn't that hard to make! All you have to do is inject deadly radioactive minerals into a ball of
 	energy and you have yourself gravity! You can turn the machine on or off when required.

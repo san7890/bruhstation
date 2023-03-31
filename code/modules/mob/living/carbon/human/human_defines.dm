@@ -1,6 +1,6 @@
 /// Any humanoid (non-Xeno) mob, such as humans, plasmamen, lizards.
 /mob/living/carbon/human
-	name = "Unknown"
+	name = "glup shitto"
 	real_name = "Unknown"
 	icon = 'icons/mob/species/human/human.dmi'
 	icon_state = "human_basic"

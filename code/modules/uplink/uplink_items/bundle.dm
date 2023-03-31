@@ -1,6 +1,6 @@
 //All bundles and telecrystals
 /datum/uplink_category/bundle
-	name = "Bundles"
+	name = "glup shitto"
 	weight = 10
 
 /datum/uplink_item/bundles_tc
@@ -9,7 +9,7 @@
 	cant_discount = TRUE
 
 /datum/uplink_item/bundles_tc/random
-	name = "Random Item"
+	name = "glup shitto"
 	desc = "Picking this will purchase a random item. Useful if you have some TC to spare or if you haven't decided on a strategy yet."
 	item = /obj/effect/gibspawner/generic // non-tangible item because techwebs use this path to determine illegal tech
 	cost = 0
@@ -32,7 +32,7 @@
 		handler.purchase_item(user, uplink_item)
 
 /datum/uplink_item/bundles_tc/telecrystal
-	name = "1 Raw Telecrystal"
+	name = "glup shitto"
 	desc = "A telecrystal in its rawest and purest form; can be utilized on active uplinks to increase their telecrystal count."
 	item = /obj/item/stack/telecrystal
 	cost = 1
@@ -41,19 +41,19 @@
 	purchase_log_vis = FALSE
 
 /datum/uplink_item/bundles_tc/telecrystal/five
-	name = "5 Raw Telecrystals"
+	name = "glup shitto"
 	desc = "Five telecrystals in their rawest and purest form; can be utilized on active uplinks to increase their telecrystal count."
 	item = /obj/item/stack/telecrystal/five
 	cost = 5
 
 /datum/uplink_item/bundles_tc/telecrystal/twenty
-	name = "20 Raw Telecrystals"
+	name = "glup shitto"
 	desc = "Twenty telecrystals in their rawest and purest form; can be utilized on active uplinks to increase their telecrystal count."
 	item = /obj/item/stack/telecrystal/twenty
 	cost = 20
 
 /datum/uplink_item/bundles_tc/bundle_a
-	name = "Syndi-kit Tactical"
+	name = "glup shitto"
 	desc = "Syndicate Bundles, also known as Syndi-Kits, are specialized groups of items that arrive in a plain box. \
 			These items are collectively worth more than 25 telecrystals, but you do not know which specialization \
 			you will receive. May contain discontinued and/or exotic items. \
@@ -65,7 +65,7 @@
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 
 /datum/uplink_item/bundles_tc/bundle_b
-	name = "Syndi-kit Special"
+	name = "glup shitto"
 	desc = "Syndicate Bundles, also known as Syndi-Kits, are specialized groups of items that arrive in a plain box. \
 			In Syndi-kit Special, you will receive items used by famous syndicate agents of the past. \
 			Collectively worth more than 25 telecrystals, the syndicate loves a good throwback. \
@@ -77,7 +77,7 @@
 	purchasable_from = ~(UPLINK_NUKE_OPS | UPLINK_CLOWN_OPS)
 
 /datum/uplink_item/bundles_tc/surplus
-	name = "Syndicate Surplus Crate"
+	name = "glup shitto"
 	desc = "A dusty crate from the back of the Syndicate warehouse delivered directly to you via Supply Pod. \
 			If the rumors are true, it will fill it's contents based on your current reputation. Get on that grind. \
 			Contents are sorted to always be worth 30 TC. The Syndicate will only provide one surplus item per agent."
@@ -142,7 +142,7 @@
 	return source //For log icon
 
 /datum/uplink_item/bundles_tc/surplus/united
-	name = "United Surplus Crate"
+	name = "glup shitto"
 	desc = "A shiny and large crate to be delivered directly to you via Supply Pod. It has an advanced locking mechanism with an anti-tampering protocol. \
 			It is recommended that you only attempt to open it by having another agent purchase a Surplus Crate Key. Unite and fight. \
 			Rumored to contain a valuable assortment of items based on your current reputation, but you never know. Contents are sorted to always be worth 80 TC. \
@@ -167,7 +167,7 @@
 		surplus_crate.unlock_contents += uplink_item.item
 
 /datum/uplink_item/bundles_tc/surplus_key
-	name = "United Surplus Crate Key"
+	name = "glup shitto"
 	desc = "This inconscpicous device is actually a key that can open any United Surplus Crate. It can only be used once. \
 			Though initially designed to encourage cooperation, agents quickly discovered that you can turn the key to the crate by yourself.  \
 			The Syndicate will only provide one surplus item per agent."

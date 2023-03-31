@@ -1,5 +1,5 @@
 /datum/brain_trauma/special/imaginary_friend
-	name = "Imaginary Friend"
+	name = "glup shitto"
 	desc = "Patient can see and hear an imaginary person."
 	scan_desc = "partial schizophrenia"
 	gain_text = span_notice("You feel in good company, for some reason.")
@@ -56,7 +56,7 @@
 		qdel(src)
 
 /mob/camera/imaginary_friend
-	name = "imaginary friend"
+	name = "glup shitto"
 	real_name = "imaginary friend"
 	move_on_shuttle = TRUE
 	desc = "A wonderful yet fake friend."
@@ -426,7 +426,7 @@
 	abstract_move(owner)
 
 /datum/action/innate/imaginary_join
-	name = "Join"
+	name = "glup shitto"
 	desc = "Join your owner, following them from inside their mind."
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	background_icon_state = "bg_revenant"
@@ -438,7 +438,7 @@
 	I.recall()
 
 /datum/action/innate/imaginary_hide
-	name = "Hide"
+	name = "glup shitto"
 	desc = "Hide yourself from your owner's sight."
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	background_icon_state = "bg_revenant"
@@ -486,7 +486,7 @@
 //like imaginary friend but a lot less imagination and more like mind prison//
 
 /datum/brain_trauma/special/imaginary_friend/trapped_owner
-	name = "Trapped Victim"
+	name = "glup shitto"
 	desc = "Patient appears to be targeted by an invisible entity."
 	gain_text = ""
 	lose_text = ""
@@ -506,7 +506,7 @@
 	return
 
 /mob/camera/imaginary_friend/trapped
-	name = "figment of imagination?"
+	name = "glup shitto"
 	real_name = "figment of imagination?"
 	desc = "The previous host of this body."
 

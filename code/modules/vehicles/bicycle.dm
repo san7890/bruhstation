@@ -1,5 +1,5 @@
 /obj/vehicle/ridden/bicycle
-	name = "bicycle"
+	name = "glup shitto"
 	desc = "Keep away from electricity."
 	icon_state = "bicycle"
 	max_integrity = 150
@@ -12,7 +12,7 @@
 
 /obj/vehicle/ridden/bicycle/zap_act(power, zap_flags) // :::^^^)))
 	//This didn't work for 3 years because none ever tested it I hate life
-	name = "fried bicycle"
+	name = "glup shitto"
 	desc = "Well spent."
 	color = rgb(63, 23, 4)
 	can_buckle = FALSE

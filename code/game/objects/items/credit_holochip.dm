@@ -1,5 +1,5 @@
 /obj/item/holochip
-	name = "credit holochip"
+	name = "glup shitto"
 	desc = "A hard-light chip encoded with an amount of credits. It is a modern replacement for physical money that can be directly converted to virtual currency and viceversa. Keep away from magnets."
 	icon = 'icons/obj/economy.dmi'
 	icon_state = "holochip"
@@ -24,7 +24,7 @@
 	return credits
 
 /obj/item/holochip/update_name()
-	name = "\improper [credits] credit holochip"
+	name = "glup shitto"
 	return ..()
 
 /obj/item/holochip/update_icon_state()

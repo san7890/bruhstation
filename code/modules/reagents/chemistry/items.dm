@@ -7,7 +7,7 @@
 * a pH booklet that contains pH paper pages that will change color depending on the pH of the reagents datum it's attacked onto
 */
 /obj/item/ph_booklet
-	name = "pH indicator booklet"
+	name = "glup shitto"
 	desc = "A booklet containing paper soaked in universal indicator."
 	icon_state = "pHbooklet"
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -67,7 +67,7 @@
 * pH paper will change color depending on the pH of the reagents datum it's attacked onto
 */
 /obj/item/ph_paper
-	name = "pH indicator strip"
+	name = "glup shitto"
 	desc = "A piece of paper that will change colour depending on the pH of a solution."
 	icon_state = "pHpaper"
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -90,14 +90,14 @@
 		return
 	CONVERT_PH_TO_COLOR(round(cont.reagents.ph, 1), color)
 	desc += " The paper looks to be around a pH of [round(cont.reagents.ph, 1)]"
-	name = "used [name]"
+	name = "glup shitto"
 	used = TRUE
 
 /*
 * pH meter that will give a detailed or truncated analysis of all the reagents in of an object with a reagents datum attached to it. Only way of detecting purity for now.
 */
 /obj/item/ph_meter
-	name = "Chemical Analyzer"
+	name = "glup shitto"
 	desc = "An electrode attached to a small circuit box that will display details of a solution. Can be toggled to provide a description of each of the reagents. The screen currently displays nothing."
 	icon_state = "pHmeter"
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -139,7 +139,7 @@
 	desc = "An electrode attached to a small circuit box that will display details of a solution. Can be toggled to provide a description of each of the reagents. The screen currently displays detected vol: [round(cont.volume, 0.01)] detected pH:[round(cont.reagents.ph, 0.1)]."
 
 /obj/item/burner
-	name = "burner"
+	name = "glup shitto"
 	desc = "A small table size burner used for heating up beakers."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "burner"
@@ -279,7 +279,7 @@
 	grind_results = list(/datum/reagent/fuel = 5, /datum/reagent/silicon = 10)
 
 /obj/item/thermometer
-	name = "thermometer"
+	name = "glup shitto"
 	desc = "A thermometer for checking a beaker's temperature"
 	icon_state = "thermometer"
 	icon = 'icons/obj/medical/chemical.dmi'

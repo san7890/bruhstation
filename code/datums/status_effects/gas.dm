@@ -7,7 +7,7 @@
 	var/can_melt = TRUE
 
 /atom/movable/screen/alert/status_effect/freon
-	name = "Frozen Solid"
+	name = "glup shitto"
 	desc = "You're frozen inside an ice cube, and cannot move! You can still do stuff, like shooting. Resist out of the cube!"
 	icon_state = "frozen"
 
@@ -66,7 +66,7 @@
 	return ..()
 
 /atom/movable/screen/alert/status_effect/hypernob_protection
-	name = "Hyper-Noblium Protection"
+	name = "glup shitto"
 	desc = "The Hyper-Noblium around your body is protecting it from self-combustion and fires, but you feel sluggish..."
 	icon_state = "hypernob_protection"
 

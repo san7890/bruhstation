@@ -3,7 +3,7 @@
 
 //Tendril-spawned Legion remains, the charred skeletons of those whose bodies sank into laval or fell into chasms.
 /obj/effect/mob_spawn/corpse/human/charredskeleton
-	name = "charred skeletal remains"
+	name = "glup shitto"
 	mob_name = "ashen skeleton"
 	burn_damage = 1000
 	mob_species = /datum/species/skeleton
@@ -60,7 +60,7 @@
 	. = ..()
 
 /datum/outfit/consumed_miner
-	name = "Legion-Consumed Miner"
+	name = "glup shitto"
 	gloves = /obj/item/clothing/gloves/color/black
 	mask = /obj/item/clothing/mask/gas/explorer
 	shoes = /obj/item/clothing/shoes/workboots/mining
@@ -122,7 +122,7 @@
 		))
 
 /datum/outfit/consumed_ashwalker
-	name = "Legion-Consumed Ashwalker"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/costume/gladiator/ash_walker
 
 /datum/outfit/consumed_ashwalker/pre_equip(mob/living/carbon/human/ashwalker, visualsOnly = FALSE)
@@ -148,7 +148,7 @@
 
 //takes a lot from the clown job, notably NO PDA and different backpack loot + pocket goodies
 /datum/outfit/consumed_clown
-	name = "Legion-Consumed Clown"
+	name = "glup shitto"
 	id_trim = /datum/id_trim/job/clown
 	uniform = /obj/item/clothing/under/rank/civilian/clown
 	back = /obj/item/storage/backpack/clown
@@ -196,7 +196,7 @@
 		new /obj/item/pneumatic_cannon/pie(get_turf(clown))
 
 /datum/outfit/consumed_golem
-	name = "Legion-Consumed Golem"
+	name = "glup shitto"
 	//Oops! All randomized!
 
 /datum/outfit/consumed_golem/pre_equip(mob/living/carbon/human/golem, visualsOnly = FALSE)
@@ -233,7 +233,7 @@
 
 //this is so pointlessly gendered but whatever bro i'm here to refactor not judge
 /datum/outfit/consumed_dame
-	name = "Legion-Consumed Dame"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/costume/maid
 	suit = /obj/item/clothing/suit/armor/riot/knight
 	gloves = /obj/item/clothing/gloves/color/white
@@ -254,7 +254,7 @@
 		belt = /obj/item/nullrod/claymore
 
 /datum/outfit/consumed_shadowperson
-	name = "Legion-Consumed Shadowperson"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/color/black
 	suit = /obj/item/clothing/suit/toggle/labcoat
 	back = /obj/item/tank/internals/oxygen
@@ -271,7 +271,7 @@
 	shadowperson.set_species(/datum/species/shadow)
 
 /datum/outfit/consumed_cultist
-	name = "Legion-Consumed Cultist"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/costume/roman
 	suit = /obj/item/clothing/suit/hooded/cultrobes
 	suit_store = /obj/item/tome

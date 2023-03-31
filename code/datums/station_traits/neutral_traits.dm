@@ -1,12 +1,12 @@
 /datum/station_trait/bananium_shipment
-	name = "Bananium Shipment"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
 	report_message = "Rumors has it that the clown planet has been sending support packages to clowns in this system"
 	trait_to_give = STATION_TRAIT_BANANIUM_SHIPMENTS
 
 /datum/station_trait/unnatural_atmosphere
-	name = "Unnatural atmospherical properties"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
 	show_in_report = TRUE
@@ -17,14 +17,14 @@
 	can_revert = FALSE
 
 /datum/station_trait/spider_infestation
-	name = "Spider Infestation"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
 	report_message = "We have introduced a natural countermeasure to reduce the number of rodents on board your station."
 	trait_to_give = STATION_TRAIT_SPIDER_INFESTATION
 
 /datum/station_trait/unique_ai
-	name = "Unique AI"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
 	show_in_report = TRUE
@@ -38,7 +38,7 @@
 		ai.show_laws()
 
 /datum/station_trait/ian_adventure
-	name = "Ian's Adventure"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 5
 	show_in_report = FALSE
@@ -97,7 +97,7 @@
 		qdel(old_dog)
 
 /datum/station_trait/glitched_pdas
-	name = "PDA glitch"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 15
 	show_in_report = TRUE
@@ -105,7 +105,7 @@
 	trait_to_give = STATION_TRAIT_PDA_GLITCHED
 
 /datum/station_trait/announcement_intern
-	name = "Announcement Intern"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 1
 	show_in_report = TRUE
@@ -117,7 +117,7 @@
 	SSstation.announcer = /datum/centcom_announcer/intern
 
 /datum/station_trait/announcement_medbot
-	name = "Announcement \"System\""
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 1
 	show_in_report = TRUE
@@ -129,7 +129,7 @@
 	SSstation.announcer = /datum/centcom_announcer/medbot
 
 /datum/station_trait/colored_assistants
-	name = "Colored Assistants"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 10
 	show_in_report = TRUE
@@ -142,7 +142,7 @@
 	GLOB.colored_assistant = new new_colored_assistant_type
 
 /datum/station_trait/cargorilla
-	name = "Cargo Gorilla"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 1
 	show_in_report = FALSE // Selective attention test. Did you spot the gorilla?
@@ -198,7 +198,7 @@
 	gorilla.poll_for_gorilla()
 
 /datum/station_trait/birthday
-	name = "Employee Birthday"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_NEUTRAL
 	weight = 2
 	show_in_report = TRUE
@@ -291,7 +291,7 @@
 			spawned_mob.equip_to_slot_or_del(birthday_invite, ITEM_SLOT_BACKPACK) //Just incase someone spawns with both hands full.
 
 /obj/item/birthday_invite
-	name = "birthday invitation"
+	name = "glup shitto"
 	desc = "A card stating that it's someone's birthday today."
 	resistance_flags = FLAMMABLE
 	w_class = WEIGHT_CLASS_TINY
@@ -302,7 +302,7 @@
 	icon = 'icons/obj/bureaucracy.dmi'
 
 /obj/item/clothing/head/costume/party
-	name = "party hat"
+	name = "glup shitto"
 	desc = "A crappy paper hat that you are REQUIRED to wear."
 	icon_state = "party_hat"
 	greyscale_config =  /datum/greyscale_config/party_hat
@@ -323,7 +323,7 @@
 	return ..()
 
 /obj/item/clothing/head/costume/party/festive
-	name = "festive paper hat"
+	name = "glup shitto"
 	icon_state = "xmashat_grey"
 	greyscale_config = /datum/greyscale_config/festive_hat
 	greyscale_config_worn = /datum/greyscale_config/festive_hat_worn

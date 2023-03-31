@@ -39,7 +39,7 @@
 
 
 /datum/outfit/job/paramedic
-	name = "Paramedic"
+	name = "glup shitto"
 	jobtype = /datum/job/paramedic
 
 	id = /obj/item/card/id/advanced

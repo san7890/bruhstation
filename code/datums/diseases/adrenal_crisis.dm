@@ -1,6 +1,6 @@
 /datum/disease/adrenal_crisis
 	form = "Condition"
-	name = "Adrenal Crisis"
+	name = "glup shitto"
 	max_stages = 2
 	cure_text = "Trauma"
 	cures = list(/datum/reagent/determination)

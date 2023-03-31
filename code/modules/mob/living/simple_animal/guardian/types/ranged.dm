@@ -1,6 +1,6 @@
 //Ranged
 /obj/projectile/guardian
-	name = "crystal spray"
+	name = "glup shitto"
 	icon_state = "guardian"
 	damage = 5
 	damage_type = BRUTE
@@ -127,7 +127,7 @@
 	to_chat(src, span_bolddanger("Snare disarmed."))
 
 /obj/effect/snare
-	name = "snare"
+	name = "glup shitto"
 	desc = "You shouldn't be seeing this!"
 	invisibility = INVISIBILITY_ABSTRACT
 	var/datum/weakref/guardian_ref

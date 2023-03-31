@@ -1,5 +1,5 @@
 /obj/item/toy/xmas_cracker
-	name = "xmas cracker"
+	name = "glup shitto"
 	icon = 'icons/obj/holiday/christmas.dmi'
 	icon_state = "cracker"
 	desc = "Directions for use: Requires two people, one to pull each end."
@@ -36,7 +36,7 @@
 	return ..()
 
 /obj/item/clothing/head/costume/festive
-	name = "festive paper hat"
+	name = "glup shitto"
 	icon_state = "xmashat"
 	desc = "A crappy paper hat that you are REQUIRED to wear."
 	flags_inv = 0
@@ -44,7 +44,7 @@
 	dog_fashion = /datum/dog_fashion/head/festive
 
 /obj/effect/spawner/xmastree
-	name = "christmas tree spawner"
+	name = "glup shitto"
 	icon = 'icons/effects/landmarks_static.dmi'
 	icon_state = "x2"
 	layer = FLY_LAYER
@@ -63,12 +63,12 @@
 		new festive_tree(get_turf(src))
 
 /obj/effect/spawner/xmastree/rdrod
-	name = "festivus pole spawner"
+	name = "glup shitto"
 	festive_tree = /obj/structure/festivus
 	christmas_tree = null
 
 /datum/round_event_control/santa
-	name = "Visit by Santa"
+	name = "glup shitto"
 	holidayID = CHRISTMAS
 	typepath = /datum/round_event/santa
 	weight = 20

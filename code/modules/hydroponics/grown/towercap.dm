@@ -1,5 +1,5 @@
 /obj/item/seeds/tower
-	name = "pack of tower-cap mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into tower-cap mushrooms."
 	icon_state = "mycelium-tower"
 	species = "towercap"
@@ -20,7 +20,7 @@
 	graft_gene = /datum/plant_gene/trait/plant_type/fungal_metabolism
 
 /obj/item/seeds/tower/steel
-	name = "pack of steel-cap mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into steel logs."
 	icon_state = "mycelium-steelcap"
 	species = "steelcap"
@@ -32,7 +32,7 @@
 
 /obj/item/grown/log
 	seed = /obj/item/seeds/tower
-	name = "tower-cap log"
+	name = "glup shitto"
 	desc = "It's better than bad, it's good!"
 	icon_state = "logs"
 	force = 5
@@ -113,12 +113,12 @@
 
 /obj/item/grown/log/tree
 	seed = null
-	name = "wood log"
+	name = "glup shitto"
 	desc = "TIMMMMM-BERRRRRRRRRRR!"
 
 /obj/item/grown/log/steel
 	seed = /obj/item/seeds/tower/steel
-	name = "steel-cap log"
+	name = "glup shitto"
 	desc = "It's made of metal."
 	icon_state = "steellogs"
 	plank_type = /obj/item/stack/rods
@@ -128,7 +128,7 @@
 	return FALSE
 
 /obj/structure/punji_sticks
-	name = "punji sticks"
+	name = "glup shitto"
 	desc = "Don't step on this."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "punji"
@@ -193,5 +193,5 @@
 	return ..()
 
 /obj/structure/punji_sticks/spikes
-	name = "wooden spikes"
+	name = "glup shitto"
 	icon_state = "woodspike"

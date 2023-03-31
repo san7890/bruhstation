@@ -6,7 +6,7 @@
 #define CHARGE_COMPLETED 2
 
 /datum/action/innate/summon_rift
-	name = "Summon Rift"
+	name = "glup shitto"
 	desc = "Summon a rift to bring forth a horde of space carp."
 	background_icon_state = "bg_default"
 	overlay_icon_state = "bg_default_border"
@@ -55,7 +55,7 @@
  * Once it is fully charged, it becomes indestructible, and intermitently spawns non-sentient carp.  It is still destroyed if Space Dragon dies.
  */
 /obj/structure/carp_rift
-	name = "carp rift"
+	name = "glup shitto"
 	desc = "A rift akin to the ones space carp use to travel long distances."
 	armor_type = /datum/armor/structure_carp_rift
 	max_integrity = 300

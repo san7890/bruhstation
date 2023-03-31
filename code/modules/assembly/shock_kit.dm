@@ -1,5 +1,5 @@
 /obj/item/assembly/shock_kit
-	name = "electrohelmet assembly"
+	name = "glup shitto"
 	desc = "This appears to be made from both an electropack and a helmet."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	icon_state = "shock_kit"

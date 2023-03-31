@@ -6,7 +6,7 @@
 // three different channels (lighting/equipment/environ) - may each be set to on, off, or auto
 
 /obj/machinery/power/apc
-	name = "area power controller"
+	name = "glup shitto"
 	desc = "A control terminal for the area's electrical systems."
 
 	icon_state = "apc0"
@@ -657,6 +657,6 @@
 
 /*Power module, used for APC construction*/
 /obj/item/electronics/apc
-	name = "power control module"
+	name = "glup shitto"
 	icon_state = "power_mod"
 	desc = "Heavy-duty switching circuits for power control."

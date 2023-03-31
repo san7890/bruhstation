@@ -1,7 +1,7 @@
 // Modular Computer - device that runs various programs and operates with hardware
 // DO NOT SPAWN THIS TYPE. Use /laptop/ or /console/ instead.
 /obj/machinery/modular_computer
-	name = "modular computer"
+	name = "glup shitto"
 	desc = "You shouldn't see this. If you do, report it." //they should be examining the processor instead
 
 	// Modular computers can run on various devices. Each DEVICE (Laptop, Console, Tablet,..)

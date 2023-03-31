@@ -7,7 +7,7 @@
 
 /obj/item/grenade/clusterbuster
 	desc = "Use of this weapon may constitute a war crime in your area, consult your local captain."
-	name = "clusterbang"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/grenade.dmi'
 	icon_state = "clusterbang"
 	var/base_state = "clusterbang"
@@ -44,7 +44,7 @@
 //////////////////////
 /obj/item/grenade/clusterbuster/segment
 	desc = "A smaller segment of a clusterbang. Better run!"
-	name = "clusterbang segment"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/grenade.dmi'
 	icon_state = "clusterbang_segment"
 	base_state = "clusterbang_segment"
@@ -131,55 +131,55 @@
 	icon_state = "flashbang_active"
 
 /obj/item/grenade/clusterbuster/emp
-	name = "Electromagnetic Storm"
+	name = "glup shitto"
 	payload = /obj/item/grenade/empgrenade
 
 /obj/item/grenade/clusterbuster/smoke
-	name = "Ninja Vanish"
+	name = "glup shitto"
 	payload = /obj/item/grenade/smokebomb
 
 /obj/item/grenade/clusterbuster/metalfoam
-	name = "Instant Concrete"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/metalfoam
 
 /obj/item/grenade/clusterbuster/inferno
-	name = "Inferno"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/incendiary
 
 /obj/item/grenade/clusterbuster/antiweed
-	name = "RoundDown"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/antiweed
 
 /obj/item/grenade/clusterbuster/cleaner
-	name = "Mr. Proper"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/cleaner
 
 /obj/item/grenade/clusterbuster/teargas
-	name = "Oignon Grenade"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/teargas
 
 /obj/item/grenade/clusterbuster/facid
-	name = "Aciding Rain"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/facid
 
 /obj/item/grenade/clusterbuster/syndieminibomb
-	name = "SyndiWrath"
+	name = "glup shitto"
 	payload = /obj/item/grenade/syndieminibomb
 
 /obj/item/grenade/clusterbuster/spawner_manhacks
-	name = "iViscerator"
+	name = "glup shitto"
 	payload = /obj/item/grenade/spawnergrenade/manhacks
 
 /obj/item/grenade/clusterbuster/spawner_spesscarp
-	name = "Invasion of the Space Carps"
+	name = "glup shitto"
 	payload = /obj/item/grenade/spawnergrenade/spesscarp
 
 /obj/item/grenade/clusterbuster/soap
-	name = "Slipocalypse"
+	name = "glup shitto"
 	payload = /obj/item/grenade/spawnergrenade/syndiesoap
 
 /obj/item/grenade/clusterbuster/clf3
-	name = "WELCOME TO HELL"
+	name = "glup shitto"
 	payload = /obj/item/grenade/chem_grenade/clf3
 
 //random clusterbuster spawner
@@ -194,7 +194,7 @@
 
 //rainbow slime effect
 /obj/item/grenade/clusterbuster/slime
-	name = "Blorble Blorble"
+	name = "glup shitto"
 	icon_state = "slimebang"
 	base_state = "slimebang"
 	payload_spawner = /obj/effect/payload_spawner/random_slime

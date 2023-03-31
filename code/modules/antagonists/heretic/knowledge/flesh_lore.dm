@@ -32,7 +32,7 @@
  * Priest's Final Hymn
  */
 /datum/heretic_knowledge/limited_amount/starting/base_flesh
-	name = "Principle of Hunger"
+	name = "glup shitto"
 	desc = "Opens up the Path of Flesh to you. \
 		Allows you to transmute a knife and a pool of blood into a Bloody Blade. \
 		You can only create three at a time."
@@ -56,7 +56,7 @@
 	our_heretic.owner.announce_objectives()
 
 /datum/heretic_knowledge/limited_amount/flesh_grasp
-	name = "Grasp of Flesh"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp gains the ability to create a ghoul out of corpse with a soul. \
 		Ghouls have only 25 health and look like husks to the heathens' eyes, but can use Bloody Blades effectively. \
 		You can only create one at a time by this method."
@@ -121,7 +121,7 @@
 	LAZYREMOVE(created_items, WEAKREF(ghoul))
 
 /datum/heretic_knowledge/limited_amount/flesh_ghoul
-	name = "Imperfect Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a corpse and a poppy to create a Voiceless Dead. \
 		Voiceless Dead are mute ghouls and only have 50 health, but can use Bloody Blades effectively. \
 		You can only create two at a time."
@@ -208,7 +208,7 @@
 	REMOVE_TRAIT(ghoul, TRAIT_MUTE, MAGIC_TRAIT)
 
 /datum/heretic_knowledge/mark/flesh_mark
-	name = "Mark of Flesh"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp now applies the Mark of Flesh. The mark is triggered from an attack with your Bloody Blade. \
 		When triggered, the victim begins to bleed significantly."
 	gain_text = "That's when I saw them, the marked ones. They were out of reach. They screamed, and screamed."
@@ -221,7 +221,7 @@
 	route = PATH_FLESH
 
 /datum/heretic_knowledge/spell/flesh_surgery
-	name = "Knitting of Flesh"
+	name = "glup shitto"
 	desc = "Grants you the spell Knit Flesh. This spell allows you to remove organs from victims \
 		without requiring a lengthy surgery. This process is much longer if the target is not dead. \
 		This spell also allows you to heal your minions and summons, or restore failing organs to acceptable status."
@@ -233,7 +233,7 @@
 	route = PATH_FLESH
 
 /datum/heretic_knowledge/summon/raw_prophet
-	name = "Raw Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a pair of eyes, a left arm, and a pool of blood to create a Raw Prophet. \
 		Raw Prophets have a greatly increased sight range and x-ray vision, as well as a long range jaunt and \
 		the ability to link minds to communicate with ease, but are very fragile and weak in combat."
@@ -255,7 +255,7 @@
 	route = PATH_FLESH
 
 /datum/heretic_knowledge/blade_upgrade/flesh
-	name = "Bleeding Steel"
+	name = "glup shitto"
 	desc = "Your Bloody Blade now causes enemies to bleed heavily on attack."
 	gain_text = "The Uncanny Man was not alone. They led me to the Marshal. \
 		I finally began to understand. And then, blood rained from the heavens."
@@ -272,7 +272,7 @@
 	crit_wound.apply_wound(bodypart, attack_direction = get_dir(source, target))
 
 /datum/heretic_knowledge/summon/stalker
-	name = "Lonely Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a tail of any kind, a stomach, a tongue, a pen and a piece of paper to create a Stalker. \
 		Stalkers can jaunt, release EMPs, shapeshift into animals or automatons, and are strong in combat."
 	gain_text = "I was able to combine my greed and desires to summon an eldritch beast I had never seen before. \
@@ -294,7 +294,7 @@
 	route = PATH_FLESH
 
 /datum/heretic_knowledge/ultimate/flesh_final
-	name = "Priest's Final Hymn"
+	name = "glup shitto"
 	desc = "The ascension ritual of the Path of Flesh. \
 		Bring 4 corpses to a transmutation rune to complete the ritual. \
 		When completed, you gain the ability to shed your human form \

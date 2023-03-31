@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/regalrat
-	name = "feral regal rat"
+	name = "glup shitto"
 	desc = "An evolved rat, created through some strange science. They lead nearby rats with deadly efficiency to protect their kingdom. Not technically a king."
 	icon_state = "regalrat"
 	icon_living = "regalrat"
@@ -186,7 +186,7 @@
 	INVOKE_ASYNC(src, PROC_REF(get_player))
 	var/kingdom = pick("Plague","Miasma","Maintenance","Trash","Garbage","Rat","Vermin","Cheese")
 	var/title = pick("King","Lord","Prince","Emperor","Supreme","Overlord","Master","Shogun","Bojar","Tsar")
-	name = "[kingdom] [title]"
+	name = "glup shitto"
 
 
 /**
@@ -194,7 +194,7 @@
  */
 
 /datum/action/cooldown/domain
-	name = "Rat King's Domain"
+	name = "glup shitto"
 	desc = "Corrupts this area to be more suitable for your rat army."
 	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_INCAPACITATED
 	cooldown_time = 6 SECONDS
@@ -228,7 +228,7 @@
  * If none are nearby, creates a new mouse.
  */
 /datum/action/cooldown/riot
-	name = "Raise Army"
+	name = "glup shitto"
 	desc = "Raise an army out of the hordes of mice and pests crawling around the maintenance shafts."
 	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_INCAPACITATED
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
@@ -399,7 +399,7 @@
  */
 
 /datum/reagent/rat_spit
-	name = "Rat Spit"
+	name = "glup shitto"
 	description = "Something coming from a rat. Dear god! Who knows where it's been!"
 	reagent_state = LIQUID
 	color = "#C8C8C8"

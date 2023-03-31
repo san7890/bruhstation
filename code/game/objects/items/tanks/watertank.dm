@@ -1,6 +1,6 @@
 //Hydroponics tank and base code
 /obj/item/watertank
-	name = "backpack water tank"
+	name = "glup shitto"
 	desc = "A S.U.N.S.H.I.N.E. brand watertank backpack with nozzle to water plants."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "waterbackpack"
@@ -116,7 +116,7 @@
 // the watertank backpack. Allowing it to be placed elsewhere or created without a parent
 // watertank object will likely lead to weird behaviour or runtimes.
 /obj/item/reagent_containers/spray/mister
-	name = "water mister"
+	name = "glup shitto"
 	desc = "A mister nozzle attached to a water tank."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "mister"
@@ -144,7 +144,7 @@
 
 //Janitor tank
 /obj/item/watertank/janitor
-	name = "backpack cleaner tank"
+	name = "glup shitto"
 	desc = "A janitorial cleaner backpack with nozzle to clean blood and graffiti."
 	icon_state = "waterbackpackjani"
 	inhand_icon_state = "waterbackpackjani"
@@ -155,7 +155,7 @@
 	reagents.add_reagent(/datum/reagent/space_cleaner, 500)
 
 /obj/item/reagent_containers/spray/mister/janitor
-	name = "janitor spray nozzle"
+	name = "glup shitto"
 	desc = "A janitorial spray nozzle attached to a watertank, designed to clean up large messes."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "misterjani"
@@ -174,7 +174,7 @@
 
 //Security tank
 /obj/item/watertank/pepperspray
-	name = "ANTI-TIDER-2500 suppression backpack"
+	name = "glup shitto"
 	desc = "The ultimate crowd-control device; this tool allows the user to quickly and efficiently pacify groups of hostile targets."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "pepperbackpacksec"
@@ -187,7 +187,7 @@
 	reagents.add_reagent(/datum/reagent/consumable/condensedcapsaicin, 1000)
 
 /obj/item/reagent_containers/spray/mister/pepperspray
-	name = "security spray nozzle"
+	name = "glup shitto"
 	desc = "A pacifying spray nozzle attached to a pepperspray tank, designed to silence perps."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "mistersec"
@@ -211,7 +211,7 @@
 #define RESIN_FOAM 2
 
 /obj/item/watertank/atmos
-	name = "backpack firefighter tank"
+	name = "glup shitto"
 	desc = "A refrigerated and pressurized backpack tank with extinguisher nozzle, intended to fight fires. Swaps between extinguisher, resin launcher and a smaller scale resin foamer."
 	inhand_icon_state = "waterbackpackatmos"
 	icon_state = "waterbackpackatmos"
@@ -234,7 +234,7 @@
 		N.nozzle_mode = 0
 
 /obj/item/extinguisher/mini/nozzle
-	name = "extinguisher nozzle"
+	name = "glup shitto"
 	desc = "A heavy duty nozzle attached to a firefighter's backpack tank."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "atmos_nozzle"
@@ -354,7 +354,7 @@
 	metal_synthesis_cooldown--
 
 /obj/effect/resin_container
-	name = "resin container"
+	name = "glup shitto"
 	desc = "A compacted ball of expansive resin, used to repair the atmosphere in a room, or seal off breaches."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "frozen_smoke_capsule"
@@ -378,7 +378,7 @@
 #undef RESIN_FOAM
 
 /obj/item/reagent_containers/chemtank
-	name = "backpack chemical injector"
+	name = "glup shitto"
 	desc = "A chemical autoinjector that can be carried on your back."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "waterbackpackchem"
@@ -472,4 +472,4 @@
 	user.update_worn_back() //for overlays update
 
 /datum/action/item_action/activate_injector
-	name = "Activate Injector"
+	name = "glup shitto"

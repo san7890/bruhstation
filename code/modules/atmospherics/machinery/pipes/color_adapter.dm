@@ -2,7 +2,7 @@
 	icon = 'icons/obj/atmospherics/pipes/color_adapter.dmi'
 	icon_state = "adapter_map-3"
 
-	name = "color adapter"
+	name = "glup shitto"
 	desc = "A one meter section of regular pipe used to connect different colored pipes."
 
 	dir = SOUTH

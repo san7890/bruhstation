@@ -23,7 +23,7 @@
 		shipped_volume = required_volume
 
 /datum/bounty/reagent/simple_drink
-	name = "Simple Drink"
+	name = "glup shitto"
 	reward = CARGO_CRATE_VALUE * 3
 
 /datum/bounty/reagent/simple_drink/New()
@@ -79,7 +79,7 @@
 	reward += rand(0, 2) * 500
 
 /datum/bounty/reagent/complex_drink
-	name = "Complex Drink"
+	name = "glup shitto"
 	reward = CARGO_CRATE_VALUE * 8
 
 /datum/bounty/reagent/complex_drink/New()
@@ -112,7 +112,7 @@
 	reward += rand(0, 4) * 500
 
 /datum/bounty/reagent/chemical_simple
-	name = "Simple Chemical"
+	name = "glup shitto"
 	reward = CARGO_CRATE_VALUE * 8
 	required_volume = 30
 
@@ -150,7 +150,7 @@
 	reward += rand(0, 4) * 500 //4000 to 6000 credits
 
 /datum/bounty/reagent/chemical_complex
-	name = "Rare Chemical"
+	name = "glup shitto"
 	reward = CARGO_CRATE_VALUE * 12
 	required_volume = 20
 
@@ -208,7 +208,7 @@
 		shipped_ammount = required_ammount
 
 /datum/bounty/pill/simple_pill
-	name = "Simple Pill"
+	name = "glup shitto"
 	reward = CARGO_CRATE_VALUE * 20
 
 /datum/bounty/pill/simple_pill/New()
@@ -232,7 +232,7 @@
 
 	var/datum/reagent/reagent_type = pick(possible_reagents)
 	wanted_reagent = new reagent_type
-	name = "[wanted_reagent.name] pills"
+	name = "glup shitto"
 	required_ammount += rand(1,60)
 	wanted_vol += rand(1,20)
 	description = "CentCom requires [required_ammount] of [name] containing at least [wanted_vol] each. Ship a container of it to be rewarded."

@@ -1,5 +1,5 @@
 /obj/item/clothing/head/soft
-	name = "cargo cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteful brown colour."
 	icon = 'icons/obj/clothing/head/hats.dmi'
 	worn_icon = 'icons/mob/clothing/head/hats.dmi'
@@ -45,35 +45,35 @@
 	. += span_notice("Alt-click the cap to flip it [flipped ? "forwards" : "backwards"].")
 
 /obj/item/clothing/head/soft/red
-	name = "red cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless red colour."
 	icon_state = "redsoft"
 	soft_type = "red"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/blue
-	name = "blue cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless blue colour."
 	icon_state = "bluesoft"
 	soft_type = "blue"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/green
-	name = "green cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless green colour."
 	icon_state = "greensoft"
 	soft_type = "green"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/yellow
-	name = "yellow cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless yellow colour."
 	icon_state = "yellowsoft"
 	soft_type = "yellow"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/grey
-	name = "grey cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteful grey colour."
 	icon_state = "greysoft"
 	soft_type = "grey"
@@ -84,40 +84,40 @@
  * Also a perfectly valid weird admin reward.
  */
 /obj/item/clothing/head/soft/grey/jolly
-	name = "jolly grey cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a sublime grey colour. Why, wearing this alone would boost a person's spirits!"
 	clothing_traits = list(TRAIT_JOLLY)
 
 /obj/item/clothing/head/soft/orange
-	name = "orange cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless orange colour."
 	icon_state = "orangesoft"
 	soft_type = "orange"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/mime
-	name = "white cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless white colour."
 	icon_state = "mimesoft"
 	soft_type = "mime"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/purple
-	name = "purple cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless purple colour."
 	icon_state = "purplesoft"
 	soft_type = "purple"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/black
-	name = "black cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a tasteless black colour."
 	icon_state = "blacksoft"
 	soft_type = "black"
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/rainbow
-	name = "rainbow cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat in a bright rainbow of colors."
 	icon_state = "rainbowsoft"
 	inhand_icon_state = "rainbow_softcap"
@@ -125,7 +125,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/soft/sec
-	name = "security cap"
+	name = "glup shitto"
 	desc = "It's a robust baseball hat in tasteful red colour."
 	icon_state = "secsoft"
 	soft_type = "sec"
@@ -143,7 +143,7 @@
 	acid = 50
 
 /obj/item/clothing/head/soft/paramedic
-	name = "paramedic cap"
+	name = "glup shitto"
 	desc = "It's a baseball hat with a dark turquoise color and a reflective cross on the top."
 	icon_state = "paramedicsoft"
 	soft_type = "paramedic"

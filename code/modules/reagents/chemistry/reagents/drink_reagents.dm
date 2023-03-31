@@ -5,7 +5,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /datum/reagent/consumable/orangejuice
-	name = "Orange Juice"
+	name = "glup shitto"
 	description = "Both delicious AND rich in Vitamin C, what more do you need?"
 	color = "#E78108" // rgb: 231, 129, 8
 	taste_description = "oranges"
@@ -15,13 +15,13 @@
 
 /datum/glass_style/drinking_glass/orangejuice
 	required_drink_type = /datum/reagent/consumable/orangejuice
-	name = "glass of orange juice"
+	name = "glup shitto"
 	desc = "Vitamins! Yay!"
 	icon_state = "glass_orange"
 
 /datum/glass_style/juicebox/orangejuice
 	required_drink_type = /datum/reagent/consumable/orangejuice
-	name = "orange juice box"
+	name = "glup shitto"
 	desc = "A great source of vitamins. Stay healthy!"
 	icon_state = "orangebox"
 	drink_type = FRUIT | BREAKFAST
@@ -33,7 +33,7 @@
 	..()
 
 /datum/reagent/consumable/tomatojuice
-	name = "Tomato Juice"
+	name = "glup shitto"
 	description = "Tomatoes made into juice. What a waste of big, juicy tomatoes, huh?"
 	color = "#731008" // rgb: 115, 16, 8
 	taste_description = "tomatoes"
@@ -42,7 +42,7 @@
 
 /datum/glass_style/drinking_glass/tomatojuice
 	required_drink_type = /datum/reagent/consumable/tomatojuice
-	name = "glass of tomato juice"
+	name = "glup shitto"
 	desc = "Are you sure this is tomato juice?"
 	icon_state = "glass_red"
 
@@ -53,7 +53,7 @@
 	..()
 
 /datum/reagent/consumable/limejuice
-	name = "Lime Juice"
+	name = "glup shitto"
 	description = "The sweet-sour juice of limes."
 	color = "#365E30" // rgb: 54, 94, 48
 	taste_description = "unbearable sourness"
@@ -63,7 +63,7 @@
 
 /datum/glass_style/drinking_glass/limejuice
 	required_drink_type = /datum/reagent/consumable/limejuice
-	name = "glass of lime juice"
+	name = "glup shitto"
 	desc = "A glass of sweet-sour lime juice."
 	icon_state = "glass_green"
 
@@ -74,7 +74,7 @@
 	..()
 
 /datum/reagent/consumable/carrotjuice
-	name = "Carrot Juice"
+	name = "glup shitto"
 	description = "It is just like a carrot but without crunching."
 	color = "#973800" // rgb: 151, 56, 0
 	taste_description = "carrots"
@@ -82,7 +82,7 @@
 
 /datum/glass_style/drinking_glass/carrotjuice
 	required_drink_type = /datum/reagent/consumable/carrotjuice
-	name = "glass of  carrot juice"
+	name = "glup shitto"
 	desc = "It's just like a carrot but without crunching."
 	icon_state = "carrotjuice"
 
@@ -100,7 +100,7 @@
 	return ..()
 
 /datum/reagent/consumable/berryjuice
-	name = "Berry Juice"
+	name = "glup shitto"
 	description = "A delicious blend of several different kinds of berries."
 	color = "#863333" // rgb: 134, 51, 51
 	taste_description = "berries"
@@ -108,12 +108,12 @@
 
 /datum/glass_style/drinking_glass/berryjuice
 	required_drink_type = /datum/reagent/consumable/berryjuice
-	name = "glass of berry juice"
+	name = "glup shitto"
 	desc = "Berry juice. Or maybe it's jam. Who cares?"
 	icon_state = "berryjuice"
 
 /datum/reagent/consumable/applejuice
-	name = "Apple Juice"
+	name = "glup shitto"
 	description = "The sweet juice of an apple, fit for all ages."
 	color = "#ECFF56" // rgb: 236, 255, 86
 	taste_description = "apples"
@@ -121,13 +121,13 @@
 
 /datum/glass_style/juicebox/applejuice
 	required_drink_type = /datum/reagent/consumable/applejuice
-	name = "apple juice box"
+	name = "glup shitto"
 	desc = "Sweet apple juice. Don't be late for school!"
 	icon_state = "juicebox"
 	drink_type = FRUIT
 
 /datum/reagent/consumable/poisonberryjuice
-	name = "Poison Berry Juice"
+	name = "glup shitto"
 	description = "A tasty juice blended from various kinds of very deadly and toxic berries."
 	color = "#863353" // rgb: 134, 51, 83
 	taste_description = "berries"
@@ -135,7 +135,7 @@
 
 /datum/glass_style/drinking_glass/poisonberryjuice
 	required_drink_type = /datum/reagent/consumable/poisonberryjuice
-	name = "glass of berry juice"
+	name = "glup shitto"
 	desc = "Berry juice. Or maybe it's poison. Who cares?"
 	icon_state = "poisonberryjuice"
 
@@ -145,7 +145,7 @@
 	..()
 
 /datum/reagent/consumable/watermelonjuice
-	name = "Watermelon Juice"
+	name = "glup shitto"
 	description = "Delicious juice made from watermelon."
 	color = "#863333" // rgb: 134, 51, 51
 	taste_description = "juicy watermelon"
@@ -153,12 +153,12 @@
 
 /datum/glass_style/drinking_glass/watermelonjuice
 	required_drink_type = /datum/reagent/consumable/watermelonjuice
-	name = "glass of watermelon juice"
+	name = "glup shitto"
 	desc = "A glass of watermelon juice."
 	icon_state = "glass_red"
 
 /datum/reagent/consumable/lemonjuice
-	name = "Lemon Juice"
+	name = "glup shitto"
 	description = "This juice is VERY sour."
 	color = "#863333" // rgb: 175, 175, 0
 	taste_description = "sourness"
@@ -167,12 +167,12 @@
 
 /datum/glass_style/drinking_glass/lemonjuice
 	required_drink_type = /datum/reagent/consumable/lemonjuice
-	name = "glass of lemon juice"
+	name = "glup shitto"
 	desc = "Sour..."
 	icon_state = "lemonglass"
 
 /datum/reagent/consumable/banana
-	name = "Banana Juice"
+	name = "glup shitto"
 	description = "The raw essence of a banana. HONK"
 	color = "#863333" // rgb: 175, 175, 0
 	taste_description = "banana"
@@ -180,7 +180,7 @@
 
 /datum/glass_style/drinking_glass/banana
 	required_drink_type = /datum/reagent/consumable/banana
-	name = "glass of banana juice"
+	name = "glup shitto"
 	desc = "The raw essence of a banana. HONK."
 	icon_state = "banana"
 
@@ -192,7 +192,7 @@
 	..()
 
 /datum/reagent/consumable/nothing
-	name = "Nothing"
+	name = "glup shitto"
 	description = "Absolutely nothing."
 	taste_description = "nothing"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
@@ -203,7 +203,7 @@
 
 /datum/glass_style/drinking_glass/nothing
 	required_drink_type = /datum/reagent/consumable/nothing
-	name = "nothing"
+	name = "glup shitto"
 	desc = "Absolutely nothing."
 	icon_state = "nothing"
 
@@ -215,7 +215,7 @@
 	..()
 
 /datum/reagent/consumable/laughter
-	name = "Laughter"
+	name = "glup shitto"
 	description = "Some say that this is the best medicine, but recent studies have proven that to be untrue."
 	metabolization_rate = INFINITY
 	color = "#FF4DD2"
@@ -228,7 +228,7 @@
 	..()
 
 /datum/reagent/consumable/superlaughter
-	name = "Super Laughter"
+	name = "glup shitto"
 	description = "Funny until you're the one laughing."
 	metabolization_rate = 1.5 * REAGENTS_METABOLISM
 	color = "#FF4DD2"
@@ -243,7 +243,7 @@
 	..()
 
 /datum/reagent/consumable/potato_juice
-	name = "Potato Juice"
+	name = "glup shitto"
 	description = "Juice of the potato. Bleh."
 	nutriment_factor = 2 * REAGENTS_METABOLISM
 	color = "#302000" // rgb: 48, 32, 0
@@ -252,12 +252,12 @@
 
 /datum/glass_style/drinking_glass/potato_juice
 	required_drink_type = /datum/reagent/consumable/potato_juice
-	name = "glass of potato juice"
+	name = "glup shitto"
 	desc = "Bleh..."
 	icon_state = "glass_brown"
 
 /datum/reagent/consumable/grapejuice
-	name = "Grape Juice"
+	name = "glup shitto"
 	description = "The juice of a bunch of grapes. Guaranteed non-alcoholic."
 	color = "#290029" // dark purple
 	taste_description = "grape soda"
@@ -265,13 +265,13 @@
 
 /datum/glass_style/juicebox/grapejuice
 	required_drink_type = /datum/reagent/consumable/grapejuice
-	name = "grape juice box"
+	name = "glup shitto"
 	desc = "For enjoying the most wonderful time of the year."
 	icon_state = "nog2"
 	drink_type = MEAT
 
 /datum/reagent/consumable/plumjuice
-	name = "Plum Juice"
+	name = "glup shitto"
 	description = "Refreshing and slightly acidic beverage."
 	color = "#b6062c"
 	taste_description = "plums"
@@ -279,12 +279,12 @@
 
 /datum/glass_style/drinking_glass/plumjuice
 	required_drink_type = /datum/reagent/consumable/plumjuice
-	name = "glass of plum juice"
+	name = "glup shitto"
 	desc = "Noice."
 	icon_state = "plumjuiceglass"
 
 /datum/reagent/consumable/milk
-	name = "Milk"
+	name = "glup shitto"
 	description = "An opaque white liquid produced by the mammary glands of mammals."
 	color = "#DFDFDF" // rgb: 223, 223, 223
 	taste_description = "milk"
@@ -294,13 +294,13 @@
 
 /datum/glass_style/drinking_glass/milk
 	required_drink_type = /datum/reagent/consumable/milk
-	name = "glass of milk"
+	name = "glup shitto"
 	desc = "White and nutritious goodness!"
 	icon_state = "glass_white"
 
 /datum/glass_style/juicebox/milk
 	required_drink_type = /datum/reagent/consumable/milk
-	name = "carton of milk"
+	name = "glup shitto"
 	desc = "An excellent source of calcium for growing space explorers."
 	icon_state = "milkbox"
 	drink_type = DAIRY | BREAKFAST
@@ -322,7 +322,7 @@
 	..()
 
 /datum/reagent/consumable/soymilk
-	name = "Soy Milk"
+	name = "glup shitto"
 	description = "An opaque white liquid made from soybeans."
 	color = "#DFDFC7" // rgb: 223, 223, 199
 	taste_description = "soy milk"
@@ -331,7 +331,7 @@
 
 /datum/glass_style/drinking_glass/soymilk
 	required_drink_type = /datum/reagent/consumable/soymilk
-	name = "glass of soy milk"
+	name = "glup shitto"
 	desc = "White and nutritious soy goodness!"
 	icon_state = "glass_white"
 
@@ -342,7 +342,7 @@
 	..()
 
 /datum/reagent/consumable/cream
-	name = "Cream"
+	name = "glup shitto"
 	description = "The fatty, still liquid part of milk. Why don't you mix this with sum scotch, eh?"
 	color = "#DFD7AF" // rgb: 223, 215, 175
 	taste_description = "creamy milk"
@@ -351,7 +351,7 @@
 
 /datum/glass_style/drinking_glass/cream
 	required_drink_type = /datum/reagent/consumable/cream
-	name = "glass of cream"
+	name = "glup shitto"
 	desc = "Ewwww..."
 	icon_state = "glass_white"
 
@@ -362,7 +362,7 @@
 	..()
 
 /datum/reagent/consumable/coffee
-	name = "Coffee"
+	name = "glup shitto"
 	description = "Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant."
 	color = "#482000" // rgb: 72, 32, 0
 	nutriment_factor = 0
@@ -373,7 +373,7 @@
 
 /datum/glass_style/drinking_glass/coffee
 	required_drink_type = /datum/reagent/consumable/coffee
-	name = "glass of coffee"
+	name = "glup shitto"
 	desc = "Don't drop it, or you'll send scalding liquid and glass shards everywhere."
 	icon_state = "glass_brown"
 
@@ -393,7 +393,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/tea
-	name = "Tea"
+	name = "glup shitto"
 	description = "Tasty black tea, it has antioxidants, it's good for you!"
 	color = "#101000" // rgb: 16, 16, 0
 	nutriment_factor = 0
@@ -404,7 +404,7 @@
 
 /datum/glass_style/drinking_glass/tea
 	required_drink_type = /datum/reagent/consumable/tea
-	name = "glass of tea"
+	name = "glup shitto"
 	desc = "Drinking it from here would not seem right."
 	icon_state = "teaglass"
 
@@ -420,7 +420,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/lemonade
-	name = "Lemonade"
+	name = "glup shitto"
 	description = "Sweet, tangy lemonade. Good for the soul."
 	color = "#FFE978"
 	quality = DRINK_NICE
@@ -430,13 +430,13 @@
 
 /datum/glass_style/drinking_glass/lemonade
 	required_drink_type = /datum/reagent/consumable/lemonade
-	name = "pitcher of lemonade"
+	name = "glup shitto"
 	desc = "This drink leaves you feeling nostalgic for some reason."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "lemonpitcher"
 
 /datum/reagent/consumable/tea/arnold_palmer
-	name = "Arnold Palmer"
+	name = "glup shitto"
 	description = "Encourages the patient to go golfing."
 	color = "#FFB766"
 	quality = DRINK_NICE
@@ -446,7 +446,7 @@
 
 /datum/glass_style/drinking_glass/arnold_palmer
 	required_drink_type = /datum/reagent/consumable/tea/arnold_palmer
-	name = "Arnold Palmer"
+	name = "glup shitto"
 	desc = "You feel like taking a few golf swings after a few swigs of this."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "arnold_palmer"
@@ -458,7 +458,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/icecoffee
-	name = "Iced Coffee"
+	name = "glup shitto"
 	description = "Coffee and ice, refreshing and cool."
 	color = "#102838" // rgb: 16, 40, 56
 	nutriment_factor = 0
@@ -467,7 +467,7 @@
 
 /datum/glass_style/drinking_glass/icecoffee
 	required_drink_type = /datum/reagent/consumable/icecoffee
-	name = "iced coffee"
+	name = "glup shitto"
 	desc = "A drink to perk you up and refresh you!"
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "icedcoffeeglass"
@@ -482,7 +482,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/hot_ice_coffee
-	name = "Hot Ice Coffee"
+	name = "glup shitto"
 	description = "Coffee with pulsing ice shards"
 	color = "#102838" // rgb: 16, 40, 56
 	nutriment_factor = 0
@@ -491,7 +491,7 @@
 
 /datum/glass_style/drinking_glass/hot_ice_coffee
 	required_drink_type = /datum/reagent/consumable/hot_ice_coffee
-	name = "hot ice coffee"
+	name = "glup shitto"
 	desc = "A sharp drink - This can't have come cheap."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "hoticecoffee"
@@ -507,7 +507,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/icetea
-	name = "Iced Tea"
+	name = "glup shitto"
 	description = "No relation to a certain rap artist/actor."
 	color = "#104038" // rgb: 16, 64, 56
 	nutriment_factor = 0
@@ -516,7 +516,7 @@
 
 /datum/glass_style/drinking_glass/icetea
 	required_drink_type = /datum/reagent/consumable/icetea
-	name = "iced tea"
+	name = "glup shitto"
 	desc = "All natural, antioxidant-rich flavour sensation."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "icedteaglass"
@@ -532,7 +532,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/space_cola
-	name = "Cola"
+	name = "glup shitto"
 	description = "A refreshing beverage."
 	color = "#100800" // rgb: 16, 8, 0
 	taste_description = "cola"
@@ -540,7 +540,7 @@
 
 /datum/glass_style/drinking_glass/space_cola
 	required_drink_type = /datum/reagent/consumable/space_cola
-	name = "glass of Space Cola"
+	name = "glup shitto"
 	desc = "A glass of refreshing Space Cola."
 	icon_state = "spacecola"
 
@@ -550,7 +550,7 @@
 	..()
 
 /datum/reagent/consumable/roy_rogers
-	name = "Roy Rogers"
+	name = "glup shitto"
 	description = "A sweet fizzy drink."
 	color = "#53090B"
 	quality = DRINK_GOOD
@@ -559,7 +559,7 @@
 
 /datum/glass_style/drinking_glass/roy_rogers
 	required_drink_type = /datum/reagent/consumable/roy_rogers
-	name = "Roy Rogers"
+	name = "glup shitto"
 	desc = "90% sugar in a glass."
 	icon_state = "royrogers"
 
@@ -570,7 +570,7 @@
 	return ..()
 
 /datum/reagent/consumable/nuka_cola
-	name = "Nuka Cola"
+	name = "glup shitto"
 	description = "Cola, cola never changes."
 	color = "#100800" // rgb: 16, 8, 0
 	quality = DRINK_VERYGOOD
@@ -579,7 +579,7 @@
 
 /datum/glass_style/drinking_glass/nuka_cola
 	required_drink_type = /datum/reagent/consumable/nuka_cola
-	name = "glass of Nuka Cola"
+	name = "glup shitto"
 	desc = "Don't cry, Don't raise your eye, It's only nuclear wasteland."
 	icon = 'icons/obj/drinks/soda.dmi'
 	icon_state = "nuka_colaglass"
@@ -603,7 +603,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/rootbeer
-	name = "root beer"
+	name = "glup shitto"
 	description = "A delightfully bubbly root beer, filled with so much sugar that it can actually speed up the user's trigger finger."
 	color = "#181008" // rgb: 24, 16, 8
 	quality = DRINK_VERYGOOD
@@ -616,7 +616,7 @@
 
 /datum/glass_style/drinking_glass/rootbeer
 	required_drink_type = /datum/reagent/consumable/rootbeer
-	name = "glass of root beer"
+	name = "glup shitto"
 	desc = "A glass of highly potent, incredibly sugary root beer."
 	icon_state = "spacecola"
 
@@ -644,7 +644,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/grey_bull
-	name = "Grey Bull"
+	name = "glup shitto"
 	description = "Grey Bull, it gives you gloves!"
 	color = "#EEFF00" // rgb: 238, 255, 0
 	quality = DRINK_VERYGOOD
@@ -653,7 +653,7 @@
 
 /datum/glass_style/drinking_glass/grey_bull
 	required_drink_type = /datum/reagent/consumable/grey_bull
-	name = "glass of Grey Bull"
+	name = "glup shitto"
 	desc = "Surprisingly it isn't grey."
 	icon_state = "grey_bull_glass"
 
@@ -674,7 +674,7 @@
 	..()
 
 /datum/reagent/consumable/spacemountainwind
-	name = "SM Wind"
+	name = "glup shitto"
 	description = "Blows right through you like a space wind."
 	color = "#102000" // rgb: 16, 32, 0
 	taste_description = "sweet citrus soda"
@@ -682,7 +682,7 @@
 
 /datum/glass_style/drinking_glass/spacemountainwind
 	required_drink_type = /datum/reagent/consumable/spacemountainwind
-	name = "glass of Space Mountain Wind"
+	name = "glup shitto"
 	desc = "Space Mountain Wind. As you know, there are no mountains in space, only wind."
 	icon_state = "Space_mountain_wind_glass"
 
@@ -695,7 +695,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/dr_gibb
-	name = "Dr. Gibb"
+	name = "glup shitto"
 	description = "A delicious blend of 42 different flavours."
 	color = "#102000" // rgb: 16, 32, 0
 	taste_description = "cherry soda" // FALSE ADVERTISING
@@ -703,7 +703,7 @@
 
 /datum/glass_style/drinking_glass/dr_gibb
 	required_drink_type = /datum/reagent/consumable/dr_gibb
-	name = "glass of Dr. Gibb"
+	name = "glup shitto"
 	desc = "Dr. Gibb. Not as dangerous as the container_name might imply."
 	icon_state = "dr_gibb_glass"
 
@@ -713,7 +713,7 @@
 	..()
 
 /datum/reagent/consumable/space_up
-	name = "Space-Up"
+	name = "glup shitto"
 	description = "Tastes like a hull breach in your mouth."
 	color = "#00FF00" // rgb: 0, 255, 0
 	taste_description = "cherry soda"
@@ -721,7 +721,7 @@
 
 /datum/glass_style/drinking_glass/space_up
 	required_drink_type = /datum/reagent/consumable/space_up
-	name = "glass of Space-Up"
+	name = "glup shitto"
 	desc = "Space-up. It helps you keep your cool."
 	icon_state = "space-up_glass"
 
@@ -730,7 +730,7 @@
 	..()
 
 /datum/reagent/consumable/lemon_lime
-	name = "Lemon Lime"
+	name = "glup shitto"
 	description = "A tangy substance made of 0.5% natural citrus!"
 	color = "#8CFF00" // rgb: 135, 255, 0
 	taste_description = "tangy lime and lemon soda"
@@ -738,7 +738,7 @@
 
 /datum/glass_style/drinking_glass/lemon_lime
 	required_drink_type = /datum/reagent/consumable/lemon_lime
-	name = "glass of lemon-lime"
+	name = "glup shitto"
 	desc = "You're pretty certain a real fruit has never actually touched this."
 	icon_state = "lemonlime"
 
@@ -747,7 +747,7 @@
 	..()
 
 /datum/reagent/consumable/pwr_game
-	name = "Pwr Game"
+	name = "glup shitto"
 	description = "The only drink with the PWR that true gamers crave."
 	color = "#9385bf" // rgb: 58, 52, 75
 	taste_description = "sweet and salty tang"
@@ -755,7 +755,7 @@
 
 /datum/glass_style/drinking_glass/pwr_game
 	required_drink_type = /datum/reagent/consumable/pwr_game
-	name = "glass of Pwr Game"
+	name = "glup shitto"
 	desc = "Goes well with a Vlad's salad."
 	icon_state = "pwrgame"
 
@@ -773,7 +773,7 @@
 	..()
 
 /datum/reagent/consumable/shamblers
-	name = "Shambler's Juice"
+	name = "glup shitto"
 	description = "~Shake me up some of that Shambler's Juice!~"
 	color = "#f00060" // rgb: 94, 0, 38
 	taste_description = "carbonated metallic soda"
@@ -781,7 +781,7 @@
 
 /datum/glass_style/drinking_glass/shamblers
 	required_drink_type = /datum/reagent/consumable/shamblers
-	name = "glass of Shambler's juice"
+	name = "glup shitto"
 	desc = "Mmm mm, shambly."
 	icon_state = "shamblerjuice"
 
@@ -790,7 +790,7 @@
 	..()
 
 /datum/reagent/consumable/sodawater
-	name = "Soda Water"
+	name = "glup shitto"
 	description = "A can of club soda. Why not make a scotch and soda?"
 	color = "#619494" // rgb: 97, 148, 148
 	taste_description = "carbonated water"
@@ -798,7 +798,7 @@
 
 /datum/glass_style/drinking_glass/sodawater
 	required_drink_type = /datum/reagent/consumable/sodawater
-	name = "glass of soda water"
+	name = "glup shitto"
 	desc = "Soda water. Why not make a scotch and soda?"
 	icon_state = "glass_clearcarb"
 
@@ -818,7 +818,7 @@
 	..()
 
 /datum/reagent/consumable/tonic
-	name = "Tonic Water"
+	name = "glup shitto"
 	description = "It tastes strange but at least the quinine keeps the Space Malaria at bay."
 	color = "#0064C8" // rgb: 0, 100, 200
 	taste_description = "tart and fresh"
@@ -826,7 +826,7 @@
 
 /datum/glass_style/drinking_glass/tonic
 	required_drink_type = /datum/reagent/consumable/tonic
-	name = "glass of tonic water"
+	name = "glup shitto"
 	desc = "Quinine tastes funny, but at least it'll keep that Space Malaria away."
 	icon_state = "glass_clearcarb"
 
@@ -839,7 +839,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/monkey_energy
-	name = "Monkey Energy"
+	name = "glup shitto"
 	description = "The only drink that will make you unleash the ape."
 	color = "#f39b03" // rgb: 243, 155, 3
 	overdose_threshold = 60
@@ -848,7 +848,7 @@
 
 /datum/glass_style/drinking_glass/monkey_energy
 	required_drink_type = /datum/reagent/consumable/monkey_energy
-	name = "glass of Monkey Energy"
+	name = "glup shitto"
 	desc = "You can unleash the ape, but without the pop of the can?"
 	icon_state = "monkey_energy_glass"
 
@@ -875,7 +875,7 @@
 	..()
 
 /datum/reagent/consumable/ice
-	name = "Ice"
+	name = "glup shitto"
 	description = "Frozen water, your dentist wouldn't like you chewing this."
 	reagent_state = SOLID
 	color = "#619494" // rgb: 97, 148, 148
@@ -885,7 +885,7 @@
 
 /datum/glass_style/drinking_glass/ice
 	required_drink_type = /datum/reagent/consumable/ice
-	name = "glass of ice"
+	name = "glup shitto"
 	desc = "Generally, you're supposed to put something else in there too..."
 	icon_state = "iceglass"
 
@@ -894,7 +894,7 @@
 	..()
 
 /datum/reagent/consumable/soy_latte
-	name = "Soy Latte"
+	name = "glup shitto"
 	description = "A nice and tasty beverage while you are reading your hippie books."
 	color = "#cc6404" // rgb: 204,100,4
 	quality = DRINK_NICE
@@ -904,7 +904,7 @@
 
 /datum/glass_style/drinking_glass/soy_latte
 	required_drink_type = /datum/reagent/consumable/soy_latte
-	name = "soy latte"
+	name = "glup shitto"
 	desc = "A nice and refreshing beverage while you're reading."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "soy_latte"
@@ -921,7 +921,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/cafe_latte
-	name = "Cafe Latte"
+	name = "glup shitto"
 	description = "A nice, strong and tasty beverage while you are reading."
 	color = "#cc6404" // rgb: 204,100,4
 	quality = DRINK_NICE
@@ -931,7 +931,7 @@
 
 /datum/glass_style/drinking_glass/cafe_latte
 	required_drink_type = /datum/reagent/consumable/cafe_latte
-	name = "cafe latte"
+	name = "glup shitto"
 	desc = "A nice, strong and refreshing beverage while you're reading."
 	icon = 'icons/obj/drinks/coffee.dmi'
 	icon_state = "cafe_latte"
@@ -948,7 +948,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/doctor_delight
-	name = "The Doctor's Delight"
+	name = "glup shitto"
 	description = "A gulp a day keeps the Medibot away! A mixture of juices that heals most damage types fairly quickly at the cost of hunger."
 	color = "#FF8CFF" // rgb: 255, 140, 255
 	quality = DRINK_VERYGOOD
@@ -957,7 +957,7 @@
 
 /datum/glass_style/drinking_glass/doctor_delight
 	required_drink_type = /datum/reagent/consumable/doctor_delight
-	name = "Doctor's Delight"
+	name = "glup shitto"
 	desc = "The space doctor's favorite. Guaranteed to restore bodily injury; side effects include cravings and hunger."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "doctorsdelightglass"
@@ -976,7 +976,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/cinderella
-	name = "Cinderella"
+	name = "glup shitto"
 	description = "Most definitely a fruity alcohol cocktail to have while partying with your friends."
 	color = "#FF6A50"
 	quality = DRINK_VERYGOOD
@@ -985,7 +985,7 @@
 
 /datum/glass_style/drinking_glass/cinderella
 	required_drink_type = /datum/reagent/consumable/cinderella
-	name = "Cinderella"
+	name = "glup shitto"
 	desc = "There is not a single drop of alcohol in this thing."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "cinderella"
@@ -995,7 +995,7 @@
 	return ..()
 
 /datum/reagent/consumable/cherryshake
-	name = "Cherry Shake"
+	name = "glup shitto"
 	description = "A cherry flavored milkshake."
 	color = "#FFB6C1"
 	quality = DRINK_VERYGOOD
@@ -1006,13 +1006,13 @@
 
 /datum/glass_style/drinking_glass/cherryshake
 	required_drink_type = /datum/reagent/consumable/cherryshake
-	name = "cherry shake"
+	name = "glup shitto"
 	desc = "A cherry flavored milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "cherryshake"
 
 /datum/reagent/consumable/bluecherryshake
-	name = "Blue Cherry Shake"
+	name = "glup shitto"
 	description = "An exotic milkshake."
 	color = "#00F1FF"
 	quality = DRINK_VERYGOOD
@@ -1022,13 +1022,13 @@
 
 /datum/glass_style/drinking_glass/bluecherryshake
 	required_drink_type = /datum/reagent/consumable/bluecherryshake
-	name = "blue cherry shake"
+	name = "glup shitto"
 	desc = "An exotic blue milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "bluecherryshake"
 
 /datum/reagent/consumable/vanillashake
-	name = "Vanilla Shake"
+	name = "glup shitto"
 	description = "A vanilla flavored milkshake. The basics are still good."
 	color = "#E9D2B2"
 	quality = DRINK_VERYGOOD
@@ -1039,13 +1039,13 @@
 
 /datum/glass_style/drinking_glass/vanillashake
 	required_drink_type = /datum/reagent/consumable/vanillashake
-	name = "vanilla shake"
+	name = "glup shitto"
 	desc = "A vanilla flavored milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "vanillashake"
 
 /datum/reagent/consumable/caramelshake
-	name = "Caramel Shake"
+	name = "glup shitto"
 	description = "A caramel flavored milkshake. Your teeth hurt looking at it."
 	color = "#E17C00"
 	quality = DRINK_GOOD
@@ -1056,13 +1056,13 @@
 
 /datum/glass_style/drinking_glass/caramelshake
 	required_drink_type = /datum/reagent/consumable/caramelshake
-	name = "caramel shake"
+	name = "glup shitto"
 	desc = "A caramel flavored milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "caramelshake"
 
 /datum/reagent/consumable/choccyshake
-	name = "Chocolate Shake"
+	name = "glup shitto"
 	description = "A frosty chocolate milkshake."
 	color = "#541B00"
 	quality = DRINK_VERYGOOD
@@ -1073,13 +1073,13 @@
 
 /datum/glass_style/drinking_glass/choccyshake
 	required_drink_type = /datum/reagent/consumable/choccyshake
-	name = "chocolate shake"
+	name = "glup shitto"
 	desc = "A chocolate flavored milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "choccyshake"
 
 /datum/reagent/consumable/strawberryshake
-	name = "Strawberry Shake"
+	name = "glup shitto"
 	description = "A strawberry milkshake."
 	color = "#ff7b7b"
 	quality = DRINK_VERYGOOD
@@ -1090,13 +1090,13 @@
 
 /datum/glass_style/drinking_glass/strawberryshake
 	required_drink_type = /datum/reagent/consumable/strawberryshake
-	name = "strawberry shake"
+	name = "glup shitto"
 	desc = "A strawberry flavored milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "strawberryshake"
 
 /datum/reagent/consumable/bananashake
-	name = "Banana Shake"
+	name = "glup shitto"
 	description = "A banana milkshake. Stuff that clowns drink at their honkday parties."
 	color = "#f2d554"
 	quality = DRINK_VERYGOOD
@@ -1107,13 +1107,13 @@
 
 /datum/glass_style/drinking_glass/bananashake
 	required_drink_type = /datum/reagent/consumable/bananashake
-	name = "banana shake"
+	name = "glup shitto"
 	desc = "A banana flavored milkshake."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "bananashake"
 
 /datum/reagent/consumable/pumpkin_latte
-	name = "Pumpkin Latte"
+	name = "glup shitto"
 	description = "A mix of pumpkin juice and coffee."
 	color = "#F4A460"
 	quality = DRINK_VERYGOOD
@@ -1123,13 +1123,13 @@
 
 /datum/glass_style/drinking_glass/pumpkin_latte
 	required_drink_type = /datum/reagent/consumable/pumpkin_latte
-	name = "pumpkin latte"
+	name = "glup shitto"
 	desc = "A mix of coffee and pumpkin juice."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "pumpkin_latte"
 
 /datum/reagent/consumable/gibbfloats
-	name = "Gibb Floats"
+	name = "glup shitto"
 	description = "Ice cream on top of a Dr. Gibb glass."
 	color = "#B22222"
 	quality = DRINK_NICE
@@ -1139,27 +1139,27 @@
 
 /datum/glass_style/drinking_glass/gibbfloats
 	required_drink_type = /datum/reagent/consumable/gibbfloats
-	name = "Gibbfloat"
+	name = "glup shitto"
 	desc = "Dr. Gibb with ice cream on top."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "gibbfloats"
 
 /datum/reagent/consumable/pumpkinjuice
-	name = "Pumpkin Juice"
+	name = "glup shitto"
 	description = "Juiced from real pumpkin."
 	color = "#FFA500"
 	taste_description = "pumpkin"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/blumpkinjuice
-	name = "Blumpkin Juice"
+	name = "glup shitto"
 	description = "Juiced from real blumpkin."
 	color = "#00BFFF"
 	taste_description = "a mouthful of pool water"
 	chemical_flags = REAGENT_CAN_BE_SYNTHESIZED
 
 /datum/reagent/consumable/triple_citrus
-	name = "Triple Citrus"
+	name = "glup shitto"
 	description = "A solution."
 	color = "#EEFF00"
 	quality = DRINK_NICE
@@ -1168,13 +1168,13 @@
 
 /datum/glass_style/drinking_glass/triple_citrus
 	required_drink_type = /datum/reagent/consumable/triple_citrus
-	name = "glass of triple citrus"
+	name = "glup shitto"
 	desc = "A mixture of citrus juices. Tangy, yet smooth."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "triplecitrus" //needs own sprite mine are trash //your sprite is great tho
 
 /datum/reagent/consumable/grape_soda
-	name = "Grape Soda"
+	name = "glup shitto"
 	description = "Beloved by children and teetotalers."
 	color = "#E6CDFF"
 	taste_description = "grape soda"
@@ -1182,14 +1182,14 @@
 
 /datum/glass_style/drinking_glass/grape_soda
 	required_drink_type = /datum/reagent/consumable/grape_soda
-	name = "glass of grape juice"
+	name = "glup shitto"
 
 /datum/reagent/consumable/grape_soda/on_mob_life(mob/living/carbon/affected_mob, delta_time, times_fired)
 	affected_mob.adjust_bodytemperature(-5 * REM * TEMPERATURE_DAMAGE_COEFFICIENT * delta_time, affected_mob.get_body_temp_normal())
 	..()
 
 /datum/reagent/consumable/milk/chocolate_milk
-	name = "Chocolate Milk"
+	name = "glup shitto"
 	description = "Milk for cool kids."
 	color = "#7D4E29"
 	quality = DRINK_NICE
@@ -1198,13 +1198,13 @@
 
 /datum/glass_style/juicebox/chocolate_milk
 	required_drink_type = /datum/reagent/consumable/milk/chocolate_milk
-	name = "carton of chocolate milk"
+	name = "glup shitto"
 	desc = "Milk for cool kids!"
 	icon_state = "chocolatebox"
 	drink_type = SUGAR | DAIRY
 
 /datum/reagent/consumable/hot_coco
-	name = "Hot Coco"
+	name = "glup shitto"
 	description = "Made with love! And coco beans."
 	nutriment_factor = 4 * REAGENTS_METABOLISM
 	color = "#403010" // rgb: 64, 48, 16
@@ -1213,7 +1213,7 @@
 
 /datum/glass_style/drinking_glass/hot_coco
 	required_drink_type = /datum/reagent/consumable/hot_coco
-	name = "glass of hot coco"
+	name = "glup shitto"
 	desc = "A favorite winter drink to warm you up."
 	icon_state = "chocolateglass"
 
@@ -1227,7 +1227,7 @@
 	..()
 
 /datum/reagent/consumable/italian_coco
-	name = "Italian Hot Chocolate"
+	name = "glup shitto"
 	description = "Made with love! You can just imagine a happy Nonna from the smell."
 	nutriment_factor = 8 * REAGENTS_METABOLISM
 	color = "#57372A"
@@ -1237,7 +1237,7 @@
 
 /datum/glass_style/drinking_glass/italian_coco
 	required_drink_type = /datum/reagent/consumable/italian_coco
-	name = "glass of italian coco"
+	name = "glup shitto"
 	desc = "A spin on a winter favourite, made to please."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "italiancoco"
@@ -1247,7 +1247,7 @@
 	return ..()
 
 /datum/reagent/consumable/menthol
-	name = "Menthol"
+	name = "glup shitto"
 	description = "Alleviates coughing symptoms one might have."
 	color = "#80AF9C"
 	taste_description = "mint"
@@ -1256,7 +1256,7 @@
 
 /datum/glass_style/drinking_glass/menthol
 	required_drink_type = /datum/reagent/consumable/menthol
-	name = "glass of menthol"
+	name = "glup shitto"
 	desc = "Tastes naturally minty, and imparts a very mild numbing sensation."
 	icon_state = "glass_green"
 
@@ -1265,7 +1265,7 @@
 	..()
 
 /datum/reagent/consumable/grenadine
-	name = "Grenadine"
+	name = "glup shitto"
 	description = "Not cherry flavored!"
 	color = "#EA1D26"
 	taste_description = "sweet pomegranates"
@@ -1273,11 +1273,11 @@
 
 /datum/glass_style/drinking_glass/grenadine
 	required_drink_type = /datum/reagent/consumable/grenadine
-	name = "glass of grenadine"
+	name = "glup shitto"
 	desc = "Delicious flavored syrup."
 
 /datum/reagent/consumable/parsnipjuice
-	name = "Parsnip Juice"
+	name = "glup shitto"
 	description = "Why..."
 	color = "#FFA500"
 	taste_description = "parsnip"
@@ -1285,10 +1285,10 @@
 
 /datum/glass_style/drinking_glass/parsnipjuice
 	required_drink_type = /datum/reagent/consumable/parsnipjuice
-	name = "glass of parsnip juice"
+	name = "glup shitto"
 
 /datum/reagent/consumable/pineapplejuice
-	name = "Pineapple Juice"
+	name = "glup shitto"
 	description = "Tart, tropical, and hotly debated."
 	color = "#F7D435"
 	taste_description = "pineapple"
@@ -1297,18 +1297,18 @@
 
 /datum/glass_style/drinking_glass/pineapplejuice
 	required_drink_type = /datum/reagent/consumable/pineapplejuice
-	name = "glass of pineapple juice"
+	name = "glup shitto"
 	desc = "Tart, tropical, and hotly debated."
 
 /datum/glass_style/juicebox/pineapplejuice
 	required_drink_type = /datum/reagent/consumable/pineapplejuice
-	name = "pineapple juice box"
+	name = "glup shitto"
 	desc = "Why would you even want this?"
 	icon_state = "pineapplebox"
 	drink_type = FRUIT | PINEAPPLE
 
 /datum/reagent/consumable/peachjuice //Intended to be extremely rare due to being the limiting ingredients in the blazaam drink
-	name = "Peach Juice"
+	name = "glup shitto"
 	description = "Just peachy."
 	color = "#E78108"
 	taste_description = "peaches"
@@ -1316,10 +1316,10 @@
 
 /datum/glass_style/drinking_glass/peachjuice
 	required_drink_type = /datum/reagent/consumable/peachjuice
-	name = "glass of peach juice"
+	name = "glup shitto"
 
 /datum/reagent/consumable/cream_soda
-	name = "Cream Soda"
+	name = "glup shitto"
 	description = "A classic space-American vanilla flavored soft drink."
 	color = "#dcb137"
 	quality = DRINK_VERYGOOD
@@ -1328,7 +1328,7 @@
 
 /datum/glass_style/drinking_glass/cream_soda
 	required_drink_type = /datum/reagent/consumable/cream_soda
-	name = "Cream Soda"
+	name = "glup shitto"
 	desc = "A classic space-American vanilla flavored soft drink."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "cream_soda"
@@ -1338,7 +1338,7 @@
 	..()
 
 /datum/reagent/consumable/sol_dry
-	name = "Sol Dry"
+	name = "glup shitto"
 	description = "A soothing, mellow drink made from ginger."
 	color = "#f7d26a"
 	quality = DRINK_NICE
@@ -1347,7 +1347,7 @@
 
 /datum/glass_style/drinking_glass/sol_dry
 	required_drink_type = /datum/reagent/consumable/sol_dry
-	name = "Sol Dry"
+	name = "glup shitto"
 	desc = "A soothing, mellow drink made from ginger."
 	icon_state = "soldry"
 
@@ -1356,7 +1356,7 @@
 	..()
 
 /datum/reagent/consumable/shirley_temple
-	name = "Shirley Temple"
+	name = "glup shitto"
 	description = "Here you go little girl, now you can drink like the adults."
 	color = "#F43724"
 	quality = DRINK_GOOD
@@ -1365,7 +1365,7 @@
 
 /datum/glass_style/drinking_glass/shirley_temple
 	required_drink_type = /datum/reagent/consumable/shirley_temple
-	name = "Shirley Temple"
+	name = "glup shitto"
 	desc = "Ginger ale with processed grenadine. "
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "shirleytemple"
@@ -1375,7 +1375,7 @@
 	return ..()
 
 /datum/reagent/consumable/red_queen
-	name = "Red Queen"
+	name = "glup shitto"
 	description = "DRINK ME."
 	color = "#e6ddc3"
 	quality = DRINK_GOOD
@@ -1385,7 +1385,7 @@
 
 /datum/glass_style/drinking_glass/red_queen
 	required_drink_type = /datum/reagent/consumable/red_queen
-	name = "Red Queen"
+	name = "glup shitto"
 	desc = "DRINK ME."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "red_queen"
@@ -1410,7 +1410,7 @@
 	..()
 
 /datum/reagent/consumable/bungojuice
-	name = "Bungo Juice"
+	name = "glup shitto"
 	color = "#F9E43D"
 	description = "Exotic! You feel like you are on vacation already."
 	taste_description = "succulent bungo"
@@ -1418,12 +1418,12 @@
 
 /datum/glass_style/drinking_glass/bungojuice
 	required_drink_type = /datum/reagent/consumable/bungojuice
-	name = "glass of bungo juice"
+	name = "glup shitto"
 	desc = "Exotic! You feel like you are on vacation already."
 	icon_state = "glass_yellow"
 
 /datum/reagent/consumable/prunomix
-	name = "Pruno Mixture"
+	name = "glup shitto"
 	color = "#E78108"
 	description = "Fruit, sugar, yeast, and water pulped together into a pungent slurry."
 	taste_description = "garbage"
@@ -1431,12 +1431,12 @@
 
 /datum/glass_style/drinking_glass/prunomix
 	required_drink_type = /datum/reagent/consumable/prunomix
-	name = "glass of pruno mixture"
+	name = "glup shitto"
 	desc = "Fruit, sugar, yeast, and water pulped together into a pungent slurry."
 	icon_state = "glass_orange"
 
 /datum/reagent/consumable/aloejuice
-	name = "Aloe Juice"
+	name = "glup shitto"
 	color = "#A3C48B"
 	description = "A healthy and refreshing juice."
 	taste_description = "vegetable"
@@ -1444,7 +1444,7 @@
 
 /datum/glass_style/drinking_glass/aloejuice
 	required_drink_type = /datum/reagent/consumable/aloejuice
-	name = "glass of aloe juice"
+	name = "glup shitto"
 	desc = "A healthy and refreshing juice."
 	icon_state = "glass_yellow"
 
@@ -1455,7 +1455,7 @@
 	. = TRUE
 
 /datum/reagent/consumable/agua_fresca
-	name = "Agua Fresca"
+	name = "glup shitto"
 	description = "A refreshing watermelon agua fresca. Perfect on a day at the holodeck."
 	color = "#D25B66"
 	quality = DRINK_VERYGOOD
@@ -1464,7 +1464,7 @@
 
 /datum/glass_style/drinking_glass/agua_fresca
 	required_drink_type = /datum/reagent/consumable/agua_fresca
-	name = "Agua Fresca"
+	name = "glup shitto"
 	desc = "90% water, but still refreshing."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "aguafresca"
@@ -1476,7 +1476,7 @@
 	return ..()
 
 /datum/reagent/consumable/mushroom_tea
-	name = "Mushroom Tea"
+	name = "glup shitto"
 	description = "A savoury glass of tea made from polypore mushroom shavings, originally native to Tizira."
 	color = "#674945" // rgb: 16, 16, 0
 	nutriment_factor = 0
@@ -1485,7 +1485,7 @@
 
 /datum/glass_style/drinking_glass/mushroom_tea
 	required_drink_type = /datum/reagent/consumable/mushroom_tea
-	name = "glass of mushroom tea"
+	name = "glup shitto"
 	desc = "Oddly savoury for a drink."
 	icon_state = "mushroom_tea_glass"
 
@@ -1497,7 +1497,7 @@
 
 //Moth Stuff
 /datum/reagent/consumable/toechtauese_juice
-	name = "Töchtaüse Juice"
+	name = "glup shitto"
 	description = "An unpleasant juice made from töchtaüse berries. Best made into a syrup, unless you enjoy pain."
 	color = "#554862"
 	nutriment_factor = 0
@@ -1506,12 +1506,12 @@
 
 /datum/glass_style/drinking_glass/toechtauese_juice
 	required_drink_type = /datum/reagent/consumable/toechtauese_juice
-	name = "glass of töchtaüse juice"
+	name = "glup shitto"
 	desc = "Raw, unadulterated töchtaüse juice. One swig will fill you with regrets."
 	icon_state = "toechtauese_syrup"
 
 /datum/reagent/consumable/toechtauese_syrup
-	name = "Töchtaüse Syrup"
+	name = "glup shitto"
 	description = "A harsh spicy and bitter syrup, made from töchtaüse berries. Useful as an ingredient, both for food and cocktails."
 	color = "#554862"
 	nutriment_factor = 0
@@ -1520,12 +1520,12 @@
 
 /datum/glass_style/drinking_glass/toechtauese_syrup
 	required_drink_type = /datum/reagent/consumable/toechtauese_syrup
-	name = "glass of töchtaüse syrup"
+	name = "glup shitto"
 	desc = "Not for drinking on its own."
 	icon_state = "toechtauese_syrup"
 
 /datum/reagent/consumable/strawberry_banana
-	name = "strawberry banana smoothie"
+	name = "glup shitto"
 	description = "A classic smoothie made from strawberries and bananas."
 	color = "#FF9999"
 	nutriment_factor = 0
@@ -1534,13 +1534,13 @@
 
 /datum/glass_style/drinking_glass/strawberry_banana
 	required_drink_type = /datum/reagent/consumable/strawberry_banana
-	name = "strawberry banana smoothie"
+	name = "glup shitto"
 	desc = "A classic drink which countless souls have bonded over..."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "strawberry_banana"
 
 /datum/reagent/consumable/berry_blast
-	name = "berry blast smoothie"
+	name = "glup shitto"
 	description = "A classic smoothie made from mixed berries."
 	color = "#A76DC5"
 	nutriment_factor = 0
@@ -1549,13 +1549,13 @@
 
 /datum/glass_style/drinking_glass/berry_blast
 	required_drink_type = /datum/reagent/consumable/berry_blast
-	name = "berry blast smoothie"
+	name = "glup shitto"
 	desc = "A classic drink, freshly made with hand picked berries. Or, maybe not."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "berry_blast"
 
 /datum/reagent/consumable/funky_monkey
-	name = "funky monkey smoothie"
+	name = "glup shitto"
 	description = "A classic smoothie made from chocolate and bananas."
 	color = "#663300"
 	nutriment_factor = 0
@@ -1564,13 +1564,13 @@
 
 /datum/glass_style/drinking_glass/funky_monkey
 	required_drink_type = /datum/reagent/consumable/funky_monkey
-	name = "funky monkey smoothie"
+	name = "glup shitto"
 	desc = "A classic drink made with chocolate and banana. No monkeys were harmed, officially."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "funky_monkey"
 
 /datum/reagent/consumable/green_giant
-	name = "green giant smoothie"
+	name = "glup shitto"
 	description = "A green vegetable smoothie, made without vegetables."
 	color = "#003300"
 	nutriment_factor = 0
@@ -1579,13 +1579,13 @@
 
 /datum/glass_style/drinking_glass/green_giant
 	required_drink_type = /datum/reagent/consumable/green_giant
-	name = "green giant smoothie"
+	name = "glup shitto"
 	desc = "A classic drink, if you enjoy juiced wheatgrass and chia seeds."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "green_giant"
 
 /datum/reagent/consumable/melon_baller
-	name = "melon baller smoothie"
+	name = "glup shitto"
 	description = "A classic smoothie made from melons."
 	color = "#D22F55"
 	nutriment_factor = 0
@@ -1594,13 +1594,13 @@
 
 /datum/glass_style/drinking_glass/melon_baller
 	required_drink_type = /datum/reagent/consumable/melon_baller
-	name = "melon baller smoothie"
+	name = "glup shitto"
 	desc = "A wonderfully fresh melon smoothie. Guaranteed to brighten your day."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "melon_baller"
 
 /datum/reagent/consumable/vanilla_dream
-	name = "vanilla dream smoothie"
+	name = "glup shitto"
 	description = "A classic smoothie made from vanilla and fresh cream."
 	color = "#FFF3DD"
 	nutriment_factor = 0
@@ -1609,13 +1609,13 @@
 
 /datum/glass_style/drinking_glass/vanilla_dream
 	required_drink_type = /datum/reagent/consumable/vanilla_dream
-	name = "vanilla dream smoothie"
+	name = "glup shitto"
 	desc = "A classic drink made with vanilla and fresh cream."
 	icon = 'icons/obj/drinks/shakes.dmi'
 	icon_state = "vanilla_dream"
 
 /datum/reagent/consumable/cucumberjuice
-	name = "Cucumber Juice"
+	name = "glup shitto"
 	description = "Ordinary cucumber juice, nothing from the fantasy world."
 	color = "#6cd87a"
 	taste_description = "light cucumber"
@@ -1623,12 +1623,12 @@
 
 /datum/glass_style/drinking_glass/cucumberjuice
 	required_drink_type = /datum/reagent/consumable/cucumberjuice
-	name = "glass of cucumber juice"
+	name = "glup shitto"
 	desc = "A glass of cucumber juice."
 	icon_state = "glass_cucumber"
 
 /datum/reagent/consumable/cucumberlemonade
-	name = "Cucumber Lemonade"
+	name = "glup shitto"
 	description = "Cucumber juice, sugar and soda, what else is needed for happiness?"
 	color = "#6cd87a"
 	quality = DRINK_GOOD
@@ -1637,7 +1637,7 @@
 
 /datum/glass_style/drinking_glass/cucumberlemonade
 	required_drink_type = /datum/reagent/consumable/cucumberlemonade
-	name = "cucumber lemonade"
+	name = "glup shitto"
 	desc = "The smell of cucumber from lemonade, I'm sure I won't get poisoned?."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "cucumber_lemonade"
@@ -1649,7 +1649,7 @@
 	return ..()
 
 /datum/reagent/consumable/mississippi_queen
-	name = "Mississippi Queen"
+	name = "glup shitto"
 	description = "If you think you're so hot, how about a victory drink?"
 	color = "#d4422f" // rgb: 212,66,47
 	taste_description = "sludge seeping down your throat"
@@ -1657,7 +1657,7 @@
 
 /datum/glass_style/drinking_glass/mississippi_queen
 	required_drink_type = /datum/reagent/consumable/mississippi_queen
-	name = "Mississippi Queen"
+	name = "glup shitto"
 	desc = "Mullets and cut-up jorts not included."
 	icon = 'icons/obj/drinks/mixed_drinks.dmi'
 	icon_state = "mississippiglass"

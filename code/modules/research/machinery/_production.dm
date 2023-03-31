@@ -1,5 +1,5 @@
 /obj/machinery/rnd/production
-	name = "technology fabricator"
+	name = "glup shitto"
 	desc = "Makes researched and prototype items with materials and energy."
 	layer = BELOW_OBJ_LAYER
 

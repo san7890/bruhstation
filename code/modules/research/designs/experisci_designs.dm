@@ -1,5 +1,5 @@
 /datum/design/experi_scanner
-	name = "Experimental Scanner"
+	name = "glup shitto"
 	desc = "Experimental scanning unit used for performing scanning experiments."
 	id = "experi_scanner"
 	build_type = PROTOLATHE | AWAY_LATHE

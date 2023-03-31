@@ -1,5 +1,5 @@
 /obj/item/gun/ballistic/revolver
-	name = "\improper .357 revolver"
+	name = "glup shitto"
 	desc = "A suspicious revolver. Uses .357 ammo."
 	icon_state = "revolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder
@@ -98,14 +98,14 @@
 		. = span_notice("[user] touches the end of [src] to \the [A], using the residual heat to ignite it in a puff of smoke. What a badass.")
 
 /obj/item/gun/ballistic/revolver/c38
-	name = "\improper .38 revolver"
+	name = "glup shitto"
 	desc = "A classic, if not outdated, lethal firearm. Uses .38 Special rounds."
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev38
 	icon_state = "c38"
 	fire_sound = 'sound/weapons/gun/revolver/shot.ogg'
 
 /obj/item/gun/ballistic/revolver/c38/detective
-	name = "\improper Colt Detective Special"
+	name = "glup shitto"
 	desc = "A classic, if not outdated, law enforcement firearm. Uses .38 Special rounds. \nSome spread rumors that if you loosen the barrel with a wrench, you can \"improve\" it."
 
 	can_modify_ammo = TRUE
@@ -131,17 +131,17 @@
 	)
 
 /obj/item/gun/ballistic/revolver/syndicate
-	name = "\improper Syndicate Revolver"
+	name = "glup shitto"
 	desc = "A modernized 7 round revolver manufactured by Waffle Co. Uses .357 ammo."
 	icon_state = "revolversyndie"
 
 /obj/item/gun/ballistic/revolver/mateba
-	name = "\improper Unica 6 auto-revolver"
+	name = "glup shitto"
 	desc = "A retro high-powered autorevolver typically used by officers of the New Russia military. Uses .357 ammo."
 	icon_state = "mateba"
 
 /obj/item/gun/ballistic/revolver/golden
-	name = "\improper Golden revolver"
+	name = "glup shitto"
 	desc = "This ain't no game, ain't never been no show, And I'll gladly gun down the oldest lady you know. Uses .357 ammo."
 	icon_state = "goldrevolver"
 	fire_sound = 'sound/weapons/resonator_blast.ogg'
@@ -149,7 +149,7 @@
 	pin = /obj/item/firing_pin
 
 /obj/item/gun/ballistic/revolver/nagant
-	name = "\improper Nagant revolver"
+	name = "glup shitto"
 	desc = "An old model of revolver that originated in Russia. Able to be suppressed. Uses 7.62x38mmR ammo."
 	icon_state = "nagant"
 	can_suppress = TRUE
@@ -161,7 +161,7 @@
 // You can spin the chamber to randomize the position of the bullet.
 
 /obj/item/gun/ballistic/revolver/russian
-	name = "\improper Russian revolver"
+	name = "glup shitto"
 	desc = "A Russian-made revolver for drinking games. Uses .357 ammo, and has a mechanism requiring you to spin the chamber before each trigger pull."
 	icon_state = "russianrevolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rus357
@@ -259,7 +259,7 @@
 	user.visible_message(span_danger("[user.name] fires [src] at [user.p_their()] head!"), span_userdanger("You fire [src] at your head!"), span_hear("You hear a gunshot!"))
 
 /obj/item/gun/ballistic/revolver/russian/soul
-	name = "cursed Russian revolver"
+	name = "glup shitto"
 	desc = "To play with this revolver requires wagering your very soul."
 
 /obj/item/gun/ballistic/revolver/russian/soul/shoot_self(mob/living/user)
@@ -271,7 +271,7 @@
 	user.visible_message(span_danger("[user.name]'s soul is captured by \the [src]!"), span_userdanger("You've lost the gamble! Your soul is forfeit!"))
 
 /obj/item/gun/ballistic/revolver/reverse //Fires directly at its user... unless the user is a clown, of course.
-	name = "\improper Syndicate Revolver"
+	name = "glup shitto"
 	clumsy_check = FALSE
 	icon_state = "revolversyndie"
 

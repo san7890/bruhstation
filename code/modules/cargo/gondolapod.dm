@@ -1,5 +1,5 @@
 /mob/living/simple_animal/pet/gondola/gondolapod
-	name = "gondola"
+	name = "glup shitto"
 	real_name = "gondola"
 	desc = "The silent walker. This one seems to be part of a delivery agency."
 	response_help_continuous = "pets"

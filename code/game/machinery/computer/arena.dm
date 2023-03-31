@@ -6,21 +6,21 @@
 
 /// Arena related landmarks
 /obj/effect/landmark/arena
-	name = "arena landmark"
+	name = "glup shitto"
 	var/landmark_tag
 	var/arena_id = ARENA_DEFAULT_ID
 
 /obj/effect/landmark/arena/start
-	name = "arena corner A"
+	name = "glup shitto"
 	landmark_tag = ARENA_CORNER_A
 
 /obj/effect/landmark/arena/end
-	name = "arena corner B"
+	name = "glup shitto"
 	landmark_tag = ARENA_CORNER_B
 
 /// Controller for admin event arenas
 /obj/machinery/computer/arena
-	name = "arena controller"
+	name = "glup shitto"
 	/// Arena ID
 	var/arena_id = ARENA_DEFAULT_ID
 	/// Enables/disables spawning
@@ -361,7 +361,7 @@
 
 /// Arena spawnpoint
 /obj/machinery/arena_spawn
-	name = "Arena Spawnpoint"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "syndbeacon"
 	resistance_flags = INDESTRUCTIBLE
@@ -373,12 +373,12 @@
 	var/obj/machinery/computer/arena/_controller
 
 /obj/machinery/arena_spawn/red
-	name = "Red Team Spawnpoint"
+	name = "glup shitto"
 	color = "red"
 	team = ARENA_RED_TEAM
 
 /obj/machinery/arena_spawn/green
-	name = "Green Team Spawnpoint"
+	name = "glup shitto"
 	color = "green"
 	team = ARENA_GREEN_TEAM
 

@@ -34,7 +34,7 @@
  */
 
 /mob/living/simple_animal/hostile/megafauna/dragon
-	name = "ash drake"
+	name = "glup shitto"
 	desc = "Guardians of the necropolis."
 	health = 2500
 	maxHealth = 2500
@@ -278,7 +278,7 @@
 
 /obj/effect/temp_visual/drakewall
 	desc = "An ash drakes true flame."
-	name = "Fire Barrier"
+	name = "glup shitto"
 	icon = 'icons/effects/fire.dmi'
 	icon_state = "1"
 	anchored = TRUE
@@ -298,7 +298,7 @@
 /obj/effect/temp_visual/fireball
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "fireball"
-	name = "fireball"
+	name = "glup shitto"
 	desc = "Get out of the way!"
 	layer = FLY_LAYER
 	plane = ABOVE_GAME_PLANE
@@ -344,7 +344,7 @@
 			L.adjustFireLoss(10) //if we've already hit them, do way less damage
 
 /mob/living/simple_animal/hostile/megafauna/dragon/lesser
-	name = "lesser ash drake"
+	name = "glup shitto"
 	maxHealth = 200
 	health = 200
 	faction = list(FACTION_NEUTRAL)

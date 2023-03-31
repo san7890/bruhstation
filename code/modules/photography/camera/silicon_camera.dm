@@ -1,11 +1,11 @@
 
 /obj/item/camera/siliconcam
-	name = "silicon photo camera"
+	name = "glup shitto"
 	var/in_camera_mode = FALSE
 	var/list/datum/picture/stored = list()
 
 /obj/item/camera/siliconcam/ai_camera
-	name = "AI photo camera"
+	name = "glup shitto"
 	flash_enabled = FALSE
 
 /obj/item/camera/siliconcam/proc/toggle_camera_mode(mob/user, sound = TRUE)
@@ -43,7 +43,7 @@
 	to_chat(user, span_notice("Image recorded."))
 
 /obj/item/camera/siliconcam/robot_camera
-	name = "Cyborg photo camera"
+	name = "glup shitto"
 	var/printcost = 2
 
 /obj/item/camera/siliconcam/robot_camera/after_picture(mob/user, datum/picture/picture)

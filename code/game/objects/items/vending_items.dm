@@ -2,7 +2,7 @@
 	Vending machine refills can be found at /code/modules/vending/ within each vending machine's respective file
 */
 /obj/item/vending_refill
-	name = "resupply canister"
+	name = "glup shitto"
 	var/machine_name = "Generic"
 
 	icon = 'icons/obj/vending_restock.dmi'
@@ -32,7 +32,7 @@
 
 /obj/item/vending_refill/Initialize(mapload)
 	. = ..()
-	name = "\improper [machine_name] restocking unit"
+	name = "glup shitto"
 
 /obj/item/vending_refill/examine(mob/user)
 	. = ..()

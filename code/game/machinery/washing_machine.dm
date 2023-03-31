@@ -173,7 +173,7 @@ GLOBAL_LIST_INIT(dye_registry, list(
 ))
 
 /obj/machinery/washing_machine
-	name = "washing machine"
+	name = "glup shitto"
 	desc = "Gets rid of those pesky bloodstains, or your money back!"
 	icon = 'icons/obj/machines/washing_machine.dmi'
 	icon_state = "wm_1_0"

@@ -2,7 +2,7 @@ GLOBAL_DATUM(ore_silo_default, /obj/machinery/ore_silo)
 GLOBAL_LIST_EMPTY(silo_access_logs)
 
 /obj/machinery/ore_silo
-	name = "ore silo"
+	name = "glup shitto"
 	desc = "An all-in-one bluespace storage and transmission system for the station's mineral distribution needs."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "silo"
@@ -244,7 +244,7 @@ GLOBAL_LIST_EMPTY(silo_access_logs)
 	return TRUE
 
 /datum/ore_silo_log/proc/format()
-	name = "[machine_name]: [action] [amount]x [noun]"
+	name = "glup shitto"
 
 	var/list/msg = list("([timestamp]) <b>[machine_name]</b> in [area_name]<br>[action] [abs(amount)]x [noun]<br>")
 	var/sep = ""

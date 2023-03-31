@@ -21,42 +21,42 @@
 		QDEL_IN(PB, qdel_in)
 
 /obj/effect/projectile/tracer
-	name = "beam"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/projectiles_tracer.dmi'
 
 /obj/effect/projectile/tracer/laser
-	name = "laser"
+	name = "glup shitto"
 	icon_state = "beam"
 
 /obj/effect/projectile/tracer/laser/blue
 	icon_state = "beam_blue"
 
 /obj/effect/projectile/tracer/disabler
-	name = "disabler"
+	name = "glup shitto"
 	icon_state = "beam_omni"
 
 /obj/effect/projectile/tracer/xray
-	name = "\improper X-ray laser"
+	name = "glup shitto"
 	icon_state = "xray"
 
 /obj/effect/projectile/tracer/pulse
-	name = "pulse laser"
+	name = "glup shitto"
 	icon_state = "u_laser"
 
 /obj/effect/projectile/tracer/plasma_cutter
-	name = "plasma blast"
+	name = "glup shitto"
 	icon_state = "plasmacutter"
 
 /obj/effect/projectile/tracer/stun
-	name = "stun beam"
+	name = "glup shitto"
 	icon_state = "stun"
 
 /obj/effect/projectile/tracer/heavy_laser
-	name = "heavy laser"
+	name = "glup shitto"
 	icon_state = "beam_heavy"
 
 /obj/effect/projectile/tracer/solar
-	name = "solar beam"
+	name = "glup shitto"
 	icon_state = "solar"
 
 /obj/effect/projectile/tracer/solar/thin
@@ -77,7 +77,7 @@
 	icon_state = "wormhole_g"
 
 /obj/effect/projectile/tracer/laser/emitter
-	name = "emitter beam"
+	name = "glup shitto"
 	icon_state = "emitter"
 
 /obj/effect/projectile/tracer/sniper

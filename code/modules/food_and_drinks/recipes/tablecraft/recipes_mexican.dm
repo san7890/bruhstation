@@ -93,7 +93,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/enchiladas
-	name = "Enchiladas"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/meat/cutlet = 2,
 		/obj/item/food/grown/chili = 2,
@@ -103,7 +103,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/stuffedlegion
-	name = "Stuffed legion"
+	name = "glup shitto"
 	time = 40
 	reqs = list(
 		/obj/item/food/meat/steak/goliath = 1,
@@ -115,7 +115,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/chipsandsalsa
-	name = "Chips and salsa"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cornchips = 1,
 		/obj/item/food/grown/chili = 1,
@@ -126,7 +126,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/classic_chimichanga
-	name = "Classic Chimichanga"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/tortilla = 1,
 		/obj/item/food/meat/cutlet = 2,
@@ -137,7 +137,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/vegetarian_chimichanga
-	name = "Vegetarian Chimichanga"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/tortilla = 1,
 		/obj/item/food/grown/cabbage = 1,
@@ -148,7 +148,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/classic_hard_shell_taco
-	name = "Classic Hard-Shell Taco"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/hard_taco_shell = 1,
 		/obj/item/food/meat/cutlet = 1,
@@ -160,7 +160,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/plain_hard_shell_taco
-	name = "Plain Hard-Shell Taco"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/hard_taco_shell = 1,
 		/obj/item/food/meat/cutlet = 1,
@@ -169,7 +169,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/refried_beans
-	name = "Refried Beans"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/grown/soybeans = 2,
@@ -180,7 +180,7 @@
 	category = CAT_MEXICAN
 
 /datum/crafting_recipe/food/spanish_rice
-	name = "Spanish Rice"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/boiledrice = 1,

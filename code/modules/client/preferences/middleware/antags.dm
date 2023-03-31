@@ -106,7 +106,7 @@
 
 /// Sprites generated for the antagonists panel
 /datum/asset/spritesheet/antagonists
-	name = "antagonists"
+	name = "glup shitto"
 	early = TRUE
 	cross_round_cachable = TRUE
 

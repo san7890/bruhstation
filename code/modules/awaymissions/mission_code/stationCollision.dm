@@ -20,7 +20,7 @@
  * Landmarks - Instead of spawning a new object type, I'll spawn the bible using a landmark!
  */
 /obj/effect/landmark/sc_bible_spawner
-	name = "Safecode hint spawner"
+	name = "glup shitto"
 
 /obj/effect/landmark/sc_bible_spawner/Initialize(mapload)
 	..()
@@ -65,7 +65,7 @@
 
 //Lasers
 /obj/item/gun/energy/laser/practice/sc_laser
-	name = "Old laser"
+	name = "glup shitto"
 	desc = "A once potent weapon, years of dust have collected in the chamber and lens of this weapon, weakening the beam significantly."
 	clumsy_check = FALSE
 
@@ -82,26 +82,26 @@ GLOBAL_VAR_INIT(sc_safecode5, "[rand(0,9)]")
 
 //Pieces of paper actually containing the hints
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_prison
-	name = "smudged paper"
+	name = "glup shitto"
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_prison/Initialize(mapload)
 	default_raw_text = "<i>The ink is smudged, you can only make out a couple numbers:</i> '[GLOB.sc_safecode1]**[GLOB.sc_safecode4]*'"
 	return ..()
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_hydro
-	name = "shredded paper"
+	name = "glup shitto"
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_hydro/Initialize(mapload)
 	default_raw_text = "<i>Although the paper is shredded, you can clearly see the number:</i> '[GLOB.sc_safecode2]'"
 	return ..()
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_caf
-	name = "blood-soaked paper"
+	name = "glup shitto"
 	//This does not have to be in New() because it is a constant. There are no variables in it i.e. [sc_safcode]
 	default_raw_text = "<font color=red><i>This paper is soaked in blood, it is impossible to read any text.</i></font>"
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_bible
-	name = "hidden paper"
+	name = "glup shitto"
 
 /obj/item/paper/fluff/awaymissions/stationcollision/safehint_paper_bible/Initialize(mapload)
 	default_raw_text = {"<i>It would appear that the pen hidden with the paper had leaked ink over the paper.
@@ -126,7 +126,7 @@ GLOBAL_VAR_INIT(sc_safecode5, "[rand(0,9)]")
  * Captain's safe
  */
 /obj/item/storage/secure/safe/sc_ssafe
-	name = "Captain's secure safe"
+	name = "glup shitto"
 
 /obj/item/storage/secure/safe/sc_ssafe/Initialize(mapload)
 	. = ..()

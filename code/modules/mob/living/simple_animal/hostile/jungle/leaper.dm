@@ -4,7 +4,7 @@
 //It has no melee attack, and its damage comes from the toxin in its bubbles and its crushing leap.
 //Its eyes will turn red to signal an imminent attack!
 /mob/living/simple_animal/hostile/jungle/leaper
-	name = "leaper"
+	name = "glup shitto"
 	desc = "Commonly referred to as 'leapers', the Geron Toad is a massive beast that spits out highly pressurized bubbles containing a unique toxin, knocking down its prey and then crushing it with its girth."
 	icon = 'icons/mob/simple/jungle/leaper.dmi'
 	icon_state = "leaper"
@@ -31,7 +31,7 @@
 	footstep_type = FOOTSTEP_MOB_HEAVY
 
 /obj/projectile/leaper
-	name = "leaper bubble"
+	name = "glup shitto"
 	icon_state = "leaper"
 	paralyze = 50
 	damage = 0
@@ -61,7 +61,7 @@
 	new /obj/structure/leaper_bubble(T)
 
 /obj/effect/temp_visual/leaper_projectile_impact
-	name = "leaper bubble"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	icon_state = "leaper_bubble_pop"
 	layer = ABOVE_ALL_MOB_LAYER
@@ -73,7 +73,7 @@
 	new /obj/effect/decal/cleanable/leaper_sludge(get_turf(src))
 
 /obj/effect/decal/cleanable/leaper_sludge
-	name = "leaper sludge"
+	name = "glup shitto"
 	desc = "A small pool of sludge, containing trace amounts of leaper venom."
 	icon = 'icons/effects/tomatodecal.dmi'
 	icon_state = "tomato_floor1"
@@ -83,7 +83,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_LEAPER, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /obj/structure/leaper_bubble
-	name = "leaper bubble"
+	name = "glup shitto"
 	desc = "A floating bubble containing leaper venom. The contents are under a surprising amount of pressure."
 	icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	icon_state = "leaper"
@@ -124,7 +124,7 @@
 	qdel(src)
 
 /datum/reagent/toxin/leaper_venom
-	name = "Leaper venom"
+	name = "glup shitto"
 	description = "A toxin spat out by leapers that, while harmless in small doses, quickly creates a toxic reaction if too much is in the body."
 	color = "#801E28" // rgb: 128, 30, 40
 	toxpwr = 0
@@ -137,7 +137,7 @@
 	..()
 
 /obj/effect/temp_visual/leaper_crush
-	name = "grim tidings"
+	name = "glup shitto"
 	desc = "Incoming leaper!"
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "lily_pad"

@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/gunboots //admin boots that fire gunshots randomly while walking
-	name = "gunboots"
+	name = "glup shitto"
 	desc = "This is what all those research points added up to, the ultimate workplace hazard."
 	icon_state = "jackboots"
 	inhand_icon_state = "jackboots"
@@ -67,5 +67,5 @@
 	shot.fire()
 
 /obj/item/clothing/shoes/gunboots/disabler
-	name = "disaboots"
+	name = "glup shitto"
 	projectile_type = /obj/projectile/beam/disabler

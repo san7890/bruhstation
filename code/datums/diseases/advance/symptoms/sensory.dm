@@ -6,7 +6,7 @@
  * Critical level
 */
 /datum/symptom/mind_restoration
-	name = "Mind Restoration"
+	name = "glup shitto"
 	desc = "The virus strengthens the bonds between neurons, reducing the duration of any ailments of the mind."
 	stealth = -1
 	resistance = -2
@@ -73,7 +73,7 @@
 
 
 /datum/symptom/sensory_restoration
-	name = "Sensory Restoration"
+	name = "glup shitto"
 	desc = "The virus stimulates the production and replacement of sensory tissues, causing the host to regenerate eyes and ears when damaged."
 	stealth = 0
 	resistance = 1

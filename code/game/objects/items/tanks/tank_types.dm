@@ -22,7 +22,7 @@
  * Oxygen
  */
 /obj/item/tank/internals/oxygen
-	name = "oxygen tank"
+	name = "glup shitto"
 	desc = "A tank of oxygen, this one is blue."
 	icon_state = "oxygen"
 	inhand_icon_state = "oxygen_tank"
@@ -58,7 +58,7 @@
  * Anesthetic
  */
 /obj/item/tank/internals/anesthetic
-	name = "anesthetic tank"
+	name = "glup shitto"
 	desc = "A tank with an N2O/O2 gas mix."
 	icon_state = "anesthetic"
 	inhand_icon_state = "an_tank"
@@ -74,7 +74,7 @@
  * Plasma
  */
 /obj/item/tank/internals/plasma
-	name = "plasma tank"
+	name = "glup shitto"
 	desc = "Contains dangerous plasma. Do not inhale. Warning: extremely flammable."
 	icon_state = "plasma"
 	inhand_icon_state = "plasma_tank"
@@ -114,7 +114,7 @@
  */
 
 /obj/item/tank/internals/plasmaman
-	name = "plasma internals tank"
+	name = "glup shitto"
 	desc = "A tank of plasma gas designed specifically for use as internals, particularly for plasma-based lifeforms. If you're not a Plasmaman, you probably shouldn't use this."
 	icon_state = "plasmaman_tank"
 	inhand_icon_state = "plasmaman_tank"
@@ -155,7 +155,7 @@
  * Emergency Oxygen
  */
 /obj/item/tank/internals/emergency_oxygen
-	name = "emergency oxygen tank"
+	name = "glup shitto"
 	desc = "Used for emergencies. Contains very little oxygen, so try to conserve it until you actually need it."
 	icon_state = "emergency"
 	inhand_icon_state = "emergency_tank"
@@ -179,7 +179,7 @@
 	return
 
 /obj/item/tank/internals/emergency_oxygen/engi
-	name = "extended-capacity emergency oxygen tank"
+	name = "glup shitto"
 	icon_state = "emergency_engi"
 	inhand_icon_state = "emergency_engi_tank"
 	worn_icon_state = "emergency_engi"
@@ -191,7 +191,7 @@
 	return
 
 /obj/item/tank/internals/emergency_oxygen/double
-	name = "double emergency oxygen tank"
+	name = "glup shitto"
 	icon_state = "emergency_double"
 	worn_icon_state = "emergency_engi"
 	tank_holder_icon_state = "holder_emergency_engi"
@@ -205,7 +205,7 @@
 // *
 
 /obj/item/tank/internals/generic
-	name = "gas tank"
+	name = "glup shitto"
 	desc = "A generic tank used for storing and transporting gasses. Can be used for internals."
 	icon_state = "generic"
 	inhand_icon_state = "generic_tank"

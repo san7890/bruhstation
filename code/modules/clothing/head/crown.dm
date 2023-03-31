@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/crown
-	name = "crown"
+	name = "glup shitto"
 	desc = "A crown fit for a king, a petty king maybe."
 	icon_state = "crown"
 	armor_type = /datum/armor/costume_crown
@@ -13,6 +13,6 @@
 	wound = 5
 
 /obj/item/clothing/head/costume/crown/fancy
-	name = "magnificent crown"
+	name = "glup shitto"
 	desc = "A crown worn by only the highest emperors of the <s>land</s> space."
 	icon_state = "fancycrown"

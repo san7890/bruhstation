@@ -1,7 +1,7 @@
 /**********************Resonator**********************/
 
 /obj/item/resonator
-	name = "resonator"
+	name = "glup shitto"
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "resonator"
 	inhand_icon_state = "resonator"
@@ -49,7 +49,7 @@
 
 //resonance field, crushes rock, damages mobs
 /obj/effect/temp_visual/resonance
-	name = "resonance field"
+	name = "glup shitto"
 	desc = "A resonating field that significantly damages anything inside of it when the field eventually ruptures. More damaging in low pressure environments."
 	icon_state = "shield1"
 	layer = ABOVE_ALL_MOB_LAYER
@@ -155,7 +155,7 @@
 	animate(src, transform = matrix() * 0.1, alpha = 50, time = 4)
 
 /obj/item/resonator/upgraded
-	name = "upgraded resonator"
+	name = "glup shitto"
 	desc = "An upgraded version of the resonator that can produce more fields at once, as well as having no damage penalty for bursting a resonance field early. It also allows you to set 'Resonance matrixes', that detonate after someone(or something) walks over it."
 	icon_state = "resonator_u"
 	inhand_icon_state = "resonator_u"

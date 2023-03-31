@@ -4,7 +4,7 @@
 #define UNKNOWN_JOB_ID 81
 
 /obj/machinery/computer/crew
-	name = "crew monitoring console"
+	name = "glup shitto"
 	desc = "Used to monitor active health sensors built into most of the crew's uniforms."
 	icon_screen = "crew"
 	icon_keyboard = "med_key"

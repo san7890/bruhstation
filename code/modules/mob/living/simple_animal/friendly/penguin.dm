@@ -27,7 +27,7 @@
 	AddElement(/datum/element/waddling)
 
 /mob/living/simple_animal/pet/penguin/emperor
-	name = "Emperor penguin"
+	name = "glup shitto"
 	real_name = "penguin"
 	desc = "Emperor of all he surveys."
 	icon_state = "penguin"
@@ -37,7 +37,7 @@
 	butcher_results = list(/obj/item/organ/internal/ears/penguin = 1, /obj/item/food/meat/slab/penguin = 3)
 
 /mob/living/simple_animal/pet/penguin/emperor/shamebrero
-	name = "Shamebrero penguin"
+	name = "glup shitto"
 	desc = "Shameful of all he surveys."
 	icon_state = "penguin_shamebrero"
 	icon_living = "penguin_shamebrero"
@@ -46,7 +46,7 @@
 
 /mob/living/simple_animal/pet/penguin/baby
 	speak = list("gah", "noot noot", "noot!", "noot", "squeee!", "noo!")
-	name = "Penguin chick"
+	name = "glup shitto"
 	real_name = "penguin"
 	desc = "Can't fly and barely waddles, yet the prince of all chicks."
 	icon_state = "penguin_baby"

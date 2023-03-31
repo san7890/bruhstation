@@ -52,7 +52,7 @@
 	return
 
 /obj/effect/client_image_holder/hallucination/danger/lava
-	name = "lava"
+	name = "glup shitto"
 	image_icon = 'icons/turf/floors/lava.dmi'
 
 /obj/effect/client_image_holder/hallucination/danger/lava/generate_image()
@@ -65,7 +65,7 @@
 	afflicted.cause_hallucination(/datum/hallucination/fire, "fake lava hallucination")
 
 /obj/effect/client_image_holder/hallucination/danger/chasm
-	name = "chasm"
+	name = "glup shitto"
 	image_icon = 'icons/turf/floors/chasms.dmi'
 
 /obj/effect/client_image_holder/hallucination/danger/chasm/generate_image()
@@ -81,7 +81,7 @@
 	QDEL_IN(src, 3 SECONDS)
 
 /obj/effect/client_image_holder/hallucination/danger/anomaly
-	name = "flux wave anomaly"
+	name = "glup shitto"
 	image_icon = 'icons/effects/anomalies.dmi'
 	image_state = "flux"
 	image_layer = OBJ_LAYER + 0.01

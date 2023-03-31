@@ -1,5 +1,5 @@
 /obj/item/sequence_scanner
-	name = "genetic sequence scanner"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "gene"
 	inhand_icon_state = "healthanalyzer"

@@ -1,5 +1,5 @@
 /datum/crafting_recipe/blackcarpet
-	name = "Black Carpet"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/stack/tile/carpet = 50,
 		/obj/item/toy/crayon/black = 1,

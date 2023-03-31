@@ -1,5 +1,5 @@
 /obj/item/skillchip/job/roboticist
-	name = "Cyborg C1-RCU-1T skillchip"
+	name = "glup shitto"
 	desc = "A roboticist's second best friend."
 	auto_traits = list(TRAIT_KNOW_CYBORG_WIRES)
 	skill_name = "Cyborg Circuitry"

@@ -2,7 +2,7 @@
 #define STRANGER 1
 
 /datum/brain_trauma/severe/split_personality
-	name = "Split Personality"
+	name = "glup shitto"
 	desc = "Patient's brain is split into two personalities, which randomly switch control of the body."
 	scan_desc = "complete lobe separation"
 	gain_text = span_warning("You feel like your mind was split in two.")
@@ -122,7 +122,7 @@
 
 
 /mob/living/split_personality
-	name = "split personality"
+	name = "glup shitto"
 	real_name = "unknown conscience"
 	var/mob/living/carbon/body
 	var/datum/brain_trauma/severe/split_personality/trauma
@@ -167,7 +167,7 @@
 ///////////////BRAINWASHING////////////////////
 
 /datum/brain_trauma/severe/split_personality/brainwashing
-	name = "Split Personality"
+	name = "glup shitto"
 	desc = "Patient's brain is split into two personalities, which randomly switch control of the body."
 	scan_desc = "complete lobe separation"
 	gain_text = ""
@@ -224,7 +224,7 @@
 		speech_args[SPEECH_MESSAGE] = "" //oh hey did you want to tell people about the secret word to bring you back?
 
 /mob/living/split_personality/traitor
-	name = "split personality"
+	name = "glup shitto"
 	real_name = "unknown conscience"
 	var/objective
 	var/codeword

@@ -1,11 +1,11 @@
 /obj/item/circuitboard/machine/spaceship_navigation_beacon
-	name = "Bluespace Navigation Gigabeacon (Machine Board)"
+	name = "glup shitto"
 	build_path = /obj/machinery/spaceship_navigation_beacon
 	req_components = list()
 
 
 /obj/machinery/spaceship_navigation_beacon
-	name = "Bluespace Navigation Gigabeacon"
+	name = "glup shitto"
 	desc = "A device that creates a bluespace anchor that allow ships jump near to it."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "core"

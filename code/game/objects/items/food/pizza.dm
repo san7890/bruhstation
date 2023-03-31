@@ -44,7 +44,7 @@
 	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/stack/sheet/pizza, 1, 1 SECONDS, table_required = TRUE, screentip_verb = "Flatten")
 
 /obj/item/food/pizza/margherita
-	name = "pizza margherita"
+	name = "glup shitto"
 	desc = "The most cheezy pizza in galaxy."
 	icon_state = "pizzamargherita"
 	food_reagents = list(
@@ -60,7 +60,7 @@
 
 
 /obj/item/food/pizza/margherita/raw
-	name = "raw pizza margherita"
+	name = "glup shitto"
 	icon_state = "pizzamargherita_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | RAW
 	burns_in_oven = FALSE
@@ -79,7 +79,7 @@
 	)
 
 /obj/item/food/pizzaslice/margherita
-	name = "margherita slice"
+	name = "glup shitto"
 	desc = "A slice of the most cheezy pizza in galaxy."
 	icon_state = "pizzamargheritaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1)
@@ -90,7 +90,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, null, CUSTOM_INGREDIENT_ICON_FILL, max_ingredients = 12)
 
 /obj/item/food/pizza/meat
-	name = "meatpizza"
+	name = "glup shitto"
 	desc = "Greasy pizza with delicious meat."
 	icon_state = "meatpizza"
 	food_reagents = list(
@@ -104,7 +104,7 @@
 	boxtag = "Meatlovers' Supreme"
 
 /obj/item/food/pizza/meat/raw
-	name = "raw meatpizza"
+	name = "glup shitto"
 	icon_state = "meatpizza_raw"
 	foodtypes = GRAIN | VEGETABLES| DAIRY | MEAT | RAW
 	burns_in_oven = FALSE
@@ -114,14 +114,14 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/meat, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/meat
-	name = "meatpizza slice"
+	name = "glup shitto"
 	desc = "A nutritious slice of meatpizza."
 	icon_state = "meatpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT
 
 /obj/item/food/pizza/mushroom
-	name = "mushroom pizza"
+	name = "glup shitto"
 	desc = "Very special pizza."
 	icon_state = "mushroompizza"
 	food_reagents = list(
@@ -135,7 +135,7 @@
 	boxtag = "Mushroom Special"
 
 /obj/item/food/pizza/mushroom/raw
-	name = "raw mushroom pizza"
+	name = "glup shitto"
 	icon_state = "mushroompizza_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | RAW
 	burns_in_oven = FALSE
@@ -145,7 +145,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/mushroom, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/mushroom
-	name = "mushroom pizza slice"
+	name = "glup shitto"
 	desc = "Maybe it is the last slice of pizza in your life."
 	icon_state = "mushroompizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "mushroom" = 1)
@@ -153,7 +153,7 @@
 
 
 /obj/item/food/pizza/vegetable
-	name = "vegetable pizza"
+	name = "glup shitto"
 	desc = "No one of Tomatos Sapiens were harmed during making this pizza."
 	icon_state = "vegetablepizza"
 	food_reagents = list(
@@ -168,7 +168,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/pizza/vegetable/raw
-	name = "raw vegetable pizza"
+	name = "glup shitto"
 	icon_state = "vegetablepizza_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | RAW
 	burns_in_oven = FALSE
@@ -178,14 +178,14 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/vegetable, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/vegetable
-	name = "vegetable pizza slice"
+	name = "glup shitto"
 	desc = "A slice of the most green pizza of all pizzas not containing green ingredients."
 	icon_state = "vegetablepizzaslice"
 	tastes = list("crust" = 1, "tomato" = 2, "cheese" = 1, "carrot" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 
 /obj/item/food/pizza/donkpocket
-	name = "donkpocket pizza"
+	name = "glup shitto"
 	desc = "Who thought this would be a good idea?"
 	icon_state = "donkpocketpizza"
 	food_reagents = list(
@@ -201,7 +201,7 @@
 	boxtag = "Bangin' Donk"
 
 /obj/item/food/pizza/donkpocket/raw
-	name = "raw donkpocket pizza"
+	name = "glup shitto"
 	icon_state = "donkpocketpizza_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT | JUNKFOOD | RAW
 	burns_in_oven = FALSE
@@ -211,14 +211,14 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/donkpocket, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/donkpocket
-	name = "donkpocket pizza slice"
+	name = "glup shitto"
 	desc = "Smells like donkpocket."
 	icon_state = "donkpocketpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1, "laziness" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT | JUNKFOOD
 
 /obj/item/food/pizza/dank
-	name = "dank pizza"
+	name = "glup shitto"
 	desc = "The hippie's pizza of choice."
 	icon_state = "dankpizza"
 	food_reagents = list(
@@ -233,7 +233,7 @@
 	boxtag = "Fresh Herb"
 
 /obj/item/food/pizza/dank/raw
-	name = "raw dank pizza"
+	name = "glup shitto"
 	icon_state = "dankpizza_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | RAW
 	burns_in_oven = FALSE
@@ -243,14 +243,14 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/dank, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/dank
-	name = "dank pizza slice"
+	name = "glup shitto"
 	desc = "So good, man..."
 	icon_state = "dankpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY
 
 /obj/item/food/pizza/sassysage
-	name = "sassysage pizza"
+	name = "glup shitto"
 	desc = "You can almost taste the sassiness."
 	icon_state = "sassysagepizza"
 	food_reagents = list(
@@ -265,7 +265,7 @@
 	boxtag = "Sausage Lovers"
 
 /obj/item/food/pizza/sassysage/raw
-	name = "raw sassysage pizza"
+	name = "glup shitto"
 	icon_state = "sassysagepizza_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT | RAW
 	burns_in_oven = FALSE
@@ -275,14 +275,14 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/sassysage, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/sassysage
-	name = "sassysage pizza slice"
+	name = "glup shitto"
 	desc = "Deliciously sassy."
 	icon_state = "sassysagepizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT
 
 /obj/item/food/pizza/pineapple
-	name = "\improper Hawaiian pizza"
+	name = "glup shitto"
 	desc = "The pizza equivalent of Einstein's riddle."
 	icon_state = "pineapplepizza"
 	food_reagents = list(
@@ -298,7 +298,7 @@
 	boxtag = "Honolulu Chew"
 
 /obj/item/food/pizza/pineapple/raw
-	name = "raw Hawaiian pizza"
+	name = "glup shitto"
 	icon_state = "pineapplepizza_raw"
 	foodtypes = GRAIN | VEGETABLES | DAIRY | MEAT | FRUIT | PINEAPPLE | RAW
 	burns_in_oven = FALSE
@@ -308,7 +308,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/pineapple, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/pineapple
-	name = "\improper Hawaiian pizza slice"
+	name = "glup shitto"
 	desc = "A slice of delicious controversy."
 	icon_state = "pineapplepizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "pineapple" = 2, "ham" = 2)
@@ -318,7 +318,7 @@
 // Moldly Pizza
 // Used in cytobiology.
 /obj/item/food/pizzaslice/moldy
-	name = "moldy pizza slice"
+	name = "glup shitto"
 	desc = "This was once a perfectly good slice of pizza pie, but now it lies here, rancid and bursting with spores. \
 		What a bummer! But we should not dwell on the past, only look towards the future."
 	icon_state = "moldy_slice"
@@ -333,7 +333,7 @@
 	preserved_food = TRUE
 
 /obj/item/food/pizzaslice/moldy/bacteria
-	name = "bacteria rich moldy pizza slice"
+	name = "glup shitto"
 	desc = "Not only is this once delicious pizza encrusted with a layer of spore-spewing fungus, it also seems to shift and slide when unattended, teeming with new life."
 
 /obj/item/food/pizzaslice/moldy/bacteria/Initialize(mapload)
@@ -343,7 +343,7 @@
 // Arnold Pizza
 // Has meme code.
 /obj/item/food/pizza/arnold
-	name = "\improper Arnold pizza"
+	name = "glup shitto"
 	desc = "Hello, you've reached Arnold's pizza shop. I'm not here now, I'm out killing pepperoni."
 	icon_state = "arnoldpizza"
 	food_reagents = list(
@@ -358,7 +358,7 @@
 	boxtag = "9mm Pepperoni"
 
 /obj/item/food/pizza/arnold/raw
-	name = "raw Arnold pizza"
+	name = "glup shitto"
 	icon_state = "arnoldpizza_raw"
 	foodtypes = GRAIN | DAIRY | VEGETABLES | RAW
 	burns_in_oven = FALSE
@@ -399,7 +399,7 @@
 	. = ..()
 
 /obj/item/food/pizzaslice/arnold
-	name = "\improper Arnold pizza slice"
+	name = "glup shitto"
 	desc = "I come over, maybe I give you a pizza, maybe I break off your arm."
 	icon_state = "arnoldpizzaslice"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "pepperoni" = 2, "9 millimeter bullets" = 2)
@@ -415,7 +415,7 @@
 
 // Ant Pizza, now with more ants.
 /obj/item/food/pizzaslice/ants
-	name = "\improper Ant Party pizza slice"
+	name = "glup shitto"
 	desc = "The key to a perfect slice of pizza is not to overdo it with the ants."
 	icon_state = "antpizzaslice"
 	food_reagents = list(
@@ -427,7 +427,7 @@
 
 // Ethereal Pizza, for when they want a slice
 /obj/item/food/pizza/energy
-	name = "energy pizza"
+	name = "glup shitto"
 	desc = "You could probably power a RIPLEY with this. You should avoid eating this if you aren't an Ethereal."
 	icon_state ="energypizza"
 	food_reagents = list(
@@ -440,7 +440,7 @@
 	boxtag = "24 Hour Energy"
 
 /obj/item/food/pizza/energy/raw
-	name = "raw energy pizza"
+	name = "glup shitto"
 	icon_state = "energypizza_raw"
 	foodtypes = TOXIC
 	burns_in_oven = FALSE
@@ -450,14 +450,14 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/pizza/energy, rand(70 SECONDS, 80 SECONDS), TRUE, TRUE)
 
 /obj/item/food/pizzaslice/energy
-	name = "energy pizza slice"
+	name = "glup shitto"
 	desc = "You're thinking about using this to power your modsuit. You should avoid eating this if you aren't an Ethereal."
 	icon_state ="energypizzaslice"
 	tastes = list("pure electricity" = 4, "pizza" = 2)
 	foodtypes = TOXIC
 
 /obj/item/food/raw_meat_calzone
-	name = "raw meat calzone"
+	name = "glup shitto"
 	desc = "A raw calzone, ready to be put in the oven."
 	icon_state = "raw_calzone"
 	food_reagents = list(
@@ -473,7 +473,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/meat_calzone, rand(20 SECONDS, 40 SECONDS), TRUE, TRUE)
 
 /obj/item/food/meat_calzone
-	name = "meat calzone"
+	name = "glup shitto"
 	desc = "A calzone filled with cheese, meat, and a tomato sauce. Don't burn your tongue!."
 	icon_state = "meat_calzone"
 	food_reagents = list(
@@ -487,7 +487,7 @@
 	burns_in_oven = TRUE
 
 /obj/item/food/raw_vegetarian_calzone
-	name = "raw vegetarian calzone"
+	name = "glup shitto"
 	desc = "A raw calzone, ready to be put in the oven."
 	icon_state = "raw_calzone"
 	food_reagents = list(
@@ -502,7 +502,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/vegetarian_calzone, rand(20 SECONDS, 40 SECONDS), TRUE, TRUE)
 
 /obj/item/food/vegetarian_calzone
-	name = "vegetarian calzone"
+	name = "glup shitto"
 	desc = "A calzone filled with mixed vegetables and a tomato sauce. A healthier, yet less satisfying alternative."
 	icon_state = "vegetarian_calzone"
 	food_reagents = list(

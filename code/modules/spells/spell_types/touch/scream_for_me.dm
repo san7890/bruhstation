@@ -1,6 +1,6 @@
 /// Weaker smite, not outright gibbing your target, but a lot more bloody, and Sanguine school, so doesn't get affected by splattercasting.
 /datum/action/cooldown/spell/touch/scream_for_me
-	name = "Scream For Me"
+	name = "glup shitto"
 	desc = "This wicked spell inflicts many severe wounds on your target, causing them to \
 		likely bleed to death unless they recieve immediate medical attention."
 	button_icon_state = "scream_for_me"
@@ -33,7 +33,7 @@
 	return TRUE
 
 /obj/item/melee/touch_attack/scream_for_me
-	name = "\improper bloody touch"
+	name = "glup shitto"
 	desc = "Guaranteed to make your victims scream, or your money back!"
 	icon_state = "scream_for_me"
 	inhand_icon_state = "disintegrate"

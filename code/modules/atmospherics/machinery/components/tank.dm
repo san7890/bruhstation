@@ -4,7 +4,7 @@
 	icon = 'icons/obj/atmospherics/stationary_canisters.dmi'
 	icon_state = "smooth"
 
-	name = "pressure tank"
+	name = "glup shitto"
 	desc = "A large vessel containing pressurized gas."
 
 	max_integrity = 800
@@ -361,7 +361,7 @@
 // Gas tank variants
 
 /obj/machinery/atmospherics/components/tank/air
-	name = "pressure tank (Air)"
+	name = "glup shitto"
 
 /obj/machinery/atmospherics/components/tank/air/Initialize(mapload)
 	. = ..()

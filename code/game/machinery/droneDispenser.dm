@@ -3,7 +3,7 @@
 #define DRONE_READY "ready"
 
 /obj/machinery/drone_dispenser //Most customizable machine 2015
-	name = "drone shell dispenser"
+	name = "glup shitto"
 	desc = "A hefty machine that, when supplied with iron and glass, will periodically create a drone shell. Does not need to be manually operated."
 
 	icon = 'icons/obj/machines/droneDispenser.dmi'
@@ -59,7 +59,7 @@
 	starting_amount = 5000
 
 /obj/machinery/drone_dispenser/syndrone //Please forgive me
-	name = "syndrone shell dispenser"
+	name = "glup shitto"
 	desc = "A suspicious machine that will create Syndicate exterminator drones when supplied with iron and glass. Disgusting."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/syndrone
 	//If we're gonna be a jackass, go the full mile - 10 second recharge timer
@@ -68,14 +68,14 @@
 	starting_amount = 25000
 
 /obj/machinery/drone_dispenser/syndrone/badass //Please forgive me
-	name = "badass syndrone shell dispenser"
+	name = "glup shitto"
 	desc = "A suspicious machine that will create Syndicate exterminator drones when supplied with iron and glass. Disgusting. This one seems ominous."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/syndrone/badass
 	end_create_message = "dispenses an ominous suspicious drone shell."
 
 // I don't need your forgiveness, this is awesome.
 /obj/machinery/drone_dispenser/snowflake
-	name = "snowflake drone shell dispenser"
+	name = "glup shitto"
 	desc = "A hefty machine that, when supplied with iron and glass, will periodically create a snowflake drone shell. Does not need to be manually operated."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/snowflake
 	end_create_message = "dispenses a snowflake drone shell."
@@ -87,7 +87,7 @@
 
 // If the derelict gets lonely, make more friends.
 /obj/machinery/drone_dispenser/derelict
-	name = "derelict drone shell dispenser"
+	name = "glup shitto"
 	desc = "A rusty machine that, when supplied with iron and glass, will periodically create a derelict drone shell. Does not need to be manually operated."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/derelict
 	end_create_message = "dispenses a derelict drone shell."
@@ -97,7 +97,7 @@
 	cooldownTime = 600
 
 /obj/machinery/drone_dispenser/classic
-	name = "classic drone shell dispenser"
+	name = "glup shitto"
 	desc = "A hefty machine that, when supplied with iron and glass, will periodically create a classic drone shell. Does not need to be manually operated."
 	dispense_type = /obj/effect/mob_spawn/ghost_role/drone/classic
 	end_create_message = "dispenses a classic drone shell."
@@ -105,7 +105,7 @@
 // An example of a custom drone dispenser.
 // This one requires no materials and creates basic hivebots
 /obj/machinery/drone_dispenser/hivebot
-	name = "hivebot fabricator"
+	name = "glup shitto"
 	desc = "A large, bulky machine that whirs with activity, steam hissing from vents in its sides."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "hivebot_fab"

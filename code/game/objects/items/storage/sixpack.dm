@@ -1,5 +1,5 @@
 /obj/item/storage/cans
-	name = "can ring"
+	name = "glup shitto"
 	desc = "Holds up to six drink cans, and select bottles."
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "canholder"
@@ -34,7 +34,7 @@
 		))
 
 /obj/item/storage/cans/sixsoda
-	name = "soda bottle ring"
+	name = "glup shitto"
 	desc = "Holds six soda cans. Remember to recycle when you're done!"
 
 /obj/item/storage/cans/sixsoda/PopulateContents()
@@ -42,7 +42,7 @@
 		new /obj/item/reagent_containers/cup/soda_cans/cola(src)
 
 /obj/item/storage/cans/sixbeer
-	name = "beer bottle ring"
+	name = "glup shitto"
 	desc = "Holds six beer bottles. Remember to recycle when you're done!"
 
 /obj/item/storage/cans/sixbeer/PopulateContents()

@@ -1,7 +1,7 @@
 #define DONUT_SPRINKLE_CHANCE 30
 
 /obj/item/food/donut
-	name = "donut"
+	name = "glup shitto"
 	desc = "Goes great with robust coffee."
 	icon = 'icons/obj/food/donuts.dmi'
 	bite_consumption = 5
@@ -30,7 +30,7 @@
 	if(is_decorated || !decorated_icon)
 		return
 	is_decorated = TRUE
-	name = "[decorated_adjective] [name]"
+	name = "glup shitto"
 	icon_state = decorated_icon //delish~!
 	reagents.add_reagent(/datum/reagent/consumable/sprinkles, 1)
 	return TRUE
@@ -50,7 +50,7 @@
 	icon_state = "donut"
 
 /obj/item/food/donut/chaos
-	name = "chaos donut"
+	name = "glup shitto"
 	desc = "Like life, it never quite tastes the same."
 	icon_state = "donut_chaos"
 	bite_consumption = 10
@@ -74,7 +74,7 @@
 	reagents.add_reagent(extra_reagent, 3)
 
 /obj/item/food/donut/meat
-	name = "Meat Donut"
+	name = "glup shitto"
 	desc = "Tastes as gross as it looks."
 	icon_state = "donut_meat"
 	food_reagents = list(
@@ -87,7 +87,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/berry
-	name = "pink donut"
+	name = "glup shitto"
 	desc = "Goes great with a soy latte."
 	icon_state = "donut_pink"
 	food_reagents = list(
@@ -99,7 +99,7 @@
 	decorated_icon = "donut_homer"
 
 /obj/item/food/donut/trumpet
-	name = "spaceman's donut"
+	name = "glup shitto"
 	desc = "Goes great with a cold beaker of malk."
 	icon_state = "donut_purple"
 	food_reagents = list(
@@ -111,7 +111,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/apple
-	name = "apple donut"
+	name = "glup shitto"
 	desc = "Goes great with a shot of cinnamon schnapps."
 	icon_state = "donut_green"
 	food_reagents = list(
@@ -124,7 +124,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/caramel
-	name = "caramel donut"
+	name = "glup shitto"
 	desc = "Goes great with a mug of hot coco."
 	icon_state = "donut_beige"
 	food_reagents = list(
@@ -137,7 +137,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/choco
-	name = "chocolate donut"
+	name = "glup shitto"
 	desc = "Goes great with a glass of warm milk."
 	icon_state = "donut_choc"
 	food_reagents = list(
@@ -150,7 +150,7 @@
 	decorated_icon = "donut_choc_sprinkles"
 
 /obj/item/food/donut/blumpkin
-	name = "blumpkin donut"
+	name = "glup shitto"
 	desc = "Goes great with a mug of soothing drunken blumpkin."
 	icon_state = "donut_blue"
 	food_reagents = list(
@@ -163,7 +163,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/bungo
-	name = "bungo donut"
+	name = "glup shitto"
 	desc = "Goes great with a mason jar of hippie's delight."
 	icon_state = "donut_yellow"
 	food_reagents = list(
@@ -176,7 +176,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/matcha
-	name = "matcha donut"
+	name = "glup shitto"
 	desc = "Goes great with a cup of tea."
 	icon_state = "donut_olive"
 	food_reagents = list(
@@ -189,7 +189,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/laugh
-	name = "sweet pea donut"
+	name = "glup shitto"
 	desc = "Goes great with a bottle of Bastion Burbon!"
 	icon_state = "donut_laugh"
 	food_reagents = list(
@@ -203,7 +203,7 @@
 //////////////////////JELLY DONUTS/////////////////////////
 
 /obj/item/food/donut/jelly
-	name = "jelly donut"
+	name = "glup shitto"
 	desc = "You jelly?"
 	icon_state = "jelly"
 	food_reagents = list(
@@ -229,14 +229,14 @@
 	decorated_icon = "jelly_homer"
 
 /obj/item/food/donut/jelly/berry
-	name = "pink jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a soy latte."
 	icon_state = "jelly_pink"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/berryjuice = 3, /datum/reagent/consumable/sprinkles = 1, /datum/reagent/consumable/nutriment/vitamin = 1) //Extra sprinkles to reward frosting.
 	decorated_icon = "jelly_homer"
 
 /obj/item/food/donut/jelly/trumpet
-	name = "spaceman's jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a cold beaker of malk."
 	icon_state = "jelly_purple"
 	food_reagents = list(
@@ -249,7 +249,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/apple
-	name = "apple jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a shot of cinnamon schnapps."
 	icon_state = "jelly_green"
 	food_reagents = list(
@@ -263,7 +263,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/caramel
-	name = "caramel jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a mug of hot coco."
 	icon_state = "jelly_beige"
 	food_reagents = list(
@@ -277,7 +277,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/choco
-	name = "chocolate jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a glass of warm milk."
 	icon_state = "jelly_choc"
 	food_reagents = list(
@@ -291,7 +291,7 @@
 	decorated_icon = "jelly_choc_sprinkles"
 
 /obj/item/food/donut/jelly/blumpkin
-	name = "blumpkin jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a mug of soothing drunken blumpkin."
 	icon_state = "jelly_blue"
 	food_reagents = list(
@@ -305,7 +305,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/bungo
-	name = "bungo jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a mason jar of hippie's delight."
 	icon_state = "jelly_yellow"
 	food_reagents = list(
@@ -319,7 +319,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/matcha
-	name = "matcha jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a cup of tea."
 	icon_state = "jelly_olive"
 	food_reagents = list(
@@ -333,7 +333,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/laugh
-	name = "sweet pea jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a bottle of Bastion Burbon!"
 	icon_state = "jelly_laugh"
 	food_reagents = list(
@@ -347,7 +347,7 @@
 //////////////////////////SLIME DONUTS/////////////////////////
 
 /obj/item/food/donut/jelly/slimejelly
-	name = "jelly donut"
+	name = "glup shitto"
 	desc = "You jelly?"
 	extra_reagent = /datum/reagent/toxin/slimejelly
 	foodtypes = JUNKFOOD | GRAIN | FRIED | TOXIC | SUGAR | BREAKFAST
@@ -356,7 +356,7 @@
 	icon_state = "jelly"
 
 /obj/item/food/donut/jelly/slimejelly/berry
-	name = "pink jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a soy latte."
 	icon_state = "jelly_pink"
 	food_reagents = list(
@@ -368,7 +368,7 @@
 	) //Extra sprinkles to reward frosting
 
 /obj/item/food/donut/jelly/slimejelly/trumpet
-	name = "spaceman's jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a cold beaker of malk."
 	icon_state = "jelly_purple"
 	food_reagents = list(
@@ -381,7 +381,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/slimejelly/apple
-	name = "apple jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a shot of cinnamon schnapps."
 	icon_state = "jelly_green"
 	food_reagents = list(
@@ -395,7 +395,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/slimejelly/caramel
-	name = "caramel jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a mug of hot coco."
 	icon_state = "jelly_beige"
 	food_reagents = list(
@@ -409,7 +409,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/slimejelly/choco
-	name = "chocolate jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a glass of warm milk."
 	icon_state = "jelly_choc"
 	food_reagents = list(
@@ -423,7 +423,7 @@
 	decorated_icon = "jelly_choc_sprinkles"
 
 /obj/item/food/donut/jelly/slimejelly/blumpkin
-	name = "blumpkin jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a mug of soothing drunken blumpkin."
 	icon_state = "jelly_blue"
 	food_reagents = list(
@@ -437,7 +437,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/slimejelly/bungo
-	name = "bungo jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a mason jar of hippie's delight."
 	icon_state = "jelly_yellow"
 	food_reagents = list(
@@ -451,7 +451,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/slimejelly/matcha
-	name = "matcha jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a cup of tea."
 	icon_state = "jelly_olive"
 	food_reagents = list(
@@ -465,7 +465,7 @@
 	is_decorated = TRUE
 
 /obj/item/food/donut/jelly/slimejelly/laugh
-	name = "sweet pea jelly donut"
+	name = "glup shitto"
 	desc = "Goes great with a bottle of Bastion Burbon!"
 	icon_state = "jelly_laugh"
 	food_reagents = list(

@@ -1,5 +1,5 @@
 /obj/item/gun/energy/e_gun
-	name = "energy gun"
+	name = "glup shitto"
 	desc = "A basic hybrid energy gun with two settings: disable and kill."
 	icon_state = "energy"
 	w_class = WEIGHT_CLASS_BULKY
@@ -17,7 +17,7 @@
 		overlay_y = 10)
 
 /obj/item/gun/energy/e_gun/mini
-	name = "miniature energy gun"
+	name = "glup shitto"
 	desc = "A small, pistol-sized energy gun with a built-in flashlight. It has two settings: disable and kill."
 	icon_state = "mini"
 	inhand_icon_state = "gun"
@@ -38,21 +38,21 @@
 		overlay_y = 13)
 
 /obj/item/gun/energy/e_gun/stun
-	name = "tactical energy gun"
+	name = "glup shitto"
 	desc = "Military issue energy gun, is able to fire stun rounds."
 	icon_state = "energytac"
 	ammo_x_offset = 2
 	ammo_type = list(/obj/item/ammo_casing/energy/electrode/spec, /obj/item/ammo_casing/energy/disabler, /obj/item/ammo_casing/energy/laser)
 
 /obj/item/gun/energy/e_gun/old
-	name = "prototype energy gun"
+	name = "glup shitto"
 	desc = "NT-P:01 Prototype Energy Gun. Early stage development of a unique laser rifle that has multifaceted energy lens allowing the gun to alter the form of projectile it fires on command."
 	icon_state = "protolaser"
 	ammo_x_offset = 2
 	ammo_type = list(/obj/item/ammo_casing/energy/laser, /obj/item/ammo_casing/energy/electrode/old)
 
 /obj/item/gun/energy/e_gun/mini/practice_phaser
-	name = "practice phaser"
+	name = "glup shitto"
 	desc = "A modified version of the basic phaser gun, this one fires less concentrated energy bolts designed for target practice."
 	ammo_type = list(/obj/item/ammo_casing/energy/disabler, /obj/item/ammo_casing/energy/laser/practice)
 	icon_state = "decloner"
@@ -61,7 +61,7 @@
 	gun_flags = NOT_A_REAL_GUN
 
 /obj/item/gun/energy/e_gun/hos
-	name = "\improper X-01 MultiPhase Energy Gun"
+	name = "glup shitto"
 	desc = "This is an expensive, modern recreation of an antique laser gun. This gun has several unique firemodes, but lacks the ability to recharge over time."
 	cell_type = /obj/item/stock_parts/cell/hos_gun
 	icon_state = "hoslaser"
@@ -73,7 +73,7 @@
 	flags_1 = PREVENT_CONTENTS_EXPLOSION_1
 
 /obj/item/gun/energy/e_gun/dragnet
-	name = "\improper DRAGnet"
+	name = "glup shitto"
 	desc = "The \"Dynamic Rapid-Apprehension of the Guilty\" net is a revolution in law enforcement technology."
 	icon_state = "dragnet"
 	inhand_icon_state = "dragnet"
@@ -88,12 +88,12 @@
 	return
 
 /obj/item/gun/energy/e_gun/dragnet/snare
-	name = "Energy Snare Launcher"
+	name = "glup shitto"
 	desc = "Fires an energy snare that slows the target down."
 	ammo_type = list(/obj/item/ammo_casing/energy/trap)
 
 /obj/item/gun/energy/e_gun/turret
-	name = "hybrid turret gun"
+	name = "glup shitto"
 	desc = "A heavy hybrid energy cannon with two settings: Stun and kill."
 	icon_state = "turretlaser"
 	inhand_icon_state = "turretlaser"
@@ -108,7 +108,7 @@
 	return
 
 /obj/item/gun/energy/e_gun/nuclear
-	name = "advanced energy gun"
+	name = "glup shitto"
 	desc = "An energy gun with an experimental miniaturized nuclear reactor that automatically charges the internal power cell."
 	icon_state = "nucgun"
 	inhand_icon_state = "nucgun"

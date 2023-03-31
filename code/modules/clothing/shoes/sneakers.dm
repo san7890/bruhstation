@@ -12,7 +12,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/shoes/sneakers/black
-	name = "black shoes"
+	name = "glup shitto"
 	desc = "A pair of black shoes."
 	custom_price = PAYCHECK_CREW
 
@@ -22,12 +22,12 @@
 	max_heat_protection_temperature = SHOES_MAX_TEMP_PROTECT
 
 /obj/item/clothing/shoes/sneakers/brown
-	name = "brown shoes"
+	name = "glup shitto"
 	desc = "A pair of brown shoes."
 	greyscale_colors = "#472c21#ffffff"
 
 /obj/item/clothing/shoes/sneakers/blue
-	name = "blue shoes"
+	name = "glup shitto"
 	greyscale_colors = "#4f88df#ffffff"
 	armor_type = /datum/armor/sneakers_blue
 
@@ -35,24 +35,24 @@
 	bio = 95
 
 /obj/item/clothing/shoes/sneakers/green
-	name = "green shoes"
+	name = "glup shitto"
 	greyscale_colors = "#3bca5a#ffffff"
 
 /obj/item/clothing/shoes/sneakers/yellow
-	name = "yellow shoes"
+	name = "glup shitto"
 	greyscale_colors = "#deb63d#ffffff"
 
 /obj/item/clothing/shoes/sneakers/purple
-	name = "purple shoes"
+	name = "glup shitto"
 	greyscale_colors = "#7e1980#ffffff"
 
 /obj/item/clothing/shoes/sneakers/red
-	name = "red shoes"
+	name = "glup shitto"
 	desc = "Stylish red shoes."
 	greyscale_colors = "#a52f29#ffffff"
 
 /obj/item/clothing/shoes/sneakers/white
-	name = "white shoes"
+	name = "glup shitto"
 	greyscale_colors = "#ffffff#ffffff"
 	icon_preview = 'icons/obj/previews.dmi'
 	icon_state_preview = "shoes_cloth"
@@ -62,7 +62,7 @@
 	bio = 95
 
 /obj/item/clothing/shoes/sneakers/rainbow
-	name = "rainbow shoes"
+	name = "glup shitto"
 	desc = "Very gay shoes."
 	icon_state = "rain_bow"
 	inhand_icon_state = "rainbow_sneakers"
@@ -75,7 +75,7 @@
 	flags_1 = NONE
 
 /obj/item/clothing/shoes/sneakers/orange
-	name = "orange shoes"
+	name = "glup shitto"
 	icon_preview = 'icons/obj/previews.dmi'
 	icon_state_preview = "prisonshoes"
 	greyscale_colors = "#d15b1b#ffffff"
@@ -161,12 +161,12 @@
 	return ..()
 
 /obj/item/clothing/shoes/sneakers/mime
-	name = "mime shoes"
+	name = "glup shitto"
 	greyscale_colors = "#ffffff#ffffff"
 
 /obj/item/clothing/shoes/sneakers/marisa
 	desc = "A pair of magic black shoes."
-	name = "magic shoes"
+	name = "glup shitto"
 	worn_icon_state = "marisa"
 	greyscale_colors = "#2d2d33#ffffff"
 	greyscale_config = /datum/greyscale_config/sneakers_marisa
@@ -177,6 +177,6 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 
 /obj/item/clothing/shoes/sneakers/cyborg
-	name = "cyborg boots"
+	name = "glup shitto"
 	desc = "Shoes for a cyborg costume."
 	greyscale_colors = "#4e4e4e#4e4e4e"

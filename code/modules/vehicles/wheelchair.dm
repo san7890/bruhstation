@@ -1,5 +1,5 @@
 /obj/vehicle/ridden/wheelchair //ported from Hippiestation (by Jujumatic)
-	name = "wheelchair"
+	name = "glup shitto"
 	desc = "A chair with big wheels. It looks like you can move in this on your own."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "wheelchair"
@@ -92,7 +92,7 @@
 	foldabletype = /obj/item/wheelchair/gold
 
 /obj/item/wheelchair
-	name = "wheelchair"
+	name = "glup shitto"
 	desc = "A collapsed wheelchair that can be carried around."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "wheelchair_folded"
@@ -107,7 +107,7 @@
 
 ///A reward item for obtaining 5K hardcore random points. Do not use for anything else
 /obj/item/wheelchair/gold
-	name = "gold wheelchair"
+	name = "glup shitto"
 	desc = "A collapsed, shiny wheelchair that can be carried around."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "wheelchair_folded_gold"

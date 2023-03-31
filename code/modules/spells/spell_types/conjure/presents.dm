@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/conjure/presents
-	name = "Conjure Presents!"
+	name = "glup shitto"
 	desc = "This spell lets you reach into S-space and retrieve presents! Yay!"
 
 	school = SCHOOL_CONJURATION

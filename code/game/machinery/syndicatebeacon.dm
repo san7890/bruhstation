@@ -2,7 +2,7 @@
 //Singularity beacon
 ////////////////////////////////////////
 /obj/machinery/power/singularity_beacon
-	name = "ominous beacon"
+	name = "glup shitto"
 	desc = "This looks suspicious..."
 	icon = 'icons/obj/engine/singularity.dmi'
 	icon_state = "beacon0"
@@ -113,7 +113,7 @@
 
 // SINGULO BEACON SPAWNER
 /obj/item/sbeacondrop
-	name = "suspicious beacon"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "beacon"
 	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'

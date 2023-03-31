@@ -8,7 +8,7 @@
 /turf/open/floor/catwalk_floor	//the base type, meant to look like a maintenance panel
 	icon = 'icons/turf/floors/catwalk_plating.dmi'
 	icon_state = "maint_above"
-	name = "catwalk floor"
+	name = "glup shitto"
 	desc = "Flooring that shows its contents underneath. Engineers love it!"
 	baseturfs = /turf/open/floor/plating
 	floor_tile = /obj/item/stack/tile/catwalk_tile
@@ -62,38 +62,38 @@
 
 //Reskins! More fitting with most of our tiles, and appear as a radial on the base type
 /turf/open/floor/catwalk_floor/iron
-	name = "iron plated catwalk floor"
+	name = "glup shitto"
 	icon_state = "iron_above"
 	floor_tile = /obj/item/stack/tile/catwalk_tile/iron
 	catwalk_type = "iron"
 
 
 /turf/open/floor/catwalk_floor/iron_white
-	name = "white plated catwalk floor"
+	name = "glup shitto"
 	icon_state = "whiteiron_above"
 	floor_tile = /obj/item/stack/tile/catwalk_tile/iron_white
 	catwalk_type = "whiteiron"
 
 /turf/open/floor/catwalk_floor/iron_dark
-	name = "dark plated catwalk floor"
+	name = "glup shitto"
 	icon_state = "darkiron_above"
 	floor_tile = /obj/item/stack/tile/catwalk_tile/iron_dark
 	catwalk_type = "darkiron"
 
 /turf/open/floor/catwalk_floor/flat_white
-	name = "white large plated catwalk floor"
+	name = "glup shitto"
 	icon_state = "flatwhite_above"
 	floor_tile = /obj/item/stack/tile/catwalk_tile/flat_white
 	catwalk_type = "flatwhite"
 
 /turf/open/floor/catwalk_floor/titanium
-	name = "titanium plated catwalk floor"
+	name = "glup shitto"
 	icon_state = "titanium_above"
 	floor_tile = /obj/item/stack/tile/catwalk_tile/titanium
 	catwalk_type = "titanium"
 
 /turf/open/floor/catwalk_floor/iron_smooth //the original green type
-	name = "smooth plated catwalk floor"
+	name = "glup shitto"
 	icon_state = "smoothiron_above"
 	floor_tile = /obj/item/stack/tile/catwalk_tile/iron_smooth
 	catwalk_type = "smoothiron"

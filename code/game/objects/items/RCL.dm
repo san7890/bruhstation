@@ -1,5 +1,5 @@
 /obj/item/rcl
-	name = "rapid pipe cleaner layer"
+	name = "glup shitto"
 	desc = "A device used to rapidly deploy pipe cleaners. It has screws on the side which can be removed to slide off the pipe cleaners. Do not use without insulation!"
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rcl-0"
@@ -325,7 +325,7 @@
 /obj/item/rcl/ghetto
 	actions_types = list()
 	max_amount = 30
-	name = "makeshift rapid pipe cleaner layer"
+	name = "glup shitto"
 	ghetto = TRUE
 
 /obj/item/rcl/ghetto/update_icon_state()
@@ -343,11 +343,11 @@
 	return ..()
 
 /datum/action/item_action/rcl_col
-	name = "Change Cable Color"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "rcl_rainbow"
 
 /datum/action/item_action/rcl_gui
-	name = "Toggle Fast Wiring Gui"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "rcl_gui"

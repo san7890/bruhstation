@@ -1,5 +1,5 @@
 /obj/machinery/computer/shuttle/ferry
-	name = "transport ferry console"
+	name = "glup shitto"
 	desc = "A console that controls the transport ferry."
 	circuit = /obj/item/circuitboard/computer/ferry
 	shuttleId = "ferry"
@@ -21,7 +21,7 @@
 	return allow_silicons ? ..() : FALSE
 
 /obj/machinery/computer/shuttle/ferry/request
-	name = "ferry console"
+	name = "glup shitto"
 	circuit = /obj/item/circuitboard/computer/ferry/request
 	possible_destinations = "ferry_home;ferry_away"
 	req_access = list(ACCESS_CENT_GENERAL)

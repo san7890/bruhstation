@@ -1,6 +1,6 @@
 /datum/disease/tuberculosis
 	form = "Disease"
-	name = "Fungal tuberculosis"
+	name = "glup shitto"
 	max_stages = 5
 	spread_text = "Airborne"
 	cure_text = "Spaceacillin & Convermol"

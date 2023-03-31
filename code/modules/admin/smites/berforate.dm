@@ -1,6 +1,6 @@
 /// Fires an absurd amount of bullets at the target
 /datum/smite/berforate
-	name = ":B:erforate"
+	name = "glup shitto"
 
 	/// Determines how fucked the target is
 	var/hatred

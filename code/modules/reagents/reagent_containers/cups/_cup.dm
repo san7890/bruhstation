@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/cup
-	name = "glass"
+	name = "glup shitto"
 	amount_per_transfer_from_this = 10
 	possible_transfer_amounts = list(5, 10, 15, 20, 25, 30, 50)
 	volume = 50
@@ -204,7 +204,7 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/beaker
-	name = "beaker"
+	name = "glup shitto"
 	desc = "A beaker. It can hold up to 50 units."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "beaker"
@@ -223,13 +223,13 @@
 	return reagents.maximum_volume
 
 /obj/item/reagent_containers/cup/beaker/jar
-	name = "honey jar"
+	name = "glup shitto"
 	desc = "A jar for honey. It can hold up to 50 units of sweet delight."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "vapour"
 
 /obj/item/reagent_containers/cup/beaker/large
-	name = "large beaker"
+	name = "glup shitto"
 	desc = "A large beaker. Can hold up to 100 units."
 	icon_state = "beakerlarge"
 	custom_materials = list(/datum/material/glass=2500)
@@ -239,7 +239,7 @@
 	fill_icon_thresholds = list(0, 1, 20, 40, 60, 80, 100)
 
 /obj/item/reagent_containers/cup/beaker/plastic
-	name = "x-large beaker"
+	name = "glup shitto"
 	desc = "An extra-large beaker. Can hold up to 120 units."
 	icon_state = "beakerwhite"
 	custom_materials = list(/datum/material/glass=2500, /datum/material/plastic=3000)
@@ -249,7 +249,7 @@
 	fill_icon_thresholds = list(0, 1, 10, 20, 40, 60, 80, 100)
 
 /obj/item/reagent_containers/cup/beaker/meta
-	name = "metamaterial beaker"
+	name = "glup shitto"
 	desc = "A large beaker. Can hold up to 180 units."
 	icon_state = "beakergold"
 	custom_materials = list(/datum/material/glass=2500, /datum/material/plastic=3000, /datum/material/gold=1000, /datum/material/titanium=1000)
@@ -259,7 +259,7 @@
 	fill_icon_thresholds = list(0, 1, 10, 25, 35, 50, 60, 80, 100)
 
 /obj/item/reagent_containers/cup/beaker/noreact
-	name = "cryostasis beaker"
+	name = "glup shitto"
 	desc = "A cryostasis beaker that allows for chemical storage without \
 		reactions. Can hold up to 50 units."
 	icon_state = "beakernoreact"
@@ -269,7 +269,7 @@
 	amount_per_transfer_from_this = 10
 
 /obj/item/reagent_containers/cup/beaker/bluespace
-	name = "bluespace beaker"
+	name = "glup shitto"
 	desc = "A bluespace beaker, powered by experimental bluespace technology \
 		and Element Cuban combined with the Compound Pete. Can hold up to \
 		300 units."
@@ -310,26 +310,26 @@
 	list_reagents = list(/datum/reagent/toxin/slimejelly = 50)
 
 /obj/item/reagent_containers/cup/beaker/large/libital
-	name = "libital reserve tank (diluted)"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/medicine/c2/libital = 10,/datum/reagent/medicine/granibitaluri = 40)
 
 /obj/item/reagent_containers/cup/beaker/large/aiuri
-	name = "aiuri reserve tank (diluted)"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/medicine/c2/aiuri = 10, /datum/reagent/medicine/granibitaluri = 40)
 
 /obj/item/reagent_containers/cup/beaker/large/multiver
-	name = "multiver reserve tank (diluted)"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/medicine/c2/multiver = 10, /datum/reagent/medicine/granibitaluri = 40)
 
 /obj/item/reagent_containers/cup/beaker/large/epinephrine
-	name = "epinephrine reserve tank (diluted)"
+	name = "glup shitto"
 	list_reagents = list(/datum/reagent/medicine/epinephrine = 50)
 
 /obj/item/reagent_containers/cup/beaker/synthflesh
 	list_reagents = list(/datum/reagent/medicine/c2/synthflesh = 50)
 
 /obj/item/reagent_containers/cup/bucket
-	name = "bucket"
+	name = "glup shitto"
 	desc = "It's a bucket."
 	icon = 'icons/obj/janitor.dmi'
 	worn_icon = 'icons/mob/clothing/head/utility.dmi'
@@ -373,7 +373,7 @@
 	return ..()
 
 /obj/item/reagent_containers/cup/bucket/wooden
-	name = "wooden bucket"
+	name = "glup shitto"
 	icon_state = "woodbucket"
 	inhand_icon_state = "woodbucket"
 	greyscale_colors = null
@@ -430,7 +430,7 @@
 	return ..()
 
 /obj/item/pestle
-	name = "pestle"
+	name = "glup shitto"
 	desc = "An ancient, simple tool used in conjunction with a mortar to grind or juice items."
 	w_class = WEIGHT_CLASS_SMALL
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -438,7 +438,7 @@
 	force = 7
 
 /obj/item/reagent_containers/cup/mortar
-	name = "mortar"
+	name = "glup shitto"
 	desc = "A specially formed bowl of ancient design. It is possible to crush or juice items placed in it using a pestle; however the process, unlike modern methods, is slow and physically exhausting."
 	desc_controls = "Alt click to eject the item."
 	icon_state = "mortar"
@@ -521,7 +521,7 @@
 
 //Coffeepots: for reference, a standard cup is 30u, to allow 20u for sugar/sweetener/milk/creamer
 /obj/item/reagent_containers/cup/coffeepot
-	name = "coffeepot"
+	name = "glup shitto"
 	desc = "A large pot for dispensing that ambrosia of corporate life known to mortals only as coffee. Contains 4 standard cups."
 	volume = 120
 	icon_state = "coffeepot"
@@ -529,7 +529,7 @@
 	fill_icon_thresholds = list(0, 1, 30, 60, 100)
 
 /obj/item/reagent_containers/cup/coffeepot/bluespace
-	name = "bluespace coffeepot"
+	name = "glup shitto"
 	desc = "The most advanced coffeepot the eggheads could cook up: sleek design; graduated lines; connection to a pocket dimension for coffee containment; yep, it's got it all. Contains 8 standard cups."
 	volume = 240
 	icon_state = "coffeepot_bluespace"

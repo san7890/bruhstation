@@ -13,7 +13,7 @@
  * Emergency Closet
  */
 /obj/structure/closet/emcloset
-	name = "emergency closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for emergency breath masks and O2 tanks."
 	icon_state = "emergency"
 
@@ -60,7 +60,7 @@
  * Fire Closet
  */
 /obj/structure/closet/firecloset
-	name = "fire-safety closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for fire-fighting supplies."
 	icon_state = "fire"
 
@@ -87,7 +87,7 @@
  * Tool Closet
  */
 /obj/structure/closet/toolcloset
-	name = "tool closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for tools."
 	icon_state = "eng"
 	icon_door = "eng_tool"
@@ -130,7 +130,7 @@
  * Radiation Closet
  */
 /obj/structure/closet/radiation
-	name = "radiation suit closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for rad-protective suits."
 	icon_state = "eng"
 	icon_door = "eng_rad"
@@ -145,7 +145,7 @@
  * Bombsuit closet
  */
 /obj/structure/closet/bombcloset
-	name = "\improper EOD closet"
+	name = "glup shitto"
 	desc = "It's a storage unit for explosion-protective suits."
 	icon_state = "bomb"
 
@@ -172,7 +172,7 @@
  * Ammunition
  */
 /obj/structure/closet/ammunitionlocker
-	name = "ammunition locker"
+	name = "glup shitto"
 
 /obj/structure/closet/ammunitionlocker/PopulateContents()
 	..()

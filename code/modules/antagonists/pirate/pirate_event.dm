@@ -1,5 +1,5 @@
 /datum/round_event_control/pirates
-	name = "Space Pirates"
+	name = "glup shitto"
 	typepath = /datum/round_event/pirates
 	weight = 10
 	max_occurrences = 1

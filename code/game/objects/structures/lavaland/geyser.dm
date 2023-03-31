@@ -3,7 +3,7 @@
 
 ///A lavaland geyser that spawns chems and can be mining scanned for points. Made to work with the plumbing pump to extract that sweet rare nectar
 /obj/structure/geyser
-	name = "geyser"
+	name = "glup shitto"
 	icon = 'icons/obj/lavaland/terrain.dmi'
 	icon_state = "geyser"
 	anchored = TRUE
@@ -114,7 +114,7 @@
 
 ///A wearable tool that lets you empty plumbing machinery and some other stuff
 /obj/item/plunger
-	name = "plunger"
+	name = "glup shitto"
 	desc = "It's a plunger for plunging."
 	icon = 'icons/obj/watercloset.dmi'
 	icon_state = "plunger"
@@ -177,7 +177,7 @@
 
 ///A faster reinforced plunger
 /obj/item/plunger/reinforced
-	name = "reinforced plunger"
+	name = "glup shitto"
 	desc = "It's an M. 7 Reinforced Plunger© for heavy duty plunging."
 	icon_state = "reinforced_plunger"
 	worn_icon_state = "reinforced_plunger"

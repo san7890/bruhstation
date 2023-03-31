@@ -3,7 +3,7 @@ GLOBAL_LIST_EMPTY(order_console_products)
 #define CREDIT_TYPE_CREDIT "credit"
 
 /obj/machinery/computer/order_console
-	name = "Orders Console"
+	name = "glup shitto"
 	desc = "An interface for ordering specific ingredients from Cargo, with an express option at the cost of more money."
 	icon_screen = "request"
 	icon_keyboard = "generic_key"

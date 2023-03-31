@@ -3,7 +3,7 @@
 
 /obj/machinery/syndicatebomb
 	icon = 'icons/obj/assemblies/assemblies.dmi'
-	name = "syndicate bomb"
+	name = "glup shitto"
 	icon_state = "syndicate-bomb"
 	desc = "A large and menacing device. Can be bolted down with a wrench."
 
@@ -260,30 +260,30 @@
 ///Bomb Subtypes///
 
 /obj/machinery/syndicatebomb/training
-	name = "training bomb"
+	name = "glup shitto"
 	icon_state = "training-bomb"
 	desc = "A salvaged syndicate device gutted of its explosives to be used as a training aid for aspiring bomb defusers."
 	payload = /obj/item/bombcore/training
 
 /obj/machinery/syndicatebomb/emp
-	name = "EMP Bomb"
+	name = "glup shitto"
 	desc = "A modified bomb designed to release a crippling electromagnetic pulse instead of explode"
 	payload = /obj/item/bombcore/emp
 
 /obj/machinery/syndicatebomb/badmin
-	name = "generic summoning badmin bomb"
+	name = "glup shitto"
 	desc = "Oh god what is in this thing?"
 	payload = /obj/item/bombcore/badmin/summon
 
 /obj/machinery/syndicatebomb/badmin/clown
-	name = "clown bomb"
+	name = "glup shitto"
 	icon_state = "clown-bomb"
 	desc = "HONK."
 	payload = /obj/item/bombcore/badmin/summon/clown
 	beepsound = 'sound/items/bikehorn.ogg'
 
 /obj/machinery/syndicatebomb/empty
-	name = "bomb"
+	name = "glup shitto"
 	icon_state = "base-bomb"
 	desc = "An ominous looking device designed to detonate an explosive payload. Can be bolted down using a wrench."
 	payload = null
@@ -295,7 +295,7 @@
 	wires.cut_all()
 
 /obj/machinery/syndicatebomb/self_destruct
-	name = "self-destruct device"
+	name = "glup shitto"
 	desc = "Do not taunt. Warranty invalid if exposed to high temperature. Not suitable for agents under 3 years of age."
 	payload = /obj/item/bombcore/syndicate/large
 	can_unanchor = FALSE
@@ -303,7 +303,7 @@
 ///Bomb Cores///
 
 /obj/item/bombcore
-	name = "bomb payload"
+	name = "glup shitto"
 	desc = "A powerful secondary explosive of syndicate design and unknown composition, it should be stable under normal conditions..."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	icon_state = "bombcore"
@@ -342,7 +342,7 @@
 
 /// Subtype for the bomb cores found inside syndicate bombs, which will not detonate due to explosion/burning.
 /obj/item/bombcore/syndicate
-	name = "Donk Co. Super-Stable Bomb Payload"
+	name = "glup shitto"
 	desc = "After a string of unwanted detonations, this payload has been specifically redesigned to not explode unless triggered electronically by a bomb shell."
 
 /obj/item/bombcore/syndicate/ex_act(severity, target)
@@ -352,14 +352,14 @@
 	return ..()
 
 /obj/item/bombcore/syndicate/large
-	name = "Donk Co. Super-Stable Bomb Payload XL"
+	name = "glup shitto"
 	range_heavy = 5
 	range_medium = 10
 	range_light = 20
 	range_flame = 20
 
 /obj/item/bombcore/training
-	name = "dummy payload"
+	name = "glup shitto"
 	desc = "A Nanotrasen replica of a syndicate payload. It's not intended to explode but to announce that it WOULD have exploded, then rewire itself to allow for more training."
 	var/defusals = 0
 	var/attempts = 0
@@ -396,7 +396,7 @@
 			reset()
 
 /obj/item/bombcore/badmin
-	name = "badmin payload"
+	name = "glup shitto"
 	desc = "If you're seeing this someone has either made a mistake or gotten dangerously savvy with var editing!"
 
 /obj/item/bombcore/badmin/defuse() //because we wouldn't want them being harvested by players
@@ -423,14 +423,14 @@
 	..()
 
 /obj/item/bombcore/large
-	name = "large bomb payload"
+	name = "glup shitto"
 	range_heavy = 5
 	range_medium = 10
 	range_light = 20
 	range_flame = 20
 
 /obj/item/bombcore/miniature
-	name = "small bomb core"
+	name = "glup shitto"
 	w_class = WEIGHT_CLASS_SMALL
 	range_heavy = 1
 	range_medium = 2
@@ -438,7 +438,7 @@
 	range_flame = 2
 
 /obj/item/bombcore/chemical
-	name = "chemical payload"
+	name = "glup shitto"
 	desc = "An explosive payload designed to spread chemicals, dangerous or otherwise, across a large area. Properties of the core may vary with grenade casing type, and must be loaded before use."
 	icon_state = "chemcore"
 	/// The initial volume of the reagent holder the bombcore has.
@@ -565,7 +565,7 @@
 		qdel(G)
 
 /obj/item/bombcore/emp
-	name = "EMP payload"
+	name = "glup shitto"
 	desc = "A set of superconducting electromagnetic coils designed to release a powerful pulse to destroy electronics and scramble circuits"
 	range_heavy = 15
 	range_medium = 25
@@ -582,7 +582,7 @@
 ///Syndicate Detonator (aka the big red button)///
 
 /obj/item/syndicatedetonator
-	name = "big red button"
+	name = "glup shitto"
 	desc = "Your standard issue bomb synchronizing button. Five second safety delay to prevent 'accidents'."
 	icon = 'icons/obj/assemblies/assemblies.dmi'
 	icon_state = "bigred"

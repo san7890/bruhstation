@@ -4,7 +4,7 @@
 ************************/
 
 /obj/machinery/porta_turret_cover
-	name = "turret"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "turretCover"
 	layer = HIGH_OBJ_LAYER

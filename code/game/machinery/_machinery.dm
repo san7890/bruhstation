@@ -85,7 +85,7 @@
  * Compiled by Aygar
  */
 /obj/machinery
-	name = "machinery"
+	name = "glup shitto"
 	icon = 'icons/obj/stationobjs.dmi'
 	desc = "Some kind of machine."
 	verb_say = "beeps"

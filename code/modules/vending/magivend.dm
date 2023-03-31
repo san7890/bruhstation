@@ -1,5 +1,5 @@
 /obj/machinery/vending/magivend
-	name = "\improper MagiVend"
+	name = "glup shitto"
 	desc = "A magic vending machine."
 	icon_state = "MagiVend"
 	panel_type = "panel10"

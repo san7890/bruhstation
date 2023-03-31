@@ -13,7 +13,7 @@ Difficulty: Hard
 */
 
 /mob/living/simple_animal/hostile/megafauna/wendigo
-	name = "wendigo"
+	name = "glup shitto"
 	desc = "A mythological man-eating legendary creature, the sockets of it's eyes track you with an unsatiated hunger."
 	health = 2500
 	maxHealth = 2500
@@ -72,21 +72,21 @@ Difficulty: Hard
 	ADD_TRAIT(src, TRAIT_NO_FLOATING_ANIM, INNATE_TRAIT)
 
 /datum/action/innate/megafauna_attack/heavy_stomp
-	name = "Heavy Stomp"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	chosen_message = "<span class='colossus'>You are now stomping the ground around you.</span>"
 	chosen_attack_num = 1
 
 /datum/action/innate/megafauna_attack/teleport
-	name = "Teleport"
+	name = "glup shitto"
 	button_icon = 'icons/effects/bubblegum.dmi'
 	button_icon_state = "smack ya one"
 	chosen_message = "<span class='colossus'>You are now teleporting at the target you click on.</span>"
 	chosen_attack_num = 2
 
 /datum/action/innate/megafauna_attack/shockwave_scream
-	name = "Shockwave Scream"
+	name = "glup shitto"
 	button_icon = 'icons/turf/walls/wall.dmi'
 	button_icon_state = "wall-0"
 	chosen_message = "<span class='colossus'>You are now screeching, disorienting targets around you.</span>"
@@ -274,7 +274,7 @@ Difficulty: Hard
 	return ..()
 
 /obj/projectile/colossus/wendigo_shockwave
-	name = "wendigo shockwave"
+	name = "glup shitto"
 	/// If wave movement is enabled
 	var/wave_movement = FALSE
 	/// Amount the angle changes every pixel move
@@ -289,7 +289,7 @@ Difficulty: Hard
 		set_angle(original_angle + pixel_moves * wave_speed)
 
 /obj/item/wendigo_blood
-	name = "bottle of wendigo blood"
+	name = "glup shitto"
 	desc = "A bottle of viscous red liquid... You're not actually going to drink this, are you?"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "vial"
@@ -307,7 +307,7 @@ Difficulty: Hard
 	qdel(src)
 
 /obj/item/crusher_trophy/wendigo_horn
-	name = "wendigo horn"
+	name = "glup shitto"
 	desc = "A gnarled horn ripped from the skull of a wendigo. Suitable as a trophy for a kinetic crusher."
 	icon_state = "wendigo_horn"
 	denied_type = /obj/item/crusher_trophy/wendigo_horn
@@ -326,7 +326,7 @@ Difficulty: Hard
 		crusher.AddComponent(/datum/component/two_handed, force_wielded=20)
 
 /obj/item/wendigo_skull
-	name = "wendigo skull"
+	name = "glup shitto"
 	desc = "A bloody skull torn from a murderous beast, the soulless eye sockets seem to constantly track your movement."
 	icon = 'icons/obj/ice_moon/artifacts.dmi'
 	icon_state = "wendigo_skull"

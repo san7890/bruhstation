@@ -4,7 +4,7 @@
 ///////////
 
 /obj/structure/easel
-	name = "easel"
+	name = "glup shitto"
 	desc = "Only for the finest of art!"
 	icon = 'icons/obj/art/artstuff.dmi'
 	icon_state = "easel"
@@ -36,7 +36,7 @@
 		painting = null
 
 /obj/item/canvas
-	name = "canvas"
+	name = "glup shitto"
 	desc = "Draw out your soul on this canvas!"
 	icon = 'icons/obj/art/artstuff.dmi'
 	icon_state = "11x11"
@@ -342,7 +342,7 @@
 	return FALSE
 
 /obj/item/canvas/nineteen_nineteen
-	name = "canvas (19x19)"
+	name = "glup shitto"
 	icon_state = "19x19"
 	width = 19
 	height = 19
@@ -351,7 +351,7 @@
 	framed_offset_y = 7
 
 /obj/item/canvas/twentythree_nineteen
-	name = "canvas (23x19)"
+	name = "glup shitto"
 	icon_state = "23x19"
 	width = 23
 	height = 19
@@ -360,7 +360,7 @@
 	framed_offset_y = 7
 
 /obj/item/canvas/twentythree_twentythree
-	name = "canvas (23x23)"
+	name = "glup shitto"
 	icon_state = "23x23"
 	width = 23
 	height = 23
@@ -369,7 +369,7 @@
 	framed_offset_y = 5
 
 /obj/item/canvas/twentyfour_twentyfour
-	name = "canvas (24x24) (AI Universal Standard)"
+	name = "glup shitto"
 	desc = "Besides being almost too large for a standard frame, the AI can accept these as a display from their internal database after you've hung it up."
 	icon_state = "24x24"
 	width = 24
@@ -379,7 +379,7 @@
 	framed_offset_y = 4
 
 /obj/item/canvas/thirtysix_twentyfour
-	name = "canvas (36x24)"
+	name = "glup shitto"
 	desc = "A very large canvas to draw out your soul on. You'll need a larger frame to put it on a wall."
 	icon_state = "24x24" //The vending spritesheet needs the icons to be 32x32. We'll set the actual icon on Initialize.
 	width = 36
@@ -399,7 +399,7 @@
 	icon_state = "36x24"
 
 /obj/item/canvas/fortyfive_twentyseven
-	name = "canvas (45x27)"
+	name = "glup shitto"
 	desc = "The largest canvas available on the space market. You'll need a larger frame to put it on a wall."
 	icon_state = "24x24" //Ditto
 	width = 45
@@ -419,7 +419,7 @@
 	icon_state = "45x27"
 
 /obj/item/wallframe/painting
-	name = "painting frame"
+	name = "glup shitto"
 	desc = "The perfect showcase for your favorite deathtrap memories."
 	icon = 'icons/obj/signs.dmi'
 	custom_materials = list(/datum/material/wood = 2000)
@@ -429,7 +429,7 @@
 	pixel_shift = 30
 
 /obj/structure/sign/painting
-	name = "Painting"
+	name = "glup shitto"
 	desc = "Art or \"Art\"? You decide."
 	icon = 'icons/obj/signs.dmi'
 	icon_state = "frame-empty"
@@ -612,7 +612,7 @@
 			grid[x][y] = I.GetPixel(x,h-y)
 
 /obj/item/wallframe/painting/large
-	name = "large painting frame"
+	name = "glup shitto"
 	desc = "The perfect showcase for your favorite deathtrap memories. Make sure you have enough space to mount this one to the wall."
 	custom_materials = list(/datum/material/wood = 4000)
 	icon_state = "frame-large-empty"
@@ -711,31 +711,31 @@
 
 //Presets for art gallery mapping, for paintings to be shared across stations
 /obj/structure/sign/painting/library
-	name = "\improper Public Painting Exhibit mounting"
+	name = "glup shitto"
 	desc = "For art pieces hung by the public."
 	desc_with_canvas = "A piece of art (or \"art\"). Anyone could've hung it."
 	persistence_id = "library"
 
 /obj/structure/sign/painting/library_secure
-	name = "\improper Curated Painting Exhibit mounting"
+	name = "glup shitto"
 	desc = "For masterpieces hand-picked by the curator."
 	desc_with_canvas = "A masterpiece hand-picked by the curator, supposedly."
 	persistence_id = "library_secure"
 
 /obj/structure/sign/painting/library_private // keep your smut away from prying eyes, or non-librarians at least
-	name = "\improper Private Painting Exhibit mounting"
+	name = "glup shitto"
 	desc = "For art pieces deemed too subversive or too illegal to be shared outside of curators."
 	desc_with_canvas = "A painting hung away from lesser minds."
 	persistence_id = "library_private"
 
 /obj/structure/sign/painting/large/library
-	name = "\improper Large Painting Exhibit mounting"
+	name = "glup shitto"
 	desc = "For the bulkier art pieces, hand-picked by the curator."
 	desc_with_canvas = "A curated, large piece of art (or \"art\"). Hopefully the price of the canvas was worth it."
 	persistence_id = "library_large"
 
 /obj/structure/sign/painting/large/library_private
-	name = "\improper Private Painting Exhibit mounting"
+	name = "glup shitto"
 	desc = "For the privier and less tasteful compositions that oughtn't to be shown in a parlor nor to the masses."
 	desc_with_canvas = "A painting that oughn't to be shown to the less open-minded commoners."
 	persistence_id = "library_large_private"
@@ -745,7 +745,7 @@
 
 /// Simple painting utility.
 /obj/item/paint_palette
-	name = "paint palette"
+	name = "glup shitto"
 	desc = "paintbrush included"
 	icon = 'icons/obj/art/artstuff.dmi'
 	icon_state = "palette"

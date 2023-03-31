@@ -66,7 +66,7 @@
 
 /// Cryo cell
 /obj/machinery/atmospherics/components/unary/cryo_cell
-	name = "cryo cell"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/cryogenics.dmi'
 	icon_state = "pod-off"
 	density = TRUE

@@ -5,7 +5,7 @@
 ////////////////////////////////////////////// TELEPORTER ///////////////////////////////////////////////
 
 /obj/item/mecha_parts/mecha_equipment/teleporter
-	name = "mounted teleporter"
+	name = "glup shitto"
 	desc = "An exosuit module that allows exosuits to teleport to any position in view."
 	icon_state = "mecha_teleport"
 	equip_cooldown = 150
@@ -27,7 +27,7 @@
 ////////////////////////////////////////////// WORMHOLE GENERATOR //////////////////////////////////////////
 
 /obj/item/mecha_parts/mecha_equipment/wormhole_generator
-	name = "mounted wormhole generator"
+	name = "glup shitto"
 	desc = "An exosuit module that allows generating of small quasi-stable wormholes, allowing for long-range inneacurate teleportation."
 	icon_state = "mecha_wholegen"
 	equip_cooldown = 50
@@ -69,7 +69,7 @@
 #define GRAVPUSH_MODE 2
 
 /obj/item/mecha_parts/mecha_equipment/gravcatapult
-	name = "mounted gravitational catapult"
+	name = "glup shitto"
 	desc = "An exosuit mounted Gravitational Catapult."
 	icon_state = "mecha_teleport"
 	equip_cooldown = 10
@@ -170,7 +170,7 @@
 	return ..()
 
 /obj/item/mecha_parts/mecha_equipment/armor/anticcw_armor_booster
-	name = "armor booster module (Close Combat Weaponry)"
+	name = "glup shitto"
 	desc = "Boosts exosuit armor against melee attacks"
 	icon_state = "mecha_abooster_ccw"
 	iconstate_name = "melee"
@@ -181,7 +181,7 @@
 	melee = 15
 
 /obj/item/mecha_parts/mecha_equipment/armor/antiproj_armor_booster
-	name = "armor booster module (Ranged Weaponry)"
+	name = "glup shitto"
 	desc = "Boosts exosuit armor against ranged attacks. Completely blocks taser shots."
 	icon_state = "mecha_abooster_proj"
 	iconstate_name = "range"
@@ -196,7 +196,7 @@
 
 
 /obj/item/mecha_parts/mecha_equipment/repair_droid
-	name = "exosuit repair droid"
+	name = "glup shitto"
 	desc = "An automated repair droid for exosuits. Scans for damage and repairs it. Can fix almost all types of external or internal damage."
 	icon_state = "repair_droid"
 	energy_drain = 50
@@ -272,7 +272,7 @@
 
 
 /obj/item/mecha_parts/mecha_equipment/generator
-	name = "plasma engine"
+	name = "glup shitto"
 	desc = "An exosuit module that generates power using solid plasma as fuel. Pollutes the environment."
 	icon_state = "tesla"
 	range = MECHA_MELEE
@@ -370,7 +370,7 @@
 /////////////////////////////////////////// THRUSTERS /////////////////////////////////////////////
 
 /obj/item/mecha_parts/mecha_equipment/thrusters
-	name = "generic exosuit thrusters" //parent object, in-game sources will be a child object
+	name = "glup shitto" //parent object, in-game sources will be a child object
 	desc = "A generic set of thrusters, from an unknown source. Uses not-understood methods to propel exosuits seemingly for free."
 	icon_state = "thrusters"
 	equipment_slot = MECHA_UTILITY
@@ -435,7 +435,7 @@
 
 
 /obj/item/mecha_parts/mecha_equipment/thrusters/gas
-	name = "RCS thruster package"
+	name = "glup shitto"
 	desc = "A set of thrusters that allow for exosuit movement in zero-gravity environments, by expelling gas from the internal life support tank."
 	effect_type = /obj/effect/particle_effect/fluid/smoke
 	var/move_cost = 20 //moles per step
@@ -459,7 +459,7 @@
 	return TRUE
 
 /obj/item/mecha_parts/mecha_equipment/thrusters/ion //for mechs with built-in thrusters, should never really exist un-attached to a mech
-	name = "Ion thruster package"
+	name = "glup shitto"
 	desc = "A set of thrusters that allow for exosuit movement in zero-gravity environments."
 	detachable = FALSE
 	effect_type = /obj/effect/particle_effect/ion_trails
@@ -475,7 +475,7 @@
 ///////////////////////////////////// CONCEALED WEAPON BAY ////////////////////////////////////////
 
 /obj/item/mecha_parts/mecha_equipment/concealed_weapon_bay
-	name = "concealed weapon bay"
+	name = "glup shitto"
 	desc = "A compartment that allows a non-combat mecha to equip one weapon while hiding the weapon from plain sight."
 	icon_state = "mecha_weapon_bay"
 
@@ -515,7 +515,7 @@
 		mech.mech_type &= ~EXOSUIT_MODULE_CONCEALED_WEP_BAY
 
 /obj/item/mecha_parts/camera_kit
-	name = "exosuit-mounted camera"
+	name = "glup shitto"
 	desc = "A security camera meant for exosuit-mounted surveillance-on-the-go."
 	icon = 'icons/mecha/mecha_equipment.dmi'
 	icon_state = "mecha_camera"

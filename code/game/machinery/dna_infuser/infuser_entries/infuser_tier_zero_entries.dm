@@ -6,7 +6,7 @@
  * basically just meme, cosmetic, and base species entries
 */
 /datum/infuser_entry/fly
-	name = "Rejected"
+	name = "glup shitto"
 	infuse_mob_name = "rejected creature"
 	desc = "For whatever reason, when the body rejects DNA, the DNA goes sour, ending up as some kind of fly-like DNA jumble."
 	threshold_desc = "the DNA mess takes over, and you become a full-fledged flyperson."
@@ -28,7 +28,7 @@
 	tier = DNA_MUTANT_TIER_ZERO
 
 /datum/infuser_entry/vulpini
-	name = "Fox"
+	name = "glup shitto"
 	infuse_mob_name = "vulpini"
 	desc = "Foxes are now quite rare because of the \"fox ears\" craze back in 2555. I mean, also because we're spacefarers who destroyed foxes' natural habitats ages ago, but that applies to most animals."
 	threshold_desc = DNA_INFUSION_NO_THRESHOLD
@@ -47,7 +47,7 @@
 	tier = DNA_MUTANT_TIER_ZERO
 
 /datum/infuser_entry/mothroach
-	name = "Mothroach"
+	name = "glup shitto"
 	infuse_mob_name = "lepi-blattidae"
 	desc = "So first they mixed moth and roach DNA to make mothroaches, and now we mix mothroach DNA with humanoids to make mothmen hybrids?"
 	threshold_desc = DNA_INFUSION_NO_THRESHOLD
@@ -70,7 +70,7 @@
 	tier = DNA_MUTANT_TIER_ZERO
 
 /datum/infuser_entry/felinid
-	name = "Cat"
+	name = "glup shitto"
 	infuse_mob_name = "feline"
 	desc = "EVERYONE CALM DOWN! I'm not implying anything with this entry. Are we really so surprised that felinids are humans with mixed feline DNA?"
 	threshold_desc = DNA_INFUSION_NO_THRESHOLD

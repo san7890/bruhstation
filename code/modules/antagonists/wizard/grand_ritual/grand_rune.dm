@@ -11,7 +11,7 @@
  * Then something (usually bad) happens.
  */
 /obj/effect/grand_rune
-	name = "grand rune"
+	name = "glup shitto"
 	desc = "A flowing circle of shapes and runes is etched into the floor, the lines twist and move before your eyes."
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "wizard_rune"
@@ -322,7 +322,7 @@
  * Spawned when we are done with the rune
  */
 /obj/effect/decal/cleanable/grand_remains
-	name = "circle of ash"
+	name = "glup shitto"
 	desc = "Looks like someone's been drawing weird shapes with ash on the ground."
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "wizard_rune_burned"

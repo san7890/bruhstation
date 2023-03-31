@@ -2,7 +2,7 @@
 	category = "Consumables"
 
 /datum/market_item/consumable/clown_tears
-	name = "Bowl of Clown's Tears"
+	name = "glup shitto"
 	desc = "Guaranteed fresh from Weepy Boggins Tragic Kitchen"
 	item = /obj/item/food/soup/clownstears
 	stock = 1
@@ -12,7 +12,7 @@
 	availability_prob = 10
 
 /datum/market_item/consumable/donk_pocket_box
-	name = "Box of Donk Pockets"
+	name = "glup shitto"
 	desc = "A well packaged box containing the favourite snack of every spacefarer."
 	item = /obj/item/storage/box/donkpockets
 
@@ -23,7 +23,7 @@
 	availability_prob = 80
 
 /datum/market_item/consumable/suspicious_pills
-	name = "Bottle of Suspicious Pills"
+	name = "glup shitto"
 	desc = "A random cocktail of luxury drugs that are sure to put a smile on your face!"
 	item = /obj/item/storage/pill_bottle
 
@@ -42,7 +42,7 @@
 	return new pillbottle(loc)
 
 /datum/market_item/consumable/floor_pill
-	name = "Strange Pill"
+	name = "glup shitto"
 	desc = "The Russian Roulette of the Maintenance Tunnels."
 	item = /obj/item/reagent_containers/pill/maintenance
 
@@ -53,7 +53,7 @@
 	availability_prob = 50
 
 /datum/market_item/consumable/pumpup
-	name = "Maintenance Pump-Up"
+	name = "glup shitto"
 	desc = "Resist any Baton stun with this handy device!"
 	item = /obj/item/reagent_containers/hypospray/medipen/pumpup
 

@@ -1,9 +1,9 @@
 /obj/item/electronics/firealarm
-	name = "fire alarm electronics"
+	name = "glup shitto"
 	desc = "A fire alarm circuit. Can handle heat levels up to 40 degrees celsius."
 
 /obj/item/wallframe/firealarm
-	name = "fire alarm frame"
+	name = "glup shitto"
 	desc = "Used for building fire alarms."
 	icon = 'icons/obj/firealarm.dmi'
 	icon_state = "fire_bitem"
@@ -11,7 +11,7 @@
 	pixel_shift = 26
 
 /obj/machinery/firealarm
-	name = "fire alarm"
+	name = "glup shitto"
 	desc = "Pull this in case of emergency. Thus, keep pulling it forever."
 	icon = 'icons/obj/firealarm.dmi'
 	icon_state = "fire0"
@@ -108,7 +108,7 @@
 
 /obj/machinery/firealarm/update_name(updates)
 	. = ..()
-	name = "[get_area_name(my_area)] [initial(name)]"
+	name = "glup shitto"
 
 /obj/machinery/firealarm/on_exit_area(datum/source, area/area_to_unregister)
 	//we cannot unregister from an area we never registered to in the first place
@@ -489,7 +489,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/firealarm, 26)
 	var/party = FALSE
 
 /obj/machinery/firealarm/partyalarm
-	name = "\improper PARTY BUTTON"
+	name = "glup shitto"
 	desc = "Cuban Pete is in the house!"
 	var/static/party_overlay
 

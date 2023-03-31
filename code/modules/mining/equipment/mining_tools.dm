@@ -1,6 +1,6 @@
 /*****************Pickaxes & Drills & Shovels****************/
 /obj/item/pickaxe
-	name = "pickaxe"
+	name = "glup shitto"
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "pickaxe"
 	inhand_icon_state = "pickaxe"
@@ -27,7 +27,7 @@
 	return SHAME
 
 /obj/item/pickaxe/rusted
-	name = "rusty pickaxe"
+	name = "glup shitto"
 	desc = "A pickaxe that's been left to rust."
 	attack_verb_continuous = list("ineffectively hits")
 	attack_verb_simple = list("ineffectively hit")
@@ -35,7 +35,7 @@
 	throwforce = 1
 
 /obj/item/pickaxe/mini
-	name = "compact pickaxe"
+	name = "glup shitto"
 	desc = "A smaller, compact version of the standard pickaxe."
 	icon_state = "minipick"
 	worn_icon_state = "pickaxe"
@@ -46,7 +46,7 @@
 	custom_materials = list(/datum/material/iron=1000)
 
 /obj/item/pickaxe/silver
-	name = "silver-plated pickaxe"
+	name = "glup shitto"
 	icon_state = "spickaxe"
 	inhand_icon_state = "spickaxe"
 	toolspeed = 0.5 //mines faster than a normal pickaxe, bought from mining vendor
@@ -54,7 +54,7 @@
 	force = 17
 
 /obj/item/pickaxe/diamond
-	name = "diamond-tipped pickaxe"
+	name = "glup shitto"
 	icon_state = "dpickaxe"
 	inhand_icon_state = "dpickaxe"
 	toolspeed = 0.3
@@ -62,7 +62,7 @@
 	force = 19
 
 /obj/item/pickaxe/drill
-	name = "mining drill"
+	name = "glup shitto"
 	icon_state = "handdrill"
 	inhand_icon_state = "handdrill"
 	slot_flags = ITEM_SLOT_BELT
@@ -72,7 +72,7 @@
 	desc = "An electric mining drill for the especially scrawny."
 
 /obj/item/pickaxe/drill/cyborg
-	name = "cyborg mining drill"
+	name = "glup shitto"
 	desc = "An integrated electric mining drill."
 	flags_1 = NONE
 
@@ -81,20 +81,20 @@
 	ADD_TRAIT(src, TRAIT_NODROP, CYBORG_ITEM_TRAIT)
 
 /obj/item/pickaxe/drill/diamonddrill
-	name = "diamond-tipped mining drill"
+	name = "glup shitto"
 	icon_state = "diamonddrill"
 	inhand_icon_state = "diamonddrill"
 	toolspeed = 0.2
 	desc = "Yours is the drill that will pierce the heavens!"
 
 /obj/item/pickaxe/drill/cyborg/diamond //This is the BORG version!
-	name = "diamond-tipped cyborg mining drill" //To inherit the NODROP_1 flag, and easier to change borg specific drill mechanics.
+	name = "glup shitto" //To inherit the NODROP_1 flag, and easier to change borg specific drill mechanics.
 	icon_state = "diamonddrill"
 	inhand_icon_state = "diamonddrill"
 	toolspeed = 0.2
 
 /obj/item/pickaxe/drill/jackhammer
-	name = "sonic jackhammer"
+	name = "glup shitto"
 	icon_state = "jackhammer"
 	inhand_icon_state = "jackhammer"
 	toolspeed = 0.1 //the epitome of powertools. extremely fast mining
@@ -103,7 +103,7 @@
 	desc = "Cracks rocks with sonic blasts."
 
 /obj/item/pickaxe/improvised
-	name = "improvised pickaxe"
+	name = "glup shitto"
 	desc = "A pickaxe made with a knife and crowbar taped together, how does it not break?"
 	icon_state = "ipickaxe"
 	inhand_icon_state = "ipickaxe"
@@ -116,7 +116,7 @@
 	custom_materials = list(/datum/material/iron=12050) //metal needed for a crowbar and for a knife, why the FUCK does a knife cost 6 metal sheets while a crowbar costs 0.025 sheets? shit makes no sense fuck this
 
 /obj/item/shovel
-	name = "shovel"
+	name = "glup shitto"
 	desc = "A large tool for digging and moving dirt."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "shovel"
@@ -152,7 +152,7 @@
 	return SHAME
 
 /obj/item/shovel/spade
-	name = "spade"
+	name = "glup shitto"
 	desc = "A small tool for digging and moving dirt."
 	icon_state = "spade"
 	inhand_icon_state = "spade"
@@ -163,7 +163,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/shovel/serrated
-	name = "serrated bone shovel"
+	name = "glup shitto"
 	desc = "A wicked tool that cleaves through dirt just as easily as it does flesh. The design was styled after ancient lavaland tribal designs."
 	icon_state = "shovel_bone"
 	worn_icon_state = "shovel_serr"
@@ -178,7 +178,7 @@
 	sharpness = SHARP_EDGED
 
 /obj/item/trench_tool
-	name = "entrenching tool"
+	name = "glup shitto"
 	desc = "The multi-purpose tool you always needed."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "trench_tool"

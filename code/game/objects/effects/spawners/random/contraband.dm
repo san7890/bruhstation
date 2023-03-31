@@ -1,10 +1,10 @@
 /obj/effect/spawner/random/contraband
-	name = "contraband loot spawner"
+	name = "glup shitto"
 	desc = "Pstttthhh! Pass it under the table."
 	icon_state = "prisoner"
 
 /obj/effect/spawner/random/contraband/armory
-	name = "armory loot spawner"
+	name = "glup shitto"
 	icon_state = "pistol"
 	loot = list(
 		/obj/item/gun/ballistic/automatic/pistol = 8,
@@ -17,7 +17,7 @@
 	)
 
 /obj/effect/spawner/random/contraband/narcotics
-	name = "narcotics loot spawner"
+	name = "glup shitto"
 	icon_state = "pill"
 	loot = list(
 		/obj/item/reagent_containers/syringe/contraband/space_drugs,
@@ -33,7 +33,7 @@
 	)
 
 /obj/effect/spawner/random/contraband/permabrig_weapon
-	name = "permabrig weapon spawner"
+	name = "glup shitto"
 	icon_state = "shiv"
 	loot = list(
 		/obj/item/knife/shiv = 5,
@@ -45,7 +45,7 @@
 	)
 
 /obj/effect/spawner/random/contraband/permabrig_gear
-	name = "permabrig gear spawner"
+	name = "glup shitto"
 	icon_state = "handcuffs"
 	loot = list(
 		/obj/item/toy/crayon/spraycan,
@@ -60,7 +60,7 @@
 	)
 
 /obj/effect/spawner/random/contraband/prison
-	name = "prison loot spawner"
+	name = "glup shitto"
 	icon_state = "prisoner_shoes"
 	loot = list(
 		/obj/effect/spawner/random/entertainment/cigarette = 20,
@@ -73,7 +73,7 @@
 	)
 
 /obj/effect/spawner/random/contraband/cannabis
-	name = "Random Cannabis Spawner" //blasphemously overpowered, use extremely sparingly (if at all)
+	name = "glup shitto" //blasphemously overpowered, use extremely sparingly (if at all)
 	icon_state = "cannabis"
 	loot = list(
 		/obj/item/food/grown/cannabis = 25,

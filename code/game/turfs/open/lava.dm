@@ -5,7 +5,7 @@
  */
 
 /turf/open/lava
-	name = "lava"
+	name = "glup shitto"
 	icon_state = "lava"
 	desc = "Looks painful to step in. Don't mine down."
 	gender = PLURAL //"That's some lava."
@@ -318,7 +318,7 @@
 		burn_living.ignite_mob()
 
 /turf/open/lava/smooth
-	name = "lava"
+	name = "glup shitto"
 	baseturfs = /turf/open/lava/smooth
 	icon = 'icons/turf/floors/lava.dmi'
 	mask_icon = 'icons/turf/floors/lava_mask.dmi'
@@ -339,7 +339,7 @@
 	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/lava/plasma
-	name = "liquid plasma"
+	name = "glup shitto"
 	desc = "A flowing stream of chilled liquid plasma. You probably shouldn't get in."
 	icon_state = "liquidplasma"
 	initial_gas_mix = "n2=82;plasma=24;TEMP=120"

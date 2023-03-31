@@ -2,7 +2,7 @@
 	config_file = "strings/modular_maps/Tramstation.toml"
 
 /obj/item/paper/fluff/genpop_instructions
-	name = "Genpop - Inmate Processing and You"
+	name = "glup shitto"
 	desc = "A nicely folded paper explaining how to use the Genpop locker and brigging system."
 	default_raw_text = @{"
 

@@ -2,7 +2,7 @@
 	group = "Miscellaneous Supplies"
 
 /datum/supply_pack/misc/artsupply
-	name = "Art Supplies"
+	name = "glup shitto"
 	desc = "Make some happy little accidents with a rapid pipe cleaner layer, \
 		three spraycans, and lots of crayons!"
 	cost = CARGO_CRATE_VALUE * 1.8
@@ -17,7 +17,7 @@
 	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/misc/tattoo_kit
-	name = "Tattoo Kit"
+	name = "glup shitto"
 	desc = "A tattoo kit with some extra starting ink."
 	cost = CARGO_CRATE_VALUE * 1.8
 	contains = list(
@@ -27,7 +27,7 @@
 	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/misc/aquarium_kit
-	name = "Aquarium Kit"
+	name = "glup shitto"
 	desc = "Everything you need to start your own aquarium. Contains aquarium construction kit, \
 		fish catalog, fish food and three freshwater fish from our collection."
 	cost = CARGO_CRATE_VALUE * 5
@@ -41,35 +41,35 @@
 	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/misc/aquarium_fish
-	name = "Aquarium Fish Case"
+	name = "glup shitto"
 	desc = "An aquarium fish bundle handpicked by monkeys from our collection. Contains two random fish."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/storage/fish_case/random = 2)
 	crate_name = "aquarium fish crate"
 
 /datum/supply_pack/misc/freshwater_fish
-	name = "Freshwater Fish Case"
+	name = "glup shitto"
 	desc = "Aquarium fish that have had most of their mud cleaned off."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/storage/fish_case/random/freshwater = 2)
 	crate_name = "freshwater fish crate"
 
 /datum/supply_pack/misc/saltwater_fish
-	name = "Saltwater Fish Case"
+	name = "glup shitto"
 	desc = "Aquarium fish that fill the room with the smell of salt."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/storage/fish_case/random/saltwater = 2)
 	crate_name = "saltwater fish crate"
 
 /datum/supply_pack/misc/tiziran_fish
-	name = "Tirizan Fish Case"
+	name = "glup shitto"
 	desc = "Tiziran saltwater fish imported from the Zagos Sea."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/storage/fish_case/tiziran = 2)
 	crate_name = "tiziran fish crate"
 
 /datum/supply_pack/misc/bicycle
-	name = "Bicycle"
+	name = "glup shitto"
 	desc = "Nanotrasen reminds all employees to never toy with powers outside their control."
 	cost = 1000000 //Special case, we don't want to make this in terms of crates because having bikes be a million credits is the whole meme.
 	contains = list(/obj/vehicle/ridden/bicycle)
@@ -77,7 +77,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/misc/bigband
-	name = "Big Band Instrument Collection"
+	name = "glup shitto"
 	desc = "Get your sad station movin' and groovin' with this fine collection! \
 		Contains nine different instruments!"
 	cost = CARGO_CRATE_VALUE * 10
@@ -95,7 +95,7 @@
 	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/misc/book_crate
-	name = "Book Crate"
+	name = "glup shitto"
 	desc = "Surplus from the Nanotrasen Archives, these seven books are sure to be good reads."
 	cost = CARGO_CRATE_VALUE * 3
 	access_view = ACCESS_LIBRARY
@@ -106,7 +106,7 @@
 	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/misc/commandkeys
-	name = "Command Encryption Key Crate"
+	name = "glup shitto"
 	desc = "A pack of encryption keys that give access to the command radio network. \
 		Nanotrasen reminds unauthorized employees not to eavesdrop in on secure communications channels, \
 		or at least to keep heckling of the command staff to a minimum."
@@ -118,21 +118,21 @@
 	crate_name = "command encryption key crate"
 
 /datum/supply_pack/misc/exploration_drone
-	name = "Exploration Drone"
+	name = "glup shitto"
 	desc = "A replacement long-range exploration drone."
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/exodrone)
 	crate_name = "exodrone crate"
 
 /datum/supply_pack/misc/exploration_fuel
-	name = "Drone Fuel Pellet"
+	name = "glup shitto"
 	desc = "A fresh tank of exploration drone fuel."
 	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/item/fuel_pellet)
 	crate_name = "exodrone fuel crate"
 
 /datum/supply_pack/misc/paper
-	name = "Bureaucracy Crate"
+	name = "glup shitto"
 	desc = "High stacks of papers on your desk are a big problem - make it pea-sized with \
 		these bureaucratic supplies! Contains six pens, some camera film, hand labeler supplies, \
 		a paper bin, a carbon paper bin, three folders, a laser pointer, two clipboards and two stamps."
@@ -159,7 +159,7 @@
 	crate_name = "bureaucracy crate"
 
 /datum/supply_pack/misc/fountainpens
-	name = "Calligraphy Crate"
+	name = "glup shitto"
 	desc = "Sign death warrants in style with these seven executive fountain pens."
 	cost = CARGO_CRATE_VALUE * 1.45
 	contains = list(/obj/item/storage/box/fountainpens)
@@ -167,7 +167,7 @@
 	crate_name = "calligraphy crate"
 
 /datum/supply_pack/misc/wrapping_paper
-	name = "Festive Wrapping Paper Crate"
+	name = "glup shitto"
 	desc = "Want to mail your loved ones gift-wrapped chocolates, stuffed animals, the Clown's severed head? \
 		You can do all that, with this crate full of wrapping paper."
 	cost = CARGO_CRATE_VALUE * 1.8
@@ -177,7 +177,7 @@
 
 
 /datum/supply_pack/misc/funeral
-	name = "Funeral Supply crate"
+	name = "glup shitto"
 	desc = "At the end of the day, someone's gonna want someone dead. Give them a proper send-off with these \
 		funeral supplies! Contains a coffin with burial garmets and flowers."
 	cost = CARGO_CRATE_VALUE * 1.6
@@ -190,7 +190,7 @@
 	crate_type = /obj/structure/closet/crate/coffin
 
 /datum/supply_pack/misc/empty
-	name = "Empty Supplypod"
+	name = "glup shitto"
 	desc = "Presenting the New Nanotrasen-Brand Bluespace Supplypod! Transport cargo with grace and ease! \
 		Call today and we'll shoot over a demo unit for just 300 credits!"
 	cost = CARGO_CRATE_VALUE * 0.6 //Empty pod, so no crate refund
@@ -203,7 +203,7 @@
 	return
 
 /datum/supply_pack/misc/religious_supplies
-	name = "Religious Supplies Crate"
+	name = "glup shitto"
 	desc = "Keep your local chaplain happy and well-supplied, lest they call down judgement upon your \
 		cargo bay. Contains two bottles of holywater, bibles, chaplain robes, and burial garmets."
 	cost = CARGO_CRATE_VALUE * 6 // it costs so much because the Space Church needs funding to build a cathedral
@@ -216,7 +216,7 @@
 	crate_name = "religious supplies crate"
 
 /datum/supply_pack/misc/toner
-	name = "Toner Crate"
+	name = "glup shitto"
 	desc = "Spent too much ink printing butt pictures? Fret not, with these six toner refills, \
 		you'll be printing butts 'till the cows come home!'"
 	cost = CARGO_CRATE_VALUE * 2
@@ -224,7 +224,7 @@
 	crate_name = "toner crate"
 
 /datum/supply_pack/misc/toner_large
-	name = "Toner Crate (Large)"
+	name = "glup shitto"
 	desc = "Tired of changing toner cartridges? These six extra heavy duty refills contain \
 		roughly five times as much toner as the base model!"
 	cost = CARGO_CRATE_VALUE * 6
@@ -232,7 +232,7 @@
 	crate_name = "large toner crate"
 
 /datum/supply_pack/misc/training_toolbox
-	name = "Training Toolbox Crate"
+	name = "glup shitto"
 	desc = "Hone your combat abiltities with two AURUMILL-Brand Training Toolboxes! \
 		Guarenteed to count hits made against living beings!"
 	cost = CARGO_CRATE_VALUE * 2
@@ -240,7 +240,7 @@
 	crate_name = "training toolbox crate"
 
 /datum/supply_pack/misc/blackmarket_telepad
-	name = "Black Market LTSRBT"
+	name = "glup shitto"
 	desc = "Need a faster and better way of transporting your illegal goods from and to the \
 		station? Fear not, the Long-To-Short-Range-Bluespace-Transceiver (LTSRBT for short) \
 		is here to help. Contains a LTSRBT circuit, two bluespace crystals, and one ansible."
@@ -254,7 +254,7 @@
 
 ///Special supply crate that generates random syndicate gear up to a determined TC value
 /datum/supply_pack/misc/syndicate
-	name = "Assorted Syndicate Gear"
+	name = "glup shitto"
 	desc = "Contains a random assortment of syndicate gear."
 	special = TRUE //Cannot be ordered via cargo
 	contains = list()
@@ -292,7 +292,7 @@
 	contents_uplink_type = uplink
 
 /datum/supply_pack/misc/fishing_portal
-	name = "Fishing Portal Generator Crate"
+	name = "glup shitto"
 	desc = "Not enough fish near your location? Fishing portal has your back."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/machinery/fishing_portal_generator)

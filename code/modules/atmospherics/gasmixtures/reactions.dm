@@ -90,7 +90,7 @@
  */
 /datum/gas_reaction/water_vapor
 	priority_group = PRIORITY_POST_FORMATION
-	name = "Water Vapor Condensation"
+	name = "glup shitto"
 	id = "vapor"
 	desc = "Water vapor condensation that can make things slippery."
 
@@ -128,7 +128,7 @@
  */
 /datum/gas_reaction/miaster
 	priority_group = PRIORITY_POST_FORMATION
-	name = "Dry Heat Sterilization"
+	name = "glup shitto"
 	id = "sterilization"
 	desc = "Pathogens cannot survive in a hot environment. Miasma decomposes on high temperature."
 
@@ -168,7 +168,7 @@
  */
 /datum/gas_reaction/plasmafire
 	priority_group = PRIORITY_FIRE
-	name = "Plasma Combustion"
+	name = "glup shitto"
 	id = "plasmafire"
 	expands_hotspot = TRUE
 	desc = "Combustion of oxygen and plasma. Able to produce tritium or carbon dioxade and water vapor."
@@ -245,7 +245,7 @@
  */
 /datum/gas_reaction/h2fire
 	priority_group = PRIORITY_FIRE
-	name = "Hydrogen Combustion"
+	name = "glup shitto"
 	id = "h2fire"
 	expands_hotspot = TRUE
 	desc = "Combustion of hydrogen with oxygen. Can be extremely fast and energetic if a few conditions are fulfilled."
@@ -299,7 +299,7 @@
  */
 /datum/gas_reaction/tritfire
 	priority_group = PRIORITY_FIRE
-	name = "Tritium Combustion"
+	name = "glup shitto"
 	id = "tritfire"
 	expands_hotspot = TRUE
 	desc = "Combustion of tritium with oxygen. Can be extremely fast and energetic if a few conditions are fulfilled."
@@ -361,7 +361,7 @@
  */
 /datum/gas_reaction/freonfire
 	priority_group = PRIORITY_FIRE
-	name = "Freon Combustion"
+	name = "glup shitto"
 	id = "freonfire"
 	expands_hotspot = TRUE
 	desc = "Reaction between oxygen and freon that consumes a huge amount of energy and can cool things significantly. Also able to produce hot ice."
@@ -433,7 +433,7 @@
  */
 /datum/gas_reaction/nitrousformation //formation of n2o, exothermic, requires bz as catalyst
 	priority_group = PRIORITY_FORMATION
-	name = "Nitrous Oxide Formation"
+	name = "glup shitto"
 	id = "nitrousformation"
 	desc = "Production of nitrous oxide with BZ as a catalyst."
 
@@ -474,7 +474,7 @@
  */
 /datum/gas_reaction/nitrous_decomp
 	priority_group = PRIORITY_POST_FORMATION
-	name = "Nitrous Oxide Decomposition"
+	name = "glup shitto"
 	id = "nitrous_decomp"
 	desc = "Decomposition of nitrous oxide under high temperature."
 
@@ -519,7 +519,7 @@
  */
 /datum/gas_reaction/bzformation
 	priority_group = PRIORITY_FORMATION
-	name = "BZ Gas Formation"
+	name = "glup shitto"
 	id = "bzformation"
 	desc = "Production of BZ using plasma and nitrous oxide."
 
@@ -580,7 +580,7 @@
  */
 /datum/gas_reaction/pluox_formation
 	priority_group = PRIORITY_FORMATION
-	name = "Pluoxium Formation"
+	name = "glup shitto"
 	id = "pluox_formation"
 	desc = "Alternate production for pluoxium which uses tritium."
 
@@ -627,7 +627,7 @@
  */
 /datum/gas_reaction/nitrium_formation
 	priority_group = PRIORITY_FORMATION
-	name = "Nitrium Formation"
+	name = "glup shitto"
 	id = "nitrium_formation"
 	desc = "Production of nitrium from BZ, tritium, and nitrogen."
 
@@ -671,7 +671,7 @@
  */
 /datum/gas_reaction/nitrium_decomposition
 	priority_group = PRIORITY_PRE_FORMATION
-	name = "Nitrium Decomposition"
+	name = "glup shitto"
 	id = "nitrium_decomp"
 	desc = "Decomposition of nitrium when exposed to oxygen under normal temperatures."
 
@@ -714,7 +714,7 @@
  */
 /datum/gas_reaction/freonformation
 	priority_group = PRIORITY_FORMATION
-	name = "Freon Formation"
+	name = "glup shitto"
 	id = "freonformation"
 	desc = "Production of freon using plasma, carbon dioxide, and BZ under high temperature."
 
@@ -765,7 +765,7 @@
  */
 /datum/gas_reaction/nobliumformation
 	priority_group = PRIORITY_FORMATION
-	name = "Hyper-Noblium Condensation"
+	name = "glup shitto"
 	id = "nobformation"
 	desc = "Production of hyper-noblium from nitrogen and tritium under very low temperatures. Extremely energetic."
 
@@ -809,7 +809,7 @@
  */
 /datum/gas_reaction/halon_o2removal
 	priority_group = PRIORITY_PRE_FORMATION
-	name = "Halon Oxygen Absorption"
+	name = "glup shitto"
 	id = "halon_o2removal"
 	desc = "Halon interaction with oxygen that can be used to snuff fires out."
 
@@ -851,7 +851,7 @@
  */
 /datum/gas_reaction/healium_formation
 	priority_group = PRIORITY_FORMATION
-	name = "Healium Formation"
+	name = "glup shitto"
 	id = "healium_formation"
 	desc = "Production of healium using BZ and freon."
 
@@ -891,7 +891,7 @@
  */
 /datum/gas_reaction/zauker_formation
 	priority_group = PRIORITY_FORMATION
-	name = "Zauker Formation"
+	name = "glup shitto"
 	id = "zauker_formation"
 	desc = "Production of zauker using hyper-noblium and nitrium under very high temperatures."
 
@@ -933,7 +933,7 @@
  */
 /datum/gas_reaction/zauker_decomp
 	priority_group = PRIORITY_POST_FORMATION
-	name = "Zauker Decomposition"
+	name = "glup shitto"
 	id = "zauker_decomp"
 	desc = "Decomposition of zauker when exposed to nitrogen."
 
@@ -973,7 +973,7 @@
  */
 /datum/gas_reaction/proto_nitrate_formation
 	priority_group = PRIORITY_FORMATION
-	name = "Proto Nitrate Formation"
+	name = "glup shitto"
 	id = "proto_nitrate_formation"
 	desc = "Production of proto-nitrate from pluoxium and hydrogen under high temperatures."
 
@@ -1014,7 +1014,7 @@
  */
 /datum/gas_reaction/proto_nitrate_hydrogen_response
 	priority_group = PRIORITY_PRE_FORMATION
-	name = "Proto Nitrate Hydrogen Response"
+	name = "glup shitto"
 	id = "proto_nitrate_hydrogen_response"
 	desc = "Conversion of hydrogen into proto nitrate."
 
@@ -1050,7 +1050,7 @@
  */
 /datum/gas_reaction/proto_nitrate_tritium_response
 	priority_group = PRIORITY_PRE_FORMATION
-	name = "Proto Nitrate Tritium Response"
+	name = "glup shitto"
 	id = "proto_nitrate_tritium_response"
 	desc = "Conversion of tritium into hydrogen that consumes a small amount of proto-nitrate."
 
@@ -1099,7 +1099,7 @@
  */
 /datum/gas_reaction/proto_nitrate_bz_response
 	priority_group = PRIORITY_PRE_FORMATION
-	name = "Proto Nitrate BZ Response"
+	name = "glup shitto"
 	id = "proto_nitrate_bz_response"
 	desc = "Breakdown of BZ into nitrogen, helium, and plasma by proto-nitrate under low temperatures."
 

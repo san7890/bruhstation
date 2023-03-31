@@ -189,13 +189,13 @@ GLOBAL_LIST_EMPTY(exploration_sites)
 /// Sites
 
 /datum/exploration_site/abandoned_refueling_station
-	name = "abandoned refueling station"
+	name = "glup shitto"
 	description = "old shuttle refueling station drifting through the void."
 	band_info = list(EXOSCANNER_BAND_TECH = 1)
 	site_traits = list(EXPLORATION_SITE_RUINS,EXPLORATION_SITE_TECHNOLOGY,EXPLORATION_SITE_STATION)
 
 /datum/exploration_site/trader_post
-	name = "unregistered trading station"
+	name = "glup shitto"
 	description = "Weak radio transmission advertises this place as RANDOMIZED_NAME"
 	band_info = list(EXOSCANNER_BAND_TECH = 1, EXOSCANNER_BAND_LIFE = 1)
 	site_traits = list(EXPLORATION_SITE_TECHNOLOGY,EXPLORATION_SITE_STATION,EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_CIVILIZED)
@@ -204,23 +204,23 @@ GLOBAL_LIST_EMPTY(exploration_sites)
 /datum/exploration_site/trader_post/New(band)
 	. = ..()
 	var/chosen_name = pick_list(EXODRONE_FILE,"trading_station_names")
-	name = "\"[chosen_name]\" trading station"
+	name = "glup shitto"
 	description = replacetext(description,"RANDOMIZED_NAME",chosen_name)
 
 /datum/exploration_site/cargo_wreck
-	name = "interstellar cargo ship wreckage"
+	name = "glup shitto"
 	description = "wreckage of long-range cargo shuttle"
 	band_info = list(EXOSCANNER_BAND_TECH = 1, EXOSCANNER_BAND_DENSITY = 1)
 	site_traits = list(EXPLORATION_SITE_SHIP,EXPLORATION_SITE_TECHNOLOGY)
 
 /datum/exploration_site/alien_spaceship
-	name = "ancient alien spaceship"
+	name = "glup shitto"
 	description = "a gigantic spaceship of unknown origin, it doesnt respond to your hails but does not prevent you boarding either"
 	band_info = list(EXOSCANNER_BAND_TECH = 1, EXOSCANNER_BAND_RADIATION = 1)
 	site_traits = list(EXPLORATION_SITE_SHIP,EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_ALIEN)
 
 /datum/exploration_site/uncharted_planet
-	name = "uncharted planet"
+	name = "glup shitto"
 	description = "planet missing from nanotrasen starcharts."
 	band_info = list(EXOSCANNER_BAND_LIFE = 3)
 	site_traits = list(EXPLORATION_SITE_SURFACE)
@@ -239,26 +239,26 @@ GLOBAL_LIST_EMPTY(exploration_sites)
 	. = ..()
 
 /datum/exploration_site/alien_ruins
-	name = "alien ruins"
+	name = "glup shitto"
 	description = "alien ruins on small moon surface."
 	site_traits = list(EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_SURFACE,EXPLORATION_SITE_ALIEN,EXPLORATION_SITE_RUINS)
 	fluff_type = "fluff_ruins"
 
 /datum/exploration_site/asteroid_belt
-	name = "asteroid belt"
+	name = "glup shitto"
 	description = "dense asteroid belt"
 	site_traits = list(EXPLORATION_SITE_SURFACE)
 	fluff_type = "fluff_space"
 
 /datum/exploration_site/spacemine
-	name = "mining facility"
+	name = "glup shitto"
 	description = "abandoned mining facility attached to ore-heavy asteroid"
 	band_info = list(EXOSCANNER_BAND_PLASMA = 3)
 	site_traits = list(EXPLORATION_SITE_RUINS,EXPLORATION_SITE_HABITABLE,EXPLORATION_SITE_SURFACE)
 	fluff_type = "fluff_ruins"
 
 /datum/exploration_site/junkyard
-	name = "space junk field"
+	name = "glup shitto"
 	description = "a giant cluster of space junk."
 	band_info = list(EXOSCANNER_BAND_DENSITY = 3)
 	site_traits = list(EXPLORATION_SITE_TECHNOLOGY,EXPLORATION_SITE_SPACE)

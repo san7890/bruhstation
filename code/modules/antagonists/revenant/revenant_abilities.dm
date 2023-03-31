@@ -119,7 +119,7 @@
 
 //Transmit: the revemant's only direct way to communicate. Sends a single message silently to a single mob
 /datum/action/cooldown/spell/list_target/telepathy/revenant
-	name = "Revenant Transmit"
+	name = "glup shitto"
 	panel = "Revenant Abilities"
 	background_icon_state = "bg_revenant"
 	overlay_icon_state = "bg_revenant_border"
@@ -218,7 +218,7 @@
 
 //Overload Light: Breaks a light that's online and sends out lightning bolts to all nearby people.
 /datum/action/cooldown/spell/aoe/revenant/overload
-	name = "Overload Lights"
+	name = "glup shitto"
 	desc = "Directs a large amount of essence into nearby electrical lights, causing lights to shock those nearby."
 	button_icon_state = "overload_lights"
 	cooldown_time = 20 SECONDS
@@ -259,7 +259,7 @@
 
 //Defile: Corrupts nearby stuff, unblesses floor tiles.
 /datum/action/cooldown/spell/aoe/revenant/defile
-	name = "Defile"
+	name = "glup shitto"
 	desc = "Twists and corrupts the nearby area as well as dispelling holy auras on floors."
 	button_icon_state = "defile"
 	cooldown_time = 15 SECONDS
@@ -309,7 +309,7 @@
 
 //Malfunction: Makes bad stuff happen to robots and machines.
 /datum/action/cooldown/spell/aoe/revenant/malfunction
-	name = "Malfunction"
+	name = "glup shitto"
 	desc = "Corrupts and damages nearby machines and mechanical objects."
 	button_icon_state = "malfunction"
 	cooldown_time = 20 SECONDS
@@ -351,7 +351,7 @@
 
 //Blight: Infects nearby humans and in general messes living stuff up.
 /datum/action/cooldown/spell/aoe/revenant/blight
-	name = "Blight"
+	name = "glup shitto"
 	desc = "Causes nearby living things to waste away."
 	button_icon_state = "blight"
 	cooldown_time = 20 SECONDS
@@ -400,7 +400,7 @@
 		tray.set_toxic(rand(45, 55))
 
 /datum/action/cooldown/spell/aoe/revenant/haunt_object
-	name = "Haunt Object"
+	name = "glup shitto"
 	desc = "Empower nearby objects to you with ghostly energy, causing them to attack nearby mortals. \
 		Items closer to you are more likely to be haunted."
 	button_icon_state = "r_haunt"

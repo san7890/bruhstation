@@ -1,9 +1,9 @@
 /obj/effect/spawner/random/entertainment
-	name = "entertainment loot spawner"
+	name = "glup shitto"
 	desc = "It's time to paaaaaarty!"
 
 /obj/effect/spawner/random/entertainment/arcade
-	name = "spawn random arcade machine"
+	name = "glup shitto"
 	desc = "Automagically transforms into a random arcade machine. If you see this while in a shift, please create a bug report."
 	icon_state = "arcade"
 	loot = list(
@@ -13,7 +13,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/musical_instrument
-	name = "musical instrument spawner"
+	name = "glup shitto"
 	icon_state = "eguitar"
 	loot = list(
 		/obj/item/instrument/violin = 5,
@@ -33,7 +33,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/gambling
-	name = "gambling valuables spawner"
+	name = "glup shitto"
 	icon_state = "dice"
 	loot = list(
 		/obj/item/gun/ballistic/revolver/russian = 5,
@@ -46,7 +46,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/coin
-	name = "coin spawner"
+	name = "glup shitto"
 	icon_state = "coin"
 	loot = list(
 		/obj/item/coin/iron = 5,
@@ -65,7 +65,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/money_small
-	name = "small money spawner"
+	name = "glup shitto"
 	icon_state = "cash"
 	spawn_loot_count = 3
 	spawn_loot_split = TRUE
@@ -76,7 +76,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/money
-	name = "money spawner"
+	name = "glup shitto"
 	icon_state = "cash"
 	spawn_loot_count = 3
 	spawn_loot_split = TRUE
@@ -89,7 +89,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/money_medium
-	name = "money spawner"
+	name = "glup shitto"
 	icon_state = "cash"
 	loot = list(
 		/obj/item/stack/spacecash/c100 = 25,
@@ -100,7 +100,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/money_large
-	name = "large money spawner"
+	name = "glup shitto"
 	icon_state = "cash"
 	spawn_loot_count = 5
 	spawn_loot_split = TRUE
@@ -117,7 +117,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/drugs
-	name = "recreational drugs spawner"
+	name = "glup shitto"
 	icon_state = "pill"
 	loot = list(
 		/obj/item/reagent_containers/cup/glass/bottle/hooch = 50,
@@ -128,7 +128,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/dice
-	name = "dice spawner"
+	name = "glup shitto"
 	icon_state = "dice_bag"
 	loot = list(
 		/obj/item/dice/d4,
@@ -140,7 +140,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/cigarette_pack
-	name = "cigarette pack spawner"
+	name = "glup shitto"
 	icon_state = "cigarettes"
 	loot = list(
 		/obj/item/storage/fancy/cigarettes = 3,
@@ -154,7 +154,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/cigarette
-	name = "cigarette spawner"
+	name = "glup shitto"
 	icon_state = "cigarettes"
 	loot = list(
 		/obj/item/clothing/mask/cigarette/space_cigarette = 3,
@@ -168,7 +168,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/cigar
-	name = "cigar spawner"
+	name = "glup shitto"
 	icon_state = "cigarettes"
 	loot = list(
 		/obj/item/clothing/mask/cigarette/cigar = 3,
@@ -177,7 +177,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/wallet_lighter
-	name = "lighter wallet spawner"
+	name = "glup shitto"
 	icon_state = "lighter"
 	loot = list( // these fit inside a wallet
 		/obj/item/match = 10,
@@ -186,7 +186,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/lighter
-	name = "lighter spawner"
+	name = "glup shitto"
 	icon_state = "lighter"
 	loot = list(
 		/obj/item/storage/box/matches = 10,
@@ -195,7 +195,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/wallet_storage
-	name = "wallet contents spawner"
+	name = "glup shitto"
 	icon_state = "wallet"
 	spawn_loot_count = 1
 	loot = list(	// random photos would go here. IF I HAD ONE. :'(
@@ -216,7 +216,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/deck
-	name = "deck spawner"
+	name = "glup shitto"
 	icon_state = "deck"
 	loot = list(
 		/obj/item/toy/cards/deck = 5,
@@ -226,13 +226,13 @@
 	)
 
 /obj/effect/spawner/random/entertainment/toy_figure
-	name = "toy figure spawner"
+	name = "glup shitto"
 	icon_state = "toy"
 	loot_subtype_path = /obj/item/toy/figure
 	loot = list()
 
 /obj/effect/spawner/random/entertainment/toy
-	name = "toy spawner"
+	name = "glup shitto"
 	icon_state = "toy"
 	loot = list()
 
@@ -241,7 +241,7 @@
 	return ..()
 
 /obj/effect/spawner/random/entertainment/plushie
-	name = "plushie spawner"
+	name = "glup shitto"
 	icon_state = "plushie"
 	loot = list( // the plushies that aren't of things trying to kill you
 		/obj/item/toy/plush/carpplushie, // well, maybe they can be something that tries to kill you a little bit
@@ -255,7 +255,7 @@
 	)
 
 /obj/effect/spawner/random/entertainment/plushie_delux
-	name = "plushie delux spawner"
+	name = "glup shitto"
 	icon_state = "plushie"
 	loot = list(
 		// common plushies

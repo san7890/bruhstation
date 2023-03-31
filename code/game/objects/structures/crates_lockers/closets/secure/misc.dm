@@ -1,5 +1,5 @@
 /obj/structure/closet/secure_closet/ert_com
-	name = "emergency response team commander's locker"
+	name = "glup shitto"
 	desc = "A storage unit containing equipment for an Emergency Response Team Commander."
 	req_access = list(ACCESS_CENT_CAPTAIN)
 	icon_state = "cap"
@@ -25,7 +25,7 @@
 	new /obj/item/aicard(src)
 
 /obj/structure/closet/secure_closet/ert_sec
-	name = "emergency response team security locker"
+	name = "glup shitto"
 	desc = "A storage unit containing equipment for an Emergency Response Team Security Officer."
 	req_access = list(ACCESS_CENT_SPECOPS)
 	icon_state = "hos"
@@ -39,7 +39,7 @@
 	new /obj/item/shield/riot/tele(src)
 
 /obj/structure/closet/secure_closet/ert_med
-	name = "emergency response team medical locker"
+	name = "glup shitto"
 	desc = "A storage unit containing equipment for an Emergency Response Team Medical Officer."
 	req_access = list(ACCESS_CENT_MEDICAL)
 	icon_state = "cmo"
@@ -55,7 +55,7 @@
 	new /mob/living/simple_animal/bot/medbot(src)
 
 /obj/structure/closet/secure_closet/ert_engi
-	name = "emergency response team engineer locker"
+	name = "glup shitto"
 	desc = "A storage unit containing equipment for an Emergency Response Team Engineer."
 	req_access = list(ACCESS_CENT_STORAGE)
 	icon_state = "ce"

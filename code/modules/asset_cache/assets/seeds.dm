@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/seeds
-	name = "seeds"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/seeds/create_spritesheets()
 	var/list/id_list = list()

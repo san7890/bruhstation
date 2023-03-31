@@ -1,6 +1,6 @@
 /// A spell which gives you a clown item
 /datum/action/cooldown/spell/conjure_item/clown_pockets
-	name = "Acquire Clowning Implement"
+	name = "glup shitto"
 	desc = "Pull an item out of your mysteriously expansive pants."
 	button_icon = 'icons/obj/clothing/masks.dmi'
 	button_icon_state = "clown"
@@ -79,7 +79,7 @@
 
 /// Longer cooldown variant which is attached to the enchanted clown suit
 /datum/action/cooldown/spell/conjure_item/clown_pockets/enchantment
-	name = "Enchanted Clown Pockets"
+	name = "glup shitto"
 	cooldown_time = 60 SECONDS
 
 /datum/action/cooldown/spell/conjure_item/clown_pockets/enchantment/cast_message(mob/cast_on)
@@ -87,7 +87,7 @@
 
 /// Enchanted clown suit
 /obj/item/clothing/under/rank/civilian/clown/magic
-	name = "enchanted clown suit"
+	name = "glup shitto"
 
 /obj/item/clothing/under/rank/civilian/clown/magic/Initialize(mapload)
 	. = ..()
@@ -96,7 +96,7 @@
 
 /// Enchanted plasmaman clown suit
 /obj/item/clothing/under/plasmaman/clown/magic
-	name = "enchanted clown envirosuit"
+	name = "glup shitto"
 
 /obj/item/clothing/under/plasmaman/clown/magic/Initialize(mapload)
 	. = ..()

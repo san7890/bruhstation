@@ -4,7 +4,7 @@
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/toxin/acid = 10)
 
 /obj/item/organ/internal/alien/plasmavessel
-	name = "plasma vessel"
+	name = "glup shitto"
 	icon_state = "plasma"
 	w_class = WEIGHT_CLASS_NORMAL
 	zone = BODY_ZONE_CHEST
@@ -25,7 +25,7 @@
 	var/plasma_rate = 5
 
 /obj/item/organ/internal/alien/plasmavessel/large
-	name = "large plasma vessel"
+	name = "glup shitto"
 	icon_state = "plasma_large"
 	w_class = WEIGHT_CLASS_BULKY
 	stored_plasma = 200
@@ -36,7 +36,7 @@
 	plasma_rate = 10
 
 /obj/item/organ/internal/alien/plasmavessel/small
-	name = "small plasma vessel"
+	name = "glup shitto"
 	icon_state = "plasma_small"
 	w_class = WEIGHT_CLASS_SMALL
 	stored_plasma = 100
@@ -44,7 +44,7 @@
 	plasma_rate = 2.5
 
 /obj/item/organ/internal/alien/plasmavessel/small/tiny
-	name = "tiny plasma vessel"
+	name = "glup shitto"
 	icon_state = "plasma_tiny"
 	w_class = WEIGHT_CLASS_TINY
 	max_plasma = 100
@@ -88,7 +88,7 @@
 #define QUEEN_DEATH_DEBUFF_DURATION 2400
 
 /obj/item/organ/internal/alien/hivenode
-	name = "hive node"
+	name = "glup shitto"
 	icon_state = "hivenode"
 	zone = BODY_ZONE_HEAD
 	slot = ORGAN_SLOT_XENO_HIVENODE
@@ -143,7 +143,7 @@
 #undef QUEEN_DEATH_DEBUFF_DURATION
 
 /obj/item/organ/internal/alien/resinspinner
-	name = "resin spinner"
+	name = "glup shitto"
 	icon_state = "spinner-x"
 	zone = BODY_ZONE_PRECISE_MOUTH
 	slot = ORGAN_SLOT_XENO_RESINSPINNER
@@ -151,7 +151,7 @@
 
 
 /obj/item/organ/internal/alien/acid
-	name = "acid gland"
+	name = "glup shitto"
 	icon_state = "acid"
 	zone = BODY_ZONE_PRECISE_MOUTH
 	slot = ORGAN_SLOT_XENO_ACIDGLAND
@@ -159,7 +159,7 @@
 
 
 /obj/item/organ/internal/alien/neurotoxin
-	name = "neurotoxin gland"
+	name = "glup shitto"
 	icon_state = "neurotox"
 	zone = BODY_ZONE_PRECISE_MOUTH
 	slot = ORGAN_SLOT_XENO_NEUROTOXINGLAND
@@ -167,7 +167,7 @@
 
 
 /obj/item/organ/internal/alien/eggsac
-	name = "egg sac"
+	name = "glup shitto"
 	icon_state = "eggsac"
 	zone = BODY_ZONE_PRECISE_GROIN
 	slot = ORGAN_SLOT_XENO_EGGSAC
@@ -176,7 +176,7 @@
 
 /// The stomach that lets aliens eat people/things
 /obj/item/organ/internal/stomach/alien
-	name = "alien stomach"
+	name = "glup shitto"
 	icon_state = "stomach-x"
 	w_class = WEIGHT_CLASS_BULKY
 	actions_types = list(/datum/action/cooldown/alien/regurgitate)

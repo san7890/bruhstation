@@ -1,7 +1,7 @@
 GLOBAL_DATUM(cargo_sloth, /mob/living/simple_animal/sloth)
 
 /mob/living/simple_animal/sloth
-	name = "sloth"
+	name = "glup shitto"
 	desc = "An adorable, sleepy creature."
 	icon = 'icons/mob/simple/pets.dmi'
 	icon_state = "sloth"
@@ -51,14 +51,14 @@ GLOBAL_DATUM(cargo_sloth, /mob/living/simple_animal/sloth)
 
 //Cargo Sloth
 /mob/living/simple_animal/sloth/paperwork
-	name = "Paperwork"
+	name = "glup shitto"
 	desc = "Cargo's pet sloth. About as useful as the rest of the techs."
 	gold_core_spawnable = NO_SPAWN
 
 //Cargo Sloth 2
 
 /mob/living/simple_animal/sloth/citrus
-	name = "Citrus"
+	name = "glup shitto"
 	desc = "Cargo's pet sloth. She's dressed in a horrible sweater."
 	icon_state = "cool_sloth"
 	icon_living = "cool_sloth"

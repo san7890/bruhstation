@@ -4,7 +4,7 @@
 // MISC
 
 /datum/crafting_recipe/food/candiedapple
-	name = "Candied apple"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/caramel = 5,
 		/obj/item/food/grown/apple = 1
@@ -13,7 +13,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/spiderlollipop
-	name = "Spider Lollipop"
+	name = "glup shitto"
 	reqs = list(/obj/item/stack/rods = 1,
 		/datum/reagent/consumable/sugar = 5,
 		/datum/reagent/water = 5,
@@ -23,7 +23,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/chococoin
-	name = "Choco coin"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/coin = 1,
 		/obj/item/food/chocolatebar = 1,
@@ -32,7 +32,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/fudgedice
-	name = "Fudge dice"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/dice = 1,
 		/obj/item/food/chocolatebar = 1,
@@ -41,7 +41,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/chocoorange
-	name = "Choco orange"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/citrus/orange = 1,
 		/obj/item/food/chocolatebar = 1,
@@ -50,7 +50,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/cheesyfries
-	name = "Cheesy fries"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/fries = 1,
 		/obj/item/food/cheese/wedge = 1
@@ -59,7 +59,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/poutine
-	name = "Poutine"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/fries = 1,
 		/obj/item/food/cheese/wedge = 1,
@@ -69,7 +69,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/beans
-	name = "Beans"
+	name = "glup shitto"
 	time = 40
 	reqs = list(/datum/reagent/consumable/ketchup = 5,
 		/obj/item/food/grown/soybeans = 2
@@ -98,7 +98,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/honeybar
-	name = "Honey nut bar"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/oat = 1,
 		/datum/reagent/consumable/honey = 5
@@ -107,7 +107,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/powercrepe
-	name = "Powercrepe"
+	name = "glup shitto"
 	time = 40
 	reqs = list(
 		/obj/item/food/flatdough = 1,
@@ -120,7 +120,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/branrequests
-	name = "Bran Requests Cereal"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/wheat = 1,
 		/obj/item/food/no_raisin = 1,
@@ -129,7 +129,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/ricepudding
-	name = "Rice pudding"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/datum/reagent/consumable/milk = 5,
@@ -140,7 +140,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/risotto
-	name = "Risotto"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/bowl = 1,
 		/obj/item/food/cheese/wedge = 1,
@@ -152,7 +152,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/butterbear //ITS ALIVEEEEEE!
-	name = "Living bear/butter hybrid"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/organ/internal/brain = 1,
 		/obj/item/organ/internal/heart = 1,
@@ -165,7 +165,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/crab_rangoon
-	name = "Crab Rangoon"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/doughslice = 1,
 		/datum/reagent/consumable/cream = 5,
@@ -176,7 +176,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/royalcheese
-	name = "Royal Cheese"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/wheel = 1,
 		/obj/item/clothing/head/costume/crown = 1,
@@ -187,7 +187,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/ant_candy
-	name = "Ant Candy"
+	name = "glup shitto"
 	reqs = list(/obj/item/stack/rods = 1,
 		/datum/reagent/consumable/sugar = 5,
 		/datum/reagent/water = 5,
@@ -197,7 +197,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/pesto
-	name = "Pesto"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/cheese/firm_cheese_slice = 1,
 		/datum/reagent/consumable/salt = 5,
@@ -210,7 +210,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/tomato_sauce
-	name = "Tomato sauce"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/canned/tomatoes = 1,
 		/datum/reagent/consumable/salt = 2,
@@ -221,7 +221,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/bechamel_sauce
-	name = "Bechamel sauce"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/milk = 10,
 		/datum/reagent/consumable/flour = 5,
@@ -231,7 +231,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/pierogi
-	name = "Pierogi"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/doughslice = 1,
 		/obj/item/food/grown/potato = 1,
@@ -241,7 +241,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/stuffed_cabbage
-	name = "Stuffed cabbage"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/meat/cutlet = 2,
 		/obj/item/food/boiledrice = 1,
@@ -252,7 +252,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/granola_bar
-	name = "Granola bar"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/oat = 1,
 		/obj/item/food/grown/peanut = 1,
@@ -263,7 +263,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/onigiri
-	name = "Onigiri"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/boiledrice = 1,
 		/obj/item/food/seaweedsheet = 1,
@@ -272,7 +272,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/mashed_potatoes
-	name = "Mashed potatoes"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/potato = 2,
 		/obj/item/food/grown/garlic = 1,
@@ -282,7 +282,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/pacoca
-	name = "Paçoca"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/peanut = 2,
 		/datum/reagent/consumable/sugar = 5,
@@ -292,7 +292,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/springroll
-	name = "Spring roll"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/grown/carrot = 1,
 		/obj/item/food/grown/cucumber = 1,
@@ -304,7 +304,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/caramel_popcorn
-	name = "Caramel popcorn"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/popcorn = 1,
 		/datum/reagent/consumable/caramel = 3,
@@ -313,7 +313,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/salty_popcorn
-	name = "Salty popcorn"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/popcorn = 1,
 		/datum/reagent/consumable/salt = 3,
@@ -322,7 +322,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/buttered_baked_potato
-	name = "Buttered baked potato"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/baked_potato = 1,
 		/obj/item/food/butter = 1,
@@ -331,7 +331,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/loaded_baked_potato
-	name = "Loaded baked potato"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/baked_potato = 1,
 		/obj/item/food/cheese/wedge = 1,
@@ -342,7 +342,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/cheese_pierogi
-	name = "Cheese pierogi"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/doughslice = 1,
 		/obj/item/food/grown/potato = 1,
@@ -352,7 +352,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/meat_pierogi
-	name = "Meat pierogi"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/doughslice = 1,
 		/obj/item/food/grown/potato = 1,
@@ -362,7 +362,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/bonbon/caramel_truffle
-	name = "Caramel truffle"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/datum/reagent/consumable/caramel = 2,
@@ -371,7 +371,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/bonbon/chocolate_truffle
-	name = "Chocolate truffle"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/datum/reagent/consumable/sugar = 2,
@@ -380,7 +380,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/bonbon/peanut_truffle
-	name = "Peanut truffle"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/obj/item/food/grown/peanut = 1,
@@ -389,7 +389,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/food/bonbon/peanut_butter_cup
-	name = "Peanut butter cup"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/chocolatebar = 1,
 		/datum/reagent/consumable/peanut_butter = 2,
@@ -398,7 +398,7 @@
 	category = CAT_MISCFOOD
 
 /datum/crafting_recipe/pickles_jar
-	name = "Jar of pickles"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/reagent_containers/cup/beaker/large = 1,
 		/obj/item/food/grown/cucumber = 10,

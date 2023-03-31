@@ -1,7 +1,7 @@
 #define TANK_DISPENSER_CAPACITY 10
 
 /obj/structure/tank_dispenser
-	name = "tank dispenser"
+	name = "glup shitto"
 	desc = "A simple yet bulky storage device for gas tanks. Holds up to 10 oxygen tanks and 10 plasma tanks."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "dispenser"

@@ -6,7 +6,7 @@
  * All spiders can produce webbing.
  */
 /mob/living/basic/giant_spider
-	name = "giant spider"
+	name = "glup shitto"
 	desc = "Furry and black, it makes you shudder to look at it. This one has deep red eyes."
 	icon_state = "guard"
 	icon_living = "guard"

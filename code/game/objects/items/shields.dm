@@ -1,7 +1,7 @@
 #define BATON_BASH_COOLDOWN (3 SECONDS)
 
 /obj/item/shield
-	name = "shield"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/shields.dmi'
 	lefthand_file = 'icons/mob/inhands/equipment/shields_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/shields_righthand.dmi'
@@ -73,7 +73,7 @@
 	return TRUE
 
 /obj/item/shield/buckler
-	name = "wooden buckler"
+	name = "glup shitto"
 	desc = "A medieval wooden buckler."
 	icon_state = "buckler"
 	inhand_icon_state = "buckler"
@@ -84,7 +84,7 @@
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/shield/roman
-	name = "\improper Roman shield"
+	name = "glup shitto"
 	desc = "Bears an inscription on the inside: <i>\"Romanes venio domus\"</i>."
 	icon_state = "roman_shield"
 	inhand_icon_state = "roman_shield"
@@ -100,7 +100,7 @@
 	max_integrity = 30
 
 /obj/item/shield/riot
-	name = "riot shield"
+	name = "glup shitto"
 	desc = "A shield adept at blocking blunt objects from connecting with the torso of the shield wielder."
 	icon_state = "riot"
 	inhand_icon_state = "riot"
@@ -130,7 +130,7 @@
 	return ..()
 
 /obj/item/shield/riot/flash
-	name = "strobe shield"
+	name = "glup shitto"
 	desc = "A shield with a built in, high intensity light capable of blinding and disorienting suspects. Takes regular handheld flashes as bulbs."
 	icon_state = "flashshield"
 	inhand_icon_state = "flashshield"
@@ -230,7 +230,7 @@
 		. += span_info("The mounted bulb has burnt out. You can try replacing it with a new <b>flash</b>.")
 
 /obj/item/shield/energy
-	name = "energy combat shield"
+	name = "glup shitto"
 	desc = "A shield that reflects almost all energy projectiles, but is useless against physical attacks. It can be retracted, expanded, and stored anywhere."
 	icon_state = "eshield"
 	inhand_icon_state = "eshield"
@@ -282,7 +282,7 @@
 	return COMPONENT_NO_DEFAULT_MESSAGE
 
 /obj/item/shield/riot/tele
-	name = "telescopic shield"
+	name = "glup shitto"
 	desc = "An advanced riot shield made of lightweight materials that collapses for easy storage."
 	icon_state = "teleriot"
 	inhand_icon_state = "teleriot"

@@ -4,7 +4,7 @@ Recurring extracts:
 	If depleted of its' last charge, stops working.
 */
 /obj/item/slimecross/recurring
-	name = "recurring extract"
+	name = "glup shitto"
 	desc = "A tiny, glowing core, wrapped in several layers of goo."
 	effect = "recurring"
 	icon_state = "recurring"

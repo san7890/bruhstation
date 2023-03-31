@@ -3,7 +3,7 @@
 #define MAXIMUM_BURN_TIMER 3000
 
 /obj/structure/fireplace
-	name = "fireplace"
+	name = "glup shitto"
 	desc = "A large stone brick fireplace."
 	icon = 'icons/obj/fireplace.dmi'
 	icon_state = "fireplace"

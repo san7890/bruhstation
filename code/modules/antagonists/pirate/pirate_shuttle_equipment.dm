@@ -1,7 +1,7 @@
 //Shuttle equipment
 
 /obj/machinery/shuttle_scrambler
-	name = "Data Siphon"
+	name = "glup shitto"
 	desc = "This heap of machinery steals credits and data from unprotected systems and locks down cargo shuttles."
 	icon = 'icons/obj/machines/dominator.dmi'
 	icon_state = "dominator"
@@ -82,7 +82,7 @@
 	return ..()
 
 /obj/machinery/computer/shuttle/pirate
-	name = "pirate shuttle console"
+	name = "glup shitto"
 	shuttleId = "pirate"
 	icon_screen = "syndishuttle"
 	icon_keyboard = "syndie_key"
@@ -90,7 +90,7 @@
 	possible_destinations = "pirate_away;pirate_home;pirate_custom"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate
-	name = "pirate shuttle navigation computer"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the pirate shuttle."
 	shuttleId = "pirate"
 	lock_override = CAMERA_LOCK_STATION
@@ -100,7 +100,7 @@
 	see_hidden = FALSE
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate/psyker
-	name = "psyker navigation warper"
+	name = "glup shitto"
 	desc = "Used to designate a precise transit location for the psyker shuttle, using sent out brainwaves as detailed sight."
 	icon_screen = "recharge_comp_on"
 	interaction_flags_machine = INTERACT_MACHINE_ALLOW_SILICON | INTERACT_MACHINE_SET_MACHINE //blind friendly
@@ -108,7 +108,7 @@
 	y_offset = 11
 
 /obj/docking_port/mobile/pirate
-	name = "pirate shuttle"
+	name = "glup shitto"
 	shuttle_id = "pirate"
 	rechargeTime = 3 MINUTES
 
@@ -119,7 +119,7 @@
 	storage_type = /obj/item/tank/internals/oxygen
 
 /obj/machinery/loot_locator
-	name = "Booty Locator"
+	name = "glup shitto"
 	desc = "This sophisticated machine scans the nearby space for items of value."
 	icon = 'icons/obj/machines/research.dmi'
 	icon_state = "tdoppler"
@@ -153,7 +153,7 @@
 
 //Pad & Pad Terminal
 /obj/machinery/piratepad
-	name = "cargo hold pad"
+	name = "glup shitto"
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "lpad-idle-off"
 	///This is the icon_state that this telepad uses when it's not in use.
@@ -183,7 +183,7 @@
 	return TRUE
 
 /obj/machinery/computer/piratepad_control
-	name = "cargo hold control terminal"
+	name = "glup shitto"
 	///Message to display on the TGUI window.
 	var/status_report = "Ready for delivery."
 	///Reference to the specific pad that the control computer is linked up to.

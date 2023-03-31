@@ -1,6 +1,6 @@
 
 /obj/effect/anomaly/hallucination
-	name = "hallucination anomaly"
+	name = "glup shitto"
 	icon_state = "hallucination"
 	aSignal = /obj/item/assembly/signaler/anomaly/hallucination
 	/// Time passed since the last effect, increased by delta_time of the SSobj

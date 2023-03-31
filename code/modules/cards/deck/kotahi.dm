@@ -1,5 +1,5 @@
 /obj/item/toy/cards/deck/kotahi
-	name = "\improper KOTAHI deck"
+	name = "glup shitto"
 	desc = "A deck of kotahi cards. House rules to argue over not included."
 	cardgame_desc = "KOTAHI game"
 	icon_state = "deck_kotahi_full"

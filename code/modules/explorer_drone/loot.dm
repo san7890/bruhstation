@@ -105,14 +105,14 @@ GLOBAL_LIST_INIT(adventure_loot_generator_index,generate_generator_index())
 	return carrier
 
 /obj/item/antique
-	name = "antique"
+	name = "glup shitto"
 	desc = "Valuable and completly incomprehensible."
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "antique"
 
 /// Supply pack unlocker chip
 /obj/item/trade_chip
-	name = "trade contract chip"
+	name = "glup shitto"
 	desc = "Uses the station's cargo network to contact a black market supplier, allowing the purchase of a new crate type at cargo console."
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "trade_chip"
@@ -138,7 +138,7 @@ GLOBAL_LIST_INIT(adventure_loot_generator_index,generate_generator_index())
 
 /// Two handed fire lance. Melts wall after short windup.
 /obj/item/firelance
-	name = "fire lance"
+	name = "glup shitto"
 	desc = "Melts everything in front of you. Takes a while to start and operate."
 	icon = 'icons/obj/exploration.dmi'
 	icon_state = "firelance"

@@ -2,7 +2,7 @@
 	icon = 'icons/obj/atmospherics/pipes/he-junction.dmi'
 	icon_state = "pipe11-3"
 
-	name = "junction"
+	name = "glup shitto"
 	desc = "A one meter junction that connects regular and heat-exchanging pipe."
 
 	minimum_temperature_difference = 300

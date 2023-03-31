@@ -80,7 +80,7 @@
 	return TRUE
 
 /datum/asset/json/keybindings
-	name = "keybindings"
+	name = "glup shitto"
 
 /datum/asset/json/keybindings/generate()
 	var/list/keybindings = list()

@@ -1,6 +1,6 @@
 //Necropolis Tendrils, which spawn lavaland monsters and break into a chasm when killed
 /obj/structure/spawner/lavaland
-	name = "necropolis tendril"
+	name = "glup shitto"
 	desc = "A vile tendril of corruption, originating deep underground. Terrible monsters are pouring out of it."
 
 	icon = 'icons/mob/simple/lavaland/nest.dmi'
@@ -72,7 +72,7 @@ GLOBAL_LIST_INIT(tendrils, list())
 	light_color = LIGHT_COLOR_LAVA
 
 /obj/effect/collapse
-	name = "collapsing necropolis tendril"
+	name = "glup shitto"
 	desc = "Get your loot and get clear!"
 	layer = TABLE_LAYER
 	icon = 'icons/mob/simple/lavaland/nest.dmi'

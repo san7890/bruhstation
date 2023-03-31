@@ -2,7 +2,7 @@
 	group = "Service"
 
 /datum/supply_pack/service/cargo_supples
-	name = "Cargo Supplies Crate"
+	name = "glup shitto"
 	desc = "Sold everything that wasn't bolted down? You can get right \
 		back to work with this crate containing stamps, an export scanner, \
 		destination tagger, hand labeler and some package wrapping."
@@ -17,7 +17,7 @@
 	crate_name = "cargo supplies crate"
 
 /datum/supply_pack/service/noslipfloor
-	name = "High-traction Floor Tiles"
+	name = "glup shitto"
 	desc = "Make slipping a thing of the past with thirty industrial-grade anti-slip floor tiles!"
 	cost = CARGO_CRATE_VALUE * 4
 	access_view = ACCESS_JANITOR
@@ -25,7 +25,7 @@
 	crate_name = "high-traction floor tiles crate"
 
 /datum/supply_pack/service/janitor
-	name = "Janitorial Supplies Crate"
+	name = "glup shitto"
 	desc = "Fight back against dirt and grime with Nanotrasen's Janitorial Essentials™! \
 		Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, \
 		broom, spray cleaner, rag, and trash bag."
@@ -43,7 +43,7 @@
 	crate_name = "janitorial supplies crate"
 
 /datum/supply_pack/service/janitor/janicart
-	name = "Janitorial Cart and Galoshes Crate"
+	name = "glup shitto"
 	desc = "The keystone to any successful janitor. As long as you have feet, this pair \
 		of galoshes will keep them firmly planted on the ground. Also contains a janitorial cart."
 	cost = CARGO_CRATE_VALUE * 4
@@ -54,7 +54,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/service/janitor/janitank
-	name = "Janitor Backpack Crate"
+	name = "glup shitto"
 	desc = "Call forth divine judgement upon dirt and grime with this high capacity janitor \
 		backpack. Contains 500 units of station-cleansing cleaner."
 	cost = CARGO_CRATE_VALUE * 2
@@ -64,7 +64,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/service/mule
-	name = "MULEbot Crate"
+	name = "glup shitto"
 	desc = "Pink-haired Quartermaster not doing her job? Replace her with this tireless worker, today! \
 		Contains one MULEbot."
 	cost = CARGO_CRATE_VALUE * 4
@@ -73,7 +73,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/service/party
-	name = "Party Equipment"
+	name = "glup shitto"
 	desc = "Celebrate both life and death on the station with Nanotrasen's Party Essentials™! \
 		Contains seven colored glowsticks, six beers, six sodas, two ales, and a bottle of patron, \
 		goldschlager, and shaker!"
@@ -96,7 +96,7 @@
 	crate_name = "party equipment crate"
 
 /datum/supply_pack/service/carpet
-	name = "Premium Carpet Crate"
+	name = "glup shitto"
 	desc = "Iron floor tiles getting on your nerves? These stacks of extra soft carpet \
 		will tie any room together. Contains 100 tiles each of regular and black carpet."
 	cost = CARGO_CRATE_VALUE * 2
@@ -105,7 +105,7 @@
 	crate_name = "premium carpet crate"
 
 /datum/supply_pack/service/carpet_exotic
-	name = "Exotic Carpet Crate"
+	name = "glup shitto"
 	desc = "Exotic carpets straight from Space Russia, for all your decorating needs. \
 		Contains 100 tiles each of 8 different flooring patterns."
 	cost = CARGO_CRATE_VALUE * 8
@@ -121,7 +121,7 @@
 	crate_name = "exotic carpet crate"
 
 /datum/supply_pack/service/carpet_neon
-	name = "Simple Neon Carpet Crate"
+	name = "glup shitto"
 	desc = "Simple rubbery mats with phosphorescent lining. Contains 120 tiles \
 		each of 13 color variants. Limited edition release."
 	cost = CARGO_CRATE_VALUE * 15
@@ -142,7 +142,7 @@
 	crate_name = "neon carpet crate"
 
 /datum/supply_pack/service/lightbulbs
-	name = "Replacement Lights"
+	name = "glup shitto"
 	desc = "May the light of Aether shine upon this station! Or at least, the light of \
 		forty-two light tubes and twenty one light bulbs."
 	cost = CARGO_CRATE_VALUE * 2
@@ -150,7 +150,7 @@
 	crate_name = "replacement lights"
 
 /datum/supply_pack/service/minerkit
-	name = "Shaft Miner Starter Kit"
+	name = "glup shitto"
 	desc = "All the miners died too fast? Assistant wants to get a taste of life off-station? \
 		Either way, this kit is the best way to turn a regular crewman into an ore-producing, \
 		monster-slaying machine. Contains meson goggles, a pickaxe, advanced mining scanner, \
@@ -163,7 +163,7 @@
 	crate_type = /obj/structure/closet/crate/secure
 
 /datum/supply_pack/service/survivalknives
-	name = "Survival Knives Crate"
+	name = "glup shitto"
 	desc = "Contains three sharpened survival knives. Each knife guaranteed to fit snugly \
 		inside any Nanotrasen-standard boot."
 	cost = CARGO_CRATE_VALUE * 3
@@ -171,7 +171,7 @@
 	crate_name = "survival knife crate"
 
 /datum/supply_pack/service/wedding
-	name = "Wedding Crate"
+	name = "glup shitto"
 	desc = "Everything you need to host a wedding! Now you just need an officiant. \
 		Contains a wedding dress, tuxedo, cummerbund, wedding veil, three bouquets, \
 		and a bottle of champagne."
@@ -189,7 +189,7 @@
 
 /// Box of 7 grey IDs.
 /datum/supply_pack/service/greyidbox
-	name = "Grey ID Card Multipack Cate"
+	name = "glup shitto"
 	desc = "A convenient crate containing a box of seven cheap ID cards in a handy wallet-sized form factor. \
 		Cards come in every colour you can imagne, as long as it's grey."
 	cost = CARGO_CRATE_VALUE * 3
@@ -198,7 +198,7 @@
 
 /// Single silver ID.
 /datum/supply_pack/service/silverid
-	name = "Silver ID Card Crate"
+	name = "glup shitto"
 	desc = "Did we forget to hire any Heads of Staff? Recruit your own with this high value ID card \
 		capable of holding advanced levels of access in a handy wallet-sized form factor."
 	cost = CARGO_CRATE_VALUE * 7
@@ -206,14 +206,14 @@
 	crate_name = "silver id card crate"
 
 /datum/supply_pack/service/emptycrate
-	name = "Empty Crate"
+	name = "glup shitto"
 	desc = "It's an empty crate, for all your storage needs."
 	cost = CARGO_CRATE_VALUE * 1.4 //Net Zero Profit.
 	contains = list()
 	crate_name = "crate"
 
 /datum/supply_pack/service/randomized/donkpockets
-	name = "Donk Pocket Variety Crate"
+	name = "glup shitto"
 	desc = "Featuring a line up of Donk Co.'s most popular pastry! Contains \
 		a random assortment of Donk Pocket boxes."
 	cost = CARGO_CRATE_VALUE * 4
@@ -231,7 +231,7 @@
 		new item(C)
 
 /datum/supply_pack/service/randomized/ready_donk
-	name = "Ready-Donk Variety Crate"
+	name = "glup shitto"
 	desc = "Featuring a line up of Donk Co.'s most popular pastry! Contains \
 		a random assortment of Ready Donk products."
 	cost = CARGO_CRATE_VALUE * 3
@@ -247,7 +247,7 @@
 		new item(C)
 
 /datum/supply_pack/service/coffeekit
-	name = "Coffee Equipment Crate"
+	name = "glup shitto"
 	desc = "A complete kit to setup your own cozy coffee shop, the coffeemaker is for some reason not included."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(
@@ -264,7 +264,7 @@
 	crate_name = "coffee equipment crate"
 
 /datum/supply_pack/service/coffeemaker
-	name = "Impressa Coffeemaker Crate"
+	name = "glup shitto"
 	desc = "An assembled Impressa model coffeemaker."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/machinery/coffeemaker/impressa)

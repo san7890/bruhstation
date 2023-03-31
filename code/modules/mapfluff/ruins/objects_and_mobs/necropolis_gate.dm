@@ -1,6 +1,6 @@
 //The necropolis gate is used to call forth Legion from the Necropolis.
 /obj/structure/necropolis_gate
-	name = "necropolis gate"
+	name = "glup shitto"
 	desc = "A massive stone gateway."
 	icon = 'icons/effects/96x96.dmi'
 	icon_state = "gate_full"
@@ -214,7 +214,7 @@ GLOBAL_DATUM(necropolis_gate, /obj/structure/necropolis_gate/legion_gate)
 	duration = 38
 
 /obj/structure/necropolis_arch
-	name = "necropolis arch"
+	name = "glup shitto"
 	desc = "A massive arch over the necropolis gate, set into a massive tower of stone."
 	icon = 'icons/effects/160x160.dmi'
 	icon_state = "arch_full"
@@ -246,7 +246,7 @@ GLOBAL_DATUM(necropolis_gate, /obj/structure/necropolis_gate/legion_gate)
 #define UNIQUE_EFFECT 3 //The tile has some sort of unique effect when crossed.
 //stone tiles for boss arenas
 /obj/structure/stone_tile
-	name = "stone tile"
+	name = "glup shitto"
 	icon = 'icons/turf/boss_floors.dmi'
 	icon_state = "pristine_tile1"
 	plane = FLOOR_PLANE
@@ -319,96 +319,96 @@ GLOBAL_DATUM(necropolis_gate, /obj/structure/necropolis_gate/legion_gate)
 	return
 
 /obj/structure/stone_tile/block
-	name = "stone block"
+	name = "glup shitto"
 	icon_state = "pristine_block1"
 	tile_key = "pristine_block"
 	tile_random_sprite_max = 4
 
 /obj/structure/stone_tile/slab
-	name = "stone slab"
+	name = "glup shitto"
 	icon_state = "pristine_slab1"
 	tile_key = "pristine_slab"
 	tile_random_sprite_max = 4
 
 /obj/structure/stone_tile/center
-	name = "stone center tile"
+	name = "glup shitto"
 	icon_state = "pristine_center1"
 	tile_key = "pristine_center"
 	tile_random_sprite_max = 4
 
 /obj/structure/stone_tile/surrounding
-	name = "stone surrounding slab"
+	name = "glup shitto"
 	icon_state = "pristine_surrounding1"
 	tile_key = "pristine_surrounding"
 	tile_random_sprite_max = 2
 
 /obj/structure/stone_tile/surrounding_tile
-	name = "stone surrounding tile"
+	name = "glup shitto"
 	icon_state = "pristine_surrounding_tile1"
 	tile_key = "pristine_surrounding_tile"
 	tile_random_sprite_max = 2
 
 //cracked stone tiles
 /obj/structure/stone_tile/cracked
-	name = "cracked stone tile"
+	name = "glup shitto"
 	icon_state = "cracked_tile1"
 	tile_key = "cracked_tile"
 
 /obj/structure/stone_tile/block/cracked
-	name = "cracked stone block"
+	name = "glup shitto"
 	icon_state = "cracked_block1"
 	tile_key = "cracked_block"
 
 /obj/structure/stone_tile/slab/cracked
-	name = "cracked stone slab"
+	name = "glup shitto"
 	icon_state = "cracked_slab1"
 	tile_key = "cracked_slab"
 	tile_random_sprite_max = 1
 
 /obj/structure/stone_tile/center/cracked
-	name = "cracked stone center tile"
+	name = "glup shitto"
 	icon_state = "cracked_center1"
 	tile_key = "cracked_center"
 
 /obj/structure/stone_tile/surrounding/cracked
-	name = "cracked stone surrounding slab"
+	name = "glup shitto"
 	icon_state = "cracked_surrounding1"
 	tile_key = "cracked_surrounding"
 	tile_random_sprite_max = 1
 
 /obj/structure/stone_tile/surrounding_tile/cracked
-	name = "cracked stone surrounding tile"
+	name = "glup shitto"
 	icon_state = "cracked_surrounding_tile1"
 	tile_key = "cracked_surrounding_tile"
 
 //burnt stone tiles
 /obj/structure/stone_tile/burnt
-	name = "burnt stone tile"
+	name = "glup shitto"
 	icon_state = "burnt_tile1"
 	tile_key = "burnt_tile"
 
 /obj/structure/stone_tile/block/burnt
-	name = "burnt stone block"
+	name = "glup shitto"
 	icon_state = "burnt_block1"
 	tile_key = "burnt_block"
 
 /obj/structure/stone_tile/slab/burnt
-	name = "burnt stone slab"
+	name = "glup shitto"
 	icon_state = "burnt_slab1"
 	tile_key = "burnt_slab"
 
 /obj/structure/stone_tile/center/burnt
-	name = "burnt stone center tile"
+	name = "glup shitto"
 	icon_state = "burnt_center1"
 	tile_key = "burnt_center"
 
 /obj/structure/stone_tile/surrounding/burnt
-	name = "burnt stone surrounding slab"
+	name = "glup shitto"
 	icon_state = "burnt_surrounding1"
 	tile_key = "burnt_surrounding"
 
 /obj/structure/stone_tile/surrounding_tile/burnt
-	name = "burnt stone surrounding tile"
+	name = "glup shitto"
 	icon_state = "burnt_surrounding_tile1"
 	tile_key = "burnt_surrounding_tile"
 

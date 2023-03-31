@@ -7,7 +7,7 @@
 // Reels
 
 /obj/item/fishing_line
-	name = "fishing line reel"
+	name = "glup shitto"
 	desc = "Simple fishing line."
 	icon = 'icons/obj/fishing.dmi'
 	icon_state = "reel_blue"
@@ -16,35 +16,35 @@
 	var/line_color = "#808080"
 
 /obj/item/fishing_line/reinforced
-	name = "reinforced fishing line reel"
+	name = "glup shitto"
 	desc = "Essential for fishing in extreme environments."
 	icon_state = "reel_green"
 	fishing_line_traits = FISHING_LINE_REINFORCED
 	line_color = "#2b9c2b"
 
 /obj/item/fishing_line/cloaked
-	name = "cloaked fishing line reel"
+	name = "glup shitto"
 	desc = "Even harder to notice than the common variety."
 	icon_state = "reel_white"
 	fishing_line_traits = FISHING_LINE_CLOAKED
 	line_color = "#82cfdd"
 
 /obj/item/fishing_line/bouncy
-	name = "flexible fishing line reel"
+	name = "glup shitto"
 	desc = "This specialized line is much harder to snap."
 	icon_state = "reel_red"
 	fishing_line_traits = FISHING_LINE_BOUNCY
 	line_color = "#99313f"
 
 /obj/item/fishing_line/sinew
-	name = "fishing sinew"
+	name = "glup shitto"
 	desc = "An all-natural fishing line made of stretched out sinew."
 	icon = 'icons/obj/fishing.dmi'
 	icon_state = "reel_sinew"
 	line_color = "#d1cca3"
 
 /datum/crafting_recipe/sinew_line
-	name = "Sinew Fishing Line Reel"
+	name = "glup shitto"
 	result = /obj/item/fishing_line/sinew
 	reqs = list(/obj/item/stack/sheet/sinew = 2)
 	time = 2 SECONDS
@@ -53,7 +53,7 @@
 // Hooks
 
 /obj/item/fishing_hook
-	name = "simple fishing hook"
+	name = "glup shitto"
 	desc = "A simple fishing hook."
 	icon = 'icons/obj/fishing.dmi'
 	icon_state = "hook"
@@ -96,7 +96,7 @@
 
 
 /obj/item/fishing_hook/magnet
-	name = "magnetic hook"
+	name = "glup shitto"
 	desc = "Won't make catching fish any easier, but it might help with looking for other things."
 	icon_state = "treasure"
 	rod_overlay_icon_state = "hook_treasure_overlay"
@@ -112,20 +112,20 @@
 
 
 /obj/item/fishing_hook/shiny
-	name = "shiny lure hook"
+	name = "glup shitto"
 	icon_state = "gold_shiny"
 	fishing_hook_traits = FISHING_HOOK_SHINY
 	rod_overlay_icon_state = "hook_shiny_overlay"
 
 /obj/item/fishing_hook/weighted
-	name = "weighted hook"
+	name = "glup shitto"
 	icon_state = "weighted"
 	fishing_hook_traits = FISHING_HOOK_WEIGHTED
 	rod_overlay_icon_state = "hook_weighted_overlay"
 
 
 /obj/item/fishing_hook/rescue
-	name = "rescue hook"
+	name = "glup shitto"
 	desc = "An unwieldy hook meant to help with the rescue of those that have fallen down in chasms. You can tell there's no way you'll catch any fish with this, and that it won't be of any use outside of chasms."
 	icon_state = "rescue"
 	rod_overlay_icon_state = "hook_rescue_overlay"
@@ -149,19 +149,19 @@
 
 
 /obj/item/fishing_hook/bone
-	name = "bone hook"
+	name = "glup shitto"
 	desc = "a simple hook carved from sharpened bone"
 	icon_state = "hook_bone"
 
 /datum/crafting_recipe/bone_hook
-	name = "Goliath Bone Hook"
+	name = "glup shitto"
 	result = /obj/item/fishing_hook/bone
 	reqs = list(/obj/item/stack/sheet/bone = 1)
 	time = 2 SECONDS
 	category = CAT_TOOLS
 
 /obj/item/storage/toolbox/fishing
-	name = "fishing toolbox"
+	name = "glup shitto"
 	desc = "Contains everything you need for your fishing trip."
 	icon_state = "fishing"
 	inhand_icon_state = "artistic_toolbox"
@@ -180,7 +180,7 @@
 	new /obj/item/fishing_line(src)
 
 /obj/item/storage/box/fishing_hooks
-	name = "fishing hook set"
+	name = "glup shitto"
 
 /obj/item/storage/box/fishing_hooks/PopulateContents()
 	. = ..()
@@ -189,7 +189,7 @@
 	new /obj/item/fishing_hook/weighted(src)
 
 /obj/item/storage/box/fishing_lines
-	name = "fishing line set"
+	name = "glup shitto"
 
 /obj/item/storage/box/fishing_lines/PopulateContents()
 	. = ..()

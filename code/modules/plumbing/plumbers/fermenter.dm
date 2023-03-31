@@ -1,5 +1,5 @@
 /obj/machinery/plumbing/fermenter
-	name = "chemical fermenter"
+	name = "glup shitto"
 	desc = "Turns plants into various types of booze."
 	icon_state = "fermenter"
 	layer = ABOVE_ALL_MOB_LAYER

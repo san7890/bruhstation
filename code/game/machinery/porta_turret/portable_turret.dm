@@ -25,7 +25,7 @@ DEFINE_BITFIELD(turret_flags, list(
 ))
 
 /obj/machinery/porta_turret
-	name = "turret"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "turretCover"
 	layer = OBJ_LAYER
@@ -654,7 +654,7 @@ DEFINE_BITFIELD(turret_flags, list(
 	power_change()
 
 /datum/action/turret_toggle
-	name = "Toggle Mode"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_mecha.dmi'
 	button_icon_state = "mech_cycle_equip_off"
 
@@ -665,7 +665,7 @@ DEFINE_BITFIELD(turret_flags, list(
 	P.setState(P.on,!P.mode)
 
 /datum/action/turret_quit
-	name = "Release Control"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_mecha.dmi'
 	button_icon_state = "mech_eject"
 
@@ -820,7 +820,7 @@ DEFINE_BITFIELD(turret_flags, list(
 	return 10 //AI turrets shoot at everything not in their faction
 
 /obj/machinery/porta_turret/aux_base
-	name = "perimeter defense turret"
+	name = "glup shitto"
 	desc = "A plasma beam turret calibrated to defend outposts against non-humanoid fauna. It is more effective when exposed to the environment."
 	installation = null
 	uses_stored = FALSE
@@ -872,7 +872,7 @@ DEFINE_BITFIELD(turret_flags, list(
 /obj/machinery/porta_turret/centcom_shuttle/weak
 	max_integrity = 120
 	integrity_failure = 0.5
-	name = "Old Laser Turret"
+	name = "glup shitto"
 	desc = "A turret built with substandard parts and run down further with age. Still capable of delivering lethal lasers to the odd space carp, but not much else."
 	stun_projectile = /obj/projectile/beam/weak/penetrator
 	lethal_projectile = /obj/projectile/beam/weak/penetrator
@@ -883,7 +883,7 @@ DEFINE_BITFIELD(turret_flags, list(
 ////////////////////////
 
 /obj/machinery/turretid
-	name = "turret control panel"
+	name = "glup shitto"
 	desc = "Used to control a room's automated defenses."
 	icon = 'icons/obj/machines/turret_control.dmi'
 	icon_state = "control_standby"
@@ -1057,7 +1057,7 @@ DEFINE_BITFIELD(turret_flags, list(
 	return ..()
 
 /obj/item/wallframe/turret_control
-	name = "turret control frame"
+	name = "glup shitto"
 	desc = "Used for building turret control panels."
 	icon = 'icons/obj/machines/turret_control.dmi'
 	icon_state = "control_frame"

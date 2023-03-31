@@ -1,5 +1,5 @@
 /obj/machinery/computer/turbine_computer
-	name = "gas turbine control computer"
+	name = "glup shitto"
 	desc = "A computer to remotely control a gas turbine."
 	icon_screen = "turbinecomp"
 	icon_keyboard = "tech_key"

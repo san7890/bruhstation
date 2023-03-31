@@ -1,5 +1,5 @@
 /datum/species/fly
-	name = "Flyperson"
+	name = "glup shitto"
 	plural_form = "Flypeople"
 	id = SPECIES_FLYPERSON
 	inherent_traits = list(

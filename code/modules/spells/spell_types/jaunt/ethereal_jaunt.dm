@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt
-	name = "Ethereal Jaunt"
+	name = "glup shitto"
 	desc = "This spell turns your form ethereal, temporarily making you invisible and able to pass through walls."
 	button_icon_state = "jaunt"
 	sound = 'sound/magic/ethereal_enter.ogg'
@@ -204,7 +204,7 @@
 
 
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/shift
-	name = "Phase Shift"
+	name = "glup shitto"
 	desc = "This spell allows you to pass through walls."
 	background_icon_state = "bg_demon"
 	overlay_icon_state = "bg_demon_border"
@@ -225,17 +225,17 @@
 	return
 
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/shift/angelic
-	name = "Purified Phase Shift"
+	name = "glup shitto"
 	jaunt_in_type = /obj/effect/temp_visual/dir_setting/wraith/angelic
 	jaunt_out_type = /obj/effect/temp_visual/dir_setting/wraith/out/angelic
 
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/shift/mystic
-	name = "Mystic Phase Shift"
+	name = "glup shitto"
 	jaunt_in_type = /obj/effect/temp_visual/dir_setting/wraith/mystic
 	jaunt_out_type = /obj/effect/temp_visual/dir_setting/wraith/out/mystic
 
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/shift/golem
-	name = "Runic Phase Shift"
+	name = "glup shitto"
 	cooldown_time = 80 SECONDS
 	jaunt_in_type = /obj/effect/temp_visual/dir_setting/cult/phase
 	jaunt_out_type = /obj/effect/temp_visual/dir_setting/cult/phase/out

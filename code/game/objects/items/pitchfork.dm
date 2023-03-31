@@ -9,7 +9,7 @@
 	base_icon_state = "pitchfork"
 	lefthand_file = 'icons/mob/inhands/weapons/polearms_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/polearms_righthand.dmi'
-	name = "pitchfork"
+	name = "glup shitto"
 	desc = "A simple tool used for moving hay."
 	force = 7
 	throwforce = 15

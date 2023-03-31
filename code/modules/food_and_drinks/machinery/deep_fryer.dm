@@ -14,7 +14,7 @@ GLOBAL_LIST_INIT(oilfry_blacklisted_items, typecacheof(list(
 )))
 
 /obj/machinery/deepfryer
-	name = "deep fryer"
+	name = "glup shitto"
 	desc = "Deep fried <i>everything</i>."
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "fryer_off"

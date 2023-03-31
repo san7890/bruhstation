@@ -28,7 +28,7 @@
 		"charge",
 	)
 	icon_state = "book[action_name]"
-	name = "spellbook of [action_name]"
+	name = "glup shitto"
 
 /obj/item/book/granter/action/spell/mindswap/recoil(mob/living/user)
 	. = ..()

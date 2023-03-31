@@ -1,5 +1,5 @@
 /datum/surgery/brain_surgery
-	name = "Brain surgery"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_HEAD)
 	requires_bodypart_type = NONE
 	steps = list(
@@ -12,7 +12,7 @@
 	)
 
 /datum/surgery_step/fix_brain
-	name = "fix brain (hemostat)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_HEMOSTAT = 85,
 		TOOL_SCREWDRIVER = 35,

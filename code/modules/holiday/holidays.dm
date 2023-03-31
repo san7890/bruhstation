@@ -81,7 +81,7 @@
 
 //Fleet Day is celebrated on Jan 19th, the date on which moths were merged (#34498)
 /datum/holiday/fleet_day
-	name = "Fleet Day"
+	name = "glup shitto"
 	begin_month = JANUARY
 	begin_day = 19
 
@@ -94,7 +94,7 @@
 // FEBRUARY
 
 /datum/holiday/groundhog
-	name = "Groundhog Day"
+	name = "glup shitto"
 	begin_day = 2
 	begin_month = FEBRUARY
 
@@ -102,7 +102,7 @@
 	return pick("Deja Vu") //I have been to this place before
 
 /datum/holiday/nz
-	name = "Waitangi Day"
+	name = "glup shitto"
 	timezones = list(TIMEZONE_NZDT, TIMEZONE_CHADT)
 	begin_day = 6
 	begin_month = FEBRUARY
@@ -127,7 +127,7 @@
 	return pick("Love","Amore","Single","Smootch","Hug")
 
 /datum/holiday/birthday
-	name = "Birthday of Space Station 13"
+	name = "glup shitto"
 	begin_day = 16
 	begin_month = FEBRUARY
 	drone_hat = /obj/item/clothing/head/costume/festive
@@ -163,7 +163,7 @@
 	return "Say 'Happy Birthday' to Space Station 13, first publicly playable on February 16th, 2003![Fact]"
 
 /datum/holiday/random_kindness
-	name = "Random Acts of Kindness Day"
+	name = "glup shitto"
 	begin_day = 17
 	begin_month = FEBRUARY
 	poster_name = "act of kindness poster"
@@ -174,14 +174,14 @@
 	return "Go do some random acts of kindness for a stranger!" //haha yeah right
 
 /datum/holiday/leap
-	name = "Leap Day"
+	name = "glup shitto"
 	begin_day = 29
 	begin_month = FEBRUARY
 
 // MARCH
 
 /datum/holiday/pi
-	name = "Pi Day"
+	name = "glup shitto"
 	begin_day = 14
 	begin_month = MARCH
 	poster_name = "pi day poster"
@@ -192,7 +192,7 @@
 	return pick("Sine","Cosine","Tangent","Secant", "Cosecant", "Cotangent")
 
 /datum/holiday/no_this_is_patrick
-	name = "St. Patrick's Day"
+	name = "glup shitto"
 	begin_day = 17
 	begin_month = MARCH
 	drone_hat = /obj/item/clothing/head/soft/green
@@ -221,7 +221,7 @@
 			P.client.playtitlemusic()
 
 /datum/holiday/spess
-	name = "Cosmonautics Day"
+	name = "glup shitto"
 	begin_day = 12
 	begin_month = APRIL
 	drone_hat = /obj/item/clothing/head/syndicatefake
@@ -230,7 +230,7 @@
 	return "On this day over 600 years ago, Comrade Yuri Gagarin first ventured into space!"
 
 /datum/holiday/fourtwenty
-	name = "Four-Twenty"
+	name = "glup shitto"
 	begin_day = 20
 	begin_month = APRIL
 
@@ -238,7 +238,7 @@
 	return pick("Snoop","Blunt","Toke","Dank","Cheech","Chong")
 
 /datum/holiday/tea
-	name = "National Tea Day"
+	name = "glup shitto"
 	begin_day = 21
 	begin_month = APRIL
 
@@ -246,12 +246,12 @@
 	return pick("Crumpet","Assam","Oolong","Pu-erh","Sweet Tea","Green","Black")
 
 /datum/holiday/earth
-	name = "Earth Day"
+	name = "glup shitto"
 	begin_day = 22
 	begin_month = APRIL
 
 /datum/holiday/anz
-	name = "ANZAC Day"
+	name = "glup shitto"
 	timezones = list(TIMEZONE_TKT, TIMEZONE_TOT, TIMEZONE_NZST, TIMEZONE_NFT, TIMEZONE_LHST, TIMEZONE_AEST, TIMEZONE_ACST, TIMEZONE_ACWST, TIMEZONE_AWST, TIMEZONE_CXT, TIMEZONE_CCT, TIMEZONE_CKT, TIMEZONE_NUT)
 	begin_day = 25
 	begin_month = APRIL
@@ -263,7 +263,7 @@
 // MAY
 
 /datum/holiday/labor
-	name = "Labor Day"
+	name = "glup shitto"
 	begin_day = 1
 	begin_month = MAY
 	drone_hat = /obj/item/clothing/head/utility/hardhat
@@ -271,7 +271,7 @@
 
 //Draconic Day is celebrated on May 3rd, the date on which the Draconic language was merged (#26780)
 /datum/holiday/draconic_day
-	name = "Draconic Language Day"
+	name = "glup shitto"
 	begin_month = MAY
 	begin_day = 3
 
@@ -282,7 +282,7 @@
 	return pick("Draconic", "Literature", "Reading")
 
 /datum/holiday/firefighter
-	name = "Firefighter's Day"
+	name = "glup shitto"
 	begin_day = 4
 	begin_month = MAY
 	drone_hat = /obj/item/clothing/head/utility/hardhat/red
@@ -291,7 +291,7 @@
 	return pick("Burning","Blazing","Plasma","Fire")
 
 /datum/holiday/bee
-	name = "Bee Day"
+	name = "glup shitto"
 	begin_day = 20
 	begin_month = MAY
 	drone_hat = /obj/item/clothing/mask/animal/small/bee
@@ -303,7 +303,7 @@
 
 //The Festival of Atrakor's Might (Tizira's Moon) is celebrated on June 15th, the date on which the lizard visual revamp was merged (#9808)
 /datum/holiday/atrakor_festival
-	name = "Festival of Atrakor's Might"
+	name = "glup shitto"
 	begin_month = JUNE
 	begin_day = 15
 
@@ -324,7 +324,7 @@
 	begin_month = JUNE
 
 /datum/holiday/summersolstice
-	name = "Summer Solstice"
+	name = "glup shitto"
 	begin_day = 21
 	begin_month = JUNE
 /datum/holiday/pride_week
@@ -351,13 +351,13 @@
 // JULY
 
 /datum/holiday/doctor
-	name = "Doctor's Day"
+	name = "glup shitto"
 	begin_day = 1
 	begin_month = JULY
 	drone_hat = /obj/item/clothing/head/costume/nursehat
 
 /datum/holiday/ufo
-	name = "UFO Day"
+	name = "glup shitto"
 	begin_day = 2
 	begin_month = JULY
 	drone_hat = /obj/item/clothing/mask/facehugger/dead
@@ -366,7 +366,7 @@
 	return pick("Ayy","Truth","Tsoukalos","Mulder","Scully") //Yes it is!
 
 /datum/holiday/usa
-	name = "US Independence Day"
+	name = "glup shitto"
 	timezones = list(TIMEZONE_EDT, TIMEZONE_CDT, TIMEZONE_MDT, TIMEZONE_MST, TIMEZONE_PDT, TIMEZONE_AKDT, TIMEZONE_HDT, TIMEZONE_HST)
 	begin_day = 4
 	begin_month = JULY
@@ -376,12 +376,12 @@
 	return pick("Independent","American","Burger","Bald Eagle","Star-Spangled", "Fireworks")
 
 /datum/holiday/writer
-	name = "Writer's Day"
+	name = "glup shitto"
 	begin_day = 8
 	begin_month = JULY
 
 /datum/holiday/france
-	name = "Bastille Day"
+	name = "glup shitto"
 	timezones = list(TIMEZONE_CEST)
 	begin_day = 14
 	begin_month = JULY
@@ -395,7 +395,7 @@
 	return "Do you hear the people sing?"
 
 /datum/holiday/hotdogday //I have plans for this.
-	name = "National Hot Dog Day"
+	name = "glup shitto"
 	begin_day = 17
 	begin_month = JULY
 
@@ -404,7 +404,7 @@
 
 //Gary Gygax's birthday, a fitting day for Wizard's Day
 /datum/holiday/wizards_day
-	name = "Wizard's Day"
+	name = "glup shitto"
 	begin_month = JULY
 	begin_day = 27
 	drone_hat = /obj/item/clothing/head/wizard
@@ -413,7 +413,7 @@
 	return pick("Dungeon", "Elf", "Magic", "D20", "Edition")
 
 /datum/holiday/friendship
-	name = "Friendship Day"
+	name = "glup shitto"
 	begin_day = 30
 	begin_month = JULY
 
@@ -423,7 +423,7 @@
 // AUGUST
 
 /datum/holiday/indigenous //Indigenous Peoples' Day from Earth!
-	name = "International Day of the World's Indigenous Peoples"
+	name = "glup shitto"
 	begin_month = AUGUST
 	begin_day = 9
 
@@ -433,7 +433,7 @@
 // AUGUST
 
 /datum/holiday/ukraine
-	name = "Independence Day of Ukraine"
+	name = "glup shitto"
 	begin_month = AUGUST
 	begin_day = 24
 
@@ -444,7 +444,7 @@
 
 //Tiziran Unification Day is celebrated on Sept 1st, the day on which lizards were made a roundstart race
 /datum/holiday/tiziran_unification
-	name = "Tiziran Unification Day"
+	name = "glup shitto"
 	begin_month = SEPTEMBER
 	begin_day = 1
 
@@ -455,7 +455,7 @@
 	return pick("Tizira", "Lizard", "Imperial")
 
 /datum/holiday/ianbirthday
-	name = "Ian's Birthday" //github.com/tgstation/tgstation/commit/de7e4f0de0d568cd6e1f0d7bcc3fd34700598acb
+	name = "glup shitto" //github.com/tgstation/tgstation/commit/de7e4f0de0d568cd6e1f0d7bcc3fd34700598acb
 	begin_month = SEPTEMBER
 	begin_day = 9
 	end_day = 10
@@ -467,7 +467,7 @@
 	return pick("Ian", "Corgi", "Erro")
 
 /datum/holiday/pirate
-	name = "Talk-Like-a-Pirate Day"
+	name = "glup shitto"
 	begin_day = 19
 	begin_month = SEPTEMBER
 	drone_hat = /obj/item/clothing/head/costume/pirate
@@ -479,7 +479,7 @@
 	return pick("Yarr","Scurvy","Yo-ho-ho")
 
 /datum/holiday/questions
-	name = "Stupid-Questions Day"
+	name = "glup shitto"
 	begin_day = 28
 	begin_month = SEPTEMBER
 
@@ -489,7 +489,7 @@
 // OCTOBER
 
 /datum/holiday/animal
-	name = "Animal's Day"
+	name = "glup shitto"
 	begin_day = 4
 	begin_month = OCTOBER
 
@@ -497,19 +497,19 @@
 	return pick("Parrot","Corgi","Cat","Pug","Goat","Fox")
 
 /datum/holiday/smile
-	name = "Smiling Day"
+	name = "glup shitto"
 	begin_day = 7
 	begin_month = OCTOBER
 	drone_hat = /obj/item/clothing/head/costume/papersack/smiley
 
 /datum/holiday/boss
-	name = "Boss' Day"
+	name = "glup shitto"
 	begin_day = 16
 	begin_month = OCTOBER
 	drone_hat = /obj/item/clothing/head/hats/tophat
 
 /datum/holiday/un_day
-	name = "Anniversary of the Foundation of the United Nations"
+	name = "glup shitto"
 	begin_month = OCTOBER
 	begin_day = 24
 
@@ -535,7 +535,7 @@
 // NOVEMBER
 
 /datum/holiday/vegan
-	name = "Vegan Day"
+	name = "glup shitto"
 	begin_day = 1
 	begin_month = NOVEMBER
 
@@ -543,7 +543,7 @@
 	return pick("Tofu", "Tempeh", "Seitan", "Tofurkey")
 
 /datum/holiday/october_revolution
-	name = "October Revolution"
+	name = "glup shitto"
 	begin_day = 6
 	begin_month = NOVEMBER
 	end_day = 7
@@ -552,7 +552,7 @@
 	return pick("Communist", "Soviet", "Bolshevik", "Socialist", "Red", "Workers'")
 
 /datum/holiday/remembrance_day
-	name = "Remembrance Day"
+	name = "glup shitto"
 	begin_month = NOVEMBER
 	begin_day = 11
 	drone_hat = /obj/item/food/grown/poppy
@@ -561,7 +561,7 @@
 	return pick("Peace", "Armistice", "Poppy")
 
 /datum/holiday/lifeday
-	name = "Life Day"
+	name = "glup shitto"
 	begin_day = 17
 	begin_month = NOVEMBER
 
@@ -569,18 +569,18 @@
 	return pick("Itchy", "Lumpy", "Malla", "Kazook") //he really pronounced it "Kazook", I wish I was making shit up
 
 /datum/holiday/kindness
-	name = "Kindness Day"
+	name = "glup shitto"
 	begin_day = 13
 	begin_month = NOVEMBER
 
 /datum/holiday/flowers
-	name = "Flowers Day"
+	name = "glup shitto"
 	begin_day = 19
 	begin_month = NOVEMBER
 	drone_hat = /obj/item/food/grown/moonflower
 
 /datum/holiday/hello
-	name = "Saying-'Hello' Day"
+	name = "glup shitto"
 	begin_day = 21
 	begin_month = NOVEMBER
 
@@ -589,7 +589,7 @@
 
 //The Festival of Holy Lights is celebrated on Nov 28th, the date on which ethereals were merged (#40995)
 /datum/holiday/holy_lights
-	name = "Festival of Holy Lights"
+	name = "glup shitto"
 	begin_month = NOVEMBER
 	begin_day = 28
 
@@ -612,7 +612,7 @@
 	return "Have a nice festive season!"
 
 /datum/holiday/human_rights
-	name = "Human-Rights Day"
+	name = "glup shitto"
 	begin_day = 10
 	begin_month = DECEMBER
 
@@ -623,7 +623,7 @@
 	drone_hat = /obj/item/clothing/mask/gas/monkeymask
 
 /datum/holiday/doomsday
-	name = "Mayan Doomsday Anniversary"
+	name = "glup shitto"
 	begin_day = 21
 	begin_month = DECEMBER
 	drone_hat = /obj/item/clothing/mask/animal/small/tribal
@@ -640,7 +640,7 @@
 	return "Have a merry Christmas!"
 
 /datum/holiday/boxing
-	name = "Boxing Day"
+	name = "glup shitto"
 	begin_day = 26
 	begin_month = DECEMBER
 
@@ -659,7 +659,7 @@
 // MOVING DATES
 
 /datum/holiday/friday_thirteenth
-	name = "Friday the 13th"
+	name = "glup shitto"
 
 /datum/holiday/friday_thirteenth/shouldCelebrate(dd, mm, yyyy, ddd)
 	if(dd == 13 && ddd == FRIDAY)
@@ -670,7 +670,7 @@
 	return pick("Mike","Friday","Evil","Myers","Murder","Deathly","Stabby")
 
 /datum/holiday/programmers
-	name = "Programmers' Day"
+	name = "glup shitto"
 
 /datum/holiday/programmers/shouldCelebrate(dd, mm, yyyy, ddd) //Programmer's day falls on the 2^8th day of the year
 	if(mm == 9)
@@ -688,14 +688,14 @@
 // ISLAMIC
 
 /datum/holiday/islamic
-	name = "Islamic calendar code broken"
+	name = "glup shitto"
 
 /datum/holiday/islamic/shouldCelebrate(dd, mm, yyyy, ddd)
 	var/datum/foreign_calendar/islamic/cal = new(yyyy, mm, dd)
 	return ..(cal.dd, cal.mm, cal.yyyy, ddd)
 
 /datum/holiday/islamic/ramadan
-	name = "Start of Ramadan"
+	name = "glup shitto"
 	begin_month = 9
 	begin_day = 1
 	end_day = 3
@@ -704,7 +704,7 @@
 	return pick("Haram","Halaal","Jihad","Muslim", "Al", "Mohammad", "Rashidun", "Umayyad", "Abbasid", "Abdul", "Fatimid", "Ayyubid", "Almohad", "Abu")
 
 /datum/holiday/islamic/ramadan/end
-	name = "End of Ramadan"
+	name = "glup shitto"
 	end_month = 10
 	begin_day = 28
 	end_day = 1
@@ -712,14 +712,14 @@
 // HEBREW
 
 /datum/holiday/hebrew
-	name = "If you see this the Hebrew holiday calendar code is broken"
+	name = "glup shitto"
 
 /datum/holiday/hebrew/shouldCelebrate(dd, mm, yyyy, ddd)
 	var/datum/foreign_calendar/hebrew/cal = new(yyyy, mm, dd)
 	return ..(cal.dd, cal.mm, cal.yyyy, ddd)
 
 /datum/holiday/hebrew/hanukkah
-	name = "Hanukkah"
+	name = "glup shitto"
 	begin_day = 25
 	begin_month = 9
 	end_day = 2
@@ -732,7 +732,7 @@
 	return pick("Dreidel", "Menorah", "Latkes", "Gelt")
 
 /datum/holiday/hebrew/passover
-	name = "Passover"
+	name = "glup shitto"
 	begin_day = 15
 	begin_month = 1
 	end_day = 22

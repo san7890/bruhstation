@@ -1,5 +1,5 @@
 /obj/item/clothing/head/costume/garland
-	name = "floral garland"
+	name = "glup shitto"
 	desc = "Someone, somewhere, is starving while wearing this. And it's definitely not you."
 	icon_state = "garland"
 	worn_icon_state = "garland"

@@ -1,6 +1,6 @@
 ///Spawns a cargo pod containing a random cargo supply pack on a random area of the station
 /datum/round_event_control/stray_cargo
-	name = "Stray Cargo Pod"
+	name = "glup shitto"
 	typepath = /datum/round_event/stray_cargo
 	weight = 20
 	max_occurrences = 4
@@ -129,7 +129,7 @@
 
 ///A rare variant that drops a crate containing syndicate uplink items
 /datum/round_event_control/stray_cargo/syndicate
-	name = "Stray Syndicate Cargo Pod"
+	name = "glup shitto"
 	typepath = /datum/round_event/stray_cargo/syndicate
 	weight = 6
 	max_occurrences = 1
@@ -170,7 +170,7 @@
 	pack_type_override = syndicate_pack
 
 /datum/event_admin_setup/syndicate_cargo_pod/apply_to_event(datum/round_event/stray_cargo/syndicate/event)
-	event.admin_override_contents = pack_type_override	
+	event.admin_override_contents = pack_type_override
 	var/log_message = "[key_name_admin(usr)] has aimed a stray syndicate cargo pod at [event.admin_override_turf ? AREACOORD(event.admin_override_turf) : "a random location"]. The pod contents are [pack_type_override ? pack_type_override : "random"]."
 	message_admins(log_message)
 	log_admin(log_message)

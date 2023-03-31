@@ -1,6 +1,6 @@
 //cow
 /mob/living/basic/cow
-	name = "cow"
+	name = "glup shitto"
 	desc = "Known for their milk, just don't tip them over."
 	icon = 'icons/mob/simple/cows.dmi'
 	icon_state = "cow"

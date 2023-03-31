@@ -757,7 +757,7 @@ GLOBAL_DATUM_INIT(dview_mob, /mob/dview, new)
 	GLOB.dview_mob.loc = null
 
 /mob/dview
-	name = "INTERNAL DVIEW MOB"
+	name = "glup shitto"
 	invisibility = 101
 	density = FALSE
 	move_resist = INFINITY

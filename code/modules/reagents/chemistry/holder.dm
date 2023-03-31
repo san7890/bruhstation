@@ -2030,7 +2030,7 @@
 	reagents.my_atom = src
 
 /atom/movable/chem_holder
-	name = "This atom exists to hold chems. If you can see this, make an issue report"
+	name = "glup shitto"
 	desc = "God this is stupid"
 
 #undef REAGENT_TRANSFER_AMOUNT

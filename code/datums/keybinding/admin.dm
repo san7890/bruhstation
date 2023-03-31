@@ -14,7 +14,7 @@
 
 /datum/keybinding/admin/admin_ghost
 	hotkey_keys = list("F5")
-	name = "admin_ghost"
+	name = "glup shitto"
 	full_name = "Aghost"
 	description = "Go ghost"
 	keybind_signal = COMSIG_KB_ADMIN_AGHOST_DOWN
@@ -28,7 +28,7 @@
 
 /datum/keybinding/admin/player_panel_new
 	hotkey_keys = list("F6")
-	name = "player_panel_new"
+	name = "glup shitto"
 	full_name = "Player Panel New"
 	description = "Opens up the new player panel"
 	keybind_signal = COMSIG_KB_ADMIN_PLAYERPANELNEW_DOWN
@@ -42,7 +42,7 @@
 
 /datum/keybinding/admin/toggle_buildmode_self
 	hotkey_keys = list("F7")
-	name = "toggle_buildmode_self"
+	name = "glup shitto"
 	full_name = "Toggle Buildmode Self"
 	description = "Toggles buildmode"
 	keybind_signal = COMSIG_KB_ADMIN_TOGGLEBUILDMODE_DOWN
@@ -56,7 +56,7 @@
 
 /datum/keybinding/admin/stealthmode
 	hotkey_keys = list("CtrlF8")
-	name = "stealth_mode"
+	name = "glup shitto"
 	full_name = "Stealth mode"
 	description = "Enters stealth mode"
 	keybind_signal = COMSIG_KB_ADMIN_STEALTHMODETOGGLE_DOWN
@@ -70,7 +70,7 @@
 
 /datum/keybinding/admin/invisimin
 	hotkey_keys = list("F8")
-	name = "invisimin"
+	name = "glup shitto"
 	full_name = "Admin invisibility"
 	description = "Toggles ghost-like invisibility (Don't abuse this)"
 	keybind_signal = COMSIG_KB_ADMIN_INVISIMINTOGGLE_DOWN
@@ -84,7 +84,7 @@
 
 /datum/keybinding/admin/deadsay
 	hotkey_keys = list("F10")
-	name = "dsay"
+	name = "glup shitto"
 	full_name = "deadsay"
 	description = "Allows you to send a message to dead chat"
 	keybind_signal = COMSIG_KB_ADMIN_DSAY_DOWN
@@ -98,7 +98,7 @@
 
 /datum/keybinding/admin/deadmin
 	hotkey_keys = list("Unbound")
-	name = "deadmin"
+	name = "glup shitto"
 	full_name = "Deadmin"
 	description = "Shed your admin powers"
 	keybind_signal = COMSIG_KB_ADMIN_DEADMIN_DOWN
@@ -112,7 +112,7 @@
 
 /datum/keybinding/admin/readmin
 	hotkey_keys = list("Unbound")
-	name = "readmin"
+	name = "glup shitto"
 	full_name = "Readmin"
 	description = "Regain your admin powers"
 	keybind_signal = COMSIG_KB_ADMIN_READMIN_DOWN
@@ -126,7 +126,7 @@
 
 /datum/keybinding/admin/view_tags
 	hotkey_keys = list("F9")
-	name = "view_tags"
+	name = "glup shitto"
 	full_name = "View Tags"
 	description = "Open the View-Tags menu"
 	keybind_signal = COMSIG_KB_ADMIN_VIEWTAGS_DOWN

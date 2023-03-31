@@ -1,6 +1,6 @@
 
 /datum/antagonist/fugitive
-	name = "\improper Fugitive"
+	name = "glup shitto"
 	roundend_category = "Fugitive"
 	job_rank = ROLE_FUGITIVE
 	silent = TRUE //greet called by the event

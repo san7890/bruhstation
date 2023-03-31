@@ -67,7 +67,7 @@
 
 // Unique-ish low risk objectives
 /datum/objective_item/steal/traitor/bartender_shotgun
-	name = "the bartender's shotgun"
+	name = "glup shitto"
 	targetitem = /obj/item/gun/ballistic/shotgun/doublebarrel
 	excludefromjob = list(JOB_BARTENDER)
 	item_owner = list(JOB_BARTENDER)
@@ -77,7 +77,7 @@
 	return add_item_to_steal(src, /obj/item/gun/ballistic/shotgun/doublebarrel)
 
 /datum/objective_item/steal/traitor/fireaxe
-	name = "a fire axe"
+	name = "glup shitto"
 	targetitem = /obj/item/fireaxe
 	excludefromjob = list(
 		JOB_ATMOSPHERIC_TECHNICIAN,
@@ -96,7 +96,7 @@
 	return add_item_to_steal(src, /obj/item/fireaxe)
 
 /datum/objective_item/steal/traitor/big_crowbar
-	name = "a mech removal tool"
+	name = "glup shitto"
 	targetitem = /obj/item/crowbar/mechremoval
 	excludefromjob = list(
 		JOB_RESEARCH_DIRECTOR,
@@ -110,7 +110,7 @@
 	return add_item_to_steal(src, /obj/item/crowbar/mechremoval)
 
 /datum/objective_item/steal/traitor/nullrod
-	name = "the chaplain's null rod"
+	name = "glup shitto"
 	targetitem = /obj/item/nullrod
 	excludefromjob = list(JOB_CHAPLAIN)
 	item_owner = list(JOB_CHAPLAIN)
@@ -120,13 +120,13 @@
 	return add_item_to_steal(src, /obj/item/nullrod)
 
 /datum/objective_item/steal/traitor/clown_shoes
-	name = "the clown's shoes"
+	name = "glup shitto"
 	targetitem = /obj/item/clothing/shoes/clown_shoes
 	excludefromjob = list(JOB_CLOWN, JOB_CARGO_TECHNICIAN, JOB_QUARTERMASTER)
 	item_owner = list(JOB_CLOWN)
 
 /datum/objective_item/steal/traitor/det_revolver
-	name = "detective's revolver"
+	name = "glup shitto"
 	targetitem = /obj/item/gun/ballistic/revolver/c38/detective
 	excludefromjob = list(JOB_DETECTIVE)
 	exists_on_map = TRUE
@@ -135,7 +135,7 @@
 	return add_item_to_steal(src, /obj/item/gun/ballistic/revolver/c38/detective)
 
 /datum/objective_item/steal/traitor/chief_engineer_belt
-	name = "the chief engineer's belt"
+	name = "glup shitto"
 	targetitem = /obj/item/storage/belt/utility/chief
 	excludefromjob = list(JOB_CHIEF_ENGINEER)
 	exists_on_map = TRUE
@@ -144,7 +144,7 @@
 	return add_item_to_steal(src, /obj/item/storage/belt/utility/chief)
 
 /datum/objective_item/steal/traitor/telebaton
-	name = "a head of staff's telescopic baton"
+	name = "glup shitto"
 	targetitem = /obj/item/melee/baton/telescopic
 	excludefromjob = list(
 		JOB_RESEARCH_DIRECTOR,
@@ -160,7 +160,7 @@
 	return add_item_to_steal(src, /obj/item/melee/baton/telescopic)
 
 /datum/objective_item/steal/traitor/cargo_budget
-	name = "cargo's departmental budget"
+	name = "glup shitto"
 	targetitem = /obj/item/card/id/departmental_budget/car
 	excludefromjob = list(JOB_QUARTERMASTER, JOB_CARGO_TECHNICIAN)
 	item_owner = list(JOB_QUARTERMASTER)
@@ -170,7 +170,7 @@
 	return add_item_to_steal(src, /obj/item/card/id/departmental_budget/car)
 
 /datum/objective_item/steal/traitor/captain_modsuit
-	name = "the captain's magnate MOD control unit"
+	name = "glup shitto"
 	targetitem = /obj/item/mod/control/pre_equipped/magnate
 	excludefromjob = list(JOB_CAPTAIN)
 	exists_on_map = TRUE
@@ -179,7 +179,7 @@
 	return add_item_to_steal(src, /obj/item/mod/control/pre_equipped/magnate)
 
 /datum/objective_item/steal/traitor/captain_spare
-	name = "the captain's spare ID"
+	name = "glup shitto"
 	targetitem = /obj/item/card/id/advanced/gold/captains_spare
 	excludefromjob = list(
 		JOB_RESEARCH_DIRECTOR,
@@ -198,7 +198,7 @@
 
 // Will always generate even with no Captain due to its security and temptation to use it
 /datum/objective_item/steal/caplaser
-	name = "the captain's antique laser gun"
+	name = "glup shitto"
 	targetitem = /obj/item/gun/energy/laser/captain
 	excludefromjob = list(JOB_CAPTAIN)
 	exists_on_map = TRUE
@@ -207,7 +207,7 @@
 	return add_item_to_steal(src, /obj/item/gun/energy/laser/captain)
 
 /datum/objective_item/steal/hoslaser
-	name = "the head of security's personal laser gun"
+	name = "glup shitto"
 	targetitem = /obj/item/gun/energy/e_gun/hos
 	excludefromjob = list(JOB_HEAD_OF_SECURITY)
 	item_owner = list(JOB_HEAD_OF_SECURITY)
@@ -217,7 +217,7 @@
 	return add_item_to_steal(src, /obj/item/gun/energy/e_gun/hos)
 
 /datum/objective_item/steal/handtele
-	name = "a hand teleporter"
+	name = "glup shitto"
 	targetitem = /obj/item/hand_tele
 	excludefromjob = list(JOB_CAPTAIN, JOB_RESEARCH_DIRECTOR, JOB_HEAD_OF_PERSONNEL)
 	item_owner = list(JOB_CAPTAIN, JOB_RESEARCH_DIRECTOR)
@@ -227,7 +227,7 @@
 	return add_item_to_steal(src, /obj/item/hand_tele)
 
 /datum/objective_item/steal/jetpack
-	name = "the Captain's jetpack"
+	name = "glup shitto"
 	targetitem = /obj/item/tank/jetpack/oxygen/captain
 	excludefromjob = list(JOB_CAPTAIN)
 	item_owner = list(JOB_CAPTAIN)
@@ -237,7 +237,7 @@
 	return add_item_to_steal(src, /obj/item/tank/jetpack/oxygen/captain)
 
 /datum/objective_item/steal/magboots
-	name = "the chief engineer's advanced magnetic boots"
+	name = "glup shitto"
 	targetitem = /obj/item/clothing/shoes/magboots/advance
 	excludefromjob = list(JOB_CHIEF_ENGINEER)
 	item_owner = list(JOB_CHIEF_ENGINEER)
@@ -247,7 +247,7 @@
 	return add_item_to_steal(src, /obj/item/clothing/shoes/magboots/advance)
 
 /datum/objective_item/steal/capmedal
-	name = "the medal of captaincy"
+	name = "glup shitto"
 	targetitem = /obj/item/clothing/accessory/medal/gold/captain
 	excludefromjob = list(JOB_CAPTAIN)
 	item_owner = list(JOB_CAPTAIN)
@@ -257,7 +257,7 @@
 	return add_item_to_steal(src, /obj/item/clothing/accessory/medal/gold/captain)
 
 /datum/objective_item/steal/hypo
-	name = "the hypospray"
+	name = "glup shitto"
 	targetitem = /obj/item/reagent_containers/hypospray/cmo
 	excludefromjob = list(JOB_CHIEF_MEDICAL_OFFICER)
 	item_owner = list(JOB_CHIEF_MEDICAL_OFFICER)
@@ -267,7 +267,7 @@
 	return add_item_to_steal(src, /obj/item/reagent_containers/hypospray/cmo)
 
 /datum/objective_item/steal/nukedisc
-	name = "the nuclear authentication disk"
+	name = "glup shitto"
 	targetitem = /obj/item/disk/nuclear
 	excludefromjob = list(JOB_CAPTAIN)
 
@@ -278,7 +278,7 @@
 	return !N.fake
 
 /datum/objective_item/steal/reflector
-	name = "a reflector trenchcoat"
+	name = "glup shitto"
 	targetitem = /obj/item/clothing/suit/hooded/ablative
 	excludefromjob = list(JOB_HEAD_OF_SECURITY, JOB_WARDEN)
 	item_owner = list(JOB_HEAD_OF_SECURITY)
@@ -288,7 +288,7 @@
 	return add_item_to_steal(src, /obj/item/clothing/suit/hooded/ablative)
 
 /datum/objective_item/steal/reactive
-	name = "the reactive teleport armor"
+	name = "glup shitto"
 	targetitem = /obj/item/clothing/suit/armor/reactive/teleport
 	excludefromjob = list(JOB_RESEARCH_DIRECTOR)
 	item_owner = list(JOB_RESEARCH_DIRECTOR)
@@ -298,7 +298,7 @@
 	return add_item_to_steal(src, /obj/item/clothing/suit/armor/reactive/teleport)
 
 /datum/objective_item/steal/documents
-	name = "any set of secret documents of any organization"
+	name = "glup shitto"
 	targetitem = /obj/item/documents
 	exists_on_map = TRUE
 
@@ -306,7 +306,7 @@
 	return add_item_to_steal(src, /obj/item/documents) //Any set of secret documents. Doesn't have to be NT's
 
 /datum/objective_item/steal/nuke_core
-	name = "the heavily radioactive plutonium core from the onboard self-destruct"
+	name = "glup shitto"
 	valid_containers = list(/obj/item/nuke_core_container)
 	targetitem = /obj/item/nuke_core
 	exists_on_map = TRUE
@@ -319,7 +319,7 @@
 	..()
 
 /datum/objective_item/steal/hdd_extraction
-	name = "the source code for Project Goon from the master R&D server mainframe"
+	name = "glup shitto"
 	targetitem = /obj/item/computer_disk/hdd_theft
 	excludefromjob = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_ROBOTICIST, JOB_GENETICIST)
 	item_owner = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST)
@@ -334,7 +334,7 @@
 
 
 /datum/objective_item/steal/supermatter
-	name = "a sliver of a supermatter crystal"
+	name = "glup shitto"
 	targetitem = /obj/item/nuke_core/supermatter_sliver
 	valid_containers = list(/obj/item/nuke_core_container/supermatter)
 
@@ -347,7 +347,7 @@
 
 // Doesn't need item_owner = (JOB_AI) because this handily functions as a murder objective if there isn't one
 /datum/objective_item/steal/functionalai
-	name = "a functional AI"
+	name = "glup shitto"
 	targetitem = /obj/item/aicard
 
 /datum/objective_item/steal/functionalai/New()
@@ -373,7 +373,7 @@
 	return FALSE
 
 /datum/objective_item/steal/blueprints
-	name = "the station blueprints"
+	name = "glup shitto"
 	targetitem = /obj/item/areaeditor/blueprints
 	excludefromjob = list(JOB_CHIEF_ENGINEER)
 	item_owner = list(JOB_CHIEF_ENGINEER)
@@ -393,7 +393,7 @@
 	return FALSE
 
 /datum/objective_item/steal/blackbox
-	name = "the Blackbox"
+	name = "glup shitto"
 	targetitem = /obj/item/blackbox
 	excludefromjob = list(JOB_CHIEF_ENGINEER, JOB_STATION_ENGINEER, JOB_ATMOSPHERIC_TECHNICIAN)
 	exists_on_map = TRUE

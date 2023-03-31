@@ -5,7 +5,7 @@
 	group = "Outsourced"
 
 /datum/supply_pack/exploration/scrapyard
-	name = "Scrapyard Crate"
+	name = "glup shitto"
 	desc = "Outsourced crate containing various junk."
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/relic,
@@ -14,7 +14,7 @@
 	crate_name = "scrapyard crate"
 
 /datum/supply_pack/exploration/catering
-	name = "Catering Crate"
+	name = "glup shitto"
 	desc = "No cook? No problem! Food quality may vary depending on provider."
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/food/sandwich = 5)
@@ -31,7 +31,7 @@
 		food_item.AddComponent(/datum/component/edible, foodtypes = GROSS)
 
 /datum/supply_pack/exploration/shrubbery
-	name = "Shrubbery Crate"
+	name = "glup shitto"
 	desc = "Crate full of hedge shrubs."
 	cost = CARGO_CRATE_VALUE * 5
 	crate_name = "shrubbery crate"

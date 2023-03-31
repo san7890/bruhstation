@@ -1,5 +1,5 @@
 /datum/surgery/organ_manipulation
-	name = "Organ manipulation"
+	name = "glup shitto"
 	surgery_flags = SURGERY_REQUIRE_RESTING | SURGERY_REQUIRE_LIMB | SURGERY_REQUIRES_REAL_LIMB
 	possible_locs = list(BODY_ZONE_CHEST, BODY_ZONE_HEAD)
 	steps = list(
@@ -24,7 +24,7 @@
 	)
 
 /datum/surgery/organ_manipulation/alien
-	name = "Alien organ manipulation"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_CHEST, BODY_ZONE_HEAD, BODY_ZONE_PRECISE_GROIN, BODY_ZONE_PRECISE_EYES, BODY_ZONE_PRECISE_MOUTH, BODY_ZONE_L_ARM, BODY_ZONE_R_ARM)
 	target_mobtypes = list(/mob/living/carbon/alien/adult)
 	steps = list(
@@ -37,7 +37,7 @@
 	)
 
 /datum/surgery/organ_manipulation/mechanic
-	name = "Prosthesis organ manipulation"
+	name = "glup shitto"
 	requires_bodypart_type = BODYTYPE_ROBOTIC
 	surgery_flags = SURGERY_SELF_OPERABLE | SURGERY_REQUIRE_LIMB
 	possible_locs = list(BODY_ZONE_CHEST, BODY_ZONE_HEAD)
@@ -92,7 +92,7 @@
 	)
 
 /datum/surgery/organ_manipulation/external
-	name = "Feature manipulation"
+	name = "glup shitto"
 	possible_locs = list(
 		BODY_ZONE_CHEST,
 		BODY_ZONE_HEAD,
@@ -111,7 +111,7 @@
 
 ///Organ manipulation base class. Do not use, it wont work. Use it's subtypes
 /datum/surgery_step/manipulate_organs
-	name = "manipulate organs"
+	name = "glup shitto"
 	repeatable = TRUE
 	implements = list(
 		/obj/item/organ = 100,
@@ -266,7 +266,7 @@
 ///Surgery step for internal organs, like hearts and brains
 /datum/surgery_step/manipulate_organs/internal
 	time = 6.4 SECONDS
-	name = "manipulate organs (hemostat/organ)"
+	name = "glup shitto"
 
 ///only operate on internal organs
 /datum/surgery_step/manipulate_organs/internal/can_use_organ(mob/user, obj/item/organ/organ)
@@ -275,7 +275,7 @@
 ///Surgery step for external organs/features, like tails, frills, wings etc
 /datum/surgery_step/manipulate_organs/external
 	time = 3.2 SECONDS
-	name = "manipulate features (hemostat/feature)"
+	name = "glup shitto"
 
 ///Only operate on external organs
 /datum/surgery_step/manipulate_organs/external/can_use_organ(mob/user, obj/item/organ/organ)

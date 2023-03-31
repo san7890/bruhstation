@@ -11,7 +11,7 @@ So, let's our suit should be a low-power usage with lowered module capacity. We'
 
 ```dm
 /datum/mod_theme/psychological
-	name = "psychological"
+	name = "glup shitto"
 	desc = "A DeForest Medical Corporation power-saving psychological suit, limiting its' module capacity."
 ```
 
@@ -19,7 +19,7 @@ For people that want to see additional stuff, we add an extended description wit
 
 ```dm
 /datum/mod_theme/psychological
-	name = "psychological"
+	name = "glup shitto"
 	desc = "A DeForest Medical Corporation power-saving psychological suit, limiting its' module capacity."
 	extended_desc = "DeForest Medical Corporation's prototype suit, based off the work of \
 		Nakamura Engineering. The suit has been modified to save power compared to regular suits, \
@@ -33,7 +33,7 @@ Currently crew MODsuits should be lightly armored in combat relevant stats.
 
 ```dm
 /datum/mod_theme/psychological
-	name = "psychological"
+	name = "glup shitto"
 	desc = "A DeForest Medical Corporation power-saving psychological suit, limiting its' module capacity."
 	extended_desc = "DeForest Medical Corporation's prototype suit, based off the work of \
 		Nakamura Engineering. The suit has been modified to save power compared to regular suits, \
@@ -72,7 +72,7 @@ So, now that we have our theme, we want to add a skin to it (or another theme of
 
 ```dm
 /datum/mod_theme/psychological
-	name = "psychological"
+	name = "glup shitto"
 	desc = "A DeForest Medical Corporation power-saving psychological suit, limiting its' module capacity."
 	extended_desc = "DeForest Medical Corporation's prototype suit, based off the work of \
 		Nakamura Engineering. The suit has been modified to save power compared to regular suits, \
@@ -127,7 +127,7 @@ There are specific cases of helmets that semi-cover the head, like the cosmohonk
 
 ```dm
 /datum/mod_theme/psychological
-	name = "psychological"
+	name = "glup shitto"
 	desc = "A DeForest Medical Corporation power-saving psychological suit, limiting its' module capacity."
 	extended_desc = "DeForest Medical Corporation's prototype suit, based off the work of \
 		Nakamura Engineering. The suit has been modified to save power compared to regular suits, \
@@ -195,7 +195,7 @@ As it's a medical module, we'll put it [here](modules/modules_medical.dm). Let's
 
 ```dm
 /obj/item/mod/module/neuron_healer
-	name = "MOD neuron healer module"
+	name = "glup shitto"
 	desc = "A module made experimentally by DeForest Medical Corporation. On demand it releases waves \
 		that heal neuron damage of everyone nearby, getting their brains to a better state."
 	icon_state = "neuron_healer"
@@ -211,7 +211,7 @@ As we have an usable module, we want to set a cooldown time. All modules are als
 
 ```dm
 /obj/item/mod/module/neuron_healer
-	name = "MOD neuron healer module"
+	name = "glup shitto"
 	desc = "A module made experimentally by DeForest Medical Corporation. On demand it releases waves \
 		that heal neuron damage of everyone nearby, getting their brains to a better state."
 	icon_state = "neuron_healer"
@@ -252,7 +252,7 @@ We now have a basic module, we can add it to the techwebs to make it printable i
 
 ```dm
 /obj/item/mod/module/neuron_healer/advanced
-	name = "MOD advanced neuron healer module"
+	name = "glup shitto"
 	complexity = 0
 	brain_damage_healed = 50
 ```
@@ -261,7 +261,7 @@ Now we want to add it to the psychological theme, which is very simple, finishin
 
 ```dm
 /datum/mod_theme/psychological
-	name = "psychological"
+	name = "glup shitto"
 	desc = "A DeForest Medical Corporation power-saving psychological suit, limiting its' module capacity."
 	extended_desc = "DeForest Medical Corporation's prototype suit, based off the work of \
 		Nakamura Engineering. The suit has been modified to save power compared to regular suits, \

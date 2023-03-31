@@ -3,7 +3,7 @@
 //don't even bother looking for recipes for these
 
 /obj/item/food/candy
-	name = "candy"
+	name = "glup shitto"
 	desc = "Nougat love it or hate it."
 	icon_state = "candy"
 	trash_type = /obj/item/trash/candy
@@ -18,7 +18,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/candy/bronx
-	name = "\improper South Bronx Paradise bar"
+	name = "glup shitto"
 	desc = "Lose weight, guaranteed! Caramel Mocha Flavor. Something about product consumption..."
 	icon_state = "bronx"
 	inhand_icon_state = "candy"
@@ -56,7 +56,7 @@
 		revelation = TRUE
 
 /obj/item/food/sosjerky
-	name = "\improper Scaredy's Private Reserve Beef Jerky"
+	name = "glup shitto"
 	icon_state = "sosjerky"
 	desc = "Beef jerky made from the finest space cows."
 	trash_type = /obj/item/trash/sosjerky
@@ -71,7 +71,7 @@
 	foodtypes = JUNKFOOD | MEAT | SUGAR
 
 /obj/item/food/sosjerky/healthy
-	name = "homemade beef jerky"
+	name = "glup shitto"
 	desc = "Homemade beef jerky made from the finest space cows."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment/protein = 6,
@@ -80,7 +80,7 @@
 	junkiness = 0
 
 /obj/item/food/chips
-	name = "chips"
+	name = "glup shitto"
 	desc = "Commander Riker's What-The-Crisps."
 	icon_state = "chips"
 	trash_type = /obj/item/trash/chips
@@ -100,7 +100,7 @@
 		AddElement(/datum/element/food_trash, trash_type, FOOD_TRASH_POPABLE)
 
 /obj/item/food/chips/shrimp
-	name = "shrimp chips"
+	name = "glup shitto"
 	desc = "Deep-fried, shrimp flavored chips. A favorite junkfood among seafood connoisseurs!"
 	icon_state = "shrimp_chips"
 	trash_type = /obj/item/trash/shrimp_chips
@@ -115,7 +115,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/no_raisin
-	name = "\improper 4no raisins"
+	name = "glup shitto"
 	icon_state = "4no_raisins"
 	desc = "Best raisins in the universe. Not sure why."
 	trash_type = /obj/item/trash/raisins
@@ -131,7 +131,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/no_raisin/healthy
-	name = "homemade raisins"
+	name = "glup shitto"
 	desc = "Homemade raisins, the best in all of spess."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 3,
@@ -142,7 +142,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/spacetwinkie
-	name = "\improper Space Twinkie"
+	name = "glup shitto"
 	icon_state = "space_twinkie"
 	desc = "Guaranteed to survive longer than you will."
 	food_reagents = list(/datum/reagent/consumable/sugar = 4)
@@ -153,7 +153,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/candy_trash
-	name = "candy cigarette butt"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/masks.dmi'
 	icon_state = "candybum"
 	desc = "The leftover from a smoked-out candy cigarette. Can be eaten!"
@@ -175,7 +175,7 @@
 	)
 
 /obj/item/food/cheesiehonkers
-	name = "\improper Cheesie Honkers"
+	name = "glup shitto"
 	desc = "Bite sized cheesie snacks that will honk all over your mouth."
 	icon_state = "cheesie_honkers"
 	trash_type = /obj/item/trash/cheesie
@@ -189,7 +189,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/syndicake
-	name = "\improper Syndi-Cakes"
+	name = "glup shitto"
 	icon_state = "syndi_cakes"
 	desc = "An extremely moist snack cake that tastes just as good after being nuked."
 	trash_type = /obj/item/trash/syndi_cakes
@@ -202,7 +202,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/energybar
-	name = "\improper High-power energy bars"
+	name = "glup shitto"
 	icon_state = "energybar"
 	desc = "An energy bar with a lot of punch, you probably shouldn't eat this if you're not an Ethereal."
 	trash_type = /obj/item/trash/energybar
@@ -216,7 +216,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/peanuts
-	name = "\improper Gallery's peanuts"
+	name = "glup shitto"
 	desc = "A favourite amongst the terminally angry."
 	icon_state = "peanuts"
 	trash_type = /obj/item/trash/peanuts
@@ -230,7 +230,7 @@
 	var/safe_for_consumption = TRUE
 
 /obj/item/food/peanuts/salted
-	name = "\improper Gallery's salt reserves peanuts"
+	name = "glup shitto"
 	desc = "Tastes salty."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -239,7 +239,7 @@
 	tastes = list("peanuts" = 3, "salt" = 1, "high blood pressure" = 1)
 
 /obj/item/food/peanuts/wasabi
-	name = "\improper Gallery's raging wasabi peanuts"
+	name = "glup shitto"
 	desc = "The angriest of all peanut flavours."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -248,7 +248,7 @@
 	tastes = list("peanuts" = 3, "wasabi" = 1, "rage" = 1)
 
 /obj/item/food/peanuts/honey_roasted
-	name = "\improper Gallery's delete sweet peanuts"
+	name = "glup shitto"
 	desc = "Oddly bitter for a sweet treat."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -257,7 +257,7 @@
 	tastes = list("peanuts" = 3, "honey" = 1, "bitterness" = 1)
 
 /obj/item/food/peanuts/barbecue
-	name = "\improper Gallery's IDEDBBQ peanuts"
+	name = "glup shitto"
 	desc = "Where there's smoke, there's not necessarily fire- sometimes it's just BBQ sauce."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -266,7 +266,7 @@
 	tastes = list("peanuts" = 3, "bbq sauce" = 1, "arguments" = 1)
 
 /obj/item/food/peanuts/ban_appeal
-	name = "\improper Gallery's peanuts Ban Appel mix"
+	name = "glup shitto"
 	desc = "An ill-fated attempt at trail mix, banned in 6 sectors. Yearly lobbying to overturn is denied not because the apples are toxic, but because they keep evading the ban."
 	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 2,
@@ -276,7 +276,7 @@
 	safe_for_consumption = FALSE
 
 /obj/item/food/peanuts/random
-	name = "\improper Gallery's every-flavour peanuts"
+	name = "glup shitto"
 	desc = "What flavour will you get?"
 	icon_state = "peanuts"
 	safe_for_consumption = FALSE
@@ -305,7 +305,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	. = ..()
 
 /obj/item/food/cnds
-	name = "\improper C&Ds"
+	name = "glup shitto"
 	desc = "Legally, we cannot say that these won't melt in your hands."
 	icon_state = "cnds"
 	trash_type = /obj/item/trash/cnds
@@ -323,7 +323,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	return TOXLOSS
 
 /obj/item/food/cnds/caramel
-	name = "caramel C&Ds"
+	name = "glup shitto"
 	desc = "Stuffed with sugary sweet caramel, making them a diabetic's worst nightmare."
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
@@ -333,7 +333,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("chocolate candy" = 2, "caramel" = 1)
 
 /obj/item/food/cnds/pretzel
-	name = "pretzel C&Ds"
+	name = "glup shitto"
 	desc = "Eine köstliche Begleitung zu Ihrem Lieblingsbier."
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
@@ -344,7 +344,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	foodtypes = JUNKFOOD | GRAIN
 
 /obj/item/food/cnds/peanut_butter
-	name = "peanut butter C&Ds"
+	name = "glup shitto"
 	desc = "Beloved by small children and aliens alike."
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
@@ -354,7 +354,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("chocolate candy" = 2, "peanut butter" = 1)
 
 /obj/item/food/cnds/banana_honk
-	name = "banana honk C&Ds"
+	name = "glup shitto"
 	desc = "The official candy of clowns everywhere. Honk honk!"
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 2,
@@ -364,7 +364,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("chocolate candy" = 2, "banana" = 1)
 
 /obj/item/food/cnds/random
-	name = "mystery filled C&Ds"
+	name = "glup shitto"
 	desc = "Filled with one of four delicious flavours!"
 
 /obj/item/food/cnds/random/Initialize(mapload)
@@ -380,7 +380,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	. = ..()
 
 /obj/item/food/pistachios
-	name = "\improper Sweetie's Pistachios"
+	name = "glup shitto"
 	desc = "A pack of Sweetie's brand premium pistacios."
 	icon_state = "pistachio"
 	trash_type = /obj/item/trash/pistachios
@@ -396,7 +396,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	grind_results = list(/datum/reagent/consumable/peanut_butter = 5, /datum/reagent/consumable/cooking_oil = 2)
 
 /obj/item/food/semki
-	name = "\improper Semki Sunflower Seeds"
+	name = "glup shitto"
 	desc = "A pack of roasted sunflower seeds. Beloved by space russians and babushka alike."
 	icon_state = "semki"
 	trash_type = /obj/item/trash/semki
@@ -412,7 +412,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/semki/healthy
-	name = "roasted sunflower seeds"
+	name = "glup shitto"
 	desc = "Homemade roasted sunflower seeds in a paper cup. A healthy and filling snack to nibble as you watch people pass."
 	icon_state = "sunseeds"
 	food_reagents = list(
@@ -425,7 +425,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	trash_type = /obj/item/trash/semki/healthy
 
 /obj/item/food/cornchips
-	name = "\improper Boritos corn chips"
+	name = "glup shitto"
 	desc = "Triangular corn chips. They do seem a bit bland but would probably go well with some kind of dipping sauce."
 	icon_state = "boritos"
 	trash_type = /obj/item/trash/boritos
@@ -445,7 +445,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	AddElement(/datum/element/food_trash, trash_type, FOOD_TRASH_POPABLE)
 
 /obj/item/food/cornchips/blue
-	name = "\improper Coolest Ranch Boritos corn chips"
+	name = "glup shitto"
 	desc = "Which came first, ranch or cool ranch?"
 	icon_state = "boritos"
 	trash_type = /obj/item/trash/boritos
@@ -459,7 +459,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("fried corn" = 1, "coolest ranch" = 3)
 
 /obj/item/food/cornchips/green
-	name = "\improper Spess Salsa Boritos corn chips"
+	name = "glup shitto"
 	desc = "It has the salsa baked in, so you don't need dip."
 	icon_state = "boritosgreen"
 	trash_type = /obj/item/trash/boritos/green
@@ -473,7 +473,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("fried corn" = 1, "spess salsa" = 3)
 
 /obj/item/food/cornchips/red
-	name = "\improper Nacho Cheese Boritos corn chips"
+	name = "glup shitto"
 	desc = "Notorious for helping cover everything you touch in orange cheese dust."
 	icon_state = "boritosred"
 	trash_type = /obj/item/trash/boritos/red
@@ -487,7 +487,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("fried corn" = 1, "nacho cheese" = 3)
 
 /obj/item/food/cornchips/purple
-	name = "\improper Spicy Sweet Chili Boritos corn chips"
+	name = "glup shitto"
 	desc = "The only flavour that actually tastes spicy like proper nachos."
 	icon_state = "boritospurple"
 	trash_type = /obj/item/trash/boritos/purple
@@ -501,7 +501,7 @@ GLOBAL_LIST_INIT(safe_peanut_types, populate_safe_peanut_types())
 	tastes = list("fried corn" = 1, "spicy & sweet chili" = 3)
 
 /obj/item/food/cornchips/random
-	name = "\improper Boritos cornchips"
+	name = "glup shitto"
 	desc = "Filled with one of four delicious flavours!"
 
 /obj/item/food/cornchips/random/Initialize(mapload)

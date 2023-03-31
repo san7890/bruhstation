@@ -1,5 +1,5 @@
 /obj/projectile/energy/dart //ninja throwing dart
-	name = "dart"
+	name = "glup shitto"
 	icon_state = "toxin"
 	damage = 5
 	damage_type = TOX

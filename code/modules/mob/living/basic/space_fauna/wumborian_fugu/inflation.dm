@@ -4,7 +4,7 @@
  * Unfortunately the requirements here are specific enough that it kind of only works for the mob it is designed for.
  */
 /datum/action/cooldown/fugu_expand
-	name = "Inflate"
+	name = "glup shitto"
 	desc = "Temporarily increases your size, making you significantly more dangerous and durable!"
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
 	button_icon_state = "expand"
@@ -41,7 +41,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/inflated
 
 /atom/movable/screen/alert/status_effect/inflated
-	name = "WUMBO"
+	name = "glup shitto"
 	desc = "You feel big and strong!"
 	icon_state = "gross"
 

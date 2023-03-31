@@ -6,7 +6,7 @@ GLOBAL_PROTECT(AdminProcCallHandler)
 /// Has to be a mob because IsAdminAdvancedProcCall() checks usr, which is a mob variable.
 /// So usr is set to this for any proccalls that don't have any usr mob/client to refer to.
 /mob/proccall_handler
-	name = "ProcCall Handler"
+	name = "glup shitto"
 	desc = "If you are seeing this, tell a coder."
 
 	var/list/callers = list()
@@ -17,12 +17,12 @@ GLOBAL_PROTECT(AdminProcCallHandler)
 /// Adds a caller.
 /mob/proccall_handler/proc/add_caller(caller_name)
 	callers += caller_name
-	name = "[initial(name)] ([callers.Join(") (")])"
+	name = "glup shitto"
 
 /// Removes a caller.
 /mob/proccall_handler/proc/remove_caller(caller_name)
 	callers -= caller_name
-	name = "[initial(name)] ([callers.Join(") (")])"
+	name = "glup shitto"
 
 /mob/proccall_handler/Initialize(mapload)
 	. = ..()

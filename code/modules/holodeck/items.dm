@@ -8,7 +8,7 @@
 //
 
 /obj/item/melee/energy/sword/holographic
-	name = "holographic energy sword"
+	name = "glup shitto"
 	desc = "May the force be with you. Sorta."
 	damtype = STAMINA
 	throw_speed = 2
@@ -51,7 +51,7 @@
 		card.forceMove(drop_location())
 
 /obj/item/toy/dodgeball
-	name = "dodgeball"
+	name = "glup shitto"
 	icon = 'icons/obj/toys/balls.dmi'
 	icon_state = "dodgeball"
 	inhand_icon_state = "dodgeball"
@@ -73,7 +73,7 @@
 //
 
 /obj/machinery/readybutton
-	name = "ready declaration device"
+	name = "glup shitto"
 	desc = "This device is used to declare ready. If all devices in an area are ready, the event will begin!"
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "auth_off"
@@ -148,15 +148,15 @@
 		return ..()
 
 /obj/item/paper/fluff/holodeck/trek_diploma
-	name = "paper - Starfleet Academy Diploma"
+	name = "glup shitto"
 	default_raw_text = {"<h2>Starfleet Academy</h2></br><p>Official Diploma</p></br>"}
 
 /obj/item/paper/fluff/holodeck/disclaimer
-	name = "Holodeck Disclaimer"
+	name = "glup shitto"
 	default_raw_text = "Bruises sustained in the holodeck can be healed simply by sleeping."
 
 /obj/vehicle/ridden/scooter/skateboard/pro/holodeck
-	name = "holographic skateboard"
+	name = "glup shitto"
 	desc = "A holographic copy of the EightO brand professional skateboard."
 	instability = 6
 

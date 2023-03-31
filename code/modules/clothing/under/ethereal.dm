@@ -1,5 +1,5 @@
 /obj/item/clothing/under/ethereal_tunic
-	name = "ethereal tunic"
+	name = "glup shitto"
 	desc = "A simple sleeveless tunic worn over an undersuit, it glows in the dark!"
 	icon = 'icons/obj/clothing/under/ethereal.dmi'
 	icon_state = "eth_tunic"
@@ -24,7 +24,7 @@
 	. += emissive_appearance('icons/obj/clothing/under/ethereal.dmi', "eth_tunic_emissive", offset_spokesman = src, alpha = src.alpha)
 
 /obj/item/clothing/under/ethereal_tunic/trailwarden
-	name = "trailwarden tunic"
+	name = "glup shitto"
 	desc = "Farmers and pilgrims would commonly find their clothes permanently stained from years of wading through the mud and bioluminescent flora of Sprout, eventually it became customary to dye clothes to replicate this effect purposefully."
 	greyscale_colors = "#32a87d"
 

@@ -1,6 +1,6 @@
 /obj/item/clothing/mask/breath
 	desc = "A close-fitting mask that can be connected to an air supply."
-	name = "breath mask"
+	name = "glup shitto"
 	icon_state = "breath"
 	inhand_icon_state = "m_mask"
 	body_parts_covered = 0
@@ -34,7 +34,7 @@
 
 /obj/item/clothing/mask/breath/medical
 	desc = "A close-fitting sterile mask that can be connected to an air supply."
-	name = "medical mask"
+	name = "glup shitto"
 	icon_state = "medical"
 	inhand_icon_state = "m_mask"
 	armor_type = /datum/armor/breath_medical

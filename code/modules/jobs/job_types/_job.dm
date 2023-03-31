@@ -271,7 +271,7 @@
 	to_chat(M, "<b>Prefix your message with :h to speak on your department's radio. To see other prefixes, look closely at your headset.</b>")
 
 /datum/outfit/job
-	name = "Standard Gear"
+	name = "glup shitto"
 
 	var/jobtype = null
 

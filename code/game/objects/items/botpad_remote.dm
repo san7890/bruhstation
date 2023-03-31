@@ -1,5 +1,5 @@
 /obj/item/botpad_remote
-	name = "Bot pad controller"
+	name = "glup shitto"
 	desc = "Use this device to control the connected bot pad."
 	desc_controls = "Left-click for launch, right-click for recall."
 	icon = 'icons/obj/device.dmi'

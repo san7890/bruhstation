@@ -9,7 +9,7 @@
 *	The Original Series (Technically not THE original because these have a black undershirt while the very-original didn't but IDC)
 */
 /obj/item/clothing/under/trek/command
-	name = "command uniform"
+	name = "glup shitto"
 	desc = "An outdated uniform worn by command officers."
 	icon_state = "trek_tos_com" //Shirt has gold wrist-bands
 	inhand_icon_state = "y_suit"
@@ -18,7 +18,7 @@
 	greyscale_colors = "#fab342"
 
 /obj/item/clothing/under/trek/engsec
-	name = "engsec uniform"
+	name = "glup shitto"
 	desc = "An outdated uniform worn by engineering/security officers."
 	icon_state = "trek_tos_sec" //Tucked-in shirt
 	inhand_icon_state = "r_suit"
@@ -27,7 +27,7 @@
 	greyscale_colors = "#B72B2F"
 
 /obj/item/clothing/under/trek/medsci
-	name = "medsci uniform"
+	name = "glup shitto"
 	desc = "An outdated worn by medical/science officers."
 	icon_state = "trek_tos"
 	inhand_icon_state = "b_suit"
@@ -78,7 +78,7 @@
 
 //Q
 /obj/item/clothing/under/trek/q
-	name = "french marshall's uniform"
+	name = "glup shitto"
 	desc = "Something about this uniform feels off..."
 	icon_state = "trek_Q"
 	inhand_icon_state = "r_suit"

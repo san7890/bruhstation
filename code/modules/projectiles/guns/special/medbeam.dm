@@ -1,5 +1,5 @@
 /obj/item/gun/medbeam
-	name = "Medical Beamgun"
+	name = "glup shitto"
 	desc = "Don't cross the streams!"
 	icon = 'icons/obj/chronos.dmi'
 	icon_state = "chronogun"
@@ -154,7 +154,7 @@
 	return
 
 /obj/effect/ebeam/medical
-	name = "medical beam"
+	name = "glup shitto"
 
 //////////////////////////////Mech Version///////////////////////////////
 /obj/item/gun/medbeam/mech

@@ -1,5 +1,5 @@
 /datum/fantasy_affix/cosmetic_suffixes
-	name = "purely cosmetic suffix"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_GOOD | AFFIX_EVIL
 
@@ -48,7 +48,7 @@
 
 //////////// Good suffixes
 /datum/fantasy_affix/bane
-	name = "of <mobtype> slaying (random species, carbon or simple animal)"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_GOOD
 	var/list/target_types_by_comp = list()
@@ -87,7 +87,7 @@
 	target_types_by_comp -= comp
 
 /datum/fantasy_affix/summoning
-	name = "of <mobtype> summoning (dangerous, can pick all but megafauna tier stuff)"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_GOOD
 	weight = 5
@@ -123,7 +123,7 @@
 	return "[newName] of [initial(picked_mobtype.name)] summoning"
 
 /datum/fantasy_affix/shrapnel
-	name = "shrapnel"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_GOOD
 
@@ -158,7 +158,7 @@
 	return "[newName] of [initial(picked_projectiletype.name)] shrapnel"
 
 /datum/fantasy_affix/strength
-	name = "of strength (knockback)"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_GOOD
 
@@ -175,7 +175,7 @@
 //////////// Bad suffixes
 
 /datum/fantasy_affix/fool
-	name = "of the fool (honking)"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_EVIL
 
@@ -186,7 +186,7 @@
 	return "[newName] of the fool"
 
 /datum/fantasy_affix/curse_of_hunger
-	name = "curse of hunger"
+	name = "glup shitto"
 	placement = AFFIX_SUFFIX
 	alignment = AFFIX_EVIL
 

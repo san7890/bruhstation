@@ -1,5 +1,5 @@
 /datum/mutation/human/shock
-	name = "Shock Touch"
+	name = "glup shitto"
 	desc = "The affected can channel excess electricity through their hands without shocking themselves, allowing them to shock others."
 	quality = POSITIVE
 	locked = TRUE
@@ -25,7 +25,7 @@
 	to_modify.chain = TRUE
 
 /datum/action/cooldown/spell/touch/shock
-	name = "Shock Touch"
+	name = "glup shitto"
 	desc = "Channel electricity to your hand to shock people with."
 	button_icon_state = "zap"
 	sound = 'sound/weapons/zapbang.ogg'
@@ -80,7 +80,7 @@
 	return TRUE
 
 /obj/item/melee/touch_attack/shock
-	name = "\improper shock touch"
+	name = "glup shitto"
 	desc = "This is kind of like when you rub your feet on a shag rug so you can zap your friends, only a lot less safe."
 	icon_state = "zapper"
 	inhand_icon_state = "zapper"

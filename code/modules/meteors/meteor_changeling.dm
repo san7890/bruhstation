@@ -1,6 +1,6 @@
 
 /obj/effect/meteor/meaty/changeling
-	name = "unsettlingly meaty meteor"
+	name = "glup shitto"
 	desc = "A tightly packed knit of flesh and skin, pulsating with life."
 	icon_state = "changeling"
 	heavy = FALSE

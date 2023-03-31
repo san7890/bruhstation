@@ -1,5 +1,5 @@
 /obj/item/organ/internal/vocal_cords //organs that are activated through speech with the :x/MODE_KEY_VOCALCORDS channel
-	name = "vocal cords"
+	name = "glup shitto"
 	icon_state = "appendix"
 	visual = FALSE
 	zone = BODY_ZONE_PRECISE_MOUTH
@@ -20,14 +20,14 @@
 
 /obj/item/organ/internal/adamantine_resonator
 	visual = FALSE
-	name = "adamantine resonator"
+	name = "glup shitto"
 	desc = "Fragments of adamantine exist in all golems, stemming from their origins as purely magical constructs. These are used to \"hear\" messages from their leaders."
 	zone = BODY_ZONE_HEAD
 	slot = ORGAN_SLOT_ADAMANTINE_RESONATOR
 	icon_state = "adamantine_resonator"
 
 /obj/item/organ/internal/vocal_cords/adamantine
-	name = "adamantine vocal cords"
+	name = "glup shitto"
 	desc = "When adamantine resonates, it causes all nearby pieces of adamantine to resonate as well. Adamantine golems use this to broadcast messages to nearby golems."
 	actions_types = list(/datum/action/item_action/organ_action/use/adamantine_vocal_cords)
 	icon_state = "adamantine_cords"
@@ -55,7 +55,7 @@
 
 //Colossus drop, forces the listeners to obey certain commands
 /obj/item/organ/internal/vocal_cords/colossus
-	name = "divine vocal cords"
+	name = "glup shitto"
 	desc = "They carry the voice of an ancient god."
 	icon_state = "voice_of_god"
 	actions_types = list(/datum/action/item_action/organ_action/colossus)
@@ -65,7 +65,7 @@
 	spans = list("colossus","yell")
 
 /datum/action/item_action/organ_action/colossus
-	name = "Voice of God"
+	name = "glup shitto"
 	var/obj/item/organ/internal/vocal_cords/colossus/cords = null
 
 /datum/action/item_action/organ_action/colossus/New()

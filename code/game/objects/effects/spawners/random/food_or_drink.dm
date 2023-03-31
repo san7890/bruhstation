@@ -1,9 +1,9 @@
 /obj/effect/spawner/random/food_or_drink
-	name = "food or drink loot spawner"
+	name = "glup shitto"
 	desc = "Nom nom nom"
 
 /obj/effect/spawner/random/food_or_drink/donkpockets
-	name = "donk pocket box spawner"
+	name = "glup shitto"
 	icon_state = "donkpocket"
 	loot = list(
 		/obj/item/storage/box/donkpockets,
@@ -15,7 +15,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/donkpockets_single
-	name = "single donk pocket spawner"
+	name = "glup shitto"
 	icon_state = "donkpocket_single"
 	loot = list(
 		/obj/item/food/donkpocket,
@@ -27,7 +27,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/seed
-	name = "seed spawner"
+	name = "glup shitto"
 	icon_state = "seed"
 	loot = list( // The same seeds in the Supply "Seeds Crate"
 		/obj/item/seeds/chili,
@@ -69,7 +69,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/soup
-	name = "soup spawner"
+	name = "glup shitto"
 	icon_state = "soup"
 	loot = list(
 		/obj/item/food/soup/beet,
@@ -81,7 +81,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/salad
-	name = "salad spawner"
+	name = "glup shitto"
 	icon_state = "soup"
 	loot = list(
 		/obj/item/food/salad/herbsalad,
@@ -92,7 +92,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/dinner
-	name = "dinner spawner"
+	name = "glup shitto"
 	icon_state = "soup"
 	loot = list(
 		/obj/item/food/bearsteak,
@@ -104,7 +104,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/three_course_meal
-	name = "three course meal spawner"
+	name = "glup shitto"
 	icon_state = "soup"
 	spawn_all_loot = TRUE
 	loot = list(
@@ -114,7 +114,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage
-	name = "good soda spawner"
+	name = "glup shitto"
 	icon_state = "can"
 	loot = list(
 		/obj/item/reagent_containers/cup/glass/drinkingglass/filled/nuka_cola = 3,
@@ -133,7 +133,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/booze
-	name = "booze spawner"
+	name = "glup shitto"
 	icon_state = "beer"
 	loot = list(
 		/obj/item/reagent_containers/cup/glass/bottle/beer = 75,
@@ -168,7 +168,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/pizzaparty
-	name = "pizza bomb spawner"
+	name = "glup shitto"
 	icon_state = "pizzabox"
 	loot = list(
 		/obj/item/pizzabox/margherita = 2,
@@ -181,7 +181,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/seed_vault
-	name = "seed vault seeds"
+	name = "glup shitto"
 	icon_state = "seed"
 	loot = list(
 		/obj/item/seeds/gatfruit = 10,
@@ -191,7 +191,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/snack
-	name = "snack spawner"
+	name = "glup shitto"
 	icon_state = "chips"
 	loot = list(
 		/obj/item/food/spacetwinkie = 5,
@@ -216,7 +216,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/snack/lizard
-	name = "lizard snack spawner"
+	name = "glup shitto"
 	loot = list(
 		/obj/item/food/brain_pate = 5,
 		/obj/item/food/bread/root = 1,
@@ -229,7 +229,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/condiment
-	name = "condiment spawner"
+	name = "glup shitto"
 	icon_state = "condiment"
 	loot = list(
 		/obj/item/reagent_containers/condiment/saltshaker = 3,
@@ -247,7 +247,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/cups
-	name = "cup spawner"
+	name = "glup shitto"
 	icon_state = "box_small"
 	loot = list(
 		/obj/item/storage/box/drinkingglasses,
@@ -257,7 +257,7 @@
 
 ///Used for the employee birthday station trait
 /obj/effect/spawner/random/food_or_drink/cake_ingredients
-	name = "cake ingredients spawner"
+	name = "glup shitto"
 	icon_state = "cake"
 	spawn_all_loot = TRUE
 	loot = list(

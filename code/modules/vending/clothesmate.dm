@@ -1,5 +1,5 @@
 /obj/machinery/vending/clothing
-	name = "ClothesMate"
+	name = "glup shitto"
 	desc = "A vending machine for clothing."
 	icon_state = "clothes"
 	icon_deny = "clothes-deny"

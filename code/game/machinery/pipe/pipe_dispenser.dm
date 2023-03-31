@@ -3,7 +3,7 @@
 #define TRANSIT_PIPEDISPENSER 2
 
 /obj/machinery/pipedispenser
-	name = "pipe dispenser"
+	name = "glup shitto"
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "pipe_d"
 	desc = "Dispenses countless types of pipes. Very useful if you need pipes."
@@ -176,7 +176,7 @@
 
 
 /obj/machinery/pipedispenser/disposal
-	name = "disposal pipe dispenser"
+	name = "glup shitto"
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "pipe_d"
 	desc = "Dispenses pipes that will ultimately be used to move trash around."
@@ -204,7 +204,7 @@
 //transit tube dispenser
 //inherit disposal for the dragging proc
 /obj/machinery/pipedispenser/disposal/transit_tube
-	name = "transit tube dispenser"
+	name = "glup shitto"
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "pipe_d"
 	density = TRUE

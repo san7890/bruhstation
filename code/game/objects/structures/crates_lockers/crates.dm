@@ -1,5 +1,5 @@
 /obj/structure/closet/crate
-	name = "crate"
+	name = "glup shitto"
 	desc = "A rectangular steel crate."
 	icon = 'icons/obj/storage/crates.dmi'
 	icon_state = "crate"
@@ -96,7 +96,7 @@
 	update_appearance()
 
 /obj/structure/closet/crate/coffin
-	name = "coffin"
+	name = "glup shitto"
 	desc = "It's a burial receptacle for the dearly departed."
 	icon_state = "coffin"
 	resistance_flags = FLAMMABLE
@@ -152,12 +152,12 @@
 
 /obj/structure/closet/crate/internals
 	desc = "An internals crate."
-	name = "internals crate"
+	name = "glup shitto"
 	icon_state = "o2crate"
 
 /obj/structure/closet/crate/trashcart //please make this a generic cart path later after things calm down a little
 	desc = "A heavy, metal trashcart with wheels."
-	name = "trash cart"
+	name = "glup shitto"
 	icon_state = "trashcart"
 	can_install_electronics = FALSE
 
@@ -167,18 +167,18 @@
 		playsound(src, 'sound/effects/roll.ogg', 100, TRUE)
 
 /obj/structure/closet/crate/trashcart/laundry
-	name = "laundry cart"
+	name = "glup shitto"
 	desc = "A large cart for hauling around large amounts of laundry."
 	icon_state = "laundry"
 
 /obj/structure/closet/crate/medical
 	desc = "A medical crate."
-	name = "medical crate"
+	name = "glup shitto"
 	icon_state = "medicalcrate"
 
 /obj/structure/closet/crate/freezer
 	desc = "A freezer."
-	name = "freezer"
+	name = "glup shitto"
 	icon_state = "freezer"
 
 //Snowflake organ freezer code
@@ -201,7 +201,7 @@
 	toggle_organ_decay(src)
 
 /obj/structure/closet/crate/freezer/blood
-	name = "blood freezer"
+	name = "glup shitto"
 	desc = "A freezer containing packs of blood."
 
 /obj/structure/closet/crate/freezer/blood/PopulateContents()
@@ -219,7 +219,7 @@
 		new /obj/item/reagent_containers/blood/random(src)
 
 /obj/structure/closet/crate/freezer/surplus_limbs
-	name = "surplus prosthetic limbs"
+	name = "glup shitto"
 	desc = "A crate containing an assortment of cheap prosthetic limbs."
 
 /obj/structure/closet/crate/freezer/surplus_limbs/PopulateContents()
@@ -235,16 +235,16 @@
 
 /obj/structure/closet/crate/radiation
 	desc = "A crate with a radiation sign on it."
-	name = "radiation crate"
+	name = "glup shitto"
 	icon_state = "radiation"
 
 /obj/structure/closet/crate/hydroponics
-	name = "hydroponics crate"
+	name = "glup shitto"
 	desc = "All you need to destroy those pesky weeds and pests."
 	icon_state = "hydrocrate"
 
 /obj/structure/closet/crate/engineering
-	name = "engineering crate"
+	name = "glup shitto"
 	icon_state = "engi_crate"
 
 /obj/structure/closet/crate/engineering/electrical
@@ -252,7 +252,7 @@
 
 /obj/structure/closet/crate/rcd
 	desc = "A crate for the storage of an RCD."
-	name = "\improper RCD crate"
+	name = "glup shitto"
 	icon_state = "engi_crate"
 
 /obj/structure/closet/crate/rcd/PopulateContents()
@@ -262,12 +262,12 @@
 	new /obj/item/construction/rcd(src)
 
 /obj/structure/closet/crate/science
-	name = "science crate"
+	name = "glup shitto"
 	desc = "A science crate."
 	icon_state = "scicrate"
 
 /obj/structure/closet/crate/solarpanel_small
-	name = "budget solar panel crate"
+	name = "glup shitto"
 	icon_state = "engi_e_crate"
 
 /obj/structure/closet/crate/solarpanel_small/PopulateContents()
@@ -279,7 +279,7 @@
 	new /obj/item/electronics/tracker(src)
 
 /obj/structure/closet/crate/goldcrate
-	name = "gold crate"
+	name = "glup shitto"
 
 /obj/structure/closet/crate/goldcrate/PopulateContents()
 	..()
@@ -292,7 +292,7 @@
 		new /obj/item/stack/sheet/mineral/gold(src, 1, FALSE)
 
 /obj/structure/closet/crate/silvercrate
-	name = "silver crate"
+	name = "glup shitto"
 
 /obj/structure/closet/crate/silvercrate/PopulateContents()
 	..()

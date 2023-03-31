@@ -4,7 +4,7 @@
  * Previously being nonantagonists, they only have one simple objective: survive!
  */
 /datum/antagonist/enemy_of_the_revolution
-	name = "\improper Enemy of the Revolution"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	suicide_cry = "FOR NANOTRASEN, NOW AND FOREVER!!"
 

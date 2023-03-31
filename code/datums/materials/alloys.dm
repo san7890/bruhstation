@@ -1,7 +1,7 @@
 /** Materials made from other materials.
  */
 /datum/material/alloy
-	name = "alloy"
+	name = "glup shitto"
 	desc = "A material composed of two or more other materials."
 	init_flags = NONE
 	/// The materials this alloy is made from weighted by their ratios.
@@ -28,7 +28,7 @@
  * Applies a significant slowdown effect to any and all items that contain it.
  */
 /datum/material/alloy/plasteel
-	name = "plasteel"
+	name = "glup shitto"
 	desc = "The heavy duty result of infusing iron with plasma."
 	color = "#706374"
 	greyscale_colors = "#706374"
@@ -61,7 +61,7 @@
  * An alloy of titanium and plasma.
  */
 /datum/material/alloy/plastitanium
-	name = "plastitanium"
+	name = "glup shitto"
 	desc = "The extremely heat resistant result of infusing titanium with plasma."
 	color = "#3a313a"
 	greyscale_colors = "#3a313a"
@@ -79,7 +79,7 @@
  * An alloy of silicate and plasma.
  */
 /datum/material/alloy/plasmaglass
-	name = "plasmaglass"
+	name = "glup shitto"
 	desc = "Plasma-infused silicate. It is much more durable and heat resistant than either of its component materials."
 	color = "#ff80f4"
 	greyscale_colors = "#ff80f496"
@@ -100,7 +100,7 @@
  * An alloy of glass and titanium.
  */
 /datum/material/alloy/titaniumglass
-	name = "titanium glass"
+	name = "glup shitto"
 	desc = "A specialized silicate-titanium alloy that is commonly used in shuttle windows."
 	color = "#cfbee0"
 	greyscale_colors = "#cfbee096"
@@ -120,7 +120,7 @@
  * An alloy of plastitanium and glass.
  */
 /datum/material/alloy/plastitaniumglass
-	name = "plastitanium glass"
+	name = "glup shitto"
 	desc = "A specialized silicate-plastitanium alloy."
 	color = "#5d3369"
 	greyscale_colors = "#5d336996"
@@ -143,7 +143,7 @@
  * Anything constructed from it can slowly regenerate.
  */
 /datum/material/alloy/alien
-	name = "alien alloy"
+	name = "glup shitto"
 	desc = "An extremely dense alloy similar to plasteel in composition. It requires exotic metallurgical processes to create."
 	color = "#6041aa"
 	greyscale_colors = "#6041aa"

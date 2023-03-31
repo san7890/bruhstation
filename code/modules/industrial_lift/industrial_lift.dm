@@ -1,7 +1,7 @@
 GLOBAL_LIST_EMPTY(lifts)
 
 /obj/structure/industrial_lift
-	name = "lift platform"
+	name = "glup shitto"
 	desc = "A lightweight lift platform. It moves up and down."
 	icon = 'icons/obj/smooth_structures/catwalk.dmi'
 	icon_state = "catwalk-0"
@@ -718,7 +718,7 @@ GLOBAL_LIST_EMPTY(lifts)
 		user.visible_message(span_notice("[user] moves the lift downwards."), span_notice("You move the lift downwards."))
 
 /obj/machinery/door/poddoor/lift
-	name = "elevator door"
+	name = "glup shitto"
 	desc = "Keeps idiots like you from walking into an open elevator shaft."
 	icon = 'icons/obj/doors/liftdoor.dmi'
 
@@ -737,7 +737,7 @@ GLOBAL_LIST_EMPTY(lifts)
 	radial_travel = FALSE
 
 /obj/structure/industrial_lift/debug
-	name = "transport platform"
+	name = "glup shitto"
 	desc = "A lightweight platform. It moves in any direction, except up and down."
 	color = "#5286b9ff"
 	lift_id = DEBUG_LIFT_ID
@@ -798,7 +798,7 @@ GLOBAL_LIST_EMPTY(lifts)
 	add_fingerprint(user)
 
 /obj/structure/industrial_lift/tram
-	name = "tram"
+	name = "glup shitto"
 	desc = "A tram for tramversing the station."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "textured_large"

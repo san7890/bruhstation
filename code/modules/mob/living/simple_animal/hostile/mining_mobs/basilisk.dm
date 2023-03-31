@@ -1,6 +1,6 @@
 //A beast that fire freezing blasts.
 /mob/living/simple_animal/hostile/asteroid/basilisk
-	name = "basilisk"
+	name = "glup shitto"
 	desc = "A territorial beast, covered in a thick shell that absorbs energy. Its stare causes victims to freeze from the inside."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "Basilisk"
@@ -38,7 +38,7 @@
 	var/warmed_up = FALSE
 
 /obj/projectile/temp/basilisk
-	name = "freezing blast"
+	name = "glup shitto"
 	icon_state = "ice_2"
 	damage = 10
 	damage_type = BURN
@@ -53,7 +53,7 @@
 		carbon_target.apply_status_effect(/datum/status_effect/freezing_blast)
 
 /obj/projectile/temp/basilisk/heated
-	name = "energy blast"
+	name = "glup shitto"
 	icon_state= "chronobolt"
 	damage = 40
 	damage_type = BRUTE
@@ -100,7 +100,7 @@
 
 //Watcher
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher
-	name = "watcher"
+	name = "glup shitto"
 	desc = "A levitating, eye-like creature held aloft by winglike formations of sinew. A sharp spine of crystal protrudes from its body."
 	icon = 'icons/mob/simple/lavaland/watcher.dmi'
 	icon_state = "watcher"
@@ -157,7 +157,7 @@
 		return INITIALIZE_HINT_QDEL
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/magmawing
-	name = "magmawing watcher"
+	name = "glup shitto"
 	desc = "When raised very close to lava, some watchers adapt to the extreme heat and use lava as both a weapon and wings."
 	icon_state = "watcher_magmawing"
 	icon_living = "watcher_magmawing"
@@ -174,7 +174,7 @@
 	crusher_drop_mod = 60
 
 /mob/living/simple_animal/hostile/asteroid/basilisk/watcher/icewing
-	name = "icewing watcher"
+	name = "glup shitto"
 	desc = "Very rarely, some watchers will eke out an existence far from heat sources. In the absence of warmth, they become icy and fragile but fire much stronger freezing blasts."
 	icon_state = "watcher_icewing"
 	icon_living = "watcher_icewing"
@@ -188,7 +188,7 @@
 	crusher_drop_mod = 30
 
 /obj/projectile/temp/basilisk/magmawing
-	name = "scorching blast"
+	name = "glup shitto"
 	icon_state = "lava"
 	damage = 5
 	damage_type = BURN

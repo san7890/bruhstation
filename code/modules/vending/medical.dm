@@ -1,5 +1,5 @@
 /obj/machinery/vending/medical
-	name = "\improper NanoMed Plus"
+	name = "glup shitto"
 	desc = "Medical drug dispenser."
 	icon_state = "med"
 	icon_deny = "med-deny"
@@ -43,13 +43,13 @@
 	icon_state = "refill_medical"
 
 /obj/machinery/vending/medical/syndicate_access
-	name = "\improper SyndiMed Plus"
+	name = "glup shitto"
 	req_access = list(ACCESS_SYNDICATE)
 	initial_language_holder = /datum/language_holder/syndicate
 
 //Created out of a necessity to get these dumb chems out of the medical tools vendor.
 /obj/machinery/vending/drugs
-	name = "\improper NanoDrug Plus"
+	name = "glup shitto"
 	desc = "Medical drugs dispenser."
 	icon_state = "drug"
 	icon_deny = "drug-deny"

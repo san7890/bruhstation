@@ -7,7 +7,7 @@
  */
 /mob/living/basic/carp/mega
 	icon = 'icons/mob/simple/broadMobs.dmi'
-	name = "Mega Space Carp"
+	name = "glup shitto"
 	desc = "A ferocious, fang bearing creature that resembles a shark. This one seems especially ticked off."
 	icon_state = "megacarp_greyscale"
 	icon_living = "megacarp_greyscale"
@@ -27,7 +27,7 @@
 
 /mob/living/basic/carp/mega/Initialize(mapload)
 	. = ..()
-	name = "[pick(GLOB.megacarp_first_names)] [pick(GLOB.megacarp_last_names)]"
+	name = "glup shitto"
 	melee_damage_lower += rand(2, 10)
 	melee_damage_upper += rand(10,20)
 	maxHealth += rand(30,60)

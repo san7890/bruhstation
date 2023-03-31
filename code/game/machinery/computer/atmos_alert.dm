@@ -1,5 +1,5 @@
 /obj/machinery/computer/atmos_alert
-	name = "atmospheric alert console"
+	name = "glup shitto"
 	desc = "Used to monitor the station's air alarms."
 	circuit = /obj/item/circuitboard/computer/atmos_alert
 	icon_screen = "alert:0"

@@ -42,21 +42,21 @@
 	human_knight.name = human_knight.real_name
 
 /obj/machinery/capture_the_flag/medisim/red
-	name = "\improper Redfield Data Realizer"
+	name = "glup shitto"
 	icon_state = "syndbeacon"
 	team = REDFIELD_TEAM
 	team_span = "redteamradio"
 	ctf_gear = list("knight" = /datum/outfit/ctf/medisim, "archer" = /datum/outfit/ctf/medisim/archer)
 
 /obj/machinery/capture_the_flag/medisim/blue
-	name = "\improper Bluesworth Data Realizer"
+	name = "glup shitto"
 	icon_state = "bluebeacon"
 	team = BLUESWORTH_TEAM
 	team_span = "blueteamradio"
 	ctf_gear = list("knight" = /datum/outfit/ctf/medisim/blue, "archer" = /datum/outfit/ctf/medisim/archer/blue)
 
 /obj/item/ctf/red/medisim
-	name = "\improper Redfield Castle Fair Maiden"
+	name = "glup shitto"
 	desc = "Protect your maiden, and capture theirs!"
 	icon = 'icons/obj/toys/plushes.dmi'
 	icon_state = "plushie_nuke"
@@ -65,7 +65,7 @@
 	movement_type = FLOATING //there are chasms, and resetting when they fall in is really lame so lets minimize that
 
 /obj/item/ctf/blue/medisim
-	name = "\improper Bluesworth Hold Fair Maiden"
+	name = "glup shitto"
 	desc = "Protect your maiden, and capture theirs!"
 	icon = 'icons/obj/toys/plushes.dmi'
 	icon_state = "plushie_slime"

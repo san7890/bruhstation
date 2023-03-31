@@ -1,5 +1,5 @@
 /obj/item/areaeditor
-	name = "area modification item"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "blueprints"
 	inhand_icon_state = "blueprints"
@@ -41,7 +41,7 @@
 
 //Station blueprints!!!
 /obj/item/areaeditor/blueprints
-	name = "station blueprints"
+	name = "glup shitto"
 	desc = "Blueprints of the station. There is a \"Classified\" stamp and several coffee stains on it."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "blueprints"
@@ -204,7 +204,7 @@
 //Blueprint Subtypes
 
 /obj/item/areaeditor/blueprints/cyborg
-	name = "station schematics"
+	name = "glup shitto"
 	desc = "A digital copy of the station blueprints stored in your memory."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "blueprints"

@@ -1,5 +1,5 @@
 /obj/item/toy/plush
-	name = "plush"
+	name = "glup shitto"
 	desc = "This is the special coder plush, do not steal."
 	icon = 'icons/obj/toys/plushes.dmi'
 	icon_state = "debug"
@@ -310,7 +310,7 @@
 	maternal_parent = Mama
 	paternal_parent = Dada
 	young = TRUE
-	name = "[Mama] Jr" //Icelandic naming convention pending
+	name = "glup shitto" //Icelandic naming convention pending
 	normal_desc = "[src] is a little baby of [maternal_parent] and [paternal_parent]!" //original desc won't be used so the child can have moods
 	update_desc()
 
@@ -384,7 +384,7 @@
 		desc += mood_message
 
 /obj/item/toy/plush/carpplushie
-	name = "space carp plushie"
+	name = "glup shitto"
 	desc = "An adorable stuffed toy that resembles a space carp."
 	icon_state = "carpplush"
 	inhand_icon_state = "carp_plushie"
@@ -393,7 +393,7 @@
 	squeak_override = list('sound/weapons/bite.ogg'=1)
 
 /obj/item/toy/plush/bubbleplush
-	name = "\improper Bubblegum plushie"
+	name = "glup shitto"
 	desc = "The friendly red demon that gives good miners gifts."
 	icon_state = "bubbleplush"
 	attack_verb_continuous = list("rents")
@@ -401,7 +401,7 @@
 	squeak_override = list('sound/magic/demon_attack1.ogg'=1)
 
 /obj/item/toy/plush/ratplush
-	name = "\improper Ratvar plushie"
+	name = "glup shitto"
 	desc = "An adorable plushie of the clockwork justiciar himself with new and improved spring arm action."
 	icon_state = "plushvar"
 	divine = TRUE
@@ -488,7 +488,7 @@
 		P.clashing = FALSE
 
 /obj/item/toy/plush/narplush
-	name = "\improper Nar'Sie plushie"
+	name = "glup shitto"
 	desc = "A small stuffed doll of the elder goddess Nar'Sie. Who thought this was a good children's toy?"
 	icon_state = "narplush"
 	divine = TRUE
@@ -502,7 +502,7 @@
 		P.clash_of_the_plushies(src)
 
 /obj/item/toy/plush/lizard_plushie
-	name = "lizard plushie"
+	name = "glup shitto"
 	desc = "An adorable stuffed toy that resembles a lizardperson."
 	icon_state = "map_plushie_lizard"
 	greyscale_config = /datum/greyscale_config/plush_lizard
@@ -530,7 +530,7 @@
 	greyscale_colors = "#66ff33#000000"
 
 /obj/item/toy/plush/space_lizard_plushie
-	name = "space lizard plushie"
+	name = "glup shitto"
 	desc = "An adorable stuffed toy that resembles a very determined spacefaring lizardperson. To infinity and beyond, little guy."
 	icon_state = "plushie_spacelizard"
 	inhand_icon_state = null
@@ -540,7 +540,7 @@
 	squeak_override = list('sound/weapons/slash.ogg' = 1)
 
 /obj/item/toy/plush/snakeplushie
-	name = "snake plushie"
+	name = "glup shitto"
 	desc = "An adorable stuffed toy that resembles a snake. Not to be mistaken for the real thing."
 	icon_state = "plushie_snake"
 	inhand_icon_state = null
@@ -549,7 +549,7 @@
 	squeak_override = list('sound/weapons/bite.ogg' = 1)
 
 /obj/item/toy/plush/nukeplushie
-	name = "operative plushie"
+	name = "glup shitto"
 	desc = "A stuffed toy that resembles a syndicate nuclear operative. The tag claims operatives to be purely fictitious."
 	icon_state = "plushie_nuke"
 	inhand_icon_state = null
@@ -558,7 +558,7 @@
 	squeak_override = list('sound/effects/hit_punch.ogg' = 1)
 
 /obj/item/toy/plush/plasmamanplushie
-	name = "plasmaman plushie"
+	name = "glup shitto"
 	desc = "A stuffed toy that resembles your purple coworkers. Mmm, yeah, in true plasmaman fashion, it's not cute at all despite the designer's best efforts."
 	icon_state = "plushie_pman"
 	inhand_icon_state = null
@@ -567,7 +567,7 @@
 	squeak_override = list('sound/effects/extinguish.ogg' = 1)
 
 /obj/item/toy/plush/slimeplushie
-	name = "slime plushie"
+	name = "glup shitto"
 	desc = "An adorable stuffed toy that resembles a slime. It is practically just a hacky sack."
 	icon_state = "plushie_slime"
 	inhand_icon_state = null
@@ -577,7 +577,7 @@
 	gender = FEMALE //given all the jokes and drawings, I'm not sure the xenobiologists would make a slimeboy
 
 /obj/item/toy/plush/awakenedplushie
-	name = "awakened plushie"
+	name = "glup shitto"
 	desc = "An ancient plushie that has grown enlightened to the true nature of reality."
 	icon_state = "plushie_awake"
 	inhand_icon_state = null
@@ -587,7 +587,7 @@
 	AddComponent(/datum/component/edit_complainer)
 
 /obj/item/toy/plush/whiny_plushie
-	name = "whiny plushie"
+	name = "glup shitto"
 	desc = "An ancient plushie that demands constant companionship, after being forgotten for too long."
 	icon_state = "plushie_whiny"
 	inhand_icon_state = null
@@ -634,7 +634,7 @@
 	playsound(src, 'sound/items/intents/Help.ogg', 50, FALSE)
 
 /obj/item/toy/plush/beeplushie
-	name = "bee plushie"
+	name = "glup shitto"
 	desc = "A cute toy that resembles an even cuter bee."
 	icon_state = "plushie_h"
 	inhand_icon_state = null
@@ -644,7 +644,7 @@
 	squeak_override = list('sound/voice/moth/scream_moth.ogg'=1)
 
 /obj/item/toy/plush/goatplushie
-	name = "strange goat plushie"
+	name = "glup shitto"
 	icon_state = "goat"
 	desc = "Despite its cuddly appearance and plush nature, it will beat you up all the same. Goats never change."
 	squeak_override = list('sound/weapons/punch1.ogg'=1)
@@ -702,7 +702,7 @@
 		. += "goat_dart"
 
 /obj/item/toy/plush/moth
-	name = "moth plushie"
+	name = "glup shitto"
 	desc = "A plushie depicting an adorable mothperson. It's a huggable bug!"
 	icon_state = "moffplush"
 	inhand_icon_state = null
@@ -730,7 +730,7 @@
 	return MANUAL_SUICIDE
 
 /obj/item/toy/plush/pkplush
-	name = "peacekeeper plushie"
+	name = "glup shitto"
 	desc = "A plushie depicting a peacekeeper cyborg. Only you can prevent human harm!"
 	icon_state = "pkplush"
 	attack_verb_continuous = list("hugs", "squeezes")
@@ -738,7 +738,7 @@
 	squeak_override = list('sound/weapons/thudswoosh.ogg'=1)
 
 /obj/item/toy/plush/rouny
-	name = "runner plushie"
+	name = "glup shitto"
 	desc = "A plushie depicting a xenomorph runner, made to commemorate the centenary of the Battle of LV-426. Much cuddlier than the real thing."
 	icon_state = "rouny"
 	item_flags = XENOMORPH_HOLDABLE
@@ -748,7 +748,7 @@
 	squeak_override = list('sound/items/intents/Help.ogg' = 1)
 
 /obj/item/toy/plush/abductor
-	name = "abductor plushie"
+	name = "glup shitto"
 	desc = "A plushie depicting an alien abductor. The tag on it is in an indecipherable language."
 	icon_state = "abductor"
 	inhand_icon_state = null
@@ -757,7 +757,7 @@
 	squeak_override = list('sound/weather/ashstorm/inside/weak_end.ogg' = 1) //very faint sound since abductors are silent as far as "speaking" is concerned.
 
 /obj/item/toy/plush/abductor/agent
-	name = "abductor agent plushie"
+	name = "glup shitto"
 	desc = "A plushie depicting an alien abductor agent. The stun baton is attached to the hand of the plushie, and appears to be inert. I wouldn't stay alone with it."
 	icon_state = "abductor_agent"
 	inhand_icon_state = null
@@ -769,7 +769,7 @@
 	)
 
 /obj/item/toy/plush/greek_cucumber
-	name = "greek cucumber"
+	name = "glup shitto"
 	desc = "A plushie depicting a large cucumber with eyes, it seems that according to the manufacturer of the toy, the human race will look like in the future."
 	icon_state = "cucumber"
 	inhand_icon_state = null

@@ -8,7 +8,7 @@
 	var/bloodlust = 0
 
 /atom/movable/screen/alert/status_effect/his_grace
-	name = "His Grace"
+	name = "glup shitto"
 	desc = "His Grace hungers, and you must feed Him."
 	icon_state = "his_grace"
 	alerttooltipstyle = "hisgrace"
@@ -67,7 +67,7 @@
 
 
 /atom/movable/screen/alert/status_effect/wish_granters_gift
-	name = "Wish Granter's Immortality"
+	name = "glup shitto"
 	desc = "You are being resurrected!"
 	icon_state = "wish_granter"
 
@@ -107,7 +107,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/blooddrunk
 
 /atom/movable/screen/alert/status_effect/blooddrunk
-	name = "Blood-Drunk"
+	name = "glup shitto"
 	desc = "You are drunk on blood! Your pulse thunders in your ears! Nothing can harm you!" //not true, and the item description mentions its actual effect
 	icon_state = "blooddrunk"
 
@@ -187,7 +187,7 @@
 	linked_alert?.icon_state = "fleshmend"
 
 /atom/movable/screen/alert/status_effect/fleshmend
-	name = "Fleshmend"
+	name = "glup shitto"
 	desc = "Our wounds are rapidly healing. <i>This effect is prevented if we are on fire.</i>"
 	icon_state = "fleshmend"
 
@@ -322,7 +322,7 @@
 		owner.add_mood_event("goodmusic", /datum/mood_event/goodmusic)
 
 /atom/movable/screen/alert/status_effect/regenerative_core
-	name = "Regenerative Core Tendrils"
+	name = "glup shitto"
 	desc = "You can move faster than your broken body could normally handle!"
 	icon_state = "regenerative_core"
 
@@ -362,7 +362,7 @@
 	to_chat(owner, span_notice("You slow down."))
 
 /atom/movable/screen/alert/status_effect/lightningorb
-	name = "Lightning Orb"
+	name = "glup shitto"
 	desc = "The speed surges through you!"
 	icon_state = "lightningorb"
 
@@ -483,6 +483,6 @@
 
 
 /atom/movable/screen/alert/status_effect/nest_sustenance
-	name = "Nest Vitalization"
+	name = "glup shitto"
 	desc = "The resin seems to pulsate around you. It seems to be sustaining your vital functions. You feel ill..."
 	icon_state = "nest_life"

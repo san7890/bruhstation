@@ -1,6 +1,6 @@
 //This one's from bay12
 /obj/machinery/vending/robotics
-	name = "\improper Robotech Deluxe"
+	name = "glup shitto"
 	desc = "All the tools you need to create your own robot army."
 	icon_state = "robotics"
 	icon_deny = "robotics-deny"

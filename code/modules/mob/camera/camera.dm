@@ -1,6 +1,6 @@
 // Camera mob, used by AI camera and blob.
 /mob/camera
-	name = "camera mob"
+	name = "glup shitto"
 	density = FALSE
 	move_force = INFINITY
 	move_resist = INFINITY

@@ -1,5 +1,5 @@
 /obj/item/book/codex_gigas
-	name = "\improper Codex Gigas"
+	name = "glup shitto"
 	desc = "A book documenting the nature of devils."
 	icon_state ="demonomicon"
 	lefthand_file = 'icons/mob/inhands/items/books_lefthand.dmi'

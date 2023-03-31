@@ -1,5 +1,5 @@
 /obj/structure/closet/secure_closet/medical1
-	name = "medicine closet"
+	name = "glup shitto"
 	desc = "Filled to the brim with medical junk."
 	icon_state = "med"
 	req_access = list(ACCESS_MEDICAL)
@@ -19,7 +19,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/structure/closet/secure_closet/medical2
-	name = "anesthetic closet"
+	name = "glup shitto"
 	desc = "Used to knock people out."
 	req_access = list(ACCESS_SURGERY)
 
@@ -31,7 +31,7 @@
 		new /obj/item/clothing/mask/muzzle/breath(src)
 
 /obj/structure/closet/secure_closet/medical3
-	name = "medical doctor's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_SURGERY)
 	icon_state = "med_secure"
 
@@ -45,7 +45,7 @@
 	return
 
 /obj/structure/closet/secure_closet/psychology
-	name = "psychology locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_PSYCHOLOGY)
 	icon_state = "cabinet"
 	open_sound = 'sound/machines/wooden_closet_open.ogg'
@@ -68,7 +68,7 @@
 	new /obj/item/clothing/glasses/blindfold(src)
 
 /obj/structure/closet/secure_closet/chief_medical
-	name = "chief medical officer's locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_CMO)
 	icon_state = "cmo"
 
@@ -100,7 +100,7 @@
 	new /obj/item/reagent_containers/hypospray/cmo(src)
 
 /obj/structure/closet/secure_closet/animal
-	name = "animal control locker"
+	name = "glup shitto"
 	req_access = list(ACCESS_SURGERY)
 
 /obj/structure/closet/secure_closet/animal/PopulateContents()
@@ -110,7 +110,7 @@
 		new /obj/item/electropack(src)
 
 /obj/structure/closet/secure_closet/chemical
-	name = "chemical closet"
+	name = "glup shitto"
 	desc = "Store dangerous chemicals in here."
 	req_access = list(ACCESS_PHARMACY)
 	icon_door = "chemical"
@@ -126,7 +126,7 @@
 	new /obj/item/reagent_containers/cup/bottle/acidic_buffer(src) //hopefully they get the hint
 
 /obj/structure/closet/secure_closet/chemical/heisenberg //contains one of each beaker, syringe etc.
-	name = "advanced chemical closet"
+	name = "glup shitto"
 	req_access = list(ACCESS_PLUMBING)
 
 /obj/structure/closet/secure_closet/chemical/heisenberg/PopulateContents()

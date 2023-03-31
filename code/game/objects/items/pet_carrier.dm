@@ -3,7 +3,7 @@
 //Used to transport little animals without having to drag them across the station.
 //Comes with a handy lock to prevent them from running off.
 /obj/item/pet_carrier
-	name = "pet carrier"
+	name = "glup shitto"
 	desc = "A big white-and-blue pet carrier. Good for carrying <s>meat to the chef</s> cute animals around."
 	icon = 'icons/obj/pet_carrier.dmi'
 	base_icon_state = "pet_carrier"
@@ -199,7 +199,7 @@
 	occupant.setDir(SOUTH)
 
 /obj/item/pet_carrier/biopod
-	name = "biopod"
+	name = "glup shitto"
 	desc = "Alien device used for undescribable purpose. Or carrying pets."
 	base_icon_state = "biopod"
 	icon_state = "biopod_open"

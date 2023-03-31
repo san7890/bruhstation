@@ -1,5 +1,5 @@
 /datum/surgery/advanced/bioware/muscled_veins
-	name = "Vein Muscle Membrane"
+	name = "glup shitto"
 	desc = "A surgical procedure which adds a muscled membrane to blood vessels, allowing them to pump blood without a heart."
 	possible_locs = list(BODY_ZONE_CHEST)
 	steps = list(
@@ -15,7 +15,7 @@
 	bioware_target = BIOWARE_CIRCULATION
 
 /datum/surgery_step/muscled_veins
-	name = "shape vein muscles (hand)"
+	name = "glup shitto"
 	accept_hand = TRUE
 	time = 125
 
@@ -42,7 +42,7 @@
 	return ..()
 
 /datum/bioware/muscled_veins
-	name = "Muscled Veins"
+	name = "glup shitto"
 	desc = "The circulatory system is affixed with a muscled membrane, allowing the veins to pump blood without the need for a heart."
 	mod_type = BIOWARE_CIRCULATION
 

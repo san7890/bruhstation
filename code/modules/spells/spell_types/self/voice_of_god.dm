@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/voice_of_god
-	name = "Voice of God"
+	name = "glup shitto"
 	desc = "Speak with an incredibly compelling voice, forcing listeners to obey your commands."
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "voice_of_god"
@@ -42,7 +42,7 @@
 	return
 
 /datum/action/cooldown/spell/voice_of_god/clown
-	name = "Voice of Clown"
+	name = "glup shitto"
 	desc = "Speak with an incredibly funny voice, startling people into obeying you for a brief moment."
 	sound = 'sound/misc/scary_horn.ogg'
 	cooldown_mod = 0.5

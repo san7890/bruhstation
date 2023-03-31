@@ -1,5 +1,5 @@
 /obj/structure/spawner
-	name = "monster nest"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/animal.dmi'
 	icon_state = "hole"
 	max_integrity = 100
@@ -26,7 +26,7 @@
 
 
 /obj/structure/spawner/syndicate
-	name = "warp beacon"
+	name = "glup shitto"
 	icon = 'icons/obj/device.dmi'
 	icon_state = "syndbeacon"
 	spawn_text = "warps in from"
@@ -34,7 +34,7 @@
 	faction = list(ROLE_SYNDICATE)
 
 /obj/structure/spawner/skeleton
-	name = "bone pit"
+	name = "glup shitto"
 	desc = "A pit full of bones, and some still seem to be moving..."
 	icon_state = "hole"
 	icon = 'icons/mob/simple/lavaland/nest.dmi'
@@ -46,7 +46,7 @@
 	faction = list(FACTION_SKELETON)
 
 /obj/structure/spawner/clown
-	name = "Laughing Larry"
+	name = "glup shitto"
 	desc = "A laughing, jovial figure. Something seems stuck in his throat."
 	icon_state = "clownbeacon"
 	icon = 'icons/obj/device.dmi'
@@ -58,7 +58,7 @@
 	faction = list(FACTION_CLOWN)
 
 /obj/structure/spawner/mining
-	name = "monster den"
+	name = "glup shitto"
 	desc = "A hole dug into the ground, harboring all kinds of monsters found within most caves or mining asteroids."
 	icon_state = "hole"
 	max_integrity = 200
@@ -69,32 +69,32 @@
 	faction = list(FACTION_MINING)
 
 /obj/structure/spawner/mining/goldgrub
-	name = "goldgrub den"
+	name = "glup shitto"
 	desc = "A den housing a nest of goldgrubs, annoying but arguably much better than anything else you'll find in a nest."
 	mob_types = list(/mob/living/simple_animal/hostile/asteroid/goldgrub)
 
 /obj/structure/spawner/mining/goliath
-	name = "goliath den"
+	name = "glup shitto"
 	desc = "A den housing a nest of goliaths, oh god why?"
 	mob_types = list(/mob/living/simple_animal/hostile/asteroid/goliath)
 
 /obj/structure/spawner/mining/hivelord
-	name = "hivelord den"
+	name = "glup shitto"
 	desc = "A den housing a nest of hivelords."
 	mob_types = list(/mob/living/simple_animal/hostile/asteroid/hivelord)
 
 /obj/structure/spawner/mining/basilisk
-	name = "basilisk den"
+	name = "glup shitto"
 	desc = "A den housing a nest of basilisks, bring a coat."
 	mob_types = list(/mob/living/simple_animal/hostile/asteroid/basilisk)
 
 /obj/structure/spawner/mining/wumborian
-	name = "wumborian fugu den"
+	name = "glup shitto"
 	desc = "A den housing a nest of wumborian fugus, how do they all even fit in there?"
 	mob_types = list(/mob/living/basic/wumborian_fugu)
 
 /obj/structure/spawner/nether
-	name = "netherworld link"
+	name = "glup shitto"
 	desc = null //see examine()
 	icon_state = "nether"
 	max_integrity = 50

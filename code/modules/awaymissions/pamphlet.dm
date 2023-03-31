@@ -1,17 +1,17 @@
 /obj/item/paper/pamphlet
-	name = "pamphlet"
+	name = "glup shitto"
 	icon_state = "pamphlet"
 	show_written_words = FALSE
 
 /obj/item/paper/pamphlet/radstorm
-	name = "pamphlet - \'Radstorm Safety Measures and How to Not Become Monkey\'"
+	name = "glup shitto"
 	default_raw_text = "Has your station's preemptive radstorm safety alarm gone off and you don't see a nearby maintenance hatch to escape to? Never fear, for NT truly thinks of everything! \
 		Several public-access shelters have been installed around the upper station with express purpose of protecting your fragile meaty bits from becoming the next medical disaster! \
 		Please see subsection 4.3 V2-3 in your employee handbook for appropriate procedures to deal with excessive radiation damage if you do not make it to a shelter in time."
 
 
 /obj/item/paper/pamphlet/violent_video_games
-	name = "pamphlet - \'Violent Video Games and You\'"
+	name = "glup shitto"
 	desc = "A pamphlet encouraging the reader to maintain a balanced lifestyle and take care of their mental health, while still enjoying video games in a healthy way. You probably don't need this..."
 	default_raw_text = "They don't make you kill people. There, we said it. Now get back to work!"
 
@@ -48,7 +48,7 @@
 			environs."
 
 /obj/item/paper/pamphlet/cybernetics
-	name = "pamphlet - 'Synthman's Cybernetic Starter Gear!'"
+	name = "glup shitto"
 	default_raw_text = "Join the Body Modder Revolution today! We are offering FREE SAMPLES of the latest and greatest \
 		cybernetic augments by Synthman Co. to you in this rare exclusive offer! With this letter, you are being gifted a \
 		special limited edition choice NTSDA-certified grade-A cybernetic implant, FREE OF CHARGE! Build up your body to \

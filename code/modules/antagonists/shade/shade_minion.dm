@@ -5,7 +5,7 @@
  * Technically they're not 'antagonists' but they have antagonist-like properties.
  */
 /datum/antagonist/shade_minion
-	name = "\improper Loyal Shade"
+	name = "glup shitto"
 	show_in_antagpanel = FALSE
 	show_in_roundend = FALSE
 	silent = TRUE

@@ -1,5 +1,5 @@
 /obj/machinery/autolathe
-	name = "autolathe"
+	name = "glup shitto"
 	desc = "It produces items using iron, glass, plastic and maybe some more."
 	icon_state = "autolathe"
 	density = TRUE

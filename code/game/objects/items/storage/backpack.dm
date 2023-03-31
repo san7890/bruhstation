@@ -10,7 +10,7 @@
  */
 
 /obj/item/storage/backpack
-	name = "backpack"
+	name = "glup shitto"
 	desc = "You wear this on your back and put items into it."
 	icon = 'icons/obj/storage/backpack.dmi'
 	worn_icon = 'icons/mob/clothing/back/backpack.dmi'
@@ -37,7 +37,7 @@
 	atom_storage.max_total_storage = 12
 
 /obj/item/bag_of_holding_inert
-	name = "inert bag of holding"
+	name = "glup shitto"
 	desc = "What is currently a just an unwieldly block of metal with a slot ready to accept a bluespace anomaly core."
 	icon = 'icons/obj/storage/backpack.dmi'
 	worn_icon = 'icons/mob/clothing/back/backpack.dmi'
@@ -50,7 +50,7 @@
 	item_flags = NO_MAT_REDEMPTION
 
 /obj/item/storage/backpack/holding
-	name = "bag of holding"
+	name = "glup shitto"
 	desc = "A backpack that opens into a localized pocket of bluespace."
 	icon_state = "bag_of_holding"
 	inhand_icon_state = "holdingpack"
@@ -78,7 +78,7 @@
 	qdel(user)
 
 /obj/item/storage/backpack/santabag
-	name = "Santa's Gift Bag"
+	name = "glup shitto"
 	desc = "Space Santa uses this to deliver presents to all the nice children in space in Christmas! Wow, it's pretty big!"
 	icon_state = "giftbag0"
 	inhand_icon_state = "giftbag"
@@ -111,119 +111,119 @@
 
 
 /obj/item/storage/backpack/cultpack
-	name = "trophy rack"
+	name = "glup shitto"
 	desc = "It's useful for both carrying extra gear and proudly declaring your insanity."
 	icon_state = "backpack-cult"
 	inhand_icon_state = "backpack"
 	alternate_worn_layer = ABOVE_BODY_FRONT_HEAD_LAYER
 
 /obj/item/storage/backpack/clown
-	name = "Giggles von Honkerton"
+	name = "glup shitto"
 	desc = "It's a backpack made by Honk! Co."
 	icon_state = "backpack-clown"
 	inhand_icon_state = "clownpack"
 
 /obj/item/storage/backpack/explorer
-	name = "explorer bag"
+	name = "glup shitto"
 	desc = "A robust backpack for stashing your loot."
 	icon_state = "backpack-explorer"
 	inhand_icon_state = "explorerpack"
 
 /obj/item/storage/backpack/mime
-	name = "Parcel Parceaux"
+	name = "glup shitto"
 	desc = "A silent backpack made for those silent workers. Silence Co."
 	icon_state = "backpack-mime"
 	inhand_icon_state = "mimepack"
 
 /obj/item/storage/backpack/medic
-	name = "medical backpack"
+	name = "glup shitto"
 	desc = "It's a backpack especially designed for use in a sterile environment."
 	icon_state = "backpack-medical"
 	inhand_icon_state = "medicalpack"
 
 /obj/item/storage/backpack/security
-	name = "security backpack"
+	name = "glup shitto"
 	desc = "It's a very robust backpack."
 	icon_state = "backpack-security"
 	inhand_icon_state = "securitypack"
 
 /obj/item/storage/backpack/captain
-	name = "captain's backpack"
+	name = "glup shitto"
 	desc = "It's a special backpack made exclusively for Nanotrasen officers."
 	icon_state = "backpack-captain"
 	inhand_icon_state = "captainpack"
 
 /obj/item/storage/backpack/industrial
-	name = "industrial backpack"
+	name = "glup shitto"
 	desc = "It's a tough backpack for the daily grind of station life."
 	icon_state = "backpack-engineering"
 	inhand_icon_state = "engiepack"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/botany
-	name = "botany backpack"
+	name = "glup shitto"
 	desc = "It's a backpack made of all-natural fibers."
 	icon_state = "backpack-hydroponics"
 	inhand_icon_state = "botpack"
 
 /obj/item/storage/backpack/chemistry
-	name = "chemistry backpack"
+	name = "glup shitto"
 	desc = "A backpack specially designed to repel stains and hazardous liquids."
 	icon_state = "backpack-chemistry"
 	inhand_icon_state = "chempack"
 
 /obj/item/storage/backpack/genetics
-	name = "genetics backpack"
+	name = "glup shitto"
 	desc = "A bag designed to be super tough, just in case someone hulks out on you."
 	icon_state = "backpack-genetics"
 	inhand_icon_state = "genepack"
 
 /obj/item/storage/backpack/science
-	name = "science backpack"
+	name = "glup shitto"
 	desc = "A specially designed backpack. It's fire resistant and smells vaguely of plasma."
 	icon_state = "backpack-science"
 	inhand_icon_state = "scipack"
 
 /obj/item/storage/backpack/virology
-	name = "virology backpack"
+	name = "glup shitto"
 	desc = "A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey."
 	icon_state = "backpack-virology"
 	inhand_icon_state = "viropack"
 
 /obj/item/storage/backpack/ert
-	name = "emergency response team commander backpack"
+	name = "glup shitto"
 	desc = "A spacious backpack with lots of pockets, worn by the Commander of an Emergency Response Team."
 	icon_state = "ert_commander"
 	inhand_icon_state = "securitypack"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/ert/security
-	name = "emergency response team security backpack"
+	name = "glup shitto"
 	desc = "A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team."
 	icon_state = "ert_security"
 
 /obj/item/storage/backpack/ert/medical
-	name = "emergency response team medical backpack"
+	name = "glup shitto"
 	desc = "A spacious backpack with lots of pockets, worn by Medical Officers of an Emergency Response Team."
 	icon_state = "ert_medical"
 
 /obj/item/storage/backpack/ert/engineer
-	name = "emergency response team engineer backpack"
+	name = "glup shitto"
 	desc = "A spacious backpack with lots of pockets, worn by Engineers of an Emergency Response Team."
 	icon_state = "ert_engineering"
 
 /obj/item/storage/backpack/ert/janitor
-	name = "emergency response team janitor backpack"
+	name = "glup shitto"
 	desc = "A spacious backpack with lots of pockets, worn by Janitors of an Emergency Response Team."
 	icon_state = "ert_janitor"
 
 /obj/item/storage/backpack/ert/clown
-	name = "emergency response team clown backpack"
+	name = "glup shitto"
 	desc = "A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team."
 	icon_state = "ert_clown"
 
 /obj/item/storage/backpack/saddlepack
-	name = "saddlepack"
+	name = "glup shitto"
 	desc = "A backpack designed to be saddled on a mount or carried on your back, and switch between the two on the fly. It's quite spacious, at the cost of making you feel like a literal pack mule."
 	icon = 'icons/obj/storage/ethereal.dmi'
 	worn_icon = 'icons/mob/clothing/back/ethereal.dmi'
@@ -238,13 +238,13 @@
  */
 
 /obj/item/storage/backpack/satchel
-	name = "satchel"
+	name = "glup shitto"
 	desc = "A trendy looking satchel."
 	icon_state = "satchel-norm"
 	inhand_icon_state = "satchel-norm"
 
 /obj/item/storage/backpack/satchel/leather
-	name = "leather satchel"
+	name = "glup shitto"
 	desc = "It's a very fancy satchel made with fine leather."
 	icon_state = "satchel-leather"
 	inhand_icon_state = "satchel"
@@ -256,68 +256,68 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/satchel/eng
-	name = "industrial satchel"
+	name = "glup shitto"
 	desc = "A tough satchel with extra pockets."
 	icon_state = "satchel-engineering"
 	inhand_icon_state = "satchel-eng"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/satchel/med
-	name = "medical satchel"
+	name = "glup shitto"
 	desc = "A sterile satchel used in medical departments."
 	icon_state = "satchel-medical"
 	inhand_icon_state = "satchel-med"
 
 /obj/item/storage/backpack/satchel/vir
-	name = "virologist satchel"
+	name = "glup shitto"
 	desc = "A sterile satchel with virologist colours."
 	icon_state = "satchel-virology"
 	inhand_icon_state = "satchel-vir"
 
 /obj/item/storage/backpack/satchel/chem
-	name = "chemist satchel"
+	name = "glup shitto"
 	desc = "A sterile satchel with chemist colours."
 	icon_state = "satchel-chemistry"
 	inhand_icon_state = "satchel-chem"
 
 /obj/item/storage/backpack/satchel/gen
-	name = "geneticist satchel"
+	name = "glup shitto"
 	desc = "A sterile satchel with geneticist colours."
 	icon_state = "satchel-genetics"
 	inhand_icon_state = "satchel-gen"
 
 /obj/item/storage/backpack/satchel/science
-	name = "scientist satchel"
+	name = "glup shitto"
 	desc = "Useful for holding research materials."
 	icon_state = "satchel-science"
 	inhand_icon_state = "satchel-sci"
 
 /obj/item/storage/backpack/satchel/hyd
-	name = "botanist satchel"
+	name = "glup shitto"
 	desc = "A satchel made of all natural fibers."
 	icon_state = "satchel-hydroponics"
 	inhand_icon_state = "satchel-hyd"
 
 /obj/item/storage/backpack/satchel/sec
-	name = "security satchel"
+	name = "glup shitto"
 	desc = "A robust satchel for security related needs."
 	icon_state = "satchel-security"
 	inhand_icon_state = "satchel-sec"
 
 /obj/item/storage/backpack/satchel/explorer
-	name = "explorer satchel"
+	name = "glup shitto"
 	desc = "A robust satchel for stashing your loot."
 	icon_state = "satchel-explorer"
 	inhand_icon_state = "satchel-explorer"
 
 /obj/item/storage/backpack/satchel/cap
-	name = "captain's satchel"
+	name = "glup shitto"
 	desc = "An exclusive satchel for Nanotrasen officers."
 	icon_state = "satchel-captain"
 	inhand_icon_state = "satchel-cap"
 
 /obj/item/storage/backpack/satchel/flat
-	name = "smuggler's satchel"
+	name = "glup shitto"
 	desc = "A very slim satchel that can easily fit into tight spaces."
 	icon_state = "satchel-flat"
 	inhand_icon_state = "satchel-flat"
@@ -347,7 +347,7 @@
 	return
 
 /obj/item/storage/backpack/duffelbag
-	name = "duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra things."
 	icon_state = "duffel"
 	inhand_icon_state = "duffel"
@@ -358,7 +358,7 @@
 	atom_storage.max_total_storage = 30
 
 /obj/item/storage/backpack/duffelbag/cursed
-	name = "living duffel bag"
+	name = "glup shitto"
 	desc = "A cursed clown duffel bag that hungers for food of any kind. A warning label suggests that it eats food inside. \
 		If that food happens to be a horribly ruined mess or the chef scrapped out of the microwave, or poisoned in some way, \
 		then it might have negative effects on the bag..."
@@ -372,53 +372,53 @@
 	AddComponent(/datum/component/curse_of_hunger, add_dropdel = TRUE)
 
 /obj/item/storage/backpack/duffelbag/captain
-	name = "captain's duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra captainly goods."
 	icon_state = "duffel-captain"
 	inhand_icon_state = "duffel-captain"
 
 /obj/item/storage/backpack/duffelbag/med
-	name = "medical duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra medical supplies."
 	icon_state = "duffel-medical"
 	inhand_icon_state = "duffel-med"
 
 /obj/item/storage/backpack/duffelbag/med/surgery
-	name = "surgical duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra medical supplies - this one seems to be designed for holding surgical tools."
 
 /obj/item/storage/backpack/duffelbag/explorer
-	name = "explorer duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra exotic treasures."
 	icon_state = "duffel-explorer"
 	inhand_icon_state = "duffel-explorer"
 
 /obj/item/storage/backpack/duffelbag/hydroponics
-	name = "hydroponic's duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra gardening tools."
 	icon_state = "duffel-hydroponics"
 	inhand_icon_state = "duffel-hydroponics"
 
 /obj/item/storage/backpack/duffelbag/chemistry
-	name = "chemistry duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra chemical substances."
 	icon_state = "duffel-chemistry"
 	inhand_icon_state = "duffel-chemistry"
 
 /obj/item/storage/backpack/duffelbag/genetics
-	name = "geneticist's duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra genetic mutations."
 	icon_state = "duffel-genetics"
 	inhand_icon_state = "duffel-genetics"
 
 /obj/item/storage/backpack/duffelbag/science
-	name = "scientist's duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra scientific components."
 	icon_state = "duffel-science"
 	inhand_icon_state = "duffel-sci"
 
 /obj/item/storage/backpack/duffelbag/virology
-	name = "virologist's duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra viral bottles."
 	icon_state = "duffel-virology"
 	inhand_icon_state = "duffel-virology"
@@ -439,13 +439,13 @@
 	new /obj/item/blood_filter(src)
 
 /obj/item/storage/backpack/duffelbag/sec
-	name = "security duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra security supplies and ammunition."
 	icon_state = "duffel-security"
 	inhand_icon_state = "duffel-sec"
 
 /obj/item/storage/backpack/duffelbag/sec/surgery
-	name = "surgical duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra supplies - this one has a material inlay with space for various sharp-looking tools."
 
 /obj/item/storage/backpack/duffelbag/sec/surgery/PopulateContents()
@@ -461,14 +461,14 @@
 	new /obj/item/blood_filter(src)
 
 /obj/item/storage/backpack/duffelbag/engineering
-	name = "industrial duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra tools and supplies."
 	icon_state = "duffel-engineering"
 	inhand_icon_state = "duffel-eng"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/duffelbag/drone
-	name = "drone duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding tools and hats."
 	icon_state = "duffel-drone"
 	inhand_icon_state = "duffel-drone"
@@ -484,7 +484,7 @@
 	new /obj/item/multitool(src)
 
 /obj/item/storage/backpack/duffelbag/clown
-	name = "clown's duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding lots of funny gags!"
 	icon_state = "duffel-clown"
 	inhand_icon_state = "duffel-clown"
@@ -497,7 +497,7 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/storage/backpack/duffelbag/syndie
-	name = "suspicious looking duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra tactical supplies."
 	icon_state = "duffel-syndie"
 	inhand_icon_state = "duffel-syndieammo"
@@ -524,13 +524,13 @@
 	new /obj/item/clothing/head/fedora(src)
 
 /obj/item/storage/backpack/duffelbag/syndie/med
-	name = "medical duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra tactical medical supplies."
 	icon_state = "duffel-syndiemed"
 	inhand_icon_state = "duffel-syndiemed"
 
 /obj/item/storage/backpack/duffelbag/syndie/surgery
-	name = "surgery duffel bag"
+	name = "glup shitto"
 	desc = "A suspicious looking duffel bag for holding surgery tools."
 	icon_state = "duffel-syndiemed"
 	inhand_icon_state = "duffel-syndiemed"
@@ -551,7 +551,7 @@
 	new /obj/item/stack/medical/bone_gel(src)
 
 /obj/item/storage/backpack/duffelbag/syndie/ammo
-	name = "ammunition duffel bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra weapons ammunition and supplies."
 	icon_state = "duffel-syndieammo"
 	inhand_icon_state = "duffel-syndieammo"
@@ -674,18 +674,18 @@
 	new /obj/item/implanter/sad_trombone(src)
 
 /obj/item/storage/backpack/henchmen
-	name = "wings"
+	name = "glup shitto"
 	desc = "Granted to the henchmen who deserve it. This probably doesn't include you."
 	icon_state = "henchmen"
 	inhand_icon_state = null
 
 /obj/item/storage/backpack/duffelbag/cops
-	name = "police bag"
+	name = "glup shitto"
 	desc = "A large duffel bag for holding extra police gear."
 	slowdown = 0
 
 /obj/item/storage/backpack/duffelbag/mining_conscript
-	name = "mining conscription kit"
+	name = "glup shitto"
 	desc = "A kit containing everything a crewmember needs to support a shaft miner in the field."
 	icon_state = "duffel-explorer"
 	inhand_icon_state = "duffel-explorer"

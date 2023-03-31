@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/identity_spoof //now EVERYONE is the wizard!
-	name = "Mass Identity Spoof"
+	name = "glup shitto"
 	weight = 5
 	typepath = /datum/round_event/wizard/identity_spoof
 	max_occurrences = 1

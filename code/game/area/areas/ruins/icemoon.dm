@@ -1,10 +1,10 @@
 // Icemoon Ruins
 
 /area/ruin/unpowered/buried_library
-	name = "\improper Buried Library"
+	name = "glup shitto"
 
 /area/ruin/powered/bathhouse
-	name = "\improper Bath House"
+	name = "glup shitto"
 	mood_bonus = 10
 	mood_message = "I wish I could stay here forever."
 
@@ -17,45 +17,45 @@
 	canSmoothWith = null
 
 /area/ruin/powered/mailroom
-	name = "\improper Abandoned Post Office"
+	name = "glup shitto"
 
 /area/ruin/plasma_facility/commons
-	name = "\improper Abandoned Plasma Facility Commons"
+	name = "glup shitto"
 	sound_environment = SOUND_AREA_STANDARD_STATION
 	mood_bonus = -5
 	mood_message = "I feel like I am being watched..."
 
 /area/ruin/plasma_facility/operations
-	name = "\improper Abandoned Plasma Facility Operations"
+	name = "glup shitto"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	mood_bonus = -5
 	mood_message = "I feel like I am being watched..."
 
 /area/ruin/bughabitat
-	name = "\improper Entemology Outreach Center"
+	name = "glup shitto"
 	mood_bonus = 1
 	mood_message = "This place seems strangely serene."
 
 /area/ruin/pizzeria
-	name = "\improper Moffuchi's Pizzeria"
+	name = "glup shitto"
 
 /area/ruin/pizzeria/kitchen
-	name = "\improper Moffuchi's Kitchen"
+	name = "glup shitto"
 
 /area/ruin/planetengi
-	name = "\improper Engineering Outpost"
+	name = "glup shitto"
 
 /area/ruin/smoking_room/house
-	name = "\improper Tobacco House"
+	name = "glup shitto"
 	sound_environment = SOUND_ENVIRONMENT_CITY
 	mood_bonus = -1
 	mood_message = "Good lord, this place REEKS of cigarettes."
 
 /area/ruin/smoking_room/room
-	name = "\improper Smoking Room"
+	name = "glup shitto"
 	sound_environment = SOUND_ENVIRONMENT_DIZZY
 	mood_bonus = -8
 	mood_message = "I can feel my lifespan shortening with every breath."
 
 /area/ruin/powered/hermit
-	name = "\improper Hermit's Cabin"
+	name = "glup shitto"

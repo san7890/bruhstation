@@ -1,7 +1,7 @@
 #define PANCAKE_MAX_STACK 10
 
 /obj/item/food/pancakes
-	name = "pancake"
+	name = "glup shitto"
 	desc = "A fluffy pancake. The softer, superior relative of the waffle."
 	icon_state = "pancakes_1"
 	inhand_icon_state = null
@@ -15,7 +15,7 @@
 	var/stack_name = "pancakes"
 
 /obj/item/food/pancakes/raw
-	name = "goopy pancake"
+	name = "glup shitto"
 	desc = "A barely cooked mess that some may mistake for a pancake. It longs for the griddle."
 	icon_state = "rawpancakes_1"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
@@ -55,7 +55,7 @@
 		. += "<span class='notice'>You can modify the pancake by adding <b>blueberries</b> or <b>chocolate</b> before finishing the griddle."
 
 /obj/item/food/pancakes/blueberry
-	name = "blueberry pancake"
+	name = "glup shitto"
 	desc = "A fluffy and delicious blueberry pancake."
 	icon_state = "bbpancakes_1"
 	food_reagents = list(
@@ -66,7 +66,7 @@
 	stack_name = "bbpancakes"
 
 /obj/item/food/pancakes/chocolatechip
-	name = "chocolate chip pancake"
+	name = "glup shitto"
 	desc = "A fluffy and delicious chocolate chip pancake."
 	icon_state = "ccpancakes_1"
 	food_reagents = list(

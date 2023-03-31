@@ -13,7 +13,7 @@
 
 
 /obj/machinery/medical_kiosk
-	name = "medical kiosk"
+	name = "glup shitto"
 	desc = "A freestanding medical kiosk, which can provide a wide range of medical analysis for diagnosis."
 	icon = 'icons/obj/machines/medical_kiosk.dmi'
 	icon_state = "kiosk"

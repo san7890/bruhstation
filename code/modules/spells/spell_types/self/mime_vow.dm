@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/vow_of_silence
-	name = "Speech"
+	name = "glup shitto"
 	desc = "Make (or break) a vow of silence."
 	background_icon_state = "bg_mime"
 	overlay_icon_state = "bg_mime_border"

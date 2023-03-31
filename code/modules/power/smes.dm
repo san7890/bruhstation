@@ -15,7 +15,7 @@
 #define SMES_INPUT_ATTEMPT 9
 
 /obj/machinery/power/smes
-	name = "power storage unit"
+	name = "glup shitto"
 	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit."
 	icon_state = "smes"
 	density = TRUE
@@ -412,7 +412,7 @@
 	output_level = 90000
 
 /obj/machinery/power/smes/magical
-	name = "magical power storage unit"
+	name = "glup shitto"
 	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit. Magically produces power."
 
 /obj/machinery/power/smes/magical/process()

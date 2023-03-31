@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/pirate
-	name = "Pirate"
+	name = "glup shitto"
 	desc = "Does what he wants cause a pirate is free."
 	icon = 'icons/mob/simple/simple_human.dmi'
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
@@ -34,7 +34,7 @@
 	apply_dynamic_human_appearance(src, mob_spawn_path = mob_spawner, r_hand = held_item)
 
 /mob/living/simple_animal/hostile/pirate/melee
-	name = "Pirate Swashbuckler"
+	name = "glup shitto"
 	melee_damage_lower = 30
 	melee_damage_upper = 30
 	armour_penetration = 35
@@ -55,7 +55,7 @@
 	held_item = /obj/item/melee/energy/sword/pirate
 
 /mob/living/simple_animal/hostile/pirate/melee/space
-	name = "Space Pirate Swashbuckler"
+	name = "glup shitto"
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1
@@ -66,7 +66,7 @@
 	ADD_TRAIT(src, TRAIT_SPACEWALK, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/pirate/ranged
-	name = "Pirate Gunner"
+	name = "glup shitto"
 	projectilesound = 'sound/weapons/laser.ogg'
 	ranged = 1
 	rapid = 2
@@ -79,7 +79,7 @@
 	held_item = /obj/item/gun/energy/laser
 
 /mob/living/simple_animal/hostile/pirate/ranged/space
-	name = "Space Pirate Gunner"
+	name = "glup shitto"
 	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
 	minbodytemp = 0
 	speed = 1

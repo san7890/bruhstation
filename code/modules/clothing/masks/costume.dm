@@ -1,5 +1,5 @@
 /obj/item/clothing/mask/joy
-	name = "emotion mask"
+	name = "glup shitto"
 	desc = "Express your happiness or hide your sorrows with this cultured cutout."
 	icon_state = "joy"
 	clothing_flags = MASKINTERNALS
@@ -27,14 +27,14 @@
 	current_skin = null//so we can infinitely reskin
 
 /obj/item/clothing/mask/mummy
-	name = "mummy mask"
+	name = "glup shitto"
 	desc = "Ancient bandages."
 	icon_state = "mummy_mask"
 	inhand_icon_state = null
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 
 /obj/item/clothing/mask/scarecrow
-	name = "sack mask"
+	name = "glup shitto"
 	desc = "A burlap sack with eyeholes."
 	icon_state = "scarecrow_sack"
 	inhand_icon_state = null

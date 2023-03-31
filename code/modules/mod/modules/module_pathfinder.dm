@@ -1,6 +1,6 @@
 ///Pathfinder - Can fly the suit from a long distance to an implant installed in someone.
 /obj/item/mod/module/pathfinder
-	name = "MOD pathfinder module"
+	name = "glup shitto"
 	desc = "This module, brought to you by Nakamura Engineering, has two components. \
 		The first component is a series of thrusters and a computerized location subroutine installed into the \
 		very control unit of the suit, allowing it flight at highway speeds using the suit's access locks \
@@ -63,7 +63,7 @@
 	drain_power(use_power_cost)
 
 /obj/item/implant/mod
-	name = "MOD pathfinder implant"
+	name = "glup shitto"
 	desc = "Lets you recall a MODsuit to you at any time."
 	actions_types = list(/datum/action/item_action/mod_recall)
 	/// The pathfinder module we are linked to.
@@ -142,7 +142,7 @@
 	source.transform = mod_matrix
 
 /datum/action/item_action/mod_recall
-	name = "Recall MOD"
+	name = "glup shitto"
 	desc = "Recall a MODsuit anyplace, anytime."
 	check_flags = AB_CHECK_CONSCIOUS
 	background_icon_state = "bg_mod"

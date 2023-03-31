@@ -1,6 +1,6 @@
 // Peanuts!
 /obj/item/seeds/peanut
-	name = "pack of peanut seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into peanut plants."
 	icon_state = "seed-peanut"
 	species = "peanut"
@@ -17,7 +17,7 @@
 
 /obj/item/food/grown/peanut
 	seed = /obj/item/seeds/peanut
-	name = "peanut"
+	name = "glup shitto"
 	desc = "A tasty pair of groundnuts concealed in a tough shell."
 	icon_state = "peanut"
 	foodtypes = NUTS

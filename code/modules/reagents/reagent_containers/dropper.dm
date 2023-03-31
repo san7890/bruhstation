@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/dropper
-	name = "dropper"
+	name = "glup shitto"
 	desc = "A dropper. Holds up to 5 units."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "dropper0"

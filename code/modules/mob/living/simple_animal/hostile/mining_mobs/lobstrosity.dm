@@ -3,7 +3,7 @@
  * Outside of charging, it's intended behavior is that it is generally slow moving, but makes up for that with a knockdown attack to score additional hits.
  */
 /mob/living/simple_animal/hostile/asteroid/lobstrosity
-	name = "arctic lobstrosity"
+	name = "glup shitto"
 	desc = "A marvel of evolution gone wrong, the frosty ice produces underground lakes where these ill tempered seafood gather. Beware its charge."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "arctic_lobstrosity"
@@ -55,7 +55,7 @@
 	charge.Trigger(target = target)
 
 /mob/living/simple_animal/hostile/asteroid/lobstrosity/lava
-	name = "tropical lobstrosity"
+	name = "glup shitto"
 	desc = "A marvel of evolution gone wrong, the sulfur lakes of lavaland have given them a vibrant, red hued shell. Beware its charge."
 	icon_state = "lobstrosity"
 	icon_living = "lobstrosity"
@@ -63,7 +63,7 @@
 	weather_immunities = list(TRAIT_LAVA_IMMUNE,TRAIT_ASHSTORM_IMMUNE)
 
 /obj/item/crusher_trophy/lobster_claw
-	name = "lobster claw"
+	name = "glup shitto"
 	icon_state = "lobster_claw"
 	desc = "A lobster claw."
 	denied_type = /obj/item/crusher_trophy/lobster_claw

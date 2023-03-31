@@ -1,5 +1,5 @@
 /obj/effect/dummy/phased_mob
-	name = "water"
+	name = "glup shitto"
 	anchored = TRUE
 	flags_1 = PREVENT_CONTENTS_EXPLOSION_1
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF

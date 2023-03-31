@@ -44,7 +44,7 @@ GLOBAL_LIST_INIT(magicarp_spell_colours, list(
  * Come in 'does one thing' and 'does random things' varieties.
  */
 /mob/living/basic/carp/magic
-	name = "magicarp"
+	name = "glup shitto"
 	desc = "50% magic, 50% carp, 100% horrible."
 	icon_gib = "magicarp_gib"
 	maxHealth = 50
@@ -81,7 +81,7 @@ GLOBAL_LIST_INIT(magicarp_spell_colours, list(
 /// Updates name based on chosen spell
 /mob/living/basic/carp/magic/proc/assign_spell()
 	var/obj/projectile/spell_type = pick(allowed_projectile_types)
-	name = "[GLOB.magicarp_spell_types[spell_type]] [name]"
+	name = "glup shitto"
 	set_greyscale(colors = list(GLOB.magicarp_spell_colours[spell_type]))
 
 	spell = new (src)
@@ -113,7 +113,7 @@ GLOBAL_LIST_INIT(magicarp_spell_colours, list(
  * They trade off for this with a tendency to fireball themselves.
  */
 /mob/living/basic/carp/magic/chaos
-	name = "chaos magicarp"
+	name = "glup shitto"
 	desc = "50% carp, 100% magic, 150% horrible."
 	maxHealth = 75
 	health = 75

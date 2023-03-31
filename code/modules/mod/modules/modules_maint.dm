@@ -2,7 +2,7 @@
 
 ///Springlock Mechanism - allows your modsuit to activate faster, but reagents are very dangerous.
 /obj/item/mod/module/springlock
-	name = "MOD springlock module"
+	name = "glup shitto"
 	desc = "A module that spans the entire size of the MOD unit, sitting under the outer shell. \
 		This mechanical exoskeleton pushes out of the way when the user enters and it helps in booting \
 		up, but was taken out of modern suits because of the springlock's tendency to \"snap\" back \
@@ -59,7 +59,7 @@
 
 ///Rave Visor - Gives you a rainbow visor and plays jukebox music to you.
 /obj/item/mod/module/visor/rave
-	name = "MOD rave visor module"
+	name = "glup shitto"
 	desc = "A Super Cool Awesome Visor (SCAV), intended for modular suits."
 	icon_state = "rave_visor"
 	complexity = 1
@@ -150,7 +150,7 @@
 
 ///Tanner - Tans you with spraytan.
 /obj/item/mod/module/tanner
-	name = "MOD tanning module"
+	name = "glup shitto"
 	desc = "A tanning module for modular suits. Skin cancer functionality has not been ever proven, \
 		although who knows with the rumors..."
 	icon_state = "tanning"
@@ -174,7 +174,7 @@
 
 ///Balloon Blower - Blows a balloon.
 /obj/item/mod/module/balloon
-	name = "MOD balloon blower module"
+	name = "glup shitto"
 	desc = "A strange module invented years ago by some ingenious mimes. It blows balloons."
 	icon_state = "bloon"
 	module_type = MODULE_USABLE
@@ -197,7 +197,7 @@
 
 ///Paper Dispenser - Dispenses (sometimes burning) paper sheets.
 /obj/item/mod/module/paper_dispenser
-	name = "MOD paper dispenser module"
+	name = "glup shitto"
 	desc = "A simple module designed by the bureaucrats of Torch Bay. \
 		It dispenses 'warm, clean, and crisp sheets of paper' onto a nearby table. Usually."
 	icon_state = "paper_maker"
@@ -241,7 +241,7 @@
 
 ///Stamper - Extends a stamp that can switch between accept/deny modes.
 /obj/item/mod/module/stamp
-	name = "MOD stamper module"
+	name = "glup shitto"
 	desc = "A module installed into the wrist of the suit, this functions as a high-power stamp, \
 		able to switch between accept and deny modes."
 	icon_state = "stamp"
@@ -253,7 +253,7 @@
 	cooldown_time = 0.5 SECONDS
 
 /obj/item/stamp/mod
-	name = "MOD electronic stamp"
+	name = "glup shitto"
 	desc = "A high-power stamp, able to switch between accept and deny mode when used."
 
 /obj/item/stamp/mod/attack_self(mob/user, modifiers)
@@ -266,7 +266,7 @@
 
 ///Atrocinator - Flips your gravity.
 /obj/item/mod/module/atrocinator
-	name = "MOD atrocinator module"
+	name = "glup shitto"
 	desc = "A mysterious orb that has mysterious effects when inserted in a MODsuit."
 	icon_state = "atrocinator"
 	module_type = MODULE_TOGGLE

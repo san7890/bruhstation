@@ -1,6 +1,6 @@
 /// The common cardboard box.
 /obj/item/storage/box
-	name = "box"
+	name = "glup shitto"
 	desc = "It's just an ordinary box."
 	icon = 'icons/obj/storage/box.dmi'
 	icon_state = "box"

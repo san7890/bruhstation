@@ -1,5 +1,5 @@
 /obj/item/clothing/mask
-	name = "mask"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/masks.dmi'
 	lefthand_file = 'icons/mob/inhands/clothing/masks_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing/masks_righthand.dmi'

@@ -1,5 +1,5 @@
 /obj/item/gun/magic
-	name = "staff of nothing"
+	name = "glup shitto"
 	desc = "This staff is boring to watch because even though it came first you've seen everything it can do in other staves for years."
 	icon = 'icons/obj/weapons/guns/magic.dmi'
 	icon_state = "staffofnothing"

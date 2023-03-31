@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/blob/blobbernaut
-	name = "blobbernaut"
+	name = "glup shitto"
 	desc = "A hulking, mobile chunk of blobmass."
 	icon_state = "blobbernaut"
 	icon_living = "blobbernaut"

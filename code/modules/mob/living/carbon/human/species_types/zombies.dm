@@ -2,7 +2,7 @@
 
 /datum/species/zombie
 	// 1spooky
-	name = "High-Functioning Zombie"
+	name = "glup shitto"
 	id = SPECIES_ZOMBIE
 	sexes = 0
 	meat = /obj/item/food/meat/slab/human/mutant/zombie
@@ -85,7 +85,7 @@
 	return to_add
 
 /datum/species/zombie/infectious
-	name = "Infectious Zombie"
+	name = "glup shitto"
 	id = SPECIES_ZOMBIE_INFECTIOUS
 	examine_limb_id = SPECIES_ZOMBIE
 	armor = 20 // 120 damage to KO a zombie, which kills it
@@ -180,7 +180,7 @@
 
 // Your skin falls off
 /datum/species/human/krokodil_addict
-	name = "\improper Human"
+	name = "glup shitto"
 	id = SPECIES_ZOMBIE_KROKODIL
 	examine_limb_id = SPECIES_HUMAN
 	sexes = 0

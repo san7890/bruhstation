@@ -9,7 +9,7 @@
 */
 
 /obj/machinery/telecomms/bus
-	name = "bus mainframe"
+	name = "glup shitto"
 	icon_state = "bus"
 	desc = "A mighty piece of hardware used to send massive amounts of data quickly."
 	telecomms_type = /obj/machinery/telecomms/bus
@@ -79,6 +79,6 @@
 		freq_listening |= i
 
 /obj/machinery/telecomms/bus/preset_one/birdstation
-	name = "Bus"
+	name = "glup shitto"
 	autolinkers = list("processor1", "common", "messaging")
 	freq_listening = list()

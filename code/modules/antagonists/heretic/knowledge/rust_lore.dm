@@ -27,7 +27,7 @@
  * Rustbringer's Oath
  */
 /datum/heretic_knowledge/limited_amount/starting/base_rust
-	name = "Blacksmith's Tale"
+	name = "glup shitto"
 	desc = "Opens up the Path of Rust to you. \
 		Allows you to transmute a knife with any trash item into a Rusty Blade. \
 		You can only create two at a time."
@@ -41,7 +41,7 @@
 	route = PATH_RUST
 
 /datum/heretic_knowledge/rust_fist
-	name = "Grasp of Rust"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp will deal 500 damage to non-living matter and rust any surface it touches. \
 		Already rusted surfaces are destroyed. Surfaces and structures can only be rusted by using Right-Click."
 	gain_text = "On the ceiling of the Mansus, rust grows as moss does on a stone."
@@ -77,7 +77,7 @@
 	return COMPONENT_USE_HAND
 
 /datum/heretic_knowledge/rust_regen
-	name = "Leeching Walk"
+	name = "glup shitto"
 	desc = "Grants you passive healing and resistance to batons while standing over rust."
 	gain_text = "The speed was unparalleled, the strength unnatural. The Blacksmith was smiling."
 	next_knowledge = list(
@@ -137,7 +137,7 @@
 		source.blood_volume += 2.5 * delta_time
 
 /datum/heretic_knowledge/mark/rust_mark
-	name = "Mark of Rust"
+	name = "glup shitto"
 	desc = "Your Mansus Grasp now applies the Mark of Rust. The mark is triggered from an attack with your Rusty Blade. \
 		When triggered, the victim's organs and equipment will have a 75% chance to sustain damage and may be destroyed."
 	gain_text = "The Blacksmith looks away. To a place lost long ago. \"Rusted Hills help those in dire need... at a cost.\""
@@ -150,7 +150,7 @@
 	route = PATH_RUST
 
 /datum/heretic_knowledge/spell/rust_construction
-	name = "Rust Construction"
+	name = "glup shitto"
 	desc = "Grants you Rust Construction, a spell that allows you to raise a wall out of a rusted floor. \
 		Anyone overtop the wall will be throw aside (or upwards) and sustain damage."
 	gain_text = "Images of foreign and ominous structures began to dance in my mind. Covered head to toe in thick rust, \
@@ -161,7 +161,7 @@
 	route = PATH_RUST
 
 /datum/heretic_knowledge/spell/area_conversion
-	name = "Aggressive Spread"
+	name = "glup shitto"
 	desc = "Grants you Aggressive Spread, a spell that spreads rust to nearby surfaces. \
 		Already rusted surfaces are destroyed."
 	gain_text = "All wise men know well not to visit the Rusted Hills... Yet the Blacksmith's tale was inspiring."
@@ -176,7 +176,7 @@
 	route = PATH_RUST
 
 /datum/heretic_knowledge/blade_upgrade/rust
-	name = "Toxic Blade"
+	name = "glup shitto"
 	desc = "Your Rusty Blade now poisons enemies on attack."
 	gain_text = "The Blacksmith hands you their blade. \"The Blade will guide you through the flesh, should you let it.\" \
 		The heavy rust weights it down. You stare deeply into it. The Rusted Hills call for you, now."
@@ -188,7 +188,7 @@
 	target.reagents?.add_reagent(/datum/reagent/eldritch, 5)
 
 /datum/heretic_knowledge/spell/entropic_plume
-	name = "Entropic Plume"
+	name = "glup shitto"
 	desc = "Grants you Entropic Plume, a spell that releases a vexing wave of Rust. \
 		Blinds, poisons, and inflicts Amok on any heathen it hits, causing them to strike \
 		at friend or foe wildly. Also rusts and destroys and surfaces it hits."
@@ -204,7 +204,7 @@
 	route = PATH_RUST
 
 /datum/heretic_knowledge/ultimate/rust_final
-	name = "Rustbringer's Oath"
+	name = "glup shitto"
 	desc = "The ascension ritual of the Path of Rust. \
 		Bring 3 corpses to a transmutation rune on the bridge of the station to complete the ritual. \
 		When completed, the ritual site will endlessly spread rust onto any surface, stopping for nothing. \

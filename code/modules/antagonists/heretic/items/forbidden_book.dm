@@ -1,6 +1,6 @@
 // Ye old forbidden book, the Codex Cicatrix.
 /obj/item/codex_cicatrix
-	name = "Codex Cicatrix"
+	name = "glup shitto"
 	desc = "This book describes the secrets of the veil between worlds."
 	icon = 'icons/obj/eldritch.dmi'
 	base_icon_state = "book"

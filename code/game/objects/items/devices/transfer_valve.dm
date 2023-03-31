@@ -1,6 +1,6 @@
 /obj/item/transfer_valve
 	icon = 'icons/obj/assemblies/assemblies.dmi'
-	name = "tank transfer valve"
+	name = "glup shitto"
 	icon_state = "valve_1"
 	base_icon_state = "valve"
 	inhand_icon_state = "ttv"

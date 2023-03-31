@@ -19,7 +19,7 @@ Difficulty: Medium
 */
 
 /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner
-	name = "blood-drunk miner"
+	name = "glup shitto"
 	desc = "A miner destined to wander forever, engaged in an endless hunt."
 	health = 900
 	maxHealth = 900
@@ -192,7 +192,7 @@ Difficulty: Medium
 		INVOKE_ASYNC(dash, TYPE_PROC_REF(/datum/action, Trigger), target)
 
 /mob/living/simple_animal/hostile/megafauna/blood_drunk_miner/doom
-	name = "hostile-environment miner"
+	name = "glup shitto"
 	desc = "A miner destined to hop across dimensions for all eternity, hunting anomalous creatures."
 	speed = 8
 	move_to_delay = 8

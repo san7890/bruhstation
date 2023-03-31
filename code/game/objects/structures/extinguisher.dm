@@ -1,5 +1,5 @@
 /obj/structure/extinguisher_cabinet
-	name = "extinguisher cabinet"
+	name = "glup shitto"
 	desc = "A small wall mounted cabinet designed to hold a fire extinguisher."
 	icon = 'icons/obj/wallmounts.dmi'
 	icon_state = "extinguisher_closed"
@@ -176,7 +176,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/extinguisher_cabinet, 29)
 	qdel(src)
 
 /obj/item/wallframe/extinguisher_cabinet
-	name = "extinguisher cabinet frame"
+	name = "glup shitto"
 	desc = "Used for building wall-mounted extinguisher cabinets."
 	icon_state = "extinguisher"
 	result_path = /obj/structure/extinguisher_cabinet

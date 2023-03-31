@@ -9,7 +9,7 @@
 	species_exception = list(/datum/species/golem)
 	dying_key = DYE_REGISTRY_BANDANA
 	flags_1 = IS_PLAYER_COLORABLE_1
-	name = "bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining."
 	icon_state = "bandana"
 	icon_state_preview = "bandana_cloth"
@@ -66,56 +66,56 @@
 			user.visible_message(span_notice("[user] unties the neckercheif."), span_notice("You untie the neckercheif."))
 
 /obj/item/clothing/mask/bandana/red
-	name = "red bandana"
+	name = "glup shitto"
 	desc = "A fine red bandana with nanotech lining."
 	greyscale_colors = "#A02525"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/blue
-	name = "blue bandana"
+	name = "glup shitto"
 	desc = "A fine blue bandana with nanotech lining."
 	greyscale_colors = "#294A98"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/purple
-	name = "purple bandana"
+	name = "glup shitto"
 	desc = "A fine purple bandana with nanotech lining."
 	greyscale_colors = "#9900CC"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/green
-	name = "green bandana"
+	name = "glup shitto"
 	desc = "A fine green bandana with nanotech lining."
 	greyscale_colors = "#3D9829"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/gold
-	name = "gold bandana"
+	name = "glup shitto"
 	desc = "A fine gold bandana with nanotech lining."
 	greyscale_colors = "#DAC20E"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/orange
-	name = "orange bandana"
+	name = "glup shitto"
 	desc = "A fine orange bandana with nanotech lining."
 	greyscale_colors = "#da930e"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/black
-	name = "black bandana"
+	name = "glup shitto"
 	desc = "A fine black bandana with nanotech lining."
 	greyscale_colors = "#2e2e2e"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/white
-	name = "white bandana"
+	name = "glup shitto"
 	desc = "A fine white bandana with nanotech lining."
 	greyscale_colors = "#DCDCDC"
 	flags_1 = NONE
 	icon_state_preview = "bandana_cloth"
 
 /obj/item/clothing/mask/bandana/durathread
-	name = "durathread bandana"
+	name = "glup shitto"
 	desc = "A bandana made from durathread, you wish it would provide some protection to its wearer, but it's far too thin..."
 	greyscale_colors = "#5c6d80"
 	flags_1 = NONE
@@ -123,7 +123,7 @@
 	icon_state_preview = "bandana_durathread"
 
 /obj/item/clothing/mask/bandana/striped
-	name = "striped bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining and a stripe across."
 	icon_state = "bandstriped"
 	worn_icon_state = "bandstriped_worn"
@@ -135,49 +135,49 @@
 	undyeable = TRUE
 
 /obj/item/clothing/mask/bandana/striped/black
-	name = "striped bandana"
+	name = "glup shitto"
 	desc = "A fine black and white bandana with nanotech lining and a stripe across."
 	greyscale_colors = "#2e2e2e#C6C6C6"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/striped/security
-	name = "striped security bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining, a stripe across and security colors."
 	greyscale_colors = "#A02525#2e2e2e"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/striped/science
-	name = "striped science bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining, a stripe across and science colors."
 	greyscale_colors = "#DCDCDC#8019a0"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/striped/engineering
-	name = "striped engineering bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining, a stripe across and engineering colors."
 	greyscale_colors = "#dab50e#ec7404"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/striped/medical
-	name = "striped medical bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining, a stripe across and medical colors."
 	greyscale_colors = "#DCDCDC#5995BA"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/striped/cargo
-	name = "striped cargo bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining, a stripe across and cargo colors."
 	greyscale_colors = "#967032#5F350B"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/striped/botany
-	name = "striped botany bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining, a stripe across and botany colors."
 	greyscale_colors = "#3D9829#294A98"
 	flags_1 = NONE
 
 /obj/item/clothing/mask/bandana/skull
-	name = "skull bandana"
+	name = "glup shitto"
 	desc = "A fine bandana with nanotech lining and a skull emblem."
 	icon_state = "bandskull"
 	worn_icon_state = "bandskull_worn"

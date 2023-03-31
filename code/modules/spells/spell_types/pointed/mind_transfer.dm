@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/mind_transfer
-	name = "Mind Swap"
+	name = "glup shitto"
 	desc = "This spell allows the user to switch bodies with a target next to him."
 	button_icon_state = "mindswap"
 	ranged_mousepointer = 'icons/effects/mouse_pointers/mindswap_target.dmi'

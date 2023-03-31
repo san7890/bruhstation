@@ -1,5 +1,5 @@
 /datum/mutation/human/olfaction
-	name = "Transcendent Olfaction"
+	name = "glup shitto"
 	desc = "Your sense of smell is comparable to that of a canine."
 	quality = POSITIVE
 	difficulty = 12
@@ -18,7 +18,7 @@
 	to_modify.sensitivity = GET_MUTATION_SYNCHRONIZER(src)
 
 /datum/action/cooldown/spell/olfaction
-	name = "Remember the Scent"
+	name = "glup shitto"
 	desc = "Get a scent off of the item you're currently holding to track it. \
 		With an empty hand, you'll track the scent you've remembered."
 	button_icon_state = "nose"

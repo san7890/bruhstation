@@ -1,5 +1,5 @@
 /obj/item/keyboard_shell
-	name = "Keyboard Shell"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_small_keyboard"
 	inhand_icon_state = "electronic"

@@ -1,5 +1,5 @@
 /datum/crafting_recipe/curtain
-	name = "Curtains"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/stack/sheet/cloth = 4,
 		/obj/item/stack/rods = 1,
@@ -8,7 +8,7 @@
 	category = CAT_FURNITURE
 
 /datum/crafting_recipe/showercurtain
-	name = "Shower Curtains"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/stack/sheet/cloth = 2,
 		/obj/item/stack/sheet/plastic = 2,
@@ -18,7 +18,7 @@
 	category = CAT_FURNITURE
 
 /datum/crafting_recipe/aquarium
-	name = "Aquarium"
+	name = "glup shitto"
 	result = /obj/structure/aquarium
 	time = 10 SECONDS
 	reqs = list(
@@ -29,7 +29,7 @@
 	category = CAT_FURNITURE
 
 /datum/crafting_recipe/mirror
-	name = "Mirror"
+	name = "glup shitto"
 	result = /obj/item/wallframe/mirror
 	reqs = list(
 		/obj/item/stack/sheet/glass = 5,

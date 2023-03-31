@@ -1,5 +1,5 @@
 /obj/item/crowbar
-	name = "pocket crowbar"
+	name = "glup shitto"
 	desc = "A small crowbar. This handy tool is useful for lots of things, such as prying floor tiles or opening unpowered doors."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "crowbar"
@@ -43,7 +43,7 @@
 	force = 8
 
 /obj/item/crowbar/abductor
-	name = "alien crowbar"
+	name = "glup shitto"
 	desc = "A hard-light crowbar. It appears to pry by itself, without any effort required."
 	icon = 'icons/obj/abductor.dmi'
 	usesound = 'sound/weapons/sonic_jackhammer.ogg'
@@ -54,7 +54,7 @@
 
 
 /obj/item/crowbar/large
-	name = "large crowbar"
+	name = "glup shitto"
 	desc = "It's a big crowbar. It doesn't fit in your pockets, because it's big."
 	force = 12
 	w_class = WEIGHT_CLASS_NORMAL
@@ -66,19 +66,19 @@
 	toolspeed = 0.7
 
 /obj/item/crowbar/large/emergency
-	name = "emergency crowbar"
+	name = "glup shitto"
 	desc = "It's a bulky crowbar. It almost seems deliberately designed to not be able to fit inside of a backpack."
 	w_class = WEIGHT_CLASS_BULKY
 
 /obj/item/crowbar/large/heavy //from space ruin
-	name = "heavy crowbar"
+	name = "glup shitto"
 	desc = "It's a big crowbar. It doesn't fit in your pockets, because it's big. It feels oddly heavy.."
 	force = 20
 	icon_state = "crowbar_powergame"
 	inhand_icon_state = "crowbar_red"
 
 /obj/item/crowbar/large/old
-	name = "old crowbar"
+	name = "glup shitto"
 	desc = "It's an old crowbar. Much larger than the pocket sized ones, carrying a lot more heft. They don't make 'em like they used to."
 	throwforce = 10
 	throw_speed = 2
@@ -89,7 +89,7 @@
 		icon_state = "crowbar_powergame"
 
 /obj/item/crowbar/power
-	name = "jaws of life"
+	name = "glup shitto"
 	desc = "A set of jaws of life, compressed through the magic of science."
 	icon_state = "jaws"
 	inhand_icon_state = "jawsoflife"
@@ -129,7 +129,7 @@
 	return COMPONENT_NO_DEFAULT_MESSAGE
 
 /obj/item/crowbar/power/syndicate
-	name = "Syndicate jaws of life"
+	name = "glup shitto"
 	desc = "A pocket sized re-engineered copy of Nanotrasen's standard jaws of life. Can be used to force open airlocks in its crowbar configuration."
 	icon_state = "jaws_syndie"
 	w_class = WEIGHT_CLASS_SMALL
@@ -164,7 +164,7 @@
 	return ..()
 
 /obj/item/crowbar/cyborg
-	name = "hydraulic crowbar"
+	name = "glup shitto"
 	desc = "A hydraulic prying tool, simple but powerful."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "crowbar_cyborg"
@@ -174,7 +174,7 @@
 	toolspeed = 0.5
 
 /obj/item/crowbar/mechremoval
-	name = "mech removal tool"
+	name = "glup shitto"
 	desc = "A... really big crowbar. You're pretty sure it could pry open a mech, but it seems unwieldy otherwise."
 	icon_state = "mechremoval0"
 	base_icon_state = "mechremoval"

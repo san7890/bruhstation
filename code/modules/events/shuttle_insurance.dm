@@ -1,7 +1,7 @@
 
 
 /datum/round_event_control/shuttle_insurance
-	name = "Shuttle Insurance"
+	name = "glup shitto"
 	typepath = /datum/round_event/shuttle_insurance
 	max_occurrences = 1
 	category = EVENT_CATEGORY_BUREAUCRATIC

@@ -119,7 +119,7 @@
 /**** Nanotrasen Approved God ****/
 
 /datum/religion_sect/puritanism
-	name = "Nanotrasen Approved God"
+	name = "glup shitto"
 	desc = "Your run-of-the-mill sect, there are no benefits or boons associated."
 	quote = "Nanotrasen Recommends!"
 	tgui_icon = "bible"
@@ -127,7 +127,7 @@
 /**** Mechanical God ****/
 
 /datum/religion_sect/mechanical
-	name = "Mechanical God"
+	name = "glup shitto"
 	quote = "May you find peace in a metal shell."
 	desc = "Bibles now recharge cyborgs and heal robotic limbs if targeted, but they \
 	do not heal organic limbs. You can now sacrifice cells, with favor depending on their charge."
@@ -198,7 +198,7 @@
 /**** Pyre God ****/
 
 /datum/religion_sect/pyre
-	name = "Pyre God"
+	name = "glup shitto"
 	desc = "Sacrificing burning corpses with a lot of burn damage and candles grants you favor."
 	quote = "It must burn! The primal energy must be respected."
 	tgui_icon = "fire-alt"
@@ -226,7 +226,7 @@
 #define GREEDY_HEAL_COST 50
 
 /datum/religion_sect/greed
-	name = "Greedy God"
+	name = "glup shitto"
 	quote = "Greed is good."
 	desc = "In the eyes of your mercantile deity, your wealth is your favor. Earn enough wealth to purchase some more business opportunities."
 	tgui_icon = "dollar-sign"
@@ -270,7 +270,7 @@
 #undef GREEDY_HEAL_COST
 
 /datum/religion_sect/burden
-	name = "Punished God"
+	name = "glup shitto"
 	quote = "To feel the freedom, you must first understand captivity."
 	desc = "Incapacitate yourself in any way possible. Bad mutations, lost limbs, traumas, \
 	even addictions. You will learn the secrets of the universe from your defeated shell."
@@ -297,7 +297,7 @@
 
 
 /datum/religion_sect/honorbound
-	name = "Honorbound God"
+	name = "glup shitto"
 	quote = "A good, honorable crusade against evil is required."
 	desc = "Your deity requires fair fights from you. You may not attack the unready, the just, or the innocent. \
 	You earn favor by getting others to join the crusade, and you may spend favor to announce a battle, bypassing some conditions to attack."
@@ -331,7 +331,7 @@
 #define MINIMUM_YUCK_REQUIRED 5
 
 /datum/religion_sect/maintenance
-	name = "Maintenance God"
+	name = "glup shitto"
 	quote = "Your kingdom in the darkness."
 	desc = "Sacrifice the organic slurry created from rats dipped in welding fuel to gain favor. Exchange favor to adapt to the maintenance shafts."
 	tgui_icon = "eye"
@@ -371,7 +371,7 @@
 #undef MINIMUM_YUCK_REQUIRED
 
 /datum/religion_sect/spar
-	name = "Sparring God"
+	name = "glup shitto"
 	quote = "Your next swing must be faster, neophyte. Steel your heart."
 	desc = "Spar other crewmembers to gain favor or other rewards. Exchange favor to steel yourself against real battles."
 	tgui_icon = "fist-raised"
@@ -400,7 +400,7 @@
 	return "You have [round(favor)] sparring matches won in [GLOB.deity]'s name to redeem. You have lost [matches_lost] holy matches. You will be excommunicated after losing three matches."
 
 /datum/religion_sect/music
-	name = "Festival God"
+	name = "glup shitto"
 	quote = "Everything follows a rhythm- The heartbeat of the universe!"
 	desc = "Make wonderful music! Sooth or serrate your friends and foes with the beat."
 	tgui_icon = "music"

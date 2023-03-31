@@ -2,7 +2,7 @@
 //space pirates from the pirate event.
 
 /obj/effect/mob_spawn/ghost_role/human/pirate
-	name = "space pirate sleeper"
+	name = "glup shitto"
 	desc = "A cryo sleeper smelling faintly of rum."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -48,7 +48,7 @@
 	rank = "Rogue"
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/skeleton
-	name = "pirate remains"
+	name = "glup shitto"
 	desc = "Some unanimated bones. They feel like they could spring to life any moment!"
 	density = FALSE
 	icon = 'icons/effects/blood.dmi'
@@ -67,7 +67,7 @@
 	rank = "Gunner"
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/silverscale
-	name = "elegant sleeper"
+	name = "glup shitto"
 	desc = "Cozy. You get the feeling you aren't supposed to be here, though..."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -96,7 +96,7 @@
 	rank = "Top-drawer"
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/psykers
-	name = "mental energizer"
+	name = "glup shitto"
 	desc = "A cryo sleeper modified to keep the occupant mentally sharp. However that works..."
 	icon_state = "psykerpod"
 	prompt_name = "a psyker-ganger"

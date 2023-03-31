@@ -6,7 +6,7 @@ Slimecrossing Mobs
 
 /// Slime transformation power - from Burning Black
 /datum/action/cooldown/spell/shapeshift/slime_form
-	name = "Slime Transformation"
+	name = "glup shitto"
 	desc = "Transform from a human to a slime, or back again!"
 	button_icon_state = "transformslime"
 	cooldown_time = 0 SECONDS
@@ -39,7 +39,7 @@ Slimecrossing Mobs
 
 //Slime corgi - Chilling Pink
 /mob/living/basic/pet/dog/corgi/puppy/slime
-	name = "\improper slime corgi puppy"
+	name = "glup shitto"
 	real_name = "slime corgi puppy"
 	desc = "An unbearably cute pink slime corgi puppy."
 	icon_state = "slime_puppy"

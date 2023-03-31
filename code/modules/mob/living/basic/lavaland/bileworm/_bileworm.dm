@@ -1,5 +1,5 @@
 /mob/living/basic/mining/bileworm
-	name = "bileworm"
+	name = "glup shitto"
 	desc = "Bileworms are dangerous detritivores that attack with the highly acidic bile they produce from consuming detritus."
 	icon = 'icons/mob/simple/lavaland/bileworm.dmi'
 	icon_state = "bileworm"

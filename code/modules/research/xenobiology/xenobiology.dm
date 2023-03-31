@@ -1,7 +1,7 @@
 /// Slime Extracts ///
 
 /obj/item/slime_extract
-	name = "slime extract"
+	name = "glup shitto"
 	desc = "Goo extracted from a slime. Legends claim these to have \"magical powers\"."
 	icon = 'icons/mob/simple/slimes.dmi'
 	icon_state = "grey slime extract"
@@ -88,7 +88,7 @@
 		M.spawn_corecross()
 
 /obj/item/slime_extract/grey
-	name = "grey slime extract"
+	name = "glup shitto"
 	icon_state = "grey slime extract"
 	effectmod = "reproductive"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -113,7 +113,7 @@
 				return 0
 
 /obj/item/slime_extract/gold
-	name = "gold slime extract"
+	name = "glup shitto"
 	icon_state = "gold slime extract"
 	effectmod = "symbiont"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -144,7 +144,7 @@
 				return 600
 
 /obj/item/slime_extract/silver
-	name = "silver slime extract"
+	name = "glup shitto"
 	icon_state = "silver slime extract"
 	effectmod = "consuming"
 	activate_reagents = list(/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -172,7 +172,7 @@
 			return 200
 
 /obj/item/slime_extract/metal
-	name = "metal slime extract"
+	name = "glup shitto"
 	icon_state = "metal slime extract"
 	effectmod = "industrial"
 	activate_reagents = list(/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -196,7 +196,7 @@
 			return 200
 
 /obj/item/slime_extract/purple
-	name = "purple slime extract"
+	name = "glup shitto"
 	icon_state = "purple slime extract"
 	effectmod = "regenerative"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma)
@@ -215,7 +215,7 @@
 			return 600
 
 /obj/item/slime_extract/darkpurple
-	name = "dark purple slime extract"
+	name = "glup shitto"
 	icon_state = "dark purple slime extract"
 	effectmod = "self-sustaining"
 	activate_reagents = list(/datum/reagent/toxin/plasma)
@@ -238,7 +238,7 @@
 			return 900
 
 /obj/item/slime_extract/orange
-	name = "orange slime extract"
+	name = "glup shitto"
 	icon_state = "orange slime extract"
 	effectmod = "burning"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -258,7 +258,7 @@
 			return 450
 
 /obj/item/slime_extract/yellow
-	name = "yellow slime extract"
+	name = "glup shitto"
 	icon_state = "yellow slime extract"
 	effectmod = "charged"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -281,7 +281,7 @@
 				return 600
 
 /obj/item/slime_extract/red
-	name = "red slime extract"
+	name = "glup shitto"
 	icon_state = "red slime extract"
 	effectmod = "sanguine"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -301,7 +301,7 @@
 			return 600
 
 /obj/item/slime_extract/blue
-	name = "blue slime extract"
+	name = "glup shitto"
 	icon_state = "blue slime extract"
 	effectmod = "stabilized"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -321,7 +321,7 @@
 			return 600
 
 /obj/item/slime_extract/darkblue
-	name = "dark blue slime extract"
+	name = "glup shitto"
 	icon_state = "dark blue slime extract"
 	effectmod = "chilling"
 	activate_reagents = list(/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -344,7 +344,7 @@
 			return 900
 
 /obj/item/slime_extract/pink
-	name = "pink slime extract"
+	name = "glup shitto"
 	icon_state = "pink slime extract"
 	effectmod = "gentle"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma)
@@ -372,7 +372,7 @@
 			return 600
 
 /obj/item/slime_extract/green
-	name = "green slime extract"
+	name = "glup shitto"
 	icon_state = "green slime extract"
 	effectmod = "mutative"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/uranium/radium)
@@ -396,7 +396,7 @@
 			to_chat(user, span_notice("You stop the transformation."))
 
 /obj/item/slime_extract/lightpink
-	name = "light pink slime extract"
+	name = "glup shitto"
 	icon_state = "light pink slime extract"
 	effectmod = "loyal"
 	activate_reagents = list(/datum/reagent/toxin/plasma)
@@ -420,7 +420,7 @@
 			return 450
 
 /obj/item/slime_extract/black
-	name = "black slime extract"
+	name = "glup shitto"
 	icon_state = "black slime extract"
 	effectmod = "transformative"
 	activate_reagents = list(/datum/reagent/toxin/plasma)
@@ -441,7 +441,7 @@
 			to_chat(user, span_notice("You stop feeding [src]."))
 
 /obj/item/slime_extract/oil
-	name = "oil slime extract"
+	name = "glup shitto"
 	icon_state = "oil slime extract"
 	effectmod = "detonating"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma)
@@ -465,7 +465,7 @@
 			to_chat(user, span_notice("You stop feeding [src], and the feeling passes."))
 
 /obj/item/slime_extract/adamantine
-	name = "adamantine slime extract"
+	name = "glup shitto"
 	icon_state = "adamantine slime extract"
 	effectmod = "crystalline"
 	activate_reagents = list(/datum/reagent/toxin/plasma)
@@ -494,7 +494,7 @@
 		species.armor -= 25
 
 /obj/item/slime_extract/bluespace
-	name = "bluespace slime extract"
+	name = "glup shitto"
 	icon_state = "bluespace slime extract"
 	effectmod = "warping"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma)
@@ -530,7 +530,7 @@
 
 
 /obj/item/slime_extract/pyrite
-	name = "pyrite slime extract"
+	name = "glup shitto"
 	icon_state = "pyrite slime extract"
 	effectmod = "prismatic"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma)
@@ -557,7 +557,7 @@
 			return 250
 
 /obj/item/slime_extract/cerulean
-	name = "cerulean slime extract"
+	name = "glup shitto"
 	icon_state = "cerulean slime extract"
 	effectmod = "recurring"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma)
@@ -577,7 +577,7 @@
 				return 600
 
 /obj/item/slime_extract/sepia
-	name = "sepia slime extract"
+	name = "glup shitto"
 	icon_state = "sepia slime extract"
 	effectmod = "lengthened"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,/datum/reagent/water)
@@ -599,7 +599,7 @@
 				return 900
 
 /obj/item/slime_extract/rainbow
-	name = "rainbow slime extract"
+	name = "glup shitto"
 	icon_state = "rainbow slime extract"
 	effectmod = "hyperchromatic"
 	activate_reagents = list(/datum/reagent/blood,/datum/reagent/toxin/plasma,"lesser plasma",/datum/reagent/toxin/slimejelly,"holy water and uranium") //Curse this snowflake reagent list.
@@ -636,7 +636,7 @@
 */
 
 /obj/item/slimepotion
-	name = "slime potion"
+	name = "glup shitto"
 	desc = "A hard yet gelatinous capsule excreted by a slime, containing mysterious substances."
 	w_class = WEIGHT_CLASS_TINY
 
@@ -649,7 +649,7 @@
 		return
 
 /obj/item/slimepotion/slime/docility
-	name = "docility potion"
+	name = "glup shitto"
 	desc = "A potent chemical mix that nullifies a slime's hunger, causing it to become docile and tame."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potsilver"
@@ -680,7 +680,7 @@
 	qdel(src)
 
 /obj/item/slimepotion/slime/sentience
-	name = "intelligence potion"
+	name = "glup shitto"
 	desc = "A miraculous chemical mix that grants human like intelligence to living beings."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potpink"
@@ -726,7 +726,7 @@
 	return
 
 /obj/item/slimepotion/slime/sentience/nuclear
-	name = "syndicate intelligence potion"
+	name = "glup shitto"
 	desc = "A miraculous chemical mix that grants human like intelligence to living beings. It has been modified with Syndicate technology to also grant an internal radio implant to the target and authenticate with identification systems."
 
 /obj/item/slimepotion/slime/sentience/nuclear/after_success(mob/living/user, mob/living/smart_mob)
@@ -735,7 +735,7 @@
 	smart_mob.AddComponent(/datum/component/simple_access, list(ACCESS_SYNDICATE, ACCESS_MAINT_TUNNELS))
 
 /obj/item/slimepotion/transference
-	name = "consciousness transference potion"
+	name = "glup shitto"
 	desc = "A strange slime-based chemical that, when used, allows the user to transfer their consciousness to a lesser being."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potorange"
@@ -787,7 +787,7 @@
 		switchy_animal.sentience_act()
 
 /obj/item/slimepotion/slime/steroid
-	name = "slime steroid"
+	name = "glup shitto"
 	desc = "A potent chemical mix that will cause a baby slime to generate more extract."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potred"
@@ -811,13 +811,13 @@
 	qdel(src)
 
 /obj/item/slimepotion/enhancer
-	name = "extract enhancer"
+	name = "glup shitto"
 	desc = "A potent chemical mix that will give a slime extract an additional use."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potpurple"
 
 /obj/item/slimepotion/slime/stabilizer
-	name = "slime stabilizer"
+	name = "glup shitto"
 	desc = "A potent chemical mix that will reduce the chance of a slime mutating."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potcyan"
@@ -838,7 +838,7 @@
 	qdel(src)
 
 /obj/item/slimepotion/slime/mutator
-	name = "slime mutator"
+	name = "glup shitto"
 	desc = "A potent chemical mix that will increase the chance of a slime mutating."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potgreen"
@@ -863,7 +863,7 @@
 	qdel(src)
 
 /obj/item/slimepotion/speed
-	name = "slime speed potion"
+	name = "glup shitto"
 	desc = "A potent chemical mix that will remove the slowdown from any item."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potyellow"
@@ -900,7 +900,7 @@
 	return storage_item.slowdown <= 0
 
 /obj/item/slimepotion/fireproof
-	name = "slime chill potion"
+	name = "glup shitto"
 	desc = "A potent chemical mix that will fireproof any article of clothing. Has three uses."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potblue"
@@ -933,7 +933,7 @@
 		qdel(src)
 
 /obj/item/slimepotion/genderchange
-	name = "gender change potion"
+	name = "glup shitto"
 	desc = "An interesting chemical mix that changes the biological gender of what its applied to. Cannot be used on things that lack gender entirely."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potlightpink"
@@ -957,7 +957,7 @@
 	qdel(src)
 
 /obj/item/slimepotion/slime/renaming
-	name = "renaming potion"
+	name = "glup shitto"
 	desc = "A potion that allows a self-aware being to change what name it subconciously presents to the world."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potgreen"
@@ -991,7 +991,7 @@
 	qdel(src)
 
 /obj/item/slimepotion/slime/slimeradio
-	name = "bluespace radio potion"
+	name = "glup shitto"
 	desc = "A strange chemical that grants those who ingest it the ability to broadcast and receive subscape radio waves."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "potgrey"
@@ -1013,7 +1013,7 @@
 ///Definitions for slime products that don't have anywhere else to go (Floor tiles, blueprints).
 
 /obj/item/stack/tile/bluespace
-	name = "bluespace floor tile"
+	name = "glup shitto"
 	singular_name = "floor tile"
 	desc = "Through a series of micro-teleports these tiles let people move at incredible speeds."
 	icon_state = "tile_bluespace"
@@ -1030,7 +1030,7 @@
 	merge_type = /obj/item/stack/tile/bluespace
 
 /obj/item/stack/tile/sepia
-	name = "sepia floor tile"
+	name = "glup shitto"
 	singular_name = "floor tile"
 	desc = "Time seems to flow very slowly around these tiles."
 	icon_state = "tile_sepia"
@@ -1047,7 +1047,7 @@
 	merge_type = /obj/item/stack/tile/sepia
 
 /obj/item/areaeditor/blueprints/slime
-	name = "cerulean prints"
+	name = "glup shitto"
 	desc = "A one use yet of blueprints made of jelly like organic material. Extends the reach of the management console."
 	color = "#2956B2"
 

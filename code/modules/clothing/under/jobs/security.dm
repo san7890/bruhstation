@@ -25,19 +25,19 @@
 	wound = 10
 
 /obj/item/clothing/under/rank/security/officer
-	name = "security uniform"
+	name = "glup shitto"
 	desc = "A tactical security jumpsuit for officers complete with Nanotrasen belt buckle."
 	icon_state = "rsecurity"
 	inhand_icon_state = "r_suit"
 
 /obj/item/clothing/under/rank/security/officer/grey
-	name = "grey security jumpsuit"
+	name = "glup shitto"
 	desc = "A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood."
 	icon_state = "security"
 	inhand_icon_state = "gy_suit"
 
 /obj/item/clothing/under/rank/security/officer/skirt
-	name = "security skirt"
+	name = "glup shitto"
 	desc = "A \"tactical\" security uniform with the legs replaced by a skirt."
 	icon_state = "secskirt"
 	inhand_icon_state = "r_suit"
@@ -47,21 +47,21 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/security/officer/blueshirt
-	name = "blue shirt and tie"
+	name = "glup shitto"
 	desc = "I'm a little busy right now, Calhoun."
 	icon_state = "blueshift"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/officer/formal
-	name = "security officer's formal uniform"
+	name = "glup shitto"
 	desc = "The latest in fashionable security outfits."
 	icon_state = "officerblueclothes"
 	inhand_icon_state = null
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/constable
-	name = "constable outfit"
+	name = "glup shitto"
 	desc = "A british looking outfit."
 	icon_state = "constable"
 	inhand_icon_state = null
@@ -70,19 +70,19 @@
 
 
 /obj/item/clothing/under/rank/security/warden
-	name = "security suit"
+	name = "glup shitto"
 	desc = "A formal security suit for officers complete with Nanotrasen belt buckle."
 	icon_state = "rwarden"
 	inhand_icon_state = "r_suit"
 
 /obj/item/clothing/under/rank/security/warden/grey
-	name = "grey security suit"
+	name = "glup shitto"
 	desc = "A formal relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood."
 	icon_state = "warden"
 	inhand_icon_state = "gy_suit"
 
 /obj/item/clothing/under/rank/security/warden/skirt
-	name = "warden's suitskirt"
+	name = "glup shitto"
 	desc = "A formal security suitskirt for officers complete with Nanotrasen belt buckle."
 	icon_state = "rwarden_skirt"
 	inhand_icon_state = "r_suit"
@@ -93,7 +93,7 @@
 
 /obj/item/clothing/under/rank/security/warden/formal
 	desc = "The insignia on this uniform tells you that this uniform belongs to the Warden."
-	name = "warden's formal uniform"
+	name = "glup shitto"
 	icon_state = "wardenblueclothes"
 	inhand_icon_state = null
 	alt_covers_chest = TRUE
@@ -102,14 +102,14 @@
  * Detective
  */
 /obj/item/clothing/under/rank/security/detective
-	name = "hard-worn suit"
+	name = "glup shitto"
 	desc = "Someone who wears this means business."
 	icon_state = "detective"
 	inhand_icon_state = "det"
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/detective/skirt
-	name = "detective's suitskirt"
+	name = "glup shitto"
 	desc = "Someone who wears this means business."
 	icon_state = "detective_skirt"
 	inhand_icon_state = "det"
@@ -120,14 +120,14 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/security/detective/noir
-	name = "noir suit"
+	name = "glup shitto"
 	desc = "A hard-boiled private investigator's dark suit, complete with tie clip."
 	icon_state = "noirdet"
 	inhand_icon_state = null
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/detective/noir/skirt
-	name = "noir suitskirt"
+	name = "glup shitto"
 	desc = "A hard-boiled private investigator's grey suitskirt, complete with tie clip."
 	icon_state = "noirdet_skirt"
 	inhand_icon_state = null
@@ -141,7 +141,7 @@
  * Head of Security
  */
 /obj/item/clothing/under/rank/security/head_of_security
-	name = "head of security's uniform"
+	name = "glup shitto"
 	desc = "A security jumpsuit decorated for those few with the dedication to achieve the position of Head of Security."
 	icon_state = "rhos"
 	inhand_icon_state = "r_suit"
@@ -156,7 +156,7 @@
 	wound = 10
 
 /obj/item/clothing/under/rank/security/head_of_security/skirt
-	name = "head of security's skirt"
+	name = "glup shitto"
 	desc = "A security jumpskirt decorated for those few with the dedication to achieve the position of Head of Security."
 	icon_state = "rhos_skirt"
 	inhand_icon_state = "r_suit"
@@ -166,20 +166,20 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/security/head_of_security/grey
-	name = "head of security's grey jumpsuit"
+	name = "glup shitto"
 	desc = "There are old men, and there are bold men, but there are very few old, bold men."
 	icon_state = "hos"
 	inhand_icon_state = "gy_suit"
 
 /obj/item/clothing/under/rank/security/head_of_security/alt
-	name = "head of security's turtleneck"
+	name = "glup shitto"
 	desc = "A stylish alternative to the normal head of security jumpsuit, complete with tactical pants."
 	icon_state = "hosalt"
 	inhand_icon_state = "bl_suit"
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/security/head_of_security/alt/skirt
-	name = "head of security's turtleneck skirt"
+	name = "glup shitto"
 	desc = "A stylish alternative to the normal head of security jumpsuit, complete with a tactical skirt."
 	icon_state = "hosalt_skirt"
 	inhand_icon_state = "bl_suit"
@@ -190,14 +190,14 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/security/head_of_security/parade
-	name = "head of security's parade uniform"
+	name = "glup shitto"
 	desc = "A male head of security's luxury-wear, for special occasions."
 	icon_state = "hos_parade_male"
 	inhand_icon_state = "r_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/head_of_security/parade/female
-	name = "head of security's parade uniform"
+	name = "glup shitto"
 	desc = "A female head of security's luxury-wear, for special occasions."
 	icon_state = "hos_parade_fem"
 	inhand_icon_state = "r_suit"
@@ -206,7 +206,7 @@
 
 /obj/item/clothing/under/rank/security/head_of_security/formal
 	desc = "The insignia on this uniform tells you that this uniform belongs to the Head of Security."
-	name = "head of security's formal uniform"
+	name = "glup shitto"
 	icon_state = "hosblueclothes"
 	inhand_icon_state = null
 	alt_covers_chest = TRUE
@@ -216,7 +216,7 @@
  */
 
 /obj/item/clothing/under/rank/security/officer/spacepol
-	name = "police uniform"
+	name = "glup shitto"
 	desc = "Space not controlled by megacorporations, planets, or pirates is under the jurisdiction of Spacepol."
 	icon_state = "spacepol"
 	inhand_icon_state = null
@@ -229,7 +229,7 @@
 	melee = 10
 
 /obj/item/clothing/under/rank/prisoner
-	name = "prison jumpsuit"
+	name = "glup shitto"
 	desc = "It's standardised Nanotrasen prisoner-wear. Its suit sensors are stuck in the \"Fully On\" position."
 	icon_state = "jumpsuit"
 	icon_preview = 'icons/obj/previews.dmi'
@@ -245,7 +245,7 @@
 	random_sensor = FALSE
 
 /obj/item/clothing/under/rank/prisoner/skirt
-	name = "prison jumpskirt"
+	name = "glup shitto"
 	desc = "It's standardised Nanotrasen prisoner-wear. Its suit sensors are stuck in the \"Fully On\" position."
 	icon_state = "jumpskirt"
 	icon_preview = 'icons/obj/previews.dmi'
@@ -261,21 +261,21 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/security/officer/beatcop
-	name = "space police uniform"
+	name = "glup shitto"
 	desc = "A police uniform often found in the lines at donut shops."
 	icon_state = "spacepolice_families"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/detective/disco
-	name = "superstar cop uniform"
+	name = "glup shitto"
 	desc = "Flare cut trousers and a dirty shirt that might have been classy before someone took a piss in the armpits. It's the dress of a superstar."
 	icon_state = "jamrock_suit"
 	inhand_icon_state = null
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/security/detective/kim
-	name = "aerostatic suit"
+	name = "glup shitto"
 	desc = "A crisp and well-pressed suit; professional, comfortable and curiously authoritative."
 	icon_state = "aerostatic_suit"
 	inhand_icon_state = null

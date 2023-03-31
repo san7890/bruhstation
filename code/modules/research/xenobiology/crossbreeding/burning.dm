@@ -4,7 +4,7 @@ Burning extracts:
 	filled with 10u plasma and activated in-hand.
 */
 /obj/item/slimecross/burning
-	name = "burning extract"
+	name = "glup shitto"
 	desc = "It's boiling over with barely-contained energy."
 	effect = "burning"
 	icon_state = "burning"

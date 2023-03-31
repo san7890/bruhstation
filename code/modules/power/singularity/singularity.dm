@@ -1,6 +1,6 @@
 /// The gravitational singularity
 /obj/singularity
-	name = "gravitational singularity"
+	name = "glup shitto"
 	desc = "A gravitational singularity."
 	icon = 'icons/obj/engine/singularity.dmi'
 	icon_state = "singularity_s1"
@@ -310,7 +310,7 @@
 		supermatter_upgrade()
 
 /obj/singularity/proc/supermatter_upgrade()
-	name = "supermatter-charged [initial(name)]"
+	name = "glup shitto"
 	desc = "[initial(desc)] It glows fiercely with inner fire."
 	consumed_supermatter = TRUE
 	set_light(10)

@@ -1,6 +1,6 @@
 //does brute damage, shifts away when damaged
 /datum/blobstrain/reagent/shifting_fragments
-	name = "Shifting Fragments"
+	name = "glup shitto"
 	description = "will do medium brute damage."
 	effectdesc = "will also cause blob parts to shift away when attacked."
 	analyzerdescdamage = "Does medium brute damage."
@@ -28,7 +28,7 @@
 	return ..()
 
 /datum/reagent/blob/shifting_fragments
-	name = "Shifting Fragments"
+	name = "glup shitto"
 	color = "#C8963C"
 
 /datum/reagent/blob/shifting_fragments/expose_mob(mob/living/exposed_mob, methods=TOUCH, reac_volume, show_message, touch_protection, mob/camera/blob/overmind)

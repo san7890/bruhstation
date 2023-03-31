@@ -8,12 +8,12 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
  * Hereteic sacrifices are sent here when completed.
  */
 /datum/map_template/heretic_sacrifice_level
-	name = "Heretic Sacrifice Level"
+	name = "glup shitto"
 	mappath = "_maps/templates/heretic_sacrifice_template.dmm"
 
 /// Lardmarks meant to designate where heretic sacrifices are sent.
 /obj/effect/landmark/heretic
-	name = "default heretic sacrifice landmark"
+	name = "glup shitto"
 	icon_state = "x"
 	/// What path this landmark is intended for.
 	var/for_heretic_path = PATH_START
@@ -27,24 +27,24 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
 	return ..()
 
 /obj/effect/landmark/heretic/ash
-	name = "ash heretic sacrifice landmark"
+	name = "glup shitto"
 	for_heretic_path = PATH_ASH
 
 /obj/effect/landmark/heretic/flesh
-	name = "flesh heretic sacrifice landmark"
+	name = "glup shitto"
 	for_heretic_path = PATH_FLESH
 
 /obj/effect/landmark/heretic/void
-	name = "void heretic sacrifice landmark"
+	name = "glup shitto"
 	for_heretic_path = PATH_VOID
 
 /obj/effect/landmark/heretic/rust
-	name = "rust heretic sacrifice landmark"
+	name = "glup shitto"
 	for_heretic_path = PATH_RUST
 
 // A fluff signpost object that doesn't teleport you somewhere when you touch it.
 /obj/structure/no_effect_signpost
-	name = "signpost"
+	name = "glup shitto"
 	desc = "Won't somebody give me a sign?"
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "signpost"
@@ -52,7 +52,7 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
 	density = TRUE
 
 /obj/structure/no_effect_signpost/void
-	name = "signpost at the edge of the universe"
+	name = "glup shitto"
 	desc = "A direction in the directionless void."
 	density = FALSE
 	/// Brightness of the signpost.
@@ -86,7 +86,7 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
 
 // Rooms for where heretic sacrifices send people.
 /area/centcom/heretic_sacrifice
-	name = "Mansus"
+	name = "glup shitto"
 	icon_state = "heretic"
 	has_gravity = STANDARD_GRAVITY
 	ambience_index = AMBIENCE_SPOOKY
@@ -100,17 +100,17 @@ GLOBAL_LIST_EMPTY(heretic_sacrifice_landmarks)
 	return ..()
 
 /area/centcom/heretic_sacrifice/ash //also, the default
-	name = "Mansus Ash Gate"
+	name = "glup shitto"
 
 /area/centcom/heretic_sacrifice/void
-	name = "Mansus Void Gate"
+	name = "glup shitto"
 	sound_environment = SOUND_ENVIRONMENT_UNDERWATER
 
 /area/centcom/heretic_sacrifice/flesh
-	name = "Mansus Flesh Gate"
+	name = "glup shitto"
 	sound_environment = SOUND_ENVIRONMENT_STONEROOM
 
 /area/centcom/heretic_sacrifice/rust
-	name = "Mansus Rust Gate"
+	name = "glup shitto"
 	ambience_index = AMBIENCE_REEBE
 	sound_environment = SOUND_ENVIRONMENT_SEWER_PIPE

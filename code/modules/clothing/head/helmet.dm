@@ -1,5 +1,5 @@
 /obj/item/clothing/head/helmet
-	name = "helmet"
+	name = "glup shitto"
 	desc = "Standard Security gear. Protects the head from impacts."
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
@@ -62,7 +62,7 @@
 	return ..()
 
 /obj/item/clothing/head/helmet/alt
-	name = "bulletproof helmet"
+	name = "glup shitto"
 	desc = "A bulletproof combat helmet that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent."
 	icon_state = "helmetalt"
 	inhand_icon_state = "helmet"
@@ -84,7 +84,7 @@
 	AddComponent(/datum/component/seclite_attachable, light_icon_state = "flight")
 
 /obj/item/clothing/head/helmet/marine
-	name = "tactical combat helmet"
+	name = "glup shitto"
 	desc = "A tactical black helmet, sealed from outside hazards with a plate of glass and not much else."
 	icon_state = "marine_command"
 	inhand_icon_state = "marine_helmet"
@@ -110,24 +110,24 @@
 	AddComponent(/datum/component/seclite_attachable, starting_light = new /obj/item/flashlight/seclite(src), light_icon_state = "flight")
 
 /obj/item/clothing/head/helmet/marine/security
-	name = "marine heavy helmet"
+	name = "glup shitto"
 	icon_state = "marine_security"
 
 /obj/item/clothing/head/helmet/marine/engineer
-	name = "marine utility helmet"
+	name = "glup shitto"
 	icon_state = "marine_engineer"
 
 /obj/item/clothing/head/helmet/marine/medic
-	name = "marine medic helmet"
+	name = "glup shitto"
 	icon_state = "marine_medic"
 
 /obj/item/clothing/head/helmet/old
-	name = "degrading helmet"
+	name = "glup shitto"
 	desc = "Standard issue security helmet. Due to degradation the helmet's visor obstructs the users ability to see long distances."
 	tint = 2
 
 /obj/item/clothing/head/helmet/blueshirt
-	name = "blue helmet"
+	name = "glup shitto"
 	desc = "A reliable, blue tinted helmet reminding you that you <i>still</i> owe that engineer a beer."
 	icon_state = "blueshift"
 	inhand_icon_state = "blueshift_helmet"
@@ -164,7 +164,7 @@
 	return TRUE
 
 /obj/item/clothing/head/helmet/toggleable/riot
-	name = "riot helmet"
+	name = "glup shitto"
 	desc = "It's a helmet specifically designed to protect against close range attacks."
 	icon_state = "riot"
 	inhand_icon_state = "riot_helmet"
@@ -188,7 +188,7 @@
 	wound = 15
 
 /obj/item/clothing/head/helmet/toggleable/justice
-	name = "helmet of justice"
+	name = "glup shitto"
 	desc = "WEEEEOOO. WEEEEEOOO. WEEEEOOOO."
 	icon_state = "justice"
 	inhand_icon_state = "justice_helmet"
@@ -222,12 +222,12 @@
 		weewooloop.stop()
 
 /obj/item/clothing/head/helmet/toggleable/justice/escape
-	name = "alarm helmet"
+	name = "glup shitto"
 	desc = "WEEEEOOO. WEEEEEOOO. STOP THAT MONKEY. WEEEOOOO."
 	icon_state = "justice2"
 
 /obj/item/clothing/head/helmet/swat
-	name = "\improper SWAT helmet"
+	name = "glup shitto"
 	desc = "An extremely robust, space-worthy helmet in a nefarious red and black stripe pattern."
 	icon_state = "swatsyndie"
 	inhand_icon_state = "swatsyndie_helmet"
@@ -253,7 +253,7 @@
 	wound = 15
 
 /obj/item/clothing/head/helmet/swat/nanotrasen
-	name = "\improper SWAT helmet"
+	name = "glup shitto"
 	desc = "An extremely robust helmet with the Nanotrasen logo emblazoned on the top."
 	icon_state = "swat"
 	inhand_icon_state = "swat_helmet"
@@ -266,7 +266,7 @@
 
 
 /obj/item/clothing/head/helmet/thunderdome
-	name = "\improper Thunderdome helmet"
+	name = "glup shitto"
 	desc = "<i>'Let the battle commence!'</i>"
 	flags_inv = HIDEEARS|HIDEHAIR
 	icon_state = "thunderdome"
@@ -299,7 +299,7 @@
 	bullet = 10
 
 /obj/item/clothing/head/helmet/roman
-	name = "\improper Roman helmet"
+	name = "glup shitto"
 	desc = "An ancient helmet made of bronze and leather."
 	flags_inv = HIDEEARS|HIDEHAIR
 	flags_cover = HEADCOVERSEYES
@@ -324,7 +324,7 @@
 	armor_type = /datum/armor/none
 
 /obj/item/clothing/head/helmet/roman/legionnaire
-	name = "\improper Roman legionnaire helmet"
+	name = "glup shitto"
 	desc = "An ancient helmet made of bronze and leather. Has a red crest on top of it."
 	icon_state = "roman_c"
 
@@ -333,7 +333,7 @@
 	armor_type = /datum/armor/none
 
 /obj/item/clothing/head/helmet/gladiator
-	name = "gladiator helmet"
+	name = "glup shitto"
 	desc = "Ave, Imperator, morituri te salutant."
 	icon_state = "gladiator"
 	inhand_icon_state = "gladiator_helmet"
@@ -342,7 +342,7 @@
 	dog_fashion = null
 
 /obj/item/clothing/head/helmet/redtaghelm
-	name = "red laser tag helmet"
+	name = "glup shitto"
 	desc = "They have chosen their own end."
 	icon_state = "redtaghelm"
 	flags_cover = HEADCOVERSEYES
@@ -360,7 +360,7 @@
 	acid = 50
 
 /obj/item/clothing/head/helmet/bluetaghelm
-	name = "blue laser tag helmet"
+	name = "glup shitto"
 	desc = "They'll need more men."
 	icon_state = "bluetaghelm"
 	flags_cover = HEADCOVERSEYES
@@ -378,7 +378,7 @@
 	acid = 50
 
 /obj/item/clothing/head/helmet/knight
-	name = "medieval helmet"
+	name = "glup shitto"
 	desc = "A classic metal helmet."
 	icon_state = "knight_green"
 	inhand_icon_state = "knight_helmet"
@@ -406,7 +406,7 @@
 	icon_state = "knight_red"
 
 /obj/item/clothing/head/helmet/knight/greyscale
-	name = "knight helmet"
+	name = "glup shitto"
 	desc = "A classic medieval helmet, if you hold it upside down you could see that it's actually a bucket."
 	icon_state = "knight_greyscale"
 	inhand_icon_state = null
@@ -424,7 +424,7 @@
 	acid = 40
 
 /obj/item/clothing/head/helmet/skull
-	name = "skull helmet"
+	name = "glup shitto"
 	desc = "An intimidating tribal helmet, it doesn't look very comfortable."
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDESNOUT
 	flags_cover = HEADCOVERSEYES
@@ -443,7 +443,7 @@
 	acid = 50
 
 /obj/item/clothing/head/helmet/durathread
-	name = "durathread helmet"
+	name = "glup shitto"
 	desc = "A helmet made from durathread and leather."
 	icon_state = "durathread"
 	inhand_icon_state = "durathread_helmet"
@@ -462,7 +462,7 @@
 	wound = 5
 
 /obj/item/clothing/head/helmet/rus_helmet
-	name = "russian helmet"
+	name = "glup shitto"
 	desc = "It can hold a bottle of vodka."
 	icon_state = "rus_helmet"
 	inhand_icon_state = "rus_helmet"
@@ -483,7 +483,7 @@
 	create_storage(storage_type = /datum/storage/pockets/helmet)
 
 /obj/item/clothing/head/helmet/rus_ushanka
-	name = "battle ushanka"
+	name = "glup shitto"
 	desc = "100% bear."
 	icon_state = "rus_ushanka"
 	inhand_icon_state = "rus_ushanka"
@@ -504,7 +504,7 @@
 	wound = 5
 
 /obj/item/clothing/head/helmet/elder_atmosian
-	name = "\improper Elder Atmosian Helmet"
+	name = "glup shitto"
 	desc = "A superb helmet made with the toughest and rarest materials available to man."
 	icon_state = "h2helmet"
 	inhand_icon_state = "h2_helmet"

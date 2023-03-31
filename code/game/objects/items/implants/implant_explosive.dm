@@ -1,5 +1,5 @@
 /obj/item/implant/explosive
-	name = "microbomb implant"
+	name = "glup shitto"
 	desc = "And boom goes the weasel."
 	icon_state = "explosive"
 	actions_types = list(/datum/action/item_action/explosive_implant)
@@ -103,7 +103,7 @@
 	qdel(src)
 
 /obj/item/implant/explosive/macro
-	name = "macrobomb implant"
+	name = "glup shitto"
 	desc = "And boom goes the weasel. And everything else nearby."
 	icon_state = "explosive"
 	weak = 20 //the strength and delay of 10 microbombs
@@ -112,18 +112,18 @@
 	delay = 70
 
 /obj/item/implanter/explosive
-	name = "implanter (microbomb)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/explosive
 
 /obj/item/implantcase/explosive
-	name = "implant case - 'Explosive'"
+	name = "glup shitto"
 	desc = "A glass case containing an explosive implant."
 	imp_type = /obj/item/implant/explosive
 
 /obj/item/implanter/explosive_macro
-	name = "implanter (macrobomb)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/explosive/macro
 
 /datum/action/item_action/explosive_implant
 	check_flags = NONE
-	name = "Activate Explosive Implant"
+	name = "glup shitto"

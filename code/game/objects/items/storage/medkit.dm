@@ -9,7 +9,7 @@
  * First Aid Kits
  */
 /obj/item/storage/medkit
-	name = "medkit"
+	name = "glup shitto"
 	desc = "It's an emergency medical kit for those serious boo-boos."
 	icon = 'icons/obj/storage/medkit.dmi'
 	icon_state = "medkit"
@@ -42,7 +42,7 @@
 
 /obj/item/storage/medkit/emergency
 	icon_state = "medbriefcase"
-	name = "emergency medkit"
+	name = "glup shitto"
 	desc = "A very simple first aid kit meant to secure and stabilize serious wounds for later treatment."
 
 /obj/item/storage/medkit/emergency/PopulateContents()
@@ -59,7 +59,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/surgery
-	name = "surgical medkit"
+	name = "glup shitto"
 	icon_state = "medkit_surgery"
 	inhand_icon_state = "medkit"
 	desc = "A high capacity aid kit for doctors, full of medical supplies and basic surgical equipment"
@@ -155,7 +155,7 @@
 	empty = TRUE // long since been ransacked by hungry powergaming assistants breaking into med storage
 
 /obj/item/storage/medkit/fire
-	name = "burn treatment kit"
+	name = "glup shitto"
 	desc = "A specialized medical kit for when the ordnance lab <i>-spontaneously-</i> burns down."
 	icon_state = "medkit_burn"
 	inhand_icon_state = "medkit-ointment"
@@ -176,7 +176,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/toxin
-	name = "toxin treatment kit"
+	name = "glup shitto"
 	desc = "Used to treat toxic blood content and radiation poisoning."
 	icon_state = "medkit_toxin"
 	inhand_icon_state = "medkit-toxin"
@@ -198,7 +198,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/o2
-	name = "oxygen deprivation treatment kit"
+	name = "glup shitto"
 	desc = "A box full of oxygen goodies."
 	icon_state = "medkit_o2"
 	inhand_icon_state = "medkit-o2"
@@ -219,7 +219,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/brute
-	name = "brute trauma treatment kit"
+	name = "glup shitto"
 	desc = "A first aid kit for when you get toolboxed."
 	icon_state = "medkit_brute"
 	inhand_icon_state = "medkit-brute"
@@ -240,7 +240,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/advanced
-	name = "advanced first aid kit"
+	name = "glup shitto"
 	desc = "An advanced kit to help deal with advanced wounds."
 	icon_state = "medkit_advanced"
 	inhand_icon_state = "medkit-rad"
@@ -258,7 +258,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/tactical
-	name = "combat medical kit"
+	name = "glup shitto"
 	desc = "I hope you've got insurance."
 	icon_state = "medkit_tactical"
 	inhand_icon_state = "medkit-tactical"
@@ -289,7 +289,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/medkit/tactical/premium
-	name = "premium combat medical kit"
+	name = "glup shitto"
 	desc = "May or may not contain traces of lead."
 	grind_results = list(/datum/reagent/lead = 10)
 
@@ -346,7 +346,7 @@
  */
 
 /obj/item/storage/pill_bottle
-	name = "pill bottle"
+	name = "glup shitto"
 	desc = "It's an airtight container for storing medication."
 	icon_state = "pill_canister"
 	icon = 'icons/obj/medical/chemical.dmi'
@@ -365,7 +365,7 @@
 	return TOXLOSS
 
 /obj/item/storage/pill_bottle/multiver
-	name = "bottle of multiver pills"
+	name = "glup shitto"
 	desc = "Contains pills used to counter toxins."
 
 /obj/item/storage/pill_bottle/multiver/PopulateContents()
@@ -379,7 +379,7 @@
 		new /obj/item/reagent_containers/pill/multiver(src)
 
 /obj/item/storage/pill_bottle/epinephrine
-	name = "bottle of epinephrine pills"
+	name = "glup shitto"
 	desc = "Contains pills used to stabilize patients."
 
 /obj/item/storage/pill_bottle/epinephrine/PopulateContents()
@@ -387,7 +387,7 @@
 		new /obj/item/reagent_containers/pill/epinephrine(src)
 
 /obj/item/storage/pill_bottle/mutadone
-	name = "bottle of mutadone pills"
+	name = "glup shitto"
 	desc = "Contains pills used to treat genetic abnormalities."
 
 /obj/item/storage/pill_bottle/mutadone/PopulateContents()
@@ -395,7 +395,7 @@
 		new /obj/item/reagent_containers/pill/mutadone(src)
 
 /obj/item/storage/pill_bottle/potassiodide
-	name = "bottle of potassium iodide pills"
+	name = "glup shitto"
 	desc = "Contains pills used to reduce radiation damage."
 
 /obj/item/storage/pill_bottle/potassiodide/PopulateContents()
@@ -403,7 +403,7 @@
 		new /obj/item/reagent_containers/pill/potassiodide(src)
 
 /obj/item/storage/pill_bottle/probital
-	name = "bottle of probital pills"
+	name = "glup shitto"
 	desc = "Contains pills used to treat brute damage. The tag in the bottle states 'Eat before ingesting, may cause fatigue'."
 
 /obj/item/storage/pill_bottle/probital/PopulateContents()
@@ -411,7 +411,7 @@
 		new /obj/item/reagent_containers/pill/probital(src)
 
 /obj/item/storage/pill_bottle/iron
-	name = "bottle of iron pills"
+	name = "glup shitto"
 	desc = "Contains pills used to reduce blood loss slowly. The tag in the bottle states 'Only take one each five minutes'."
 
 /obj/item/storage/pill_bottle/iron/PopulateContents()
@@ -419,7 +419,7 @@
 		new /obj/item/reagent_containers/pill/iron(src)
 
 /obj/item/storage/pill_bottle/mannitol
-	name = "bottle of mannitol pills"
+	name = "glup shitto"
 	desc = "Contains pills used to treat brain damage."
 
 /obj/item/storage/pill_bottle/mannitol/PopulateContents()
@@ -435,7 +435,7 @@
 		new /obj/item/reagent_containers/pill/mannitol/braintumor(src)
 
 /obj/item/storage/pill_bottle/stimulant
-	name = "bottle of stimulant pills"
+	name = "glup shitto"
 	desc = "Guaranteed to give you that extra burst of energy during a long shift!"
 
 /obj/item/storage/pill_bottle/stimulant/PopulateContents()
@@ -443,7 +443,7 @@
 		new /obj/item/reagent_containers/pill/stimulant(src)
 
 /obj/item/storage/pill_bottle/mining
-	name = "bottle of patches"
+	name = "glup shitto"
 	desc = "Contains patches used to treat brute and burn damage."
 
 /obj/item/storage/pill_bottle/mining/PopulateContents()
@@ -452,7 +452,7 @@
 		new /obj/item/reagent_containers/pill/patch/libital(src)
 
 /obj/item/storage/pill_bottle/zoom
-	name = "suspicious pill bottle"
+	name = "glup shitto"
 	desc = "The label is pretty old and almost unreadable, you recognize some chemical compounds."
 
 /obj/item/storage/pill_bottle/zoom/PopulateContents()
@@ -460,7 +460,7 @@
 		new /obj/item/reagent_containers/pill/zoom(src)
 
 /obj/item/storage/pill_bottle/happy
-	name = "suspicious pill bottle"
+	name = "glup shitto"
 	desc = "There is a smiley on the top."
 
 /obj/item/storage/pill_bottle/happy/PopulateContents()
@@ -468,7 +468,7 @@
 		new /obj/item/reagent_containers/pill/happy(src)
 
 /obj/item/storage/pill_bottle/lsd
-	name = "suspicious pill bottle"
+	name = "glup shitto"
 	desc = "There is a crude drawing which could be either a mushroom, or a deformed moon."
 
 /obj/item/storage/pill_bottle/lsd/PopulateContents()
@@ -476,7 +476,7 @@
 		new /obj/item/reagent_containers/pill/lsd(src)
 
 /obj/item/storage/pill_bottle/aranesp
-	name = "suspicious pill bottle"
+	name = "glup shitto"
 	desc = "The label has 'fuck disablers' hastily scrawled in black marker."
 
 /obj/item/storage/pill_bottle/aranesp/PopulateContents()
@@ -484,7 +484,7 @@
 		new /obj/item/reagent_containers/pill/aranesp(src)
 
 /obj/item/storage/pill_bottle/psicodine
-	name = "bottle of psicodine pills"
+	name = "glup shitto"
 	desc = "Contains pills used to treat mental distress and traumas."
 
 /obj/item/storage/pill_bottle/psicodine/PopulateContents()
@@ -492,7 +492,7 @@
 		new /obj/item/reagent_containers/pill/psicodine(src)
 
 /obj/item/storage/pill_bottle/penacid
-	name = "bottle of pentetic acid pills"
+	name = "glup shitto"
 	desc = "Contains pills to expunge radiation and toxins."
 
 /obj/item/storage/pill_bottle/penacid/PopulateContents()
@@ -501,7 +501,7 @@
 
 
 /obj/item/storage/pill_bottle/neurine
-	name = "bottle of neurine pills"
+	name = "glup shitto"
 	desc = "Contains pills to treat non-severe mental traumas."
 
 /obj/item/storage/pill_bottle/neurine/PopulateContents()
@@ -509,13 +509,13 @@
 		new /obj/item/reagent_containers/pill/neurine(src)
 
 /obj/item/storage/pill_bottle/maintenance_pill
-	name = "bottle of maintenance pills"
+	name = "glup shitto"
 	desc = "An old pill bottle. It smells musty."
 
 /obj/item/storage/pill_bottle/maintenance_pill/Initialize(mapload)
 	. = ..()
 	var/obj/item/reagent_containers/pill/P = locate() in src
-	name = "bottle of [P.name]s"
+	name = "glup shitto"
 
 /obj/item/storage/pill_bottle/maintenance_pill/PopulateContents()
 	for(var/i in 1 to rand(1,7))
@@ -527,7 +527,7 @@
 
 ///////////////////////////////////////// Psychologist inventory pillbottles
 /obj/item/storage/pill_bottle/happinesspsych
-	name = "happiness pills"
+	name = "glup shitto"
 	desc = "Contains pills used as a last resort means to temporarily stabilize depression and anxiety. WARNING: side effects may include slurred speech, drooling, and severe addiction."
 
 /obj/item/storage/pill_bottle/happinesspsych/PopulateContents()
@@ -535,7 +535,7 @@
 		new /obj/item/reagent_containers/pill/happinesspsych(src)
 
 /obj/item/storage/pill_bottle/lsdpsych
-	name = "mindbreaker toxin pills"
+	name = "glup shitto"
 	desc = "!FOR THERAPEUTIC USE ONLY! Contains pills used to alleviate the symptoms of Reality Dissociation Syndrome."
 
 /obj/item/storage/pill_bottle/lsdpsych/PopulateContents()
@@ -543,7 +543,7 @@
 		new /obj/item/reagent_containers/pill/lsdpsych(src)
 
 /obj/item/storage/pill_bottle/paxpsych
-	name = "pax pills"
+	name = "glup shitto"
 	desc = "Contains pills used to temporarily pacify patients that are deemed a harm to themselves or others."
 
 /obj/item/storage/pill_bottle/paxpsych/PopulateContents()
@@ -551,7 +551,7 @@
 		new /obj/item/reagent_containers/pill/paxpsych(src)
 
 /obj/item/storage/organbox
-	name = "organ transport box"
+	name = "glup shitto"
 	desc = "An advanced box with an cooling mechanism that uses cryostylane or other cold reagents to keep the organs or bodyparts inside preserved."
 	icon = 'icons/obj/storage/case.dmi'
 	icon_state = "organbox"

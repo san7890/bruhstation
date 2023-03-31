@@ -4,7 +4,7 @@
 */
 
 /obj/machinery/telecomms/allinone
-	name = "telecommunications mainframe"
+	name = "glup shitto"
 	icon_state = "comm_server"
 	desc = "A compact machine used for portable subspace telecommunications processing."
 	density = TRUE
@@ -14,7 +14,7 @@
 	var/syndicate = FALSE
 
 /obj/machinery/telecomms/allinone/nuclear
-	name = "advanced telecommunications mainframe"
+	name = "glup shitto"
 	desc = "A modified mainframe that allows for the processing of priority syndicate subspace telecommunications."
 	freq_listening = list(FREQ_SYNDICATE)
 	syndicate = TRUE

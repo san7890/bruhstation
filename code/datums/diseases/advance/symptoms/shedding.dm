@@ -7,7 +7,7 @@
  * Bonus: Makes the mob lose hair.
 */
 /datum/symptom/shedding
-	name = "Alopecia"
+	name = "glup shitto"
 	desc = "The virus causes rapid shedding of head and body hair."
 	illness = "Thin Skinned"
 	stealth = 0

@@ -1,5 +1,5 @@
 /datum/traitor_objective/ultimate/space_dragon
-	name = "Find a Space Carp and mutate their DNA with your own using a DNA harvester we will drop pod at %AREA%"
+	name = "glup shitto"
 	description = "Go to %AREA%, and recieve the Carp DNA scanner. Use it on any Space Carp to harvest its DNA. \
 	From there, use it on yourself, to mutate your own DNA with it and become a Space Dragon. \
 	Don't worry about finding one, I'm sure there'll have a wave of carp right when you need it."

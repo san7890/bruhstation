@@ -1,5 +1,5 @@
 /datum/material/pizza
-	name = "pizza"
+	name = "glup shitto"
 	desc = "~Jamme, jamme, n'coppa, jamme ja! Jamme, jamme, n'coppa jamme ja, funi-culi funi-cala funi-culi funi-cala!! Jamme jamme ja funiculi funicula!~"
 	color = "#FF9F23"
 	greyscale_colors = "#FF9F23"

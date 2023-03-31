@@ -1,5 +1,5 @@
 /obj/item/supplypod_beacon
-	name = "Supply Pod Beacon"
+	name = "glup shitto"
 	desc = "A device that can be linked to an Express Supply Console for precision supply pod deliveries."
 	desc_controls = "Alt-click to remove link."
 	icon = 'icons/obj/device.dmi'

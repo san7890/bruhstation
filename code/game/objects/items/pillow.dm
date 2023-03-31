@@ -1,6 +1,6 @@
 //Pillow and pillow related items
 /obj/item/pillow
-	name = "pillow"
+	name = "glup shitto"
 	desc = "A soft and fluffy pillow. You can smack someone with this!"
 	icon = 'icons/obj/pillow.dmi'
 	icon_state = "pillow_1_t"
@@ -121,7 +121,7 @@
 	icon_state = "pillow_[variation]_t"
 
 /obj/item/clothing/suit/pillow_suit
-	name = "pillow suit"
+	name = "glup shitto"
 	desc = "Part man, part pillow. All CARNAGE!"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|FEET
 	cold_protection = CHEST|GROIN|ARMS|LEGS //a pillow suit must be hella warm
@@ -146,7 +146,7 @@
 	QDEL_NULL(unstoppably_plushed)
 
 /obj/item/clothing/head/pillow_hood
-	name = "pillow hood"
+	name = "glup shitto"
 	desc = "The final piece of the pillow juggernaut"
 	body_parts_covered = HEAD
 	icon = 'icons/obj/pillow.dmi'
@@ -161,7 +161,7 @@
 	acid = 75
 
 /obj/item/clothing/neck/pillow_tag
-	name = "pillow tag"
+	name = "glup shitto"
 	desc = "A price tag for the pillow. It appears to have space to fill names in."
 	icon = 'icons/obj/pillow.dmi'
 	icon_state = "pillow_tag"
@@ -170,13 +170,13 @@
 	body_parts_covered = NECK
 
 /obj/item/pillow/clown
-	name = "clown pillow"
+	name = "glup shitto"
 	desc = "Daww look at that little clown!"
 	icon_state = "pillow_5_t"
 	variation = 5
 
 /obj/item/pillow/mime
-	name = "mime pillow"
+	name = "glup shitto"
 	desc = "Daww look at that little mime!"
 	icon_state = "pillow_6_t"
 	variation = 6

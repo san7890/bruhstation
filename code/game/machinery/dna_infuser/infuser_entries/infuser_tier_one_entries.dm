@@ -5,7 +5,7 @@
  * - might serve a job purpose for others (goliath) and thus should be gainable early enough
 */
 /datum/infuser_entry/goliath
-	name = "Goliath"
+	name = "glup shitto"
 	infuse_mob_name = "goliath"
 	desc = "The guy who said 'Whoever fights monsters should see to it that in the process he does not become a monster' clearly didn't see what a goliath miner can do!"
 	threshold_desc = "you can walk on lava!"
@@ -29,7 +29,7 @@
 	status_effect_type = /datum/status_effect/organ_set_bonus/goliath
 
 /datum/infuser_entry/carp
-	name = "Carp"
+	name = "glup shitto"
 	infuse_mob_name = "space-cyprinidae"
 	desc = "Carp-mutants are very well-prepared for long term deep space exploration. In fact, they can't stand not doing it!"
 	threshold_desc = "you learn how to propel yourself through space. Like a fish!"
@@ -53,7 +53,7 @@
 	status_effect_type = /datum/status_effect/organ_set_bonus/carp
 
 /datum/infuser_entry/rat
-	name = "Rat"
+	name = "glup shitto"
 	infuse_mob_name = "rodent"
 	desc = "Frail, small, positively cheesed to face the world. Easy to stuff yourself full of rat DNA, but perhaps not the best choice?"
 	threshold_desc = "you become lithe enough to crawl through ventilation."

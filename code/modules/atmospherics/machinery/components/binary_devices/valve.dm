@@ -6,7 +6,7 @@ It's like a regular ol' straight pipe, but you can turn it on and off.
 
 /obj/machinery/atmospherics/components/binary/valve
 	icon_state = "mvalve_map-3"
-	name = "manual valve"
+	name = "glup shitto"
 	desc = "A pipe with a valve that can be used to disable flow of gas through it."
 	can_unwrench = TRUE
 	shift_underlay_only = FALSE
@@ -78,7 +78,7 @@ It's like a regular ol' straight pipe, but you can turn it on and off.
 /obj/machinery/atmospherics/components/binary/valve/digital // can be controlled by AI
 	icon_state = "dvalve_map-3"
 
-	name = "digital valve"
+	name = "glup shitto"
 	desc = "A digitally controlled valve."
 	valve_type = DIGITAL_VALVE
 	pipe_state = "dvalve"

@@ -4,7 +4,7 @@
 //Plus a bobble hat, lets be inclusive!!
 
 /obj/item/clothing/head/beanie
-	name = "beanie"
+	name = "glup shitto"
 	desc = "A stylish beanie. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their heads."
 	icon = 'icons/obj/clothing/head/beanie.dmi'
 	worn_icon = 'icons/mob/clothing/head/beanie.dmi'
@@ -18,31 +18,31 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/head/beanie/black
-	name = "black beanie"
+	name = "glup shitto"
 	greyscale_colors = "#4A4A4B#4A4A4B"
 
 /obj/item/clothing/head/beanie/red
-	name = "red beanie"
+	name = "glup shitto"
 	greyscale_colors = "#D91414#D91414"
 
 /obj/item/clothing/head/beanie/darkblue
-	name = "dark blue beanie"
+	name = "glup shitto"
 	greyscale_colors = "#1E85BC#1E85BC"
 
 /obj/item/clothing/head/beanie/yellow
-	name = "yellow beanie"
+	name = "glup shitto"
 	greyscale_colors = "#E0C14F#E0C14F"
 
 /obj/item/clothing/head/beanie/orange
-	name = "orange beanie"
+	name = "glup shitto"
 	greyscale_colors = "#C67A4B#C67A4B"
 
 /obj/item/clothing/head/beanie/christmas
-	name = "christmas beanie"
+	name = "glup shitto"
 	greyscale_colors = "#038000#960000"
 
 /obj/item/clothing/head/beanie/durathread
-	name = "durathread beanie"
+	name = "glup shitto"
 	desc = "A beanie made from durathread, its resilient fibres provide some protection to the wearer."
 	icon_preview = 'icons/obj/previews.dmi'
 	icon_state_preview = "beanie_durathread"
@@ -50,14 +50,14 @@
 	armor_type = /datum/armor/beanie_durathread
 
 /obj/item/clothing/head/rasta
-	name = "rastacap"
+	name = "glup shitto"
 	desc = "Perfect for tucking in those dreadlocks."
 	icon = 'icons/obj/clothing/head/beanie.dmi'
 	worn_icon = 'icons/mob/clothing/head/beanie.dmi'
 	icon_state = "beanierasta"
 
 /obj/item/clothing/head/waldo
-	name = "red striped bobble hat"
+	name = "glup shitto"
 	desc = "If you're going on a worldwide hike, you'll need some cold protection."
 	icon = 'icons/obj/clothing/head/beanie.dmi'
 	worn_icon = 'icons/mob/clothing/head/beanie.dmi'
@@ -66,7 +66,7 @@
 //No dog fashion sprites yet :(  poor Ian can't be dope like the rest of us yet
 
 /obj/item/clothing/head/beanie/black/dboy
-	name = "test subject beanie"
+	name = "glup shitto"
 	desc = "A dingy and torn black beanie. Is that slime or grease?"
 	/// Used for the extra flavor text the d-boy himself sees
 	var/datum/weakref/beanie_owner = null

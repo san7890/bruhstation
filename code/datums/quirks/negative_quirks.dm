@@ -1,7 +1,7 @@
 //predominantly negative traits
 
 /datum/quirk/badback
-	name = "Bad Back"
+	name = "glup shitto"
 	desc = "Thanks to your poor posture, backpacks and other bags never sit right on your back. More evenly weighted objects are fine, though."
 	icon = "hiking"
 	value = -8
@@ -52,7 +52,7 @@
 	RegisterSignal(quirk_holder, COMSIG_MOB_EQUIPPED_ITEM, PROC_REF(on_equipped_item))
 
 /datum/quirk/blooddeficiency
-	name = "Blood Deficiency"
+	name = "glup shitto"
 	desc = "Your body can't produce enough blood to sustain itself."
 	icon = "tint"
 	value = -8
@@ -93,7 +93,7 @@
 	carbon_target.blood_volume = max(min_blood, carbon_target.blood_volume - carbon_target.dna.species.blood_deficiency_drain_rate * delta_time)
 
 /datum/quirk/item_quirk/blindness
-	name = "Blind"
+	name = "glup shitto"
 	desc = "You are completely blind, nothing can counteract this."
 	icon = "eye-slash"
 	value = -16
@@ -119,7 +119,7 @@
 	 * - 5u mannitol will heal 12.5% (25 organ damage) brain damage
 	 */
 /datum/quirk/item_quirk/brainproblems
-	name = "Brain Tumor"
+	name = "glup shitto"
 	desc = "You have a little friend in your brain that is slowly destroying it. Better bring some mannitol!"
 	icon = "brain"
 	value = -12
@@ -152,7 +152,7 @@
 	quirk_holder.adjustOrganLoss(ORGAN_SLOT_BRAIN, 0.2 * delta_time)
 
 /datum/quirk/item_quirk/deafness
-	name = "Deaf"
+	name = "glup shitto"
 	desc = "You are incurably deaf."
 	icon = "deaf"
 	value = -8
@@ -167,7 +167,7 @@
 	give_item_to_holder(/obj/item/clothing/accessory/deaf_pin, list(LOCATION_BACKPACK = ITEM_SLOT_BACKPACK, LOCATION_HANDS = ITEM_SLOT_HANDS))
 
 /datum/quirk/depression
-	name = "Depression"
+	name = "glup shitto"
 	desc = "You sometimes just hate life."
 	icon = "frown"
 	mob_trait = TRAIT_DEPRESSION
@@ -180,7 +180,7 @@
 	mail_goodies = list(/obj/item/storage/pill_bottle/happinesspsych)
 
 /datum/quirk/item_quirk/family_heirloom
-	name = "Family Heirloom"
+	name = "glup shitto"
 	desc = "You are the current owner of an heirloom, passed down for generations. You have to keep it safe!"
 	icon = "toolbox"
 	value = -2
@@ -253,7 +253,7 @@
 	quirk_holder.clear_mood_event("family_heirloom")
 
 /datum/quirk/glass_jaw
-	name = "Glass Jaw"
+	name = "glup shitto"
 	desc = "You have a very fragile jaw. Any sufficiently hard blow to your head might knock you out."
 	icon = "boxing-glove"
 	value = -4
@@ -304,7 +304,7 @@
 		source.Unconscious(3 SECONDS)
 
 /datum/quirk/frail
-	name = "Frail"
+	name = "glup shitto"
 	desc = "You have skin of paper and bones of glass! You suffer wounds much more easily than most."
 	icon = "skull"
 	value = -6
@@ -316,7 +316,7 @@
 	mail_goodies = list(/obj/effect/spawner/random/medical/minor_healing)
 
 /datum/quirk/heavy_sleeper
-	name = "Heavy Sleeper"
+	name = "glup shitto"
 	desc = "You sleep like a rock! Whenever you're put to sleep or knocked unconscious, you take a little bit longer to wake up."
 	icon = "bed"
 	value = -2
@@ -336,7 +336,7 @@
 	)
 
 /datum/quirk/hypersensitive
-	name = "Hypersensitive"
+	name = "glup shitto"
 	desc = "For better or worse, everything seems to affect your mood more than it should."
 	icon = "flushed"
 	value = -2
@@ -355,7 +355,7 @@
 		quirk_holder.mob_mood.mood_modifier -= 0.5
 
 /datum/quirk/light_drinker
-	name = "Light Drinker"
+	name = "glup shitto"
 	desc = "You just can't handle your drinks and get drunk very quickly."
 	icon = "cocktail"
 	value = -2
@@ -367,7 +367,7 @@
 	mail_goodies = list(/obj/item/reagent_containers/cup/glass/waterbottle)
 
 /datum/quirk/item_quirk/nearsighted
-	name = "Nearsighted"
+	name = "glup shitto"
 	desc = "You are nearsighted without prescription glasses, but spawn with a pair."
 	icon = "glasses"
 	value = -4
@@ -404,7 +404,7 @@
 	quirk_holder.cure_nearsighted(QUIRK_TRAIT)
 
 /datum/quirk/nyctophobia
-	name = "Nyctophobia"
+	name = "glup shitto"
 	desc = "As far as you can remember, you've always been afraid of the dark. While in the dark without a light source, you instinctively act careful, and constantly feel a sense of dread."
 	icon = "lightbulb"
 	value = -3
@@ -451,7 +451,7 @@
 	quirk_holder.add_mood_event("nyctophobia", /datum/mood_event/nyctophobia)
 
 /datum/quirk/nonviolent
-	name = "Pacifist"
+	name = "glup shitto"
 	desc = "The thought of violence makes you sick. So much so, in fact, that you can't hurt anyone."
 	icon = "peace"
 	value = -8
@@ -463,7 +463,7 @@
 	mail_goodies = list(/obj/effect/spawner/random/decoration/flower, /obj/effect/spawner/random/contraband/cannabis) // flower power
 
 /datum/quirk/paraplegic
-	name = "Paraplegic"
+	name = "glup shitto"
 	desc = "Your legs do not function. Nothing will ever fix this. But hey, free wheelchair!"
 	icon = "wheelchair"
 	value = -12
@@ -505,7 +505,7 @@
 	human_holder.cure_trauma_type(/datum/brain_trauma/severe/paralysis/paraplegic, TRAUMA_RESILIENCE_ABSOLUTE)
 
 /datum/quirk/poor_aim
-	name = "Stormtrooper Aim"
+	name = "glup shitto"
 	desc = "You've never hit anything you were aiming for in your life."
 	icon = "bullseye"
 	value = -4
@@ -515,7 +515,7 @@
 	mail_goodies = list(/obj/item/cardboard_cutout) // for target practice
 
 /datum/quirk/prosopagnosia
-	name = "Prosopagnosia"
+	name = "glup shitto"
 	desc = "You have a mental disorder that prevents you from being able to recognize faces at all."
 	icon = "user-secret"
 	value = -4
@@ -525,7 +525,7 @@
 	mail_goodies = list(/obj/item/skillchip/appraiser) // bad at recognizing faces but good at recognizing IDs
 
 /datum/quirk/prosthetic_limb
-	name = "Prosthetic Limb"
+	name = "glup shitto"
 	desc = "An accident caused you to lose one of your limbs. Because of this, you now have a random prosthetic!"
 	icon = "tg-prosthetic-leg"
 	value = -3
@@ -559,7 +559,7 @@
 	you need to use a welding tool and cables to repair it, instead of bruise packs and ointment."))
 
 /datum/quirk/quadruple_amputee
-	name = "Quadruple Amputee"
+	name = "glup shitto"
 	desc = "Oops! All Prosthetics! Due to some truly cruel cosmic punishment, all your limbs have been taken from you."
 	icon = "tg-prosthetic-full"
 	value = -6
@@ -579,7 +579,7 @@
 	you need to use a welding tool and cables to repair them, instead of bruise packs and ointment."))
 
 /datum/quirk/pushover
-	name = "Pushover"
+	name = "glup shitto"
 	desc = "Your first instinct is always to let people push you around. Resisting out of grabs will take conscious effort."
 	icon = "handshake"
 	value = -8
@@ -591,7 +591,7 @@
 	mail_goodies = list(/obj/item/clothing/gloves/cargo_gauntlet)
 
 /datum/quirk/insanity
-	name = "Reality Dissociation Syndrome"
+	name = "glup shitto"
 	desc = "You suffer from a severe disorder that causes very vivid hallucinations. \
 		Mindbreaker toxin can suppress its effects, and you are immune to mindbreaker's hallucinogenic properties. \
 		THIS IS NOT A LICENSE TO GRIEF."
@@ -636,7 +636,7 @@
 	QDEL_NULL(added_trama_ref)
 
 /datum/quirk/social_anxiety
-	name = "Social Anxiety"
+	name = "glup shitto"
 	desc = "Talking to people is very difficult for you, and you often stutter or even lock up."
 	icon = "comment-slash"
 	value = -3
@@ -751,7 +751,7 @@
 	timeout = 3 MINUTES
 
 /datum/quirk/item_quirk/junkie
-	name = "Junkie"
+	name = "glup shitto"
 	desc = "You can't get enough of hard drugs."
 	icon = "pills"
 	value = -6
@@ -841,7 +841,7 @@
 				human_holder.last_mind?.add_addiction_points(addiction, 1000) ///Max that shit out
 
 /datum/quirk/item_quirk/junkie/smoker
-	name = "Smoker"
+	name = "glup shitto"
 	desc = "Sometimes you just really want a smoke. Probably not great for your lungs."
 	icon = "smoking"
 	value = -4
@@ -890,7 +890,7 @@
 		quirk_holder.add_mood_event("wrong_cigs", /datum/mood_event/wrong_brand)
 
 /datum/quirk/unstable
-	name = "Unstable"
+	name = "glup shitto"
 	desc = "Due to past troubles, you are unable to recover your sanity if you lose it. Be very careful managing your mood!"
 	icon = "angry"
 	value = -10
@@ -902,7 +902,7 @@
 	mail_goodies = list(/obj/effect/spawner/random/entertainment/plushie)
 
 /datum/quirk/item_quirk/allergic
-	name = "Extreme Medicine Allergy"
+	name = "glup shitto"
 	desc = "Ever since you were a kid, you've been allergic to certain chemicals..."
 	icon = "prescription-bottle"
 	value = -6
@@ -925,7 +925,7 @@
 		allergy_chem_names += initial(chem_type.name)
 
 	allergy_string = allergy_chem_names.Join(", ")
-	name = "Extreme [allergy_string] Allergies"
+	name = "glup shitto"
 	medical_record_text = "Patient's immune system responds violently to [allergy_string]"
 
 	var/mob/living/carbon/human/human_holder = quirk_holder
@@ -965,7 +965,7 @@
 			carbon_quirk_holder.adjustOrganLoss(pick(ORGAN_SLOT_BRAIN,ORGAN_SLOT_APPENDIX,ORGAN_SLOT_LUNGS,ORGAN_SLOT_HEART,ORGAN_SLOT_LIVER,ORGAN_SLOT_STOMACH),10)
 
 /datum/quirk/bad_touch
-	name = "Bad Touch"
+	name = "glup shitto"
 	desc = "You don't like hugs. You'd really prefer if people just left you alone."
 	icon = "tg-bad-touch"
 	mob_trait = TRAIT_BADTOUCH
@@ -997,7 +997,7 @@
 		quirk_holder.add_mood_event("bad_touch", /datum/mood_event/bad_touch)
 
 /datum/quirk/claustrophobia
-	name = "Claustrophobia"
+	name = "glup shitto"
 	desc = "You are terrified of small spaces and certain jolly figures. If you are placed inside any container, locker, or machinery, a panic attack sets in and you struggle to breathe."
 	icon = "box-open"
 	value = -4
@@ -1052,7 +1052,7 @@
 	return FALSE
 
 /datum/quirk/illiterate
-	name = "Illiterate"
+	name = "glup shitto"
 	desc = "You dropped out of school and are unable to read or write. This affects reading, writing, using computers and other electronics."
 	icon = "graduation-cap"
 	value = -8
@@ -1063,7 +1063,7 @@
 
 
 /datum/quirk/mute
-	name = "Mute"
+	name = "glup shitto"
 	desc = "For some reason you are completely unable to speak."
 	icon = "volume-xmark"
 	value = -4
@@ -1074,7 +1074,7 @@
 	hardcore_value = 4
 
 /datum/quirk/body_purist
-	name = "Body Purist"
+	name = "glup shitto"
 	desc = "You believe your body is a temple and its natural form is an embodiment of perfection. Accordingly, you despise the idea of ever augmenting it with unnatural parts, cybernetic, prosthetic, or anything like it."
 	icon = "person-rays"
 	value = -2
@@ -1143,7 +1143,7 @@
 		cybernetics_level--
 		update_mood()
 /datum/quirk/cursed
-	name = "Cursed"
+	name = "glup shitto"
 	desc = "You are cursed with bad luck. You are much more likely to suffer from accidents and mishaps. When it rains, it pours."
 	icon = "cloud-showers-heavy"
 	value = -8

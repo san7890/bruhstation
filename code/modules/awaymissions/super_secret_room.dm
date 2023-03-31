@@ -1,5 +1,5 @@
 /obj/structure/speaking_tile
-	name = "strange tile"
+	name = "glup shitto"
 	desc = "A weird tile that beckons you towards it. Maybe it can help you get out of this mess..."
 	verb_say = "intones"
 	icon = 'icons/obj/structures.dmi'
@@ -118,7 +118,7 @@
 			sleep(3 SECONDS)
 
 /obj/item/rupee
-	name = "weird crystal"
+	name = "glup shitto"
 	desc = "Your excitement boils away as you realize it's just colored glass. Why would someone hoard these things?"
 	icon = 'icons/obj/economy.dmi'
 	icon_state = "rupee"
@@ -151,5 +151,5 @@
 	..()
 
 /obj/effect/landmark/error
-	name = "error"
+	name = "glup shitto"
 	icon_state = "error_room"

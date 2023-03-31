@@ -2,46 +2,46 @@
 //The default outfit for during play
 
 /datum/outfit/mafia
-	name = "Mafia Default Outfit"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/color/grey
 	shoes = /obj/item/clothing/shoes/sneakers/black
 
 ///Map-specific custom outfits
 
 /datum/outfit/mafia/abductee
-	name = "Mafia Abductee"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/abductor
 	shoes = /obj/item/clothing/shoes/combat
 
 /datum/outfit/mafia/syndie
-	name = "Mafia Syndicate"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/color/black
 
 /datum/outfit/mafia/lavaland
-	name = "Mafia Wastelander"
+	name = "glup shitto"
 	mask = /obj/item/clothing/mask/breath
 	shoes = /obj/item/clothing/shoes/sneakers/black
 	suit = /obj/item/clothing/suit/hooded/cloak/goliath
 	uniform = /obj/item/clothing/under/rank/cargo/miner
 
 /datum/outfit/mafia/ninja
-	name = "Mafia Ninja"
+	name = "glup shitto"
 	glasses = /obj/item/clothing/glasses/sunglasses
 	suit = /obj/item/clothing/suit/costume/ianshirt
 	uniform = /obj/item/clothing/under/pants/jeans
 	shoes = /obj/item/clothing/shoes/sandal
 
 /datum/outfit/mafia/snowy
-	name = "Mafia Outwear"
+	name = "glup shitto"
 	gloves = /obj/item/clothing/gloves/color/black
 	suit = /obj/item/clothing/suit/hooded/wintercoat
 	shoes = /obj/item/clothing/shoes/winterboots
 	uniform = /obj/item/clothing/under/rank/civilian/curator/treasure_hunter
 
 /datum/outfit/mafia/gothic
-	name = "Mafia Castlegoer"
+	name = "glup shitto"
 	glasses = /obj/item/clothing/glasses/monocle
 	gloves = /obj/item/clothing/gloves/color/white
 	shoes = /obj/item/clothing/shoes/laceup
@@ -51,12 +51,12 @@
 //town
 
 /datum/outfit/mafia/assistant
-	name = "Mafia Assistant"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/rainbow
 
 /datum/outfit/mafia/detective
-	name = "Mafia Detective"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/security/detective
 	neck = /obj/item/clothing/neck/tie/detective
@@ -67,26 +67,26 @@
 	mask = /obj/item/clothing/mask/cigarette
 
 /datum/outfit/mafia/psychologist
-	name = "Mafia Psychologist"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/suit/black
 	neck = /obj/item/clothing/neck/tie/black/tied
 	shoes = /obj/item/clothing/shoes/laceup
 
 /datum/outfit/mafia/chaplain
-	name = "Mafia Chaplain"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/chaplain
 
 /datum/outfit/mafia/md
-	name = "Mafia Medical Doctor"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/medical/scrubs/blue
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	suit = /obj/item/clothing/suit/toggle/labcoat
 
 /datum/outfit/mafia/security
-	name = "Mafia Security Officer"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/security/officer
 	gloves = /obj/item/clothing/gloves/color/black
@@ -95,14 +95,14 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 
 /datum/outfit/mafia/lawyer
-	name = "Mafia Lawyer"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/lawyer/bluesuit
 	suit = /obj/item/clothing/suit/toggle/lawyer
 	shoes = /obj/item/clothing/shoes/laceup
 
 /datum/outfit/mafia/hop
-	name = "Mafia Head of Personnel"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/head_of_personnel
 	suit = /obj/item/clothing/suit/armor/vest/alt
@@ -111,7 +111,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 
 /datum/outfit/mafia/hos
-	name = "Mafia Head of Security"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/security/head_of_security
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -121,7 +121,7 @@
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 
 /datum/outfit/mafia/warden
-	name = "Mafia Warden"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/security/warden
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -133,7 +133,7 @@
 //mafia
 
 /datum/outfit/mafia/changeling
-	name = "Mafia Changeling"
+	name = "glup shitto"
 
 	head = /obj/item/clothing/head/helmet/changeling
 	suit = /obj/item/clothing/suit/armor/changeling
@@ -141,13 +141,13 @@
 //solo
 
 /datum/outfit/mafia/fugitive
-	name = "Mafia Fugitive"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/prisoner
 	shoes = /obj/item/clothing/shoes/sneakers/orange
 
 /datum/outfit/mafia/obsessed
-	name = "Mafia Obsessed"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/misc/overalls
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	gloves = /obj/item/clothing/gloves/latex
@@ -160,21 +160,21 @@
 	H.regenerate_icons()
 
 /datum/outfit/mafia/clown
-	name = "Mafia Clown"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/clown
 	shoes = /obj/item/clothing/shoes/clown_shoes
 	mask = /obj/item/clothing/mask/gas/clown_hat
 
 /datum/outfit/mafia/traitor
-	name = "Mafia Traitor"
+	name = "glup shitto"
 
 	mask = /obj/item/clothing/mask/gas/syndicate
 	uniform = /obj/item/clothing/under/syndicate/tacticool
 	shoes = /obj/item/clothing/shoes/jackboots
 
 /datum/outfit/mafia/nightmare
-	name = "Mafia Nightmare"
+	name = "glup shitto"
 
 	uniform = null
 	shoes = null

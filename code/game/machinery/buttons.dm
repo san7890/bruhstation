@@ -1,5 +1,5 @@
 /obj/machinery/button
-	name = "button"
+	name = "glup shitto"
 	desc = "A remote control switch."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "doorctrl"
@@ -223,7 +223,7 @@
 	addtimer(CALLBACK(src, TYPE_PROC_REF(/atom/, update_appearance)), 15)
 
 /obj/machinery/button/door
-	name = "door button"
+	name = "glup shitto"
 	desc = "A door remote control switch."
 	var/normaldoorcontrol = FALSE
 	var/specialfunctions = OPEN // Bitflag, see assembly file
@@ -247,42 +247,42 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	..()
 
 /obj/machinery/button/door/incinerator_vent_ordmix
-	name = "combustion chamber vent control"
+	name = "glup shitto"
 	id = INCINERATOR_ORDMIX_VENT
 	req_access = list(ACCESS_ORDNANCE)
 
 /obj/machinery/button/door/incinerator_vent_atmos_main
-	name = "turbine vent control"
+	name = "glup shitto"
 	id = INCINERATOR_ATMOS_MAINVENT
 	req_one_access = list(ACCESS_ATMOSPHERICS, ACCESS_MAINT_TUNNELS)
 
 /obj/machinery/button/door/incinerator_vent_atmos_aux
-	name = "combustion chamber vent control"
+	name = "glup shitto"
 	id = INCINERATOR_ATMOS_AUXVENT
 	req_one_access = list(ACCESS_ATMOSPHERICS, ACCESS_MAINT_TUNNELS)
 
 /obj/machinery/button/door/atmos_test_room_mainvent_1
-	name = "test chamber 1 vent control"
+	name = "glup shitto"
 	id = TEST_ROOM_ATMOS_MAINVENT_1
 	req_one_access = list(ACCESS_ATMOSPHERICS)
 
 /obj/machinery/button/door/atmos_test_room_mainvent_2
-	name = "test chamber 2 vent control"
+	name = "glup shitto"
 	id = TEST_ROOM_ATMOS_MAINVENT_2
 	req_one_access = list(ACCESS_ATMOSPHERICS)
 
 /obj/machinery/button/door/incinerator_vent_syndicatelava_main
-	name = "turbine vent control"
+	name = "glup shitto"
 	id = INCINERATOR_SYNDICATELAVA_MAINVENT
 	req_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/button/door/incinerator_vent_syndicatelava_aux
-	name = "combustion chamber vent control"
+	name = "glup shitto"
 	id = INCINERATOR_SYNDICATELAVA_AUXVENT
 	req_access = list(ACCESS_SYNDICATE)
 
 /obj/machinery/button/massdriver
-	name = "mass driver button"
+	name = "glup shitto"
 	desc = "A remote control switch for a mass driver."
 	icon_state = "launcher"
 	skin = "launcher"
@@ -292,7 +292,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/machinery/button/ignition
-	name = "ignition switch"
+	name = "glup shitto"
 	desc = "A remote control switch for a mounted igniter."
 	icon_state = "launcher"
 	skin = "launcher"
@@ -302,7 +302,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/machinery/button/ignition/incinerator
-	name = "combustion chamber ignition switch"
+	name = "glup shitto"
 	desc = "A remote control switch for the combustion chamber's igniter."
 
 /obj/machinery/button/ignition/incinerator/ordmix
@@ -315,7 +315,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	id = INCINERATOR_SYNDICATELAVA_IGNITER
 
 /obj/machinery/button/flasher
-	name = "flasher button"
+	name = "glup shitto"
 	desc = "A remote control switch for a mounted flasher."
 	icon_state = "launcher"
 	skin = "launcher"
@@ -325,7 +325,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/machinery/button/curtain
-	name = "curtain button"
+	name = "glup shitto"
 	desc = "A remote control switch for a mechanical curtain."
 	icon_state = "launcher"
 	skin = "launcher"
@@ -338,7 +338,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	return ..()
 
 /obj/machinery/button/crematorium
-	name = "crematorium igniter"
+	name = "glup shitto"
 	desc = "Burn baby burn!"
 	icon_state = "launcher"
 	skin = "launcher"
@@ -350,7 +350,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/button/door, 24)
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
 /obj/item/wallframe/button
-	name = "button frame"
+	name = "glup shitto"
 	desc = "Used for building buttons."
 	icon_state = "button"
 	result_path = /obj/machinery/button

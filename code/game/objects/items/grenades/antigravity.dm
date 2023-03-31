@@ -1,5 +1,5 @@
 /obj/item/grenade/antigravity
-	name = "antigravity grenade"
+	name = "glup shitto"
 	icon_state = "emp"
 	inhand_icon_state = "emp"
 

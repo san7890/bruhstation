@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/touch/flesh_to_stone
-	name = "Flesh to Stone"
+	name = "glup shitto"
 	desc = "This spell charges your hand with the power to turn victims into inert statues for a long period of time."
 	button_icon_state = "statue"
 	sound = 'sound/magic/fleshtostone.ogg'
@@ -26,7 +26,7 @@
 	return TRUE
 
 /obj/item/melee/touch_attack/flesh_to_stone
-	name = "\improper petrifying touch"
+	name = "glup shitto"
 	desc = "That's the bottom line, because flesh to stone said so!"
 	icon_state = "fleshtostone"
 	inhand_icon_state = "fleshtostone"

@@ -1,5 +1,5 @@
 /obj/item/storage/belt
-	name = "not actually a toolbelt"
+	name = "glup shitto"
 	desc = "Can hold various things. This is the base type of /belt, are you sure you should have this?"
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "utility"
@@ -32,7 +32,7 @@
 	update_appearance()
 
 /obj/item/storage/belt/utility
-	name = "toolbelt" //Carn: utility belt is nicer, but it bamboozles the text parsing.
+	name = "glup shitto" //Carn: utility belt is nicer, but it bamboozles the text parsing.
 	desc = "Holds tools."
 	icon_state = "utility"
 	inhand_icon_state = "utility"
@@ -77,7 +77,7 @@
 	))
 
 /obj/item/storage/belt/utility/chief
-	name = "\improper Chief Engineer's toolbelt" //"the Chief Engineer's toolbelt", because "Chief Engineer's toolbelt" is not a proper noun
+	name = "glup shitto" is not a proper noun
 	desc = "Holds tools, looks snazzy."
 	icon_state = "utility_ce"
 	inhand_icon_state = "utility_ce"
@@ -201,7 +201,7 @@
 	new /obj/item/inducer/syndicate(src)
 
 /obj/item/storage/belt/medical
-	name = "medical belt"
+	name = "glup shitto"
 	desc = "Can hold various medical equipment."
 	icon_state = "medical"
 	inhand_icon_state = "medical"
@@ -313,7 +313,7 @@
 	return to_preload
 
 /obj/item/storage/belt/security
-	name = "security belt"
+	name = "glup shitto"
 	desc = "Can hold security gear like handcuffs and flashes."
 	icon_state = "security"
 	inhand_icon_state = "security"//Could likely use a better one.
@@ -351,7 +351,7 @@
 	update_appearance()
 
 /obj/item/storage/belt/security/webbing
-	name = "security webbing"
+	name = "glup shitto"
 	desc = "Unique and versatile chest rig, can hold security gear."
 	icon_state = "securitywebbing"
 	inhand_icon_state = "securitywebbing"
@@ -364,7 +364,7 @@
 	atom_storage.max_slots = 6
 
 /obj/item/storage/belt/mining
-	name = "explorer's webbing"
+	name = "glup shitto"
 	desc = "A versatile chest rig, cherished by miners and hunters alike."
 	icon_state = "explorer1"
 	inhand_icon_state = "explorer1"
@@ -436,7 +436,7 @@
 		core.preserve()
 
 /obj/item/storage/belt/mining/primitive
-	name = "hunter's belt"
+	name = "glup shitto"
 	desc = "A versatile belt, woven from sinew."
 	icon_state = "ebelt"
 	inhand_icon_state = "ebelt"
@@ -447,7 +447,7 @@
 	atom_storage.max_slots = 5
 
 /obj/item/storage/belt/soulstone
-	name = "soul stone belt"
+	name = "glup shitto"
 	desc = "Designed for ease of access to the shards during a fight, as to not let a single enemy spirit slip away."
 	icon_state = "soulstonebelt"
 	inhand_icon_state = "soulstonebelt"
@@ -469,7 +469,7 @@
 		new /obj/item/soulstone/anybody/chaplain(src)
 
 /obj/item/storage/belt/champion
-	name = "championship belt"
+	name = "glup shitto"
 	desc = "Proves to the world that you are the strongest!"
 	icon_state = "championbelt"
 	inhand_icon_state = "championbelt"
@@ -484,7 +484,7 @@
 	))
 
 /obj/item/storage/belt/military
-	name = "chest rig"
+	name = "glup shitto"
 	desc = "A set of tactical webbing worn by Syndicate boarding parties."
 	icon_state = "militarywebbing"
 	inhand_icon_state = "militarywebbing"
@@ -496,7 +496,7 @@
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 
 /obj/item/storage/belt/military/snack
-	name = "tactical snack rig"
+	name = "glup shitto"
 
 /obj/item/storage/belt/military/snack/Initialize(mapload)
 	. = ..()
@@ -543,7 +543,7 @@
 		new rig_snacks(src)
 
 /obj/item/storage/belt/military/abductor
-	name = "agent belt"
+	name = "glup shitto"
 	desc = "A belt used by abductor agents."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "belt"
@@ -561,14 +561,14 @@
 	new /obj/item/stack/cable_coil(src)
 
 /obj/item/storage/belt/military/army
-	name = "army belt"
+	name = "glup shitto"
 	desc = "A belt used by military forces."
 	icon_state = "grenadebeltold"
 	inhand_icon_state = "security"
 	worn_icon_state = "grenadebeltold"
 
 /obj/item/storage/belt/military/assault
-	name = "assault belt"
+	name = "glup shitto"
 	desc = "A tactical assault belt."
 	icon_state = "assaultbelt"
 	inhand_icon_state = "security"
@@ -585,7 +585,7 @@
 	), src)
 
 /obj/item/storage/belt/grenade
-	name = "grenadier belt"
+	name = "glup shitto"
 	desc = "A belt for holding grenades."
 	icon_state = "grenadebeltnew"
 	inhand_icon_state = "security"
@@ -624,7 +624,7 @@
 
 
 /obj/item/storage/belt/wands
-	name = "wand belt"
+	name = "glup shitto"
 	desc = "A belt designed to hold various rods of power. A veritable fanny pack of exotic magic."
 	icon_state = "soulstonebelt"
 	inhand_icon_state = "soulstonebelt"
@@ -650,7 +650,7 @@
 		W.charges = W.max_charges
 
 /obj/item/storage/belt/janitor
-	name = "janibelt"
+	name = "glup shitto"
 	desc = "A belt used to hold most janitorial supplies."
 	icon_state = "janibelt"
 	inhand_icon_state = "janibelt"
@@ -686,7 +686,7 @@
 	new /obj/item/melee/flyswatter(src)
 
 /obj/item/storage/belt/bandolier
-	name = "bandolier"
+	name = "glup shitto"
 	desc = "A bandolier for holding rifle and shotgun ammunition."
 	icon_state = "bandolier"
 	inhand_icon_state = "bandolier"
@@ -703,7 +703,7 @@
 	))
 
 /obj/item/storage/belt/fannypack
-	name = "fannypack"
+	name = "glup shitto"
 	desc = "A dorky fannypack for keeping small items in."
 	icon_state = "fannypack_leather"
 	inhand_icon_state = null
@@ -717,64 +717,64 @@
 	atom_storage.max_specific_storage = WEIGHT_CLASS_SMALL
 
 /obj/item/storage/belt/fannypack/black
-	name = "black fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_black"
 	worn_icon_state = "fannypack_black"
 
 /obj/item/storage/belt/fannypack/red
-	name = "red fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_red"
 	worn_icon_state = "fannypack_red"
 
 /obj/item/storage/belt/fannypack/purple
-	name = "purple fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_purple"
 	worn_icon_state = "fannypack_purple"
 
 /obj/item/storage/belt/fannypack/blue
-	name = "blue fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_blue"
 	worn_icon_state = "fannypack_blue"
 
 /obj/item/storage/belt/fannypack/orange
-	name = "orange fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_orange"
 	worn_icon_state = "fannypack_orange"
 
 /obj/item/storage/belt/fannypack/white
-	name = "white fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_white"
 	worn_icon_state = "fannypack_white"
 
 /obj/item/storage/belt/fannypack/green
-	name = "green fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_green"
 	worn_icon_state = "fannypack_green"
 
 /obj/item/storage/belt/fannypack/pink
-	name = "pink fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_pink"
 	worn_icon_state = "fannypack_pink"
 
 /obj/item/storage/belt/fannypack/cyan
-	name = "cyan fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_cyan"
 	worn_icon_state = "fannypack_cyan"
 
 /obj/item/storage/belt/fannypack/yellow
-	name = "yellow fannypack"
+	name = "glup shitto"
 	icon_state = "fannypack_yellow"
 	worn_icon_state = "fannypack_yellow"
 
 /obj/item/storage/belt/fannypack/cummerbund
-	name = "cummerbund"
+	name = "glup shitto"
 	desc = "A pleated sash that pairs well with a suit jacket."
 	icon_state = "cummerbund"
 	inhand_icon_state = null
 	worn_icon_state = "cummerbund"
 
 /obj/item/storage/belt/sabre
-	name = "sabre sheath"
+	name = "glup shitto"
 	desc = "An ornate sheath designed to hold an officer's blade."
 	icon_state = "sheath"
 	inhand_icon_state = "sheath"
@@ -825,7 +825,7 @@
 	update_appearance()
 
 /obj/item/storage/belt/plant
-	name = "botanical belt"
+	name = "glup shitto"
 	desc = "A belt used to hold most hydroponics supplies. Suprisingly, not green."
 	icon_state = "plantbelt"
 	inhand_icon_state = "championbelt"

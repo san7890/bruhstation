@@ -1,6 +1,6 @@
 //generic procs copied from obj/effect/alien
 /obj/structure/spider
-	name = "web"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	desc = "It's stringy and sticky."
 	anchored = TRUE
@@ -74,7 +74,7 @@
 		return prob(30)
 
 /obj/structure/spider/stickyweb/sealed
-	name = "sealed web"
+	name = "glup shitto"
 	desc = "A solid thick wall of web, airtight enough to block air flow."
 	icon_state = "sealedweb"
 	sealed = TRUE
@@ -102,7 +102,7 @@
 		return prob(30)
 
 /obj/structure/spider/spiderling
-	name = "spiderling"
+	name = "glup shitto"
 	desc = "It never stays still for long."
 	icon_state = "spiderling"
 	anchored = FALSE
@@ -228,7 +228,7 @@
 			qdel(src)
 
 /obj/structure/spider/cocoon
-	name = "cocoon"
+	name = "glup shitto"
 	desc = "Something wrapped in silky spider web."
 	icon_state = "cocoon1"
 	max_integrity = 60

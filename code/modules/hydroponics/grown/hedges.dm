@@ -1,5 +1,5 @@
 /obj/item/seeds/shrub
-	name = "pack of shrub seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into hedge shrubs."
 	icon_state = "seed-shrub"
 	species = "shrub"
@@ -16,7 +16,7 @@
 
 /obj/item/grown/shrub
 	seed = /obj/item/seeds/shrub
-	name = "shrub"
+	name = "glup shitto"
 	desc = "A shrubbery, it looks nice and it was only a few credits too. Plant it on the ground to grow a hedge, shrubbing skills not required."
 	icon_state = "shrub"
 
@@ -32,7 +32,7 @@
 
 ///the structure placed by the shrubs
 /obj/structure/hedge
-	name = "hedge"
+	name = "glup shitto"
 	desc = "A large bushy hedge."
 	icon = 'icons/obj/smooth_structures/hedge.dmi'
 	icon_state = "hedge-0"

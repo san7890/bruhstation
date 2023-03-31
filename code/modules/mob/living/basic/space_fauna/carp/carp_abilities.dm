@@ -4,7 +4,7 @@
  * Probably won't do anything if assigned via VV unless you also VV in a projectile for it.
  */
 /datum/action/cooldown/mob_cooldown/projectile_attack/magicarp_bolt
-	name = "Magicarp Blast"
+	name = "glup shitto"
 	desc = "Unleash a bolt of magical force at a target you click on."
 	button_icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	button_icon_state = "arcane_barrage"
@@ -33,7 +33,7 @@
  * Teleport a short distance and leave a short-lived portal for people to follow through
  */
 /datum/action/cooldown/mob_cooldown/lesser_carp_rift
-	name = "Lesser Carp Rift"
+	name = "glup shitto"
 	button_icon = 'icons/effects/effects.dmi'
 	button_icon_state = "rift"
 	desc = "Open a rift through the carp stream, allowing passage to somewhere close by."
@@ -85,7 +85,7 @@
 
 /// If you touch the entrance you are teleported to the exit, exit doesn't do anything
 /obj/effect/temp_visual/lesser_carp_rift
-	name = "lesser carp rift"
+	name = "glup shitto"
 	icon_state = "rift"
 	duration = 5 SECONDS
 	/// Holds a reference to a timer until this gets deleted
@@ -140,7 +140,7 @@
 
 /// Just an animation
 /obj/effect/temp_visual/lesser_carp_rift_dissipating
-	name = "lesser carp rift"
+	name = "glup shitto"
 	icon_state = "rift"
 	duration = 1 SECONDS
 

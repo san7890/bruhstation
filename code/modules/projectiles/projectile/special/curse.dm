@@ -1,10 +1,10 @@
 /obj/effect/ebeam/curse_arm
-	name = "curse arm"
+	name = "glup shitto"
 	layer = LARGE_MOB_LAYER
 	plane = GAME_PLANE_UPPER_FOV_HIDDEN
 
 /obj/projectile/curse_hand
-	name = "curse hand"
+	name = "glup shitto"
 	icon_state = "cursehand0"
 	base_icon_state = "cursehand"
 	hitsound = 'sound/effects/curse4.ogg'
@@ -68,7 +68,7 @@
 		finale()
 
 /obj/projectile/curse_hand/hel //Used in helbital's impure reagent
-	name = "Hel's grasp"
+	name = "glup shitto"
 	damage = 5
 	paralyze = 0 //Lets not stun people!
 	speed = 1

@@ -1,7 +1,7 @@
 // Honker
 
 /obj/projectile/bullet/honker
-	name = "banana"
+	name = "glup shitto"
 	damage = 0
 	movement_type = FLYING
 	projectile_piercing = ALL
@@ -43,7 +43,7 @@
 
 /// Marksman Shot
 /obj/projectile/bullet/marksman
-	name = "marksman nanoshot"
+	name = "glup shitto"
 	hitscan = TRUE
 	damage = 30
 	tracer_type = /obj/effect/projectile/tracer/solar
@@ -77,7 +77,7 @@
 
 /// Marksman Coin
 /obj/projectile/bullet/coin
-	name = "marksman coin"
+	name = "glup shitto"
 	icon_state = "coinshot"
 	pixel_speed_multiplier = 0.333
 	speed = 1

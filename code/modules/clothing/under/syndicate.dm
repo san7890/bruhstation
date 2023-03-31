@@ -1,5 +1,5 @@
 /obj/item/clothing/under/syndicate
-	name = "tactical turtleneck"
+	name = "glup shitto"
 	desc = "A non-descript and slightly suspicious looking turtleneck with digital camouflage cargo pants."
 	icon_state = "syndicate"
 	inhand_icon_state = "bl_suit"
@@ -16,7 +16,7 @@
 	acid = 40
 
 /obj/item/clothing/under/syndicate/skirt
-	name = "tactical skirtleneck"
+	name = "glup shitto"
 	desc = "A non-descript and slightly suspicious looking skirtleneck."
 	icon_state = "syndicate_skirt"
 	inhand_icon_state = "bl_suit"
@@ -34,7 +34,7 @@
 	acid = 40
 
 /obj/item/clothing/under/syndicate/bloodred
-	name = "blood-red sneaksuit"
+	name = "glup shitto"
 	desc = "It still counts as stealth if there are no witnesses."
 	icon_state = "bloodred_pajamas"
 	inhand_icon_state = "bl_suit"
@@ -52,7 +52,7 @@
 	acid = 40
 
 /obj/item/clothing/under/syndicate/bloodred/sleepytime
-	name = "blood-red pajamas"
+	name = "glup shitto"
 	desc = "Do operatives dream of nuclear sheep?"
 	icon_state = "bloodred_pajamas"
 	inhand_icon_state = "bl_suit"
@@ -64,7 +64,7 @@
 	acid = 40
 
 /obj/item/clothing/under/syndicate/tacticool
-	name = "tacticool turtleneck"
+	name = "glup shitto"
 	desc = "Just looking at it makes you want to buy an SKS, go into the woods, and -operate-."
 	icon_state = "tactifool"
 	inhand_icon_state = "bl_suit"
@@ -77,7 +77,7 @@
 	acid = 40
 
 /obj/item/clothing/under/syndicate/tacticool/skirt
-	name = "tacticool skirtleneck"
+	name = "glup shitto"
 	desc = "Just looking at it makes you want to buy an SKS, go into the woods, and -operate-."
 	icon_state = "tactifool_skirt"
 	inhand_icon_state = "bl_suit"
@@ -92,21 +92,21 @@
 	acid = 40
 
 /obj/item/clothing/under/syndicate/sniper
-	name = "tactical turtleneck suit"
+	name = "glup shitto"
 	desc = "A double seamed tactical turtleneck disguised as a civilian grade silk suit. Intended for the most formal operator. The collar is really sharp."
 	icon_state = "tactical_suit"
 	inhand_icon_state = "bl_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/syndicate/camo
-	name = "camouflage fatigues"
+	name = "glup shitto"
 	desc = "A green military camouflage uniform."
 	icon_state = "camogreen"
 	inhand_icon_state = "g_suit"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/syndicate/soviet
-	name = "Ratnik 5 tracksuit"
+	name = "glup shitto"
 	desc = "Badly translated labels tell you to clean this in Vodka. Great for squatting in."
 	icon_state = "trackpants"
 	can_adjust = FALSE
@@ -118,13 +118,13 @@
 	bio = 10
 
 /obj/item/clothing/under/syndicate/combat
-	name = "combat uniform"
+	name = "glup shitto"
 	desc = "With a suit lined with this many pockets, you are ready to operate."
 	icon_state = "syndicate_combat"
 	can_adjust = FALSE
 
 /obj/item/clothing/under/syndicate/rus_army
-	name = "advanced military tracksuit"
+	name = "glup shitto"
 	desc = "Military grade tracksuits for frontline squatting."
 	icon_state = "rus_under"
 	can_adjust = FALSE
@@ -136,7 +136,7 @@
 	bio = 10
 
 /obj/item/clothing/under/syndicate/scrubs
-	name = "tactical scrubs"
+	name = "glup shitto"
 	desc = "A deep burgundy set of scrubs, made tactically for tactical reasons."
 	icon = 'icons/obj/clothing/under/medical.dmi'
 	worn_icon = 'icons/mob/clothing/under/medical.dmi'

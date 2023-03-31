@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/ash
-	name = "Ashen Passage"
+	name = "glup shitto"
 	desc = "A short range spell that allows you to pass unimpeded through walls."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -25,12 +25,12 @@
 	return
 
 /datum/action/cooldown/spell/jaunt/ethereal_jaunt/ash/long
-	name = "Ashen Walk"
+	name = "glup shitto"
 	desc = "A long range spell that allows you pass unimpeded through multiple walls."
 	jaunt_duration = 5 SECONDS
 
 /obj/effect/temp_visual/dir_setting/ash_shift
-	name = "ash_shift"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/mob.dmi'
 	icon_state = "ash_shift2"
 	duration = 1.3 SECONDS

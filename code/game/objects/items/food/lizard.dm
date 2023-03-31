@@ -3,7 +3,7 @@
 //Meat Dishes
 
 /obj/item/food/raw_tiziran_sausage
-	name = "raw Tiziran blood sausage"
+	name = "glup shitto"
 	desc = "A raw Tiziran blood sausage, ready to be cured on a drying rack."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "raw_lizard_sausage"
@@ -21,7 +21,7 @@
 	AddElement(/datum/element/dryable, /obj/item/food/tiziran_sausage)
 
 /obj/item/food/tiziran_sausage
-	name = "\improper Tiziran blood sausage"
+	name = "glup shitto"
 	desc = "A coarse dry-cured blood sausage, traditionally made by farmers in the farmlands around Zagoskeld. Similar in texture to old-Earth Spanish chorizo."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_sausage"
@@ -34,7 +34,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/raw_headcheese
-	name = "raw headcheese block"
+	name = "glup shitto"
 	desc = "A common food on Tizira, headcheese is traditionally made of an animal's head, with the organs removed, boiled until it falls apart, at which point it is collected, strained of moisture, salted heavily, packed into blocks, and left to dry and age for several months. The resulting hard block tastes similar to cheese."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "raw_lizard_cheese"
@@ -51,7 +51,7 @@
 	AddElement(/datum/element/dryable, /obj/item/food/headcheese)
 
 /obj/item/food/headcheese
-	name = "headcheese block"
+	name = "glup shitto"
 	desc = "A cured block of headcheese. Delicious, if you're a lizard."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_cheese"
@@ -67,7 +67,7 @@
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/headcheese_slice, 5, 3 SECONDS, table_required = TRUE, screentip_verb = "Slice")
 
 /obj/item/food/headcheese_slice
-	name = "headcheese slice"
+	name = "glup shitto"
 	desc = "A slice of headcheese, useful for making sandwiches and snacks. Or surviving the cold Tiziran winters."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_cheese_slice"
@@ -80,7 +80,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/shredded_lungs
-	name = "crispy shredded lung stirfry"
+	name = "glup shitto"
 	desc = "Crispy lung strips, with veggies and a spicy sauce. Delicious, if you like lungs."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lung_stirfry"
@@ -95,7 +95,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/tsatsikh
-	name = "tsatsikh"
+	name = "glup shitto"
 	desc = "A Tiziran dish consisting of spiced ground offal, stuffed into a stomach and boiled. Pretty foul to anyone who's not used to the taste."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "tsatsikh"
@@ -105,7 +105,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/liver_pate
-	name = "liver pate"
+	name = "glup shitto"
 	desc = "A rich, meaty paste made from liver, meat, and a few additions for extra flavour."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "pate"
@@ -115,7 +115,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/moonfish_eggs
-	name = "moonfish eggs"
+	name = "glup shitto"
 	desc = "The moonfish lays large, transparent white eggs which are prized in lizard cooking. Their flavour is similar to caviar, but generally is described as deeper and more complex."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "moonfish_eggs"
@@ -128,7 +128,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/moonfish_caviar
-	name = "moonfish caviar paste"
+	name = "glup shitto"
 	desc = "A rich paste made from moonfish eggs. Generally the only way most lizards can get them, and used fairly heavily in coastal cooking."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "moonfish_caviar"
@@ -141,7 +141,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/lizard_escargot
-	name = "desert snail cocleas"
+	name = "glup shitto"
 	desc = "Another example of cultural crossover between lizards and humans, desert snail escargot is closer to the Roman dish cocleas than the contemporary French escargot. It's a common street food in the desert cities."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_escargot"
@@ -155,7 +155,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/fried_blood_sausage
-	name = "fried blood sausage"
+	name = "glup shitto"
 	desc = "A blood sausage, battered and deep fried. Commonly served with fries as a quick and simple snack on the streets of Zagoskeld."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "fried_blood_sausage"
@@ -171,7 +171,7 @@
 
 //Why does like, every language on the planet besides English call them pommes? Who knows, who cares- the lizards call them it too, because funny.
 /obj/item/food/lizard_fries
-	name = "loaded poms-franzisks"
+	name = "glup shitto"
 	desc = "One of the many human foods to make its way to the lizards was french fries, which are called poms-franzisks in Draconic. When topped with barbecued meat and sauce, they make a hearty meal."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_fries"
@@ -186,7 +186,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/brain_pate
-	name = "eyeball-and-brain pate"
+	name = "glup shitto"
 	desc = "A thick pink puree made from finely chopped poached eyeballs and brains, fried onions, and fat. Lizards swear it's delicious!"
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "brain_pate"
@@ -199,7 +199,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/crispy_headcheese
-	name = "crispy breaded headcheese"
+	name = "glup shitto"
 	desc = "A delicious snack from the streets of Zagoskeld, consisting of headcheese coated in rootbread breadcrumbs. Commonly served with fries."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "crispy_headcheese"
@@ -213,7 +213,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/kebab/picoss_skewers
-	name = "picoss skewer"
+	name = "glup shitto"
 	desc = "A popular Tiziran streetfood consisting of vinegar-marinated armorfish on a skewer with onion and chillis."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "picoss_skewer"
@@ -228,7 +228,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/nectar_larvae
-	name = "nectar larvae"
+	name = "glup shitto"
 	desc = "Little crispy larvae in a korta nectar based sweet and spicy sauce. Bugtastic!"
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "nectar_larvae"
@@ -242,7 +242,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/mushroomy_stirfry
-	name = "mushroomy stirfry"
+	name = "glup shitto"
 	desc = "A medley of mushrooms, made to meet your monstrous munchies. Marvelous!"
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "mushroomy_stirfry"
@@ -256,7 +256,7 @@
 
 //Fish Dishes
 /obj/item/food/grilled_moonfish
-	name = "grilled moonfish"
+	name = "glup shitto"
 	desc = "A slab of grilled moonfish. Traditionally served over scalloped roots with a wine-based sauce."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "grilled_moonfish"
@@ -270,7 +270,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/moonfish_demiglace
-	name = "moonfish demiglace"
+	name = "glup shitto"
 	desc = "A slab of beautifully seared moonfish on a bed of potatoes and carrots, with a wine and demiglace reduction on top. Simply marvelous."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "moonfish_demiglace"
@@ -284,7 +284,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/lizard_surf_n_turf
-	name = "\improper Zagosk surf 'n' turf smorgasbord"
+	name = "glup shitto"
 	desc = "A massive platter of Tizira's finest meat and seafood, typically shared by groups at the beach. Of course, nothing's stopping you eating it on your own... fatass."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "surf_n_turf"
@@ -300,7 +300,7 @@
 //Spaghetti Dishes
 
 /obj/item/food/spaghetti/nizaya
-	name = "nizaya pasta"
+	name = "glup shitto"
 	desc = "A form of root and nut pasta originally native to the oceanside regions of Tizira. It's similar in texture and appearance to gnocchi."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "nizaya"
@@ -312,7 +312,7 @@
 	foodtypes = VEGETABLES | NUTS
 
 /obj/item/food/spaghetti/snail_nizaya
-	name = "desert snail nizaya"
+	name = "glup shitto"
 	desc = "A high class pasta dish from Tizira's vineyard region of Valyngia. Traditionally made with only the finest Tiziran wine... but the human swill will do, in a pinch."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "snail_nizaya"
@@ -325,7 +325,7 @@
 	foodtypes = VEGETABLES | MEAT | NUTS
 
 /obj/item/food/spaghetti/garlic_nizaya
-	name = "garlic-and-oil nizaya"
+	name = "glup shitto"
 	desc = "A lizard adaptation of the Italian pasta dish, aglio e olio, made with nizaya pasta."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "garlic_nizaya"
@@ -337,7 +337,7 @@
 	foodtypes = VEGETABLES | NUTS
 
 /obj/item/food/spaghetti/demit_nizaya
-	name = "demit nizaya"
+	name = "glup shitto"
 	desc = "A sweet, creamy nizaya pasta dish made with korta milk and nectar."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "demit_nizaya"
@@ -350,7 +350,7 @@
 	foodtypes = VEGETABLES | SUGAR | NUTS
 
 /obj/item/food/spaghetti/mushroom_nizaya
-	name = "mushroom nizaya"
+	name = "glup shitto"
 	desc = "A nizaya pasta dish made with seraka mushrooms and quality oil. Has a pronounced nutty flavour."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "mushroom_nizaya"
@@ -364,7 +364,7 @@
 //Dough Dishes
 
 /obj/item/food/rootdough
-	name = "root dough"
+	name = "glup shitto"
 	desc = "A root based dough, made with nuts and tubers. Used in a wide range of Tiziran cooking."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "rootdough"
@@ -380,7 +380,7 @@
 	AddElement(/datum/element/processable, TOOL_ROLLINGPIN, /obj/item/food/flatrootdough, 1, 3 SECONDS, table_required = TRUE, screentip_verb = "Flatten")
 
 /obj/item/food/flatrootdough
-	name = "flat rootdough"
+	name = "glup shitto"
 	desc = "Flattened rootdough, ready to be made into a flatbread, or cut into segments."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "flat_rootdough"
@@ -395,7 +395,7 @@
 	AddComponent(/datum/component/grillable, /obj/item/food/root_flatbread, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)
 
 /obj/item/food/rootdoughslice
-	name = "rootdough ball"
+	name = "glup shitto"
 	desc = "A ball of root dough. Perfect for making pasta or rolls."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "rootdough_slice"
@@ -411,7 +411,7 @@
 	AddComponent(/datum/component/bakeable, /obj/item/food/rootroll, rand(15 SECONDS, 25 SECONDS), TRUE, TRUE)
 
 /obj/item/food/root_flatbread
-	name = "root flatbread"
+	name = "glup shitto"
 	desc = "A plain grilled root flatbread. Can be topped with a variety of foods that lizards like to eat."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "root_flatbread"
@@ -421,7 +421,7 @@
 	burns_on_grill = TRUE
 
 /obj/item/food/rootroll
-	name = "rootroll"
+	name = "glup shitto"
 	desc = "A dense, chewy roll, made from roots. A nice companion to a bowl of soup."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "rootroll"
@@ -434,7 +434,7 @@
 //Bread Dishes
 
 /obj/item/food/bread/root
-	name = "rootbread"
+	name = "glup shitto"
 	desc = "The lizard equivalent to bread, made from tubers like potatoes and yams mixed with ground nuts and seeds. Noticably denser than regular bread."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_bread"
@@ -451,7 +451,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, /obj/item/food/bread/empty, CUSTOM_INGREDIENT_ICON_FILL, max_ingredients = 8)
 
 /obj/item/food/breadslice/root
-	name = "rootbread slice"
+	name = "glup shitto"
 	desc = "A slice of dense, chewy rootbread."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_breadslice"
@@ -470,7 +470,7 @@
 	slice_type = null
 
 /obj/item/food/pizza/flatbread/rustic
-	name = "rustic flatbread"
+	name = "glup shitto"
 	desc = "A simple Tiziran country dish, popular as a side to meat or fish dishes. Topped with herbs and oil."
 	icon_state = "rustic_flatbread"
 	food_reagents = list(
@@ -483,7 +483,7 @@
 	boxtag = "Tiziran Flatbread"
 
 /obj/item/food/pizza/flatbread/italic
-	name = "\improper Italic flatbread"
+	name = "glup shitto"
 	desc = "The introduction of human foods to Tizira led to an advancement in lizard cooking- the Italic flatbread is now a common sight on the menus of takeout stores on the planet."
 	icon_state = "italic_flatbread"
 	food_reagents = list(
@@ -496,7 +496,7 @@
 	boxtag = "Italic Flatbread"
 
 /obj/item/food/pizza/flatbread/imperial
-	name = "\improper Imperial flatbread"
+	name = "glup shitto"
 	desc = "A flatbread topped with pate, pickled vegetables, and cubed headcheese. Not very suited to anyone's tastes but the lizards."
 	icon_state = "imperial_flatbread"
 	food_reagents = list(
@@ -509,7 +509,7 @@
 	boxtag = "Imperial Victory Flatbread"
 
 /obj/item/food/pizza/flatbread/rawmeat
-	name = "meatlovers flatbread"
+	name = "glup shitto"
 	desc = "Oddly enough, this Tiziran dish is actually a favorite of some health-minded humans."
 	icon_state = "rawmeat_flatbread"
 	food_reagents = list(
@@ -520,7 +520,7 @@
 	foodtypes = MEAT | NUTS | RAW | GORE
 
 /obj/item/food/pizza/flatbread/stinging
-	name = "\improper Stinging flatbread"
+	name = "glup shitto"
 	desc = "The electric mix of jellyfish and bee larva makes for a flavor sensation that leaves you asking for more!"
 	icon_state = "stinging_flatbread"
 	food_reagents = list(
@@ -532,7 +532,7 @@
 	foodtypes = BUGS | NUTS | SEAFOOD | GORE
 
 /obj/item/food/pizza/flatbread/zmorgast  // Name is based off of the Swedish dish Smörgåstårta
-	name = "\improper Zmorgast flatbread"
+	name = "glup shitto"
 	desc = "A Tiziran spin on the original Swedish sandwich cake, the Zmorgast is a common dish at family gatherings."
 	icon_state = "zmorgast_flatbread"
 	food_reagents = list(
@@ -544,7 +544,7 @@
 	foodtypes = VEGETABLES | NUTS | MEAT
 
 /obj/item/food/pizza/flatbread/fish
-	name = "\improper BBQ fish flatbread"
+	name = "glup shitto"
 	desc = "Superengine delamination, clown ops, too cold outside, I just want to grill for Tizira's sake!"
 	icon_state = "fish_flatbread"
 	food_reagents = list(
@@ -556,7 +556,7 @@
 	foodtypes = SEAFOOD | NUTS
 
 /obj/item/food/pizza/flatbread/mushroom
-	name = "mushroom and tomato flatbread"
+	name = "glup shitto"
 	desc = "A simple alternative to the Italic flatbread, for when you've already filled up on meat elsewhere."
 	icon_state = "mushroom_flatbread"
 	food_reagents = list(
@@ -567,7 +567,7 @@
 	foodtypes = VEGETABLES | NUTS
 
 /obj/item/food/pizza/flatbread/nutty
-	name = "nut paste flatbread"
+	name = "glup shitto"
 	desc = "Modern advances in cuisine now allow for a double helping of the delicious taste of korta nuts, both as the base and as a topping on this flatbread."
 	icon_state = "nutty_flatbread"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 20)
@@ -576,7 +576,7 @@
 
 //Sandwiches/Toast Dishes
 /obj/item/food/emperor_roll
-	name = "emperor roll"
+	name = "glup shitto"
 	desc = "A popular sandwich on Tizira, named in honour of the Imperial family."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "emperor_roll"
@@ -591,7 +591,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/honey_roll
-	name = "honey sweetroll"
+	name = "glup shitto"
 	desc = "A sweetened rootroll with sliced fruit, enjoyed as a seasonal dessert on Tizira."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "honey_roll"
@@ -607,7 +607,7 @@
 
 //Soup Dishes
 /obj/item/food/soup/atrakor_dumplings
-	name = "\improper Atrakor dumpling soup"
+	name = "glup shitto"
 	desc = "A bowl of rich, meaty dumpling soup, traditionally served during the festival of Atrakor's Might on Tizira. The dumplings are shaped like the Night Sky Lord himself."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "atrakor_dumplings"
@@ -621,7 +621,7 @@
 	foodtypes = MEAT | VEGETABLES | NUTS
 
 /obj/item/food/soup/meatball_noodles
-	name = "meatball noodle soup"
+	name = "glup shitto"
 	desc = "A hearty noodle soup made from meatballs and nizaya in a rich broth. Commonly topped with a handful of chopped nuts."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "meatball_noodles"
@@ -635,7 +635,7 @@
 	foodtypes = MEAT | VEGETABLES | NUTS
 
 /obj/item/food/soup/black_broth
-	name = "\improper Tiziran black broth"
+	name = "glup shitto"
 	desc = "A bowl of sausage, onion, blood and vinegar, served ice cold. Every bit as rough as it sounds."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "black_broth"
@@ -648,7 +648,7 @@
 	foodtypes = MEAT | VEGETABLES | GORE
 
 /obj/item/food/soup/jellyfish
-	name = "jellyfish stew"
+	name = "glup shitto"
 	desc = "A slimy bowl of jellyfish stew. It jiggles if you shake it."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "jellyfish_stew"
@@ -660,7 +660,7 @@
 	foodtypes = MEAT | VEGETABLES | GORE
 
 /obj/item/food/soup/rootbread_soup
-	name = "rootbread soup"
+	name = "glup shitto"
 	desc = "A big bowl of spicy, savoury soup made with rootbread. Heavily seasoned, and very tasty."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "rootbread_soup"
@@ -674,7 +674,7 @@
 
 //Egg Dishes
 /obj/item/food/black_eggs
-	name = "black scrambled eggs"
+	name = "glup shitto"
 	desc = "A country dish from rural Tizira. Made with eggs, blood, and foraged greens. Traditionally eaten with rootbread and a spicy sauce."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "black_eggs"
@@ -687,7 +687,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/patzikula
-	name = "patzikula"
+	name = "glup shitto"
 	desc = "A smooth and spicy tomato-based sauce topped with eggs and baked. Delicious."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "patzikula"
@@ -704,7 +704,7 @@
 //Cakes/Sweets
 
 /obj/item/food/cake/korta_brittle
-	name = "korta brittle slab"
+	name = "glup shitto"
 	desc = "A big slab of korta nut brittle. So sugary it should be a crime!"
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "korta_brittle"
@@ -718,7 +718,7 @@
 	slice_type = /obj/item/food/cakeslice/korta_brittle
 
 /obj/item/food/cakeslice/korta_brittle
-	name = "korta brittle slice"
+	name = "glup shitto"
 	desc = "A little slice of korta nut brittle. A diabetic's worst enemy."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "korta_brittle_slice"
@@ -731,7 +731,7 @@
 	foodtypes = NUTS | SUGAR
 
 /obj/item/food/snowcones/korta_ice
-	name = "korta ice"
+	name = "glup shitto"
 	desc = "Shaved ice, korta nectar and berries. A sweet treat to eat to beat summer heat!"
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "korta_ice"
@@ -744,7 +744,7 @@
 	foodtypes = NUTS | SUGAR | FRUIT
 
 /obj/item/food/kebab/candied_mushrooms
-	name = "candied mushrooms"
+	name = "glup shitto"
 	desc = "A slightly bizarre dish from Tizira, consisting of seraka mushrooms coated with caramel on a skewer. Carries a pronounced 'sweet and savoury' kick."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "candied_mushrooms"
@@ -758,7 +758,7 @@
 
 //Misc Dishes
 /obj/item/food/sauerkraut
-	name = "sauerkraut"
+	name = "glup shitto"
 	desc = "Pickled cabbage, as made famous by Germans, and which has become common in lizard cooking, where it is known as Zauerkrat."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "sauerkraut"
@@ -768,7 +768,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/lizard_dumplings
-	name = "\improper Tiziran dumplings"
+	name = "glup shitto"
 	desc = "Mashed root vegetables, mixed with korta flour and boiled to produce a large, round and slightly spicy dumpling. Commonly eaten in soup."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "lizard_dumplings"
@@ -781,7 +781,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/steeped_mushrooms
-	name = "steeped seraka mushrooms"
+	name = "glup shitto"
 	desc = "Seraka mushrooms that have been steeped in alkaline water to remove the extract, thereby making them completely safe to consume."
 	icon = 'icons/obj/food/lizard.dmi'
 	icon_state = "steeped_mushrooms"
@@ -794,7 +794,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/canned/jellyfish
-	name = "canned gunner jellyfish"
+	name = "glup shitto"
 	desc = "A can of gunner jellyfish packed in brine. Contains a mild hallucinogen which is destroyed by cooking."
 	icon_state = "jellyfish"
 	food_reagents = list(
@@ -808,7 +808,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/canned/desert_snails
-	name = "canned desert snails"
+	name = "glup shitto"
 	desc = "Giant snails from the Tiziran desert, packaged in brine. Shells included. Probably best not eaten raw, unless you're a lizard."
 	icon_state = "snails"
 	food_reagents = list(
@@ -821,7 +821,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/canned/larvae
-	name = "canned bee larva"
+	name = "glup shitto"
 	desc = "A can of bee larva packaged in honey. Probably appetizing to someone."
 	icon_state = "larvae"
 	food_reagents = list(

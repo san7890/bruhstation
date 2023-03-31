@@ -7,7 +7,7 @@
  * Bonus: Infected corpses spread disease and undead species are infectable
 */
 /datum/symptom/undead_adaptation
-	name = "Necrotic Metabolism"
+	name = "glup shitto"
 	desc = "The virus is able to thrive and act even within dead hosts."
 	stealth = 2
 	resistance = -2
@@ -33,7 +33,7 @@
  * Bonus: Enables infection of mineral biotype species
 */
 /datum/symptom/inorganic_adaptation
-	name = "Inorganic Biology"
+	name = "glup shitto"
 	desc = "The virus can survive and replicate even in an inorganic environment, increasing its resistance and infection rate."
 	stealth = -1
 	resistance = 4

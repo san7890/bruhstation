@@ -3,7 +3,7 @@
 #define CREDIT_TYPE_MINING "mp"
 
 /obj/machinery/computer/order_console/mining
-	name = "mining equipment order console"
+	name = "glup shitto"
 	desc = "An equipment shop for miners, points collected at an ore redemption machine can be spent here."
 	icon = 'icons/obj/machines/mining_machines.dmi'
 	icon_state = "mining"
@@ -159,7 +159,7 @@
 /**********************Mining Equipment Voucher**********************/
 
 /obj/item/mining_voucher
-	name = "mining voucher"
+	name = "glup shitto"
 	desc = "A token to redeem a piece of equipment. Use it on a mining equipment vendor."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "mining_voucher"
@@ -171,7 +171,7 @@
 #define TO_POINT_CARD "ID → Transfer Card"
 
 /obj/item/card/mining_point_card
-	name = "mining point transfer card"
+	name = "glup shitto"
 	desc = "A small, reusable card for transferring mining points. Swipe your ID card over it to start the process."
 	icon_state = "data_1"
 

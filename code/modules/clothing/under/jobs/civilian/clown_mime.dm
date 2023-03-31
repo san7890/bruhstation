@@ -1,12 +1,12 @@
 
 /obj/item/clothing/under/rank/civilian/mime
-	name = "mime's outfit"
+	name = "glup shitto"
 	desc = "It's not very colourful."
 	icon_state = "mime"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/rank/civilian/mime/skirt
-	name = "mime's skirt"
+	name = "glup shitto"
 	desc = "It's not very colourful."
 	icon_state = "mime_skirt"
 	inhand_icon_state = null
@@ -16,7 +16,7 @@
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
 
 /obj/item/clothing/under/rank/civilian/mime/sexy
-	name = "sexy mime outfit"
+	name = "glup shitto"
 	desc = "Pretty inappropriate for a circus."
 	icon_state = "sexymime"
 	inhand_icon_state = null
@@ -25,7 +25,7 @@
 	can_adjust = FALSE
 
 /obj/item/clothing/under/rank/civilian/clown
-	name = "clown suit"
+	name = "glup shitto"
 	desc = "<i>'HONK!'</i>"
 	icon_state = "clown"
 	inhand_icon_state = "clown"
@@ -39,43 +39,43 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_CLOWN, CELL_VIRUS_TABLE_GENERIC, rand(2,3), 0)
 
 /obj/item/clothing/under/rank/civilian/clown/blue
-	name = "blue clown suit"
+	name = "glup shitto"
 	desc = "<i>'BLUE HONK!'</i>"
 	icon_state = "blueclown"
 	inhand_icon_state = "blueclown"
 
 /obj/item/clothing/under/rank/civilian/clown/green
-	name = "green clown suit"
+	name = "glup shitto"
 	desc = "<i>'GREEN HONK!'</i>"
 	icon_state = "greenclown"
 	inhand_icon_state = "greenclown"
 
 /obj/item/clothing/under/rank/civilian/clown/yellow
-	name = "yellow clown suit"
+	name = "glup shitto"
 	desc = "<i>'YELLOW HONK!'</i>"
 	icon_state = "yellowclown"
 	inhand_icon_state = "yellowclown"
 
 /obj/item/clothing/under/rank/civilian/clown/purple
-	name = "purple clown suit"
+	name = "glup shitto"
 	desc = "<i>'PURPLE HONK!'</i>"
 	icon_state = "purpleclown"
 	inhand_icon_state = "purpleclown"
 
 /obj/item/clothing/under/rank/civilian/clown/orange
-	name = "orange clown suit"
+	name = "glup shitto"
 	desc = "<i>'ORANGE HONK!'</i>"
 	icon_state = "orangeclown"
 	inhand_icon_state = "orangeclown"
 
 /obj/item/clothing/under/rank/civilian/clown/rainbow
-	name = "rainbow clown suit"
+	name = "glup shitto"
 	desc = "<i>'R A I N B O W HONK!'</i>"
 	icon_state = "rainbowclown"
 	inhand_icon_state = "rainbowclown"
 
 /obj/item/clothing/under/rank/civilian/clown/jester
-	name = "jester suit"
+	name = "glup shitto"
 	desc = "A jolly dress, well suited to entertain your master, nuncle."
 	icon_state = "jester"
 
@@ -83,7 +83,7 @@
 	icon_state = "jester2"
 
 /obj/item/clothing/under/rank/civilian/clown/sexy
-	name = "sexy-clown suit"
+	name = "glup shitto"
 	desc = "It makes you look HONKable!"
 	icon_state = "sexyclown"
 	inhand_icon_state = null

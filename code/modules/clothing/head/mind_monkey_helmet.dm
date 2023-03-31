@@ -2,7 +2,7 @@
 //monkey sentience caps
 
 /obj/item/clothing/head/helmet/monkey_sentience
-	name = "monkey mind magnification helmet"
+	name = "glup shitto"
 	desc = "A fragile, circuitry embedded helmet for boosting the intelligence of a monkey to a higher level. You see several warning labels..."
 	icon_state = "monkeymind"
 	inhand_icon_state = null

@@ -6,7 +6,7 @@
 
 
 /obj/item/skillchip
-	name = "skillchip"
+	name = "glup shitto"
 	desc = "This biochip integrates with user's brain to enable mastery of specific skill. Consult certified Nanotrasen neurosurgeon before use."
 
 	icon = 'icons/obj/card.dmi'
@@ -374,7 +374,7 @@
 	return active_msg
 
 /obj/item/skillchip/basketweaving
-	name = "Basketsoft 3000 skillchip"
+	name = "glup shitto"
 	desc = "Underwater edition."
 	auto_traits = list(TRAIT_UNDERWATER_BASKETWEAVING_KNOWLEDGE)
 	skill_name = "Underwater Basketweaving"
@@ -384,7 +384,7 @@
 	deactivate_message = "<span class='notice'>Higher mysteries of underwater basketweaving leave your mind.</span>"
 
 /obj/item/skillchip/wine_taster
-	name = "WINE skillchip"
+	name = "glup shitto"
 	desc = "Wine.Is.Not.Equal version 5."
 	auto_traits = list(TRAIT_WINE_TASTER)
 	skill_name = "Wine Tasting"
@@ -394,7 +394,7 @@
 	deactivate_message = "<span class='notice'>Your memories of wine evaporate.</span>"
 
 /obj/item/skillchip/bonsai
-	name = "Hedge 3 skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_BONSAI)
 	skill_name = "Hedgetrimming"
 	skill_description = "Trim hedges and potted plants into marvelous new shapes with any old knife. Not applicable to plastic plants."
@@ -403,7 +403,7 @@
 	deactivate_message = "<span class='notice'>You can't remember what a hedge looks like anymore.</span>"
 
 /obj/item/skillchip/useless_adapter
-	name = "Skillchip adapter"
+	name = "glup shitto"
 	skill_name = "Useless adapter"
 	skill_description = "Allows you to insert another skillchip into this adapter after it has been inserted into your brain..."
 	skill_icon = "plug"
@@ -415,7 +415,7 @@
 	slot_use = 0
 
 /obj/item/skillchip/light_remover
-	name = "N16H7M4R3 skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_LIGHTBULB_REMOVER)
 	skill_name = "Lightbulb Removing"
 	skill_description = "Stop failing taking out lightbulbs today, no gloves needed!"
@@ -424,7 +424,7 @@
 	deactivate_message = "<span class='notice'>You feel like hot objects could stop you again...</span>"
 
 /obj/item/skillchip/disk_verifier
-	name = "K33P-TH4T-D15K skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_DISK_VERIFIER)
 	skill_name = "Nuclear Disk Verification"
 	skill_description = "Nuclear authentication disks have an extremely long serial number for verification. This skillchip stores that number, which allows the user to automatically spot forgeries."
@@ -433,7 +433,7 @@
 	deactivate_message = "<span class='notice'>The innate recognition of absurdly long disk-related serial numbers fades from your mind.</span>"
 
 /obj/item/skillchip/entrails_reader
-	name = "3NTR41LS skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_ENTRAILS_READER)
 	skill_name = "Entrails Reader"
 	skill_description = "Be able to learn about a person's life, by looking at their internal organs. Not to be confused with looking into the future."
@@ -442,7 +442,7 @@
 	deactivate_message = "<span class='notice'>Knowledge of liver damage, heart strain and lung scars fades from your mind.</span>"
 
 /obj/item/skillchip/appraiser
-	name = "GENUINE ID Appraisal Now! skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_ID_APPRAISER)
 	skill_name = "ID Appraisal"
 	skill_description = "Appraise an ID and see if it's issued from centcom, or just a cruddy station-printed one."
@@ -451,7 +451,7 @@
 	deactivate_message = span_notice("Was there something special about certain IDs?")
 
 /obj/item/skillchip/sabrage
-	name = "Le S48R4G3 skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_SABRAGE_PRO)
 	skill_name = "Sabrage Proficiency"
 	skill_description = "Grants the user knowledge of the intricate structure of a champagne bottle's structural weakness at the neck, \
@@ -461,7 +461,7 @@
 	deactivate_message = span_notice("The knowledge of the subtle physics residing inside champagne bottles fades from your mind.")
 
 /obj/item/skillchip/brainwashing
-	name = "suspicious skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_BRAINWASHING)
 	skill_name = "Brainwashing"
 	skill_description = "WARNING: The integrity of this chip is compromised. Please discard this skillchip."
@@ -479,7 +479,7 @@
 	. = ..()
 
 /obj/item/skillchip/chefs_kiss
-	name = "K1SS skillchip"
+	name = "glup shitto"
 	auto_traits = list(TRAIT_CHEF_KISS)
 	skill_name = "Chef's Kiss"
 	skill_description = "Allows you to kiss food you've created to make them with love."

@@ -1,5 +1,5 @@
 /obj/machinery/power/emitter
-	name = "emitter"
+	name = "glup shitto"
 	desc = "A heavy-duty industrial laser, often used in containment fields and power generation."
 	icon = 'icons/obj/engine/singularity.dmi'
 	icon_state = "emitter"
@@ -378,7 +378,7 @@
 
 
 /obj/machinery/power/emitter/prototype
-	name = "Prototype Emitter"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "protoemitter"
 	base_icon_state = "protoemitter"
@@ -442,7 +442,7 @@
 	. = ..()
 
 /datum/action/innate/proto_emitter/firing
-	name = "Switch to Manual Firing"
+	name = "glup shitto"
 	desc = "The emitter will only fire on your command and at your designated target"
 	button_icon_state = "mech_zoom_on"
 
@@ -459,7 +459,7 @@
 		build_all_button_icons()
 		return
 	playsound(proto_emitter,'sound/mecha/mechmove01.ogg', 50, TRUE)
-	name = "Switch to Automatic Firing"
+	name = "glup shitto"
 	desc = "Emitters will switch to periodic firing at your last target"
 	button_icon_state = "mech_zoom_off"
 	proto_emitter.manual = TRUE
@@ -477,7 +477,7 @@
 
 
 /obj/item/turret_control
-	name = "turret controls"
+	name = "glup shitto"
 	icon_state = "offhand"
 	w_class = WEIGHT_CLASS_HUGE
 	item_flags = ABSTRACT | NOBLUDGEON
@@ -539,7 +539,7 @@
 		playsound(src,'sound/machines/buzz-sigh.ogg', 50, TRUE)
 
 /obj/machinery/power/emitter/ctf
-	name = "Energy Cannon"
+	name = "glup shitto"
 	active = TRUE
 	active_power_usage = 0
 	idle_power_usage = 0

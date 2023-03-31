@@ -1,5 +1,5 @@
 /obj/item/screwdriver
-	name = "screwdriver"
+	name = "glup shitto"
 	desc = "You can be totally screwy with this."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "screwdriver_map"
@@ -60,7 +60,7 @@
 	AddElement(/datum/element/falling_hazard, damage = force, wound_bonus = wound_bonus, hardhat_safety = TRUE, crushes = FALSE, impact_sound = hitsound)
 
 /obj/item/screwdriver/abductor
-	name = "alien screwdriver"
+	name = "glup shitto"
 	desc = "An ultrasonic screwdriver."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "screwdriver_a"
@@ -76,7 +76,7 @@
 	return mutable_appearance('icons/obj/clothing/belt_overlays.dmi', "screwdriver_alien")
 
 /obj/item/screwdriver/power
-	name = "hand drill"
+	name = "glup shitto"
 	desc = "A simple powered hand drill."
 	icon_state = "drill"
 	belt_icon_state = null
@@ -139,7 +139,7 @@
 	return BRUTELOSS
 
 /obj/item/screwdriver/cyborg
-	name = "automated screwdriver"
+	name = "glup shitto"
 	desc = "A powerful automated screwdriver, designed to be both precise and quick."
 	icon = 'icons/obj/items_cyborg.dmi'
 	icon_state = "screwdriver_cyborg"

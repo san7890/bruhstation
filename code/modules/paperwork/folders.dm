@@ -1,5 +1,5 @@
 /obj/item/folder
-	name = "folder"
+	name = "glup shitto"
 	desc = "A folder."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "folder"

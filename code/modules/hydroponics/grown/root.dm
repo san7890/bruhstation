@@ -1,6 +1,6 @@
 // Carrot
 /obj/item/seeds/carrot
-	name = "pack of carrot seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into carrots."
 	icon_state = "seed-carrot"
 	species = "carrot"
@@ -17,7 +17,7 @@
 
 /obj/item/food/grown/carrot
 	seed = /obj/item/seeds/carrot
-	name = "carrot"
+	name = "glup shitto"
 	desc = "It's good for the eyes!"
 	icon_state = "carrot"
 	bite_consumption_mod = 2
@@ -37,7 +37,7 @@
 
 // Parsnip
 /obj/item/seeds/carrot/parsnip
-	name = "pack of parsnip seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into parsnips."
 	icon_state = "seed-parsnip"
 	species = "parsnip"
@@ -49,7 +49,7 @@
 
 /obj/item/food/grown/parsnip
 	seed = /obj/item/seeds/carrot/parsnip
-	name = "parsnip"
+	name = "glup shitto"
 	desc = "Closely related to carrots."
 	icon_state = "parsnip"
 	foodtypes = VEGETABLES
@@ -59,7 +59,7 @@
 
 // White-Beet
 /obj/item/seeds/whitebeet
-	name = "pack of white-beet seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into sugary beet producing plants."
 	icon_state = "seed-whitebeet"
 	species = "whitebeet"
@@ -76,7 +76,7 @@
 
 /obj/item/food/grown/whitebeet
 	seed = /obj/item/seeds/whitebeet
-	name = "white-beet"
+	name = "glup shitto"
 	desc = "You can't beat white-beet."
 	icon_state = "whitebeet"
 	bite_consumption_mod = 3
@@ -85,7 +85,7 @@
 
 // Red Beet
 /obj/item/seeds/redbeet
-	name = "pack of redbeet seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into red beet producing plants."
 	icon_state = "seed-redbeet"
 	species = "redbeet"
@@ -103,7 +103,7 @@
 
 /obj/item/food/grown/redbeet
 	seed = /obj/item/seeds/redbeet
-	name = "red beet"
+	name = "glup shitto"
 	desc = "You can't beat red beet."
 	icon_state = "redbeet"
 	bite_consumption_mod = 2

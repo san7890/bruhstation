@@ -5,7 +5,7 @@
 /// 35 force weapon still gets the cap of 20 for a total of 55 instead of a whopping 70 damage
 /// Steals 50 blood if they have enough. Splattercasting has one second of cooldown worth 5 blood, so 50 seconds cooldown of blood added!
 /datum/action/cooldown/spell/sanguine_strike
-	name = "Sanguine Strike"
+	name = "glup shitto"
 	desc = "Enchants your next weapon strike to deal more damage, heal you for damage dealt, and refill blood."
 	button_icon_state = "charge"
 

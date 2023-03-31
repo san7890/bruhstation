@@ -1,5 +1,5 @@
 /datum/design/flashlight
-	name = "Flashlight"
+	name = "glup shitto"
 	id = "flashlight"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 50, /datum/material/glass = 20)
@@ -10,7 +10,7 @@
 	)
 
 /datum/design/crowbar
-	name = "Pocket Crowbar"
+	name = "glup shitto"
 	id = "crowbar"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 50)
@@ -22,7 +22,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/multitool
-	name = "Multitool"
+	name = "glup shitto"
 	id = "multitool"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 50, /datum/material/glass = 20)
@@ -34,7 +34,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/rwd
-	name = "Rapid Wiring Device"
+	name = "glup shitto"
 	id = "rwd"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 5000)
@@ -46,7 +46,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/analyzer
-	name = "Gas Analyzer"
+	name = "glup shitto"
 	id = "analyzer"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 30, /datum/material/glass = 20)
@@ -58,7 +58,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/weldingtool
-	name = "Welding Tool"
+	name = "glup shitto"
 	id = "welding_tool"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 70, /datum/material/glass = 20)
@@ -70,7 +70,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mini_weldingtool
-	name = "Emergency Welding Tool"
+	name = "glup shitto"
 	id = "mini_welding_tool"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 30, /datum/material/glass = 10)
@@ -81,7 +81,7 @@
 	)
 
 /datum/design/screwdriver
-	name = "Screwdriver"
+	name = "glup shitto"
 	id = "screwdriver"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 75)
@@ -93,7 +93,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/wirecutters
-	name = "Wirecutters"
+	name = "glup shitto"
 	id = "wirecutters"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 80)
@@ -105,7 +105,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/wrench
-	name = "Wrench"
+	name = "glup shitto"
 	id = "wrench"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 150)
@@ -117,7 +117,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/plunger
-	name = "Plunger"
+	name = "glup shitto"
 	id = "plunger"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 150)
@@ -129,7 +129,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/welding_helmet
-	name = "Welding Helmet"
+	name = "glup shitto"
 	id = "welding_helmet"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1750, /datum/material/glass = 400)
@@ -141,7 +141,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/cable_coil
-	name = "Cable Coil"
+	name = "glup shitto"
 	id = "cable_coil"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10, /datum/material/glass = 5)
@@ -154,7 +154,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/toolbox
-	name = "Toolbox"
+	name = "glup shitto"
 	id = "tool_box"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(MAT_CATEGORY_ITEM_MATERIAL = 500)
@@ -165,7 +165,7 @@
 	)
 
 /datum/design/emergency_oxygen
-	name = "Emergency Oxygen Tank"
+	name = "glup shitto"
 	id = "emergency_oxygen"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500)
@@ -176,7 +176,7 @@
 	)
 
 /datum/design/emergency_oxygen_engi
-	name = "Extended-Capacity Emergency Oxygen Tank"
+	name = "glup shitto"
 	id = "emergency_oxygen_engi"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 750)
@@ -188,7 +188,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/plasmaman_tank_belt
-	name = "Plasmaman Belt Tank"
+	name = "glup shitto"
 	id = "plasmaman_tank_belt"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 800)
@@ -199,7 +199,7 @@
 	)
 
 /datum/design/generic_gas_tank
-	name = "Generic Gas Tank"
+	name = "glup shitto"
 	id = "generic_tank"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1000)
@@ -211,7 +211,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/boxcutter
-	name = "Boxcutter"
+	name = "glup shitto"
 	id = "boxcutter"
 	build_type = AUTOLATHE | PROTOLATHE
 	materials = list(/datum/material/iron = 4000, /datum/material/plastic = 500)
@@ -223,7 +223,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/foilhat
-	name = "Tinfoil Hat"
+	name = "glup shitto"
 	id = "tinfoil_hat"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 5500)
@@ -234,7 +234,7 @@
 	)
 
 /datum/design/beaker
-	name = "Beaker"
+	name = "glup shitto"
 	id = "beaker"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 500)
@@ -246,7 +246,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/large_beaker
-	name = "Large Beaker"
+	name = "glup shitto"
 	id = "large_beaker"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 2500)
@@ -258,7 +258,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/igniter
-	name = "Igniter"
+	name = "glup shitto"
 	id = "igniter"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 50)
@@ -270,7 +270,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/condenser
-	name = "Condenser"
+	name = "glup shitto"
 	id = "condenser"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron=250, /datum/material/glass=300)
@@ -282,7 +282,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/signaler
-	name = "Remote Signaling Device"
+	name = "glup shitto"
 	id = "signaler"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 400, /datum/material/glass = 120)
@@ -293,7 +293,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/infrared_emitter
-	name = "Infrared Emitter"
+	name = "glup shitto"
 	id = "infrared_emitter"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 1000, /datum/material/glass = 500)
@@ -305,7 +305,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/health_sensor
-	name = "Health Sensor"
+	name = "glup shitto"
 	id = "health_sensor"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 800, /datum/material/glass = 200)
@@ -317,7 +317,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/timer
-	name = "Timer"
+	name = "glup shitto"
 	id = "timer"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 50)
@@ -329,7 +329,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/voice_analyzer
-	name = "Voice Analyzer"
+	name = "glup shitto"
 	id = "voice_analyzer"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 50)
@@ -341,7 +341,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/light_tube
-	name = "Light Tube"
+	name = "glup shitto"
 	id = "light_tube"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 100)
@@ -353,7 +353,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/light_bulb
-	name = "Light Bulb"
+	name = "glup shitto"
 	id = "light_bulb"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/glass = 100)
@@ -365,7 +365,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/prox_sensor
-	name = "Proximity Sensor"
+	name = "glup shitto"
 	id = "prox_sensor"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 800, /datum/material/glass = 200)
@@ -377,7 +377,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/cleaver
-	name = "Butcher's Cleaver"
+	name = "glup shitto"
 	id = "cleaver"
 	build_type = AUTOLATHE
 	materials = list(/datum/material/iron = 18000)
@@ -388,7 +388,7 @@
 	)
 
 /datum/design/spraycan
-	name = "Spraycan"
+	name = "glup shitto"
 	id = "spraycan"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 100, /datum/material/glass = 100)
@@ -400,7 +400,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/desttagger
-	name = "Destination Tagger"
+	name = "glup shitto"
 	id = "desttagger"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 250, /datum/material/glass = 125)
@@ -412,7 +412,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_CARGO | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/ducts
-	name = "Fluid Duct"
+	name = "glup shitto"
 	id = "fluid_ducts"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500)
@@ -425,7 +425,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_SERVICE
 
 /datum/design/razor
-	name = "Electric Razor"
+	name = "glup shitto"
 	id = "razor"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE
 	materials = list(/datum/material/iron = 75)
@@ -437,7 +437,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_MEDICAL | DEPARTMENT_BITFLAG_SECURITY
 
 /datum/design/package_wrap
-	name = "Package Wrapping"
+	name = "glup shitto"
 	id = "packagewrap"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 200, /datum/material/glass = 200)
@@ -450,7 +450,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SERVICE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/holodisk
-	name = "Holodisk"
+	name = "glup shitto"
 	id = "holodisk"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 100, /datum/material/glass = 100)
@@ -462,7 +462,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/circuit
-	name = "Blue Circuit Tile"
+	name = "glup shitto"
 	id = "circuit"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -476,7 +476,7 @@
 
 
 /datum/design/circuitgreen
-	name = "Green Circuit Tile"
+	name = "glup shitto"
 	id = "circuitgreen"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -489,7 +489,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/circuitred
-	name = "Red Circuit Tile"
+	name = "glup shitto"
 	id = "circuitred"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 500, /datum/material/glass = 500)
@@ -502,7 +502,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/conveyor_belt
-	name = "Conveyor Belt"
+	name = "glup shitto"
 	id = "conveyor_belt"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 3000)
@@ -515,7 +515,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/conveyor_switch
-	name = "Conveyor Belt Switch"
+	name = "glup shitto"
 	id = "conveyor_switch"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 450, /datum/material/glass = 190)
@@ -527,7 +527,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_ENGINEERING | DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_CARGO
 
 /datum/design/laptop
-	name = "Laptop Frame"
+	name = "glup shitto"
 	id = "laptop"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = 10000, /datum/material/glass = 1000)
@@ -539,7 +539,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE | DEPARTMENT_BITFLAG_ENGINEERING
 
 /datum/design/universal_scanner
-	name = "Universal Scanner"
+	name = "glup shitto"
 	desc = "A utility scanner that fills multiple roles: Exports, sales, and vendor price tags."
 	id = "universal_scanner"
 	build_type = PROTOLATHE | AWAY_LATHE | AUTOLATHE

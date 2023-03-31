@@ -75,10 +75,10 @@
 	initial_gas_mix = TCOMMS_ATMOS
 
 /turf/open/floor/circuit/telecomms/mainframe
-	name = "mainframe base"
+	name = "glup shitto"
 
 /turf/open/floor/circuit/telecomms/server
-	name = "server base"
+	name = "glup shitto"
 
 /turf/open/floor/circuit/green
 	icon_state = "gcircuit"
@@ -102,7 +102,7 @@
 	initial_gas_mix = TCOMMS_ATMOS
 
 /turf/open/floor/circuit/green/telecomms/mainframe
-	name = "mainframe base"
+	name = "glup shitto"
 
 /turf/open/floor/circuit/red
 	icon_state = "rcircuit"
@@ -126,7 +126,7 @@
 	initial_gas_mix = TCOMMS_ATMOS
 
 /turf/open/floor/pod
-	name = "pod floor"
+	name = "glup shitto"
 	icon_state = "podfloor"
 	floor_tile = /obj/item/stack/tile/pod
 
@@ -140,20 +140,20 @@
 
 
 /turf/open/floor/noslip
-	name = "high-traction floor"
+	name = "glup shitto"
 	icon_state = "noslip"
 	floor_tile = /obj/item/stack/tile/noslip
 	slowdown = -0.3
 
 /turf/open/floor/noslip/tram_plate
-	name = "linear induction plate"
+	name = "glup shitto"
 	desc = "The linear induction plate that powers the tram."
 	icon_state = "tram_plate"
 	base_icon_state = "tram_plate"
 	slowdown = 0
 
 /turf/open/floor/noslip/tram_platform
-	name = "tram platform"
+	name = "glup shitto"
 	desc = "A sturdy looking tram platform."
 	icon_state = "tram_platform"
 	base_icon_state = "tram_platform"
@@ -200,7 +200,7 @@
 
 
 /turf/open/floor/bronze
-	name = "bronze floor"
+	name = "glup shitto"
 	desc = "Some heavy bronze tiles."
 	icon_state = "clockwork_floor"
 	floor_tile = /obj/item/stack/tile/bronze
@@ -222,16 +222,16 @@
 	initial_gas_mix = ICEMOON_DEFAULT_ATMOS
 
 /turf/open/floor/white
-	name = "white floor"
+	name = "glup shitto"
 	desc = "A tile in a pure white color."
 	icon_state = "pure_white"
 
 /turf/open/floor/black
-	name = "black floor"
+	name = "glup shitto"
 	icon_state = "black"
 
 /turf/open/floor/plastic
-	name = "plastic floor"
+	name = "glup shitto"
 	desc = "Cheap, lightweight flooring. Melts easily."
 	icon_state = "plastic"
 	thermal_conductivity = 0.1
@@ -243,7 +243,7 @@
 	return list("plastic-damaged1","plastic-damaged2")
 
 /turf/open/floor/eighties
-	name = "retro floor"
+	name = "glup shitto"
 	desc = "This one takes you back."
 	icon_state = "eighties"
 	floor_tile = /obj/item/stack/tile/eighties
@@ -252,7 +252,7 @@
 	return list("eighties_damaged")
 
 /turf/open/floor/eighties/red
-	name = "red retro floor"
+	name = "glup shitto"
 	desc = "Totally RED-ICAL!"
 	icon_state = "eightiesred"
 	floor_tile = /obj/item/stack/tile/eighties/red
@@ -280,7 +280,7 @@
 	AddElement(/datum/element/rust)
 
 /turf/open/floor/stone
-	name = "stone brick floor"
+	name = "glup shitto"
 	desc = "Odd, really, how it looks exactly like the iron walls yet is stone instead of iron. Now, if that's really more of a complaint about\
 		the ironness of walls or the stoneness of the floors, that's really up to you. But have you really ever seen iron that dull? I mean, it\
 		makes sense for the station to have dull metal walls but we're talking how a rudimentary iron wall would be. Medieval ages didn't even\
@@ -290,26 +290,26 @@
 	icon_state = "stone_floor"
 
 /turf/open/floor/vault
-	name = "strange floor"
+	name = "glup shitto"
 	desc = "You feel a strange nostalgia from looking at this..."
 	icon_state = "rockvault"
 	base_icon_state = "rockvault"
 
 /turf/open/floor/vault/rock
-	name = "rocky floor"
+	name = "glup shitto"
 
 /turf/open/floor/vault/alien
-	name = "alien floor"
+	name = "glup shitto"
 	icon_state = "alienvault"
 	base_icon_state = "alienvault"
 
 /turf/open/floor/vault/sandstone
-	name = "sandstone floor"
+	name = "glup shitto"
 	icon_state = "sandstonevault"
 	base_icon_state = "sandstonevault"
 
 /turf/open/floor/cult
-	name = "engraved floor"
+	name = "glup shitto"
 	icon_state = "cult"
 	base_icon_state = "cult"
 	floor_tile = /obj/item/stack/tile/cult
@@ -326,7 +326,7 @@
 /// TGMC EMBLEM ///
 
 /turf/open/floor/iron/tgmcemblem
-	name = "TGMC Emblem"
+	name = "glup shitto"
 	desc = "The symbol of the Terran Goverment."
 	icon_state = "tgmc_emblem"
 

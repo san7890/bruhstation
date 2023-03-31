@@ -1,10 +1,10 @@
 /obj/effect/spawner/random/decoration
-	name = "decoration loot spawner"
+	name = "glup shitto"
 	desc = "Time for some bling bling."
 	icon_state = "lamp"
 
 /obj/effect/spawner/random/decoration/material
-	name = "decoration material spawner"
+	name = "glup shitto"
 	icon_state = "tile"
 	loot = list(
 		/obj/item/stack/sheet/sandblock{amount = 30} = 25,
@@ -18,7 +18,7 @@
 	)
 
 /obj/effect/spawner/random/decoration/carpet
-	name = "carpet spawner"
+	name = "glup shitto"
 	icon_state = "carpet"
 	loot = list(
 		/obj/item/stack/tile/carpet{amount = 30} = 35,
@@ -29,7 +29,7 @@
 	)
 
 /obj/effect/spawner/random/decoration/ornament
-	name = "ornament spawner"
+	name = "glup shitto"
 	icon_state = "lamp"
 	loot = list(
 		/obj/item/flashlight/lamp = 35,
@@ -41,7 +41,7 @@
 	)
 
 /obj/effect/spawner/random/decoration/generic
-	name = "generic decoration spawner"
+	name = "glup shitto"
 	icon_state = "sandstone"
 	loot = list(
 		/obj/effect/spawner/random/decoration/ornament = 35,
@@ -50,7 +50,7 @@
 	)
 
 /obj/effect/spawner/random/decoration/statue
-	name = "statue spawner"
+	name = "glup shitto"
 	icon_state = "statue"
 	loot = list(
 		/obj/structure/statue/bronze/marx = 50,
@@ -88,13 +88,13 @@
 	return statue
 
 /obj/effect/spawner/random/decoration/showcase
-	name = "showcase spawner"
+	name = "glup shitto"
 	icon_state = "showcase"
 	loot_type_path = /obj/structure/showcase
 	loot = list()
 
 /obj/effect/spawner/random/decoration/glowstick
-	name = "random colored glowstick"
+	name = "glup shitto"
 	icon_state = "glowstick"
 	loot = list(
 		/obj/item/flashlight/glowstick,
@@ -107,13 +107,13 @@
 	)
 
 /obj/effect/spawner/random/decoration/paint
-	name = "paint spawner"
+	name = "glup shitto"
 	icon_state = "paint"
 	loot_subtype_path = /obj/item/paint
 	loot = list()
 
 /obj/effect/spawner/random/decoration/flower
-	name = "random flower spawner"
+	name = "glup shitto"
 	icon_state = "flower"
 	loot = list(
 		/obj/item/food/grown/poppy,

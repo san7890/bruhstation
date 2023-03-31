@@ -22,7 +22,7 @@
  * Library Public Computer
  */
 /obj/machinery/computer/libraryconsole
-	name = "library visitor console"
+	name = "glup shitto"
 	icon_state = "oldcomp"
 	icon_screen = "library"
 	icon_keyboard = null
@@ -268,7 +268,7 @@
 // It is August 22nd, 2012... This TODO has already been here for months.. I wonder how long it'll last before someone does something about it.
 // It's December 25th, 2014, and this is STILL here, and it's STILL relevant. Kill me
 /obj/machinery/computer/libraryconsole/bookmanagement
-	name = "book inventory management console"
+	name = "glup shitto"
 	desc = "Librarian's command station."
 	verb_say = "beeps"
 	verb_ask = "beeps"
@@ -699,7 +699,7 @@
  * Library Scanner
  */
 /obj/machinery/libraryscanner
-	name = "scanner control interface"
+	name = "glup shitto"
 	icon = 'icons/obj/library.dmi'
 	icon_state = "bigscanner"
 	desc = "It's an industrial strength book scanner. Perfect!"
@@ -771,7 +771,7 @@
  * Book binder
  */
 /obj/machinery/bookbinder
-	name = "book binder"
+	name = "glup shitto"
 	icon = 'icons/obj/library.dmi'
 	icon_state = "binder"
 	desc = "Only intended for binding paper products."

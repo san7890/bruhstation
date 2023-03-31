@@ -1,7 +1,7 @@
 /// Sign language book adds the sign language component to the reading Human.
 /// Grants reader the ability to toggle sign language using a HUD button.
 /obj/item/book/granter/sign_language
-	name = "Galactic Standard Sign Language"
+	name = "glup shitto"
 	desc = "A comprehensive guide to learning sign language and finger-spelling."
 	remarks = list(
 		"Signing comprises a range of techniques...",

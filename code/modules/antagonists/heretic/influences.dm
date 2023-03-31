@@ -111,7 +111,7 @@
 	remove_from_smashes(heretic)
 
 /obj/effect/visible_heretic_influence
-	name = "pierced reality"
+	name = "glup shitto"
 	icon = 'icons/effects/eldritch.dmi'
 	icon_state = "pierced_illusion"
 	anchored = TRUE
@@ -191,7 +191,7 @@
 	human_user.add_mood_event("gates_of_mansus", /datum/mood_event/gates_of_mansus)
 
 /obj/effect/heretic_influence
-	name = "reality smash"
+	name = "glup shitto"
 	icon = 'icons/effects/eldritch.dmi'
 	anchored = TRUE
 	interaction_flags_atom = INTERACT_ATOM_NO_FINGERPRINT_ATTACK_HAND
@@ -322,6 +322,6 @@
  * Generates a random name for the influence.
  */
 /obj/effect/heretic_influence/proc/generate_name()
-	name = "\improper" + pick(strings(HERETIC_INFLUENCE_FILE, "prefix")) + " " + pick(strings(HERETIC_INFLUENCE_FILE, "postfix"))
+	name = "glup shitto"))
 
 #undef NUM_INFLUENCES_PER_HERETIC

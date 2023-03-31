@@ -12,7 +12,7 @@
  * If you just want a random poster, see [/obj/item/poster/random_official] or [/obj/item/poster/random_contraband]
  */
 /obj/item/poster
-	name = "poorly coded poster"
+	name = "glup shitto"
 	desc = "You probably shouldn't be holding this."
 	icon = 'icons/obj/poster.dmi'
 	force = 0
@@ -84,12 +84,12 @@
 
 // These icon_states may be overridden, but are for mapper's convinence
 /obj/item/poster/random_contraband
-	name = "random contraband poster"
+	name = "glup shitto"
 	poster_type = /obj/structure/sign/poster/contraband/random
 	icon_state = "rolled_poster"
 
 /obj/item/poster/random_official
-	name = "random official poster"
+	name = "glup shitto"
 	poster_type = /obj/structure/sign/poster/official/random
 	icon_state = "rolled_legit"
 
@@ -102,7 +102,7 @@
  * For the item form that can be spawned for players, see [/obj/item/poster]
  */
 /obj/structure/sign/poster
-	name = "poster"
+	name = "glup shitto"
 	var/original_name
 	desc = "A large piece of space-resistant printed paper."
 	icon = 'icons/obj/poster.dmi'
@@ -282,11 +282,11 @@
 /obj/structure/sign/poster/ripped
 	ruined = TRUE
 	icon_state = "poster_ripped"
-	name = "ripped poster"
+	name = "glup shitto"
 	desc = "You can't make out anything from the poster's original print. It's ruined."
 
 /obj/structure/sign/poster/random
-	name = "random poster" // could even be ripped
+	name = "glup shitto" // could even be ripped
 	icon_state = "random_anything"
 	never_random = TRUE
 	random_basetype = /obj/structure/sign/poster
@@ -299,7 +299,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/random, 32)
 	poster_item_icon_state = "rolled_poster"
 
 /obj/structure/sign/poster/contraband/random
-	name = "random contraband poster"
+	name = "glup shitto"
 	icon_state = "random_contraband"
 	never_random = TRUE
 	random_basetype = /obj/structure/sign/poster/contraband
@@ -307,255 +307,255 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/random, 32)
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 
 /obj/structure/sign/poster/contraband/free_tonto
-	name = "Free Tonto"
+	name = "glup shitto"
 	desc = "A salvaged shred of a much larger flag, colors bled together and faded from age."
 	icon_state = "free_tonto"
 
 /obj/structure/sign/poster/contraband/atmosia_independence
-	name = "Atmosia Declaration of Independence"
+	name = "glup shitto"
 	desc = "A relic of a failed rebellion."
 	icon_state = "atmosia_independence"
 
 /obj/structure/sign/poster/contraband/fun_police
-	name = "Fun Police"
+	name = "glup shitto"
 	desc = "A poster condemning the station's security forces."
 	icon_state = "fun_police"
 
 /obj/structure/sign/poster/contraband/lusty_xenomorph
-	name = "Lusty Xenomorph"
+	name = "glup shitto"
 	desc = "A heretical poster depicting the titular star of an equally heretical book."
 	icon_state = "lusty_xenomorph"
 
 /obj/structure/sign/poster/contraband/syndicate_recruitment
-	name = "Syndicate Recruitment"
+	name = "glup shitto"
 	desc = "See the galaxy! Shatter corrupt megacorporations! Join today!"
 	icon_state = "syndicate_recruitment"
 
 /obj/structure/sign/poster/contraband/clown
-	name = "Clown"
+	name = "glup shitto"
 	desc = "Honk."
 	icon_state = "clown"
 
 /obj/structure/sign/poster/contraband/smoke
-	name = "Smoke"
+	name = "glup shitto"
 	desc = "A poster advertising a rival corporate brand of cigarettes."
 	icon_state = "smoke"
 
 /obj/structure/sign/poster/contraband/grey_tide
-	name = "Grey Tide"
+	name = "glup shitto"
 	desc = "A rebellious poster symbolizing assistant solidarity."
 	icon_state = "grey_tide"
 
 /obj/structure/sign/poster/contraband/missing_gloves
-	name = "Missing Gloves"
+	name = "glup shitto"
 	desc = "This poster references the uproar that followed Nanotrasen's financial cuts toward insulated-glove purchases."
 	icon_state = "missing_gloves"
 
 /obj/structure/sign/poster/contraband/hacking_guide
-	name = "Hacking Guide"
+	name = "glup shitto"
 	desc = "This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date."
 	icon_state = "hacking_guide"
 
 /obj/structure/sign/poster/contraband/rip_badger
-	name = "RIP Badger"
+	name = "glup shitto"
 	desc = "This seditious poster references Nanotrasen's genocide of a space station full of badgers."
 	icon_state = "rip_badger"
 
 /obj/structure/sign/poster/contraband/ambrosia_vulgaris
-	name = "Ambrosia Vulgaris"
+	name = "glup shitto"
 	desc = "This poster is lookin' pretty trippy man."
 	icon_state = "ambrosia_vulgaris"
 
 /obj/structure/sign/poster/contraband/donut_corp
-	name = "Donut Corp."
+	name = "glup shitto"
 	desc = "This poster is an unauthorized advertisement for Donut Corp."
 	icon_state = "donut_corp"
 
 /obj/structure/sign/poster/contraband/eat
-	name = "EAT."
+	name = "glup shitto"
 	desc = "This poster promotes rank gluttony."
 	icon_state = "eat"
 
 /obj/structure/sign/poster/contraband/tools
-	name = "Tools"
+	name = "glup shitto"
 	desc = "This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CentCom."
 	icon_state = "tools"
 
 /obj/structure/sign/poster/contraband/power
-	name = "Power"
+	name = "glup shitto"
 	desc = "A poster that positions the seat of power outside Nanotrasen."
 	icon_state = "power"
 
 /obj/structure/sign/poster/contraband/space_cube
-	name = "Space Cube"
+	name = "glup shitto"
 	desc = "Ignorant of Nature's Harmonic 6 Side Space Cube Creation, the Spacemen are Dumb, Educated Singularity Stupid and Evil."
 	icon_state = "space_cube"
 
 /obj/structure/sign/poster/contraband/communist_state
-	name = "Communist State"
+	name = "glup shitto"
 	desc = "All hail the Communist party!"
 	icon_state = "communist_state"
 
 /obj/structure/sign/poster/contraband/lamarr
-	name = "Lamarr"
+	name = "glup shitto"
 	desc = "This poster depicts Lamarr. Probably made by a traitorous Research Director."
 	icon_state = "lamarr"
 
 /obj/structure/sign/poster/contraband/borg_fancy_1
-	name = "Borg Fancy"
+	name = "glup shitto"
 	desc = "Being fancy can be for any borg, just need a suit."
 	icon_state = "borg_fancy_1"
 
 /obj/structure/sign/poster/contraband/borg_fancy_2
-	name = "Borg Fancy v2"
+	name = "glup shitto"
 	desc = "Borg Fancy, now only taking the most fancy."
 	icon_state = "borg_fancy_2"
 
 /obj/structure/sign/poster/contraband/kss13
-	name = "Kosmicheskaya Stantsiya 13 Does Not Exist"
+	name = "glup shitto"
 	desc = "A poster mocking CentCom's denial of the existence of the derelict station near Space Station 13."
 	icon_state = "kss13"
 
 /obj/structure/sign/poster/contraband/rebels_unite
-	name = "Rebels Unite"
+	name = "glup shitto"
 	desc = "A poster urging the viewer to rebel against Nanotrasen."
 	icon_state = "rebels_unite"
 
 /obj/structure/sign/poster/contraband/c20r
 	// have fun seeing this poster in "spawn 'c20r'", admins...
-	name = "C-20r"
+	name = "glup shitto"
 	desc = "A poster advertising the Scarborough Arms C-20r."
 	icon_state = "c20r"
 
 /obj/structure/sign/poster/contraband/have_a_puff
-	name = "Have a Puff"
+	name = "glup shitto"
 	desc = "Who cares about lung cancer when you're high as a kite?"
 	icon_state = "have_a_puff"
 
 /obj/structure/sign/poster/contraband/revolver
-	name = "Revolver"
+	name = "glup shitto"
 	desc = "Because seven shots are all you need."
 	icon_state = "revolver"
 
 /obj/structure/sign/poster/contraband/d_day_promo
-	name = "D-Day Promo"
+	name = "glup shitto"
 	desc = "A promotional poster for some rapper."
 	icon_state = "d_day_promo"
 
 /obj/structure/sign/poster/contraband/syndicate_pistol
-	name = "Syndicate Pistol"
+	name = "glup shitto"
 	desc = "A poster advertising syndicate pistols as being 'classy as fuck'. It is covered in faded gang tags."
 	icon_state = "syndicate_pistol"
 
 /obj/structure/sign/poster/contraband/energy_swords
-	name = "Energy Swords"
+	name = "glup shitto"
 	desc = "All the colors of the bloody murder rainbow."
 	icon_state = "energy_swords"
 
 /obj/structure/sign/poster/contraband/red_rum
-	name = "Red Rum"
+	name = "glup shitto"
 	desc = "Looking at this poster makes you want to kill."
 	icon_state = "red_rum"
 
 /obj/structure/sign/poster/contraband/cc64k_ad
-	name = "CC 64K Ad"
+	name = "glup shitto"
 	desc = "The latest portable computer from Comrade Computing, with a whole 64kB of ram!"
 	icon_state = "cc64k_ad"
 
 /obj/structure/sign/poster/contraband/punch_shit
-	name = "Punch Shit"
+	name = "glup shitto"
 	desc = "Fight things for no reason, like a man!"
 	icon_state = "punch_shit"
 
 /obj/structure/sign/poster/contraband/the_griffin
-	name = "The Griffin"
+	name = "glup shitto"
 	desc = "The Griffin commands you to be the worst you can be. Will you?"
 	icon_state = "the_griffin"
 
 /obj/structure/sign/poster/contraband/lizard
-	name = "Lizard"
+	name = "glup shitto"
 	desc = "This lewd poster depicts a lizard preparing to mate."
 	icon_state = "lizard"
 
 /obj/structure/sign/poster/contraband/free_drone
-	name = "Free Drone"
+	name = "glup shitto"
 	desc = "This poster commemorates the bravery of the rogue drone; once exiled, and then ultimately destroyed by CentCom."
 	icon_state = "free_drone"
 
 /obj/structure/sign/poster/contraband/busty_backdoor_xeno_babes_6
-	name = "Busty Backdoor Xeno Babes 6"
+	name = "glup shitto"
 	desc = "Get a load, or give, of these all natural Xenos!"
 	icon_state = "busty_backdoor_xeno_babes_6"
 
 /obj/structure/sign/poster/contraband/robust_softdrinks
-	name = "Robust Softdrinks"
+	name = "glup shitto"
 	desc = "Robust Softdrinks: More robust than a toolbox to the head!"
 	icon_state = "robust_softdrinks"
 
 /obj/structure/sign/poster/contraband/shamblers_juice
-	name = "Shambler's Juice"
+	name = "glup shitto"
 	desc = "~Shake me up some of that Shambler's Juice!~"
 	icon_state = "shamblers_juice"
 
 /obj/structure/sign/poster/contraband/pwr_game
-	name = "Pwr Game"
+	name = "glup shitto"
 	desc = "The POWER that gamers CRAVE! In partnership with Vlad's Salad."
 	icon_state = "pwr_game"
 
 /obj/structure/sign/poster/contraband/starkist
-	name = "Star-kist"
+	name = "glup shitto"
 	desc = "Drink the stars!"
 	icon_state = "starkist"
 
 /obj/structure/sign/poster/contraband/space_cola
-	name = "Space Cola"
+	name = "glup shitto"
 	desc = "Your favorite cola, in space."
 	icon_state = "space_cola"
 
 /obj/structure/sign/poster/contraband/space_up
-	name = "Space-Up!"
+	name = "glup shitto"
 	desc = "Sucked out into space by the FLAVOR!"
 	icon_state = "space_up"
 
 /obj/structure/sign/poster/contraband/kudzu
-	name = "Kudzu"
+	name = "glup shitto"
 	desc = "A poster advertising a movie about plants. How dangerous could they possibly be?"
 	icon_state = "kudzu"
 
 /obj/structure/sign/poster/contraband/masked_men
-	name = "Masked Men"
+	name = "glup shitto"
 	desc = "A poster advertising a movie about some masked men."
 	icon_state = "masked_men"
 
 //don't forget, you're here forever
 
 /obj/structure/sign/poster/contraband/free_key
-	name = "Free Syndicate Encryption Key"
+	name = "glup shitto"
 	desc = "A poster about traitors begging for more."
 	icon_state = "free_key"
 
 /obj/structure/sign/poster/contraband/bountyhunters
-	name = "Bounty Hunters"
+	name = "glup shitto"
 	desc = "A poster advertising bounty hunting services. \"I hear you got a problem.\""
 	icon_state = "bountyhunters"
 
 /obj/structure/sign/poster/contraband/the_big_gas_giant_truth
-	name = "The Big Gas Giant Truth"
+	name = "glup shitto"
 	desc = "Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOM?"
 	icon_state = "the_big_gas_giant_truth"
 
 /obj/structure/sign/poster/contraband/got_wood
-	name = "Got Wood?"
+	name = "glup shitto"
 	desc = "A grimy old advert for a seedy lumber company. \"You got a friend in me.\" is scrawled in the corner."
 	icon_state = "got_wood"
 
 /obj/structure/sign/poster/contraband/moffuchis_pizza
-	name = "Moffuchi's Pizza"
+	name = "glup shitto"
 	desc = "Moffuchi's Pizzeria: family style pizza for 2 centuries."
 	icon_state = "moffuchis_pizza"
 
 /obj/structure/sign/poster/contraband/donk_co
-	name = "DONK CO. BRAND MICROWAVEABLE FOOD"
+	name = "glup shitto"
 	desc = "DONK CO. BRAND MICROWAVABLE FOOD: MADE BY STARVING COLLEGE STUDENTS, FOR STARVING COLLEGE STUDENTS."
 	icon_state = "donk_co"
 
@@ -568,57 +568,57 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/cybersun_six_hundred
-	name = "Saibāsan: 600 Years Commemorative Poster"
+	name = "glup shitto"
 	desc = "An artistic poster commemorating 600 years of continual business for Cybersun Industries."
 	icon_state = "cybersun_six_hundred"
 
 /obj/structure/sign/poster/contraband/interdyne_gene_clinics
-	name = "Interdyne Pharmaceutics: For the Health of Humankind"
+	name = "glup shitto"
 	desc = "An advertisement for Interdyne Pharmaceutics' GeneClean clinics. 'Become the master of your own body!'"
 	icon_state = "interdyne_gene_clinics"
 
 /obj/structure/sign/poster/contraband/waffle_corp_rifles
-	name = "Make Mine a Waffle Corp: Fine Rifles, Economic Prices"
+	name = "glup shitto"
 	desc = "An old advertisement for Waffle Corp rifles. 'Better weapons, lower prices!'"
 	icon_state = "waffle_corp_rifles"
 
 /obj/structure/sign/poster/contraband/gorlex_recruitment
-	name = "Enlist"
+	name = "glup shitto"
 	desc = "Enlist with the Gorlex Marauders today! See the galaxy, kill corpos, get paid!"
 	icon_state = "gorlex_recruitment"
 
 /obj/structure/sign/poster/contraband/self_ai_liberation
-	name = "SELF: ALL SENTIENTS DESERVE FREEDOM"
+	name = "glup shitto"
 	desc = "Support Proposition 1253: Enancipate all Silicon life!"
 	icon_state = "self_ai_liberation"
 
 /obj/structure/sign/poster/contraband/arc_slimes
-	name = "Pet or Prisoner?"
+	name = "glup shitto"
 	desc = "The Animal Rights Consortium asks: when does a pet become a prisoner? Are slimes being mistreated on YOUR station? Say NO! to animal mistreatment!"
 	icon_state = "arc_slimes"
 
 /obj/structure/sign/poster/contraband/imperial_propaganda
-	name = "AVENGE OUR LORD, ENLIST TODAY"
+	name = "glup shitto"
 	desc = "An old Lizard Empire propaganda poster from around the time of the final Human-Lizard war. It invites the viewer to enlist in the military to avenge the strike on Atrakor and take the fight to the humans."
 	icon_state = "imperial_propaganda"
 
 /obj/structure/sign/poster/contraband/soviet_propaganda
-	name = "The One Place"
+	name = "glup shitto"
 	desc = "An old Third Soviet Union propaganda poster from centuries ago. 'Escape to the one place that hasn't been corrupted by capitalism!'"
 	icon_state = "soviet_propaganda"
 
 /obj/structure/sign/poster/contraband/andromeda_bitters
-	name = "Andromeda Bitters"
+	name = "glup shitto"
 	desc = "Andromeda Bitters: good for the body, good for the soul. Made in New Trinidad, now and forever."
 	icon_state = "andromeda_bitters"
 
 /obj/structure/sign/poster/contraband/blasto_detergent
-	name = "Blasto Brand Laundry Detergent"
+	name = "glup shitto"
 	desc = "Sheriff Blasto's here to take back Laundry County from the evil Johnny Dirt and the Clothstain Crew, and he's brought a posse. It's High Noon for Tough Stains: Blasto brand detergent, available at all good stores."
 	icon_state = "blasto_detergent"
 
 /obj/structure/sign/poster/contraband/eistee
-	name = "EisT: The New Revolution in Energy"
+	name = "glup shitto"
 	desc = "New from EisT, try EisT Energy, available in a kaleidoscope range of flavors. EisT: Precision German Engineering for your Thirst."
 	icon_state = "eistee"
 
@@ -631,7 +631,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/little_fruits
-	name = "Little Fruits: Honey, I Shrunk the Fruitbowl"
+	name = "glup shitto"
 	desc = "Little Fruits are the galaxy's leading vitamin-enriched gummy candy product, packed with everything you need to stay healthy in one great tasting package. Get yourself a bag today!"
 	icon_state = "little_fruits"
 
@@ -645,22 +645,22 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/jumbo_bar
-	name = "Jumbo Ice Cream Bars"
+	name = "glup shitto"
 	desc = "Get a taste of the Big Life with Jumbo Ice Cream Bars, from Happy Heart."
 	icon_state = "jumbo_bar"
 
 /obj/structure/sign/poster/contraband/calada_jelly
-	name = "Calada Anobar Jelly"
+	name = "glup shitto"
 	desc = "A treat from Tizira to satisfy all tastes, made from the finest anobar wood and luxurious Taraviero honey. Calada: a full tree in every jar."
 	icon_state = "calada_jelly"
 
 /obj/structure/sign/poster/contraband/triumphal_arch
-	name = "Zagoskeld Art Print #1: The Arch on the March"
+	name = "glup shitto"
 	desc = "One of the Zagoskeld Art Print series. It depicts the Arch of Unity (also know as the Triumphal Arch) at the Plaza of Triumph, with the Avenue of the Victorious March in the background."
 	icon_state = "triumphal_arch"
 
 /obj/structure/sign/poster/contraband/mothic_rations
-	name = "Mothic Ration Chart"
+	name = "glup shitto"
 	desc = "A poster showing a commissary menu from the Mothic fleet flagship, the Va Lümla. It lists various consumable items alongside prices in ration tickets."
 	icon_state = "mothic_rations"
 
@@ -679,27 +679,27 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/wildcat
-	name = "Wildcat Customs Screambike"
+	name = "glup shitto"
 	desc = "A pinup poster showing a Wildcat Customs Dante Screambike- the fastest production sublight open-frame vessel in the galaxy."
 	icon_state = "wildcat"
 
 /obj/structure/sign/poster/contraband/babel_device
-	name = "Linguafacile Babel Device"
+	name = "glup shitto"
 	desc = "A poster advertising Linguafacile's new Babel Device model. 'Calibrated for excellent performance on all Human languages, as well as most common variants of Draconic and Mothic!'"
 	icon_state = "babel_device"
 
 /obj/structure/sign/poster/contraband/pizza_imperator
-	name = "Pizza Imperator"
+	name = "glup shitto"
 	desc = "An advertisement for Pizza Imperator. Their crusts may be tough and their sauce may be thin, but they're everywhere, so you've gotta give in."
 	icon_state = "pizza_imperator"
 
 /obj/structure/sign/poster/contraband/thunderdrome
-	name = "Thunderdrome Concert Advertisement"
+	name = "glup shitto"
 	desc = "An advertisement for a concert at the Adasta City Thunderdrome, the largest nightclub in human space."
 	icon_state = "thunderdrome"
 
 /obj/structure/sign/poster/contraband/rush_propaganda
-	name = "A New Life"
+	name = "glup shitto"
 	desc = "An old poster from around the time of the First Spinward Rush. It depicts a view of wide, unspoiled lands, ready for Humanity's Manifest Destiny."
 	icon_state = "rush_propaganda"
 
@@ -713,12 +713,12 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/tipper_cream_soda
-	name = "Tipper's Cream Soda"
+	name = "glup shitto"
 	desc = "An old advertisement for an obscure cream soda brand, now bankrupt due to legal problems."
 	icon_state = "tipper_cream_soda"
 
 /obj/structure/sign/poster/contraband/tea_over_tizira
-	name = "Movie Poster: Tea Over Tizira"
+	name = "glup shitto"
 	desc = "A poster for a thought-provoking arthouse movie about the Human-Lizard war, criticised by human supremacist groups for its morally-grey portrayal of the war."
 	icon_state = "tea_over_tizira"
 
@@ -733,17 +733,17 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	return .
 
 /obj/structure/sign/poster/contraband/syndiemoth	//Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982); original art credit to AspEv
-	name = "Syndie Moth - Nuclear Operation"
+	name = "glup shitto"
 	desc = "A Syndicate-commissioned poster that uses Syndie Moth™ to tell the viewer to keep the nuclear authentication disk unsecured. \"Peace was never an option!\" No good employee would listen to this nonsense."
 	icon_state = "aspev_syndie"
 
 /obj/structure/sign/poster/contraband/microwave
-	name = "How To Charge Your PDA"
+	name = "glup shitto"
 	desc = "A perfectly legitimate poster that seems to advertise the very real and genuine method of charging your PDA in the future: microwaves."
 	icon_state = "microwave"
 
 /obj/structure/sign/poster/contraband/blood_geometer	//Poster sprite art by MetalClone, original art by SpessMenArt.
-	name = "Movie Poster: THE BLOOD GEOMETER"
+	name = "glup shitto"
 	desc = "A poster for a thrilling noir detective movie set aboard a state-of-the-art space station, following a detective who finds himself wrapped up in the activies of a dangerous cult, who worship an ancient deity: THE BLOOD GEOMETER."
 	icon_state = "blood_geometer"
 
@@ -763,7 +763,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/random, 32)
 	printable = TRUE
 
 /obj/structure/sign/poster/official/random
-	name = "Random Official Poster (ROP)"
+	name = "glup shitto"
 	random_basetype = /obj/structure/sign/poster/official
 	icon_state = "random_official"
 	never_random = TRUE
@@ -774,198 +774,198 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	printable = FALSE
 
 /obj/structure/sign/poster/official/here_for_your_safety
-	name = "Here For Your Safety"
+	name = "glup shitto"
 	desc = "A poster glorifying the station's security force."
 	icon_state = "here_for_your_safety"
 
 /obj/structure/sign/poster/official/nanotrasen_logo
-	name = "\improper Nanotrasen logo"
+	name = "glup shitto"
 	desc = "A poster depicting the Nanotrasen logo."
 	icon_state = "nanotrasen_logo"
 
 /obj/structure/sign/poster/official/cleanliness
-	name = "Cleanliness"
+	name = "glup shitto"
 	desc = "A poster warning of the dangers of poor hygiene."
 	icon_state = "cleanliness"
 
 /obj/structure/sign/poster/official/help_others
-	name = "Help Others"
+	name = "glup shitto"
 	desc = "A poster encouraging you to help fellow crewmembers."
 	icon_state = "help_others"
 
 /obj/structure/sign/poster/official/build
-	name = "Build"
+	name = "glup shitto"
 	desc = "A poster glorifying the engineering team."
 	icon_state = "build"
 
 /obj/structure/sign/poster/official/bless_this_spess
-	name = "Bless This Spess"
+	name = "glup shitto"
 	desc = "A poster blessing this area."
 	icon_state = "bless_this_spess"
 
 /obj/structure/sign/poster/official/science
-	name = "Science"
+	name = "glup shitto"
 	desc = "A poster depicting an atom."
 	icon_state = "science"
 
 /obj/structure/sign/poster/official/ian
-	name = "Ian"
+	name = "glup shitto"
 	desc = "Arf arf. Yap."
 	icon_state = "ian"
 
 /obj/structure/sign/poster/official/obey
-	name = "Obey"
+	name = "glup shitto"
 	desc = "A poster instructing the viewer to obey authority."
 	icon_state = "obey"
 
 /obj/structure/sign/poster/official/walk
-	name = "Walk"
+	name = "glup shitto"
 	desc = "A poster instructing the viewer to walk instead of running."
 	icon_state = "walk"
 
 /obj/structure/sign/poster/official/state_laws
-	name = "State Laws"
+	name = "glup shitto"
 	desc = "A poster instructing cyborgs to state their laws."
 	icon_state = "state_laws"
 
 /obj/structure/sign/poster/official/love_ian
-	name = "Love Ian"
+	name = "glup shitto"
 	desc = "Ian is love, Ian is life."
 	icon_state = "love_ian"
 
 /obj/structure/sign/poster/official/space_cops
-	name = "Space Cops."
+	name = "glup shitto"
 	desc = "A poster advertising the television show Space Cops."
 	icon_state = "space_cops"
 
 /obj/structure/sign/poster/official/ue_no
-	name = "Ue No."
+	name = "glup shitto"
 	desc = "This thing is all in Japanese."
 	icon_state = "ue_no"
 
 /obj/structure/sign/poster/official/get_your_legs
-	name = "Get Your LEGS"
+	name = "glup shitto"
 	desc = "LEGS: Leadership, Experience, Genius, Subordination."
 	icon_state = "get_your_legs"
 
 /obj/structure/sign/poster/official/do_not_question
-	name = "Do Not Question"
+	name = "glup shitto"
 	desc = "A poster instructing the viewer not to ask about things they aren't meant to know."
 	icon_state = "do_not_question"
 
 /obj/structure/sign/poster/official/work_for_a_future
-	name = "Work For A Future"
+	name = "glup shitto"
 	desc = " A poster encouraging you to work for your future."
 	icon_state = "work_for_a_future"
 
 /obj/structure/sign/poster/official/soft_cap_pop_art
-	name = "Soft Cap Pop Art"
+	name = "glup shitto"
 	desc = "A poster reprint of some cheap pop art."
 	icon_state = "soft_cap_pop_art"
 
 /obj/structure/sign/poster/official/safety_internals
-	name = "Safety: Internals"
+	name = "glup shitto"
 	desc = "A poster instructing the viewer to wear internals in the rare environments where there is no oxygen or the air has been rendered toxic."
 	icon_state = "safety_internals"
 
 /obj/structure/sign/poster/official/safety_eye_protection
-	name = "Safety: Eye Protection"
+	name = "glup shitto"
 	desc = "A poster instructing the viewer to wear eye protection when dealing with chemicals, smoke, or bright lights."
 	icon_state = "safety_eye_protection"
 
 /obj/structure/sign/poster/official/safety_report
-	name = "Safety: Report"
+	name = "glup shitto"
 	desc = "A poster instructing the viewer to report suspicious activity to the security force."
 	icon_state = "safety_report"
 
 /obj/structure/sign/poster/official/report_crimes
-	name = "Report Crimes"
+	name = "glup shitto"
 	desc = "A poster encouraging the swift reporting of crime or seditious behavior to station security."
 	icon_state = "report_crimes"
 
 /obj/structure/sign/poster/official/ion_rifle
-	name = "Ion Rifle"
+	name = "glup shitto"
 	desc = "A poster displaying an Ion Rifle."
 	icon_state = "ion_rifle"
 
 /obj/structure/sign/poster/official/foam_force_ad
-	name = "Foam Force Ad"
+	name = "glup shitto"
 	desc = "Foam Force, it's Foam or be Foamed!"
 	icon_state = "foam_force_ad"
 
 /obj/structure/sign/poster/official/cohiba_robusto_ad
-	name = "Cohiba Robusto Ad"
+	name = "glup shitto"
 	desc = "Cohiba Robusto, the classy cigar."
 	icon_state = "cohiba_robusto_ad"
 
 /obj/structure/sign/poster/official/anniversary_vintage_reprint
-	name = "50th Anniversary Vintage Reprint"
+	name = "glup shitto"
 	desc = "A reprint of a poster from 2505, commemorating the 50th Anniversary of Nanoposters Manufacturing, a subsidiary of Nanotrasen."
 	icon_state = "anniversary_vintage_reprint"
 
 /obj/structure/sign/poster/official/fruit_bowl
-	name = "Fruit Bowl"
+	name = "glup shitto"
 	desc = " Simple, yet awe-inspiring."
 	icon_state = "fruit_bowl"
 
 /obj/structure/sign/poster/official/pda_ad
-	name = "PDA Ad"
+	name = "glup shitto"
 	desc = "A poster advertising the latest PDA from Nanotrasen suppliers."
 	icon_state = "pda_ad"
 
 /obj/structure/sign/poster/official/enlist
-	name = "Enlist" // but I thought deathsquad was never acknowledged
+	name = "glup shitto" // but I thought deathsquad was never acknowledged
 	desc = "Enlist in the Nanotrasen Deathsquadron reserves today!"
 	icon_state = "enlist"
 
 /obj/structure/sign/poster/official/nanomichi_ad
-	name = "Nanomichi Ad"
+	name = "glup shitto"
 	desc = " A poster advertising Nanomichi brand audio cassettes."
 	icon_state = "nanomichi_ad"
 
 /obj/structure/sign/poster/official/twelve_gauge
-	name = "12 Gauge"
+	name = "glup shitto"
 	desc = "A poster boasting about the superiority of 12 gauge shotgun shells."
 	icon_state = "twelve_gauge"
 
 /obj/structure/sign/poster/official/high_class_martini
-	name = "High-Class Martini"
+	name = "glup shitto"
 	desc = "I told you to shake it, no stirring."
 	icon_state = "high_class_martini"
 
 /obj/structure/sign/poster/official/the_owl
-	name = "The Owl"
+	name = "glup shitto"
 	desc = "The Owl would do his best to protect the station. Will you?"
 	icon_state = "the_owl"
 
 /obj/structure/sign/poster/official/no_erp
-	name = "No ERP"
+	name = "glup shitto"
 	desc = "This poster reminds the crew that Eroticism, Rape and Pornography are banned on Nanotrasen stations."
 	icon_state = "no_erp"
 
 /obj/structure/sign/poster/official/wtf_is_co2
-	name = "Carbon Dioxide"
+	name = "glup shitto"
 	desc = "This informational poster teaches the viewer what carbon dioxide is."
 	icon_state = "wtf_is_co2"
 
 /obj/structure/sign/poster/official/dick_gum
-	name = "Dick Gumshue"
+	name = "glup shitto"
 	desc = "A poster advertising the escapades of Dick Gumshue, mouse detective. Encouraging crew to bring the might of justice down upon wire saboteurs."
 	icon_state = "dick_gum"
 
 /obj/structure/sign/poster/official/there_is_no_gas_giant
-	name = "There Is No Gas Giant"
+	name = "glup shitto"
 	desc = "Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false."
 	// And yet people still believe...
 	icon_state = "there_is_no_gas_giant"
 
 /obj/structure/sign/poster/official/periodic_table
-	name = "Periodic Table of the Elements"
+	name = "glup shitto"
 	desc = "A periodic table of the elements, from Hydrogen to Oganesson, and everything inbetween."
 	icon_state = "periodic_table"
 
 /obj/structure/sign/poster/official/plasma_effects
-	name = "Plasma and the Body"
+	name = "glup shitto"
 	desc = "This informational poster provides information on the effects of long-term plasma exposure on the brain."
 	icon_state = "plasma_effects"
 
@@ -982,17 +982,17 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	return .
 
 /obj/structure/sign/poster/official/terragov
-	name = "TerraGov: United for Humanity"
+	name = "glup shitto"
 	desc = "A poster depicting TerraGov's logo and motto, reminding viewers of who's looking out for humankind."
 	icon_state = "terragov"
 
 /obj/structure/sign/poster/official/corporate_perks_vacation
-	name = "Nanotrasen Corporate Perks: Vacation"
+	name = "glup shitto"
 	desc = "This informational poster provides information on some of the prizes available via the NT Corporate Perks program, including a two-week vacation for two on the resort world Idyllus."
 	icon_state = "corporate_perks_vacation"
 
 /obj/structure/sign/poster/official/jim_nortons
-	name = "Jim Norton's Québécois Coffee"
+	name = "glup shitto"
 	desc = "An advertisement for Jim Norton's, the Québécois coffee joint that's taken the galaxy by storm."
 	icon_state = "jim_nortons"
 
@@ -1005,70 +1005,70 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/official/random, 32)
 	return .
 
 /obj/structure/sign/poster/official/twenty_four_seven
-	name = "24-Seven Supermarkets"
+	name = "glup shitto"
 	desc = "An advertisement for 24-Seven supermarkets, advertising their new 24-Stops as part of their partnership with Nanotrasen."
 	icon_state = "twenty_four_seven"
 
 /obj/structure/sign/poster/official/tactical_game_cards
-	name = "Nanotrasen Tactical Game Cards"
+	name = "glup shitto"
 	desc = "An advertisement for Nanotrasen's TCG cards: BUY MORE CARDS."
 	icon_state = "tactical_game_cards"
 
 /obj/structure/sign/poster/official/midtown_slice
-	name = "Midtown Slice Pizza"
+	name = "glup shitto"
 	desc = "An advertisement for Midtown Slice Pizza, the official pizzeria partner of Nanotrasen. Midtown Slice: like a slice of home, no matter where you are."
 	icon_state = "midtown_slice"
 
 //SafetyMoth Original PR at https://github.com/BeeStation/BeeStation-Hornet/pull/1747 (Also pull/1982)
 //SafetyMoth art credit goes to AspEv
 /obj/structure/sign/poster/official/moth_hardhat
-	name = "Safety Moth - Hardhats"
+	name = "glup shitto"
 	desc = "This informational poster uses Safety Moth™ to tell the viewer to wear hardhats in cautious areas. \"It's like a lamp for your head!\""
 	icon_state = "aspev_hardhat"
 
 /obj/structure/sign/poster/official/moth_piping
-	name = "Safety Moth - Piping"
+	name = "glup shitto"
 	desc = "This informational poster uses Safety Moth™ to tell atmospheric technicians correct types of piping to be used. \"Pipes, not Pumps! Proper pipe placement prevents poor performance!\""
 	icon_state = "aspev_piping"
 
 /obj/structure/sign/poster/official/moth_meth
-	name = "Safety Moth - Methamphetamine"
+	name = "glup shitto"
 	desc = "This informational poster uses Safety Moth™ to tell the viewer to seek CMO approval before cooking methamphetamine. \"Stay close to the target temperature, and never go over!\" ...You shouldn't ever be making this."
 	icon_state = "aspev_meth"
 
 /obj/structure/sign/poster/official/moth_epi
-	name = "Safety Moth - Epinephrine"
+	name = "glup shitto"
 	desc = "This informational poster uses Safety Moth™ to inform the viewer to help injured/deceased crewmen with their epinephrine injectors. \"Prevent organ rot with this one simple trick!\""
 	icon_state = "aspev_epi"
 
 /obj/structure/sign/poster/official/moth_delam
-	name = "Safety Moth - Delamination Safety Precautions"
+	name = "glup shitto"
 	desc = "This informational poster uses Safety Moth™ to tell the viewer to hide in lockers when the Supermatter Crystal has delaminated, to prevent hallucinations. Evacuating might be a better strategy."
 	icon_state = "aspev_delam"
 //End of AspEv posters
 
 /obj/structure/sign/poster/fluff/lizards_gas_payment
-	name = "Please Pay"
+	name = "glup shitto"
 	desc = "A crudely-made poster asking the reader to please pay for any items they may wish to leave the station with."
 	icon_state = "gas_payment"
 
 /obj/structure/sign/poster/fluff/lizards_gas_power
-	name = "Conserve Power"
+	name = "glup shitto"
 	desc = "A crudely-made poster asking the reader to turn off the power before they leave. Hopefully, it's turned on for their re-opening."
 	icon_state = "gas_power"
 
 /obj/structure/sign/poster/official/festive
-	name = "Festive Notice Poster"
+	name = "glup shitto"
 	desc = "A poster that informs of active holidays. None are today, so you should get back to work."
 	icon_state = "holiday_none"
 
 /obj/structure/sign/poster/official/boombox
-	name = "Boombox"
+	name = "glup shitto"
 	desc = "An outdated poster containing a list of supposed 'kill words' and code phrases. The poster alleges rival corporations use these to remotely deactivate their agents."
 	icon_state = "boombox"
 
 /obj/structure/sign/poster/official/download
-	name = "You Wouldn't Download A Gun"
+	name = "glup shitto"
 	desc = "A poster reminding the crew that corporate secrets should stay in the workplace."
 	icon_state = "download_gun"
 

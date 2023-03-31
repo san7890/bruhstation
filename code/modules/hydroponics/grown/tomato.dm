@@ -1,6 +1,6 @@
 // Tomato
 /obj/item/seeds/tomato
-	name = "pack of tomato seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into tomato plants."
 	icon_state = "seed-tomato"
 	species = "tomato"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/tomato
 	seed = /obj/item/seeds/tomato
-	name = "tomato"
+	name = "glup shitto"
 	desc = "I say to-mah-to, you say tom-mae-to."
 	icon_state = "tomato"
 	splat_type = /obj/effect/decal/cleanable/food/tomato_smudge
@@ -29,7 +29,7 @@
 
 // Blood Tomato
 /obj/item/seeds/tomato/blood
-	name = "pack of blood-tomato seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into blood-tomato plants."
 	icon_state = "seed-bloodtomato"
 	species = "bloodtomato"
@@ -41,7 +41,7 @@
 
 /obj/item/food/grown/tomato/blood
 	seed = /obj/item/seeds/tomato/blood
-	name = "blood-tomato"
+	name = "glup shitto"
 	desc = "So bloody...so...very...bloody....AHHHH!!!!"
 	icon_state = "bloodtomato"
 	bite_consumption_mod = 3
@@ -52,7 +52,7 @@
 
 // Blue Tomato
 /obj/item/seeds/tomato/blue
-	name = "pack of blue-tomato seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into blue-tomato plants."
 	icon_state = "seed-bluetomato"
 	species = "bluetomato"
@@ -68,7 +68,7 @@
 
 /obj/item/food/grown/tomato/blue
 	seed = /obj/item/seeds/tomato/blue
-	name = "blue-tomato"
+	name = "glup shitto"
 	desc = "I say blue-mah-to, you say blue-mae-to."
 	icon_state = "bluetomato"
 	bite_consumption_mod = 2
@@ -77,7 +77,7 @@
 
 // Bluespace Tomato
 /obj/item/seeds/tomato/blue/bluespace
-	name = "pack of bluespace tomato seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into bluespace tomato plants."
 	icon_state = "seed-bluespacetomato"
 	species = "bluespacetomato"
@@ -92,7 +92,7 @@
 
 /obj/item/food/grown/tomato/blue/bluespace
 	seed = /obj/item/seeds/tomato/blue/bluespace
-	name = "\improper bluespace tomato"
+	name = "glup shitto"
 	desc = "So lubricated, you might slip through space-time."
 	icon_state = "bluespacetomato"
 	bite_consumption_mod = 3
@@ -101,7 +101,7 @@
 
 // Killer Tomato
 /obj/item/seeds/tomato/killer
-	name = "pack of killer-tomato seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into killer-tomato plants."
 	icon_state = "seed-killertomato"
 	species = "killertomato"
@@ -118,7 +118,7 @@
 
 /obj/item/food/grown/tomato/killer
 	seed = /obj/item/seeds/tomato/killer
-	name = "\improper killer-tomato"
+	name = "glup shitto"
 	desc = "I say to-mah-to, you say tom-mae-to... OH GOD IT'S EATING MY LEGS!!"
 	icon_state = "killertomato"
 	distill_reagent = /datum/reagent/consumable/ethanol/demonsblood

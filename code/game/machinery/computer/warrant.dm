@@ -1,5 +1,5 @@
 /obj/machinery/computer/warrant
-	name = "security warrant console"
+	name = "glup shitto"
 	desc = "Used to view outstanding warrants."
 	icon_screen = "security"
 	icon_keyboard = "security_key"

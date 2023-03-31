@@ -1,5 +1,5 @@
 /obj/item/hand_labeler
-	name = "hand labeler"
+	name = "glup shitto"
 	desc = "A combined label printer, applicator, and remover, all in a single portable device. Designed to be easy to operate and use."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "labeler0"
@@ -95,7 +95,7 @@
 	return !mode
 
 /obj/item/hand_labeler/borg
-	name = "cyborg-hand labeler"
+	name = "glup shitto"
 
 /obj/item/hand_labeler/borg/afterattack(atom/A, mob/user, proximity)
 	. = ..()
@@ -120,7 +120,7 @@
 			borgy.cell.use(cost)
 
 /obj/item/hand_labeler_refill
-	name = "hand labeler paper roll"
+	name = "glup shitto"
 	icon = 'icons/obj/bureaucracy.dmi'
 	desc = "A roll of paper. Use it on a hand labeler to refill it."
 	icon_state = "labeler_refill"

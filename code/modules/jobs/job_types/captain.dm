@@ -53,7 +53,7 @@
 
 
 /datum/outfit/job/captain
-	name = "Captain"
+	name = "glup shitto"
 	jobtype = /datum/job/captain
 
 	id = /obj/item/card/id/advanced/gold
@@ -108,7 +108,7 @@
 	celestial_charter.name_type = special_charter
 
 /datum/outfit/job/captain/mod
-	name = "Captain (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	back = /obj/item/mod/control/pre_equipped/magnate

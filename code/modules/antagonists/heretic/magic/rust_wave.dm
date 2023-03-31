@@ -1,6 +1,6 @@
 // Shoots out in a wave-like, what rust heretics themselves get
 /datum/action/cooldown/spell/cone/staggered/entropic_plume
-	name = "Entropic Plume"
+	name = "glup shitto"
 	desc = "Spews forth a disorienting plume that causes enemies to strike each other, \
 		briefly blinds them (increasing with range) and poisons them (decreasing with range). \
 		Also spreads rust in the path of the plume."
@@ -65,7 +65,7 @@
 
 // Shoots a straight line of rusty stuff ahead of the caster, what rust monsters get
 /datum/action/cooldown/spell/basic_projectile/rust_wave
-	name = "Patron's Reach"
+	name = "glup shitto"
 	desc = "Channels energy into your hands to release a wave of rust."
 	background_icon_state = "bg_heretic"
 	overlay_icon_state = "bg_heretic_border"
@@ -82,7 +82,7 @@
 	projectile_type = /obj/projectile/magic/aoe/rust_wave
 
 /obj/projectile/magic/aoe/rust_wave
-	name = "Patron's Reach"
+	name = "glup shitto"
 	icon_state = "eldritch_projectile"
 	alpha = 180
 	damage = 30
@@ -111,7 +111,7 @@
 		T.rust_heretic_act()
 
 /datum/action/cooldown/spell/basic_projectile/rust_wave/short
-	name = "Lesser Patron's Reach"
+	name = "glup shitto"
 	projectile_type = /obj/projectile/magic/aoe/rust_wave/short
 
 /obj/projectile/magic/aoe/rust_wave/short

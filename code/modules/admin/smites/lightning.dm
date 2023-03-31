@@ -1,6 +1,6 @@
 /// Strikes the target with a lightning bolt
 /datum/smite/lightning
-	name = "Lightning bolt"
+	name = "glup shitto"
 
 /datum/smite/lightning/effect(client/user, mob/living/target)
 	. = ..()

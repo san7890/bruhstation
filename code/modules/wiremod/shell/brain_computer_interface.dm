@@ -1,5 +1,5 @@
 /obj/item/organ/internal/cyberimp/bci
-	name = "brain-computer interface"
+	name = "glup shitto"
 	desc = "An implant that can be placed in a user's head to control circuits using their brain."
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "bci"
@@ -70,7 +70,7 @@
 	bci_action.button_icon_state = "bci_[replacetextEx(lowertext(icon_options.value), " ", "_")]"
 
 /datum/action/innate/bci_action
-	name = "Action"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "bci_power"
@@ -235,7 +235,7 @@
 		parent.attack_ghost(usr)
 
 /datum/action/innate/bci_charge_action
-	name = "Check BCI Charge"
+	name = "glup shitto"
 	check_flags = NONE
 	button_icon = 'icons/obj/power.dmi'
 	button_icon_state = "cell"
@@ -283,7 +283,7 @@
 	button.maptext = cell ? MAPTEXT("[cell.percent()]%") : ""
 
 /obj/machinery/bci_implanter
-	name = "brain-computer interface manipulation chamber"
+	name = "glup shitto"
 	desc = "A machine that, when given a brain-computer interface, will implant it into an occupant. Otherwise, will remove any brain-computer interfaces they already have."
 	circuit = /obj/item/circuitboard/machine/bci_implanter
 	icon = 'icons/obj/machines/bci_implanter.dmi'
@@ -520,7 +520,7 @@
 	return ..()
 
 /obj/item/circuitboard/machine/bci_implanter
-	name = "Brain-Computer Interface Manipulation Chamber (Machine Board)"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/bci_implanter
 	req_components = list(

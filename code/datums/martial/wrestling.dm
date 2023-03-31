@@ -16,7 +16,7 @@ If you make a derivative work from this code, you must include this notification
 	to_chat(usr, "[span_notice("Advanced grab")]: Grab. Passively causes stamina damage when grabbing someone.")
 
 /datum/martial_art/wrestling
-	name = "Wrestling"
+	name = "glup shitto"
 	id = MARTIALART_WRESTLING
 	var/datum/action/slam/slam = new/datum/action/slam()
 	var/datum/action/throw_wrassle/throw_wrassle = new/datum/action/throw_wrassle()
@@ -49,7 +49,7 @@ If you make a derivative work from this code, you must include this notification
 	return FALSE
 
 /datum/action/slam
-	name = "Slam (Cinch) - Slam a grappled opponent into the floor."
+	name = "glup shitto"
 	button_icon_state = "wrassle_slam"
 
 /datum/action/slam/Trigger(trigger_flags)
@@ -60,7 +60,7 @@ If you make a derivative work from this code, you must include this notification
 	owner.mind.martial_art.streak = "slam"
 
 /datum/action/throw_wrassle
-	name = "Throw (Cinch) - Spin a cinched opponent around and throw them."
+	name = "glup shitto"
 	button_icon_state = "wrassle_throw"
 
 /datum/action/throw_wrassle/Trigger(trigger_flags)
@@ -71,7 +71,7 @@ If you make a derivative work from this code, you must include this notification
 	owner.mind.martial_art.streak = "throw"
 
 /datum/action/kick
-	name = "Kick - A powerful kick, sends people flying away from you. Also useful for escaping from bad situations."
+	name = "glup shitto"
 	button_icon_state = "wrassle_kick"
 
 /datum/action/kick/Trigger(trigger_flags)
@@ -82,7 +82,7 @@ If you make a derivative work from this code, you must include this notification
 	owner.mind.martial_art.streak = "kick"
 
 /datum/action/strike
-	name = "Strike - Hit a neaby opponent with a quick attack."
+	name = "glup shitto"
 	button_icon_state = "wrassle_strike"
 
 /datum/action/strike/Trigger(trigger_flags)
@@ -93,7 +93,7 @@ If you make a derivative work from this code, you must include this notification
 	owner.mind.martial_art.streak = "strike"
 
 /datum/action/drop
-	name = "Drop - Smash down onto an opponent."
+	name = "glup shitto"
 	button_icon_state = "wrassle_drop"
 
 /datum/action/drop/Trigger(trigger_flags)
@@ -463,7 +463,7 @@ If you make a derivative work from this code, you must include this notification
 	return 1
 
 /obj/item/storage/belt/champion/wrestling
-	name = "Wrestling Belt"
+	name = "glup shitto"
 	var/datum/martial_art/wrestling/style = new
 
 /obj/item/storage/belt/champion/wrestling/equipped(mob/user, slot)

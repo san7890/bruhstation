@@ -17,7 +17,7 @@ GLOBAL_LIST_INIT(heretic_start_knowledge, initialize_starting_knowledge())
  * The base heretic knowledge. Grants the Mansus Grasp spell.
  */
 /datum/heretic_knowledge/spell/basic
-	name = "Break of Dawn"
+	name = "glup shitto"
 	desc = "Starts your journey into the Mansus. \
 		Grants you the Mansus Grasp, a powerful and upgradable \
 		disabling spell that can be cast regardless of having a focus."
@@ -36,7 +36,7 @@ GLOBAL_LIST_INIT(heretic_start_knowledge, initialize_starting_knowledge())
  * Also includes a ritual to turn their heart into a living heart.
  */
 /datum/heretic_knowledge/living_heart
-	name = "The Living Heart"
+	name = "glup shitto"
 	desc = "Grants you a Living Heart, allowing you to track sacrifice targets. \
 		Should you lose your heart, you can transmute a poppy and a pool of blood \
 		to awaken your heart into a Living Heart. If your heart is cybernetic, \
@@ -195,7 +195,7 @@ GLOBAL_LIST_INIT(heretic_start_knowledge, initialize_starting_knowledge())
  * They require a focus to cast advanced spells.
  */
 /datum/heretic_knowledge/amber_focus
-	name = "Amber Focus"
+	name = "glup shitto"
 	desc = "Allows you to transmute a sheet of glass and a pair of eyes to create an Amber Focus. \
 		A focus must be worn in order to cast more advanced spells."
 	required_atoms = list(
@@ -208,7 +208,7 @@ GLOBAL_LIST_INIT(heretic_start_knowledge, initialize_starting_knowledge())
 	route = PATH_START
 
 /datum/heretic_knowledge/spell/cloak_of_shadows
-	name = "Cloak of Shadow"
+	name = "glup shitto"
 	desc = "Grants you the spell Cloak of Shadow. This spell will completely conceal your identity in a purple smoke \
 		for three minutes, assisting you in keeping secrecy. Requires a focus to cast."
 	spell_to_add = /datum/action/cooldown/spell/shadow_cloak

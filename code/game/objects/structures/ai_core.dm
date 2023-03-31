@@ -3,7 +3,7 @@
 /obj/structure/ai_core
 	density = TRUE
 	anchored = FALSE
-	name = "\improper AI core"
+	name = "glup shitto"
 	icon = 'icons/mob/silicon/ai.dmi'
 	icon_state = "0"
 	desc = "The framework for an artificial intelligence core."
@@ -81,7 +81,7 @@
 		core_mmi.update_appearance()
 
 /obj/structure/ai_core/latejoin_inactive
-	name = "networked AI core"
+	name = "glup shitto"
 	desc = "This AI core is connected by bluespace transmitters to NTNet, allowing for an AI personality to be downloaded to it on the fly mid-shift."
 	icon_state = "ai-empty"
 	anchored = TRUE
@@ -443,7 +443,7 @@ That prevents a few funky behaviors.
 		to_chat(user, span_alert("There is no AI loaded on this terminal."))
 
 /obj/item/circuitboard/aicore
-	name = "AI core (AI Core Board)" //Well, duh, but best to be consistent
+	name = "glup shitto" //Well, duh, but best to be consistent
 	var/battery = 200 //backup battery for when the AI loses power. Copied to/from AI mobs when carding, and placed here to avoid recharge via deconning the core
 
 #undef AI_CORE_BRAIN

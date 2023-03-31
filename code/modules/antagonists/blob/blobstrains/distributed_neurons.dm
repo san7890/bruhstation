@@ -1,6 +1,6 @@
 //kills unconscious targets and turns them into blob zombies, produces fragile spores when killed.  Spore produced by factories are sentient.
 /datum/blobstrain/reagent/distributed_neurons
-	name = "Distributed Neurons"
+	name = "glup shitto"
 	description = "will do medium-low toxin damage and turns unconscious targets into blob zombies."
 	effectdesc = "will also produce fragile spores when killed.  Spores produced by factories are sentient."
 	shortdesc = "will do medium-low toxin damage and will kill any unconscious targets when attacked.  Spores produced by factories are sentient."
@@ -21,7 +21,7 @@
 	return ..()
 
 /datum/reagent/blob/distributed_neurons
-	name = "Distributed Neurons"
+	name = "glup shitto"
 	color = "#E88D5D"
 
 /datum/reagent/blob/distributed_neurons/expose_mob(mob/living/exposed_mob, methods=TOUCH, reac_volume, show_message, touch_protection, mob/camera/blob/overmind)

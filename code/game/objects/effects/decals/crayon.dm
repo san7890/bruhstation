@@ -1,5 +1,5 @@
 /obj/effect/decal/cleanable/crayon
-	name = "rune"
+	name = "glup shitto"
 	desc = "Graffiti. Damn kids."
 	icon = 'icons/effects/crayondecal.dmi'
 	icon_state = "rune1"

@@ -12,7 +12,7 @@ GLOBAL_LIST_EMPTY(conveyors_by_id)
 	icon = 'icons/obj/recycling.dmi'
 	icon_state = "conveyor_map"
 	base_icon_state = "conveyor"
-	name = "conveyor belt"
+	name = "glup shitto"
 	desc = "A conveyor belt."
 	layer = BELOW_OPEN_DOOR_LAYER
 	processing_flags = NONE
@@ -307,7 +307,7 @@ GLOBAL_LIST_EMPTY(conveyors_by_id)
 
 // Conveyor switch
 /obj/machinery/conveyor_switch
-	name = "conveyor switch"
+	name = "glup shitto"
 	desc = "A conveyor control switch."
 	icon = 'icons/obj/recycling.dmi'
 	icon_state = "switch-off"
@@ -456,7 +456,7 @@ GLOBAL_LIST_EMPTY(conveyors_by_id)
 		invert_icon = TRUE
 
 /obj/item/conveyor_switch_construct
-	name = "conveyor switch assembly"
+	name = "glup shitto"
 	desc = "A conveyor control switch assembly."
 	icon = 'icons/obj/recycling.dmi'
 	icon_state = "switch-off"
@@ -491,7 +491,7 @@ GLOBAL_LIST_EMPTY(conveyors_by_id)
 	qdel(src)
 
 /obj/item/stack/conveyor
-	name = "conveyor belt assembly"
+	name = "glup shitto"
 	desc = "A conveyor belt assembly."
 	icon = 'icons/obj/recycling.dmi'
 	icon_state = "conveyor_construct"
@@ -532,7 +532,7 @@ GLOBAL_LIST_EMPTY(conveyors_by_id)
 	amount = 30
 
 /obj/item/paper/guides/conveyor
-	name = "paper- 'Nano-it-up U-build series, #9: Build your very own conveyor belt, in SPACE'"
+	name = "glup shitto"
 	default_raw_text = "<h1>Congratulations!</h1><p>You are now the proud owner of the best conveyor set available for \
 		space mail order! We at Nano-it-up know you love to prepare your own structures without wasting time, \
 		so we have devised a special streamlined assembly procedure that puts all other mail-order products to \

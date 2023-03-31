@@ -4,7 +4,7 @@
 // using this solves the problem of having the APC in a wall yet also inside an area
 
 /obj/machinery/power/terminal
-	name = "terminal"
+	name = "glup shitto"
 	icon_state = "term"
 	desc = "It's an underfloor wiring terminal, used to draw power from the grid."
 	layer = WIRE_TERMINAL_LAYER //a bit above wires

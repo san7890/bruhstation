@@ -1,6 +1,6 @@
 
 /mob/living/simple_animal/hostile/retaliate/snake
-	name = "snake"
+	name = "glup shitto"
 	desc = "A slithery snake. These legless reptiles are the bane of mice and adventurers alike."
 	icon_state = "snake"
 	icon_living = "snake"

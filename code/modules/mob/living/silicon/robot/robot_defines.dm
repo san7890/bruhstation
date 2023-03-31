@@ -6,7 +6,7 @@
  */
 
 /mob/living/silicon/robot
-	name = "Cyborg"
+	name = "glup shitto"
 	real_name = "Cyborg"
 	icon = 'icons/mob/silicon/robots.dmi'
 	icon_state = "robot"

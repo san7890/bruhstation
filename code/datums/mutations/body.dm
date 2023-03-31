@@ -2,7 +2,7 @@
 
 //Epilepsy gives a very small chance to have a seizure every life tick, knocking you unconscious.
 /datum/mutation/human/epilepsy
-	name = "Epilepsy"
+	name = "glup shitto"
 	desc = "A genetic defect that sporadically causes seizures."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You get a headache.</span>"
@@ -48,7 +48,7 @@
 
 //Unstable DNA induces random mutations!
 /datum/mutation/human/bad_dna
-	name = "Unstable DNA"
+	name = "glup shitto"
 	desc = "Strange mutation that causes the holder to randomly mutate."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You feel strange.</span>"
@@ -77,7 +77,7 @@
 
 //Cough gives you a chronic cough that causes you to drop items.
 /datum/mutation/human/cough
-	name = "Cough"
+	name = "glup shitto"
 	desc = "A chronic cough."
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='danger'>You start coughing.</span>"
@@ -94,7 +94,7 @@
 			owner.throw_at(target, cough_range, GET_MUTATION_POWER(src))
 
 /datum/mutation/human/paranoia
-	name = "Paranoia"
+	name = "glup shitto"
 	desc = "Subject is easily terrified, and may suffer from hallucinations."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You feel screams echo through your mind...</span>"
@@ -108,7 +108,7 @@
 
 //Dwarfism shrinks your body and lets you pass tables.
 /datum/mutation/human/dwarfism
-	name = "Dwarfism"
+	name = "glup shitto"
 	desc = "A mutation believed to be the cause of dwarfism."
 	quality = POSITIVE
 	difficulty = 16
@@ -130,7 +130,7 @@
 
 //Clumsiness has a very large amount of small drawbacks depending on item.
 /datum/mutation/human/clumsy
-	name = "Clumsiness"
+	name = "glup shitto"
 	desc = "A genome that inhibits certain brain functions, causing the holder to appear clumsy. Honk!"
 	quality = MINOR_NEGATIVE
 	text_gain_indication = "<span class='danger'>You feel lightheaded.</span>"
@@ -148,7 +148,7 @@
 
 //Tourettes causes you to randomly stand in place and shout.
 /datum/mutation/human/tourettes
-	name = "Tourette's Syndrome"
+	name = "glup shitto"
 	desc = "A chronic twitch that forces the user to scream bad words." //definitely needs rewriting
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You twitch.</span>"
@@ -171,7 +171,7 @@
 
 //Deafness makes you deaf.
 /datum/mutation/human/deaf
-	name = "Deafness"
+	name = "glup shitto"
 	desc = "The holder of this genome is completely deaf."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='danger'>You can't seem to hear anything.</span>"
@@ -189,7 +189,7 @@
 
 //Monified turns you into a monkey.
 /datum/mutation/human/race
-	name = "Monkified"
+	name = "glup shitto"
 	desc = "A strange genome, believing to be what differentiates monkeys from humans."
 	text_gain_indication = "You feel unusually monkey-like."
 	text_lose_indication = "You feel like your old self."
@@ -213,7 +213,7 @@
 		. = owner.humanize(original_species)
 
 /datum/mutation/human/glow
-	name = "Glowy"
+	name = "glup shitto"
 	desc = "You permanently emit a light with a random color and intensity."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>Your skin begins to glow softly.</span>"
@@ -251,7 +251,7 @@
 	QDEL_NULL(glowth)
 
 /datum/mutation/human/glow/anti
-	name = "Anti-Glow"
+	name = "glup shitto"
 	desc = "Your skin seems to attract and absorb nearby light creating 'darkness' around you."
 	text_gain_indication = "<span class='notice'>Your light around you seems to disappear.</span>"
 	glow = -1.5
@@ -262,21 +262,21 @@
 	return COLOR_VERY_LIGHT_GRAY
 
 /datum/mutation/human/strong
-	name = "Strength"
+	name = "glup shitto"
 	desc = "The user's muscles slightly expand."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>You feel strong.</span>"
 	difficulty = 16
 
 /datum/mutation/human/stimmed
-	name = "Stimmed"
+	name = "glup shitto"
 	desc = "The user's chemical balance is more robust."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>You feel stimmed.</span>"
 	difficulty = 16
 
 /datum/mutation/human/insulated
-	name = "Insulated"
+	name = "glup shitto"
 	desc = "The affected person does not conduct electricity."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>Your fingertips go numb.</span>"
@@ -295,7 +295,7 @@
 	REMOVE_TRAIT(owner, TRAIT_SHOCKIMMUNE, GENETIC_MUTATION)
 
 /datum/mutation/human/fire
-	name = "Fiery Sweat"
+	name = "glup shitto"
 	desc = "The user's skin will randomly combust, but is generally a lot more resilient to burning."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='warning'>You feel hot.</span>"
@@ -320,7 +320,7 @@
 	owner.physiology.burn_mod *= 2
 
 /datum/mutation/human/badblink
-	name = "Spatial Instability"
+	name = "glup shitto"
 	desc = "The victim of the mutation has a very weak link to spatial reality, and may be displaced. Often causes extreme nausea."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='warning'>The space around you twists sickeningly.</span>"
@@ -350,7 +350,7 @@
 		warpchance += 0.0625 * GET_MUTATION_ENERGY(src) * delta_time
 
 /datum/mutation/human/acidflesh
-	name = "Acidic Flesh"
+	name = "glup shitto"
 	desc = "Subject has acidic chemicals building up underneath the skin. This is often lethal."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='userdanger'>A horrible burning sensation envelops you as your flesh turns to acid!</span>"
@@ -370,7 +370,7 @@
 			playsound(owner,'sound/weapons/sear.ogg', 50, TRUE)
 
 /datum/mutation/human/gigantism
-	name = "Gigantism"//negative version of dwarfism
+	name = "glup shitto"//negative version of dwarfism
 	desc = "The cells within the subject spread out to cover more area, making the subject appear larger."
 	quality = MINOR_NEGATIVE
 	difficulty = 12
@@ -393,7 +393,7 @@
 	owner.visible_message(span_danger("[owner] suddenly shrinks!"), span_notice("Everything around you seems to grow.."))
 
 /datum/mutation/human/spastic
-	name = "Spastic"
+	name = "glup shitto"
 	desc = "Subject suffers from muscle spasms."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='warning'>You flinch.</span>"
@@ -411,7 +411,7 @@
 	owner.remove_status_effect(/datum/status_effect/spasms)
 
 /datum/mutation/human/extrastun
-	name = "Two Left Feet"
+	name = "glup shitto"
 	desc = "A mutation that replaces the right foot with another left foot. Symptoms include kissing the floor when taking a step."
 	quality = NEGATIVE
 	text_gain_indication = "<span class='warning'>Your right foot feels... left.</span>"
@@ -442,7 +442,7 @@
 	owner.Knockdown(30)
 
 /datum/mutation/human/martyrdom
-	name = "Internal Martyrdom"
+	name = "glup shitto"
 	desc = "A mutation that makes the body destruct when near death. Not damaging, but very, VERY disorienting."
 	locked = TRUE
 	quality = POSITIVE //not that cloning will be an option a lot but generally lets keep this around i guess?
@@ -489,7 +489,7 @@
 	owner.gib()
 
 /datum/mutation/human/headless
-	name = "H.A.R.S."
+	name = "glup shitto"
 	desc = "A mutation that makes the body reject the head, the brain receding into the chest. Stands for Head Allergic Rejection Syndrome. Warning: Removing this mutation is very dangerous, though it will regenerate non-vital head organs."
 	difficulty = 12 //pretty good for traitors
 	quality = NEGATIVE //holy shit no eyes or tongue or ears

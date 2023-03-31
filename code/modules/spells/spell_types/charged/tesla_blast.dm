@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/charged/beam/tesla
-	name = "Tesla Blast"
+	name = "glup shitto"
 	desc = "Charge up a tesla arc and release it at random nearby targets! \
 		You can move freely while it charges. The arc jumps between targets and can knock them down."
 	button_icon_state = "lightning"

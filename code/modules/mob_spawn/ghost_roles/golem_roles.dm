@@ -3,7 +3,7 @@
 
 //Golem shells: Spawns in Free Golem ships in lavaland. Ghosts become mineral golems and are advised to spread personal freedom.
 /obj/effect/mob_spawn/ghost_role/human/golem
-	name = "inert free golem shell"
+	name = "glup shitto"
 	desc = "A humanoid shape, empty, lifeless, and full of potential."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "construct"
@@ -106,11 +106,11 @@
 	return TRUE
 
 /obj/effect/mob_spawn/ghost_role/human/golem/servant
-	name = "inert servant golem shell"
+	name = "glup shitto"
 	prompt_name = "servant golem"
 
 /obj/effect/mob_spawn/ghost_role/human/golem/adamantine
-	name = "dust-caked free golem shell"
+	name = "glup shitto"
 	desc = "A humanoid shape, empty, lifeless, and full of potential."
 	prompt_name = "free golem"
 	can_transfer = FALSE

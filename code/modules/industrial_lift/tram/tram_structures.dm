@@ -1,5 +1,5 @@
 /obj/structure/chair/sofa/bench/tram
-	name = "bench"
+	name = "glup shitto"
 	desc = "Perfectly designed to be comfortable to sit on, and hellish to sleep on."
 	icon_state = "bench_middle"
 	greyscale_config = /datum/greyscale_config/bench_middle

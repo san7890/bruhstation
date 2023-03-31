@@ -22,7 +22,7 @@ GLOBAL_LIST_INIT(petsplosion_candidates, typecacheof(list(
 )))
 
 /datum/round_event_control/wizard/petsplosion //the horror
-	name = "Petsplosion"
+	name = "glup shitto"
 	weight = 2
 	typepath = /datum/round_event/wizard/petsplosion
 	max_occurrences = 1 //Exponential growth is nothing to sneeze at!

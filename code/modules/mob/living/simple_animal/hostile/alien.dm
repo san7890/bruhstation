@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/alien
-	name = "alien hunter"
+	name = "glup shitto"
 	desc = "Hiss!"
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	icon_state = "alienh"
@@ -39,7 +39,7 @@
 	footstep_type = FOOTSTEP_MOB_CLAW
 
 /mob/living/simple_animal/hostile/alien/drone
-	name = "alien drone"
+	name = "glup shitto"
 	icon_state = "aliend"
 	icon_living = "aliend"
 	icon_dead = "aliend_dead"
@@ -58,7 +58,7 @@
 			SpreadPlants()
 
 /mob/living/simple_animal/hostile/alien/sentinel
-	name = "alien sentinel"
+	name = "glup shitto"
 	icon_state = "aliens"
 	icon_living = "aliens"
 	icon_dead = "aliens_dead"
@@ -74,7 +74,7 @@
 
 
 /mob/living/simple_animal/hostile/alien/queen
-	name = "alien queen"
+	name = "glup shitto"
 	icon_state = "alienq"
 	icon_living = "alienq"
 	icon_dead = "alienq_dead"
@@ -127,7 +127,7 @@
 	new /obj/structure/alien/egg(loc)
 
 /mob/living/simple_animal/hostile/alien/queen/large
-	name = "alien empress"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/alienqueen.dmi'
 	icon_state = "alienq"
 	icon_living = "alienq"
@@ -143,7 +143,7 @@
 	gold_core_spawnable = NO_SPAWN
 
 /mob/living/simple_animal/hostile/alien/maid
-	name = "lusty xenomorph maid"
+	name = "glup shitto"
 	melee_damage_lower = 0
 	melee_damage_upper = 0
 	combat_mode = FALSE

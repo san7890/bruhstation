@@ -1,5 +1,5 @@
 /obj/item/bodypart
-	name = "limb"
+	name = "glup shitto"
 	desc = "Why is it detached..."
 	force = 3
 	throwforce = 3
@@ -193,7 +193,7 @@
 	if(!IS_ORGANIC_LIMB(src))
 		grind_results = null
 
-	name = "[limb_id] [parse_zone(body_zone)]"
+	name = "glup shitto"
 	update_icon_dropped()
 	refresh_bleed_rate()
 

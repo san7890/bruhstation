@@ -1,6 +1,6 @@
 
 /obj/item/honey_frame
-	name = "honey frame"
+	name = "glup shitto"
 	desc = "A scaffold for bees to build honeycomb on."
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "honey_frame"

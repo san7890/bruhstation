@@ -1,5 +1,5 @@
 /datum/action/lay_eggs
-	name = "Lay Eggs"
+	name = "glup shitto"
 	desc = "Lay a cluster of eggs, which will soon grow into a normal spider."
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
 	button_icon_state = "lay_eggs"
@@ -60,7 +60,7 @@
 		new_eggs.directive = spider_directive.current_directive
 
 /datum/action/lay_eggs/enriched
-	name = "Lay Enriched Eggs"
+	name = "glup shitto"
 	desc = "Lay a cluster of eggs, which will soon grow into a greater spider.  Requires you drain a human per cluster of these eggs."
 	button_icon_state = "lay_enriched_eggs"
 	egg_type = /obj/effect/mob_spawn/ghost_role/spider/enriched

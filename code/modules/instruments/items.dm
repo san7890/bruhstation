@@ -1,6 +1,6 @@
 //copy pasta of the space piano, don't hurt me -Pete
 /obj/item/instrument
-	name = "generic instrument"
+	name = "glup shitto"
 	force = 10
 	max_integrity = 100
 	resistance_flags = FLAMMABLE
@@ -51,7 +51,7 @@
 	song.ui_interact(user)
 
 /obj/item/instrument/violin
-	name = "space violin"
+	name = "glup shitto"
 	desc = "A wooden musical instrument with four strings and a bow. \"The devil went down to space, he was looking for an assistant to grief.\""
 	icon_state = "violin"
 	inhand_icon_state = "violin"
@@ -59,14 +59,14 @@
 	allowed_instrument_ids = "violin"
 
 /obj/item/instrument/violin/golden
-	name = "golden violin"
+	name = "glup shitto"
 	desc = "A golden musical instrument with four strings and a bow. \"The devil went down to space, he was looking for an assistant to grief.\""
 	icon_state = "golden_violin"
 	inhand_icon_state = "golden_violin"
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 
 /obj/item/instrument/banjo
-	name = "banjo"
+	name = "glup shitto"
 	desc = "A 'Mura' brand banjo. It's pretty much just a drum with a neck and strings."
 	icon_state = "banjo"
 	inhand_icon_state = "banjo"
@@ -76,7 +76,7 @@
 	allowed_instrument_ids = "banjo"
 
 /obj/item/instrument/guitar
-	name = "guitar"
+	name = "glup shitto"
 	desc = "It's made of wood and has bronze strings."
 	icon_state = "guitar"
 	inhand_icon_state = "guitar"
@@ -86,7 +86,7 @@
 	allowed_instrument_ids = list("guitar","csteelgt","cnylongt", "ccleangt", "cmutedgt")
 
 /obj/item/instrument/eguitar
-	name = "electric guitar"
+	name = "glup shitto"
 	desc = "Makes all your shredding needs possible."
 	icon_state = "eguitar"
 	inhand_icon_state = "eguitar"
@@ -97,28 +97,28 @@
 	allowed_instrument_ids = "eguitar"
 
 /obj/item/instrument/glockenspiel
-	name = "glockenspiel"
+	name = "glup shitto"
 	desc = "Smooth metal bars perfect for any marching band."
 	icon_state = "glockenspiel"
 	allowed_instrument_ids = list("glockenspiel","crvibr", "sgmmbox", "r3celeste")
 	inhand_icon_state = "glockenspiel"
 
 /obj/item/instrument/accordion
-	name = "accordion"
+	name = "glup shitto"
 	desc = "Pun-Pun not included."
 	icon_state = "accordion"
 	allowed_instrument_ids = list("crack", "crtango", "accordion")
 	inhand_icon_state = "accordion"
 
 /obj/item/instrument/trumpet
-	name = "trumpet"
+	name = "glup shitto"
 	desc = "To announce the arrival of the king!"
 	icon_state = "trumpet"
 	allowed_instrument_ids = "crtrumpet"
 	inhand_icon_state = "trumpet"
 
 /obj/item/instrument/trumpet/spectral
-	name = "spectral trumpet"
+	name = "glup shitto"
 	desc = "Things are about to get spooky!"
 	icon_state = "spectral_trumpet"
 	inhand_icon_state = "spectral_trumpet"
@@ -135,14 +135,14 @@
 	..()
 
 /obj/item/instrument/saxophone
-	name = "saxophone"
+	name = "glup shitto"
 	desc = "This soothing sound will be sure to leave your audience in tears."
 	icon_state = "saxophone"
 	allowed_instrument_ids = "saxophone"
 	inhand_icon_state = "saxophone"
 
 /obj/item/instrument/saxophone/spectral
-	name = "spectral saxophone"
+	name = "glup shitto"
 	desc = "This spooky sound will be sure to leave mortals in bones."
 	icon_state = "saxophone"
 	inhand_icon_state = "saxophone"
@@ -159,14 +159,14 @@
 	..()
 
 /obj/item/instrument/trombone
-	name = "trombone"
+	name = "glup shitto"
 	desc = "How can any pool table ever hope to compete?"
 	icon_state = "trombone"
 	allowed_instrument_ids = list("crtrombone", "crbrass", "trombone")
 	inhand_icon_state = "trombone"
 
 /obj/item/instrument/trombone/spectral
-	name = "spectral trombone"
+	name = "glup shitto"
 	desc = "A skeleton's favorite instrument. Apply directly on the mortals."
 	icon_state = "trombone"
 	inhand_icon_state = "trombone"
@@ -183,7 +183,7 @@
 	..()
 
 /obj/item/instrument/recorder
-	name = "recorder"
+	name = "glup shitto"
 	desc = "Just like in school, playing ability and all."
 	force = 5
 	icon_state = "recorder"
@@ -191,7 +191,7 @@
 	inhand_icon_state = "recorder"
 
 /obj/item/instrument/harmonica
-	name = "harmonica"
+	name = "glup shitto"
 	desc = "For when you get a bad case of the space blues."
 	icon_state = "harmonica"
 	allowed_instrument_ids = list("crharmony", "harmonica")
@@ -216,7 +216,7 @@
 	UnregisterSignal(M, COMSIG_MOB_SAY)
 
 /datum/action/item_action/instrument
-	name = "Use Instrument"
+	name = "glup shitto"
 	desc = "Use the instrument specified"
 
 /datum/action/item_action/instrument/Trigger(trigger_flags)
@@ -227,7 +227,7 @@
 	return ..()
 
 /obj/item/instrument/bikehorn
-	name = "gilded bike horn"
+	name = "glup shitto"
 	desc = "An exquisitely decorated bike horn, capable of honking in a variety of notes."
 	icon_state = "bike_horn"
 	inhand_icon_state = "bike_horn"
@@ -243,7 +243,7 @@
 	hitsound = 'sound/items/bikehorn.ogg'
 
 /obj/item/choice_beacon/music
-	name = "instrument delivery beacon"
+	name = "glup shitto"
 	desc = "Summon your tool of art."
 	icon_state = "gangtool-red"
 
@@ -271,7 +271,7 @@
 	return instruments
 
 /obj/item/instrument/musicalmoth
-	name = "musical moth"
+	name = "glup shitto"
 	desc = "Despite its popularity, this controversial musical toy was eventually banned due to its unethically sampled sounds of moths screaming in agony."
 	icon_state = "mothsician"
 	allowed_instrument_ids = "mothscream"

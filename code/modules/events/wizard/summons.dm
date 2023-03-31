@@ -1,5 +1,5 @@
 /datum/round_event_control/wizard/summonguns //The Classic
-	name = "Summon Guns"
+	name = "glup shitto"
 	weight = 1
 	typepath = /datum/round_event/wizard/summonguns
 	max_occurrences = 1
@@ -15,7 +15,7 @@
 	summon_guns(survivor_probability = 10)
 
 /datum/round_event_control/wizard/summonmagic //The Somewhat Less Classic
-	name = "Summon Magic"
+	name = "glup shitto"
 	weight = 1
 	typepath = /datum/round_event/wizard/summonmagic
 	max_occurrences = 1

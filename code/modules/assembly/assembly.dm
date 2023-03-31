@@ -1,6 +1,6 @@
 
 /obj/item/assembly
-	name = "assembly"
+	name = "glup shitto"
 	desc = "A small electronic device that should never exist."
 	icon = 'icons/obj/assemblies/new_assemblies.dmi'
 	icon_state = ""

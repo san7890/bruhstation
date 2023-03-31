@@ -1,5 +1,5 @@
 /obj/structure/window
-	name = "window"
+	name = "glup shitto"
 	desc = "A window."
 	icon_state = "window"
 	density = TRUE
@@ -450,7 +450,7 @@
 	anchored = FALSE
 
 /obj/structure/window/reinforced
-	name = "reinforced window"
+	name = "glup shitto"
 	desc = "A window that is reinforced with metal rods."
 	icon_state = "rwindow"
 	reinf = TRUE
@@ -582,7 +582,7 @@
 	state = WINDOW_OUT_OF_FRAME
 
 /obj/structure/window/plasma
-	name = "plasma window"
+	name = "glup shitto"
 	desc = "A window made out of a plasma-silicate alloy. It looks insanely tough to break and burn through."
 	icon_state = "plasmawindow"
 	reinf = FALSE
@@ -618,7 +618,7 @@
 	anchored = FALSE
 
 /obj/structure/window/reinforced/plasma
-	name = "reinforced plasma window"
+	name = "glup shitto"
 	desc = "A window made out of a plasma-silicate alloy and a rod matrix. It looks hopelessly tough to break and is most likely nigh fireproof."
 	icon_state = "plasmarwindow"
 	reinf = TRUE
@@ -655,11 +655,11 @@
 	state = WINDOW_OUT_OF_FRAME
 
 /obj/structure/window/reinforced/tinted
-	name = "tinted window"
+	name = "glup shitto"
 	icon_state = "twindow"
 	opacity = TRUE
 /obj/structure/window/reinforced/tinted/frosted
-	name = "frosted window"
+	name = "glup shitto"
 	icon_state = "fwindow"
 
 /* Full Tile Windows (more atom_integrity) */
@@ -748,7 +748,7 @@
 
 //there is a sub shuttle window in survival_pod.dm for mining pods
 /obj/structure/window/reinforced/shuttle//this is called reinforced because it is reinforced w/titanium
-	name = "shuttle window"
+	name = "glup shitto"
 	desc = "A reinforced, air-locked pod window."
 	icon = 'icons/obj/smooth_structures/shuttle_window.dmi'
 	icon_state = "shuttle_window-0"
@@ -788,7 +788,7 @@
 	state = WINDOW_OUT_OF_FRAME
 
 /obj/structure/window/reinforced/shuttle/indestructible
-	name = "hardened shuttle window"
+	name = "glup shitto"
 	flags_1 = PREVENT_CLICK_UNDER_1 | NODECONSTRUCT_1
 	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF
 
@@ -796,7 +796,7 @@
 	return FALSE
 
 /obj/structure/window/reinforced/plasma/plastitanium
-	name = "plastitanium window"
+	name = "glup shitto"
 	desc = "A durable looking window made of an alloy of of plasma and titanium."
 	icon = 'icons/obj/smooth_structures/plastitanium_window.dmi'
 	icon_state = "plastitanium_window-0"
@@ -828,7 +828,7 @@
 	state = WINDOW_OUT_OF_FRAME
 
 /obj/structure/window/paperframe
-	name = "paper frame"
+	name = "glup shitto"
 	desc = "A fragile separator made of thin wood and paper."
 	icon = 'icons/obj/smooth_structures/paperframes.dmi'
 	icon_state = "paperframes-0"
@@ -909,7 +909,7 @@
 	update_appearance()
 
 /obj/structure/window/bronze
-	name = "brass window"
+	name = "glup shitto"
 	desc = "A paper-thin pane of translucent yet reinforced brass. Nevermind, this is just weak bronze!"
 	icon = 'icons/obj/smooth_structures/clockwork_window.dmi'
 	icon_state = "clockwork_window_single"

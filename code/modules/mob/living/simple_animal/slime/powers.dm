@@ -45,7 +45,7 @@
 	return FALSE
 
 /datum/action/innate/slime/feed
-	name = "Feed"
+	name = "glup shitto"
 	button_icon_state = "slimeeat"
 
 
@@ -162,7 +162,7 @@
 		to_chat(src, "<i>I have already evolved...</i>")
 
 /datum/action/innate/slime/evolve
-	name = "Evolve"
+	name = "glup shitto"
 	button_icon_state = "slimegrow"
 	needs_growth = GROWTH_NEEDED
 
@@ -222,7 +222,7 @@
 		to_chat(src, "<i>I am not old enough to reproduce yet...</i>")
 
 /datum/action/innate/slime/reproduce
-	name = "Reproduce"
+	name = "glup shitto"
 	button_icon_state = "slimesplit"
 	needs_growth = GROWTH_NEEDED
 

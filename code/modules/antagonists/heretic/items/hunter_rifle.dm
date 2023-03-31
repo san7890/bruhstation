@@ -5,7 +5,7 @@
 // The ammo it uses takes time to "charge" before firing,
 // releasing a homing, very damaging projectile
 /obj/item/gun/ballistic/rifle/lionhunter
-	name = "\improper Lionhunter's Rifle"
+	name = "glup shitto"
 	desc = "An antique looking rifle that looks immaculate despite being clearly very old."
 	slot_flags = ITEM_SLOT_BACK
 	icon_state = "moistprime"
@@ -19,7 +19,7 @@
 	AddComponent(/datum/component/scope, range_modifier = 1.25)
 
 /obj/item/ammo_box/magazine/internal/boltaction/lionhunter
-	name = "lionhunter rifle internal magazine"
+	name = "glup shitto"
 	ammo_type = /obj/item/ammo_casing/a762/lionhunter
 	caliber = CALIBER_A762
 	max_ammo = 3
@@ -126,7 +126,7 @@
 	return ..()
 
 /obj/projectile/bullet/a762/lionhunter
-	name = "hunter's 7.62 bullet"
+	name = "glup shitto"
 	// These stats are only applied if the weapon is fired fully aimed
 	// If fired without aiming or at someone too close, it will do much less
 	damage = 30
@@ -135,7 +135,7 @@
 
 // Extra ammunition can be made with a heretic ritual.
 /obj/item/ammo_box/a762/lionhunter
-	name = "stripper clip (7.62mm hunter)"
+	name = "glup shitto"
 	desc = "A stripper clip of mysterious, atypical ammo. It doesn't fit into normal ballistic rifles."
 	icon_state = "762"
 	ammo_type = /obj/item/ammo_casing/a762/lionhunter

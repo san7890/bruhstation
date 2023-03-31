@@ -17,7 +17,7 @@
  */
 
 /mob/living/simple_animal/hostile/asteroid/elite/herald
-	name = "herald"
+	name = "glup shitto"
 	desc = "A monstrous beast which fires deadly projectiles at threats and prey."
 	icon_state = "herald"
 	icon_living = "herald"
@@ -65,25 +65,25 @@
 	playsound(get_turf(src), 'sound/magic/clockwork/invoke_general.ogg', 20, TRUE)
 
 /datum/action/innate/elite_attack/herald_trishot
-	name = "Triple Shot"
+	name = "glup shitto"
 	button_icon_state = "herald_trishot"
 	chosen_message = "<span class='boldwarning'>You are now firing three shots in your chosen direction.</span>"
 	chosen_attack_num = HERALD_TRISHOT
 
 /datum/action/innate/elite_attack/herald_directionalshot
-	name = "Circular Shot"
+	name = "glup shitto"
 	button_icon_state = "herald_directionalshot"
 	chosen_message = "<span class='boldwarning'>You are firing projectiles in all directions.</span>"
 	chosen_attack_num = HERALD_DIRECTIONALSHOT
 
 /datum/action/innate/elite_attack/herald_teleshot
-	name = "Teleport Shot"
+	name = "glup shitto"
 	button_icon_state = "herald_teleshot"
 	chosen_message = "<span class='boldwarning'>You will now fire a shot which teleports you where it lands.</span>"
 	chosen_attack_num = HERALD_TELESHOT
 
 /datum/action/innate/elite_attack/herald_mirror
-	name = "Summon Mirror"
+	name = "glup shitto"
 	button_icon_state = "herald_mirror"
 	chosen_message = "<span class='boldwarning'>You will spawn a mirror which duplicates your attacks.</span>"
 	chosen_attack_num = HERALD_MIRROR
@@ -193,7 +193,7 @@
 	my_mirror.faction = faction.Copy()
 
 /mob/living/simple_animal/hostile/asteroid/elite/herald/mirror
-	name = "herald's mirror"
+	name = "glup shitto"
 	desc = "This fiendish work of magic copies the herald's attacks.  Seems logical to smash it."
 	health = 60
 	maxHealth = 60
@@ -238,7 +238,7 @@
 		rock_target.gets_drilled()
 
 /obj/projectile/herald/teleshot
-	name = "golden bolt"
+	name = "glup shitto"
 	damage = 0
 	color = rgb(255,255,102)
 
@@ -249,7 +249,7 @@
 //Herald's loot: Cloak of the Prophet
 
 /obj/item/clothing/neck/cloak/herald_cloak
-	name = "cloak of the prophet"
+	name = "glup shitto"
 	desc = "A cloak which protects you from the heresy of the world."
 	icon = 'icons/obj/lavaland/elite_trophies.dmi'
 	icon_state = "herald_cloak"

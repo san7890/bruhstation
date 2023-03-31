@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/shapeshift/polar_bear
-	name = "Polar Bear Form"
+	name = "glup shitto"
 	desc = "Take on the shape of a polar bear."
 	invocation = "RAAAAAAAAWR!"
 	invocation_type = INVOCATION_SHOUT

@@ -4,7 +4,7 @@
  * Done by decreasing the station_target by a high value per crew member, resulting in the station total being much higher than the target, and causing artificial inflation.
  */
 /datum/round_event_control/market_crash
-	name = "Market Crash"
+	name = "glup shitto"
 	typepath = /datum/round_event/market_crash
 	weight = 10
 	category = EVENT_CATEGORY_BUREAUCRATIC

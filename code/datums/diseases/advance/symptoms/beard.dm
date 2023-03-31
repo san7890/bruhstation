@@ -8,7 +8,7 @@
 */
 
 /datum/symptom/beard
-	name = "Facial Hypertrichosis"
+	name = "glup shitto"
 	desc = "The virus increases hair production significantly, causing rapid beard growth."
 	illness = "Man-Mouth"
 	stealth = 0

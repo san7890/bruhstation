@@ -1,6 +1,6 @@
 // CUCUMBERS YEAH
 /obj/item/seeds/cucumber
-	name = "pack of cucumber seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into cucumber plants."
 	icon_state = "seed-cucumber"
 	species = "cucumber"
@@ -18,7 +18,7 @@
 
 /obj/item/food/grown/cucumber
 	seed = /obj/item/seeds/cucumber
-	name = "cucumber"
+	name = "glup shitto"
 	desc = "Oblong and green, with pimples, the standard of salads."
 	icon_state = "cucumber"
 	foodtypes = VEGETABLES

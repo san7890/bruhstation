@@ -3,7 +3,7 @@
  * This will be overwritten if used again.
  */
 /datum/action/set_spider_directive
-	name = "Set Directive"
+	name = "glup shitto"
 	desc = "Set a directive for your future children to follow."
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
 	button_icon_state = "directive"
@@ -30,7 +30,7 @@
  * Sends a message to all currently living spiders.
  */
 /datum/action/command_spiders
-	name = "Command"
+	name = "glup shitto"
 	desc = "Send a command to all living spiders."
 	button_icon = 'icons/mob/actions/actions_animal.dmi'
 	button_icon_state = "command"

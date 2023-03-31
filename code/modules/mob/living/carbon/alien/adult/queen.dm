@@ -32,7 +32,7 @@
 	return FALSE
 
 /mob/living/carbon/alien/adult/royal/queen
-	name = "alien queen"
+	name = "glup shitto"
 	caste = "q"
 	maxHealth = 400
 	health = 400
@@ -72,7 +72,7 @@
 
 //Queen verbs
 /datum/action/cooldown/alien/make_structure/lay_egg
-	name = "Lay Egg"
+	name = "glup shitto"
 	desc = "Lay an egg to produce huggers to impregnate prey with."
 	button_icon_state = "alien_egg"
 	plasma_cost = 75
@@ -84,7 +84,7 @@
 
 //Button to let queen choose her praetorian.
 /datum/action/cooldown/alien/promote
-	name = "Create Royal Parasite"
+	name = "glup shitto"
 	desc = "Produce a royal parasite to grant one of your children the honor of being your Praetorian."
 	button_icon_state = "alien_queen_promote"
 	/// The promotion only takes plasma when completed, not on activation.
@@ -132,7 +132,7 @@
 	return TRUE
 
 /obj/item/queen_promotion
-	name = "\improper royal parasite"
+	name = "glup shitto"
 	desc = "Inject this into one of your grown children to promote her to a Praetorian!"
 	icon_state = "alien_medal"
 	item_flags = NOBLUDGEON | ABSTRACT | DROPDEL

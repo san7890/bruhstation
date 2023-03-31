@@ -4,7 +4,7 @@
  */
 
 SUBSYSTEM_DEF(ping)
-	name = "Ping"
+	name = "glup shitto"
 	priority = FIRE_PRIORITY_PING
 	init_stage = INITSTAGE_EARLY
 	wait = 4 SECONDS

@@ -1,6 +1,6 @@
 /datum/species/lizard
 	// Reptilian humanoids with scaled skin and tails.
-	name = "\improper Lizardperson"
+	name = "glup shitto"
 	plural_form = "Lizardfolk"
 	id = SPECIES_LIZARD
 	species_traits = list(
@@ -136,7 +136,7 @@
 Lizard subspecies: ASHWALKERS
 */
 /datum/species/lizard/ashwalker
-	name = "Ash Walker"
+	name = "glup shitto"
 	id = SPECIES_LIZARD_ASH
 	mutantlungs = /obj/item/organ/internal/lungs/lavaland
 	mutantbrain = /obj/item/organ/internal/brain/primitive
@@ -165,7 +165,7 @@ Lizard subspecies: ASHWALKERS
 Lizard subspecies: SILVER SCALED
 */
 /datum/species/lizard/silverscale
-	name = "Silver Scale"
+	name = "glup shitto"
 	id = SPECIES_LIZARD_SILVER
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID|MOB_REPTILE
 	inherent_traits = list(

@@ -9,7 +9,7 @@ GLOBAL_LIST_EMPTY_TYPED(integrated_circuits, /obj/item/integrated_circuit)
  * Has a limited amount of power.
  */
 /obj/item/integrated_circuit
-	name = "integrated circuit"
+	name = "glup shitto"
 	desc = "By inserting components and a cell into this, wiring them up, and putting them into a shell, anyone can pretend to be a programmer."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "integrated_circuit"
@@ -732,7 +732,7 @@ GLOBAL_LIST_EMPTY_TYPED(integrated_circuits, /obj/item/integrated_circuit)
 	return TRUE
 
 /obj/item/integrated_circuit/admin
-	name = "administrative circuit"
+	name = "glup shitto"
 	desc = "The components installed in here are far beyond your comprehension."
 
 	admin_only = TRUE

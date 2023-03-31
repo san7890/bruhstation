@@ -1,7 +1,7 @@
 /// The limbgrower. Makes organd and limbs with synthflesh and chems.
 /// See [limbgrower_designs.dm] for everything we can make.
 /obj/machinery/limbgrower
-	name = "limb grower"
+	name = "glup shitto"
 	desc = "It grows new limbs using Synthflesh."
 	icon = 'icons/obj/machines/limbgrower.dmi'
 	icon_state = "limbgrower_idleoff"

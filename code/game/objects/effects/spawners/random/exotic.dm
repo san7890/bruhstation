@@ -1,9 +1,9 @@
 /obj/effect/spawner/random/exotic
-	name = "exotic spawner"
+	name = "glup shitto"
 	desc = "Super duper rare stuff."
 
 /obj/effect/spawner/random/exotic/technology
-	name = "technology spawner"
+	name = "glup shitto"
 	icon_state = "disk"
 	spawn_loot_count = 2
 	loot = list( // Space loot spawner. Couple of random bits of technology-adjacent stuff including anomaly cores and BEPIS techs.
@@ -13,7 +13,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/languagebook
-	name = "language book spawner"
+	name = "glup shitto"
 	icon_state = "book"
 	loot = list( // A single roundstart species language book.
 		/obj/item/language_manual/roundstart_species = 100,
@@ -23,7 +23,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/tool
-	name = "exotic tool spawner"
+	name = "glup shitto"
 	icon_state = "wrench"
 	loot = list( // Some sort of random and rare tool.
 		/obj/effect/spawner/random/engineering/tool_alien,
@@ -32,7 +32,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/syndie
-	name = "syndie cosmetic spawner"
+	name = "glup shitto"
 	icon_state = "syndicate"
 	spawn_loot_count = 2
 	loot = list( // A selection of cosmetic syndicate items. Just a couple. No space suits or weapons.
@@ -42,7 +42,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/antag_gear_weak
-	name = "antag gear weak"
+	name = "glup shitto"
 	icon_state = "syndi_toolbox"
 	loot = list(
 		/obj/item/storage/medkit/regular = 45,
@@ -57,7 +57,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/antag_gear
-	name = "antag gear"
+	name = "glup shitto"
 	icon_state = "esword"
 	loot = list(
 		/obj/item/clothing/glasses/science/night = 15,
@@ -74,7 +74,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/snow_gear
-	name = "snow gear"
+	name = "glup shitto"
 	icon_state = "snowman"
 	loot = list(
 		/obj/item/toy/snowball = 6,
@@ -83,7 +83,7 @@
 	)
 
 /obj/effect/spawner/random/exotic/ripley
-	name = "ripley spawner"
+	name = "glup shitto"
 	icon_state = "ripley"
 	loot = list(
 		/obj/structure/mecha_wreckage/ripley = 3,

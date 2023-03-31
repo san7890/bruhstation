@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/gygax
 	desc = "A lightweight, security exosuit. Popular among private and corporate security."
-	name = "\improper Gygax"
+	name = "glup shitto"
 	icon_state = "gygax"
 	base_icon_state = "gygax"
 	allow_diagonal_movement = TRUE
@@ -35,7 +35,7 @@
 	initialize_passenger_action_type(/datum/action/vehicle/sealed/mecha/mech_overload_mode)
 
 /datum/action/vehicle/sealed/mecha/mech_overload_mode
-	name = "Toggle leg actuators overload"
+	name = "glup shitto"
 	button_icon_state = "mech_overload_off"
 
 /datum/action/vehicle/sealed/mecha/mech_overload_mode/Trigger(trigger_flags, forced_state = null)
@@ -60,7 +60,7 @@
 
 /obj/vehicle/sealed/mecha/gygax/dark
 	desc = "A lightweight exosuit, painted in a dark scheme. This model appears to have some modifications."
-	name = "\improper Dark Gygax"
+	name = "glup shitto"
 	icon_state = "darkgygax"
 	base_icon_state = "darkgygax"
 	max_integrity = 300

@@ -1,6 +1,6 @@
 /// Anything above a lattice should go here.
 /turf/open/floor
-	name = "floor"
+	name = "glup shitto"
 	icon = 'icons/turf/floors.dmi'
 	base_icon_state = "floor"
 	baseturfs = /turf/open/floor/plating
@@ -395,7 +395,7 @@
 	return FALSE
 
 /turf/open/floor/material
-	name = "floor"
+	name = "glup shitto"
 	icon_state = "materialfloor"
 	material_flags = MATERIAL_EFFECTS | MATERIAL_ADD_PREFIX | MATERIAL_COLOR | MATERIAL_AFFECT_STATISTICS
 	floor_tile = /obj/item/stack/tile/material

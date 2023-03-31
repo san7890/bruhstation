@@ -25,7 +25,7 @@
  */
 
 /obj/item/card
-	name = "card"
+	name = "glup shitto"
 	desc = "Does card things."
 	icon = 'icons/obj/card.dmi'
 	w_class = WEIGHT_CLASS_TINY
@@ -42,7 +42,7 @@
 
 /// "Retro" ID card that renders itself as the icon state with no overlays.
 /obj/item/card/id
-	name = "retro identification card"
+	name = "glup shitto"
 	desc = "A card used to provide ID and determine access across the station."
 	icon_state = "card_grey"
 	inhand_icon_state = "card-id"
@@ -782,7 +782,7 @@
 	else
 		assignment_string = assignment
 
-	name = "[name_string] ([assignment_string])"
+	name = "glup shitto"
 
 /// Returns the trim assignment name.
 /obj/item/card/id/proc/get_trim_assignment()
@@ -793,55 +793,55 @@
 	return trim?.sechud_icon_state || SECHUD_UNKNOWN
 
 /obj/item/card/id/away
-	name = "\proper a perfectly generic identification card"
+	name = "glup shitto"
 	desc = "A perfectly generic identification card. Looks like it could use some flavor."
 	trim = /datum/id_trim/away
 	icon_state = "retro"
 	registered_age = null
 
 /obj/item/card/id/away/hotel
-	name = "Staff ID"
+	name = "glup shitto"
 	desc = "A staff ID used to access the hotel's doors."
 	trim = /datum/id_trim/away/hotel
 
 /obj/item/card/id/away/hotel/security
-	name = "Officer ID"
+	name = "glup shitto"
 	trim = /datum/id_trim/away/hotel/security
 
 /obj/item/card/id/away/old
-	name = "\proper a perfectly generic identification card"
+	name = "glup shitto"
 	desc = "A perfectly generic identification card. Looks like it could use some flavor."
 
 /obj/item/card/id/away/old/sec
-	name = "Charlie Station Security Officer's ID card"
+	name = "glup shitto"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Security Officer\"."
 	trim = /datum/id_trim/away/old/sec
 
 /obj/item/card/id/away/old/sci
-	name = "Charlie Station Scientist's ID card"
+	name = "glup shitto"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Scientist\"."
 	trim = /datum/id_trim/away/old/sci
 
 /obj/item/card/id/away/old/eng
-	name = "Charlie Station Engineer's ID card"
+	name = "glup shitto"
 	desc = "A faded Charlie Station ID card. You can make out the rank \"Station Engineer\"."
 	trim = /datum/id_trim/away/old/eng
 
 /obj/item/card/id/away/old/apc
-	name = "APC Access ID"
+	name = "glup shitto"
 	desc = "A special ID card that allows access to APC terminals."
 	trim = /datum/id_trim/away/old/apc
 
 /obj/item/card/id/away/old/robo
-	name = "Delta Station Roboticist's ID card"
+	name = "glup shitto"
 	desc = "An ID card that allows access to bots maintenance protocols."
 	trim = /datum/id_trim/away/old/robo
 
 /obj/item/card/id/away/deep_storage //deepstorage.dmm space ruin
-	name = "bunker access ID"
+	name = "glup shitto"
 
 /obj/item/card/id/departmental_budget
-	name = "departmental card (ERROR)"
+	name = "glup shitto"
 	desc = "Provides access to the departmental budget."
 	icon_state = "budgetcard"
 	var/department_ID = ACCOUNT_CIV
@@ -875,7 +875,7 @@
 	registered_account.bank_card_talk(span_warning("Withdrawing is not compatible with this card design."), TRUE) //prevents the vault bank machine being useless and putting money from the budget to your card to go over personal crates
 
 /obj/item/card/id/advanced
-	name = "identification card"
+	name = "glup shitto"
 	desc = "A card used to provide ID and determine access across the station. Has an integrated digital display and advanced microchips."
 	icon_state = "card_grey"
 
@@ -1021,12 +1021,12 @@
 	return sechud_icon_state_override || ..()
 
 /obj/item/card/id/advanced/rainbow
-	name = "rainbow identification card"
+	name = "glup shitto"
 	desc = "A rainbow card, promoting fun in a 'business proper' sense!"
 	icon_state = "card_rainbow"
 
 /obj/item/card/id/advanced/silver
-	name = "silver identification card"
+	name = "glup shitto"
 	desc = "A silver card which shows honour and dedication."
 	icon_state = "card_silver"
 	inhand_icon_state = "silver_id"
@@ -1039,12 +1039,12 @@
 	assignment = "Reaper"
 
 /obj/item/card/id/advanced/silver/reaper
-	name = "Thirteen's ID Card (Reaper)"
+	name = "glup shitto"
 	trim = /datum/id_trim/maint_reaper
 	registered_name = "Thirteen"
 
 /obj/item/card/id/advanced/gold
-	name = "gold identification card"
+	name = "glup shitto"
 	desc = "A golden card which shows power and might."
 	icon_state = "card_gold"
 	inhand_icon_state = "gold_id"
@@ -1056,7 +1056,7 @@
 	ADD_TRAIT(src, TRAIT_TASTEFULLY_THICK_ID_CARD, ROUNDSTART_TRAIT)
 
 /obj/item/card/id/advanced/gold/captains_spare
-	name = "captain's spare ID"
+	name = "glup shitto"
 	desc = "The spare ID of the High Lord himself."
 	registered_name = "Captain"
 	trim = /datum/id_trim/job/captain
@@ -1070,7 +1070,7 @@
 		..()
 
 /obj/item/card/id/advanced/centcom
-	name = "\improper CentCom ID"
+	name = "glup shitto"
 	desc = "An ID straight from Central Command."
 	icon_state = "card_centcom"
 	assigned_icon_state = "assigned_centcom"
@@ -1080,7 +1080,7 @@
 	wildcard_slots = WILDCARD_LIMIT_CENTCOM
 
 /obj/item/card/id/advanced/centcom/ert
-	name = "\improper CentCom ID"
+	name = "glup shitto"
 	desc = "An ERT ID card."
 	registered_age = null
 	registered_name = "Emergency Response Intern"
@@ -1115,21 +1115,21 @@
 	trim = /datum/id_trim/centcom/ert/clown
 
 /obj/item/card/id/advanced/black
-	name = "black identification card"
+	name = "glup shitto"
 	desc = "This card is telling you one thing and one thing alone. The person holding this card is an utter badass."
 	icon_state = "card_black"
 	assigned_icon_state = "assigned_syndicate"
 	wildcard_slots = WILDCARD_LIMIT_GOLD
 
 /obj/item/card/id/advanced/black/deathsquad
-	name = "\improper Death Squad ID"
+	name = "glup shitto"
 	desc = "A Death Squad ID card."
 	registered_name = JOB_ERT_DEATHSQUAD
 	trim = /datum/id_trim/centcom/deathsquad
 	wildcard_slots = WILDCARD_LIMIT_DEATHSQUAD
 
 /obj/item/card/id/advanced/black/syndicate_command
-	name = "syndicate ID card"
+	name = "glup shitto"
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
 	registered_age = null
@@ -1137,20 +1137,20 @@
 	wildcard_slots = WILDCARD_LIMIT_SYNDICATE
 
 /obj/item/card/id/advanced/black/syndicate_command/crew_id
-	name = "syndicate ID card"
+	name = "glup shitto"
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
 	trim = /datum/id_trim/syndicom/crew
 
 /obj/item/card/id/advanced/black/syndicate_command/captain_id
-	name = "syndicate captain ID card"
+	name = "glup shitto"
 	desc = "An ID straight from the Syndicate."
 	registered_name = "Syndicate"
 	trim = /datum/id_trim/syndicom/captain
 
 
 /obj/item/card/id/advanced/black/syndicate_command/captain_id/syndie_spare
-	name = "syndicate captain's spare ID"
+	name = "glup shitto"
 	desc = "The spare ID of the Dark Lord himself."
 	registered_name = "Captain"
 	registered_age = null
@@ -1164,7 +1164,7 @@
 	return ..()
 
 /obj/item/card/id/advanced/debug
-	name = "\improper Debug ID"
+	name = "glup shitto"
 	desc = "A debug ID card. Has ALL the all access, you really shouldn't have this."
 	icon_state = "card_centcom"
 	assigned_icon_state = "assigned_centcom"
@@ -1177,7 +1177,7 @@
 	registered_account.account_job = new /datum/job/admin // so we can actually use this account without being filtered as a "departmental" card
 
 /obj/item/card/id/advanced/prisoner
-	name = "prisoner ID card"
+	name = "glup shitto"
 	desc = "You are a number, you are not a free man."
 	icon_state = "card_prisoner"
 	inhand_icon_state = "orange-id"
@@ -1249,46 +1249,46 @@
 	to_chat(usr, span_notice("You have accumulated [points] out of the [goal] points you need for freedom."))
 
 /obj/item/card/id/advanced/prisoner/one
-	name = "Prisoner #13-001"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-001"
 	trim = /datum/id_trim/job/prisoner/one
 
 /obj/item/card/id/advanced/prisoner/two
-	name = "Prisoner #13-002"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-002"
 	trim = /datum/id_trim/job/prisoner/two
 
 /obj/item/card/id/advanced/prisoner/three
-	name = "Prisoner #13-003"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-003"
 	trim = /datum/id_trim/job/prisoner/three
 
 /obj/item/card/id/advanced/prisoner/four
-	name = "Prisoner #13-004"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-004"
 	trim = /datum/id_trim/job/prisoner/four
 
 /obj/item/card/id/advanced/prisoner/five
-	name = "Prisoner #13-005"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-005"
 	trim = /datum/id_trim/job/prisoner/five
 
 /obj/item/card/id/advanced/prisoner/six
-	name = "Prisoner #13-006"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-006"
 	trim = /datum/id_trim/job/prisoner/six
 
 /obj/item/card/id/advanced/prisoner/seven
-	name = "Prisoner #13-007"
+	name = "glup shitto"
 	registered_name = "Prisoner #13-007"
 	trim = /datum/id_trim/job/prisoner/seven
 
 /obj/item/card/id/advanced/mining
-	name = "mining ID"
+	name = "glup shitto"
 	trim = /datum/id_trim/job/shaft_miner/spare
 
 /obj/item/card/id/advanced/highlander
-	name = "highlander ID"
+	name = "glup shitto"
 	registered_name = "Highlander"
 	desc = "There can be only one!"
 	icon_state = "card_black"
@@ -1297,7 +1297,7 @@
 	wildcard_slots = WILDCARD_LIMIT_ADMIN
 
 /obj/item/card/id/advanced/chameleon
-	name = "agent card"
+	name = "glup shitto"
 	desc = "A highly advanced chameleon ID card. Touch this card on another ID card or player to choose which accesses to copy. Has special magnetic properties which force it to the front of wallets."
 	trim = /datum/id_trim/chameleon
 	wildcard_slots = WILDCARD_LIMIT_CHAMELEON
@@ -1608,27 +1608,27 @@
 	registered_age = 47
 
 /obj/item/card/id/advanced/simple_bot
-	name = "simple bot ID card"
+	name = "glup shitto"
 	desc = "An internal ID card used by the station's non-sentient bots. You should report this to a coder if you're holding it."
 	wildcard_slots = WILDCARD_LIMIT_ADMIN
 
 /obj/item/card/id/red
-	name = "Red Team identification card"
+	name = "glup shitto"
 	desc = "A card used to identify members of the red team for CTF"
 	icon_state = "ctf_red"
 
 /obj/item/card/id/blue
-	name = "Blue Team identification card"
+	name = "glup shitto"
 	desc = "A card used to identify members of the blue team for CTF"
 	icon_state = "ctf_blue"
 
 /obj/item/card/id/yellow
-	name = "Yellow Team identification card"
+	name = "glup shitto"
 	desc = "A card used to identify members of the yellow team for CTF"
 	icon_state = "ctf_yellow"
 
 /obj/item/card/id/green
-	name = "Green Team identification card"
+	name = "glup shitto"
 	desc = "A card used to identify members of the green team for CTF"
 	icon_state = "ctf_green"
 

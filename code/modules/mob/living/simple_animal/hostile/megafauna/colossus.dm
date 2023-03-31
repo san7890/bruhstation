@@ -21,7 +21,7 @@
  * Intended Difficulty: Very Hard
  */
 /mob/living/simple_animal/hostile/megafauna/colossus
-	name = "colossus"
+	name = "glup shitto"
 	desc = "A monstrous creature protected by heavy shielding."
 	health = 2500
 	maxHealth = 2500
@@ -165,7 +165,7 @@
 	victim.dust()
 
 /obj/effect/temp_visual/at_shield
-	name = "anti-toolbox field"
+	name = "glup shitto"
 	desc = "A shimmering forcefield protecting the colossus."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "at_shield2"
@@ -182,7 +182,7 @@
 	INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, orbit), target, 0, FALSE, 0, 0, FALSE, TRUE)
 
 /obj/projectile/colossus
-	name = "death bolt"
+	name = "glup shitto"
 	icon_state = "chronobolt"
 	damage = 25
 	armour_penetration = 100
@@ -227,7 +227,7 @@
 #define ACTIVATE_MAGIC "magic"
 
 /obj/machinery/anomalous_crystal
-	name = "anomalous crystal"
+	name = "glup shitto"
 	desc = "A strange chunk of crystal, being in the presence of it fills you with equal parts excitement and dread."
 	var/observer_desc = "Anomalous crystals have descriptions that only observers can see. But this one hasn't been changed from the default."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
@@ -422,7 +422,7 @@
 
 // Depressurizes the place... and free cult metal, I guess.
 /datum/crystal_warp_theme/lavaland
-	name = "lavaland"
+	name = "glup shitto"
 	floor = /turf/open/floor/fakebasalt
 	wall = /turf/closed/wall/mineral/cult
 	flora_and_fauna = list(/mob/living/simple_animal/hostile/asteroid/goldgrub)
@@ -430,7 +430,7 @@
 
 // Snow terrain is slow to move in and cold! Get the assistants to shovel your driveway.
 /datum/crystal_warp_theme/winter
-	name = "winter"
+	name = "glup shitto"
 	floor = /turf/open/misc/snow/actually_safe
 	wall = /turf/closed/wall/mineral/wood
 	chair = /obj/structure/chair/wood
@@ -443,7 +443,7 @@
 
 // Beneficial due to actually having breathable air. Plus, monkeys and bows and arrows.
 /datum/crystal_warp_theme/jungle
-	name = "jungle"
+	name = "glup shitto"
 	floor = /turf/open/floor/grass
 	wall = /turf/closed/wall/mineral/wood
 	chair = /obj/structure/chair/wood
@@ -461,7 +461,7 @@
 
 // Beneficial, turns stuff into alien alloy which is useful to cargo and research. Also repairs atmos.
 /datum/crystal_warp_theme/ayylmao
-	name = "ayy lmao"
+	name = "glup shitto"
 	floor = /turf/open/floor/mineral/abductor
 	wall = /turf/closed/wall/mineral/abductor
 	chair = /obj/structure/bed/abductor //ayys apparently don't have chairs. An entire species of people who only recline.
@@ -573,7 +573,7 @@
 
 
 /obj/structure/closet/stasis
-	name = "quantum entanglement stasis warp field"
+	name = "glup shitto"
 	desc = "You can hardly comprehend this thing... which is why you can't see it."
 	icon_state = null //This shouldn't even be visible, so if it DOES show up, at least nobody will notice
 	enable_door_overlay = FALSE //For obvious reasons
@@ -631,7 +631,7 @@
 	return
 
 /datum/action/exit_possession
-	name = "Exit Possession"
+	name = "glup shitto"
 	desc = "Exits the body you are possessing. They will explode violently when this occurs."
 	button_icon = 'icons/mob/actions/actions_spells.dmi'
 	button_icon_state = "exit_possession"

@@ -1,5 +1,5 @@
 /datum/traitor_objective_category/final_objective
-	name = "Final Objective"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/ultimate/romerol = 1,
 		/datum/traitor_objective/ultimate/battlecruiser = 1,

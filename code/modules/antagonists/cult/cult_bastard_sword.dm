@@ -1,7 +1,7 @@
 
 /// Cult Bastard Sword, earned by cultists when they manage to sacrifice a heretic.
 /obj/item/cult_bastard
-	name = "bloody bastard sword"
+	name = "glup shitto"
 	desc = "An enormous sword used by Nar'Sien cultists to rapidly harvest the souls of non-believers."
 	w_class = WEIGHT_CLASS_HUGE
 	block_chance = 50

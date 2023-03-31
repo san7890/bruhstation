@@ -1,6 +1,6 @@
 ///Tracking reasons
 /datum/antagonist/heretic_monster
-	name = "\improper Eldritch Horror"
+	name = "glup shitto"
 	roundend_category = "Heretics"
 	antagpanel_category = ANTAG_GROUP_HORRORS
 	antag_moodlet = /datum/mood_event/heretics

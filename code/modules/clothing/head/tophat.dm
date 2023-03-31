@@ -1,7 +1,7 @@
 #define RABBIT_CD_TIME (30 SECONDS)
 
 /obj/item/clothing/head/hats/tophat
-	name = "top-hat"
+	name = "glup shitto"
 	desc = "It's an amish looking hat."
 	icon_state = "tophat"
 	inhand_icon_state = "that"

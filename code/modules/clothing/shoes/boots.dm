@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/combat //basic syndicate combat boots for nuke ops and mob corpses
-	name = "combat boots"
+	name = "glup shitto"
 	desc = "High speed, low drag combat boots."
 	icon_state = "jackboots"
 	inhand_icon_state = "jackboots"
@@ -24,7 +24,7 @@
 	create_storage(storage_type = /datum/storage/pockets/shoes)
 
 /obj/item/clothing/shoes/combat/swat //overpowered boots for death squads
-	name = "\improper SWAT boots"
+	name = "glup shitto"
 	desc = "High speed, no drag combat boots."
 	clothing_traits = list(TRAIT_NO_SLIP_WATER)
 	armor_type = /datum/armor/combat_swat
@@ -40,7 +40,7 @@
 	acid = 50
 
 /obj/item/clothing/shoes/jackboots
-	name = "jackboots"
+	name = "glup shitto"
 	desc = "Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time."
 	icon_state = "jackboots"
 	inhand_icon_state = "jackboots"
@@ -65,7 +65,7 @@
 	icon_state = "jackboots_sec"
 
 /obj/item/clothing/shoes/winterboots
-	name = "winter boots"
+	name = "glup shitto"
 	desc = "Boots lined with 'synthetic' animal fur."
 	icon_state = "winterboots"
 	inhand_icon_state = null
@@ -85,7 +85,7 @@
 	create_storage(storage_type = /datum/storage/pockets/shoes)
 
 /obj/item/clothing/shoes/winterboots/ice_boots
-	name = "ice hiking boots"
+	name = "glup shitto"
 	desc = "A pair of winter boots with special grips on the bottom, designed to prevent slipping on frozen surfaces."
 	icon_state = "iceboots"
 	inhand_icon_state = null
@@ -93,7 +93,7 @@
 
 // A pair of ice boots intended for general crew EVA use - see EVA winter coat for comparison.
 /obj/item/clothing/shoes/winterboots/ice_boots/eva
-	name = "\proper Endotherm hiking boots"
+	name = "glup shitto"
 	desc = "A heavy pair of boots with grips applied to the bottom to keep the wearer vertical while walking in freezing conditions."
 	icon_state = "iceboots_eva"
 	w_class = WEIGHT_CLASS_BULKY
@@ -113,7 +113,7 @@
 	acid = 10
 
 /obj/item/clothing/shoes/workboots
-	name = "work boots"
+	name = "glup shitto"
 	desc = "Nanotrasen-issue Engineering lace-up work boots for the especially blue-collar."
 	icon_state = "workboots"
 	inhand_icon_state = "jackboots"
@@ -132,13 +132,13 @@
 	create_storage(storage_type = /datum/storage/pockets/shoes)
 
 /obj/item/clothing/shoes/workboots/mining
-	name = "mining boots"
+	name = "glup shitto"
 	desc = "Steel-toed mining boots for mining in hazardous environments. Very good at keeping toes uncrushed."
 	icon_state = "explorer"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/shoes/russian
-	name = "russian boots"
+	name = "glup shitto"
 	desc = "Comfy shoes."
 	icon_state = "rus_shoes"
 	inhand_icon_state = null
@@ -150,13 +150,13 @@
 	create_storage(storage_type = /datum/storage/pockets/shoes)
 
 /obj/item/clothing/shoes/discoshoes
-	name = "green lizardskin shoes"
+	name = "glup shitto"
 	desc = "They may have lost some of their lustre over the years, but these green lizardskin shoes fit you perfectly."
 	icon_state = "lizardskin_shoes"
 	inhand_icon_state = null
 
 /obj/item/clothing/shoes/kim
-	name = "aerostatic boots"
+	name = "glup shitto"
 	desc = "A crisp, clean set of boots for working long hours on the beat."
 	icon_state = "aerostatic_boots"
 	inhand_icon_state = null

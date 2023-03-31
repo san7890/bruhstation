@@ -16,7 +16,7 @@
 	return ..()
 
 /obj/item/mecha_parts/mecha_equipment/medical/sleeper
-	name = "mounted sleeper"
+	name = "glup shitto"
 	desc = "Equipment for medical exosuits. A mounted sleeper that stabilizes patients and can inject reagents in the exosuit's reserves."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -242,7 +242,7 @@
 #define ANALYZE_SYRINGE_MODE 1
 
 /obj/item/mecha_parts/mecha_equipment/medical/syringe_gun
-	name = "exosuit syringe gun"
+	name = "glup shitto"
 	desc = "Equipment for medical exosuits. A chem synthesizer with syringe gun. Reagents inside are held in stasis, so no reactions will occur."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "syringegun"
@@ -490,7 +490,7 @@
 ///////////////////////////////// Medical Beam ///////////////////////////////////////////////////////////////
 
 /obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam
-	name = "exosuit medical beamgun"
+	name = "glup shitto"
 	desc = "Equipment for medical exosuits. Generates a focused beam of medical nanites."
 	icon_state = "mecha_medigun"
 	energy_drain = 10

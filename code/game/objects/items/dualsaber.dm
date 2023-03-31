@@ -7,7 +7,7 @@
 	inhand_icon_state = "dualsaber0"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/swords_righthand.dmi'
-	name = "double-bladed energy sword"
+	name = "glup shitto"
 	desc = "Handle with care."
 	force = 3
 	throwforce = 5

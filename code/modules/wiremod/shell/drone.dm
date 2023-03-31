@@ -4,7 +4,7 @@
  * A movable mob that can be fed inputs on which direction to travel.
  */
 /mob/living/circuit_drone
-	name = "drone"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_medium_med"
 	maxHealth = 300

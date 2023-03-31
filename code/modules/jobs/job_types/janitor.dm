@@ -33,7 +33,7 @@
 	job_tone = "slip"
 
 /datum/outfit/job/janitor
-	name = "Janitor"
+	name = "glup shitto"
 	jobtype = /datum/job/janitor
 
 	id_trim = /datum/id_trim/job/janitor

@@ -1,6 +1,6 @@
 /obj/item/clothing/head/cone
 	desc = "This cone is trying to warn you of something!"
-	name = "warning cone"
+	name = "glup shitto"
 	icon = 'icons/obj/janitor.dmi'
 	worn_icon = 'icons/mob/clothing/head/utility.dmi'
 	icon_state = "cone"

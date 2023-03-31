@@ -24,5 +24,5 @@
 	RemoveElement(/datum/element/atmos_sensitive, mapload)
 
 /turf/open/floor/glass/reinforced/tram
-	name = "tram bridge"
+	name = "glup shitto"
 	desc = "It shakes a bit when you step, but lets you cross between sides quickly!"

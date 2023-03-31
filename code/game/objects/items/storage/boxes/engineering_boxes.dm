@@ -1,7 +1,7 @@
 // This file contains all boxes used by the Engineering department and its purpose on the station. Also contains stuff we use when we wanna fix up stuff as well or helping us live when shit goes southwardly.
 
 /obj/item/storage/box/metalfoam
-	name = "box of metal foam grenades"
+	name = "glup shitto"
 	desc = "To be used to rapidly seal hull breaches."
 	illustration = "grenade"
 
@@ -10,7 +10,7 @@
 		new /obj/item/grenade/chem_grenade/metalfoam(src)
 
 /obj/item/storage/box/smart_metal_foam
-	name = "box of smart metal foam grenades"
+	name = "glup shitto"
 	desc = "Used to rapidly seal hull breaches. This variety conforms to the walls of its area."
 	illustration = "grenade"
 
@@ -19,7 +19,7 @@
 		new/obj/item/grenade/chem_grenade/smart_metal_foam(src)
 
 /obj/item/storage/box/material
-	name = "box of materials"
+	name = "glup shitto"
 	illustration = "implant"
 
 /obj/item/storage/box/material/PopulateContents() //less uranium because radioactive
@@ -47,7 +47,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/debugtools
-	name = "box of debug tools"
+	name = "glup shitto"
 	icon_state = "syndiebox"
 
 /obj/item/storage/box/debugtools/PopulateContents()
@@ -70,7 +70,7 @@
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/box/plastic
-	name = "plastic box"
+	name = "glup shitto"
 	desc = "It's a solid, plastic shell box."
 	icon_state = "plasticbox"
 	foldable_result = null
@@ -78,7 +78,7 @@
 	custom_materials = list(/datum/material/plastic = 1000) //You lose most if recycled.
 
 /obj/item/storage/box/emergencytank
-	name = "emergency oxygen tank box"
+	name = "glup shitto"
 	desc = "A box of emergency oxygen tanks."
 	illustration = "emergencytank"
 
@@ -88,7 +88,7 @@
 		new /obj/item/tank/internals/emergency_oxygen(src) //in case anyone ever wants to do anything with spawning them, apart from crafting the box
 
 /obj/item/storage/box/engitank
-	name = "extended-capacity emergency oxygen tank box"
+	name = "glup shitto"
 	desc = "A box of extended-capacity emergency oxygen tanks."
 	illustration = "extendedtank"
 

@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/aoe/sacred_flame
-	name = "Sacred Flame"
+	name = "glup shitto"
 	desc = "Makes everyone around you more flammable, and lights yourself on fire."
 	button_icon_state = "sacredflame"
 	sound = 'sound/magic/fireball.ogg'

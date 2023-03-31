@@ -14,7 +14,7 @@
 	worn_icon = 'icons/mob/clothing/suits/utility.dmi'
 
 /obj/item/clothing/suit/utility/fire
-	name = "emergency firesuit"
+	name = "glup shitto"
 	desc = "A suit that helps protect against fire and heat."
 	icon_state = "fire"
 	inhand_icon_state = "ro_suit"
@@ -62,14 +62,14 @@
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 
 /obj/item/clothing/suit/utility/fire/heavy
-	name = "heavy firesuit"
+	name = "glup shitto"
 	desc = "An old, bulky thermal protection suit."
 	icon_state = "thermal"
 	inhand_icon_state = "ro_suit"
 	slowdown = 1.5
 
 /obj/item/clothing/suit/utility/fire/atmos
-	name = "atmospheric firesuit"
+	name = "glup shitto"
 	desc = "An expensive firesuit that protects against even the most deadly of station fires. Designed to protect even if the wearer is set aflame."
 	icon_state = "atmos_firesuit"
 	inhand_icon_state = "firefighter_atmos"
@@ -83,7 +83,7 @@
  * Bomb protection
  */
 /obj/item/clothing/head/utility/bomb_hood
-	name = "bomb hood"
+	name = "glup shitto"
 	desc = "Use in case of bomb."
 	icon_state = "bombsuit"
 	clothing_flags = THICKMATERIAL | SNUG_FIT
@@ -108,7 +108,7 @@
 	acid = 50
 
 /obj/item/clothing/suit/utility/bomb_suit
-	name = "bomb suit"
+	name = "glup shitto"
 	desc = "A suit designed for safety when handling explosives."
 	icon_state = "bombsuit"
 	inhand_icon_state = null
@@ -157,7 +157,7 @@
 */
 
 /obj/item/clothing/head/utility/radiation
-	name = "radiation hood"
+	name = "glup shitto"
 	icon_state = "rad"
 	desc = "A hood with radiation protective properties. The label reads, 'Made with lead. Please do not consume insulation.'"
 	clothing_flags = THICKMATERIAL | SNUG_FIT
@@ -178,7 +178,7 @@
 	AddElement(/datum/element/radiation_protected_clothing)
 
 /obj/item/clothing/suit/utility/radiation
-	name = "radiation suit"
+	name = "glup shitto"
 	desc = "A suit that protects against radiation. The label reads, 'Made with lead. Please do not consume insulation.'"
 	icon_state = "rad"
 	inhand_icon_state = "rad_suit"

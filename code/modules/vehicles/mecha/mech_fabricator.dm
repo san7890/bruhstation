@@ -1,7 +1,7 @@
 /obj/machinery/mecha_part_fabricator
 	icon = 'icons/obj/robotics.dmi'
 	icon_state = "fab-idle"
-	name = "exosuit fabricator"
+	name = "glup shitto"
 	desc = "Nothing is being built."
 	density = TRUE
 	req_access = list(ACCESS_ROBOTICS)

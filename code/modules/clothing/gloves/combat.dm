@@ -1,5 +1,5 @@
 /obj/item/clothing/gloves/combat
-	name = "combat gloves"
+	name = "glup shitto"
 	desc = "These tactical gloves are fireproof and electrically insulated."
 	icon_state = "black"
 	greyscale_colors = "#2f2e31"
@@ -18,7 +18,7 @@
 	acid = 50
 
 /obj/item/clothing/gloves/combat/wizard
-	name = "enchanted gloves"
+	name = "glup shitto"
 	desc = "These gloves have been enchanted with a spell that makes them electrically insulated and fireproof."
 	icon_state = "wizard"
 	greyscale_colors = null

@@ -1,6 +1,6 @@
 /obj/item/book/granter/martial/cqc
 	martial = /datum/martial_art/cqc
-	name = "old manual"
+	name = "glup shitto"
 	martial_name = "close quarters combat"
 	desc = "A small, black manual. There are drawn instructions of tactical hand-to-hand combat."
 	greet = "<span class='boldannounce'>You've mastered the basics of CQC.</span>"

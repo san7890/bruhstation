@@ -1,5 +1,5 @@
 /obj/item/clothing/head/utility/hardhat/cakehat
-	name = "cakehat"
+	name = "glup shitto"
 	desc = "You put the cake on your head. Brilliant."
 	icon = 'icons/obj/clothing/head/costume.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
@@ -53,7 +53,7 @@
 	return on * heat
 
 /obj/item/clothing/head/utility/hardhat/cakehat/energycake
-	name = "energy cake"
+	name = "glup shitto"
 	desc = "You put the energy sword on your cake. Brilliant."
 	icon_state = "hardhat0_energycake"
 	inhand_icon_state = "hardhat0_energycake"

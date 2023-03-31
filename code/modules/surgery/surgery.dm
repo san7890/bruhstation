@@ -124,7 +124,7 @@
 	if(tool && tool.item_flags & SURGICAL_TOOL) //Just because you used the wrong tool it doesn't mean you meant to whack the patient with it
 		to_chat(user, span_warning("This step requires a different tool!"))
 		return TRUE
-		
+
 	return FALSE
 
 /datum/surgery/proc/get_surgery_step()
@@ -159,18 +159,18 @@
 	return operating_computer
 
 /datum/surgery/advanced
-	name = "advanced surgery"
+	name = "glup shitto"
 	requires_tech = TRUE
 
 /obj/item/disk/surgery
-	name = "Surgery Procedure Disk"
+	name = "glup shitto"
 	desc = "A disk that contains advanced surgery procedures, must be loaded into an Operating Console."
 	icon_state = "datadisk1"
 	custom_materials = list(/datum/material/iron=300, /datum/material/glass=100)
 	var/list/surgeries
 
 /obj/item/disk/surgery/debug
-	name = "Debug Surgery Disk"
+	name = "glup shitto"
 	desc = "A disk that contains all existing surgery procedures."
 	icon_state = "datadisk1"
 	custom_materials = list(/datum/material/iron=300, /datum/material/glass=100)

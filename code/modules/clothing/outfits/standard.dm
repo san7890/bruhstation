@@ -1,5 +1,5 @@
 /datum/outfit/centcom/spec_ops
-	name = "Special Ops Officer"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom
 	id_trim = /datum/id_trim/centcom/specops_officer
@@ -30,7 +30,7 @@
 	..()
 
 /datum/outfit/space
-	name = "Standard Space Gear"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/grey
 	shoes = /obj/item/clothing/shoes/sneakers/black
@@ -40,7 +40,7 @@
 	mask = /obj/item/clothing/mask/breath
 
 /datum/outfit/tournament
-	name = "tournament standard red"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/red
 	suit = /obj/item/clothing/suit/armor/vest
@@ -51,12 +51,12 @@
 	r_pocket = /obj/item/grenade/smokebomb
 
 /datum/outfit/tournament/green
-	name = "tournament standard green"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/green
 
 /datum/outfit/tournament/gangster
-	name = "tournament gangster"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/security/detective
 	suit = /obj/item/clothing/suit/jacket/det_suit
@@ -67,7 +67,7 @@
 	r_pocket = /obj/item/ammo_box/c10mm
 
 /datum/outfit/tournament/janitor
-	name = "tournament janitor"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/janitor
 	suit = null
@@ -89,7 +89,7 @@
 	bucket.reagents.add_reagent(/datum/reagent/water,70)
 
 /datum/outfit/laser_tag
-	name = "Laser Tag Red"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/red
 	suit = /obj/item/clothing/suit/redtag
@@ -104,7 +104,7 @@
 	shoes = /obj/item/clothing/shoes/sneakers/red
 
 /datum/outfit/traitor_cutout
-	name = "Traitor Cutout"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/grey
 	suit = /obj/item/clothing/suit/armor/vest
@@ -116,7 +116,7 @@
 	shoes = /obj/item/clothing/shoes/magboots/advance
 
 /datum/outfit/rev_cutout
-	name = "Revolutionary Cutout"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/grey
 	back = /obj/item/storage/backpack
@@ -127,7 +127,7 @@
 	shoes = /obj/item/clothing/shoes/sneakers/black
 
 /datum/outfit/laser_tag/blue
-	name = "Laser Tag Blue"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/blue
 	suit = /obj/item/clothing/suit/bluetag
@@ -137,7 +137,7 @@
 	shoes = /obj/item/clothing/shoes/sneakers/blue
 
 /datum/outfit/tunnel_clown
-	name = "Tunnel Clown"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/gold
 	id_trim = /datum/id_trim/tunnel_clown
@@ -162,7 +162,7 @@
 	W.update_icon()
 
 /datum/outfit/psycho
-	name = "Masked Killer"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/misc/overalls
 	suit = /obj/item/clothing/suit/apron
@@ -184,7 +184,7 @@
 	H.regenerate_icons()
 
 /datum/outfit/assassin
-	name = "Assassin"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/chameleon/black
 	id_trim = /datum/id_trim/reaper_assassin
@@ -226,7 +226,7 @@
 	W.update_icon()
 
 /datum/outfit/centcom/commander
-	name = "CentCom Commander"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom
 	id_trim = /datum/id_trim/centcom/commander
@@ -254,7 +254,7 @@
 	..()
 
 /datum/outfit/centcom/commander/mod
-	name = "CentCom Commander (MODsuit)"
+	name = "glup shitto"
 
 	suit_store = /obj/item/tank/internals/oxygen
 	suit = null
@@ -264,7 +264,7 @@
 	internals_slot = ITEM_SLOT_SUITSTORE
 
 /datum/outfit/ghost_cultist
-	name = "Cultist Ghost"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/black/ghost
 	suit = /obj/item/clothing/suit/hooded/cultrobes/alt/ghost
@@ -272,7 +272,7 @@
 	l_hand = /obj/item/melee/cultblade/ghost
 
 /datum/outfit/cult_cutout
-	name = "Cultist Cutout"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/rank/civilian/chaplain
 	suit = /obj/item/clothing/suit/hooded/cultrobes/hardened
@@ -281,7 +281,7 @@
 	r_hand = /obj/item/melee/cultblade/dagger
 
 /datum/outfit/wizard
-	name = "Blue Wizard"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/lightpurple
 	suit = /obj/item/clothing/suit/wizrobe
@@ -305,14 +305,14 @@
 		new_spellbook.owner = wizard.mind
 
 /datum/outfit/wizard/bookless
-	name = "Wizard - Bookless"
+	name = "glup shitto"
 	backpack_contents = list()
 
 /datum/outfit/wizard/bookless/post_equip(mob/living/carbon/human/wizard, visualsOnly)
 	return
 
 /datum/outfit/wizard/apprentice
-	name = "Wizard Apprentice"
+	name = "glup shitto"
 
 	r_pocket = /obj/item/teleportation_scroll/apprentice
 	r_hand = null
@@ -320,20 +320,20 @@
 	backpack_contents = list()
 
 /datum/outfit/wizard/red
-	name = "Red Wizard"
+	name = "glup shitto"
 
 	suit = /obj/item/clothing/suit/wizrobe/red
 	head = /obj/item/clothing/head/wizard/red
 
 /datum/outfit/wizard/weeb
-	name = "Marisa Wizard"
+	name = "glup shitto"
 
 	suit = /obj/item/clothing/suit/wizrobe/marisa
 	head = /obj/item/clothing/head/wizard/marisa
 	shoes = /obj/item/clothing/shoes/sneakers/marisa
 
 /datum/outfit/wizard/academy
-	name = "Academy Wizard"
+	name = "glup shitto"
 	r_pocket = null
 	r_hand = null
 	suit = /obj/item/clothing/suit/wizrobe/red
@@ -341,7 +341,7 @@
 	backpack_contents = list()
 
 /datum/outfit/centcom/soviet
-	name = "Soviet Admiral"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/centcom
 	id_trim = /datum/id_trim/centcom/admiral
@@ -367,7 +367,7 @@
 	..()
 
 /datum/outfit/mobster
-	name = "Mobster"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/mobster
@@ -390,7 +390,7 @@
 	W.update_icon()
 
 /datum/outfit/chrono_agent
-	name = "Timeline Eradication Agent"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/color/white
 	suit_store = /obj/item/tank/internals/oxygen
@@ -406,7 +406,7 @@
 	lock.true_owner_ckey = agent.ckey
 
 /datum/outfit/debug //Debug objs plus MODsuit
-	name = "Debug outfit"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/debug
 	uniform = /obj/item/clothing/under/misc/patriotsuit
@@ -437,7 +437,7 @@
 	W.update_icon()
 
 /datum/outfit/admin //for admeem shenanigans and testing things that arent related to equipment, not a subtype of debug just in case debug changes things
-	name = "Admin outfit"
+	name = "glup shitto"
 
 	id = /obj/item/card/id/advanced/debug
 	uniform = /obj/item/clothing/under/misc/patriotsuit

@@ -3,7 +3,7 @@
 	icon_state = "spearglass0"
 	lefthand_file = 'icons/mob/inhands/weapons/polearms_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/polearms_righthand.dmi'
-	name = "spear"
+	name = "glup shitto"
 	desc = "A haphazardly-constructed yet still deadly weapon of ancient design."
 	force = 10
 	w_class = WEIGHT_CLASS_BULKY
@@ -104,7 +104,7 @@
 	return ..()
 
 /obj/item/spear/explosive
-	name = "explosive lance"
+	name = "glup shitto"
 	icon_state = "spearbomb0"
 	base_icon_state = "spearbomb"
 	icon_prefix = "spearbomb"
@@ -181,7 +181,7 @@
 
 //GREY TIDE
 /obj/item/spear/grey_tide
-	name = "\improper Grey Tide"
+	name = "glup shitto"
 	desc = "Recovered from the aftermath of a revolt aboard Defense Outpost Theta Aegis, in which a seemingly endless tide of Assistants caused heavy casualities among Nanotrasen military forces."
 	attack_verb_continuous = list("gores")
 	attack_verb_simple = list("gore")
@@ -210,7 +210,7 @@
 	icon_state = "bone_spear0"
 	base_icon_state = "bone_spear0"
 	icon_prefix = "bone_spear"
-	name = "bone spear"
+	name = "glup shitto"
 	desc = "A haphazardly-constructed yet still deadly weapon. The pinnacle of modern technology."
 
 	throwforce = 22
@@ -226,7 +226,7 @@
 	icon_state = "bamboo_spear0"
 	base_icon_state = "bamboo_spear0"
 	icon_prefix = "bamboo_spear"
-	name = "bamboo spear"
+	name = "glup shitto"
 	desc = "A haphazardly-constructed bamboo stick with a sharpened tip, ready to poke holes into unsuspecting people."
 
 	throwforce = 22	//Better to throw

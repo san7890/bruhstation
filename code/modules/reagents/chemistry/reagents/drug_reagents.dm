@@ -1,5 +1,5 @@
 /datum/reagent/drug
-	name = "Drug"
+	name = "glup shitto"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	taste_description = "bitterness"
 	var/trippy = TRUE //Does this drug make you trip?
@@ -9,7 +9,7 @@
 		affected_mob.clear_mood_event("[type]_high")
 
 /datum/reagent/drug/space_drugs
-	name = "Space Drugs"
+	name = "glup shitto"
 	description = "An illegal chemical compound used as drug."
 	color = "#60A584" // rgb: 96, 165, 132
 	overdose_threshold = 30
@@ -36,7 +36,7 @@
 	..()
 
 /datum/reagent/drug/cannabis
-	name = "Cannabis"
+	name = "glup shitto"
 	description = "A psychoactive drug from the Cannabis plant used for recreational purposes."
 	color = "#059033"
 	overdose_threshold = INFINITY
@@ -61,7 +61,7 @@
 	return ..()
 
 /datum/reagent/drug/nicotine
-	name = "Nicotine"
+	name = "glup shitto"
 	description = "Slightly reduces stun times. If overdosed it will deal toxin and oxygen damage."
 	reagent_state = LIQUID
 	color = "#60A584" // rgb: 96, 165, 132
@@ -102,7 +102,7 @@
 	. = TRUE
 
 /datum/reagent/drug/krokodil
-	name = "Krokodil"
+	name = "glup shitto"
 	description = "Cools and calms you down. If overdosed it will deal significant Brain and Toxin damage."
 	reagent_state = LIQUID
 	color = "#0064B4"
@@ -137,7 +137,7 @@
 
 
 /datum/reagent/drug/methamphetamine
-	name = "Methamphetamine"
+	name = "glup shitto"
 	description = "Reduces stun times by about 300%, speeds the user up, and allows the user to quickly recover stamina while dealing a small amount of Brain damage. If overdosed the subject will move randomly, laugh randomly, drop items and suffer from Toxin and Brain damage. If addicted the subject will constantly jitter and drool, before becoming dizzy and losing motor control and eventually suffer heavy toxin damage."
 	reagent_state = LIQUID
 	color = "#78C8FA" //best case scenario is the "default", gets muddled depending on purity
@@ -203,7 +203,7 @@
 	. = TRUE
 
 /datum/reagent/drug/bath_salts
-	name = "Bath Salts"
+	name = "glup shitto"
 	description = "Makes you impervious to stuns and grants a stamina regeneration buff, but you will be a nearly uncontrollable tramp-bearded raving lunatic."
 	reagent_state = LIQUID
 	color = "#FAFAFA"
@@ -254,7 +254,7 @@
 	..()
 
 /datum/reagent/drug/aranesp
-	name = "Aranesp"
+	name = "glup shitto"
 	description = "Amps you up, gets you going, and rapidly restores stamina damage. Side effects include breathlessness and toxicity."
 	reagent_state = LIQUID
 	color = "#78FFF0"
@@ -274,7 +274,7 @@
 	. = TRUE
 
 /datum/reagent/drug/happiness
-	name = "Happiness"
+	name = "glup shitto"
 	description = "Fills you with ecstasic numbness and causes minor brain damage. Highly addictive. If overdosed causes sudden mood swings."
 	reagent_state = LIQUID
 	color = "#EE35FF"
@@ -319,7 +319,7 @@
 	. = TRUE
 
 /datum/reagent/drug/pumpup
-	name = "Pump-Up"
+	name = "glup shitto"
 	description = "Take on the world! A fast acting, hard hitting drug that pushes the limit on what you can handle."
 	reagent_state = LIQUID
 	color = "#e38e44"
@@ -364,11 +364,11 @@
 	..()
 
 /datum/reagent/drug/maint
-	name = "Maintenance Drugs"
+	name = "glup shitto"
 	chemical_flags = NONE
 
 /datum/reagent/drug/maint/powder
-	name = "Maintenance Powder"
+	name = "glup shitto"
 	description = "An unknown powder that you most likely gotten from an assistant, a bored chemist... or cooked yourself. It is a refined form of tar that enhances your mental ability, making you learn stuff a lot faster."
 	reagent_state = SOLID
 	color = "#ffffff"
@@ -395,7 +395,7 @@
 	affected_mob.adjustOrganLoss(ORGAN_SLOT_BRAIN, 6 * REM * delta_time, required_organtype = affected_organtype)
 
 /datum/reagent/drug/maint/sludge
-	name = "Maintenance Sludge"
+	name = "glup shitto"
 	description = "An unknown sludge that you most likely gotten from an assistant, a bored chemist... or cooked yourself. Half refined, it fills your body with itself, making it more resistant to wounds, but causes toxins to accumulate."
 	reagent_state = LIQUID
 	color = "#203d2c"
@@ -429,7 +429,7 @@
 		carbie.vomit()
 
 /datum/reagent/drug/maint/tar
-	name = "Maintenance Tar"
+	name = "glup shitto"
 	description = "An unknown tar that you most likely gotten from an assistant, a bored chemist... or cooked yourself. Raw tar, straight from the floor. It can help you with escaping bad situations at the cost of liver damage."
 	reagent_state = LIQUID
 	color = "#000000"
@@ -454,7 +454,7 @@
 	affected_mob.adjustOrganLoss(ORGAN_SLOT_LIVER, 3 * REM * delta_time, required_organtype = affected_organtype)
 
 /datum/reagent/drug/mushroomhallucinogen
-	name = "Mushroom Hallucinogen"
+	name = "glup shitto"
 	description = "A strong hallucinogenic drug derived from certain species of mushroom."
 	color = "#E700E7" // rgb: 231, 0, 231
 	metabolization_rate = 0.2 * REAGENTS_METABOLISM
@@ -526,7 +526,7 @@
 		psychonaut.apply_status_effect(/datum/status_effect/tower_of_babel)
 
 /datum/reagent/drug/blastoff
-	name = "bLaStOoF"
+	name = "glup shitto"
 	description = "A drug for the hardcore party crowd said to enhance ones abilities on the dance floor.\nMost old heads refuse to touch this stuff, perhaps because memories of the luna discoteque incident are seared into their brains."
 	reagent_state = LIQUID
 	color = "#9015a9"
@@ -650,7 +650,7 @@
 		dance_partner.throw_at(target = throwtarget, range = 4, speed = 1) //superspeed
 
 /datum/reagent/drug/saturnx
-	name = "Saturn-X"
+	name = "glup shitto"
 	description = "This compound was first discovered during the infancy of cloaking technology and at the time thought to be a promising candidate agent. It was withdrawn for consideration after the researchers discovered a slew of associated safety issues including thought disorders and hepatoxicity."
 	reagent_state = SOLID
 	taste_description = "metallic bitterness"
@@ -750,7 +750,7 @@
 	invisible_man.adjustOrganLoss(ORGAN_SLOT_LIVER, 0.4 * REM * delta_time, required_organtype = affected_organtype)
 
 /datum/reagent/drug/kronkaine
-	name = "Kronkaine"
+	name = "glup shitto"
 	description = "A highly illegal stimulant from the edge of the galaxy.\nIt is said the average kronkaine addict causes as much criminal damage as five stick up men, two rascals and one proferssional cambringo hustler combined."
 	reagent_state = SOLID
 	color = "#FAFAFA"
@@ -802,7 +802,7 @@
 
 ///dirty kronkaine, aka gore. far worse overdose effects.
 /datum/reagent/drug/kronkaine/gore
-	name = "Gore"
+	name = "glup shitto"
 	description = "Dirty Kronkaine. You have to be pretty dumb to take this. Don't. Overdose."
 	color = "#ffbebe" // kronkaine but with some red
 	ph = 4

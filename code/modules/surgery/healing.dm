@@ -34,7 +34,7 @@
 			/datum/surgery_step/close)
 
 /datum/surgery_step/heal
-	name = "repair body (hemostat)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_HEMOSTAT = 100,
 		TOOL_SCREWDRIVER = 65,
@@ -129,23 +129,23 @@
 
 /***************************BRUTE***************************/
 /datum/surgery/healing/brute
-	name = "Tend Wounds (Bruises)"
+	name = "glup shitto"
 
 /datum/surgery/healing/brute/basic
-	name = "Tend Wounds (Bruises, Basic)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/brute/upgraded
 	healing_step_type = /datum/surgery_step/heal/brute/basic
 	desc = "A surgical procedure that provides basic treatment for a patient's brute traumas. Heals slightly more when the patient is severely injured."
 
 /datum/surgery/healing/brute/upgraded
-	name = "Tend Wounds (Bruises, Adv.)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/brute/upgraded/femto
 	requires_tech = TRUE
 	healing_step_type = /datum/surgery_step/heal/brute/upgraded
 	desc = "A surgical procedure that provides advanced treatment for a patient's brute traumas. Heals more when the patient is severely injured."
 
 /datum/surgery/healing/brute/upgraded/femto
-	name = "Tend Wounds (Bruises, Exp.)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/combo/upgraded/femto
 	requires_tech = TRUE
 	healing_step_type = /datum/surgery_step/heal/brute/upgraded/femto
@@ -181,7 +181,7 @@
 	return progress_text
 
 /datum/surgery_step/heal/brute/basic
-	name = "tend bruises (hemostat)"
+	name = "glup shitto"
 	brutehealing = 5
 	brute_multiplier = 0.07
 
@@ -195,23 +195,23 @@
 
 /***************************BURN***************************/
 /datum/surgery/healing/burn
-	name = "Tend Wounds (Burn)"
+	name = "glup shitto"
 
 /datum/surgery/healing/burn/basic
-	name = "Tend Wounds (Burn, Basic)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/burn/upgraded
 	healing_step_type = /datum/surgery_step/heal/burn/basic
 	desc = "A surgical procedure that provides basic treatment for a patient's burns. Heals slightly more when the patient is severely injured."
 
 /datum/surgery/healing/burn/upgraded
-	name = "Tend Wounds (Burn, Adv.)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/burn/upgraded/femto
 	requires_tech = TRUE
 	healing_step_type = /datum/surgery_step/heal/burn/upgraded
 	desc = "A surgical procedure that provides advanced treatment for a patient's burns. Heals more when the patient is severely injured."
 
 /datum/surgery/healing/burn/upgraded/femto
-	name = "Tend Wounds (Burn, Exp.)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/combo/upgraded/femto
 	requires_tech = TRUE
 	healing_step_type = /datum/surgery_step/heal/burn/upgraded/femto
@@ -246,7 +246,7 @@
 	return progress_text
 
 /datum/surgery_step/heal/burn/basic
-	name = "tend burn wounds (hemostat)"
+	name = "glup shitto"
 	burnhealing = 5
 	burn_multiplier = 0.07
 
@@ -263,21 +263,21 @@
 
 
 /datum/surgery/healing/combo
-	name = "Tend Wounds (Mixture, Basic)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/combo/upgraded
 	requires_tech = TRUE
 	healing_step_type = /datum/surgery_step/heal/combo
 	desc = "A surgical procedure that provides basic treatment for a patient's burns and brute traumas. Heals slightly more when the patient is severely injured."
 
 /datum/surgery/healing/combo/upgraded
-	name = "Tend Wounds (Mixture, Adv.)"
+	name = "glup shitto"
 	replaced_by = /datum/surgery/healing/combo/upgraded/femto
 	healing_step_type = /datum/surgery_step/heal/combo/upgraded
 	desc = "A surgical procedure that provides advanced treatment for a patient's burns and brute traumas. Heals more when the patient is severely injured."
 
 
 /datum/surgery/healing/combo/upgraded/femto //no real reason to type it like this except consistency, don't worry you're not missing anything
-	name = "Tend Wounds (Mixture, Exp.)"
+	name = "glup shitto"
 	replaced_by = null
 	healing_step_type = /datum/surgery_step/heal/combo/upgraded/femto
 	desc = "A surgical procedure that provides experimental treatment for a patient's burns and brute traumas. Heals considerably more when the patient is severely injured."
@@ -317,7 +317,7 @@
 	return progress_text
 
 /datum/surgery_step/heal/combo
-	name = "tend physical wounds (hemostat)"
+	name = "glup shitto"
 	brutehealing = 3
 	burnhealing = 3
 	brute_multiplier = 0.07

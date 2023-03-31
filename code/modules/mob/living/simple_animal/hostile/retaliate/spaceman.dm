@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/retaliate/spaceman
-	name = "Spaceman"
+	name = "glup shitto"
 	desc = "What in the actual hell..?"
 	icon_state = "old"
 	icon_living = "old"

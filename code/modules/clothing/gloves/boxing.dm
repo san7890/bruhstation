@@ -1,5 +1,5 @@
 /obj/item/clothing/gloves/boxing
-	name = "boxing gloves"
+	name = "glup shitto"
 	desc = "Because you really needed another excuse to punch your crewmates."
 	icon_state = "boxing"
 	greyscale_colors = "#f32110"

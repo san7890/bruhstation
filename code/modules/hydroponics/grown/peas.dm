@@ -1,6 +1,6 @@
 // Finally, peas. Base plant.
 /obj/item/seeds/peas
-	name = "pack of pea pods"
+	name = "glup shitto"
 	desc = "These seeds grows into vitamin rich peas!"
 	icon_state = "seed-peas"
 	species = "peas"
@@ -19,7 +19,7 @@
 
 /obj/item/food/grown/peas
 	seed = /obj/item/seeds/peas
-	name = "peapod"
+	name = "glup shitto"
 	desc = "Finally... peas."
 	icon_state = "peas"
 	foodtypes = VEGETABLES
@@ -29,7 +29,7 @@
 
 // Laughin' Peas
 /obj/item/seeds/peas/laugh
-	name = "pack of laughin' peas"
+	name = "glup shitto"
 	desc = "These seeds give off a very soft purple glow.. they should grow into Laughin' Peas."
 	icon_state = "seed-laughpeas"
 	species = "laughpeas"
@@ -50,7 +50,7 @@
 
 /obj/item/food/grown/laugh
 	seed = /obj/item/seeds/peas/laugh
-	name = "pod of laughin' peas"
+	name = "glup shitto"
 	desc = "Ridens Cicer, guaranteed to improve your mood dramatically upon consumption!"
 	icon_state = "laughpeas"
 	foodtypes = VEGETABLES
@@ -61,7 +61,7 @@
 
 // World Peas - Peace at last, peace at last...
 /obj/item/seeds/peas/laugh/peace
-	name = "pack of world peas"
+	name = "glup shitto"
 	desc = "These rather large seeds give off a soothing blue glow..."
 	icon_state = "seed-worldpeas"
 	species = "worldpeas"
@@ -83,7 +83,7 @@
 
 /obj/item/food/grown/peace
 	seed = /obj/item/seeds/peas/laugh/peace
-	name = "cluster of world peas"
+	name = "glup shitto"
 	desc = "A plant discovered through extensive genetic engineering, and iterative graft work. It's rumored to bring peace to any who consume it. In the wider AgSci community, it's attained the nickname of 'Pax Mundi'." //at last... world peas. I'm not sorry.
 	icon_state = "worldpeas"
 	bite_consumption_mod = 2

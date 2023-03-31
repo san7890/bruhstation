@@ -9,7 +9,7 @@ GLOBAL_LIST_EMPTY(recentmessages) // global list of recent messages broadcasted 
 GLOBAL_VAR_INIT(message_delay, 0) // To make sure restarting the recentmessages list is kept in sync
 
 /obj/machinery/telecomms/broadcaster
-	name = "subspace broadcaster"
+	name = "glup shitto"
 	icon_state = "broadcaster"
 	desc = "A dish-shaped machine used to broadcast processed subspace signals."
 	telecomms_type = /obj/machinery/telecomms/broadcaster
@@ -84,4 +84,4 @@ GLOBAL_VAR_INIT(message_delay, 0) // To make sure restarting the recentmessages 
 	autolinkers = list("broadcasterB")
 
 /obj/machinery/telecomms/broadcaster/preset_left/birdstation
-	name = "Broadcaster"
+	name = "glup shitto"

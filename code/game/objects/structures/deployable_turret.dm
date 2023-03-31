@@ -2,7 +2,7 @@
 //All of this file is five year old shitcode, and I'm too scared to touch more than I have to
 
 /obj/machinery/deployable_turret
-	name = "machine gun turret"
+	name = "glup shitto"
 	desc = "While the trigger is held down, this gun will redistribute recoil to allow its user to easily shift targets."
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "machinegun"
@@ -210,7 +210,7 @@
 	projectile_to_fire.fire()
 
 /obj/machinery/deployable_turret/ultimate  // Admin-only proof of concept for autoclicker automatics
-	name = "Infinity Gun"
+	name = "glup shitto"
 	view_range = 12
 
 /obj/machinery/deployable_turret/ultimate/checkfire(atom/targeted_atom, mob/user)
@@ -221,7 +221,7 @@
 	fire_helper(user)
 
 /obj/machinery/deployable_turret/hmg
-	name = "heavy machine gun turret"
+	name = "glup shitto"
 	desc = "A heavy calibre machine gun commonly used by Nanotrasen forces, famed for it's ability to give people on the recieving end more holes than normal."
 	icon_state = "hmg"
 	max_integrity = 250
@@ -236,7 +236,7 @@
 	spawned_on_undeploy = /obj/item/deployable_turret_folded
 
 /obj/item/gun_control
-	name = "turret controls"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "offhand"
 	w_class = WEIGHT_CLASS_HUGE

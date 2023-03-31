@@ -1,5 +1,5 @@
 /datum/blobstrain/reagent/replicating_foam
-	name = "Replicating Foam"
+	name = "glup shitto"
 	description = "will do medium brute damage and occasionally expand again when expanding."
 	shortdesc = "will do medium brute damage."
 	effectdesc = "will also expand when attacked with burn damage, but takes more brute damage."
@@ -26,7 +26,7 @@
 		newB.expand(null, null, 0) //do it again!
 
 /datum/reagent/blob/replicating_foam
-	name = "Replicating Foam"
+	name = "glup shitto"
 	taste_description = "duplication"
 	color = "#7B5A57"
 

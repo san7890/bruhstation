@@ -1,5 +1,5 @@
 /datum/brain_trauma/hypnosis
-	name = "Hypnosis"
+	name = "glup shitto"
 	desc = "Patient's unconscious is completely enthralled by a word or sentence, focusing their thoughts and actions on it."
 	scan_desc = "looping thought pattern"
 	gain_text = ""

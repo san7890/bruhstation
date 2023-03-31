@@ -35,7 +35,7 @@ Difficulty: Hard
 */
 
 /mob/living/simple_animal/hostile/megafauna/hierophant
-	name = "hierophant"
+	name = "glup shitto"
 	desc = "A massive metal club that hangs in the air as though waiting. It'll make you dance to its beat."
 	health = 2500
 	maxHealth = 2500
@@ -96,28 +96,28 @@ Difficulty: Hard
 	. = ..()
 
 /datum/action/innate/megafauna_attack/blink
-	name = "Blink To Target"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	chosen_message = "<span class='colossus'>You are now blinking to your target.</span>"
 	chosen_attack_num = 1
 
 /datum/action/innate/megafauna_attack/chaser_swarm
-	name = "Chaser Swarm"
+	name = "glup shitto"
 	button_icon = 'icons/effects/effects.dmi'
 	button_icon_state = "hierophant_squares_indefinite"
 	chosen_message = "<span class='colossus'>You are firing a chaser swarm at your target.</span>"
 	chosen_attack_num = 2
 
 /datum/action/innate/megafauna_attack/cross_blasts
-	name = "Cross Blasts"
+	name = "glup shitto"
 	button_icon = 'icons/effects/effects.dmi'
 	button_icon_state = "hierophant_blast_indefinite"
 	chosen_message = "<span class='colossus'>You are now firing cross blasts at your target.</span>"
 	chosen_attack_num = 3
 
 /datum/action/innate/megafauna_attack/blink_spam
-	name = "Blink Chase"
+	name = "glup shitto"
 	button_icon = 'icons/obj/lavaland/artefacts.dmi'
 	button_icon_state = "hierophant_club_ready_beacon"
 	chosen_message = "<span class='colossus'>You are now repeatedly blinking at your target.</span>"
@@ -506,7 +506,7 @@ Difficulty: Hard
 
 //Hierophant overlays
 /obj/effect/temp_visual/hierophant
-	name = "vortex energy"
+	name = "glup shitto"
 	layer = BELOW_MOB_LAYER
 	plane = GAME_PLANE
 	var/mob/living/caster //who made this, anyway
@@ -529,7 +529,7 @@ Difficulty: Hard
 		M.gets_drilled(caster)
 
 /obj/effect/temp_visual/hierophant/wall //smoothing and pooling were not friends, but pooling is dead.
-	name = "vortex wall"
+	name = "glup shitto"
 	icon = 'icons/turf/walls/hierophant_wall_temp.dmi'
 	icon_state = "hierophant_wall_temp-0"
 	base_icon_state = "hierophant_wall_temp"
@@ -649,7 +649,7 @@ Difficulty: Hard
 
 /obj/effect/temp_visual/hierophant/blast
 	icon_state = "hierophant_blast"
-	name = "vortex blast"
+	name = "glup shitto"
 	light_range = 2
 	light_power = 2
 	desc = "Get out of the way!"
@@ -730,7 +730,7 @@ Difficulty: Hard
 
 /obj/effect/temp_visual/hierophant/blast/visual
 	icon_state = "hierophant_blast"
-	name = "vortex blast"
+	name = "glup shitto"
 	light_range = 2
 	light_power = 2
 	desc = "Get out of the way!"
@@ -742,7 +742,7 @@ Difficulty: Hard
 	playsound(src_turf,'sound/magic/blind.ogg', 125, TRUE, -5)
 
 /obj/effect/hierophant
-	name = "hierophant beacon"
+	name = "glup shitto"
 	desc = "A strange beacon, allowing mass teleportation for those able to use it."
 	icon = 'icons/obj/lavaland/artefacts.dmi'
 	icon_state = "hierophant_tele_off"

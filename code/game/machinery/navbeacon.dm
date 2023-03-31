@@ -6,7 +6,7 @@
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "navbeacon0-f"
 	base_icon_state = "navbeacon"
-	name = "navigation beacon"
+	name = "glup shitto"
 	desc = "A radio beacon used for bot navigation."
 	layer = LOW_OBJ_LAYER
 	max_integrity = 500

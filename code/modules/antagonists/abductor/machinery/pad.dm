@@ -1,5 +1,5 @@
 /obj/machinery/abductor/pad
-	name = "Alien Telepad"
+	name = "glup shitto"
 	desc = "Use this to transport to and from the humans' habitat."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "alien-pad-idle"
@@ -51,7 +51,7 @@
 	addtimer(CALLBACK(src, PROC_REF(doPadToLoc), place), 80)
 
 /obj/effect/temp_visual/teleport_abductor
-	name = "Huh"
+	name = "glup shitto"
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "teleport"
 	duration = 80

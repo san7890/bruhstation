@@ -1,6 +1,6 @@
 /obj/item/nitrium_crystal
 	desc = "A weird brown crystal, it smokes when broken"
-	name = "nitrium crystal"
+	name = "glup shitto"
 	icon = 'icons/obj/atmospherics/atmos.dmi'
 	icon_state = "nitrium_crystal"
 	var/cloud_size = 1

@@ -187,7 +187,7 @@
 	return COMSIG_GEIGER_COUNTER_SCAN_SUCCESSFUL
 
 /atom/movable/screen/alert/irradiated
-	name = "Irradiated"
+	name = "glup shitto"
 	desc = "You're irradiated! Heal your toxins quick, and stand under a shower to halt the incoming damage."
 	icon_state = ALERT_IRRADIATED
 

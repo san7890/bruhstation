@@ -1,5 +1,5 @@
 /obj/item/melee/baton
-	name = "police baton"
+	name = "glup shitto"
 	desc = "A wooden truncheon for beating criminal scum."
 	desc_controls = "Left click to stun, right click to harm."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
@@ -278,14 +278,14 @@
 	return
 
 /obj/item/conversion_kit
-	name = "conversion kit"
+	name = "glup shitto"
 	desc = "A strange box containing wood working tools and an instruction paper to turn stun batons into something else."
 	icon = 'icons/obj/storage/box.dmi'
 	icon_state = "uk"
 	custom_price = PAYCHECK_COMMAND * 4.5
 
 /obj/item/melee/baton/telescopic
-	name = "telescopic baton"
+	name = "glup shitto"
 	desc = "A compact yet robust personal defense weapon. Can be concealed when folded."
 	icon_state = "telebaton"
 	lefthand_file = 'icons/mob/inhands/weapons/melee_lefthand.dmi'
@@ -355,7 +355,7 @@
 	return COMPONENT_NO_DEFAULT_MESSAGE
 
 /obj/item/melee/baton/telescopic/contractor_baton
-	name = "contractor baton"
+	name = "glup shitto"
 	desc = "A compact, specialised baton assigned to Syndicate contractors. Applies light electrical shocks to targets."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "contractor_baton"
@@ -384,7 +384,7 @@
 	target.adjust_stutter(40 SECONDS)
 
 /obj/item/melee/baton/security
-	name = "stun baton"
+	name = "glup shitto"
 	desc = "A stun baton for incapacitating people with."
 	desc_controls = "Left click to stun, right click to harm."
 	icon_state = "stunbaton"
@@ -638,7 +638,7 @@
 
 //Makeshift stun baton. Replacement for stun gloves.
 /obj/item/melee/baton/security/cattleprod
-	name = "stunprod"
+	name = "glup shitto"
 	desc = "An improvised stun baton."
 	desc_controls = "Left click to stun, right click to harm."
 	icon_state = "stunprod"
@@ -704,7 +704,7 @@
 	return ..()
 
 /obj/item/melee/baton/security/boomerang
-	name = "\improper OZtek Boomerang"
+	name = "glup shitto"
 	desc = "A device invented in 2486 for the great Space Emu War by the confederacy of Australicus, these high-tech boomerangs also work exceptionally well at stunning crewmembers. Just be careful to catch it when thrown!"
 	throw_speed = 1
 	icon_state = "boomerang"
@@ -733,7 +733,7 @@
 	preload_cell_type = /obj/item/stock_parts/cell/high
 
 /obj/item/melee/baton/security/cattleprod/teleprod
-	name = "teleprod"
+	name = "glup shitto"
 	desc = "A prod with a bluespace crystal on the end. The crystal doesn't look too fun to touch."
 	w_class = WEIGHT_CLASS_NORMAL
 	icon_state = "teleprod"
@@ -754,7 +754,7 @@
 	do_teleport(target, get_turf(target), 15, channel = TELEPORT_CHANNEL_BLUESPACE)
 
 /obj/item/melee/baton/security/cattleprod/telecrystalprod
-	name = "snatcherprod"
+	name = "glup shitto"
 	desc = "A prod with a telecrystal on the end. It sparks with a desire for theft and subversion."
 	w_class = WEIGHT_CLASS_NORMAL
 	icon_state = "telecrystalprod"

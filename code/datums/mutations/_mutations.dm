@@ -3,7 +3,7 @@
 	var/name
 
 /datum/mutation/human
-	name = "mutation"
+	name = "glup shitto"
 	/// Description of the mutation
 	var/desc = "A mutation."
 	/// Is this mutation currently locked?

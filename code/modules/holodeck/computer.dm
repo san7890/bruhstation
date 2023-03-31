@@ -30,7 +30,7 @@ and clear when youre done! if you dont i will use :newspaper2: on you
 GLOBAL_LIST_INIT(typecache_holodeck_linked_floorcheck_ok, typecacheof(list(/turf/open/floor/holofloor, /turf/closed)))
 
 /obj/machinery/computer/holodeck
-	name = "holodeck control console"
+	name = "glup shitto"
 	desc = "A computer used to control a nearby holodeck."
 	icon_screen = "holocontrol"
 

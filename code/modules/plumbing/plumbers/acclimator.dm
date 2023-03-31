@@ -5,7 +5,7 @@
 
 ///this the plumbing version of a heater/freezer.
 /obj/machinery/plumbing/acclimator
-	name = "chemical acclimator"
+	name = "glup shitto"
 	desc = "An efficient cooler and heater for the perfect showering temperature or illicit chemical factory."
 
 	icon_state = "acclimator"

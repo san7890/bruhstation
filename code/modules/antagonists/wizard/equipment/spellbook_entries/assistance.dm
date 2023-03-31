@@ -1,40 +1,40 @@
 // Wizard spells that assist the caster in some way
 /datum/spellbook_entry/summonitem
-	name = "Summon Item"
+	name = "glup shitto"
 	desc = "Recalls a previously marked item to your hand from anywhere in the universe."
 	spell_type = /datum/action/cooldown/spell/summonitem
 	category = "Assistance"
 	cost = 1
 
 /datum/spellbook_entry/charge
-	name = "Charge"
+	name = "glup shitto"
 	desc = "This spell can be used to recharge a variety of things in your hands, from magical artifacts to electrical components. A creative wizard can even use it to grant magical power to a fellow magic user."
 	spell_type = /datum/action/cooldown/spell/charge
 	category = "Assistance"
 	cost = 1
 
 /datum/spellbook_entry/shapeshift
-	name = "Wild Shapeshift"
+	name = "glup shitto"
 	desc = "Take on the shape of another for a time to use their natural abilities. Once you've made your choice it cannot be changed."
 	spell_type = /datum/action/cooldown/spell/shapeshift/wizard
 	category = "Assistance"
 	cost = 1
 
 /datum/spellbook_entry/tap
-	name = "Soul Tap"
+	name = "glup shitto"
 	desc = "Fuel your spells using your own soul!"
 	spell_type = /datum/action/cooldown/spell/tap
 	category = "Assistance"
 	cost = 1
 
 /datum/spellbook_entry/item/staffanimation
-	name = "Staff of Animation"
+	name = "glup shitto"
 	desc = "An arcane staff capable of shooting bolts of eldritch energy which cause inanimate objects to come to life. This magic doesn't affect machines."
 	item_path = /obj/item/gun/magic/staff/animate
 	category = "Assistance"
 
 /datum/spellbook_entry/item/soulstones
-	name = "Soulstone Shard Kit"
+	name = "glup shitto"
 	desc = "Soul Stone Shards are ancient tools capable of capturing and harnessing the spirits of the dead and dying. \
 		The spell Artificer allows you to create arcane machines for the captured souls to pilot."
 	item_path = /obj/item/storage/belt/soulstone/full
@@ -53,27 +53,27 @@
 	bonus_spell.Grant(user)
 
 /datum/spellbook_entry/item/necrostone
-	name = "A Necromantic Stone"
+	name = "glup shitto"
 	desc = "A Necromantic stone is able to resurrect three dead individuals as skeletal thralls for you to command."
 	item_path = /obj/item/necromantic_stone
 	category = "Assistance"
 
 /datum/spellbook_entry/item/contract
-	name = "Contract of Apprenticeship"
+	name = "glup shitto"
 	desc = "A magical contract binding an apprentice wizard to your service, using it will summon them to your side."
 	item_path = /obj/item/antag_spawner/contract
 	category = "Assistance"
 	refundable = TRUE
 
 /datum/spellbook_entry/item/guardian
-	name = "Guardian Deck"
+	name = "glup shitto"
 	desc = "A deck of guardian tarot cards, capable of binding a personal guardian to your body. There are multiple types of guardian available, but all of them will transfer some amount of damage to you. \
 	It would be wise to avoid buying these with anything capable of causing you to swap bodies with others."
 	item_path = /obj/item/guardiancreator/choose/wizard
 	category = "Assistance"
 
 /datum/spellbook_entry/item/bloodbottle
-	name = "Bottle of Blood"
+	name = "glup shitto"
 	desc = "A bottle of magically infused blood, the smell of which will \
 		attract extradimensional beings when broken. Be careful though, \
 		the kinds of creatures summoned by blood magic are indiscriminate \
@@ -84,7 +84,7 @@
 	refundable = TRUE
 
 /datum/spellbook_entry/item/hugbottle
-	name = "Bottle of Tickles"
+	name = "glup shitto"
 	desc = "A bottle of magically infused fun, the smell of which will \
 		attract adorable extradimensional beings when broken. These beings \
 		are similar to slaughter demons, but they do not permanently kill \

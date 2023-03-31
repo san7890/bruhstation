@@ -9,7 +9,7 @@
 
 /datum/symptom/dizzy // Not the egg
 
-	name = "Dizziness"
+	name = "glup shitto"
 	desc = "The virus causes inflammation of the vestibular system, leading to bouts of dizziness."
 	illness = "Motion Sickness"
 	resistance = -2

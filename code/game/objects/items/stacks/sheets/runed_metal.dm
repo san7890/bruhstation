@@ -71,7 +71,7 @@ GLOBAL_LIST_INIT(runed_metal_recipes, list( \
 ))
 
 /obj/item/stack/sheet/runed_metal
-	name = "runed metal"
+	name = "glup shitto"
 	desc = "Sheets of cold metal with shifting inscriptions writ upon them."
 	singular_name = "runed metal sheet"
 	icon_state = "sheet-runed"

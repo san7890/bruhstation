@@ -9,7 +9,7 @@
 */
 
 /obj/machinery/telecomms/hub
-	name = "telecommunication hub"
+	name = "glup shitto"
 	icon_state = "hub"
 	desc = "A mighty piece of hardware used to send/receive massive amounts of data."
 	telecomms_type = /obj/machinery/telecomms/hub

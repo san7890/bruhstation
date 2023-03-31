@@ -80,18 +80,18 @@
 		CHECK_TICK
 
 /turf/open/genturf
-	name = "ungenerated turf"
+	name = "glup shitto"
 	desc = "If you see this, and you're not a ghost, yell at coders"
 	icon = 'icons/turf/debug.dmi'
 	icon_state = "genturf"
 
 /turf/open/genturf/alternative //currently used for edge cases in which you want a certain type of map generation intermingled with other genturfs
-	name = "alternative ungenerated turf"
+	name = "glup shitto"
 	desc = "If you see this, and you're not a ghost, yell at coders pretty loudly"
 	icon_state = "genturf_alternative"
 
 /area/mine/planetgeneration
-	name = "planet generation area"
+	name = "glup shitto"
 	static_lighting = FALSE
 	base_lighting_alpha = 255
 

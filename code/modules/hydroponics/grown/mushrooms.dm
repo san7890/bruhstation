@@ -1,5 +1,5 @@
 /obj/item/food/grown/mushroom
-	name = "mushroom"
+	name = "glup shitto"
 	bite_consumption_mod = 3
 	foodtypes = VEGETABLES
 	wine_power = 40
@@ -8,7 +8,7 @@
 
 // Reishi
 /obj/item/seeds/reishi
-	name = "pack of reishi mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into something medicinal and relaxing."
 	icon_state = "mycelium-reishi"
 	species = "reishi"
@@ -29,13 +29,13 @@
 
 /obj/item/food/grown/mushroom/reishi
 	seed = /obj/item/seeds/reishi
-	name = "reishi"
+	name = "glup shitto"
 	desc = "<I>Ganoderma lucidum</I>: A special fungus known for its medicinal and stress relieving properties."
 	icon_state = "reishi"
 
 // Fly Amanita
 /obj/item/seeds/amanita
-	name = "pack of fly amanita mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into something horrible."
 	icon_state = "mycelium-amanita"
 	species = "amanita"
@@ -56,13 +56,13 @@
 
 /obj/item/food/grown/mushroom/amanita
 	seed = /obj/item/seeds/amanita
-	name = "fly amanita"
+	name = "glup shitto"
 	desc = "<I>Amanita Muscaria</I>: Learn poisonous mushrooms by heart. Only pick mushrooms you know."
 	icon_state = "amanita"
 
 // Destroying Angel
 /obj/item/seeds/angel
-	name = "pack of destroying angel mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into something devastating."
 	icon_state = "mycelium-angel"
 	species = "angel"
@@ -83,14 +83,14 @@
 
 /obj/item/food/grown/mushroom/angel
 	seed = /obj/item/seeds/angel
-	name = "destroying angel"
+	name = "glup shitto"
 	desc = "<I>Amanita Virosa</I>: Deadly poisonous basidiomycete fungus filled with alpha amatoxins."
 	icon_state = "angel"
 	wine_power = 60
 
 // Liberty Cap
 /obj/item/seeds/liberty
-	name = "pack of liberty-cap mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into liberty-cap mushrooms."
 	icon_state = "mycelium-liberty"
 	species = "liberty"
@@ -109,14 +109,14 @@
 
 /obj/item/food/grown/mushroom/libertycap
 	seed = /obj/item/seeds/liberty
-	name = "liberty-cap"
+	name = "glup shitto"
 	desc = "<I>Psilocybe Semilanceata</I>: Liberate yourself!"
 	icon_state = "libertycap"
 	wine_power = 80
 
 // Plump Helmet
 /obj/item/seeds/plump
-	name = "pack of plump-helmet mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into helmets... maybe."
 	icon_state = "mycelium-plump"
 	species = "plump"
@@ -135,14 +135,14 @@
 
 /obj/item/food/grown/mushroom/plumphelmet
 	seed = /obj/item/seeds/plump
-	name = "plump-helmet"
+	name = "glup shitto"
 	desc = "<I>Plumus Hellmus</I>: Plump, soft and s-so inviting~"
 	icon_state = "plumphelmet"
 	distill_reagent = /datum/reagent/consumable/ethanol/manly_dorf
 
 // Walking Mushroom
 /obj/item/seeds/plump/walkingmushroom
-	name = "pack of walking mushroom mycelium"
+	name = "glup shitto"
 	desc = "This mycelium will grow into huge stuff!"
 	icon_state = "mycelium-walkingmushroom"
 	species = "walkingmushroom"
@@ -161,14 +161,14 @@
 
 /obj/item/food/grown/mushroom/walkingmushroom
 	seed = /obj/item/seeds/plump/walkingmushroom
-	name = "walking mushroom"
+	name = "glup shitto"
 	desc = "<I>Plumus Locomotus</I>: The beginning of the great walk."
 	icon_state = "walkingmushroom"
 	can_distill = FALSE
 
 // Chanterelle
 /obj/item/seeds/chanter
-	name = "pack of chanterelle mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into chanterelle mushrooms."
 	icon_state = "mycelium-chanter"
 	species = "chanter"
@@ -190,13 +190,13 @@
 
 /obj/item/food/grown/mushroom/chanterelle
 	seed = /obj/item/seeds/chanter
-	name = "chanterelle cluster"
+	name = "glup shitto"
 	desc = "<I>Cantharellus Cibarius</I>: These jolly yellow little shrooms sure look tasty!"
 	icon_state = "chanterelle"
 
 //Jupiter Cup
 /obj/item/seeds/chanter/jupitercup
-	name = "pack of jupiter cup mycelium"
+	name = "glup shitto"
 	desc = "This mycelium grows into jupiter cups. Zeus would be envious at the power at your fingertips."
 	icon_state = "mycelium-jupitercup"
 	species = "jupitercup"
@@ -215,13 +215,13 @@
 
 /obj/item/food/grown/mushroom/jupitercup
 	seed = /obj/item/seeds/chanter/jupitercup
-	name = "jupiter cup"
+	name = "glup shitto"
 	desc = "A strange red mushroom, its surface is moist and slick. You wonder how many tiny worms have met their fate inside."
 	icon_state = "jupitercup"
 
 // Glowshroom
 /obj/item/seeds/glowshroom
-	name = "pack of glowshroom mycelium"
+	name = "glup shitto"
 	desc = "This mycelium -glows- into mushrooms!"
 	icon_state = "mycelium-glowshroom"
 	species = "glowshroom"
@@ -244,7 +244,7 @@
 
 /obj/item/food/grown/mushroom/glowshroom
 	seed = /obj/item/seeds/glowshroom
-	name = "glowshroom cluster"
+	name = "glup shitto"
 	desc = "<I>Mycena Bregprox</I>: This species of mushroom glows in the dark."
 	icon_state = "glowshroom"
 	var/effect_path = /obj/structure/glowshroom
@@ -276,7 +276,7 @@
 
 // Glowcap
 /obj/item/seeds/glowshroom/glowcap
-	name = "pack of glowcap mycelium"
+	name = "glup shitto"
 	desc = "This mycelium -powers- into mushrooms!"
 	icon_state = "mycelium-glowcap"
 	species = "glowcap"
@@ -291,7 +291,7 @@
 
 /obj/item/food/grown/mushroom/glowshroom/glowcap
 	seed = /obj/item/seeds/glowshroom/glowcap
-	name = "glowcap cluster"
+	name = "glup shitto"
 	desc = "<I>Mycena Ruthenia</I>: This species of mushroom glows in the dark, but isn't actually bioluminescent. They're warm to the touch..."
 	icon_state = "glowcap"
 	effect_path = /obj/structure/glowshroom/glowcap
@@ -300,7 +300,7 @@
 
 //Shadowshroom
 /obj/item/seeds/glowshroom/shadowshroom
-	name = "pack of shadowshroom mycelium"
+	name = "glup shitto"
 	desc = "This mycelium will grow into something shadowy."
 	icon_state = "mycelium-shadowshroom"
 	species = "shadowshroom"
@@ -316,7 +316,7 @@
 
 /obj/item/food/grown/mushroom/glowshroom/shadowshroom
 	seed = /obj/item/seeds/glowshroom/shadowshroom
-	name = "shadowshroom cluster"
+	name = "glup shitto"
 	desc = "<I>Mycena Umbra</I>: This species of mushroom emits shadow instead of light."
 	icon_state = "shadowshroom"
 	effect_path = /obj/structure/glowshroom/shadowshroom
@@ -329,7 +329,7 @@
 		investigate_log("was planted by [key_name(user)] at [AREACOORD(user)]", INVESTIGATE_BOTANY)
 
 /obj/item/seeds/odious_puffball
-	name = "pack of odious pullball spores"
+	name = "glup shitto"
 	desc = "These spores reek! Disgusting."
 	icon_state = "seed-odiouspuffball"
 	species = "odiouspuffball"
@@ -351,7 +351,7 @@
 
 /obj/item/food/grown/mushroom/odious_puffball
 	seed = /obj/item/seeds/odious_puffball
-	name = "odious puffball"
+	name = "glup shitto"
 	desc = "<I>Lycoperdon Faetidus</I>: This puffball is considered a great nuisance not only because of the highly irritating nature of its spores, but also because of its considerable size and unsightly appearance."
 	icon_state = "odious_puffball"
 	tastes = list("rotten garlic" = 2, "mushroom" = 1, "spores" = 1)

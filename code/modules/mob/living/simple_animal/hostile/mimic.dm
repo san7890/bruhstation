@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/mimic
-	name = "crate"
+	name = "glup shitto"
 	desc = "A rectangular steel crate."
 	icon = 'icons/obj/storage/crates.dmi'
 	icon_state = "crate"
@@ -402,7 +402,7 @@ GLOBAL_LIST_INIT(animatable_blacklist, list(/obj/structure/table, /obj/structure
 	overlay_icon_state = "bg_default_border"
 
 /datum/action/innate/mimic/lock
-	name = "Lock/Unlock"
+	name = "glup shitto"
 	desc = "Toggle preventing yourself from being opened or closed."
 
 /datum/action/innate/mimic/lock/Activate()

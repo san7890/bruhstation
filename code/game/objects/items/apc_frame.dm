@@ -1,6 +1,6 @@
 // APC HULL
 /obj/item/wallframe/apc
-	name = "\improper APC frame"
+	name = "glup shitto"
 	desc = "Used for repairing or building APCs."
 	icon_state = "apc"
 	result_path = /obj/machinery/power/apc/auto_name

@@ -204,7 +204,7 @@
 #undef IS_OPEN
 
 /obj/item/assembly/trapdoor
-	name = "trapdoor controller"
+	name = "glup shitto"
 	desc = "A sinister-looking controller for a trapdoor."
 	icon_state = "trapdoor"
 	///if the trapdoor isn't linked it will try to link on pulse, this shouldn't be spammable
@@ -256,7 +256,7 @@
  * This base type is an empty shell that needs the assembly added to it first to work.
  */
 /obj/item/trapdoor_remote
-	name = "trapdoor remote"
+	name = "glup shitto"
 	desc = "A small machine that interfaces with a trapdoor controller for easy use."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "trapdoor_remote"
@@ -339,7 +339,7 @@
 
 /// trapdoor parts kit, allows trapdoors to be made by players
 /obj/item/trapdoor_kit
-	name = "trapdoor parts kit"
+	name = "glup shitto"
 	desc = "A kit containing all the parts needed to build a trapdoor. Can only be used on open space."
 	icon = 'icons/obj/weapons/improvised.dmi'
 	icon_state = "kitsuitcase"

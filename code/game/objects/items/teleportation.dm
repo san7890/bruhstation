@@ -11,7 +11,7 @@
  * Locator
  */
 /obj/item/locator
-	name = "bluespace locator"
+	name = "glup shitto"
 	desc = "Used to track portable teleportation beacons and targets with embedded tracking implants."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "locator"
@@ -98,7 +98,7 @@
  * Hand-tele
  */
 /obj/item/hand_tele
-	name = "hand tele"
+	name = "glup shitto"
 	desc = "A portable item using blue-space technology. One of the buttons opens a portal, the other re-opens your last destination."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "hand_tele"
@@ -315,7 +315,7 @@
 		return BRUTELOSS
 
 /obj/item/syndicate_teleporter
-	name = "experimental teleporter"
+	name = "glup shitto"
 	desc = "A reverse-engineered version of the Nanotrasen portable handheld teleporter. Lacks the advanced safety features of its counterpart. A three-headed serpent can be seen on the back."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "syndi-tele"
@@ -491,7 +491,7 @@
 		to_chat(victim, span_warning("[user] teleports into you, knocking you to the floor with the bluespace wave!"))
 
 /obj/item/paper/syndicate_teleporter
-	name = "Teleporter Guide"
+	name = "glup shitto"
 	default_raw_text = {"
 		<b>Instructions on your new prototype teleporter:</b><br>
 		<br>
@@ -505,7 +505,7 @@
 		"}
 
 /obj/item/storage/box/syndie_kit/syndicate_teleporter
-	name = "syndicate teleporter kit"
+	name = "glup shitto"
 
 /obj/item/storage/box/syndie_kit/syndicate_teleporter/PopulateContents()
 	new /obj/item/syndicate_teleporter(src)

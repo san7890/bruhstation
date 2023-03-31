@@ -1,5 +1,5 @@
 /obj/projectile/beam
-	name = "laser"
+	name = "glup shitto"
 	icon_state = "laser"
 	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
 	damage = 20
@@ -29,7 +29,7 @@
 
 //overclocked laser, does a bit more damage but has much higher wound power (-0 vs -20)
 /obj/projectile/beam/laser/hellfire
-	name = "hellfire laser"
+	name = "glup shitto"
 	wound_bonus = 0
 	damage = 25
 	speed = 0.6 // higher power = faster, that's how light works right
@@ -39,7 +39,7 @@
 	transform *= 2
 
 /obj/projectile/beam/laser/heavylaser
-	name = "heavy laser"
+	name = "glup shitto"
 	icon_state = "heavylaser"
 	damage = 40
 	tracer_type = /obj/effect/projectile/tracer/heavy_laser
@@ -61,16 +61,16 @@
 	armour_penetration = 50
 
 /obj/projectile/beam/practice
-	name = "practice laser"
+	name = "glup shitto"
 	damage = 0
 
 /obj/projectile/beam/scatter
-	name = "laser pellet"
+	name = "glup shitto"
 	icon_state = "scatterlaser"
 	damage = 5
 
 /obj/projectile/beam/xray
-	name = "\improper X-ray beam"
+	name = "glup shitto"
 	icon_state = "xray"
 	damage = 15
 	range = 15
@@ -84,7 +84,7 @@
 	impact_type = /obj/effect/projectile/impact/xray
 
 /obj/projectile/beam/disabler
-	name = "disabler beam"
+	name = "glup shitto"
 	icon_state = "omnilaser"
 	damage = 30
 	damage_type = STAMINA
@@ -101,7 +101,7 @@
 	damage = 15
 
 /obj/projectile/beam/pulse
-	name = "pulse"
+	name = "glup shitto"
 	icon_state = "u_laser"
 	damage = 50
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
@@ -123,7 +123,7 @@
 	damage = 30
 
 /obj/projectile/beam/pulse/heavy
-	name = "heavy pulse laser"
+	name = "glup shitto"
 	icon_state = "pulse1_bl"
 	projectile_piercing = ALL
 	var/pierce_hits = 2
@@ -135,7 +135,7 @@
 	..()
 
 /obj/projectile/beam/emitter
-	name = "emitter beam"
+	name = "glup shitto"
 	icon_state = "emitter"
 	damage = 30
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/green_laser
@@ -163,7 +163,7 @@
 	impact_light_color_override = COLOR_LIME
 
 /obj/projectile/beam/lasertag
-	name = "laser tag beam"
+	name = "glup shitto"
 	icon_state = "omnilaser"
 	hitsound = null
 	damage = 0
@@ -204,7 +204,7 @@
 
 //a shrink ray that shrinks stuff, which grows back after a short while.
 /obj/projectile/beam/shrink
-	name = "shrink ray"
+	name = "glup shitto"
 	icon_state = "blue_laser"
 	hitsound = 'sound/weapons/shrink_hit.ogg'
 	damage = 0

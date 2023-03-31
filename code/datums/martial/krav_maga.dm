@@ -1,12 +1,12 @@
 /datum/martial_art/krav_maga
-	name = "Krav Maga"
+	name = "glup shitto"
 	id = MARTIALART_KRAVMAGA
 	var/datum/action/neck_chop/neckchop = new/datum/action/neck_chop()
 	var/datum/action/leg_sweep/legsweep = new/datum/action/leg_sweep()
 	var/datum/action/lung_punch/lungpunch = new/datum/action/lung_punch()
 
 /datum/action/neck_chop
-	name = "Neck Chop - Injures the neck, stopping the victim from speaking for a while."
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "neckchop"
 
@@ -22,7 +22,7 @@
 		owner.mind.martial_art.streak = "neck_chop"
 
 /datum/action/leg_sweep
-	name = "Leg Sweep - Trips the victim, knocking them down for a brief moment."
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "legsweep"
 
@@ -38,7 +38,7 @@
 		owner.mind.martial_art.streak = "leg_sweep"
 
 /datum/action/lung_punch//referred to internally as 'quick choke'
-	name = "Lung Punch - Delivers a strong punch just above the victim's abdomen, constraining the lungs. The victim will be unable to breathe for a short time."
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "lungpunch"
 
@@ -176,7 +176,7 @@
 		style.remove(user)
 
 /obj/item/clothing/gloves/krav_maga/sec//more obviously named, given to sec
-	name = "krav maga gloves"
+	name = "glup shitto"
 	desc = "These gloves can teach you to perform Krav Maga using nanochips."
 	icon_state = "fightgloves"
 	greyscale_colors = "#c41e0d"
@@ -187,7 +187,7 @@
 	resistance_flags = NONE
 
 /obj/item/clothing/gloves/krav_maga/combatglovesplus
-	name = "combat gloves plus"
+	name = "glup shitto"
 	desc = "These tactical gloves are fireproof and electrically insulated, and through the use of nanochip technology will teach you the martial art of krav maga."
 	icon_state = "black"
 	greyscale_colors = "#2f2e31"

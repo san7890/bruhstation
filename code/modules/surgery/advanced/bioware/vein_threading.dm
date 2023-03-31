@@ -1,5 +1,5 @@
 /datum/surgery/advanced/bioware/vein_threading
-	name = "Vein Threading"
+	name = "glup shitto"
 	desc = "A surgical procedure which severely reduces the amount of blood lost in case of injury."
 	possible_locs = list(BODY_ZONE_CHEST)
 	steps = list(
@@ -15,7 +15,7 @@
 	bioware_target = BIOWARE_CIRCULATION
 
 /datum/surgery_step/thread_veins
-	name = "thread veins (hand)"
+	name = "glup shitto"
 	accept_hand = TRUE
 	time = 125
 
@@ -42,7 +42,7 @@
 	return ..()
 
 /datum/bioware/threaded_veins
-	name = "Threaded Veins"
+	name = "glup shitto"
 	desc = "The circulatory system is woven into a mesh, severely reducing the amount of blood lost from wounds."
 	mod_type = BIOWARE_CIRCULATION
 

@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(circuit_component)
-	name = "Circuit Components"
+	name = "glup shitto"
 	wait = 0.1 SECONDS
 	priority = FIRE_PRIORITY_DEFAULT
 	flags = SS_NO_INIT

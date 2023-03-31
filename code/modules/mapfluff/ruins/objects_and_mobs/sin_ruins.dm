@@ -1,7 +1,7 @@
 //These objects are used in the cardinal sin-themed ruins (i.e. Gluttony, Pride...)
 
 /obj/structure/cursed_slot_machine //Greed's slot machine: Used in the Greed ruin. Deals clone damage on each use, with a successful use giving a d20 of fate.
-	name = "greed's slot machine"
+	name = "glup shitto"
 	desc = "High stakes, high rewards."
 	icon = 'icons/obj/computer.dmi'
 	icon_state = "slots"
@@ -56,7 +56,7 @@
 	. += emissive_appearance(icon, overlay_state, src)
 
 /obj/structure/cursed_money
-	name = "bag of money"
+	name = "glup shitto"
 	desc = "RICH! YES! YOU KNEW IT WAS WORTH IT! YOU'RE RICH! RICH! RICH!"
 	icon = 'icons/obj/storage/storage.dmi'
 	icon_state = "moneybag"
@@ -87,7 +87,7 @@
 	qdel(src)
 
 /obj/effect/gluttony //Gluttony's wall: Used in the Gluttony ruin. Only lets the overweight through.
-	name = "gluttony's wall"
+	name = "glup shitto"
 	desc = "Only those who truly indulge may pass."
 	anchored = TRUE
 	density = TRUE
@@ -110,7 +110,7 @@
 //can't be bothered to do sloth right now, will make later
 
 /obj/item/knife/envy //Envy's knife: Found in the Envy ruin. Attackers take on the appearance of whoever they strike.
-	name = "envy's knife"
+	name = "glup shitto"
 	desc = "Their success will be yours."
 	icon = 'icons/obj/cult/items_and_weapons.dmi'
 	icon_state = "render"

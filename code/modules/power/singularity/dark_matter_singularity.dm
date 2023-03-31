@@ -3,7 +3,7 @@
 
 /// This type of singularity cannot grow as big, but it constantly hunts down living targets.
 /obj/singularity/dark_matter
-	name = "dark matter singularity"
+	name = "glup shitto"
 	desc = "<i>\"It is both beautiful and horrifying, \
 		a cosmic paradox that defies all logic. I can't \
 		take my eyes off it, even though I know it could \
@@ -45,7 +45,7 @@
 /obj/singularity/dark_matter/supermatter_upgrade()
 	var/datum/component/singularity/resolved_singularity = singularity_component.resolve()
 	resolved_singularity.chance_to_move_to_target += DARK_MATTER_SUPERMATTER_CHANCE_BONUS
-	name = "Dark Lord Singuloth"
+	name = "glup shitto"
 	desc = "You managed to make a singularity from dark matter, which makes no sense at all, and then you threw a supermatter into it? Are you fucking insane? Fuck it, praise Lord Singuloth."
 	consumed_supermatter = TRUE
 

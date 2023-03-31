@@ -1,7 +1,7 @@
 #define REAGENTS_BASE_VOLUME 100 // actual volume is REAGENTS_BASE_VOLUME plus REAGENTS_BASE_VOLUME * rating for each matterbin
 
 /obj/machinery/smoke_machine
-	name = "smoke machine"
+	name = "glup shitto"
 	desc = "A machine with a centrifuge installed into it. It produces smoke with any reagents you put into the machine."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "smoke0"

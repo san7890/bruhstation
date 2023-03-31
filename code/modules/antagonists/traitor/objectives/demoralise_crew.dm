@@ -3,7 +3,7 @@
 #define MAX_CREW_DEMORALISED 16
 
 /datum/traitor_objective_category/demoralise
-	name = "Demoralise Crew"
+	name = "glup shitto"
 	objectives = list(
 		/datum/traitor_objective/demoralise/poster = 2,
 		/datum/traitor_objective/demoralise/graffiti = 1,
@@ -11,7 +11,7 @@
 	weight = OBJECTIVE_WEIGHT_UNLIKELY
 
 /datum/traitor_objective/demoralise
-	name = "Debug your code."
+	name = "glup shitto"
 	description = "If you actually get this objective someone fucked up."
 
 	abstract_type = /datum/traitor_objective/demoralise

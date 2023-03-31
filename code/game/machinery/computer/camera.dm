@@ -1,7 +1,7 @@
 #define DEFAULT_MAP_SIZE 15
 
 /obj/machinery/computer/security
-	name = "security camera console"
+	name = "glup shitto"
 	desc = "Used to access the various cameras on the station."
 	icon_screen = "cameras"
 	icon_keyboard = "security_key"
@@ -202,7 +202,7 @@
 // SECURITY MONITORS
 
 /obj/machinery/computer/security/wooden_tv
-	name = "security camera monitor"
+	name = "glup shitto"
 	desc = "An old TV hooked into the station's camera network."
 	icon_state = "television"
 	icon_keyboard = null
@@ -210,7 +210,7 @@
 	pass_flags = PASSTABLE
 
 /obj/machinery/computer/security/mining
-	name = "outpost camera console"
+	name = "glup shitto"
 	desc = "Used to access the various cameras on the outpost."
 	icon_screen = "mining"
 	icon_keyboard = "mining_key"
@@ -218,25 +218,25 @@
 	circuit = /obj/item/circuitboard/computer/mining
 
 /obj/machinery/computer/security/research
-	name = "research camera console"
+	name = "glup shitto"
 	desc = "Used to access the various cameras in science."
 	network = list("rd")
 	circuit = /obj/item/circuitboard/computer/research
 
 /obj/machinery/computer/security/hos
-	name = "\improper Head of Security's camera console"
+	name = "glup shitto"
 	desc = "A custom security console with added access to the labor camp network."
 	network = list("ss13", "labor")
 	circuit = null
 
 /obj/machinery/computer/security/labor
-	name = "labor camp monitoring"
+	name = "glup shitto"
 	desc = "Used to access the various cameras on the labor camp."
 	network = list("labor")
 	circuit = null
 
 /obj/machinery/computer/security/qm
-	name = "\improper Quartermaster's camera console"
+	name = "glup shitto"
 	desc = "A console with access to the mining, auxiliary base and vault camera networks."
 	network = list("mine", "auxbase", "vault")
 	circuit = null

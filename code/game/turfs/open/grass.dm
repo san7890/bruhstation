@@ -1,5 +1,5 @@
 /turf/open/misc/grass
-	name = "grass"
+	name = "glup shitto"
 	desc = "A patch of grass."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "grass0"

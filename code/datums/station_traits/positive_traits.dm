@@ -3,7 +3,7 @@
 
 
 /datum/station_trait/lucky_winner
-	name = "Lucky winner"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 1
 	show_in_report = TRUE
@@ -32,7 +32,7 @@
 	new /obj/effect/pod_landingzone(T, toLaunch)
 
 /datum/station_trait/galactic_grant
-	name = "Galactic grant"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -43,7 +43,7 @@
 	cargo_bank.adjust_money(rand(2000, 5000))
 
 /datum/station_trait/premium_internals_box
-	name = "Premium internals boxes"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -51,7 +51,7 @@
 	trait_to_give = STATION_TRAIT_PREMIUM_INTERNALS
 
 /datum/station_trait/bountiful_bounties
-	name = "Bountiful bounties"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -61,7 +61,7 @@
 	SSeconomy.bounty_modifier *= 1.2
 
 /datum/station_trait/strong_supply_lines
-	name = "Strong supply lines"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -73,7 +73,7 @@
 	SSeconomy.pack_price_modifier *= 0.8
 
 /datum/station_trait/scarves
-	name = "Scarves"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -106,7 +106,7 @@
 
 
 /datum/station_trait/filled_maint
-	name = "Filled up maintenance"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -118,7 +118,7 @@
 	can_revert = FALSE
 
 /datum/station_trait/quick_shuttle
-	name = "Quick Shuttle"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE
@@ -130,7 +130,7 @@
 	SSshuttle.supply.callTime *= 0.5
 
 /datum/station_trait/deathrattle_department
-	name = "deathrattled department"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	show_in_report = TRUE
 	trait_flags = STATION_TRAIT_ABSTRACT
@@ -160,56 +160,56 @@
 
 
 /datum/station_trait/deathrattle_department/service
-	name = "Deathrattled Service"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_SERVICE
 	department_name = "Service"
 
 /datum/station_trait/deathrattle_department/cargo
-	name = "Deathrattled Cargo"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_CARGO
 	department_name = "Cargo"
 
 /datum/station_trait/deathrattle_department/engineering
-	name = "Deathrattled Engineering"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_ENGINEERING
 	department_name = "Engineering"
 
 /datum/station_trait/deathrattle_department/command
-	name = "Deathrattled Command"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_COMMAND
 	department_name = "Command"
 
 /datum/station_trait/deathrattle_department/science
-	name = "Deathrattled Science"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_SCIENCE
 	department_name = "Science"
 
 /datum/station_trait/deathrattle_department/security
-	name = "Deathrattled Security"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_SECURITY
 	department_name = "Security"
 
 /datum/station_trait/deathrattle_department/medical
-	name = "Deathrattled Medical"
+	name = "glup shitto"
 	trait_flags = NONE
 	weight = 1
 	department_to_apply_to = DEPARTMENT_BITFLAG_MEDICAL
 	department_name = "Medical"
 
 /datum/station_trait/deathrattle_all
-	name = "Deathrattled Station"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	show_in_report = TRUE
 	weight = 1
@@ -233,7 +233,7 @@
 
 
 /datum/station_trait/wallets
-	name = "Wallets!"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	show_in_report = TRUE
 	weight = 10
@@ -272,7 +272,7 @@
 		item.add_fingerprint(living_mob, ignoregloves = TRUE)
 
 /datum/station_trait/cybernetic_revolution
-	name = "Cybernetic Revolution"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	show_in_report = TRUE
 	weight = 1
@@ -335,7 +335,7 @@
 	cybernetic.Insert(spawned, special = TRUE, drop_if_replaced = FALSE)
 
 /datum/station_trait/luxury_escape_pods
-	name = "Luxury Escape Pods"
+	name = "glup shitto"
 	trait_type = STATION_TRAIT_POSITIVE
 	weight = 5
 	show_in_report = TRUE

@@ -9,7 +9,7 @@
 //Barricades/cover
 
 /obj/structure/barricade
-	name = "chest high wall"
+	name = "glup shitto"
 	desc = "Looks like this would make good cover."
 	anchored = TRUE
 	density = TRUE
@@ -53,7 +53,7 @@
 
 /////BARRICADE TYPES///////
 /obj/structure/barricade/wooden
-	name = "wooden barricade"
+	name = "glup shitto"
 	desc = "This space is blocked off by a wooden barricade."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "woodenbarricade"
@@ -95,7 +95,7 @@
 	return TOOL_ACT_TOOLTYPE_SUCCESS
 
 /obj/structure/barricade/wooden/crude
-	name = "crude plank barricade"
+	name = "glup shitto"
 	desc = "This space is blocked off by a crude assortment of planks."
 	icon_state = "woodenbarricade-old"
 	drop_amount = 1
@@ -112,7 +112,7 @@
 	new /obj/item/stack/sheet/mineral/wood(get_turf(src), drop_amount)
 
 /obj/structure/barricade/sandbags
-	name = "sandbags"
+	name = "glup shitto"
 	desc = "Bags of sand. Self explanatory."
 	icon = 'icons/obj/smooth_structures/sandbags.dmi'
 	icon_state = "sandbags-0"
@@ -130,7 +130,7 @@
 	AddElement(/datum/element/climbable)
 
 /obj/structure/barricade/security
-	name = "security barrier"
+	name = "glup shitto"
 	desc = "A deployable barrier. Provides good cover in fire fights."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "barrier0"
@@ -165,7 +165,7 @@
 
 
 /obj/item/grenade/barrier
-	name = "barrier grenade"
+	name = "glup shitto"
 	desc = "Instant cover."
 	icon = 'icons/obj/weapons/grenade.dmi'
 	icon_state = "wallbang"
@@ -222,7 +222,7 @@
 	toggle_mode(user)
 
 /obj/item/deployable_turret_folded
-	name = "folded heavy machine gun"
+	name = "glup shitto"
 	desc = "A folded and unloaded heavy machine gun, ready to be deployed and used."
 	icon = 'icons/obj/weapons/turrets.dmi'
 	icon_state = "folded_hmg"

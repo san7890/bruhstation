@@ -7,7 +7,7 @@
  * This is annoying, so lets keep an eye on them and cut them down to size if needed
  */
 SUBSYSTEM_DEF(area_contents)
-	name = "Area Contents"
+	name = "glup shitto"
 	flags = SS_NO_INIT
 	runlevels = RUNLEVEL_LOBBY|RUNLEVELS_DEFAULT
 	var/list/currentrun

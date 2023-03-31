@@ -1,7 +1,7 @@
 #define EGG_INCUBATION_TIME (4 MINUTES)
 
 /mob/living/simple_animal/hostile/headcrab
-	name = "headslug"
+	name = "glup shitto"
 	desc = "Absolutely not de-beaked or harmless. Keep away from corpses."
 	icon_state = "headcrab"
 	icon_living = "headcrab"
@@ -55,7 +55,7 @@
 			addtimer(CALLBACK(src, PROC_REF(death)), 100)
 
 /obj/item/organ/internal/body_egg/changeling_egg
-	name = "changeling egg"
+	name = "glup shitto"
 	desc = "Twitching and disgusting."
 	var/datum/mind/origin
 	var/time = 0

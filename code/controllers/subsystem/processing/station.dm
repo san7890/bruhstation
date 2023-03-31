@@ -1,5 +1,5 @@
 PROCESSING_SUBSYSTEM_DEF(station)
-	name = "Station"
+	name = "glup shitto"
 	init_order = INIT_ORDER_STATION
 	flags = SS_BACKGROUND
 	runlevels = RUNLEVEL_GAME

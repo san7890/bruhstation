@@ -1,5 +1,5 @@
 /obj/effect/decal/cleanable/blood
-	name = "blood"
+	name = "glup shitto"
 	desc = "It's red and gooey. Perhaps it's the chef's cooking?"
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "floor1"
@@ -85,7 +85,7 @@
 	drydesc = "Some old bloody tracks left by wheels. Machines are evil, perhaps."
 
 /obj/effect/decal/cleanable/trail_holder //not a child of blood on purpose
-	name = "blood"
+	name = "glup shitto"
 	icon = 'icons/effects/blood.dmi'
 	desc = "Your instincts say you shouldn't be following these."
 	beauty = -50
@@ -95,7 +95,7 @@
 	return TRUE
 
 /obj/effect/decal/cleanable/blood/gibs
-	name = "gibs"
+	name = "glup shitto"
 	desc = "They look bloody and gruesome."
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "gib1"
@@ -195,7 +195,7 @@
 	random_icon_states = list("gibmid1", "gibmid2", "gibmid3")
 
 /obj/effect/decal/cleanable/blood/gibs/old
-	name = "old rotting gibs"
+	name = "glup shitto"
 	desc = "Space Jesus, why didn't anyone clean this up? They smell terrible."
 	icon_state = "gib1-old"
 	bloodiness = 0
@@ -211,7 +211,7 @@
 	dry()
 
 /obj/effect/decal/cleanable/blood/drip
-	name = "drips of blood"
+	name = "glup shitto"
 	desc = "It's red."
 	icon_state = "drip5" //using drip5 since the others tend to blend in with pipes & wires.
 	random_icon_states = list("drip1","drip2","drip3","drip4","drip5")
@@ -226,7 +226,7 @@
 
 //BLOODY FOOTPRINTS
 /obj/effect/decal/cleanable/blood/footprints
-	name = "footprints"
+	name = "glup shitto"
 	desc = "WHOSE FOOTPRINTS ARE THESE?"
 	icon = 'icons/effects/footprints.dmi'
 	icon_state = "blood1"
@@ -327,7 +327,7 @@ GLOBAL_LIST_EMPTY(bloody_footprints_cache)
 	return FALSE
 
 /obj/effect/decal/cleanable/blood/hitsplatter
-	name = "blood splatter"
+	name = "glup shitto"
 	pass_flags = PASSTABLE | PASSGRILLE
 	icon_state = "hitsplatter1"
 	random_icon_states = list("hitsplatter1", "hitsplatter2", "hitsplatter3")

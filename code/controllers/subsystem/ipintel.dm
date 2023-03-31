@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(ipintel)
-	name = "XKeyScore"
+	name = "glup shitto"
 	init_order = INIT_ORDER_XKEYSCORE
 	flags = SS_NO_FIRE
 	var/enabled = FALSE //disable at round start to avoid checking reconnects

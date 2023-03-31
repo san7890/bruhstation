@@ -1,6 +1,6 @@
 /obj/item/skub
 	desc = "It's skub."
-	name = "skub"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "skub"
 	w_class = WEIGHT_CLASS_BULKY

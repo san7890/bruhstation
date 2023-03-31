@@ -1,7 +1,7 @@
 //////////////////Imp
 
 /mob/living/simple_animal/hostile/imp
-	name = "imp"
+	name = "glup shitto"
 	real_name = "imp"
 	unique_name = TRUE
 	desc = "A large, menacing creature covered in armored black scales."
@@ -46,7 +46,7 @@
 //////////////////The Man Behind The Slaughter
 
 /mob/living/simple_animal/hostile/imp/slaughter
-	name = "slaughter demon"
+	name = "glup shitto"
 	real_name = "slaughter demon"
 	unique_name = FALSE
 	speak_emote = list("gurgles")
@@ -140,7 +140,7 @@
 	return ..()
 
 /obj/effect/decal/cleanable/blood/innards
-	name = "pile of viscera"
+	name = "glup shitto"
 	desc = "A repulsive pile of guts and gore."
 	gender = NEUTER
 	icon = 'icons/obj/medical/organs/organs.dmi'
@@ -149,7 +149,7 @@
 
 //The loot from killing a slaughter demon - can be consumed to allow the user to blood crawl
 /obj/item/organ/internal/heart/demon
-	name = "demon heart"
+	name = "glup shitto"
 	desc = "Still it beats furiously, emanating an aura of utter hate."
 	icon = 'icons/obj/medical/organs/organs.dmi'
 	icon_state = "demon_heart-on"
@@ -197,7 +197,7 @@
 /mob/living/simple_animal/hostile/imp/slaughter/laughter
 	// The laughter demon! It's everyone's best friend! It just wants to hug
 	// them so much, it wants to hug everyone at once!
-	name = "laughter demon"
+	name = "glup shitto"
 	real_name = "laughter demon"
 	desc = "A large, adorable creature covered in armor with pink bows."
 	speak_emote = list("giggles","titters","chuckles")
@@ -236,5 +236,5 @@
 			adjustBruteLoss(30)
 
 /mob/living/simple_animal/hostile/imp/slaughter/engine_demon
-	name = "engine demon"
+	name = "glup shitto"
 	faction = list(FACTION_HELL, FACTION_NEUTRAL)

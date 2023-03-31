@@ -1,6 +1,6 @@
 /// The dark matt-eor. Only attracted by emagging 10 satellites and maximizing meteor chances, and it drops a singulo. Otherwise, it's not that bad.
 /obj/effect/meteor/dark_matteor
-	name = "dark matt-eor"
+	name = "glup shitto"
 	icon_state = "dark_matter"
 	desc = "The most widely accepted theory is that dark matter is made up of weakly interacting massive particles (WIMPs). But seeing this malevolent force of imminent death careening towards you, gotta admit, it doesn't look so WIMPy anymore..."
 	hits = 15

@@ -12,7 +12,7 @@ GLOBAL_LIST_INIT(rod_recipes, list ( \
 	))
 
 /obj/item/stack/rods
-	name = "iron rod"
+	name = "glup shitto"
 	desc = "Some rods. Can be used for building or something."
 	singular_name = "iron rod"
 	icon_state = "rods"
@@ -114,7 +114,7 @@ GLOBAL_LIST_INIT(rod_recipes, list ( \
 	amount = 50
 
 /obj/item/stack/rods/lava
-	name = "heat resistant rod"
+	name = "glup shitto"
 	desc = "Treated, specialized iron rods. When exposed to the vaccum of space their coating breaks off, but they can hold up against the extreme heat of active lava."
 	singular_name = "heat resistant rod"
 	icon_state = "rods"

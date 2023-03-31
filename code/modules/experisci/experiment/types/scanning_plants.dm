@@ -1,5 +1,5 @@
 /datum/experiment/scanning/random/plants
-	name = "Botanical Scanning Experiment"
+	name = "glup shitto"
 	description = "Base experiment for scanning edible plant biomass."
 	exp_tag = "Plant Biomatter Scan"
 	total_requirement = 1

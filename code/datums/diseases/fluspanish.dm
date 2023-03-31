@@ -1,5 +1,5 @@
 /datum/disease/fluspanish
-	name = "Spanish inquisition Flu"
+	name = "glup shitto"
 	max_stages = 3
 	spread_text = "Airborne"
 	cure_text = "Spaceacillin & Anti-bodies to the common flu"

@@ -43,7 +43,7 @@
 //Cleanbot assembly
 /obj/item/bot_assembly/cleanbot
 	desc = "It's a bucket with a sensor attached."
-	name = "incomplete cleanbot assembly"
+	name = "glup shitto"
 	icon_state = "bucket_proxy"
 	greyscale_config = /datum/greyscale_config/buckets_cleanbot
 	throwforce = 5
@@ -90,7 +90,7 @@
 
 //Edbot Assembly
 /obj/item/bot_assembly/ed209
-	name = "incomplete ED-209 assembly"
+	name = "glup shitto"
 	desc = "Some sort of bizarre assembly."
 	icon_state = "ed209_frame"
 	inhand_icon_state = null
@@ -193,7 +193,7 @@
 //Floorbot assemblies
 /obj/item/bot_assembly/floorbot
 	desc = "It's a toolbox with tiles sticking out the top."
-	name = "tiles and toolbox"
+	name = "glup shitto"
 	icon_state = "toolbox_tiles"
 	throwforce = 10
 	created_name = "Floorbot"
@@ -255,7 +255,7 @@
 
 //Medbot Assembly
 /obj/item/bot_assembly/medbot
-	name = "incomplete medibot assembly"
+	name = "glup shitto"
 	desc = "A first aid kit with a robot arm permanently grafted to it."
 	icon_state = "firstaid_arm"
 	created_name = "Medibot" //To preserve the name if it's a unique medbot I guess
@@ -300,7 +300,7 @@
 
 //Honkbot Assembly
 /obj/item/bot_assembly/honkbot
-	name = "incomplete honkbot assembly"
+	name = "glup shitto"
 	desc = "The clown's up to no good once more"
 	icon_state = "honkbot_arm"
 	created_name = "Honkbot"
@@ -334,7 +334,7 @@
 
 //Secbot Assembly
 /obj/item/bot_assembly/secbot
-	name = "incomplete securitron assembly"
+	name = "glup shitto"
 	desc = "Some sort of bizarre assembly made from a proximity sensor, helmet, and signaler."
 	icon_state = "helmet_signaler"
 	inhand_icon_state = "helmet"
@@ -473,7 +473,7 @@
 
 //Firebot Assembly
 /obj/item/bot_assembly/firebot
-	name = "incomplete firebot assembly"
+	name = "glup shitto"
 	desc = "A fire extinguisher with an arm attached to it."
 	icon_state = "firebot_arm"
 	created_name = "Firebot"
@@ -503,7 +503,7 @@
 
 //Get cleaned
 /obj/item/bot_assembly/hygienebot
-	name = "incomplete hygienebot assembly"
+	name = "glup shitto"
 	desc = "Clear out the swamp once and for all"
 	icon_state = "hygienebot"
 	created_name = "Hygienebot"
@@ -558,7 +558,7 @@
 
 //Vim Assembly
 /obj/item/bot_assembly/vim
-	name = "incomplete vim assembly"
+	name = "glup shitto"
 	desc = "A space helmet with a leg attached to it. Looks like it needs another leg, if it is to become something."
 	icon_state = "vim_0"
 	created_name = "\improper Vim"

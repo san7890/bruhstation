@@ -1,5 +1,5 @@
 /obj/machinery/nuclearbomb/selfdestruct
-	name = "station self-destruct terminal"
+	name = "glup shitto"
 	desc = "For when it all gets too much to bear. Do not taunt."
 	icon = 'icons/obj/machines/nuke_terminal.dmi'
 	icon_state = "nuclearbomb_base"

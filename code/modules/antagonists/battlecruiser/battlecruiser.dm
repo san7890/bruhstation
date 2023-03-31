@@ -1,5 +1,5 @@
 /datum/team/battlecruiser
-	name = "\improper Battlecruiser Crew"
+	name = "glup shitto"
 	member_name = "crewmember"
 	/// The central objective of this battlecruiser
 	var/core_objective = /datum/objective/nuclear
@@ -13,7 +13,7 @@
 		objectives += objective
 
 /datum/antagonist/battlecruiser
-	name = "Battlecruiser Crewmember"
+	name = "glup shitto"
 	show_to_ghosts = TRUE
 	roundend_category = "battlecruiser syndicate operatives"
 	suicide_cry = "FOR THE SYNDICATE!!!"
@@ -32,11 +32,11 @@
 	owner.announce_objectives()
 
 /datum/antagonist/battlecruiser/ally
-	name = "Battlecruiser Ally"
+	name = "glup shitto"
 	show_to_ghosts = FALSE
 
 /datum/antagonist/battlecruiser/captain
-	name = "Battlecruiser Captain"
+	name = "glup shitto"
 	antag_hud_name = "battlecruiser_lead"
 	job_rank = ROLE_BATTLECRUISER_CAPTAIN
 

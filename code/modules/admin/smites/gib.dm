@@ -1,6 +1,6 @@
 /// Gibs the target
 /datum/smite/gib
-	name = "Gib"
+	name = "glup shitto"
 
 /datum/smite/gib/effect(client/user, mob/living/target)
 	. = ..()

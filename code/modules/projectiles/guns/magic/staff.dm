@@ -34,7 +34,7 @@
 	return TRUE
 
 /obj/item/gun/magic/staff/change
-	name = "staff of change"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of coruscating energy which cause the target's very form to reshape itself."
 	fire_sound = 'sound/magic/staff_change.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/change
@@ -65,7 +65,7 @@
 	balloon_alert(new_body, "wabbajack, wabbajack!")
 
 /obj/item/gun/magic/staff/animate
-	name = "staff of animation"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of life-force which causes objects which are hit by it to animate and come to life! This magic doesn't affect machines."
 	fire_sound = 'sound/magic/staff_animation.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/animate
@@ -74,7 +74,7 @@
 	school = SCHOOL_EVOCATION
 
 /obj/item/gun/magic/staff/healing
-	name = "staff of healing"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of restoring magic which can remove ailments of all kinds and even raise the dead."
 	fire_sound = 'sound/magic/staff_healing.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/heal
@@ -89,7 +89,7 @@
 	if(!is_wizard_or_friend(user))
 		to_chat(user, span_hypnophrase("<span style='font-size: 24px'>The staff feels weaker as you touch it</span>"))
 		user.balloon_alert(user, "the staff feels weaker as you touch it")
-		
+
 /obj/item/gun/magic/staff/healing/examine(mob/user)
 	. = ..()
 	if(!is_wizard_or_friend(user))
@@ -121,7 +121,7 @@
 	return
 
 /obj/item/gun/magic/staff/chaos
-	name = "staff of chaos"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of chaotic magic that can potentially do anything."
 	fire_sound = 'sound/magic/staff_chaos.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/chaos
@@ -175,7 +175,7 @@
 	return FALSE
 
 /obj/item/gun/magic/staff/door
-	name = "staff of door creation"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of transformative magic that can create doors in walls."
 	fire_sound = 'sound/magic/staff_door.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/door
@@ -187,7 +187,7 @@
 	school = SCHOOL_TRANSMUTATION
 
 /obj/item/gun/magic/staff/honk
-	name = "staff of the honkmother"
+	name = "glup shitto"
 	desc = "Honk."
 	fire_sound = 'sound/items/airhorn.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/honk
@@ -198,7 +198,7 @@
 	school = SCHOOL_EVOCATION
 
 /obj/item/gun/magic/staff/spellblade
-	name = "spellblade"
+	name = "glup shitto"
 	desc = "A deadly combination of laziness and bloodlust, this blade allows the user to dismember their enemies without all the hard work of actually swinging the sword."
 	fire_sound = 'sound/magic/fireball.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/spellblade
@@ -229,7 +229,7 @@
 	return ..()
 
 /obj/item/gun/magic/staff/locker
-	name = "staff of the locker"
+	name = "glup shitto"
 	desc = "An artefact that expells encapsulating bolts, for incapacitating thy enemy."
 	fire_sound = 'sound/magic/staff_change.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/locker
@@ -243,7 +243,7 @@
 //yes, they don't have sounds. they're admin staves, and their projectiles will play the chaos bolt sound anyway so why bother?
 
 /obj/item/gun/magic/staff/flying
-	name = "staff of flying"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of graceful magic that can make something fly."
 	fire_sound = 'sound/magic/staff_healing.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/flying
@@ -253,7 +253,7 @@
 	school = SCHOOL_EVOCATION
 
 /obj/item/gun/magic/staff/babel
-	name = "staff of babel"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of confusion magic that can make something depressed and incoherent."
 	fire_sound = 'sound/magic/staff_change.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/babel
@@ -263,7 +263,7 @@
 	school = SCHOOL_FORBIDDEN //evil
 
 /obj/item/gun/magic/staff/necropotence
-	name = "staff of necropotence"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of death magic that can repurpose the soul."
 	fire_sound = 'sound/magic/staff_change.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/necropotence
@@ -273,7 +273,7 @@
 	school = SCHOOL_NECROMANCY //REALLY evil
 
 /obj/item/gun/magic/staff/wipe
-	name = "staff of possession"
+	name = "glup shitto"
 	desc = "An artefact that spits bolts of mind-unlocking magic that can let ghosts invade the victim's mind."
 	fire_sound = 'sound/magic/staff_change.ogg'
 	ammo_type = /obj/item/ammo_casing/magic/wipe

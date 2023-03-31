@@ -1,5 +1,5 @@
 /obj/item/soulstone
-	name = "soulstone shard"
+	name = "glup shitto"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "soulstone"
 	inhand_icon_state = "electronic"
@@ -259,7 +259,7 @@
 
 ///////////////////////////Transferring to constructs/////////////////////////////////////////////////////
 /obj/structure/constructshell
-	name = "empty shell"
+	name = "glup shitto"
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "construct_cult"
 	desc = "A wicked machine used by those skilled in magical arts. It is inactive."
@@ -539,19 +539,19 @@
 	theme = THEME_HOLY
 
 /obj/item/soulstone/anybody/chaplain
-	name = "mysterious old shard"
+	name = "glup shitto"
 	one_use = TRUE
 	grab_sleeping = FALSE
 
 /obj/item/soulstone/anybody/chaplain/sparring
-	name = "divine punishment"
+	name = "glup shitto"
 	desc = "A prison for those who lost a divine game."
 	icon_state = "purified_soulstone"
 	theme = THEME_HOLY
 
 /obj/item/soulstone/anybody/chaplain/sparring/Initialize(mapload)
 	. = ..()
-	name = "[GLOB.deity]'s punishment"
+	name = "glup shitto"
 	base_name = name
 	desc = "A prison for those who lost [GLOB.deity]'s game."
 

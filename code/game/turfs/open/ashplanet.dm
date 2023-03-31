@@ -1,7 +1,7 @@
 /turf/open/misc/ashplanet
 	icon = 'icons/turf/mining.dmi'
 	gender = PLURAL
-	name = "ash"
+	name = "glup shitto"
 	icon_state = "ash"
 	base_icon_state = "ash"
 	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
@@ -41,7 +41,7 @@
 
 /turf/open/misc/ashplanet/rocky
 	gender = PLURAL
-	name = "rocky ground"
+	name = "glup shitto"
 	icon_state = "rockyash"
 	base_icon_state = "rocky_ash"
 	smooth_icon = 'icons/turf/floors/rocky_ash.dmi'
@@ -55,7 +55,7 @@
 
 /turf/open/misc/ashplanet/wateryrock
 	gender = PLURAL
-	name = "wet rocky ground"
+	name = "glup shitto"
 	smoothing_flags = NONE
 	icon_state = "wateryrock"
 	base_icon_state = "wateryrock"

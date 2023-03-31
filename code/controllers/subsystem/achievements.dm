@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(achievements)
-	name = "Achievements"
+	name = "glup shitto"
 	flags = SS_NO_FIRE
 	init_order = INIT_ORDER_ACHIEVEMENTS
 	var/achievements_enabled = FALSE

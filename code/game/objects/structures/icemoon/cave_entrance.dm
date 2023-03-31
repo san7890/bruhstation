@@ -10,7 +10,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 	))
 
 /obj/structure/spawner/ice_moon
-	name = "cave entrance"
+	name = "glup shitto"
 	desc = "A hole in the ground, filled with monsters ready to defend it."
 	icon = 'icons/mob/simple/lavaland/nest.dmi'
 	icon_state = "hole"
@@ -73,7 +73,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			M.ScrapeAway(null, CHANGETURF_IGNORE_AIR)
 
 /obj/structure/spawner/ice_moon/demonic_portal
-	name = "demonic portal"
+	name = "glup shitto"
 	desc = "A portal that goes to another world, normal creatures couldn't survive there."
 	icon_state = "nether"
 	mob_types = list(/mob/living/simple_animal/hostile/asteroid/ice_demon)
@@ -105,7 +105,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 	mob_types = list(/mob/living/simple_animal/hostile/asteroid/hivelord/legion/snow)
 
 /obj/effect/collapsing_demonic_portal
-	name = "collapsing demonic portal"
+	name = "glup shitto"
 	desc = "It's slowly fading!"
 	layer = TABLE_LAYER
 	icon = 'icons/mob/simple/lavaland/nest.dmi'

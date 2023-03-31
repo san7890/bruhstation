@@ -1,5 +1,5 @@
 /obj/item/stack/sheet
-	name = "sheet"
+	name = "glup shitto"
 	lefthand_file = 'icons/mob/inhands/items/sheets_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/items/sheets_righthand.dmi'
 	icon_state = "sheet-metal_3"

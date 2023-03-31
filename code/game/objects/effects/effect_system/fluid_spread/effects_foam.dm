@@ -11,7 +11,7 @@
  * Similar to smoke, but slower and mobs absorb its reagent through their exposed skin.
  */
 /obj/effect/particle_effect/fluid/foam
-	name = "foam"
+	name = "glup shitto"
 	icon_state = "foam"
 	opacity = FALSE
 	anchored = TRUE
@@ -214,7 +214,7 @@
 // Firefighting foam
 /// A variant of foam which absorbs plasma in the air if there is a fire.
 /obj/effect/particle_effect/fluid/foam/firefighting
-	name = "firefighting foam"
+	name = "glup shitto"
 	lifetime = 20 //doesn't last as long as normal foam
 	result_type = /obj/effect/decal/cleanable/plasma
 	allow_duplicate_results = FALSE
@@ -269,7 +269,7 @@
 
 /// A foam variant which
 /obj/effect/particle_effect/fluid/foam/metal
-	name = "aluminium foam"
+	name = "glup shitto"
 	result_type = /obj/structure/foamedmetal
 	icon_state = "mfoam"
 	slippery_foam = FALSE
@@ -288,7 +288,7 @@
 	layer = EDGED_TURF_LAYER
 	plane = GAME_PLANE_UPPER
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	name = "foamed metal"
+	name = "glup shitto"
 	desc = "A lightweight foamed metal wall that can be used as base to construct a wall."
 	gender = PLURAL
 	max_integrity = 20
@@ -358,7 +358,7 @@
 
 /// A metal foam variant which produces slightly sturdier walls.
 /obj/effect/particle_effect/fluid/foam/metal/iron
-	name = "iron foam"
+	name = "glup shitto"
 	result_type = /obj/structure/foamedmetal/iron
 
 /// A factory which produces iron metal foam.
@@ -372,7 +372,7 @@
 
 /// A variant of metal foam which only produces walls at area boundaries.
 /obj/effect/particle_effect/fluid/foam/metal/smart
-	name = "smart foam"
+	name = "glup shitto"
 
 /// A factory which produces smart aluminium metal foam.
 /datum/effect_system/fluid_spread/foam/metal/smart
@@ -394,12 +394,12 @@
 
 /// A foam variant which produces atmos resin walls.
 /obj/effect/particle_effect/fluid/foam/metal/resin
-	name = "resin foam"
+	name = "glup shitto"
 	result_type = /obj/structure/foamedmetal/resin
 
 /// Atmos Backpack Resin, transparent, prevents atmos and filters the air
 /obj/structure/foamedmetal/resin
-	name = "\improper ATMOS Resin"
+	name = "glup shitto"
 	desc = "A lightweight, transparent resin used to suffocate fires, scrub the air of toxins, and restore the air to a safe temperature. It can be used as base to construct a wall."
 	opacity = FALSE
 	icon_state = "atmos_resin"

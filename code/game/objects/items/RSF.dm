@@ -6,7 +6,7 @@ RSF
 ///Extracts the related object from an associated list of objects and values, or lists and objects.
 #define OBJECT_OR_LIST_ELEMENT(from, input) (islist(input) ? from[input] : input)
 /obj/item/rsf
-	name = "\improper Rapid-Service-Fabricator"
+	name = "glup shitto"
 	desc = "A device used to rapidly deploy service items."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rsf"
@@ -159,7 +159,7 @@ RSF
 	return FALSE
 
 /obj/item/rsf/cookiesynth
-	name = "Cookie Synthesizer"
+	name = "glup shitto"
 	desc = "A self-recharging device used to rapidly deploy cookies."
 	icon_state = "rcd"
 	base_icon_state = "rcd"

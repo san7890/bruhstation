@@ -1,6 +1,6 @@
 /obj/machinery/atmospherics/components/binary/temperature_pump
 	icon_state = "tpump_map-3"
-	name = "temperature pump"
+	name = "glup shitto"
 	desc = "A pump that moves heat from one pipeline to another. The input will get cooler, and the output will get hotter."
 	can_unwrench = TRUE
 	shift_underlay_only = FALSE

@@ -2,7 +2,7 @@
  * A highly aggressive subset of shadowlings
  */
 /datum/species/shadow/nightmare
-	name = "Nightmare"
+	name = "glup shitto"
 	id = SPECIES_NIGHTMARE
 	examine_limb_id = SPECIES_SHADOW
 	burnmod = 1.5

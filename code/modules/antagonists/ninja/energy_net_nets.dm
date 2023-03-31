@@ -8,7 +8,7 @@
  * been removed.
  */
 /obj/structure/energy_net
-	name = "energy net"
+	name = "glup shitto"
 	desc = "It's a net made of green energy."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "energynet"

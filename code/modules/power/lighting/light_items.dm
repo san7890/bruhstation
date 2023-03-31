@@ -27,7 +27,7 @@
 	return BRUTELOSS
 
 /obj/item/light/tube
-	name = "light tube"
+	name = "glup shitto"
 	desc = "A replacement light tube."
 	icon_state = "ltube"
 	base_state = "ltube"
@@ -39,7 +39,7 @@
 	status = LIGHT_BROKEN
 
 /obj/item/light/bulb
-	name = "light bulb"
+	name = "glup shitto"
 	desc = "A replacement light bulb."
 	icon_state = "lbulb"
 	base_state = "lbulb"

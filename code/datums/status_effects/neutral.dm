@@ -40,7 +40,7 @@
 	. = ..()
 
 /atom/movable/screen/alert/status_effect/in_love
-	name = "In Love"
+	name = "glup shitto"
 	desc = "You feel so wonderfully in love!"
 	icon_state = "in_love"
 
@@ -124,7 +124,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/heldup
 
 /atom/movable/screen/alert/status_effect/heldup
-	name = "Held Up"
+	name = "glup shitto"
 	desc = "Making any sudden moves would probably be a bad idea!"
 	icon_state = "aimed"
 
@@ -145,7 +145,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/holdup
 
 /atom/movable/screen/alert/status_effect/holdup
-	name = "Holding Up"
+	name = "glup shitto"
 	desc = "You're currently pointing a gun at someone."
 	icon_state = "aimed"
 
@@ -329,7 +329,7 @@
 	alert_type = /atom/movable/screen/alert/status_effect/surrender
 
 /atom/movable/screen/alert/status_effect/surrender
-	name = "Surrender"
+	name = "glup shitto"
 	desc = "Looks like you're in trouble now, bud. Click here to surrender. (Warning: You will be incapacitated.)"
 	icon_state = "surrender"
 

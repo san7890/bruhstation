@@ -32,7 +32,7 @@
 //          Trash bag
 // -----------------------------
 /obj/item/storage/bag/trash
-	name = "trash bag"
+	name = "glup shitto"
 	desc = "It's the heavy-duty black polymer kind. Time to take out the trash!"
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "trashbag"
@@ -97,7 +97,7 @@
 	update_icon_state()
 
 /obj/item/storage/bag/trash/bluespace
-	name = "trash bag of holding"
+	name = "glup shitto"
 	desc = "The latest and greatest in custodial convenience, a trashbag that is capable of holding vast quantities of garbage."
 	icon_state = "bluetrashbag"
 	inhand_icon_state = "bluetrashbag"
@@ -116,7 +116,7 @@
 // -----------------------------
 
 /obj/item/storage/bag/ore
-	name = "mining satchel"
+	name = "glup shitto"
 	desc = "This little bugger can be used to store and transport ores."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "satchel"
@@ -203,10 +203,10 @@
 	spam_protection = FALSE
 
 /obj/item/storage/bag/ore/cyborg
-	name = "cyborg mining satchel"
+	name = "glup shitto"
 
 /obj/item/storage/bag/ore/holding //miners, your messiah has arrived
-	name = "mining satchel of holding"
+	name = "glup shitto"
 	desc = "A revolution in convenience, this satchel allows for huge amounts of ore storage. It's been outfitted with anti-malfunction safety measures."
 	icon_state = "satchel_bspace"
 
@@ -221,7 +221,7 @@
 // -----------------------------
 
 /obj/item/storage/bag/plants
-	name = "plant bag"
+	name = "glup shitto"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "plantbag"
 	worn_icon_state = "plantbag"
@@ -242,7 +242,7 @@
 ////////
 
 /obj/item/storage/bag/plants/portaseeder
-	name = "portable seed extractor"
+	name = "glup shitto"
 	desc = "For the enterprising botanist on the go. Less efficient than the stationary model, it creates one seed per plant."
 	icon_state = "portaseeder"
 
@@ -277,7 +277,7 @@
 // sorry sayu your sheet snatcher is now OBSOLETE but i'm leaving it because idc
 
 /obj/item/storage/bag/sheetsnatcher
-	name = "sheet snatcher"
+	name = "glup shitto"
 	desc = "A patented Nanotrasen storage system designed for any kind of mineral sheet."
 	icon = 'icons/obj/mining.dmi'
 	icon_state = "sheetsnatcher"
@@ -304,7 +304,7 @@
 // -----------------------------
 
 /obj/item/storage/bag/sheetsnatcher/borg
-	name = "sheet snatcher 9000"
+	name = "glup shitto"
 	desc = ""
 	capacity = 500//Borgs get more because >specialization
 
@@ -313,7 +313,7 @@
 // -----------------------------
 
 /obj/item/storage/bag/books
-	name = "book bag"
+	name = "glup shitto"
 	desc = "A bag for books."
 	icon = 'icons/obj/library.dmi'
 	icon_state = "bookbag"
@@ -335,7 +335,7 @@
  * Trays - Agouri
  */
 /obj/item/storage/bag/tray
-	name = "serving tray"
+	name = "glup shitto"
 	icon = 'icons/obj/food/containers.dmi'
 	icon_state = "tray"
 	worn_icon_state = "tray"
@@ -419,7 +419,7 @@
 	update_appearance()
 
 /obj/item/storage/bag/tray/cafeteria
-	name = "cafeteria tray"
+	name = "glup shitto"
 	icon = 'icons/obj/food/containers.dmi'
 	icon_state = "foodtray"
 	desc = "A cheap metal tray to pile today's meal onto."
@@ -429,7 +429,7 @@
  */
 
 /obj/item/storage/bag/chemistry
-	name = "chemistry bag"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "bag"
 	worn_icon_state = "chembag"
@@ -456,7 +456,7 @@
  */
 
 /obj/item/storage/bag/bio
-	name = "bio bag"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "biobag"
 	worn_icon_state = "biobag"
@@ -485,7 +485,7 @@
  */
 
 /obj/item/storage/bag/xeno
-	name = "science bag"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "xenobag"
 	worn_icon_state = "xenobag"
@@ -515,7 +515,7 @@
  */
 
 /obj/item/storage/bag/construction
-	name = "construction bag"
+	name = "glup shitto"
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "construction_bag"
 	worn_icon_state = "construction_bag"
@@ -540,7 +540,7 @@
 		))
 
 /obj/item/storage/bag/harpoon_quiver
-	name = "harpoon quiver"
+	name = "glup shitto"
 	desc = "A quiver for holding harpoons."
 	icon_state = "quiver"
 	inhand_icon_state = null

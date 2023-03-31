@@ -9,7 +9,7 @@
 	ADD_TRAIT(src, TRAIT_NO_STORAGE_INSERT, TRAIT_GENERIC)
 
 /obj/item/hand_item/circlegame
-	name = "circled hand"
+	name = "glup shitto"
 	desc = "If somebody looks at this while it's below your waist, you get to bop them."
 	icon_state = "madeyoulook"
 	attack_verb_continuous = list("bops")
@@ -109,7 +109,7 @@
 
 
 /obj/item/hand_item/noogie
-	name = "noogie"
+	name = "glup shitto"
 	desc = "Get someone in an aggressive grab then use this on them to ruin their day."
 	icon_state = "latexballon"
 	inhand_icon_state = "nothing"
@@ -202,7 +202,7 @@
 
 
 /obj/item/hand_item/slapper
-	name = "slapper"
+	name = "glup shitto"
 	desc = "This is how real men fight."
 	icon_state = "latexballon"
 	inhand_icon_state = "nothing"
@@ -327,7 +327,7 @@
 
 
 /obj/item/hand_item/hand
-	name = "hand"
+	name = "glup shitto"
 	desc = "Sometimes, you just want to act gentlemanly."
 	icon_state = "latexballon"
 	inhand_icon_state = "nothing"
@@ -429,7 +429,7 @@
 
 
 /obj/item/hand_item/stealer
-	name = "steal"
+	name = "glup shitto"
 	desc = "Your filthy little fingers are ready to commit crimes."
 	icon_state = "latexballon"
 	inhand_icon_state = "nothing"
@@ -462,7 +462,7 @@
 	to_chat(target_human, span_userdanger("[user] stole your [item_to_strip.name]!"))
 
 /obj/item/hand_item/kisser
-	name = "kiss"
+	name = "glup shitto"
 	desc = "I want you all to know, everyone and anyone, to seal it with a kiss."
 	icon = 'icons/mob/simple/animal.dmi'
 	icon_state = "heart"
@@ -522,13 +522,13 @@
 	return TRUE // so the core offering code knows to halt
 
 /obj/item/hand_item/kisser/death
-	name = "kiss of death"
+	name = "glup shitto"
 	desc = "If looks could kill, they'd be this."
 	color = COLOR_BLACK
 	kiss_type = /obj/projectile/kiss/death
 
 /obj/projectile/kiss
-	name = "kiss"
+	name = "glup shitto"
 	icon = 'icons/mob/simple/animal.dmi'
 	icon_state = "heart"
 	hitsound = 'sound/effects/kiss.ogg'
@@ -606,7 +606,7 @@
 		try_fluster(living_target)
 
 /obj/projectile/kiss/death
-	name = "kiss of death"
+	name = "glup shitto"
 	damage = 35 // okay i kinda lied about love not being able to hurt you
 	wound_bonus = 0
 	sharpness = SHARP_POINTY
@@ -622,7 +622,7 @@
 
 
 /obj/projectile/kiss/french
-	name = "french kiss (is that a hint of garlic?)"
+	name = "glup shitto"
 	color = "#f2e9d2" //Scientifically proven to be the colour of garlic
 
 /obj/projectile/kiss/french/harmless_on_hit(mob/living/living_target)
@@ -636,7 +636,7 @@
 	living_target.visible_message("[living_target] has a funny look on [living_target.p_their()] face.", "Wow, that is a strong after taste of garlic!", vision_distance=COMBAT_MESSAGE_RANGE)
 
 /obj/projectile/kiss/chef
-	name = "chef's kiss"
+	name = "glup shitto"
 
 // If our chef's kiss hits a food item, we will improve it with love.
 /obj/projectile/kiss/chef/on_hit(atom/target, blocked, pierce_hit)

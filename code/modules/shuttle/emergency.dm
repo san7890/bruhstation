@@ -12,7 +12,7 @@
 #define HIJACKED 5
 
 /obj/machinery/computer/emergency_shuttle
-	name = "emergency shuttle console"
+	name = "glup shitto"
 	desc = "For shuttle control."
 	icon_screen = "shuttle"
 	icon_keyboard = "tech_key"
@@ -304,7 +304,7 @@
 	. = ..()
 
 /obj/docking_port/mobile/emergency
-	name = "emergency shuttle"
+	name = "glup shitto"
 	shuttle_id = "emergency"
 	dir = EAST
 	port_direction = WEST
@@ -568,7 +568,7 @@
 	priority_announce("The Emergency Shuttle is preparing for direct jump. Estimate [timeLeft(600)] minutes until the shuttle docks at Central Command.", null, null, "Priority")
 
 /obj/docking_port/mobile/monastery
-	name = "monastery pod"
+	name = "glup shitto"
 	shuttle_id = "mining_common" //set so mining can call it down
 	launch_status = UNLAUNCHED //required for it to launch as a pod.
 
@@ -578,7 +578,7 @@
 		mode = SHUTTLE_ENDGAME
 
 /obj/docking_port/mobile/pod
-	name = "escape pod"
+	name = "glup shitto"
 	shuttle_id = "pod"
 	launch_status = UNLAUNCHED
 
@@ -597,7 +597,7 @@
 	return
 
 /obj/machinery/computer/shuttle/pod
-	name = "pod control computer"
+	name = "glup shitto"
 	locked = TRUE
 	possible_destinations = "pod_asteroid"
 	icon = 'icons/obj/terminals.dmi'
@@ -651,7 +651,7 @@
 	locked = (new_level < SEC_LEVEL_RED)
 
 /obj/docking_port/stationary/random
-	name = "escape pod"
+	name = "glup shitto"
 	shuttle_id = "pod"
 	hidden = TRUE
 	override_can_dock_checks = TRUE
@@ -686,22 +686,22 @@
 
 
 /obj/item/clothing/head/helmet/space/orange
-	name = "emergency space helmet"
+	name = "glup shitto"
 	icon_state = "syndicate-helm-orange"
 	inhand_icon_state = "syndicate-helm-orange"
 
 /obj/item/clothing/suit/space/orange
-	name = "emergency space suit"
+	name = "glup shitto"
 	icon_state = "syndicate-orange"
 	inhand_icon_state = "syndicate-orange"
 	slowdown = 3
 
 /obj/item/pickaxe/emergency
-	name = "emergency disembarkation tool"
+	name = "glup shitto"
 	desc = "For extracting yourself from rough landings."
 
 /obj/item/storage/pod
-	name = "emergency space suits"
+	name = "glup shitto"
 	desc = "A wall mounted safe containing space suits. Will only open in emergencies."
 	anchored = TRUE
 	density = FALSE
@@ -768,7 +768,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/item/storage/pod, 32)
 	return FALSE
 
 /obj/docking_port/mobile/emergency/backup
-	name = "backup shuttle"
+	name = "glup shitto"
 	shuttle_id = "backup"
 	dir = EAST
 

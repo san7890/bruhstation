@@ -3,7 +3,7 @@
 	crate_type = /obj/structure/closet/crate/engineering
 
 /datum/supply_pack/engineering/shieldgen
-	name = "Anti-breach Shield Projector Crate"
+	name = "glup shitto"
 	desc = "Hull breaches again? Say no more with the Nanotrasen Anti-Breach Shield Projector! \
 		Uses forcefield technology to keep the air in, and the space out. Contains two shield projectors."
 	cost = CARGO_CRATE_VALUE * 3
@@ -12,7 +12,7 @@
 	crate_name = "anti-breach shield projector crate"
 
 /datum/supply_pack/engineering/ripley
-	name = "APLU MK-I Crate"
+	name = "glup shitto"
 	desc = "A do-it-yourself kit for building an ALPU MK-I \"Ripley\", designed for lifting, \
 		carrying heavy equipment, and other station tasks. Batteries not included."
 	cost = CARGO_CRATE_VALUE * 10
@@ -33,7 +33,7 @@
 	crate_name= "\improper APLU MK-I kit"
 
 /datum/supply_pack/engineering/conveyor
-	name = "Conveyor Assembly Crate"
+	name = "glup shitto"
 	desc = "Keep production moving along with thirty conveyor belts. Conveyor switch included. \
 		If you have any questions, check out the enclosed instruction book."
 	cost = CARGO_CRATE_VALUE * 3.5
@@ -44,7 +44,7 @@
 	crate_name = "conveyor assembly crate"
 
 /datum/supply_pack/engineering/engiequipment
-	name = "Engineering Gear Crate"
+	name = "glup shitto"
 	desc = "Gear up with three toolbelts, high-visibility vests, welding helmets, hardhats, \
 		and two pairs of meson goggles!"
 	cost = CARGO_CRATE_VALUE * 4
@@ -58,7 +58,7 @@
 	crate_name = "engineering gear crate"
 
 /datum/supply_pack/engineering/powergamermitts
-	name = "Insulated Gloves Crate"
+	name = "glup shitto"
 	desc = "The backbone of modern society. Barely ever ordered for actual engineering. \
 		Contains three insulated gloves."
 	cost = CARGO_CRATE_VALUE * 8 //Made of pure-grade bullshittinium
@@ -68,7 +68,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engineering/inducers
-	name = "NT-75 Electromagnetic Power Inducers Crate"
+	name = "glup shitto"
 	desc = "No rechargers? No problem, with the NT-75 EPI, you can recharge any standard \
 		cell-based equipment anytime, anywhere. Contains two Inducers."
 	cost = CARGO_CRATE_VALUE * 4
@@ -77,7 +77,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engineering/pacman
-	name = "P.A.C.M.A.N Generator Crate"
+	name = "glup shitto"
 	desc = "Engineers can't set up the engine? Not an issue for you, once you get your hands \
 		on this P.A.C.M.A.N. Generator! Takes in plasma and spits out sweet sweet energy."
 	cost = CARGO_CRATE_VALUE * 5
@@ -87,7 +87,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engineering/power
-	name = "Power Cell Crate"
+	name = "glup shitto"
 	desc = "Looking for power overwhelming? Look no further. Contains three high-voltage power cells."
 	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/item/stock_parts/cell/high = 3)
@@ -95,7 +95,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engineering/shuttle_engine
-	name = "Shuttle Engine Crate"
+	name = "glup shitto"
 	desc = "Through advanced bluespace-shenanigans, our engineers have managed to fit an entire \
 		shuttle engine into one tiny little crate."
 	cost = CARGO_CRATE_VALUE * 6
@@ -107,7 +107,7 @@
 	special = TRUE
 
 /datum/supply_pack/engineering/tools
-	name = "Toolbox Crate"
+	name = "glup shitto"
 	desc = "Any robust spaceman is never far from their trusty toolbox. Contains three electrical \
 		toolboxes and three mechanical toolboxes."
 	access_view = ACCESS_ENGINE_EQUIP
@@ -118,7 +118,7 @@
 	crate_name = "toolbox crate"
 
 /datum/supply_pack/engineering/portapump
-	name = "Portable Air Pump Crate"
+	name = "glup shitto"
 	desc = "Did someone let the air out of the shuttle again? We've got you covered. \
 		Contains two portable air pumps."
 	cost = CARGO_CRATE_VALUE * 4.5
@@ -127,7 +127,7 @@
 	crate_name = "portable air pump crate"
 
 /datum/supply_pack/engineering/portascrubber
-	name = "Portable Scrubber Crate"
+	name = "glup shitto"
 	desc = "Clean up that pesky plasma leak with your very own set of two portable scrubbers."
 	cost = CARGO_CRATE_VALUE * 4.5
 	access_view = ACCESS_ATMOSPHERICS
@@ -135,7 +135,7 @@
 	crate_name = "portable scrubber crate"
 
 /datum/supply_pack/engineering/hugescrubber
-	name = "Huge Portable Scrubber Crate"
+	name = "glup shitto"
 	desc = "A huge portable scrubber for huge atmospherics mistakes."
 	cost = CARGO_CRATE_VALUE * 7.5
 	access_view = ACCESS_ATMOSPHERICS
@@ -144,7 +144,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/engineering/space_heater
-	name = "Space Heater Crate"
+	name = "glup shitto"
 	desc = "A dual purpose heater/cooler for when things are too chilly/toasty."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/machinery/space_heater)
@@ -152,7 +152,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/engineering/bsa
-	name = "Bluespace Artillery Parts"
+	name = "glup shitto"
 	desc = "The pride of Nanotrasen Naval Command. The legendary Bluespace Artillery Cannon is a \
 		devastating feat of human engineering and testament to wartime determination. \
 		Highly advanced research is required for proper construction."
@@ -167,7 +167,7 @@
 	crate_name= "bluespace artillery parts crate"
 
 /datum/supply_pack/engineering/dna_vault
-	name = "DNA Vault Parts"
+	name = "glup shitto"
 	desc = "Secure the longevity of the current state of humanity within this massive \
 		library of scientific knowledge, capable of granting superhuman powers and abilities. \
 		Highly advanced research is required for proper construction. Also contains five DNA probes."
@@ -180,7 +180,7 @@
 	crate_name= "dna vault parts crate"
 
 /datum/supply_pack/engineering/dna_probes
-	name = "DNA Vault Samplers"
+	name = "glup shitto"
 	desc = "Contains five DNA probes for use in the DNA vault."
 	cost = CARGO_CRATE_VALUE * 6
 	special = TRUE
@@ -190,7 +190,7 @@
 
 
 /datum/supply_pack/engineering/shield_sat
-	name = "Shield Generator Satellite"
+	name = "glup shitto"
 	desc = "Protect the very existence of this station with these Anti-Meteor defenses. \
 		Contains three Shield Generator Satellites."
 	cost = CARGO_CRATE_VALUE * 6
@@ -201,7 +201,7 @@
 
 
 /datum/supply_pack/engineering/shield_sat_control
-	name = "Shield System Control Board"
+	name = "glup shitto"
 	desc = "A control system for the Shield Generator Satellite system."
 	cost = CARGO_CRATE_VALUE * 10
 	special = TRUE
@@ -218,7 +218,7 @@
 	crate_type = /obj/structure/closet/crate/engineering
 
 /datum/supply_pack/engine/emitter
-	name = "Emitter Crate"
+	name = "glup shitto"
 	desc = "Useful for powering forcefield generators while destroying locked crates \
 		and intruders alike. Contains two high-powered energy emitters."
 	cost = CARGO_CRATE_VALUE * 7
@@ -229,7 +229,7 @@
 	dangerous = TRUE
 
 /datum/supply_pack/engine/field_gen
-	name = "Field Generator Crate"
+	name = "glup shitto"
 	desc = "Typically the only thing standing between the station and a messy death. \
 		Powered by emitters. Contains two field generators."
 	cost = CARGO_CRATE_VALUE * 7
@@ -237,7 +237,7 @@
 	crate_name = "field generator crate"
 
 /datum/supply_pack/engine/grounding_rods
-	name = "Grounding Rod Crate"
+	name = "glup shitto"
 	desc = "Four grounding rods guaranteed to keep any uppity tesla coil's lightning under control."
 	cost = CARGO_CRATE_VALUE * 8
 	contains = list(/obj/machinery/power/energy_accumulator/grounding_rod = 4)
@@ -245,7 +245,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engine/solar
-	name = "Solar Panel Crate"
+	name = "glup shitto"
 	desc = "Go green with this DIY advanced solar array. Contains twenty one solar assemblies, \
 		a solar-control circuit board, and tracker. If you have any questions, \
 		please check out the enclosed instruction book."
@@ -259,7 +259,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engine/supermatter_shard
-	name = "Supermatter Shard Crate"
+	name = "glup shitto"
 	desc = "The power of the heavens condensed into a single crystal."
 	cost = CARGO_CRATE_VALUE * 20
 	access = ACCESS_CE
@@ -269,7 +269,7 @@
 	dangerous = TRUE
 
 /datum/supply_pack/engine/tesla_coils
-	name = "Tesla Coil Crate"
+	name = "glup shitto"
 	desc = "Whether it's high-voltage executions, creating research points, or just plain old \
 		assistant electrofrying: this pack of four Tesla coils can do it all!"
 	cost = CARGO_CRATE_VALUE * 10
@@ -278,7 +278,7 @@
 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engine/hypertorus_fusion_reactor
-	name = "HFR Crate"
+	name = "glup shitto"
 	desc = "The new and improved fusion reactor."
 	cost = CARGO_CRATE_VALUE * 23
 	access = ACCESS_CE

@@ -7,7 +7,7 @@
 ////////////////////////////////////////////////SANDWICHES////////////////////////////////////////////////
 
 /datum/crafting_recipe/food/sandwich
-	name = "Sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/obj/item/food/meat/steak = 1,
@@ -17,7 +17,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/cheese_sandwich
-	name = "Cheese sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/obj/item/food/cheese/wedge = 2
@@ -26,7 +26,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/slimesandwich
-	name = "Jelly sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/toxin/slimejelly = 5,
 		/obj/item/food/breadslice/plain = 2,
@@ -35,7 +35,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/cherrysandwich
-	name = "Jelly sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/cherryjelly = 5,
 		/obj/item/food/breadslice/plain = 2,
@@ -44,7 +44,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/notasandwich
-	name = "Not a sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/obj/item/clothing/mask/fakemoustache = 1
@@ -53,7 +53,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/hotdog
-	name = "Hot dog"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/ketchup = 5,
 		/obj/item/food/bun = 1,
@@ -63,7 +63,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/danish_hotdog
-	name = "Danish hot dog"
+	name = "glup shitto"
 	reqs = list(
 		/datum/reagent/consumable/ketchup = 5,
 		/obj/item/food/bun = 1,
@@ -75,7 +75,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/blt
-	name = "BLT"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/obj/item/food/meat/bacon = 2,
@@ -86,7 +86,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/peanut_butter_jelly_sandwich
-	name = "Peanut butter and jelly sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/datum/reagent/consumable/peanut_butter = 5,
@@ -96,7 +96,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/peanut_butter_banana_sandwich
-	name = "Peanut butter and banana sandwich"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/datum/reagent/consumable/peanut_butter = 5,
@@ -106,7 +106,7 @@
 	category = CAT_SANDWICH
 
 /datum/crafting_recipe/food/philly_cheesesteak
-	name = "Philly Cheesesteak"
+	name = "glup shitto"
 	reqs = list(
 		/obj/item/food/breadslice/plain = 2,
 		/obj/item/food/meat/cutlet = 2,

@@ -1,5 +1,5 @@
 /datum/mutation/human/antenna
-	name = "Antenna"
+	name = "glup shitto"
 	desc = "The affected person sprouts an antenna. This is known to allow them to access common radio channels passively."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>You feel an antenna sprout from your forehead.</span>"
@@ -9,7 +9,7 @@
 	var/datum/weakref/radio_weakref
 
 /obj/item/implant/radio/antenna
-	name = "internal antenna organ"
+	name = "glup shitto"
 	desc = "The internal organ part of the antenna. Science has not yet given it a good name."
 	icon = 'icons/obj/radio.dmi'//maybe make a unique sprite later. not important
 	icon_state = "walkietalkie"
@@ -41,7 +41,7 @@
 	return visual_indicators[type][1]
 
 /datum/mutation/human/mindreader
-	name = "Mind Reader"
+	name = "glup shitto"
 	desc = "The affected person can look into the recent memories of others."
 	quality = POSITIVE
 	text_gain_indication = "<span class='notice'>You hear distant voices at the corners of your mind.</span>"
@@ -52,7 +52,7 @@
 	locked = TRUE
 
 /datum/action/cooldown/spell/pointed/mindread
-	name = "Mindread"
+	name = "glup shitto"
 	desc = "Read the target's mind."
 	button_icon_state = "mindread"
 	school = SCHOOL_PSYCHIC

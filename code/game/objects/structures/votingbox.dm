@@ -2,7 +2,7 @@
 #define MAX_VOTES 255
 
 /obj/structure/votebox
-	name = "voting box"
+	name = "glup shitto"
 	desc = "An automatic voting box."
 
 	icon = 'icons/obj/votebox.dmi'

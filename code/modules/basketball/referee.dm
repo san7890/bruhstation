@@ -1,11 +1,11 @@
 /obj/item/clothing/mask/whistle/minigame
-	name = "referee whistle"
+	name = "glup shitto"
 	desc = "A referee whistle used to call fouls against players."
 	actions_types = list(/datum/action/innate/timeout)
 
 // should be /datum/action/item_action but it doesn't support InterceptClickOn()
 /datum/action/innate/timeout
-	name = "Call foul"
+	name = "glup shitto"
 	desc = "Puts a person in a timeout for a few seconds."
 	button_icon = 'icons/obj/clothing/masks.dmi'
 	button_icon_state = "whistle"

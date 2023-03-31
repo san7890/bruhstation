@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/working/ripley
 	desc = "Autonomous Power Loader Unit MK-I. Designed primarily around heavy lifting, the Ripley can be outfitted with utility equipment to fill a number of roles."
-	name = "\improper APLU MK-I \"Ripley\""
+	name = "glup shitto"
 	icon_state = "ripley"
 	base_icon_state = "ripley"
 	silicon_icon_state = "ripley-empty"
@@ -81,7 +81,7 @@
 
 /obj/vehicle/sealed/mecha/working/ripley/mk2
 	desc = "Autonomous Power Loader Unit MK-II. This prototype Ripley is refitted with a pressurized cabin, trading its prior speed for atmospheric protection and armor."
-	name = "\improper APLU MK-II \"Ripley\""
+	name = "glup shitto"
 	icon_state = "ripleymkii"
 	base_icon_state = "ripleymkii"
 	fast_pressure_step_in = 2 //step_in while in low pressure conditions
@@ -115,7 +115,7 @@
 
 /obj/vehicle/sealed/mecha/working/ripley/deathripley
 	desc = "OH SHIT IT'S THE DEATHSQUAD WE'RE ALL GONNA DIE"
-	name = "\improper DEATH-RIPLEY"
+	name = "glup shitto"
 	icon_state = "deathripley"
 	base_icon_state = "deathripley"
 	fast_pressure_step_in = 2 //step_in while in low pressure conditions
@@ -147,7 +147,7 @@
 
 /obj/vehicle/sealed/mecha/working/ripley/mining
 	desc = "An old, dusty mining Ripley."
-	name = "\improper APLU \"Miner\""
+	name = "glup shitto"
 
 /obj/vehicle/sealed/mecha/working/ripley/mining/Initialize(mapload)
 	. = ..()
@@ -179,7 +179,7 @@ GLOBAL_DATUM(cargo_ripley, /obj/vehicle/sealed/mecha/working/ripley/cargo)
 
 /obj/vehicle/sealed/mecha/working/ripley/cargo
 	desc = "An ailing, old, repurposed cargo hauler. Most of its equipment wires are frayed or missing and its frame is rusted."
-	name = "\improper APLU \"Big Bess\""
+	name = "glup shitto"
 	icon_state = "hauler"
 	base_icon_state = "hauler"
 	max_integrity = 100 //Has half the health of a normal RIPLEY mech, so it's harder to use as a weapon.
@@ -217,7 +217,7 @@ GLOBAL_DATUM(cargo_ripley, /obj/vehicle/sealed/mecha/working/ripley/cargo)
 	return ..()
 
 /obj/item/mecha_parts/mecha_equipment/ejector
-	name = "Cargo compartment"
+	name = "glup shitto"
 	equipment_slot = MECHA_UTILITY
 	detachable = FALSE
 

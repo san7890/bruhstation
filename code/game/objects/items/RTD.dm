@@ -9,7 +9,7 @@
  * Supports silo link upgrade and refill with glass, plasteel & iron
  */
 /obj/item/construction/rtd
-	name = "rapid-tiling-device (RTD)"
+	name = "glup shitto"
 	desc = "Used for fast placement & destruction of floor tiles."
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "rtd"
@@ -357,7 +357,7 @@
 	matter = 350
 
 /obj/item/construction/rtd/admin
-	name = "admin RTD"
+	name = "glup shitto"
 	max_matter = INFINITY
 	matter = INFINITY
 

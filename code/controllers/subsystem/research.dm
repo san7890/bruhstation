@@ -1,6 +1,6 @@
 
 SUBSYSTEM_DEF(research)
-	name = "Research"
+	name = "glup shitto"
 	priority = FIRE_PRIORITY_RESEARCH
 	wait = 10
 	init_order = INIT_ORDER_RESEARCH

@@ -6,7 +6,7 @@ Slimecrossing Armor
 
 //Rebreather mask - Chilling Blue
 /obj/item/clothing/mask/nobreath
-	name = "rebreather mask"
+	name = "glup shitto"
 	desc = "A transparent mask, resembling a conventional breath mask, but made of bluish slime. Seems to lack any air supply tube, though."
 	icon_state = "slime"
 	inhand_icon_state = "b_mask"
@@ -32,7 +32,7 @@ Slimecrossing Armor
 	user.remove_status_effect(/datum/status_effect/rebreathing)
 
 /obj/item/clothing/glasses/prism_glasses
-	name = "prism glasses"
+	name = "glup shitto"
 	desc = "The lenses seem to glow slightly, and reflect light into dazzling colors."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "prismglasses"
@@ -44,7 +44,7 @@ Slimecrossing Armor
 		return TRUE
 
 /obj/structure/light_prism
-	name = "light prism"
+	name = "glup shitto"
 	desc = "A shining crystal of semi-solid light. Looks fragile."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "lightprism"
@@ -63,7 +63,7 @@ Slimecrossing Armor
 	qdel(src)
 
 /datum/action/item_action/change_prism_colour
-	name = "Adjust Prismatic Lens"
+	name = "glup shitto"
 	button_icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	button_icon_state = "prismcolor"
 
@@ -77,7 +77,7 @@ Slimecrossing Armor
 	glasses.glasses_color = new_color
 
 /datum/action/item_action/place_light_prism
-	name = "Fabricate Light Prism"
+	name = "glup shitto"
 	button_icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	button_icon_state = "lightprism"
 
@@ -96,7 +96,7 @@ Slimecrossing Armor
 		new /obj/structure/light_prism(get_turf(owner), glasses.glasses_color)
 
 /obj/item/clothing/head/peaceflower
-	name = "heroine bud"
+	name = "glup shitto"
 	desc = "An extremely addictive flower, full of peace magic."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	worn_icon = 'icons/mob/clothing/head/costume.dmi'
@@ -130,7 +130,7 @@ Slimecrossing Armor
 	return ..()
 
 /obj/item/clothing/suit/armor/heavy/adamantine
-	name = "adamantine armor"
+	name = "glup shitto"
 	desc = "A full suit of adamantine plate armor. Impressively resistant to damage, but weighs about as much as you do."
 	icon_state = "adamsuit"
 	icon = 'icons/obj/clothing/suits/armor.dmi'

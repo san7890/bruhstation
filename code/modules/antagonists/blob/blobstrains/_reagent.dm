@@ -20,7 +20,7 @@
 
 // These can only be applied by blobs. They are what (reagent) blobs are made out of.
 /datum/reagent/blob
-	name = "Unknown"
+	name = "glup shitto"
 	description = "shouldn't exist and you should adminhelp immediately."
 	color = "#FFFFFF"
 	taste_description = "bad code and slime"

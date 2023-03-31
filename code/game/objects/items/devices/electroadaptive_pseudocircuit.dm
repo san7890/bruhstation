@@ -1,6 +1,6 @@
 //Used by engineering cyborgs in place of generic circuits.
 /obj/item/electroadaptive_pseudocircuit
-	name = "electroadaptive pseudocircuit"
+	name = "glup shitto"
 	desc = "An all-in-one circuit imprinter, designer, synthesizer, outfitter, creator, and chef. It can be used in place of any generic circuit board during construction."
 	icon = 'icons/obj/module.dmi'
 	icon_state = "boris"

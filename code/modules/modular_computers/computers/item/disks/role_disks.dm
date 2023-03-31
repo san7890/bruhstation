@@ -18,7 +18,7 @@
 		add_file(program_type)
 
 /obj/item/computer_disk/command/captain
-	name = "captain data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download essential Captain tablet apps."
 	icon_state = "datadisk10"
 	starting_programs = list(
@@ -27,21 +27,21 @@
 	)
 
 /obj/item/computer_disk/command/cmo
-	name = "chief medical officer data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download essential CMO tablet apps."
 	starting_programs = list(
 		/datum/computer_file/program/records/medical,
 	)
 
 /obj/item/computer_disk/command/rd
-	name = "research director data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download essential RD tablet apps."
 	starting_programs = list(
 		/datum/computer_file/program/signal_commander,
 	)
 
 /obj/item/computer_disk/command/hos
-	name = "head of security data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download essential HoS tablet apps."
 	icon_state = "datadisk9"
 	starting_programs = list(
@@ -49,7 +49,7 @@
 	)
 
 /obj/item/computer_disk/command/hop
-	name = "head of personnel data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download essential HoP tablet apps."
 	starting_programs = list(
 		/datum/computer_file/program/records/security,
@@ -57,7 +57,7 @@
 	)
 
 /obj/item/computer_disk/command/ce
-	name = "chief engineer data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download essential CE tablet apps."
 	starting_programs = list(
 		/datum/computer_file/program/supermatter_monitor,
@@ -69,7 +69,7 @@
  * Security
  */
 /obj/item/computer_disk/security
-	name = "security officer data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download security-related tablet apps."
 	icon_state = "datadisk9"
 	starting_programs = list(
@@ -81,7 +81,7 @@
  * Medical
  */
 /obj/item/computer_disk/medical
-	name = "medical doctor data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download medical-related tablet apps."
 	icon_state = "datadisk7"
 	starting_programs = list(
@@ -92,7 +92,7 @@
  * Supply
  */
 /obj/item/computer_disk/quartermaster
-	name = "cargo data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download cargo-related tablet apps."
 	icon_state = "cargodisk"
 	starting_programs = list(
@@ -104,7 +104,7 @@
  * Science
  */
 /obj/item/computer_disk/ordnance
-	name = "ordnance data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download ordnance-related tablet apps."
 	icon_state = "datadisk5"
 	starting_programs = list(
@@ -116,7 +116,7 @@
  * Engineering
  */
 /obj/item/computer_disk/engineering
-	name = "station engineer data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download engineering-related tablet apps."
 	icon_state = "datadisk6"
 	starting_programs = list(
@@ -124,7 +124,7 @@
 	)
 
 /obj/item/computer_disk/atmos
-	name = "atmospheric technician data disk"
+	name = "glup shitto"
 	desc = "Removable disk used to download atmos-related tablet apps."
 	icon_state = "datadisk6"
 	starting_programs = list(

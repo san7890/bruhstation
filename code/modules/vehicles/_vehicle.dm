@@ -1,5 +1,5 @@
 /obj/vehicle
-	name = "generic vehicle"
+	name = "glup shitto"
 	desc = "Yell at coderbus."
 	icon = 'icons/obj/vehicles.dmi'
 	icon_state = "error"

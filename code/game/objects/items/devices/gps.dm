@@ -1,6 +1,6 @@
 
 /obj/item/gps
-	name = "global positioning system"
+	name = "glup shitto"
 	desc = "Helping lost spacemen find their way through the planets since 2016."
 	icon = 'icons/obj/telescience.dmi'
 	icon_state = "gps-c"
@@ -61,7 +61,7 @@
 	AddComponent(/datum/component/gps/item, gpstag, state = GLOB.inventory_state)
 
 /obj/item/gps/visible_debug
-	name = "visible GPS"
+	name = "glup shitto"
 	gpstag = "ADMIN"
 	desc = "This admin-spawn GPS unit leaves the coordinates visible \
 		on any turf that it passes over, for debugging. Especially useful \

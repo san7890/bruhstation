@@ -13,7 +13,7 @@
  * movespeed controlled by cooldown macros. Can attach obj/item/target, obj/item/training_toolbox, and can buckle mobs to this.
  */
 /obj/structure/training_machine
-	name = "AURUMILL-Brand MkII. Personnel Training Machine"
+	name = "glup shitto"
 	desc = "Used for combat training simulations. Accepts standard training targets. A pair of buckling straps are attached."
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "training_machine"
@@ -342,7 +342,7 @@
  * Also has a 'Lap' function for keeping track of hits made at a certain point. Also, looks kinda like his grace for laughs and pranks.
  */
 /obj/item/training_toolbox
-	name = "Training Toolbox"
+	name = "glup shitto"
 	desc = "AURUMILL-Brand Baby's First Training Toolbox. A digital display on the back keeps track of hits made by the user. Second toolbox sold separately!"
 	icon = 'icons/obj/storage/toolbox.dmi'
 	icon_state = "gold"

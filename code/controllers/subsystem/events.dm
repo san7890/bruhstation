@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(events)
-	name = "Events"
+	name = "glup shitto"
 	init_order = INIT_ORDER_EVENTS
 	runlevels = RUNLEVEL_GAME
 

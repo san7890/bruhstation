@@ -3,7 +3,7 @@
 #define PLASMA_COMBO "HDDDH"
 
 /datum/martial_art/plasma_fist
-	name = "Plasma Fist"
+	name = "glup shitto"
 	id = MARTIALART_PLASMAFIST
 	help_verb = /mob/living/proc/plasma_fist_help
 	var/nobomb = FALSE
@@ -157,7 +157,7 @@
 
 
 /obj/effect/temp_visual/plasma_soul
-	name = "plasma energy"
+	name = "glup shitto"
 	desc = "Leftover energy brought out from The Plasma Fist."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "plasmasoul"
@@ -178,12 +178,12 @@
 	. = ..()
 
 /obj/effect/ebeam/plasma_fist
-	name = "plasma"
+	name = "glup shitto"
 	mouse_opacity = MOUSE_OPACITY_ICON
 	desc = "Flowing energy."
 
 /datum/martial_art/plasma_fist/nobomb
-	name = "Novice Plasma Fist"
+	name = "glup shitto"
 	nobomb = TRUE
 
 #undef TORNADO_COMBO

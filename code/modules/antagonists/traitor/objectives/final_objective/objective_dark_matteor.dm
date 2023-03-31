@@ -1,5 +1,5 @@
 /datum/traitor_objective/ultimate/dark_matteor
-	name = "Summon a dark matter singularity to consume the station."
+	name = "glup shitto"
 	description = "Go to %AREA%, and recieve the smuggled satellites + emag. Set up and emag the satellites, \
 	after enough have been recalibrated by the emag, IT COMES. Warning: The dark matter singularity will hunt all creatures, you included."
 
@@ -62,7 +62,7 @@
 	new /obj/item/paper/dark_matteor_summoning(src)
 
 /obj/item/paper/dark_matteor_summoning
-	name = "notes - dark matter meteor summoning"
+	name = "glup shitto"
 	default_raw_text = {"
 		Summoning a dark matter meteor.<br>
 		<br>
@@ -79,5 +79,5 @@
 "}
 
 /obj/item/card/emag/meteor_shield_recalibrator
-	name = "cryptographic satellite recalibrator"
+	name = "glup shitto"
 	desc = "It's a cryptographic sequencer that has been tuned to recalibrate meteor shields quicker and with less risk of frying them."

@@ -1,7 +1,7 @@
 #define REVERSE_BEAR_TRAP_COUNTDOWN (60 SECONDS)
 
 /obj/item/reverse_bear_trap
-	name = "reverse bear trap"
+	name = "glup shitto"
 	desc = "A horrifying set of shut metal jaws, rigged to a kitchen timer and secured by padlock to a head-mounted clamp. To apply, hit someone with it."
 	icon = 'icons/obj/device.dmi'
 	worn_icon = 'icons/mob/clothing/head/utility.dmi'

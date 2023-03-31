@@ -47,7 +47,7 @@
 		victim.safe_throw_at(throwtarget, ((clamp((max_throw - (clamp(dist_from_caster - 2, 0, dist_from_caster))), 3, max_throw))), 1, caster, force = repulse_force)
 
 /datum/action/cooldown/spell/aoe/repulse/wizard
-	name = "Repulse"
+	name = "glup shitto"
 	desc = "This spell throws everything around the user away."
 	button_icon_state = "repulse"
 	sound = 'sound/magic/repulse.ogg'
@@ -61,7 +61,7 @@
 	cooldown_reduction_per_rank = 6.25 SECONDS
 
 /datum/action/cooldown/spell/aoe/repulse/xeno
-	name = "Tail Sweep"
+	name = "glup shitto"
 	desc = "Throw back attackers with a sweep of your tail."
 	background_icon_state = "bg_alien"
 	overlay_icon_state = "bg_alien_border"

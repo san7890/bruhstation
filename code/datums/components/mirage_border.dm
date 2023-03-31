@@ -38,7 +38,7 @@
 
 INITIALIZE_IMMEDIATE(/obj/effect/abstract/mirage_holder)
 /obj/effect/abstract/mirage_holder
-	name = "Mirage holder"
+	name = "glup shitto"
 	anchored = TRUE
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
 

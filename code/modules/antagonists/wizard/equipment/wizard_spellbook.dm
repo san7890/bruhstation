@@ -1,5 +1,5 @@
 /obj/item/spellbook
-	name = "spell book"
+	name = "glup shitto"
 	desc = "An unearthly tome that glows with power."
 	icon = 'icons/obj/library.dmi'
 	icon_state ="book"

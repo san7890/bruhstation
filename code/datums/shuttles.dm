@@ -1,7 +1,7 @@
 #define EMAG_LOCKED_SHUTTLE_COST (CARGO_CRATE_VALUE * 50)
 
 /datum/map_template/shuttle
-	name = "Base Shuttle Template"
+	name = "glup shitto"
 	var/prefix = "_maps/shuttles/"
 	var/suffix
 	/**
@@ -82,16 +82,16 @@
 
 /datum/map_template/shuttle/emergency
 	port_id = "emergency"
-	name = "Base Shuttle Template (Emergency)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/cargo
 	port_id = "cargo"
-	name = "Base Shuttle Template (Cargo)"
+	name = "glup shitto"
 	who_can_purchase = null
 
 /datum/map_template/shuttle/ferry
 	port_id = "ferry"
-	name = "Base Shuttle Template (Ferry)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/whiteship
 	port_id = "whiteship"
@@ -152,12 +152,12 @@
 
 /datum/map_template/shuttle/emergency/backup
 	suffix = "backup"
-	name = "Backup Shuttle"
+	name = "glup shitto"
 	who_can_purchase = null
 
 /datum/map_template/shuttle/emergency/construction
 	suffix = "construction"
-	name = "Build your own shuttle kit"
+	name = "glup shitto"
 	description = "For the enterprising shuttle engineer! The chassis will dock upon purchase, but launch will have to be authorized as usual via shuttle call. Comes stocked with construction materials. Unlocks the ability to buy shuttle engine crates from cargo, which allow you to speed up shuttle transit time."
 	admin_notes = "No brig, no medical facilities."
 	credit_cost = CARGO_CRATE_VALUE * 5
@@ -172,19 +172,19 @@
 
 /datum/map_template/shuttle/emergency/asteroid
 	suffix = "asteroid"
-	name = "Asteroid Station Emergency Shuttle"
+	name = "glup shitto"
 	description = "A respectable mid-sized shuttle that first saw service shuttling Nanotrasen crew to and from their asteroid belt embedded facilities."
 	credit_cost = CARGO_CRATE_VALUE * 6
 
 /datum/map_template/shuttle/emergency/venture
 	suffix = "venture"
-	name = "Venture Emergency Shuttle"
+	name = "glup shitto"
 	description = "A mid-sized shuttle for those who like a lot of space for their legs."
 	credit_cost = CARGO_CRATE_VALUE * 10
 
 /datum/map_template/shuttle/emergency/bar
 	suffix = "bar"
-	name = "The Emergency Escape Bar"
+	name = "glup shitto"
 	description = "Features include sentient bar staff (a Bardrone and a Barmaid), bathroom, a quality lounge for the heads, and a large gathering table."
 	admin_notes = "Bardrone and Barmaid are GODMODE, will be automatically sentienced by the fun balloon at 60 seconds before arrival. \
 	Has medical facilities."
@@ -192,21 +192,21 @@
 
 /datum/map_template/shuttle/emergency/pod
 	suffix = "pod"
-	name = "Emergency Pods"
+	name = "glup shitto"
 	description = "We did not expect an evacuation this quickly. All we have available is two escape pods."
 	admin_notes = "For player punishment."
 	who_can_purchase = null
 
 /datum/map_template/shuttle/emergency/russiafightpit
 	suffix = "russiafightpit"
-	name = "Mother Russia Bleeds"
+	name = "glup shitto"
 	description = "Dis is a high-quality shuttle, da. Many seats, lots of space, all equipment! Even includes entertainment! Such as lots to drink, and a fighting arena for drunk crew to have fun! If arena not fun enough, simply press button of releasing bears. Do not worry, bears trained not to break out of fighting pit, so totally safe so long as nobody stupid or drunk enough to leave door open. Try not to let asimov babycons ruin fun!"
 	admin_notes = "Includes a small variety of weapons. And bears. Only captain-access can release the bears. Bears won't smash the windows themselves, but they can escape if someone lets them."
 	credit_cost = CARGO_CRATE_VALUE * 10 // While the shuttle is rusted and poorly maintained, trained bears are costly.
 
 /datum/map_template/shuttle/emergency/meteor
 	suffix = "meteor"
-	name = "Asteroid With Engines Strapped To It"
+	name = "glup shitto"
 	description = "A hollowed out asteroid with engines strapped to it, the hollowing procedure makes it very difficult to hijack but is very expensive. Due to its size and difficulty in steering it, this shuttle may damage the docking area."
 	admin_notes = "This shuttle will likely crush escape, killing anyone there."
 	credit_cost = CARGO_CRATE_VALUE * 30
@@ -214,7 +214,7 @@
 
 /datum/map_template/shuttle/emergency/monastery
 	suffix = "monastery"
-	name = "Grand Corporate Monastery"
+	name = "glup shitto"
 	description = "Originally built for a public station, this grand edifice to religion, due to budget cuts, is now available as an escape shuttle for the right... donation. Due to its large size and callous owners, this shuttle may cause collateral damage."
 	admin_notes = "WARNING: This shuttle WILL destroy a fourth of the station, likely picking up a lot of objects with it."
 	emag_only = TRUE
@@ -223,7 +223,7 @@
 
 /datum/map_template/shuttle/emergency/luxury
 	suffix = "luxury"
-	name = "Luxury Shuttle"
+	name = "glup shitto"
 	description = "A luxurious golden shuttle complete with an indoor swimming pool. Each crewmember wishing to board must bring 500 credits, payable in cash and mineral coin."
 	extra_desc = "This shuttle costs 500 credits to board."
 	admin_notes = "Due to the limited space for non paying crew, this shuttle may cause a riot."
@@ -232,7 +232,7 @@
 
 /datum/map_template/shuttle/emergency/medisim
 	suffix = "medisim"
-	name = "Medieval Reality Simulation Dome"
+	name = "glup shitto"
 	description = "A state of the art simulation dome, loaded onto your shuttle! Watch and laugh at how petty humanity used to be before it reached the stars. Guaranteed to be at least 40% historically accurate."
 	admin_notes = "Ghosts can spawn in and fight as knights or archers. The CTF auto restarts, so no admin intervention necessary."
 	credit_cost = 20000
@@ -242,7 +242,7 @@
 
 /datum/map_template/shuttle/emergency/discoinferno
 	suffix = "discoinferno"
-	name = "Disco Inferno"
+	name = "glup shitto"
 	description = "The glorious results of centuries of plasma research done by Nanotrasen employees. This is the reason why you are here. Get on and dance like you're on fire, burn baby burn!"
 	admin_notes = "Flaming hot. The main area has a dance machine as well as plasma floor tiles that will be ignited by players every single time."
 	emag_only = TRUE
@@ -250,7 +250,7 @@
 
 /datum/map_template/shuttle/emergency/arena
 	suffix = "arena"
-	name = "The Arena"
+	name = "glup shitto"
 	description = "The crew must pass through an otherworldy arena to board this shuttle. Expect massive casualties. The source of the Bloody Signal must be tracked down and eliminated to unlock this shuttle."
 	admin_notes = "RIP AND TEAR."
 	credit_cost = CARGO_CRATE_VALUE * 20
@@ -268,31 +268,31 @@
 		arena_template.load_new_z()
 
 /datum/map_template/arena
-	name = "The Arena"
+	name = "glup shitto"
 	mappath = "_maps/templates/the_arena.dmm"
 
 /datum/map_template/shuttle/emergency/birdboat
 	suffix = "birdboat"
-	name = "Birdboat Station Emergency Shuttle"
+	name = "glup shitto"
 	description = "Though a little on the small side, this shuttle is feature complete, which is more than can be said for the pattern of station it was commissioned for."
 	credit_cost = CARGO_CRATE_VALUE * 2
 
 /datum/map_template/shuttle/emergency/box
 	suffix = "box"
-	name = "Box Station Emergency Shuttle"
+	name = "glup shitto"
 	credit_cost = CARGO_CRATE_VALUE * 4
 	description = "The gold standard in emergency exfiltration, this tried and true design is equipped with everything the crew needs for a safe flight home."
 
 /datum/map_template/shuttle/emergency/donut
 	suffix = "donut"
-	name = "Donutstation Emergency Shuttle"
+	name = "glup shitto"
 	description = "The perfect spearhead for any crude joke involving the station's shape, this shuttle supports a separate containment cell for prisoners and a compact medical wing."
 	admin_notes = "Has airlocks on both sides of the shuttle and will probably intersect near the front on some stations that build past departures."
 	credit_cost = CARGO_CRATE_VALUE * 5
 
 /datum/map_template/shuttle/emergency/clown
 	suffix = "clown"
-	name = "Snappop(tm)!"
+	name = "glup shitto"
 	description = "Hey kids and grownups! \
 	Are you bored of DULL and TEDIOUS shuttle journeys after you're evacuating for probably BORING reasons. Well then order the Snappop(tm) today! \
 	We've got fun activities for everyone, an all access cockpit, and no boring security brig! Boo! Play dress up with your friends! \
@@ -303,7 +303,7 @@
 
 /datum/map_template/shuttle/emergency/cramped
 	suffix = "cramped"
-	name = "Secure Transport Vessel 5 (STV5)"
+	name = "glup shitto"
 	description = "Well, looks like CentCom only had this ship in the area, they probably weren't expecting you to need evac for a while. \
 	Probably best if you don't rifle around in whatever equipment they were transporting. I hope you're friendly with your coworkers, because there is very little space in this thing.\n\
 	\n\
@@ -312,31 +312,31 @@
 
 /datum/map_template/shuttle/emergency/meta
 	suffix = "meta"
-	name = "Meta Station Emergency Shuttle"
+	name = "glup shitto"
 	credit_cost = CARGO_CRATE_VALUE * 8
 	description = "A fairly standard shuttle, though larger and slightly better equipped than the Box Station variant."
 
 /datum/map_template/shuttle/emergency/kilo
 	suffix = "kilo"
-	name = "Kilo Station Emergency Shuttle"
+	name = "glup shitto"
 	credit_cost = CARGO_CRATE_VALUE * 10
 	description = "A fully functional shuttle including a complete infirmary, storage facilties and regular amenities."
 
 /datum/map_template/shuttle/emergency/mini
 	suffix = "mini"
-	name = "Ministation emergency shuttle"
+	name = "glup shitto"
 	credit_cost = CARGO_CRATE_VALUE * 2
 	description = "Despite its namesake, this shuttle is actually only slightly smaller than standard, and still complete with a brig and medbay."
 
 /datum/map_template/shuttle/emergency/tram
 	suffix = "tram"
-	name = "Tram Station Emergency Shuttle"
+	name = "glup shitto"
 	credit_cost = CARGO_CRATE_VALUE * 4
 	description = "A train but in space, choo choo!"
 
 /datum/map_template/shuttle/emergency/scrapheap
 	suffix = "scrapheap"
-	name = "Standby Evacuation Vessel \"Scrapheap Challenge\""
+	name = "glup shitto"
 	credit_cost = CARGO_CRATE_VALUE * -2
 	description = "Due to a lack of functional emergency shuttles, we bought this second hand from a scrapyard and pressed it into service. Please do not lean too heavily on the exterior windows, they are fragile."
 	admin_notes = "An abomination with no functional medbay, sections missing, and some very fragile windows. Surprisingly airtight."
@@ -344,7 +344,7 @@
 
 /datum/map_template/shuttle/emergency/narnar
 	suffix = "narnar"
-	name = "Shuttle 667"
+	name = "glup shitto"
 	description = "Looks like this shuttle may have wandered into the darkness between the stars on route to the station. Let's not think too hard about where all the bodies came from."
 	admin_notes = "Contains real cult ruins, mob eyeballs, and inactive constructs. Cult mobs will automatically be sentienced by fun balloon. \
 	Cloning pods in 'medbay' area are showcases and nonfunctional."
@@ -355,14 +355,14 @@
 
 /datum/map_template/shuttle/emergency/pubby
 	suffix = "pubby"
-	name = "Pubby Station Emergency Shuttle"
+	name = "glup shitto"
 	description = "A train but in space! Complete with a first, second class, brig and storage area."
 	admin_notes = "Choo choo motherfucker!"
 	credit_cost = CARGO_CRATE_VALUE * 2
 
 /datum/map_template/shuttle/emergency/cere
 	suffix = "cere"
-	name = "Cere Station Emergency Shuttle"
+	name = "glup shitto"
 	description = "The large, beefed-up version of the box-standard shuttle. Includes an expanded brig, fully stocked medbay, enhanced cargo storage with mech chargers, \
 	an engine room stocked with various supplies, and a crew capacity of 80+ to top it all off. Live large, live Cere."
 	admin_notes = "Seriously big, even larger than the Delta shuttle."
@@ -370,7 +370,7 @@
 
 /datum/map_template/shuttle/emergency/supermatter
 	suffix = "supermatter"
-	name = "Hyperfractal Gigashuttle"
+	name = "glup shitto"
 	description = "\"I dunno, this seems kinda needlessly complicated.\"\n\
 	\"This shuttle has very a very high safety record, according to CentCom Officer Cadet Yins.\"\n\
 	\"Are you sure?\"\n\
@@ -385,7 +385,7 @@
 
 /datum/map_template/shuttle/emergency/imfedupwiththisworld
 	suffix = "imfedupwiththisworld"
-	name = "Oh, Hi Daniel"
+	name = "glup shitto"
 	description = "How was space work today? Oh, pretty good. We got a new space station and the company will make a lot of money. What space station? I cannot tell you; it's space confidential. \
 	Aw, come space on. Why not? No, I can't. Anyway, how is your space roleplay life?"
 	admin_notes = "Tiny, with a single airlock and wooden walls. What could go wrong?"
@@ -395,13 +395,13 @@
 
 /datum/map_template/shuttle/emergency/goon
 	suffix = "goon"
-	name = "NES Port"
+	name = "glup shitto"
 	description = "The Nanotrasen Emergency Shuttle Port(NES Port for short) is a shuttle used at other less known Nanotrasen facilities and has a more open inside for larger crowds, but fewer onboard shuttle facilities."
 	credit_cost = CARGO_CRATE_VALUE
 
 /datum/map_template/shuttle/emergency/rollerdome
 	suffix = "rollerdome"
-	name = "Uncle Pete's Rollerdome"
+	name = "glup shitto"
 	description = "Developed by a member of Nanotrasen's R&D crew that claims to have travelled from the year 2028. \
 	He says this shuttle is based off an old entertainment complex from the 1990s, though our database has no records on anything pertaining to that decade."
 	admin_notes = "ONLY NINETIES KIDS REMEMBER. Uses the fun balloon and drone from the Emergency Bar."
@@ -409,7 +409,7 @@
 
 /datum/map_template/shuttle/emergency/basketball
 	suffix = "bballhooper"
-	name = "Basketballer's Stadium"
+	name = "glup shitto"
 	description = "Hoop, man, hoop! Get your shooting game on with this sleek new basketball stadium! Do keep in mind that several other features \
 	that you may expect to find common-place on other shuttles aren't present to give you this sleek stadium at an affordable cost. \
 	It also wasn't manufactured to deal with the form-factor of some of your stations... good luck with that."
@@ -418,7 +418,7 @@
 
 /datum/map_template/shuttle/emergency/wabbajack
 	suffix = "wabbajack"
-	name = "NT Lepton Violet"
+	name = "glup shitto"
 	description = "The research team based on this vessel went missing one day, and no amount of investigation could discover what happened to them. \
 	The only occupants were a number of dead rodents, who appeared to have clawed each other to death. \
 	Needless to say, no engineering team wanted to go near the thing, and it's only being used as an Emergency Escape Shuttle because there is literally nothing else available."
@@ -427,67 +427,67 @@
 
 /datum/map_template/shuttle/emergency/omega
 	suffix = "omega"
-	name = "Omegastation Emergency Shuttle"
+	name = "glup shitto"
 	description = "On the smaller size with a modern design, this shuttle is for the crew who like the cosier things, while still being able to stretch their legs."
 	credit_cost = CARGO_CRATE_VALUE * 2
 
 /datum/map_template/shuttle/emergency/cruise
 	suffix = "cruise"
-	name = "The NTSS Independence"
+	name = "glup shitto"
 	description = "Ordinarily reserved for special functions and events, the Cruise Shuttle Independence can bring a summery cheer to your next station evacuation for a 'modest' fee!"
 	admin_notes = "This motherfucker is BIG. You might need to force dock it."
 	credit_cost = CARGO_CRATE_VALUE * 100
 
 /datum/map_template/shuttle/emergency/monkey
 	suffix = "nature"
-	name = "Dynamic Environmental Interaction Shuttle"
+	name = "glup shitto"
 	description = "A large shuttle with a center biodome that is flourishing with life. Frolick with the monkeys! (Extra monkeys are stored on the bridge.)"
 	admin_notes = "Pretty freakin' large, almost as big as Raven or Cere. Excercise caution with it."
 	credit_cost = CARGO_CRATE_VALUE * 16
 
 /datum/map_template/shuttle/emergency/casino
 	suffix = "casino"
-	name = "Lucky Jackpot Casino Shuttle"
+	name = "glup shitto"
 	description = "A luxurious casino packed to the brim with everything you need to start new gambling addicitions!"
 	admin_notes = "The ship is a bit chunky, so watch where you park it."
 	credit_cost = 7777
 
 /datum/map_template/shuttle/emergency/shadow
 	suffix = "shadow"
-	name = "The NTSS Shadow"
+	name = "glup shitto"
 	description = "Guaranteed to get you somewhere FAST. With a custom-built plasma engine, this bad boy will put more distance between you and certain danger than any other!"
 	admin_notes = "The aft of the ship has a plasma tank that starts ignited. May get released by crew. The plasma windows next to the engine heaters will also erupt into flame, and also risk getting released by crew."
 	credit_cost = CARGO_CRATE_VALUE * 50
 
 /datum/map_template/shuttle/emergency/fish
 	suffix = "fish"
-	name = "Angler's Choice Emergency Shuttle"
+	name = "glup shitto"
 	description = "Trades such amenities as 'storage space' and 'sufficient seating' for an artifical environment ideal for fishing, plus ample supplies (also for fishing)."
 	admin_notes = "There's a chasm in it, it has railings but that won't stop determined players."
 	credit_cost = CARGO_CRATE_VALUE * 10
 
 /datum/map_template/shuttle/emergency/lance
 	suffix = "lance"
-	name = "The Lance Crew Evacuation System"
+	name = "glup shitto"
 	description = "A brand new shuttle by Nanotrasen's finest in shuttle-engineering, it's designed to tactically slam into a destroyed station, dispatching threats and saving crew at the same time! Be careful to stay out of it's path."
 	admin_notes = "WARNING: This shuttle is designed to crash into the station. It has turrets, similar to the raven."
 	credit_cost = CARGO_CRATE_VALUE * 70
 
 /datum/map_template/shuttle/emergency/tranquility
 	suffix = "tranquility"
-	name = "The Tranquility Relocation Shuttle"
+	name = "glup shitto"
 	description = "A large shuttle, covered in flora and comfortable resting areas. The perfect way to end a peaceful shift"
 	admin_notes = "it's pretty big, and comfy. Be careful when placing it down!"
 	credit_cost = CARGO_CRATE_VALUE * 25
 
 /datum/map_template/shuttle/ferry/base
 	suffix = "base"
-	name = "transport ferry"
+	name = "glup shitto"
 	description = "Standard issue Box/Metastation CentCom ferry."
 
 /datum/map_template/shuttle/ferry/meat
 	suffix = "meat"
-	name = "\"meat\" ferry"
+	name = "glup shitto"
 	description = "Ahoy! We got all kinds o' meat aft here. Meat from plant people, people who be dark, not in a racist way, just they're dark black. \
 	Oh and lizard meat too,mighty popular that is. Definitely 100% fresh, just ask this guy here. *person on meatspike moans* See? \
 	Definitely high quality meat, nothin' wrong with it, nothin' added, definitely no zombifyin' reagents!"
@@ -495,7 +495,7 @@
 
 /datum/map_template/shuttle/ferry/lighthouse
 	suffix = "lighthouse"
-	name = "The Lighthouse(?)"
+	name = "glup shitto"
 	description = "*static*... part of a much larger vessel, possibly military in origin. \
 	The weapon markings aren't anything we've seen ...static... by almost never the same person twice, possible use of unknown storage ...static... \
 	seeing ERT officers onboard, but no missions are on file for ...static...static...annoying jingle... only at The LIGHTHOUSE! \
@@ -504,96 +504,96 @@
 
 /datum/map_template/shuttle/ferry/fancy
 	suffix = "fancy"
-	name = "fancy transport ferry"
+	name = "glup shitto"
 	description = "At some point, someone upgraded the ferry to have fancier flooring... and fewer seats."
 
 /datum/map_template/shuttle/ferry/kilo
 	suffix = "kilo"
-	name = "kilo transport ferry"
+	name = "glup shitto"
 	description = "Standard issue CentCom Ferry for Kilo pattern stations. Includes additional equipment and rechargers."
 
 /datum/map_template/shuttle/whiteship/box
 	suffix = "box"
-	name = "Hospital Ship"
+	name = "glup shitto"
 	description = "Whiteship with medical supplies. Zombies do not currently spawn corpses, and are not infectious."
 
 /datum/map_template/shuttle/whiteship/meta
 	suffix = "meta"
-	name = "Salvage Ship"
+	name = "glup shitto"
 	description = "Whiteship that focuses on a large cargo bay that players can build in. Spawns with Syndicate mobs who do not drop corpses and are highly aggressive."
 
 /datum/map_template/shuttle/whiteship/pubby
 	suffix = "pubby"
-	name = "NT Science Vessel"
+	name = "glup shitto"
 	description = "A small science vessel that uses just one area and is full of angry ants."
 
 /datum/map_template/shuttle/whiteship/cere
 	suffix = "cere"
-	name = "NT Construction Vessel"
+	name = "glup shitto"
 	description = "A small cargo vessel with open interiors. Starts with a 25% chance to spawn a functional RIPLEY, and has infinite power."
 
 /datum/map_template/shuttle/whiteship/kilo
 	suffix = "kilo"
-	name = "NT Mining Shuttle"
+	name = "glup shitto"
 	description = "A mining vessel with a curious shape starting with a few angry netherworld mobs."
 
 /datum/map_template/shuttle/whiteship/donut
 	suffix = "donut"
-	name = "NT Long-Distance Bluespace Jumper"
+	name = "glup shitto"
 	description = "A ship hit with an engine blowout, leaving it as a depressurised husk. Has infinite power, although likely to bait people into removing that property. Also the most open out of all the whiteships, and starts with a 25% ripley chance."
 
 /datum/map_template/shuttle/whiteship/tram
 	suffix = "tram"
-	name = "NT Long-Distance Bluespace Freighter"
+	name = "glup shitto"
 	description = "A long shuttle that starts with Nanotrasen private security corpses. DOES NOT FIT IN THE BASE DOCKS! Does fit in Deep Space's dock though."
 
 /datum/map_template/shuttle/whiteship/delta
 	suffix = "delta"
-	name = "NT Frigate"
+	name = "glup shitto"
 	description = "A standard whiteship with big spiders onboard. PACMAN generator is not wired and next to main grid cabling, so it requires some work."
 
 /datum/map_template/shuttle/whiteship/pod
 	suffix = "whiteship_pod"
-	name = "Salvage Pod"
+	name = "glup shitto"
 	description = "There is no map for this vessel and it was supposed to be used with the Meta-class. Do not try to spawn it!"
 
 /datum/map_template/shuttle/whiteship/personalshuttle
 	suffix = "personalshuttle"
-	name = "Personal Travel Shuttle"
+	name = "glup shitto"
 	description = "A small vessel with a few zombies and an engineer's corpse that can be looted."
 
 /datum/map_template/shuttle/whiteship/obelisk
 	suffix = "obelisk"
-	name = "Obelisk"
+	name = "glup shitto"
 	description = "A large research vessel affected by the Cult of Nar'Sie. PACMAN generator is not wired and next to main grid cabling, so it requires some work."
 	admin_notes = "Not actually an obelisk, has nonsentient cult constructs."
 
 /datum/map_template/shuttle/cargo/kilo
 	suffix = "kilo"
-	name = "supply shuttle (Kilo)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/cargo/birdboat
 	suffix = "birdboat"
-	name = "supply shuttle (Birdboat)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/cargo/donut
 	suffix = "donut"
-	name = "supply shuttle (Donut)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/cargo/pubby
 	suffix = "pubby"
-	name = "supply shuttle (Pubby)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/emergency/delta
 	suffix = "delta"
-	name = "Delta Station Emergency Shuttle"
+	name = "glup shitto"
 	description = "A large shuttle for a large station, this shuttle can comfortably fit all your overpopulation and crowding needs. Complete with all facilities plus additional equipment."
 	admin_notes = "Go big or go home."
 	credit_cost = CARGO_CRATE_VALUE * 15
 
 /datum/map_template/shuttle/emergency/raven
 	suffix = "raven"
-	name = "CentCom Raven Cruiser"
+	name = "glup shitto"
 	description = "The CentCom Raven Cruiser is a former high-risk salvage vessel, now repurposed into an emergency escape shuttle. \
 	Once first to the scene to pick through warzones for valuable remains, it now serves as an excellent escape option for stations under heavy fire from outside forces. \
 	This escape shuttle boasts shields and numerous anti-personnel turrets guarding its perimeter to fend off meteors and enemy boarding attempts."
@@ -602,7 +602,7 @@
 
 /datum/map_template/shuttle/emergency/zeta
 	suffix = "zeta"
-	name = "Tr%nPo2r& Z3TA"
+	name = "glup shitto"
 	description = "A glitch appears on your monitor, flickering in and out of the options laid before you. \
 	It seems strange and alien, you may need a special technology to access the signal.."
 	admin_notes = "Has alien surgery tools, and a void core that provides unlimited power."
@@ -613,145 +613,145 @@
 
 /datum/map_template/shuttle/arrival/box
 	suffix = "box"
-	name = "arrival shuttle (Box)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/cargo/box
 	suffix = "box"
-	name = "cargo ferry (Box)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/mining/box
 	suffix = "box"
-	name = "mining shuttle (Box)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/labour/box
 	suffix = "box"
-	name = "labour shuttle (Box)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/labour/generic
 	suffix = "generic"
-	name = "labour shuttle (Generic)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/arrival/donut
 	suffix = "donut"
-	name = "arrival shuttle (Donut)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/infiltrator/basic
 	suffix = "basic"
-	name = "basic syndicate infiltrator"
+	name = "glup shitto"
 	description = "Base Syndicate infiltrator, spawned by default for nukeops to use."
 
 /datum/map_template/shuttle/infiltrator/advanced
 	suffix = "advanced"
-	name = "advanced syndicate infiltrator"
+	name = "glup shitto"
 	description = "A much larger version of the standard Syndicate infiltrator that feels more like Kilostation. Has APCs, but power is not a concern for nuclear operatives. Also comes with atmos!"
 
 /datum/map_template/shuttle/cargo/delta
 	suffix = "delta"
-	name = "cargo ferry (Delta)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/mining/delta
 	suffix = "delta"
-	name = "mining shuttle (Delta)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/mining/kilo
 	suffix = "kilo"
-	name = "mining shuttle (Kilo)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/mining/large
 	suffix = "large"
-	name = "mining shuttle (Large)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/labour/delta
 	suffix = "delta"
-	name = "labour shuttle (Delta)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/labour/kilo
 	suffix = "kilo"
-	name = "labour shuttle (Kilo)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/mining_common/meta
 	suffix = "meta"
-	name = "lavaland shuttle (Meta)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/mining_common/kilo
 	suffix = "kilo"
-	name = "lavaland shuttle (Kilo)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/arrival/delta
 	suffix = "delta"
-	name = "arrival shuttle (Delta)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/arrival/kilo
 	suffix = "kilo"
-	name = "arrival shuttle (Kilo)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/arrival/pubby
 	suffix = "pubby"
-	name = "arrival shuttle (Pubby)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/arrival/omega
 	suffix = "omega"
-	name = "arrival shuttle (Omega)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/aux_base/default
 	suffix = "default"
-	name = "auxilliary base (Default)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/aux_base/small
 	suffix = "small"
-	name = "auxilliary base (Small)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/escape_pod/default
 	suffix = "default"
-	name = "escape pod (Default)"
+	name = "glup shitto"
 	description = "Base escape pod with 2 tiles of interior space."
 
 /datum/map_template/shuttle/escape_pod/large
 	suffix = "large"
-	name = "escape pod (Large)"
+	name = "glup shitto"
 	description = "Actually the old Pubbystation monastery shuttle."
 
 /datum/map_template/shuttle/escape_pod/luxury
 	suffix = "luxury"
-	name = "escape pod (Luxury)"
+	name = "glup shitto"
 	description = "Upgraded escape pod with 3 tiles of interior space."
 
 /datum/map_template/shuttle/escape_pod/cramped
 	suffix = "cramped"
-	name = "escape pod (Cramped)"
+	name = "glup shitto"
 	description = "Downgraded escape pod that lacks a window and only has one seat, alongside lacking an emergency safe."
 
 /datum/map_template/shuttle/assault_pod/default
 	suffix = "default"
-	name = "assault pod (Default)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/pirate/default
 	suffix = "default"
-	name = "pirate ship (Default)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/pirate/silverscale
 	suffix = "silverscale"
-	name = "pirate ship (Silver Scales)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/pirate/dutchman
 	suffix = "dutchman"
-	name = "pirate ship (Flying Dutchman)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/pirate/psykers
 	suffix = "psyker"
-	name = "pirate ship (Psyker-gang)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/hunter/space_cop
 	suffix = "space_cop"
-	name = "Police Spacevan"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/hunter/russian
 	suffix = "russian"
-	name = "Russian Cargo Ship"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/hunter/bounty
 	suffix = "bounty"
-	name = "Bounty Hunter Ship"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/starfury
 	port_id = "starfury"
@@ -759,56 +759,56 @@
 
 /datum/map_template/shuttle/starfury/fighter_one
 	suffix = "fighter1"
-	name = "SBC Starfury Fighter (1)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/starfury/fighter_two
 	suffix = "fighter2"
-	name = "SBC Starfury Fighter (2)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/starfury/fighter_three
 	suffix = "fighter3"
-	name = "SBC Starfury Fighter (3)"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/starfury/corvette
 	suffix = "corvette"
-	name = "SBC Starfury Corvette"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/ruin/cyborg_mothership
 	suffix = "cyborg_mothership"
-	name = "Cyborg Mothership"
+	name = "glup shitto"
 	description = "A highly industrialised vessel designed for silicon operation infested with hivebots and space vines."
 
 /datum/map_template/shuttle/ruin/caravan_victim
 	suffix = "caravan_victim"
-	name = "Small Freighter"
+	name = "glup shitto"
 	description = "Small freight vessel, starts near blacked-out with 3 Syndicate Commandos and 1 Syndicate Stormtrooper, alongside a large hull breach."
 
 /datum/map_template/shuttle/ruin/pirate_cutter
 	suffix = "pirate_cutter"
-	name = "Pirate Cutter"
+	name = "glup shitto"
 	description = "Small pirate vessel with ballistic turrets. Spawns with 3 pirate mobs, one of which drops an energy cutlass."
 
 /datum/map_template/shuttle/ruin/syndicate_dropship
 	suffix = "syndicate_dropship"
-	name = "Syndicate Dropship"
+	name = "glup shitto"
 	description = "Light Syndicate vessel with laser turrets. Spawns with a Syndicate mob in the bridge."
 
 /datum/map_template/shuttle/ruin/syndicate_fighter_shiv
 	suffix = "syndicate_fighter_shiv"
-	name = "Syndicate Fighter"
+	name = "glup shitto"
 	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
 
 /datum/map_template/shuttle/snowdin/mining
 	suffix = "mining"
-	name = "Snowdin Mining Elevator"
+	name = "glup shitto"
 
 /datum/map_template/shuttle/snowdin/excavation
 	suffix = "excavation"
-	name = "Snowdin Excavation Elevator"
+	name = "glup shitto"
 
 // Custom ERT shuttles
 /datum/map_template/shuttle/ert/bounty
 	suffix = "bounty"
-	name = "Bounty Hunter ERT Shuttle"
+	name = "glup shitto"
 
 #undef EMAG_LOCKED_SHUTTLE_COST

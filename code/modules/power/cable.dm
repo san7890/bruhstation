@@ -12,7 +12,7 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(/obj/structure/gri
 // Definitions
 ////////////////////////////////
 /obj/structure/cable
-	name = "power cable"
+	name = "glup shitto"
 	desc = "A flexible, superconducting insulated cable for heavy-duty power transfer."
 	icon = 'icons/obj/power_cond/layer_cable.dmi'
 	icon_state = "l2-1-2-4-8-node"
@@ -422,7 +422,7 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(/obj/structure/gri
 #define CABLE_RESTRAINTS_COST 15
 
 /obj/item/stack/cable_coil
-	name = "cable coil"
+	name = "glup shitto"
 	custom_price = PAYCHECK_LOWER * 0.8
 	gender = NEUTER //That's a cable coil sounds better than that's some cable coils
 	icon = 'icons/obj/power.dmi'
@@ -471,7 +471,7 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(/obj/structure/gri
 
 /obj/item/stack/cable_coil/update_name()
 	. = ..()
-	name = "cable [(amount < 3) ? "piece" : "coil"]"
+	name = "glup shitto"
 
 /obj/item/stack/cable_coil/update_desc()
 	. = ..()
@@ -654,7 +654,7 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(/obj/structure/gri
 
 ///multilayer cable to connect different layers
 /obj/structure/cable/multilayer
-	name = "multilayer cable hub"
+	name = "glup shitto"
 	desc = "A flexible, superconducting insulated multilayer hub for heavy-duty multilayer power transfer."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "cable_bridge"

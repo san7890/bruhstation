@@ -4,7 +4,7 @@
 * Also please note that the plumbing component is toggled on and off by the component using a signal from default_unfasten_wrench, so dont worry about it
 */
 /obj/machinery/plumbing
-	name = "pipe thing"
+	name = "glup shitto"
 	icon = 'icons/obj/plumbing/plumbers.dmi'
 	icon_state = "pump"
 	density = TRUE
@@ -56,7 +56,7 @@
 
 ///We can empty beakers in here and everything
 /obj/machinery/plumbing/input
-	name = "input gate"
+	name = "glup shitto"
 	desc = "Can be manually filled with reagents from containers."
 	icon_state = "pipe_input"
 	pass_flags_self = PASSMACHINE | LETPASSTHROW // Small
@@ -71,7 +71,7 @@
 
 ///We can fill beakers in here and everything. we dont inheret from input because it has nothing that we need
 /obj/machinery/plumbing/output
-	name = "output gate"
+	name = "glup shitto"
 	desc = "A manual output for plumbing systems, for taking reagents directly into containers."
 	icon_state = "pipe_output"
 	pass_flags_self = PASSMACHINE | LETPASSTHROW // Small
@@ -85,14 +85,14 @@
 	AddComponent(/datum/component/plumbing/simple_demand, bolt, layer)
 
 /obj/machinery/plumbing/output/tap
-	name = "drinking tap"
+	name = "glup shitto"
 	desc = "A manual output for plumbing systems, for taking drinks directly into glasses."
 	icon_state = "tap_output"
 	///category for plumbing RCD
 	category = "Distribution"
 
 /obj/machinery/plumbing/tank
-	name = "chemical tank"
+	name = "glup shitto"
 	desc = "A massive chemical holding tank."
 	icon_state = "tank"
 	buffer = 400
@@ -106,7 +106,7 @@
 
 ///Layer manifold machine that connects a bunch of layers
 /obj/machinery/plumbing/layer_manifold
-	name = "layer manifold"
+	name = "glup shitto"
 	desc = "A plumbing manifold for layers."
 	icon_state = "manifold"
 	density = FALSE

@@ -3,7 +3,7 @@
 
 /obj/structure/grille
 	desc = "A flimsy framework of iron rods."
-	name = "grille"
+	name = "glup shitto"
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "grille"
 	base_icon_state = "grille"

@@ -1,7 +1,7 @@
 
 ////////////////////////////////////////////OTHER////////////////////////////////////////////
 /obj/item/food/watermelonslice
-	name = "watermelon slice"
+	name = "glup shitto"
 	desc = "A slice of watery goodness."
 	icon_state = "watermelonslice"
 	food_reagents = list(
@@ -16,7 +16,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/hugemushroomslice
-	name = "huge mushroom slice"
+	name = "glup shitto"
 	desc = "A slice from a huge mushroom."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "hugemushroomslice"
@@ -33,7 +33,7 @@
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_WALKING_MUSHROOM, CELL_VIRUS_TABLE_GENERIC_MOB, 1, 5)
 
 /obj/item/food/popcorn
-	name = "popcorn"
+	name = "glup shitto"
 	desc = "Now let's find some cinema."
 	icon_state = "popcorn"
 	trash_type = /obj/item/trash/popcorn
@@ -45,7 +45,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/popcorn/salty
-	name = "salty popcorn"
+	name = "glup shitto"
 	icon_state = "salty_popcorn"
 	desc = "Salty popcorn, a classic for all time."
 	food_reagents = list(
@@ -56,7 +56,7 @@
 	trash_type = /obj/item/trash/popcorn/salty
 
 /obj/item/food/popcorn/caramel
-	name = "caramel popcorn"
+	name = "glup shitto"
 	icon_state = "сaramel_popcorn"
 	desc = "Caramel-covered popcorn. Sweet!"
 	food_reagents = list(
@@ -68,7 +68,7 @@
 	trash_type = /obj/item/trash/popcorn/caramel
 
 /obj/item/food/soydope
-	name = "soy dope"
+	name = "glup shitto"
 	desc = "Dope from a soy."
 	icon_state = "soydope"
 	food_reagents = list(
@@ -80,7 +80,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/badrecipe
-	name = "burned mess"
+	name = "glup shitto"
 	desc = "Someone should be demoted from cook for this."
 	icon_state = "badrecipe"
 	food_reagents = list(/datum/reagent/toxin/bad_food = 30)
@@ -93,7 +93,7 @@
 	RegisterSignal(src, COMSIG_ITEM_GRILL_PROCESS, PROC_REF(OnGrill))
 
 /obj/item/food/badrecipe/moldy
-	name = "moldy mess"
+	name = "glup shitto"
 	desc = "A rancid, disgusting culture of mold and ants. Somewhere under there, at <i>some point,</i> there was food."
 	food_reagents = list(/datum/reagent/consumable/mold = 30)
 	preserved_food = FALSE
@@ -102,7 +102,7 @@
 	decomposition_time = 30 SECONDS
 
 /obj/item/food/badrecipe/moldy/bacteria
-	name = "bacteria rich moldy mess"
+	name = "glup shitto"
 	desc = "Not only is this rancid lump of disgusting bile crawling with insect life, \
 		but it is also teeming with various microscopic cultures. <i>It moves when you're not looking.</i>"
 
@@ -116,7 +116,7 @@
 	return COMPONENT_HANDLED_GRILLING
 
 /obj/item/food/spidereggs
-	name = "spider eggs"
+	name = "glup shitto"
 	desc = "A cluster of juicy spider eggs. A great side dish for when you care not for your health."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spidereggs"
@@ -129,7 +129,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/spidereggs/processed
-	name = "spider eggs"
+	name = "glup shitto"
 	desc = "A cluster of juicy spider eggs. Pops in your mouth without making you sick."
 	icon_state = "spidereggs"
 	food_reagents = list(/datum/reagent/consumable/nutriment/protein = 4)
@@ -138,7 +138,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/spiderling
-	name = "spiderling"
+	name = "glup shitto"
 	desc = "It's slightly twitching in your hand. Ew..."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "spiderling"
@@ -151,7 +151,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/melonfruitbowl
-	name = "melon fruit bowl"
+	name = "glup shitto"
 	desc = "For people who wants edible fruit bowls."
 	icon_state = "melonfruitbowl"
 	food_reagents = list(
@@ -164,7 +164,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/melonkeg
-	name = "melon keg"
+	name = "glup shitto"
 	desc = "Who knew vodka was a fruit?"
 	icon_state = "melonkeg"
 	food_reagents = list(
@@ -178,7 +178,7 @@
 	foodtypes = FRUIT | ALCOHOL
 
 /obj/item/food/honeybar
-	name = "honey nut bar"
+	name = "glup shitto"
 	desc = "Oats and nuts compressed together into a bar, held together with a honey glaze."
 	icon_state = "honeybar"
 	food_reagents = list(
@@ -191,7 +191,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/powercrepe
-	name = "Powercrepe"
+	name = "glup shitto"
 	desc = "With great power, comes great crepes.  It looks like a pancake filled with jelly but packs quite a punch."
 	icon_state = "powercrepe"
 	inhand_icon_state = "powercrepe"
@@ -212,7 +212,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/branrequests
-	name = "Bran Requests Cereal"
+	name = "glup shitto"
 	desc = "A dry cereal that satiates your requests for bran. Tastes uniquely like raisins and salt."
 	icon_state = "bran_requests"
 	food_reagents = list(
@@ -225,7 +225,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/butter
-	name = "stick of butter"
+	name = "glup shitto"
 	desc = "A stick of delicious, golden, fatty goodness."
 	icon_state = "butter"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5)
@@ -253,14 +253,14 @@
 	..()
 
 /obj/item/food/butter/on_a_stick //there's something so special about putting it on a stick.
-	name = "butter on a stick"
+	name = "glup shitto"
 	desc = "delicious, golden, fatty goodness on a stick."
 	icon_state = "butteronastick"
 	trash_type = /obj/item/stack/rods
 	food_flags = FOOD_FINGER_FOOD
 
 /obj/item/food/onionrings
-	name = "onion rings"
+	name = "glup shitto"
 	desc = "Onion slices coated in batter."
 	icon_state = "onionrings"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 3)
@@ -270,7 +270,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/pineappleslice
-	name = "pineapple slice"
+	name = "glup shitto"
 	desc = "A sliced piece of juicy pineapple."
 	icon_state = "pineapple_slice"
 	juice_results = list(/datum/reagent/consumable/pineapplejuice = 3)
@@ -279,7 +279,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/crab_rangoon
-	name = "Crab Rangoon"
+	name = "glup shitto"
 	desc = "Has many names, like crab puffs, cheese won'tons, crab dumplings? Whatever you call them, they're a fabulous blast of cream cheesy crab."
 	icon = 'icons/obj/food/meat.dmi'
 	icon_state = "crabrangoon"
@@ -294,7 +294,7 @@
 	venue_value = FOOD_PRICE_CHEAP
 
 /obj/item/food/pesto
-	name = "pesto"
+	name = "glup shitto"
 	desc = "A combination of firm cheese, salt, herbs, garlic, oil, and pine nuts. Frequently used as a sauce for pasta or pizza, or eaten on bread."
 	icon_state = "pesto"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
@@ -303,7 +303,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/tomato_sauce
-	name = "tomato sauce"
+	name = "glup shitto"
 	desc = "Tomato sauce, perfect for pizza or pasta. Mamma mia!"
 	icon_state = "tomato_sauce"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
@@ -312,7 +312,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/bechamel_sauce
-	name = "béchamel sauce"
+	name = "glup shitto"
 	desc = "A classic white sauce common to several European cultures."
 	icon_state = "bechamel_sauce"
 	food_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 3)
@@ -321,7 +321,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/roasted_bell_pepper
-	name = "roasted bell pepper"
+	name = "glup shitto"
 	desc = "A blackened, blistered bell pepper. Great for making sauces."
 	icon_state = "roasted_bell_pepper"
 	food_reagents = list(
@@ -334,7 +334,7 @@
 	burns_in_oven = TRUE
 
 /obj/item/food/pierogi
-	name = "pierogi"
+	name = "glup shitto"
 	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and onion mixture."
 	icon_state = "pierogi"
 	food_reagents = list(
@@ -346,7 +346,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/stuffed_cabbage
-	name = "stuffed cabbage"
+	name = "glup shitto"
 	desc = "A savoury mixture of ground meat and rice wrapped in cooked cabbage leaves and topped with a tomato sauce. To die for."
 	icon_state = "stuffed_cabbage"
 	food_reagents = list(
@@ -358,7 +358,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/seaweedsheet
-	name = "seaweed sheet"
+	name = "glup shitto"
 	desc = "A dried sheet of seaweed used for making sushi. Use an ingredient on it to start making custom sushi!"
 	icon_state = "seaweedsheet"
 	food_reagents = list(
@@ -374,7 +374,7 @@
 	AddComponent(/datum/component/customizable_reagent_holder, /obj/item/food/sushi/empty, CUSTOM_INGREDIENT_ICON_FILL, max_ingredients = 6)
 
 /obj/item/food/granola_bar
-	name = "granola bar"
+	name = "glup shitto"
 	desc = "A dried mixture of oats, nuts, fruits, and chocolate condensed into a chewy bar. Makes a great snack while space-hiking."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "granola_bar"
@@ -388,7 +388,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/onigiri
-	name = "onigiri"
+	name = "glup shitto"
 	desc = "A ball of cooked rice surrounding a filling formed into a triangular shape and wrapped in seaweed. Can be added fillings!"
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "onigiri"
@@ -406,14 +406,14 @@
 
 // empty onigiri for custom onigiri
 /obj/item/food/onigiri/empty
-	name = "onigiri"
+	name = "glup shitto"
 	desc = "A ball of cooked rice surrounding a filling formed into a triangular shape and wrapped in seaweed."
 	icon_state = "onigiri"
 	foodtypes = VEGETABLES
 	tastes = list()
 
 /obj/item/food/pacoca
-	name = "paçoca"
+	name = "glup shitto"
 	desc = "A traditional Brazilian treat made of ground peanuts, sugar, and salt compressed into a cylinder."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "pacoca"
@@ -427,7 +427,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/pickle
-	name = "pickle"
+	name = "glup shitto"
 	desc = "Slightly shriveled darkish cucumber. Smelling something sour, but incredibly inviting."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "pickle"
@@ -441,7 +441,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/springroll
-	name = "spring roll"
+	name = "glup shitto"
 	desc = "A plate of translucent rice wrappers filled with fresh vegetables, served with sweet chili sauce. You either love them or hate them."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "springroll"
@@ -455,7 +455,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/cheese_pierogi
-	name = "cheese pierogi"
+	name = "glup shitto"
 	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and cheese mixture."
 	icon_state = "cheese_pierogi"
 	food_reagents = list(
@@ -467,7 +467,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/meat_pierogi
-	name = "meat pierogi"
+	name = "glup shitto"
 	desc = "A dumpling made by wrapping unleavened dough around a savoury or sweet filling and cooking in boiling water. This one is filled with a potato and meat mixture."
 	icon_state = "meat_pierogi"
 	food_reagents = list(

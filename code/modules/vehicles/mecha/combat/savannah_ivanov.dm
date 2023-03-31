@@ -13,7 +13,7 @@
  * ...Hilarious, right?
  */
 /obj/vehicle/sealed/mecha/savannah_ivanov
-	name = "\improper Savannah-Ivanov"
+	name = "glup shitto"
 	desc = "An insanely overbulked mecha that handily crushes single-pilot opponents. The price is that you need two pilots to use it."
 	icon = 'icons/mecha/coop_mech.dmi'
 	base_icon_state = "savannah_ivanov"
@@ -71,7 +71,7 @@
 
 ///Savannah Skyfall
 /datum/action/vehicle/sealed/mecha/skyfall
-	name = "Savannah Skyfall"
+	name = "glup shitto"
 	button_icon_state = "mech_savannah"
 	///cooldown time between skyfall uses
 	var/skyfall_cooldown_time = 1 MINUTES
@@ -236,7 +236,7 @@
 	build_all_button_icons()
 
 /datum/action/vehicle/sealed/mecha/ivanov_strike
-	name = "Ivanov Strike"
+	name = "glup shitto"
 	button_icon_state = "mech_ivanov"
 	///cooldown time between strike uses
 	var/strike_cooldown_time = 40 SECONDS
@@ -343,7 +343,7 @@
 
 ///a simple indicator of where the skyfall is going to land.
 /obj/effect/skyfall_landingzone
-	name = "Landing Zone Indicator"
+	name = "glup shitto"
 	desc = "A holographic projection designating the landing zone of something. It's probably best to stand back."
 	icon = 'icons/mob/telegraphing/telegraph_96x96.dmi'
 	icon_state = "target_largebox"

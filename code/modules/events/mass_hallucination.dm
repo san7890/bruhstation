@@ -1,5 +1,5 @@
 /datum/round_event_control/mass_hallucination
-	name = "Mass Hallucination"
+	name = "glup shitto"
 	description = "All crewmembers start to hallucinate the same thing."
 	typepath = /datum/round_event/mass_hallucination
 	weight = 10

@@ -4,7 +4,7 @@
 #define RISEN_MAX_HEALTH 125
 
 /datum/heretic_knowledge/limited_amount/risen_corpse
-	name = "Shattered Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a corpse with a soul, a pair of latex or nitrile gloves, and \
 		and any exosuit clothing (such as armor) to create a Shattered Risen. \
 		Shattered Risen are strong ghouls that have 125 health, but cannot hold items, \
@@ -94,7 +94,7 @@
 
 /// The "hand" "weapon" used by shattered risen
 /obj/item/mutant_hand/shattered_risen
-	name = "bone-shards"
+	name = "glup shitto"
 	desc = "What once appeared to be a normal human fist, now holds a maulled nest of sharp bone-shards."
 	color = "#001aff"
 	hitsound = SFX_SHATTER
@@ -121,7 +121,7 @@
 		icon_state = "[base_icon_state]_left"
 
 /datum/heretic_knowledge/rune_carver
-	name = "Carving Knife"
+	name = "glup shitto"
 	desc = "Allows you to transmute a knife, a shard of glass, and a piece of paper to create a Carving Knife. \
 		The Carving Knife allows you to etch difficult to see traps that trigger on heathens who walk overhead. \
 		Also makes for a handy throwing weapon."
@@ -141,7 +141,7 @@
 	route = PATH_SIDE
 
 /datum/heretic_knowledge/summon/maid_in_mirror
-	name = "Maid in the Mirror"
+	name = "glup shitto"
 	desc = "Allows you to transmute five sheets of titanium, a flash, a suit of armor, and a pair of lungs \
 		to create a Maid in the Mirror. Maid in the Mirrors are decent combatants that can become incorporeal by \
 		phasing in and out of the mirror realm, serving as powerful scouts and ambushers."

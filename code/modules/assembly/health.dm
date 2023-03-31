@@ -1,5 +1,5 @@
 /obj/item/assembly/health
-	name = "health sensor"
+	name = "glup shitto"
 	desc = "Used for scanning and monitoring health."
 	icon_state = "health"
 	custom_materials = list(/datum/material/iron=800, /datum/material/glass=200)

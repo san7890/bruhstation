@@ -1,10 +1,10 @@
 //Both ERT and DS are handled by the same datums since they mostly differ in equipment in objective.
 /datum/team/ert
-	name = "Emergency Response Team"
+	name = "glup shitto"
 	var/datum/objective/mission //main mission
 
 /datum/antagonist/ert
-	name = "Emergency Response Officer"
+	name = "glup shitto"
 	can_elimination_hijack = ELIMINATION_PREVENT
 	show_in_antagpanel = FALSE
 	show_to_ghosts = TRUE
@@ -46,7 +46,7 @@
 	owner.current.fully_replace_character_name(owner.current.real_name,"[role] [pick(name_source)]")
 
 /datum/antagonist/ert/official
-	name = "CentCom Official"
+	name = "glup shitto"
 	show_name_in_check_antagonists = TRUE
 	var/datum/objective/mission
 	role = "Inspector"
@@ -108,7 +108,7 @@
 	outfit = /datum/outfit/centcom/ert/janitor/heavy
 
 /datum/antagonist/ert/deathsquad
-	name = "Deathsquad Trooper"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/death_commando
 	plasmaman_outfit = /datum/outfit/plasmaman/centcom_commander
 	role = "Trooper"
@@ -119,7 +119,7 @@
 	name_source = GLOB.commando_names
 
 /datum/antagonist/ert/deathsquad/leader
-	name = "Deathsquad Officer"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/death_commando
 	role = "Officer"
 
@@ -156,7 +156,7 @@
 	owner.holy_role = HOLY_ROLE_PRIEST
 
 /datum/antagonist/ert/intern
-	name = "CentCom Intern"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/centcom_intern
 	plasmaman_outfit = /datum/outfit/plasmaman/centcom_intern
 	random_names = FALSE
@@ -164,7 +164,7 @@
 	suicide_cry = "FOR MY INTERNSHIP!!"
 
 /datum/antagonist/ert/intern/leader
-	name = "CentCom Head Intern"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/centcom_intern/leader
 	random_names = FALSE
 	role = "Head Intern"
@@ -255,21 +255,21 @@
 	to_chat(owner,missiondesc)
 
 /datum/antagonist/ert/marine
-	name = "Marine Commander"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/ert/marine
 	role = "Commander"
 
 /datum/antagonist/ert/marine/security
-	name = "Marine Heavy"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/ert/marine/security
 	role = "Trooper"
 
 /datum/antagonist/ert/marine/engineer
-	name = "Marine Engineer"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/ert/marine/engineer
 	role = "Engineer"
 
 /datum/antagonist/ert/marine/medic
-	name = "Marine Medic"
+	name = "glup shitto"
 	outfit = /datum/outfit/centcom/ert/marine/medic
 	role = "Medical Officer"

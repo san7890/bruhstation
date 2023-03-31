@@ -1,6 +1,6 @@
 /obj/structure/closet/crate/secure
 	desc = "A secure crate."
-	name = "secure crate"
+	name = "glup shitto"
 	icon_state = "securecrate"
 	secure = TRUE
 	locked = TRUE
@@ -37,31 +37,31 @@
 
 /obj/structure/closet/crate/secure/weapon
 	desc = "A secure weapons crate."
-	name = "weapons crate"
+	name = "glup shitto"
 	icon_state = "weaponcrate"
 
 /obj/structure/closet/crate/secure/plasma
 	desc = "A secure plasma crate."
-	name = "plasma crate"
+	name = "glup shitto"
 	icon_state = "plasmacrate"
 
 /obj/structure/closet/crate/secure/gear
 	desc = "A secure gear crate."
-	name = "gear crate"
+	name = "glup shitto"
 	icon_state = "secgearcrate"
 
 /obj/structure/closet/crate/secure/hydroponics
 	desc = "A crate with a lock on it, painted in the scheme of the station's botanists."
-	name = "secure hydroponics crate"
+	name = "glup shitto"
 	icon_state = "hydrosecurecrate"
 
 /obj/structure/closet/crate/secure/freezer //for consistency with other "freezer" closets/crates
 	desc = "An insulated crate with a lock on it, used to secure perishables."
-	name = "secure kitchen crate"
+	name = "glup shitto"
 	icon_state = "kitchen_secure_crate"
 
 /obj/structure/closet/crate/secure/freezer/pizza
-	name = "secure pizza crate"
+	name = "glup shitto"
 	desc = "An insulated crate with a lock on it, used to secure pizza."
 	req_access = list(ACCESS_KITCHEN)
 	tamperproof = 10
@@ -72,16 +72,16 @@
 
 /obj/structure/closet/crate/secure/engineering
 	desc = "A crate with a lock on it, painted in the scheme of the station's engineers."
-	name = "secure engineering crate"
+	name = "glup shitto"
 	icon_state = "engi_secure_crate"
 
 /obj/structure/closet/crate/secure/science
-	name = "secure science crate"
+	name = "glup shitto"
 	desc = "A crate with a lock on it, painted in the scheme of the station's scientists."
 	icon_state = "scisecurecrate"
 
 /obj/structure/closet/crate/secure/owned
-	name = "private crate"
+	name = "glup shitto"
 	desc = "A crate cover designed to only open for who purchased its contents."
 	icon_state = "privatecrate"
 	///Account of the person buying the crate if private purchasing.

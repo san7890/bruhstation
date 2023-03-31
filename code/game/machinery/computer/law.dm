@@ -38,7 +38,7 @@
 	return TRUE
 
 /obj/machinery/computer/upload/ai
-	name = "\improper AI upload console"
+	name = "glup shitto"
 	desc = "Used to upload laws to the AI."
 	circuit = /obj/item/circuitboard/computer/aiupload
 
@@ -59,7 +59,7 @@
 
 
 /obj/machinery/computer/upload/borg
-	name = "cyborg upload console"
+	name = "glup shitto"
 	desc = "Used to upload laws to Cyborgs."
 	circuit = /obj/item/circuitboard/computer/borgupload
 

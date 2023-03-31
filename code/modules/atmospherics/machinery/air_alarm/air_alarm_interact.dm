@@ -174,11 +174,11 @@
 		return FALSE
 
 /obj/item/electronics/airalarm
-	name = "air alarm electronics"
+	name = "glup shitto"
 	icon_state = "airalarm_electronics"
 
 /obj/item/wallframe/airalarm
-	name = "air alarm frame"
+	name = "glup shitto"
 	desc = "Used for building Air Alarms."
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "alarm_bitem"

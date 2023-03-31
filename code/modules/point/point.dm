@@ -65,7 +65,7 @@
 	cut_overlay(thought_bubble)
 
 /obj/effect/temp_visual/point
-	name = "pointer"
+	name = "glup shitto"
 	icon = 'icons/hud/screen_gen.dmi'
 	icon_state = "arrow"
 	plane = POINT_PLANE

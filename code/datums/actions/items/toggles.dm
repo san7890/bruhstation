@@ -3,43 +3,43 @@
 /datum/action/item_action/toggle/New(Target)
 	..()
 	var/obj/item/item_target = target
-	name = "Toggle [item_target.name]"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_light
-	name = "Toggle Light"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_computer_light
-	name = "Toggle Flashlight"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_hood
-	name = "Toggle Hood"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_firemode
-	name = "Toggle Firemode"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_gunlight
-	name = "Toggle Gunlight"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_mode
-	name = "Toggle Mode"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_barrier_spread
-	name = "Toggle Barrier Spread"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_paddles
-	name = "Toggle Paddles"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_mister
-	name = "Toggle Mister"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_helmet_light
-	name = "Toggle Helmet Light"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_welding_screen
-	name = "Toggle Welding Screen"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_spacesuit
-	name = "Toggle Suit Thermal Regulator"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_spacesuit.dmi'
 	button_icon_state = "thermal_off"
 
@@ -51,28 +51,28 @@
 	return ..()
 
 /datum/action/item_action/toggle_helmet_flashlight
-	name = "Toggle Helmet Flashlight"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_helmet_mode
-	name = "Toggle Helmet Mode"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_voice_box
-	name = "Toggle Voice Box"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_human_head
-	name = "Toggle Human Head"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_helmet
-	name = "Toggle Helmet"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_seclight
-	name = "Toggle Seclight"
+	name = "glup shitto"
 
 /datum/action/item_action/toggle_jetpack
-	name = "Toggle Jetpack"
+	name = "glup shitto"
 
 /datum/action/item_action/jetpack_stabilization
-	name = "Toggle Jetpack Stabilization"
+	name = "glup shitto"
 
 /datum/action/item_action/jetpack_stabilization/IsAvailable(feedback = FALSE)
 	var/obj/item/tank/jetpack/linked_jetpack = target
@@ -81,23 +81,23 @@
 	return ..()
 
 /datum/action/item_action/wheelys
-	name = "Toggle Wheels"
+	name = "glup shitto"
 	desc = "Pops out or in your shoes' wheels."
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "wheelys"
 
 /datum/action/item_action/kindle_kicks
-	name = "Activate Kindle Kicks"
+	name = "glup shitto"
 	desc = "Kick you feet together, activating the lights in your Kindle Kicks."
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "kindleKicks"
 
 /datum/action/item_action/storage_gather_mode
-	name = "Switch gathering mode"
+	name = "glup shitto"
 	desc = "Switches the gathering mode of a storage object."
 	background_icon = 'icons/mob/actions/actions_items.dmi'
 	background_icon_state = "storage_gather_switch"
 	overlay_icon_state = "bg_tech_border"
 
 /datum/action/item_action/flip
-	name = "Flip"
+	name = "glup shitto"

@@ -1,6 +1,6 @@
 /// Turns the user into a sliding puzzle
 /datum/smite/puzzle
-	name = "Puzzle"
+	name = "glup shitto"
 
 /datum/smite/puzzle/effect(client/user, mob/living/target)
 	. = ..()

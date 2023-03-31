@@ -1,6 +1,6 @@
 //does massive brute and burn damage, but can only expand manually
 /datum/blobstrain/reagent/networked_fibers
-	name = "Networked Fibers"
+	name = "glup shitto"
 	description = "will do a high mix of brute and burn damage, and will generate resources quicker, but can only expand manually using the core or nodes."
 	shortdesc = "will do a high mix of brute and burn damage."
 	effectdesc = "will move your core or node when manually expanding near it."
@@ -29,7 +29,7 @@
 
 //does massive brute and burn damage, but can only expand manually
 /datum/reagent/blob/networked_fibers
-	name = "Networked Fibers"
+	name = "glup shitto"
 	taste_description = "efficiency"
 	color = "#4F4441"
 

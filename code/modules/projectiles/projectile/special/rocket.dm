@@ -12,7 +12,7 @@
 
 /// PM9 standard HE rocket
 /obj/projectile/bullet/rocket
-	name = "\improper HE rocket"
+	name = "glup shitto"
 	desc = "Boom."
 	icon_state= "missile"
 	damage = 50
@@ -48,7 +48,7 @@ among other potential differences. This granularity is helpful for things like t
 
 /// PM9 HEAP rocket - the anti-anything missile you always craved.
 /obj/projectile/bullet/rocket/heap
-	name = "\improper HEAP rocket"
+	name = "glup shitto"
 	desc = "I am become death."
 	icon_state = "84mm-heap"
 	damage = 80
@@ -61,7 +61,7 @@ among other potential differences. This granularity is helpful for things like t
 
 /// PM9 weak rocket - just kind of a failure
 /obj/projectile/bullet/rocket/weak
-	name = "low-yield rocket"
+	name = "glup shitto"
 	desc = "Boom, but less so."
 	damage = 30
 
@@ -77,7 +77,7 @@ among other potential differences. This granularity is helpful for things like t
 * Explodes when it hits literally anything.
 */
 /obj/projectile/bullet/rocket/srm
-	name = "short range missile"
+	name = "glup shitto"
 	desc = "Today's not your day, pal."
 
 /** PEP-6 Missile - Used by the PEP-6 Exosuit missile rack.
@@ -90,7 +90,7 @@ among other potential differences. This granularity is helpful for things like t
 * Does NOT explode if it hits any random mob, or any random object. Only if it is a subtype of one of the above valid atoms.
 */
 /obj/projectile/bullet/rocket/pep
-	name = "precise explosive missile"
+	name = "glup shitto"
 	desc = "Human friendly, metal unfriendly."
 	damage = 30
 	anti_armour_damage = 80 //Doesn't (probably) kill borgs in one shot, but it will hurt
@@ -111,7 +111,7 @@ among other potential differences. This granularity is helpful for things like t
 		new /obj/item/broken_missile(get_turf(src), 1)
 
 /obj/item/broken_missile
-	name = "broken missile"
+	name = "glup shitto"
 	desc = "A missile that did not detonate. The tail has snapped and it is in no way fit to be used again."
 	icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	icon_state = "missile_broken"

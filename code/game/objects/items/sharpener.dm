@@ -7,7 +7,7 @@
 *
 */
 /obj/item/sharpener
-	name = "whetstone"
+	name = "glup shitto"
 	icon = 'icons/obj/kitchen.dmi'
 	icon_state = "sharpener"
 	desc = "A block that makes things sharp."
@@ -63,7 +63,7 @@
 	update_appearance()
 
 /obj/item/sharpener/update_name()
-	name = "[!uses ? "worn out " : null][initial(name)]"
+	name = "glup shitto"
 	return ..()
 
 /**
@@ -75,7 +75,7 @@
 *
 */
 /obj/item/sharpener/super
-	name = "super whetstone"
+	name = "glup shitto"
 	desc = "A block that will make your weapon sharper than Einstein on adderall."
 	increment = 200
 	max = 200

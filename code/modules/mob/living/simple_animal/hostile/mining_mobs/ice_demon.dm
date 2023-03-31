@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/asteroid/ice_demon
-	name = "demonic watcher"
+	name = "glup shitto"
 	desc = "A creature formed entirely out of ice, bluespace energy emanates from inside of it."
 	icon = 'icons/mob/simple/icemoon/icemoon_monsters.dmi'
 	icon_state = "ice_demon"
@@ -48,7 +48,7 @@
 	AddElement(/datum/element/simple_flying)
 
 /obj/projectile/temp/basilisk/ice
-	name = "ice blast"
+	name = "glup shitto"
 	damage = 5
 	speed = 1
 	pixel_speed_multiplier = 0.25

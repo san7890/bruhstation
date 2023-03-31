@@ -5,7 +5,7 @@
 
 ///Eradication lock - Prevents people who aren't the owner of the suit from existing on the timeline via eradicating the suit with the intruder inside
 /obj/item/mod/module/eradication_lock
-	name = "MOD eradication lock module"
+	name = "glup shitto"
 	desc = "A module which remembers the original owner of the suit, even alternate universe \
 			versions. When a non-owner enters, the eradication lock will begin eradicating the suit \
 			from the timeline... with the intruder inside. Not the way you want to go, so it turns \
@@ -55,7 +55,7 @@
 
 ///Rewinder - Activating saves a point in time, after 10 seconds you will jump back to that state.
 /obj/item/mod/module/rewinder
-	name = "MOD rewinder module"
+	name = "glup shitto"
 	desc = "A module that can pull the user back through time given an anchor point to \
 			pull to. Very useful tool to get the job done, but keep in mind the suit locks for \
 			safety reasons while preparing a rewind."
@@ -99,7 +99,7 @@
 
 ///Timestopper - Need I really explain? It's the wizard's time stop, but the user channels it by not moving instead of a duration.
 /obj/item/mod/module/timestopper
-	name = "MOD timestopper module"
+	name = "glup shitto"
 	desc = "A module that can halt time in a small radius around the user... for as long as they \
 			want! Great for monologues or lunch breaks. Keep in mind moving will end the stop, and the \
 			module has a hefty cooldown period to avoid reality errors."
@@ -148,7 +148,7 @@
 
 ///Timeline Jumper - Infinite phasing. needs some special effects
 /obj/item/mod/module/timeline_jumper
-	name = "MOD timeline jumper module"
+	name = "glup shitto"
 	desc = "A module used to traverse timelines, phasing the user in and out of the stream of events."
 	icon_state = "timeline_jumper"
 	module_type = MODULE_USABLE
@@ -195,12 +195,12 @@
 
 ///special subtype for phased mobs.
 /obj/effect/dummy/phased_mob/chrono
-	name = "reality static"
+	name = "glup shitto"
 	verb_say = "echoes"
 
 ///TEM - Lets you eradicate people.
 /obj/item/mod/module/tem
-	name = "MOD timestream eradication module"
+	name = "glup shitto"
 	desc = "The correction device of a fourth dimensional group outside time itself used to \
 			change the destination of a timeline. this device is capable of wiping a being from the \
 			timestream. They never are, they never were, they never will be."
@@ -291,7 +291,7 @@
 	return FALSE
 
 /obj/projectile/energy/chrono_beam
-	name = "eradication beam"
+	name = "glup shitto"
 	icon_state = "chronobolt"
 	range = CHRONO_BEAM_RANGE
 	///Reference to the tem... given by the tem! weakref because back in the day we didn't know about harddels- or maybe we didn't care.
@@ -304,7 +304,7 @@
 		tem.field_connect(field)
 
 /obj/structure/chrono_field
-	name = "eradication field"
+	name = "glup shitto"
 	desc = "An aura of time-bluespace energy."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "chronofield"

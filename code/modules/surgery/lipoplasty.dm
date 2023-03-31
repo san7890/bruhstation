@@ -1,5 +1,5 @@
 /datum/surgery/lipoplasty
-	name = "Lipoplasty"
+	name = "glup shitto"
 	possible_locs = list(BODY_ZONE_CHEST)
 	steps = list(
 		/datum/surgery_step/incise,
@@ -17,7 +17,7 @@
 
 //cut fat
 /datum/surgery_step/cut_fat
-	name = "cut excess fat (circular saw)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_SAW = 100,
 		/obj/item/hatchet = 35,
@@ -48,7 +48,7 @@
 
 //remove fat
 /datum/surgery_step/remove_fat
-	name = "remove loose fat (retractor)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_RETRACTOR = 100,
 		TOOL_SCREWDRIVER = 45,

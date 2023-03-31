@@ -1,7 +1,7 @@
 //Random seeds; stats, traits, and plant type are randomized for each seed.
 
 /obj/item/seeds/random
-	name = "pack of strange seeds"
+	name = "glup shitto"
 	desc = "Mysterious seeds as strange as their name implies. Spooky."
 	icon_state = "seed-x"
 	species = "?????"
@@ -24,7 +24,7 @@
 
 /obj/item/food/grown/random
 	seed = /obj/item/seeds/random
-	name = "strange plant"
+	name = "glup shitto"
 	desc = "What could this even be?"
 	icon_state = "crunchy"
 

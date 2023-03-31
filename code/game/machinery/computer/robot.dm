@@ -1,5 +1,5 @@
 /obj/machinery/computer/robotics
-	name = "robotics control console"
+	name = "glup shitto"
 	desc = "Used to remotely lockdown linked Cyborgs and Drones."
 	icon_screen = "robot"
 	icon_keyboard = "rd_key"

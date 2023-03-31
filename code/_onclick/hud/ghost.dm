@@ -6,7 +6,7 @@
 	flick(icon_state + "_anim", src)
 
 /atom/movable/screen/ghost/spawners_menu
-	name = "Spawners menu"
+	name = "glup shitto"
 	icon_state = "spawners"
 
 /atom/movable/screen/ghost/spawners_menu/Click()
@@ -14,7 +14,7 @@
 	observer.open_spawners_menu()
 
 /atom/movable/screen/ghost/orbit
-	name = "Orbit"
+	name = "glup shitto"
 	icon_state = "orbit"
 
 /atom/movable/screen/ghost/orbit/Click()
@@ -22,7 +22,7 @@
 	G.follow()
 
 /atom/movable/screen/ghost/reenter_corpse
-	name = "Reenter corpse"
+	name = "glup shitto"
 	icon_state = "reenter_corpse"
 
 /atom/movable/screen/ghost/reenter_corpse/Click()
@@ -30,7 +30,7 @@
 	G.reenter_corpse()
 
 /atom/movable/screen/ghost/teleport
-	name = "Teleport"
+	name = "glup shitto"
 	icon_state = "teleport"
 
 /atom/movable/screen/ghost/teleport/Click()
@@ -38,7 +38,7 @@
 	G.dead_tele()
 
 /atom/movable/screen/ghost/pai
-	name = "pAI Candidate"
+	name = "glup shitto"
 	icon_state = "pai"
 
 /atom/movable/screen/ghost/pai/Click()

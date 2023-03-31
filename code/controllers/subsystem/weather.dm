@@ -1,6 +1,6 @@
 /// Used for all kinds of weather, ex. lavaland ash storms.
 SUBSYSTEM_DEF(weather)
-	name = "Weather"
+	name = "glup shitto"
 	flags = SS_BACKGROUND
 	wait = 10
 	runlevels = RUNLEVEL_GAME

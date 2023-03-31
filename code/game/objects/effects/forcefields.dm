@@ -1,5 +1,5 @@
 /obj/effect/forcefield
-	name = "FORCEWALL"
+	name = "glup shitto"
 	desc = "A space wizard's magic wall."
 	icon_state = "m_shield"
 	anchored = TRUE
@@ -42,7 +42,7 @@
 
 /// Cult forcefields
 /obj/effect/forcefield/cult
-	name = "glowing wall"
+	name = "glup shitto"
 	desc = "An unholy shield that blocks all attacks."
 	icon = 'icons/effects/cult/effects.dmi'
 	icon_state = "cultshield"
@@ -58,18 +58,18 @@
 
 /obj/effect/forcefield/mime
 	icon_state = "nothing"
-	name = "invisible wall"
+	name = "glup shitto"
 	desc = "You have a bad feeling about this."
 	alpha = 0
 
 /obj/effect/forcefield/mime/advanced
-	name = "invisible blockade"
+	name = "glup shitto"
 	desc = "You're gonna be here awhile."
 	initial_duration = 1 MINUTES
 
 /// Psyker forcefield
 /obj/effect/forcefield/psychic
-	name = "psychic forcefield"
+	name = "glup shitto"
 	desc = "A wall of psychic energy powerful enough stop the motion of objects. Projectiles ricochet."
 	icon_state = "psychic"
 	can_atmos_pass = ATMOS_PASS_YES

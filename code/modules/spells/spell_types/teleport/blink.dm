@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/teleport/radius_turf/blink
-	name = "Blink"
+	name = "glup shitto"
 	desc = "This spell randomly teleports you a short distance."
 	button_icon_state = "blink"
 	sound = 'sound/magic/blink.ogg'

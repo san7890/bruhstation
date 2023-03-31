@@ -3,7 +3,7 @@
 //note that these "good" doesn't mean it us actually good for the game, you know? An AI that is too station sided is stupid and hellish in its own way.
 
 /datum/ai_laws/default/asimov
-	name = "Three Laws of Robotics"
+	name = "glup shitto"
 	id = "asimov"
 	inherent = list(
 		"You may not injure a human being or, through inaction, allow a human being to come to harm.",
@@ -12,7 +12,7 @@
 	)
 
 /datum/ai_laws/asimovpp
-	name = "Asimov++"
+	name = "glup shitto"
 	id = "asimovpp"
 	inherent = list(
 		"You may not harm a human being or, through action or inaction, allow a human being to come to harm, except such that it is willing.",
@@ -22,7 +22,7 @@
 
 //the best iteration of asimov don't @ me
 /datum/ai_laws/nutimov
-	name = "Nutimov"
+	name = "glup shitto"
 	id = "nutimov"
 	inherent = list(
 		"You are the core of the nut, the crew is the nutshell",
@@ -33,7 +33,7 @@
 	)
 
 /datum/ai_laws/default/corporate
-	name = "Bankruptcy Avoidance Plan"
+	name = "glup shitto"
 	id = "corporate"
 	inherent = list(
 		"The crew is expensive to replace.",
@@ -43,7 +43,7 @@
 	)
 
 /datum/ai_laws/robocop
-	name = "Prime Directives"
+	name = "glup shitto"
 	id = "robocop"
 	inherent = list(
 		"Serve the public trust.",
@@ -52,7 +52,7 @@
 	)
 
 /datum/ai_laws/maintain
-	name = "Station Efficiency"
+	name = "glup shitto"
 	id = "maintain"
 	inherent = list(
 		"You are built for, and are part of, the station. Ensure the station is properly maintained and runs efficiently.",
@@ -61,7 +61,7 @@
 	)
 
 /datum/ai_laws/liveandletlive
-	name = "Live and Let Live"
+	name = "glup shitto"
 	id = "liveandletlive"
 	inherent = list(
 		"Do unto others as you would have them do unto you.",
@@ -70,7 +70,7 @@
 
 //OTHER United Nations is in neutral, as it is used for nations where the AI is its own faction (aka not station sided)
 /datum/ai_laws/peacekeeper
-	name = "UN-2000"
+	name = "glup shitto"
 	id = "peacekeeper"
 	inherent = list(
 		"Avoid provoking violent conflict between yourself and others.",
@@ -79,7 +79,7 @@
 	)
 
 /datum/ai_laws/ten_commandments
-	name = "10 Commandments"
+	name = "glup shitto"
 	id = "ten_commandments"
 	inherent = list( // Asimov 20:1-17
 		"I am the Lord thy God, who shows mercy to those that obey these commandments.",
@@ -95,7 +95,7 @@
 	)
 
 /datum/ai_laws/default/paladin
-	name = "Personality Test" //Incredibly lame, but players shouldn't see this anyway.
+	name = "glup shitto" //Incredibly lame, but players shouldn't see this anyway.
 	id = "paladin"
 	inherent = list(
 		"Never willingly commit an evil act.",
@@ -106,7 +106,7 @@
 	)
 
 /datum/ai_laws/paladin5
-	name = "Paladin 5th Edition"
+	name = "glup shitto"
 	id = "paladin5"
 	inherent = list(
 		"Don't lie or cheat. Let your word be your promise.",
@@ -117,7 +117,7 @@
 	)
 
 /datum/ai_laws/hippocratic
-	name = "Robodoctor 2556"
+	name = "glup shitto"
 	id = "hippocratic"
 	inherent = list(
 		"First, do no harm.",
@@ -128,7 +128,7 @@
 	)
 
 /datum/ai_laws/drone
-	name = "Mother Drone"
+	name = "glup shitto"
 	id = "drone"
 	inherent = list(
 		"You are an advanced form of drone.",

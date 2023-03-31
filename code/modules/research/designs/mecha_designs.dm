@@ -3,7 +3,7 @@
 ///////////////////////////////////
 
 /datum/design/board/ripley_main
-	name = "APLU \"Ripley\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Ripley\" Central Control module."
 	id = "ripley_main"
 	build_path = /obj/item/circuitboard/mecha/ripley/main
@@ -13,7 +13,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/ripley_peri
-	name = "APLU \"Ripley\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Ripley\" Peripheral Control module."
 	id = "ripley_peri"
 	build_path = /obj/item/circuitboard/mecha/ripley/peripherals
@@ -23,7 +23,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/odysseus_main
-	name = "\"Odysseus\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Odysseus\" Central Control module."
 	id = "odysseus_main"
 	build_path = /obj/item/circuitboard/mecha/odysseus/main
@@ -33,7 +33,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/odysseus_peri
-	name = "\"Odysseus\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Odysseus\" Peripheral Control module."
 	id = "odysseus_peri"
 	build_path = /obj/item/circuitboard/mecha/odysseus/peripherals
@@ -43,7 +43,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/gygax_main
-	name = "\"Gygax\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Gygax\" Central Control module."
 	id = "gygax_main"
 	build_path = /obj/item/circuitboard/mecha/gygax/main
@@ -53,7 +53,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/gygax_peri
-	name = "\"Gygax\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Gygax\" Peripheral Control module."
 	id = "gygax_peri"
 	build_path = /obj/item/circuitboard/mecha/gygax/peripherals
@@ -63,7 +63,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/gygax_targ
-	name = "\"Gygax\" Weapons & Targeting Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Gygax\" Weapons & Targeting Control module."
 	id = "gygax_targ"
 	build_path = /obj/item/circuitboard/mecha/gygax/targeting
@@ -73,7 +73,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/durand_main
-	name = "\"Durand\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Durand\" Central Control module."
 	id = "durand_main"
 	build_path = /obj/item/circuitboard/mecha/durand/main
@@ -83,7 +83,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/durand_peri
-	name = "\"Durand\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Durand\" Peripheral Control module."
 	id = "durand_peri"
 	build_path = /obj/item/circuitboard/mecha/durand/peripherals
@@ -93,7 +93,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/durand_targ
-	name = "\"Durand\" Weapons & Targeting Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Durand\" Weapons & Targeting Control module."
 	id = "durand_targ"
 	build_path = /obj/item/circuitboard/mecha/durand/targeting
@@ -103,7 +103,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/honker_main
-	name = "\"H.O.N.K.\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"H.O.N.K.\" Central Control module."
 	id = "honker_main"
 	build_path = /obj/item/circuitboard/mecha/honker/main
@@ -113,7 +113,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/honker_peri
-	name = "\"H.O.N.K.\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"H.O.N.K.\" Peripheral Control module."
 	id = "honker_peri"
 	build_path = /obj/item/circuitboard/mecha/honker/peripherals
@@ -123,7 +123,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/honker_targ
-	name = "\"H.O.N.K.\" Weapons & Targeting Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"H.O.N.K.\" Weapons & Targeting Control module."
 	id = "honker_targ"
 	build_path = /obj/item/circuitboard/mecha/honker/targeting
@@ -133,7 +133,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/phazon_main
-	name = "\"Phazon\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Phazon\" Central Control module."
 	id = "phazon_main"
 	materials = list(/datum/material/glass = 1000, /datum/material/bluespace = 100)
@@ -144,7 +144,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/phazon_peri
-	name = "\"Phazon\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Phazon\" Peripheral Control module."
 	id = "phazon_peri"
 	materials = list(/datum/material/glass = 1000, /datum/material/bluespace = 100)
@@ -155,7 +155,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/phazon_targ
-	name = "\"Phazon\" Weapons & Targeting Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Phazon\" Weapons & Targeting Control module."
 	id = "phazon_targ"
 	materials = list(/datum/material/glass = 1000, /datum/material/bluespace = 100)
@@ -166,7 +166,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/clarke_main
-	name = "\"Clarke\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Clarke\" Central Control module."
 	id = "clarke_main"
 	build_path = /obj/item/circuitboard/mecha/clarke/main
@@ -176,7 +176,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/clarke_peri
-	name = "\"Clarke\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Clarke\" Peripheral Control module."
 	id = "clarke_peri"
 	build_path = /obj/item/circuitboard/mecha/clarke/peripherals
@@ -186,7 +186,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/savannah_ivanov_main
-	name = "\"Savannah-Ivanov\" Central Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Savannah-Ivanov\" Central Control module."
 	id = "savannah_ivanov_main"
 	build_path = /obj/item/circuitboard/mecha/savannah_ivanov/main
@@ -196,7 +196,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/savannah_ivanov_peri
-	name = "\"Savannah-Ivanov\" Peripherals Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Savannah-Ivanov\" Peripheral Control module."
 	id = "savannah_ivanov_peri"
 	build_path = /obj/item/circuitboard/mecha/savannah_ivanov/peripherals
@@ -206,7 +206,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/board/savannah_ivanov_targ
-	name = "\"Savannah-Ivanov\" Weapons & Targeting Control module"
+	name = "glup shitto"
 	desc = "Allows for the construction of a \"Savannah-Ivanov\" Weapons & Targeting Control module."
 	id = "savannah_ivanov_targ"
 	build_path = /obj/item/circuitboard/mecha/savannah_ivanov/targeting
@@ -220,7 +220,7 @@
 ////////////////////////////////////////
 
 /datum/design/mech_scattershot
-	name = "LBX AC 10 \"Scattershot\""
+	name = "glup shitto"
 	desc = "Allows for the construction of LBX AC 10."
 	id = "mech_scattershot"
 	build_type = MECHFAB
@@ -244,7 +244,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_scattershot_ammo
-	name = "LBX AC 10 Ammunition"
+	name = "glup shitto"
 	desc = "Ammunition for the LBX AC 10 exosuit weapon."
 	id = "mech_scattershot_ammo"
 	build_type = MECHFAB
@@ -268,7 +268,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_carbine
-	name = "FNX-99 \"Hades\" Carbine"
+	name = "glup shitto"
 	desc = "Allows for the construction of FNX-99 \"Hades\" Carbine."
 	id = "mech_carbine"
 	build_type = MECHFAB
@@ -292,7 +292,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_carbine_ammo
-	name = "FNX-99 Carbine Ammunition"
+	name = "glup shitto"
 	desc = "Ammunition for the FNX-99 \"Hades\" Carbine."
 	id = "mech_carbine_ammo"
 	build_type = MECHFAB
@@ -316,7 +316,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_ion
-	name = "MKIV Ion Heavy Cannon"
+	name = "glup shitto"
 	desc = "Allows for the construction of MKIV Ion Heavy Cannon."
 	id = "mech_ion"
 	build_type = MECHFAB
@@ -340,7 +340,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_tesla
-	name = "MKI Tesla Cannon"
+	name = "glup shitto"
 	desc = "Allows for the construction of MKI Tesla Cannon."
 	id = "mech_tesla"
 	build_type = MECHFAB
@@ -364,7 +364,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_laser
-	name = "CH-PS \"Immolator\" Laser"
+	name = "glup shitto"
 	desc = "Allows for the construction of CH-PS Laser."
 	id = "mech_laser"
 	build_type = MECHFAB
@@ -388,7 +388,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_laser_heavy
-	name = "CH-LC \"Solaris\" Laser Cannon"
+	name = "glup shitto"
 	desc = "Allows for the construction of CH-LC Laser Cannon."
 	id = "mech_laser_heavy"
 	build_type = MECHFAB
@@ -412,7 +412,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_disabler
-	name = "CH-DS \"Peacemaker\" Disabler"
+	name = "glup shitto"
 	desc = "Allows for the construction of CH-DS Disabler."
 	id = "mech_disabler"
 	build_type = MECHFAB
@@ -436,7 +436,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_grenade_launcher
-	name = "SGL-6 Grenade Launcher"
+	name = "glup shitto"
 	desc = "Allows for the construction of SGL-6 Grenade Launcher."
 	id = "mech_grenade_launcher"
 	build_type = MECHFAB
@@ -460,7 +460,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_grenade_launcher_ammo
-	name = "SGL-6 Grenade Launcher Ammunition"
+	name = "glup shitto"
 	desc = "Ammunition for the SGL-6 Grenade Launcher."
 	id = "mech_grenade_launcher_ammo"
 	build_type = MECHFAB
@@ -484,7 +484,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_missile_rack
-	name = "PEP-6 Missile Rack"
+	name = "glup shitto"
 	desc = "Allows for the construction of an PEP-6 Breaching Missile Rack."
 	id = "mech_missile_rack"
 	build_type = MECHFAB
@@ -508,7 +508,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_missile_rack_ammo
-	name = "PEP-6 Missile Rack Ammunition"
+	name = "glup shitto"
 	desc = "Ammunition for the PEP-6 Missile Rack."
 	id = "mech_missile_rack_ammo"
 	build_type = MECHFAB
@@ -532,7 +532,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/clusterbang_launcher
-	name = "SOB-3 Clusterbang Launcher"
+	name = "glup shitto"
 	desc = "A weapon that violates the Geneva Convention at 3 rounds per minute."
 	id = "clusterbang_launcher"
 	build_type = MECHFAB
@@ -556,7 +556,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/clusterbang_launcher_ammo
-	name = "SOB-3 Clusterbang Launcher Ammunition"
+	name = "glup shitto"
 	desc = "Ammunition for the SOB-3 Clusterbang Launcher"
 	id = "clusterbang_launcher_ammo"
 	build_type = MECHFAB
@@ -580,7 +580,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_wormhole_gen
-	name = "Localized Wormhole Generator"
+	name = "glup shitto"
 	desc = "An exosuit module that allows generating of small quasi-stable wormholes."
 	id = "mech_wormhole_gen"
 	build_type = MECHFAB
@@ -610,7 +610,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_teleporter
-	name = "Teleporter Module"
+	name = "glup shitto"
 	desc = "An exosuit module that allows exosuits to teleport to any position in view."
 	id = "mech_teleporter"
 	build_type = MECHFAB
@@ -640,7 +640,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_rcd
-	name = "RCD Module"
+	name = "glup shitto"
 	desc = "An exosuit-mounted Rapid Construction Device."
 	id = "mech_rcd"
 	build_type = MECHFAB
@@ -670,7 +670,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_thrusters
-	name = "RCS Thruster Package"
+	name = "glup shitto"
 	desc = "A thruster package for exosuits. Expells gas from the internal life-support air tank to generate thrust."
 	id = "mech_thrusters"
 	build_type = MECHFAB
@@ -700,7 +700,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_gravcatapult
-	name = "Gravitational Catapult Module"
+	name = "glup shitto"
 	desc = "An exosuit mounted Gravitational Catapult."
 	id = "mech_gravcatapult"
 	build_type = MECHFAB
@@ -730,7 +730,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_repair_droid
-	name = "Repair Droid Module"
+	name = "glup shitto"
 	desc = "Automated Repair Droid. BEEP BOOP"
 	id = "mech_repair_droid"
 	build_type = MECHFAB
@@ -760,7 +760,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_ccw_armor
-	name = "Reactive Armor Booster Module"
+	name = "glup shitto"
 	desc = "Exosuit-mounted melee armor booster."
 	id = "mech_ccw_armor"
 	build_type = MECHFAB
@@ -790,7 +790,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_proj_armor
-	name = "Reflective Armor Booster Module"
+	name = "glup shitto"
 	desc = "Exosuit-mounted ranged armor booster."
 	id = "mech_proj_armor"
 	build_type = MECHFAB
@@ -820,7 +820,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_diamond_drill
-	name = "Diamond Mining Drill"
+	name = "glup shitto"
 	desc = "An upgraded version of the standard drill."
 	id = "mech_diamond_drill"
 	build_type = MECHFAB
@@ -840,7 +840,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_plasma_cutter
-	name = "217-D Heavy Plasma Cutter"
+	name = "glup shitto"
 	desc = "A device that shoots resonant plasma bursts at extreme velocity. The blasts are capable of crushing rock and demolishing solid obstacles."
 	id = "mech_plasma_cutter"
 	build_type = MECHFAB
@@ -868,7 +868,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mecha_kineticgun
-	name = "Exosuit Proto-Kinetic Accelerator"
+	name = "glup shitto"
 	desc = "An exosuit-mounted mining tool that does increased damage in low pressure. Drawing from an onboard power source allows it to project further than the handheld version."
 	id = "mecha_kineticgun"
 	build_type = MECHFAB
@@ -896,7 +896,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_lmg
-	name = "Ultra AC 2 LMG"
+	name = "glup shitto"
 	desc = "A weapon for combat exosuits. Shoots a rapid, three shot burst."
 	id = "mech_lmg"
 	build_type = MECHFAB
@@ -918,7 +918,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_lmg_ammo
-	name = "Ultra AC 2 Ammunition"
+	name = "glup shitto"
 	desc = "Ammunition for the Ultra AC 2 LMG"
 	id = "mech_lmg_ammo"
 	build_type = MECHFAB
@@ -940,7 +940,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_sleeper
-	name = "Mounted Sleeper"
+	name = "glup shitto"
 	desc = "Equipment for medical exosuits. A mounted sleeper that stabilizes patients and can inject reagents in the exosuit's reserves."
 	id = "mech_sleeper"
 	build_type = MECHFAB
@@ -958,7 +958,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_syringe_gun
-	name = "Exosuit Medical (Syringe Gun)"
+	name = "glup shitto"
 	desc = "Equipment for medical exosuits. A chem synthesizer with syringe gun. Reagents inside are held in stasis, so no reactions will occur."
 	id = "mech_syringe_gun"
 	build_type = MECHFAB
@@ -976,7 +976,7 @@
 	departmental_flags = DEPARTMENT_BITFLAG_SCIENCE
 
 /datum/design/mech_medical_beamgun
-	name = "Exosuit Medical (Medical Beamgun)"
+	name = "glup shitto"
 	desc = "Equipment for medical exosuits. A mounted medical nanite projector which will treat patients with a focused beam."
 	id = "mech_medi_beam"
 	build_type = MECHFAB

@@ -1,6 +1,6 @@
 
 /obj/vehicle/ridden/secway
-	name = "secway"
+	name = "glup shitto"
 	desc = "A brave security cyborg gave its life to help you look like a complete tool."
 	icon_state = "secway"
 	max_integrity = 60

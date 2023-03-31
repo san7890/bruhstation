@@ -1,5 +1,5 @@
 /obj/effect/decal/remains
-	name = "remains"
+	name = "glup shitto"
 	gender = PLURAL
 	icon = 'icons/effects/blood.dmi'
 
@@ -62,5 +62,5 @@
 	icon_state = "remainsrobot"
 
 /obj/effect/decal/cleanable/robot_debris/old
-	name = "dusty robot debris"
+	name = "glup shitto"
 	desc = "Looks like nobody has touched this in a while."

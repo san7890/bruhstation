@@ -1,5 +1,5 @@
 /obj/structure/sacrificealtar
-	name = "sacrificial altar"
+	name = "glup shitto"
 	desc = "An altar designed to perform blood sacrifice for a deity. Alt-click it to sacrifice a buckled creature."
 	icon = 'icons/obj/hand_of_god_structures.dmi'
 	icon_state = "sacrificealtar"
@@ -22,7 +22,7 @@
 	message_admins("[ADMIN_LOOKUPFLW(user)] has sacrificed [key_name_admin(L)] on the sacrificial altar at [AREACOORD(src)].")
 
 /obj/structure/healingfountain
-	name = "healing fountain"
+	name = "glup shitto"
 	desc = "A fountain containing the waters of life."
 	icon = 'icons/obj/hand_of_god_structures.dmi'
 	icon_state = "fountain"

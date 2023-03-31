@@ -1,5 +1,5 @@
 /obj/machinery/power/generator
-	name = "thermoelectric generator"
+	name = "glup shitto"
 	desc = "It's a high efficiency thermoelectric generator."
 	icon_state = "teg"
 	density = TRUE

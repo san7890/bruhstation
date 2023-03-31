@@ -18,11 +18,11 @@
 	return //you can't break a hologram!
 
 /turf/open/floor/holofloor/plating
-	name = "holodeck projector floor"
+	name = "glup shitto"
 	icon_state = "engine"
 
 /turf/open/floor/holofloor/chapel
-	name = "chapel floor"
+	name = "glup shitto"
 	icon_state = "chapel"
 
 /turf/open/floor/holofloor/chapel/bottom_left
@@ -42,21 +42,21 @@
 		setDir(direction)
 
 /turf/open/floor/holofloor/white
-	name = "white floor"
+	name = "glup shitto"
 	icon_state = "white"
 
 /turf/open/floor/holofloor/pure_white
-	name = "white floor"
+	name = "glup shitto"
 	desc = "Hey look, it's the inside of a greytiders mind!"
 	icon_state = "pure_white"
 
 /turf/open/floor/holofloor/plating/burnmix
-	name = "burn-mix floor"
+	name = "glup shitto"
 	initial_gas_mix = BURNMIX_ATMOS
 
 /turf/open/floor/holofloor/grass
 	gender = PLURAL
-	name = "lush grass"
+	name = "glup shitto"
 	desc = "Looking at the lushious field, you suddenly feel homesick."
 	icon_state = "grass0"
 	bullet_bounce_sound = null
@@ -68,7 +68,7 @@
 
 /turf/open/floor/holofloor/beach
 	gender = PLURAL
-	name = "sand"
+	name = "glup shitto"
 	desc = "This is better than a vacation, since you're still getting paid."
 	icon = 'icons/misc/beach.dmi'
 	icon_state = "sand"
@@ -77,23 +77,23 @@
 
 /turf/open/floor/holofloor/beach/coast_t
 	gender = NEUTER
-	name = "coastline"
+	name = "glup shitto"
 	icon_state = "sandwater_t"
 
 /turf/open/floor/holofloor/beach/coast_b
 	gender = NEUTER
-	name = "coastline"
+	name = "glup shitto"
 	icon_state = "sandwater_b"
 
 /turf/open/floor/holofloor/beach/water
-	name = "water"
+	name = "glup shitto"
 	desc = "Gives the impression you can walk on water. Chaplains love it."
 	icon_state = "water"
 	bullet_sizzle = TRUE
 
 /turf/open/floor/holofloor/asteroid
 	gender = PLURAL
-	name = "asteroid sand"
+	name = "glup shitto"
 	desc = "The sand crunches beneath your feet, though it feels soft to the touch."
 	icon_state = "asteroid"
 	tiled_dirt = FALSE
@@ -104,7 +104,7 @@
 
 /turf/open/floor/holofloor/basalt
 	gender = PLURAL
-	name = "basalt"
+	name = "glup shitto"
 	desc = "You still feel hot, despite the cool walls of the holodeck."
 	icon_state = "basalt0"
 	tiled_dirt = FALSE
@@ -116,14 +116,14 @@
 		set_basalt_light(src)
 
 /turf/open/floor/holofloor/space
-	name = "\proper space"
+	name = "glup shitto"
 	desc = "Space-looking floor. Thankfully, the deadly aspects of space are not emulated here."
 	icon = 'icons/turf/space.dmi'
 	icon_state = "space"
 	plane = PLANE_SPACE
 
 /turf/open/floor/holofloor/hyperspace
-	name = "\proper hyperspace"
+	name = "glup shitto"
 	desc = "Gives the impression of moving at hyper-speed, without moving. May induce motion sickness."
 	icon = 'icons/turf/space.dmi'
 	icon_state = "speedspace_ns_1"
@@ -139,7 +139,7 @@
 	icon_state = "speedspace_ns_[(x + 5*y + (y%2+1)*7)%15+1]"
 
 /turf/open/floor/holofloor/carpet
-	name = "carpet"
+	name = "glup shitto"
 	desc = "Electrically inviting."
 	icon = 'icons/turf/floors/carpet.dmi'
 	icon_state = "carpet-255"
@@ -167,7 +167,7 @@
 
 /turf/open/floor/holofloor/snow
 	gender = PLURAL
-	name = "snow"
+	name = "glup shitto"
 	desc = "The puffy snow clumps together to make a solid-looking floor, though it sinks beneath your feet."
 	icon = 'icons/turf/snow.dmi'
 	icon_state = "snow"
@@ -184,7 +184,7 @@
 	desc = "The surrounding enviroment is so dark you can hardly see yourself."
 
 /turf/open/floor/holofloor/stairs
-	name = "stairs"
+	name = "glup shitto"
 	icon_state = "stairs"
 	tiled_dirt = FALSE
 

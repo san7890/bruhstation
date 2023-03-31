@@ -1,7 +1,7 @@
 /turf/open/space
 	icon = 'icons/turf/space.dmi'
 	icon_state = "space"
-	name = "\proper space"
+	name = "glup shitto"
 	overfloor_placed = FALSE
 	underfloor_accessibility = UNDERFLOOR_INTERACTABLE
 

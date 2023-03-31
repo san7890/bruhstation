@@ -101,7 +101,7 @@
 	return new_data
 
 SUBSYSTEM_DEF(persistent_paintings)
-	name = "Persistent Paintings"
+	name = "glup shitto"
 	init_order = INIT_ORDER_PERSISTENT_PAINTINGS
 	flags = SS_NO_FIRE
 

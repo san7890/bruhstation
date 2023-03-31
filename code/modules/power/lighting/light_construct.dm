@@ -1,5 +1,5 @@
 /obj/structure/light_construct
-	name = "light fixture frame"
+	name = "glup shitto"
 	desc = "A light fixture under construction."
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "tube-construct-stage1"
@@ -168,7 +168,7 @@
 	qdel(src)
 
 /obj/structure/light_construct/small
-	name = "small light fixture frame"
+	name = "glup shitto"
 	icon_state = "bulb-construct-stage1"
 	fixture_type = "bulb"
 	sheets_refunded = 1

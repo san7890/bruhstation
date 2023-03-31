@@ -2,14 +2,14 @@
 	group = "Canisters & Materials"
 
 /datum/supply_pack/materials/cardboard50
-	name = "50 Cardboard Sheets"
+	name = "glup shitto"
 	desc = "Create a bunch of boxes."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/stack/sheet/cardboard/fifty)
 	crate_name = "cardboard sheets crate"
 
 /datum/supply_pack/materials/license50
-	name = "50 Empty License Plates"
+	name = "glup shitto"
 	desc = "Create a bunch of license plates."
 	cost = CARGO_CRATE_VALUE * 2  // 50 * 25 + 700 - 1000 = 950 credits profit
 	access_view = ACCESS_BRIG_ENTRANCE
@@ -17,49 +17,49 @@
 	crate_name = "empty license plate crate"
 
 /datum/supply_pack/materials/glass50
-	name = "50 Glass Sheets"
+	name = "glup shitto"
 	desc = "Let some nice light in with fifty glass sheets!"
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/stack/sheet/glass/fifty)
 	crate_name = "glass sheets crate"
 
 /datum/supply_pack/materials/iron50
-	name = "50 Iron Sheets"
+	name = "glup shitto"
 	desc = "Any construction project begins with a good stack of fifty iron sheets!"
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/stack/sheet/iron/fifty)
 	crate_name = "iron sheets crate"
 
 /datum/supply_pack/materials/plasteel20
-	name = "20 Plasteel Sheets"
+	name = "glup shitto"
 	desc = "Reinforce the station's integrity with twenty plasteel sheets!"
 	cost = CARGO_CRATE_VALUE * 15
 	contains = list(/obj/item/stack/sheet/plasteel/twenty)
 	crate_name = "plasteel sheets crate"
 
 /datum/supply_pack/materials/plasteel50
-	name = "50 Plasteel Sheets"
+	name = "glup shitto"
 	desc = "For when you REALLY have to reinforce something."
 	cost = CARGO_CRATE_VALUE * 33
 	contains = list(/obj/item/stack/sheet/plasteel/fifty)
 	crate_name = "plasteel sheets crate"
 
 /datum/supply_pack/materials/plastic50
-	name = "50 Plastic Sheets"
+	name = "glup shitto"
 	desc = "Build a limitless amount of toys with fifty plastic sheets!"
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/stack/sheet/plastic/fifty)
 	crate_name = "plastic sheets crate"
 
 /datum/supply_pack/materials/sandstone30
-	name = "30 Sandstone Blocks"
+	name = "glup shitto"
 	desc = "Neither sandy nor stoney, these thirty blocks will still get the job done."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/item/stack/sheet/mineral/sandstone/thirty)
 	crate_name = "sandstone blocks crate"
 
 /datum/supply_pack/materials/wood50
-	name = "50 Wood Planks"
+	name = "glup shitto"
 	desc = "Turn cargo's boring metal groundwork into beautiful \
 		panelled flooring and much more with fifty wooden planks!"
 	cost = CARGO_CRATE_VALUE * 4
@@ -67,7 +67,7 @@
 	crate_name = "wood planks crate"
 
 /datum/supply_pack/materials/foamtank
-	name = "Firefighting Foam Tank Crate"
+	name = "glup shitto"
 	desc = "Contains a tank of firefighting foam. Also known as \"plasmaman's bane.\""
 	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/structure/reagent_dispensers/foamtank)
@@ -75,7 +75,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/materials/fueltank
-	name = "Fuel Tank Crate"
+	name = "glup shitto"
 	desc = "Contains a welding fuel tank. Caution, highly flammable."
 	cost = CARGO_CRATE_VALUE * 1.6
 	contains = list(/obj/structure/reagent_dispensers/fueltank)
@@ -83,7 +83,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/materials/hightank
-	name = "Large Water Tank Crate"
+	name = "glup shitto"
 	desc = "Contains a high-capacity water tank. Useful for botany or other service jobs."
 	cost = CARGO_CRATE_VALUE * 2.4
 	contains = list(/obj/structure/reagent_dispensers/watertank/high)
@@ -91,7 +91,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/materials/hightankfuel
-	name = "Large Fuel Tank Crate"
+	name = "glup shitto"
 	desc = "Contains a high-capacity fuel tank. Keep contents away from open flame."
 	cost = CARGO_CRATE_VALUE * 4
 	access_view = ACCESS_ENGINEERING
@@ -100,7 +100,7 @@
 	crate_type = /obj/structure/closet/crate/large
 
 /datum/supply_pack/materials/watertank
-	name = "Water Tank Crate"
+	name = "glup shitto"
 	desc = "Contains a tank of dihydrogen monoxide... sounds dangerous."
 	cost = CARGO_CRATE_VALUE * 1.2
 	contains = list(/obj/structure/reagent_dispensers/watertank)

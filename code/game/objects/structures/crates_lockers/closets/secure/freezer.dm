@@ -76,14 +76,14 @@
 	return TRUE
 
 /obj/structure/closet/secure_closet/freezer/empty
-	name = "freezer"
+	name = "glup shitto"
 
 /obj/structure/closet/secure_closet/freezer/empty/open
 	req_access = null
 	locked = FALSE
 
 /obj/structure/closet/secure_closet/freezer/kitchen
-	name = "kitchen cabinet"
+	name = "glup shitto"
 	req_access = list(ACCESS_KITCHEN)
 
 /obj/structure/closet/secure_closet/freezer/kitchen/PopulateContents()
@@ -94,7 +94,7 @@
 	new /obj/item/reagent_containers/condiment/sugar(src)
 
 /obj/structure/closet/secure_closet/freezer/kitchen/maintenance
-	name = "maintenance refrigerator"
+	name = "glup shitto"
 	desc = "This refrigerator looks quite dusty, is there anything edible still inside?"
 	req_access = list()
 
@@ -110,7 +110,7 @@
 	req_access = list()
 
 /obj/structure/closet/secure_closet/freezer/meat
-	name = "meat fridge"
+	name = "glup shitto"
 	req_access = list(ACCESS_KITCHEN)
 
 /obj/structure/closet/secure_closet/freezer/meat/PopulateContents()
@@ -123,7 +123,7 @@
 	locked = FALSE
 
 /obj/structure/closet/secure_closet/freezer/gulag_fridge
-	name = "refrigerator"
+	name = "glup shitto"
 
 /obj/structure/closet/secure_closet/freezer/gulag_fridge/PopulateContents()
 	..()
@@ -131,7 +131,7 @@
 		new /obj/item/reagent_containers/cup/glass/bottle/beer/light(src)
 
 /obj/structure/closet/secure_closet/freezer/fridge
-	name = "refrigerator"
+	name = "glup shitto"
 	req_access = list(ACCESS_KITCHEN)
 
 /obj/structure/closet/secure_closet/freezer/fridge/PopulateContents()
@@ -147,7 +147,7 @@
 	locked = FALSE
 
 /obj/structure/closet/secure_closet/freezer/money
-	name = "freezer"
+	name = "glup shitto"
 	desc = "This contains cold hard cash."
 	req_access = list(ACCESS_VAULT)
 
@@ -161,7 +161,7 @@
 		new /obj/item/stack/spacecash/c200(src)
 
 /obj/structure/closet/secure_closet/freezer/cream_pie
-	name = "cream pie closet"
+	name = "glup shitto"
 	desc = "Contains pies filled with cream and/or custard, you sickos."
 	req_access = list(ACCESS_THEATRE)
 

@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/basic_projectile/juggernaut
-	name = "Gauntlet Echo"
+	name = "glup shitto"
 	desc = "Channels energy into your gauntlet - firing its essence forward in a slow moving, yet devastating, attack."
 	button_icon = 'icons/mob/actions/actions_cult.dmi'
 	button_icon_state = "cultfist"

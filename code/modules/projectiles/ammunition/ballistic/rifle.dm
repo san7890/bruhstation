@@ -1,7 +1,7 @@
 // 7.62 (Nagant Rifle)
 
 /obj/item/ammo_casing/a762
-	name = "7.62 bullet casing"
+	name = "glup shitto"
 	desc = "A 7.62 bullet casing."
 	icon_state = "762-casing"
 	caliber = CALIBER_A762
@@ -13,13 +13,13 @@
 // 5.56mm (M-90gl Carbine)
 
 /obj/item/ammo_casing/a556
-	name = "5.56mm bullet casing"
+	name = "glup shitto"
 	desc = "A 5.56mm bullet casing."
 	caliber = CALIBER_A556
 	projectile_type = /obj/projectile/bullet/a556
 
 /obj/item/ammo_casing/a556/phasic
-	name = "5.56mm phasic bullet casing"
+	name = "glup shitto"
 	desc = "A 5.56mm phasic bullet casing."
 	projectile_type = /obj/projectile/bullet/a556/phasic
 
@@ -29,7 +29,7 @@
 // 40mm (Grenade Launcher)
 
 /obj/item/ammo_casing/a40mm
-	name = "40mm HE shell"
+	name = "glup shitto"
 	desc = "A cased high explosive grenade that can only be activated once fired out of a grenade launcher."
 	caliber = CALIBER_40MM
 	icon_state = "40mmHE"

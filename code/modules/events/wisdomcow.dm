@@ -1,5 +1,5 @@
 /datum/round_event_control/wisdomcow
-	name = "Wisdom Cow"
+	name = "glup shitto"
 	typepath = /datum/round_event/wisdomcow
 	max_occurrences = 1
 	weight = 20
@@ -56,5 +56,5 @@
 
 /datum/event_admin_setup/input_number/wisdom_cow/apply_to_event(datum/round_event/wisdomcow/event)
 	event.selected_experience = chosen_value
-	
-	
+
+

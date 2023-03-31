@@ -1,5 +1,5 @@
 /datum/language/xenocommon
-	name = "Xenomorph"
+	name = "glup shitto"
 	desc = "The common tongue of the xenomorphs."
 	key = "4"
 	syllables = list("sss","sSs","SSS")

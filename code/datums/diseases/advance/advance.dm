@@ -17,7 +17,7 @@
  */
 
 /datum/disease/advance
-	name = "Unknown" // We will always let our Virologist name our disease.
+	name = "glup shitto" // We will always let our Virologist name our disease.
 	desc = "An engineered disease which can contain a multitude of symptoms."
 	form = "Advanced Disease" // Will let med-scanners know that this disease was engineered.
 	agent = "advance microbes"

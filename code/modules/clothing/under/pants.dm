@@ -9,7 +9,7 @@
 	species_exception = list(/datum/species/golem)
 
 /obj/item/clothing/under/pants/slacks
-	name = "slacks"
+	name = "glup shitto"
 	desc = "A pair of comfy slacks."
 	icon_state = "slacks"
 	greyscale_config = /datum/greyscale_config/slacks
@@ -18,7 +18,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/pants/jeans
-	name = "jeans"
+	name = "glup shitto"
 	desc = "A nondescript pair of tough jeans."
 	icon_state = "jeans"
 	greyscale_config = /datum/greyscale_config/jeans
@@ -27,11 +27,11 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/pants/track
-	name = "track pants"
+	name = "glup shitto"
 	desc = "A pair of track pants, for the athletic."
 	icon_state = "trackpants"
 
 /obj/item/clothing/under/pants/camo
-	name = "camo pants"
+	name = "glup shitto"
 	desc = "A pair of woodland camouflage pants. Probably not the best choice for a space station."
 	icon_state = "camopants"

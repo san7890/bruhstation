@@ -2,7 +2,7 @@
 #define ACCESS_TIMER_LIMIT (10 MINUTES)
 
 /obj/item/access_key
-	name = "access key ring"
+	name = "glup shitto"
 	desc = "A key ring with a beeper, allowing the keys to change shape depending on which department it has access to."
 	icon_state = "access_key"
 	inhand_icon_state = "access_key"

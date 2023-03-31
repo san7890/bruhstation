@@ -26,12 +26,12 @@
  * remember that once planes are unified on a render plate you cant change the layering of them!
  */
 /atom/movable/screen/plane_master/rendering_plate
-	name = "Default rendering plate"
+	name = "glup shitto"
 	multiz_scaled = FALSE
 
 ///this plate renders the final screen to show to the player
 /atom/movable/screen/plane_master/rendering_plate/master
-	name = "Master rendering plate"
+	name = "glup shitto"
 	documentation = "The endpoint of all plane masters, you can think of this as the final \"view\" we draw.\
 		<br>If offset is not 0 this will be drawn to the transparent plane of the floor above, but otherwise this is drawn to nothing, or shown to the player."
 	plane = RENDER_PLANE_MASTER
@@ -70,7 +70,7 @@
 
 ///renders general in charachter game objects
 /atom/movable/screen/plane_master/rendering_plate/game_plate
-	name = "Game rendering plate"
+	name = "glup shitto"
 	documentation = "Holds all objects that are ahhh, in character? is maybe the best way to describe it.\
 		<br>We apply a displacement effect from the gravity pulse plane too, so we can warp the game world."
 	plane = RENDER_PLANE_GAME
@@ -85,7 +85,7 @@
 // Sight flags, and shooting vis_contents usage to the moon. So we're doin it different.
 // If image vis contents worked (it should in 515), and we were ok with a maptick cost (wait for threaded maptick) this could be fixed
 /atom/movable/screen/plane_master/rendering_plate/transparent
-	name = "Transparent plate"
+	name = "glup shitto"
 	documentation = "The master rendering plate from the offset below ours will be mirrored onto this plane. That way we achive a \"stack\" effect.\
 		<br>This plane exists to uplayer the master rendering plate to the correct spot in our z layer's rendering order"
 	plane = RENDER_PLANE_TRANSPARENT
@@ -99,7 +99,7 @@
 
 ///Contains most things in the game world
 /atom/movable/screen/plane_master/rendering_plate/game_world
-	name = "Game world plate"
+	name = "glup shitto"
 	documentation = "Contains most of the objects in the world. Mobs, machines, etc. Note the drop shadow, it gives a very nice depth effect."
 	plane = RENDER_PLANE_GAME_WORLD
 	appearance_flags = PLANE_MASTER //should use client color
@@ -115,7 +115,7 @@
 
 ///Contains all lighting objects
 /atom/movable/screen/plane_master/rendering_plate/lighting
-	name = "Lighting plate"
+	name = "glup shitto"
 	documentation = "Anything on this plane will be <b>multiplied</b> with the plane it's rendered onto (typically the game plane).\
 		<br>That's how lighting functions at base. Because it uses BLEND_MULTIPLY and occasionally color matrixes, it needs a backdrop of blackness.\
 		<br>See <a href=\"https://secure.byond.com/forum/?post=2141928\">This byond post</a>\
@@ -210,7 +210,7 @@
 	add_filter("light_cutup", 4, color_matrix_filter(list(1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1, ratio+red,ratio+green,ratio+blue,0)))
 
 /atom/movable/screen/plane_master/rendering_plate/emissive_slate
-	name = "Emissive Plate"
+	name = "glup shitto"
 	documentation = "This system works by exploiting BYONDs color matrix filter to use layers to handle emissive blockers.\
 		<br>Emissive overlays are pasted with an atom color that converts them to be entirely some specific color.\
 		<br>Emissive blockers are pasted with an atom color that converts them to be entirely some different color.\
@@ -232,7 +232,7 @@
 		add_relay_to(GET_NEW_PLANE(EMISSIVE_RENDER_PLATE, offset - 1), relay_layer = EMISSIVE_Z_BELOW_LAYER)
 
 /atom/movable/screen/plane_master/rendering_plate/light_mask
-	name = "Light Mask"
+	name = "glup shitto"
 	documentation = "Any part of this plane that is transparent will be black below it on the game rendering plate.\
 		<br>This is done to ensure emissives and overlay lights don't light things up \"through\" the darkness that normally sits at the bottom of the lighting plane.\
 		<br>We relay copies of the space, floor and wall planes to it, so we can use them as masks. Then we just boost any existing alpha to 100% and we're done.\
@@ -284,7 +284,7 @@
 
 ///render plate for OOC stuff like ghosts, hud-screen effects, etc
 /atom/movable/screen/plane_master/rendering_plate/non_game
-	name = "Non-Game rendering plate"
+	name = "glup shitto"
 	documentation = "Renders anything that's out of character. Mostly useful as a converse to the game rendering plate."
 	plane = RENDER_PLANE_NON_GAME
 	render_relay_planes = list(RENDER_PLANE_MASTER)

@@ -11,7 +11,7 @@
  * Filing Cabinets
  */
 /obj/structure/filingcabinet
-	name = "filing cabinet"
+	name = "glup shitto"
 	desc = "A large cabinet with drawers."
 	icon = 'icons/obj/bureaucracy.dmi'
 	icon_state = "filingcabinet"
@@ -19,11 +19,11 @@
 	anchored = TRUE
 
 /obj/structure/filingcabinet/chestdrawer
-	name = "chest drawer"
+	name = "glup shitto"
 	icon_state = "chestdrawer"
 
 /obj/structure/filingcabinet/chestdrawer/wheeled
-	name = "rolling chest drawer"
+	name = "glup shitto"
 	desc = "A small cabinet with drawers. This one has wheels!"
 	anchored = FALSE
 

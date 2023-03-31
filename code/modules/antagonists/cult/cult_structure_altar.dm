@@ -5,7 +5,7 @@
 
 // Cult altar. Gives out consumable items.
 /obj/structure/destructible/cult/item_dispenser/altar
-	name = "altar"
+	name = "glup shitto"
 	desc = "A bloodstained altar dedicated to Nar'Sie."
 	cult_examine_tip = "Can be used to create eldritch whetstones, construct shells, and flasks of unholy water."
 	icon_state = "talismanaltar"

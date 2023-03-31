@@ -1,5 +1,5 @@
 /datum/antagonist/obsessed
-	name = "Obsessed"
+	name = "glup shitto"
 	show_in_antagpanel = TRUE
 	antagpanel_category = "Other"
 	job_rank = ROLE_OBSESSED
@@ -55,7 +55,7 @@
 	return final_icon
 
 /datum/outfit/obsessed
-	name = "Obsessed (Preview only)"
+	name = "glup shitto"
 
 	uniform = /obj/item/clothing/under/misc/overalls
 	gloves = /obj/item/clothing/gloves/latex
@@ -205,7 +205,7 @@
 
 
 /datum/objective/spendtime //spend some time around someone, handled by the obsessed trauma since that ticks
-	name = "spendtime"
+	name = "glup shitto"
 	var/timer = 1800 //5 minutes
 
 /datum/objective/spendtime/update_explanation_text()
@@ -223,7 +223,7 @@
 
 
 /datum/objective/hug//this objective isn't perfect. hugging the correct amount of times, then switching bodies, might fail the objective anyway. maybe i'll come back and fix this sometime.
-	name = "hugs"
+	name = "glup shitto"
 	var/hugs_needed
 
 /datum/objective/hug/update_explanation_text()
@@ -243,7 +243,7 @@
 	return creeper.trauma.obsession_hug_count >= hugs_needed
 
 /datum/objective/polaroid //take a picture of the target with you in it.
-	name = "polaroid"
+	name = "glup shitto"
 
 /datum/objective/polaroid/update_explanation_text()
 	..()
@@ -267,7 +267,7 @@
 
 
 /datum/objective/steal/heirloom_thief //exactly what it sounds like, steal someone's heirloom.
-	name = "heirloomthief"
+	name = "glup shitto"
 
 /datum/objective/steal/heirloom_thief/update_explanation_text()
 	..()

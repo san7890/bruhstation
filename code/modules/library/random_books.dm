@@ -69,20 +69,20 @@
 	qdel(query_get_random_books)
 
 /obj/structure/bookcase/random/fiction
-	name = "bookcase (Fiction)"
+	name = "glup shitto"
 	random_category = "Fiction"
 /obj/structure/bookcase/random/nonfiction
-	name = "bookcase (Non-Fiction)"
+	name = "glup shitto"
 	random_category = "Non-fiction"
 /obj/structure/bookcase/random/religion
-	name = "bookcase (Religion)"
+	name = "glup shitto"
 	random_category = "Religion"
 /obj/structure/bookcase/random/adult
-	name = "bookcase (Adult)"
+	name = "glup shitto"
 	random_category = "Adult"
 
 /obj/structure/bookcase/random/reference
-	name = "bookcase (Reference)"
+	name = "glup shitto"
 	random_category = "Reference"
 	var/ref_book_prob = 20
 

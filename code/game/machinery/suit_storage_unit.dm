@@ -1,6 +1,6 @@
 // SUIT STORAGE UNIT /////////////////
 /obj/machinery/suit_storage_unit
-	name = "suit storage unit"
+	name = "glup shitto"
 	desc = "An industrial unit made to hold and decontaminate irradiated equipment. It comes with a built-in UV cauterization mechanism. A small warning label advises that organic matter should not be placed into the unit."
 	icon = 'icons/obj/machines/suit_storage.dmi'
 	icon_state = "classic"
@@ -139,7 +139,7 @@
 	storage_type = /obj/item/tank/jetpack/void
 
 /obj/machinery/suit_storage_unit/radsuit
-	name = "radiation suit storage unit"
+	name = "glup shitto"
 	suit_type = /obj/item/clothing/suit/utility/radiation
 	helmet_type = /obj/item/clothing/head/utility/radiation
 	storage_type = /obj/item/geiger_counter
@@ -149,7 +149,7 @@
 	density = FALSE
 
 /obj/machinery/suit_storage_unit/industrial
-	name = "industrial suit storage unit"
+	name = "glup shitto"
 	icon_state = "industrial"
 	base_icon_state = "industrial"
 

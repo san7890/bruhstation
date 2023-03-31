@@ -48,7 +48,7 @@
 #define PREV_GENE 2
 
 /obj/machinery/computer/scan_consolenew
-	name = "DNA Console"
+	name = "glup shitto"
 	desc = "From here you can research mysteries of the DNA!"
 	icon_screen = "dna"
 	icon_keyboard = "med_key"

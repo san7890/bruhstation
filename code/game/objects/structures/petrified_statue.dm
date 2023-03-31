@@ -1,5 +1,5 @@
 /obj/structure/statue/petrified
-	name = "statue"
+	name = "glup shitto"
 	desc = "An incredibly lifelike marble carving."
 	icon_state = "human_male"
 	density = TRUE

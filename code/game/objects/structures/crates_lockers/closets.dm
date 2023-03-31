@@ -1,7 +1,7 @@
 #define LOCKER_FULL -1
 
 /obj/structure/closet
-	name = "closet"
+	name = "glup shitto"
 	desc = "It's a basic storage unit."
 	icon = 'icons/obj/storage/closet.dmi'
 	icon_state = "generic"

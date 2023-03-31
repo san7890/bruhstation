@@ -1,5 +1,5 @@
 /datum/round_event_control/space_dust
-	name = "Space Dust: Minor"
+	name = "glup shitto"
 	typepath = /datum/round_event/space_dust
 	weight = 200
 	max_occurrences = 1000
@@ -18,7 +18,7 @@
 	spawn_meteors(1, GLOB.meteors_dust)
 
 /datum/round_event_control/space_dust/major_dust
-	name = "Space Dust: Major"
+	name = "glup shitto"
 	typepath = /datum/round_event/space_dust/major_dust
 	weight = 8
 	description = "The station is pelted by sand."

@@ -1,5 +1,5 @@
 /mob/living/carbon/alien/larva
-	name = "alien larva"
+	name = "glup shitto"
 	real_name = "alien larva"
 	icon_state = "larva0"
 	pass_flags = PASSTABLE | PASSMOB

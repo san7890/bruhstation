@@ -2,7 +2,7 @@
 
 ///Welding Protection - Makes the helmet protect from flashes and welding.
 /obj/item/mod/module/welding
-	name = "MOD welding protection module"
+	name = "glup shitto"
 	desc = "A module installed into the visor of the suit, this projects a \
 		polarized, holographic overlay in front of the user's eyes. It's rated high enough for \
 		immunity against extremities such as spot and arc welding, solar eclipses, and handheld flashlights."
@@ -21,7 +21,7 @@
 
 ///T-Ray Scan - Scans the terrain for undertile objects.
 /obj/item/mod/module/t_ray
-	name = "MOD t-ray scan module"
+	name = "glup shitto"
 	desc = "A module installed into the visor of the suit, allowing the user to use a pulse of terahertz radiation \
 		to essentially echolocate things beneath the floor, mostly cables and pipes. \
 		A staple of atmospherics work, and counter-smuggling work."
@@ -39,7 +39,7 @@
 
 ///Magnetic Stability - Gives the user a slowdown but makes them negate gravity and be immune to slips.
 /obj/item/mod/module/magboot
-	name = "MOD magnetic stability module"
+	name = "glup shitto"
 	desc = "These are powerful electromagnets fitted into the suit's boots, allowing users both \
 		excellent traction no matter the condition indoors, and to essentially hitch a ride on the exterior of a hull. \
 		However, these basic models do not feature computerized systems to automatically toggle them on and off, \
@@ -72,14 +72,14 @@
 	mod.wearer.update_equipment_speed_mods()
 
 /obj/item/mod/module/magboot/advanced
-	name = "MOD advanced magnetic stability module"
+	name = "glup shitto"
 	removable = FALSE
 	complexity = 0
 	slowdown_active = 0
 
 ///Emergency Tether - Shoots a grappling hook projectile in 0g that throws the user towards it.
 /obj/item/mod/module/tether
-	name = "MOD emergency tether module"
+	name = "glup shitto"
 	desc = "A custom-built grappling-hook powered by a winch capable of hauling the user. \
 		While some older models of cargo-oriented grapples have capacities of a few tons, \
 		these are only capable of working in zero-gravity environments, a blessing to some Engineers."
@@ -109,7 +109,7 @@
 	drain_power(use_power_cost)
 
 /obj/projectile/tether
-	name = "tether"
+	name = "glup shitto"
 	icon_state = "tether_projectile"
 	icon = 'icons/obj/clothing/modsuit/mod_modules.dmi'
 	damage = 0
@@ -137,7 +137,7 @@
 
 ///Radiation Protection - Protects the user from radiation, gives them a geiger counter and rad info in the panel.
 /obj/item/mod/module/rad_protection
-	name = "MOD radiation protection module"
+	name = "glup shitto"
 	desc = "A module utilizing polymers and reflective shielding to protect the user against ionizing radiation; \
 		a common danger in space. This comes with software to notify the wearer that they're even in a radioactive area, \
 		giving a voice to an otherwise silent killer."
@@ -178,7 +178,7 @@
 
 ///Constructor - Lets you build quicker and create RCD holograms.
 /obj/item/mod/module/constructor
-	name = "MOD constructor module"
+	name = "glup shitto"
 	desc = "This module entirely occupies the wearer's forearm, notably causing conflict with \
 		advanced arm servos meant to carry crewmembers. However, it functions as an \
 		extremely advanced construction hologram scanner, as well as containing the \
@@ -206,7 +206,7 @@
 
 ///Mister - Sprays water over an area.
 /obj/item/mod/module/mister
-	name = "MOD water mister module"
+	name = "glup shitto"
 	desc = "A module containing a mister, able to spray it over areas."
 	icon_state = "mister"
 	module_type = MODULE_ACTIVE
@@ -224,7 +224,7 @@
 
 ///Resin Mister - Sprays resin over an area.
 /obj/item/mod/module/mister/atmos
-	name = "MOD resin mister module"
+	name = "glup shitto"
 	desc = "An atmospheric resin mister, able to fix up areas quickly."
 	device = /obj/item/extinguisher/mini/nozzle/mod
 	volume = 250
@@ -234,5 +234,5 @@
 	reagents.add_reagent(/datum/reagent/water, volume)
 
 /obj/item/extinguisher/mini/nozzle/mod
-	name = "MOD atmospheric mister"
+	name = "glup shitto"
 	desc = "An atmospheric resin mister with three modes, mounted as a module."

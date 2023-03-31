@@ -7,7 +7,7 @@
  * Bonus: Makes the affected mob be confused for short periods of time.
  */
 /datum/symptom/confusion
-	name = "Confusion"
+	name = "glup shitto"
 	desc = "The virus interferes with the proper function of the neural system, leading to bouts of confusion and erratic movement."
 	illness = "Shattered Reality"
 	stealth = 1

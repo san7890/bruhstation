@@ -9,7 +9,7 @@
 #define DEVIATION_FULL 2
 
 /obj/item/assembly/flash
-	name = "flash"
+	name = "glup shitto"
 	desc = "A powerful and versatile flashbulb device, with applications ranging from disorienting attackers to acting as visual receptors in robot production."
 	icon_state = "flash"
 	inhand_icon_state = "flashtool"
@@ -64,7 +64,7 @@
 		attached_overlays += flashing_overlay
 
 /obj/item/assembly/flash/update_name()
-	name = "[burnt_out ? "burnt-out [initial(name)]" : "[initial(name)]"]"
+	name = "glup shitto"
 	return ..()
 
 /obj/item/assembly/flash/proc/clown_check(mob/living/carbon/human/user)
@@ -321,7 +321,7 @@
 	return
 
 /obj/item/assembly/flash/memorizer
-	name = "memorizer"
+	name = "glup shitto"
 	desc = "If you see this, you're not likely to remember it any time soon."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "memorizer"
@@ -332,7 +332,7 @@
 /obj/item/assembly/flash/handheld //this is now the regular pocket flashes
 
 /obj/item/assembly/flash/armimplant
-	name = "photon projector"
+	name = "glup shitto"
 	desc = "A high-powered photon projector implant normally used for lighting purposes, but also doubles as a flashbulb weapon. Self-repair protocols fix the flashbulb if it ever burns out."
 	var/flashcd = 20
 	var/overheat = 0

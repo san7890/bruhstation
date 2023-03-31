@@ -2,28 +2,28 @@
 	var/sight_mode = null
 
 /obj/item/borg/sight/xray
-	name = "\proper X-ray vision"
+	name = "glup shitto"
 	icon = 'icons/obj/signs.dmi'
 	icon_state = "securearea"
 	sight_mode = BORGXRAY
 
 /obj/item/borg/sight/thermal
-	name = "\proper thermal vision"
+	name = "glup shitto"
 	sight_mode = BORGTHERM
 	icon_state = "thermal"
 
 /obj/item/borg/sight/meson
-	name = "\proper meson vision"
+	name = "glup shitto"
 	sight_mode = BORGMESON
 	icon_state = "meson"
 
 /obj/item/borg/sight/material
-	name = "\proper material vision"
+	name = "glup shitto"
 	sight_mode = BORGMATERIAL
 	icon_state = "material"
 
 /obj/item/borg/sight/hud
-	name = "hud"
+	name = "glup shitto"
 	var/obj/item/clothing/glasses/hud/hud = null
 
 /obj/item/borg/sight/hud/Initialize(mapload)
@@ -32,11 +32,11 @@
 	return ..()
 
 /obj/item/borg/sight/hud/med
-	name = "medical hud"
+	name = "glup shitto"
 	icon_state = "healthhud"
 	hud = /obj/item/clothing/glasses/hud/health
 
 /obj/item/borg/sight/hud/sec
-	name = "security hud"
+	name = "glup shitto"
 	icon_state = "securityhud"
 	hud = /obj/item/clothing/glasses/hud/security

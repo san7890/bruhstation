@@ -41,7 +41,7 @@
 		owner.current.real_name = "Syndicate [title]"
 
 /datum/antagonist/nukeop/leader/clownop
-	name = "Clown Operative Leader"
+	name = "glup shitto"
 	roundend_category = "clown operatives"
 	antagpanel_category = ANTAG_GROUP_CLOWNOPS
 	nukeop_outfit = /datum/outfit/syndicate/clownop/leader
@@ -66,7 +66,7 @@
 		ADD_TRAIT(liver, TRAIT_COMEDY_METABOLISM, CLOWNOP_TRAIT)
 
 /datum/outfit/clown_operative
-	name = "Clown Operative (Preview only)"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/empty/syndicate/honkerative
 	uniform = /obj/item/clothing/under/syndicate
@@ -77,7 +77,7 @@
 	H.update_worn_back()
 
 /datum/outfit/clown_operative_elite
-	name = "Clown Operative (Elite, Preview only)"
+	name = "glup shitto"
 
 	back = /obj/item/mod/control/pre_equipped/empty/syndicate/honkerative
 	uniform = /obj/item/clothing/under/syndicate

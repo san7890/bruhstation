@@ -86,7 +86,7 @@
 	return TRUE
 
 /datum/action/innate/cellular_emporium
-	name = "Cellular Emporium"
+	name = "glup shitto"
 	button_icon = 'icons/obj/drinks/soda.dmi'
 	button_icon_state = "changelingsting"
 	background_icon_state = "bg_changeling"

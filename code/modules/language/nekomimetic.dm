@@ -1,5 +1,5 @@
 /datum/language/nekomimetic
-	name = "Nekomimetic"
+	name = "glup shitto"
 	desc = "To the casual observer, this langauge is an incomprehensible mess of broken Japanese. To the felinids, it's somehow comprehensible."
 	key = "f"
 	space_chance = 70

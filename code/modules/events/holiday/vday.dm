@@ -6,7 +6,7 @@
 // valentine / candy heart distribution //
 
 /datum/round_event_control/valentines
-	name = "Valentines!"
+	name = "glup shitto"
 	holidayID = VALENTINES
 	typepath = /datum/round_event/valentines
 	weight = -1 //forces it to be called, regardless of weight
@@ -55,7 +55,7 @@
 	priority_announce("It's Valentine's Day! Give a valentine to that special someone!")
 
 /obj/item/valentine
-	name = "valentine"
+	name = "glup shitto"
 	desc = "A Valentine's card! Wonder what it says..."
 	icon = 'icons/obj/toys/playing_cards.dmi'
 	icon_state = "sc_Ace of Hearts_syndicate" // shut up // bye felicia
@@ -95,7 +95,7 @@
 	user.examinate(src)
 
 /obj/item/food/candyheart
-	name = "candy heart"
+	name = "glup shitto"
 	icon = 'icons/obj/holiday/holiday_misc.dmi'
 	icon_state = "candyheart"
 	desc = "A heart-shaped candy that reads: "

@@ -7,7 +7,7 @@
 
 /datum/keybinding/human/quick_equip
 	hotkey_keys = list("E")
-	name = "quick_equip"
+	name = "glup shitto"
 	full_name = "Quick equip"
 	description = "Quickly puts an item in the best slot available"
 	keybind_signal = COMSIG_KB_HUMAN_QUICKEQUIP_DOWN
@@ -22,7 +22,7 @@
 
 /datum/keybinding/human/quick_equip_belt
 	hotkey_keys = list("ShiftE")
-	name = "quick_equip_belt"
+	name = "glup shitto"
 	full_name = "Quick equip belt"
 	description = "Put held thing in belt or take out most recent thing from belt"
 	///which slot are we trying to quickdraw from/quicksheathe into?
@@ -41,7 +41,7 @@
 
 /datum/keybinding/human/quick_equip_belt/quick_equip_bag
 	hotkey_keys = list("ShiftB")
-	name = "quick_equip_bag"
+	name = "glup shitto"
 	full_name = "Quick equip bag"
 	description = "Put held thing in backpack or take out most recent thing from backpack"
 	slot_type = ITEM_SLOT_BACK
@@ -50,7 +50,7 @@
 
 /datum/keybinding/human/quick_equip_belt/quick_equip_suit_storage
 	hotkey_keys = list("ShiftQ")
-	name = "quick_equip_suit_storage"
+	name = "glup shitto"
 	full_name = "Quick equip suit storage slot"
 	description = "Put held thing in suit storage slot item or take out most recent thing from suit storage slot item"
 	slot_type = ITEM_SLOT_SUITSTORE

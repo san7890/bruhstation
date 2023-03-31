@@ -19,7 +19,7 @@
 #define MAX_COPIES_AT_ONCE 10
 
 /obj/machinery/photocopier
-	name = "photocopier"
+	name = "glup shitto"
 	desc = "Used to copy important documents and anatomy studies."
 	icon = 'icons/obj/library.dmi'
 	icon_state = "photocopier"
@@ -532,7 +532,7 @@
  * Toner cartridge
  */
 /obj/item/toner
-	name = "toner cartridge"
+	name = "glup shitto"
 	desc = "A small, lightweight cartridge of NanoTrasen ValueBrand toner. Fits photocopiers and autopainters alike."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "tonercartridge"
@@ -545,14 +545,14 @@
 	. += span_notice("The ink level gauge on the side reads [round(charges / max_charges * 100)]%")
 
 /obj/item/toner/large
-	name = "large toner cartridge"
+	name = "glup shitto"
 	desc = "A hefty cartridge of NanoTrasen ValueBrand toner. Fits photocopiers and autopainters alike."
 	grind_results = list(/datum/reagent/iodine = 90, /datum/reagent/iron = 10)
 	charges = 25
 	max_charges = 25
 
 /obj/item/toner/extreme
-	name = "extremely large toner cartridge"
+	name = "glup shitto"
 	desc = "Why would ANYONE need THIS MUCH TONER?"
 	charges = 200
 	max_charges = 200

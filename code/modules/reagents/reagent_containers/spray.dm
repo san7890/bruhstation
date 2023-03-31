@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/spray
-	name = "spray bottle"
+	name = "glup shitto"
 	desc = "A spray bottle, with an unscrewable top."
 	icon = 'icons/obj/janitor.dmi'
 	icon_state = "sprayer_large"
@@ -168,7 +168,7 @@
 
 //space cleaner
 /obj/item/reagent_containers/spray/cleaner
-	name = "space cleaner"
+	name = "glup shitto"
 	desc = "BLAM!-brand non-foaming space cleaner!"
 	icon_state = "cleaner"
 	volume = 100
@@ -192,7 +192,7 @@
 
 //spray tan
 /obj/item/reagent_containers/spray/spraytan
-	name = "spray tan"
+	name = "glup shitto"
 	volume = 50
 	desc = "Gyaro brand spray tan. Do not spray near eyes or other orifices."
 	list_reagents = list(/datum/reagent/spraytan = 50)
@@ -200,7 +200,7 @@
 
 //pepperspray
 /obj/item/reagent_containers/spray/pepper
-	name = "pepperspray"
+	name = "glup shitto"
 	desc = "Manufactured by UhangInc, used to blind and down an opponent quickly."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "pepperspray"
@@ -227,7 +227,7 @@
 
 //water flower
 /obj/item/reagent_containers/spray/waterflower
-	name = "water flower"
+	name = "glup shitto"
 	desc = "A seemingly innocent sunflower...with a twist."
 	icon = 'icons/obj/hydroponics/harvest.dmi'
 	icon_state = "sunflower"
@@ -243,7 +243,7 @@
 
 ///Subtype used for the lavaland clown ruin.
 /obj/item/reagent_containers/spray/waterflower/superlube
-	name = "clown flower"
+	name = "glup shitto"
 	desc = "A delightly devilish flower... you got a feeling where this is going."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "clownflower"
@@ -261,7 +261,7 @@
 	can_fill_from_container = FALSE
 
 /obj/item/reagent_containers/spray/waterflower/cyborg/hacked
-	name = "nova flower"
+	name = "glup shitto"
 	desc = "This doesn't look safe at all..."
 	list_reagents = list(/datum/reagent/clf3 = 3)
 	volume = 3
@@ -292,7 +292,7 @@
 
 //chemsprayer
 /obj/item/reagent_containers/spray/chemsprayer
-	name = "chem sprayer"
+	name = "glup shitto"
 	desc = "A utility used to spray large amounts of reagents in a given area."
 	icon = 'icons/obj/weapons/guns/ballistic.dmi'
 	icon_state = "chemsprayer"
@@ -331,7 +331,7 @@
 
 
 /obj/item/reagent_containers/spray/chemsprayer/janitor
-	name = "janitor chem sprayer"
+	name = "glup shitto"
 	desc = "A utility used to spray large amounts of cleaning reagents in a given area. It regenerates space cleaner by itself but it's unable to be fueled by normal means."
 	icon_state = "chemsprayer_janitor"
 	inhand_icon_state = "chemsprayer_janitor"
@@ -361,7 +361,7 @@
 	reagents.add_reagent(generate_type, generate_amount)
 
 /obj/item/reagent_containers/spray/chemsprayer/party
-	name = "party popper"
+	name = "glup shitto"
 	desc = "A small device used for celebrations and annoying the janitor."
 	icon = 'icons/obj/toys/toy.dmi'
 	icon_state = "party_popper"
@@ -383,11 +383,11 @@
 /obj/item/reagent_containers/spray/chemsprayer/party/spray(atom/A, mob/user)
 	. = ..()
 	icon_state = "[icon_state]_used"
-	
+
 
 // Plant-B-Gone
 /obj/item/reagent_containers/spray/plantbgone // -- Skie
-	name = "Plant-B-Gone"
+	name = "glup shitto"
 	desc = "Kills those pesky weeds!"
 	icon = 'icons/obj/hydroponics/equipment.dmi'
 	icon_state = "plantbgone"
@@ -398,7 +398,7 @@
 	list_reagents = list(/datum/reagent/toxin/plantbgone = 100)
 
 /obj/item/reagent_containers/spray/syndicate
-	name = "suspicious spray bottle"
+	name = "glup shitto"
 	desc = "A spray bottle, with a high performance plastic nozzle. The color scheme makes you feel slightly uneasy."
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "sprayer_sus_8"
@@ -415,7 +415,7 @@
 	icon_state = pick("sprayer_sus_1", "sprayer_sus_2", "sprayer_sus_3", "sprayer_sus_4", "sprayer_sus_5","sprayer_sus_6", "sprayer_sus_7", "sprayer_sus_8")
 
 /obj/item/reagent_containers/spray/medical
-	name = "medical spray bottle"
+	name = "glup shitto"
 	icon = 'icons/obj/medical/chemical.dmi'
 	icon_state = "sprayer_med_red"
 	inhand_icon_state = "sprayer_med_red"
@@ -442,7 +442,7 @@
 	M.update_held_items()
 
 /obj/item/reagent_containers/spray/hercuri
-	name = "medical spray (hercuri)"
+	name = "glup shitto"
 	desc = "A medical spray bottle.This one contains hercuri, a medicine used to negate the effects of dangerous high-temperature environments. Careful not to freeze the patient!"
 	icon_state = "sprayer_large"
 	list_reagents = list(/datum/reagent/medicine/c2/hercuri = 100)

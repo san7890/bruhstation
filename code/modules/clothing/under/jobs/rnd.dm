@@ -4,7 +4,7 @@
 
 /obj/item/clothing/under/rank/rnd/research_director
 	desc = "It's a suit worn by those with the know-how to achieve the position of \"Research Director\". Its fabric provides minor protection from biological contaminants."
-	name = "research director's vest suit"
+	name = "glup shitto"
 	icon_state = "director"
 	inhand_icon_state = "lb_suit"
 	armor_type = /datum/armor/rnd_research_director
@@ -21,7 +21,7 @@
 	random_sensor = FALSE
 
 /obj/item/clothing/under/rank/rnd/research_director/skirt
-	name = "research director's vest suitskirt"
+	name = "glup shitto"
 	desc = "It's a suitskirt worn by those with the know-how to achieve the position of \"Research Director\". Its fabric provides minor protection from biological contaminants."
 	icon_state = "director_skirt"
 	inhand_icon_state = "lb_suit"
@@ -32,14 +32,14 @@
 
 /obj/item/clothing/under/rank/rnd/research_director/alt
 	desc = "Maybe you'll engineer your own half-man, half-pig creature some day. Its fabric provides minor protection from biological contaminants."
-	name = "research director's tan suit"
+	name = "glup shitto"
 	icon_state = "rdwhimsy"
 	inhand_icon_state = "rdwhimsy"
 	can_adjust = TRUE
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/rnd/research_director/alt/skirt
-	name = "research director's tan suitskirt"
+	name = "glup shitto"
 	desc = "Maybe you'll engineer your own half-man, half-pig creature some day. Its fabric provides minor protection from biological contaminants."
 	icon_state = "rdwhimsy_skirt"
 	inhand_icon_state = "rdwhimsy"
@@ -50,14 +50,14 @@
 
 /obj/item/clothing/under/rank/rnd/research_director/turtleneck
 	desc = "A Nanotrasen-purple turtleneck and black jeans, for a director with a superior sense of style."
-	name = "research director's turtleneck"
+	name = "glup shitto"
 	icon_state = "rdturtle"
 	inhand_icon_state = "p_suit"
 	can_adjust = TRUE
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/rank/rnd/research_director/turtleneck/skirt
-	name = "research director's turtleneck skirt"
+	name = "glup shitto"
 	desc = "A Nanotrasen-purple turtleneck and a black skirt, for a director with a superior sense of style."
 	icon_state = "rdturtle_skirt"
 	inhand_icon_state = "p_suit"
@@ -68,7 +68,7 @@
 
 /obj/item/clothing/under/rank/rnd/scientist
 	desc = "It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist."
-	name = "scientist's jumpsuit"
+	name = "glup shitto"
 	icon_state = "science"
 	inhand_icon_state = "w_suit"
 	armor_type = /datum/armor/rnd_scientist
@@ -77,7 +77,7 @@
 	bio = 50
 
 /obj/item/clothing/under/rank/rnd/scientist/skirt
-	name = "scientist's jumpskirt"
+	name = "glup shitto"
 	desc = "It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist."
 	icon_state = "sciwhite_skirt"
 	inhand_icon_state = "w_suit"
@@ -88,13 +88,13 @@
 
 /obj/item/clothing/under/rank/rnd/roboticist
 	desc = "It's a slimming black with reinforced seams; great for industrial work."
-	name = "roboticist's jumpsuit"
+	name = "glup shitto"
 	icon_state = "robotics"
 	inhand_icon_state = null
 	resistance_flags = NONE
 
 /obj/item/clothing/under/rank/rnd/roboticist/skirt
-	name = "roboticist's jumpskirt"
+	name = "glup shitto"
 	desc = "It's a slimming black with reinforced seams; great for industrial work."
 	icon_state = "robotics_skirt"
 	inhand_icon_state = null
@@ -105,7 +105,7 @@
 
 /obj/item/clothing/under/rank/rnd/geneticist
 	desc = "It's made of a special fiber that gives special protection against biohazards. It has a genetics rank stripe on it."
-	name = "geneticist's jumpsuit"
+	name = "glup shitto"
 	icon_state = "genetics"
 	inhand_icon_state = "w_suit"
 	armor_type = /datum/armor/rnd_geneticist
@@ -114,7 +114,7 @@
 	bio = 50
 
 /obj/item/clothing/under/rank/rnd/geneticist/skirt
-	name = "geneticist's jumpskirt"
+	name = "glup shitto"
 	desc = "It's made of a special fiber that gives special protection against biohazards. It has a genetics rank stripe on it."
 	icon_state = "geneticswhite_skirt"
 	inhand_icon_state = "w_suit"

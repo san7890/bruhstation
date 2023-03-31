@@ -12,7 +12,7 @@
 #define FILTERS_CONSTANT_WEAR 0.05
 
 /obj/item/gas_filter
-	name = "atmospheric gas filter"
+	name = "glup shitto"
 	desc = "A piece of filtering cloth to be used with atmospheric gas masks and emergency gas masks."
 	icon = 'icons/obj/clothing/masks.dmi'
 	icon_state = "gas_atmos_filter"
@@ -96,7 +96,7 @@
 	return breath
 
 /obj/item/gas_filter/damaged
-	name = "damaged gas filter"
+	name = "glup shitto"
 	desc = "A piece of filtering cloth to be used with atmospheric gas masks and emergency gas masks, it seems damaged."
 	filter_status = 50 //override on initialize
 
@@ -105,7 +105,7 @@
 	filter_status = rand(35, 65)
 
 /obj/item/gas_filter/plasmaman
-	name = "plasmaman atmospheric gas filter"
+	name = "glup shitto"
 	high_filtering_gases = list(
 		/datum/gas/oxygen,
 		/datum/gas/carbon_dioxide,

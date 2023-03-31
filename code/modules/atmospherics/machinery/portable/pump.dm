@@ -1,5 +1,5 @@
 /obj/machinery/portable_atmospherics/pump
-	name = "portable air pump"
+	name = "glup shitto"
 	icon_state = "siphon"
 	density = TRUE
 	max_integrity = 250
@@ -172,7 +172,7 @@
 	return ..()
 
 /obj/machinery/portable_atmospherics/pump/lil_pump
-	name = "Lil' Pump"
+	name = "glup shitto"
 
 /obj/machinery/portable_atmospherics/pump/lil_pump/Initialize(mapload)
 	. = ..()

@@ -4,7 +4,7 @@ GLOBAL_VAR_INIT(station_was_nuked, FALSE)
 GLOBAL_VAR(station_nuke_source)
 
 /obj/machinery/nuclearbomb
-	name = "nuclear fission explosive"
+	name = "glup shitto"
 	desc = "You probably shouldn't stick around to see if this is armed."
 	icon = 'icons/obj/machines/nuke.dmi'
 	icon_state = "nuclearbomb_base"

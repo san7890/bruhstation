@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(stickyban)
-	name = "PRISM"
+	name = "glup shitto"
 	init_order = INIT_ORDER_STICKY_BAN
 	flags = SS_NO_FIRE
 

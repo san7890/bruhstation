@@ -5,7 +5,7 @@
 **/
 
 /obj/item/ai_module/remove
-	name = "\improper 'Remove Law' AI module"
+	name = "glup shitto"
 	desc = "An AI Module for removing single laws."
 	bypass_law_amt_check = TRUE
 	var/lawpos = 1
@@ -31,7 +31,7 @@
 		law_datum.remove_law(lawpos)
 
 /obj/item/ai_module/reset
-	name = "\improper 'Reset' AI module"
+	name = "glup shitto"
 	var/targetName = "name"
 	desc = "An AI Module for removing all non-core laws."
 	bypass_law_amt_check = TRUE
@@ -51,7 +51,7 @@
 		law_datum.clear_hacked_laws()
 
 /obj/item/ai_module/reset/purge
-	name = "'Purge' AI Module"
+	name = "glup shitto"
 	desc = "An AI Module for purging all programmed laws."
 
 /obj/item/ai_module/reset/purge/transmitInstructions(datum/ai_laws/law_datum, mob/sender, overflow)

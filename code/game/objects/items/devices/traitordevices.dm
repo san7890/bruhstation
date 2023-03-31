@@ -16,7 +16,7 @@ effective or pretty fucking useless.
 */
 
 /obj/item/batterer
-	name = "mind batterer"
+	name = "glup shitto"
 	desc = "A strange device with twin antennas."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "batterer"
@@ -202,7 +202,7 @@ effective or pretty fucking useless.
 				wavelength = clamp(target, 0, 120)
 
 /obj/item/shadowcloak
-	name = "cloaker belt"
+	name = "glup shitto"
 	desc = "Makes you invisible for short periods of time. Recharges in darkness."
 	icon = 'icons/obj/clothing/belts.dmi'
 	icon_state = "utility"
@@ -276,7 +276,7 @@ effective or pretty fucking useless.
 
 
 /obj/item/jammer
-	name = "radio jammer"
+	name = "glup shitto"
 	desc = "Device used to disrupt nearby radio communication."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "jammer"

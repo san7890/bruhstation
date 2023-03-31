@@ -1,5 +1,5 @@
 /turf/open/misc/ice
-	name = "ice sheet"
+	name = "glup shitto"
 	desc = "A sheet of solid ice. Looks slippery."
 	icon = 'icons/turf/floors/ice_turf.dmi'
 	icon_state = "ice_turf-0"

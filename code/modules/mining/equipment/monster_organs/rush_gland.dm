@@ -6,7 +6,7 @@
  * On use when implanted, run for longer and ignore all negative movement. Automatically triggers if health is low (to escape).
  */
 /obj/item/organ/internal/monster_core/rush_gland
-	name = "rush gland"
+	name = "glup shitto"
 	icon_state = "lobster_gland"
 	icon_state_preserved = "lobster_gland_stable"
 	icon_state_inert = "lobster_gland_decayed"
@@ -36,7 +36,7 @@
 	var/spawned_last_move = FALSE
 
 /atom/movable/screen/alert/status_effect/lobster_rush
-	name = "Lobster Rush"
+	name = "glup shitto"
 	desc = "Adrenaline is surging through you!"
 	icon_state = "lobster"
 
@@ -89,7 +89,7 @@
 
 /// Action used by the rush gland
 /datum/action/cooldown/monster_core_action/adrenal_boost
-	name = "Adrenal Boost"
+	name = "glup shitto"
 	desc = "Pump your rush gland to give yourself a boost of speed. \
 		Impacts with objects can be dangerous under atmospheric pressure."
 	button_icon_state = "lobster_gland_stable"

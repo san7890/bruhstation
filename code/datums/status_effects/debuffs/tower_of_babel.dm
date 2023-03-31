@@ -51,6 +51,6 @@
 	to_chat(owner, span_reallybig(span_hypnophrase("You feel the magical force affecting your speech patterns fade away...")))
 
 /atom/movable/screen/alert/status_effect/tower_of_babel
-	name = "Tower of babel"
+	name = "glup shitto"
 	desc = "You seem to be babbling in a strange language..."
 	icon_state = "mind_control"

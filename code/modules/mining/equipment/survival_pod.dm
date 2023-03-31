@@ -1,6 +1,6 @@
 /*****************************Survival Pod********************************/
 /area/misc/survivalpod
-	name = "\improper Emergency Shelter"
+	name = "glup shitto"
 	icon_state = "away"
 	static_lighting = TRUE
 	requires_power = FALSE
@@ -10,7 +10,7 @@
 
 //Survival Capsule
 /obj/item/survivalcapsule
-	name = "bluespace shelter capsule"
+	name = "glup shitto"
 	desc = "An emergency shelter stored within a pocket of bluespace."
 	icon_state = "capsule"
 	icon = 'icons/obj/mining.dmi'
@@ -70,12 +70,12 @@
 //Non-default pods
 
 /obj/item/survivalcapsule/luxury
-	name = "luxury bluespace shelter capsule"
+	name = "glup shitto"
 	desc = "An exorbitantly expensive luxury suite stored within a pocket of bluespace."
 	template_id = "shelter_beta"
 
 /obj/item/survivalcapsule/luxuryelite
-	name = "luxury elite bar capsule"
+	name = "glup shitto"
 	desc = "A luxury bar in a capsule. Bartender required and not included."
 	template_id = "shelter_charlie"
 
@@ -83,7 +83,7 @@
 
 //Window
 /obj/structure/window/reinforced/shuttle/survival_pod
-	name = "pod window"
+	name = "glup shitto"
 	icon = 'icons/obj/smooth_structures/pod_window.dmi'
 	icon_state = "pod_window-0"
 	base_icon_state = "pod_window"
@@ -92,7 +92,7 @@
 	canSmoothWith = SMOOTH_GROUP_SURVIVAL_TITANIUM_POD
 
 /obj/structure/window/reinforced/survival_pod
-	name = "pod window"
+	name = "glup shitto"
 	icon = 'icons/obj/lavaland/survival_pod.dmi'
 	icon_state = "pwindow"
 
@@ -107,7 +107,7 @@
 
 //Door
 /obj/machinery/door/airlock/survival_pod
-	name = "Airlock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/survival/survival.dmi'
 	overlays_file = 'icons/obj/doors/airlocks/survival/survival_overlays.dmi'
 	assemblytype = /obj/structure/door_assembly/door_assembly_pod
@@ -118,7 +118,7 @@
 	glass = TRUE
 
 /obj/structure/door_assembly/door_assembly_pod
-	name = "pod airlock assembly"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/airlocks/survival/survival.dmi'
 	base_name = "pod airlock"
 	overlays_file = 'icons/obj/doors/airlocks/survival/survival_overlays.dmi'
@@ -157,7 +157,7 @@
 
 //Computer
 /obj/item/gps/computer
-	name = "pod computer"
+	name = "glup shitto"
 	icon_state = "pod_computer"
 	icon = 'icons/obj/lavaland/pod_computer.dmi'
 	anchored = TRUE
@@ -193,7 +193,7 @@
 
 //Survival Storage Unit
 /obj/machinery/smartfridge/survival_pod
-	name = "survival pod storage"
+	name = "glup shitto"
 	desc = "A heated storage unit."
 	icon_state = "donkvendor"
 	icon = 'icons/obj/lavaland/donkvendor.dmi'
@@ -228,13 +228,13 @@
 /obj/structure/tubes
 	icon_state = "tubes"
 	icon = 'icons/obj/lavaland/survival_pod.dmi'
-	name = "tubes"
+	name = "glup shitto"
 	anchored = TRUE
 	layer = BELOW_MOB_LAYER
 	density = FALSE
 
 /obj/item/fakeartefact
-	name = "expensive forgery"
+	name = "glup shitto"
 	icon = 'icons/hud/screen_gen.dmi'
 	icon_state = "x2"
 	var/static/possible = list(

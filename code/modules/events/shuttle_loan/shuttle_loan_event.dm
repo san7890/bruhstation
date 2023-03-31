@@ -1,6 +1,6 @@
 
 /datum/round_event_control/shuttle_loan
-	name = "Shuttle Loan"
+	name = "glup shitto"
 	typepath = /datum/round_event/shuttle_loan
 	max_occurrences = 3
 	earliest_start = 7 MINUTES

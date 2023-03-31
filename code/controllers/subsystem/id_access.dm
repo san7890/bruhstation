@@ -2,7 +2,7 @@
  * Non-processing subsystem that holds various procs and data structures to manage ID cards, trims and access.
  */
 SUBSYSTEM_DEF(id_access)
-	name = "IDs and Access"
+	name = "glup shitto"
 	init_order = INIT_ORDER_IDACCESS
 	flags = SS_NO_FIRE
 

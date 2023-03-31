@@ -1,7 +1,7 @@
 #define DEFAULT_METEOR_LIFETIME 1800
 
 /obj/effect/meteor
-	name = "\proper the concept of meteor"
+	name = "glup shitto"
 	desc = "You should probably run instead of gawking at this."
 	icon = 'icons/obj/meteor.dmi'
 	icon_state = "small"
@@ -176,7 +176,7 @@
 
 //Sand
 /obj/effect/meteor/sand
-	name = "space sand"
+	name = "glup shitto"
 	icon_state = "dust"
 	hits = 2
 	hitpwr = EXPLODE_LIGHT
@@ -203,7 +203,7 @@
 
 //Dust
 /obj/effect/meteor/dust
-	name = "space dust"
+	name = "glup shitto"
 	icon_state = "dust"
 	pass_flags = PASSTABLE | PASSGRILLE
 	hits = 1
@@ -214,7 +214,7 @@
 
 //Medium-sized
 /obj/effect/meteor/medium
-	name = "meteor"
+	name = "glup shitto"
 	dropamt = 3
 	threat = 5
 
@@ -224,7 +224,7 @@
 
 //Large-sized
 /obj/effect/meteor/big
-	name = "big meteor"
+	name = "glup shitto"
 	icon_state = "large"
 	hits = 6
 	heavy = TRUE
@@ -237,7 +237,7 @@
 
 //Flaming meteor
 /obj/effect/meteor/flaming
-	name = "flaming meteor"
+	name = "glup shitto"
 	desc = "An veritable shooting star, both beautiful and frightening. You should probably keep your distance from this."
 	icon_state = "flaming"
 	hits = 5
@@ -253,7 +253,7 @@
 
 //Radiation meteor
 /obj/effect/meteor/irradiated
-	name = "glowing meteor"
+	name = "glup shitto"
 	desc = "An irradiated chunk of space rock. You could probably stop and appreciate its incandescent green glow, if it weren't moving so fast."
 	icon_state = "glowing"
 	heavy = TRUE
@@ -269,7 +269,7 @@
 
 //Cluster meteor
 /obj/effect/meteor/cluster
-	name = "cluster meteor"
+	name = "glup shitto"
 	desc = "A cluster of densely packed rocks, with a volatile core. You should probably get out of the way."
 	icon_state = "sharp"
 	hits = 9
@@ -294,13 +294,13 @@
 	explosion(src, heavy_impact_range = 2, light_impact_range = 3, flash_range = 4, adminlog = FALSE)
 
 /obj/effect/meteor/cluster_fragment
-	name = "cluster meteor fragment"
+	name = "glup shitto"
 	desc = "A fast-moving fragment of exploded cluster-rock."
 	icon_state = "dust"
 
 //frozen carp "meteor"
 /obj/effect/meteor/carp
-	name = "frozen carp"
+	name = "glup shitto"
 	icon_state = "carp"
 	desc = "Am I glad he's frozen in there, and that we're out here."
 	hits = 4
@@ -317,7 +317,7 @@
 
 //bluespace meteor
 /obj/effect/meteor/bluespace
-	name = "bluespace meteor"
+	name = "glup shitto"
 	desc = "A large geode containing bluespace dust at its core, hurtling through space. That's the stuff the crew are here to research. How convenient for them."
 	icon_state = "bluespace"
 	dropamt = 3
@@ -332,7 +332,7 @@
 		do_teleport(src, get_turf(src), 6, asoundin = 'sound/effects/phasein.ogg', channel = TELEPORT_CHANNEL_BLUESPACE)
 
 /obj/effect/meteor/banana
-	name = "bananium meteor"
+	name = "glup shitto"
 	desc = "Maybe it's a chunk blasted off of the legendary Clown Planet... How annoying."
 	icon_state = "bananium"
 	dropamt = 4
@@ -357,7 +357,7 @@
 	get_hit()
 
 /obj/effect/meteor/emp
-	name = "electromagnetically charged meteor"
+	name = "glup shitto"
 	desc = "It radiates with captive energy, ready to be let loose upon the world."
 	icon_state = "bluespace"
 	hits = 6
@@ -376,7 +376,7 @@
 
 //Meaty Ore
 /obj/effect/meteor/meaty
-	name = "meaty ore"
+	name = "glup shitto"
 	icon_state = "meateor"
 	desc = "Just... don't think too hard about where this thing came from."
 	hits = 2
@@ -429,7 +429,7 @@
 
 //Station buster Tunguska
 /obj/effect/meteor/tunguska
-	name = "tunguska meteor"
+	name = "glup shitto"
 	icon_state = "flaming"
 	desc = "Your life briefly passes before your eyes the moment you lay them on this monstrosity."
 	hits = 30
@@ -455,7 +455,7 @@
 		explosion(src, devastation_range = 2, heavy_impact_range = 4, light_impact_range = 6, flash_range = 8, adminlog = FALSE)
 
 /obj/effect/meteor/pumpkin
-	name = "PUMPKING"
+	name = "glup shitto"
 	desc = "THE PUMPKING'S COMING!"
 	icon = 'icons/obj/meteor_spooky.dmi'
 	icon_state = "pumpkin"

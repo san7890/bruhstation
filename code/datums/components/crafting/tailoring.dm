@@ -1,5 +1,5 @@
 /datum/crafting_recipe/durathread_vest
-	name = "Durathread Vest"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/armor/vest/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 5,
 				/obj/item/stack/sheet/leather = 4)
@@ -7,7 +7,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/durathread_helmet
-	name = "Durathread Helmet"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/helmet/durathread
 	reqs = list(/obj/item/stack/sheet/durathread = 4,
 				/obj/item/stack/sheet/leather = 5)
@@ -15,7 +15,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/fannypack
-	name = "Fannypack"
+	name = "glup shitto"
 	result = /obj/item/storage/belt/fannypack
 	reqs = list(/obj/item/stack/sheet/cloth = 2,
 				/obj/item/stack/sheet/leather = 1)
@@ -23,7 +23,7 @@
 	category = CAT_CONTAINERS
 
 /datum/crafting_recipe/hudsunsec
-	name = "Security HUDsunglasses"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/hud/security/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -33,7 +33,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/hudsunsecremoval
-	name = "Security HUD removal"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -41,7 +41,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/hudsunmed
-	name = "Medical HUDsunglasses"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/hud/health/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -51,7 +51,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/hudsunmedremoval
-	name = "Medical HUD removal"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -59,7 +59,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/hudsundiag
-	name = "Diagnostic HUDsunglasses"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/hud/diagnostic/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -69,7 +69,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/hudsundiagremoval
-	name = "Diagnostic HUD removal"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -77,7 +77,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/scienceglasses
-	name = "Science Glasses"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/sunglasses/chemical
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -87,7 +87,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/scienceglassesremoval
-	name = "Chemical Scanner removal"
+	name = "glup shitto"
 	result = /obj/item/clothing/glasses/sunglasses
 	time = 2 SECONDS
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_WIRECUTTER)
@@ -95,7 +95,7 @@
 	category = CAT_EQUIPMENT
 
 /datum/crafting_recipe/ghostsheet
-	name = "Ghost Sheet"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/costume/ghost_sheet
 	time = 0.5 SECONDS
 	tool_behaviors = list(TOOL_WIRECUTTER)
@@ -103,35 +103,35 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/lizardboots
-	name = "Lizard Skin Boots"
+	name = "glup shitto"
 	result = /obj/effect/spawner/random/clothing/lizardboots
 	reqs = list(/obj/item/stack/sheet/animalhide/lizard = 1, /obj/item/stack/sheet/leather = 1)
 	time = 6 SECONDS
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/prisonsuit
-	name = "Prisoner Uniform (Suit)"
+	name = "glup shitto"
 	result = /obj/item/clothing/under/rank/prisoner
 	reqs = list(/obj/item/stack/sheet/cloth = 3, /obj/item/stack/license_plates = 1)
 	time = 2 SECONDS
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/prisonskirt
-	name = "Prisoner Uniform (Skirt)"
+	name = "glup shitto"
 	result = /obj/item/clothing/under/rank/prisoner/skirt
 	reqs = list(/obj/item/stack/sheet/cloth = 3, /obj/item/stack/license_plates = 1)
 	time = 2 SECONDS
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/prisonshoes
-	name = "Orange Prison Shoes"
+	name = "glup shitto"
 	result = /obj/item/clothing/shoes/sneakers/orange
 	reqs = list(/obj/item/stack/sheet/cloth = 2, /obj/item/stack/license_plates = 1)
 	time = 1 SECONDS
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/tv_helmet
-	name = "Television Helmet"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/costume/tv_head
 	tool_behaviors = list(TOOL_SCREWDRIVER, TOOL_CROWBAR)
 	reqs = list(/obj/item/wallframe/status_display = 1)
@@ -139,21 +139,21 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/lizardhat
-	name = "Lizard Cloche Hat"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/costume/lizard
 	time = 1 SECONDS
 	reqs = list(/obj/item/organ/external/tail/lizard = 1)
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/lizardhat_alternate
-	name = "Lizard Cloche Hat"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/costume/lizard
 	time = 1 SECONDS
 	reqs = list(/obj/item/stack/sheet/animalhide/lizard = 1)
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/kittyears
-	name = "Kitty Ears"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/costume/kitty/genuine
 	time = 1 SECONDS
 	reqs = list(
@@ -163,14 +163,14 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/bonearmor
-	name = "Bone Armor"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/armor/bone
 	time = 3 SECONDS
 	reqs = list(/obj/item/stack/sheet/bone = 6)
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/bonetalisman
-	name = "Bone Talisman"
+	name = "glup shitto"
 	result = /obj/item/clothing/accessory/talisman
 	time = 2 SECONDS
 	reqs = list(
@@ -180,7 +180,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/bonecodpiece
-	name = "Skull Codpiece"
+	name = "glup shitto"
 	result = /obj/item/clothing/accessory/skullcodpiece
 	time = 2 SECONDS
 	reqs = list(
@@ -190,7 +190,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/skilt
-	name = "Sinew Kilt"
+	name = "glup shitto"
 	result = /obj/item/clothing/accessory/skilt
 	time = 2 SECONDS
 	reqs = list(
@@ -200,7 +200,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/bracers
-	name = "Bone Bracers"
+	name = "glup shitto"
 	result = /obj/item/clothing/gloves/bracer
 	time = 2 SECONDS
 	reqs = list(
@@ -210,14 +210,14 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/skullhelm
-	name = "Skull Helmet"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/helmet/skull
 	time = 3 SECONDS
 	reqs = list(/obj/item/stack/sheet/bone = 4)
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/goliathcloak
-	name = "Goliath Cloak"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/hooded/cloak/goliath
 	time = 5 SECONDS
 	reqs = list(
@@ -228,7 +228,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/drakecloak
-	name = "Ash Drake Armour"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/hooded/cloak/drake
 	time = 6 SECONDS
 	reqs = list(
@@ -239,7 +239,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/godslayer
-	name = "Godslayer Armour"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/hooded/cloak/godslayer
 	time = 6 SECONDS
 	reqs = list(
@@ -250,7 +250,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/mummy
-	name = "Mummification Bandages (Mask)"
+	name = "glup shitto"
 	result = /obj/item/clothing/mask/mummy
 	time = 1 SECONDS
 	tool_paths = list(/obj/item/nullrod/egyptian)
@@ -258,12 +258,12 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/mummy/body
-	name = "Mummification Bandages (Body)"
+	name = "glup shitto"
 	result = /obj/item/clothing/under/costume/mummy
 	reqs = list(/obj/item/stack/sheet/cloth = 5)
 
 /datum/crafting_recipe/chaplain_hood
-	name = "Follower Hoodie"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/hooded/chaplain_hoodie
 	time = 1 SECONDS
 	tool_paths = list(
@@ -274,7 +274,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/flower_garland
-	name = "Flower Garland"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/costume/garland
 	time = 1 SECONDS
 	reqs = list(
@@ -285,7 +285,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/pillow_suit
-	name = "pillow suit"
+	name = "glup shitto"
 	result = /obj/item/clothing/suit/pillow_suit
 	time = 2 SECONDS
 	reqs = list(
@@ -295,7 +295,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/pillow_hood
-	name = "pillow hood"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/pillow_hood
 	tool_behaviors = list(TOOL_WIRECUTTER, TOOL_KNIFE)
 	time = 2 SECONDS
@@ -306,7 +306,7 @@
 	category = CAT_CLOTHING
 
 /datum/crafting_recipe/sturdy_shako
-	name = "Sturdy Shako"
+	name = "glup shitto"
 	result = /obj/item/clothing/head/hats/hos/shako
 	tool_behaviors = list(TOOL_WELDER, TOOL_KNIFE)
 	time = 5 SECONDS

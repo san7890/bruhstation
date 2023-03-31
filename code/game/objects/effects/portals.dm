@@ -11,7 +11,7 @@
 	return list(P1, P2)
 
 /obj/effect/portal
-	name = "portal"
+	name = "glup shitto"
 	desc = "Looks unstable. Best to test it with the clown."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "portal"
@@ -30,7 +30,7 @@
 	var/force_teleport = FALSE
 
 /obj/effect/portal/anom
-	name = "wormhole"
+	name = "glup shitto"
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "anom"
 	layer = RIPPLE_LAYER
@@ -142,7 +142,7 @@
 	return real_target
 
 /obj/effect/portal/permanent
-	name = "permanent portal"
+	name = "glup shitto"
 	desc = "An unwavering portal that will never fade."
 	hardlinked = FALSE // dont qdel my portal nerd
 	force_teleport = TRUE // force teleports because they're a mapmaker tool
@@ -162,7 +162,7 @@
 	. = ..()
 
 /obj/effect/portal/permanent/one_way // doesn't have a return portal, can have multiple exits, /obj/effect/landmark/portal_exit to mark them
-	name = "one-way portal"
+	name = "glup shitto"
 	desc = "You get the feeling that this might not be the safest thing you've ever done."
 
 /obj/effect/portal/permanent/one_way/set_linked()
@@ -178,7 +178,7 @@
 		hard_target = pick(possible_turfs)
 
 /obj/effect/portal/permanent/one_way/one_use
-	name = "one-use portal"
+	name = "glup shitto"
 	desc = "This is probably the worst decision you'll ever make in your life."
 
 /obj/effect/portal/permanent/one_way/one_use/teleport(atom/movable/M, force = FALSE)

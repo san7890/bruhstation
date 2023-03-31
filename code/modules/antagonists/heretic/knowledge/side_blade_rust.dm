@@ -1,6 +1,6 @@
 // Sidepaths for knowledge between Rust and Blade.
 /datum/heretic_knowledge/armor
-	name = "Armorer's Ritual"
+	name = "glup shitto"
 	desc = "Allows you to transmute a table and a gas mask to create Eldritch Armor. \
 		Eldritch Armor provides great protection while also acting as a focus when hooded."
 	gain_text = "The Rusted Hills welcomed the Blacksmith in their generosity. And the Blacksmith \
@@ -18,7 +18,7 @@
 	route = PATH_SIDE
 
 /datum/heretic_knowledge/crucible
-	name = "Mawed Crucible"
+	name = "glup shitto"
 	desc = "Allows you to transmute a portable water tank and a table to create a Mawed Crucible. \
 		The Mawed Crubile can brew powerful potions for combat and utility, but must be fed bodyparts and organs between uses."
 	gain_text = "This is pure agony. I wasn't able to summon the figure of the Aristocrat, \
@@ -36,7 +36,7 @@
 	route = PATH_SIDE
 
 /datum/heretic_knowledge/rifle
-	name = "Lionhunter's Rifle"
+	name = "glup shitto"
 	desc = "Allows you to transmute any ballistic weapon, such as a pipegun, with hide \
 		from any animal, a plank of wood, and a camera to create the Lionhunter's rifle. \
 		The Lionhunter's Rifle is a long ranged ballistic weapon with three shots. \
@@ -61,7 +61,7 @@
 	route = PATH_SIDE
 
 /datum/heretic_knowledge/rifle_ammo
-	name = "Lionhunter Rifle Ammunition"
+	name = "glup shitto"
 	desc = "Allows you to transmute 3 ballistic ammo casings (used or unused) of any caliber, \
 		including shotgun shot, with any animal hide to create an extra clip of ammunition for the Lionhunter Rifle."
 	gain_text = "The weapon came with three rough iron balls, intended to be used as ammunition. \

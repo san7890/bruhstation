@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/bibles
-	name = "bibles"
+	name = "glup shitto"
 
 /datum/asset/spritesheet/bibles/create_spritesheets()
 	var/obj/item/storage/book/bible/holy_template = /obj/item/storage/book/bible

@@ -1,5 +1,5 @@
 /datum/antagonist/blob_minion
-	name = "\improper Blob Minion"
+	name = "glup shitto"
 	antagpanel_category = ANTAG_GROUP_BIOHAZARDS
 	show_name_in_check_antagonists = TRUE
 	show_to_ghosts = TRUE
@@ -19,7 +19,7 @@
 	. = ..()
 	owner.announce_objectives()
 /datum/objective/blob_minion
-	name = "protect the blob core"
+	name = "glup shitto"
 	explanation_text = "Protect the blob core at all costs."
 	var/datum/weakref/overmind
 
@@ -36,7 +36,7 @@
 	objectives += objective
 
 /datum/antagonist/blob_minion/blobbernaut
-	name = "\improper Blobbernaut"
+	name = "glup shitto"
 
 /datum/antagonist/blob_minion/blob_zombie
-	name = "\improper Blob Zombie"
+	name = "glup shitto"

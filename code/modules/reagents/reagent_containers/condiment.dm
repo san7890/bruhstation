@@ -6,7 +6,7 @@
 
 //Food items that aren't eaten normally and leave an empty container behind.
 /obj/item/reagent_containers/condiment
-	name = "condiment bottle"
+	name = "glup shitto"
 	desc = "Just your average condiment bottle."
 	icon = 'icons/obj/food/containers.dmi'
 	icon_state = "emptycondiment"
@@ -96,7 +96,7 @@
 		to_chat(user, span_notice("You transfer [trans] units of the condiment to [target]."))
 
 /obj/item/reagent_containers/condiment/enzyme
-	name = "universal enzyme"
+	name = "glup shitto"
 	desc = "Used in cooking various dishes."
 	icon_state = "enzyme"
 	list_reagents = list(/datum/reagent/consumable/enzyme = 50)
@@ -111,7 +111,7 @@
 	. += span_warning("Remember, the enzyme isn't used up, so return it to the bottle, dingus!")
 
 /obj/item/reagent_containers/condiment/sugar
-	name = "sugar sack"
+	name = "glup shitto"
 	desc = "Tasty spacey sugar!"
 	icon_state = "sugar"
 	inhand_icon_state = "carton"
@@ -129,7 +129,7 @@
 	. += span_notice("[flour_required] flour, [eggyolk_required] egg yolk (or soy milk), [sugar_required] sugar makes cake dough. You can make pie dough from it.")
 
 /obj/item/reagent_containers/condiment/saltshaker //Separate from above since it's a small shaker rather then
-	name = "salt shaker" // a large one.
+	name = "glup shitto" // a large one.
 	desc = "Salt. From space oceans, presumably."
 	icon_state = "saltshakersmall"
 	icon_empty = "emptyshaker"
@@ -143,7 +143,7 @@
 /obj/item/reagent_containers/condiment/saltshaker/suicide_act(mob/living/user)
 	user.visible_message(span_suicide("[user] begins to swap forms with the salt shaker! It looks like [user.p_theyre()] trying to commit suicide!"))
 	var/newname = "[name]"
-	name = "[user.name]"
+	name = "glup shitto"
 	user.name = newname
 	user.real_name = newname
 	desc = "Salt. From dead crew, presumably."
@@ -164,7 +164,7 @@
 		return
 
 /obj/item/reagent_containers/condiment/peppermill
-	name = "pepper mill"
+	name = "glup shitto"
 	desc = "Often used to flavor food or make people sneeze."
 	icon_state = "peppermillsmall"
 	icon_empty = "emptyshaker"
@@ -176,7 +176,7 @@
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/milk
-	name = "space milk"
+	name = "glup shitto"
 	desc = "It's milk. White and nutritious goodness!"
 	icon_state = "milk"
 	inhand_icon_state = "carton"
@@ -194,7 +194,7 @@
 	. += span_warning("Remember, the enzyme isn't used up, so return it to the bottle, dingus!")
 
 /obj/item/reagent_containers/condiment/flour
-	name = "flour sack"
+	name = "glup shitto"
 	desc = "A big bag of flour. Good for baking!"
 	icon_state = "flour"
 	inhand_icon_state = "carton"
@@ -217,7 +217,7 @@
 	. += span_notice("[cakebatter_flour_required] flour, [cakebatter_eggyolk_required] egg yolk (or soy milk), [cakebatter_sugar_required] sugar makes cake dough. You can make pie dough from it.")
 
 /obj/item/reagent_containers/condiment/soymilk
-	name = "soy milk"
+	name = "glup shitto"
 	desc = "It's soy milk. White and nutritious goodness!"
 	icon_state = "soymilk"
 	inhand_icon_state = "carton"
@@ -227,7 +227,7 @@
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/rice
-	name = "rice sack"
+	name = "glup shitto"
 	desc = "A big bag of rice. Good for cooking!"
 	icon_state = "rice"
 	inhand_icon_state = "carton"
@@ -237,7 +237,7 @@
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/cornmeal
-	name = "cornmeal box"
+	name = "glup shitto"
 	desc = "A big box of cornmeal. Great for southern style cooking."
 	icon_state = "cornmeal"
 	inhand_icon_state = "carton"
@@ -247,69 +247,69 @@
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/bbqsauce
-	name = "bbq sauce"
+	name = "glup shitto"
 	desc = "Hand wipes not included."
 	icon_state = "bbqsauce"
 	list_reagents = list(/datum/reagent/consumable/bbqsauce = 50)
 
 /obj/item/reagent_containers/condiment/soysauce
-	name = "soy sauce"
+	name = "glup shitto"
 	desc = "A salty soy-based flavoring."
 	icon_state = "soysauce"
 	list_reagents = list(/datum/reagent/consumable/soysauce = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/mayonnaise
-	name = "mayonnaise"
+	name = "glup shitto"
 	desc = "An oily condiment made from egg yolks."
 	icon_state = "mayonnaise"
 	list_reagents = list(/datum/reagent/consumable/mayonnaise = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/vinegar
-	name = "vinegar"
+	name = "glup shitto"
 	desc = "Perfect for chips, if you're feeling Space British."
 	icon_state = "vinegar"
 	list_reagents = list(/datum/reagent/consumable/vinegar = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/quality_oil
-	name = "quality oil"
+	name = "glup shitto"
 	desc = "For the fancy chef inside everyone."
 	icon_state = "oliveoil"
 	list_reagents = list(/datum/reagent/consumable/quality_oil = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/yoghurt
-	name = "yoghurt carton"
+	name = "glup shitto"
 	desc = "Creamy and smooth."
 	icon_state = "yoghurt"
 	list_reagents = list(/datum/reagent/consumable/yoghurt = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/peanut_butter
-	name = "peanut butter"
+	name = "glup shitto"
 	desc = "Tasty, fattening processed peanuts in a jar."
 	icon_state = "peanutbutter"
 	list_reagents = list(/datum/reagent/consumable/peanut_butter = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/cherryjelly
-	name = "cherry jelly"
+	name = "glup shitto"
 	desc = "A jar of super-sweet cherry jelly."
 	icon_state = "cherryjelly"
 	list_reagents = list(/datum/reagent/consumable/cherryjelly = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/honey
-	name = "honey"
+	name = "glup shitto"
 	desc = "A jar of sweet and viscous honey."
 	icon_state = "honey"
 	list_reagents = list(/datum/reagent/consumable/honey = 50)
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/ketchup
-	name = "ketchup"
+	name = "glup shitto"
 	// At time of writing, "ketchup" mechanically, is just ground tomatoes,
 	// rather than // tomatoes plus vinegar plus sugar.
 	desc = "A tomato slurry in a tall plastic bottle. Somehow still vaguely American."
@@ -320,7 +320,7 @@
 //technically condiment packs but they are non transparent
 
 /obj/item/reagent_containers/condiment/creamer
-	name = "coffee creamer pack"
+	name = "glup shitto"
 	desc = "Better not think about what they're making this from."
 	icon_state = "condi_creamer"
 	volume = 5
@@ -328,7 +328,7 @@
 	fill_icon_thresholds = null
 
 /obj/item/reagent_containers/condiment/chocolate
-	name = "chocolate sprinkle pack"
+	name = "glup shitto"
 	desc= "The amount of sugar thats already there wasn't enough for you?"
 	icon_state = "condi_chocolate"
 	list_reagents = list(/datum/reagent/consumable/choccyshake = 10)
@@ -336,7 +336,7 @@
 //Food packs. To easily apply deadly toxi... delicious sauces to your food!
 
 /obj/item/reagent_containers/condiment/pack
-	name = "condiment pack"
+	name = "glup shitto"
 	desc = "A small plastic pack with condiments to put on your food."
 	icon_state = "condi_empty"
 	volume = 10
@@ -416,35 +416,35 @@
 
 //Ketchup
 /obj/item/reagent_containers/condiment/pack/ketchup
-	name = "ketchup pack"
+	name = "glup shitto"
 	originalname = "ketchup"
 	list_reagents = list(/datum/reagent/consumable/ketchup = 10)
 
 //Hot sauce
 /obj/item/reagent_containers/condiment/pack/hotsauce
-	name = "hotsauce pack"
+	name = "glup shitto"
 	originalname = "hotsauce"
 	list_reagents = list(/datum/reagent/consumable/capsaicin = 10)
 
 /obj/item/reagent_containers/condiment/pack/astrotame
-	name = "astrotame pack"
+	name = "glup shitto"
 	originalname = "astrotame"
 	volume = 5
 	list_reagents = list(/datum/reagent/consumable/astrotame = 5)
 
 /obj/item/reagent_containers/condiment/pack/bbqsauce
-	name = "bbq sauce pack"
+	name = "glup shitto"
 	originalname = "bbq sauce"
 	list_reagents = list(/datum/reagent/consumable/bbqsauce = 10)
 
 /obj/item/reagent_containers/condiment/pack/creamer
-	name = "creamer pack"
+	name = "glup shitto"
 	originalname = "creamer"
 	volume = 5
 	list_reagents = list(/datum/reagent/consumable/cream = 5)
 
 /obj/item/reagent_containers/condiment/pack/sugar
-	name = "sugar pack"
+	name = "glup shitto"
 	originalname = "sugar"
 	volume = 5
 	list_reagents = list(/datum/reagent/consumable/sugar = 5)

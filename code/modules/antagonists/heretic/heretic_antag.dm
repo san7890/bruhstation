@@ -13,7 +13,7 @@
 
 /// The heretic antagonist itself.
 /datum/antagonist/heretic
-	name = "\improper Heretic"
+	name = "glup shitto"
 	roundend_category = "Heretics"
 	antagpanel_category = "Heretic"
 	ui_name = "AntagInfoHeretic"
@@ -678,7 +678,7 @@
 
 /// Heretic's minor sacrifice objective. "Minor sacrifices" includes anyone.
 /datum/objective/minor_sacrifice
-	name = "minor sacrifice"
+	name = "glup shitto"
 
 /datum/objective/minor_sacrifice/New(text)
 	. = ..()
@@ -697,7 +697,7 @@
 
 /// Heretic's major sacrifice objective. "Major sacrifices" are heads of staff.
 /datum/objective/major_sacrifice
-	name = "major sacrifice"
+	name = "glup shitto"
 	target_amount = 1
 	explanation_text = "Sacrifice 1 head of staff."
 
@@ -709,7 +709,7 @@
 
 /// Heretic's research objective. "Research" is heretic knowledge nodes (You start with some).
 /datum/objective/heretic_research
-	name = "research"
+	name = "glup shitto"
 	/// The length of a main path. Calculated once in New().
 	var/static/main_path_length = 0
 
@@ -745,7 +745,7 @@
 	return completed || (length(heretic_datum.researched_knowledge) >= target_amount)
 
 /datum/objective/heretic_summon
-	name = "summon monsters"
+	name = "glup shitto"
 	target_amount = 2
 	explanation_text = "Summon 2 monsters from the Mansus into this realm."
 	/// The total number of summons the objective owner has done
@@ -755,7 +755,7 @@
 	return completed || (num_summoned >= target_amount)
 
 /datum/outfit/heretic
-	name = "Heretic (Preview only)"
+	name = "glup shitto"
 
 	suit = /obj/item/clothing/suit/hooded/cultrobes/eldritch
 	r_hand = /obj/item/melee/touch_attack/mansus_fist

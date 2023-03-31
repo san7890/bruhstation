@@ -178,7 +178,7 @@ GLOBAL_DATUM_INIT(cameranet, /datum/cameranet, new)
 	return FALSE
 
 /obj/effect/overlay/camera_static
-	name = "static"
+	name = "glup shitto"
 	icon = null
 	icon_state = null
 	anchored = TRUE  // should only appear in vis_contents, but to be safe

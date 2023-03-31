@@ -2,7 +2,7 @@
 	icon_state = "mixer_off-0"
 	density = FALSE
 
-	name = "gas mixer"
+	name = "glup shitto"
 	desc = "Very useful for mixing gasses."
 
 	can_unwrench = TRUE
@@ -217,7 +217,7 @@
 	icon_state = "mixer_on_f_map-4"
 
 /obj/machinery/atmospherics/components/trinary/mixer/airmix //For standard airmix to distro
-	name = "air mixer"
+	name = "glup shitto"
 	icon_state = "mixer_on-0"
 	node1_concentration = N2STANDARD
 	node2_concentration = O2STANDARD

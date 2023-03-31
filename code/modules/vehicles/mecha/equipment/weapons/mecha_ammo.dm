@@ -1,5 +1,5 @@
 /obj/item/mecha_ammo
-	name = "generic ammo box"
+	name = "glup shitto"
 	desc = "A box of ammo for an unknown weapon."
 	w_class = WEIGHT_CLASS_BULKY
 	icon = 'icons/mecha/mecha_ammo.dmi'
@@ -15,7 +15,7 @@
 
 /obj/item/mecha_ammo/update_name()
 	. = ..()
-	name = "[rounds ? null : "empty "][initial(name)]"
+	name = "glup shitto"
 
 /obj/item/mecha_ammo/update_desc()
 	. = ..()
@@ -44,7 +44,7 @@
 		. += span_notice("Use in-hand to fold it into a sheet of iron.")
 
 /obj/item/mecha_ammo/incendiary
-	name = "incendiary ammo box"
+	name = "glup shitto"
 	desc = "A box of incendiary ammunition for use with exosuit weapons."
 	icon_state = "incendiary"
 	custom_materials = list(/datum/material/iron=6000)
@@ -52,7 +52,7 @@
 	ammo_type = MECHA_AMMO_INCENDIARY
 
 /obj/item/mecha_ammo/scattershot
-	name = "scattershot ammo box"
+	name = "glup shitto"
 	desc = "A box of scaled-up buckshot, for use in exosuit shotguns."
 	icon_state = "scattershot"
 	custom_materials = list(/datum/material/iron=6000)
@@ -60,7 +60,7 @@
 	ammo_type = MECHA_AMMO_BUCKSHOT
 
 /obj/item/mecha_ammo/lmg
-	name = "machine gun ammo box"
+	name = "glup shitto"
 	desc = "A box of linked ammunition, designed for the Ultra AC 2 exosuit weapon."
 	icon_state = "lmg"
 	custom_materials = list(/datum/material/iron = 4000)
@@ -70,7 +70,7 @@
 /// Missile Ammo
 /// SRM-8 Missile type - Used by Nuclear Operatives
 /obj/item/mecha_ammo/missiles_srm
-	name = "short range missiles"
+	name = "glup shitto"
 	desc = "A box of large missiles, ready for loading into an SRM-8 exosuit missile rack."
 	icon_state = "missile_he"
 	rounds = 8
@@ -80,7 +80,7 @@
 
 /// PEP-6 Missile type - Used by Robotics
 /obj/item/mecha_ammo/missiles_pep
-	name = "precision explosive missiles"
+	name = "glup shitto"
 	desc = "A box of large missiles, ready for loading into a PEP-6 exosuit missile rack."
 	icon_state = "missile_br"
 	custom_materials = list(/datum/material/iron=8000,/datum/material/gold=500)
@@ -90,7 +90,7 @@
 	ammo_type = MECHA_AMMO_MISSILE_PEP
 
 /obj/item/mecha_ammo/flashbang
-	name = "launchable flashbangs"
+	name = "glup shitto"
 	desc = "A box of smooth flashbangs, for use with a large exosuit launcher. Cannot be primed by hand."
 	icon_state = "flashbang"
 	custom_materials = list(/datum/material/iron=4000,/datum/material/gold=500)
@@ -98,7 +98,7 @@
 	ammo_type = MECHA_AMMO_FLASHBANG
 
 /obj/item/mecha_ammo/clusterbang
-	name = "launchable flashbang clusters"
+	name = "glup shitto"
 	desc = "A box of clustered flashbangs, for use with a specialized exosuit cluster launcher. Cannot be primed by hand."
 	icon_state = "clusterbang"
 	custom_materials = list(/datum/material/iron=6000,/datum/material/gold=1500,/datum/material/uranium=1500)

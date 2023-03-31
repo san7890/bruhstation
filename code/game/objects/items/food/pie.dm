@@ -18,7 +18,7 @@
 		AddElement(/datum/element/processable, TOOL_KNIFE, slice_type, yield, table_required = TRUE, screentip_verb = "Slice")
 
 /obj/item/food/pieslice
-	name = "pie slice"
+	name = "glup shitto"
 	icon = 'icons/obj/food/piecake.dmi'
 	w_class = WEIGHT_CLASS_TINY
 	food_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -26,7 +26,7 @@
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/pie/plain
-	name = "plain pie"
+	name = "glup shitto"
 	desc = "A simple pie, still delicious."
 	icon_state = "pie"
 	food_reagents = list(
@@ -38,7 +38,7 @@
 	burns_in_oven = TRUE
 
 /obj/item/food/pie/cream
-	name = "banana cream pie"
+	name = "glup shitto"
 	desc = "Just like back home, on clown planet! HONK!"
 	icon_state = "pie"
 	food_reagents = list(
@@ -81,7 +81,7 @@
 	stunning = FALSE
 
 /obj/item/food/pie/berryclafoutis
-	name = "berry clafoutis"
+	name = "glup shitto"
 	desc = "No black birds, this is a good sign."
 	icon_state = "berryclafoutis"
 	food_reagents = list(
@@ -94,7 +94,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/pie/bearypie
-	name = "beary pie"
+	name = "glup shitto"
 	desc = "No brown bears, this is a good sign."
 	icon_state = "bearypie"
 	food_reagents = list(
@@ -106,7 +106,7 @@
 	foodtypes = GRAIN | SUGAR | MEAT | FRUIT
 
 /obj/item/food/pie/meatpie
-	name = "meat-pie"
+	name = "glup shitto"
 	icon_state = "meatpie"
 	desc = "An old barber recipe, very delicious!"
 	food_reagents = list(
@@ -119,7 +119,7 @@
 	venue_value = FOOD_PRICE_NORMAL
 
 /obj/item/food/pie/tofupie
-	name = "tofu-pie"
+	name = "glup shitto"
 	icon_state = "meatpie"
 	desc = "A delicious tofu pie."
 	food_reagents = list(
@@ -131,7 +131,7 @@
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/pie/amanita_pie
-	name = "amanita pie"
+	name = "glup shitto"
 	desc = "Sweet and tasty poison pie."
 	icon_state = "amanita_pie"
 	bite_consumption = 4
@@ -145,7 +145,7 @@
 	foodtypes = GRAIN | VEGETABLES | TOXIC | GROSS
 
 /obj/item/food/pie/plump_pie
-	name = "plump pie"
+	name = "glup shitto"
 	desc = "I bet you love stuff made out of plump helmets!"
 	icon_state = "plump_pie"
 	food_reagents = list(
@@ -168,7 +168,7 @@
 	. = ..()
 
 /obj/item/food/pie/xemeatpie
-	name = "xeno-pie"
+	name = "glup shitto"
 	icon_state = "xenomeatpie"
 	desc = "A delicious meatpie. Probably heretical."
 	food_reagents = list(
@@ -180,7 +180,7 @@
 	foodtypes = GRAIN | MEAT
 
 /obj/item/food/pie/applepie
-	name = "apple pie"
+	name = "glup shitto"
 	desc = "A pie containing sweet sweet love... or apple."
 	icon_state = "applepie"
 	food_reagents = list(
@@ -191,7 +191,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/pie/cherrypie
-	name = "cherry pie"
+	name = "glup shitto"
 	desc = "Taste so good, make a grown man cry."
 	icon_state = "cherrypie"
 	food_reagents = list(
@@ -202,7 +202,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/pie/pumpkinpie
-	name = "pumpkin pie"
+	name = "glup shitto"
 	desc = "A delicious treat for the autumn months."
 	icon_state = "pumpkinpie"
 	food_reagents = list(
@@ -214,14 +214,14 @@
 	slice_type = /obj/item/food/pieslice/pumpkin
 
 /obj/item/food/pieslice/pumpkin
-	name = "pumpkin pie slice"
+	name = "glup shitto"
 	desc = "A slice of pumpkin pie, with whipped cream on top. Perfection."
 	icon_state = "pumpkinpieslice"
 	tastes = list("pie" = 1, "pumpkin" = 1)
 	foodtypes = GRAIN | VEGETABLES | SUGAR
 
 /obj/item/food/pie/appletart
-	name = "golden apple streusel tart"
+	name = "glup shitto"
 	desc = "A tasty dessert that won't make it through a metal detector."
 	icon_state = "gappletart"
 	food_reagents = list(
@@ -233,7 +233,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/pie/grapetart
-	name = "grape tart"
+	name = "glup shitto"
 	desc = "A tasty dessert that reminds you of the wine you didn't make."
 	icon_state = "grapetart"
 	food_reagents = list(
@@ -244,7 +244,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/pie/mimetart
-	name = "mime tart"
+	name = "glup shitto"
 	desc = "..."
 	icon_state = "mimetart"
 	food_reagents = list(
@@ -256,7 +256,7 @@
 	foodtypes = GRAIN
 
 /obj/item/food/pie/berrytart
-	name = "berry tart"
+	name = "glup shitto"
 	desc = "A tasty dessert of many different small barries on a thin pie crust."
 	icon_state = "berrytart"
 	food_reagents = list(
@@ -267,7 +267,7 @@
 	foodtypes = GRAIN | FRUIT
 
 /obj/item/food/pie/cocolavatart
-	name = "chocolate lava tart"
+	name = "glup shitto"
 	desc = "A tasty dessert made of chocolate, with a liquid core." //But it doesn't even contain chocolate...
 	icon_state = "cocolavatart"
 	food_reagents = list(
@@ -278,7 +278,7 @@
 	foodtypes = GRAIN | SUGAR
 
 /obj/item/food/pie/blumpkinpie
-	name = "blumpkin pie"
+	name = "glup shitto"
 	desc = "An odd blue pie made with toxic blumpkin."
 	icon_state = "blumpkinpie"
 	food_reagents = list(
@@ -290,14 +290,14 @@
 	slice_type = /obj/item/food/pieslice/blumpkin
 
 /obj/item/food/pieslice/blumpkin
-	name = "blumpkin pie slice"
+	name = "glup shitto"
 	desc = "A slice of blumpkin pie, with whipped cream on top. Is this edible?"
 	icon_state = "blumpkinpieslice"
 	tastes = list("pie" = 1, "a mouthful of pool water" = 1)
 	foodtypes = GRAIN | VEGETABLES
 
 /obj/item/food/pie/dulcedebatata
-	name = "dulce de batata"
+	name = "glup shitto"
 	desc = "A delicious jelly made with sweet potatoes."
 	icon_state = "dulcedebatata"
 	food_reagents = list(
@@ -310,14 +310,14 @@
 	slice_type = /obj/item/food/pieslice/dulcedebatata
 
 /obj/item/food/pieslice/dulcedebatata
-	name = "dulce de batata slice"
+	name = "glup shitto"
 	desc = "A slice of sweet dulce de batata jelly."
 	icon_state = "dulcedebatataslice"
 	tastes = list("jelly" = 1, "sweet potato" = 1)
 	foodtypes = VEGETABLES | SUGAR
 
 /obj/item/food/pie/frostypie
-	name = "frosty pie"
+	name = "glup shitto"
 	desc = "Tastes like blue and cold."
 	icon_state = "frostypie"
 	food_reagents = list(
@@ -328,7 +328,7 @@
 	foodtypes = GRAIN | FRUIT | SUGAR
 
 /obj/item/food/pie/baklava
-	name = "baklava"
+	name = "glup shitto"
 	desc = "A delightful healthy snack made of nut layers with thin bread."
 	icon_state = "baklava"
 	food_reagents = list(
@@ -341,14 +341,14 @@
 	yield = 6
 
 /obj/item/food/pieslice/baklava
-	name = "baklava dish"
+	name = "glup shitto"
 	desc = "A portion of a delightful healthy snack made of nut layers with thin bread"
 	icon_state = "baklavaslice"
 	tastes = list("nuts" = 1, "pie" = 1)
 	foodtypes = NUTS | SUGAR
 
 /obj/item/food/pie/frenchsilkpie
-	name = "french silk pie"
+	name = "glup shitto"
 	desc = "A decadent pie made of a creamy chocolate mousse filling topped with a layer of whipped cream and chocolate shavings. Sliceable."
 	icon_state = "frenchsilkpie"
 	food_reagents = list(
@@ -360,14 +360,14 @@
 	slice_type = /obj/item/food/pieslice/frenchsilk
 
 /obj/item/food/pieslice/frenchsilk
-	name = "french silk pie slice"
+	name = "glup shitto"
 	desc = "A slice of french silk pie, filled with a chocolate mousse and topped with a layer of whipped cream and chocolate shavings. Delicious enough to make you cry."
 	icon_state = "frenchsilkpieslice"
 	tastes = list("pie" = 1, "smooth chocolate" = 1, "whipped cream" = 1)
 	foodtypes = GRAIN | DAIRY | SUGAR
 
 /obj/item/food/pie/shepherds_pie
-	name = "shepherds pie"
+	name = "glup shitto"
 	desc = "A dish of minced meat and mixed vegetables baked under a layer of creamy mashed potatoes. Sliceable."
 	icon_state = "shepherds_pie"
 	food_reagents = list(
@@ -381,7 +381,7 @@
 	yield = 4
 
 /obj/item/food/pieslice/shepherds_pie
-	name = "shepherds pie slice"
+	name = "glup shitto"
 	desc = "A messy slice of shepherds pie, made of minced meat and mixed vegetables baked under a layer of creamy mashed potatoes. Dangerously tasty."
 	icon_state = "shepherds_pie_slice"
 	food_reagents = list(

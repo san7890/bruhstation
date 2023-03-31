@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(security_level)
-	name = "Security Level"
+	name = "glup shitto"
 	can_fire = FALSE // We will control when we fire in this subsystem
 	init_order = INIT_ORDER_SECURITY_LEVEL
 	/// Currently set security level

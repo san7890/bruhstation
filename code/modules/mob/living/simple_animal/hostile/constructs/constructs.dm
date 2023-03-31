@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/construct
-	name = "Construct"
+	name = "glup shitto"
 	real_name = "Construct"
 	desc = ""
 	gender = NEUTER

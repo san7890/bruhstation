@@ -25,7 +25,7 @@ To add a crossbreed:
 \*==========================================*/
 
 /obj/item/slimecross //The base type for crossbred extracts. Mostly here for posterity, and to set base case things.
-	name = "crossbred slime extract"
+	name = "glup shitto"
 	desc = "An extremely potent slime extract, formed through crossbreeding."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "base"
@@ -91,7 +91,7 @@ To add a crossbreed:
 	add_atom_colour(itemcolor, FIXED_COLOUR_PRIORITY)
 
 /obj/item/slimecrossbeaker //To be used as a result for extract reactions that make chemicals.
-	name = "result extract"
+	name = "glup shitto"
 	desc = "You shouldn't see this."
 	icon = 'icons/obj/xenobiology/slimecrossing.dmi'
 	icon_state = "base"
@@ -117,19 +117,19 @@ To add a crossbreed:
 		qdel(src)
 
 /obj/item/slimecrossbeaker/bloodpack //Pack of 50u blood. Deletes on empty.
-	name = "blood extract"
+	name = "glup shitto"
 	desc = "A sphere of liquid blood, somehow managing to stay together."
 	color = "#FF0000"
 	list_reagents = list(/datum/reagent/blood = 50)
 
 /obj/item/slimecrossbeaker/pax //5u synthpax.
-	name = "peace-inducing extract"
+	name = "glup shitto"
 	desc = "A small blob of synthetic pax."
 	color = "#FFCCCC"
 	list_reagents = list(/datum/reagent/pax/peaceborg = 5)
 
 /obj/item/slimecrossbeaker/omnizine //15u omnizine.
-	name = "healing extract"
+	name = "glup shitto"
 	desc = "A gelatinous extract of pure omnizine."
 	color = "#FF00FF"
 	list_reagents = list(/datum/reagent/medicine/omnizine = 15)
@@ -163,7 +163,7 @@ To add a crossbreed:
 
 /obj/item/slimecrossbeaker/autoinjector/regenpack
 	ignore_flags = TRUE //It is, after all, intended to heal.
-	name = "mending solution"
+	name = "glup shitto"
 	desc = "A strange glob of sweet-smelling semifluid, which seems to stick to skin rather easily."
 	color = "#FF00FF"
 	list_reagents = list(/datum/reagent/medicine/regen_jelly = 20)
@@ -171,13 +171,13 @@ To add a crossbreed:
 /obj/item/slimecrossbeaker/autoinjector/slimejelly //Primarily for slimepeople, but you do you.
 	self_use_only = TRUE
 	ignore_flags = TRUE
-	name = "slime jelly bubble"
+	name = "glup shitto"
 	desc = "A sphere of slime jelly. It seems to stick to your skin, but avoids other surfaces."
 	color = "#00FF00"
 	list_reagents = list(/datum/reagent/toxin/slimejelly = 50)
 
 /obj/item/slimecrossbeaker/autoinjector/peaceandlove
-	name = "peaceful distillation"
+	name = "glup shitto"
 	desc = "A light pink gooey sphere. Simply touching it makes you a little dizzy."
 	color = "#DDAAAA"
 	list_reagents = list(/datum/reagent/pax/peaceborg = 10, /datum/reagent/drug/space_drugs = 15) //Peace, dudes
@@ -187,7 +187,7 @@ To add a crossbreed:
 	reagents.flags = NONE // It won't be *that* easy to get your hands on pax.
 
 /obj/item/slimecrossbeaker/autoinjector/slimestimulant
-	name = "invigorating gel"
+	name = "glup shitto"
 	desc = "A bubbling purple mixture, designed to heal and boost movement."
 	color = "#FF00FF"
 	list_reagents = list(/datum/reagent/medicine/regen_jelly = 30, /datum/reagent/drug/methamphetamine = 9)

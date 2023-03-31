@@ -4,7 +4,7 @@
  * Immobile (but not dense) shell that can receive and dispense items.
  */
 /obj/structure/dispenser_bot
-	name = "dispenser"
+	name = "glup shitto"
 	icon = 'icons/obj/wiremod.dmi'
 	icon_state = "setup_drone_arms"
 

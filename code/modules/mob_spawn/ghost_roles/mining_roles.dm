@@ -3,7 +3,7 @@
 
 //Malfunctioning cryostasis sleepers: Spawns in makeshift shelters in lavaland. Ghosts become hermits with knowledge of how they got to where they are now.
 /obj/effect/mob_spawn/ghost_role/human/hermit
-	name = "malfunctioning cryostasis sleeper"
+	name = "glup shitto"
 	desc = "A humming sleeper with a silhouetted occupant inside. Its stasis function is broken and it's likely being used as a bed."
 	prompt_name = "a stranded hermit"
 	icon = 'icons/obj/lavaland/spawners.dmi'
@@ -47,7 +47,7 @@
 	return ..()
 
 /datum/outfit/hermit
-	name = "Lavaland Hermit"
+	name = "glup shitto"
 	uniform = /obj/item/clothing/under/color/grey/ancient
 	back = /obj/item/storage/backpack
 	mask = /obj/item/clothing/mask/breath
@@ -57,7 +57,7 @@
 
 //Icebox version of hermit
 /obj/effect/mob_spawn/ghost_role/human/hermit/icemoon
-	name = "cryostasis bed"
+	name = "glup shitto"
 	desc = "A humming sleeper with a silhouetted occupant inside. Its stasis function is broken and it's likely being used as a bed."
 	prompt_name = "a grumpy old man"
 	icon = 'icons/obj/lavaland/spawners.dmi'
@@ -72,7 +72,7 @@
 
 /obj/effect/mob_spawn/ghost_role/human/beach
 	prompt_name = "a beach bum"
-	name = "beach bum sleeper"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	you_are_text = "You're, like, totally a dudebro, bruh."
@@ -83,7 +83,7 @@
 /obj/effect/mob_spawn/ghost_role/human/beach/lifeguard
 	you_are_text = "You're a spunky lifeguard!"
 	flavour_text = "It's up to you to make sure nobody drowns or gets eaten by sharks and stuff."
-	name = "lifeguard sleeper"
+	name = "glup shitto"
 	outfit = /datum/outfit/beachbum/lifeguard
 
 /obj/effect/mob_spawn/ghost_role/human/beach/lifeguard/special(mob/living/carbon/human/lifeguard, mob/mob_possessor)
@@ -92,7 +92,7 @@
 	lifeguard.update_body()
 
 /datum/outfit/beachbum
-	name = "Beach Bum"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced
 	uniform = /obj/item/clothing/under/pants/jeans
 	glasses = /obj/item/clothing/glasses/sunglasses
@@ -106,12 +106,12 @@
 	bum.dna.add_mutation(/datum/mutation/human/stoner)
 
 /datum/outfit/beachbum/lifeguard
-	name = "Beach Lifeguard"
+	name = "glup shitto"
 	id_trim = /datum/id_trim/lifeguard
 	uniform = /obj/item/clothing/under/shorts/red
 
 /obj/effect/mob_spawn/ghost_role/human/bartender
-	name = "bartender sleeper"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
 	prompt_name = "a space bartender"
@@ -121,7 +121,7 @@
 	outfit = /datum/outfit/spacebartender
 
 /datum/outfit/spacebartender
-	name = "Space Bartender"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced
 	id_trim = /datum/id_trim/space_bartender
 	uniform = /obj/item/clothing/under/rank/civilian/bartender
@@ -139,7 +139,7 @@
 
 //Preserved terrarium/seed vault: Spawns in seed vault structures in lavaland. Ghosts become plantpeople and are advised to begin growing plants in the room near them.
 /obj/effect/mob_spawn/ghost_role/human/seed_vault
-	name = "preserved terrarium"
+	name = "glup shitto"
 	desc = "An ancient machine that seems to be used for storing plant matter. The glass is obstructed by a mat of vines."
 	prompt_name = "lifebringer"
 	icon = 'icons/obj/lavaland/spawners.dmi'
@@ -166,7 +166,7 @@
 //Ash walker eggs: Spawns in ash walker dens in lavaland. Ghosts become unbreathing lizards that worship the Necropolis and are advised to retrieve corpses to create more ash walkers.
 
 /obj/structure/ash_walker_eggshell
-	name = "ash walker egg"
+	name = "glup shitto"
 	desc = "A man-sized yellow egg, spawned from some unfathomable creature. A humanoid silhouette lurks within. The egg shell looks resistant to temperature but otherwise rather brittle."
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
 	icon_state = "large_egg"
@@ -204,7 +204,7 @@
 	return ..()
 
 /obj/effect/mob_spawn/ghost_role/human/ash_walker
-	name = "ash walker egg"
+	name = "glup shitto"
 	desc = "A man-sized yellow egg, spawned from some unfathomable creature. A humanoid silhouette lurks within."
 	prompt_name = "necropolis ash walker"
 	icon = 'icons/mob/simple/lavaland/lavaland_monsters.dmi'
@@ -255,18 +255,18 @@
 		notify_ghosts("An ash walker egg is ready to hatch in \the [spawner_area.name].", source = src, action=NOTIFY_ATTACK, flashwindow = FALSE, ignore_key = POLL_IGNORE_ASHWALKER)
 
 /datum/outfit/ashwalker
-	name = "Ash Walker"
+	name = "glup shitto"
 	head = /obj/item/clothing/head/helmet/gladiator
 	uniform = /obj/item/clothing/under/costume/gladiator/ash_walker
 
 /datum/outfit/ashwalker/spear
-	name = "Ash Walker - Spear"
+	name = "glup shitto"
 	back = /obj/item/spear/bonespear
 
 ///Syndicate Listening Post
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate
-	name = "Syndicate Bioweapon Scientist"
+	name = "glup shitto"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
 	prompt_name = "a syndicate science technician"
@@ -281,7 +281,7 @@
 	new_spawn.grant_language(/datum/language/codespeak, TRUE, TRUE, LANGUAGE_MIND)
 
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms
-	name = "Syndicate Comms Agent"
+	name = "glup shitto"
 	prompt_name = "a syndicate comms agent"
 	you_are_text = "You are a syndicate comms agent, employed in a top secret research facility developing biological weapons."
 	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
@@ -289,7 +289,7 @@
 	outfit = /datum/outfit/lavaland_syndicate/comms
 
 /datum/outfit/lavaland_syndicate
-	name = "Lavaland Syndicate Agent"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/chameleon
 	id_trim = /datum/id_trim/chameleon/operative
 	uniform = /obj/item/clothing/under/syndicate
@@ -307,7 +307,7 @@
 	syndicate.faction |= ROLE_SYNDICATE
 
 /datum/outfit/lavaland_syndicate/comms
-	name = "Lavaland Syndicate Comms Agent"
+	name = "glup shitto"
 	suit = /obj/item/clothing/suit/armor/vest
 	mask = /obj/item/clothing/mask/chameleon/gps
 	r_hand = /obj/item/melee/energy/sword/saber

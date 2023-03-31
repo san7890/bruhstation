@@ -1,5 +1,5 @@
 /obj/item/assembly/control
-	name = "blast door controller"
+	name = "glup shitto"
 	desc = "A small electronic device able to control a blast door remotely."
 	icon_state = "control"
 	attachable = TRUE
@@ -35,7 +35,7 @@
 	addtimer(VARSET_CALLBACK(src, cooldown, FALSE), 10)
 
 /obj/item/assembly/control/curtain
-	name = "curtain controller"
+	name = "glup shitto"
 	desc = "A small electronic device able to control a mechanical curtain remotely."
 
 /obj/item/assembly/control/curtain/examine(mob/user)
@@ -57,7 +57,7 @@
 
 
 /obj/item/assembly/control/airlock
-	name = "airlock controller"
+	name = "glup shitto"
 	desc = "A small electronic device able to control an airlock remotely."
 	id = "badmin" // Set it to null for MEGAFUN.
 	var/specialfunctions = OPEN
@@ -102,7 +102,7 @@
 
 
 /obj/item/assembly/control/massdriver
-	name = "mass driver controller"
+	name = "glup shitto"
 	desc = "A small electronic device able to control a mass driver."
 
 /obj/item/assembly/control/massdriver/activate()
@@ -129,7 +129,7 @@
 
 
 /obj/item/assembly/control/igniter
-	name = "ignition controller"
+	name = "glup shitto"
 	desc = "A remote controller for a mounted igniter."
 
 /obj/item/assembly/control/igniter/activate()
@@ -149,7 +149,7 @@
 	addtimer(VARSET_CALLBACK(src, cooldown, FALSE), 30)
 
 /obj/item/assembly/control/flasher
-	name = "flasher controller"
+	name = "glup shitto"
 	desc = "A remote controller for a mounted flasher."
 
 /obj/item/assembly/control/flasher/activate()
@@ -164,7 +164,7 @@
 
 
 /obj/item/assembly/control/crematorium
-	name = "crematorium controller"
+	name = "glup shitto"
 	desc = "An evil-looking remote controller for a crematorium."
 
 /obj/item/assembly/control/crematorium/activate()
@@ -178,7 +178,7 @@
 	addtimer(VARSET_CALLBACK(src, cooldown, FALSE), 50)
 
 /obj/item/assembly/control/tram
-	name = "tram call button"
+	name = "glup shitto"
 	desc = "A small device used to bring trams to you."
 	///for finding the landmark initially - should be the exact same as the landmark's destination id.
 	var/initial_id

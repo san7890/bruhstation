@@ -4,7 +4,7 @@
 #define AQUARIUM_MAX_OFFSET 1
 
 /obj/structure/aquarium
-	name = "aquarium"
+	name = "glup shitto"
 	density = TRUE
 	anchored = TRUE
 

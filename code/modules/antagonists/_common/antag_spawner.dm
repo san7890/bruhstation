@@ -14,7 +14,7 @@
 ///////////WIZARD
 
 /obj/item/antag_spawner/contract
-	name = "contract"
+	name = "glup shitto"
 	desc = "A magic contract previously signed by an apprentice. In exchange for instruction in the magical arts, they are bound to answer your call for aid."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state ="scroll2"
@@ -95,7 +95,7 @@
  * Device to request reinforcments from ghost pop
  */
 /obj/item/antag_spawner/nuke_ops
-	name = "syndicate operative beacon"
+	name = "glup shitto"
 	desc = "A single-use beacon designed to quickly launch reinforcement operatives into the field."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "locator"
@@ -167,7 +167,7 @@
 
 //////CLOWN OP
 /obj/item/antag_spawner/nuke_ops/clown
-	name = "clown operative beacon"
+	name = "glup shitto"
 	desc = "A single-use beacon designed to quickly launch reinforcement clown operatives into the field."
 	special_role_name = ROLE_CLOWN_OPERATIVE
 	outfit = /datum/outfit/syndicate/clownop/no_crystals
@@ -177,21 +177,21 @@
 
 //////SYNDICATE BORG
 /obj/item/antag_spawner/nuke_ops/borg_tele
-	name = "syndicate cyborg beacon"
+	name = "glup shitto"
 	desc = "A single-use beacon designed to quickly launch reinforcement cyborgs into the field."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "locator"
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/assault
-	name = "syndicate assault cyborg beacon"
+	name = "glup shitto"
 	borg_to_spawn = "Assault"
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/medical
-	name = "syndicate medical beacon"
+	name = "glup shitto"
 	borg_to_spawn = "Medical"
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/saboteur
-	name = "syndicate saboteur beacon"
+	name = "glup shitto"
 	borg_to_spawn = "Saboteur"
 
 /obj/item/antag_spawner/nuke_ops/borg_tele/spawn_antag(client/C, turf/T, kind, datum/mind/user)
@@ -234,7 +234,7 @@
 ///////////SLAUGHTER DEMON
 
 /obj/item/antag_spawner/slaughter_demon //Warning edgiest item in the game
-	name = "vial of blood"
+	name = "glup shitto"
 	desc = "A magically infused bottle of blood, distilled from countless murder victims. Used in unholy rituals to attract horrifying creatures."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "vial"
@@ -279,7 +279,7 @@
 		Use your Blood Crawl ability near a pool of blood to manifest and wreak havoc."))
 
 /obj/item/antag_spawner/slaughter_demon/laughter
-	name = "vial of tickles"
+	name = "glup shitto"
 	desc = "A magically infused bottle of clown love, distilled from countless hugging attacks. Used in funny rituals to attract adorable creatures."
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "vial"

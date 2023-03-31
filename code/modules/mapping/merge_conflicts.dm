@@ -3,7 +3,7 @@
 // DO NOT USE THIS IN NORMAL MAPPING!!! Linters WILL fail.
 
 /obj/merge_conflict_marker
-	name = "Merge Conflict Marker - DO NOT USE"
+	name = "glup shitto"
 	icon = 'icons/effects/mapping_helpers.dmi'
 	icon_state = "merge_conflict_marker"
 	desc = "If you are seeing this in-game: someone REALLY, REALLY, REALLY fucked up. They physically mapped in a fucking Merge Conflict Marker. What the shit."

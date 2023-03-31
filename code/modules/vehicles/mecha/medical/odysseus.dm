@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/odysseus
 	desc = "These exosuits are developed and produced by Vey-Med. (&copy; All rights reserved)."
-	name = "\improper Odysseus"
+	name = "glup shitto"
 	icon_state = "odysseus"
 	base_icon_state = "odysseus"
 	allow_diagonal_movement = TRUE

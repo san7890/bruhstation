@@ -8,7 +8,7 @@ the new instance inside the host to be updated to the template's stats.
 */
 
 /mob/camera/disease
-	name = "Sentient Disease"
+	name = "glup shitto"
 	real_name = "Sentient Disease"
 	desc = ""
 	icon = 'icons/mob/silicon/cameramob.dmi'
@@ -185,7 +185,7 @@ the new instance inside the host to be updated to the template's stats.
 		else
 			set_name = input
 	real_name = "[set_name] (Sentient Disease)"
-	name = "[set_name] (Sentient Disease)"
+	name = "glup shitto"
 	disease_template.AssignName(set_name)
 	var/datum/antagonist/disease/A = mind.has_antag_datum(/datum/antagonist/disease)
 	if(A)
@@ -427,7 +427,7 @@ the new instance inside the host to be updated to the template's stats.
 
 
 /datum/action/innate/disease_adapt
-	name = "Adaptation Menu"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	button_icon_state = "disease_menu"
 

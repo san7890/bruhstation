@@ -1,6 +1,6 @@
 // Cocoa Pod
 /obj/item/seeds/cocoapod
-	name = "pack of cocoa pod seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into cacao trees. They look fattening." //SIC: cocoa is the seeds. The trees are spelled cacao.
 	icon_state = "seed-cocoapod"
 	species = "cocoapod"
@@ -21,7 +21,7 @@
 
 /obj/item/food/grown/cocoapod
 	seed = /obj/item/seeds/cocoapod
-	name = "cocoa pod"
+	name = "glup shitto"
 	desc = "Fattening... Mmmmm... chucklate."
 	icon_state = "cocoapod"
 	bite_consumption_mod = 2
@@ -31,7 +31,7 @@
 
 // Vanilla Pod
 /obj/item/seeds/cocoapod/vanillapod
-	name = "pack of vanilla pod seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into vanilla trees. They look fattening."
 	icon_state = "seed-vanillapod"
 	species = "vanillapod"
@@ -43,7 +43,7 @@
 
 /obj/item/food/grown/vanillapod
 	seed = /obj/item/seeds/cocoapod/vanillapod
-	name = "vanilla pod"
+	name = "glup shitto"
 	desc = "Fattening... Mmmmm... vanilla."
 	icon_state = "vanillapod"
 	bite_consumption_mod = 2
@@ -52,7 +52,7 @@
 	distill_reagent = /datum/reagent/consumable/vanilla //Takes longer, but you can get even more vanilla from it.
 
 /obj/item/seeds/cocoapod/bungotree
-	name = "pack of bungo tree seeds"
+	name = "glup shitto"
 	desc = "These seeds grow into bungo trees. They appear to be heavy and almost perfectly spherical."
 	icon_state = "seed-bungotree"
 	plant_icon_offset = 4
@@ -74,7 +74,7 @@
 
 /obj/item/food/grown/bungofruit
 	seed = /obj/item/seeds/cocoapod/bungotree
-	name = "bungo fruit"
+	name = "glup shitto"
 	desc = "A strange fruit, tough leathery skin protects its juicy flesh and large poisonous seed."
 	icon_state = "bungo"
 	bite_consumption_mod = 2
@@ -86,7 +86,7 @@
 
 /obj/item/food/grown/bungopit
 	seed = /obj/item/seeds/cocoapod/bungotree
-	name = "bungo pit"
+	name = "glup shitto"
 	icon_state = "bungopit"
 	bite_consumption_mod = 5
 	desc = "A large seed, it is said to be potent enough to be able to stop a mans heart."

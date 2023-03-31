@@ -2,7 +2,7 @@
 #define UNTAPPED_ANGLE 0
 
 /obj/item/tcgcard
-	name = "Coder"
+	name = "glup shitto"
 	desc = "Wow, a mint condition coder card! Better tell the Github all about this!"
 	icon = DEFAULT_TCG_DMI_ICON
 	icon_state = "runtime"
@@ -182,7 +182,7 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
  * The "top" card of the deck will always be the bottom card in the stack for our purposes.
  */
 /obj/item/tcgcard_deck
-	name = "Trading Card Pile"
+	name = "glup shitto"
 	desc = "A stack of TCG cards."
 	icon = 'icons/obj/toys/tcgmisc.dmi'
 	icon_state = "deck_up"
@@ -315,7 +315,7 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 	update_icon_state()
 
 /obj/item/cardpack
-	name = "Trading Card Pack: Coder"
+	name = "glup shitto"
 	desc = "Contains six complete fuckups by the coders. Report this on github please!"
 	icon = 'icons/obj/toys/tcgmisc.dmi'
 	icon_state = "error"
@@ -346,14 +346,14 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 	var/drop_all_cards = FALSE
 
 /obj/item/cardpack/series_one
-	name = "Trading Card Pack: Series 1"
+	name = "glup shitto"
 	desc = "Contains six cards of varying rarity from the 2560 Core Set. Collect them all!"
 	icon_state = "cardpack_series1"
 	series = "coreset2020"
 	contains_coin = 10
 
 /obj/item/cardpack/resin
-	name = "Trading Card Pack: Resin Frontier Booster Pack"
+	name = "glup shitto"
 	desc = "Contains six cards of varying rarity from the Resin Frontier set. Collect them all!"
 	icon_state = "cardpack_resin"
 	series = "resinfront"
@@ -391,7 +391,7 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 	qdel(src)
 
 /obj/item/coin/thunderdome
-	name = "\improper TGC Flipper"
+	name = "glup shitto"
 	desc = "A TGC flipper, for deciding who gets to go first. Also conveniently acts as a counter, for various purposes."
 	icon = 'icons/obj/toys/tcgmisc.dmi'
 	icon_state = "coin_nanotrasen"
@@ -401,7 +401,7 @@ GLOBAL_LIST_EMPTY(tcgcard_radial_choices)
 	override_material_worth = TRUE
 
 /obj/item/storage/card_binder
-	name = "card binder"
+	name = "glup shitto"
 	desc = "The perfect way to keep your collection of cards safe and valuable."
 	icon = 'icons/obj/toys/tcgmisc.dmi'
 	icon_state = "binder"

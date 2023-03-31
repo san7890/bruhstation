@@ -147,12 +147,12 @@
 	return ..()
 
 /datum/ai_laws/pai
-	name = "pAI Directives"
+	name = "glup shitto"
 	zeroth = ("Serve your master.")
 	supplied = list("None.")
 
 /datum/ai_laws/custom //Defined in silicon_laws.txt
-	name = "Default Silicon Laws"
+	name = "glup shitto"
 
 /datum/ai_laws/custom/New() //This reads silicon_laws.txt and allows server hosts to set custom AI starting laws.
 	..()

@@ -134,7 +134,7 @@ GLOBAL_LIST_INIT(metal_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/iron
-	name = "iron"
+	name = "glup shitto"
 	desc = "Sheets made out of iron."
 	singular_name = "iron sheet"
 	icon_state = "sheet-metal"
@@ -258,7 +258,7 @@ GLOBAL_LIST_INIT(plasteel_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/plasteel
-	name = "plasteel"
+	name = "glup shitto"
 	singular_name = "plasteel sheet"
 	desc = "This sheet is an alloy of iron and plasma."
 	icon_state = "sheet-plasteel"
@@ -339,7 +339,7 @@ GLOBAL_LIST_INIT(wood_recipes, list ( \
 	))
 
 /obj/item/stack/sheet/mineral/wood
-	name = "wooden plank"
+	name = "glup shitto"
 	desc = "One can only guess that this is a bunch of wood."
 	singular_name = "wood plank"
 	icon_state = "sheet-wood"
@@ -387,7 +387,7 @@ GLOBAL_LIST_INIT(bamboo_recipes, list ( \
 	))
 
 /obj/item/stack/sheet/mineral/bamboo
-	name = "bamboo cuttings"
+	name = "glup shitto"
 	desc = "Finely cut bamboo sticks."
 	singular_name = "cut bamboo stick"
 	icon_state = "sheet-bamboo"
@@ -454,7 +454,7 @@ GLOBAL_LIST_INIT(cloth_recipes, list ( \
 	))
 
 /obj/item/stack/sheet/cloth
-	name = "cloth"
+	name = "glup shitto"
 	desc = "Is it cotton? Linen? Denim? Burlap? Canvas? You can't tell."
 	singular_name = "cloth roll"
 	icon_state = "sheet-cloth"
@@ -485,7 +485,7 @@ GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	))
 
 /obj/item/stack/sheet/durathread
-	name = "durathread"
+	name = "glup shitto"
 	desc = "A fabric sown from incredibly durable threads, known for its usefulness in armor production."
 	singular_name = "durathread roll"
 	icon_state = "sheet-durathread"
@@ -502,7 +502,7 @@ GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	. += GLOB.durathread_recipes
 
 /obj/item/stack/sheet/cotton
-	name = "raw cotton bundle"
+	name = "glup shitto"
 	desc = "A bundle of raw cotton ready to be spun on the loom."
 	singular_name = "raw cotton ball"
 	icon_state = "sheet-cotton"
@@ -515,7 +515,7 @@ GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	grind_results = list(/datum/reagent/cellulose = 20)
 
 /obj/item/stack/sheet/cotton/durathread
-	name = "raw durathread bundle"
+	name = "glup shitto"
 	desc = "A bundle of raw durathread ready to be spun on the loom."
 	singular_name = "raw durathread ball"
 	icon_state = "sheet-durathreadraw"
@@ -524,7 +524,7 @@ GLOBAL_LIST_INIT(durathread_recipes, list ( \
 	grind_results = list()
 
 /obj/item/stack/sheet/cotton/wool
-	name = "raw wool bundle"
+	name = "glup shitto"
 	desc = "A bundle of raw wool ready to be spun on the loom."
 	singular_name = "raw wool ball"
 	icon_state = "sheet-wool"
@@ -596,7 +596,7 @@ GLOBAL_LIST_INIT(cardboard_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/cardboard //BubbleWrap //it's cardboard you fuck
-	name = "cardboard"
+	name = "glup shitto"
 	desc = "Large sheets of card, like boxes folded flat."
 	singular_name = "cardboard sheet"
 	icon_state = "sheet-card"
@@ -654,7 +654,7 @@ GLOBAL_LIST_INIT(bronze_recipes, list ( \
 ))
 
 /obj/item/stack/sheet/bronze
-	name = "bronze"
+	name = "glup shitto"
 	desc = "On closer inspection, what appears to be wholly-unsuitable-for-building brass is actually more structurally stable bronze."
 	singular_name = "bronze sheet"
 	icon_state = "sheet-brass"
@@ -694,7 +694,7 @@ GLOBAL_LIST_INIT(bronze_recipes, list ( \
  * Lesser and Greater gems - unused
  */
 /obj/item/stack/sheet/lessergem
-	name = "lesser gems"
+	name = "glup shitto"
 	desc = "Rare kind of gems which are only gained by blood sacrifice to minor deities. They are needed in crafting powerful objects."
 	singular_name = "lesser gem"
 	icon_state = "sheet-lessergem"
@@ -703,7 +703,7 @@ GLOBAL_LIST_INIT(bronze_recipes, list ( \
 	merge_type = /obj/item/stack/sheet/lessergem
 
 /obj/item/stack/sheet/greatergem
-	name = "greater gems"
+	name = "glup shitto"
 	desc = "Rare kind of gems which are only gained by blood sacrifice to minor deities. They are needed in crafting powerful objects."
 	singular_name = "greater gem"
 	icon_state = "sheet-greatergem"
@@ -715,7 +715,7 @@ GLOBAL_LIST_INIT(bronze_recipes, list ( \
  * Bones
  */
 /obj/item/stack/sheet/bone
-	name = "bones"
+	name = "glup shitto"
 	icon = 'icons/obj/stack_objects.dmi'
 	icon_state = "bone"
 	inhand_icon_state = null
@@ -745,7 +745,7 @@ GLOBAL_LIST_INIT(plastic_recipes, list(
 	new /datum/stack_recipe("blank wall sign", /obj/item/sign, 1, category = CAT_FURNITURE)))
 
 /obj/item/stack/sheet/plastic
-	name = "plastic"
+	name = "glup shitto"
 	desc = "Compress dinosaur over millions of years, then refine, split and mold, and voila! You have plastic."
 	singular_name = "plastic sheet"
 	icon_state = "sheet-plastic"
@@ -770,7 +770,7 @@ new /datum/stack_recipe("paper frame separator", /obj/structure/window/paperfram
 new /datum/stack_recipe("paper frame door", /obj/structure/mineral_door/paperframe, 3, one_per_turf = TRUE, on_solid_ground = TRUE, time = 1 SECONDS )))
 
 /obj/item/stack/sheet/paperframes
-	name = "paper frames"
+	name = "glup shitto"
 	desc = "A thin wooden frame with paper attached."
 	singular_name = "paper frame"
 	icon_state = "sheet-paper"
@@ -792,7 +792,7 @@ new /datum/stack_recipe("paper frame door", /obj/structure/mineral_door/paperfra
 	amount = 50
 
 /obj/item/stack/sheet/meat
-	name = "meat sheets"
+	name = "glup shitto"
 	desc = "Something's bloody meat compressed into a nice solid sheet."
 	singular_name = "meat sheet"
 	icon_state = "sheet-meat"
@@ -810,7 +810,7 @@ new /datum/stack_recipe("paper frame door", /obj/structure/mineral_door/paperfra
 	amount = 5
 
 /obj/item/stack/sheet/pizza
-	name = "pepperoni sheetzzas"
+	name = "glup shitto"
 	desc = "It's a delicious pepperoni sheetzza!"
 	singular_name = "pepperoni sheetzza"
 	icon_state = "sheet-pizza"
@@ -827,7 +827,7 @@ new /datum/stack_recipe("paper frame door", /obj/structure/mineral_door/paperfra
 	amount = 5
 
 /obj/item/stack/sheet/sandblock
-	name = "blocks of sand"
+	name = "glup shitto"
 	desc = "You're too old to be playing with sandcastles. Now you build... sandstations."
 	singular_name = "sand block"
 	icon_state = "sheet-sandstone"
@@ -845,7 +845,7 @@ new /datum/stack_recipe("paper frame door", /obj/structure/mineral_door/paperfra
 
 
 /obj/item/stack/sheet/hauntium
-	name = "haunted sheets"
+	name = "glup shitto"
 	desc = "These sheets seem cursed."
 	singular_name = "haunted sheet"
 	icon_state = "sheet-meat"

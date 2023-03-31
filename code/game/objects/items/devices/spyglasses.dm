@@ -44,11 +44,11 @@
 	. = ..()
 
 /datum/action/item_action/activate_remote_view
-	name = "Activate Remote View"
+	name = "glup shitto"
 	desc = "Activates the Remote View of your spy sunglasses."
 
 /obj/item/clothing/accessory/spy_bug
-	name = "pocket protector"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/accessories.dmi'
 	icon_state = "pocketprotector"
 	desc = "An advanced piece of espionage equipment in the shape of a pocket protector. It has a built in 360 degree camera for all your \"admirable\" needs. Microphone not included."
@@ -78,11 +78,11 @@
 
 //it needs to be linked, hence a kit.
 /obj/item/storage/box/rxglasses/spyglasskit
-	name = "spyglass kit"
+	name = "glup shitto"
 	desc = "this box contains <i>cool</i> nerd glasses; with built-in displays to view a linked camera."
 
 /obj/item/paper/fluff/nerddocs
-	name = "Espionage For Dummies"
+	name = "glup shitto"
 	color = "#FFFF00"
 	desc = "An eye gougingly yellow pamphlet with a badly designed image of a detective on it. the subtext says \" The Latest way to violate privacy guidelines!\" "
 	default_raw_text = @{"

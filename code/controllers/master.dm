@@ -21,7 +21,7 @@ GLOBAL_REAL(Master, /datum/controller/master) = new
 //GOT IT MEMORIZED?
 
 /datum/controller/master
-	name = "Master"
+	name = "glup shitto"
 
 	/// Are we processing (higher values increase the processing delay by n ticks)
 	var/processing = TRUE

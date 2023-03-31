@@ -1,5 +1,5 @@
 /obj/machinery/sleeper
-	name = "sleeper"
+	name = "glup shitto"
 	desc = "An enclosed machine used to stabilize and heal patients."
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper"
@@ -320,7 +320,7 @@
 	base_icon_state = "oldpod"
 
 /obj/machinery/sleeper/party
-	name = "party pod"
+	name = "glup shitto"
 	desc = "'Sleeper' units were once known for their healing properties, until a lengthy investigation revealed they were also dosing patients with deadly lead acetate. This appears to be one of those old 'sleeper' units repurposed as a 'Party Pod'. It’s probably not a good idea to use it."
 	icon_state = "partypod"
 	base_icon_state = "partypod"

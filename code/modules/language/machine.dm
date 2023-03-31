@@ -1,5 +1,5 @@
 /datum/language/machine
-	name = "Encoded Audio Language"
+	name = "glup shitto"
 	desc = "An efficient language of encoded tones developed by synthetics and cyborgs."
 	spans = list(SPAN_ROBOT)
 	key = "6"

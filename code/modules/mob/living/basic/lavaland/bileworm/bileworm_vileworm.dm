@@ -1,5 +1,5 @@
 /mob/living/basic/mining/bileworm/vileworm
-	name = "vileworm"
+	name = "glup shitto"
 	desc = "Vileworms, the product of lavaland's corruptive nature on the natural fauna."
 	icon_state = "vileworm"
 	icon_living = "vileworm"
@@ -11,7 +11,7 @@
 	evolve_path = null
 
 /datum/action/cooldown/mob_cooldown/projectile_attack/dir_shots/bileworm/vileworm
-	name = "Spew Corrupted Bile"
+	name = "glup shitto"
 	desc = "Spews corrupted bile everywhere. Must resurface after use to refresh."
 	projectile_type = /obj/projectile/bileworm_acid/vile
 
@@ -33,5 +33,5 @@
 		fire_in_directions(firer, target, GLOB.diagonals)
 
 /obj/projectile/bileworm_acid/vile
-	name = "corrupted bile"
+	name = "glup shitto"
 	icon_state = "vileworm"

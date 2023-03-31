@@ -1,5 +1,5 @@
 /obj/machinery/abductor/gland_dispenser
-	name = "replacement organ storage"
+	name = "glup shitto"
 	desc = "A tank filled with replacement organs."
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "dispenser"

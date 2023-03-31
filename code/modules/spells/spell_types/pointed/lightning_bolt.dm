@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/pointed/projectile/lightningbolt
-	name = "Lightning Bolt"
+	name = "glup shitto"
 	desc = "Fire a lightning bolt at your foes! It will jump between targets, but can't knock them down."
 	button_icon_state = "lightning"
 	active_overlay_icon_state = "bg_spell_border_active_yellow"

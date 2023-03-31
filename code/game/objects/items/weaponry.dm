@@ -1,6 +1,6 @@
 /obj/item/banhammer
 	desc = "A banhammer."
-	name = "banhammer"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "toyhammer"
 	slot_flags = ITEM_SLOT_BELT
@@ -41,7 +41,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 		return ..(M, user)
 
 /obj/item/sord
-	name = "\improper SORD"
+	name = "glup shitto"
 	desc = "This thing is so unspeakably shitty you are having a hard time even holding it."
 	icon_state = "sord"
 	inhand_icon_state = "sord"
@@ -61,7 +61,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	return SHAME
 
 /obj/item/claymore
-	name = "claymore"
+	name = "glup shitto"
 	desc = "What are you standing around staring at this for? Get to killing!"
 	icon_state = "claymore"
 	inhand_icon_state = "claymore"
@@ -98,7 +98,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 
 //statistically similar to e-cutlasses
 /obj/item/claymore/cutlass
-	name = "cutlass"
+	name = "glup shitto"
 	desc = "A piratey sword used by buckaneers to \"negotiate\" the transfer of treasure."
 	icon_state = "cutlass"
 	inhand_icon_state = "cutlass"
@@ -259,7 +259,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	SET_PLANE_IMPLICIT(loc, GAME_PLANE_UPPER_FOV_HIDDEN)
 
 /obj/item/katana
-	name = "katana"
+	name = "glup shitto"
 	desc = "Woefully underpowered in D20."
 	icon_state = "katana"
 	inhand_icon_state = "katana"
@@ -292,7 +292,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	slot_flags = null
 
 /obj/item/wirerod
-	name = "wired rod"
+	name = "glup shitto"
 	desc = "A rod with some wire wrapped around the top. It'd be easy to attach something to the top bit."
 	icon_state = "wiredrod"
 	inhand_icon_state = "rods"
@@ -354,7 +354,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 
 
 /obj/item/throwing_star
-	name = "throwing star"
+	name = "glup shitto"
 	desc = "An ancient weapon still used to this day, due to its ease of lodging itself into its victim's body parts."
 	icon_state = "throwingstar"
 	inhand_icon_state = "eshield"
@@ -372,13 +372,13 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	resistance_flags = FIRE_PROOF
 
 /obj/item/throwing_star/stamina
-	name = "shock throwing star"
+	name = "glup shitto"
 	desc = "An aerodynamic disc designed to cause excruciating pain when stuck inside fleeing targets, hopefully without causing fatal harm."
 	throwforce = 5
 	embedding = list("pain_chance" = 5, "embed_chance" = 100, "fall_chance" = 0, "jostle_chance" = 10, "pain_stam_pct" = 0.8, "jostle_pain_mult" = 3)
 
 /obj/item/throwing_star/toy
-	name = "toy throwing star"
+	name = "glup shitto"
 	desc = "An aerodynamic disc strapped with adhesive for sticking to people, good for playing pranks and getting yourself killed by security."
 	sharpness = NONE
 	force = 0
@@ -386,7 +386,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	embedding = list("pain_mult" = 0, "jostle_pain_mult" = 0, "embed_chance" = 100, "fall_chance" = 0)
 
 /obj/item/switchblade
-	name = "switchblade"
+	name = "glup shitto"
 	icon_state = "switchblade"
 	base_icon_state = "switchblade"
 	lefthand_file = 'icons/mob/inhands/weapons/swords_lefthand.dmi'
@@ -441,7 +441,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	start_extended = TRUE
 
 /obj/item/phone
-	name = "red phone"
+	name = "glup shitto"
 	desc = "Should anything ever go wrong..."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "red_phone"
@@ -462,7 +462,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	return OXYLOSS
 
 /obj/item/cane
-	name = "cane"
+	name = "glup shitto"
 	desc = "A cane used by a true gentleman. Or a clown."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "cane"
@@ -477,7 +477,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	attack_verb_simple = list("bludgeon", "whack", "discipline", "thrash")
 
 /obj/item/cane/white
-	name = "white cane"
+	name = "glup shitto"
 	desc = "A cane traditionally used by the blind to help them see. Folds down to be easier to transport."
 	icon_state = "cane_white"
 	inhand_icon_state = "cane_white"
@@ -512,7 +512,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	return COMPONENT_NO_DEFAULT_MESSAGE
 
 /obj/item/staff
-	name = "wizard staff"
+	name = "glup shitto"
 	desc = "Apparently a staff used by the wizard."
 	icon = 'icons/obj/weapons/guns/magic.dmi'
 	icon_state = "staff"
@@ -530,21 +530,21 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	resistance_flags = FLAMMABLE
 
 /obj/item/staff/broom
-	name = "broom"
+	name = "glup shitto"
 	desc = "Used for sweeping, and flying into the night while cackling. Black cat not included."
 	icon_state = "broom"
 	inhand_icon_state = "broom"
 	resistance_flags = FLAMMABLE
 
 /obj/item/staff/tape
-	name = "tape staff"
+	name = "glup shitto"
 	desc = "A roll of tape snugly attached to a stick."
 	icon_state = "tapestaff"
 	inhand_icon_state = "tapestaff"
 	resistance_flags = FLAMMABLE
 
 /obj/item/staff/stick
-	name = "stick"
+	name = "glup shitto"
 	desc = "A great tool to drag someone else's drinks across the bar."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "cane"
@@ -558,7 +558,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/ectoplasm
-	name = "ectoplasm"
+	name = "glup shitto"
 	desc = "Spooky."
 	gender = PLURAL
 	icon = 'icons/obj/wizard.dmi'
@@ -576,7 +576,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	icon_state = "mysticplasm"
 
 /obj/item/statuebust
-	name = "bust"
+	name = "glup shitto"
 	desc = "A priceless ancient marble bust, the kind that belongs in a museum." //or you can hit people with it
 	icon = 'icons/obj/art/statue.dmi'
 	icon_state = "bust"
@@ -594,13 +594,13 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	AddElement(/datum/element/beauty, 1000)
 
 /obj/item/statuebust/hippocratic
-	name = "hippocrates bust"
+	name = "glup shitto"
 	desc = "A bust of the famous Greek physician Hippocrates of Kos, often referred to as the father of western medicine."
 	icon_state = "hippocratic"
 	impressiveness = 50
 
 /obj/item/tailclub
-	name = "tail club"
+	name = "glup shitto"
 	desc = "For the beating to death of lizards with their own tails."
 	icon_state = "tailclub"
 	force = 14
@@ -611,20 +611,20 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	attack_verb_simple = list("club", "bludgeon")
 
 /obj/item/melee/chainofcommand/tailwhip
-	name = "liz o' nine tails"
+	name = "glup shitto"
 	desc = "A whip fashioned from the severed tails of lizards."
 	icon_state = "tailwhip"
 	inhand_icon_state = "tailwhip"
 	item_flags = NONE
 
 /obj/item/melee/chainofcommand/tailwhip/kitty
-	name = "cat o' nine tails"
+	name = "glup shitto"
 	desc = "A whip fashioned from the severed tails of cats."
 	icon_state = "catwhip"
 	inhand_icon_state = "catwhip"
 
 /obj/item/melee/skateboard
-	name = "skateboard"
+	name = "glup shitto"
 	desc = "A skateboard. It can be placed on its wheels and ridden, or used as a radical weapon."
 	icon_state = "skateboard"
 	inhand_icon_state = "skateboard"
@@ -642,12 +642,12 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	qdel(src)
 
 /obj/item/melee/skateboard/improvised
-	name = "improvised skateboard"
+	name = "glup shitto"
 	desc = "A jury-rigged skateboard. It can be placed on its wheels and ridden, or used as a radical weapon."
 	board_item_type = /obj/vehicle/ridden/scooter/skateboard/improvised
 
 /obj/item/melee/skateboard/pro
-	name = "skateboard"
+	name = "glup shitto"
 	desc = "An EightO brand professional skateboard. It looks sturdy and well made."
 	icon_state = "skateboard2"
 	inhand_icon_state = "skateboard2"
@@ -655,7 +655,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	custom_premium_price = PAYCHECK_COMMAND * 5
 
 /obj/item/melee/skateboard/hoverboard
-	name = "hoverboard"
+	name = "glup shitto"
 	desc = "A blast from the past, so retro!"
 	icon_state = "hoverboard_red"
 	inhand_icon_state = "hoverboard_red"
@@ -663,14 +663,14 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	custom_premium_price = PAYCHECK_COMMAND * 5.4 //If I can't make it a meme I'll make it RAD
 
 /obj/item/melee/skateboard/hoverboard/admin
-	name = "Board Of Directors"
+	name = "glup shitto"
 	desc = "The engineering complexity of a spaceship concentrated inside of a board. Just as expensive, too."
 	icon_state = "hoverboard_nt"
 	inhand_icon_state = "hoverboard_nt"
 	board_item_type = /obj/vehicle/ridden/scooter/skateboard/hoverboard/admin
 
 /obj/item/melee/baseball_bat
-	name = "baseball bat"
+	name = "glup shitto"
 	desc = "There ain't a skull in the league that can withstand a swatter."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "baseball_bat"
@@ -796,7 +796,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	thrown_datums -= target
 
 /obj/item/melee/baseball_bat/homerun
-	name = "home run bat"
+	name = "glup shitto"
 	desc = "This thing looks dangerous... Dangerously good at baseball, that is."
 	icon_state = "baseball_bat_home"
 	inhand_icon_state = "baseball_bat_home"
@@ -804,7 +804,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	mob_thrower = TRUE
 
 /obj/item/melee/baseball_bat/ablative
-	name = "metal baseball bat"
+	name = "glup shitto"
 	desc = "This bat is made of highly reflective, highly armored material."
 	icon_state = "baseball_bat_metal"
 	inhand_icon_state = "baseball_bat_metal"
@@ -817,7 +817,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	return TRUE
 
 /obj/item/melee/flyswatter
-	name = "flyswatter"
+	name = "glup shitto"
 	desc = "Useful for killing pests of all sizes."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "flyswatter"
@@ -878,7 +878,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	return TRUE
 
 /obj/item/extendohand
-	name = "extendo-hand"
+	name = "glup shitto"
 	desc = "Futuristic tech has allowed these classic spring-boxing toys to essentially act as a fully functional hand-operated hand prosthetic."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "extendohand"
@@ -891,7 +891,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	var/min_reach = 2
 
 /obj/item/extendohand/acme
-	name = "\improper ACME Extendo-Hand"
+	name = "glup shitto"
 	desc = "A novelty extendo-hand produced by the ACME corporation. Originally designed to knock out roadrunners."
 
 /obj/item/extendohand/attack(atom/M, mob/living/carbon/human/user, params)
@@ -903,7 +903,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	M.attack_hand(user, modifiers)
 
 /obj/item/gohei
-	name = "gohei"
+	name = "glup shitto"
 	desc = "A wooden stick with white streamers at the end. Originally used by shrine maidens to purify things. Now used by the station's valued weeaboos."
 	force = 5
 	throwforce = 5
@@ -917,7 +917,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	righthand_file = 'icons/mob/inhands/weapons/staves_righthand.dmi'
 
 /obj/item/melee/moonlight_greatsword
-	name = "moonlight greatsword"
+	name = "glup shitto"
 	desc = "Don't tell anyone you put any points into dex, though."
 	icon_state = "swordon"
 	inhand_icon_state = "swordon"
@@ -937,7 +937,7 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 //High Frequency Blade
 
 /obj/item/highfrequencyblade
-	name = "high frequency blade"
+	name = "glup shitto"
 	desc = "A sword reinforced by a powerful alternating current and resonating at extremely high vibration frequencies. \
 		This oscillation weakens the molecular bonds of anything it cuts, thereby increasing its cutting ability."
 	icon_state = "hfrequency0"

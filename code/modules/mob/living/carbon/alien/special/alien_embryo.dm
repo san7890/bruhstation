@@ -1,7 +1,7 @@
 // This is to replace the previous datum/disease/alien_embryo for slightly improved handling and maintainability
 // It functions almost identically (see code/datums/diseases/alien_embryo.dm)
 /obj/item/organ/internal/body_egg/alien_embryo
-	name = "alien embryo"
+	name = "glup shitto"
 	icon = 'icons/mob/nonhuman-player/alien.dmi'
 	icon_state = "larva0_dead"
 	food_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/toxin/acid = 10)

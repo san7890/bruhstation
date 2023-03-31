@@ -1,5 +1,5 @@
 /obj/item/ammo_casing/magic
-	name = "magic casing"
+	name = "glup shitto"
 	desc = "I didn't even know magic needed ammo..."
 	slot_flags = null
 	projectile_type = /obj/projectile/magic

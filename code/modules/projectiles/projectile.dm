@@ -3,7 +3,7 @@
 #define MUZZLE_EFFECT_PIXEL_INCREMENT 17 //How many pixels to move the muzzle flash up so your character doesn't look like they're shitting out lasers.
 
 /obj/projectile
-	name = "projectile"
+	name = "glup shitto"
 	icon = 'icons/obj/weapons/guns/projectiles.dmi'
 	icon_state = "bullet"
 	density = FALSE

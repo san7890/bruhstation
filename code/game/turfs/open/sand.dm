@@ -1,5 +1,5 @@
 /turf/open/misc/beach
-	name = "beach"
+	name = "glup shitto"
 	desc = "Sandy."
 	icon = 'icons/misc/beach.dmi'
 	flags_1 = NONE
@@ -14,14 +14,14 @@
 
 /turf/open/misc/beach/sand
 	gender = PLURAL
-	name = "sand"
+	name = "glup shitto"
 	desc = "Surf's up."
 	icon_state = "sand"
 	base_icon_state = "sand"
 	baseturfs = /turf/open/misc/beach/sand
 
 /turf/open/misc/beach/coastline_t
-	name = "coastline"
+	name = "glup shitto"
 	desc = "Tide's high tonight. Charge your batons."
 	icon_state = "sandwater_t"
 	base_icon_state = "sandwater_t"
@@ -35,7 +35,7 @@
 	icon_state = "sandwater_inner"
 
 /turf/open/misc/beach/coastline_b //need to make this water subtype.
-	name = "coastline"
+	name = "glup shitto"
 	icon_state = "sandwater_b"
 	base_icon_state = "sandwater_b"
 	baseturfs = /turf/open/misc/beach/coastline_b
@@ -50,7 +50,7 @@
 
 /turf/open/misc/sandy_dirt
 	gender = PLURAL
-	name = "dirt"
+	name = "glup shitto"
 	desc = "Upon closer examination, it's still dirt."
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "sand"
@@ -68,7 +68,7 @@
 
 /turf/open/misc/ironsand
 	gender = PLURAL
-	name = "iron sand"
+	name = "glup shitto"
 	desc = "Like sand, but more <i>iron</i>."
 	icon_state = "ironsand1"
 	base_icon_state = "ironsand1"

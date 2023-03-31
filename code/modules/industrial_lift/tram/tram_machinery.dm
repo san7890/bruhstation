@@ -3,7 +3,7 @@ GLOBAL_LIST_EMPTY(tram_signs)
 GLOBAL_LIST_EMPTY(tram_doors)
 
 /obj/machinery/computer/tram_controls
-	name = "tram controls"
+	name = "glup shitto"
 	desc = "An interface for the tram that lets you tell the tram where to go and hopefully it makes it there. I'm here to describe the controls to you, not to inspire confidence."
 	icon_state = "tram_controls"
 	base_icon_state = "tram_"
@@ -232,7 +232,7 @@ GLOBAL_LIST_EMPTY(tram_doors)
 
 /// Pedestrian crossing signal for tram
 /obj/machinery/crossing_signal
-	name = "crossing signal"
+	name = "glup shitto"
 	desc = "Indicates to pedestrians if it's safe to cross the tracks."
 	icon = 'icons/obj/machines/crossing_signal.dmi'
 	base_icon_state = "crossing-"
@@ -309,7 +309,7 @@ GLOBAL_LIST_EMPTY(tram_doors)
 	pixel_y = 20
 
 /obj/machinery/static_signal
-	name = "crossing signal"
+	name = "glup shitto"
 	desc = "Indicates to pedestrians if it's safe to cross the tracks."
 	icon = 'icons/obj/machines/crossing_signal.dmi'
 	icon_state = "static-left-on"
@@ -560,7 +560,7 @@ GLOBAL_LIST_EMPTY(tram_doors)
 	set_light(l_on = TRUE)
 
 /obj/machinery/destination_sign
-	name = "destination sign"
+	name = "glup shitto"
 	desc = "A display to show you what direction the tram is travelling."
 	icon = 'icons/obj/machines/tram_sign.dmi'
 	icon_state = "desto_off"
@@ -719,7 +719,7 @@ GLOBAL_LIST_EMPTY(tram_doors)
 		. += emissive_appearance(icon, light_mask, src, alpha = alpha)
 
 /obj/machinery/door/window/tram
-	name = "tram door"
+	name = "glup shitto"
 	desc = "Probably won't crush you if you try to rush them as they close. But we know you live on that danger, try and beat the tram!"
 	icon = 'icons/obj/doors/tramdoor.dmi'
 	var/associated_lift = MAIN_STATION_TRAM
@@ -848,7 +848,7 @@ GLOBAL_LIST_EMPTY(tram_doors)
 		return PROCESS_KILL
 
 /obj/machinery/button/tram
-	name = "tram request"
+	name = "glup shitto"
 	desc = "A button for calling the tram. It has a speakerbox in it with some internals."
 	icon_state = "tramctrl"
 	skin = "tramctrl"

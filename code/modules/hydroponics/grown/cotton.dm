@@ -1,5 +1,5 @@
 /obj/item/seeds/cotton
-	name = "pack of cotton seeds"
+	name = "glup shitto"
 	desc = "A pack of seeds that'll grow into a cotton plant. Assistants make good free labor if neccesary."
 	icon_state = "seed-cotton"
 	species = "cotton"
@@ -20,7 +20,7 @@
 
 /obj/item/grown/cotton
 	seed = /obj/item/seeds/cotton
-	name = "cotton bundle"
+	name = "glup shitto"
 	desc = "A fluffy bundle of cotton."
 	icon_state = "cotton"
 	force = 0
@@ -57,7 +57,7 @@
 
 //reinforced mutated variant
 /obj/item/seeds/cotton/durathread
-	name = "pack of durathread seeds"
+	name = "glup shitto"
 	desc = "A pack of seeds that'll grow into an extremely durable thread that could easily rival plasteel if woven properly."
 	icon_state = "seed-durathread"
 	species = "durathread"
@@ -77,7 +77,7 @@
 
 /obj/item/grown/cotton/durathread
 	seed = /obj/item/seeds/cotton/durathread
-	name = "durathread bundle"
+	name = "glup shitto"
 	desc = "A tough bundle of durathread, good luck unraveling this."
 	icon_state = "durathread"
 	force = 5

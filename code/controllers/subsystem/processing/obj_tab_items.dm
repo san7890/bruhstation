@@ -1,5 +1,5 @@
 PROCESSING_SUBSYSTEM_DEF(obj_tab_items)
-	name = "Obj Tab Items"
+	name = "glup shitto"
 	flags = SS_NO_INIT
 	runlevels = RUNLEVEL_LOBBY | RUNLEVELS_DEFAULT
 	wait = 0.1 SECONDS

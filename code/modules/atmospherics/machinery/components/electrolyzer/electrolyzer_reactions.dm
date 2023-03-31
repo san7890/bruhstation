@@ -35,7 +35,7 @@ GLOBAL_LIST_INIT(electrolyzer_reactions, electrolyzer_reactions_list())
 	return TRUE
 
 /datum/electrolyzer_reaction/h2o_conversion
-	name = "H2O Conversion"
+	name = "glup shitto"
 	id = "h2o_conversion"
 	desc = "Conversion of H2o into O2 and H2"
 	requirements = list(
@@ -61,7 +61,7 @@ GLOBAL_LIST_INIT(electrolyzer_reactions, electrolyzer_reactions_list())
 		air_mixture.temperature = max(air_mixture.temperature * old_heat_capacity / new_heat_capacity, TCMB)
 
 /datum/electrolyzer_reaction/nob_conversion
-	name = "Hypernob conversion"
+	name = "glup shitto"
 	id = "nob_conversion"
 	desc = "Conversion of Hypernoblium into Antinoblium"
 	requirements = list(
@@ -87,7 +87,7 @@ GLOBAL_LIST_INIT(electrolyzer_reactions, electrolyzer_reactions_list())
 		air_mixture.temperature = max(air_mixture.temperature * old_heat_capacity / new_heat_capacity, TCMB)
 
 /datum/electrolyzer_reaction/halon_generation
-	name = "Halon generation"
+	name = "glup shitto"
 	id = "halon_generation"
 	desc = "Production of halon from CO2 and N2O"
 	requirements = list(

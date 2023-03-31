@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/marauder
 	desc = "Heavy-duty, combat exosuit, developed after the Durand model. Rarely found among civilian populations."
-	name = "\improper Marauder"
+	name = "glup shitto"
 	icon_state = "marauder"
 	base_icon_state = "marauder"
 	movedelay = 5
@@ -54,7 +54,7 @@
 	cell = new /obj/item/stock_parts/cell/bluespace(src)
 
 /datum/action/vehicle/sealed/mecha/mech_smoke
-	name = "Smoke"
+	name = "glup shitto"
 	button_icon_state = "mech_smoke"
 
 /datum/action/vehicle/sealed/mecha/mech_smoke/Trigger(trigger_flags)
@@ -66,7 +66,7 @@
 		TIMER_COOLDOWN_START(src, COOLDOWN_MECHA_SMOKE, chassis.smoke_cooldown)
 
 /datum/action/vehicle/sealed/mecha/mech_zoom
-	name = "Zoom"
+	name = "glup shitto"
 	button_icon_state = "mech_zoom_off"
 
 /datum/action/vehicle/sealed/mecha/mech_zoom/Trigger(trigger_flags)
@@ -85,7 +85,7 @@
 
 /obj/vehicle/sealed/mecha/marauder/seraph
 	desc = "Heavy-duty, command-type exosuit. This is a custom model, utilized only by high-ranking military personnel."
-	name = "\improper Seraph"
+	name = "glup shitto"
 	icon_state = "seraph"
 	base_icon_state = "seraph"
 	operation_req_access = list(ACCESS_CENT_SPECOPS)
@@ -109,7 +109,7 @@
 
 /obj/vehicle/sealed/mecha/marauder/mauler
 	desc = "Heavy-duty, combat exosuit, developed off of the existing Marauder model."
-	name = "\improper Mauler"
+	name = "glup shitto"
 	icon_state = "mauler"
 	base_icon_state = "mauler"
 	operation_req_access = list(ACCESS_SYNDICATE)

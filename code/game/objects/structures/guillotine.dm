@@ -29,7 +29,7 @@
 #define GUILLOTINE_WRENCH_DELAY (1 SECONDS)
 
 /obj/structure/guillotine
-	name = "guillotine"
+	name = "glup shitto"
 	desc = "A large structure used to remove the heads of traitors and treasonists."
 	icon = 'icons/obj/guillotine.dmi'
 	icon_state = "guillotine_raised"

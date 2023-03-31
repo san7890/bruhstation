@@ -1,5 +1,5 @@
 /obj/machinery/camera
-	name = "security camera"
+	name = "glup shitto"
 	desc = "It's used to monitor rooms."
 	icon = 'icons/obj/machines/camera.dmi'
 	icon_state = "camera" //mapping icon to represent upgrade states. if you want a different base icon, update default_camera_icon as well as this.
@@ -59,7 +59,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/camera/xray, 0)
 	acid = 50
 
 /obj/machinery/camera/preset/ordnance //Bomb test site in space
-	name = "Hardened Bomb-Test Camera"
+	name = "glup shitto"
 	desc = "A specially-reinforced camera with a long lasting battery, used to monitor the bomb testing site. An external light is attached to the top."
 	c_tag = "Bomb Testing Site"
 	network = list("rd","ordnance")

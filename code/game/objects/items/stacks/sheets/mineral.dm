@@ -30,7 +30,7 @@ GLOBAL_LIST_INIT(sandstone_recipes, list ( \
 	))
 
 /obj/item/stack/sheet/mineral/sandstone
-	name = "sandstone brick"
+	name = "glup shitto"
 	desc = "This appears to be a combination of both sand and stone."
 	singular_name = "sandstone brick"
 	icon_state = "sheet-sandstone"
@@ -55,7 +55,7 @@ GLOBAL_LIST_INIT(sandstone_recipes, list ( \
  */
 
 /obj/item/stack/sheet/mineral/sandbags
-	name = "sandbags"
+	name = "glup shitto"
 	icon_state = "sandbags"
 	singular_name = "sandbag"
 	layer = LOW_ITEM_LAYER
@@ -71,7 +71,7 @@ GLOBAL_LIST_INIT(sandbag_recipes, list ( \
 	. += GLOB.sandbag_recipes
 
 /obj/item/emptysandbag
-	name = "empty sandbag"
+	name = "glup shitto"
 	desc = "A bag to be filled with sand."
 	icon = 'icons/obj/weapons/items_and_weapons.dmi'
 	icon_state = "sandbag"
@@ -93,7 +93,7 @@ GLOBAL_LIST_INIT(sandbag_recipes, list ( \
  * Diamond
  */
 /obj/item/stack/sheet/mineral/diamond
-	name = "diamond"
+	name = "glup shitto"
 	icon_state = "sheet-diamond"
 	inhand_icon_state = "sheet-diamond"
 	singular_name = "diamond"
@@ -118,7 +118,7 @@ GLOBAL_LIST_INIT(diamond_recipes, list ( \
  * Uranium
  */
 /obj/item/stack/sheet/mineral/uranium
-	name = "uranium"
+	name = "glup shitto"
 	icon_state = "sheet-uranium"
 	inhand_icon_state = "sheet-uranium"
 	singular_name = "uranium sheet"
@@ -146,7 +146,7 @@ GLOBAL_LIST_INIT(uranium_recipes, list ( \
  * Plasma
  */
 /obj/item/stack/sheet/mineral/plasma
-	name = "solid plasma"
+	name = "glup shitto"
 	icon_state = "sheet-plasma"
 	inhand_icon_state = "sheet-plasma"
 	singular_name = "plasma sheet"
@@ -183,7 +183,7 @@ GLOBAL_LIST_INIT(plasma_recipes, list ( \
  * Gold
  */
 /obj/item/stack/sheet/mineral/gold
-	name = "gold"
+	name = "glup shitto"
 	icon_state = "sheet-gold"
 	inhand_icon_state = "sheet-gold"
 	singular_name = "gold bar"
@@ -210,7 +210,7 @@ GLOBAL_LIST_INIT(gold_recipes, list ( \
  * Silver
  */
 /obj/item/stack/sheet/mineral/silver
-	name = "silver"
+	name = "glup shitto"
 	icon_state = "sheet-silver"
 	inhand_icon_state = "sheet-silver"
 	singular_name = "silver bar"
@@ -236,7 +236,7 @@ GLOBAL_LIST_INIT(silver_recipes, list ( \
  * Clown
  */
 /obj/item/stack/sheet/mineral/bananium
-	name = "bananium"
+	name = "glup shitto"
 	icon_state = "sheet-bananium"
 	inhand_icon_state = null
 	singular_name = "bananium sheet"
@@ -263,7 +263,7 @@ GLOBAL_LIST_INIT(bananium_recipes, list ( \
  * Titanium
  */
 /obj/item/stack/sheet/mineral/titanium
-	name = "titanium"
+	name = "glup shitto"
 	icon_state = "sheet-titanium"
 	inhand_icon_state = "sheet-titanium"
 	singular_name = "titanium sheet"
@@ -295,7 +295,7 @@ GLOBAL_LIST_INIT(titanium_recipes, list ( \
  * Plastitanium
  */
 /obj/item/stack/sheet/mineral/plastitanium
-	name = "plastitanium"
+	name = "glup shitto"
 	icon_state = "sheet-plastitanium"
 	inhand_icon_state = "sheet-plastitanium"
 	singular_name = "plastitanium sheet"
@@ -326,7 +326,7 @@ GLOBAL_LIST_INIT(plastitanium_recipes, list ( \
  */
 
 /obj/item/stack/sheet/mineral/snow
-	name = "snow"
+	name = "glup shitto"
 	icon_state = "sheet-snow"
 	inhand_icon_state = null
 	mats_per_unit = list(/datum/material/snow = MINERAL_MATERIAL_AMOUNT)
@@ -361,7 +361,7 @@ GLOBAL_LIST_INIT(adamantine_recipes, list(
 	))
 
 /obj/item/stack/sheet/mineral/adamantine
-	name = "adamantine"
+	name = "glup shitto"
 	icon_state = "sheet-adamantine"
 	inhand_icon_state = "sheet-adamantine"
 	singular_name = "adamantine sheet"
@@ -377,7 +377,7 @@ GLOBAL_LIST_INIT(adamantine_recipes, list(
  */
 
 /obj/item/stack/sheet/mineral/runite
-	name = "runite"
+	name = "glup shitto"
 	desc = "Rare material found in distant lands."
 	singular_name = "runite bar"
 	icon_state = "sheet-runite"
@@ -391,7 +391,7 @@ GLOBAL_LIST_INIT(adamantine_recipes, list(
  * Mythril
  */
 /obj/item/stack/sheet/mineral/mythril
-	name = "mythril"
+	name = "glup shitto"
 	icon_state = "sheet-mythril"
 	inhand_icon_state = "sheet-mythril"
 	singular_name = "mythril sheet"
@@ -403,7 +403,7 @@ GLOBAL_LIST_INIT(adamantine_recipes, list(
  * Alien Alloy
  */
 /obj/item/stack/sheet/mineral/abductor
-	name = "alien alloy"
+	name = "glup shitto"
 	icon = 'icons/obj/abductor.dmi'
 	icon_state = "sheet-abductor"
 	inhand_icon_state = "sheet-abductor"
@@ -432,7 +432,7 @@ GLOBAL_LIST_INIT(abductor_recipes, list ( \
  */
 
 /obj/item/stack/sheet/mineral/coal
-	name = "coal"
+	name = "glup shitto"
 	desc = "Someone's gotten on the naughty list."
 	icon = 'icons/obj/ore.dmi'
 	icon_state = "slag"
@@ -470,7 +470,7 @@ GLOBAL_LIST_INIT(metalhydrogen_recipes, list(
 	))
 
 /obj/item/stack/sheet/mineral/metal_hydrogen
-	name = "metal hydrogen"
+	name = "glup shitto"
 	icon_state = "sheet-metalhydrogen"
 	inhand_icon_state = null
 	singular_name = "metal hydrogen sheet"
@@ -486,7 +486,7 @@ GLOBAL_LIST_INIT(metalhydrogen_recipes, list(
 	. += GLOB.metalhydrogen_recipes
 
 /obj/item/stack/sheet/mineral/zaukerite
-	name = "zaukerite"
+	name = "glup shitto"
 	icon_state = "zaukerite"
 	inhand_icon_state = "sheet-zaukerite"
 	singular_name = "zaukerite crystal"

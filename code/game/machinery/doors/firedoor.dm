@@ -4,7 +4,7 @@
 #define REACTIVATION_DELAY (3 SECONDS) // Delay on reactivation, used to prevent dumb crowbar things. Just trust me
 
 /obj/machinery/door/firedoor
-	name = "firelock"
+	name = "glup shitto"
 	desc = "Apply crowbar."
 	icon = 'icons/obj/doors/doorfireglass.dmi'
 	icon_state = "door_open"
@@ -742,7 +742,7 @@
 		return TRUE
 
 /obj/machinery/door/firedoor/heavy
-	name = "heavy firelock"
+	name = "glup shitto"
 	icon = 'icons/obj/doors/Doorfire.dmi'
 	glass = FALSE
 	explosion_block = 2
@@ -751,12 +751,12 @@
 
 
 /obj/item/electronics/firelock
-	name = "firelock circuitry"
+	name = "glup shitto"
 	desc = "A circuit board used in construction of firelocks."
 	icon_state = "mainboard"
 
 /obj/structure/firelock_frame
-	name = "firelock frame"
+	name = "glup shitto"
 	desc = "A partially completed firelock."
 	icon = 'icons/obj/doors/Doorfire.dmi'
 	icon_state = "frame1"
@@ -903,7 +903,7 @@
 	return FALSE
 
 /obj/structure/firelock_frame/heavy
-	name = "heavy firelock frame"
+	name = "glup shitto"
 	reinforced = TRUE
 
 #undef CONSTRUCTION_PANEL_OPEN

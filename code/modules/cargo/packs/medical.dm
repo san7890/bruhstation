@@ -4,7 +4,7 @@
 	crate_type = /obj/structure/closet/crate/medical
 
 /datum/supply_pack/medical/bloodpacks
-	name = "Blood Pack Variety Crate"
+	name = "glup shitto"
 	desc = "Contains ten different blood packs for reintroducing blood to patients."
 	cost = CARGO_CRATE_VALUE * 7
 	contains = list(/obj/item/reagent_containers/blood = 2,
@@ -21,7 +21,7 @@
 	crate_type = /obj/structure/closet/crate/freezer
 
 /datum/supply_pack/medical/medipen_variety
-	name = "Medipen Variety-Pak"
+	name = "glup shitto"
 	desc = "Contains eight different medipens in three different varieties, \
 		to assist in quickly treating seriously injured patients."
 	cost = CARGO_CRATE_VALUE * 3.5
@@ -31,7 +31,7 @@
 	crate_name = "medipen crate"
 
 /datum/supply_pack/medical/chemical
-	name = "Chemical Starter Kit Crate"
+	name = "glup shitto"
 	desc = "Contains thirteen different chemicals, for all the fun experiments you can make."
 	cost = CARGO_CRATE_VALUE * 2.6
 	contains = list(/obj/item/reagent_containers/cup/bottle/hydrogen,
@@ -54,21 +54,21 @@
 	crate_name = "chemical crate"
 
 /datum/supply_pack/medical/defibs
-	name = "Defibrillator Crate"
+	name = "glup shitto"
 	desc = "Contains two defibrillators for bringing the recently deceased back to life."
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/defibrillator/loaded = 2)
 	crate_name = "defibrillator crate"
 
 /datum/supply_pack/medical/iv_drip
-	name = "IV Drip Crate"
+	name = "glup shitto"
 	desc = "Contains a single IV drip for administering blood to patients."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/machinery/iv_drip)
 	crate_name = "iv drip crate"
 
 /datum/supply_pack/medical/supplies
-	name = "Medical Supplies Crate"
+	name = "glup shitto"
 	desc = "Contains a random assortment of medical supplies. German doctor not included."
 	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/reagent_containers/cup/bottle/multiver,
@@ -103,7 +103,7 @@
 		new item(C)
 
 /datum/supply_pack/medical/surgery
-	name = "Surgical Supplies Crate"
+	name = "glup shitto"
 	desc = "Do you want to perform surgery, but don't have one of those fancy \
 		shmancy degrees? Just get started with this crate containing a medical duffelbag, \
 		Sterilizine spray and collapsible roller bed."
@@ -115,7 +115,7 @@
 	crate_name = "surgical supplies crate"
 
 /datum/supply_pack/medical/salglucanister
-	name = "Heavy-Duty Saline Canister"
+	name = "glup shitto"
 	desc = "Contains a bulk supply of saline-glucose condensed into a single canister that \
 		should last several days, with a large pump to fill containers with. Direct injection \
 		of saline should be left to medical professionals as the pump is capable of overdosing \
@@ -125,7 +125,7 @@
 	contains = list(/obj/machinery/iv_drip/saline)
 
 /datum/supply_pack/medical/virus
-	name = "Virus Crate"
+	name = "glup shitto"
 	desc = "Contains twelve different bottles of several viral samples for virology \
 		research. Also includes seven beakers and syringes. Balled-up jeans not included."
 	cost = CARGO_CRATE_VALUE * 5
@@ -149,7 +149,7 @@
 	dangerous = TRUE
 
 /datum/supply_pack/medical/cmoturtlenecks
-	name = "Chief Medical Officer Turtlenecks"
+	name = "glup shitto"
 	desc = "Contains the CMO's turtleneck and turtleneck skirt."
 	cost = CARGO_CRATE_VALUE * 2
 	access = ACCESS_CMO
@@ -158,7 +158,7 @@
 				)
 
 /datum/supply_pack/medical/arm_implants
-	name = "Strong-Arm Implant Set"
+	name = "glup shitto"
 	desc = "A crate containing two implants, which can be surgically implanted to empower the strength of human arms. Warranty void if exposed to electromagnetic pulses."
 	cost = CARGO_CRATE_VALUE * 6
 	contains = list(/obj/item/organ/internal/cyberimp/arm/muscle = 2)

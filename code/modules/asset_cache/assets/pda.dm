@@ -1,5 +1,5 @@
 /datum/asset/spritesheet/simple/pda
-	name = "pda"
+	name = "glup shitto"
 	assets = list(
 		"atmos" = 'icons/pda_icons/pda_atmos.png',
 		"back" = 'icons/pda_icons/pda_back.png',

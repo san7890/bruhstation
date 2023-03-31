@@ -65,7 +65,7 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 
 ///classic FTL-esque space pirates.
 /datum/pirate_gang/rogues
-	name = "Rogues"
+	name = "glup shitto"
 
 	ship_template_id = "default"
 	ship_name_pool = "rogue_names"
@@ -84,7 +84,7 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 
 ///aristocrat lizards looking to hunt the serfs
 /datum/pirate_gang/silverscales
-	name = "Silverscales"
+	name = "glup shitto"
 
 	ship_template_id = "silverscale"
 	ship_name_pool = "silverscale_names"
@@ -101,7 +101,7 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 
 ///undead skeleton crew looking for booty
 /datum/pirate_gang/skeletons
-	name = "Skeleton Pirates"
+	name = "glup shitto"
 
 	is_heavy_threat = TRUE
 	ship_template_id = "dutchman"
@@ -118,7 +118,7 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 
 ///psychic gangster junkies who want some allowance to continue the gore-binge
 /datum/pirate_gang/psykers
-	name = "Roving Psyker-gang"
+	name = "glup shitto"
 
 	ship_template_id = "psyker"
 	ship_name_pool = "psyker_names" //just points to THE ONE AND ONLY

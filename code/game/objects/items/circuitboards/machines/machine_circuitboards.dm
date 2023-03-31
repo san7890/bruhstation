@@ -1,7 +1,7 @@
 //Command
 
 /obj/item/circuitboard/machine/bsa/back
-	name = "Bluespace Artillery Generator"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_COMMAND
 	build_path = /obj/machinery/bsa/back //No freebies!
 	specific_parts = TRUE
@@ -10,7 +10,7 @@
 		/obj/item/stack/cable_coil = 2)
 
 /obj/item/circuitboard/machine/bsa/front
-	name = "Bluespace Artillery Bore"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_COMMAND
 	build_path = /obj/machinery/bsa/front
 	specific_parts = TRUE
@@ -19,7 +19,7 @@
 		/obj/item/stack/cable_coil = 2)
 
 /obj/item/circuitboard/machine/bsa/middle
-	name = "Bluespace Artillery Fusor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_COMMAND
 	build_path = /obj/machinery/bsa/middle
 	req_components = list(
@@ -27,7 +27,7 @@
 		/obj/item/stack/cable_coil = 2)
 
 /obj/item/circuitboard/machine/dna_vault
-	name = "DNA Vault"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_COMMAND
 	build_path = /obj/machinery/dna_vault //No freebies!
 	specific_parts = TRUE
@@ -39,7 +39,7 @@
 //Engineering
 
 /obj/item/circuitboard/machine/announcement_system
-	name = "Announcement System"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/announcement_system
 	req_components = list(
@@ -47,7 +47,7 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/suit_storage_unit
-	name = "Suit Storage Unit"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/suit_storage_unit
 	req_components = list(
@@ -56,7 +56,7 @@
 		/datum/stock_part/capacitor = 1)
 
 /obj/item/circuitboard/machine/autolathe
-	name = "Autolathe"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/autolathe
 	req_components = list(
@@ -65,7 +65,7 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/grounding_rod
-	name = "Grounding Rod"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/energy_accumulator/grounding_rod
 	req_components = list(/datum/stock_part/capacitor = 1)
@@ -73,7 +73,7 @@
 
 
 /obj/item/circuitboard/machine/telecomms/broadcaster
-	name = "Subspace Broadcaster"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/broadcaster
 	req_components = list(
@@ -84,7 +84,7 @@
 		/datum/stock_part/micro_laser = 2)
 
 /obj/item/circuitboard/machine/telecomms/bus
-	name = "Bus Mainframe"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/bus
 	req_components = list(
@@ -93,7 +93,7 @@
 		/datum/stock_part/filter = 1)
 
 /obj/item/circuitboard/machine/telecomms/hub
-	name = "Hub Mainframe"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/hub
 	req_components = list(
@@ -102,7 +102,7 @@
 		/datum/stock_part/filter = 2)
 
 /obj/item/circuitboard/machine/telecomms/message_server
-	name = "Messaging Server"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/message_server
 	req_components = list(
@@ -111,7 +111,7 @@
 		/datum/stock_part/filter = 3)
 
 /obj/item/circuitboard/machine/telecomms/processor
-	name = "Processor Unit"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/processor
 	req_components = list(
@@ -123,7 +123,7 @@
 		/datum/stock_part/amplifier = 1)
 
 /obj/item/circuitboard/machine/telecomms/receiver
-	name = "Subspace Receiver"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/receiver
 	req_components = list(
@@ -133,7 +133,7 @@
 		/datum/stock_part/micro_laser = 1)
 
 /obj/item/circuitboard/machine/telecomms/relay
-	name = "Relay Mainframe"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/relay
 	req_components = list(
@@ -142,7 +142,7 @@
 		/datum/stock_part/filter = 2)
 
 /obj/item/circuitboard/machine/telecomms/server
-	name = "Telecommunication Server"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/telecomms/server
 	req_components = list(
@@ -151,7 +151,7 @@
 		/datum/stock_part/filter = 1)
 
 /obj/item/circuitboard/machine/tesla_coil
-	name = "Tesla Controller"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	desc = "Does not let you shoot lightning from your hands."
 	build_path = /obj/machinery/power/energy_accumulator/tesla_coil
@@ -159,20 +159,20 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/cell_charger
-	name = "Cell Charger"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/cell_charger
 	req_components = list(/datum/stock_part/capacitor = 1)
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/circulator
-	name = "Circulator/Heat Exchanger"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/binary/circulator
 	req_components = list()
 
 /obj/item/circuitboard/machine/emitter
-	name = "Emitter"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/emitter
 	req_components = list(
@@ -181,13 +181,13 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/generator
-	name = "Thermo-Electric Generator"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/generator
 	req_components = list()
 
 /obj/item/circuitboard/machine/ntnet_relay
-	name = "NTNet Relay"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/ntnet_relay
 	req_components = list(
@@ -195,7 +195,7 @@
 		/datum/stock_part/filter = 1)
 
 /obj/item/circuitboard/machine/pacman
-	name = "PACMAN-type Generator"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/port_gen/pacman
 	req_components = list(
@@ -217,7 +217,7 @@
 	to_chat(user, span_notice("You set the board for [message]"))
 
 /obj/item/circuitboard/machine/turbine_compressor
-	name = "Turbine - Inlet Compressor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/turbine/inlet_compressor/constructed
 	req_components = list(
@@ -225,7 +225,7 @@
 		/obj/item/stack/sheet/iron = 5)
 
 /obj/item/circuitboard/machine/turbine_rotor
-	name = "Turbine - Core Rotor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/turbine/core_rotor/constructed
 	req_components = list(
@@ -233,7 +233,7 @@
 		/obj/item/stack/sheet/iron = 5)
 
 /obj/item/circuitboard/machine/turbine_stator
-	name = "Turbine - Turbine Outlet"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/turbine/turbine_outlet/constructed
 	req_components = list(
@@ -241,7 +241,7 @@
 		/obj/item/stack/sheet/iron = 5)
 
 /obj/item/circuitboard/machine/protolathe/department/engineering
-	name = "Departmental Protolathe - Engineering"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/rnd/production/protolathe/department/engineering
 
@@ -249,7 +249,7 @@
 	build_path = /obj/machinery/rnd/production/protolathe/department/engineering/no_tax
 
 /obj/item/circuitboard/machine/rtg
-	name = "RTG"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/rtg
 	req_components = list(
@@ -258,7 +258,7 @@
 		/obj/item/stack/sheet/mineral/uranium = 10) // We have no Pu-238, and this is the closest thing to it.
 
 /obj/item/circuitboard/machine/rtg/advanced
-	name = "Advanced RTG"
+	name = "glup shitto"
 	build_path = /obj/machinery/power/rtg/advanced
 	req_components = list(
 		/obj/item/stack/cable_coil = 5,
@@ -268,14 +268,14 @@
 		/obj/item/stack/sheet/mineral/plasma = 5)
 
 /obj/item/circuitboard/machine/scanner_gate
-	name = "Scanner Gate"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/scanner_gate
 	req_components = list(
 		/datum/stock_part/scanning_module = 3)
 
 /obj/item/circuitboard/machine/smes
-	name = "SMES"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/power/smes
 	req_components = list(
@@ -285,12 +285,12 @@
 	def_components = list(/obj/item/stock_parts/cell = /obj/item/stock_parts/cell/high/empty)
 
 /obj/item/circuitboard/machine/techfab/department/engineering
-	name = "\improper Departmental Techfab - Engineering"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/rnd/production/techfab/department/engineering
 
 /obj/item/circuitboard/machine/thermomachine
-	name = "Thermomachine"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/unary/thermomachine/freezer
 	var/pipe_layer = PIPING_LAYER_DEFAULT
@@ -310,28 +310,28 @@
 	. += span_notice("It is set to layer [pipe_layer].")
 
 /obj/item/circuitboard/machine/HFR_fuel_input
-	name = "HFR Fuel Input"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/unary/hypertorus/fuel_input
 	req_components = list(
 		/obj/item/stack/sheet/plasteel = 5)
 
 /obj/item/circuitboard/machine/HFR_waste_output
-	name = "HFR Waste Output"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/unary/hypertorus/waste_output
 	req_components = list(
 		/obj/item/stack/sheet/plasteel = 5)
 
 /obj/item/circuitboard/machine/HFR_moderator_input
-	name = "HFR Moderator Input"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/unary/hypertorus/moderator_input
 	req_components = list(
 		/obj/item/stack/sheet/plasteel = 5)
 
 /obj/item/circuitboard/machine/HFR_core
-	name = "HFR core"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/unary/hypertorus/core
 	req_components = list(
@@ -340,14 +340,14 @@
 		/obj/item/stack/sheet/plasteel = 10)
 
 /obj/item/circuitboard/machine/HFR_corner
-	name = "HFR Corner"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/hypertorus/corner
 	req_components = list(
 		/obj/item/stack/sheet/plasteel = 5)
 
 /obj/item/circuitboard/machine/HFR_interface
-	name = "HFR Interface"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/hypertorus/interface
 	req_components = list(
@@ -356,7 +356,7 @@
 		/obj/item/stack/sheet/plasteel = 5)
 
 /obj/item/circuitboard/machine/crystallizer
-	name = "Crystallizer"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/binary/crystallizer
 	req_components = list(
@@ -365,7 +365,7 @@
 		/obj/item/stack/sheet/plasteel = 5)
 
 /obj/item/circuitboard/machine/bluespace_sender
-	name = "Bluespace Sender"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_ENGINEERING
 	build_path = /obj/machinery/atmospherics/components/unary/bluespace_sender
 	req_components = list(
@@ -375,7 +375,7 @@
 
 //Generic
 /obj/item/circuitboard/machine/component_printer
-	name = "\improper Component Printer (Machine Board)"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/component_printer
 	req_components = list(
@@ -384,7 +384,7 @@
 	)
 
 /obj/item/circuitboard/machine/module_duplicator
-	name = "\improper Module Duplicator (Machine Board)"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/module_duplicator
 	req_components = list(
@@ -393,7 +393,7 @@
 	)
 
 /obj/item/circuitboard/machine/circuit_imprinter
-	name = "Circuit Imprinter"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/rnd/production/circuit_imprinter
 	req_components = list(
@@ -402,16 +402,16 @@
 		/obj/item/reagent_containers/cup/beaker = 2)
 
 /obj/item/circuitboard/machine/circuit_imprinter/offstation
-	name = "Ancient Circuit Imprinter"
+	name = "glup shitto"
 	build_path = /obj/machinery/rnd/production/circuit_imprinter/offstation
 
 /obj/item/circuitboard/machine/circuit_imprinter/department
-	name = "Departmental Circuit Imprinter"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/rnd/production/circuit_imprinter/department
 
 /obj/item/circuitboard/machine/holopad
-	name = "AI Holopad"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/holopad
 	req_components = list(/datum/stock_part/capacitor = 1)
@@ -435,7 +435,7 @@
 		. += "There is a red light flashing next to the word \"secure\""
 
 /obj/item/circuitboard/machine/launchpad
-	name = "Bluespace Launchpad"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/launchpad
 	req_components = list(
@@ -444,7 +444,7 @@
 	def_components = list(/obj/item/stack/ore/bluespace_crystal = /obj/item/stack/ore/bluespace_crystal/artificial)
 
 /obj/item/circuitboard/machine/protolathe
-	name = "Protolathe"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/rnd/production/protolathe
 	req_components = list(
@@ -453,16 +453,16 @@
 		/obj/item/reagent_containers/cup/beaker = 2)
 
 /obj/item/circuitboard/machine/protolathe/offstation
-	name = "Ancient Protolathe"
+	name = "glup shitto"
 	build_path = /obj/machinery/rnd/production/protolathe/offstation
 
 /obj/item/circuitboard/machine/protolathe/department
-	name = "Departmental Protolathe"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/rnd/production/protolathe/department
 
 /obj/item/circuitboard/machine/reagentgrinder
-	name = "All-In-One Grinder"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/reagentgrinder/constructed
 	req_components = list(
@@ -470,7 +470,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/smartfridge
-	name = "Smartfridge"
+	name = "glup shitto"
 	build_path = /obj/machinery/smartfridge
 	req_components = list(/datum/stock_part/matter_bin = 1)
 	var/static/list/fridges_name_paths = list(/obj/machinery/smartfridge = "plant produce",
@@ -509,7 +509,7 @@
 
 
 /obj/item/circuitboard/machine/space_heater
-	name = "Space Heater"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/space_heater/constructed
 	req_components = list(
@@ -519,7 +519,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/electrolyzer
-	name = "Electrolyzer"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/electrolyzer
 	req_components = list(
@@ -532,7 +532,7 @@
 
 
 /obj/item/circuitboard/machine/techfab
-	name = "\improper Techfab"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/rnd/production/techfab
 	req_components = list(
@@ -541,11 +541,11 @@
 		/obj/item/reagent_containers/cup/beaker = 2)
 
 /obj/item/circuitboard/machine/techfab/department
-	name = "\improper Departmental Techfab"
+	name = "glup shitto"
 	build_path = /obj/machinery/rnd/production/techfab/department
 
 /obj/item/circuitboard/machine/vendor
-	name = "Custom Vendor"
+	name = "glup shitto"
 	desc = "You can turn the \"brand selection\" dial using a screwdriver."
 	custom_premium_price = PAYCHECK_CREW * 1.5
 	build_path = /obj/machinery/vending/custom
@@ -612,7 +612,7 @@
 
 /obj/item/circuitboard/machine/vendor/proc/set_type(obj/machinery/vending/typepath)
 	build_path = typepath
-	name = "[vending_names_paths[build_path]] Vendor"
+	name = "glup shitto"
 	req_components = list(initial(typepath.refill_canister) = 1)
 
 /obj/item/circuitboard/machine/vendor/apply_default_parts(obj/machinery/machine)
@@ -623,21 +623,21 @@
 	return ..()
 
 /obj/item/circuitboard/machine/vending/donksofttoyvendor
-	name = "Donksoft Toy Vendor"
+	name = "glup shitto"
 	build_path = /obj/machinery/vending/donksofttoyvendor
 	req_components = list(
 		/obj/item/stack/sheet/glass = 1,
 		/obj/item/vending_refill/donksoft = 1)
 
 /obj/item/circuitboard/machine/vending/syndicatedonksofttoyvendor
-	name = "Syndicate Donksoft Toy Vendor"
+	name = "glup shitto"
 	build_path = /obj/machinery/vending/toyliberationstation
 	req_components = list(
 		/obj/item/stack/sheet/glass = 1,
 		/obj/item/vending_refill/donksoft = 1)
 
 /obj/item/circuitboard/machine/bountypad
-	name = "Civilian Bounty Pad"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/piratepad/civilian
 	req_components = list(
@@ -647,7 +647,7 @@
 	)
 
 /obj/item/circuitboard/machine/fax
-	name = "Fax Machine"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC
 	build_path = /obj/machinery/fax
 	req_components = list(
@@ -659,7 +659,7 @@
 //Medical
 
 /obj/item/circuitboard/machine/chem_dispenser
-	name = "Chem Dispenser"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/chem_dispenser
 	req_components = list(
@@ -694,7 +694,7 @@
 	)
 
 /obj/item/circuitboard/machine/chem_dispenser/abductor
-	name = "Reagent Synthesizer"
+	name = "glup shitto"
 	name_extension = "(Abductor Machine Board)"
 	icon_state = "abductor_mod"
 	build_path = /obj/machinery/chem_dispenser/abductor
@@ -709,7 +709,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/chem_heater
-	name = "Chemical Heater"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/chem_heater
 	req_components = list(
@@ -717,7 +717,7 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/chem_mass_spec
-	name = "High-Performance Liquid Chromatography"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/chem_mass_spec
 	req_components = list(
@@ -725,7 +725,7 @@
 	/obj/item/stack/cable_coil = 5)
 
 /obj/item/circuitboard/machine/chem_master
-	name = "ChemMaster 3000"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/chem_master
 	desc = "You can turn the \"mode selection\" dial using a screwdriver."
@@ -744,12 +744,12 @@
 		new_path = /obj/machinery/chem_master/condimaster
 
 	build_path = new_path
-	name = "[new_name] 3000"
+	name = "glup shitto"
 	to_chat(user, span_notice("You change the circuit board setting to \"[new_name]\"."))
 	return TRUE
 
 /obj/item/circuitboard/machine/cryo_tube
-	name = "Cryotube"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/atmospherics/components/unary/cryo_cell
 	req_components = list(
@@ -758,20 +758,20 @@
 		/obj/item/stack/sheet/glass = 4)
 
 /obj/item/circuitboard/machine/fat_sucker
-	name = "Lipid Extractor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/fat_sucker
 	req_components = list(/datum/stock_part/micro_laser = 1,
 		/obj/item/kitchen/fork = 1)
 
 /obj/item/circuitboard/machine/harvester
-	name = "Harvester"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/harvester
 	req_components = list(/datum/stock_part/micro_laser = 4)
 
 /obj/item/circuitboard/machine/medical_kiosk
-	name = "Medical Kiosk"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/medical_kiosk
 	var/custom_cost = 10
@@ -795,7 +795,7 @@
 	. += "The cost to use this kiosk is set to [custom_cost]."
 
 /obj/item/circuitboard/machine/limbgrower
-	name = "Limb Grower"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/limbgrower
 	req_components = list(
@@ -804,7 +804,7 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/limbgrower/fullupgrade
-	name = "Limb Grower"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/limbgrower
 	req_components = list(
@@ -813,12 +813,12 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/protolathe/department/medical
-	name = "Departmental Protolathe - Medical"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/rnd/production/protolathe/department/medical
 
 /obj/item/circuitboard/machine/sleeper
-	name = "Sleeper"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/sleeper
 	req_components = list(
@@ -836,11 +836,11 @@
 		/obj/item/stack/sheet/glass = 2)
 
 /obj/item/circuitboard/machine/sleeper/party
-	name = "Party Pod"
+	name = "glup shitto"
 	build_path = /obj/machinery/sleeper/party
 
 /obj/item/circuitboard/machine/smoke_machine
-	name = "Smoke Machine"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/smoke_machine
 	req_components = list(
@@ -852,7 +852,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/stasis
-	name = "\improper Lifeform Stasis Unit"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/stasis
 	req_components = list(
@@ -861,26 +861,26 @@
 		/datum/stock_part/capacitor = 1)
 
 /obj/item/circuitboard/machine/medipen_refiller
-	name = "Medipen Refiller"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/medipen_refiller
 	req_components = list(
 		/datum/stock_part/matter_bin = 1)
 
 /obj/item/circuitboard/machine/techfab/department/medical
-	name = "\improper Departmental Techfab - Medical"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/rnd/production/techfab/department/medical
 
 //Science
 
 /obj/item/circuitboard/machine/circuit_imprinter/department/science
-	name = "Departmental Circuit Imprinter - Science"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/rnd/production/circuit_imprinter/department/science
 
 /obj/item/circuitboard/machine/cyborgrecharger
-	name = "Cyborg Recharger"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/recharge_station
 	req_components = list(
@@ -890,7 +890,7 @@
 	def_components = list(/obj/item/stock_parts/cell = /obj/item/stock_parts/cell/high)
 
 /obj/item/circuitboard/machine/destructive_analyzer
-	name = "Destructive Analyzer"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/rnd/destructive_analyzer
 	req_components = list(
@@ -899,7 +899,7 @@
 		/datum/stock_part/micro_laser = 1)
 
 /obj/item/circuitboard/machine/experimentor
-	name = "E.X.P.E.R.I-MENTOR"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/rnd/experimentor
 	req_components = list(
@@ -908,7 +908,7 @@
 		/datum/stock_part/micro_laser = 2)
 
 /obj/item/circuitboard/machine/mech_recharger
-	name = "Mechbay Recharger"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/mech_bay_recharge_port
 	req_components = list(
@@ -916,7 +916,7 @@
 		/datum/stock_part/capacitor = 5)
 
 /obj/item/circuitboard/machine/mechfab
-	name = "Exosuit Fabricator"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/mecha_part_fabricator
 	req_components = list(
@@ -926,7 +926,7 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/monkey_recycler
-	name = "Monkey Recycler"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/monkey_recycler
 	req_components = list(
@@ -935,17 +935,17 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/processor/slime
-	name = "Slime Processor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/processor/slime
 
 /obj/item/circuitboard/machine/protolathe/department/science
-	name = "Departmental Protolathe - Science"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/rnd/production/protolathe/department/science
 
 /obj/item/circuitboard/machine/quantumpad
-	name = "Quantum Pad"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/quantumpad
 	req_components = list(
@@ -956,7 +956,7 @@
 	def_components = list(/obj/item/stack/ore/bluespace_crystal = /obj/item/stack/ore/bluespace_crystal/artificial)
 
 /obj/item/circuitboard/machine/rdserver
-	name = "R&D Server"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/rnd/server
 	req_components = list(
@@ -964,12 +964,12 @@
 		/datum/stock_part/scanning_module = 1)
 
 /obj/item/circuitboard/machine/techfab/department/science
-	name = "\improper Departmental Techfab - Science"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/rnd/production/techfab/department/science
 
 /obj/item/circuitboard/machine/teleporter_hub
-	name = "Teleporter Hub"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/teleport/hub
 	req_components = list(
@@ -978,7 +978,7 @@
 	def_components = list(/obj/item/stack/ore/bluespace_crystal = /obj/item/stack/ore/bluespace_crystal/artificial)
 
 /obj/item/circuitboard/machine/teleporter_station
-	name = "Teleporter Station"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/teleport/station
 	req_components = list(
@@ -988,7 +988,7 @@
 	def_components = list(/obj/item/stack/ore/bluespace_crystal = /obj/item/stack/ore/bluespace_crystal/artificial)
 
 /obj/item/circuitboard/machine/dnascanner
-	name = "DNA Scanner"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/dna_scannernew
 	req_components = list(
@@ -1000,7 +1000,7 @@
 
 
 /obj/item/circuitboard/machine/dna_infuser
-	name = "DNA Infuser"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/dna_infuser
 	req_components = list(
@@ -1011,13 +1011,13 @@
 	)
 
 /obj/item/circuitboard/machine/mechpad
-	name = "Mecha Orbital Pad"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/mechpad
 	req_components = list()
 
 /obj/item/circuitboard/machine/botpad
-	name = "Bot launchpad"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/botpad
 	req_components = list()
@@ -1025,26 +1025,26 @@
 //Security
 
 /obj/item/circuitboard/machine/protolathe/department/security
-	name = "Departmental Protolathe - Security"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SECURITY
 	build_path = /obj/machinery/rnd/production/protolathe/department/security
 
 /obj/item/circuitboard/machine/recharger
-	name = "Weapon Recharger"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SECURITY
 	build_path = /obj/machinery/recharger
 	req_components = list(/datum/stock_part/capacitor = 1)
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/techfab/department/security
-	name = "\improper Departmental Techfab - Security"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SECURITY
 	build_path = /obj/machinery/rnd/production/techfab/department/security
 
 //Service
 
 /obj/item/circuitboard/machine/biogenerator
-	name = "Biogenerator"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/biogenerator
 	req_components = list(
@@ -1054,7 +1054,7 @@
 		/obj/item/stack/sheet/glass = 1)
 
 /obj/item/circuitboard/machine/chem_dispenser/drinks
-	name = "Soda Dispenser"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/chem_dispenser/drinks
 
@@ -1069,7 +1069,7 @@
 	)
 
 /obj/item/circuitboard/machine/chem_dispenser/drinks/beer
-	name = "Booze Dispenser"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/chem_dispenser/drinks/beer
 
@@ -1084,33 +1084,33 @@
 	)
 
 /obj/item/circuitboard/machine/chem_master/condi
-	name = "CondiMaster 3000"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/chem_master/condimaster
 
 /obj/item/circuitboard/machine/deep_fryer
-	name = "Deep Fryer"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/deepfryer
 	req_components = list(/datum/stock_part/micro_laser = 1)
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/griddle
-	name = "Griddle"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/griddle
 	req_components = list(/datum/stock_part/micro_laser = 1)
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/oven
-	name = "Oven"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/oven
 	req_components = list(/datum/stock_part/micro_laser = 1)
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/dish_drive
-	name = "Dish Drive"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/dish_drive
 	req_components = list(
@@ -1137,7 +1137,7 @@
 	to_chat(user, span_notice("You [transmit ? "enable" : "disable"] the board's automatic disposal transmission."))
 
 /obj/item/circuitboard/machine/gibber
-	name = "Gibber"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/gibber
 	req_components = list(
@@ -1146,7 +1146,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/hydroponics
-	name = "Hydroponics Tray"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/hydroponics/constructable
 	req_components = list(
@@ -1156,7 +1156,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/microwave
-	name = "Microwave"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/microwave
 	req_components = list(
@@ -1167,7 +1167,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/processor
-	name = "Food Processor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/processor
 	req_components = list(
@@ -1187,12 +1187,12 @@
 	return TRUE
 
 /obj/item/circuitboard/machine/protolathe/department/service
-	name = "Departmental Protolathe - Service"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/rnd/production/protolathe/department/service
 
 /obj/item/circuitboard/machine/recycler
-	name = "Recycler"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/recycler
 	req_components = list(
@@ -1200,7 +1200,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/seed_extractor
-	name = "Seed Extractor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/seed_extractor
 	req_components = list(
@@ -1209,12 +1209,12 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/techfab/department/service
-	name = "\improper Departmental Techfab - Service"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/rnd/production/techfab/department/service
 
 /obj/item/circuitboard/machine/vendatray
-	name = "Vend-A-Tray"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/structure/displaycase/forsale
 	req_components = list(
@@ -1222,7 +1222,7 @@
 
 //Supply
 /obj/item/circuitboard/machine/ore_redemption
-	name = "Ore Redemption"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/mineral/ore_redemption
 	req_components = list(
@@ -1234,18 +1234,18 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/ore_silo
-	name = "Ore Silo"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/ore_silo
 	req_components = list()
 
 /obj/item/circuitboard/machine/protolathe/department/cargo
-	name = "Departmental Protolathe - Cargo"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/rnd/production/protolathe/department/cargo
 
 /obj/item/circuitboard/machine/stacking_machine
-	name = "Stacking Machine"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/mineral/stacking_machine
 	req_components = list(
@@ -1253,7 +1253,7 @@
 		/datum/stock_part/matter_bin = 2)
 
 /obj/item/circuitboard/machine/stacking_unit_console
-	name = "Stacking Machine Console"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/mineral/stacking_unit_console
 	req_components = list(
@@ -1261,12 +1261,12 @@
 		/obj/item/stack/cable_coil = 5)
 
 /obj/item/circuitboard/machine/techfab/department/cargo
-	name = "\improper Departmental Techfab - Cargo"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/rnd/production/techfab/department/cargo
 
 /obj/item/circuitboard/machine/bepis
-	name = "BEPIS Chamber"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/rnd/bepis
 	req_components = list(
@@ -1278,7 +1278,7 @@
 
 //Misc
 /obj/item/circuitboard/machine/sheetifier
-	name = "Sheet-meister 2000"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SUPPLY
 	build_path = /obj/machinery/sheetifier
 	req_components = list(
@@ -1287,17 +1287,17 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/restaurant_portal
-	name = "Restaurant Portal"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/restaurant_portal
 	needs_anchored = TRUE
 
 /obj/item/circuitboard/machine/abductor
-	name = "alien board (Report This)"
+	name = "glup shitto"
 	icon_state = "abductor_mod"
 
 /obj/item/circuitboard/machine/abductor/core
-	name = "alien board"
+	name = "glup shitto"
 	name_extension = "(Void Core)"
 	build_path = /obj/machinery/power/rtg/abductor
 	req_components = list(
@@ -1309,7 +1309,7 @@
 		/datum/stock_part/micro_laser = /datum/stock_part/micro_laser/tier4)
 
 /obj/item/circuitboard/machine/hypnochair
-	name = "Enhanced Interrogation Chamber"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SECURITY
 	build_path = /obj/machinery/hypnochair
 	req_components = list(
@@ -1318,7 +1318,7 @@
 	)
 
 /obj/item/circuitboard/machine/plumbing_receiver
-	name = "Chemical Recipient"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_MEDICAL
 	build_path = /obj/machinery/plumbing/receiver
 	req_components = list(
@@ -1329,7 +1329,7 @@
 	needs_anchored = FALSE
 
 /obj/item/circuitboard/machine/skill_station
-	name = "Skill Station"
+	name = "glup shitto"
 	build_path = /obj/machinery/skill_station
 	req_components = list(
 		/datum/stock_part/matter_bin = 2,
@@ -1338,7 +1338,7 @@
 	)
 
 /obj/item/circuitboard/machine/destructive_scanner
-	name = "Experimental Destructive Scanner"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/destructive_scanner
 	req_components = list(
@@ -1347,7 +1347,7 @@
 		/datum/stock_part/manipulator = 2)
 
 /obj/item/circuitboard/machine/doppler_array
-	name = "Tachyon-Doppler Research Array"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/doppler_array
 	req_components = list(
@@ -1355,7 +1355,7 @@
 		/datum/stock_part/scanning_module = 4)
 
 /obj/item/circuitboard/machine/exoscanner
-	name = "Exoscanner"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/exoscanner
 	req_components = list(
@@ -1363,7 +1363,7 @@
 		/datum/stock_part/scanning_module = 4)
 
 /obj/item/circuitboard/machine/exodrone_launcher
-	name = "Exploration Drone Launcher"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/exodrone_launcher
 	req_components = list(
@@ -1371,14 +1371,14 @@
 		/datum/stock_part/scanning_module = 4)
 
 /obj/item/circuitboard/machine/ecto_sniffer
-	name = "Ectoscopic Sniffer"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/ecto_sniffer
 	req_components = list(
 		/datum/stock_part/scanning_module = 1)
 
 /obj/item/circuitboard/machine/anomaly_refinery
-	name = "Anomaly Refinery"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/research/anomaly_refinery
 	req_components = list(
@@ -1388,7 +1388,7 @@
 		)
 
 /obj/item/circuitboard/machine/tank_compressor
-	name = "Tank Compressor"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SCIENCE
 	build_path = /obj/machinery/atmospherics/components/binary/tank_compressor
 	req_components = list(
@@ -1397,7 +1397,7 @@
 		)
 
 /obj/item/circuitboard/machine/coffeemaker
-	name = "Coffeemaker (Machine Board)"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/coffeemaker
 	req_components = list(
@@ -1409,7 +1409,7 @@
 	)
 
 /obj/item/circuitboard/machine/coffeemaker/impressa
-	name = "Impressa Coffeemaker"
+	name = "glup shitto"
 	greyscale_colors = CIRCUIT_COLOR_SERVICE
 	build_path = /obj/machinery/coffeemaker/impressa
 	req_components = list(

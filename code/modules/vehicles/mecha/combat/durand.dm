@@ -1,6 +1,6 @@
 /obj/vehicle/sealed/mecha/durand
 	desc = "An aging combat exosuit utilized by the Nanotrasen corporation. Originally developed to combat hostile alien lifeforms."
-	name = "\improper Durand"
+	name = "glup shitto"
 	icon_state = "durand"
 	base_icon_state = "durand"
 	movedelay = 4
@@ -138,7 +138,7 @@ Expects a turf. Returns true if the attack should be blocked, false if not.*/
 		. = ..()
 
 /datum/action/vehicle/sealed/mecha/mech_defense_mode
-	name = "Toggle an energy shield that blocks all attacks from the faced direction at a heavy power cost."
+	name = "glup shitto"
 	button_icon_state = "mech_defense_mode_off"
 
 /datum/action/vehicle/sealed/mecha/mech_defense_mode/Trigger(trigger_flags, forced_state = FALSE)
@@ -155,7 +155,7 @@ attack is passed to the shield. The shield takes the damage, uses it to calculat
 own integrity back to max. Shield is automatically dropped if we run out of power or the user gets out.*/
 
 /obj/durand_shield //projectiles get passed to this when defense mode is enabled
-	name = "defense grid"
+	name = "glup shitto"
 	icon = 'icons/mecha/durand_shield.dmi'
 	icon_state = "shield_null"
 	invisibility = INVISIBILITY_MAXIMUM //no showing on right-click

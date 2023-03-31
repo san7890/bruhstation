@@ -1,5 +1,5 @@
 /datum/species/android
-	name = "Android"
+	name = "glup shitto"
 	id = SPECIES_ANDROID
 	species_traits = list(
 		NO_DNA_COPY,

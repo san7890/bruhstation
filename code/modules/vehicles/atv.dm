@@ -1,6 +1,6 @@
 
 /obj/vehicle/ridden/atv
-	name = "all-terrain vehicle"
+	name = "glup shitto"
 	desc = "An all-terrain vehicle built for traversing rough terrain with ease. One of the few old-Earth technologies that are still relevant on most planet-bound outposts."
 	icon_state = "atv"
 	max_integrity = 150
@@ -37,7 +37,7 @@
 	var/obj/machinery/porta_turret/syndicate/vehicle_turret/turret = null
 
 /obj/machinery/porta_turret/syndicate/vehicle_turret
-	name = "mounted turret"
+	name = "glup shitto"
 	scan_range = 7
 	density = FALSE
 

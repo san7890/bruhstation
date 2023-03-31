@@ -3,7 +3,7 @@ Prismatic extracts:
 	Becomes an infinite-use paintbrush.
 */
 /obj/item/slimecross/prismatic
-	name = "prismatic extract"
+	name = "glup shitto"
 	desc = "It's constantly wet with a semi-transparent, colored goo."
 	effect = "prismatic"
 	effect_desc = "When used it paints whatever it hits."

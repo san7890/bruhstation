@@ -10,7 +10,7 @@
 #define PART_CASH_OFFSET_AMOUNT (0.5*CARGO_CRATE_VALUE)
 
 /obj/machinery/rnd/bepis
-	name = "\improper B.E.P.I.S. Chamber"
+	name = "glup shitto"
 	desc = "A high fidelity testing device which unlocks the secrets of the known universe using the two most powerful substances available to man: excessive amounts of electricity and capital."
 	icon = 'icons/obj/machines/bepis.dmi'
 	icon_state = "chamber"

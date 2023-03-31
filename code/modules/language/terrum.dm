@@ -1,5 +1,5 @@
 /datum/language/terrum
-	name = "Terrum"
+	name = "glup shitto"
 	desc = "The language of the golems. Sounds similar to old-earth Hebrew."
 	key = "g"
 	space_chance = 40

@@ -1,5 +1,5 @@
 /datum/surgery/coronary_bypass
-	name = "Coronary Bypass"
+	name = "glup shitto"
 	organ_to_manipulate = ORGAN_SLOT_HEART
 	possible_locs = list(BODY_ZONE_CHEST)
 	steps = list(
@@ -22,7 +22,7 @@
 
 //an incision but with greater bleed, and a 90% base success chance
 /datum/surgery_step/incise_heart
-	name = "incise heart (scalpel)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_SCALPEL = 90,
 		/obj/item/melee/energy/sword = 45,
@@ -76,7 +76,7 @@
 
 //grafts a coronary bypass onto the individual's heart, success chance is 90% base again
 /datum/surgery_step/coronary_bypass
-	name = "graft coronary bypass (hemostat)"
+	name = "glup shitto"
 	implements = list(
 		TOOL_HEMOSTAT = 90,
 		TOOL_WIRECUTTER = 35,

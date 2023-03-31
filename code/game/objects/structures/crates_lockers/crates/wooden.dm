@@ -1,5 +1,5 @@
 /obj/structure/closet/crate/wooden
-	name = "wooden crate"
+	name = "glup shitto"
 	desc = "Works just as well as a metal one."
 	material_drop = /obj/item/stack/sheet/mineral/wood
 	material_drop_amount = 6
@@ -10,7 +10,7 @@
 	close_sound_volume = 50
 
 /obj/structure/closet/crate/wooden/toy
-	name = "toy box"
+	name = "glup shitto"
 	desc = "It has the words \"Clown + Mime\" written underneath of it with marker."
 
 /obj/structure/closet/crate/wooden/toy/PopulateContents()

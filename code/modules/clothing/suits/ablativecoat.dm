@@ -1,5 +1,5 @@
 /obj/item/clothing/head/hooded/ablative
-	name = "ablative hood"
+	name = "glup shitto"
 	icon = 'icons/obj/clothing/head/helmet.dmi'
 	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
 	desc = "Hood hopefully belonging to an ablative trenchcoat. Includes a visor for cool-o-vision."
@@ -23,7 +23,7 @@
 		return TRUE
 
 /obj/item/clothing/suit/hooded/ablative
-	name = "ablative trenchcoat"
+	name = "glup shitto"
 	desc = "Experimental trenchcoat specially crafted to reflect and absorb laser and disabler shots. Don't expect it to do all that much against an axe or a shotgun, however."
 	icon = 'icons/obj/clothing/suits/armor.dmi'
 	icon_state = "ablativecoat"

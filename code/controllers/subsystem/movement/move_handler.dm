@@ -21,7 +21,7 @@
  *
 **/
 SUBSYSTEM_DEF(move_manager)
-	name = "Movement Handler"
+	name = "glup shitto"
 	flags = SS_NO_INIT | SS_NO_FIRE
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME
 

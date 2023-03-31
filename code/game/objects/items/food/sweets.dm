@@ -1,7 +1,7 @@
 // Sweets that didn't make it into any other category
 
 /obj/item/food/candy_corn
-	name = "candy corn"
+	name = "glup shitto"
 	desc = "It's a handful of candy corn. Can be stored in a detective's hat."
 	icon_state = "candy_corn"
 	food_reagents = list(
@@ -14,7 +14,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/candy_corn/prison
-	name = "desiccated candy corn"
+	name = "glup shitto"
 	desc = "If this candy corn were any harder Security would confiscate it for being a potential shiv."
 	force = 1 // the description isn't lying
 	throwforce = 1 // if someone manages to bust out of jail with candy corn god bless them
@@ -22,7 +22,7 @@
 	foodtypes = GROSS
 
 /obj/item/food/candiedapple
-	name = "candied apple"
+	name = "glup shitto"
 	desc = "An apple coated in sugary sweetness."
 	icon_state = "candiedapple"
 	bite_consumption = 3
@@ -36,7 +36,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/mint
-	name = "mint"
+	name = "glup shitto"
 	desc = "It is only wafer thin."
 	icon_state = "mint"
 	bite_consumption = 1
@@ -46,7 +46,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/ant_candy
-	name = "ant candy"
+	name = "glup shitto"
 	desc = "A colony of ants suspended in hardened sugar. Those things are dead, right?"
 	icon_state = "ant_pop"
 	food_reagents = list(
@@ -63,7 +63,7 @@
 
 // Chocolates
 /obj/item/food/chocolatebar
-	name = "chocolate bar"
+	name = "glup shitto"
 	desc = "Such, sweet, fattening food."
 	icon_state = "chocolatebar"
 	food_reagents = list(
@@ -77,7 +77,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/chococoin
-	name = "chocolate coin"
+	name = "glup shitto"
 	desc = "A completely edible but non-flippable festive coin."
 	icon_state = "chococoin"
 	food_reagents = list(
@@ -91,7 +91,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/fudgedice
-	name = "fudge dice"
+	name = "glup shitto"
 	desc = "A little cube of chocolate that tends to have a less intense taste if you eat too many at once."
 	icon_state = "chocodice"
 	food_reagents = list(
@@ -106,7 +106,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/chocoorange
-	name = "chocolate orange"
+	name = "glup shitto"
 	desc = "A festive chocolate orange."
 	icon_state = "chocoorange"
 	food_reagents = list(
@@ -119,7 +119,7 @@
 	w_class = WEIGHT_CLASS_SMALL
 
 /obj/item/food/bonbon
-	name = "bon bon"
+	name = "glup shitto"
 	desc = "A tiny and sweet chocolate."
 	icon_state = "tiny_chocolate"
 	food_reagents = list(
@@ -133,7 +133,7 @@
 	w_class = WEIGHT_CLASS_TINY
 
 /obj/item/food/bonbon/caramel_truffle
-	name = "caramel truffle"
+	name = "glup shitto"
 	desc = "A bite-sized chocolate truffle with a chewy caramel filling."
 	icon_state = "caramel_truffle"
 	food_reagents = list(
@@ -143,7 +143,7 @@
 	tastes = list("chocolate" = 1, "chewy caramel" = 1)
 
 /obj/item/food/bonbon/chocolate_truffle
-	name = "chocolate truffle"
+	name = "glup shitto"
 	desc = "A bite-sized chocolate truffle with a rich chocolate mousse filling."
 	icon_state = "chocolate_truffle"
 	food_reagents = list(
@@ -152,7 +152,7 @@
 	)
 
 /obj/item/food/bonbon/peanut_truffle
-	name = "peanut truffle"
+	name = "glup shitto"
 	desc = "A bite-sized chocolate truffle with crunchy peanuts mixed in."
 	icon_state = "peanut_truffle"
 	food_reagents = list(
@@ -163,7 +163,7 @@
 	foodtypes = DAIRY | SUGAR | JUNKFOOD | NUTS
 
 /obj/item/food/bonbon/peanut_butter_cup
-	name = "peanut butter cup"
+	name = "glup shitto"
 	desc = "An ultra-sweet chocolate treat with a savory peanut butter filling."
 	icon_state = "peanut_butter_cup"
 	food_reagents = list(
@@ -176,7 +176,7 @@
 
 // Gum
 /obj/item/food/bubblegum
-	name = "bubblegum"
+	name = "glup shitto"
 	desc = "A rubbery strip of gum. Not exactly filling, but it keeps you busy."
 	icon_state = "bubblegum"
 	inhand_icon_state = null
@@ -200,7 +200,7 @@
 	AddElement(/datum/element/chewable, metabolization_amount = metabolization_amount)
 
 /obj/item/food/bubblegum/nicotine
-	name = "nicotine gum"
+	name = "glup shitto"
 	food_reagents = list(
 		/datum/reagent/drug/nicotine = 10,
 		/datum/reagent/consumable/menthol = 5,
@@ -209,14 +209,14 @@
 	color = "#60A584"
 
 /obj/item/food/bubblegum/happiness
-	name = "HP+ gum"
+	name = "glup shitto"
 	desc = "A rubbery strip of gum. It smells funny."
 	food_reagents = list(/datum/reagent/drug/happiness = 15)
 	tastes = list("paint thinner" = 1)
 	color = "#EE35FF"
 
 /obj/item/food/bubblegum/bubblegum
-	name = "bubblegum gum"
+	name = "glup shitto"
 	desc = "A rubbery strip of gum. You don't feel like eating it is a good idea."
 	color = "#913D3D"
 	food_reagents = list(/datum/reagent/blood = 15)
@@ -250,7 +250,7 @@
 	return ..()
 
 /obj/item/food/gumball
-	name = "gumball"
+	name = "glup shitto"
 	desc = "A colorful, sugary gumball."
 	icon = 'icons/obj/food/lollipop.dmi'
 	icon_state = "gumball"
@@ -271,7 +271,7 @@
 
 // Lollipop
 /obj/item/food/lollipop
-	name = "lollipop"
+	name = "glup shitto"
 	desc = "A delicious lollipop. Makes for a great Valentine's present."
 	icon = 'icons/obj/food/lollipop.dmi'
 	icon_state = "lollipop_stick"
@@ -318,7 +318,7 @@
 	)
 
 /obj/item/food/spiderlollipop
-	name = "spider lollipop"
+	name = "glup shitto"
 	desc = "Still gross, but at least it has a mountain of sugar on it."
 	icon_state = "spiderlollipop"
 	worn_icon_state = "lollipop_stick"

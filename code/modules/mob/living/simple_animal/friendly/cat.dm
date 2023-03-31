@@ -1,6 +1,6 @@
 //Cat
 /mob/living/simple_animal/pet/cat
-	name = "cat"
+	name = "glup shitto"
 	desc = "Kitty!!"
 	icon = 'icons/mob/simple/pets.dmi'
 	icon_state = "cat2"
@@ -53,7 +53,7 @@
 
 
 /mob/living/simple_animal/pet/cat/space
-	name = "space cat"
+	name = "glup shitto"
 	desc = "They're a cat... in space!"
 	icon_state = "spacecat"
 	icon_living = "spacecat"
@@ -64,7 +64,7 @@
 	held_state = "spacecat"
 
 /mob/living/simple_animal/pet/cat/breadcat
-	name = "bread cat"
+	name = "glup shitto"
 	desc = "They're a cat... with a bread!"
 	icon_state = "breadcat"
 	icon_living = "breadcat"
@@ -77,7 +77,7 @@
 	return
 
 /mob/living/simple_animal/pet/cat/original
-	name = "Batsy"
+	name = "glup shitto"
 	desc = "The product of alien DNA and bored geneticists."
 	gender = FEMALE
 	icon_state = "original"
@@ -91,7 +91,7 @@
 	return
 
 /mob/living/simple_animal/pet/cat/kitten
-	name = "kitten"
+	name = "glup shitto"
 	desc = "D'aaawwww."
 	icon_state = "kitten"
 	icon_living = "kitten"
@@ -103,7 +103,7 @@
 
 //RUNTIME IS ALIVE! SQUEEEEEEEE~
 /mob/living/simple_animal/pet/cat/runtime
-	name = "Runtime"
+	name = "glup shitto"
 	desc = "GCAT"
 	icon_state = "cat"
 	icon_living = "cat"
@@ -185,7 +185,7 @@
 				new cat_type(loc)
 
 /mob/living/simple_animal/pet/cat/_proc
-	name = "Proc"
+	name = "glup shitto"
 	gender = MALE
 	gold_core_spawnable = NO_SPAWN
 	unique_pet = TRUE
@@ -271,13 +271,13 @@
 				SSmove_manager.move_to(src, movement_target, 0, 3)
 
 /mob/living/simple_animal/pet/cat/jerry //Holy shit we left jerry on donut ~ Arcane ~Fikou
-	name = "Jerry"
+	name = "glup shitto"
 	desc = "Tom is VERY amused."
 	inept_hunter = TRUE
 	gender = MALE
 
 /mob/living/simple_animal/pet/cat/cak //I told you I'd do it, Remie
-	name = "Keeki"
+	name = "glup shitto"
 	desc = "She is a cat made out of cake."
 	icon_state = "cak"
 	icon_living = "cak"

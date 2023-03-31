@@ -1,6 +1,6 @@
 ///A passive implant that plays sound/misc/sadtrombone.ogg when you deathgasp for any reason
 /obj/item/implant/sad_trombone
-	name = "sad trombone implant"
+	name = "glup shitto"
 	actions_types = null
 
 /obj/item/implant/sad_trombone/get_data()
@@ -26,11 +26,11 @@
 
 ///Implanter that spawns with a sad trombone implant, as well as an appropriate name
 /obj/item/implanter/sad_trombone
-	name = "implanter (sad trombone)"
+	name = "glup shitto"
 	imp_type = /obj/item/implant/sad_trombone
 
 ///Implant case that spawns with a sad trombone implant, as well as an appropriate name and description
 /obj/item/implantcase/sad_trombone
-	name = "implant case - 'Sad Trombone'"
+	name = "glup shitto"
 	desc = "A glass case containing a sad trombone implant."
 	imp_type = /obj/item/implant/sad_trombone

@@ -43,7 +43,7 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 ))
 
 /obj/item/clothing/mask/gas/sechailer
-	name = "security gas mask"
+	name = "glup shitto"
 	desc = "A standard issue Security gas mask with integrated 'Compli-o-nator 3000' device. Plays over a dozen pre-recorded compliance phrases designed to get scumbags to stand still whilst you tase them. Do not tamper with the device."
 	actions_types = list(/datum/action/item_action/halt, /datum/action/item_action/adjust)
 	icon_state = "sechailer"
@@ -65,7 +65,7 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	var/safety = TRUE
 
 /obj/item/clothing/mask/gas/sechailer/swat
-	name = "\improper SWAT mask"
+	name = "glup shitto"
 	desc = "A close-fitting tactical mask with an especially aggressive Compli-o-nator 3000."
 	actions_types = list(/datum/action/item_action/halt)
 	icon_state = "swat"
@@ -78,7 +78,7 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	has_fov = TRUE
 
 /obj/item/clothing/mask/gas/sechailer/swat/spacepol
-	name = "spacepol mask"
+	name = "glup shitto"
 	desc = "A close-fitting tactical mask created in cooperation with a certain megacorporation, comes with an especially aggressive Compli-o-nator 3000."
 	icon_state = "spacepol"
 	inhand_icon_state = "spacepol_mask"
@@ -87,7 +87,7 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	visor_flags_cover = MASKCOVERSMOUTH | MASKCOVERSEYES | PEPPERPROOF
 
 /obj/item/clothing/mask/gas/sechailer/cyborg
-	name = "security hailer"
+	name = "glup shitto"
 	desc = "A set of recognizable pre-recorded messages for cyborgs to use when apprehending criminals."
 	icon = 'icons/obj/device.dmi'
 	icon_state = "taperecorder_idle"
@@ -183,7 +183,7 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	overuse_cooldown = FALSE
 
 /obj/item/clothing/mask/whistle
-	name = "police whistle"
+	name = "glup shitto"
 	desc = "A police whistle for when you need to make sure the criminals hear you."
 	icon_state = "whistle"
 	inhand_icon_state = null
@@ -201,10 +201,10 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	playsound(src, 'sound/misc/whistle.ogg', 75, FALSE, 4)
 
 /datum/action/item_action/halt
-	name = "HALT!"
+	name = "glup shitto"
 
 /obj/item/clothing/mask/party_horn
-	name = "party horn"
+	name = "glup shitto"
 	desc = "A paper tube used at parties that makes a noise when blown into."
 	icon_state = "party_horn"
 	inhand_icon_state = null
@@ -213,14 +213,14 @@ GLOBAL_LIST_INIT(hailer_phrases, list(
 	COOLDOWN_DECLARE(horn_cooldown)
 
 /obj/item/clothing/mask/party_horn/ui_action_click(mob/user, action)
-	if(!COOLDOWN_FINISHED(src, horn_cooldown))	
+	if(!COOLDOWN_FINISHED(src, horn_cooldown))
 		return
 	COOLDOWN_START(src, horn_cooldown, 10 SECONDS)
 	playsound(src, 'sound/items/party_horn.ogg', 75, FALSE)
 	flick("party_horn_animated", src)
 
 /datum/action/item_action/toot
-	name = "TOOT!"
+	name = "glup shitto"
 
 #undef PHRASE_COOLDOWN
 #undef OVERUSE_COOLDOWN

@@ -2,7 +2,7 @@
 
 	icon_state = "he1"
 
-	name = "heat exchanger"
+	name = "glup shitto"
 	desc = "Exchanges heat between two input gases. Set up for fast heat transfer."
 
 	can_unwrench = TRUE

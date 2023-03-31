@@ -1,6 +1,6 @@
 //Basically the assistant suit
 /obj/item/clothing/under/plasmaman
-	name = "plasma envirosuit"
+	name = "glup shitto"
 	desc = "A special containment suit that allows plasma-based lifeforms to exist safely in an oxygenated environment, and automatically extinguishes them in a crisis. Despite being airtight, it's not spaceworthy."
 	icon_state = "plasmaman"
 	inhand_icon_state = "plasmaman"
@@ -49,74 +49,74 @@
 			qdel(E)
 
 /obj/item/extinguisher_refill
-	name = "envirosuit extinguisher cartridge"
+	name = "glup shitto"
 	desc = "A cartridge loaded with a compressed extinguisher mix, used to refill the automatic extinguisher on plasma envirosuits."
 	icon_state = "plasmarefill"
 	icon = 'icons/obj/device.dmi'
 
 
 /obj/item/clothing/under/plasmaman/cargo
-	name = "cargo plasma envirosuit"
+	name = "glup shitto"
 	desc = "A joint envirosuit used by plasmamen quartermasters and cargo techs alike, due to the logistical problems of differenciating the two with the length of their pant legs."
 	icon_state = "cargo_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/mining
-	name = "mining plasma envirosuit"
+	name = "glup shitto"
 	desc = "An air-tight khaki suit designed for operations on lavaland by plasmamen."
 	icon_state = "explorer_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/chef
-	name = "chef's plasma envirosuit"
+	name = "glup shitto"
 	desc = "A white plasmaman envirosuit designed for cullinary practices. One might question why a member of a species that doesn't need to eat would become a chef."
 	icon_state = "chef_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/enviroslacks
-	name = "enviroslacks"
+	name = "glup shitto"
 	desc = "The pet project of a particularly posh plasmaman, this custom suit was quickly appropriated by Nanotrasen for its detectives, lawyers, and bartenders alike."
 	icon_state = "enviroslacks"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/chaplain
-	name = "chaplain's plasma envirosuit"
+	name = "glup shitto"
 	desc = "An envirosuit specially designed for only the most pious of plasmamen."
 	icon_state = "chap_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/curator
-	name = "curator's plasma envirosuit"
+	name = "glup shitto"
 	desc = "Made out of a modified voidsuit, this suit was Nanotrasen's first solution to the *logistical problems* that come with employing plasmamen. Due to the modifications, the suit is no longer space-worthy. Despite their limitations, these suits are still in used by historian and old-styled plasmamen alike."
 	icon_state = "prototype_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/janitor
-	name = "janitor's plasma envirosuit"
+	name = "glup shitto"
 	desc = "A grey and purple envirosuit designated for plasmamen janitors."
 	icon_state = "janitor_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/botany
-	name = "botany envirosuit"
+	name = "glup shitto"
 	desc = "A green and blue envirosuit designed to protect plasmamen from minor plant-related injuries."
 	icon_state = "botany_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/mime
-	name = "mime envirosuit"
+	name = "glup shitto"
 	desc = "It's not very colourful."
 	icon_state = "mime_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/clown
-	name = "clown envirosuit"
+	name = "glup shitto"
 	desc = "<i>'HONK!'</i>"
 	icon_state = "clown_envirosuit"
 	inhand_icon_state = null
 
 /obj/item/clothing/under/plasmaman/prisoner
-	name = "prisoner envirosuit"
+	name = "glup shitto"
 	desc = "An orange envirosuit identifying and protecting a criminal plasmaman. Its suit sensors are stuck in the \"Fully On\" position."
 	icon_state = "prisoner_envirosuit"
 	inhand_icon_state = null

@@ -74,7 +74,7 @@
 		recipient.playsound_local(get_turf(recipient), sound, vol = 75, vary = FALSE, pressure_affected = FALSE, use_reverb = FALSE)
 
 /obj/item/implant/deathrattle
-	name = "deathrattle implant"
+	name = "glup shitto"
 	desc = "Hope no one else dies, prepare for when they do."
 
 	actions_types = null
@@ -84,6 +84,6 @@
 	return TRUE
 
 /obj/item/implantcase/deathrattle
-	name = "implant case - 'Deathrattle'"
+	name = "glup shitto"
 	desc = "A glass case containing a deathrattle implant."
 	imp_type = /obj/item/implant/deathrattle

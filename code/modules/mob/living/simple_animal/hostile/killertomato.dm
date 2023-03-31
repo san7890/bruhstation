@@ -1,5 +1,5 @@
 /mob/living/simple_animal/hostile/killertomato
-	name = "Killer Tomato"
+	name = "glup shitto"
 	desc = "It's a horrifyingly enormous beef tomato, and it's packing extra beef!"
 	icon_state = "tomato"
 	icon_living = "tomato"

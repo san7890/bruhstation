@@ -1,5 +1,5 @@
 /datum/action/cooldown/mob_cooldown/charge
-	name = "Charge"
+	name = "glup shitto"
 	button_icon = 'icons/mob/actions/actions_items.dmi'
 	button_icon_state = "sniper_zoom"
 	desc = "Allows you to charge at a chosen position."
@@ -169,7 +169,7 @@
 	shake_camera(source, 2, 3)
 
 /datum/action/cooldown/mob_cooldown/charge/basic_charge
-	name = "Basic Charge"
+	name = "glup shitto"
 	cooldown_time = 6 SECONDS
 	charge_delay = 1.5 SECONDS
 	charge_distance = 4
@@ -206,7 +206,7 @@
 	living_target.Knockdown(6)
 
 /datum/action/cooldown/mob_cooldown/charge/triple_charge
-	name = "Triple Charge"
+	name = "glup shitto"
 	desc = "Allows you to charge three times at a chosen position."
 	charge_delay = 0.6 SECONDS
 
@@ -215,7 +215,7 @@
 		do_charge(owner, target_atom, charge_delay - 2 * i, charge_past)
 
 /datum/action/cooldown/mob_cooldown/charge/hallucination_charge
-	name = "Hallucination Charge"
+	name = "glup shitto"
 	button_icon = 'icons/effects/bubblegum.dmi'
 	button_icon_state = "smack ya one"
 	desc = "Allows you to create hallucinations that charge around your target."
@@ -274,7 +274,7 @@
 	. = ..(source, A, applied_damage)
 
 /datum/action/cooldown/mob_cooldown/charge/hallucination_charge/hallucination_surround
-	name = "Surround Target"
+	name = "glup shitto"
 	button_icon = 'icons/turf/walls/wall.dmi'
 	button_icon_state = "wall-0"
 	desc = "Allows you to create hallucinations that charge around your target."

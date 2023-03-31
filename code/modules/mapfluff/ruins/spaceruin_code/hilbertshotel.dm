@@ -2,7 +2,7 @@ GLOBAL_VAR_INIT(hhStorageTurf, null)
 GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 
 /obj/item/hilbertshotel
-	name = "Hilbert's Hotel"
+	name = "glup shitto"
 	desc = "A sphere of what appears to be an intricate network of bluespace. Observing it in detail seems to give you a headache as you try to comprehend the infinite amount of infinitesimally distinct points on its surface."
 	icon_state = "hilbertshotel"
 	w_class = WEIGHT_CLASS_SMALL
@@ -205,27 +205,27 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 
 //Template Stuff
 /datum/map_template/hilbertshotel
-	name = "Hilbert's Hotel Room"
+	name = "glup shitto"
 	mappath = "_maps/templates/hilbertshotel.dmm"
 	var/landingZoneRelativeX = 2
 	var/landingZoneRelativeY = 8
 
 /datum/map_template/hilbertshotel/empty
-	name = "Empty Hilbert's Hotel Room"
+	name = "glup shitto"
 	mappath = "_maps/templates/hilbertshotelempty.dmm"
 
 /datum/map_template/hilbertshotel/lore
-	name = "Doctor Hilbert's Deathbed"
+	name = "glup shitto"
 	mappath = "_maps/templates/hilbertshotellore.dmm"
 
 /datum/map_template/hilbertshotelstorage
-	name = "Hilbert's Hotel Storage"
+	name = "glup shitto"
 	mappath = "_maps/templates/hilbertshotelstorage.dmm"
 
 
 //Turfs and Areas
 /turf/closed/indestructible/hotelwall
-	name = "hotel wall"
+	name = "glup shitto"
 	desc = "A wall designed to protect the security of the hotel's guests."
 	icon_state = "hotelwall"
 	smoothing_groups = SMOOTH_GROUP_CLOSED_TURFS + SMOOTH_GROUP_HOTEL_WALLS
@@ -245,7 +245,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	tiled_dirt = FALSE
 
 /turf/open/space/bluespace
-	name = "\proper bluespace hyperzone"
+	name = "glup shitto"
 	icon_state = "bluespace"
 	base_icon_state = "bluespace"
 	baseturfs = /turf/open/space/bluespace
@@ -267,7 +267,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 		do_sparks(3, FALSE, get_turf(arrived))
 
 /turf/closed/indestructible/hoteldoor
-	name = "Hotel Door"
+	name = "glup shitto"
 	icon_state = "hoteldoor"
 	explosive_resistance = INFINITY
 	var/obj/item/hilbertshotel/parentSphere
@@ -333,7 +333,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 			INVOKE_ASYNC(PHC, TYPE_PROC_REF(/datum/action/peephole_cancel, Trigger))
 
 /datum/action/peephole_cancel
-	name = "Cancel View"
+	name = "glup shitto"
 	desc = "Stop looking through the bluespace peephole."
 	button_icon_state = "cancel_peephole"
 
@@ -347,7 +347,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 
 // Despite using the ruins.dmi, hilbertshotel is not a ruin
 /area/misc/hilbertshotel
-	name = "Hilbert's Hotel Room"
+	name = "glup shitto"
 	icon = 'icons/area/areas_ruins.dmi'
 	icon_state = "hilbertshotel"
 	requires_power = FALSE
@@ -435,7 +435,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	qdel(reservation)
 
 /area/misc/hilbertshotelstorage
-	name = "Hilbert's Hotel Storage Room"
+	name = "glup shitto"
 	icon = 'icons/area/areas_ruins.dmi'
 	icon_state = "hilbertshotel"
 	requires_power = FALSE
@@ -464,13 +464,13 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 
 //Space Ruin stuff
 /area/ruin/space/has_grav/powered/hilbertresearchfacility
-	name = "Hilbert Research Facility"
+	name = "glup shitto"
 
 /area/ruin/space/has_grav/powered/hilbertresearchfacility/secretroom
 	area_flags = UNIQUE_AREA | NOTELEPORT | HIDDEN_AREA
 
 /obj/item/analyzer/hilbertsanalyzer
-	name = "custom rigged analyzer"
+	name = "glup shitto"
 	desc = "A hand-held environmental scanner which reports current gas levels. This one seems custom rigged to additionally be able to analyze some sort of bluespace device."
 	icon_state = "hilbertsanalyzer"
 	worn_icon_state = "analyzer"
@@ -501,35 +501,35 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	specific_lift_id = HILBERT_TRAM
 
 /obj/effect/landmark/tram/hilbert/left
-	name = "Port"
+	name = "glup shitto"
 	specific_lift_id = HILBERT_TRAM
 	platform_code = HILBERT_PORT
 	tgui_icons = list("Reception" = "briefcase", "Botany" = "leaf", "Chemistry" = "flask")
 
 /obj/effect/landmark/tram/hilbert/middle
-	name = "Central"
+	name = "glup shitto"
 	specific_lift_id = HILBERT_TRAM
 	platform_code = HILBERT_CENTRAL
 	tgui_icons = list("Processing" = "cogs", "Xenobiology" = "paw")
 
 /obj/effect/landmark/tram/hilbert/right
-	name = "Starboard"
+	name = "glup shitto"
 	specific_lift_id = HILBERT_TRAM
 	platform_code = HILBERT_STARBOARD
 	tgui_icons = list("Ordnance" = "bullseye", "Office" = "user", "Dormitories" = "bed")
 
 /obj/item/keycard/hilbert
-	name = "Hilbert's office keycard"
+	name = "glup shitto"
 	desc = "A keycard with an engraving on it. The engraving reads: \"Hilbert\"."
 	color = "#aa00cc"
 	puzzle_id = "hilbert_office"
 
 /obj/machinery/door/puzzle/keycard/hilbert
-	name = "secure airlock"
+	name = "glup shitto"
 	puzzle_id = "hilbert_office"
 
 /datum/outfit/doctorhilbert
-	name = "Doctor Hilbert"
+	name = "glup shitto"
 	id = /obj/item/card/id/advanced/silver
 	uniform = /obj/item/clothing/under/rank/rnd/research_director/doctor_hilbert
 	shoes = /obj/item/clothing/shoes/sneakers/brown
@@ -544,7 +544,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 		hilbert.update_body()
 
 /obj/item/paper/crumpled/ruins/note_institute
-	name = "note to the institute"
+	name = "glup shitto"
 
 /obj/item/paper/crumpled/ruins/note_institute/Initialize(mapload)
 	default_raw_text = {"Note to the Institute<br>
@@ -557,7 +557,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	return ..()
 
 /obj/item/paper/crumpled/ruins/postdocs_memo
-	name = "memo to the postdocs"
+	name = "glup shitto"
 	default_raw_text = {"Memo to the Postdocs
 	Remember, if you're going in to retrieve the prototype for any reason (not that you should be without my supervision), that the security systems are always live- they have no shutoff.<br>
 	Instead, remember: what you can't see can't hurt you.<br>
@@ -565,7 +565,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	- David"}
 
 /obj/item/paper/crumpled/ruins/hotel_note
-	name = "hotel note"
+	name = "glup shitto"
 	default_raw_text = {"Hotel Note<br>
 	Well, you figured out the puzzle. Looks like someone's done their homework on my research.<br>
 	I suppose you deserve to know some more about our situation. Our research has attracted some undue attention and so, for our own safety, we've taken to the Bluespace.<br>
@@ -576,7 +576,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	- David"}
 
 /obj/item/paper/fluff/ruins/docslabnotes
-	name = "lab notebook page"
+	name = "glup shitto"
 	default_raw_text = {"Laboratory Notebook<br>
 	PROPERTY OF DOCTOR D. HILBERT<br>
 	May 10th, 2555<br>
@@ -646,7 +646,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	)
 
 /obj/structure/showcase/machinery/tv/broken
-	name = "broken tv"
+	name = "glup shitto"
 	desc = "Nothing plays."
 
 /obj/structure/showcase/machinery/tv/broken/Initialize(mapload)
@@ -654,7 +654,7 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	add_overlay("television_broken")
 
 /obj/machinery/porta_turret/syndicate/teleport
-	name = "displacement turret"
+	name = "glup shitto"
 	desc = "A ballistic machine gun auto-turret that fires bluespace bullets."
 	lethal_projectile = /obj/projectile/magic/teleport
 	stun_projectile = /obj/projectile/magic/teleport

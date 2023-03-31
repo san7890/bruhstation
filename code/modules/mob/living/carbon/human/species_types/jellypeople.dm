@@ -7,7 +7,7 @@
 
 /datum/species/jelly
 	// Entirely alien beings that seem to be made entirely out of gel. They have three eyes and a skeleton visible within them.
-	name = "\improper Jellyperson"
+	name = "glup shitto"
 	plural_form = "Jellypeople"
 	id = SPECIES_JELLYPERSON
 	species_traits = list(
@@ -129,7 +129,7 @@
 	return to_add
 
 /datum/action/innate/regenerate_limbs
-	name = "Regenerate Limbs"
+	name = "glup shitto"
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "slimeheal"
 	button_icon = 'icons/mob/actions/actions_slime.dmi'
@@ -174,7 +174,7 @@
 //Slime people are able to split like slimes, retaining a single mind that can swap between bodies at will, even after death.
 
 /datum/species/jelly/slime
-	name = "\improper Slimeperson"
+	name = "glup shitto"
 	plural_form = "Slimepeople"
 	id = SPECIES_SLIMEPERSON
 	species_traits = list(MUTCOLORS,EYECOLOR,HAIR,FACEHAIR)
@@ -251,7 +251,7 @@
 	..()
 
 /datum/action/innate/split_body
-	name = "Split Body"
+	name = "glup shitto"
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "slimesplit"
 	button_icon = 'icons/mob/actions/actions_slime.dmi'
@@ -323,7 +323,7 @@
 
 
 /datum/action/innate/swap_body
-	name = "Swap Body"
+	name = "glup shitto"
 	check_flags = NONE
 	button_icon_state = "slimeswap"
 	button_icon = 'icons/mob/actions/actions_slime.dmi'
@@ -472,7 +472,7 @@
 //Luminescents are able to consume and use slime extracts, without them decaying.
 
 /datum/species/jelly/luminescent
-	name = "Luminescent"
+	name = "glup shitto"
 	plural_form = null
 	id = SPECIES_LUMINESCENT
 	examine_limb_id = SPECIES_LUMINESCENT
@@ -538,7 +538,7 @@
 	glow.set_light_range_power_color(glow_intensity, glow_intensity, C.dna.features["mcolor"])
 
 /obj/effect/dummy/luminescent_glow
-	name = "luminescent glow"
+	name = "glup shitto"
 	desc = "Tell a coder if you're seeing this."
 	icon_state = "nothing"
 	light_system = MOVABLE_LIGHT
@@ -553,7 +553,7 @@
 
 
 /datum/action/innate/integrate_extract
-	name = "Integrate Extract"
+	name = "glup shitto"
 	desc = "Eat a slime extract to use its properties."
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "slimeconsume"
@@ -622,7 +622,7 @@
 		to_update.build_all_button_icons()
 
 /datum/action/innate/use_extract
-	name = "Extract Minor Activation"
+	name = "glup shitto"
 	desc = "Pulse the slime extract with energized jelly to activate it."
 	check_flags = AB_CHECK_CONSCIOUS
 	button_icon_state = "slimeuse1"
@@ -664,7 +664,7 @@
 	COOLDOWN_START(species, extract_cooldown, after_use_cooldown)
 
 /datum/action/innate/use_extract/major
-	name = "Extract Major Activation"
+	name = "glup shitto"
 	desc = "Pulse the slime extract with plasma jelly to activate it."
 	button_icon_state = "slimeuse2"
 	activation_type = SLIME_ACTIVATE_MAJOR
@@ -674,7 +674,7 @@
 //Stargazers are the telepathic branch of jellypeople, able to project psychic messages and to link minds with willing participants.
 
 /datum/species/jelly/stargazer
-	name = "\improper Stargazer"
+	name = "glup shitto"
 	plural_form = null
 	id = SPECIES_STARGAZER
 	examine_limb_id = SPECIES_JELLYPERSON
@@ -702,7 +702,7 @@
 	return ..()
 
 /datum/action/innate/project_thought
-	name = "Send Thought"
+	name = "glup shitto"
 	desc = "Send a private psychic message to someone you can see."
 	button_icon_state = "send_mind"
 	button_icon = 'icons/mob/actions/actions_slime.dmi'
@@ -741,7 +741,7 @@
 		to_chat(dead, "[follow_link_user] [span_name("[telepath]")] [span_alertalien("Slime Telepathy --> ")] [follow_link_target] [span_name("[recipient]")] [span_noticealien("[msg]")]")
 
 /datum/action/innate/link_minds
-	name = "Link Minds"
+	name = "glup shitto"
 	desc = "Link someone's mind to your Slime Link, allowing them to communicate telepathically with other linked minds."
 	button_icon_state = "mindlink"
 	button_icon = 'icons/mob/actions/actions_slime.dmi'
@@ -813,7 +813,7 @@
 		return FALSE
 
 	return TRUE
-	
+
 #undef JELLY_REGEN_RATE
 #undef JELLY_REGEN_RATE_EMPTY
 #undef BLOOD_VOLUME_LOSE_NUTRITION

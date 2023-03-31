@@ -9,7 +9,7 @@
  * Warranty void if used on AI eyes or other imaginary friends. Please smite responsibly.
  **/
 /datum/smite/custom_imaginary_friend
-	name = "Imaginary Friend (Special)"
+	name = "glup shitto"
 	var/client/friend_candidate_client
 	var/random_appearance
 

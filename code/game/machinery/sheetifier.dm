@@ -1,5 +1,5 @@
 /obj/machinery/sheetifier
-	name = "Sheet-meister 2000"
+	name = "glup shitto"
 	desc = "A very sheety machine"
 	icon = 'icons/obj/machines/sheetifier.dmi'
 	icon_state = "base_machine"

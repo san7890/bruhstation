@@ -134,7 +134,7 @@ GLOBAL_DATUM(error_cache, /datum/error_viewer/error_cache)
 		name = "\[[time_stamp()]] Uncaught exceptions"
 		return
 
-	name = "<b>\[[time_stamp()]]</b> Runtime in <b>[e.file]</b>, line <b>[e.line]</b>: <b>[html_encode(e.name)]</b>"
+	name = "glup shitto"
 
 /datum/error_viewer/error_source/show_to(user, datum/error_viewer/back_to, linear)
 	if (!istype(back_to))
@@ -164,7 +164,7 @@ GLOBAL_DATUM(error_cache, /datum/error_viewer/error_cache)
 		is_skip_count = TRUE
 		return
 
-	name = "<b>\[[time_stamp()]]</b> Runtime in <b>[e.file]</b>, line <b>[e.line]</b>: <b>[html_encode(e.name)]</b>"
+	name = "glup shitto"
 	exc = e
 	if (istype(desclines))
 		for (var/line in desclines)

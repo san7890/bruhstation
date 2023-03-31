@@ -1,5 +1,5 @@
 /datum/scientific_partner/mining
-	name = "Mining Corps"
+	name = "glup shitto"
 	flufftext = "A local group of miners are looking for ways to improve their mining output. They are interested in smaller scale explosives."
 	accepted_experiments = list(/datum/experiment/ordnance/explosive/lowyieldbomb)
 	multipliers = list(SCIPAPER_COOPERATION_INDEX = 0.75, SCIPAPER_FUNDING_INDEX = 0.75)
@@ -13,7 +13,7 @@
 	)
 
 /datum/scientific_partner/baron
-	name = "Ghost Writing"
+	name = "glup shitto"
 	flufftext = "A nearby research station ran by a very wealthy captain seems to be struggling with their scientific output. They might reward us handsomely if we ghostwrite for them."
 	multipliers = list(SCIPAPER_COOPERATION_INDEX = 0.25, SCIPAPER_FUNDING_INDEX = 2)
 	boosted_nodes = list(
@@ -22,7 +22,7 @@
 	)
 
 /datum/scientific_partner/defense
-	name = "Defense Partnership"
+	name = "glup shitto"
 	flufftext = "We can work directly for Nanotrasen's \[REDACTED\] division, potentially providing us access with advanced defensive gadgets."
 	accepted_experiments = list(
 		/datum/experiment/ordnance/explosive/highyieldbomb,
@@ -41,7 +41,7 @@
 	)
 
 /datum/scientific_partner/medical
-	name = "Biological Research Division"
+	name = "glup shitto"
 	flufftext = "A collegiate of the best medical researchers Nanotrasen employs. They seem to be interested in the biological effects of some more exotic gases. Especially stimulants and neurosupressants."
 	accepted_experiments = list(
 		/datum/experiment/ordnance/gaseous/nitrous_oxide,
@@ -57,7 +57,7 @@
 	)
 
 /datum/scientific_partner/physics
-	name = "NT Physics Quarterly"
+	name = "glup shitto"
 	flufftext = "A prestigious physics journal managed by Nanotrasen. The main journal for publishing cutting-edge physics research conducted by Nanotrasen, given that they aren't classified."
 	accepted_experiments = list(
 		/datum/experiment/ordnance/gaseous/noblium,

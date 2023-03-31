@@ -2,7 +2,7 @@
 	icon = 'icons/obj/atmospherics/pipes/he-simple.dmi'
 	icon_state = "pipe11-3"
 
-	name = "pipe"
+	name = "glup shitto"
 	desc = "A one meter section of heat-exchanging pipe."
 
 	dir = SOUTH

@@ -4,7 +4,7 @@
 
 /obj/item/clothing/gloves/color/yellow
 	desc = "These gloves provide protection against electric shock. The thickness of the rubber makes your fingers seem bigger."
-	name = "insulated gloves"
+	name = "glup shitto"
 	icon_state = "yellow"
 	inhand_icon_state = "ygloves"
 	siemens_coefficient = 0
@@ -19,13 +19,13 @@
 	bio = 50
 
 /obj/item/clothing/gloves/color/yellow/heavy
-	name = "ceramic-lined insulated gloves"
+	name = "glup shitto"
 	desc = "A cheaper make of the standard insulated gloves, using internal ceramic lining to make up for the sub-par rubber material. The extra weight makes them more bulky to use."
 	slowdown = 1
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/toy/sprayoncan
-	name = "spray-on insulation applicator"
+	name = "glup shitto"
 	desc = "What is the number one problem facing our station today?"
 	icon = 'icons/obj/clothing/gloves.dmi'
 	icon_state = "sprayoncan"
@@ -45,7 +45,7 @@
 
 /obj/item/clothing/gloves/color/yellow/sprayon
 	desc = "How're you gonna get 'em off, nerd?"
-	name = "spray-on insulated gloves"
+	name = "glup shitto"
 	icon_state = "sprayon"
 	inhand_icon_state = null
 	item_flags = DROPDEL
@@ -73,7 +73,7 @@
 
 /obj/item/clothing/gloves/color/fyellow                             //Cheap Chinese Crap
 	desc = "These gloves are cheap knockoffs of the coveted ones - no way this can end badly."
-	name = "budget insulated gloves"
+	name = "glup shitto"
 	icon_state = "yellow"
 	inhand_icon_state = "ygloves"
 	greyscale_colors = null
@@ -91,7 +91,7 @@
 
 /obj/item/clothing/gloves/color/fyellow/old
 	desc = "Old and worn out insulated gloves, hopefully they still work."
-	name = "worn out insulated gloves"
+	name = "glup shitto"
 
 /obj/item/clothing/gloves/color/fyellow/old/Initialize(mapload)
 	. = ..()
@@ -99,7 +99,7 @@
 
 /obj/item/clothing/gloves/cut
 	desc = "These gloves would protect the wearer from electric shock... if the fingers were covered."
-	name = "fingerless insulated gloves"
+	name = "glup shitto"
 	icon_state = "yellowcut"
 	inhand_icon_state = "ygloves"
 	greyscale_colors = null
@@ -110,7 +110,7 @@
 
 /obj/item/clothing/gloves/chief_engineer
 	desc = "These gloves provide excellent heat and electric insulation. They are so thin you can barely feel them."
-	name = "advanced insulated gloves"
+	name = "glup shitto"
 	icon_state = "ce_insuls"
 	inhand_icon_state = null
 	greyscale_colors = null

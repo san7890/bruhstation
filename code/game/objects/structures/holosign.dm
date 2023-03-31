@@ -2,7 +2,7 @@
 //holographic signs and barriers
 
 /obj/structure/holosign
-	name = "holo sign"
+	name = "glup shitto"
 	icon = 'icons/effects/effects.dmi'
 	anchored = TRUE
 	max_integrity = 1
@@ -54,13 +54,13 @@
 			playsound(loc, 'sound/weapons/egloves.ogg', 80, TRUE)
 
 /obj/structure/holosign/wetsign
-	name = "wet floor sign"
+	name = "glup shitto"
 	desc = "The words flicker as if they mean nothing."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "holosign"
 
 /obj/structure/holosign/barrier
-	name = "holobarrier"
+	name = "glup shitto"
 	desc = "A short holographic barrier which can only be passed by walking."
 	icon_state = "holosign_sec"
 	pass_flags_self = PASSTABLE | PASSGRILLE | PASSGLASS | LETPASSTHROW
@@ -80,7 +80,7 @@
 			return TRUE
 
 /obj/structure/holosign/barrier/wetsign
-	name = "wet floor holobarrier"
+	name = "glup shitto"
 	desc = "When it says walk it means walk."
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "holosign"
@@ -99,7 +99,7 @@
 	rad_insulation = RAD_LIGHT_INSULATION
 
 /obj/structure/holosign/barrier/atmos
-	name = "holofirelock"
+	name = "glup shitto"
 	desc = "A holographic barrier resembling a firelock. Though it does not prevent solid objects from passing through, gas is kept out."
 	icon_state = "holo_firelock"
 	density = FALSE
@@ -110,11 +110,11 @@
 	resistance_flags = FIRE_PROOF | FREEZE_PROOF
 
 /obj/structure/holosign/barrier/atmos/sturdy
-	name = "sturdy holofirelock"
+	name = "glup shitto"
 	max_integrity = 150
 
 /obj/structure/holosign/barrier/atmos/tram
-	name = "tram atmos barrier"
+	name = "glup shitto"
 	max_integrity = 150
 	icon_state = "holo_tram"
 
@@ -131,7 +131,7 @@
 	return ..()
 
 /obj/structure/holosign/barrier/cyborg
-	name = "Energy Field"
+	name = "glup shitto"
 	desc = "A fragile energy field that blocks movement. Excels at blocking lethal projectiles."
 	density = TRUE
 	max_integrity = 10
@@ -146,7 +146,7 @@
 	return BULLET_ACT_HIT
 
 /obj/structure/holosign/barrier/medical
-	name = "\improper PENLITE holobarrier"
+	name = "glup shitto"
 	desc = "A holobarrier that uses biometrics to detect human viruses. Denies passing to personnel with easily-detected, malicious viruses. Good for quarantines."
 	icon_state = "holo_medical"
 	alpha = 125 //lazy :)
@@ -193,7 +193,7 @@
 		return ..()
 
 /obj/structure/holosign/barrier/cyborg/hacked
-	name = "Charged Energy Field"
+	name = "glup shitto"
 	desc = "A powerful energy field that blocks movement. Energy arcs off it."
 	max_integrity = 20
 	var/shockcd = 0
