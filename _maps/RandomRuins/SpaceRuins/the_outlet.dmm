@@ -37,10 +37,10 @@
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "bk" = (
-/obj/effect/turf_decal/tile/bar/half/contrasted,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-46"
 	},
+/obj/effect/turf_decal/tile/bar/half/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "bn" = (
@@ -326,11 +326,11 @@
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "iB" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-0"
+	},
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -358,8 +358,8 @@
 /turf/open/floor/cult,
 /area/ruin/space/has_grav/the_outlet/cultinfluence)
 "iY" = (
-/obj/effect/turf_decal/tile/bar/anticorner/contrasted,
 /obj/machinery/light/cold/directional/north,
+/obj/effect/turf_decal/tile/bar/anticorner/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "jg" = (
@@ -367,11 +367,11 @@
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "ji" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
-	dir = 8
-	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "jv" = (
@@ -424,12 +424,12 @@
 /turf/open/floor/cult,
 /area/ruin/space/has_grav/the_outlet/cultinfluence)
 "ks" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners{
-	dir = 8
-	},
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-95"
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -512,7 +512,7 @@
 /area/ruin/space/has_grav/the_outlet/storefront)
 "mE" = (
 /obj/effect/turf_decal/tile/dark_blue/opposingcorners{
-	dir = 8
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -732,11 +732,11 @@
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "rP" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/machinery/light/dim/directional/east,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-0"
 	},
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "rV" = (
@@ -798,13 +798,13 @@
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "sS" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
-	dir = 8
-	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/firealarm/directional/west,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "tC" = (
@@ -885,12 +885,12 @@
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "vg" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "vs" = (
@@ -901,10 +901,10 @@
 /turf/closed/mineral/random,
 /area/ruin/space)
 "vL" = (
-/obj/effect/turf_decal/tile/bar/anticorner/contrasted,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-141"
 	},
+/obj/effect/turf_decal/tile/bar/anticorner/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "wf" = (
@@ -928,12 +928,12 @@
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "wH" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners{
-	dir = 8
-	},
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-207"
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -1059,7 +1059,6 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "zz" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-4"
@@ -1070,6 +1069,7 @@
 	},
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "zA" = (
@@ -1153,7 +1153,6 @@
 /turf/closed/wall/rust,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "Bb" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/structure/cable,
 /obj/machinery/light/dim/directional/west,
 /obj/effect/decal/cleanable/dirt{
@@ -1161,6 +1160,7 @@
 	},
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "Bg" = (
@@ -1223,11 +1223,11 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "CT" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-1"
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -1259,11 +1259,11 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "DQ" = (
-/obj/effect/turf_decal/tile/bar/anticorner/contrasted{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-0"
+	},
+/obj/effect/turf_decal/tile/bar/anticorner/contrasted{
+	dir = 8
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -1466,10 +1466,10 @@
 /turf/open/floor/eighties,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "Iq" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-95"
 	},
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "Iy" = (
@@ -1486,7 +1486,6 @@
 /turf/open/floor/cult,
 /area/ruin/space/has_grav/the_outlet/cultinfluence)
 "IA" = (
-/obj/effect/turf_decal/tile/bar/half/contrasted,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-110"
 	},
@@ -1494,6 +1493,7 @@
 	icon_state = "rune2"
 	},
 /mob/living/simple_animal/hostile/construct/proteon/hostile,
+/obj/effect/turf_decal/tile/bar/half/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "IF" = (
@@ -1521,12 +1521,12 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/the_outlet/storefront)
 "Kv" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
-	dir = 8
-	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "Kw" = (
@@ -1659,10 +1659,10 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "MT" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-0"
 	},
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "MV" = (
@@ -1941,10 +1941,10 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "Ui" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-191"
 	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "UF" = (
@@ -2009,13 +2009,13 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "VT" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/crayon,
 /mob/living/simple_animal/hostile/construct/proteon/hostile,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-127"
+	},
+/obj/effect/turf_decal/tile/bar/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
@@ -2125,7 +2125,6 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "XQ" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-95"
@@ -2134,11 +2133,12 @@
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "XW" = (
-/obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "Yr" = (
@@ -2181,13 +2181,13 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/the_outlet/employeesection)
 "Zy" = (
-/obj/effect/turf_decal/tile/bar/anticorner/contrasted{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-5"
 	},
 /obj/machinery/shower/directional/north,
+/obj/effect/turf_decal/tile/bar/anticorner/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "ZO" = (
@@ -2200,10 +2200,10 @@
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 "ZZ" = (
-/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-207"
 	},
+/obj/effect/turf_decal/tile/dark_blue/opposingcorners,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/the_outlet/researchrooms)
 

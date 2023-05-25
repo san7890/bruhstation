@@ -369,10 +369,10 @@
 /obj/machinery/door/airlock/security/glass{
 	name = "Escape Shuttle Brig"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "hP" = (
@@ -1038,10 +1038,10 @@
 /turf/open/floor/stone,
 /area/shuttle/escape)
 "sI" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "sK" = (
@@ -1099,12 +1099,12 @@
 /turf/open/floor/grass,
 /area/shuttle/escape)
 "ts" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/stasis,
 /obj/machinery/light/directional,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "tB" = (
@@ -1143,7 +1143,6 @@
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "uK" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/stasis,
 /obj/structure/sign/poster/official/moth_epi{
 	pixel_y = 32
@@ -1152,6 +1151,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "uR" = (
@@ -1238,7 +1238,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "wm" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/table/optable,
 /obj/machinery/defibrillator_mount/loaded{
 	pixel_x = -28
@@ -1246,6 +1245,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "wp" = (
@@ -1576,7 +1576,6 @@
 /turf/open/floor/wood,
 /area/shuttle/escape)
 "Dd" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/computer/operating{
 	dir = 4
 	},
@@ -1584,6 +1583,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "Dk" = (
@@ -1774,7 +1774,6 @@
 /turf/open/floor/carpet/royalblue,
 /area/shuttle/escape)
 "Gh" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/rack,
 /obj/item/storage/medkit{
 	pixel_y = 10
@@ -1786,8 +1785,8 @@
 /obj/item/storage/medkit/toxin{
 	pixel_y = -6
 	},
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/window/reinforced/spawner,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "Gl" = (
@@ -2242,10 +2241,10 @@
 /obj/machinery/door/airlock/security/glass{
 	name = "Escape Shuttle Brig"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
-/obj/effect/mapping_helpers/airlock/access/all/security/general,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "OG" = (
@@ -2606,7 +2605,6 @@
 /turf/open/floor/carpet/red,
 /area/shuttle/escape)
 "VZ" = (
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/structure/table,
 /obj/item/lazarus_injector,
 /obj/item/storage/backpack/duffelbag/med/surgery,
@@ -2616,6 +2614,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "Wi" = (
@@ -2697,10 +2696,10 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/escape)
 "Yh" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/small,
 /area/shuttle/escape)
 "YB" = (

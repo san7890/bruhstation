@@ -21,15 +21,12 @@
 	name = "Loading Doors";
 	pixel_y = 8
 	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
 /obj/machinery/conveyor_switch/oneway{
 	id = "QMLoad"
+	},
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
 	},
 /turf/open/floor/iron/smooth,
 /area/shuttle/supply)
@@ -119,10 +116,7 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/yellow{
-	dir = 1
-	},
+/obj/effect/turf_decal/tile/yellow/opposingcorners,
 /turf/open/floor/iron/smooth,
 /area/shuttle/supply)
 "D" = (
@@ -132,16 +126,13 @@
 /turf/open/floor/plating/airless,
 /area/shuttle/supply)
 "G" = (
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
+/obj/machinery/light/red/directional/west,
+/obj/effect/turf_decal/tile/brown/opposingcorners{
+	dir = 1
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
-	},
-/obj/machinery/light/red/directional/west,
 /turf/open/floor/iron/smooth,
 /area/shuttle/supply)
 "I" = (
@@ -187,11 +178,8 @@
 /area/shuttle/supply)
 "V" = (
 /obj/effect/turf_decal/tile/yellow,
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/brown{
-	dir = 8
+/obj/effect/turf_decal/tile/brown/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/smooth,
 /area/shuttle/supply)
@@ -205,13 +193,13 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/supply)
 "Z" = (
+/obj/machinery/light/red/directional/west,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/yellow{
 	dir = 1
 	},
-/obj/machinery/light/red/directional/west,
 /turf/open/floor/iron/smooth,
 /area/shuttle/supply)
 

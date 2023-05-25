@@ -130,10 +130,10 @@
 /obj/item/storage/backpack/duffelbag/med/surgery{
 	pixel_y = 13
 	},
+/obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/tile/blue/anticorner{
 	dir = 8
 	},
-/obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/white/smooth_corner{
 	dir = 4
 	},
@@ -576,22 +576,22 @@
 	pixel_y = -3
 	},
 /obj/item/storage/medkit/regular,
-/obj/effect/turf_decal/tile/blue/half,
 /obj/item/storage/medkit/advanced{
 	pixel_x = 3;
 	pixel_y = 3
 	},
+/obj/effect/turf_decal/tile/blue/half,
 /turf/open/floor/iron/white/smooth_half,
 /area/shuttle/escape)
 "Xw" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
+/obj/machinery/light/directional/east,
+/obj/machinery/status_display/evac/directional/east,
 /obj/effect/turf_decal/tile/blue/half{
 	dir = 4
 	},
-/obj/machinery/light/directional/east,
-/obj/machinery/status_display/evac/directional/east,
 /turf/open/floor/iron/white/smooth_half{
 	dir = 1
 	},

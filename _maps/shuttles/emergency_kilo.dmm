@@ -348,10 +348,10 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/machinery/camera/autoname{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/brown/opposingcorners,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/shuttle/escape)
 "cf" = (
@@ -770,10 +770,10 @@
 /area/shuttle/escape/brig)
 "nv" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/machinery/camera/autoname{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/brown/opposingcorners,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/shuttle/escape)
 "nR" = (
@@ -820,8 +820,8 @@
 /area/shuttle/escape)
 "pa" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/tile/blue/opposingcorners,
 /obj/machinery/camera/autoname,
+/obj/effect/turf_decal/tile/blue/opposingcorners,
 /turf/open/floor/mineral/titanium/tiled/white,
 /area/shuttle/escape)
 "pj" = (
@@ -901,11 +901,11 @@
 	},
 /obj/machinery/light/directional/west,
 /obj/machinery/keycard_auth/directional/west,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
 /obj/machinery/camera/autoname{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/escape)

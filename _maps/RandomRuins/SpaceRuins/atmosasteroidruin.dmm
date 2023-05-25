@@ -10,8 +10,8 @@
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "bF" = (
-/obj/effect/turf_decal/tile/yellow/half,
 /obj/machinery/light/directional/south,
+/obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "df" = (
@@ -46,10 +46,10 @@
 /area/ruin/space/has_grav/atmosasteroid)
 "gU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
-/obj/effect/turf_decal/tile/yellow/half{
+/obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/effect/turf_decal/stripes/line{
+/obj/effect/turf_decal/tile/yellow/half{
 	dir = 8
 	},
 /turf/open/floor/iron/co2_pressurized,
@@ -70,10 +70,10 @@
 /area/ruin/space/has_grav/atmosasteroid)
 "hX" = (
 /obj/item/analyzer/ranged,
+/obj/machinery/light/dim/directional/east,
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 4
 	},
-/obj/machinery/light/dim/directional/east,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "ij" = (
@@ -82,8 +82,8 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/atmosasteroid)
 "iu" = (
-/obj/effect/turf_decal/tile/yellow/half,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/visible,
+/obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "iD" = (
@@ -131,11 +131,11 @@
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "kJ" = (
-/obj/effect/turf_decal/tile/yellow/half{
-	dir = 8
-	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
 	},
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
@@ -211,10 +211,10 @@
 	},
 /area/ruin/space/has_grav/atmosasteroid)
 "oZ" = (
+/obj/structure/closet/firecloset/full,
 /obj/effect/turf_decal/tile/yellow/anticorner{
 	dir = 1
 	},
-/obj/structure/closet/firecloset/full,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "ps" = (
@@ -237,11 +237,11 @@
 /area/ruin/space/has_grav/atmosasteroid)
 "rg" = (
 /obj/machinery/suit_storage_unit/standard_unit,
-/obj/effect/turf_decal/tile/yellow/anticorner{
-	dir = 1
-	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/anticorner{
+	dir = 1
 	},
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
@@ -256,8 +256,8 @@
 /turf/open/misc/asteroid,
 /area/ruin/space/has_grav/atmosasteroid)
 "sp" = (
-/obj/effect/turf_decal/tile/yellow/half,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "tC" = (
@@ -396,11 +396,11 @@
 /area/ruin/space/has_grav/atmosasteroid)
 "Dw" = (
 /obj/machinery/airalarm/directional/west,
-/obj/effect/turf_decal/tile/yellow/half{
-	dir = 8
-	},
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
+	},
+/obj/effect/turf_decal/tile/yellow/half{
+	dir = 8
 	},
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
@@ -489,10 +489,10 @@
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "Lj" = (
+/obj/machinery/light/directional/north,
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
-/obj/machinery/light/directional/north,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "Lv" = (
@@ -544,15 +544,15 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/atmosasteroid)
 "MT" = (
-/obj/effect/turf_decal/tile/yellow/full,
 /obj/machinery/portable_atmospherics/scrubber/huge/movable,
+/obj/effect/turf_decal/tile/yellow/full,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "Ns" = (
-/obj/effect/turf_decal/tile/yellow/half{
+/obj/machinery/atmospherics/pipe/layer_manifold/green/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/layer_manifold/green/visible{
+/obj/effect/turf_decal/tile/yellow/half{
 	dir = 4
 	},
 /turf/open/floor/iron/co2_pressurized,
@@ -601,10 +601,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/mob/living/simple_animal/hostile/asteroid/hivelord,
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/asteroid/hivelord,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "RK" = (
@@ -653,10 +653,10 @@
 /area/template_noop)
 "Ur" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/light/broken/directional/east,
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 4
 	},
-/obj/machinery/light/broken/directional/east,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "Uz" = (
@@ -666,10 +666,10 @@
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "UL" = (
+/obj/structure/extinguisher_cabinet/directional/north,
 /obj/effect/turf_decal/tile/yellow/half{
 	dir = 1
 	},
-/obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "UR" = (
@@ -677,8 +677,8 @@
 /turf/open/floor/engine/plasma,
 /area/ruin/space/has_grav/atmosasteroid)
 "Vw" = (
-/obj/effect/turf_decal/tile/yellow/half,
 /obj/structure/extinguisher_cabinet/directional/south,
+/obj/effect/turf_decal/tile/yellow/half,
 /turf/open/floor/iron/co2_pressurized,
 /area/ruin/space/has_grav/atmosasteroid)
 "Wc" = (

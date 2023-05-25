@@ -24,14 +24,14 @@
 /area/ruin/powered/icemoon_phone_booth)
 "q" = (
 /obj/machinery/airalarm/directional/south,
-/obj/effect/turf_decal/tile/yellow/half/contrasted{
-	dir = 4
-	},
 /obj/machinery/atmospherics/components/tank/air{
 	dir = 8;
 	piping_layer = 4
 	},
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 4
+	},
 /turf/open/floor/plating/icemoon,
 /area/ruin/powered/icemoon_phone_booth)
 "v" = (
@@ -48,9 +48,6 @@
 	},
 /area/ruin/powered/icemoon_phone_booth)
 "J" = (
-/obj/effect/turf_decal/tile/yellow/half/contrasted{
-	dir = 4
-	},
 /obj/item/gps/spaceruin{
 	gpstag = "Public Holophone"
 	},
@@ -58,6 +55,9 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 4
+	},
 /turf/open/floor/plating/icemoon,
 /area/ruin/powered/icemoon_phone_booth)
 "M" = (

@@ -490,8 +490,8 @@
 /turf/open/floor/iron/large,
 /area/centcom/ctf)
 "Qn" = (
-/obj/effect/turf_decal/tile/blue/full,
 /obj/item/ctf_flag/blue,
+/obj/effect/turf_decal/tile/blue/full,
 /turf/open/floor/iron/large,
 /area/centcom/ctf)
 "Qp" = (
@@ -591,8 +591,8 @@
 /turf/open/floor/iron/large,
 /area/centcom/ctf)
 "Ub" = (
-/obj/effect/turf_decal/tile/red/full,
 /obj/item/ctf_flag/red,
+/obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/large,
 /area/centcom/ctf)
 "UD" = (

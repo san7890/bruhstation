@@ -195,8 +195,8 @@
 /turf/open/floor/plating,
 /area/awaymission/research/interior/maint)
 "aQ" = (
-/obj/effect/turf_decal/tile/yellow,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
 "aR" = (
@@ -225,10 +225,10 @@
 "aZ" = (
 /obj/machinery/light/directional/west,
 /obj/machinery/airalarm/directional/west,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 4
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
 "bb" = (
@@ -271,12 +271,12 @@
 /turf/open/floor/plating,
 /area/awaymission/research/interior/engineering)
 "bn" = (
-/obj/effect/turf_decal/tile/yellow/half/contrasted{
-	dir = 4
-	},
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 4
+	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
 "bs" = (
@@ -1742,10 +1742,10 @@
 /area/awaymission/research/interior/security)
 "ij" = (
 /mob/living/simple_animal/bot/secbot/genesky,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
 "ik" = (
@@ -3271,10 +3271,10 @@
 /area/awaymission/research/interior)
 "yn" = (
 /obj/item/ammo_casing/c45,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
 "yM" = (
@@ -3375,11 +3375,11 @@
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
 "CW" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/security)
 "Dl" = (
@@ -3402,10 +3402,10 @@
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior)
 "DC" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/west,
 /obj/effect/mapping_helpers/apc/cell_5k,
+/obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/dark,
 /area/awaymission/research/interior/genetics)
 "DO" = (
@@ -3620,8 +3620,8 @@
 /turf/open/floor/iron,
 /area/awaymission/research/interior/genetics)
 "Kf" = (
-/obj/effect/turf_decal/tile/purple/fourcorners,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/purple/fourcorners,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/cryo)
 "Kg" = (
@@ -3669,11 +3669,11 @@
 /area/awaymission/research/interior/medbay)
 "KZ" = (
 /obj/machinery/light/directional/south,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/power/apc/auto_name/directional/south,
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/medbay)
 "Le" = (
@@ -3700,10 +3700,10 @@
 /area/awaymission/research/interior/engineering)
 "Mz" = (
 /obj/machinery/light/directional/west,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/purple/half/contrasted{
 	dir = 8
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/cryo)
 "MA" = (
@@ -3741,12 +3741,12 @@
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
 "Ok" = (
-/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
-	dir = 1
-	},
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/cell_5k,
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 1
+	},
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/cryo)
 "Or" = (
@@ -3973,9 +3973,9 @@
 /turf/open/floor/plating,
 /area/awaymission/research/interior/maint)
 "UC" = (
-/obj/effect/turf_decal/tile/green/half/contrasted,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/green/half/contrasted,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/escapepods)
 "UO" = (
@@ -3984,10 +3984,10 @@
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/engineering)
 "UU" = (
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/purple/anticorner/contrasted{
 	dir = 8
 	},
-/obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/cryo)
 "UV" = (
@@ -4112,8 +4112,8 @@
 /turf/open/misc/asteroid,
 /area/awaymission/research/exterior)
 "Zk" = (
-/obj/effect/turf_decal/tile/green/half/contrasted,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/green/half/contrasted,
 /turf/open/floor/iron/white,
 /area/awaymission/research/interior/escapepods)
 "ZJ" = (

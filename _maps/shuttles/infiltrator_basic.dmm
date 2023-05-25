@@ -307,15 +307,15 @@
 "bt" = (
 /obj/structure/table/reinforced,
 /obj/machinery/status_display/ai/directional/north,
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
 /obj/item/healthanalyzer,
 /obj/item/healthanalyzer{
 	pixel_y = 10
 	},
 /obj/item/healthanalyzer{
 	pixel_y = 10
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
 	},
 /turf/open/floor/iron/edge,
 /area/shuttle/syndicate/medical)

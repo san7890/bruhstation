@@ -88,12 +88,12 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "bU" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "bW" = (
@@ -142,8 +142,8 @@
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/spawner/random/maintenance,
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "dE" = (
@@ -220,9 +220,9 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "ea" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/machinery/photocopier,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "eo" = (
@@ -234,12 +234,12 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "ex" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4;
 	pixel_y = 5
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "ez" = (
@@ -256,8 +256,8 @@
 /area/ruin/space/has_grav/waystation/cargobay)
 "fc" = (
 /obj/structure/chair/office,
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/effect/mob_spawn/corpse/human/waystation/cargo_technician,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "fd" = (
@@ -311,10 +311,6 @@
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav/waystation/kitchen)
 "gf" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/chair{
 	dir = 8
 	},
@@ -324,6 +320,7 @@
 	},
 /obj/item/paper/fluff/ruins/waystation/menu,
 /obj/item/paper/fluff/ruins/waystation/toilet,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "gn" = (
@@ -336,21 +333,18 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation)
 "gp" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/railing,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "gt" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "Supply_Ruin_In"
 	},
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "gu" = (
@@ -390,10 +384,10 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/waystation/kitchen)
 "hd" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "hm" = (
@@ -413,10 +407,10 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/powered/waystation/assaultpod)
 "hE" = (
+/obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 8
 	},
-/obj/item/kirbyplants/random,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "hH" = (
@@ -456,14 +450,11 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation)
 "iA" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/north,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "iG" = (
@@ -512,8 +503,8 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "jy" = (
-/obj/effect/turf_decal/tile/brown/anticorner/contrasted,
 /obj/item/kirbyplants/random,
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "jA" = (
@@ -532,12 +523,12 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "jH" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/light/dim/directional/west,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "jN" = (
@@ -588,14 +579,11 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/waystation/kitchen)
 "kq" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/chair{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "kA" = (
@@ -625,13 +613,13 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/dorms)
 "lx" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 1
-	},
 /obj/machinery/computer{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "lB" = (
@@ -649,21 +637,18 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "lT" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /obj/effect/spawner/random/food_or_drink,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "lV" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 8
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
@@ -679,10 +664,10 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/waystation/cargobay)
 "ms" = (
+/obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 1
 	},
-/obj/item/kirbyplants/random,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "mu" = (
@@ -758,9 +743,6 @@
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/waystation/qm)
 "mR" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 1
-	},
 /obj/structure/table,
 /obj/item/clothing/suit/hazardvest{
 	pixel_x = -7
@@ -770,6 +752,9 @@
 	pixel_x = 7
 	},
 /obj/structure/sign/warning/directional/north,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "mV" = (
@@ -792,12 +777,9 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation/cargobay)
 "nj" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "no" = (
@@ -810,14 +792,11 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/waystation/kitchen)
 "nv" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/box/matches,
 /obj/effect/spawner/random/entertainment/cigarette_pack,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "nD" = (
@@ -902,10 +881,10 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "ow" = (
@@ -974,22 +953,19 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "pn" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/chair{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "pw" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/half/contrasted,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "pF" = (
@@ -998,9 +974,9 @@
 /turf/open/floor/iron/cafeteria,
 /area/ruin/space/has_grav/waystation/kitchen)
 "pH" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/structure/filingcabinet,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "pK" = (
@@ -1044,27 +1020,24 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "qF" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 1
-	},
 /obj/structure/table,
 /obj/item/storage/medkit/ancient,
 /obj/structure/sign/departments/medbay/alt/directional/north,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "qG" = (
-/obj/effect/turf_decal/tile/red/half/contrasted{
+/obj/machinery/light/directional/south{
 	dir = 1
 	},
-/obj/machinery/light/directional/south{
+/obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "qJ" = (
-/obj/effect/turf_decal/tile/red/half/contrasted{
-	dir = 4
-	},
 /obj/structure/rack,
 /obj/item/firing_pin/explorer,
 /obj/item/firing_pin/explorer{
@@ -1072,6 +1045,9 @@
 	},
 /obj/item/firing_pin/explorer{
 	pixel_y = -4
+	},
+/obj/effect/turf_decal/tile/red/half/contrasted{
+	dir = 4
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
@@ -1092,9 +1068,6 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "rn" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/ammo_casing/c45/spent{
 	dir = 8;
@@ -1115,6 +1088,9 @@
 	pixel_y = -4
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "ro" = (
@@ -1139,16 +1115,13 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "rK" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/chair{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/gibspawner/human,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "rQ" = (
@@ -1165,10 +1138,10 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation/power)
 "rX" = (
+/obj/structure/reagent_dispensers/water_cooler,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "sm" = (
@@ -1179,13 +1152,10 @@
 /turf/template_noop,
 /area/template_noop)
 "su" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "sP" = (
@@ -1193,10 +1163,10 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/waystation/kitchen)
 "sX" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "tb" = (
@@ -1230,10 +1200,10 @@
 /area/ruin/space/has_grav/waystation/dorms)
 "tv" = (
 /obj/effect/spawner/random/vending/colavend,
+/obj/machinery/light/very_dim/directional/west,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 8
 	},
-/obj/machinery/light/very_dim/directional/west,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "tB" = (
@@ -1253,9 +1223,6 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "ux" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 1
-	},
 /obj/structure/table,
 /obj/item/clothing/head/utility/hardhat{
 	pixel_x = -6;
@@ -1264,6 +1231,9 @@
 /obj/item/clothing/head/utility/hardhat{
 	pixel_x = 7;
 	pixel_y = 9
+	},
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
@@ -1325,15 +1295,12 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation/cargobay)
 "vM" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /obj/item/storage/bag/tray,
 /obj/item/kitchen/fork,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/north,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "vN" = (
@@ -1424,11 +1391,11 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/waystation/qm)
 "xv" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 1
-	},
 /obj/machinery/computer{
 	dir = 4
+	},
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 1
 	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
@@ -1451,8 +1418,8 @@
 "xS" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/maintenance,
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "xX" = (
@@ -1552,10 +1519,10 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "zJ" = (
+/obj/structure/closet/crate/bin,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/structure/closet/crate/bin,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "zV" = (
@@ -1601,15 +1568,15 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "Bq" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/noticeboard/directional/west{
 	dir = 4
 	},
 /obj/item/paper/fluff/ruins/waystation/sop,
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Bu" = (
@@ -1693,11 +1660,11 @@
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/waystation/qm)
 "Ds" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/dim/directional/west,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/dim/directional/west,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Dw" = (
@@ -1733,8 +1700,8 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Eh" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/structure/filingcabinet,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "El" = (
@@ -1764,13 +1731,10 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "EP" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/railing{
 	dir = 9
 	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "Fa" = (
@@ -1779,14 +1743,11 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Ff" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/table,
 /obj/effect/spawner/random/food_or_drink,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/official/random/directional/north,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "Fu" = (
@@ -1798,10 +1759,10 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/waystation/qm)
 "Fw" = (
+/obj/machinery/light/dim/directional/north,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "FC" = (
@@ -1865,20 +1826,20 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 4
-	},
 /obj/effect/mapping_helpers/broken_floor,
 /obj/item/light/tube/broken,
 /obj/machinery/light/built/directional/east,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "HH" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "HN" = (
@@ -1951,11 +1912,11 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/dorms)
 "Jf" = (
+/obj/structure/sign/warning/directional/north,
+/obj/item/crowbar,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/structure/sign/warning/directional/north,
-/obj/item/crowbar,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Jl" = (
@@ -1985,10 +1946,10 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Kc" = (
+/obj/structure/sign/poster/official/random/directional/north,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/structure/sign/poster/official/random/directional/north,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "Ke" = (
@@ -2013,12 +1974,9 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Kx" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/railing,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "KD" = (
@@ -2178,10 +2136,6 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/waystation/qm)
 "Mq" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/chair{
 	dir = 4
 	},
@@ -2189,6 +2143,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "Mu" = (
@@ -2205,34 +2160,31 @@
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/waystation/qm)
 "MI" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 4;
 	pixel_y = 5
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "MP" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/chair{
 	dir = 1
 	},
 /obj/structure/railing,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "MS" = (
-/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
-	dir = 8
-	},
 /obj/structure/frame/machine,
 /obj/item/stack/cable_coil/five,
 /obj/effect/spawner/random/vending,
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "MY" = (
@@ -2346,10 +2298,10 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/waystation/qm)
 "OM" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Pd" = (
@@ -2443,10 +2395,10 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "Qx" = (
@@ -2463,13 +2415,10 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "QL" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/railing{
 	dir = 10
 	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "QN" = (
@@ -2480,10 +2429,10 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/waystation/dorms)
 "QU" = (
+/obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 8
 	},
-/obj/item/kirbyplants/random,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "Rs" = (
@@ -2514,16 +2463,16 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "RW" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted,
 /obj/item/kirbyplants/random,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/brown/half/contrasted,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "RZ" = (
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
 	},
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Sj" = (
@@ -2531,11 +2480,11 @@
 /turf/template_noop,
 /area/ruin/space)
 "Sm" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "SD" = (
@@ -2587,11 +2536,11 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/waystation/qm)
 "TI" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
 	},
-/obj/machinery/power/apc/auto_name/directional/east,
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "TL" = (
@@ -2617,13 +2566,10 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/powered/waystation/assaultpod)
 "TY" = (
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/bar,
 /obj/structure/railing{
 	dir = 8
 	},
+/obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "Ud" = (
@@ -2633,11 +2579,11 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "Ug" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
 /obj/effect/decal/cleanable/blood/footprints{
 	pixel_y = -3
 	},
 /obj/structure/cable,
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "Uy" = (
@@ -2710,11 +2656,11 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "Vb" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Vl" = (
@@ -2793,10 +2739,10 @@
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/dorms)
 "WS" = (
-/obj/effect/turf_decal/tile/red/half/contrasted,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/effect/turf_decal/tile/red/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "WU" = (
@@ -2869,12 +2815,12 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/securestorage)
 "Xr" = (
-/obj/effect/turf_decal/tile/brown/half/contrasted{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/structure/sign/poster/official/random/directional/west,
+/obj/effect/turf_decal/tile/brown/half/contrasted{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "XF" = (
@@ -2950,10 +2896,10 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation)
 "YX" = (
+/obj/structure/sign/poster/official/random/directional/west,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 8
 	},
-/obj/structure/sign/poster/official/random/directional/west,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargobay)
 "Zc" = (
@@ -3021,10 +2967,10 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/waystation/dorms)
 "ZW" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "ZZ" = (

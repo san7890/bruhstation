@@ -223,11 +223,11 @@
 /obj/structure/table/reinforced,
 /obj/machinery/light/directional/west,
 /obj/machinery/status_display/evac/directional/west,
-/obj/effect/turf_decal/tile/blue/opposingcorners{
-	dir = 1
-	},
 /obj/machinery/camera/autoname{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue/opposingcorners{
+	dir = 1
 	},
 /turf/open/floor/iron/white,
 /area/shuttle/escape)
@@ -720,11 +720,11 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "bS" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
 /obj/machinery/camera/autoname{
 	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
 	},
 /turf/open/floor/iron,
 /area/shuttle/escape)
@@ -952,8 +952,8 @@
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "nJ" = (
-/obj/effect/turf_decal/tile/neutral/half/contrasted,
 /obj/machinery/camera/autoname,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
 /turf/open/floor/iron,
 /area/shuttle/escape)
 "pd" = (

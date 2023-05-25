@@ -583,10 +583,10 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/escape)
 "tk" = (
+/obj/effect/station_crash/devastating,
 /obj/effect/turf_decal/tile/dark_blue/opposingcorners{
 	dir = 1
 	},
-/obj/effect/station_crash/devastating,
 /turf/open/floor/iron/checker,
 /area/shuttle/escape)
 "tx" = (

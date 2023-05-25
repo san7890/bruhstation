@@ -129,8 +129,8 @@
 /turf/open/floor/iron,
 /area/centcom/basketball)
 "jr" = (
-/obj/effect/turf_decal/tile/dark_red/full,
 /obj/effect/landmark/basketball/team_spawn/away,
+/obj/effect/turf_decal/tile/dark_red/full,
 /turf/open/floor/iron/large,
 /area/centcom/basketball)
 "kc" = (
@@ -306,10 +306,10 @@
 /turf/open/floor/catwalk_floor,
 /area/centcom/basketball)
 "xP" = (
-/obj/effect/turf_decal/tile/dark_red/full,
 /obj/effect/decal/hammerandsickle{
 	pixel_y = -42
 	},
+/obj/effect/turf_decal/tile/dark_red/full,
 /turf/open/floor/iron/large,
 /area/centcom/basketball)
 "zr" = (
@@ -440,8 +440,8 @@
 /turf/open/floor/iron,
 /area/centcom/basketball)
 "IA" = (
-/obj/effect/turf_decal/tile/dark_red/full,
 /obj/effect/landmark/basketball/team_spawn/home,
+/obj/effect/turf_decal/tile/dark_red/full,
 /turf/open/floor/iron/large,
 /area/centcom/basketball)
 "JM" = (
@@ -691,8 +691,8 @@
 /turf/open/floor/iron/dark/small,
 /area/centcom/basketball)
 "YX" = (
-/obj/effect/turf_decal/tile/dark_red/full,
 /obj/item/toy/basketball,
+/obj/effect/turf_decal/tile/dark_red/full,
 /turf/open/floor/iron/large,
 /area/centcom/basketball)
 "ZM" = (
