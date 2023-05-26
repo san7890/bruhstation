@@ -27,8 +27,6 @@
 	attack_sound = 'sound/weapons/bite.ogg'
 	attack_vis_effect = ATTACK_EFFECT_BITE
 
-	stop_automated_movement = 1
-
 	ai_controller = /datum/ai_controller/basic_controller/crab
 
 	/// The directions that crabs are allowed to move in.

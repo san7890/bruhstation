@@ -1,68 +1,48 @@
-/// Simple component that rotates your object in relation to the direction that you are moving in.
+/// Simple component that forces a mob to only move in certain directions based on what direction they're facing
 /// Hm, I wonder what this could be used for.
 /datum/component/crab_movement
-	/// List - The directions that we should only move in. (i.e. only West and East)
-	var/list/allowed_directions
+	/// Bitflag - The directions that we should only move in. (i.e. only West and East)
+	var/allowed_directions = NONE
+	/// Number - The acceptable angle to turn to when we try to move in a direction we're not allowed to. 90 is typically fair.
+	var/acceptable_turning_angle
 
-	/// Bitflag - The normalized directions that we should move in. These correlate directly to the sprite directions that we should have.
-	var/normalized_directions = NONE
-	/// Bitflag - The "old" direction that we were at before moving.
-	var/old_direction
 	/// Typecasted cache of our parent.
 	var/mob/living/living_parent
 
-/datum/component/crab_movement/Initialize(list/allowed_directions, setup_normalized_directions = FALSE)
+/datum/component/crab_movement/Initialize(list/allowed_directions, acceptable_turning_angle)
 	. = ..()
-	if(!isliving(parent) || !islist(allowed_directions))
+	if(!isliving(parent) || !islist(allowed_directions) || !isnum(acceptable_turning_angle))
 		return COMPONENT_INCOMPATIBLE
 
-	living_parent = parent
+	src.living_parent = parent
 	src.allowed_directions = allowed_directions
+	src.acceptable_turning_angle = acceptable_turning_angle
 
 	RegisterSignal(parent, COMSIG_MOVABLE_PRE_MOVE, PROC_REF(pre_movement))
-	RegisterSignal(parent, COMSIG_MOVABLE_MOVED, PROC_REF(on_movement))
-
-	if(setup_normalized_directions)
-		setup_normalized_directions()
 
 /datum/component/crab_movement/Destroy()
 	living_parent = null
 	return ..()
 
-/// Sets up the normalized directions that we set our dir to, because not all sprites have full rotation (just four dirs)
-/datum/component/crab_movement/proc/setup_normalized_directions()
-	for(var/direction_entry in allowed_directions)
-		switch(direction_entry)
-			if(NORTH)
-				normalized_directions |= NORTH
-			if(SOUTH)
-				normalized_directions |= SOUTH
-			if(EAST)
-				normalized_directions |= EAST
-			if(WEST)
-				normalized_directions |= WEST
-
 /datum/component/crab_movement/proc/pre_movement(new_loc)
 	SIGNAL_HANDLER
-	old_direction = living_parent.dir
-
-/// This is where the magic happens. We check the direction we're moving in, and then rotate our object to face that direction.
-/datum/component/crab_movement/proc/on_movement(atom/old_loc, dir, forced, list/old_locs, momentum_change)
-	SIGNAL_HANDLER
-	// this is in case something new is acting upon us, i.e. not continuous. it's okay to lurch in a noncompatible direction when you start moving: but when you start going, gotta turn.
-	if(!momentum_change)
+	var/current_loc = living_parent.loc
+	var/movement_dir = get_dir(current_loc, new_loc)
+	if(movement_dir & allowed_directions)
 		return
 
-	var/atom/current_location = parent.loc
-	if(!isturf(current_location))
-		return
+	// alright, so the player (presumably) wants to move in an invalid direction. that's okay, we just gotta make sure the sprite turns in some way.
+	// this is to give the illusion that they turned, then moved.
+	// note that even if the following calculation doesn't yield a cardinal direction, it just means that we were moving in a non-cardinal direction anyways...
+	// and i think we're just gonna have to live with that, looks fine anyways.
+	var/direction_to_turn = angle2dir(pick(dir2angle(movement_dir) + acceptable_turning_angle, dir2angle(movement_dir) - acceptable_turning_angle)) // this automagically normalizes the angle btw
+	living_parent.dir = direction_to_turn
 
-	if(dir in allowed_directions)
-		living_parent.dir = old_direction // keep them facing the same way.
-		return
 
-	// if we're not moving in a direction we're allowed to, we orient it so it looks good. this may be a bit frustrating to a potential player at times...
-	// but maybe they should consider not playing a mob that is confined to such directionality. they can click the direction they want to look at anyways.
-	living_parent.dir = pick(normalized_directions)
+
+
+
+
+
 
 
