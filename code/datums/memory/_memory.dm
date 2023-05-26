@@ -264,7 +264,7 @@
 		/mob/living/basic/stickman,
 		/mob/living/basic/stickman/dog,
 		/mob/living/simple_animal/chick,
-		/mob/living/simple_animal/crab,
+		/mob/living/basic/crab,
 		/mob/living/simple_animal/hostile/asteroid/basilisk/watcher,
 		/mob/living/simple_animal/hostile/asteroid/goliath/beast,
 		/mob/living/simple_animal/hostile/bear,
