@@ -29,10 +29,12 @@
 
 	ai_controller = /datum/ai_controller/basic_controller/crab
 
-	/// The directions that crabs are allowed to move in.
-	var/list/crab_directions
+	/// The directions that crabs are (typically) allowed to move in. Player control can trump this, but it's important to still have so we can make the sprites make sense.
+	var/list/crab_directions = EAST|WEST
+	/// The acceptable turning angle for crabs.
+	var/crab_turning_angle = 90
 
 /mob/living/basic/crab/Initialize(mapload)
 	. = ..()
 	ADD_TRAIT(src, TRAIT_VENTCRAWLER_ALWAYS, INNATE_TRAIT)
-	AddComponent(/datum/component/crab_movement)
+	AddComponent(/datum/component/crab_movement, allowed_directions = crab_directions, acceptable_turning_angle = crab_turning_angle)

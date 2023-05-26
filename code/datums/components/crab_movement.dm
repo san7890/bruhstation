@@ -9,9 +9,9 @@
 	/// Typecasted cache of our parent.
 	var/mob/living/living_parent
 
-/datum/component/crab_movement/Initialize(list/allowed_directions, acceptable_turning_angle)
+/datum/component/crab_movement/Initialize(allowed_directions, acceptable_turning_angle)
 	. = ..()
-	if(!isliving(parent) || !islist(allowed_directions) || !isnum(acceptable_turning_angle))
+	if(!isliving(parent) || isnull(allowed_directions) || !isnum(acceptable_turning_angle))
 		return COMPONENT_INCOMPATIBLE
 
 	src.living_parent = parent

@@ -2,7 +2,10 @@
 	///Chance that the mob random walks per second
 	var/walk_chance = 25
 	/// What dirs does this mob typically walk in? Defaults to alldirs.
-	var/dirs = GLOB.alldirs
+	var/dirs
+
+/datum/idle_behavior/idle_random_walk/New()
+	dirs = GLOB.alldirs // yeah i hate it here too
 
 /datum/idle_behavior/idle_random_walk/perform_idle_behavior(seconds_per_tick, datum/ai_controller/controller)
 	. = ..()
