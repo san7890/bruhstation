@@ -8,7 +8,7 @@
 	gender = NEUTER
 	mob_biotypes = MOB_ORGANIC
 	gold_core_spawnable = HOSTILE_SPAWN
-	faction = list(FACTION_SPOOKY)
+	faction = list(FACTION_CULT)
 	basic_mob_flags = DEL_ON_DEATH
 
 	maxHealth = 30
