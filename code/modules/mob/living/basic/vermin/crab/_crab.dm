@@ -31,6 +31,10 @@
 
 	ai_controller = /datum/ai_controller/basic_controller/crab
 
+	/// The directions that crabs are allowed to move in.
+	var/list/crab_directions
+
 /mob/living/basic/crab/Initialize(mapload)
 	. = ..()
 	ADD_TRAIT(src, TRAIT_VENTCRAWLER_ALWAYS, INNATE_TRAIT)
+	AddComponent(/datum/component/crab_movement)
