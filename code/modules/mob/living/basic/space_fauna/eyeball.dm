@@ -1,3 +1,8 @@
+/**
+ * ## Eyeballs
+ *
+ * Weird, eldritch creatures with a strange connection to Nar'Sie. Unblinking in their gaze, they pack about as much punch as you would expect.
+ */
 /mob/living/basic/eyeball
 	name = "eyeball"
 	desc = "An odd looking creature, it won't stop staring..."
