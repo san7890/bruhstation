@@ -6,10 +6,12 @@
 	)
 
 	ai_traits = STOP_MOVING_WHEN_PULLED
-	ai_movement = /datum/ai_movement/basic_avoidance/crab
+	ai_movement = /datum/ai_movement/basic_avoidance
 	idle_behavior = /datum/idle_behavior/idle_random_walk/crab
 	planning_subtrees = list(
-		/datum/ai_planning_subtree/find_food,
+		/datum/ai_planning_subtree/find_nearest_thing_which_attacked_me_to_flee,
+		/datum/ai_planning_subtree/flee_target,
+		/datum/ai_planning_subtree/target_retaliate,
 		/datum/ai_planning_subtree/basic_melee_attack_subtree,
 		/datum/ai_planning_subtree/random_speech/crab,
 	)
@@ -19,6 +21,3 @@
 	emote_hear = list("clicks.")
 	emote_see = list("clacks.")
 
-/// Basically here, we just want to hook into the moveloop checks in order to rotate ourselves around.
-/// If you ever wanna make it more complex than this, move it to it's own file in the `ai_movement` folder.
-/datum/ai_movement/basic_avoidance/crab
