@@ -21,3 +21,6 @@
 	emote_hear = list("clicks.")
 	emote_see = list("clacks.")
 
+/// The evil crab is so evil that it moves in all directions like a normal mob! How nefarious!
+/datum/ai_controller/basic_controller/crab/evil
+	idle_behavior = /datum/idle_behavior/idle_random_walk

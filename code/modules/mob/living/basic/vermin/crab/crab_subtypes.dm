@@ -12,6 +12,15 @@
 	real_name = "Jon"
 	gold_core_spawnable = NO_SPAWN
 
+/mob/living/basic/crab/kreb
+	name = "Kreb"
+	desc = "This is a real crab. The other crabs are simply gubbucks in disguise!"
+	real_name = "Kreb"
+	icon_state = "kreb"
+	icon_living = "kreb"
+	icon_dead = "kreb_dead"
+	gold_core_spawnable = NO_SPAWN
+
 /mob/living/basic/crab/evil
 	name = "Evil Crab"
 	real_name = "Evil Crab"
@@ -21,14 +30,7 @@
 	icon_dead = "evilcrab_dead"
 	gold_core_spawnable = FRIENDLY_SPAWN
 
-/mob/living/basic/crab/kreb
-	name = "Kreb"
-	desc = "This is a real crab. The other crabs are simply gubbucks in disguise!"
-	real_name = "Kreb"
-	icon_state = "kreb"
-	icon_living = "kreb"
-	icon_dead = "kreb_dead"
-	gold_core_spawnable = NO_SPAWN
+	ai_controller = /datum/ai_controller/basic_controller/crab/evil
 
 /mob/living/basic/crab/evil/kreb
 	name = "Evil Kreb"
