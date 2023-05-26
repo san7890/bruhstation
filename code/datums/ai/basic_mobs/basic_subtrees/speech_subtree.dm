@@ -157,3 +157,8 @@
 	speak = list("gnashes.", "growls lowly.", "snarls.")
 	emote_hear = list("gnashes.")
 	emote_see = list("salivates.")
+
+/datum/ai_planning_subtree/random_speech/eyeball
+	speech_chance = 5 // haha "speech" chance hahahah get it hahehheahe
+	emote_see = list("glares.")
+	emote_hear = list("telepathically cries")
