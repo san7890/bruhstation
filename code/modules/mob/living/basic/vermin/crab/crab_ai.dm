@@ -2,7 +2,7 @@
 /// Basically, we only move east-west when idle. However, when we become a crab with a plan, all bets are off and we immediately start moving towards our target.
 /datum/ai_controller/basic_controller/crab
 	blackboard = list(
-		BB_TARGETTING_DATUM = new
+		BB_TARGETTING_DATUM = new /datum/targetting_datum/basic,
 	)
 
 	ai_traits = STOP_MOVING_WHEN_PULLED
