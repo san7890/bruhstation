@@ -3,6 +3,10 @@ set -euo pipefail
 
 source dependencies.sh
 
+$CURRENT_GLIBC_VERSION = $(ldd --version)
+
+echo "Current glibc version: $CURRENT_GLIBC_VERSION"
+
 sudo dpkg --add-architecture i386
 sudo apt-get update || true
 sudo apt-get install libgcc-s1:i386 g++-multilib zlib1g-dev:i386 libssl-dev:i386
