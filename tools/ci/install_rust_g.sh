@@ -3,9 +3,7 @@ set -euo pipefail
 
 source dependencies.sh
 
-CURRENT_GLIBC_VERSION = $(ldd --version)
-
-echo "Current glibc version: $CURRENT_GLIBC_VERSION"
+ldd --version
 
 sudo dpkg --add-architecture i386
 sudo apt-get update || true
