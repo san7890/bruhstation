@@ -3,7 +3,7 @@ set -euo pipefail
 
 source dependencies.sh
 
-$CURRENT_GLIBC_VERSION = $(ldd --version)
+CURRENT_GLIBC_VERSION = $(ldd --version)
 
 echo "Current glibc version: $CURRENT_GLIBC_VERSION"
 
