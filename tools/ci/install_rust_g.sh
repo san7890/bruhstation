@@ -6,7 +6,7 @@ source dependencies.sh
 ldd --version
 
 # Rust-g needs a special GLIBC version (dubious - dispute), which for some reason doesn't ship on GitHub Actions Ubuntu 22.04??? Let's get it in here.
-mkdir ~/tmp/glibc
+mkdir -p ~/tmp/glibc
 cd ~/tmp/glibc
 wget --no-check-certificate "https://ftp.gnu.org/gnu/glibc/glibc-$GLIBC_VERSION.tar.gz"
 tar -xvf glibc-$GLIBC_VERSION.tar.gz
