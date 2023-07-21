@@ -370,7 +370,7 @@
 	layer = MOB_LAYER
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	/// Soulscythe mob in the scythe
-	var/mob/living/simple_animal/soulscythe/soul
+	var/mob/living/basic/soulscythe/soul
 	/// Are we grabbing a spirit?
 	var/using = FALSE
 	/// Currently charging?
@@ -577,25 +577,33 @@
 	animate(src)
 	SpinAnimation(15)
 
-/mob/living/simple_animal/soulscythe
+/mob/living/basic/soulscythe
 	name = "mysterious spirit"
 	maxHealth = 200
 	health = 200
 	gender = NEUTER
 	mob_biotypes = MOB_SPIRIT
 	faction = list()
-	weather_immunities = list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE)
+	basic_mob_flags = DEL_ON_DEATH
 	/// Blood level, used for movement and abilities in a soulscythe
 	var/blood_level = MAX_BLOOD_LEVEL
 
-/mob/living/simple_animal/soulscythe/get_status_tab_items()
+/mob/living/basic/soulscythe/Initialize(mapload)
+	. = ..()
+	add_traits(list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT)
+	RegisterSignal(src, COMSIG_LIVING_LIFE, PROC_REF(recover_blood_level))
+
+/mob/living/basic/soulscythe/get_status_tab_items()
 	. = ..()
 	. += "Blood: [blood_level]/[MAX_BLOOD_LEVEL]"
 
-/mob/living/simple_animal/soulscythe/Life(seconds_per_tick, times_fired)
-	. = ..()
-	if(!stat)
-		blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * seconds_per_tick))
+/mob/living/basic/soulscythe/proc/recover_blood_level(seconds_per_tick, times_fired)
+	SIGNAL_HANDLER
+
+	if(stat != CONSCIOUS)
+		return
+
+	blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * seconds_per_tick))
 
 /obj/projectile/soulscythe
 	name = "soulslash"
