@@ -1,0 +1,23 @@
+name: Check rust-g
+on:
+  pull_request:
+    branches:
+      - master
+      - 'project/**'
+    paths:
+      - 'rust-g.dll'
+
+jobs:
+  report_modification:
+    name: Modified rust-g
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment{{
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Detected a modification to the rust-g.dll binary. If this is an intentional change in your PR, you may safely ignore this message. Otherwise, please un-include your changes.'
+            }}
