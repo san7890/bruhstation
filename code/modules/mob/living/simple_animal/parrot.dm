@@ -152,11 +152,6 @@
 			return ITALICS | REDUCE_RANGE
 
 	return FALSE
-
-GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
-	/datum/strippable_item/parrot_headset,
-)))
-
 /datum/strippable_item/parrot_headset
 	key = STRIPPABLE_ITEM_PARROT_HEADSET
 
