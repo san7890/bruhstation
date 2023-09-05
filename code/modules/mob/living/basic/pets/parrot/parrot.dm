@@ -105,7 +105,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 
-	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attack))
+	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attack)) // this means we could have a peaceful interaction, like getting a cracker
+	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_injured)) // this means we got hurt and it's go time
 
 /mob/living/basic/parrot/Destroy()
 	// should have cleaned these up on death, but let's be super safe in case that didn't happen
@@ -195,6 +196,43 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	update_speech_blackboards()
 	to_chat(user, span_notice("[src] eagerly devours the cracker."))
 	return COMPONENT_NO_AFTERATTACK
+
+/// Handles special behavior whenever we are injured.
+/mob/living/basic/parrot/proc/on_injured(mob/living/basic/source, mob/living/attacker, attack_flags)
+	SIGNAL_HANDLER
+	if(isnull(client) || stat == CONSCIOUS)
+		return
+
+	drop_held_item(gently = FALSE)
+	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE)
+	if(return_value & NO_NEW_PHRASE_AVAILABLE)
+		return
+
+	say(controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot oneliner on attack")
+
+
+/// Handles dropping items we're holding. Gently is a special modifier we can use for special interactions.
+/mob/living/basic/parrot/proc/drop_held_item(gently = TRUE)
+	if(isnull(held_item))
+		balloon_alert(src, "nothing to drop!")
+		return
+
+	if(stat != CONSCIOUS) // don't gotta do shit
+		held_item.forceMove(drop_location())
+		held_item = null
+		return
+
+	if(!gently && isgrenade(held_item))
+		var/obj/item/grenade/bomb = held_item
+		balloon_alert(src, "bombs away!") // you'll likely die too so we can get away with the `!` here
+		bomb.forceMove(drop_location())
+		held_item = null
+		bomb.detonate()
+		return
+
+	balloon_alert(src, "dropped item")
+	held_item.forceMove(drop_location())
+	held_item = null
 
 /// Updates our speech blackboards mob-side to reflect the current speech on the controller to ensure everything is synchronized.
 /mob/living/basic/parrot/proc/update_speech_blackboards()
