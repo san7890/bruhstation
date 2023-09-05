@@ -10,32 +10,38 @@
 	var/list/desired_phrases = null
 	/// The AI Blackboard Key we assign the value to.
 	var/blackboard_key = null
-	/// Probability we actually do anything upon hearing something
-	var/probability_stat = null
+	/// Probability we speak
+	var/speech_probability = null
+	/// Probabiliy we switch our phrase
+	var/switch_phrase_probability = null
 	/// List of things that we've heard and will repeat.
 	var/list/speech_buffer = null
 
-/datum/component/listen_and_repeat/Initialize(list/desired_phrases, blackboard_key, probability_stat)
+/datum/component/listen_and_repeat/Initialize(list/desired_phrases, blackboard_key, speech_probability, switch_phrase_probability)
 	. = ..()
 	if(!ismovable(parent))
 		return COMPONENT_INCOMPATIBLE
 
-	if(isnull(probability_stat))
-		probability_stat = 50 // default for sanity
+	if(isnull(speech_probability))
+		src.speech_probability = 50
+
+	if(isnull(speech_probability))
+		src.speech_probability = 20
 
 	if(!isnull(desired_phrases))
 		LAZYADD(speech_buffer, desired_phrases)
 	src.blackboard_key = blackboard_key
 
 	RegisterSignal(parent, COMSIG_MOVABLE_HEAR, PROC_REF(on_hear))
-	RegisterSignal(parent, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_key))
+	RegisterSignal(parent, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_phrase))
 	RegisterSignal(parent, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
+	RegisterSignals(parent, list(COMSIG_AI_BLACKBOARD_KEY_SET(BB_PARROT_REPEAT_PROBABILITY), COMSIG_AI_BLACKBOARD_KEY_SET(BB_PARROT_PHRASE_CHANGE_PROBABILITY)), PROC_REF(update_probabilities))
 	// register to detach when a client logs in maybe
 
 /// Called when we hear something.
 /datum/component/listen_and_repeat/proc/on_hear(datum/source, list/passed_arguments)
 	SIGNAL_HANDLER
-	if(prob(probability_stat))
+	if(!prob(speech_probability))
 		return
 
 	var/message = passed_arguments[HEARING_MESSAGE]
@@ -55,19 +61,29 @@
 	LAZYOR(speech_buffer, html_decode(message))
 
 /// Called to set a new value for the blackboard key.
-/datum/component/listen_and_repeat/proc/set_new_blackboard_key(datum/source)
+/datum/component/listen_and_repeat/proc/set_new_blackboard_phrase(datum/source)
+	SIGNAL_HANDLER
 	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(!LAZYLEN(speech_buffer))
 		controller.set_blackboard_key(blackboard_key, null)
 		return NO_NEW_PHRASE_AVAILABLE
 
+	if(!prob(switch_phrase_probability))
+		return
+
 	var/selected_phrase = pick(speech_buffer)
 	controller.set_blackboard_key(blackboard_key, selected_phrase)
 
+/// Update the probabilities whenever the blackboard changes on us. assume that the controller is sending the signal to be safe
+/datum/component/listen_and_repeat/proc/update_probabilities(datum/ai_controller/source)
+	SIGNAL_HANDLER
+	speech_probability = source.blackboard[BB_PARROT_REPEAT_PROBABILITY]
+	switch_phrase_probability = source.blackboard[BB_PARROT_PHRASE_CHANGE_PROBABILITY]
+
 /// Exports all the speech buffer data to a dedicated blackboard key on the source.
 /datum/component/listen_and_repeat/proc/on_write_memory(datum/source, dead, gibbed)
-	var/atom/movable/atom_source = source
+	SIGNAL_HANDLER
 	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(LAZYLEN(speech_buffer)) // what? well whatever let's just move on
 		return
