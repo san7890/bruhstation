@@ -122,68 +122,16 @@
 			  /mob/living/simple_animal/parrot/proc/toggle_mode,
 			  /mob/living/simple_animal/parrot/proc/perch_mob_player))
 
-	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
-	AddElement(/datum/element/simple_flying)
-	if(!spawn_headset)
-		return
-	if(!ears)
-		var/headset = pick(/obj/item/radio/headset/headset_sec, \
-						/obj/item/radio/headset/headset_eng, \
-						/obj/item/radio/headset/headset_med, \
-						/obj/item/radio/headset/headset_sci, \
-						/obj/item/radio/headset/headset_cargo)
-		ears = new headset(src)
-
-/mob/living/simple_animal/parrot/Destroy()
-	QDEL_NULL(ears)
-	return ..()
-
-/mob/living/simple_animal/parrot/examine(mob/user)
-	. = ..()
-	if(stat != DEAD)
-		return
-
-	if(HAS_MIND_TRAIT(user, TRAIT_NAIVE))
-		. += pick(
-			"It seems tired and shagged out after a long squawk.",
-			"It seems to be pining for the fjords.",
-			"It's resting. It's a beautiful bird. Lovely plumage.",
-		)
-	else
-		. += pick(
-			"This parrot is no more.",
-			"This is a late parrot.",
-			"This is an ex-parrot.",
-		)
-
-/mob/living/simple_animal/parrot/death(gibbed)
-	if(held_item)
-		held_item.forceMove(drop_location())
-		held_item = null
-	SSmove_manager.stop_looping(src)
-
-	if(buckled)
-		buckled.unbuckle_mob(src,force=1)
-	buckled = null
-	pixel_x = base_pixel_x
-	pixel_y = base_pixel_y
-
-	return ..()
 
 
-/mob/living/simple_animal/parrot/get_status_tab_items()
-	. = ..()
-	. += "Held Item: [held_item]"
 
-/mob/living/simple_animal/parrot/Hear(message, atom/movable/speaker, message_langs, raw_message, radio_freq, list/spans, list/message_mods = list(), message_range)
-	. = ..()
-	if(speaker != src && prob(50)) //Dont imitate ourselves
-		if(!radio_freq || prob(10))
-			if(speech_buffer.len >= 500)
-				speech_buffer -= pick(speech_buffer)
-			speech_buffer |= html_decode(raw_message)
-	if(speaker == src && !client) //If a parrot squawks in the woods and no one is around to hear it, does it make a sound? This code says yes!
-		return message
+
+
+
+
+
+
+
 
 /mob/living/simple_animal/parrot/radio(message, list/message_mods = list(), list/spans, language) //literally copied from human/radio(), but there's no other way to do this. at least it's better than it used to be.
 	. = ..()
