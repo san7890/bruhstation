@@ -4,13 +4,15 @@
 
 /datum/ai_planning_subtree/parrot_as_in_repeat/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	. = ..()
-	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
 	var/atom/speaking_pawn = controller.pawn
-	if(prob(controller.blackboard[BB_PARROT_REPEAT_PROBABILITY]))
+	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
+	var/probability = controller.blackboard[BB_PARROT_REPEAT_PROBABILITY]
+	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE)
+
+	potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
+
+	if(isnull(potential_string) || prob(probability))
 		return
-	if(!potential_string)
-		SEND_SIGNAL(speaking_pawn, COMSIG_PARROT_NEEDS_NEW_PHRASE)
-		potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
 
 	controller.queue_behavior(/datum/ai_behavior/perform_speech/parrot, potential_string)
 
