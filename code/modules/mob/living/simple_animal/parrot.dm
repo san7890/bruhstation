@@ -494,36 +494,6 @@
 	return null
 
 
-
-/mob/living/simple_animal/parrot/proc/steal_from_mob()
-	set name = "Steal from mob"
-	set category = "Parrot"
-	set desc = "Steals an item right out of a person's hand!"
-
-	if(stat)
-		return -1
-
-	if(held_item)
-		to_chat(src, span_warning("You are already holding [held_item]!"))
-		return 1
-
-	var/obj/item/stolen_item = null
-
-	for(var/mob/living/carbon/C in view(1,src))
-		for(var/obj/item/I in C.held_items)
-			if(I.w_class <= WEIGHT_CLASS_SMALL)
-				stolen_item = I
-				break
-
-		if(stolen_item)
-			C.transferItemToLoc(stolen_item, src, TRUE)
-			held_item = stolen_item
-			visible_message(span_notice("[src] grabs [held_item] out of [C]'s hand!"), span_notice("You snag [held_item] out of [C]'s hand!"), span_hear("You hear the sounds of wings flapping furiously."))
-			return held_item
-
-	to_chat(src, span_warning("There is nothing of interest to take!"))
-	return 0
-
 /mob/living/simple_animal/parrot/verb/drop_held_item_player()
 	set name = "Drop held item"
 	set category = "Parrot"

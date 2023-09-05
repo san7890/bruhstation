@@ -195,8 +195,10 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 			return COMPONENT_HOSTILE_NO_ATTACK
 		return
 
-	if(ismob(target))
-
+	if(iscarbon(target))
+		if(steal_from_mob(target))
+			return COMPONENT_HOSTILE_NO_ATTACK
+		return
 
 /// Picks up an item from the ground and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
 /mob/living/basic/parrot/proc/steal_from_ground(obj/item/target)
@@ -221,6 +223,26 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	)
 	return TRUE
 
+/// Looks for an item that we can snatch and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
+/mob/living/basic/parrot/proc/steal_from_ground(mob/living/carbon/victim)
+	if(!isnull(held_item))
+		balloon_alert(src, "already holding something!")
+		return FALSE
+
+	for(var/obj/item/stealable in victim.held_items)
+		if(stealable.w_class <= WEIGHT_CLASS_SMALL)
+			victim.temporarilyRemoveItemFromInventory(stealable, force = TRUE)
+			visible_message(
+				span_notice("[src] grabs [held_item] out of [victim]'s hand!"),
+				span_notice("You snag [held_item] out of [victim]'s hand!"),
+				span_hear("You hear the sounds of wings flapping furiously."),
+			)
+			pick_up_item(stealable)
+			return TRUE
+
+	return FALSE
+
+
 
 /// Handles special behavior whenever we're attacked with a special item.
 /mob/living/basic/parrot/proc/on_attacked(mob/living/basic/source, obj/item/thing, mob/living/attacker, params)
@@ -231,7 +253,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	qdel(thing)
 	if(health < maxHealth)
 		adjustBruteLoss(-10)
-	speech_probability_rate *= 1.27 // 20 crackers to go from 1% to 100%
+	speech_probability_rate *= 1.27
 	speech_shuffle_rate += 10
 	update_speech_blackboards()
 	to_chat(src, span_notice("[src] eagerly devours the cracker."))
