@@ -107,7 +107,8 @@
 		/obj/machinery/suit_storage_unit,
 	)
 
-	//Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
+	///Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
+	///The AI behavior is nice, but we need this to work without an AI (as well as us having a bunch of snowflakey interactions)
 	var/obj/item/held_item = null
 
 

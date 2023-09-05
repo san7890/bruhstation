@@ -78,8 +78,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	//var/atom/movable/parrot_interest = null
 
 	//Parrots will generally sit on their perch unless something catches their eye.
-	//These vars store their preffered perch and if they dont have one, what they can use as a perch
-	//var/obj/parrot_perch = null
 	var/static/list/desired_perches = list(
 		/obj/machinery/computer,
 		/obj/machinery/dna_scannernew,
@@ -99,6 +97,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	setup_headset()
 	update_speech_blackboards()
+	controller.set_blackboard_key(BB_PARROT_PERCH_TYPES, desired_perches)
 
 	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate, speech_shuffle_rate)
 	AddElement(/datum/element/ai_retaliate)
@@ -281,7 +280,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		balloon_alert(src, "too big to pick up!")
 		return FALSE
 
-	var/turf/open/perch = ai_controller.blackboard[BB_PARROT_PERCH]
+	var/turf/open/perch = ai_controller.blackboard[BB_PARROT_INANIMATE_PERCH]
 	if(isnull(client) && target.loc == perch) // we'll leave that on our perch if we're ai controlled
 		return FALSE
 
