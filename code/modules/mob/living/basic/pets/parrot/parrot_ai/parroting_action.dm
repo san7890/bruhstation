@@ -1,0 +1,19 @@
+/// When a parrot... parrots...
+/datum/ai_planning_subtree/parrot_as_in_repeat
+	operational_datums = list(/datum/element/listen_and_repeat)
+
+/datum/ai_planning_subtree/parrot_as_in_repeat/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
+	. = ..()
+	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
+	var/atom/speaking_pawn = controller.pawn
+	if(prob(controller.blackboard[BB_PARROT_REPEAT_PROBABILITY]))
+		return
+	if(!potential_string)
+		SEND_SIGNAL(speaking_pawn, COMSIG_PARROT_NEEDS_NEW_PHRASE)
+		potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
+
+	controller.queue_behavior(/datum/ai_behavior/perform_speech/parrot, potential_string)
+
+/datum/ai_behavior/perform_speech/parrot
+	action_cooldown = 2 SECONDS
+
