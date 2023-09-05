@@ -162,16 +162,21 @@
 /mob/living/basic/parrot/poly/setup_headset()
 	ears = new /obj/item/radio/headset/headset_eng(src)
 
-/// Parrot that will just randomly spawn with a headset. Nothing too special beyond that.
-/mob/living/basic/parrot/headsetted
+/mob/living/basic/parrot/poly/ghost
+	name = "The Ghost of Poly"
+	desc = "Doomed to squawk the Earth."
+	color = "#FFFFFF77"
+	speak_chance = 20
+	status_flags = GODMODE
+	sentience_type = SENTIENCE_BOSS //This is so players can't mindswap into ghost poly to become a literal god
+	incorporeal_move = INCORPOREAL_MOVE_BASIC
+	butcher_results = list(/obj/item/ectoplasm = 1)
 
-/// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
-/mob/living/basic/parrot/headsetted/setup_headset()
-	var/headset = pick(
-		/obj/item/radio/headset/headset_cargo,
-		/obj/item/radio/headset/headset_eng,
-		/obj/item/radio/headset/headset_med,
-		/obj/item/radio/headset/headset_sci,
-		/obj/item/radio/headset/headset_sec,
-	)
-	ears = new headset(src)
+/mob/living/basic/parrot/poly/ghost/Initialize(mapload)
+	memory_saved = TRUE //At this point nothing is saved
+	return ..()
+
+#undef POLY_DEFAULT
+#undef POLY_LONGEST_SURVIVAL
+#undef POLY_BEATING_DEATHSTREAK
+#undef POLY_CONSECUTIVE_ROUND
