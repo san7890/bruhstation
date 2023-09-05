@@ -7,11 +7,13 @@
 	var/atom/speaking_pawn = controller.pawn
 	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
 	var/probability = controller.blackboard[BB_PARROT_REPEAT_PROBABILITY]
-	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE)
+	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE) // we always grab a new phrase every time this fires for randomness
+	if(prob(probability) || return_value & NO_NEW_PHRASE_AVAILABLE)
+		return
 
 	potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
-
-	if(isnull(potential_string) || prob(probability))
+	if(isnull(potential_string))
+		stack_trace("Parrot As In Repeat Subtree somehow is getting a null potential string while not getting `NO_NEW_PHRASE_AVAILABLE`!")
 		return
 
 	controller.queue_behavior(/datum/ai_behavior/perform_speech/parrot, potential_string)
