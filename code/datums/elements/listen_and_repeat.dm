@@ -51,17 +51,16 @@
 	if(LAZYLEN(speech_buffer) >= MAX_SPEECH_BUFFER_SIZE) // only remove if we're full
 		LAZYREMOVE(speech_buffer, pick(speech_buffer))
 
-	LAZYOR(speech_buffer, html_decode(raw_message))
+	LAZYOR(speech_buffer, html_decode(message))
 
 /// Called to set a new value for the blackboard key.
 /datum/element/listen_and_repeat/proc/set_new_blackboard_key(datum/source)
+	var/atom/movable/atom_source = source
+	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(LAZYLEN(speech_buffer))
 		controller.set_blackboard_key(blackboard_key, null)
 		return
 
-	var/atom/movable/atom_source = source
-	var/datum/ai_controller/controller = atom_source.ai_controller
 	var/selected_phrase = pick(speech_buffer)
-
 	controller.set_blackboard_key(blackboard_key, selected_phrase)
 

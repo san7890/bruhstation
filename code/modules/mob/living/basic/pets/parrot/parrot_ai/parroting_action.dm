@@ -19,3 +19,28 @@
 /datum/ai_behavior/perform_speech/parrot
 	action_cooldown = 2 SECONDS
 
+/datum/ai_behavior/perform_speech/parrot/perform(seconds_per_tick, datum/ai_controller/controller, speech, speech_sound)
+	var/mob/living/basic/parrot/speaking_pawn = controller.pawn
+	var/list/available_channels = speaking_pawn.get_available_channels()
+	var/modified_speech = speech
+	var/use_radio = prob(50) // we might not even use the radio if we even have a channel
+
+#define HAS_CHANNEL_PREFIX (speech[1] in GLOB.department_radio_prefixes) && (copytext_char(speech, 2, 3) in GLOB.department_radio_keys) // determine if we need to crop the channel prefix
+
+	if(!length(available_channels)) // might not even use the radio at all
+		if(HAS_CHANNEL_PREFIX)
+			modified_speech = copytext_char(speech, 3)
+
+	else
+		if(HAS_CHANNEL_PREFIX)
+			modified_speech = "[use_radio ? pick(available_channels) : ""][copytext_char(speech, 3)]"
+		else
+			modified_speech = "[use_radio ? pick(available_channels) : ""][speech]"
+
+
+	living_pawn.say(speech, forced = "AI Controller")
+	if(speech_sound)
+		playsound(living_pawn, speech_sound, 80, vary = TRUE)
+	finish_action(controller, TRUE)
+
+#undef HAS_CHANNEL_PREFIX
