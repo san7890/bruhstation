@@ -5,9 +5,7 @@
 
 /// Simple element that will deterministically set a value based on stuff that the source has heard and will then compel the source to repeat it.area
 /// Requires a valid AI Blackboard.
-/datum/element/listen_and_repeat
-	element_flags = ELEMENT_BESPOKE
-	argument_hash_start_idx = 2
+/datum/component/listen_and_repeat
 	/// List of things that we start out having in our speech buffer
 	var/list/desired_phrases = null
 	/// The AI Blackboard Key we assign the value to.
@@ -17,7 +15,7 @@
 	/// List of things that we've heard and will repeat.
 	var/list/speech_buffer = null
 
-/datum/element/listen_and_repeat/Attach(datum/target, list/desired_phrases, blackboard_key, probability_stat)
+/datum/component/listen_and_repeat/Initialize(datum/target, list/desired_phrases, blackboard_key, probability_stat)
 	. = ..()
 	if(!ismovable(target))
 		return ELEMENT_INCOMPATIBLE
@@ -31,11 +29,11 @@
 
 	RegisterSignal(target, COMSIG_MOVABLE_HEAR, PROC_REF(on_hear))
 	RegisterSignal(target, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_key))
-	RegisterSignal(target, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(export_speech_buffer))
+	RegisterSignal(target, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
 	// register to detach when a client logs in maybe
 
 /// Called when we hear something.
-/datum/element/listen_and_repeat/proc/on_hear(datum/source, list/passed_arguments)
+/datum/component/listen_and_repeat/proc/on_hear(datum/source, list/passed_arguments)
 	SIGNAL_HANDLER
 	if(prob(probability_stat))
 		return
@@ -49,13 +47,15 @@
 	if(over_radio && prob(RADIO_IGNORE_CHANCE))
 		return
 
-	if(LAZYLEN(speech_buffer) >= MAX_SPEECH_BUFFER_SIZE) // only remove if we're full
-		LAZYREMOVE(speech_buffer, pick(speech_buffer))
+	var/number_of_excess_strings = LAZYLEN(speech_buffer) - MAX_SPEECH_BUFFER_SIZE
+	if(number_of_excess_strings > 0) // only remove if we're overfull
+		for(var/i in 1 to number_of_excess_strings)
+			LAZYREMOVE(speech_buffer, pick(speech_buffer))
 
 	LAZYOR(speech_buffer, html_decode(message))
 
 /// Called to set a new value for the blackboard key.
-/datum/element/listen_and_repeat/proc/set_new_blackboard_key(datum/source)
+/datum/component/listen_and_repeat/proc/set_new_blackboard_key(datum/source)
 	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(LAZYLEN(speech_buffer))
@@ -66,7 +66,7 @@
 	controller.set_blackboard_key(blackboard_key, selected_phrase)
 
 /// Exports all the speech buffer data to a dedicated blackboard key on the source.
-/datum/element/listen_and_repeat/proc/on_write_memory(datum/source, dead, gibbed)
+/datum/component/listen_and_repeat/proc/on_write_memory(datum/source, dead, gibbed)
 	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(LAZYLEN(speech_buffer)) // what? well whatever let's just move on
