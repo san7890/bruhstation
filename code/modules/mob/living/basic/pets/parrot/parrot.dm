@@ -155,15 +155,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 /// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
 /mob/living/basic/parrot/proc/setup_headset()
-	//return null
-	var/headset = pick(
-		/obj/item/radio/headset/headset_cargo,
-		/obj/item/radio/headset/headset_eng,
-		/obj/item/radio/headset/headset_med,
-		/obj/item/radio/headset/headset_sci,
-		/obj/item/radio/headset/headset_sec,
-	)
-	ears = new headset(src)
+	return
 
 /// Gets a static list of phrases we wish to pass to the element.
 /mob/living/basic/parrot/proc/get_static_list_of_phrases()
