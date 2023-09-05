@@ -578,17 +578,6 @@
 	return
 
 /mob/living/simple_animal/parrot/proc/drop_held_item(drop_gently = 1)
-	set name = "Drop held item"
-	set category = "Parrot"
-	set desc = "Drop the item you're holding."
-
-	if(stat)
-		return -1
-
-	if(!held_item)
-		if(src == usr) //So that other mobs won't make this message appear when they're bludgeoning you.
-			to_chat(src, span_warning("You have nothing to drop!"))
-		return 0
 
 
 //parrots will eat crackers instead of dropping them
@@ -600,21 +589,6 @@
 		manual_emote("[src] eagerly downs the cracker.")
 		return 1
 
-
-	if(!drop_gently)
-		if(isgrenade(held_item))
-			var/obj/item/grenade/G = held_item
-			G.forceMove(drop_location())
-			G.detonate()
-			to_chat(src, span_danger("You let go of [held_item]!"))
-			held_item = null
-			return 1
-
-	to_chat(src, span_notice("You drop [held_item]."))
-
-	held_item.forceMove(drop_location())
-	held_item = null
-	return 1
 
 /mob/living/simple_animal/parrot/proc/perch_player()
 	set name = "Sit"

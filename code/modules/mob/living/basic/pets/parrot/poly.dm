@@ -35,8 +35,6 @@
 
 	REGISTER_REQUIRED_MAP_ITEM(1, 1) // every map needs a poly!
 	update_appearance()
-	// poly gets to say a snappy oneliner if he gets horted
-	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_hurt)) // do not confuse with COMSIG_ATOM_ATTACKBY, which is registered on parent
 
 	if(!SStts.tts_enabled)
 		return
@@ -104,18 +102,6 @@
 			add_atom_colour("#EEEE22", FIXED_COLOUR_PRIORITY)
 		if(POLY_BEATING_DEATHSTREAK)
 			add_atom_colour("#BB7777", FIXED_COLOUR_PRIORITY)
-
-/// If we get hit, queue up a snappy oneliner.
-/mob/living/basic/parrot/poly/proc/on_attacked()
-	SIGNAL_HANDLER
-	if(!isnull(client) || stat != CONSCIOUS)
-		return
-
-	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE)
-	if(return_value & NO_NEW_PHRASE_AVAILABLE)
-		return
-
-	say(controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot oneliner on attack")
 
 /// Reads the memory of the parrot, and updates the necessary variables. Returns a list of phrases to add to the parrot's speech buffer.
 /mob/living/basic/parrot/poly/proc/read_memory()
