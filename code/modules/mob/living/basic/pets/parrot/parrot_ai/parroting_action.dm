@@ -1,6 +1,6 @@
 /// When a parrot... parrots...
 /datum/ai_planning_subtree/parrot_as_in_repeat
-	operational_datums = list(/datum/element/listen_and_repeat)
+	operational_datums = list(/datum/component/listen_and_repeat)
 
 /datum/ai_planning_subtree/parrot_as_in_repeat/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	. = ..()
@@ -38,7 +38,7 @@
 			modified_speech = "[use_radio ? pick(available_channels) : ""][speech]"
 
 
-	speaking_pawn.say(speech, forced = "AI Controller")
+	speaking_pawn.say(modified_speech, forced = "AI Controller")
 	if(speech_sound)
 		playsound(speaking_pawn, speech_sound, 80, vary = TRUE)
 	finish_action(controller, TRUE)

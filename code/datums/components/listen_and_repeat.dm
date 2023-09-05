@@ -15,10 +15,10 @@
 	/// List of things that we've heard and will repeat.
 	var/list/speech_buffer = null
 
-/datum/component/listen_and_repeat/Initialize(datum/target, list/desired_phrases, blackboard_key, probability_stat)
+/datum/component/listen_and_repeat/Initialize(list/desired_phrases, blackboard_key, probability_stat)
 	. = ..()
-	if(!ismovable(target))
-		return ELEMENT_INCOMPATIBLE
+	if(!ismovable(parent))
+		return COMPONENT_INCOMPATIBLE
 
 	if(isnull(probability_stat))
 		probability_stat = 50 // default for sanity
@@ -27,9 +27,9 @@
 		LAZYADD(speech_buffer, desired_phrases)
 	src.blackboard_key = blackboard_key
 
-	RegisterSignal(target, COMSIG_MOVABLE_HEAR, PROC_REF(on_hear))
-	RegisterSignal(target, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_key))
-	RegisterSignal(target, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
+	RegisterSignal(parent, COMSIG_MOVABLE_HEAR, PROC_REF(on_hear))
+	RegisterSignal(parent, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_key))
+	RegisterSignal(parent, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
 	// register to detach when a client logs in maybe
 
 /// Called when we hear something.

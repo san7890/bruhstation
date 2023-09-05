@@ -11,9 +11,9 @@
 /mob/living/basic/parrot/poly
 	name = "Poly"
 	desc = "Poly the Parrot. An expert on quantum cracker theory."
-	speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN MODSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
+	//speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN MODSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
 	gold_core_spawnable = NO_SPAWN
-	speak_chance = 3
+	//speak_chance = 3
 
 	/// Did we write the memory to disk?
 	var/memory_saved = FALSE
@@ -37,8 +37,9 @@
 			voice_filter = "rubberband=pitch=1.5" // Use the filter to pitch up if we can't naturally pitch up.
 
 	REGISTER_REQUIRED_MAP_ITEM(1, 1) // every map needs a poly!
+	update_appearance()
 
-/mob/living/simple_animal/parrot/poly/death(gibbed)
+/mob/living/basic/parrot/poly/death(gibbed)
 	if(HAS_TRAIT(src, TRAIT_DONT_WRITE_MEMORY))
 		return ..() // Don't read memory either.
 	if(!memory_saved)
@@ -81,6 +82,7 @@
 			desc += " Over [rounds_survived] shifts without a \"terrible\" \"accident\"!"
 
 /mob/living/basic/parrot/poly/update_icon()
+	. = ..()
 	switch(determine_special_poly())
 		if(POLY_LONGEST_SURVIVAL)
 			add_atom_colour("#EEEE22", FIXED_COLOUR_PRIORITY)
@@ -166,7 +168,7 @@
 	name = "The Ghost of Poly"
 	desc = "Doomed to squawk the Earth."
 	color = "#FFFFFF77"
-	speak_chance = 20
+	//speak_chance = 20
 	status_flags = GODMODE
 	sentience_type = SENTIENCE_BOSS //This is so players can't mindswap into ghost poly to become a literal god
 	incorporeal_move = INCORPOREAL_MOVE_BASIC
