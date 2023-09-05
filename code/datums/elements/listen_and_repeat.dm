@@ -41,10 +41,17 @@
 	if(speaker == source) // don't parrot ourselves
 		return
 
-	if(over_radio && prob(RADIO_IGNORE_CHANCE)) // tendency to ignore radio chatter
+	if(over_radio && prob(RADIO_IGNORE_CHANCE))
 		return
 
-	if(LAZYLEN(speech_buffer) >= MAX_SPEECH_BUFFER_SIZE)
+	if(LAZYLEN(speech_buffer) >= MAX_SPEECH_BUFFER_SIZE) // only remove if we're full
 		LAZYREMOVE(speech_buffer, pick(speech_buffer))
 
 	LAZYOR(speech_buffer, html_decode(raw_message))
+
+/// Called to set a new value for the blackboard key.
+/datum/element/listen_and_repeat/proc/set_new_blackboard_key(datum/source)
+	var/atom/movable/atom_source = source
+	var/datum/ai_controller/controller = atom_source.ai_controller
+
+	controller.set_blackboard_key(blackboard_key, pick(speech_buffer))
