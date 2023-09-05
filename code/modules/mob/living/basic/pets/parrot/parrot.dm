@@ -16,13 +16,13 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	maxHealth = 80
 	pass_flags = PASSTABLE | PASSMOB
 
-	speak = list("Hi!","Hello!","Cracker?","BAWWWWK george mellons griffing me!")
-	speak_emote = list("squawks","says","yells")
-	emote_hear = list("squawks.","bawks!")
-	emote_see = list("flutters their wings.")
+	//speak = list("Hi!","Hello!","Cracker?","BAWWWWK george mellons griffing me!")
+	//speak_emote = list("squawks","says","yells")
+	//emote_hear = list("squawks.","bawks!")
+	//emote_see = list("flutters their wings.")
 
-	speak_chance = 1 //1% (1 in 100) chance every tick; So about once per 150 seconds, assuming an average tick is 1.5s
-	turns_per_move = 5
+	//speak_chance = 1 //1% (1 in 100) chance every tick; So about once per 150 seconds, assuming an average tick is 1.5s
+	//turns_per_move = 5
 	butcher_results = list(/obj/item/food/cracker = 1)
 	melee_damage_upper = 10
 	melee_damage_lower = 5
@@ -33,7 +33,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	response_disarm_simple = "gently move aside"
 	response_harm_continuous = "swats"
 	response_harm_simple = "swat"
-	stop_automated_movement = 1
+	//stop_automated_movement = 1
 	combat_mode = TRUE //parrots now start "aggressive" since only player parrots will nuzzle.
 	attack_verb_continuous = "chomps"
 	attack_verb_simple = "chomp"
@@ -95,7 +95,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	setup_headset()
 
-	AddElement(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
+	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 
@@ -195,7 +195,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(isnull(ears))
 		return returnable_list
 
-	for(var/channel in ears.channels)
-		GLOB.channel_tokens[channels[channel]] // will return something like ":e" or ":c" y'know
+	var/list/headset_channels = ears.channels
+	for(var/channel in headset_channels)
+		returnable_list += GLOB.channel_tokens[headset_channels[channel]] // will return something like ":e" or ":c" y'know
 
 	return returnable_list
