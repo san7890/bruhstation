@@ -200,6 +200,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	var/list/headset_channels = ears.channels
 	for(var/channel in headset_channels)
-		returnable_list += GLOB.channel_tokens[headset_channels[channel]] // will return something like ":e" or ":c" y'know
+		returnable_list += GLOB.channel_tokens[channel] // will return something like ":e" or ":c" y'know
 
 	return returnable_list

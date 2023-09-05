@@ -19,7 +19,7 @@
 	controller.queue_behavior(/datum/ai_behavior/perform_speech/parrot, potential_string)
 
 /datum/ai_behavior/perform_speech/parrot
-	action_cooldown = 2 SECONDS
+	action_cooldown = 7.5 SECONDS // gets really annoying (moreso than usual) really fast otherwise
 
 /datum/ai_behavior/perform_speech/parrot/perform(seconds_per_tick, datum/ai_controller/controller, speech, speech_sound)
 	var/mob/living/basic/parrot/speaking_pawn = controller.pawn
