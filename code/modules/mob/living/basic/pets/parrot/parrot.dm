@@ -43,6 +43,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	mob_size = MOB_SIZE_SMALL
 	gold_core_spawnable = FRIENDLY_SPAWN
 
+	ai_controller = /datum/ai_controller/basic_controller/parrot
+
 	/// Icon we use while sitting
 	var/icon_sit = "parrot_sit"
 	/// The number of damage we do when we decide to aggro for our lives
