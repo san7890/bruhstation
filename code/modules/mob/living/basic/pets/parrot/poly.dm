@@ -46,11 +46,11 @@
 		Write_Memory(TRUE)
 	var/special_status = determine_special_poly()
 	if(special_status == POLY_LONGEST_SURVIVAL || special_status == POLY_BEATING_DEATHSTREAK || prob(0.666))
-		var/mob/living/simple_animal/parrot/poly/ghost/G = new(loc) // san7890 make this the transfer mob proc
+		var/mob/living/basic/parrot/poly/ghost/specter = new(loc) // san7890 make this the transfer mob proc
 		if(mind)
-			mind.transfer_to(G)
+			mind.transfer_to(specter)
 		else
-			G.key = key
+			specter.key = key
 	return ..()
 
 /mob/living/basic/parrot/poly/get_static_list_of_phrases() // there's only one poly, so there should only be one ongoing list of phrases. i guess
@@ -160,6 +160,7 @@
 #endif
 
 	rustg_file_write(formatted_data, file_path)
+	memory_saved = TRUE
 
 /mob/living/basic/parrot/poly/setup_headset()
 	ears = new /obj/item/radio/headset/headset_eng(src)
