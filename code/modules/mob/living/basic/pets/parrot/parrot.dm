@@ -98,6 +98,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	setup_headset()
 
 	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
+	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 

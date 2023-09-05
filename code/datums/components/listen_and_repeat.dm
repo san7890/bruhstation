@@ -58,9 +58,9 @@
 /datum/component/listen_and_repeat/proc/set_new_blackboard_key(datum/source)
 	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
-	if(LAZYLEN(speech_buffer))
+	if(!LAZYLEN(speech_buffer))
 		controller.set_blackboard_key(blackboard_key, null)
-		return
+		return NO_NEW_PHRASE_AVAILABLE
 
 	var/selected_phrase = pick(speech_buffer)
 	controller.set_blackboard_key(blackboard_key, selected_phrase)
