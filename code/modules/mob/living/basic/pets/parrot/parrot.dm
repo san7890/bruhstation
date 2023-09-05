@@ -194,7 +194,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	speech_probability_rate *= 1.27 // 20 crackers to go from 1% to 100%
 	speech_shuffle_rate += 10
 	update_speech_blackboards()
-	to_chat(user, span_notice("[src] eagerly devours the cracker."))
+	to_chat(source, span_notice("[src] eagerly devours the cracker."))
 	return COMPONENT_NO_AFTERATTACK
 
 /// Handles special behavior whenever we are injured.
@@ -204,7 +204,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		return
 
 	drop_held_item(gently = FALSE)
-	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE)
+	var/return_value = SEND_SIGNAL(source, COMSIG_NEEDS_NEW_PHRASE)
 	if(return_value & NO_NEW_PHRASE_AVAILABLE)
 		return
 
