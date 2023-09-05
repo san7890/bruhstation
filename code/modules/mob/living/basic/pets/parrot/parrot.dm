@@ -1,3 +1,8 @@
+GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
+	/datum/strippable_item/parrot_headset,
+)))
+
+
 /// Parrots! Klepto bastards that imitate your speech and hoard your shit.
 /mob/living/basic/parrot
 	name = "parrot"
@@ -141,15 +146,6 @@
 	. = ..()
 	. += "Held Item: [held_item]"
 
-/mob/living/basic/parrot/Hear(message, atom/movable/speaker, message_langs, raw_message, radio_freq, list/spans, list/message_mods = list(), message_range)
-	. = ..()
-	if(speaker != src && prob(50)) //Dont imitate ourselves
-		if(!radio_freq || prob(10))
-			if(speech_buffer.len >= 500)
-				speech_buffer -= pick(speech_buffer)
-			speech_buffer |= html_decode(raw_message)
-	if(speaker == src && !client) //If a parrot squawks in the woods and no one is around to hear it, does it make a sound? This code says yes!
-		return !!message
 
 /// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
 /mob/living/basic/parrot/proc/setup_headset()
