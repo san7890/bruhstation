@@ -1,0 +1,116 @@
+/// The classically famous compadre to the Chief Engineer, Poly.
+/mob/living/basic/parrot/poly
+	name = "Poly"
+	desc = "Poly the Parrot. An expert on quantum cracker theory."
+	speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN MODSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
+	gold_core_spawnable = NO_SPAWN
+	speak_chance = 3
+
+	/// Did we write the memory to disk?
+	var/memory_saved = FALSE
+	/// How long has this bird been alive for?
+	var/rounds_survived = 0
+	/// How long have we survived for at max?
+	var/longest_survival = 0
+	/// How many rounds in a row have we been dead for?
+	var/longest_deathstreak = 0
+
+/mob/living/basic/parrot/poly/get_static_list_of_phrases() // there's only one poly, so there should only be one ongoing list of phrases. i guess
+	var/static/list/phrases_to_return = list()
+	if(!length(phrases_to_return))
+		phrases_to_return += read_memory()
+
+	if(rounds_survived == longest_survival)
+		speak += pick("...[longest_survival].", "The things I've seen!", "I have lived many lives!", "What are you before me?")
+		desc += " Old as sin, and just as loud. Claimed to be [rounds_survived]."
+		speak_chance = 20 //His hubris has made him more annoying/easier to justify killing
+		add_atom_colour("#EEEE22", FIXED_COLOUR_PRIORITY)
+	else if(rounds_survived == longest_deathstreak)
+		speak += pick("What are you waiting for!", "Violence breeds violence!", "Blood! Blood!", "Strike me down if you dare!")
+		desc += " The squawks of [-rounds_survived] dead parrots ring out in your ears..."
+		add_atom_colour("#BB7777", FIXED_COLOUR_PRIORITY)
+	else if(rounds_survived > 0)
+		speak += pick("...again?", "No, It was over!", "Let me out!", "It never ends!")
+		desc += " Over [rounds_survived] shifts without a \"terrible\" \"accident\"!"
+	else
+		speak += pick("...alive?", "This isn't parrot heaven!", "I live, I die, I live again!", "The void fades!")
+
+	return phrases_to_return
+
+/// Reads the memory of the parrot, and updates the necessary variables. Returns a list of phrases to add to the parrot's speech buffer.
+/mob/living/basic/parrot/poly/proc/read_memory()
+	RETURN_TYPE(/list)
+	var/list/returnable_list = list()
+	if(fexists("data/npc_saves/Poly.sav")) //legacy compatability to convert old format to new
+		var/savefile/legacy = new /savefile("data/npc_saves/Poly.sav")
+		legacy["phrases"] >> returnable_list
+		legacy["roundssurvived"] >> rounds_survived
+		legacy["longestsurvival"] >> longest_survival
+		legacy["longestdeathstreak"] >> longest_deathstreak
+		fdel("data/npc_saves/Poly.sav")
+
+	else
+		var/json_file = file("data/npc_saves/Poly.json")
+		if(!fexists(json_file))
+			return
+		var/list/json = json_decode(file2text(json_file))
+		returnable_list = json["phrases"]
+		rounds_survived = json["roundssurvived"]
+		longest_survival = json["longestsurvival"]
+		longest_deathstreak = json["longestdeathstreak"]
+
+	return returnable_list
+
+/mob/living/simple_animal/parrot/poly/Write_Memory(dead, gibbed)
+	. = ..()
+	if(!.)
+		return
+
+	var/file_path = "data/npc_saves/Poly.json"
+	var/list/file_data = list()
+
+	var/list/exportable_speech_buffer = controller.blackboard[BB_EXPORTABLE_STRING_BUFFER_LIST] // should have been populated when we sent the signal out on parent
+	if(length(exportable_speech_buffer))
+		file_data["phrases"] = exportable_speech_buffer
+
+	if(dead)
+		file_data["roundssurvived"] = min(rounds_survived - 1, 0)
+		file_data["longestsurvival"] = longest_survival
+		if(rounds_survived - 1 < longest_deathstreak)
+			file_data["longestdeathstreak"] = rounds_survived - 1
+		else
+			file_data["longestdeathstreak"] = longest_deathstreak
+	else
+
+		file_data["roundssurvived"] = max(rounds_survived, 0) + 1
+		if(rounds_survived + 1 > longest_survival)
+			file_data["longestsurvival"] = rounds_survived + 1
+		else
+			file_data["longestsurvival"] = longest_survival
+		file_data["longestdeathstreak"] = longest_deathstreak
+
+	var/formatted_data
+#if DM_VERSION >= 515
+		formatted_data = json_encode(file_data, JSON_PRETTY_PRINT)
+#else
+		formatted_data = json_encode(file_data)
+#endif
+
+	rustg_file_write(json_encode(formatted_data), file_path)
+
+/mob/living/basic/parrot/poly/setup_headset()
+	ears = new /obj/item/radio/headset/headset_eng(src)
+
+/// Parrot that will just randomly spawn with a headset. Nothing too special beyond that.
+/mob/living/basic/parrot/headsetted
+
+/// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
+/mob/living/basic/parrot/headsetted/setup_headset()
+	var/headset = pick(
+		/obj/item/radio/headset/headset_cargo,
+		/obj/item/radio/headset/headset_eng,
+		/obj/item/radio/headset/headset_med,
+		/obj/item/radio/headset/headset_sci,
+		/obj/item/radio/headset/headset_sec,
+	)
+	ears = new headset(src)

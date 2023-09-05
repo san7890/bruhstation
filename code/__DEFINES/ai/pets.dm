@@ -32,3 +32,5 @@
 #define BB_PARROT_REPEAT_STRING "BB_parrot_repeat_string"
 /// The odds that this parrot will repeat back a string
 #define BB_PARROT_REPEAT_PROBABILITY "BB_parrot_repeat_proability"
+/// A copy of the string buffer that we end the shift with. DO NOT ACCESS THIS DIRECTLY - YOU SHOULD USE THE ELEMENT IN MOST CASES
+#define BB_EXPORTABLE_STRING_BUFFER_LIST "BB_parrot_repeat_string_buffer"
