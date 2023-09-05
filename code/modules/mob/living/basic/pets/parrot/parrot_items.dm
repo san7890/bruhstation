@@ -25,7 +25,7 @@
 	if (!istype(radio))
 		return
 
-	var/mob/living/simple_animal/parrot/parrot_source = source
+	var/mob/living/BASIC/parrot/parrot_source = source
 	if (!istype(parrot_source))
 		return
 
@@ -36,33 +36,6 @@
 
 	to_chat(user, span_notice("You fit [radio] onto [source]."))
 
-	parrot_source.available_channels.Cut()
-
-	for (var/channel in radio.channels)
-		var/channel_to_add
-
-		switch (channel)
-			if (RADIO_CHANNEL_ENGINEERING)
-				channel_to_add = RADIO_TOKEN_ENGINEERING
-			if (RADIO_CHANNEL_COMMAND)
-				channel_to_add = RADIO_TOKEN_COMMAND
-			if (RADIO_CHANNEL_SECURITY)
-				channel_to_add = RADIO_TOKEN_SECURITY
-			if (RADIO_CHANNEL_SCIENCE)
-				channel_to_add = RADIO_TOKEN_SCIENCE
-			if (RADIO_CHANNEL_MEDICAL)
-				channel_to_add = RADIO_TOKEN_MEDICAL
-			if (RADIO_CHANNEL_SUPPLY)
-				channel_to_add = RADIO_TOKEN_SUPPLY
-			if (RADIO_CHANNEL_SERVICE)
-				channel_to_add = RADIO_TOKEN_SERVICE
-
-		if (channel_to_add)
-			parrot_source.available_channels += channel_to_add
-
-	if (radio.translate_binary)
-		parrot_source.available_channels.Add(MODE_TOKEN_BINARY)
-
 /datum/strippable_item/parrot_headset/start_unequip(atom/source, mob/user)
 	. = ..()
 	if (!.)
@@ -72,8 +45,8 @@
 	if (!istype(parrot_source))
 		return
 
-	if (!parrot_source.stat)
-		parrot_source.say("[parrot_source.available_channels.len ? "[pick(parrot_source.available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!")
+	if (parrot_source.stat == CONSCIOUS)
+		parrot_source.say("[parrot_source.available_channels.len ? "[pick(parrot_source.available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!", forced = "attempted headset removal")
 
 	return TRUE
 
