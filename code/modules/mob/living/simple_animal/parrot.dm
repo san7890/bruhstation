@@ -719,17 +719,6 @@
 	to_chat(src, span_notice("You will now [combat_mode ? "Harm" : "Help"] others."))
 	return
 
-/*
- * Sub-types
- */
-
-
-
-/mob/living/simple_animal/parrot/poly/Life(seconds_per_tick = SSMOBS_DT, times_fired)
-//	if(!stat && SSticker.current_state == GAME_STATE_FINISHED && !memory_saved)
-//		Write_Memory(FALSE)
-//		memory_saved = TRUE
-//	..()
 
 
 

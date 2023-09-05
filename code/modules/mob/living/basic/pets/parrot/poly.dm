@@ -15,6 +15,8 @@
 	gold_core_spawnable = NO_SPAWN
 	//speak_chance = 3
 
+	/// Callback to save our memory at the end of the round.
+	var/datum/callback/roundend_callback = null
 	/// Did we write the memory to disk?
 	var/memory_saved = FALSE
 	/// How long has this bird been alive for?
@@ -26,18 +28,30 @@
 
 /mob/living/basic/parrot/poly/Initialize(mapload)
 	. = ..()
-	if(SStts.tts_enabled)
-		voice = pick(SStts.available_speakers)
-		if(SStts.pitch_enabled)
-			if(findtext(voice, "Woman"))
-				pitch = 12 // up-pitch by one octave
-			else
-				pitch = 24 // up-pitch by 2 octaves
-		else
-			voice_filter = "rubberband=pitch=1.5" // Use the filter to pitch up if we can't naturally pitch up.
+
+	if(!memory_saved)
+		roundend_callback = CALLBACK(src, PROC_REF(Write_Memory))
+		SSticker.OnRoundend(roundend_callback)
 
 	REGISTER_REQUIRED_MAP_ITEM(1, 1) // every map needs a poly!
 	update_appearance()
+
+	if(!SStts.tts_enabled)
+		return
+
+	voice = pick(SStts.available_speakers)
+	if(SStts.pitch_enabled)
+		if(findtext(voice, "Woman"))
+			pitch = 12 // up-pitch by one octave
+		else
+			pitch = 24 // up-pitch by 2 octaves
+	else
+		voice_filter = "rubberband=pitch=1.5" // Use the filter to pitch up if we can't naturally pitch up.
+
+/mob/living/basic/parrot/poly/Destroy()
+	LAZYREMOVE(SSticker.round_end_events, roundend_callback) // we do the memory writing stuff on death, but this is important to yeet as fast as we can if we need to destroy
+	roundend_callback = null
+	return ..()
 
 /mob/living/basic/parrot/poly/death(gibbed)
 	if(HAS_TRAIT(src, TRAIT_DONT_WRITE_MEMORY))
@@ -126,8 +140,11 @@
 
 /mob/living/basic/parrot/poly/Write_Memory(dead, gibbed)
 	. = ..()
-	if(!.)
+	if(!. || memory_saved) // if we die, no more memory
 		return
+
+	if(!dead && (stat != DEAD))
+		dead = FALSE
 
 	var/file_path = "data/npc_saves/Poly.json"
 	var/list/file_data = list()
@@ -176,7 +193,9 @@
 	butcher_results = list(/obj/item/ectoplasm = 1)
 
 /mob/living/basic/parrot/poly/ghost/Initialize(mapload)
-	memory_saved = TRUE //At this point nothing is saved
+	// block anything and everything that could possibly happen with writing memory for ghosts
+	memory_saved = TRUE
+	ADD_TRAIT(src, TRAIT_DONT_WRITE_MEMORY, INNATE_TRAIT)
 	return ..()
 
 #undef POLY_DEFAULT
