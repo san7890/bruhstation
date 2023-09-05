@@ -97,7 +97,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	setup_headset()
 	update_speech_blackboards()
-	controller.set_blackboard_key(BB_PARROT_PERCH_TYPES, desired_perches)
+	ai_controller.set_blackboard_key(BB_PARROT_PERCH_TYPES, desired_perches)
 
 	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate, speech_shuffle_rate)
 	AddElement(/datum/element/ai_retaliate)
@@ -105,7 +105,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	AddElement(/datum/element/simple_flying)
 
 	RegisterSignal(src, COMSIG_HOSTILE_PRE_ATTACKINGTARGET, PROC_REF(pre_attacking))
-	RegisterSignal(src. COMSIG_MOB_CLICKON, PROC_REF(on_click))
+	RegisterSignal(src, COMSIG_MOB_CLICKON, PROC_REF(on_click))
 	RegisterSignal(src, COMSIG_MOVABLE_MOVED, PROC_REF(on_move))
 	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attacked)) // this means we could have a peaceful interaction, like getting a cracker
 	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_injured)) // this means we got hurt and it's go time
@@ -118,7 +118,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		QDEL_NULL(held_item)
 	return ..()
 
-/mob/living/simple_animal/parrot/death(gibbed)
+/mob/living/basic/parrot/death(gibbed)
 	if(held_item)
 		held_item.forceMove(drop_location())
 		held_item = null
@@ -198,7 +198,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /// Proc that we just use to see if we're rightclicking something for perch behavior or dropping the item we currently ahve
 /mob/living/basic/parrot/proc/on_click(mob/living/basic/source, atom/target, params)
 	SIGNAL_HANDLER
-	if(!LAZYACCESS(modifiers, RIGHT_CLICK))
+	if(!LAZYACCESS(params, RIGHT_CLICK))
 		return
 
 	if(start_perching(target))
@@ -224,7 +224,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	forceMove(get_turf(target))
 	ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
-	drop_item(gently = TRUE) // comfy :)
+	drop_held_item(gently = TRUE) // comfy :)
 	update_appearance()
 	return TRUE
 
@@ -294,7 +294,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	return TRUE
 
 /// Looks for an item that we can snatch and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
-/mob/living/basic/parrot/proc/steal_from_ground(mob/living/carbon/victim)
+/mob/living/basic/parrot/proc/steal_from_mob(mob/living/carbon/victim)
 	if(!isnull(held_item))
 		balloon_alert(src, "already holding something!")
 		return FALSE

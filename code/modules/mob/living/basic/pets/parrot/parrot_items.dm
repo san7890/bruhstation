@@ -25,7 +25,7 @@
 	if (!istype(radio))
 		return
 
-	var/mob/living/BASIC/parrot/parrot_source = source
+	var/mob/living/basic/parrot/parrot_source = source
 	if (!istype(parrot_source))
 		return
 

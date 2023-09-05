@@ -9,9 +9,10 @@
 		// Busy with something
 		return
 
-	if(QDELETED(ai_controller.blackboard[BB_PARROT_INANIMATE_PERCH])) // first order is to nab a nice perch
-		ai_controller.queue_behavior(/datum/ai_behavior/find_and_set/in_list/turf_location, BB_PARROT_INANIMATE_PERCH, controller.blackboard[BB_PARROT_PERCH_TYPES])
+	var/atom/perch = controller.blackboard[BB_PARROT_INANIMATE_PERCH]
+	if(QDELETED(perch)) // first order is to nab a nice perch
+		controller.queue_behavior(/datum/ai_behavior/find_and_set/in_list/turf_location, BB_PARROT_INANIMATE_PERCH, controller.blackboard[BB_PARROT_PERCH_TYPES])
 		return SUBTREE_RETURN_FINISH_PLANNING
 
-
+	// todo, differentiate between people we wanna rob and people we wanna perch on, as well as items we wanna hoard
 
