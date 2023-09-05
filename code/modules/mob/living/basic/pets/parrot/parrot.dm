@@ -211,6 +211,10 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /// Proc that ascertains the type of perch we're dealing with and starts the perching process.
 /// Returns TRUE if we started perching, FALSE otherwise.
 /mob/living/basic/parrot/proc/start_perching(atom/target)
+	if(HAS_TRAIT(src, PARROT_PERCHED))
+		balloon_alert(src, "already perched!")
+		return FALSE
+
 	if(ishuman(target))
 		if(perch_on_human(target))
 			return TRUE
@@ -231,7 +235,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		balloon_alert(src, "can't perch on them!")
 		return FALSE
 
-	forceMove(get_turf(H))
+	forceMove(get_turf(target))
 	if(!target.buckle_mob(src, TRUE))
 		return FALSE
 
@@ -298,7 +302,9 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	for(var/obj/item/stealable in victim.held_items)
 		if(stealable.w_class <= WEIGHT_CLASS_SMALL)
-			victim.temporarilyRemoveItemFromInventory(stealable, force = TRUE)
+			if(!victim.temporarilyRemoveItemFromInventory(stealable))
+				continue
+
 			visible_message(
 				span_notice("[src] grabs [held_item] out of [victim]'s hand!"),
 				span_notice("You snag [held_item] out of [victim]'s hand!"),
