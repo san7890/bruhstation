@@ -72,6 +72,16 @@
 	if(length(found))
 		return pick(found)
 
+/// Like find_and_set/in_list, but we return the turf location of the item instead of the item itself.
+/datum/ai_behavior/find_and_set/in_list/turf_location
+
+/datum/ai_behavior/find_and_set/in_list/search_tactic(datum/ai_controller/controller, locate_paths, search_range)
+	. = ..()
+	if(isnull(.))
+		return null
+
+	return get_turf(.)
+
 /**
  * Variant of find and set which returns an object which can be animated with a staff of change
  */
