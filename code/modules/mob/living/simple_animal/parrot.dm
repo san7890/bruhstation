@@ -526,13 +526,6 @@
 	to_chat(src, span_warning("There is no perch nearby to sit on!"))
 	return
 
-/mob/living/simple_animal/parrot/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
-	. = ..()
-	if(. && !stat && client && parrot_state == PARROT_PERCH)
-		parrot_state = PARROT_WANDER
-		icon_state = icon_living
-		pixel_x = initial(pixel_x)
-		pixel_y = initial(pixel_y)
 
 /mob/living/simple_animal/parrot/proc/perch_mob_player()
 	set name = "Sit on Human's Shoulder"

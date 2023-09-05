@@ -106,6 +106,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	AddElement(/datum/element/simple_flying)
 
 	RegisterSignal(src, COMSIG_HOSTILE_PRE_ATTACKINGTARGET, PROC_REF(pre_attacking))
+	RegisterSignal(src. COMSIG_MOB_CLICKON, PROC_REF(on_click))
+	RegisterSignal(src, COMSIG_MOVABLE_MOVED, PROC_REF(on_move))
 	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attacked)) // this means we could have a peaceful interaction, like getting a cracker
 	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_injured)) // this means we got hurt and it's go time
 
@@ -182,6 +184,71 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 			return ITALICS | REDUCE_RANGE
 
 	return NONE
+
+#define PARROT_PERCHED "parrot_perched" // move this later
+
+/mob/living/basic/parrot/update_icon(updates)
+	. = ..()
+	if(HAS_TRAIT(src, PARROT_PERCHED))
+		icon_state = icon_sit
+	else
+		icon_state = icon_living
+		pixel_x = initial(pixel_x)
+		pixel_y = initial(pixel_y)
+
+/// Proc that we just use to see if we're rightclicking something for perch behavior or dropping the item we currently ahve
+/mob/living/basic/parrot/proc/on_click(mob/living/basic/source, atom/target, params)
+	SIGNAL_HANDLER
+	if(!LAZYACCESS(modifiers, RIGHT_CLICK))
+		return
+
+	if(start_perching(target))
+		return COMSIG_MOB_CANCEL_CLICKON
+
+	if(!isnull(held_item))
+		drop_held_item(gently = TRUE)
+
+/// Proc that ascertains the type of perch we're dealing with and starts the perching process.
+/// Returns TRUE if we started perching, FALSE otherwise.
+/mob/living/basic/parrot/proc/start_perching(atom/target)
+	if(ishuman(target))
+		if(perch_on_human(target))
+			return TRUE
+		return FALSE
+
+	if(!isobj(target))
+		return FALSE
+
+	forceMove(get_turf(target))
+	ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+	drop_item(gently = TRUE) // comfy :)
+	update_appearance()
+	return TRUE
+
+/// Proc that will perch us on a human. Returns TRUE if we perched, FALSE otherwise.
+/mob/living/basic/parrot/proc/perch_on_human(mob/living/carbon/human/target)
+	if(target.has_buckled_mobs() && (length(target.buckled_mobs) >= target.max_buckled_mobs))
+		balloon_alert(src, "can't perch on them!")
+		return FALSE
+
+	forceMove(get_turf(H))
+	if(!target.buckle_mob(src, TRUE))
+		return FALSE
+
+	pixel_y = 9
+	pixel_x = pick(-8,8) //pick left or right shoulder
+	to_chat(src, span_notice("You sit on [target]'s shoulder."))
+	ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+	update_appearance()
+	return TRUE
+
+/// If we move, remove the perching trait and reset our icon state.
+/mob/living/basic/parrot/proc/on_move(mob/living/basic/source)
+	if(!HAS_TRAIT(src, PARROT_PERCHED))
+		return
+
+	REMOVE_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+	update_appearance()
 
 /// Master proc which will determine the intent of OUR attacks on an object and summon the relevant procs accordingly.
 /// This is pretty much meant for players, AI will use the task-specific procs instead.
