@@ -24,6 +24,34 @@
 	/// How many rounds in a row have we been dead for?
 	var/longest_deathstreak = 0
 
+/mob/living/basic/parrot/poly/Initialize(mapload)
+	. = ..()
+	if(SStts.tts_enabled)
+		voice = pick(SStts.available_speakers)
+		if(SStts.pitch_enabled)
+			if(findtext(voice, "Woman"))
+				pitch = 12 // up-pitch by one octave
+			else
+				pitch = 24 // up-pitch by 2 octaves
+		else
+			voice_filter = "rubberband=pitch=1.5" // Use the filter to pitch up if we can't naturally pitch up.
+
+	REGISTER_REQUIRED_MAP_ITEM(1, 1) // every map needs a poly!
+
+/mob/living/simple_animal/parrot/poly/death(gibbed)
+	if(HAS_TRAIT(src, TRAIT_DONT_WRITE_MEMORY))
+		return ..() // Don't read memory either.
+	if(!memory_saved)
+		Write_Memory(TRUE)
+	var/special_status = determine_special_poly()
+	if(special_status == POLY_LONGEST_SURVIVAL || special_status == POLY_BEATING_DEATHSTREAK || prob(0.666))
+		var/mob/living/simple_animal/parrot/poly/ghost/G = new(loc) // san7890 make this the transfer mob proc
+		if(mind)
+			mind.transfer_to(G)
+		else
+			G.key = key
+	return ..()
+
 /mob/living/basic/parrot/poly/get_static_list_of_phrases() // there's only one poly, so there should only be one ongoing list of phrases. i guess
 	var/static/list/phrases_to_return = list()
 	if(length(phrases_to_return))

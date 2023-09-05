@@ -744,26 +744,6 @@
 
 
 
-/mob/living/simple_animal/parrot/poly/Initialize(mapload)
-
-	if(SStts.tts_enabled)
-		voice = pick(SStts.available_speakers)
-		if(SStts.pitch_enabled)
-			if(findtext(voice, "Woman"))
-				pitch = 12 // up-pitch by one octave
-			else
-				pitch = 24 // up-pitch by 2 octaves
-		else
-			voice_filter = "rubberband=pitch=1.5" // Use the filter to pitch up if we can't naturally pitch up.
-
-	available_channels = list(":e")
-
-
-	. = ..()
-
-	// Ensure 1 Poly exists
-	REGISTER_REQUIRED_MAP_ITEM(1, 1)
-
 /mob/living/simple_animal/parrot/poly/Life(seconds_per_tick = SSMOBS_DT, times_fired)
 	if(!stat && SSticker.current_state == GAME_STATE_FINISHED && !memory_saved)
 		Write_Memory(FALSE)

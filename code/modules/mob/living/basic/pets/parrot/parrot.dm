@@ -95,7 +95,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	setup_headset()
 
-	AddElement(/datum/element/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
+	AddElement(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 
@@ -171,5 +171,11 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 /// Gets the available channels that this parrot has access to. Returns a list of the channels we can use.
 /mob/living/basic/parrot/proc/get_available_channels()
+	var/list/returnable_list = list()
 	if(isnull(ears))
-		return list()
+		return returnable_list
+
+	for(var/channel in ears.channels)
+		GLOB.channel_tokens[channels[channel]] // will return something like ":e" or ":c" y'know
+
+	return returnable_list
