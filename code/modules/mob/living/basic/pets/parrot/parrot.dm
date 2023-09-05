@@ -146,6 +146,10 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	. += "Held Item: [held_item]"
 
+/mob/living/basic/parrot/Process_Spacemove(movement_dir = 0, continuous_move = FALSE)
+	if(stat != DEAD) // parrots have evolved to let them fly in space because fucking uhhhhhhhhhh
+		return TRUE
+	return ..()
 
 /// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
 /mob/living/basic/parrot/proc/setup_headset()

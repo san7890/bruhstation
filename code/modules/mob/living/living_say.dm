@@ -526,7 +526,7 @@ GLOBAL_LIST_INIT(message_modes_stat_limits, list(
 				I.talk_into(src, message, , spans, language, message_mods)
 			return ITALICS | REDUCE_RANGE
 
-	return 0
+	return NONE
 
 /mob/living/say_mod(input, list/message_mods = list())
 	if(message_mods[WHISPER_MODE] == MODE_WHISPER)
