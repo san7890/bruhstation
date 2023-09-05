@@ -505,36 +505,6 @@
 	return null
 
 
-/*
- * Verbs - These are actually procs, but can be used as verbs by player-controlled parrots.
- */
-/mob/living/simple_animal/parrot/proc/steal_from_ground()
-	set name = "Steal from ground"
-	set category = "Parrot"
-	set desc = "Grabs a nearby item."
-
-	if(stat)
-		return -1
-
-	if(held_item)
-		to_chat(src, span_warning("You are already holding [held_item]!"))
-		return 1
-
-	for(var/obj/item/I in view(1,src))
-		//Make sure we're not already holding it and it's small enough
-		if(I.loc != src && I.w_class <= WEIGHT_CLASS_SMALL)
-
-			//If we have a perch and the item is sitting on it, continue
-			if(!client && parrot_perch && I.loc == parrot_perch.loc)
-				continue
-
-			held_item = I
-			I.forceMove(src)
-			visible_message(span_notice("[src] grabs [held_item]!"), span_notice("You grab [held_item]!"), span_hear("You hear the sounds of wings flapping furiously."))
-			return held_item
-
-	to_chat(src, span_warning("There is nothing of interest to take!"))
-	return 0
 
 /mob/living/simple_animal/parrot/proc/steal_from_mob()
 	set name = "Steal from mob"
@@ -576,18 +546,6 @@
 	src.drop_held_item()
 
 	return
-
-/mob/living/simple_animal/parrot/proc/drop_held_item(drop_gently = 1)
-
-
-//parrots will eat crackers instead of dropping them
-	if(istype(held_item, /obj/item/food/cracker) && (drop_gently))
-		qdel(held_item)
-		held_item = null
-		if(health < maxHealth)
-			adjustBruteLoss(-10)
-		manual_emote("[src] eagerly downs the cracker.")
-		return 1
 
 
 /mob/living/simple_animal/parrot/proc/perch_player()

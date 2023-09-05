@@ -36,3 +36,5 @@
 #define BB_PARROT_PHRASE_CHANGE_PROBABILITY "BB_parrot_phrase_change_probability"
 /// A copy of the string buffer that we end the shift with. DO NOT ACCESS THIS DIRECTLY - YOU SHOULD USE THE ELEMENT IN MOST CASES
 #define BB_EXPORTABLE_STRING_BUFFER_LIST "BB_parrot_repeat_string_buffer"
+/// The current perch that we have
+#define BB_PARROT_PERCH "BB_parrot_perch"

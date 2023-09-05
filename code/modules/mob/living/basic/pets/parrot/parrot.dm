@@ -105,7 +105,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 
-	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attack)) // this means we could have a peaceful interaction, like getting a cracker
+	RegisterSignal(src, COMSIG_HOSTILE_PRE_ATTACKINGTARGET, PROC_REF(pre_attacking))
+	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attacked)) // this means we could have a peaceful interaction, like getting a cracker
 	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_injured)) // this means we got hurt and it's go time
 
 /mob/living/basic/parrot/Destroy()
@@ -182,8 +183,47 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	return NONE
 
+/// Master proc which will determine the intent of OUR attacks on an object and summon the relevant procs accordingly.
+/// This is pretty much meant for players, AI will use the task-specific procs instead.
+/mob/living/basic/parrot/proc/pre_attacking(mob/living/basic/source, atom/target)
+	SIGNAL_HANDLER
+	if(isnull(client) || stat != CONSCIOUS)
+		return
+
+	if(isitem(target))
+		if(steal_from_ground(target))
+			return COMPONENT_HOSTILE_NO_ATTACK
+		return
+
+	if(ismob(target))
+
+
+/// Picks up an item from the ground and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
+/mob/living/basic/parrot/proc/steal_from_ground(obj/item/target)
+	if(!isnull(held_item))
+		balloon_alert(src, "already holding something!")
+		return FALSE
+
+	if(target.w_class > WEIGHT_CLASS_SMALL)
+		balloon_alert(src, "too big to pick up!")
+		return FALSE
+
+	var/turf/open/perch = ai_controller.blackboard[BB_PARROT_PERCH]
+	if(isnull(client) && target.loc == perch) // we'll leave that on our perch if we're ai controlled
+		return FALSE
+
+	target.forceMove(src)
+	held_item = target
+	visible_message(
+		span_notice("[src] grabs [held_item]!"),
+		span_notice("You grab [held_item]!"),
+		span_hear("You hear the sounds of wings flapping furiously."),
+	)
+	return TRUE
+
+
 /// Handles special behavior whenever we're attacked with a special item.
-/mob/living/basic/parrot/proc/on_attack(mob/living/basic/source, obj/item/thing, mob/living/attacker, params)
+/mob/living/basic/parrot/proc/on_attacked(mob/living/basic/source, obj/item/thing, mob/living/attacker, params)
 	SIGNAL_HANDLER
 	if(!istype(thing, /obj/item/food/cracker)) // Poly wants a cracker
 		return
@@ -194,7 +234,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	speech_probability_rate *= 1.27 // 20 crackers to go from 1% to 100%
 	speech_shuffle_rate += 10
 	update_speech_blackboards()
-	to_chat(source, span_notice("[src] eagerly devours the cracker."))
+	to_chat(src, span_notice("[src] eagerly devours the cracker."))
 	return COMPONENT_NO_AFTERATTACK
 
 /// Handles special behavior whenever we are injured.
@@ -208,8 +248,23 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(return_value & NO_NEW_PHRASE_AVAILABLE)
 		return
 
-	say(controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot oneliner on attack")
+	say(ai_controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot oneliner on attack")
 
+/// Handles picking up the item we're holding, done in its own proc because of a snowflake edge case we need to account for. No additional logic beyond that.
+/// Returns TRUE if we picked it up, FALSE otherwise.
+/mob/living/basic/parrot/proc/pick_up_item(obj/item/target)
+	target.forceMove(src)
+	held_item = target
+
+	if(!istype(held_item, /obj/item/food/cracker))
+		return TRUE
+
+	qdel(held_item)
+	held_item = null
+	if(health < maxHealth)
+		adjustBruteLoss(-10)
+	manual_emote("[src] eagerly downs the cracker.")
+	return TRUE // yeah technically
 
 /// Handles dropping items we're holding. Gently is a special modifier we can use for special interactions.
 /mob/living/basic/parrot/proc/drop_held_item(gently = TRUE)
