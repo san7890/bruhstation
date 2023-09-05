@@ -36,7 +36,7 @@
 	REGISTER_REQUIRED_MAP_ITEM(1, 1) // every map needs a poly!
 	update_appearance()
 	// poly gets to say a snappy oneliner if he gets horted
-	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_attacked))
+	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_hurt)) // do not confuse with COMSIG_ATOM_ATTACKBY, which is registered on parent
 
 	if(!SStts.tts_enabled)
 		return

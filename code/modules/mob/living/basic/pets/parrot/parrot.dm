@@ -55,10 +55,10 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	/// Pottential bodyparts for us to attack
 	var/parrot_dam_zone = CARBON_GENERIC_BODY_ZONES
 
-	//Headset for Poly to yell at engineers :)
+	///Headset for Poly to yell at engineers :)
 	var/obj/item/radio/headset/ears = null
 
-	//Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
+	///Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
 	var/obj/item/held_item = null
 
 	//var/parrot_speed = 5 //"Delay in world ticks between movement." according to byond. Yeah, that's BS but it does directly affect movement. Higher number = slower.
@@ -70,6 +70,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	var/speech_blackboard_key = BB_PARROT_REPEAT_STRING
 	/// The generic probability odds we have to do a speech-related action
 	var/speech_probability_rate = 25
+	/// The generic probability odds we have to switch out our speech string
+	var/speech_shuffle_rate = 20
 
 	////The thing the parrot is currently interested in. This gets used for items the parrot wants to pick up, mobs it wants to steal from,
 	////mobs it wants to attack or mobs that have attacked it
@@ -78,7 +80,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	//Parrots will generally sit on their perch unless something catches their eye.
 	//These vars store their preffered perch and if they dont have one, what they can use as a perch
 	//var/obj/parrot_perch = null
-	var/obj/desired_perches = list(
+	var/static/list/desired_perches = list(
 		/obj/machinery/computer,
 		/obj/machinery/dna_scannernew,
 		/obj/machinery/nuclearbomb,
@@ -96,11 +98,14 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /mob/living/basic/parrot/Initialize(mapload)
 	. = ..()
 	setup_headset()
+	update_speech_blackboards()
 
-	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
+	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate, speech_shuffle_rate)
 	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
+
+	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attack))
 
 /mob/living/basic/parrot/Destroy()
 	// should have cleaned these up on death, but let's be super safe in case that didn't happen
@@ -175,6 +180,34 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 			return ITALICS | REDUCE_RANGE
 
 	return NONE
+
+/// Handles special behavior whenever we're attacked with a special item.
+/mob/living/basic/parrot/proc/on_attack(mob/living/basic/source, obj/item/thing, mob/living/attacker, params)
+	SIGNAL_HANDLER
+	if(!istype(thing, /obj/item/food/cracker)) // Poly wants a cracker
+		return
+
+	qdel(thing)
+	if(health < maxHealth)
+		adjustBruteLoss(-10)
+	speech_probability_rate *= 1.27 // 20 crackers to go from 1% to 100%
+	speech_shuffle_rate += 10
+	update_speech_blackboards()
+	to_chat(user, span_notice("[src] eagerly devours the cracker."))
+	return COMPONENT_NO_AFTERATTACK
+
+/// Updates our speech blackboards mob-side to reflect the current speech on the controller to ensure everything is synchronized.
+/mob/living/basic/parrot/proc/update_speech_blackboards()
+	ai_controller.set_blackboard_key(BB_PARROT_REPEAT_PROBABILITY, speech_probability_rate)
+	ai_controller.set_blackboard_key(BB_PARROT_PHRASE_CHANGE_PROBABILITY, speech_shuffle_rate)
+
+/mob/living/basic/parrot/vv_edit_var(var_name, vval)
+	. = ..() // give admins an easier time when it comes to fucking with poly
+	switch (var_name)
+		if (NAMEOF(src, speech_probability_rate))
+			update_speech_blackboards()
+		if (NAMEOF(src, speech_shuffle_rate))
+			update_speech_blackboards()
 
 /// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
 /mob/living/basic/parrot/proc/setup_headset()

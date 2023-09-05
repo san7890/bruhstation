@@ -198,15 +198,6 @@
 				parrot_state |= PARROT_FLEE
 			icon_state = icon_living
 			drop_held_item(0)
-	else if(istype(O, /obj/item/food/cracker)) //Poly wants a cracker.
-		qdel(O)
-		if(health < maxHealth)
-			adjustBruteLoss(-10)
-		speak_chance *= 1.27 // 20 crackers to go from 1% to 100%
-		speech_shuffle_rate += 10
-		to_chat(user, span_notice("[src] eagerly devours the cracker."))
-	..()
-	return
 
 //Bullets
 /mob/living/simple_animal/parrot/bullet_act(obj/projectile/Proj)
@@ -240,17 +231,6 @@
 		return
 
 
-//-----SPEECH
-	/* Parrot speech mimickry!
-	   Phrases that the parrot Hear()s get added to speach_buffer.
-	   Every once in a while, the parrot picks one of the lines from the buffer and replaces an element of the 'speech' list. */
-/mob/living/simple_animal/parrot/handle_automated_speech()
-	..()
-	if(speech_buffer.len && prob(speech_shuffle_rate)) //shuffle out a phrase and add in a new one
-		if(speak.len)
-			speak.Remove(pick(speak))
-
-		speak.Add(pick(speech_buffer))
 
 
 /mob/living/simple_animal/parrot/handle_automated_movement()
