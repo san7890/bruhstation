@@ -727,26 +727,14 @@
 	to_chat(src, span_notice("You will now [combat_mode ? "Harm" : "Help"] others."))
 	return
 
-/mob/living/simple_animal/parrot/natural
-	spawn_headset = FALSE
 /*
  * Sub-types
  */
-/mob/living/simple_animal/parrot/poly
-	name = "Poly"
-	desc = "Poly the Parrot. An expert on quantum cracker theory."
-	speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN MODSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
-	gold_core_spawnable = NO_SPAWN
-	speak_chance = 3
 
-	var/memory_saved = FALSE
-	var/rounds_survived = 0
-	var/longest_survival = 0
-	var/longest_deathstreak = 0
 
 
 /mob/living/simple_animal/parrot/poly/Initialize(mapload)
-	ears = new /obj/item/radio/headset/headset_eng(src)
+
 	if(SStts.tts_enabled)
 		voice = pick(SStts.available_speakers)
 		if(SStts.pitch_enabled)
@@ -759,20 +747,20 @@
 
 	available_channels = list(":e")
 	Read_Memory()
-	if(rounds_survived == longest_survival)
-		speak += pick("...[longest_survival].", "The things I've seen!", "I have lived many lives!", "What are you before me?")
-		desc += " Old as sin, and just as loud. Claimed to be [rounds_survived]."
-		speak_chance = 20 //His hubris has made him more annoying/easier to justify killing
-		add_atom_colour("#EEEE22", FIXED_COLOUR_PRIORITY)
-	else if(rounds_survived == longest_deathstreak)
-		speak += pick("What are you waiting for!", "Violence breeds violence!", "Blood! Blood!", "Strike me down if you dare!")
-		desc += " The squawks of [-rounds_survived] dead parrots ring out in your ears..."
-		add_atom_colour("#BB7777", FIXED_COLOUR_PRIORITY)
-	else if(rounds_survived > 0)
-		speak += pick("...again?", "No, It was over!", "Let me out!", "It never ends!")
-		desc += " Over [rounds_survived] shifts without a \"terrible\" \"accident\"!"
-	else
-		speak += pick("...alive?", "This isn't parrot heaven!", "I live, I die, I live again!", "The void fades!")
+	//if(rounds_survived == longest_survival)
+	//	speak += pick("...[longest_survival].", "The things I've seen!", "I have lived many lives!", "What are you before me?")
+	//	desc += " Old as sin, and just as loud. Claimed to be [rounds_survived]."
+	//	speak_chance = 20 //His hubris has made him more annoying/easier to justify killing
+	//	add_atom_colour("#EEEE22", FIXED_COLOUR_PRIORITY)
+	//else if(rounds_survived == longest_deathstreak)
+	//	speak += pick("What are you waiting for!", "Violence breeds violence!", "Blood! Blood!", "Strike me down if you dare!")
+	//	desc += " The squawks of [-rounds_survived] dead parrots ring out in your ears..."
+	//	add_atom_colour("#BB7777", FIXED_COLOUR_PRIORITY)
+	//else if(rounds_survived > 0)
+	//	speak += pick("...again?", "No, It was over!", "Let me out!", "It never ends!")
+	//	desc += " Over [rounds_survived] shifts without a \"terrible\" \"accident\"!"
+	//else
+	//	speak += pick("...alive?", "This isn't parrot heaven!", "I live, I die, I live again!", "The void fades!")
 
 	. = ..()
 
@@ -798,50 +786,8 @@
 			G.key = key
 	return ..()
 
-/mob/living/simple_animal/parrot/poly/proc/Read_Memory()
-	if(fexists("data/npc_saves/Poly.sav")) //legacy compatability to convert old format to new
-		var/savefile/S = new /savefile("data/npc_saves/Poly.sav")
-		S["phrases"] >> speech_buffer
-		S["roundssurvived"] >> rounds_survived
-		S["longestsurvival"] >> longest_survival
-		S["longestdeathstreak"] >> longest_deathstreak
-		fdel("data/npc_saves/Poly.sav")
-	else
-		var/json_file = file("data/npc_saves/Poly.json")
-		if(!fexists(json_file))
-			return
-		var/list/json = json_decode(file2text(json_file))
-		speech_buffer = json["phrases"]
-		rounds_survived = json["roundssurvived"]
-		longest_survival = json["longestsurvival"]
-		longest_deathstreak = json["longestdeathstreak"]
-	if(!islist(speech_buffer))
-		speech_buffer = list()
 
-/mob/living/simple_animal/parrot/poly/Write_Memory(dead, gibbed)
-	. = ..()
-	if(!.)
-		return
-	var/json_file = file("data/npc_saves/Poly.json")
-	var/list/file_data = list()
-	if(islist(speech_buffer))
-		file_data["phrases"] = speech_buffer
-	if(dead)
-		file_data["roundssurvived"] = min(rounds_survived - 1, 0)
-		file_data["longestsurvival"] = longest_survival
-		if(rounds_survived - 1 < longest_deathstreak)
-			file_data["longestdeathstreak"] = rounds_survived - 1
-		else
-			file_data["longestdeathstreak"] = longest_deathstreak
-	else
-		file_data["roundssurvived"] = max(rounds_survived, 0) + 1
-		if(rounds_survived + 1 > longest_survival)
-			file_data["longestsurvival"] = rounds_survived + 1
-		else
-			file_data["longestsurvival"] = longest_survival
-		file_data["longestdeathstreak"] = longest_deathstreak
-	fdel(json_file)
-	WRITE_FILE(json_file, json_encode(file_data))
+
 
 /mob/living/simple_animal/parrot/poly/ghost
 	name = "The Ghost of Poly"
