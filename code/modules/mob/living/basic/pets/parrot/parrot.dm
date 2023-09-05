@@ -64,9 +64,10 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	//var/parrot_stuck = 0 //If parrot_lastmove hasn't changed, this will increment until it reaches parrot_stuck_threshold
 	//var/parrot_stuck_threshold = 10 //if this == parrot_stuck, it'll force the parrot back to wandering
 
-	var/list/speech_buffer = list()
-	var/speech_shuffle_rate = 20
-	var/list/available_channels = list()
+	/// The blackboard key we use to store the string we're repeating
+	var/speech_blackboard_key = BB_PARROT_REPEAT_STRING
+	/// The generic probability odds we have to do a speech-related action
+	var/speech_probability_rate = 25
 
 	////The thing the parrot is currently interested in. This gets used for items the parrot wants to pick up, mobs it wants to steal from,
 	////mobs it wants to attack or mobs that have attacked it
@@ -94,6 +95,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	setup_headset()
 
+	AddElement(/datum/element/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 
@@ -162,6 +164,18 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		/obj/item/radio/headset/headset_sec,
 	)
 	ears = new headset(src)
+
+/// Gets a static list of phrases we wish to pass to the element.
+/mob/living/basic/parrot/proc/get_static_list_of_phrases()
+	var/static/list/default_phrases = list(
+		"BAWWWWK george mellons griffing me!",
+		"Cracker?",
+		"Hello!",
+		"Hi!",
+	)
+
+	return default_phrases
+
 
 /// Gets the available channels that this parrot has access to. Returns a list of the channels we can use.
 /mob/living/basic/parrot/proc/get_available_channels()
