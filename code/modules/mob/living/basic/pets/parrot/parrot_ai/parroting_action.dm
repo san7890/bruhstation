@@ -38,9 +38,9 @@
 			modified_speech = "[use_radio ? pick(available_channels) : ""][speech]"
 
 
-	living_pawn.say(speech, forced = "AI Controller")
+	speaking_pawn.say(speech, forced = "AI Controller")
 	if(speech_sound)
-		playsound(living_pawn, speech_sound, 80, vary = TRUE)
+		playsound(speaking_pawn, speech_sound, 80, vary = TRUE)
 	finish_action(controller, TRUE)
 
 #undef HAS_CHANNEL_PREFIX
