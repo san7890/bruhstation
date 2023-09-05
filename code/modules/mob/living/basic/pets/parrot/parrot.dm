@@ -162,3 +162,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		/obj/item/radio/headset/headset_sec,
 	)
 	ears = new headset(src)
+
+/// Gets the available channels that this parrot has access to. Returns a list of the channels we can use.
+/mob/living/basic/parrot/proc/get_available_channels()
+	if(isnull(ears))
+		return list()

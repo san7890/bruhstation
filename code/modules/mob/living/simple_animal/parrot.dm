@@ -299,31 +299,6 @@
 			//This way we only call the stuff below once every [sleep_max] ticks.
 			parrot_sleep_dur = parrot_sleep_max
 
-			//Cycle through message modes for the headset
-			if(speak.len)
-				var/list/newspeak = list()
-
-				if(available_channels.len && src.ears)
-					for(var/possible_phrase in speak)
-
-						//50/50 chance to not use the radio at all
-						var/useradio = 0
-						if(prob(50))
-							useradio = 1
-
-						if((possible_phrase[1] in GLOB.department_radio_prefixes) && (copytext_char(possible_phrase, 2, 3) in GLOB.department_radio_keys))
-							possible_phrase = "[useradio?pick(available_channels):""][copytext_char(possible_phrase, 3)]" //crop out the channel prefix
-						else
-							possible_phrase = "[useradio?pick(available_channels):""][possible_phrase]"
-
-						newspeak.Add(possible_phrase)
-
-				else //If we have no headset or channels to use, dont try to use any!
-					for(var/possible_phrase in speak)
-						if((possible_phrase[1] in GLOB.department_radio_prefixes) && (copytext_char(possible_phrase, 2, 3) in GLOB.department_radio_keys))
-							possible_phrase = copytext_char(possible_phrase, 3) //crop out the channel prefix
-						newspeak.Add(possible_phrase)
-				speak = newspeak
 
 			//Search for item to steal
 			set_parrot_interest(search_for_item())
