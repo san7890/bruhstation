@@ -133,25 +133,6 @@
 
 
 
-/mob/living/simple_animal/parrot/radio(message, list/message_mods = list(), list/spans, language) //literally copied from human/radio(), but there's no other way to do this. at least it's better than it used to be.
-	. = ..()
-	if(.)
-		return
-
-	if(message_mods[MODE_HEADSET])
-		if(ears)
-			ears.talk_into(src, message, , spans, language, message_mods)
-		return ITALICS | REDUCE_RANGE
-	else if(message_mods[RADIO_EXTENSION] == MODE_DEPARTMENT)
-		if(ears)
-			ears.talk_into(src, message, message_mods[RADIO_EXTENSION], spans, language, message_mods)
-		return ITALICS | REDUCE_RANGE
-	else if(message_mods[RADIO_EXTENSION] in GLOB.radiochannels)
-		if(ears)
-			ears.talk_into(src, message, message_mods[RADIO_EXTENSION], spans, language, message_mods)
-			return ITALICS | REDUCE_RANGE
-
-	return FALSE
 
 
 /*
@@ -739,35 +720,11 @@
 		memory_saved = TRUE
 	..()
 
-/mob/living/simple_animal/parrot/poly/death(gibbed)
-	if(HAS_TRAIT(src, TRAIT_DONT_WRITE_MEMORY))
-		return ..() // Don't read memory either.
-	if(!memory_saved)
-		Write_Memory(TRUE)
-	if(rounds_survived == longest_survival || rounds_survived == longest_deathstreak || prob(0.666))
-		var/mob/living/simple_animal/parrot/poly/ghost/G = new(loc)
-		if(mind)
-			mind.transfer_to(G)
-		else
-			G.key = key
-	return ..()
 
 
 
 
-/mob/living/simple_animal/parrot/poly/ghost
-	name = "The Ghost of Poly"
-	desc = "Doomed to squawk the Earth."
-	color = "#FFFFFF77"
-	speak_chance = 20
-	status_flags = GODMODE
-	sentience_type = SENTIENCE_BOSS //This is so players can't mindswap into ghost poly to become a literal god
-	incorporeal_move = INCORPOREAL_MOVE_BASIC
-	butcher_results = list(/obj/item/ectoplasm = 1)
 
-/mob/living/simple_animal/parrot/poly/ghost/Initialize(mapload)
-	memory_saved = TRUE //At this point nothing is saved
-	. = ..()
 
 /mob/living/simple_animal/parrot/poly/ghost/handle_automated_speech()
 	if(ismob(loc))

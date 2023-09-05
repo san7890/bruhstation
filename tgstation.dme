@@ -4216,6 +4216,7 @@
 #include "code\modules\mob\living\basic\pets\parrot\parrot.dm"
 #include "code\modules\mob\living\basic\pets\parrot\parrot_items.dm"
 #include "code\modules\mob\living\basic\pets\parrot\parrot_subtypes.dm"
+#include "code\modules\mob\living\basic\pets\parrot\poly.dm"
 #include "code\modules\mob\living\basic\pets\parrot\parrot_ai\parroting_action.dm"
 #include "code\modules\mob\living\basic\ruin_defender\stickman.dm"
 #include "code\modules\mob\living\basic\space_fauna\ant.dm"
