@@ -84,6 +84,7 @@
 /// Exports all the speech buffer data to a dedicated blackboard key on the source.
 /datum/component/listen_and_repeat/proc/on_write_memory(datum/source, dead, gibbed)
 	SIGNAL_HANDLER
+	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(LAZYLEN(speech_buffer)) // what? well whatever let's just move on
 		return

@@ -116,13 +116,6 @@
 	. = ..()
 	parrot_sleep_dur = parrot_sleep_max //In case someone decides to change the max without changing the duration var
 
-	add_verb(src, list(/mob/living/simple_animal/parrot/proc/steal_from_ground, \
-			  /mob/living/simple_animal/parrot/proc/steal_from_mob, \
-			  /mob/living/simple_animal/parrot/verb/drop_held_item_player, \
-			  /mob/living/simple_animal/parrot/proc/perch_player, \
-			  /mob/living/simple_animal/parrot/proc/toggle_mode,
-			  /mob/living/simple_animal/parrot/proc/perch_mob_player))
-
 
 
 
@@ -158,7 +151,7 @@
 			parrot_state |= PARROT_ATTACK
 		else
 			parrot_state |= PARROT_FLEE //Otherwise, fly like a bat out of hell!
-			drop_held_item(0)
+//			drop_held_item(0)
 	if(stat != DEAD && !user.combat_mode)
 		handle_automated_speech(1) //assured speak/emote
 	return
@@ -198,7 +191,7 @@
 			else
 				parrot_state |= PARROT_FLEE
 			icon_state = icon_living
-			drop_held_item(0)
+//			drop_held_item(0)
 
 //Bullets
 /mob/living/simple_animal/parrot/bullet_act(obj/projectile/Proj)
@@ -211,7 +204,7 @@
 		parrot_state = PARROT_WANDER | PARROT_FLEE //Been shot and survived! RUN LIKE HELL!
 		//parrot_been_shot += 5
 		icon_state = icon_living
-		drop_held_item(0)
+//		drop_held_item(0)
 
 
 /*
@@ -323,7 +316,7 @@
 		if(Adjacent(parrot_interest))
 
 			if(isliving(parrot_interest))
-				steal_from_mob()
+//				steal_from_mob()
 
 			else //This should ensure that we only grab the item we want, and make sure it's not already collected on our perch
 				if(!parrot_perch || parrot_interest.loc != parrot_perch.loc)
@@ -351,7 +344,7 @@
 
 		if(Adjacent(parrot_perch))
 			forceMove(parrot_perch.loc)
-			drop_held_item()
+//			drop_held_item()
 			parrot_state = PARROT_PERCH
 			icon_state = icon_sit
 			return
@@ -394,14 +387,14 @@
 			//If the mob we've been chasing/attacking dies or falls into crit, check for loot!
 			if(L.stat)
 				parrot_interest = null
-				if(!held_item)
-					held_item = steal_from_ground()
-					if(!held_item)
-						held_item = steal_from_mob() //Apparently it's possible for dead mobs to hang onto items in certain circumstances.
-				if(parrot_perch in view(src)) //If we have a home nearby, go to it, otherwise find a new home
-					parrot_state = PARROT_SWOOP | PARROT_RETURN
-				else
-					parrot_state = PARROT_WANDER
+//				if(!held_item)
+//					held_item = steal_from_ground()
+//					if(!held_item)
+//						held_item = //Apparently it's possible for dead mobs to hang onto items in certain circumstances.
+//				if(parrot_perch in view(src)) //If we have a home nearby, go to it, otherwise find a new home
+//					parrot_state = PARROT_SWOOP | PARROT_RETURN
+//				else
+//					parrot_state = PARROT_WANDER
 				return
 
 			attack_verb_continuous = pick("claws at", "chomps")
@@ -419,7 +412,7 @@
 		SSmove_manager.stop_looping(src)
 		parrot_interest = null
 		parrot_perch = null
-		drop_held_item()
+	//	drop_held_item()
 		parrot_state = PARROT_WANDER
 		return
 
