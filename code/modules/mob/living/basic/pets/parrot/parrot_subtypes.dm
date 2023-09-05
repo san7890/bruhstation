@@ -69,7 +69,7 @@
 	var/file_path = "data/npc_saves/Poly.json"
 	var/list/file_data = list()
 
-	var/list/exportable_speech_buffer = controller.blackboard[BB_EXPORTABLE_STRING_BUFFER_LIST] // should have been populated when we sent the signal out on parent
+	var/list/exportable_speech_buffer = ai_controller.blackboard[BB_EXPORTABLE_STRING_BUFFER_LIST] // should have been populated when we sent the signal out on parent
 	if(length(exportable_speech_buffer))
 		file_data["phrases"] = exportable_speech_buffer
 
@@ -96,7 +96,7 @@
 	formatted_data = json_encode(file_data)
 #endif
 
-	rustg_file_write(json_encode(formatted_data), file_path)
+	rustg_file_write(formatted_data, file_path)
 
 /mob/living/basic/parrot/poly/setup_headset()
 	ears = new /obj/item/radio/headset/headset_eng(src)
