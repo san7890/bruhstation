@@ -856,14 +856,6 @@ GLOBAL_LIST_INIT(layers_to_offset, list(
 /// Get the client from the var
 #define CLIENT_FROM_VAR(I) (ismob(I) ? I:client : (istype(I, /client) ? I : (istype(I, /datum/mind) ? I:current?:client : null)))
 
-<<<<<<< Updated upstream
-/// The mob will vomit a green color
-#define VOMIT_TOXIC 1
-/// The mob will vomit a purple color
-#define VOMIT_PURPLE 2
-/// The mob will vomit a nebula color
-#define VOMIT_NEBULA 3
-=======
 // Various flags for carbon mob vomiting
 /// Flag which makes a message send about the vomiting.
 #define MOB_VOMIT_MESSAGE (1<<0)
@@ -884,8 +876,6 @@ GLOBAL_LIST_INIT(layers_to_offset, list(
 #define VOMIT_CATEGORY_BLOOD (VOMIT_CATEGORY_DEFAULT | MOB_VOMIT_BLOOD)
 /// Another vomit variant that causes you to get knocked down and paralyzed instead of just stunned, but is standard enough otherwise.
 #define VOMIT_CATEGORY_KNOCKDOWN (MOB_VOMIT_MESSAGE | MOB_VOMIT_HARM | MOB_VOMIT_KNOCKDOWN)
-
->>>>>>> Stashed changes
 
 /// Possible value of [/atom/movable/buckle_lying]. If set to a different (positive-or-zero) value than this, the buckling thing will force a lying angle on the buckled.
 #define NO_BUCKLE_LYING -1
