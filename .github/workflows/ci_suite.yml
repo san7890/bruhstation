@@ -39,7 +39,7 @@ jobs:
       - name: Restore Python cache
         uses: actions/cache@v3
         with:
-          path: $pythonLocation/lib/python3/dist-packages
+          path: usr/lib/python3/dist-packages
           key: ${{ runner.os }}-python-${{ hashFiles('tools/requirements.txt') }}
           restore-keys: |
             ${{ runner.os }}-build-
