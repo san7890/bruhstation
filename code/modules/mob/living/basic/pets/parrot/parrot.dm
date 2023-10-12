@@ -339,7 +339,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(return_value & NO_NEW_PHRASE_AVAILABLE)
 		return
 
-	INVOKE_ASYNC(src, PROC_REF(say), message = ai_controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot oneliner on attack")
+	INVOKE_ASYNC(src, TYPE_PROC_REF(/atom/movable, say), message = ai_controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot oneliner on attack")
 
 /// Handles picking up the item we're holding, done in its own proc because of a snowflake edge case we need to account for. No additional logic beyond that.
 /// Returns TRUE if we picked it up, FALSE otherwise.
