@@ -21,8 +21,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	//emote_hear = list("squawks.","bawks!")
 	//emote_see = list("flutters their wings.")
 
-	//speak_chance = 1 //1% (1 in 100) chance every tick; So about once per 150 seconds, assuming an average tick is 1.5s
-	//turns_per_move = 5
 	butcher_results = list(/obj/item/food/cracker = 1)
 	melee_damage_upper = 10
 	melee_damage_lower = 5
@@ -33,7 +31,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	response_disarm_simple = "gently move aside"
 	response_harm_continuous = "swats"
 	response_harm_simple = "swat"
-	//stop_automated_movement = 1
 	combat_mode = TRUE //parrots now start "aggressive" since only player parrots will nuzzle.
 	attack_verb_continuous = "chomps"
 	attack_verb_simple = "chomp"
@@ -68,7 +65,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	/// The blackboard key we use to store the string we're repeating
 	var/speech_blackboard_key = BB_PARROT_REPEAT_STRING
-	/// The generic probability odds we have to do a speech-related action
+	/// The generic probability odds we have to do a speech-related action // FIXME might need to tone this down
 	var/speech_probability_rate = 25
 	/// The generic probability odds we have to switch out our speech string
 	var/speech_shuffle_rate = 20
@@ -316,8 +313,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	return FALSE
 
-
-
 /// Handles special behavior whenever we're attacked with a special item.
 /mob/living/basic/parrot/proc/on_attacked(mob/living/basic/source, obj/item/thing, mob/living/attacker, params)
 	SIGNAL_HANDLER
@@ -385,11 +380,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	held_item.forceMove(drop_location())
 	held_item = null
 
-/// Updates our speech blackboards mob-side to reflect the current speech on the controller to ensure everything is synchronized.
-/mob/living/basic/parrot/proc/update_speech_blackboards()
-	ai_controller.set_blackboard_key(BB_PARROT_REPEAT_PROBABILITY, speech_probability_rate)
-	ai_controller.set_blackboard_key(BB_PARROT_PHRASE_CHANGE_PROBABILITY, speech_shuffle_rate)
-
 /mob/living/basic/parrot/vv_edit_var(var_name, vval)
 	. = ..() // give admins an easier time when it comes to fucking with poly
 	switch (var_name)
@@ -397,6 +387,11 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 			update_speech_blackboards()
 		if (NAMEOF(src, speech_shuffle_rate))
 			update_speech_blackboards()
+
+/// Updates our speech blackboards mob-side to reflect the current speech on the controller to ensure everything is synchronized.
+/mob/living/basic/parrot/proc/update_speech_blackboards()
+	ai_controller.set_blackboard_key(BB_PARROT_REPEAT_PROBABILITY, speech_probability_rate)
+	ai_controller.set_blackboard_key(BB_PARROT_PHRASE_CHANGE_PROBABILITY, speech_shuffle_rate)
 
 /// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
 /mob/living/basic/parrot/proc/setup_headset()
@@ -412,7 +407,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	)
 
 	return default_phrases
-
 
 /// Gets the available channels that this parrot has access to. Returns a list of the channels we can use.
 /mob/living/basic/parrot/proc/get_available_channels()
