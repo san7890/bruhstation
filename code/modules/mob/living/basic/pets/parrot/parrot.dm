@@ -336,7 +336,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /// Handles special behavior whenever we are injured.
 /mob/living/basic/parrot/proc/on_injured(mob/living/basic/source, mob/living/attacker, attack_flags)
 	SIGNAL_HANDLER
-	if(isnull(client) || stat == CONSCIOUS)
+	if(!isnull(client) || stat == CONSCIOUS)
 		return
 
 	drop_held_item(gently = FALSE)
