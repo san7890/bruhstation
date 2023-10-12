@@ -49,14 +49,14 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	//var/parrot_state = PARROT_WANDER
 	//var/parrot_sleep_max = 25 //The time the parrot sits while perched before looking around. Mosly a way to avoid the parrot's AI in life() being run every single tick.
 	//var/parrot_sleep_dur = 25 //Same as above, this is the var that physically counts down
-	/// Pottential bodyparts for us to attack
+	/// Potential bodyparts for us to attack
 	var/parrot_dam_zone = CARBON_GENERIC_BODY_ZONES
 
 	///Headset for Poly to yell at engineers :)
 	var/obj/item/radio/headset/ears = null
 
 	///Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
-	var/obj/item/held_item = null
+	var/obj/item/held_item = nullz
 
 	//var/parrot_speed = 5 //"Delay in world ticks between movement." according to byond. Yeah, that's BS but it does directly affect movement. Higher number = slower.
 	//var/parrot_lastmove = null //Updates/Stores position of the parrot while it's moving
@@ -163,7 +163,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 /mob/living/basic/parrot/radio(message, list/message_mods = list(), list/spans, language) //literally copied from human/radio(), but there's no other way to do this. at least it's better than it used to be.
 	. = ..()
-	if(.)
+	if(. != NONE)
 		return
 
 	if(message_mods[MODE_HEADSET])
@@ -350,8 +350,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(!istype(held_item, /obj/item/food/cracker))
 		return TRUE
 
-	qdel(held_item)
-	held_item = null
+	QDEL_NULL(held_item)
 	if(health < maxHealth)
 		adjustBruteLoss(-10)
 	manual_emote("[src] eagerly downs the cracker.")
