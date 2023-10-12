@@ -23,9 +23,6 @@
 		return COMPONENT_INCOMPATIBLE
 
 	if(isnull(speech_probability))
-		src.speech_probability = 50
-
-	if(isnull(speech_probability))
 		src.speech_probability = 20
 
 	if(!isnull(desired_phrases))
