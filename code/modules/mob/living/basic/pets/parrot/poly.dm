@@ -11,9 +11,8 @@
 /mob/living/basic/parrot/poly
 	name = "Poly"
 	desc = "Poly the Parrot. An expert on quantum cracker theory."
-	//speak = list("Poly wanna cracker!", ":e Check the crystal, you chucklefucks!",":e Wire the solars, you lazy bums!",":e WHO TOOK THE DAMN MODSUITS?",":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE")
 	gold_core_spawnable = NO_SPAWN
-	//speak_chance = 3
+	speech_probability_rate = 30 // FIXME: might need to nerf this
 
 	/// Callback to save our memory at the end of the round.
 	var/datum/callback/roundend_callback = null
@@ -73,6 +72,14 @@
 		return phrases_to_return
 
 	phrases_to_return += read_memory() // must come first!!!
+	// now add some valuable lines every poly should have
+	phrases_to_return += list(
+		":e Check the crystal, you chucklefucks!",
+		":e OH GOD ITS ABOUT TO DELAMINATE CALL THE SHUTTLE",
+		":e WHO TOOK THE DAMN MODSUITS?",
+		":e Wire the solars, you lazy bums!",
+		"Poly wanna cracker!",
+	)
 	switch(determine_special_poly())
 		if(POLY_DEFAULT)
 			phrases_to_return += pick("...alive?", "This isn't parrot heaven!", "I live, I die, I live again!", "The void fades!")
