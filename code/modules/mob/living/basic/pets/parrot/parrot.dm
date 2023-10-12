@@ -56,7 +56,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	var/obj/item/radio/headset/ears = null
 
 	///Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
-	var/obj/item/held_item = nullz
+	var/obj/item/held_item = null
 
 	//var/parrot_speed = 5 //"Delay in world ticks between movement." according to byond. Yeah, that's BS but it does directly affect movement. Higher number = slower.
 	//var/parrot_lastmove = null //Updates/Stores position of the parrot while it's moving
