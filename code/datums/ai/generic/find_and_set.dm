@@ -75,7 +75,7 @@
 /// Like find_and_set/in_list, but we return the turf location of the item instead of the item itself.
 /datum/ai_behavior/find_and_set/in_list/turf_location
 
-/datum/ai_behavior/find_and_set/in_list/search_tactic(datum/ai_controller/controller, locate_paths, search_range)
+/datum/ai_behavior/find_and_set/in_list/turf_location/search_tactic(datum/ai_controller/controller, locate_paths, search_range)
 	. = ..()
 	if(isnull(.))
 		return null
