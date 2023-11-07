@@ -5,8 +5,6 @@
 			/obj/item/weldingtool,
 			/obj/item/flashlight/flare,
 		),
-		BB_BASIC_MOB_FLEEING = TRUE,
-		BB_MINIMUM_DISTANCE_RANGE = 3,
 	)
 
 	ai_movement = /datum/ai_movement/basic_avoidance
