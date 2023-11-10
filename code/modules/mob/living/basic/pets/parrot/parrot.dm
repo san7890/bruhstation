@@ -66,16 +66,16 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	/// The blackboard key we use to store the string we're repeating
 	var/speech_blackboard_key = BB_PARROT_REPEAT_STRING
 	/// The generic probability odds we have to do a speech-related action // FIXME might need to tone this down
-	var/speech_probability_rate = 25
+	var/speech_probability_rate = 5
 	/// The generic probability odds we have to switch out our speech string
-	var/speech_shuffle_rate = 20
+	var/speech_shuffle_rate = 30
 
 	////The thing the parrot is currently interested in. This gets used for items the parrot wants to pick up, mobs it wants to steal from,
 	////mobs it wants to attack or mobs that have attacked it
 	//var/atom/movable/parrot_interest = null
 
 	//Parrots will generally sit on their perch unless something catches their eye.
-	var/static/list/desired_perches = list(
+	var/static/list/desired_perches = typecacheof(list(
 		/obj/machinery/computer,
 		/obj/machinery/dna_scannernew,
 		/obj/machinery/nuclearbomb,
@@ -87,7 +87,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		/obj/structure/displaycase,
 		/obj/structure/filingcabinet,
 		/obj/structure/frame/computer,
-	)
+	))
 
 
 /mob/living/basic/parrot/Initialize(mapload)
@@ -96,14 +96,13 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	update_speech_blackboards()
 	ai_controller.set_blackboard_key(BB_PARROT_PERCH_TYPES, desired_perches)
 
-	AddComponent(/datum/component/listen_and_repeat, get_static_list_of_phrases(), speech_blackboard_key, speech_probability_rate, speech_shuffle_rate)
+	AddComponent(/datum/component/listen_and_repeat, desired_phrases = get_static_list_of_phrases(), blackboard_key = BB_PARROT_REPEAT_STRING)
 	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
 
 	RegisterSignal(src, COMSIG_HOSTILE_PRE_ATTACKINGTARGET, PROC_REF(pre_attacking))
 	RegisterSignal(src, COMSIG_MOB_CLICKON, PROC_REF(on_click))
-	RegisterSignal(src, COMSIG_MOVABLE_MOVED, PROC_REF(on_move))
 	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attacked)) // this means we could have a peaceful interaction, like getting a cracker
 	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_injured)) // this means we got hurt and it's go time
 
@@ -183,19 +182,17 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 #define PARROT_PERCHED "parrot_perched" // move this later
 
-/mob/living/basic/parrot/update_icon(updates)
+/mob/living/basic/parrot/update_icon_state()
 	. = ..()
 	if(HAS_TRAIT(src, PARROT_PERCHED))
 		icon_state = icon_sit
 	else
 		icon_state = icon_living
-		pixel_x = initial(pixel_x)
-		pixel_y = initial(pixel_y)
 
 /// Proc that we just use to see if we're rightclicking something for perch behavior or dropping the item we currently ahve
 /mob/living/basic/parrot/proc/on_click(mob/living/basic/source, atom/target, params)
 	SIGNAL_HANDLER
-	if(!LAZYACCESS(params, RIGHT_CLICK))
+	if(!LAZYACCESS(params, RIGHT_CLICK) || !CanReach(target))
 		return
 
 	if(start_perching(target))
@@ -212,22 +209,26 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		return FALSE
 
 	if(ishuman(target))
-		if(perch_on_human(target))
-			return TRUE
-		return FALSE
+		return perch_on_human(target)
 
-	if(!isobj(target))
+	if(!is_type_in_typecache(target, desired_perches))
 		return FALSE
 
 	forceMove(get_turf(target))
-	ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
 	drop_held_item(gently = TRUE) // comfy :)
-	update_appearance()
+	toggle_perched(perched = TRUE)
+	RegisterSignal(src, COMSIG_MOVABLE_MOVED, PROC_REF(after_move))
 	return TRUE
+
+/mob/living/basic/parrot/proc/after_move(atom/source)
+	SIGNAL_HANDLER
+
+	UnregisterSignal(src, COMSIG_MOVABLE_MOVED)
+	toggle_perched(perched = FALSE)
 
 /// Proc that will perch us on a human. Returns TRUE if we perched, FALSE otherwise.
 /mob/living/basic/parrot/proc/perch_on_human(mob/living/carbon/human/target)
-	if(target.has_buckled_mobs() && (length(target.buckled_mobs) >= target.max_buckled_mobs))
+	if(LAZYLEN(target.buckled_mobs) >= target.max_buckled_mobs)
 		balloon_alert(src, "can't perch on them!")
 		return FALSE
 
@@ -235,20 +236,25 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(!target.buckle_mob(src, TRUE))
 		return FALSE
 
-	pixel_y = 9
-	pixel_x = pick(-8,8) //pick left or right shoulder
 	to_chat(src, span_notice("You sit on [target]'s shoulder."))
-	ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
-	update_appearance()
+	toggle_perched(perched = TRUE)
+	RegisterSignal(src, COMSIG_LIVING_SET_BUCKLED, PROC_REF(on_unbuckle))
 	return TRUE
 
-/// If we move, remove the perching trait and reset our icon state.
-/mob/living/basic/parrot/proc/on_move(mob/living/basic/source)
-	if(!HAS_TRAIT(src, PARROT_PERCHED))
-		return
+/mob/living/basic/parrot/proc/on_unbuckle(mob/living/source, atom/movable/new_buckled)
+	SIGNAL_HANDLER
 
-	REMOVE_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
-	update_appearance()
+	if(new_buckled)
+		return
+	UnregisterSignal(src, COMSIG_LIVING_SET_BUCKLED)
+	toggle_perched(perched = FALSE)
+
+/mob/living/basic/parrot/proc/toggle_perched(perched)
+	if(!perched)
+		REMOVE_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+	else
+		ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+	update_appearance(UPDATE_ICON_STATE)
 
 /// Master proc which will determine the intent of OUR attacks on an object and summon the relevant procs accordingly.
 /// This is pretty much meant for players, AI will use the task-specific procs instead.
@@ -381,10 +387,10 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 /mob/living/basic/parrot/vv_edit_var(var_name, vval)
 	. = ..() // give admins an easier time when it comes to fucking with poly
-	switch (var_name)
-		if (NAMEOF(src, speech_probability_rate))
+	switch(var_name)
+		if(NAMEOF(src, speech_probability_rate))
 			update_speech_blackboards()
-		if (NAMEOF(src, speech_shuffle_rate))
+		if(NAMEOF(src, speech_shuffle_rate))
 			update_speech_blackboards()
 
 /// Updates our speech blackboards mob-side to reflect the current speech on the controller to ensure everything is synchronized.
