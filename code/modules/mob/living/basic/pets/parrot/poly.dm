@@ -6,6 +6,10 @@
 #define POLY_BEATING_DEATHSTREAK "longest_deathstreak"
 /// Poly has only just survived a round, and is doing a consecutive one.
 #define POLY_CONSECUTIVE_ROUND "consecutive_round"
+/// haunt filter we apply to who we possess
+#define POLY_POSSESS_FILTER
+/// haunt filter color we apply to who we possess
+#define POLY_POSSESS_GLOW "#522059"
 
 /// The classically famous compadre to the Chief Engineer, Poly.
 /mob/living/basic/parrot/poly
@@ -203,7 +207,43 @@
 	// block anything and everything that could possibly happen with writing memory for ghosts
 	memory_saved = TRUE
 	ADD_TRAIT(src, TRAIT_DONT_WRITE_MEMORY, INNATE_TRAIT)
+	RegisterSignal(src, COMSIG_MOVABLE_MOVED, PROC_REF(on_moved))
 	return ..()
+
+//we perch on human souls
+/mob/living/basic/parrot/poly/ghost/perch_on_human(mob/living/carbon/human/target)
+	if(loc == target) //dismount
+		forceMove(get_turf(target))
+		return FALSE
+	if(ishuman(loc))
+		balloon_alert(src, "already possessing!")
+		return FALSE
+	forceMove(target)
+	return TRUE
+
+/mob/living/basic/parrot/poly/ghost/proc/on_moved(atom/movable/movable, atom/old_loc)
+	SIGNAL_HANDLER
+
+	if(ishuman(old_loc))
+		var/mob/living/unpossessed_human = old_loc
+		unpossessed_human.remove_filter(POLY_POSSESS_FILTER)
+		return
+
+	if(!ishuman(loc))
+		return
+
+	var/mob/living/possessed_human = loc
+	possessed_human.add_filter(POLY_POSSESS_FILTER, 2, list("type" = "outline", "color" = POLY_POSSESS_GLOW, "size" = 28))
+	var/filter = possessed_human.get_filter(POLY_POSSESS_FILTER)
+
+	if(filter)
+		animate(filter, alpha = 200, time = 2 SECONDS, loop = -1)
+		animate(alpha = 60, time = 2 SECONDS)
+
+	var/datum/disease/parrot_possession/on_possession = new /datum/disease/parrot_possession
+	on_possession.parrot = src
+	possessed_human.ForceContractDisease(on_possession, make_copy = FALSE, del_on_fail = TRUE)
+	return
 
 #undef POLY_DEFAULT
 #undef POLY_LONGEST_SURVIVAL

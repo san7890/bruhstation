@@ -36,13 +36,12 @@
 #define BB_PARROT_PHRASE_CHANGE_PROBABILITY "BB_parrot_phrase_change_probability"
 /// A copy of the string buffer that we end the shift with. DO NOT ACCESS THIS DIRECTLY - YOU SHOULD USE THE COMPONENT IN MOST CASES
 #define BB_EXPORTABLE_STRING_BUFFER_LIST "BB_parrot_repeat_string_buffer"
-/// The current INANIMATE perch that we have
-#define BB_PARROT_INANIMATE_PERCH "BB_parrot_perch"
-/// The target human that we wanna try to perch on
-#define BB_PARROT_HUMAN_PERCH "BB_parrot_human_perch"
 /// The types of perches we desire to use
 #define BB_PARROT_PERCH_TYPES "BB_parrot_perch_types"
-/// The current thing that we wanna grab and take back to our perch
-#define BB_PARROT_STEAL_TARGET "BB_parrot_steal_target"
-/// The person that we wanna steal from
-#define BB_PARROT_STEAL_HUMAN "BB_parrot_steal_human"
+#define BB_PERCH_TARGET "perch_target"
+#define BB_HOARD_ITEM_TARGET "hoard_item_target"
+#define BB_THEFT_VICTIM "theft_victim"
+#define BB_HOARD_LOCATION "hoard_location"
+#define BB_HOARD_LOCATION_RANGE "hoard_location_range"
+#define BB_IGNORE_ITEMS "ignore_items"
+

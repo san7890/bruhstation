@@ -16,11 +16,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	maxHealth = 80
 	pass_flags = PASSTABLE | PASSMOB
 
-	//speak = list("Hi!","Hello!","Cracker?","BAWWWWK george mellons griffing me!")
-	//speak_emote = list("squawks","says","yells")
-	//emote_hear = list("squawks.","bawks!")
-	//emote_see = list("flutters their wings.")
-
 	butcher_results = list(/obj/item/food/cracker = 1)
 	melee_damage_upper = 10
 	melee_damage_lower = 5
@@ -46,9 +41,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	var/icon_sit = "parrot_sit"
 	/// The number of damage we do when we decide to aggro for our lives
 	var/parrot_damage_upper = 10
-	//var/parrot_state = PARROT_WANDER
-	//var/parrot_sleep_max = 25 //The time the parrot sits while perched before looking around. Mosly a way to avoid the parrot's AI in life() being run every single tick.
-	//var/parrot_sleep_dur = 25 //Same as above, this is the var that physically counts down
 	/// Potential bodyparts for us to attack
 	var/parrot_dam_zone = CARBON_GENERIC_BODY_ZONES
 
@@ -58,11 +50,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	///Parrots are kleptomaniacs. This variable ... stores the item a parrot is holding.
 	var/obj/item/held_item = null
 
-	//var/parrot_speed = 5 //"Delay in world ticks between movement." according to byond. Yeah, that's BS but it does directly affect movement. Higher number = slower.
-	//var/parrot_lastmove = null //Updates/Stores position of the parrot while it's moving
-	//var/parrot_stuck = 0 //If parrot_lastmove hasn't changed, this will increment until it reaches parrot_stuck_threshold
-	//var/parrot_stuck_threshold = 10 //if this == parrot_stuck, it'll force the parrot back to wandering
-
 	/// The blackboard key we use to store the string we're repeating
 	var/speech_blackboard_key = BB_PARROT_REPEAT_STRING
 	/// The generic probability odds we have to do a speech-related action // FIXME might need to tone this down
@@ -70,12 +57,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	/// The generic probability odds we have to switch out our speech string
 	var/speech_shuffle_rate = 30
 
-	////The thing the parrot is currently interested in. This gets used for items the parrot wants to pick up, mobs it wants to steal from,
-	////mobs it wants to attack or mobs that have attacked it
-	//var/atom/movable/parrot_interest = null
-
 	//Parrots will generally sit on their perch unless something catches their eye.
-	var/static/list/desired_perches = typecacheof(list(
+	var/static/list/desired_perches = list(
 		/obj/machinery/computer,
 		/obj/machinery/dna_scannernew,
 		/obj/machinery/nuclearbomb,
@@ -87,7 +70,9 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		/obj/structure/displaycase,
 		/obj/structure/filingcabinet,
 		/obj/structure/frame/computer,
-	))
+	)
+	///items we wont pick up
+	var/static/list/ignore_items = typecacheof(list(/obj/item/radio))
 
 
 /mob/living/basic/parrot/Initialize(mapload)
@@ -95,11 +80,14 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	setup_headset()
 	update_speech_blackboards()
 	ai_controller.set_blackboard_key(BB_PARROT_PERCH_TYPES, desired_perches)
-
+	ai_controller.set_blackboard_key(BB_IGNORE_ITEMS, ignore_items)
+	AddComponent(/datum/component/tameable, food_types = list(/obj/item/food/cracker), tame_chance = 100, bonus_tame_chance = 0, after_tame = CALLBACK(src, PROC_REF(tamed)))
 	AddComponent(/datum/component/listen_and_repeat, desired_phrases = get_static_list_of_phrases(), blackboard_key = BB_PARROT_REPEAT_STRING)
 	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
+	AddElement(/datum/element/basic_eating, food_types = list(/obj/item/food/cracker))
+
 
 	RegisterSignal(src, COMSIG_HOSTILE_PRE_ATTACKINGTARGET, PROC_REF(pre_attacking))
 	RegisterSignal(src, COMSIG_MOB_CLICKON, PROC_REF(on_click))
@@ -194,11 +182,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	SIGNAL_HANDLER
 	if(!LAZYACCESS(params, RIGHT_CLICK) || !CanReach(target))
 		return
-
-	if(start_perching(target))
-		return COMSIG_MOB_CANCEL_CLICKON
-
-	if(!isnull(held_item))
+	if(start_perching(target) && !isnull(held_item))
 		drop_held_item(gently = TRUE)
 
 /// Proc that ascertains the type of perch we're dealing with and starts the perching process.
@@ -211,7 +195,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(ishuman(target))
 		return perch_on_human(target)
 
-	if(!is_type_in_typecache(target, desired_perches))
+	if(!is_type_in_list(target, desired_perches))
 		return FALSE
 
 	forceMove(get_turf(target))
@@ -260,18 +244,14 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /// This is pretty much meant for players, AI will use the task-specific procs instead.
 /mob/living/basic/parrot/proc/pre_attacking(mob/living/basic/source, atom/target)
 	SIGNAL_HANDLER
-	if(isnull(client) || stat != CONSCIOUS)
+	if(stat != CONSCIOUS)
 		return
 
-	if(isitem(target))
-		if(steal_from_ground(target))
-			return COMPONENT_HOSTILE_NO_ATTACK
-		return
+	if(isitem(target) && steal_from_ground(target))
+		return COMPONENT_HOSTILE_NO_ATTACK
 
-	if(iscarbon(target))
-		if(steal_from_mob(target))
-			return COMPONENT_HOSTILE_NO_ATTACK
-		return
+	if(iscarbon(target) && steal_from_mob(target))
+		return COMPONENT_HOSTILE_NO_ATTACK
 
 /// Picks up an item from the ground and puts it in our claws. Returns TRUE if we picked it up, FALSE otherwise.
 /mob/living/basic/parrot/proc/steal_from_ground(obj/item/target)
@@ -281,10 +261,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	if(target.w_class > WEIGHT_CLASS_SMALL)
 		balloon_alert(src, "too big to pick up!")
-		return FALSE
-
-	var/turf/open/perch = ai_controller.blackboard[BB_PARROT_INANIMATE_PERCH]
-	if(isnull(client) && target.loc == perch) // we'll leave that on our perch if we're ai controlled
 		return FALSE
 
 	target.forceMove(src)
@@ -353,15 +329,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	target.forceMove(src)
 	held_item = target
 
-	if(!istype(held_item, /obj/item/food/cracker))
-		return TRUE
-
-	QDEL_NULL(held_item)
-	if(health < maxHealth)
-		adjustBruteLoss(-10)
-	manual_emote("[src] eagerly downs the cracker.")
-	return TRUE // yeah technically
-
 /// Handles dropping items we're holding. Gently is a special modifier we can use for special interactions.
 /mob/living/basic/parrot/proc/drop_held_item(gently = TRUE)
 	if(isnull(held_item))
@@ -369,21 +336,23 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		return
 
 	if(stat != CONSCIOUS) // don't gotta do shit
-		held_item.forceMove(drop_location())
-		held_item = null
 		return
 
 	if(!gently && isgrenade(held_item))
 		var/obj/item/grenade/bomb = held_item
 		balloon_alert(src, "bombs away!") // you'll likely die too so we can get away with the `!` here
 		bomb.forceMove(drop_location())
-		held_item = null
 		bomb.detonate()
 		return
 
 	balloon_alert(src, "dropped item")
 	held_item.forceMove(drop_location())
-	held_item = null
+
+/mob/living/basic/parrot/Exited(atom/movable/gone, direction)
+	. = ..()
+	if(gone != held_item)
+		return
+	held_item= null
 
 /mob/living/basic/parrot/vv_edit_var(var_name, vval)
 	. = ..() // give admins an easier time when it comes to fucking with poly
@@ -424,3 +393,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		returnable_list += GLOB.channel_tokens[channel] // will return something like ":e" or ":c" y'know
 
 	return returnable_list
+
+/mob/living/basic/parrot/proc/tamed()
+	new /obj/effect/temp_visual/heart(drop_location())
