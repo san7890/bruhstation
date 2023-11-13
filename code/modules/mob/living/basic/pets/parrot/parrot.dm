@@ -94,7 +94,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		after_tame = CALLBACK(src, PROC_REF(tamed)),\
 	)
 
-
 	RegisterSignal(src, COMSIG_HOSTILE_PRE_ATTACKINGTARGET, PROC_REF(pre_attacking))
 	RegisterSignal(src, COMSIG_MOB_CLICKON, PROC_REF(on_click))
 	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attacked)) // this means we could have a peaceful interaction, like getting a cracker
@@ -116,8 +115,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(ears)
 		ears.forceMove(drop_location())
 		ears = null
-
-	//SSmove_manager.stop_looping(src)
 
 	if(!isnull(buckled))
 		buckled.unbuckle_mob(src, force = TRUE)
