@@ -276,7 +276,7 @@
 		/mob/living/basic/stickman,
 		/mob/living/basic/stickman/dog,
 		/mob/living/simple_animal/hostile/megafauna/dragon/lesser,
-		/mob/living/simple_animal/parrot,
+		/mob/living/basic/parrot,
 		/mob/living/simple_animal/pet/cat,
 		/mob/living/simple_animal/pet/cat/cak,
 		/obj/item/food/sausage/american,

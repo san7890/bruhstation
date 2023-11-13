@@ -13,24 +13,35 @@
 	severity = DISEASE_SEVERITY_MEDIUM
 	infectable_biotypes = MOB_ORGANIC|MOB_UNDEAD|MOB_ROBOTIC|MOB_MINERAL
 	bypasses_immunity = TRUE //2spook
-	var/mob/living/simple_animal/parrot/poly/ghost/parrot
+	///chance we speak
+	var/speak_chance = 5
+	///list of words we can use
+	var/list/speech_list = null
 
 
 /datum/disease/parrot_possession/stage_act(seconds_per_tick, times_fired)
 	. = ..()
+
 	if(!.)
 		return
 
-	if(QDELETED(parrot) || parrot.loc != affected_mob)
-		cure()
-		return FALSE
-
-	if(length(parrot.speech_buffer) && SPT_PROB(parrot.speak_chance, seconds_per_tick)) // I'm not going to dive into polycode trying to adjust that probability. Enjoy doubled ghost parrot speach
-		affected_mob.say(pick(parrot.speech_buffer), forced = "parrot possession")
+	if(LAZYLEN(speech_list) && SPT_PROB(speak_chance, seconds_per_tick)) // I'm not going to dive into polycode trying to adjust that probability. Enjoy doubled ghost parrot speach
+		affected_mob.say(pick(speech_list), forced = "parrot possession")
 
 
 /datum/disease/parrot_possession/cure()
-	if(parrot && parrot.loc == affected_mob)
-		parrot.forceMove(affected_mob.drop_location())
-		affected_mob.visible_message(span_danger("[parrot] is violently driven out of [affected_mob]!"), span_userdanger("[parrot] bursts out of your chest!"))
-	..()
+	var/atom/movable/inside_parrot = locate(/mob/living/basic/parrot/poly/ghost) in affected_mob
+	if(inside_parrot)
+		UnregisterSignal(inside_parrot, list(COMSIG_PREQDELETED, COMSIG_MOVABLE_MOVED))
+		inside_parrot.forceMove(affected_mob.drop_location())
+		affected_mob.visible_message(span_danger("[inside_parrot] is violently driven out of [affected_mob]!"), span_userdanger("[inside_parrot] bursts out of your chest!"))
+	return ..()
+
+/datum/disease/parrot_possession/proc/set_parrot(mob/living/parrot)
+	speech_list = parrot.ai_controller?.blackboard[BB_EXPORTABLE_STRING_BUFFER_LIST]
+	RegisterSignals(parrot, list(COMSIG_PREQDELETED, COMSIG_MOVABLE_MOVED), PROC_REF(on_parrot_exit))
+
+/datum/disease/parrot_possession/proc/on_parrot_exit(datum/source)
+	SIGNAL_HANDLER
+	UnregisterSignal(source, list(COMSIG_PREQDELETED, COMSIG_MOVABLE_MOVED))
+	cure()
