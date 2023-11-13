@@ -22,7 +22,6 @@
 	if(!ismovable(parent))
 		return COMPONENT_INCOMPATIBLE
 
-	var/hello = desired_phrases
 	if(!isnull(desired_phrases))
 		LAZYADD(speech_buffer, desired_phrases)
 
@@ -58,8 +57,6 @@
 	SIGNAL_HANDLER
 	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
-	var/hello = speech_buffer
-	var/shmawg = LAZYLEN(speech_buffer)
 	if(!LAZYLEN(speech_buffer))
 		controller.clear_blackboard_key(blackboard_key)
 		return NO_NEW_PHRASE_AVAILABLE

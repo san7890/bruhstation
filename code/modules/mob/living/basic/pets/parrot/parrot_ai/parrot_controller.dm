@@ -16,6 +16,16 @@
 		/datum/ai_planning_subtree/parrot_as_in_repeat, // always get a witty oneliner in when you can
 	)
 
+/datum/idle_behavior/idle_random_walk/parrot
+	///chance of us moving while perched
+	var/walk_chance_when_perched = 5
+
+/datum/idle_behavior/idle_random_walk/parrot/perform_idle_behavior(seconds_per_tick, datum/ai_controller/controller)
+	var/mob/living/living_pawn = controller.pawn
+	walk_chance = HAS_TRAIT(living_pawn, PARROT_PERCHED) ? walk_chance_when_perched : initial(walk_chance)
+	return ..()
+
+///subtree to steal items
 /datum/ai_planning_subtree/hoard_items/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	var/mob/living/living_pawn = controller.pawn
 
@@ -98,17 +108,7 @@
 	. = ..()
 	controller.set_blackboard_key(BB_ALWAYS_IGNORE_FACTION, FALSE)
 
-
-
-/datum/idle_behavior/idle_random_walk/parrot
-	///chance of us moving while perched
-	var/walk_chance_when_perched = 5
-
-/datum/idle_behavior/idle_random_walk/parrot/perform_idle_behavior(seconds_per_tick, datum/ai_controller/controller)
-	var/mob/living/living_pawn = controller.pawn
-	walk_chance = HAS_TRAIT(living_pawn, PARROT_PERCHED) ? walk_chance_when_perched : initial(walk_chance)
-	return ..()
-
+///subtree to perch on targets
 /datum/ai_planning_subtree/perch_on_target
 	///perchance...
 	var/perch_chance = 5
@@ -170,13 +170,18 @@
 		finish_action(controller, TRUE, target_key)
 		return
 
-	var/mob/living/living_human = target
-	if(living_human.stat == DEAD || LAZYLEN(living_human.buckled_mobs) >= living_human.max_buckled_mobs)
+	if(!check_human_conditions(target))
 		finish_action(controller, FALSE, target_key)
 		return
 
-	living_pawn.start_perching(living_human)
+	living_pawn.start_perching(target)
 	finish_action(controller, TRUE, target_key)
+
+/datum/ai_behavior/perch_on_target/proc/check_human_conditions(mob/living/living_human)
+	if(living_human.stat == DEAD || LAZYLEN(living_human.buckled_mobs) >= living_human.max_buckled_mobs)
+		return FALSE
+
+	return TRUE
 
 /datum/ai_behavior/perch_on_target/finish_action(datum/ai_controller/controller, succeeded, target_key)
 	. = ..()
@@ -196,3 +201,45 @@
 
 	buckled_too.unbuckle_mob(living_pawn)
 	finish_action(controller, TRUE)
+
+
+//ghost poly
+
+/datum/ai_controller/basic_controller/parrot/ghost
+	planning_subtrees = list(
+		/datum/ai_planning_subtree/parrot_as_in_repeat,
+		/datum/ai_planning_subtree/possess_humans,
+		/datum/ai_planning_subtree/hoard_items,
+	)
+
+///subtree to possess humans
+/datum/ai_planning_subtree/possess_humans
+	///chance we go possess humans
+	var/possess_chance = 2
+
+/datum/ai_planning_subtree/possess_humans/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
+	var/mob/living/living_pawn = controller.pawn
+
+	if(controller.blackboard_key_exists(BB_PERCH_TARGET))
+		controller.queue_behavior(/datum/ai_behavior/perch_on_target/haunt, BB_PERCH_TARGET)
+		return SUBTREE_RETURN_FINISH_PLANNING
+
+
+	if(!SPT_PROB(possess_chance, seconds_per_tick))
+		if(ishuman(living_pawn.loc))
+			return SUBTREE_RETURN_FINISH_PLANNING
+		return
+
+	if(ishuman(living_pawn.loc))
+		controller.set_blackboard_key(living_pawn.loc)
+		return
+
+	controller.queue_behavior(/datum/ai_behavior/find_and_set/conscious_person, BB_PERCH_TARGET)
+
+
+/datum/ai_behavior/perch_on_target/haunt
+
+/datum/ai_behavior/perch_on_target/haunt/check_human_conditions(mob/living/living_human)
+	if(living_human.stat == DEAD)
+		return FALSE
+	return TRUE

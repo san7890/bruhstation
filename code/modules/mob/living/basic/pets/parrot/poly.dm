@@ -197,11 +197,12 @@
 	name = "The Ghost of Poly"
 	desc = "Doomed to squawk the Earth."
 	color = "#FFFFFF77"
-	//speak_chance = 20
 	status_flags = GODMODE
 	sentience_type = SENTIENCE_BOSS //This is so players can't mindswap into ghost poly to become a literal god
 	incorporeal_move = INCORPOREAL_MOVE_BASIC
 	butcher_results = list(/obj/item/ectoplasm = 1)
+	ai_controller = /datum/ai_controller/basic_controller/parrot/ghost
+	speech_probability_rate = 1
 
 /mob/living/basic/parrot/poly/ghost/Initialize(mapload)
 	// block anything and everything that could possibly happen with writing memory for ghosts
@@ -233,7 +234,7 @@
 		return
 
 	var/mob/living/possessed_human = loc
-	possessed_human.add_filter(POLY_POSSESS_FILTER, 2, list("type" = "outline", "color" = POLY_POSSESS_GLOW, "size" = 28))
+	possessed_human.add_filter(POLY_POSSESS_FILTER, 2, list("type" = "outline", "color" = POLY_POSSESS_GLOW, "size" = 2))
 	var/filter = possessed_human.get_filter(POLY_POSSESS_FILTER)
 
 	if(filter)
@@ -241,9 +242,8 @@
 		animate(alpha = 60, time = 2 SECONDS)
 
 	var/datum/disease/parrot_possession/on_possession = new /datum/disease/parrot_possession
-	on_possession.parrot = src
+	on_possession.set_parrot(src)
 	possessed_human.ForceContractDisease(on_possession, make_copy = FALSE, del_on_fail = TRUE)
-	return
 
 #undef POLY_DEFAULT
 #undef POLY_LONGEST_SURVIVAL
