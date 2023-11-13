@@ -157,7 +157,7 @@
 	return
 
 /mob/living/simple_animal/parrot/attack_paw(mob/living/carbon/human/user, list/modifiers)
-	return attack_hand(modifiers)
+	return attack_hand(user, modifiers)
 
 /mob/living/simple_animal/parrot/attack_alien(mob/living/carbon/alien/user, list/modifiers)
 	return attack_hand(user, modifiers)
