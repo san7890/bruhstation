@@ -2,7 +2,7 @@
 	key = STRIPPABLE_ITEM_PARROT_HEADSET
 
 /datum/strippable_item/parrot_headset/get_item(atom/source)
-	var/mob/living/simple_animal/parrot/parrot_source = source
+	var/mob/living/basic/parrot/poly/parrot_source = source
 	return istype(parrot_source) ? parrot_source.ears : null
 
 /datum/strippable_item/parrot_headset/try_equip(atom/source, obj/item/equipping, mob/user)
@@ -41,17 +41,18 @@
 	if (!.)
 		return FALSE
 
-	var/mob/living/simple_animal/parrot/parrot_source = source
+	var/mob/living/basic/parrot/parrot_source = source
 	if (!istype(parrot_source))
 		return
 
 	if (parrot_source.stat == CONSCIOUS)
-		parrot_source.say("[parrot_source.available_channels.len ? "[pick(parrot_source.available_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!", forced = "attempted headset removal")
+		var/list/list_of_channels = parrot_source.get_available_channels()
+		parrot_source.say("[list_of_channels ? "[pick(list_of_channels)] " : null]BAWWWWWK LEAVE THE HEADSET BAWKKKKK!", forced = "attempted headset removal")
 
 	return TRUE
 
 /datum/strippable_item/parrot_headset/finish_unequip(atom/source, mob/user)
-	var/mob/living/simple_animal/parrot/parrot_source = source
+	var/mob/living/basic/parrot/parrot_source = source
 	if (!istype(parrot_source))
 		return
 

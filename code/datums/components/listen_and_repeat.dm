@@ -17,31 +17,26 @@
 	/// List of things that we've heard and will repeat.
 	var/list/speech_buffer = null
 
-/datum/component/listen_and_repeat/Initialize(list/desired_phrases, blackboard_key, speech_probability, switch_phrase_probability)
+/datum/component/listen_and_repeat/Initialize(list/desired_phrases, blackboard_key)
 	. = ..()
 	if(!ismovable(parent))
 		return COMPONENT_INCOMPATIBLE
 
-	if(isnull(speech_probability))
-		src.speech_probability = 20
-
 	if(!isnull(desired_phrases))
 		LAZYADD(speech_buffer, desired_phrases)
+
 	src.blackboard_key = blackboard_key
 
-	RegisterSignal(parent, COMSIG_MOVABLE_HEAR, PROC_REF(on_hear))
+	RegisterSignal(parent, COMSIG_MOVABLE_PRE_HEAR, PROC_REF(on_hear))
 	RegisterSignal(parent, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_phrase))
 	RegisterSignal(parent, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
-	RegisterSignals(parent, list(COMSIG_AI_BLACKBOARD_KEY_SET(BB_PARROT_REPEAT_PROBABILITY), COMSIG_AI_BLACKBOARD_KEY_SET(BB_PARROT_PHRASE_CHANGE_PROBABILITY)), PROC_REF(update_probabilities))
 	// register to detach when a client logs in maybe
 
 /// Called when we hear something.
 /datum/component/listen_and_repeat/proc/on_hear(datum/source, list/passed_arguments)
 	SIGNAL_HANDLER
-	if(!prob(speech_probability))
-		return
 
-	var/message = passed_arguments[HEARING_MESSAGE]
+	var/message = passed_arguments[HEARING_RAW_MESSAGE]
 	var/speaker = passed_arguments[HEARING_SPEAKER]
 	var/over_radio = !!passed_arguments[HEARING_RADIO_FREQ]
 	if(speaker == source) // don't parrot ourselves
@@ -63,20 +58,11 @@
 	var/atom/movable/atom_source = source
 	var/datum/ai_controller/controller = atom_source.ai_controller
 	if(!LAZYLEN(speech_buffer))
-		controller.set_blackboard_key(blackboard_key, null)
+		controller.clear_blackboard_key(blackboard_key)
 		return NO_NEW_PHRASE_AVAILABLE
-
-	if(!prob(switch_phrase_probability))
-		return
 
 	var/selected_phrase = pick(speech_buffer)
 	controller.set_blackboard_key(blackboard_key, selected_phrase)
-
-/// Update the probabilities whenever the blackboard changes on us. assume that the controller is sending the signal to be safe
-/datum/component/listen_and_repeat/proc/update_probabilities(datum/ai_controller/source)
-	SIGNAL_HANDLER
-	speech_probability = source.blackboard[BB_PARROT_REPEAT_PROBABILITY]
-	switch_phrase_probability = source.blackboard[BB_PARROT_PHRASE_CHANGE_PROBABILITY]
 
 /// Exports all the speech buffer data to a dedicated blackboard key on the source.
 /datum/component/listen_and_repeat/proc/on_write_memory(datum/source, dead, gibbed)
