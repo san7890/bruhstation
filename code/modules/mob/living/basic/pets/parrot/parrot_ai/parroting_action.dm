@@ -3,15 +3,16 @@
 	operational_datums = list(/datum/component/listen_and_repeat)
 
 /datum/ai_planning_subtree/parrot_as_in_repeat/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
-	. = ..()
-	var/atom/speaking_pawn = controller.pawn
-	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
-	var/probability = controller.blackboard[BB_PARROT_REPEAT_PROBABILITY]
-	var/return_value = SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE) // we always grab a new phrase every time this fires for randomness
-	if(prob(probability) || return_value & NO_NEW_PHRASE_AVAILABLE)
+	if(!SPT_PROB(controller.blackboard[BB_PARROT_REPEAT_PROBABILITY], seconds_per_tick))
 		return
 
-	potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
+	var/atom/speaking_pawn = controller.pawn
+	var/switch_up_probability = controller.blackboard[BB_PARROT_PHRASE_CHANGE_PROBABILITY]
+	if(SPT_PROB(switch_up_probability, seconds_per_tick) || isnull(controller.blackboard[BB_PARROT_REPEAT_STRING]))
+		if(SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE) & NO_NEW_PHRASE_AVAILABLE)
+			return
+
+	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
 	if(isnull(potential_string))
 		stack_trace("Parrot As In Repeat Subtree somehow is getting a null potential string while not getting `NO_NEW_PHRASE_AVAILABLE`!")
 		return
