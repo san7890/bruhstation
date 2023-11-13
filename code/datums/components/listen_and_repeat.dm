@@ -3,7 +3,7 @@
 /// Tendency we have to ignore radio chatter
 #define RADIO_IGNORE_CHANCE 10
 
-/// Simple element that will deterministically set a value based on stuff that the source has heard and will then compel the source to repeat it.area
+/// Simple element that will deterministically set a value based on stuff that the source has heard and will then compel the source to repeat it.
 /// Requires a valid AI Blackboard.
 /datum/component/listen_and_repeat
 	/// List of things that we start out having in our speech buffer
@@ -30,7 +30,12 @@
 	RegisterSignal(parent, COMSIG_MOVABLE_PRE_HEAR, PROC_REF(on_hear))
 	RegisterSignal(parent, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_phrase))
 	RegisterSignal(parent, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
-	// register to detach when a client logs in maybe
+	RegisterSignal(parent, COMSIG_MOB_LOGIN, PROC_REF(on_login))
+
+/// Called if a client logs in- don't want to be forced speaking while under their control (sadly)
+/datum/component/listen_and_repeat/proc/on_login(datum/source)
+	SIGNAL_HANDLER
+	qdel(src)
 
 /// Called when we hear something.
 /datum/component/listen_and_repeat/proc/on_hear(datum/source, list/passed_arguments)
