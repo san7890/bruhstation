@@ -58,7 +58,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	var/speech_shuffle_rate = 30
 
 	//Parrots will generally sit on their perch unless something catches their eye.
-	var/static/list/desired_perches = list(
+	var/static/list/desired_perches = typecacheof(list(
 		/obj/machinery/computer,
 		/obj/machinery/dna_scannernew,
 		/obj/machinery/nuclearbomb,
@@ -70,7 +70,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		/obj/structure/displaycase,
 		/obj/structure/filingcabinet,
 		/obj/structure/frame/computer,
-	)
+	))
 	///items we wont pick up
 	var/static/list/ignore_items = typecacheof(list(/obj/item/radio))
 
