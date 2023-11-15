@@ -25,8 +25,10 @@
 	if(!. || isnull(parrot_controller))
 		return
 
-	if(SPT_PROB(speak_chance, seconds_per_tick) && !isnull(parrot_controller.blackboard[BB_PARROT_REPEAT_STRING])) // I'm not going to dive into polycode trying to adjust that probability. Enjoy doubled ghost parrot speach
-		affected_mob.say(parrot_controller.blackboard[BB_PARROT_REPEAT_STRING], forced = "parrot possession")
+	var/potential_phrase = parrot_controller.blackboard[BB_PARROT_REPEAT_STRING]
+
+	if(SPT_PROB(speak_chance, seconds_per_tick) && !isnull(potential_phrase)) // I'm not going to dive into polycode trying to adjust that probability. Enjoy doubled ghost parrot speach
+		affected_mob.say(potential_phrase, forced = "parrot possession")
 
 
 /datum/disease/parrot_possession/cure()
@@ -34,7 +36,10 @@
 	if(inside_parrot)
 		UnregisterSignal(inside_parrot, list(COMSIG_PREQDELETED, COMSIG_MOVABLE_MOVED))
 		inside_parrot.forceMove(affected_mob.drop_location())
-		affected_mob.visible_message(span_danger("[inside_parrot] is violently driven out of [affected_mob]!"), span_userdanger("[inside_parrot] bursts out of your chest!"))
+		affected_mob.visible_message(
+			span_danger("[inside_parrot] is violently driven out of [affected_mob]!"),
+			span_userdanger("[inside_parrot] bursts out of your chest!"),
+		)
 	parrot_controller = null
 	return ..()
 
