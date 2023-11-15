@@ -205,7 +205,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 /// Tracks whether we're gonna be a baby alien's mummy.
 #define TRAIT_XENO_HOST "xeno_host"
 /// This parrot is currently perched
-#define TRAIT_TRAIT_PARROT_PERCHED "TRAIT_PARROT_PERCHED"
+#define TRAIT_PARROT_PERCHED "parrot_perched"
 /// This mob is immune to stun causing status effects and stamcrit.
 /// Prefer to use [/mob/living/proc/check_stun_immunity] over checking for this trait exactly.
 #define TRAIT_STUNIMMUNE "stun_immunity"
