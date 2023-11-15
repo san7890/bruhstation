@@ -3,7 +3,6 @@
 /// Parrot that will just randomly spawn with a headset. Nothing too special beyond that.
 /mob/living/basic/parrot/headsetted
 
-/// Will simply set up the headset for the parrot to use. Stub, implemented on subtypes.
 /mob/living/basic/parrot/headsetted/setup_headset()
 	var/headset = pick(
 		/obj/item/radio/headset/headset_cargo,
