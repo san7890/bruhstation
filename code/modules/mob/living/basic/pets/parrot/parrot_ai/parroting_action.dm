@@ -3,14 +3,15 @@
 	operational_datums = list(/datum/component/listen_and_repeat)
 
 /datum/ai_planning_subtree/parrot_as_in_repeat/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
-	if(!SPT_PROB(controller.blackboard[BB_PARROT_REPEAT_PROBABILITY], seconds_per_tick))
-		return
-
 	var/atom/speaking_pawn = controller.pawn
+
 	var/switch_up_probability = controller.blackboard[BB_PARROT_PHRASE_CHANGE_PROBABILITY]
 	if(SPT_PROB(switch_up_probability, seconds_per_tick) || isnull(controller.blackboard[BB_PARROT_REPEAT_STRING]))
 		if(SEND_SIGNAL(speaking_pawn, COMSIG_NEEDS_NEW_PHRASE) & NO_NEW_PHRASE_AVAILABLE)
 			return
+
+	if(!SPT_PROB(controller.blackboard[BB_PARROT_REPEAT_PROBABILITY], seconds_per_tick))
+		return
 
 	var/potential_string = controller.blackboard[BB_PARROT_REPEAT_STRING]
 	if(isnull(potential_string))

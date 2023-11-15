@@ -26,6 +26,9 @@
 	return ..()
 
 ///subtree to steal items
+/datum/ai_planning_subtree/hoard_items
+	var/theft_chance = 5
+
 /datum/ai_planning_subtree/hoard_items/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	var/mob/living/living_pawn = controller.pawn
 
@@ -45,8 +48,11 @@
 		controller.queue_behavior(/datum/ai_behavior/basic_melee_attack/interact_once, BB_HOARD_ITEM_TARGET, BB_TARGETING_STRATEGY)
 		return SUBTREE_RETURN_FINISH_PLANNING
 
+	if(!SPT_PROB(theft_chance, seconds_per_tick))
+		return
 	controller.queue_behavior(/datum/ai_behavior/find_and_set/hoard_item, BB_HOARD_ITEM_TARGET)
 
+/datum/ai_behavior/find_and_set/hoard_location
 
 /datum/ai_behavior/find_and_set/hoard_location/search_tactic(datum/ai_controller/controller, locate_path, search_range)
 	for(var/turf/open/candidate in oview(search_range, controller.pawn))
@@ -215,7 +221,7 @@
 ///subtree to possess humans
 /datum/ai_planning_subtree/possess_humans
 	///chance we go possess humans
-	var/possess_chance = 2
+	var/possess_chance = 80
 
 /datum/ai_planning_subtree/possess_humans/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	var/mob/living/living_pawn = controller.pawn
