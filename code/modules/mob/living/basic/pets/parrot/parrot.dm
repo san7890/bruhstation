@@ -48,12 +48,12 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	/// The blackboard key we use to store the string we're repeating
 	var/speech_blackboard_key = BB_PARROT_REPEAT_STRING
-	/// The generic probability odds we have to do a speech-related action // FIXME might need to tone this down
+	/// The generic probability odds we have to do a speech-related action
 	var/speech_probability_rate = 5
 	/// The generic probability odds we have to switch out our speech string
 	var/speech_shuffle_rate = 30
 
-	//Parrots will generally sit on their perch unless something catches their eye.
+	/// Contains all of the perches that parrots will generally sit on until something catches their eye.
 	var/static/list/desired_perches = typecacheof(list(
 		/obj/machinery/computer,
 		/obj/machinery/dna_scannernew,
@@ -128,6 +128,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 /mob/living/basic/parrot/examine(mob/user)
 	. = ..()
+	. += "It appears to [isnull(held_item) ? "not be holding anything." : "be holding \a [held_item]."]"
+
 	if(stat != DEAD)
 		return
 
