@@ -9,7 +9,7 @@
 ///subtree to possess humans
 /datum/ai_planning_subtree/possess_humans
 	///chance we go possess humans
-	var/possess_chance = 80
+	var/possess_chance = 2
 
 /datum/ai_planning_subtree/possess_humans/SelectBehaviors(datum/ai_controller/controller, seconds_per_tick)
 	var/mob/living/living_pawn = controller.pawn
@@ -34,6 +34,4 @@
 /datum/ai_behavior/perch_on_target/haunt
 
 /datum/ai_behavior/perch_on_target/haunt/check_human_conditions(mob/living/living_human)
-	if(living_human.stat == DEAD)
-		return FALSE
-	return TRUE
+	return (living_human.stat != DEAD)

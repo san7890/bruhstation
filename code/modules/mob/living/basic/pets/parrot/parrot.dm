@@ -197,7 +197,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	if(ishuman(target))
 		return perch_on_human(target)
 
-	if(!is_type_in_list(target, desired_perches))
+	if(!is_type_in_typecache(target, desired_perches))
 		return FALSE
 
 	forceMove(get_turf(target))
@@ -265,8 +265,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 		balloon_alert(src, "too big to pick up!")
 		return FALSE
 
-	target.forceMove(src)
-	held_item = target
+	pick_up_item(target)
 	visible_message(
 		span_notice("[src] grabs [held_item]!"),
 		span_notice("You grab [held_item]!"),
