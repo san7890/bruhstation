@@ -41,8 +41,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	var/icon_sit = "parrot_sit"
 	/// The number of damage we do when we decide to aggro for our lives
 	var/parrot_damage_upper = 10
-	/// Potential bodyparts for us to attack
-	var/parrot_dam_zone = CARBON_GENERIC_BODY_ZONES
 
 	///Headset for Poly to yell at engineers :)
 	var/obj/item/radio/headset/ears = null

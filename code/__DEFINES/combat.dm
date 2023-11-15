@@ -279,15 +279,6 @@ GLOBAL_LIST_INIT(shove_disarming_types, typecacheof(list(
 
 GLOBAL_LIST_INIT(arm_zones, list(BODY_ZONE_L_ARM, BODY_ZONE_R_ARM))
 
-#define CARBON_GENERIC_BODY_ZONES list(\
-	BODY_ZONE_HEAD,\
-	BODY_ZONE_CHEST,\
-	BODY_ZONE_L_ARM,\
-	BODY_ZONE_R_ARM,\
-	BODY_ZONE_L_LEG,\
-	BODY_ZONE_R_LEG,\
-)
-
 #define BODY_ZONE_PRECISE_EYES "eyes"
 #define BODY_ZONE_PRECISE_MOUTH "mouth"
 #define BODY_ZONE_PRECISE_GROIN "groin"
