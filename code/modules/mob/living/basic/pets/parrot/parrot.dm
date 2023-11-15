@@ -98,7 +98,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	RegisterSignal(src, COMSIG_MOB_CLICKON, PROC_REF(on_click))
 	RegisterSignal(src, COMSIG_ATOM_ATTACKBY, PROC_REF(on_attacked)) // this means we could have a peaceful interaction, like getting a cracker
 	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_injured)) // this means we got hurt and it's go time
-	RegisterSignal(src, COMSIG_KB_MOB_DROPITEM_DOWN, PROC_REF(drop_held_item))
+	RegisterSignal(src, COMSIG_KB_MOB_DROPITEM_DOWN, PROC_REF(drop_item_on_signal))
 
 /mob/living/basic/parrot/Destroy()
 	// should have cleaned these up on death, but let's be super safe in case that didn't happen
@@ -401,10 +401,8 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /mob/living/basic/parrot/proc/tamed()
 	new /obj/effect/temp_visual/heart(drop_location())
 
-/mob/living/basic/parrot/proc/drop_held_item(mob/living/user)
+/mob/living/basic/parrot/proc/drop_item_on_signal(mob/living/user)
 	SIGNAL_HANDLER
 
-	if(isnull(held_item))
-		return
-	dropItemToGround(held_item)
+	drop_held_item()
 	return COMSIG_KB_ACTIVATED
