@@ -30,12 +30,6 @@
 	RegisterSignal(parent, COMSIG_MOVABLE_PRE_HEAR, PROC_REF(on_hear))
 	RegisterSignal(parent, COMSIG_NEEDS_NEW_PHRASE, PROC_REF(set_new_blackboard_phrase))
 	RegisterSignal(parent, COMSIG_LIVING_WRITE_MEMORY, PROC_REF(on_write_memory))
-	RegisterSignal(parent, COMSIG_MOB_LOGIN, PROC_REF(on_login))
-
-/// Called if a client logs in- don't want to be forced speaking while under their control (sadly)
-/datum/component/listen_and_repeat/proc/on_login(datum/source)
-	SIGNAL_HANDLER
-	qdel(src)
 
 /// Called when we hear something.
 /datum/component/listen_and_repeat/proc/on_hear(datum/source, list/passed_arguments)
