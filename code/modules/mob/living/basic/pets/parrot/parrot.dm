@@ -39,8 +39,6 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	/// Icon we use while sitting
 	var/icon_sit = "parrot_sit"
-	/// The number of damage we do when we decide to aggro for our lives
-	var/parrot_damage_upper = 10
 
 	///Headset for Poly to yell at engineers :)
 	var/obj/item/radio/headset/ears = null
