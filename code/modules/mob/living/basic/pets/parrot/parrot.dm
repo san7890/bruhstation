@@ -172,11 +172,9 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 	return NONE
 
-#define PARROT_PERCHED "parrot_perched" // move this later
-
 /mob/living/basic/parrot/update_icon_state()
 	. = ..()
-	if(HAS_TRAIT(src, PARROT_PERCHED))
+	if(HAS_TRAIT(src, TRAIT_PARROT_PERCHED))
 		icon_state = icon_sit
 	else
 		icon_state = icon_living
@@ -192,7 +190,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 /// Proc that ascertains the type of perch we're dealing with and starts the perching process.
 /// Returns TRUE if we started perching, FALSE otherwise.
 /mob/living/basic/parrot/proc/start_perching(atom/target)
-	if(HAS_TRAIT(src, PARROT_PERCHED))
+	if(HAS_TRAIT(src, TRAIT_PARROT_PERCHED))
 		balloon_alert(src, "already perched!")
 		return FALSE
 
@@ -239,9 +237,9 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 
 /mob/living/basic/parrot/proc/toggle_perched(perched)
 	if(!perched)
-		REMOVE_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+		REMOVE_TRAIT(src, TRAIT_PARROT_PERCHED, TRAIT_GENERIC)
 	else
-		ADD_TRAIT(src, PARROT_PERCHED, TRAIT_GENERIC)
+		ADD_TRAIT(src, TRAIT_PARROT_PERCHED, TRAIT_GENERIC)
 	update_appearance(UPDATE_ICON_STATE)
 
 /// Master proc which will determine the intent of OUR attacks on an object and summon the relevant procs accordingly.
@@ -356,7 +354,7 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	. = ..()
 	if(gone != held_item)
 		return
-	held_item= null
+	held_item = null
 
 /mob/living/basic/parrot/vv_edit_var(var_name, vval)
 	. = ..() // give admins an easier time when it comes to fucking with poly
