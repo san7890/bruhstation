@@ -74,6 +74,11 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	///items we wont pick up
 	var/static/list/ignore_items = typecacheof(list(/obj/item/radio))
 
+	/// Food that Poly loves to eat (spoiler alert it's just crackers)
+	var/static/list/edibles = list(
+		/obj/item/food/cracker,
+	)
+
 
 /mob/living/basic/parrot/Initialize(mapload)
 	. = ..()
@@ -84,11 +89,11 @@ GLOBAL_LIST_INIT(strippable_parrot_items, create_strippable_list(list(
 	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/strippable, GLOB.strippable_parrot_items)
 	AddElement(/datum/element/simple_flying)
-	AddElement(/datum/element/basic_eating, food_types = list(/obj/item/food/cracker))
+	AddElement(/datum/element/basic_eating, food_types = edibles)
 	AddComponent(/datum/component/listen_and_repeat, desired_phrases = get_static_list_of_phrases(), blackboard_key = BB_PARROT_REPEAT_STRING)
 	AddComponent(\
 		/datum/component/tameable,\
-		food_types = list(/obj/item/food/cracker),\
+		food_types = edibles,\
 		tame_chance = 100,\
 		bonus_tame_chance = 0,\
 		after_tame = CALLBACK(src, PROC_REF(tamed)),\
