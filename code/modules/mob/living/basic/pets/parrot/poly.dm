@@ -152,7 +152,7 @@
 /mob/living/basic/parrot/poly/Write_Memory(dead, gibbed)
 	. = ..()
 	if(!. || memory_saved) // if we die, no more memory
-		return
+		return FALSE
 
 	if(!dead && (stat != DEAD))
 		dead = FALSE
@@ -161,7 +161,7 @@
 	var/list/file_data = list()
 
 	var/list/exportable_speech_buffer = ai_controller.blackboard[BB_EXPORTABLE_STRING_BUFFER_LIST] // should have been populated when we sent the signal out on parent
-	if(length(exportable_speech_buffer))
+	if(!!length(exportable_speech_buffer))
 		file_data["phrases"] = exportable_speech_buffer
 
 	if(dead)
@@ -189,6 +189,7 @@
 
 	rustg_file_write(formatted_data, file_path)
 	memory_saved = TRUE
+	return TRUE
 
 /mob/living/basic/parrot/poly/setup_headset()
 	ears = new /obj/item/radio/headset/headset_eng(src)
