@@ -8,9 +8,18 @@
 	attack_verb_continuous = "bites"
 	attack_verb_simple = "bite"
 	speak_emote = list("clatters")
+	gold_core_spawnable = HOSTILE_SPAWN
 	//stop_automated_movement = 1
 	//wander = 0
 	var/attempt_open = FALSE
+	/// The biggest size of a mob we can fit inside us.
+	var/max_mob_size = MOB_SIZE_HUMAN
+	/// Sound played when we open up our maw.
+	var/open_sound = 'sound/machines/crate_open.ogg'
+	/// Sound played when we close up our jaws.
+	var/close_sound = 'sound/machines/crate_close.ogg'
+	/// Sound played when we attempt to eat more items than what we can fit
+	var/full_sound = 'sound/items/trayhit2.ogg'
 
 // Pickup whatever we got ontop of us when we've been mapped in.
 /mob/living/basic/mimic/crate/Initialize(mapload)
@@ -18,6 +27,8 @@
 	if(mapload)
 		for(var/obj/item/thing in loc)
 			thing.forceMove(src)
+
+	GRANT_ACTION(/datum/action/innate/mimic/lock)
 
 /mob/living/basic/mimic/crate/DestroyPathToTarget()
 	..()
@@ -65,26 +76,7 @@
 	for(var/obj/O in src)
 		O.forceMove(C)
 	..()
-/mob/living/basic/mimic/xenobio
-	health = 210
-	maxHealth = 210
-	attack_verb_continuous = "bites"
-	attack_verb_simple = "bite"
-	speak_emote = list("clatters")
-	gold_core_spawnable = HOSTILE_SPAWN
-	var/opened = FALSE
-	var/open_sound = 'sound/machines/crate_open.ogg'
-	var/close_sound = 'sound/machines/crate_close.ogg'
-	///sound played when the mimic attempts to eat more items than it can
-	var/full_sound = 'sound/items/trayhit2.ogg'
-	var/max_mob_size = MOB_SIZE_HUMAN
-	var/locked = FALSE
-	var/datum/action/innate/mimic/lock/lock
 
-/mob/living/basic/mimic/xenobio/Initialize(mapload)
-	. = ..()
-	lock = new
-	lock.Grant(src)
 
 /mob/living/basic/mimic/xenobio/AttackingTarget(atom/attacked_target)
 	if(src == target)
@@ -181,18 +173,3 @@
 		return FALSE
 	return TRUE
 
-/datum/action/innate/mimic
-	background_icon_state = "bg_default"
-	overlay_icon_state = "bg_default_border"
-
-/datum/action/innate/mimic/lock
-	name = "Lock/Unlock"
-	desc = "Toggle preventing yourself from being opened or closed."
-
-/datum/action/innate/mimic/lock/Activate()
-	var/mob/living/basic/mimic/xenobio/M = owner
-	M.locked = !M.locked
-	if(!M.locked)
-		to_chat(M, span_warning("You loosen up, allowing yourself to be opened and closed."))
-	else
-		to_chat(M, span_warning("You stiffen up, preventing anyone from opening or closing you."))

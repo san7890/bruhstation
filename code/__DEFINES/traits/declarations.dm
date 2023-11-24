@@ -985,4 +985,12 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 
 /// Trait given to foam darts that have an insert in them
 #define TRAIT_DART_HAS_INSERT "dart_has_insert"
+
+/// Trait that means this mimic is closed, but can be reopened without issue
+#define TRAIT_MIMIC_CLOSED "mimic_closed"
+
+/// Trait that means this mimic has locked their hinge, and can only be reopened by the mimic itself
+#define TRAIT_MIMIC_LOCKED "mimic_locked"
+
+
 // END TRAIT DEFINES

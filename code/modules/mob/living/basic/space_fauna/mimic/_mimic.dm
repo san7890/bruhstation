@@ -26,8 +26,8 @@
 	speak_emote = list("creaks")
 	taunt_chance = 30
 
-	atmos_requirements = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
-	minbodytemp = 0
+	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	minimum_survivable_temperature = TCMB
 
 	faction = list(FACTION_MIMIC)
 	move_to_delay = 9
@@ -42,6 +42,4 @@
 	if(type == /mob/living/basic/mimic)
 		message_admins("Attempted to spawn in a generic mimic, this isn't supported. Please try using the 'spawn_objasmob' verb instead to spawn mimic-esque objects.")
 		return INITIALIZE_HINT_QDEL
-
-
 
