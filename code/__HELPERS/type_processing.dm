@@ -28,6 +28,7 @@
 			/turf = "T",
 			/mob/living/carbon = "CARBON",
 			/mob/living/simple_animal = "SIMPLE",
+			/mob/living/basic = "BASIC",
 			/mob/living = "LIVING",
 			/mob = "M"
 		)
