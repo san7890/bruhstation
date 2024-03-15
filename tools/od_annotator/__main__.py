@@ -27,7 +27,7 @@ def annotate(raw_output):
 
     print("OpenDream Code Annotations:")
     for annotation in re.finditer(annotation_regex, raw_output):
-        if annotation['errornumber'] is "0000" and annotation['message'] is "Unimplemented proc & var warnings are currently suppressed":
+        if annotation['errornumber'] == "0000" and annotation['message'] == "Unimplemented proc & var warnings are currently suppressed":
             continue # snowflake case, we do need to care about this and it does print in the raw_output earlier but it's a nothingburger to actually annotate and it happens every run for the time being
 
         error_string = f"{annotation['errorcode']}: {annotation['message']}"
