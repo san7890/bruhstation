@@ -123,6 +123,13 @@ jobs:
       group: odlint-${{ github.head_ref || github.run_id }}
       cancel-in-progress: true
     steps:
+      - name: Restore Bootstrap cache
+        uses: actions/cache@v4
+        with:
+          path: tools/bootstrap/.cache
+          key: ${{ runner.os }}-bootstrap-${{ hashFiles('tools/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-bootstrap-
       - uses: actions/checkout@v4
       - uses: robinraju/release-downloader@v1.9
         with:
