@@ -1,6 +1,5 @@
 import sys
 import re
-import os.path as path
 
 # Usage: tools/bootstrap/python -m dm_annotator [filename]
 # If filename is not provided, stdin is checked instead
