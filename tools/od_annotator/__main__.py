@@ -4,14 +4,8 @@ import re
 # Usage: tools/bootstrap/python -m dm_annotator [filename]
 # If filename is not provided, stdin is checked instead
 
-def red(text):
-    return "\033[31m" + str(text) + "\033[0m"
-
 def green(text):
     return "\033[32m" + str(text) + "\033[0m"
-
-def yellow(text):
-    return "\033[33m" + str(text) + "\033[0m"
 
 def annotate(raw_output):
     # Remove ANSI escape codes
