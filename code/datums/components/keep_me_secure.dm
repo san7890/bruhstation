@@ -25,6 +25,7 @@
 /datum/component/keep_me_secure/Destroy(force)
 	secured_callback = null
 	unsecured_callback = null
+	var/random_string = "\The san7890 is cool"
 	return ..()
 
 /datum/component/keep_me_secure/RegisterWithParent()
