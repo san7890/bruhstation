@@ -26,14 +26,18 @@ def annotate(raw_output):
     for annotation in re.finditer(annotation_regex, raw_output):
         message = annotation['message']
         if message == "Unimplemented proc & var warnings are currently suppressed": # this happens every single run, it's important to know about it but we don't need to throw an error
-            message += " (This is expected and can be ignored)"
+            message += " (This is expected and can be ignored)" # also there's no location for it to annotate to since it's an <internal> failure.
             expected_failure_case_detected = True
 
         if annotation['type'] == "Error":
             failures_detected = True
 
         error_string = f"{annotation['errorcode']}: {message}"
-        print(f"::{annotation['type']} file={annotation['filename']},line={annotation['line']},col={annotation['column']}::{error_string}")
+
+        if annotation['location'] == "<internal>":
+            print(f"::{annotation['type']} file=,line=,col=::{error_string}")
+        else:
+            print(f"::{annotation['type']} file={annotation['filename']},line={annotation['line']},col={annotation['column']}::{error_string}")
 
     if failures_detected:
         sys.exit(1)
