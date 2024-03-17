@@ -1,5 +1,8 @@
 ///Cooldown for the Reset Lobby Menu HUD verb
 #define RESET_HUD_INTERVAL 15 SECONDS
+/// Cooldown for generating logs regarding the player's eligibility for jobs
+#define JOB_ELIGIBILITY_LOG_INTERVAL 10 SECONDS
+
 /mob/dead/new_player
 	flags_1 = NONE
 	invisibility = INVISIBILITY_ABSTRACT
@@ -19,6 +22,8 @@
 	var/jobs_menu_mounted = FALSE
 	///Cooldown for the Reset Lobby Menu HUD verb
 	COOLDOWN_DECLARE(reset_hud_cooldown)
+	///Cooldown for generating logs regarding the player's eligibility for jobs
+	COOLDOWN_DECLARE(job_eligibility_log_cooldown)
 
 /mob/dead/new_player/Initialize(mapload)
 	if(client && SSticker.state == GAME_STATE_STARTUP)
@@ -140,13 +145,22 @@
 		else
 			return JOB_UNAVAILABLE_SLOTFULL
 
-	var/eligibility_check = SSjob.check_job_eligibility(src, job, "Mob IsJobUnavailable")
+	var/eligibility_check = verify_job_eligibility(job, "Mob IsJobUnavailable")
 	if(eligibility_check != JOB_AVAILABLE)
 		return eligibility_check
 
 	if(latejoin && !job.special_check_latejoin(client))
 		return JOB_UNAVAILABLE_GENERIC
 	return JOB_AVAILABLE
+
+/// Wrapper proc that determines if a new player's failure to access a job needs to be logged.
+/mob/dead/new_player/proc/verify_job_eligibility(rank, invoker_string)
+	var/on_cooldown = FALSE
+	if(!COOLDOWN_FINISHED(src, job_eligibility_log_cooldown))
+		var/on_cooldown = FALSE
+
+	COOLDOWN_START(src, job_eligibility_log_cooldown, JOB_ELIGIBILITY_LOG_INTERVAL)
+	return SSjob.check_job_eligibility(src, job, debug_prefix = invoker_string, silent = on_cooldown)
 
 /mob/dead/new_player/proc/AttemptLateSpawn(rank)
 	// Check that they're picking someone new for new character respawning
@@ -369,3 +383,4 @@
 	hud_used.show_hud(hud_used.hud_version)
 
 #undef RESET_HUD_INTERVAL
+#undef JOB_ELIGIBILITY_LOG_INTERVAL
