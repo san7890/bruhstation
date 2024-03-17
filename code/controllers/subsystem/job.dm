@@ -852,6 +852,9 @@ SUBSYSTEM_DEF(job)
 /datum/controller/subsystem/job/proc/job_priority_level_to_string(priority)
 	return job_priorities_to_strings["[priority]"] || "Undefined Priority \[[priority]\]"
 
+/// Cooldown for generating logs regarding the player's eligibility for jobs
+#define JOB_ELIGIBILITY_LOG_INTERVAL 10 SECONDS
+
 /**
  * Runs a standard suite of eligibility checks to make sure the player can take the reqeusted job.
  *
@@ -866,9 +869,13 @@ SUBSYSTEM_DEF(job)
  * * possible_job - The job to check for eligibility against.
  * * debug_prefix - Logging prefix for the JobDebug log entries. For example, GRJ during GiveRandomJob or DO during DivideOccupations.
  * * add_job_to_log - If TRUE, appends the job type to the log entry. If FALSE, does not. Set to FALSE when check is part of iterating over players for a specific job, set to TRUE when check is part of iterating over jobs for a specific player and you don't want extra log entry spam.
- * * silent - If TRUE, suppresses the log entries for the checks that fail. This is important in spots where this proc is invoked by TGUI data procs which run pretty much every tick and spam the log with junk.
  */
-/datum/controller/subsystem/job/proc/check_job_eligibility(mob/dead/new_player/player, datum/job/possible_job, debug_prefix = "", add_job_to_log = FALSE, silent = FALSE)
+/datum/controller/subsystem/job/proc/check_job_eligibility(mob/dead/new_player/player, datum/job/possible_job, debug_prefix = "", add_job_to_log = FALSE)
+	var/silent = FALSE
+	if(!COOLDOWN_EXPIRED(player, job_eligibility_log_cooldown))
+		silent = TRUE
+
+	COOLDOWN_START(player, job_eligibility_log_cooldown, JOB_ELIGIBILITY_LOG_INTERVAL)
 	if(!player.mind)
 		if(!silent)
 			JobDebug("[debug_prefix] player has no mind, Player: [player][add_job_to_log ? ", Job: [possible_job]" : ""]")
@@ -909,6 +916,8 @@ SUBSYSTEM_DEF(job)
 		return JOB_UNAVAILABLE_GENERIC
 
 	return JOB_AVAILABLE
+
+#undef JOB_ELIGIBILITY_LOG_INTERVAL
 
 /**
  * Check if the station manifest has at least a certain amount of this staff type.
