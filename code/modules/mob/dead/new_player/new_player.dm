@@ -157,7 +157,7 @@
 /mob/dead/new_player/proc/verify_job_eligibility(rank, invoker_string)
 	var/on_cooldown = FALSE
 	if(!COOLDOWN_FINISHED(src, job_eligibility_log_cooldown))
-		var/on_cooldown = FALSE
+		on_cooldown = TRUE
 
 	COOLDOWN_START(src, job_eligibility_log_cooldown, JOB_ELIGIBILITY_LOG_INTERVAL)
 	return SSjob.check_job_eligibility(src, job, debug_prefix = invoker_string, silent = on_cooldown)
