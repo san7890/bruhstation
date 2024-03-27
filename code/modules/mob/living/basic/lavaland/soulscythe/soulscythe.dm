@@ -162,7 +162,7 @@
 /obj/item/soulscythe/proc/use_blood(amount = 0, message = TRUE)
 	if(amount > soul.blood_level)
 		if(message)
-			to_chat(soul, span_warning("Not enough blood!"))
+			balloon_alert(soul, "not enough blood!")
 		return FALSE
 	soul.blood_level -= amount
 	return TRUE
@@ -200,6 +200,7 @@
 
 	if(!COOLDOWN_FINISHED(src, attack_cooldown) || !isturf(loc))
 		return
+
 	if(get_dist(source, attacked_atom) > 1)
 		INVOKE_ASYNC(src, PROC_REF(shoot_target), attacked_atom)
 	else
@@ -210,6 +211,7 @@
 
 	if(!COOLDOWN_FINISHED(src, attack_cooldown) || !isturf(loc))
 		return
+
 	INVOKE_ASYNC(src, PROC_REF(charge_target), attacked_atom)
 
 /obj/item/soulscythe/proc/shoot_target(atom/attacked_atom)
@@ -220,7 +222,10 @@
 	projectile.preparePixelProjectile(attacked_atom, src)
 	projectile.firer = src
 	projectile.fire(null, attacked_atom)
-	visible_message(span_danger("[src] fires at [attacked_atom]!"), span_notice("You fire at [attacked_atom]!"))
+	visible_message(
+		span_danger("[src] fires at [attacked_atom]!"),
+		span_notice("You fire at [attacked_atom]!"),
+	)
 	playsound(src, 'sound/magic/fireball.ogg', 50, TRUE)
 
 /obj/item/soulscythe/proc/slash_target(atom/attacked_atom)
@@ -235,11 +240,15 @@
 		attacked_obj.take_damage(force, BRUTE, MELEE, FALSE)
 	else
 		return
+
 	COOLDOWN_START(src, attack_cooldown, 1 SECONDS)
 	animate(src)
 	SpinAnimation(5)
 	addtimer(CALLBACK(src, PROC_REF(reset_spin)), 1 SECONDS)
-	visible_message(span_danger("[src] slashes [attacked_atom]!"), span_notice("You slash [attacked_atom]!"))
+	visible_message(
+		span_danger("[src] slashes [attacked_atom]!"),
+		span_notice("You slash [attacked_atom]!"),
+	)
 	playsound(src, 'sound/weapons/bladeslice.ogg', 50, TRUE)
 	do_attack_animation(attacked_atom, ATTACK_EFFECT_SLASH)
 
@@ -251,10 +260,16 @@
 	charging = TRUE
 	visible_message(span_danger("[src] starts charging..."))
 	balloon_alert(soul, "you start charging...")
+
 	if(!do_after(soul, 2 SECONDS, target = src, timed_action_flags = IGNORE_TARGET_LOC_CHANGE))
 		balloon_alert(soul, "interrupted!")
 		return
-	visible_message(span_danger("[src] charges at [attacked_atom]!"), span_notice("You charge at [attacked_atom]!"))
+
+	visible_message(
+		span_danger("[src] charges at [attacked_atom]!"),
+		span_notice("You charge at [attacked_atom]!"),
+	)
+
 	new /obj/effect/temp_visual/mook_dust(get_turf(src))
 	playsound(src, 'sound/weapons/thudswoosh.ogg', 50, TRUE)
 	SpinAnimation(1)
