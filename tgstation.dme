@@ -4507,6 +4507,7 @@
 #include "code\modules\mining\lavaland\ash_flora.dm"
 #include "code\modules\mining\lavaland\megafauna_loot.dm"
 #include "code\modules\mining\lavaland\necropolis_chests.dm"
+#include "code\modules\mining\lavaland\soulscythe.dm"
 #include "code\modules\mining\lavaland\tendril_loot.dm"
 #include "code\modules\mob\emote.dm"
 #include "code\modules\mob\inventory.dm"
