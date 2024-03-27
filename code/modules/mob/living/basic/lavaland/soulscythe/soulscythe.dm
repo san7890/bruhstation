@@ -42,7 +42,7 @@
 
 /obj/item/soulscythe/examine(mob/user)
 	. = ..()
-	. += soul.ckey ? span_nicegreen("There is a soul inhabiting it.") : span_danger("It's dormant.")
+	. += isnull(client) ? span_danger("It's dormant.") : span_nicegreen("There is a soul inhabiting it.")
 
 /obj/item/soulscythe/attack(mob/living/attacked, mob/living/user, params)
 	. = ..()
