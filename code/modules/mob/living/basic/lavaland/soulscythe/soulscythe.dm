@@ -127,7 +127,7 @@
 		REMOVE_TRAIT(src, TRAIT_NODROP, type)
 		return
 
-	soul.ckey = ghost.ckey
+	soul.key = ghost.key
 	soul.copy_languages(master, LANGUAGE_MASTER) //Make sure the sword can understand and communicate with the master.
 	soul.faction = list("[REF(master)]")
 	balloon_alert(master, "the scythe glows")
