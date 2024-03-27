@@ -49,8 +49,6 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	/// Soulscythe mob in the scythe
 	var/mob/living/basic/soulscythe/soul
-	/// Are we grabbing a spirit?
-	var/using = FALSE
 	/// Currently charging?
 	var/charging = FALSE
 	/// Cooldown between moves
@@ -93,14 +91,13 @@
 		reset_spin() //resume spinnage
 
 /obj/item/soulscythe/attack_self(mob/user, modifiers)
-	if(using || !isnull(soul.client) || (soul.stat == CONSCIOUS))
+	if(!isnull(soul.client) || (soul.stat == CONSCIOUS) || HAS_TRAIT(src, TRAIT_NODROP))
 		return
 	if(!(GLOB.ghost_role_flags & GHOSTROLE_STATION_SENTIENCE))
 		balloon_alert(user, "you can't awaken the scythe!")
 		return
-	using = TRUE
-	balloon_alert(user, "you hold the scythe up...")
 	ADD_TRAIT(src, TRAIT_NODROP, type)
+	balloon_alert(user, "you hold the scythe up...")
 	var/mob/chosen_one = SSpolling.poll_ghosts_for_target(
 		check_jobban = ROLE_PAI,
 		poll_time = 20 SECONDS,
@@ -117,7 +114,6 @@
 	if(isnull(ghost))
 		balloon_alert(master, "the scythe is dormant!")
 		REMOVE_TRAIT(src, TRAIT_NODROP, type)
-		using = FALSE
 		return
 
 	soul.ckey = ghost.ckey
@@ -130,7 +126,6 @@
 		reset_spin()
 
 	REMOVE_TRAIT(src, TRAIT_NODROP, type)
-	using = FALSE
 
 /obj/item/soulscythe/relaymove(mob/living/user, direction)
 	if(!COOLDOWN_FINISHED(src, move_cooldown) || charging)
