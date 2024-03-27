@@ -9,10 +9,12 @@
 	health = 200
 	gender = NEUTER
 	mob_biotypes = MOB_SPIRIT
-	faction = list()
-	weather_immunities = list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE)
 	/// Blood level, used for movement and abilities in a soulscythe
 	var/blood_level = MAX_BLOOD_LEVEL
+
+/mob/living/basic/soulscythe/Initialize(mapload)
+	. = ..()
+	add_traits(list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT)
 
 /mob/living/basic/soulscythe/get_status_tab_items()
 	. = ..()
@@ -20,9 +22,10 @@
 
 /mob/living/basic/soulscythe/Life(seconds_per_tick, times_fired)
 	. = ..()
-	if(!stat)
+	if(stat == CONSCIOUS)
 		blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * seconds_per_tick))
 
+// The item is what does pretty much everything as far as the mob is concerned.
 /// An item that possesses a client-controlled spirit that can be used to attack and move.
 /obj/item/soulscythe
 	name = "soulscythe"
@@ -66,7 +69,7 @@
 
 /obj/item/soulscythe/examine(mob/user)
 	. = ..()
-	. += isnull(client) ? span_danger("It's dormant.") : span_nicegreen("There is a soul inhabiting it.")
+	. += isnull(soul.client) ? span_danger("It's dormant.") : span_nicegreen("There is a soul inhabiting it.")
 
 /obj/item/soulscythe/attack(mob/living/attacked, mob/living/user, params)
 	. = ..()
@@ -74,23 +77,23 @@
 		give_blood(10)
 
 /obj/item/soulscythe/attack_hand(mob/user, list/modifiers)
-	if(soul.ckey && !soul.faction_check_atom(user))
+	if(!isnull(soul.client) && !soul.faction_check_atom(user))
 		to_chat(user, span_warning("You can't pick up [src]!"))
 		return
 	return ..()
 
 /obj/item/soulscythe/pickup(mob/user)
 	. = ..()
-	if(soul.ckey)
+	if(!isnull(soul.client))
 		animate(src) //stop spinnage
 
 /obj/item/soulscythe/dropped(mob/user, silent)
 	. = ..()
-	if(soul.ckey)
+	if(!isnull(soul.client))
 		reset_spin() //resume spinnage
 
 /obj/item/soulscythe/attack_self(mob/user, modifiers)
-	if(using || soul.ckey || soul.stat)
+	if(using || !isnull(soul.client) || (soul.stat == CONSCIOUS))
 		return
 	if(!(GLOB.ghost_role_flags & GHOSTROLE_STATION_SENTIENCE))
 		balloon_alert(user, "you can't awaken the scythe!")
