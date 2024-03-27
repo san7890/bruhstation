@@ -1,5 +1,29 @@
+// This file contains the code for the soulscythe item as well as the soul entity that inhabits it.
+
 #define MAX_BLOOD_LEVEL 100
 
+/// A client-controlled spirit that can be used to attack and move.
+/mob/living/basic/soulscythe
+	name = "mysterious spirit"
+	maxHealth = 200
+	health = 200
+	gender = NEUTER
+	mob_biotypes = MOB_SPIRIT
+	faction = list()
+	weather_immunities = list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE)
+	/// Blood level, used for movement and abilities in a soulscythe
+	var/blood_level = MAX_BLOOD_LEVEL
+
+/mob/living/basic/soulscythe/get_status_tab_items()
+	. = ..()
+	. += "Blood: [blood_level]/[MAX_BLOOD_LEVEL]"
+
+/mob/living/basic/soulscythe/Life(seconds_per_tick, times_fired)
+	. = ..()
+	if(!stat)
+		blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * seconds_per_tick))
+
+/// An item that possesses a client-controlled spirit that can be used to attack and move.
 /obj/item/soulscythe
 	name = "soulscythe"
 	desc = "An old relic of hell created by devils to establish themselves as the leadership of hell over the demons. It grows stronger while it possesses a powerful soul."
@@ -21,7 +45,7 @@
 	layer = MOB_LAYER
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	/// Soulscythe mob in the scythe
-	var/mob/living/simple_animal/soulscythe/soul
+	var/mob/living/basic/soulscythe/soul
 	/// Are we grabbing a spirit?
 	var/using = FALSE
 	/// Currently charging?
@@ -242,26 +266,6 @@
 /obj/item/soulscythe/proc/reset_spin()
 	animate(src)
 	SpinAnimation(15)
-
-/mob/living/simple_animal/soulscythe
-	name = "mysterious spirit"
-	maxHealth = 200
-	health = 200
-	gender = NEUTER
-	mob_biotypes = MOB_SPIRIT
-	faction = list()
-	weather_immunities = list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE)
-	/// Blood level, used for movement and abilities in a soulscythe
-	var/blood_level = MAX_BLOOD_LEVEL
-
-/mob/living/simple_animal/soulscythe/get_status_tab_items()
-	. = ..()
-	. += "Blood: [blood_level]/[MAX_BLOOD_LEVEL]"
-
-/mob/living/simple_animal/soulscythe/Life(seconds_per_tick, times_fired)
-	. = ..()
-	if(!stat)
-		blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * seconds_per_tick))
 
 /obj/projectile/soulscythe
 	name = "soulslash"
