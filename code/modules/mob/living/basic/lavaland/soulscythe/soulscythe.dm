@@ -28,7 +28,7 @@
 /mob/living/basic/soulscythe/proc/use_blood(amount = 0, message = TRUE)
 	if(amount > blood_level)
 		if(message)
-			balloon_alert(src.loc, "not enough blood!")
+			loc.balloon_alert(src, "not enough blood!")
 		return FALSE
 	blood_level -= amount
 	return TRUE
@@ -146,7 +146,7 @@
 		balloon_alert(user, "resist out!")
 		COOLDOWN_START(src, move_cooldown, 1 SECONDS)
 		return
-	if(!soul.use_blood(1, FALSE))
+	if(!soul.use_blood(1, message = FALSE))
 		return
 	if(pixel_x != base_pixel_x || pixel_y != base_pixel_y)
 		animate(src, 0.2 SECONDS, pixel_x = base_pixel_y, pixel_y = base_pixel_y, flags = ANIMATION_PARALLEL)
