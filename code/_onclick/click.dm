@@ -246,6 +246,9 @@
 /atom/proc/AllowClick()
 	return FALSE
 
+/obj/AllowClick()
+	return (obj_flags & CAN_CLICK_THROUGH)
+
 /turf/AllowClick()
 	return TRUE
 

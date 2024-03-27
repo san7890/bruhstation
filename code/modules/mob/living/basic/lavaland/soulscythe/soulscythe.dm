@@ -58,6 +58,7 @@
 	bare_wound_bonus = 10
 	layer = MOB_LAYER
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
+	obj_flags = parent_type::obj_flags | CAN_CLICK_THROUGH
 	/// Soulscythe mob in the scythe
 	var/mob/living/basic/soulscythe/soul
 	/// Currently charging?
@@ -166,9 +167,6 @@
 		var/mob/living/hit_mob = hit_atom
 		if(hit_mob.stat != DEAD)
 			soul.give_blood(15)
-
-/obj/item/soulscythe/AllowClick()
-	return TRUE
 
 /obj/item/soulscythe/proc/on_resist(mob/living/user)
 	SIGNAL_HANDLER
