@@ -14,11 +14,8 @@
 
 /mob/living/basic/soulscythe/Initialize(mapload)
 	. = ..()
-	if(!istype(loc, /obj/item/soulscythe))
-#ifndef UNIT_TESTS
-		stack_trace("Spawned [type] outside of a soulscythe item!")
-#endif
-		return INITIALIZE_HINT_QDEL // what the hell just happened?
+	if(!istype(loc, /obj/item/soulscythe)) // safety in case an admin spawns in the mob and not the item (though they really should spawn in the item)
+		var/obj/item/soulscythe/container = new /obj/item/soulscythe(get_turf(src), src)
 
 	add_traits(list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT)
 
@@ -74,9 +71,14 @@
 	/// Cooldown between attacks
 	COOLDOWN_DECLARE(attack_cooldown)
 
-/obj/item/soulscythe/Initialize(mapload)
+/obj/item/soulscythe/Initialize(mapload, soul_to_add = null)
 	. = ..()
-	soul = new(src)
+	if(isnull(soul_to_add))
+		soul = new(src)
+	else
+		soul_to_add.forceMove(src)
+		soul = soul_to_add
+
 	RegisterSignal(soul, COMSIG_LIVING_RESIST, PROC_REF(on_resist))
 	RegisterSignal(soul, COMSIG_MOB_ATTACK_RANGED, PROC_REF(on_attack))
 	RegisterSignal(soul, COMSIG_MOB_ATTACK_RANGED_SECONDARY, PROC_REF(on_secondary_attack))
