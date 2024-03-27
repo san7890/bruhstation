@@ -244,7 +244,7 @@
 
 	COOLDOWN_START(src, attack_cooldown, 1 SECONDS)
 	animate(src)
-	SpinAnimation(5)
+	SpinAnimation(0.5 SECONDS)
 	addtimer(CALLBACK(src, PROC_REF(reset_spin)), 1 SECONDS)
 	visible_message(
 		span_danger("[src] slashes [attacked_atom]!"),
@@ -273,13 +273,13 @@
 
 	new /obj/effect/temp_visual/mook_dust(get_turf(src))
 	playsound(src, 'sound/weapons/thudswoosh.ogg', 50, TRUE)
-	SpinAnimation(1)
+	SpinAnimation(0.1 SECONDS)
 	throwforce *= 2
 	throw_at(attacked_atom, 10, 3, soul, FALSE)
 
 /obj/item/soulscythe/proc/reset_spin()
 	animate(src)
-	SpinAnimation(15)
+	SpinAnimation(1.5 SECONDS)
 
 /obj/projectile/soulscythe
 	name = "soulslash"
