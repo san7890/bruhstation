@@ -14,6 +14,12 @@
 
 /mob/living/basic/soulscythe/Initialize(mapload)
 	. = ..()
+	if(!istype(loc, /obj/item/soulscythe))
+#ifndef UNIT_TESTS
+		stack_trace("Spawned [type] outside of a soulscythe item!")
+#endif
+		return INITIALIZE_HINT_QDEL // what the hell just happened?
+
 	add_traits(list(TRAIT_ASHSTORM_IMMUNE, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT)
 
 /mob/living/basic/soulscythe/get_status_tab_items()
