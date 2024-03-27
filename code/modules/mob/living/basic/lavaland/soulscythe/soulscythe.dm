@@ -25,6 +25,17 @@
 	if(stat == CONSCIOUS)
 		blood_level = min(MAX_BLOOD_LEVEL, blood_level + round(1 * seconds_per_tick))
 
+/mob/living/basic/soulscythe/proc/use_blood(amount = 0, message = TRUE)
+	if(amount > blood_level)
+		if(message)
+			balloon_alert(src.loc, "not enough blood!")
+		return FALSE
+	blood_level -= amount
+	return TRUE
+
+/mob/living/basic/soulscythe/proc/give_blood(amount)
+	blood_level = min(MAX_BLOOD_LEVEL, blood_level + amount)
+
 // The item is what does pretty much everything as far as the mob is concerned.
 /// An item that possesses a client-controlled spirit that can be used to attack and move.
 /obj/item/soulscythe
@@ -72,7 +83,7 @@
 /obj/item/soulscythe/attack(mob/living/attacked, mob/living/user, params)
 	. = ..()
 	if(attacked.stat != DEAD)
-		give_blood(10)
+		soul.give_blood(10)
 
 /obj/item/soulscythe/attack_hand(mob/user, list/modifiers)
 	if(!isnull(soul.client) && !soul.faction_check_atom(user))
@@ -134,7 +145,7 @@
 		balloon_alert(user, "resist out!")
 		COOLDOWN_START(src, move_cooldown, 1 SECONDS)
 		return
-	if(!use_blood(1, FALSE))
+	if(!soul.use_blood(1, FALSE))
 		return
 	if(pixel_x != base_pixel_x || pixel_y != base_pixel_y)
 		animate(src, 0.2 SECONDS, pixel_x = base_pixel_y, pixel_y = base_pixel_y, flags = ANIMATION_PARALLEL)
@@ -154,21 +165,10 @@
 	if(isliving(hit_atom))
 		var/mob/living/hit_mob = hit_atom
 		if(hit_mob.stat != DEAD)
-			give_blood(15)
+			soul.give_blood(15)
 
 /obj/item/soulscythe/AllowClick()
 	return TRUE
-
-/obj/item/soulscythe/proc/use_blood(amount = 0, message = TRUE)
-	if(amount > soul.blood_level)
-		if(message)
-			balloon_alert(soul, "not enough blood!")
-		return FALSE
-	soul.blood_level -= amount
-	return TRUE
-
-/obj/item/soulscythe/proc/give_blood(amount)
-	soul.blood_level = min(MAX_BLOOD_LEVEL, soul.blood_level + amount)
 
 /obj/item/soulscythe/proc/on_resist(mob/living/user)
 	SIGNAL_HANDLER
@@ -178,7 +178,7 @@
 	INVOKE_ASYNC(src, PROC_REF(break_out))
 
 /obj/item/soulscythe/proc/break_out()
-	if(!use_blood(10))
+	if(!soul.use_blood(10))
 		return
 	balloon_alert(soul, "you resist...")
 	if(!do_after(soul, 5 SECONDS, target = src, timed_action_flags = IGNORE_TARGET_LOC_CHANGE))
@@ -215,7 +215,7 @@
 	INVOKE_ASYNC(src, PROC_REF(charge_target), attacked_atom)
 
 /obj/item/soulscythe/proc/shoot_target(atom/attacked_atom)
-	if(!use_blood(15))
+	if(!soul.use_blood(15))
 		return
 	COOLDOWN_START(src, attack_cooldown, 3 SECONDS)
 	var/obj/projectile/projectile = new /obj/projectile/soulscythe(get_turf(src))
@@ -229,13 +229,14 @@
 	playsound(src, 'sound/magic/fireball.ogg', 50, TRUE)
 
 /obj/item/soulscythe/proc/slash_target(atom/attacked_atom)
-	if(isliving(attacked_atom) && use_blood(10))
+	if(isliving(attacked_atom) && soul.use_blood(10))
 		var/mob/living/attacked_mob = attacked_atom
 		if(attacked_mob.stat != DEAD)
-			give_blood(15)
+			soul.give_blood(15)
 		attacked_mob.apply_damage(damage = force * (ishostile(attacked_mob) ? 2 : 1), sharpness = SHARP_EDGED, bare_wound_bonus = 5)
 		to_chat(attacked_mob, span_userdanger("You're slashed by [src]!"))
-	else if((ismachinery(attacked_atom) || isstructure(attacked_atom)) && use_blood(5))
+
+	else if((ismachinery(attacked_atom) || isstructure(attacked_atom)) && soul.use_blood(5))
 		var/obj/attacked_obj = attacked_atom
 		attacked_obj.take_damage(force, BRUTE, MELEE, FALSE)
 	else
@@ -253,7 +254,7 @@
 	do_attack_animation(attacked_atom, ATTACK_EFFECT_SLASH)
 
 /obj/item/soulscythe/proc/charge_target(atom/attacked_atom)
-	if(charging || !use_blood(30))
+	if(charging || !soul.use_blood(30))
 		return
 	COOLDOWN_START(src, attack_cooldown, 5 SECONDS)
 	animate(src)
