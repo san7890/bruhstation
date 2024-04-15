@@ -48,7 +48,7 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(/obj/structure/gri
 	GLOB.cable_list += src //add it to the global cable list
 	Connect_cable()
 	AddElement(/datum/element/undertile, TRAIT_T_RAY_VISIBLE)
-	RegisterSignal(src, COMSIG_RAT_INTERACT, PROC_REF(on_rat_eat))
+	RegisterSignal(src, COMSIG_REGAL_RAT_INTERACT, PROC_REF(on_rat_eat))
 	if(isturf(loc))
 		var/turf/turf_loc = loc
 		turf_loc.add_blueprints_preround(src)
@@ -72,7 +72,7 @@ GLOBAL_LIST_INIT(wire_node_generating_types, typecacheof(list(/obj/structure/gri
 		playsound(king, 'sound/effects/sparks2.ogg', 100, TRUE)
 	deconstruct()
 
-	return COMPONENT_RAT_INTERACTED
+	return COMPONENT_REGAL_RAT_INTERACTED
 
 ///Set the linked indicator bitflags
 /obj/structure/cable/proc/Connect_cable(clear_before_updating = FALSE)

@@ -59,7 +59,7 @@
 	air_contents = new /datum/gas_mixture()
 	//gas.volume = 1.05 * CELLSTANDARD
 	update_appearance()
-	RegisterSignal(src, COMSIG_RAT_INTERACT, PROC_REF(on_rat_rummage))
+	RegisterSignal(src, COMSIG_REGAL_RAT_INTERACT, PROC_REF(on_rat_rummage))
 	RegisterSignal(src, COMSIG_STORAGE_DUMP_CONTENT, PROC_REF(on_storage_dump))
 	var/static/list/loc_connections = list(
 		COMSIG_LIVING_DISARM_COLLIDE = PROC_REF(trash_living),
@@ -617,7 +617,7 @@
 		return
 
 	INVOKE_ASYNC(src, TYPE_PROC_REF(/obj/machinery/disposal/, rat_rummage), king)
-	return COMPONENT_RAT_INTERACTED
+	return COMPONENT_REGAL_RAT_INTERACTED
 
 /// Handles a carbon mob getting shoved into the disposal bin
 /obj/machinery/disposal/proc/trash_living(datum/source, mob/living/shover, mob/living/target, shove_flags, obj/item/weapon)
