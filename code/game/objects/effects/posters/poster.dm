@@ -118,6 +118,7 @@
 		desc = "A large piece of space-resistant printed paper. [desc]"
 
 	AddElement(/datum/element/beauty, 300)
+	RegisterSignal(src, COMSIG_REGAL_RAT_INTERACT)
 
 /// Adds contextual screentips
 /obj/structure/sign/poster/add_context(atom/source, list/context, obj/item/held_item, mob/user)
@@ -186,9 +187,19 @@
 	. = ..()
 	if(.)
 		return
+	attempt_tear_poster(user)
+
+/obj/structure/sign/poster/proc/attempt_tear_poster(mob/user)
 	if(ruined)
+		balloon_alert(user, "already ruined!")
 		return
 	tear_poster(user)
+
+/obj/structure/sign/poster/proc/on_rat_interact(datum/source)
+	SIGNAL_HANDLER
+	ASSERT(ismob(source), "Expected a mob for source when handling COMSIG_REGAL_RAT_INTERACT!")
+	attempt_tear_poster(source)
+	return COMPONENT_REGAL_RAT_INTERACTED
 
 /obj/structure/sign/poster/proc/spring_trap(mob/user)
 	var/obj/item/shard/payload = trap?.resolve()
@@ -264,10 +275,10 @@
 	playsound(src.loc, 'sound/items/poster_ripped.ogg', 100, TRUE)
 	spring_trap(user)
 
-	var/obj/structure/sign/poster/ripped/R = new(loc)
-	R.pixel_y = pixel_y
-	R.pixel_x = pixel_x
-	R.add_fingerprint(user)
+	var/obj/structure/sign/poster/ripped/ruined_poster = new(loc)
+	ruined_poster.pixel_y = pixel_y
+	ruined_poster.pixel_x = pixel_x
+	ruined_poster.add_fingerprint(user)
 	qdel(src)
 
 // Various possible posters follow
