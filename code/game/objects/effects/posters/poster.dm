@@ -195,10 +195,9 @@
 		return
 	tear_poster(user)
 
-/obj/structure/sign/poster/proc/on_rat_interact(datum/source)
+/obj/structure/sign/poster/proc/on_rat_interact(datum/source, mob/living/basic/regal_rat/king)
 	SIGNAL_HANDLER
-	ASSERT(ismob(source), "Expected a mob for source when handling COMSIG_REGAL_RAT_INTERACT!")
-	attempt_tear_poster(source)
+	attempt_tear_poster(king)
 	return COMPONENT_REGAL_RAT_INTERACTED
 
 /obj/structure/sign/poster/proc/spring_trap(mob/user)
