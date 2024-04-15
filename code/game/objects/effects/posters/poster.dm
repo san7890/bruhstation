@@ -118,7 +118,7 @@
 		desc = "A large piece of space-resistant printed paper. [desc]"
 
 	AddElement(/datum/element/beauty, 300)
-	RegisterSignal(src, COMSIG_REGAL_RAT_INTERACT)
+	RegisterSignal(src, COMSIG_REGAL_RAT_INTERACT, PROC_REF(on_rat_interact))
 
 /// Adds contextual screentips
 /obj/structure/sign/poster/add_context(atom/source, list/context, obj/item/held_item, mob/user)
