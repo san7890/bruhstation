@@ -37,7 +37,7 @@ DATASYSTEM_DEF(accessories) // just 'accessories' for brevity
 	var/list/frills_list = list()
 	var/list/spines_list = list()
 	var/list/legs_list = list()
-	var/list/animated_spines_list = list()
+	var/list/tail_spines_list = list()
 
 	//Mutant Human bits
 	var/list/tails_list_human = list()
@@ -82,12 +82,13 @@ DATASYSTEM_DEF(accessories) // just 'accessories' for brevity
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/lizard, tails_list_lizard, add_blank = TRUE)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/monkey, tails_list_monkey, add_blank = TRUE)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/snouts, snouts_list)
-	init_sprite_accessory_subtypes(/datum/sprite_accessory/horns,horns_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/horns, horns_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/ears, ears_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/wings, wings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/wings_open, wings_open_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/frills, frills_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/spines, spines_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tail_spines, tail_spines_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/legs, legs_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/caps, caps_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_wings, moth_wings_list)
