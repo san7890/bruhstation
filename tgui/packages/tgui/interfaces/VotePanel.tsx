@@ -1,16 +1,17 @@
 import { BooleanLike } from 'common/react';
+
+import { useBackend } from '../backend';
 import {
   Box,
-  Icon,
-  Stack,
   Button,
-  Section,
-  NoticeBox,
-  LabeledList,
   Collapsible,
+  Icon,
+  LabeledList,
+  NoticeBox,
+  Section,
+  Stack,
 } from '../components';
 import { Window } from '../layouts';
-import { useBackend } from '../backend';
 
 enum VoteConfig {
   None = -1,
@@ -34,6 +35,7 @@ type ActiveVote = {
   vote: Vote;
   question: string | null;
   timeRemaining: number;
+  displayStatistics: boolean;
   choices: Option[];
   countMethod: number;
 };
@@ -202,13 +204,15 @@ const ChoicesPanel = (props) => {
                   {user.singleSelection &&
                     choice.name === user.singleSelection && (
                       <Icon
-                        alignSelf="right"
+                        align="right"
                         mr={2}
                         color="green"
                         name="vote-yea"
                       />
                     )}
-                  {choice.votes} Votes
+                  {currentVote.displayStatistics
+                    ? choice.votes + ' Votes'
+                    : null}
                 </LabeledList.Item>
                 <LabeledList.Divider />
               </Box>
@@ -239,12 +243,7 @@ const ChoicesPanel = (props) => {
                 >
                   {user.multiSelection &&
                   user.multiSelection[user.ckey.concat(choice.name)] === 1 ? (
-                    <Icon
-                      alignSelf="right"
-                      mr={2}
-                      color="blue"
-                      name="vote-yea"
-                    />
+                    <Icon align="right" mr={2} color="blue" name="vote-yea" />
                   ) : null}
                   {choice.votes} Votes
                 </LabeledList.Item>

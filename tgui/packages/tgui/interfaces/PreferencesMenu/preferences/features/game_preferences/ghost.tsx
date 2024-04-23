@@ -1,18 +1,19 @@
+import { binaryInsertWith } from 'common/collections';
+import { classes } from 'common/react';
 import { multiline } from 'common/string';
+import { ReactNode } from 'react';
+
+import { useBackend } from '../../../../../backend';
+import { Box, Dropdown, Flex } from '../../../../../components';
+import { PreferencesMenuData } from '../../../data';
 import {
   CheckboxInput,
   FeatureChoiced,
   FeatureChoicedServerData,
-  FeatureDropdownInput,
   FeatureToggle,
   FeatureValueProps,
 } from '../base';
-import { Box, Dropdown, Flex } from '../../../../../components';
-import { classes } from 'common/react';
-import { ReactNode } from 'react';
-import { binaryInsertWith } from 'common/collections';
-import { useBackend } from '../../../../../backend';
-import { PreferencesMenuData } from '../../../data';
+import { FeatureDropdownInput } from '../dropdowns';
 
 export const ghost_accs: FeatureChoiced = {
   name: 'Ghost accessories',
@@ -21,10 +22,13 @@ export const ghost_accs: FeatureChoiced = {
   component: FeatureDropdownInput,
 };
 
-const insertGhostForm = binaryInsertWith<{
+type GhostForm = {
   displayText: ReactNode;
   value: string;
-}>(({ value }) => value);
+};
+
+const insertGhostForm = (collection: GhostForm[], value: GhostForm) =>
+  binaryInsertWith(collection, value, ({ value }) => value);
 
 const GhostFormInput = (
   props: FeatureValueProps<string, string, FeatureChoicedServerData>,
@@ -77,9 +81,10 @@ const GhostFormInput = (
 
   return (
     <Dropdown
+      autoScroll={false}
       disabled={!data.content_unlocked}
       selected={props.value}
-      displayText={displayTexts[props.value]}
+      placeholder={displayTexts[props.value]}
       onSelected={props.handleSetValue}
       width="100%"
       options={options}

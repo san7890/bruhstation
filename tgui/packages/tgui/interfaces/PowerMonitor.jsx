@@ -1,20 +1,22 @@
 import { map, sortBy } from 'common/collections';
 import { flow } from 'common/fp';
 import { toFixed } from 'common/math';
-import { useBackend, useLocalState } from '../backend';
+import { useState } from 'react';
+
+import { useBackend } from '../backend';
 import {
   Box,
   Button,
   Chart,
   ColorBox,
+  Dimmer,
   Flex,
   Icon,
   LabeledList,
   ProgressBar,
   Section,
-  Table,
-  Dimmer,
   Stack,
+  Table,
 } from '../components';
 import { Window } from '../layouts';
 
@@ -38,7 +40,7 @@ export const PowerMonitor = () => {
 export const PowerMonitorContent = (props) => {
   const { data } = useBackend();
   const { history = { supply: [], demand: [] } } = data;
-  const [sortByField, setSortByField] = useLocalState('sortByField', null);
+  const [sortByField, setSortByField] = useState(null);
   const supply = history.supply[history.supply.length - 1] || 0;
   const demand = history.demand[history.demand.length - 1] || 0;
   const supplyData = history.supply.map((value, i) => [i, value]);
@@ -46,18 +48,22 @@ export const PowerMonitorContent = (props) => {
   const maxValue = Math.max(PEAK_DRAW, ...history.supply, ...history.demand);
   // Process area data
   const areas = flow([
-    map((area, i) => ({
-      ...area,
-      // Generate a unique id
-      id: area.name + i,
-    })),
-    sortByField === 'name' && sortBy((area) => area.name),
-    sortByField === 'charge' && sortBy((area) => -area.charge),
+    (areas) =>
+      map(areas, (area, i) => ({
+        ...area,
+        // Generate a unique id
+        id: area.name + i,
+      })),
+    sortByField === 'name' && ((areas) => sortBy(areas, (area) => area.name)),
+    sortByField === 'charge' &&
+      ((areas) => sortBy(areas, (area) => -area.charge)),
     sortByField === 'draw' &&
-      sortBy(
-        (area) => -powerRank(area.load),
-        (area) => -parseFloat(area.load),
-      ),
+      ((areas) =>
+        sortBy(
+          areas,
+          (area) => -powerRank(area.load),
+          (area) => -parseFloat(area.load),
+        )),
   ])(data.areas);
   return (
     <>

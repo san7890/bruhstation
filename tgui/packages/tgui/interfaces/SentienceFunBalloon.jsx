@@ -1,11 +1,11 @@
 import { useBackend } from '../backend';
 import {
   Button,
+  Input,
+  LabeledList,
   NumberInput,
   Section,
   Stack,
-  Input,
-  LabeledList,
 } from '../components';
 import { Window } from '../layouts';
 
@@ -35,8 +35,9 @@ export const SentienceFunBalloon = (props) => {
                   value={range}
                   minValue={1}
                   maxValue={100}
+                  step={1}
                   stepPixelSize={15}
-                  onDrag={(e, value) =>
+                  onDrag={(value) =>
                     act('effect_range', {
                       updated_range: value,
                     })

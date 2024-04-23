@@ -1,5 +1,5 @@
 import { filter, sortBy } from 'common/collections';
-import { flow } from 'common/fp';
+
 import { HEALTH, THREAT } from './constants';
 import type { AntagGroup, Antagonist, Observable } from './types';
 
@@ -17,11 +17,7 @@ export const getAntagCategories = (antagonists: Antagonist[]) => {
     categories[antag_group].push(player);
   });
 
-  const sortedAntagonists = sortBy<AntagGroup>(([key]) => key)(
-    Object.entries(categories),
-  );
-
-  return sortedAntagonists;
+  return sortBy<AntagGroup>(Object.entries(categories), ([key]) => key);
 };
 
 /** Returns a disguised name in case the person is wearing someone else's ID */
@@ -45,19 +41,20 @@ export const getDisplayName = (full_name: string, name?: string) => {
 export const getMostRelevant = (
   searchQuery: string,
   observables: Observable[][],
-) => {
-  /** Returns the most orbited observable that matches the search. */
-  const mostRelevant: Observable = flow([
-    // Filters out anything that doesn't match search
-    filter<Observable>((observable) =>
-      isJobOrNameMatch(observable, searchQuery),
-    ),
+): Observable => {
+  const queriedObservables =
     // Sorts descending by orbiters
-    sortBy<Observable>((observable) => -(observable.orbiters || 0)),
-    // Makes a single Observables list for an easy search
-  ])(observables.flat())[0];
-
-  return mostRelevant;
+    sortBy(
+      // Filters out anything that doesn't match search
+      filter(
+        observables
+          // Makes a single Observables list for an easy search
+          .flat(),
+        (observable) => isJobOrNameMatch(observable, searchQuery),
+      ),
+      (observable) => -(observable.orbiters || 0),
+    );
+  return queriedObservables[0];
 };
 
 /** Returns the display color for certain health percentages */

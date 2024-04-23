@@ -1,5 +1,4 @@
 import { filter, sortBy } from 'common/collections';
-import { flow } from 'common/fp';
 import { capitalizeFirst, multiline } from 'common/string';
 import { useBackend, useLocalState } from 'tgui/backend';
 import {
@@ -13,6 +12,7 @@ import {
   Stack,
 } from 'tgui/components';
 import { Window } from 'tgui/layouts';
+
 import { JOB2ICON } from '../common/JobToIcon';
 import { ANTAG2COLOR } from './constants';
 import {
@@ -96,8 +96,8 @@ const ObservableSearch = (props) => {
           <Input
             autoFocus
             fluid
-            onEnter={(e, value) => orbitMostRelevant(value)}
-            onInput={(e) => setSearchQuery(e.target.value)}
+            onEnter={(event, value) => orbitMostRelevant(value)}
+            onInput={(event, value) => setSearchQuery(value)}
             placeholder="Search..."
             value={searchQuery}
           />
@@ -203,16 +203,13 @@ const ObservableSection = (props: {
 
   const [searchQuery] = useLocalState<string>('searchQuery', '');
 
-  const filteredSection: Observable[] = flow([
-    filter<Observable>((observable) =>
-      isJobOrNameMatch(observable, searchQuery),
-    ),
-    sortBy<Observable>((observable) =>
+  const filteredSection = sortBy(
+    filter(section, (observable) => isJobOrNameMatch(observable, searchQuery)),
+    (observable) =>
       getDisplayName(observable.full_name, observable.name)
         .replace(/^"/, '')
         .toLowerCase(),
-    ),
-  ])(section);
+  );
 
   if (!filteredSection.length) {
     return null;

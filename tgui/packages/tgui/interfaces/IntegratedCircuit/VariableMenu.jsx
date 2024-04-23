@@ -1,14 +1,16 @@
+import { shallowDiffers } from 'common/react';
+import { multiline } from 'common/string';
+import { Component } from 'react';
+
 import {
   Box,
-  Stack,
-  Section,
   Button,
-  Input,
   Dropdown,
   Icon,
+  Input,
+  Section,
+  Stack,
 } from '../../components';
-import { Component } from 'react';
-import { shallowDiffers } from 'common/react';
 import {
   VARIABLE_ASSOC_LIST,
   VARIABLE_LIST,
@@ -143,7 +145,7 @@ export class VariableMenu extends Component {
                 <Stack.Item>
                   <Dropdown
                     options={types}
-                    displayText={variable_type}
+                    selected={variable_type}
                     className="IntegratedCircuit__BlueBorder"
                     color="black"
                     width="100%"

@@ -1,4 +1,6 @@
-import { useBackend, useSharedState } from '../backend';
+import { useState } from 'react';
+
+import { useBackend } from '../backend';
 import {
   AnimatedNumber,
   Box,
@@ -10,6 +12,8 @@ import {
   Slider,
   Tabs,
 } from '../components';
+import { formatEnergy } from '../format';
+import { formatPower } from '../format';
 import { NtosWindow } from '../layouts';
 
 export const NtosRobotact = (props) => {
@@ -24,13 +28,14 @@ export const NtosRobotact = (props) => {
 
 export const NtosRobotactContent = (props) => {
   const { act, data } = useBackend();
-  const [tab_main, setTab_main] = useSharedState('tab_main', 1);
-  const [tab_sub, setTab_sub] = useSharedState('tab_sub', 1);
+  const [tab_main, setTab_main] = useState(1);
+  const [tab_sub, setTab_sub] = useState(1);
   const {
     charge,
     maxcharge,
     integrity,
     lampIntensity,
+    lampConsumption,
     cover,
     locomotion,
     wireModule,
@@ -51,6 +56,7 @@ export const NtosRobotactContent = (props) => {
   const laws = data.Laws || [];
   const borgLog = data.borgLog || [];
   const borgUpgrades = data.borgUpgrades || [];
+
   return (
     <Flex direction={'column'}>
       <Flex.Item position="relative" mb={1}>
@@ -105,7 +111,10 @@ export const NtosRobotactContent = (props) => {
                     bad: [-Infinity, 0.1],
                   }}
                 >
-                  <AnimatedNumber value={charge} />
+                  <AnimatedNumber
+                    value={charge}
+                    format={(charge) => formatEnergy(charge)}
+                  />
                 </ProgressBar>
                 Chassis Integrity:
                 <ProgressBar
@@ -132,7 +141,7 @@ export const NtosRobotactContent = (props) => {
                     })
                   }
                 />
-                Lamp power usage: {lampIntensity / 2} watts
+                Lamp power usage: {formatPower(lampIntensity * lampConsumption)}
               </Section>
             </Flex.Item>
             <Flex.Item width="50%" ml={1}>

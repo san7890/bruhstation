@@ -10,7 +10,7 @@
 	C.icon = H.ui_style
 	H.static_inventory += C
 	CL.screen += C
-	RegisterSignal(C, COMSIG_CLICK, PROC_REF(component_ui_interact))
+	RegisterSignal(C, COMSIG_SCREEN_ELEMENT_CLICK, PROC_REF(component_ui_interact))
 
 #define COOKING TRUE
 #define CRAFTING FALSE
@@ -214,8 +214,13 @@
 				if(result.atom_storage && recipe.delete_contents)
 					for(var/obj/item/thing in result)
 						qdel(thing)
-			if (IsEdible(result))
-				result.reagents?.clear_reagents()
+			var/datum/reagents/holder = locate() in parts
+			if(holder) //transfer reagents from ingredients to result
+				if(!ispath(recipe.result,  /obj/item/reagent_containers) && result.reagents)
+					result.reagents.clear_reagents()
+					holder.trans_to(result.reagents, holder.total_volume, no_react = TRUE)
+				parts -= holder
+				qdel(holder)
 			result.CheckParts(parts, recipe)
 			if(send_feedback)
 				SSblackbox.record_feedback("tally", "object_crafted", 1, result.type)
@@ -248,9 +253,11 @@
 */
 
 /datum/component/personal_crafting/proc/del_reqs(datum/crafting_recipe/R, atom/a)
+	. = list()
+
+	var/datum/reagents/holder
 	var/list/surroundings
 	var/list/Deletion = list()
-	. = list()
 	var/data
 	var/amt
 	var/list/requirements = list()
@@ -270,17 +277,24 @@
 			if(ispath(path_key, /datum/reagent))
 				while(amt > 0)
 					var/obj/item/reagent_containers/RC = locate() in surroundings
-					if(QDELETED(RC)) //being deleted or null(i.e. not found)
+					if(isnull(RC)) //not found
 						break
-					var/datum/reagent/RG = RC.reagents.has_reagent(path_key)
-					if(RG)
-						if(RG.volume >= amt)
-							RC.reagents.remove_reagent(path_key, amt)
+					if(QDELING(RC)) //deleting so is unusable
+						surroundings -= RC
+						continue
+
+					var/reagent_volume = RC.reagents.get_reagent_amount(path_key)
+					if(reagent_volume)
+						if(!holder)
+							holder = new(INFINITY, NO_REACT) //an infinite volume holder than can store reagents without reacting
+							. += holder
+						if(reagent_volume >= amt)
+							RC.reagents.trans_to(holder, amt, target_id = path_key, no_react = TRUE)
 							continue main_loop
 						else
+							RC.reagents.trans_to(holder, reagent_volume, target_id = path_key, no_react = TRUE)
 							surroundings -= RC
-							amt -= RG.volume
-							RC.reagents.remove_reagent(path_key, RG.volume)
+							amt -= reagent_volume
 						SEND_SIGNAL(RC.reagents, COMSIG_REAGENTS_CRAFTING_PING) // - [] TODO: Make this entire thing less spaghetti
 					else
 						surroundings -= RC
@@ -444,28 +458,39 @@
 
 	return data
 
+/datum/component/personal_crafting/proc/make_action(datum/crafting_recipe/recipe, mob/user)
+	var/atom/movable/result = construct_item(user, recipe)
+	if(istext(result)) //We failed to make an item and got a fail message
+		to_chat(user, span_warning("Construction failed[result]"))
+		return FALSE
+	if(ismob(user) && isitem(result)) //In case the user is actually possessing a non mob like a machine
+		user.put_in_hands(result)
+	else if(!istype(result, /obj/effect/spawner))
+		result.forceMove(user.drop_location())
+	to_chat(user, span_notice("[recipe.name] crafted."))
+	user.investigate_log("crafted [recipe]", INVESTIGATE_CRAFTING)
+	recipe.on_craft_completion(user, result)
+	return TRUE
+
+
 /datum/component/personal_crafting/ui_act(action, params)
 	. = ..()
 	if(.)
 		return
 	switch(action)
-		if("make")
+		if("make", "make_mass")
 			var/mob/user = usr
 			var/datum/crafting_recipe/crafting_recipe = locate(params["recipe"]) in (mode ? GLOB.cooking_recipes : GLOB.crafting_recipes)
 			busy = TRUE
 			ui_interact(user)
-			var/atom/movable/result = construct_item(user, crafting_recipe)
-			if(!istext(result)) //We made an item and didn't get a fail message
-				if(ismob(user) && isitem(result)) //In case the user is actually possessing a non mob like a machine
-					user.put_in_hands(result)
-				else
-					if(!istype(result, /obj/effect/spawner))
-						result.forceMove(user.drop_location())
-				to_chat(user, span_notice("[crafting_recipe.name] crafted."))
-				user.investigate_log("crafted [crafting_recipe]", INVESTIGATE_CRAFTING)
-				crafting_recipe.on_craft_completion(user, result)
+			if(action == "make_mass")
+				var/crafted_items = 0
+				while(make_action(crafting_recipe, user))
+					crafted_items++
+				if(crafted_items)
+					to_chat(user, span_notice("You made [crafted_items] item\s."))
 			else
-				to_chat(user, span_warning("Construction failed[result]"))
+				make_action(crafting_recipe, user)
 			busy = FALSE
 		if("toggle_recipes")
 			display_craftable_only = !display_craftable_only
@@ -535,6 +560,7 @@
 	// Crafting
 	if(recipe.non_craftable)
 		data["non_craftable"] = recipe.non_craftable
+	data["mass_craftable"] = recipe.mass_craftable
 	if(recipe.steps)
 		data["steps"] = recipe.steps
 

@@ -1,18 +1,19 @@
+import { sortBy } from 'common/collections';
 import { classes } from 'common/react';
 import { createSearch } from 'common/string';
-import { flow } from 'common/fp';
-import { sortBy } from 'common/collections';
-import { useBackend, useLocalState } from '../backend';
+import { useState } from 'react';
+
+import { useBackend } from '../backend';
 import {
-  Input,
-  Tooltip,
   Box,
-  ProgressBar,
   Button,
+  Icon,
+  Input,
+  NoticeBox,
+  ProgressBar,
   Section,
   Table,
-  NoticeBox,
-  Icon,
+  Tooltip,
 } from '../components';
 import { Window } from '../layouts';
 
@@ -59,23 +60,25 @@ type SeedExtractorData = {
 
 export const SeedExtractor = (props) => {
   const { act, data } = useBackend<SeedExtractorData>();
-  const [searchText, setSearchText] = useLocalState('searchText', '');
-  const [sortField, setSortField] = useLocalState('sortField', 'name');
-  const [action, toggleAction] = useLocalState('action', true);
+  const [searchText, setSearchText] = useState('');
+  const [sortField, setSortField] = useState('name');
+  const [action, toggleAction] = useState(true);
   const search = createSearch(searchText, (item: SeedData) => item.name);
   const seeds_filtered =
     searchText.length > 0 ? data.seeds.filter(search) : data.seeds;
-  const seeds = flow([
-    sortBy((item: SeedData) => item[sortField as keyof SeedData]),
-  ])(seeds_filtered || []);
+  const seeds = sortBy(
+    seeds_filtered || [],
+    (item: SeedData) => item[sortField as keyof SeedData],
+  );
   sortField !== 'name' && seeds.reverse();
+
   return (
     <Window width={800} height={500}>
       <Window.Content scrollable>
         <Section>
           <Table>
             <Table.Row header>
-              <Table.Cell colspan="3" px={1} py={2}>
+              <Table.Cell colSpan={3} px={1} py={2}>
                 <Input
                   autoFocus
                   placeholder={'Search...'}
@@ -280,7 +283,7 @@ export const SeedExtractor = (props) => {
                     py={0.5}
                     px={1}
                     collapsing
-                    colspan="2"
+                    colSpan={2}
                     textAlign="right"
                   >
                     {action ? (
@@ -353,7 +356,7 @@ const ReagentTooltip = (props) => {
   return (
     <Table>
       <Table.Row header>
-        <Table.Cell colspan="2">Reagents on grind:</Table.Cell>
+        <Table.Cell colSpan={2}>Reagents on grind:</Table.Cell>
       </Table.Row>
       {props.reagents?.map((reagent, i) => (
         <Table.Row key={i}>
@@ -370,13 +373,13 @@ const ReagentTooltip = (props) => {
       {!!props.grind_results.length && (
         <>
           <Table.Row header>
-            <Table.Cell colspan="2" pt={1}>
+            <Table.Cell colSpan={2} pt={1}>
               Nutriments turn into:
             </Table.Cell>
           </Table.Row>
           {props.grind_results?.map((reagent, i) => (
-            <Table.Row key={i} colspan="2">
-              <Table.Cell>{reagent}</Table.Cell>
+            <Table.Row key={i}>
+              <Table.Cell colSpan={2}>{reagent}</Table.Cell>
             </Table.Row>
           ))}
         </>

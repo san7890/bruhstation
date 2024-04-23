@@ -1,5 +1,5 @@
-import { Section, Dropdown, Input, Box, TextArea } from '../components';
 import { useBackend, useLocalState } from '../backend';
+import { Box, Dropdown, Input, Section, TextArea } from '../components';
 import { Button } from '../components/Button';
 import { Window } from '../layouts';
 
@@ -33,7 +33,8 @@ const ReceiverChoice = (props) => {
         <Dropdown
           disabled={spam}
           selected={user}
-          displayText={user ? users[user].username : 'Pick a user...'}
+          displayText={users[user]?.username}
+          placeholder="Pick a user..."
           options={receivers
             .filter((rcvr) => showInvisible || !rcvr.invisible)
             .map((rcvr) => ({
@@ -75,7 +76,7 @@ const SenderInfo = (props) => {
         <Input
           placeholder="Sender name..."
           fluid
-          onInput={(e, value) => {
+          onChange={(e, value) => {
             setName(value);
           }}
         />
@@ -84,7 +85,7 @@ const SenderInfo = (props) => {
         <Input
           placeholder="Sender's job..."
           fluid
-          onInput={(e, value) => {
+          onChange={(e, value) => {
             setJob(value);
           }}
         />
@@ -125,7 +126,7 @@ const MessageInput = (props) => {
           placeholder="Type the message you want to send..."
           height="200px"
           mb={1}
-          onInput={(e, value) => {
+          onChange={(e, value) => {
             setMessageText(value);
           }}
         />

@@ -1,6 +1,7 @@
 import { sortBy } from 'common/collections';
+
 import { useBackend } from '../backend';
-import { Box, Button, Section, Table, Icon } from '../components';
+import { Box, Button, Icon, Section, Table } from '../components';
 import { COLORS } from '../constants';
 import { Window } from '../layouts';
 
@@ -36,6 +37,9 @@ const jobToColor = (jobId) => {
   }
   if (jobId >= 50 && jobId < 60) {
     return COLORS.department.cargo;
+  }
+  if (jobId >= 60 && jobId < 200) {
+    return COLORS.department.service;
   }
   if (jobId >= 200 && jobId < 230) {
     return COLORS.department.centcom;
@@ -82,7 +86,7 @@ export const CrewConsole = () => {
 
 const CrewTable = (props) => {
   const { act, data } = useBackend();
-  const sensors = sortBy((s) => s.ijob)(data.sensors ?? []);
+  const sensors = sortBy(data.sensors ?? [], (s) => s.ijob);
   return (
     <Table>
       <Table.Row>
