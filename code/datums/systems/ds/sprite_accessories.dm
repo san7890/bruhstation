@@ -2,8 +2,6 @@
 /// A sprite accessory is something that we add to a human sprite to make them look different. This is hair, facial hair, underwear, mutant bits, etc.
 DATASYSTEM_DEF(accessories) // just 'accessories' for brevity
 	name = "Sprite Accessories"
-	flags = SS_NO_FIRE | SS_NO_INIT
-
 	// they aren't statics because:
 	// A) it don't work in current framework because statics are initialized AFTER we do GLOB stuff and this is all still reliant on those same timings.
 	// When we eventually get everything ironed out with everything that this relies on (which still lives in GLOB), we can reconsider this.
