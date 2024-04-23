@@ -162,7 +162,7 @@
 	color_source = ORGAN_COLOR_HAIR
 
 /datum/bodypart_overlay/mutant/tail/cat/get_global_feature_list()
-	return SSaccessories.tails_list_human
+	return DSaccessories.tails_list_human
 
 /obj/item/organ/external/tail/monkey
 	name = "monkey tail"
@@ -178,7 +178,7 @@
 	feature_key = "tail_monkey"
 
 /datum/bodypart_overlay/mutant/tail/monkey/get_global_feature_list()
-	return SSaccessories.tails_list_monkey
+	return DSaccessories.tails_list_monkey
 
 /obj/item/organ/external/tail/lizard
 	name = "lizard tail"
@@ -195,7 +195,7 @@
 	feature_key = "tail_lizard"
 
 /datum/bodypart_overlay/mutant/tail/lizard/get_global_feature_list()
-	return SSaccessories.tails_list_lizard
+	return DSaccessories.tails_list_lizard
 
 /obj/item/organ/external/tail/lizard/fake
 	name = "fabricated lizard tail"

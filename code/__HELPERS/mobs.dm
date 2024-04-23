@@ -29,31 +29,31 @@
 			return COLOR_BLACK
 
 /proc/random_underwear(gender)
-	if(length(SSaccessories.underwear_list) == 0)
+	if(length(DSaccessories.underwear_list) == 0)
 		CRASH("No underwear to choose from!")
 	switch(gender)
 		if(MALE)
-			return pick(SSaccessories.underwear_m)
+			return pick(DSaccessories.underwear_m)
 		if(FEMALE)
-			return pick(SSaccessories.underwear_f)
+			return pick(DSaccessories.underwear_f)
 		else
-			return pick(SSaccessories.underwear_list)
+			return pick(DSaccessories.underwear_list)
 
 /proc/random_undershirt(gender)
-	if(length(SSaccessories.undershirt_list) == 0)
+	if(length(DSaccessories.undershirt_list) == 0)
 		CRASH("No undershirts to choose from!")
 	switch(gender)
 		if(MALE)
-			return pick(SSaccessories.undershirt_m)
+			return pick(DSaccessories.undershirt_m)
 		if(FEMALE)
-			return pick(SSaccessories.undershirt_f)
+			return pick(DSaccessories.undershirt_f)
 		else
-			return pick(SSaccessories.undershirt_list)
+			return pick(DSaccessories.undershirt_list)
 
 /proc/random_socks()
-	if(length(SSaccessories.socks_list) == 0)
+	if(length(DSaccessories.socks_list) == 0)
 		CRASH("No socks to choose from!")
-	return pick(SSaccessories.socks_list)
+	return pick(DSaccessories.socks_list)
 
 /proc/random_backpack()
 	return pick(GLOB.backpacklist)
@@ -61,20 +61,20 @@
 /proc/random_hairstyle(gender)
 	switch(gender)
 		if(MALE)
-			return pick(SSaccessories.hairstyles_male_list)
+			return pick(DSaccessories.hairstyles_male_list)
 		if(FEMALE)
-			return pick(SSaccessories.hairstyles_female_list)
+			return pick(DSaccessories.hairstyles_female_list)
 		else
-			return pick(SSaccessories.hairstyles_list)
+			return pick(DSaccessories.hairstyles_list)
 
 /proc/random_facial_hairstyle(gender)
 	switch(gender)
 		if(MALE)
-			return pick(SSaccessories.facial_hairstyles_male_list)
+			return pick(DSaccessories.facial_hairstyles_male_list)
 		if(FEMALE)
-			return pick(SSaccessories.facial_hairstyles_female_list)
+			return pick(DSaccessories.facial_hairstyles_female_list)
 		else
-			return pick(SSaccessories.facial_hairstyles_list)
+			return pick(DSaccessories.facial_hairstyles_list)
 
 /proc/random_unique_name(gender, attempts_to_find_unique_name=10)
 	for(var/i in 1 to attempts_to_find_unique_name)

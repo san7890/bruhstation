@@ -1,6 +1,6 @@
 /// Storage subsystem that just holds lists of sprite accessories for accession in generating said sprites.
 /// A sprite accessory is something that we add to a human sprite to make them look different. This is hair, facial hair, underwear, mutant bits, etc.
-SUBSYSTEM_DEF(accessories) // just 'accessories' for brevity
+DATASYSTEM_DEF(accessories) // just 'accessories' for brevity
 	name = "Sprite Accessories"
 	flags = SS_NO_FIRE | SS_NO_INIT
 
@@ -57,8 +57,8 @@ SUBSYSTEM_DEF(accessories) // just 'accessories' for brevity
 /// Sets up all of the lists for later utilization. We keep this stuff out of GLOB due to the size of the data.
 /// In an ideal world we could just do this on our subsystem Initialize() but there are too many things that are immediately dependent on this in the roundstart initialization
 /// which means that we have to time it so that it invokes with the rest of the GLOB datumized lists. Great apologies.
-/// This proc lives on the subsytem instead of being a global proc so we don't have to prepend SSaccessories to the list every time it really gets annoying
-/datum/controller/subsystem/accessories/proc/setup_lists()
+/// This proc lives on the subsytem instead of being a global proc so we don't have to prepend DSaccessories to the list every time it really gets annoying
+/datum/system/accessories/proc/setup_lists()
 	//hair
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/hair, hairstyles_list, hairstyles_male_list, hairstyles_female_list)
 
@@ -105,7 +105,7 @@ SUBSYSTEM_DEF(accessories) // just 'accessories' for brevity
 
 /// This reads the applicable sprite accessory datum's subtypes and adds it to the subsystems's list of sprite accessories.
 /// The boolean `add_blank` argument just adds a "None" option to the list of sprite accessories, like if a felinid doesn't want a tail or something, typically good for gated-off things.
-/datum/controller/subsystem/accessories/proc/init_sprite_accessory_subtypes(prototype, list/main, list/male, list/female, add_blank = FALSE)
+/datum/system/accessories/proc/init_sprite_accessory_subtypes(prototype, list/main, list/male, list/female, add_blank = FALSE)
 	for(var/path in subtypesof(prototype))
 		var/datum/sprite_accessory/accessory = new path
 
