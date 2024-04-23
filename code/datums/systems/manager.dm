@@ -12,3 +12,7 @@ GLOBAL_REAL(SysMgr, /datum/system_manager)
 
 /datum/system_manager/New()
 	init_subtypes(/datum/system, managed)
+
+/datum/system_manager/proc/stat_entry(msg)
+	msg = "Edit"
+	return msg
