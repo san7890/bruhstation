@@ -229,6 +229,7 @@
 #define ABOVE_ALL_MOB_LAYER 4.7
 #define NAVIGATION_EYE_LAYER 4.9
 //#define FLY_LAYER 5 //For easy recordkeeping; this is a byond define
+#define ABOVE_TREE_LAYER 5.01
 #define HIGH_BUBBLE_LAYER 5.03
 #define GASFIRE_LAYER 5.05
 #define RIPPLE_LAYER 5.1

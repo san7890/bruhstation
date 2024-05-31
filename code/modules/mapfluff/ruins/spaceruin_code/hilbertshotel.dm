@@ -313,6 +313,12 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 	// Add emissive as a suboverlay, to make working with it easier
 	glow_animation.add_overlay(emissive_appearance('icons/turf/walls/hotel_door_glow.dmi', "glow", src))
 	AddComponent(/datum/component/split_overlay, glow_animation, list(SOUTH_JUNCTION))
+	register_context()
+
+/turf/closed/indestructible/hoteldoor/add_context(atom/source, list/context, obj/item/held_item, mob/user)
+	. = ..()
+	context[SCREENTIP_CONTEXT_ALT_LMB] = "Peek through"
+	return CONTEXTUAL_SCREENTIP_SET
 
 /turf/closed/indestructible/hoteldoor/proc/promptExit(mob/living/user)
 	if(!isliving(user))
@@ -357,6 +363,10 @@ GLOBAL_VAR_INIT(hhMysteryRoomNumber, rand(1, 999999))
 		promptExit(user)
 
 /turf/closed/indestructible/hoteldoor/click_alt(mob/user)
+	if(user.is_blind())
+		to_chat(user, span_warning("Drats! Your vision is too poor to use this!"))
+		return CLICK_ACTION_BLOCKING
+
 	to_chat(user, span_notice("You peak through the door's bluespace peephole..."))
 	user.reset_perspective(parentSphere)
 	var/datum/action/peephole_cancel/PHC = new
