@@ -137,11 +137,11 @@ GLOBAL_DATUM_INIT(status_font, /datum/font, new /datum/font/tiny_unicode/size_12
 	line2 = uppertext(line2)
 
 	var/message_changed = FALSE
-	if(line1 != message1 || !message1_visual)
+	if(line1 != message1 || isnull(message_key_1))
 		message1 = line1
 		message_changed = TRUE
 
-	if(line2 != message2 || !message2_visual)
+	if(line2 != message2 || isnull(message_key_2))
 		message2 = line2
 		message_changed = TRUE
 
@@ -244,6 +244,8 @@ GLOBAL_LIST_EMPTY(key_to_status_display)
 	projection_emissive.blend_mode = BLEND_ADD
 	. += projection_emissive
 
+	var/message1_visual = get_status_text(message_key_1)
+	var/message2_visual = get_status_text(message_key_2)
 	// Translate the text seperately, since they are vis_contents.
 	message1_visual?.transform = floor_matrix
 	message1_visual?.alpha = PROJECTION_TEXT_ALPHA
