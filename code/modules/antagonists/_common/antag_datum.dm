@@ -517,7 +517,7 @@ GLOBAL_LIST_EMPTY(antagonists)
 
 /// Clears the reference for the team HUD.
 /datum/antagonist/proc/clear_team_hud()
-	potential_hud = team_hud_ref.resolve()
+	var/potential_hud = team_hud_ref.resolve()
 	if(!QDELETED(potential_hud))
 		QDEL_NULL(potential_hud)
 
