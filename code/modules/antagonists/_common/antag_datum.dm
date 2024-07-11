@@ -82,7 +82,7 @@ GLOBAL_LIST_EMPTY(antagonists)
 	GLOB.antagonists -= src
 	if(owner)
 		LAZYREMOVE(owner.antag_datums, src)
-	QDEL_NULL(team_hud_ref)
+	clear_team_hud()
 	owner = null
 	return ..()
 
@@ -515,10 +515,16 @@ GLOBAL_LIST_EMPTY(antagonists)
 	var/datum/objective/hijack/H = locate() in objectives
 	return H?.hijack_speed_override || hijack_speed
 
+/// Clears the reference for the team HUD.
+/datum/antagonist/proc/clear_team_hud()
+	potential_hud = team_hud_ref.resolve()
+	if(!QDELETED(potential_hud))
+		QDEL_NULL(potential_hud)
+
 /// Adds a HUD that will show you other members with the same antagonist.
 /// If an antag typepath is passed to `antag_to_check`, will check that, otherwise will use the source type.
 /datum/antagonist/proc/add_team_hud(mob/target, antag_to_check)
-	QDEL_NULL(team_hud_ref)
+	clear_team_hud()
 
 	team_hud_ref = WEAKREF(target.add_alt_appearance(
 		/datum/atom_hud/alternate_appearance/basic/has_antagonist,
