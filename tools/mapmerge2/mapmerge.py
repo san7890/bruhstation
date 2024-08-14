@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 import shutil
-from collections import defaultdict
 from . import frontend
 from .dmm import *
 
-def merge_map(new_map, old_map, delete_unused=False):
+def merge_map(new_map: DMM, old_map: DMM, delete_unused=False):
     if new_map.key_length != old_map.key_length:
         print("Warning: Key lengths differ, taking new map")
         print(f"  Old: {old_map.key_length}")

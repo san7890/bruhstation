@@ -266,7 +266,7 @@ def fix_atom_ordering(atoms):
 # ----------
 # TGM writer
 
-def save_tgm(dmm, output):
+def save_tgm(dmm: DMM, output):
     output.write(f"{TGM_HEADER}\n")
     if dmm.header:
         output.write(f"{dmm.header}\n")
