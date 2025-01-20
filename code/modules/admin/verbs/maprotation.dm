@@ -5,6 +5,7 @@
 	if(!isnull(map_rotate_choices))
 		return map_rotate_choices
 
+	map_rotate_choices = list()
 	for(var/map in config.maplist)
 		var/datum/map_config/virtual_map = config.maplist[map]
 		var/mapname = virtual_map.map_name
