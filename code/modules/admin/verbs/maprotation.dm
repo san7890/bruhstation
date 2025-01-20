@@ -28,6 +28,49 @@
 
 	return map_rotate_choices
 
+/proc/upload_new_json()
+	var/config_file = input(user, "Pick file:", "Config JSON File") as null|file
+	if(isnull(config_file))
+		return list()
+	if(copytext("[config_file]", -5) != ".json")
+		to_chat(src, span_warning("Filename must end in '.json': [config_file]"))
+		return list()
+	if(fexists("data/custom_map_json/[config_file]"))
+		fdel("data/custom_map_json/[config_file]")
+	if(!fcopy(config_file, "data/custom_map_json/[config_file]"))
+		return list()
+	var/json_value = virtual_map.LoadConfig("data/custom_map_json/[config_file]", TRUE)
+	if(!json_value)
+		to_chat(src, span_warning("Failed to load config: [config_file]. Check that the fields are filled out correctly. \"map_path\": \"custom\" and \"map_file\": \"your_map_name.dmm\""))
+		return list()
+
+	return json_value
+
+/proc/modify_default_json()
+	var/dummy_map = load_map_config()
+
+	dummy_map.map_name = input(user, "Choose the name for the map", "Map Name") as null|text
+	if(isnull(dummy_map.map_name))
+		dummy_map.map_name = "Custom"
+	var/shuttles = tgui_alert(user,"Do you want to modify the shuttles?", "Map Shuttles", list("Yes", "No"))
+	if(shuttles == "Yes")
+		for(var/s in dummy_map.shuttles)
+			var/shuttle = input(user, s, "Map Shuttles") as null|text
+			if(!shuttle)
+				continue
+			if(!SSmapping.shuttle_templates[shuttle])
+				to_chat(user, span_warning("No such shuttle as '[shuttle]' exists, using default."))
+				continue
+			dummy_map.shuttles[s] = shuttle
+
+	var/list/json_value = list(
+		"version" = MAP_CURRENT_VERSION,
+		"map_name" = dummy_map.map_name,
+		"map_path" = CUSTOM_MAP_PATH,
+		"map_file" = "[map_file]",
+		"shuttles" = dummy_map.shuttles,
+	)
+	return json_value
 
 ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_CATEGORY_SERVER)
 	var/list/map_rotate_choices = assemble_map_selections()
@@ -37,17 +80,19 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 		return
 
 	if(chosenmap != "Custom")
-		var/datum/map_config/virtual_map = maprotatechoices[chosenmap]
-		message_admins("[key_name_admin(user)] is changing the map to [virtual_map.map_name]")
-		log_admin("[key_name(user)] is changing the map to [virtual_map.map_name]")
-		if (SSmap_vote.set_next_map(virtual_map))
-			message_admins("[key_name_admin(user)] has changed the map to [virtual_map.map_name]")
+		var/datum/map_config/new_map = maprotatechoices[chosenmap]
+		message_admins("[key_name_admin(user)] is changing the map to [new_map.map_name]")
+		log_admin("[key_name(user)] is changing the map to [new_map.map_name]")
+		if (SSmap_vote.set_next_map(new_map))
+			message_admins("[key_name_admin(user)] has changed the map to [new_map.map_name]")
 			SSmap_vote.admin_override = TRUE
 		return
 
 	message_admins("[key_name_admin(user)] is changing the map to a custom map")
 	log_admin("[key_name(user)] is changing the map to a custom map")
-	var/datum/map_config/virtual_map = new
+
+	var/datum/map_config/uploadable_map = new
+
 	var/map_file = input(user, "Pick file:", "Map File") as null|file
 	if(isnull(map_file))
 		return
@@ -58,63 +103,37 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 		fdel("_maps/custom/[map_file]")
 	if(!fcopy(map_file, "_maps/custom/[map_file]"))
 		return
+
 	// This is to make sure the map works so the server does not start without a map.
-	var/datum/parsed_map/M = new (map_file)
-	if(!M)
+	var/datum/parsed_map/validatable = new(map_file)
+	if(!validatable)
 		to_chat(user, span_warning("Map '[map_file]' failed to parse properly."))
+		qdel(validatable)
 		return
-	if(!M.bounds)
+	if(!validatable.bounds)
 		to_chat(user, span_warning("Map '[map_file]' has non-existant bounds."))
-		qdel(M)
+		qdel(validatable)
 		return
-	qdel(M)
+
+	qdel(validatable)
+
 	var/config_file = null
 	var/list/json_value = list()
 	var/config = tgui_alert(user,"Would you like to upload an additional config for this map?", "Map Config", list("Yes", "No"))
 	if(config == "Yes")
-		config_file = input(user, "Pick file:", "Config JSON File") as null|file
-		if(isnull(config_file))
-			return
-		if(copytext("[config_file]", -5) != ".json")
-			to_chat(src, span_warning("Filename must end in '.json': [config_file]"))
-			return
-		if(fexists("data/custom_map_json/[config_file]"))
-			fdel("data/custom_map_json/[config_file]")
-		if(!fcopy(config_file, "data/custom_map_json/[config_file]"))
-			return
-		json_value = virtual_map.LoadConfig("data/custom_map_json/[config_file]", TRUE)
-		if(!json_value)
-			to_chat(src, span_warning("Failed to load config: [config_file]. Check that the fields are filled out correctly. \"map_path\": \"custom\" and \"map_file\": \"your_map_name.dmm\""))
-			return
+		json_value = upload_new_json()
 	else
-		virtual_map = load_map_config()
-		virtual_map.map_name = input(user, "Choose the name for the map", "Map Name") as null|text
-		if(isnull(virtual_map.map_name))
-			virtual_map.map_name = "Custom"
-		var/shuttles = tgui_alert(user,"Do you want to modify the shuttles?", "Map Shuttles", list("Yes", "No"))
-		if(shuttles == "Yes")
-			for(var/s in virtual_map.shuttles)
-				var/shuttle = input(user, s, "Map Shuttles") as null|text
-				if(!shuttle)
-					continue
-				if(!SSmapping.shuttle_templates[shuttle])
-					to_chat(user, span_warning("No such shuttle as '[shuttle]' exists, using default."))
-					continue
-				virtual_map.shuttles[s] = shuttle
-		json_value = list(
-			"version" = MAP_CURRENT_VERSION,
-			"map_name" = virtual_map.map_name,
-			"map_path" = CUSTOM_MAP_PATH,
-			"map_file" = "[map_file]",
-			"shuttles" = virtual_map.shuttles,
-		)
+		json_value = modify_default_json()
+
 	// If the file isn't removed text2file will just append.
 	if(fexists(PATH_TO_NEXT_MAP_JSON))
 		fdel(PATH_TO_NEXT_MAP_JSON)
 	text2file(json_encode(json_value), PATH_TO_NEXT_MAP_JSON)
+
 	if(SSmap_vote.set_next_map(virtual_map))
 		message_admins("[key_name_admin(user)] has changed the map to [virtual_map.map_name]")
 		SSmap_vote.admin_override = TRUE
+
 	fdel("data/custom_map_json/[config_file]")
 
 
