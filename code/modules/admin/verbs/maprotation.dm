@@ -28,7 +28,7 @@
 
 	return map_rotate_choices
 
-/proc/upload_new_json()
+/proc/upload_new_json(mob/user)
 	var/config_file = input(user, "Pick file:", "Config JSON File") as null|file
 	if(isnull(config_file))
 		return list()
@@ -46,7 +46,7 @@
 
 	return json_value
 
-/proc/modify_default_json()
+/proc/modify_default_json(mob/user)
 	var/dummy_map = load_map_config()
 
 	dummy_map.map_name = input(user, "Choose the name for the map", "Map Name") as null|text
@@ -80,7 +80,7 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 		return
 
 	if(chosenmap != "Custom")
-		var/datum/map_config/new_map = maprotatechoices[chosenmap]
+		var/datum/map_config/new_map = map_rotate_choices[chosenmap]
 		message_admins("[key_name_admin(user)] is changing the map to [new_map.map_name]")
 		log_admin("[key_name(user)] is changing the map to [new_map.map_name]")
 		if (SSmap_vote.set_next_map(new_map))
@@ -121,9 +121,9 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 	var/list/json_value = list()
 	var/config = tgui_alert(user, "Would you like to upload an additional config for this map?", "Map Config", list("Yes", "No"))
 	if(config == "Yes")
-		json_value = upload_new_json()
+		json_value = upload_new_json(user)
 	else
-		json_value = modify_default_json()
+		json_value = modify_default_json(user)
 
 	// If the file isn't removed text2file will just append.
 	if(fexists(PATH_TO_NEXT_MAP_JSON))
