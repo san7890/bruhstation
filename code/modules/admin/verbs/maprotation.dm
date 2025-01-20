@@ -28,26 +28,26 @@
 
 	return map_rotate_choices
 
-/proc/upload_new_json(mob/user)
+/proc/upload_new_json(mob/user, datum/map_config/dummy_map, file)
 	var/config_file = input(user, "Pick file:", "Config JSON File") as null|file
 	if(isnull(config_file))
 		return list()
 	if(copytext("[config_file]", -5) != ".json")
-		to_chat(src, span_warning("Filename must end in '.json': [config_file]"))
+		to_chat(user, span_warning("Filename must end in '.json': [config_file]"))
 		return list()
 	if(fexists("data/custom_map_json/[config_file]"))
 		fdel("data/custom_map_json/[config_file]")
 	if(!fcopy(config_file, "data/custom_map_json/[config_file]"))
 		return list()
-	var/json_value = virtual_map.LoadConfig("data/custom_map_json/[config_file]", TRUE)
+	var/json_value = dummy_map.LoadConfig("data/custom_map_json/[config_file]", TRUE)
 	if(!json_value)
-		to_chat(src, span_warning("Failed to load config: [config_file]. Check that the fields are filled out correctly. \"map_path\": \"custom\" and \"map_file\": \"your_map_name.dmm\""))
+		to_chat(user, span_warning("Failed to load config: [config_file]. Check that the fields are filled out correctly. \"map_path\": \"custom\" and \"map_file\": \"your_map_name.dmm\""))
 		return list()
 
 	return json_value
 
-/proc/modify_default_json(mob/user)
-	var/dummy_map = load_map_config()
+/proc/modify_default_json(mob/user, file)
+	var/datum/map_config/dummy_map = load_map_config()
 
 	dummy_map.map_name = input(user, "Choose the name for the map", "Map Name") as null|text
 	if(isnull(dummy_map.map_name))
@@ -67,7 +67,7 @@
 		"version" = MAP_CURRENT_VERSION,
 		"map_name" = dummy_map.map_name,
 		"map_path" = CUSTOM_MAP_PATH,
-		"map_file" = "[map_file]",
+		"map_file" = "[file]",
 		"shuttles" = dummy_map.shuttles,
 	)
 	return json_value
@@ -121,9 +121,9 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 	var/list/json_value = list()
 	var/config = tgui_alert(user, "Would you like to upload an additional config for this map?", "Map Config", list("Yes", "No"))
 	if(config == "Yes")
-		json_value = upload_new_json(user)
+		json_value = upload_new_json(user, uploadable_map, map_file)
 	else
-		json_value = modify_default_json(user)
+		json_value = modify_default_json(user, map_file)
 
 	// If the file isn't removed text2file will just append.
 	if(fexists(PATH_TO_NEXT_MAP_JSON))
