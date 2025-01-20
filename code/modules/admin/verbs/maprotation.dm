@@ -119,7 +119,7 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 
 	var/config_file = null
 	var/list/json_value = list()
-	var/config = tgui_alert(user,"Would you like to upload an additional config for this map?", "Map Config", list("Yes", "No"))
+	var/config = tgui_alert(user, "Would you like to upload an additional config for this map?", "Map Config", list("Yes", "No"))
 	if(config == "Yes")
 		json_value = upload_new_json()
 	else
@@ -130,8 +130,8 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 		fdel(PATH_TO_NEXT_MAP_JSON)
 	text2file(json_encode(json_value), PATH_TO_NEXT_MAP_JSON)
 
-	if(SSmap_vote.set_next_map(virtual_map))
-		message_admins("[key_name_admin(user)] has changed the map to [virtual_map.map_name]")
+	if(SSmap_vote.set_next_map(uploadable_map))
+		message_admins("[key_name_admin(user)] has changed the map to [uploadable_map.map_name]")
 		SSmap_vote.admin_override = TRUE
 
 	fdel("data/custom_map_json/[config_file]")
