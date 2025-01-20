@@ -29,7 +29,8 @@
 
 	return map_rotate_choices
 
-/proc/upload_new_json(mob/user, datum/map_config/dummy_map, file)
+/proc/upload_new_json(mob/user, file)
+	var/datum/map_config/modifiable = new()
 	var/config_file = input(user, "Pick file:", "Config JSON File") as null|file
 	if(isnull(config_file))
 		return list()
@@ -40,37 +41,38 @@
 		fdel("data/custom_map_json/[config_file]")
 	if(!fcopy(config_file, "data/custom_map_json/[config_file]"))
 		return list()
-	var/json_value = dummy_map.LoadConfig("data/custom_map_json/[config_file]", TRUE)
+	var/json_value = modifiable.LoadConfig("data/custom_map_json/[config_file]", TRUE)
 	if(!json_value)
 		to_chat(user, span_warning("Failed to load config: [config_file]. Check that the fields are filled out correctly. \"map_path\": \"custom\" and \"map_file\": \"your_map_name.dmm\""))
 		return list()
 
-	return list(dummy_map, json_value)
+	return list(modifiable, json_value)
 
-/proc/modify_default_json(mob/user, datum/map_config/dummy_map, file)
-	dummy_map.map_name = input(user, "Choose the name for the map", "Map Name") as null|text
-	if(isnull(dummy_map.map_name))
-		dummy_map.map_name = "Custom"
+/proc/modify_default_json(mob/user, file)
+	var/datum/map_config/modifiable = new()
+	modifiable.map_name = input(user, "Choose the name for the map", "Map Name") as null|text
+	if(isnull(modifiable.map_name))
+		modifiable.map_name = "Custom"
 	var/shuttles = tgui_alert(user,"Do you want to modify the shuttles?", "Map Shuttles", list("Yes", "No"))
 	if(shuttles == "Yes")
-		for(var/s in dummy_map.shuttles)
+		for(var/s in modifiable.shuttles)
 			var/shuttle = input(user, s, "Map Shuttles") as null|text
 			if(!shuttle)
 				continue
 			if(!SSmapping.shuttle_templates[shuttle])
 				to_chat(user, span_warning("No such shuttle as '[shuttle]' exists, using default."))
 				continue
-			dummy_map.shuttles[s] = shuttle
+			modifiable.shuttles[s] = shuttle
 
 	var/list/json_value = list(
 		"version" = MAP_CURRENT_VERSION,
-		"map_name" = dummy_map.map_name,
+		"map_name" = modifiable.map_name,
 		"map_path" = CUSTOM_MAP_PATH,
 		"map_file" = "[file]",
-		"shuttles" = dummy_map.shuttles,
+		"shuttles" = modifiable.shuttles,
 	)
 
-	return list(dummy_map, json_value)
+	return list(modifiable, json_value)
 
 ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_CATEGORY_SERVER)
 	var/list/map_rotate_choices = assemble_map_selections()
@@ -90,8 +92,6 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 
 	message_admins("[key_name_admin(user)] is changing the map to a custom map")
 	log_admin("[key_name(user)] is changing the map to a custom map")
-
-	var/datum/map_config/uploadable_map = new
 
 	var/map_file = input(user, "Pick file:", "Map File") as null|file
 	if(isnull(map_file))
@@ -122,13 +122,13 @@ ADMIN_VERB(admin_change_map, R_SERVER, "Change Map", "Set the next map.", ADMIN_
 	var/list/json_value = list()
 	var/config = tgui_alert(user, "Would you like to upload an additional config for this map?", "Map Config", list("Yes", "No"))
 	if(config == "Yes")
-		var/list/retvals = upload_new_json(user, uploadable_map, map_file)
+		var/list/retvals = upload_new_json(user, map_file)
 		if(!length(retvals))
 			return
 		final_config = retvals[1]
 		json_value = retvals[2]
 	else
-		var/list/retvals = modify_default_json(user, uploadable_map, map_file)
+		var/list/retvals = modify_default_json(user, map_file)
 		if(!length(retvals))
 			return
 		final_config = retvals[1]
