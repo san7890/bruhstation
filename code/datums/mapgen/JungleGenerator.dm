@@ -86,20 +86,4 @@
 
 	map_generator = /datum/map_generator/jungle_generator
 
-/// This turf doesn't actually do anything beyond provide contrast for mappers and be very visible when stuff breaks in game. The actual areas are what drive cave generation.
-/turf/open/genturf
-	name = "green ungenerated turf"
-	desc = "If you see this, and you're not a ghost, yell at coders"
-	icon = 'icons/turf/debug.dmi'
-	icon_state = "genturf_green"
-
-// following two are currently used for edge cases in which you want a certain type of map generation intermingled with other genturfs
-/turf/open/genturf/blue
-	name = "blue ungenerated turf"
-	icon_state = "genturf_blue"
-
-/turf/open/genturf/orange
-	name = "orange ungenerated turf"
-	icon_state = "genturf_orange"
-
 #undef BIOME_RANDOM_SQUARE_DRIFT

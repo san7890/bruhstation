@@ -65,6 +65,9 @@ GLOBAL_LIST_EMPTY(station_turfs)
 
 	var/tmp/lighting_corners_initialised = FALSE
 
+	/// If this turf was modified due to the spawning of a turf template, this variable will cache the string type it so it's present to be exposed to clients that might witness it
+	var/map_template_modifier = null
+
 	///Our lighting object.
 	var/tmp/datum/lighting_object/lighting_object
 	///Lighting Corner datums.
