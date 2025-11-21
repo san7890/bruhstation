@@ -5,6 +5,8 @@
 	tick_interval = STATUS_EFFECT_NO_TICK
 	duration = 1 MINUTES // set in on creation, this just needs to be any value to process
 	alert_type = null
+	/// How long should the effect be delayed for until application?
+	var/delay_time = 0 SECONDS
 	/// A reference to a COPY of the DNA that the mob will be transformed into.
 	var/datum/dna/new_dna
 	/// A reference to a COPY of the DNA of the mob prior to transformation.
@@ -15,11 +17,12 @@
 	QDEL_NULL(new_dna)
 	QDEL_NULL(old_dna)
 
-/datum/status_effect/temporary_transformation/on_creation(mob/living/new_owner, new_duration = 1 MINUTES, datum/dna/dna_to_copy)
+/datum/status_effect/temporary_transformation/on_creation(mob/living/new_owner, new_duration = 1 MINUTES, datum/dna/dna_to_copy, delay_time = 0 SECONDS)
 	src.duration = new_duration
 	src.new_dna = new()
 	src.old_dna = new()
 	dna_to_copy.copy_dna(new_dna)
+	src.delay_time = delay_time
 	return ..()
 
 /datum/status_effect/temporary_transformation/on_apply()
@@ -29,6 +32,8 @@
 	var/mob/living/carbon/transforming = owner
 	if(!transforming.has_dna())
 		return FALSE
+
+	sleep(delay_time) // Delay the effect application if needed
 
 	// Save the old DNA
 	transforming.dna.copy_dna(old_dna)

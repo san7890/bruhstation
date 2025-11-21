@@ -77,6 +77,10 @@
 	VAR_FINAL/datum/changeling_profile/selected_dna
 	/// Duration of the sting
 	var/sting_duration = 8 MINUTES
+	/// Lower limit for randomness of sting application
+	var/random_duration_lower_limit = 45 SECONDS
+	/// Upper limit for randomness of sting application
+	var/random_duration_upper_limit = 90 SECONDS
 	/// Set this to false via VV to allow golem, plasmaman, or monkey changelings to turn other people into golems, plasmamen, or monkeys
 	var/verify_valid_species = TRUE
 
@@ -127,12 +131,14 @@
 
 /datum/action/changeling/sting/transformation/sting_action(mob/living/user, mob/living/target)
 	var/final_duration = sting_duration
+	var/random_application_delay = rand(random_duration_lower_limit, random_duration_upper_limit)
 	var/final_message = span_notice("We transform [target] into [selected_dna.dna.real_name].")
 	if(ismonkey(target))
+		random_application_delay = 0 SECONDS // monkeys are free
 		final_duration = INFINITY
 		final_message = span_warning("Our genes cry out as we transform the lesser form of [target] into [selected_dna.dna.real_name] permanently!")
 
-	if(target.apply_status_effect(/datum/status_effect/temporary_transformation/trans_sting, final_duration, selected_dna.dna))
+	if(target.apply_status_effect(/datum/status_effect/temporary_transformation/trans_sting, final_duration, selected_dna.dna, random_application_delay))
 		..()
 		log_combat(user, target, "stung", "transformation sting", " new identity is '[selected_dna.dna.real_name]'")
 		to_chat(user, final_message)
