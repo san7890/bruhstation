@@ -33,8 +33,14 @@
 	if(!transforming.has_dna())
 		return FALSE
 
-	sleep(delay_time) // Delay the effect application if needed
+	if(delay_time <= 0 SECONDS)
+		actually_apply()
+	else
+		addtimer(CALLBACK(src, actually_apply), delay_time)
+	return TRUE // return TRUE since we're locked into adding it at this point.
 
+/// Actually perform the dirty work of applying the transformation
+/datum/status_effect/temporary_transformation/proc/actually_apply()
 	// Save the old DNA
 	transforming.dna.copy_dna(old_dna)
 	// Makes them into the new DNA
@@ -43,7 +49,6 @@
 	transforming.name = transforming.get_visible_name()
 	transforming.updateappearance(mutcolor_update = TRUE)
 	transforming.domutcheck()
-	return TRUE
 
 /datum/status_effect/temporary_transformation/on_remove()
 	var/mob/living/carbon/transforming = owner
@@ -68,10 +73,8 @@
 		SIGNAL_REMOVETRAIT(TRAIT_DEATHCOMA),
 	)
 
-/datum/status_effect/temporary_transformation/trans_sting/on_apply()
+/datum/status_effect/temporary_transformation/trans_sting/actually_apply()
 	. = ..()
-	if(!.)
-		return
 	RegisterSignals(owner, update_on_signals, PROC_REF(pause_effect))
 	pause_effect(owner) // for if we sting a dead guy
 
