@@ -137,7 +137,7 @@
 	if(random_duration_bool == TRUE)
 		random_application_delay = rand(random_duration_lower_limit, random_duration_upper_limit)
 		var/offset_max = 5 SECONDS // random for both parties involved
-		var/randomness_string = "We predict it will take effect in around [DisplayTimeText(random_application_delay + rand(-offset_max, offset_max))]!"
+		randomness_string = "We predict it will take effect in around [DisplayTimeText(random_application_delay + rand(-offset_max, offset_max))]!"
 
 	var/final_duration = sting_duration
 	var/final_message = span_notice("We transform [target] into [selected_dna.dna.real_name]. [randomness_string]")
