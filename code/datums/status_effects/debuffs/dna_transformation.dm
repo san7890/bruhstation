@@ -34,7 +34,7 @@
 		return FALSE
 
 	if(delay_time <= 0 SECONDS)
-		actually_apply(transforming)
+		transformation(transforming)
 	else
 		addtimer(CALLBACK(src, PROC_REF(transformation), transforming), delay_time)
 	return TRUE // return TRUE since we're locked into adding it at this point.
