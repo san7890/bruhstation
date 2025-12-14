@@ -33,5 +33,8 @@
 	if(channel == TELEPORT_CHANNEL_CULT)
 		return TRUE
 
+/// Blessing effect for mappers
 /obj/effect/blessing/invisible
+	icon_state = "blessed_static"
 	invisible = TRUE
+	layer = ABOVE_NORMAL_TURF_LAYER
