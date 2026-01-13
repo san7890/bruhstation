@@ -6,7 +6,7 @@ Difficulty: Hard
 
 */
 
-/mob/living/simple_animal/hostile/megafauna/wendigo
+/mob/living/basic/boss/wendigo
 	name = "wendigo"
 	desc = "A mythological man-eating legendary creature, the sockets of its eyes track you with an unsatiated hunger."
 	health = 2500
@@ -69,7 +69,7 @@ Difficulty: Hard
 	/// Stores the last scream time so it doesn't spam it
 	COOLDOWN_DECLARE(scream_cooldown)
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/Initialize(mapload)
+/mob/living/basic/boss/wendigo/Initialize(mapload)
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NO_FLOATING_ANIM, INNATE_TRAIT)
 	teleport = new(src)
@@ -85,11 +85,11 @@ Difficulty: Hard
 	spiral.Grant(src)
 	wave.Grant(src)
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/Initialize(mapload)
+/mob/living/basic/boss/wendigo/Initialize(mapload)
 	. = ..()
 	starting = get_turf(src)
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/OpenFire()
+/mob/living/basic/boss/wendigo/OpenFire()
 	update_cooldowns(list(COOLDOWN_UPDATE_SET_MELEE = 10 SECONDS, COOLDOWN_UPDATE_SET_RANGED = 10 SECONDS))
 	if(WENDIGO_ENRAGED)
 		speed = 4
@@ -135,13 +135,13 @@ Difficulty: Hard
 					wave.Activate(target)
 			update_cooldowns(list(COOLDOWN_UPDATE_SET_MELEE = 3 SECONDS, COOLDOWN_UPDATE_SET_RANGED = 3 SECONDS))
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/Move(atom/newloc, direct)
+/mob/living/basic/boss/wendigo/Move(atom/newloc, direct)
 	stored_move_dirs |= direct
 	. = ..()
 	// Remove after anyways in case the movement was prevented
 	stored_move_dirs &= ~direct
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
+/mob/living/basic/boss/wendigo/Moved(atom/old_loc, movement_dir, forced, list/old_locs, momentum_change = TRUE)
 	. = ..()
 	stored_move_dirs &= ~movement_dir
 	if(!stored_move_dirs)
@@ -180,7 +180,7 @@ Difficulty: Hard
 			all_turfs -= stomp_turf
 		SLEEP_CHECK_DEATH(delay, owner)
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/death(gibbed)
+/mob/living/basic/boss/wendigo/death(gibbed)
 	if(health > 0)
 		return
 
@@ -190,13 +190,13 @@ Difficulty: Hard
 	create_portal()
 	return ..()
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/proc/create_portal()
+/mob/living/basic/boss/wendigo/proc/create_portal()
 	var/obj/effect/portal/permanent/one_way/exit = new /obj/effect/portal/permanent/one_way(starting)
 	exit.id = "wendigo arena exit"
 	exit.add_atom_colour(COLOR_RED_LIGHT, ADMIN_COLOUR_PRIORITY)
 	exit.set_light(20, 1, COLOR_SOFT_RED)
 
-/mob/living/simple_animal/hostile/megafauna/wendigo/noportal/create_portal()
+/mob/living/basic/boss/wendigo/noportal/create_portal()
 	return
 
 #undef WENDIGO_ENRAGED
