@@ -1,0 +1,1 @@
+/mob/living/simple_animal/hostile/megafauna/wendigo/@SUBTYPES : /mob/living/basic/boss/wendigo/@SUBTYPES{@OLD}
