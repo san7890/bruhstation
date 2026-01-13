@@ -259,7 +259,7 @@
 /turf/open/misc/asteroid/snow/icemoon,
 /area/icemoon/underground/unexplored)
 "W" = (
-/mob/living/simple_animal/hostile/megafauna/wendigo,
+/mob/living/basic/boss/wendigo,
 /turf/open/indestructible/necropolis{
 	initial_gas_mix = "ICEMOON_ATMOS"
 	},
