@@ -5103,6 +5103,7 @@
 #include "code\modules\mob\living\basic\boss\wendigo\_wendigo.dm"
 #include "code\modules\mob\living\basic\boss\wendigo\wendigo_ai.dm"
 #include "code\modules\mob\living\basic\boss\wendigo\wendigo_objects.dm"
+#include "code\modules\mob\living\basic\boss\wendigo\wendigo_subtypes.dm"
 #include "code\modules\mob\living\basic\bots\_bots.dm"
 #include "code\modules\mob\living\basic\bots\bot_ai.dm"
 #include "code\modules\mob\living\basic\bots\bot_hud.dm"

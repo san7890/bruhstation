@@ -19,16 +19,12 @@ Difficulty: Hard
 	attack_verb_simple = "claw"
 	attack_sound = 'sound/effects/magic/demon_attack1.ogg'
 	attack_vis_effect = ATTACK_EFFECT_CLAW
-	weather_immunities = list(TRAIT_SNOWSTORM_IMMUNE)
+
 	speak_emote = list("roars")
 	armour_penetration = 40
 	melee_damage_lower = 40
 	melee_damage_upper = 40
-	vision_range = 9
-	aggro_vision_range = 18 // man-eating for a reason
-	speed = 6
-	move_to_delay = 6
-	ranged = TRUE
+
 	pixel_x = -16
 	base_pixel_x = -16
 	gps_name = "Berserk Signal"
@@ -37,6 +33,12 @@ Difficulty: Hard
 	guaranteed_butcher_results = list(/obj/item/wendigo_blood = 1, /obj/item/wendigo_skull = 1)
 	crusher_loot = /obj/item/crusher_trophy/wendigo_horn
 	wander = FALSE
+
+	vision_range = 9
+	aggro_vision_range = 18 // man-eating for a reason
+	speed = 6
+	move_to_delay = 6
+	ranged = TRUE
 
 	basic_mob_flags = DEL_ON_DEATH
 
@@ -206,8 +208,5 @@ Difficulty: Hard
 	exit.id = "wendigo arena exit"
 	exit.add_atom_colour(COLOR_RED_LIGHT, ADMIN_COLOUR_PRIORITY)
 	exit.set_light(20, 1, COLOR_SOFT_RED)
-
-/mob/living/basic/boss/wendigo/noportal/create_portal()
-	return
 
 #undef WENDIGO_ENRAGED
