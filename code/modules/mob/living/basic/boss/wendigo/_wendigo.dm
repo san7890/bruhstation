@@ -32,20 +32,29 @@ Difficulty: Hard
 	pixel_x = -16
 	base_pixel_x = -16
 	gps_name = "Berserk Signal"
-	loot = list()
+
 	butcher_results = list()
 	guaranteed_butcher_results = list(/obj/item/wendigo_blood = 1, /obj/item/wendigo_skull = 1)
 	crusher_loot = /obj/item/crusher_trophy/wendigo_horn
 	wander = FALSE
-	del_on_death = FALSE
+
+	basic_mob_flags = DEL_ON_DEATH
+
 	default_blood_volume = BLOOD_VOLUME_NORMAL
-	achievement_type = /datum/award/achievement/boss/wendigo_kill
-	crusher_achievement_type = /datum/award/achievement/boss/wendigo_crusher
-	score_achievement_type = /datum/award/score/wendigo_score
+
 	death_message = "falls to the ground in a bloody heap, shaking the arena."
 	death_sound = 'sound/effects/gravhit.ogg'
-	footstep_type = FOOTSTEP_MOB_HEAVY
+
 	summon_line = "GwaHOOOOOOOOOOOOOOOOOOOOO"
+
+	achievements = list(
+		/datum/award/achievement/boss/boss_killer,
+		/datum/award/achievement/boss/wendigo_kill,
+		/datum/award/score/wendigo_score,
+	)
+	crusher_achievement_type = /datum/award/achievement/boss/wendigo_crusher
+	victor_memory_type = /datum/memory/megafauna_slayer
+
 	/// Saves the turf the megafauna was created at (spawns exit portal here)
 	var/turf/starting
 	/// Range for wendigo stomping when it moves
@@ -71,7 +80,9 @@ Difficulty: Hard
 
 /mob/living/basic/boss/wendigo/Initialize(mapload)
 	. = ..()
-	ADD_TRAIT(src, TRAIT_NO_FLOATING_ANIM, INNATE_TRAIT)
+	add_traits(list(TRAIT_NO_FLOATING_ANIM, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT)
+	AddElement(/datum/element/relay_attackers)
+	AddElement(/datum/element/footstep, footstep_type = FOOTSTEP_MOB_HEAVY)
 	teleport = new(src)
 	shotgun_blast = new(src)
 	ground_slam = new(src)
