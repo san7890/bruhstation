@@ -1,11 +1,6 @@
 #define WENDIGO_ENRAGED (health <= maxHealth * 0.5)
 
-/*
-
-Difficulty: Hard
-
-*/
-
+/// Ice-themed Boss Mob, aiming for hard difficulty with multiple abilities
 /mob/living/basic/boss/wendigo
 	name = "wendigo"
 	desc = "A mythological man-eating legendary creature, the sockets of its eyes track you with an unsatiated hunger."
@@ -52,6 +47,7 @@ Difficulty: Hard
 	achievements = list(
 		/datum/award/achievement/boss/boss_killer,
 		/datum/award/achievement/boss/wendigo_kill,
+		/datum/award/score/boss_score,
 		/datum/award/score/wendigo_score,
 	)
 	crusher_achievement_type = /datum/award/achievement/boss/wendigo_crusher
