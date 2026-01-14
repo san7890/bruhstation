@@ -1623,4 +1623,10 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 /// Object is dangerous to mobs buckled to it
 #define TRAIT_DANGEROUS_BUCKLE "dangerous_buckle"
 
+/// Mob has the ability to wendigo slam
+#define TRAIT_WENDIGO_SLAMMER "wendigo_slammer"
+
+/// Mob has the ability to wendigo scream
+#define TRAIT_WENDIGO_SCREAMER "wendigo_screamer"
+
 // END TRAIT DEFINES
