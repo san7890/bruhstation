@@ -344,3 +344,17 @@
 #define BB_BDM_RANGED_ATTACK_COOLDOWN "BB_bdm_ranged_attack_cooldown"
 /// Cooldown duration for blood drunk miner ranged abilities
 #define BB_BDM_RANGED_ATTACK_COOLDOWN_DURATION "BB_bdm_ranged_attack_cooldown_duration"
+
+//wendigo keys
+/// Key for teleport ability
+#define BB_WENDIGO_TELEPORT_ABILITY "BB_wendigo_teleport"
+/// Key for shotgun blast ability
+#define BB_WENDIGO_SHOTGUN_BLAST_ABILITY "BB_wendigo_shotgun_blast"
+/// Key for ground slam ability
+#define BB_WENDIGO_GROUND_SLAM_ABILITY "BB_wendigo_ground_slam"
+/// Key for alternating circle ability
+#define BB_WENDIGO_ALTERNATING_CIRCLE_ABILITY "BB_wendigo_alternating_circle"
+/// Key for spiral shot ability
+#define BB_WENDIGO_SPIRAL_SHOT_ABILITY "BB_wendigo_spiral_shot"
+/// Key for wave ability
+#define BB_WENDIGO_WAVE_ABILITY "BB_wendigo_wave_ability"

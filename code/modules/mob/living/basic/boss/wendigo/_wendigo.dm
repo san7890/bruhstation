@@ -61,18 +61,7 @@
 	var/stored_move_dirs = 0
 	/// Time before the wendigo can scream again
 	var/scream_cooldown_time = 10 SECONDS
-	/// Teleport Ability
-	var/datum/action/cooldown/mob_cooldown/teleport/teleport
-	/// Shotgun Ability
-	var/datum/action/cooldown/mob_cooldown/projectile_attack/shotgun_blast/wendigo/shotgun_blast
-	/// Ground Slam Ability
-	var/datum/action/cooldown/mob_cooldown/ground_slam/ground_slam
-	/// Alternating Projectiles Ability
-	var/datum/action/cooldown/mob_cooldown/projectile_attack/alternating_circle/alternating_circle
-	/// Spiral Projectiles Ability
-	var/datum/action/cooldown/mob_cooldown/projectile_attack/spiral_shots/wendigo/spiral
-	/// Wave Projectiles Ability
-	var/datum/action/cooldown/mob_cooldown/projectile_attack/wave/wave
+
 	/// Stores the last scream time so it doesn't spam it
 	COOLDOWN_DECLARE(scream_cooldown)
 
@@ -81,22 +70,24 @@
 	add_traits(list(TRAIT_NO_FLOATING_ANIM, TRAIT_SNOWSTORM_IMMUNE), INNATE_TRAIT)
 	AddElement(/datum/element/relay_attackers)
 	AddElement(/datum/element/footstep, footstep_type = FOOTSTEP_MOB_HEAVY)
-	teleport = new(src)
-	shotgun_blast = new(src)
-	ground_slam = new(src)
-	alternating_circle = new(src)
-	spiral = new(src)
-	wave = new(src)
-	teleport.Grant(src)
-	shotgun_blast.Grant(src)
-	ground_slam.Grant(src)
-	alternating_circle.Grant(src)
-	spiral.Grant(src)
-	wave.Grant(src)
+
+	grant_actions_by_list(get_innate_actions())
 
 /mob/living/basic/boss/wendigo/Initialize(mapload)
 	. = ..()
 	starting = get_turf(src)
+
+/// Returns a list of innate actions for the wendigo
+/mob/living/basic/boss/wendigo/proc/get_innate_actions()
+	var/static/list/innate_abilities = list(
+		/datum/action/cooldown/mob_cooldown/teleport = BB_WENDIGO_TELEPORT_ABILITY,
+		/datum/action/cooldown/mob_cooldown/projectile_attack/shotgun_blast/wendigo = BB_WENDIGO_SHOTGUN_BLAST_ABILITY,
+		/datum/action/cooldown/mob_cooldown/ground_slam = BB_WENDIGO_GROUND_SLAM_ABILITY,
+		/datum/action/cooldown/mob_cooldown/projectile_attack/alternating_circle = BB_WENDIGO_ALTERNATING_CIRCLE_ABILITY,
+		/datum/action/cooldown/mob_cooldown/projectile_attack/spiral_shots/wendigo = BB_WENDIGO_SPIRAL_SHOT_ABILITY,
+		/datum/action/cooldown/mob_cooldown/projectile_attack/wave = BB_WENDIGO_WAVE_ABILITY,
+	)
+	return innate_abilities
 
 /mob/living/basic/boss/wendigo/OpenFire()
 	update_cooldowns(list(COOLDOWN_UPDATE_SET_MELEE = 10 SECONDS, COOLDOWN_UPDATE_SET_RANGED = 10 SECONDS))
