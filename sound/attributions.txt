@@ -268,3 +268,7 @@ sound/music/boombox/frankyboomer-jazz.ogg by Cloud10 -- https://freesound.org/pe
 
 sound/music/boombox/bubblegum-pop.ogg by Seth_makes_sounds -- https://freesound.org/people/Seth_Makes_Sounds/sounds/686610/ -- License: Creative Commons 0
     Volume tweak and trimming by ArcaneMusic
+
+sound/music/vehicles/mechanism_stuck.ogg by qubodup -- https://freesound.org/people/qubodup/sounds/194882/ -- License: Creative Commons Attribution 4.0
+    Copyright Iwan Gabovitch 2013
+    Trimmed down to first segment of audio by san7890

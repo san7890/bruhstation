@@ -22,6 +22,10 @@
 	var/obj/structure/desk_bell/bell_attached
 	///Bomb attached to the wheelchair, if we have one.
 	var/obj/item/transfer_valve/bomb_attached
+	/// Stick (broom or mop or something) stuck in the wheels of the chair if present.
+	var/obj/item/trap_stick
+	/// Cooldown so we don't absolutely obliterate the user with balloon alerts when they're stuck if they have a low movement cooldown for some reason
+	COOLDOWN_DECLARE(stuck_message_cooldown)
 
 /datum/armor/ridden_wheelchair
 	melee = 10
@@ -47,8 +51,15 @@
 /obj/vehicle/ridden/wheelchair/handle_deconstruct(disassembled)
 	remove_bell()
 	remove_bomb()
+	remove_trap()
 	new /obj/item/stack/rods(drop_location(), disassembled ? 6 : 1)
 	new /obj/item/stack/sheet/iron(drop_location(), disassembled ? 4 : 1)
+	return ..()
+
+/obj/vehicle/ridden/wheelchair/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
+	if(trap_stick && !(user in occupants)) // can't remove a stick from a chair if you're not in it.
+		return dislodge_trap(user)
+
 	return ..()
 
 /obj/vehicle/ridden/wheelchair/post_buckle_mob(mob/living/user)
@@ -89,14 +100,6 @@
 	if(bomb_attached)
 		. += mutable_appearance(icon, "[ttv_icon][bomb_attached.tank_two ? "l" : ""][bomb_attached.tank_one ? "r" : ""]", ABOVE_MOB_LAYER)
 
-/// Detonate an armed explosive on this wheelchair
-/obj/vehicle/ridden/wheelchair/proc/detonate_bomb()
-	bomb_attached?.toggle_valve()
-
-/// I assign the ridable element in this so i don't have to fuss with hand wheelchairs and motor wheelchairs having different subtypes
-/obj/vehicle/ridden/wheelchair/proc/make_ridable()
-	AddElement(/datum/element/ridable, /datum/component/riding/vehicle/wheelchair/hand)
-
 /obj/vehicle/ridden/wheelchair/mouse_drop_dragged(atom/over_object, mob/user)  //Lets you collapse wheelchair
 	if(over_object != user || !foldabletype || !ishuman(user))
 		return FALSE
@@ -108,6 +111,23 @@
 	var/obj/vehicle/ridden/wheelchair/wheelchair_folded = new foldabletype(get_turf(src))
 	user.put_in_hands(wheelchair_folded)
 	qdel(src)
+
+/obj/vehicle/ridden/wheelchair/examine(mob/user)
+	. =..()
+	if(bell_attached)
+		. += span_notice("There is \a [bell_attached] attached to the handle.")
+	if(bomb_attached)
+		. += span_warning("There are a pair of gas tanks attached to the frame.")
+	if(trap_stick)
+		. += span_warning("There is a stick (of some sort) lodged across both wheels, trapping any occupant within the wheelchair.")
+
+/// I assign the ridable element in this so i don't have to fuss with hand wheelchairs and motor wheelchairs having different subtypes
+/obj/vehicle/ridden/wheelchair/proc/make_ridable()
+	AddElement(/datum/element/ridable, /datum/component/riding/vehicle/wheelchair/hand)
+
+/// Detonate an armed explosive on this wheelchair
+/obj/vehicle/ridden/wheelchair/proc/detonate_bomb()
+	bomb_attached?.toggle_valve()
 
 /// Attaches bell to the wheelchair
 /obj/vehicle/ridden/wheelchair/proc/attach_bell(obj/structure/desk_bell/bell)
@@ -124,13 +144,6 @@
 	bomb.forceMove(src)
 	update_appearance()
 
-/obj/vehicle/ridden/wheelchair/examine(mob/user)
-	. =..()
-	if(bell_attached)
-		. += span_notice("There is \a [bell_attached] attached to the handle.")
-	if(bomb_attached)
-		. += span_warning("There are a pair of gas tanks attached to the frame.")
-
 /obj/vehicle/ridden/wheelchair/proc/remove_bell()
 	if (!bell_attached)
 		return
@@ -146,6 +159,56 @@
 	visible_message(span_notice("[bomb_attached] falls off!"))
 	bomb_attached = null
 	update_appearance()
+
+/obj/vehicle/ridden/wheelchair/proc/dislodge_trap(mob/living/user)
+	balloon_alert(user, "dislodging the stick...")
+	if(!do_after(user, 2 SECONDS, src))
+		balloon_alert(user, "failed to dislodge the stick!")
+		return ITEM_INTERACT_FAILURE
+
+	remove_trap()
+	return ITEM_INTERACT_SUCCESS
+
+/// Trap the occupant of the wheelchair with a stick (broom, mop, etc.)
+/// Must return variables complaint to the interact_with_atom proc chain
+/obj/vehicle/ridden/wheelchair/proc/chairtrap(obj/item/stick, mob/living/user)
+	if(!isnull(trap_stick))
+		balloon_alert(user, "stick already present!")
+		return ITEM_INTERACT_FAILURE
+
+	user.balloon_alert("placing stick...")
+	if(!do_after(user, 1 SECONDS, src))
+		user.balloon_alert("failed to place stick!")
+		return ITEM_INTERACT_FAILURE
+
+	if(isnull(stick))
+		return ITEM_INTERACT_FAILURE
+
+	user.balloon_alert("successfully trapped")
+	stick.forceMove(src)
+	trap_stick = stick
+	canmove = FALSE
+	return ITEM_INTERACT_SUCCESS
+
+/// Removes the trap for any reason
+/obj/vehicle/ridden/wheelchair/proc/remove_trap()
+	if(isnull(trap_stick))
+		return
+	trap_stick.forceMove(get_turf(src))
+	trap_stick = null
+	canmove = TRUE
+	visible_message(span_notice("[trap_stick] gets dislodged!"))
+
+/obj/vehicle/ridden/wheelchair/can_move()
+	. = ..()
+	if(!. && COOLDOWN_FINISHED(stuck_message_cooldown))
+		balloon_alert(user, "stuck!")
+		to_chat(user, "You're currently stuck in the wheelchair! You'll have to get out to remove the obstruction to the wheels.") // small verbosity so people aren't totally gimped on their cool ride for unknowable reasons
+		playsound(src, 'sound/vehicles/stuck_mechanism.ogg', 45, TRUE)
+		COOLDOWN_SET(stuck_message_cooldown, 5 SECONDS)
+
+	return .
+
 
 /// A reward item for obtaining 5K hardcore random points. Do not use for anything else
 /obj/vehicle/ridden/wheelchair/gold
