@@ -201,11 +201,11 @@
 
 /obj/vehicle/ridden/wheelchair/can_move()
 	. = ..()
-	if(!. && COOLDOWN_FINISHED(stuck_message_cooldown))
+	if(!. && COOLDOWN_FINISHED(src, stuck_message_cooldown))
 		balloon_alert(user, "stuck!")
 		to_chat(user, "You're currently stuck in the wheelchair! You'll have to get out to remove the obstruction to the wheels.") // small verbosity so people aren't totally gimped on their cool ride for unknowable reasons
 		playsound(src, 'sound/vehicles/stuck_mechanism.ogg', 45, TRUE)
-		COOLDOWN_SET(stuck_message_cooldown, 5 SECONDS)
+		COOLDOWN_START(src, stuck_message_cooldown, 5 SECONDS)
 
 	return .
 
