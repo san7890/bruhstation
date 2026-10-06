@@ -187,6 +187,7 @@
 	balloon_alert(user, "successfully trapped")
 	stick.forceMove(src)
 	trap_stick = stick
+	anchored = TRUE
 	canmove = FALSE
 	return ITEM_INTERACT_SUCCESS
 
@@ -196,6 +197,7 @@
 		return
 	trap_stick.forceMove(get_turf(src))
 	trap_stick = null
+	anchored = FALSE
 	canmove = TRUE
 	visible_message(span_notice("[trap_stick] gets dislodged!"))
 
