@@ -176,15 +176,15 @@
 		balloon_alert(user, "stick already present!")
 		return ITEM_INTERACT_FAILURE
 
-	user.balloon_alert("placing stick...")
+	balloon_alert(user, "placing stick...")
 	if(!do_after(user, 1 SECONDS, src))
-		user.balloon_alert("failed to place stick!")
+		balloon_alert(user, "failed to place stick!")
 		return ITEM_INTERACT_FAILURE
 
 	if(isnull(stick))
 		return ITEM_INTERACT_FAILURE
 
-	user.balloon_alert("successfully trapped")
+	balloon_alert(user, "successfully trapped")
 	stick.forceMove(src)
 	trap_stick = stick
 	canmove = FALSE
@@ -199,13 +199,15 @@
 	canmove = TRUE
 	visible_message(span_notice("[trap_stick] gets dislodged!"))
 
-/obj/vehicle/ridden/wheelchair/can_move()
+/obj/vehicle/ridden/wheelchair/check_can_move()
 	. = ..()
 	if(!. && COOLDOWN_FINISHED(src, stuck_message_cooldown))
-		balloon_alert(user, "stuck!")
-		to_chat(user, "You're currently stuck in the wheelchair! You'll have to get out to remove the obstruction to the wheels.") // small verbosity so people aren't totally gimped on their cool ride for unknowable reasons
+		COOLDOWN_START(src, stuck_message_cooldown, 2.5 SECONDS)
 		playsound(src, 'sound/vehicles/stuck_mechanism.ogg', 45, TRUE)
-		COOLDOWN_START(src, stuck_message_cooldown, 5 SECONDS)
+		for(var/mob/living/occupant in occupants) // sharing a wheelchair perhaps? oo laa laa
+			balloon_alert(occupant, "stuck!")
+			// small verbosity so people aren't totally gimped on their cool ride for unknowable reasons
+			to_chat(occupant, span_notice("You're currently stuck in the wheelchair! You'll have to get out to remove the obstruction to the wheels."))
 
 	return .
 

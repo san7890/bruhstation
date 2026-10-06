@@ -152,13 +152,13 @@
 /obj/vehicle/proc/after_remove_occupant(mob/M)
 
 /obj/vehicle/relaymove(mob/living/user, direction)
-	if(!can_move())
+	if(!check_can_move())
 		return FALSE
 	if(is_driver(user))
 		return relaydrive(user, direction)
 	return FALSE
 
-/obj/vehicle/proc/can_move()
+/obj/vehicle/proc/check_can_move()
 	return canmove
 
 /obj/vehicle/proc/after_move(direction)
