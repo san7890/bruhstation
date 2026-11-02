@@ -14,7 +14,7 @@
 		update_z(T.z)
 
 	//Vents
-	notify_ventcrawler_on_login()
+	setup_login_ventcrawler()
 
 	med_hud_set_status()
 

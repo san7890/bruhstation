@@ -1,17 +1,16 @@
 // VENTCRAWLING
 
-/mob/living/proc/notify_ventcrawler_on_login()
+/mob/living/proc/setup_login_ventcrawler()
 	var/ventcrawler = HAS_TRAIT(src, TRAIT_VENTCRAWLER_ALWAYS) || HAS_TRAIT(src, TRAIT_VENTCRAWLER_NUDE)
 	if(!ventcrawler)
 		return
 	to_chat(src, span_notice("You can ventcrawl! Use alt+click on vents to quickly travel about the station."))
 
-/mob/living/carbon/human/notify_ventcrawler_on_login()
+/mob/living/carbon/human/setup_login_ventcrawler()
 	if(!HAS_TRAIT(src, TRAIT_LESSER_HUMANOID))
 		return ..()
 	if(!istype(head, /obj/item/clothing/head/helmet/monkey_sentience)) //don't notify them about ventcrawling if they're wearing the sentience helmet, because they can't ventcrawl with it on, and if they take it off they'll no longer be in control of the mob.
 		return ..()
-
 
 /// Checks if the mob is able to enter the vent, and provides feedback if they are unable to.
 /mob/living/proc/can_enter_vent(obj/machinery/atmospherics/components/ventcrawl_target, provide_feedback = TRUE)
@@ -133,6 +132,7 @@
 	if(!isnull(ai_controller) && isnull(client)) // we don't care about pipe vision if we have an AI controller with no client (typically means we are clientless).
 		return
 
+	var/signal_result = SEND_SIGNAL(src, COMSIG_UPDATE_PIPE_VISION, full_refresh) // call it early and we can do stuff with it as we need later
 	update_sight()
 
 	// Take away all the pipe images if we're not doing anything with em
@@ -146,6 +146,9 @@
 		for(var/atom/movable/screen/plane_master/pipecrawl as anything in hud_used.get_true_plane_masters(PIPECRAWL_IMAGES_PLANE))
 			pipecrawl.hide_plane(src)
 		return
+
+	if(!(signal_result & PIPECRAWL_PRESERVE_UIS))
+		SStgui.close_user_uis(src)
 
 	// We're gonna color the lighting plane to make it darker while ventcrawling, so things look nicer
 	// This is a bit hacky but it makes the background darker, which has a nice effect
